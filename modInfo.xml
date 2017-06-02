@@ -764,88 +764,6 @@
           <dependencies />
         </mod>
         <mod>
-          <name>Battle Interface modifications - Contour Icon Mirroring (xvm)</name>
-          <version>
-          </version>
-          <zipFile>
-          </zipFile>
-          <startAddress>
-          </startAddress>
-          <endAddress>
-          </endAddress>
-          <crc>
-          </crc>
-          <enabled>True</enabled>
-          <index>0</index>
-          <size>0</size>
-          <updateComment>
-          </updateComment>
-          <description>Configure how xvm shows the vehicle contour icons</description>
-          <devURL>
-          </devURL>
-          <userDatas />
-          <pictures />
-          <configs>
-            <config>
-              <name>Disable (Don't mirror the icons)</name>
-              <version>
-              </version>
-              <zipFile>XVM_config_builder_contour_icon_mod_mirror_patch_xvm_disable_2017-06-01.zip</zipFile>
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/0.9.19.0/</startAddress>
-              <endAddress>
-              </endAddress>
-              <crc>97dc148da7a21860300f0f41e87f0851</crc>
-              <enabled>True</enabled>
-              <index>0</index>
-              <size>0.1</size>
-              <updateComment>
-              </updateComment>
-              <description>
-              </description>
-              <devURL>
-              </devURL>
-              <type>single</type>
-              <userDatas />
-              <pictures>
-                <picture>
-                  <URL>https://puu.sh/w8cVA/4929606677.jpg</URL>
-                </picture>
-              </pictures>
-              <configs />
-              <dependencies />
-            </config>
-            <config>
-              <name>Enable (Mirror the icons)</name>
-              <version>
-              </version>
-              <zipFile>XVM_config_builder_contour_icon_mod_mirror_patch_xvm_enable_2017-06-01.zip</zipFile>
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/0.9.19.0/</startAddress>
-              <endAddress>
-              </endAddress>
-              <crc>1d14789d95e5bb2e2c1634afe6d614db</crc>
-              <enabled>True</enabled>
-              <index>0</index>
-              <size>0.1</size>
-              <updateComment>
-              </updateComment>
-              <description>
-              </description>
-              <devURL>
-              </devURL>
-              <type>single</type>
-              <userDatas />
-              <pictures>
-                <picture>
-                  <URL>https://puu.sh/w8bXG/c6743e8d50.jpg</URL>
-                </picture>
-              </pictures>
-              <configs />
-              <dependencies />
-            </config>
-          </configs>
-          <dependencies />
-        </mod>
-        <mod>
           <name>Battle Interface modifications - hitlog (xvm)</name>
           <version>
           </version>
@@ -7352,22 +7270,22 @@
           <pictures />
           <configs>
             <config>
-              <name>Disable Icon mirroring (non xvm only)</name>
+              <name>Disable Icon mirroring</name>
               <version>
               </version>
-              <zipFile>Ingame_Info_Contour_Icon_Mod_mirror_patch_no_xvm_2017-06-02.zip</zipFile>
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/0.9.19.0/</startAddress>
+              <zipFile></zipFile>
+              <startAddress></startAddress>
               <endAddress>
               </endAddress>
-              <crc>63b58381217ebf768953bfe183b6f045</crc>
+              <crc></crc>
               <enabled>True</enabled>
               <index>0</index>
-              <size>4.9</size>
+              <size>0</size>
               <updateComment>
               </updateComment>
               <description>
               </description>
-              <devURL>https://koreanrandom.com/forum/topic/35159-</devURL>
+              <devURL></devURL>
               <type>multi</type>
               <userDatas />
               <pictures>
@@ -7375,7 +7293,57 @@
                   <URL>https://puu.sh/w8cVA/4929606677.jpg</URL>
                 </picture>
               </pictures>
-              <configs />
+              <configs>
+                <config>
+                  <name>xvm</name>
+                  <version>
+                  </version>
+                  <zipFile>XVM_config_builder_contour_icon_mod_mirror_patch_xvm_disable_2017-06-01.zip</zipFile>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/0.9.19.0/</startAddress>
+                  <endAddress>
+                  </endAddress>
+                  <crc>97dc148da7a21860300f0f41e87f0851</crc>
+                  <enabled>True</enabled>
+                  <index>0</index>
+                  <size>0.1</size>
+                  <updateComment>
+                  </updateComment>
+                  <description>Select this one if you have xvm installed
+                  </description>
+                  <devURL>
+                  </devURL>
+                  <type>single</type>
+                  <userDatas />
+                  <pictures>
+                  </pictures>
+                  <configs />
+                  <dependencies />
+                </config>
+                <config>
+                  <name>non xvm</name>
+                  <version>
+                  </version>
+                  <zipFile>Ingame_Info_Contour_Icon_Mod_mirror_patch_no_xvm_2017-06-02.zip</zipFile>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/0.9.19.0/</startAddress>
+                  <endAddress>
+                  </endAddress>
+                  <crc>63b58381217ebf768953bfe183b6f045</crc>
+                  <enabled>True</enabled>
+                  <index>0</index>
+                  <size>0.1</size>
+                  <updateComment>
+                  </updateComment>
+                  <description>Select this one if you don't have xvm installed
+                  </description>
+                  <devURL>https://koreanrandom.com/forum/topic/35159-</devURL>
+                  <type>single</type>
+                  <userDatas />
+                  <pictures>
+                  </pictures>
+                  <configs />
+                  <dependencies />
+                </config>
+              </configs>
               <dependencies />
             </config>
             <config>
