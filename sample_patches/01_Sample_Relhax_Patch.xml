@@ -4,7 +4,7 @@
 <patch>
 
   <!-- the type of patch being performed -->
-  <!-- options: xml, regx, json -->
+  <!-- options: xml, regx, json, xvm -->
   <type>xml</type>
   
   <!-- the xml patch mode to perform -->
@@ -39,7 +39,7 @@
 <patch>
 
   <!-- the type of patch being performed -->
-  <!-- options: xml, regx, json -->
+  <!-- options: xml, regx, json, xvm -->
   <type>regx</type>
   
   <!-- the file to perform patching on -->
@@ -66,7 +66,7 @@
 <patch>
 
   <!-- the type of patch being performed -->
-  <!-- options: xml, regex, json -->
+  <!-- options: xml, regex, json, xvm -->
   <type>json</type>
   
   <!-- the json patch mode to perform -->
@@ -90,6 +90,35 @@
   <search></search>
   
   <!-- the value or phrase to put into the specified json path -->
+  <replace>true</replace>
+</patch>
+
+<!-- xvm patch example -->
+<patch>
+
+  <!-- the type of patch being performed -->
+  <!-- options: xml, regex, json, xvm -->
+  <type>xvm</type>
+  
+  <!-- the xvm patch mode to perform -->
+  <!-- options: add, edit, array_clear, array_add, array_edit, array_remove -->
+  <mode>edit</mode>
+  
+  <!-- the xvm config boot to perform patching on -->
+  <!-- relative to World_of_Tanks directory -->
+  <!-- Use "versiondir" as the placeholder for the world of tanks mods folder version e.g. 0.9.17.1 -->
+  <!-- NOTE: XVM config files ".xc" are json and should be patched with this method -->
+  <file>\\res_mods\\configs\\xvm\\xvm.xc</file>
+  
+  <!-- the location of the value to patch -->
+  <!-- it is similar to json path, but more like the old patch syntax of OMC -->
+  <!-- syntax: $.child.setting_name -->
+  <path>login.pingServers.enabled</path>
+  
+  <!-- the value or phrase to search for for the option, regex style -->
+  <search>false</search>
+  
+  <!-- the value or phrase to put into in place of "search" -->
   <replace>true</replace>
 </patch>
 </patchs>
