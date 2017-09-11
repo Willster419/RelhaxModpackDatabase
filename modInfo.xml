@@ -113,6 +113,16 @@
       <packageName>Dependency_BattleFlash</packageName>
     </dependency>
     <dependency>
+      <dependencyZipFile>Dependency_easyBattleFlash_by_Oldskool_2017-09-11.zip</dependencyZipFile>
+      <startAddress>http://wotmods.relhaxmodpack.com/WoT/0.9.20.0/</startAddress>
+      <endAddress>
+      </endAddress>
+      <dependencyZipCRC>f</dependencyZipCRC>
+      <dependencyenabled>True</dependencyenabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_easyBattleFlash_by_Oldskool</packageName>
+    </dependency>
+    <dependency>
       <dependencyZipFile>Ingame_Info_Wide_Border_Of_Maps_WIDE_full_212_epic_random_valley_0.9.20.0.zip</dependencyZipFile>
       <startAddress>http://wotmods.relhaxmodpack.com/WoT/0.9.20.0/</startAddress>
       <endAddress>
@@ -11586,15 +11596,15 @@
         <mod>
           <name>Arty Log Extended by OldSkool</name>
           <version>0.9.20.0</version>
-          <zipFile>Ingame_Info_Artylog_by_oldskool_0.9.20.0.zip</zipFile>
+          <zipFile>Ingame_Info_Artylog_by_Oldskool_0.9.20.0_2017-09-11.zip</zipFile>
           <startAddress>http://wotmods.relhaxmodpack.com/WoT/0.9.20.0/</startAddress>
           <endAddress>
           </endAddress>
-          <crc>e84ce45cedb129ef60b0c1fd4cf5c91f</crc>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Ingame_Info_Artylog</packageName>
-          <size>0.1</size>
+          <size>0</size>
           <updateComment>reset stats on "NUMPAD 0" deactivated</updateComment>
           <description>Shows how much damage arty actually causes vs. other tanks that damage you</description>
           <devURL>http://forum.worldoftanks.eu/index.php?/topic/621874-0918-arty-log-extended-by-oldskool/</devURL>
@@ -11612,7 +11622,11 @@
             </picture>
           </pictures>
           <configs />
-          <dependencies />
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_easyBattleFlash_by_Oldskool</packageName>
+            </dependency>
+          </dependencies>
         </mod>
         <mod>
           <name>TessuMod, WOT/Teamspeak integration</name>
