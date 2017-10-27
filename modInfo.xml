@@ -105,6 +105,18 @@
       <logicalDependencies />
     </dependency>
     <dependency>
+      <dependencyZipFile>Ingame_Info_Contour_Icon_Mod_mirror_training_room_2017-10-20.zip</dependencyZipFile>
+      <timestamp>131535900183370880</timestamp>
+      <startAddress>http://wotmods.relhaxmodpack.com/WoT/0.9.20.1/</startAddress>
+      <endAddress />
+      <devURL />
+      <dependencyZipCRC>f</dependencyZipCRC>
+      <dependencyenabled>True</dependencyenabled>
+      <appendExtraction>True</appendExtraction>
+      <packageName>Dependency_Contour_Icon_Mod_mirror_training_room</packageName>
+      <logicalDependencies />
+    </dependency>
+    <dependency>
       <dependencyZipFile>Dependency_PMOD_29-2_2017-10-26.zip</dependencyZipFile>
       <timestamp>131535171653910196</timestamp>
       <startAddress>http://wotmods.relhaxmodpack.com/WoT/0.9.20.1/</startAddress>
@@ -6864,8 +6876,8 @@
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/0.9.20.1/</startAddress>
               <endAddress />
               <crc>9e6483152750267ffef4879d4679c21a</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
+              <enabled>False</enabled>
+              <visible>False</visible>
               <packageName>Contour_Icon_Disable_Icon_mirroring_Header</packageName>
               <size>12241</size>
               <updateComment />
@@ -6881,16 +6893,7 @@
               </pictures>
               <configs />
               <dependencies />
-              <logicalDependencies>
-                <logicalDependency>
-                  <packageName>Contour_Icon_Disable_Icon_mirroring_no_XVM_logicalDependency</packageName>
-                  <negateFlag>False</negateFlag>
-                </logicalDependency>
-                <logicalDependency>
-                  <packageName>Contour_Icon_Disable_Icon_mirroring_XVM_logicalDependency</packageName>
-                  <negateFlag>False</negateFlag>
-                </logicalDependency>
-              </logicalDependencies>
+              <logicalDependencies />
             </config>
             <config>
               <name>TORQue - Inspired by Witblitz</name>
@@ -7834,8 +7837,21 @@
               <logicalDependencies />
             </config>
           </configs>
-          <dependencies />
-          <logicalDependencies />
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_Contour_Icon_Mod_mirror_training_room</packageName>
+            </dependency>
+          </dependencies>
+          <logicalDependencies>
+            <logicalDependency>
+              <packageName>Contour_Icon_Disable_Icon_mirroring_XVM_logicalDependency</packageName>
+              <negateFlag>False</negateFlag>
+            </logicalDependency>
+            <logicalDependency>
+              <packageName>Contour_Icon_Disable_Icon_mirroring_no_XVM_logicalDependency</packageName>
+              <negateFlag>False</negateFlag>
+            </logicalDependency>
+          </logicalDependencies>
         </mod>
       </mods>
     </catagory>
