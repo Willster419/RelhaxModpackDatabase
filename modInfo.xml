@@ -346,8 +346,8 @@
           <visible>True</visible>
           <packageName>XVMPrebuiltConfigs_Willster419XVMConfig</packageName>
           <size>95526</size>
-          <updateComment>2017-10-1: fixed hp circles to actually by hp circles\n2017-09-06: fixed capture bar issues\n2017-06-03: changed clock from 24 hour to 12 hour format with am/pm marker. Disabled blocking of stock WoT damage log. Disabled xvm eff in battle.</updateComment>
-          <description>Config by Willster419. Origionaly based on stock xvm config.\nIncludes an hp pool and minimap hp circles</description>
+          <updateComment>2017-10-01: fixed hp circles to actually by hp circles\n2017-09-06: fixed capture bar issues\n2017-06-03: changed clock from 24 hour to 12 hour format with am/pm marker. Disabled blocking of stock WoT damage log. Disabled xvm eff in battle.</updateComment>
+          <description>Config by Willster419. Originaly based on stock xvm config.\nIncludes an hp pool and minimap hp circles</description>
           <devURL>https://github.com/Willster419/xvmConfig</devURL>
           <userDatas />
           <pictures>
@@ -642,7 +642,7 @@
           <packageName>XVMPrebuiltConfigs_OMCXVMConfig</packageName>
           <size>1099900</size>
           <updateComment />
-          <description>OMC XVM Config</description>
+          <description>OMC XVM Config. Offers many of the options that were first in the OMC config.</description>
           <devURL />
           <userDatas />
           <pictures>
@@ -1063,7 +1063,7 @@
               <packageName>XVMConfigBuilder_BattleInterfaceModifications_6thSenseDuration_Headline</packageName>
               <size>0</size>
               <updateComment />
-              <description>Configure how long the 6th sense icon stays on your screen</description>
+              <description>Configure how long the 6th sense icon stays on your screen.\nIf you later select 6th sense settings in the 6th sense tab, this is automaticaly turned off.</description>
               <devURL />
               <type>multi</type>
               <userDatas />
@@ -1275,9 +1275,9 @@
                   <packageName>XVMConfigBuilder_BattleInterfaceModifications_Scoreboard_ShowAlive</packageName>
                   <size>1057</size>
                   <updateComment />
-                  <description />
+                  <description>Show the number of tanks alive.</description>
                   <devURL />
-                  <type>single</type>
+                  <type>single1</type>
                   <userDatas />
                   <pictures />
                   <configs />
@@ -1298,9 +1298,9 @@
                   <packageName>XVMConfigBuilder_BattleInterfaceModifications_Scoreboard_ShowKills</packageName>
                   <size>1057</size>
                   <updateComment />
-                  <description />
+                  <description>Show the number of tanks killed.</description>
                   <devURL />
-                  <type>single</type>
+                  <type>single1</type>
                   <userDatas />
                   <pictures />
                   <configs />
@@ -1326,7 +1326,7 @@
               <packageName>XVMConfigBuilder_BattleInterfaceModifications_Hitlog_Header</packageName>
               <size>0</size>
               <updateComment />
-              <description>Toggle the xvm hitlog (Shows a log of your total damage for the duration of the game)</description>
+              <description>Toggle the xvm hitlog (Shows a log of total damage you have caused for the duration of the game)</description>
               <devURL />
               <type>multi</type>
               <userDatas />
@@ -1396,7 +1396,7 @@
               <packageName>XVMConfigBuilder_BattleInterfaceModifications_TotalHP_Header</packageName>
               <size>0</size>
               <updateComment />
-              <description>Shows the total combined hp of each team</description>
+              <description>Shows the total combined hp of each team. Commonly under the scoreboard, in the format "our hp &gt; their hp".</description>
               <devURL />
               <type>multi</type>
               <userDatas />
@@ -1466,7 +1466,7 @@
               <packageName>XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison</packageName>
               <size>3984</size>
               <updateComment />
-              <description>Shows the total WN8 values of each team</description>
+              <description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</description>
               <devURL />
               <type>multi</type>
               <userDatas />
@@ -1704,7 +1704,7 @@
               <packageName>XVMConfigBuilder_BattleInterfaceModifications_DamageLog_Header</packageName>
               <size>0</size>
               <updateComment />
-              <description>Show the xvm damage log (displays to right of damage panel (lower left)</description>
+              <description>Toggle the xvm damage log. The damage log shows how much damage you have taken for the duration of the battle.</description>
               <devURL />
               <type>multi</type>
               <userDatas />
@@ -1774,7 +1774,7 @@
                   <packageName>XVMConfigBuilder_BattleInterfaceModifications_DamageLog_toggleDefault_enable</packageName>
                   <size>867</size>
                   <updateComment />
-                  <description>Enabling this will allow you to configify the ingame damagelog and hitlog settings from the client settings window</description>
+                  <description>Enabling this will allow you to configure the ingame damagelog and hitlog settings from the client settings window.</description>
                   <devURL />
                   <type>multi</type>
                   <userDatas />
@@ -1802,7 +1802,7 @@
               <packageName>XVMConfigBuilder_BattleInterfaceModifications_LastHitAnnouncer_Header</packageName>
               <size>0</size>
               <updateComment />
-              <description>Will display a message of who just shot you and for how much</description>
+              <description>Will display a message of who just shot you and for how much. Similar to the damage announce part of the popular "Damagelog by GambitER".</description>
               <devURL />
               <type>multi</type>
               <userDatas />
@@ -1872,7 +1872,7 @@
               <packageName>XVMConfigBuilder_BattleInterfaceModifications_VehicleOnFireAnnouncer_Header</packageName>
               <size>0</size>
               <updateComment />
-              <description>Visual (and audio, if enabled) notification if you vehicle is on fire.\nIn case the fire indicator in your vehicle isn't enough</description>
+              <description>(Another) Visual notification if your vehicle is on fire.</description>
               <devURL />
               <type>multi</type>
               <userDatas />
@@ -2012,7 +2012,7 @@
               <packageName>XVMConfigBuilder_BattleInterfaceModifications_DamagePanelRepairTimers_Header</packageName>
               <size>0</size>
               <updateComment />
-              <description>Shows a number in the picture of the damaged modules in the players panel</description>
+              <description>Shows a number in the picture of the damaged modules in the players panel of how much time until the item is repaired.</description>
               <devURL />
               <type>multi</type>
               <userDatas />
@@ -2105,9 +2105,9 @@
               <packageName>XVMconfigBuilder_BattleResultsModifications_ShowBattleTier_enable</packageName>
               <size>950</size>
               <updateComment />
-              <description />
+              <description>Show the battle tier in the results window.</description>
               <devURL />
-              <type>single_dropdown</type>
+              <type>single_dropdown1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -2128,9 +2128,9 @@
               <packageName>XVMconfigBuilder_BattleResultsModifications_ShowBattleTier_disable</packageName>
               <size>952</size>
               <updateComment />
-              <description />
+              <description>Hide the battle tier in the results window.</description>
               <devURL />
-              <type>single_dropdown</type>
+              <type>single_dropdown1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -2151,9 +2151,9 @@
               <packageName>XVMconfigBuilder_BattleResultsModifications_BattleResultsPage_1</packageName>
               <size>952</size>
               <updateComment />
-              <description />
+              <description>Show the first tab in the results page. (Game summary)</description>
               <devURL />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -2174,9 +2174,9 @@
               <packageName>XVMconfigBuilder_BattleResultsModifications_BattleResultsPage_2</packageName>
               <size>952</size>
               <updateComment />
-              <description />
+              <description>Show the second tab in the results page. (Total team information)</description>
               <devURL />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -2197,9 +2197,9 @@
               <packageName>XVMconfigBuilder_BattleResultsModifications_BattleResultsPage_3</packageName>
               <size>952</size>
               <updateComment />
-              <description />
+              <description>Show the third tab in the results page. (Battle finances report)</description>
               <devURL />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -2225,7 +2225,7 @@
           <packageName>XVMconfigBuilder_TankCarouselBaseModifications_Header</packageName>
           <size>0</size>
           <updateComment />
-          <description>Choose how many tank rows are displayed in your garage.\nalso enable or disable the xvm garage</description>
+          <description>Change many settings about how the tank carousel is displayed in your garage.</description>
           <devURL />
           <userDatas />
           <pictures />
@@ -2243,7 +2243,7 @@
               <packageName>XVMconfigBuilder_TankCarouselBaseModifications_carousel_enable</packageName>
               <size>927</size>
               <updateComment />
-              <description />
+              <description>Enable the XVM carousel</description>
               <devURL />
               <type>single1</type>
               <userDatas />
@@ -2266,7 +2266,7 @@
               <packageName>XVMconfigBuilder_TankCarouselBaseModifications_carousel_disable</packageName>
               <size>916</size>
               <updateComment />
-              <description />
+              <description>Disable the XVM carousel</description>
               <devURL />
               <type>single1</type>
               <userDatas />
@@ -2289,7 +2289,7 @@
               <packageName>XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_1</packageName>
               <size>908</size>
               <updateComment />
-              <description />
+              <description>One row of tanks</description>
               <devURL />
               <type>single_dropdown1</type>
               <userDatas />
@@ -2312,7 +2312,7 @@
               <packageName>XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_2</packageName>
               <size>909</size>
               <updateComment />
-              <description />
+              <description>Two rows of tanks</description>
               <devURL />
               <type>single_dropdown1</type>
               <userDatas />
@@ -2335,7 +2335,7 @@
               <packageName>XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_3</packageName>
               <size>909</size>
               <updateComment />
-              <description />
+              <description>Three rows of tanks</description>
               <devURL />
               <type>single_dropdown1</type>
               <userDatas />
@@ -2358,7 +2358,7 @@
               <packageName>XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_4</packageName>
               <size>909</size>
               <updateComment />
-              <description />
+              <description>Four rows of tanks</description>
               <devURL />
               <type>single_dropdown1</type>
               <userDatas />
@@ -2381,7 +2381,7 @@
               <packageName>XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_5</packageName>
               <size>909</size>
               <updateComment />
-              <description />
+              <description>Five rows of tanks</description>
               <devURL />
               <type>single_dropdown1</type>
               <userDatas />
@@ -2404,7 +2404,7 @@
               <packageName>XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_IngameSetting</packageName>
               <size>908</size>
               <updateComment />
-              <description />
+              <description>Use the ingame setting (one or two) rows of tanks</description>
               <devURL />
               <type>single_dropdown1</type>
               <userDatas />
@@ -3053,9 +3053,9 @@
                   <packageName>XVMconfigBuilder_TankCarouselBaseModifications_CellContent_CaronteShinigami</packageName>
                   <size>925</size>
                   <updateComment />
-                  <description />
+                  <description>Use the carousel cell settings donated to us from CaronteShinigami</description>
                   <devURL />
-                  <type>single</type>
+                  <type>single1</type>
                   <userDatas />
                   <pictures>
                     <picture>
@@ -3156,7 +3156,7 @@
               <packageName>XVMconfigBuilder_PlayersPanelModifications_Disable</packageName>
               <size>931</size>
               <updateComment />
-              <description />
+              <description>Use the stock WoT playerspanel</description>
               <devURL />
               <type>single1</type>
               <userDatas />
@@ -3179,7 +3179,7 @@
               <packageName>XVMconfigBuilder_PlayersPanelModifications_Enable</packageName>
               <size>929</size>
               <updateComment />
-              <description />
+              <description>Use the XVM players panel</description>
               <devURL />
               <type>single1</type>
               <userDatas />
@@ -3198,7 +3198,7 @@
                   <packageName>XVMconfigBuilder_PlayersPanelModifications_StartingPosition_Header</packageName>
                   <size>0</size>
                   <updateComment />
-                  <description>Choose with which Players Panel position you will start.</description>
+                  <description>Choose with which Players Panel position with which the game will start.</description>
                   <devURL />
                   <type>multi</type>
                   <userDatas />
@@ -3333,9 +3333,9 @@
                       <packageName>XVMconfigBuilder_PlayersPanelModifications_HpBars_Default</packageName>
                       <size>0</size>
                       <updateComment />
-                      <description />
+                      <description>Use the HP bars from the XVM config you selected in the Prebuilt config tab.</description>
                       <devURL />
-                      <type>single</type>
+                      <type>single1</type>
                       <userDatas />
                       <pictures>
                         <picture>
@@ -3361,9 +3361,9 @@
                       <packageName>XVMconfigBuilder_PlayersPanelModifications_HpBars_OMCStyle</packageName>
                       <size>1048</size>
                       <updateComment />
-                      <description />
+                      <description>From the OMC XVM config</description>
                       <devURL />
-                      <type>single</type>
+                      <type>single1</type>
                       <userDatas />
                       <pictures>
                         <picture>
@@ -3417,7 +3417,7 @@
                       <packageName>XVMconfigBuilder_PlayersPanelModifications_HpBars_OnKeyPress</packageName>
                       <size>0</size>
                       <updateComment />
-                      <description />
+                      <description>Set the hp bars to be active on key press. (Usually left alt or left crtl)</description>
                       <devURL />
                       <type>single_dropdown1</type>
                       <userDatas />
@@ -3440,7 +3440,7 @@
                       <packageName>XVMconfigBuilder_PlayersPanelModifications_HpBars_OnAlways</packageName>
                       <size>707</size>
                       <updateComment />
-                      <description />
+                      <description>Set the hp bars to be active always</description>
                       <devURL />
                       <type>single_dropdown1</type>
                       <userDatas />
@@ -3468,7 +3468,7 @@
                   <packageName>XVMconfigBuilder_PlayersPanelModifications_HpBars_SmallBars</packageName>
                   <size>728</size>
                   <updateComment />
-                  <description />
+                  <description>Enable a small HP bar in the players panel for every tank.</description>
                   <devURL />
                   <type>multi</type>
                   <userDatas />
@@ -3496,7 +3496,7 @@
                   <packageName>XVMconfigBuilder_PlayersPanelModifications_EnemyHpLeft</packageName>
                   <size>1029</size>
                   <updateComment />
-                  <description />
+                  <description>Enable small numbers in the players panel showing the total hp of every tank. Taken from Willster419's config.</description>
                   <devURL />
                   <type>multi</type>
                   <userDatas />
@@ -3672,7 +3672,7 @@
           <packageName>XVMconfigBuilder_GarageInterfaceModifications_Header</packageName>
           <size>0</size>
           <updateComment />
-          <description />
+          <description>Make changes to the garage interface. If you are looking for changes to the tank carousel, Look further down.</description>
           <devURL />
           <userDatas />
           <pictures />
@@ -4507,7 +4507,7 @@
               <packageName>XVMconfigBuilder_GarageInterfaceModifications_Statistics</packageName>
               <size>0</size>
               <updateComment />
-              <description />
+              <description>Toggle a text field in the middle-right of the screen showing stasticts of your current win rate, and how many more wins to X percent.</description>
               <devURL />
               <type>multi</type>
               <userDatas />
@@ -4588,7 +4588,7 @@
           <pictures />
           <configs>
             <config>
-              <name>Enabled</name>
+              <name>Enabled (Use XVM markers)</name>
               <version />
               <zipFile>XVM_config_builder_markers_enabled.zip</zipFile>
               <timestamp />
@@ -4602,7 +4602,7 @@
               <updateComment />
               <description />
               <devURL />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs>
@@ -4858,7 +4858,7 @@
               <shortCuts />
             </config>
             <config>
-              <name>Disabled</name>
+              <name>Disabled (Use stock WoT markers)</name>
               <version />
               <zipFile>XVM_config_builder_markers_disabled.zip</zipFile>
               <timestamp />
@@ -4870,9 +4870,9 @@
               <packageName>XVMconfigBuilder_MarkerModifications_disabled</packageName>
               <size>928</size>
               <updateComment />
-              <description />
+              <description>Allows you to use the stock markers in the game. Also enables you to configure the markers using the ingame settings.</description>
               <devURL />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -4898,7 +4898,7 @@
           <packageName>XVMconfigBuilder_LoginModifications_Header</packageName>
           <size>0</size>
           <updateComment />
-          <description />
+          <description>Make changes to the login screen.</description>
           <devURL />
           <userDatas />
           <pictures />
@@ -5271,7 +5271,7 @@
           <packageName>XVMconfigBuilder_MinimapModifications_Header</packageName>
           <size>0</size>
           <updateComment />
-          <description />
+          <description>Make changes to the minimap in the game.</description>
           <devURL />
           <userDatas />
           <pictures />
@@ -5580,7 +5580,7 @@
           <packageName>Crosshairs_arty_sight_Header</packageName>
           <size>0</size>
           <updateComment />
-          <description />
+          <description>Select a crosshair for Artilery mode</description>
           <devURL />
           <userDatas />
           <pictures />
@@ -6084,7 +6084,7 @@
           <packageName>Crosshairs_tank_sight_Header</packageName>
           <size>0</size>
           <updateComment />
-          <description />
+          <description>Select a crosshair for Arcade and Sniper mode</description>
           <devURL />
           <userDatas />
           <pictures />
@@ -8437,302 +8437,7 @@
       </dependencies>
       <mods>
         <mod>
-          <name>Damagelog by GambitER</name>
-          <version />
-          <zipFile>Damage_Logs_Damage_Log_by_GambitER_base_2017-10-26.zip</zipFile>
-          <timestamp>131535207035749464</timestamp>
-          <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-          <endAddress />
-          <crc>83f6ad26e65b5f8de783885e6b50904f</crc>
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>Damage_Logs_GambitER_base</packageName>
-          <size>175996</size>
-          <updateComment />
-          <description>Keeps a list of who shot you and for how much. In OMC config, press right alt to see the player name.\nXFT Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</description>
-          <devURL>http://modsworldoftanks.com/the-damage-panel-from-gambiter-damagelog/</devURL>
-          <userDatas />
-          <pictures>
-            <picture>
-              <type>1</type>
-              <URL>http://cdn.modsworldoftanks.com/wp-content/uploads/2016/01/MBkp58k.png</URL>
-            </picture>
-            <picture>
-              <type>1</type>
-              <URL>http://cdn.modsworldoftanks.com/wp-content/uploads/2016/01/1.gif</URL>
-            </picture>
-            <picture>
-              <type>1</type>
-              <URL>http://s017.radikal.ru/i443/1505/e0/ed51e309393c.gif</URL>
-            </picture>
-          </pictures>
-          <configs>
-            <config>
-              <name>config from OMC</name>
-              <version />
-              <zipFile>Damage_Logs_GambitER_Damage_Log_OMC_config_2017-08-30.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>6871689d25f032597598abb8c1fdd14f</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Damage_Logs_GambitER_OMC_config</packageName>
-              <size>14651</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <type>single</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>XFT config with integrated hitlog (xvm needed for hitlog)</name>
-              <version />
-              <zipFile>Damage_Logs_GambitER_Damage_Log_XFT_Integrated_config_2017-08-30.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>f16c42c4c4fd5bf85e6ff0321374989b</crc>
-              <enabled>False</enabled>
-              <visible>True</visible>
-              <packageName>Damage_Logs_GambitER_damage_panel_XFT_Integrated</packageName>
-              <size>14074</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <type>single</type>
-              <userDatas />
-              <pictures>
-                <picture>
-                  <type>1</type>
-                  <URL>http://i.imgur.com/pjkRzWn.jpg</URL>
-                </picture>
-              </pictures>
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>XFT config with hitlog on top (xvm needed for hitlog)</name>
-              <version />
-              <zipFile>Damage_Logs_GambitER_Damage_Log_XFT_Split_configs_2017-08-30.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>30df434311a02ba77bac19f73fb588a4</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Damage_Logs_GambitER_damage_panel_XFT_Split</packageName>
-              <size>15886</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <type>single</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>damage messages</name>
-              <version />
-              <zipFile />
-              <timestamp />
-              <startAddress />
-              <endAddress />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Damage_Logs_GambitER_panel_XFT_messages_enable</packageName>
-              <size>0</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <type>multi</type>
-              <userDatas />
-              <pictures />
-              <configs>
-                <config>
-                  <name>move damage messages to center</name>
-                  <version />
-                  <zipFile>Damage_Logs_GambitER_Damage_Log_Message_Patch_2017-08-30.zip</zipFile>
-                  <timestamp />
-                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-                  <endAddress />
-                  <crc>408eed8d7faf36279c6fa75dab98a8b5</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Damage_Logs_GambitER_panel_move_damage_messages_center</packageName>
-                  <size>3357</size>
-                  <updateComment />
-                  <description />
-                  <devURL />
-                  <type>single</type>
-                  <userDatas />
-                  <pictures />
-                  <configs />
-                  <dependencies />
-                  <logicalDependencies />
-                  <shortCuts />
-                </config>
-                <config>
-                  <name>disable damage messages</name>
-                  <version />
-                  <zipFile>Damage_Logs_GambitER_Damage_Log_Message_Disable_2017-08-30.zip</zipFile>
-                  <timestamp />
-                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-                  <endAddress />
-                  <crc>89e22a80837c10b5fa9b20082653a527</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Damage_Logs_GambitER_disable_damage_messages</packageName>
-                  <size>3265</size>
-                  <updateComment />
-                  <description />
-                  <devURL />
-                  <type>single</type>
-                  <userDatas />
-                  <pictures />
-                  <configs />
-                  <dependencies />
-                  <logicalDependencies />
-                  <shortCuts />
-                </config>
-              </configs>
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-          </configs>
-          <dependencies />
-          <logicalDependencies />
-          <shortCuts />
-        </mod>
-        <mod>
-          <name>Damagelog by bionick with custom panel</name>
-          <version />
-          <zipFile />
-          <timestamp />
-          <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-          <endAddress />
-          <crc />
-          <enabled>False</enabled>
-          <visible>True</visible>
-          <packageName>Damage_Logs_bionick_with_panel_Header</packageName>
-          <size>0</size>
-          <updateComment />
-          <description>Keeps a list of who shot you and for how much. Includes a custom damage panel</description>
-          <devURL />
-          <userDatas />
-          <pictures />
-          <configs>
-            <config>
-              <name>Design 1</name>
-              <version />
-              <zipFile>Damage_Logs_bionick_with_panel_design_1_2017-10-26.zip</zipFile>
-              <timestamp>131535207193869326</timestamp>
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>5c72795c3ac1a51256e06a035e43ff9d</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Damage_Logs_bionick_with_panel_design_1</packageName>
-              <size>670502</size>
-              <updateComment />
-              <description />
-              <devURL>http://wotsite.net/paneli-povrezhdenij/10331-peredelannaya-panel-povrezhdenij-ot-bionick-dlya-world-of-tanks.html</devURL>
-              <type>single1</type>
-              <userDatas />
-              <pictures>
-                <picture>
-                  <type>1</type>
-                  <URL>http://wotsite.net/images/2013/09/27/1.jpg</URL>
-                </picture>
-              </pictures>
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>Design 2</name>
-              <version />
-              <zipFile>Damage_Logs_bionick_with_panel_design_2_2017-10-26.zip</zipFile>
-              <timestamp>131535207247199518</timestamp>
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>0b56a80588afee8c4792084eb288e0e1</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Damage_Logs_bionick_with_panel_design_2</packageName>
-              <size>732329</size>
-              <updateComment />
-              <description />
-              <devURL>http://wotsite.net/paneli-povrezhdenij/10143-kompaktnaya-panel-bionick-dlya-noutbukov-wot.html</devURL>
-              <type>single1</type>
-              <userDatas />
-              <pictures>
-                <picture>
-                  <type>1</type>
-                  <URL>http://fs5.directupload.net/images/user/161121/opeir2ex.jpg</URL>
-                </picture>
-                <picture>
-                  <type>1</type>
-                  <URL>http://wotsite.net/images/2016/12/4.jpg</URL>
-                </picture>
-                <picture>
-                  <type>1</type>
-                  <URL>http://wotsite.net/images/2016/12/3.jpg</URL>
-                </picture>
-              </pictures>
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>Design 3</name>
-              <version />
-              <zipFile>Damage_Logs_bionick_with_panel_design_3_2017-10-26.zip</zipFile>
-              <timestamp>131535207306027432</timestamp>
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>5e8ad3835e4b1033c79c090e09dfb858</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Damage_Logs_bionick_with_panel_design_3</packageName>
-              <size>688004</size>
-              <updateComment />
-              <description />
-              <devURL>http://wotsite.net/paneli-povrezhdenij/10143-kompaktnaya-panel-bionick-dlya-noutbukov-wot.html</devURL>
-              <type>single1</type>
-              <userDatas />
-              <pictures>
-                <picture>
-                  <type>1</type>
-                  <URL>https://puu.sh/wDrPs/5b4ffaabc3.jpg</URL>
-                </picture>
-              </pictures>
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-          </configs>
-          <dependencies />
-          <logicalDependencies />
-          <shortCuts />
-        </mod>
-        <mod>
-          <name>Damage Panel</name>
+          <name>Damage Panels</name>
           <version />
           <zipFile />
           <timestamp />
@@ -8750,133 +8455,500 @@
           <pictures />
           <configs>
             <config>
-              <name>Zayaz</name>
+              <name>Damage Panel by Zayaz</name>
               <version />
-              <zipFile>Damage_Panel_zayaz_2017-09-20.zip</zipFile>
+              <zipFile />
               <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+              <startAddress />
               <endAddress />
-              <crc>50554566f0ef5ca08942b9e3392dcc58</crc>
-              <enabled>True</enabled>
+              <crc />
+              <enabled>False</enabled>
               <visible>True</visible>
-              <packageName>Damage_Panel_zayaz</packageName>
-              <size>383539</size>
+              <packageName>Damage_Panel_zayaz_Header</packageName>
+              <size>0</size>
               <updateComment />
               <description />
-              <devURL>http://wotsite.net/paneli-povrezhdenij/4523-</devURL>
+              <devURL />
               <type>single1</type>
               <userDatas />
-              <pictures>
-                <picture>
-                  <type>1</type>
-                  <URL>http://wotsite.net//images/2015/9/10/shot_012.jpg</URL>
-                </picture>
-                <picture>
-                  <type>1</type>
-                  <URL>http://wotsite.net//images/2015/9/10/shot_016.jpg</URL>
-                </picture>
-              </pictures>
-              <configs />
+              <pictures />
+              <configs>
+                <config>
+                  <name>Zayaz</name>
+                  <version />
+                  <zipFile>Damage_Panel_zayaz_2017-09-20.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>50554566f0ef5ca08942b9e3392dcc58</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Panel_zayaz</packageName>
+                  <size>383539</size>
+                  <updateComment />
+                  <description />
+                  <devURL>http://wotsite.net/paneli-povrezhdenij/4523-</devURL>
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://wotsite.net//images/2015/9/10/shot_012.jpg</URL>
+                    </picture>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://wotsite.net//images/2015/9/10/shot_016.jpg</URL>
+                    </picture>
+                  </pictures>
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>Zayaz with blocking angle indicator</name>
+                  <version />
+                  <zipFile>Damage_Panel_zayaz_with_blocking_indicator_2017-09-20.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>60a4ac6879ff1787d5267ed776b5d131</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Panel_zayaz_with_blocking_angle_indicator</packageName>
+                  <size>392361</size>
+                  <updateComment />
+                  <description />
+                  <devURL>http://wotsite.net/paneli-povrezhdenij/4523-</devURL>
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://i.imgur.com/8MIDTue.jpg</URL>
+                    </picture>
+                  </pictures>
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>Zayaz with repair center</name>
+                  <version />
+                  <zipFile>Damage_Panel_zayaz_and_repair_center_2017-09-20.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>5effc258c164bf50374ad10a16a57e7b</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Panel_Zayaz_with_repair_rose</packageName>
+                  <size>532171</size>
+                  <updateComment />
+                  <description />
+                  <devURL>http://wotsite.net/paneli-povrezhdenij/4523-</devURL>
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://i.imgur.com/WvBhJZL.jpg</URL>
+                    </picture>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://i.imgur.com/MMXOVT3.jpg</URL>
+                    </picture>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://i.imgur.com/Gulh8Yh.jpg</URL>
+                    </picture>
+                  </pictures>
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>Zayaz with repair center and blocking angle indicator</name>
+                  <version />
+                  <zipFile>Damage_Panel_zayaz_with_blocking_indicator_and_repair_center_2017-09-20.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>812669915f6ebc376c03a05a2cbf10d5</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Panel_Zayaz_with_repair_rows_and_blocking_angle</packageName>
+                  <size>540598</size>
+                  <updateComment />
+                  <description />
+                  <devURL>http://wotsite.net/paneli-povrezhdenij/4523-</devURL>
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://i.imgur.com/WvBhJZL.jpg</URL>
+                    </picture>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://i.imgur.com/MMXOVT3.jpg</URL>
+                    </picture>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://i.imgur.com/Gulh8Yh.jpg</URL>
+                    </picture>
+                  </pictures>
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+              </configs>
               <dependencies />
               <logicalDependencies />
               <shortCuts />
             </config>
+          </configs>
+          <dependencies />
+          <logicalDependencies />
+          <shortCuts />
+        </mod>
+        <mod>
+          <name>Damage Logs</name>
+          <version />
+          <zipFile />
+          <timestamp />
+          <startAddress />
+          <endAddress />
+          <crc />
+          <enabled>False</enabled>
+          <visible>True</visible>
+          <packageName>Damage_Log_Header</packageName>
+          <size>0</size>
+          <updateComment />
+          <description />
+          <devURL />
+          <userDatas />
+          <pictures />
+          <configs>
             <config>
-              <name>Zayaz with blocking angle indicator</name>
+              <name>Damagelog by GambitER</name>
               <version />
-              <zipFile>Damage_Panel_zayaz_with_blocking_indicator_2017-09-20.zip</zipFile>
-              <timestamp />
+              <zipFile>Damage_Logs_Damage_Log_by_GambitER_base_2017-10-26.zip</zipFile>
+              <timestamp>131535207035749464</timestamp>
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>60a4ac6879ff1787d5267ed776b5d131</crc>
+              <crc>83f6ad26e65b5f8de783885e6b50904f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Damage_Panel_zayaz_with_blocking_angle_indicator</packageName>
-              <size>392361</size>
+              <packageName>Damage_Logs_GambitER_base</packageName>
+              <size>175996</size>
               <updateComment />
-              <description />
-              <devURL>http://wotsite.net/paneli-povrezhdenij/4523-</devURL>
+              <description>Keeps a list of who shot you and for how much. In OMC config, press right alt to see the player name.\nXFT Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</description>
+              <devURL>http://modsworldoftanks.com/the-damage-panel-from-gambiter-damagelog/</devURL>
               <type>single1</type>
               <userDatas />
               <pictures>
                 <picture>
                   <type>1</type>
-                  <URL>http://i.imgur.com/8MIDTue.jpg</URL>
+                  <URL>http://cdn.modsworldoftanks.com/wp-content/uploads/2016/01/MBkp58k.png</URL>
+                </picture>
+                <picture>
+                  <type>1</type>
+                  <URL>http://cdn.modsworldoftanks.com/wp-content/uploads/2016/01/1.gif</URL>
+                </picture>
+                <picture>
+                  <type>1</type>
+                  <URL>http://s017.radikal.ru/i443/1505/e0/ed51e309393c.gif</URL>
                 </picture>
               </pictures>
-              <configs />
+              <configs>
+                <config>
+                  <name>config from OMC</name>
+                  <version />
+                  <zipFile>Damage_Logs_GambitER_Damage_Log_OMC_config_2017-08-30.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>6871689d25f032597598abb8c1fdd14f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Logs_GambitER_OMC_config</packageName>
+                  <size>14651</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <type>single</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>XFT config with integrated hitlog (xvm needed for hitlog)</name>
+                  <version />
+                  <zipFile>Damage_Logs_GambitER_Damage_Log_XFT_Integrated_config_2017-08-30.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f16c42c4c4fd5bf85e6ff0321374989b</crc>
+                  <enabled>False</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Logs_GambitER_damage_panel_XFT_Integrated</packageName>
+                  <size>14074</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <type>single</type>
+                  <userDatas />
+                  <pictures>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://i.imgur.com/pjkRzWn.jpg</URL>
+                    </picture>
+                  </pictures>
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>XFT config with hitlog on top (xvm needed for hitlog)</name>
+                  <version />
+                  <zipFile>Damage_Logs_GambitER_Damage_Log_XFT_Split_configs_2017-08-30.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>30df434311a02ba77bac19f73fb588a4</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Logs_GambitER_damage_panel_XFT_Split</packageName>
+                  <size>15886</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <type>single</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>damage messages</name>
+                  <version />
+                  <zipFile />
+                  <timestamp />
+                  <startAddress />
+                  <endAddress />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Logs_GambitER_panel_XFT_messages_enable</packageName>
+                  <size>0</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <type>multi</type>
+                  <userDatas />
+                  <pictures />
+                  <configs>
+                    <config>
+                      <name>move damage messages to center</name>
+                      <version />
+                      <zipFile>Damage_Logs_GambitER_Damage_Log_Message_Patch_2017-08-30.zip</zipFile>
+                      <timestamp />
+                      <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                      <endAddress />
+                      <crc>408eed8d7faf36279c6fa75dab98a8b5</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Damage_Logs_GambitER_panel_move_damage_messages_center</packageName>
+                      <size>3357</size>
+                      <updateComment />
+                      <description />
+                      <devURL />
+                      <type>single</type>
+                      <userDatas />
+                      <pictures />
+                      <configs />
+                      <dependencies />
+                      <logicalDependencies />
+                      <shortCuts />
+                    </config>
+                    <config>
+                      <name>disable damage messages</name>
+                      <version />
+                      <zipFile>Damage_Logs_GambitER_Damage_Log_Message_Disable_2017-08-30.zip</zipFile>
+                      <timestamp />
+                      <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                      <endAddress />
+                      <crc>89e22a80837c10b5fa9b20082653a527</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Damage_Logs_GambitER_disable_damage_messages</packageName>
+                      <size>3265</size>
+                      <updateComment />
+                      <description />
+                      <devURL />
+                      <type>single</type>
+                      <userDatas />
+                      <pictures />
+                      <configs />
+                      <dependencies />
+                      <logicalDependencies />
+                      <shortCuts />
+                    </config>
+                  </configs>
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+              </configs>
               <dependencies />
               <logicalDependencies />
               <shortCuts />
             </config>
+          </configs>
+          <dependencies />
+          <logicalDependencies />
+          <shortCuts />
+        </mod>
+        <mod>
+          <name>Damage Panel(s) &amp; Damage Log(s)</name>
+          <version />
+          <zipFile />
+          <timestamp />
+          <startAddress />
+          <endAddress />
+          <crc />
+          <enabled>False</enabled>
+          <visible>True</visible>
+          <packageName>Damage_Panel_Log_Header</packageName>
+          <size>0</size>
+          <updateComment />
+          <description />
+          <devURL />
+          <userDatas />
+          <pictures />
+          <configs>
             <config>
-              <name>Zayaz with repair center</name>
+              <name>Damagelog by bionick with custom panel</name>
               <version />
-              <zipFile>Damage_Panel_zayaz_and_repair_center_2017-09-20.zip</zipFile>
+              <zipFile />
               <timestamp />
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>5effc258c164bf50374ad10a16a57e7b</crc>
-              <enabled>True</enabled>
+              <crc />
+              <enabled>False</enabled>
               <visible>True</visible>
-              <packageName>Damage_Panel_Zayaz_with_repair_rose</packageName>
-              <size>532171</size>
+              <packageName>Damage_Logs_bionick_with_panel_Header</packageName>
+              <size>0</size>
               <updateComment />
-              <description />
-              <devURL>http://wotsite.net/paneli-povrezhdenij/4523-</devURL>
+              <description>Keeps a list of who shot you and for how much. Includes a custom damage panel</description>
+              <devURL />
               <type>single1</type>
               <userDatas />
-              <pictures>
-                <picture>
-                  <type>1</type>
-                  <URL>http://i.imgur.com/WvBhJZL.jpg</URL>
-                </picture>
-                <picture>
-                  <type>1</type>
-                  <URL>http://i.imgur.com/MMXOVT3.jpg</URL>
-                </picture>
-                <picture>
-                  <type>1</type>
-                  <URL>http://i.imgur.com/Gulh8Yh.jpg</URL>
-                </picture>
-              </pictures>
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>Zayaz with repair center and blocking angle indicator</name>
-              <version />
-              <zipFile>Damage_Panel_zayaz_with_blocking_indicator_and_repair_center_2017-09-20.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>812669915f6ebc376c03a05a2cbf10d5</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Damage_Panel_Zayaz_with_repair_rows_and_blocking_angle</packageName>
-              <size>540598</size>
-              <updateComment />
-              <description />
-              <devURL>http://wotsite.net/paneli-povrezhdenij/4523-</devURL>
-              <type>single1</type>
-              <userDatas />
-              <pictures>
-                <picture>
-                  <type>1</type>
-                  <URL>http://i.imgur.com/WvBhJZL.jpg</URL>
-                </picture>
-                <picture>
-                  <type>1</type>
-                  <URL>http://i.imgur.com/MMXOVT3.jpg</URL>
-                </picture>
-                <picture>
-                  <type>1</type>
-                  <URL>http://i.imgur.com/Gulh8Yh.jpg</URL>
-                </picture>
-              </pictures>
-              <configs />
+              <pictures />
+              <configs>
+                <config>
+                  <name>Design 1</name>
+                  <version />
+                  <zipFile>Damage_Logs_bionick_with_panel_design_1_2017-10-26.zip</zipFile>
+                  <timestamp>131535207193869326</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>5c72795c3ac1a51256e06a035e43ff9d</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Logs_bionick_with_panel_design_1</packageName>
+                  <size>670502</size>
+                  <updateComment />
+                  <description />
+                  <devURL>http://wotsite.net/paneli-povrezhdenij/10331-peredelannaya-panel-povrezhdenij-ot-bionick-dlya-world-of-tanks.html</devURL>
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://wotsite.net/images/2013/09/27/1.jpg</URL>
+                    </picture>
+                  </pictures>
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>Design 2</name>
+                  <version />
+                  <zipFile>Damage_Logs_bionick_with_panel_design_2_2017-10-26.zip</zipFile>
+                  <timestamp>131535207247199518</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>0b56a80588afee8c4792084eb288e0e1</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Logs_bionick_with_panel_design_2</packageName>
+                  <size>732329</size>
+                  <updateComment />
+                  <description />
+                  <devURL>http://wotsite.net/paneli-povrezhdenij/10143-kompaktnaya-panel-bionick-dlya-noutbukov-wot.html</devURL>
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://fs5.directupload.net/images/user/161121/opeir2ex.jpg</URL>
+                    </picture>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://wotsite.net/images/2016/12/4.jpg</URL>
+                    </picture>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://wotsite.net/images/2016/12/3.jpg</URL>
+                    </picture>
+                  </pictures>
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>Design 3</name>
+                  <version />
+                  <zipFile>Damage_Logs_bionick_with_panel_design_3_2017-10-26.zip</zipFile>
+                  <timestamp>131535207306027432</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>5e8ad3835e4b1033c79c090e09dfb858</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Logs_bionick_with_panel_design_3</packageName>
+                  <size>688004</size>
+                  <updateComment />
+                  <description />
+                  <devURL>http://wotsite.net/paneli-povrezhdenij/10143-kompaktnaya-panel-bionick-dlya-noutbukov-wot.html</devURL>
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures>
+                    <picture>
+                      <type>1</type>
+                      <URL>https://puu.sh/wDrPs/5b4ffaabc3.jpg</URL>
+                    </picture>
+                  </pictures>
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+              </configs>
               <dependencies />
               <logicalDependencies />
               <shortCuts />
@@ -9067,7 +9139,7 @@
               <packageName>zoom_Ingame_Aim_ZoomOut_Increase_Scroll_Speed</packageName>
               <size>632</size>
               <updateComment />
-              <description />
+              <description>your mouse wheel will be faster to scroll</description>
               <devURL />
               <type>multi</type>
               <userDatas />
@@ -9090,7 +9162,7 @@
               <packageName>zoom_Ingame_Aim_disable_gun_shake</packageName>
               <size>1392</size>
               <updateComment />
-              <description />
+              <description>your aim will not shake when you are hit</description>
               <devURL />
               <type>multi</type>
               <userDatas />
@@ -9282,98 +9354,154 @@
           <shortCuts />
         </mod>
         <mod>
-          <name>Battle Interface modifications - Penetration ( ͡° ͜ʖ ͡°) Indicator (pmod)</name>
+          <name>Penetration ( ͡° ͜ʖ ͡°) Indicators</name>
           <version />
-          <zipFile>pmod_reduced_armor_enable_patch_2017-07-17.zip</zipFile>
-          <timestamp />
+          <zipFile />
+          <timestamp>131542992576669791</timestamp>
           <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
           <endAddress />
-          <crc>d36e8e39bed835e907fae51232f333a7</crc>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>zoom_pmod_reduced_armor_enable</packageName>
-          <size>911</size>
+          <packageName>Ingame_Aim_Penetration_Header</packageName>
+          <size>0</size>
           <updateComment />
-          <description>Shows wether or not you can penetrate an enemy, factoring in armor angles and normalization, in the form\n avg_gun_penetration/enemy_effective_armor</description>
+          <description>Shows wether or not you can penetrate an enemy, in the form of showing the number</description>
           <devURL />
           <userDatas />
           <pictures />
           <configs>
             <config>
-              <name>font size small (18)</name>
+              <name>PMOD Penetration ( ͡° ͜ʖ ͡°) Indicator</name>
               <version />
-              <zipFile>pmod_reduced_armor_font_small_patch.zip</zipFile>
+              <zipFile>pmod_reduced_armor_enable_patch_2017-07-17.zip</zipFile>
               <timestamp />
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>28f24b2b69b9bcfb4326b2957bb45255</crc>
+              <crc>d36e8e39bed835e907fae51232f333a7</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_pmod_reduced_armor_font_small</packageName>
-              <size>928</size>
+              <packageName>Ingame_Aim_pmod_reduced_armor</packageName>
+              <size>911</size>
               <updateComment />
-              <description />
+              <description>Shows wether or not you can penetrate an enemy, factoring in armor angles and normalization, in the form\n avg_gun_penetration/enemy_effective_armor</description>
               <devURL />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
-              <configs />
-              <dependencies />
+              <configs>
+                <config>
+                  <name>font size small (18)</name>
+                  <version />
+                  <zipFile>pmod_reduced_armor_font_small_patch.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>28f24b2b69b9bcfb4326b2957bb45255</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>zoom_pmod_reduced_armor_font_small</packageName>
+                  <size>928</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <type>single</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>font size medium (24)</name>
+                  <version />
+                  <zipFile>pmod_reduced_armor_font_medium_patch.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>446b0839a1dc42c2f3d04110ee624933</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>zoom_pmod_reduced_armor_font_medium</packageName>
+                  <size>931</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <type>single</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>font size large (30)</name>
+                  <version />
+                  <zipFile>pmod_reduced_armor_font_large_patch.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>8351cd7822bd685ebe390dba9e33863b</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>zoom_pmod_reduced_armor_font_large</packageName>
+                  <size>929</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <type>single</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+              </configs>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_PMOD</packageName>
+                </dependency>
+              </dependencies>
               <logicalDependencies />
               <shortCuts />
             </config>
             <config>
-              <name>font size medium (24)</name>
+              <name>Number Indicator of Armor Penetration ( ͡° ͜ʖ ͡°) (non-PMOD)</name>
               <version />
-              <zipFile>pmod_reduced_armor_font_medium_patch.zip</zipFile>
+              <zipFile>Ingame_Aim_Mod_Armor_Gui_Text_0.9.20.1.1.zip</zipFile>
               <timestamp />
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>446b0839a1dc42c2f3d04110ee624933</crc>
+              <crc>ac3da63c4ea7e06850f913e96132e275</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_pmod_reduced_armor_font_medium</packageName>
-              <size>931</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <type>single</type>
+              <packageName>Ingame_Aim_Mod_Armor_Gui_Text</packageName>
+              <size>35188</size>
+              <updateComment>2017-10-28: It now uses battleflash</updateComment>
+              <description>Shows a number of chance of penetration. The number is calculated by (enemy_effective_armor-gun_average_penetration).\nNegative number means likely to bounce.\nPositive number means likely to pierce.</description>
+              <devURL>https://wotspeak.ru/mody-world-of-tanks-wot/322-indikator-zapasa-broneprobitiya-dlya-world-of-tanks-wot.html</devURL>
+              <type>single1</type>
               <userDatas />
-              <pictures />
+              <pictures>
+                <picture>
+                  <type>1</type>
+                  <URL>http://4cheat.ru/i/view.php?id=333.jpg</URL>
+                </picture>
+              </pictures>
               <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>font size large (30)</name>
-              <version />
-              <zipFile>pmod_reduced_armor_font_large_patch.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>8351cd7822bd685ebe390dba9e33863b</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>zoom_pmod_reduced_armor_font_large</packageName>
-              <size>929</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <type>single</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_BattleFlash</packageName>
+                </dependency>
+              </dependencies>
               <logicalDependencies />
               <shortCuts />
             </config>
           </configs>
-          <dependencies>
-            <dependency>
-              <packageName>Dependency_PMOD</packageName>
-            </dependency>
-          </dependencies>
+          <dependencies />
           <logicalDependencies />
           <shortCuts />
         </mod>
@@ -10164,37 +10292,6 @@
             </config>
           </configs>
           <dependencies />
-          <logicalDependencies />
-          <shortCuts />
-        </mod>
-        <mod>
-          <name>Number Indicator of Armor Penetration ( ͡° ͜ʖ ͡°) (not PMOD)</name>
-          <version />
-          <zipFile>Ingame_Aim_Mod_Armor_Gui_Text_0.9.20.1.1.zip</zipFile>
-          <timestamp>131537211733272598</timestamp>
-          <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-          <endAddress />
-          <crc>ac3da63c4ea7e06850f913e96132e275</crc>
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>Ingame_Aim_Mod_Armor_Gui_Text</packageName>
-          <size>35188</size>
-          <updateComment>2017-10-28: It now uses battleflash</updateComment>
-          <description>Shows a number of chance of penetration. The number is calculated by (enemy_effective_armor-gun_average_penetration).\nNegative number means likely to bounce.\nPositive number means likely to pierce.</description>
-          <devURL>https://wotspeak.ru/mody-world-of-tanks-wot/322-indikator-zapasa-broneprobitiya-dlya-world-of-tanks-wot.html</devURL>
-          <userDatas />
-          <pictures>
-            <picture>
-              <type>1</type>
-              <URL>http://4cheat.ru/i/view.php?id=333.jpg</URL>
-            </picture>
-          </pictures>
-          <configs />
-          <dependencies>
-            <dependency>
-              <packageName>Dependency_BattleFlash</packageName>
-            </dependency>
-          </dependencies>
           <logicalDependencies />
           <shortCuts />
         </mod>
