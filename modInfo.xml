@@ -11,7 +11,7 @@
       <dependencyenabled>False</dependencyenabled>
       <shortCuts />
       <appendExtraction>False</appendExtraction>
-      <packageName>GlobDep_Test</packageName>
+      <packageName>GlobDep_Test_xml_Creation</packageName>
     </globaldependency>
     <globaldependency>
       <dependencyZipFile />
@@ -86,6 +86,19 @@
     </globaldependency>
   </globaldependencies>
   <dependencies>
+    <dependency>
+      <dependencyZipFile>Test_atlases.zip</dependencyZipFile>
+      <timestamp>131544674368434586</timestamp>
+      <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+      <endAddress />
+      <devURL />
+      <dependencyZipCRC>f</dependencyZipCRC>
+      <dependencyenabled>True</dependencyenabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_Atlases_Creation</packageName>
+      <logicalDependencies />
+      <shortCuts />
+    </dependency>
     <dependency>
       <dependencyZipFile>Dependency_XVM_Base_7.2.2.zip</dependencyZipFile>
       <timestamp>131541055618098015</timestamp>
@@ -7651,6 +7664,33 @@
               <userDatas />
               <pictures />
               <configs>
+                <config>
+                  <name>Normal (without Atlas)</name>
+                  <version />
+                  <zipFile>Ingame_Info_HARDicons_Contour_Icon_Mod_0.9.20.1.2_Test_without_atlases.zip</zipFile>
+                  <timestamp>131544675067031055</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f</crc>
+                  <enabled>False</enabled>
+                  <visible>False</visible>
+                  <packageName>Contour_Icon_HARDicons_Normal_without_Atlases</packageName>
+                  <size>0</size>
+                  <updateComment />
+                  <description />
+                  <devURL>http://forum.worldoftanks.ru/index.php?/topic/374544-</devURL>
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies>
+                    <dependency>
+                      <packageName>Dependency_Atlases_Creation</packageName>
+                    </dependency>
+                  </dependencies>
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
                 <config>
                   <name>Normal</name>
                   <version />
