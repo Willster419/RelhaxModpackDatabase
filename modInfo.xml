@@ -93,16 +93,30 @@
   </globaldependencies>
   <dependencies>
     <dependency>
-      <dependencyZipFile>Test_atlases.zip</dependencyZipFile>
-      <timestamp>131544674368434586</timestamp>
+      <dependencyZipFile>Dependency_Atlases_Creation_vehicleMarkerAtlas.zip</dependencyZipFile>
+      <timestamp>131550015655326915</timestamp>
       <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
       <endAddress />
       <devURL />
       <extractPath />
-      <dependencyZipCRC>eae074fb0593a9b1f253baf7c2187897</dependencyZipCRC>
+      <dependencyZipCRC>f</dependencyZipCRC>
       <dependencyenabled>True</dependencyenabled>
       <appendExtraction>False</appendExtraction>
-      <packageName>Dependency_Atlases_Creation</packageName>
+      <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+      <logicalDependencies />
+      <shortCuts />
+    </dependency>
+    <dependency>
+      <dependencyZipFile>Dependency_Atlases_Creation_BattleAtlas.zip</dependencyZipFile>
+      <timestamp>131550015382307607</timestamp>
+      <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+      <endAddress />
+      <devURL />
+      <extractPath />
+      <dependencyZipCRC>f</dependencyZipCRC>
+      <dependencyenabled>True</dependencyenabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_Atlases_Creation_BattleAtlas</packageName>
       <logicalDependencies />
       <shortCuts />
     </dependency>
@@ -7774,8 +7788,15 @@
     </catagory>
     <catagory>
       <name>Contour Icons/Tank Icons</name>
-      <selectionType>single</selectionType>
-      <dependencies />
+      <selectionType>single1</selectionType>
+      <dependencies>
+        <dependency>
+          <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+        </dependency>
+        <dependency>
+          <packageName>Dependency_Atlases_Creation_BattleAtlas</packageName>
+        </dependency>
+      </dependencies>
       <mods>
         <mod>
           <name>Contour Icons</name>
@@ -8001,38 +8022,10 @@
               <description />
               <devURL />
               <extractPath />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs>
-                <config>
-                  <name>Normal (without Atlas)</name>
-                  <version />
-                  <zipFile>Ingame_Info_HARDicons_Contour_Icon_Mod_0.9.20.1.2_Test_without_atlases.zip</zipFile>
-                  <timestamp>131544675067031055</timestamp>
-                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-                  <endAddress />
-                  <crc>7e050cbd6e04500b32cc1be01f7bc23c</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Contour_Icon_HARDicons_Normal_without_Atlases</packageName>
-                  <size>1655202</size>
-                  <updateComment />
-                  <description />
-                  <devURL>http://forum.worldoftanks.ru/index.php?/topic/374544-</devURL>
-                  <extractPath />
-                  <type>single1</type>
-                  <userDatas />
-                  <pictures />
-                  <configs />
-                  <dependencies>
-                    <dependency>
-                      <packageName>Dependency_Atlases_Creation</packageName>
-                    </dependency>
-                  </dependencies>
-                  <logicalDependencies />
-                  <shortCuts />
-                </config>
                 <config>
                   <name>Normal</name>
                   <version />
