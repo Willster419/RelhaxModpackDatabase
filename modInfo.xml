@@ -121,6 +121,20 @@
       <shortCuts />
     </dependency>
     <dependency>
+      <dependencyZipFile>Dependency_audio_mods_xml.zip</dependencyZipFile>
+      <timestamp>131551590002776094</timestamp>
+      <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+      <endAddress />
+      <devURL />
+      <extractPath />
+      <dependencyZipCRC>f</dependencyZipCRC>
+      <dependencyenabled>True</dependencyenabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_audio_mods_xml</packageName>
+      <logicalDependencies />
+      <shortCuts />
+    </dependency>
+    <dependency>
       <dependencyZipFile>Dependency_XVM_Base_7.2.2.zip</dependencyZipFile>
       <timestamp>131541055618098015</timestamp>
       <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
@@ -20136,6 +20150,9 @@
         <dependency>
           <packageName>Dependency_Sounds_Increase_Sound_Memory</packageName>
         </dependency>
+        <dependency>
+          <packageName>Dependency_audio_mods_xml</packageName>
+        </dependency>
       </dependencies>
       <mods>
         <mod>
@@ -22347,7 +22364,11 @@
               <shortCuts />
             </config>
           </configs>
-          <dependencies />
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_audio_mods_xml</packageName>
+            </dependency>
+          </dependencies>
           <logicalDependencies />
           <shortCuts />
         </mod>
