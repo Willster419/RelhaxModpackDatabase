@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<modInfoAlpha.xml version="0.9.20.1.2" onlineFolder="0.9.20.1">
+<modInfoAlpha.xml version="0.9.20.1.3" onlineFolder="0.9.20.1">
   <globaldependencies>
     <globaldependency>
       <dependencyZipFile>GlobalDependency_WoT_xml_Creation.zip</dependencyZipFile>
@@ -78,6 +78,19 @@
       <packageName>Dependency_global_orig_xmls_WoT</packageName>
     </globaldependency>
     <globaldependency>
+      <dependencyZipFile>Dependency_global_Modpack_Button_by_Budyx69v8.10_2017_09_10.zip</dependencyZipFile>
+      <timestamp>131552829722872193</timestamp>
+      <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+      <endAddress />
+      <devURL>http://forum.worldoftanks.eu/index.php?/topic/507925-</devURL>
+      <extractPath />
+      <dependencyZipCRC>f</dependencyZipCRC>
+      <dependencyenabled>False</dependencyenabled>
+      <shortCuts />
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_Modpack_Button</packageName>
+    </globaldependency>
+    <globaldependency>
       <dependencyZipFile>Dependency_global_ScriptloaderPro_1.25.zip</dependencyZipFile>
       <timestamp>131528320692118995</timestamp>
       <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
@@ -131,6 +144,20 @@
       <dependencyenabled>True</dependencyenabled>
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_audio_mods_xml</packageName>
+      <logicalDependencies />
+      <shortCuts />
+    </dependency>
+    <dependency>
+      <dependencyZipFile>Dependency_MLG_english_localization_2017-11-16.zip</dependencyZipFile>
+      <timestamp>131553249465082388</timestamp>
+      <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+      <endAddress />
+      <devURL>https://modxvm.com/en/download-xvm/</devURL>
+      <extractPath />
+      <dependencyZipCRC>f</dependencyZipCRC>
+      <dependencyenabled>True</dependencyenabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_MLG_english_localization</packageName>
       <logicalDependencies />
       <shortCuts />
     </dependency>
@@ -416,16 +443,16 @@
         <mod>
           <name>Willster419's Config</name>
           <version />
-          <zipFile>XVM_Prebuilt_Configs_Willster419_2017-10-19.zip</zipFile>
-          <timestamp>131529156839246072</timestamp>
+          <zipFile>XVM_Prebuilt_Configs_Willster419_2017-11-15.zip</zipFile>
+          <timestamp>131552744844974914</timestamp>
           <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
           <endAddress />
-          <crc>af132df8d9d288a8c689d25a199f6843</crc>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>XVMPrebuiltConfigs_Willster419XVMConfig</packageName>
           <size>95526</size>
-          <updateComment>2017-10-01: fixed hp circles to actually by hp circles\n2017-09-06: fixed capture bar issues\n2017-06-03: changed clock from 24 hour to 12 hour format with am/pm marker. Disabled blocking of stock WoT damage log. Disabled xvm eff in battle.</updateComment>
+          <updateComment>2017-11-15: moved hp cirlces from always on to on when left alt pressed (fps issues)\n2017-10-01: fixed hp circles to actually by hp circles\n2017-09-06: fixed capture bar issues\n2017-06-03: changed clock from 24 hour to 12 hour format with am/pm marker. Disabled blocking of stock WoT damage log. Disabled xvm eff in battle.</updateComment>
           <description>Config by Willster419. Originaly based on stock xvm config.\nIncludes an hp pool and minimap hp circles</description>
           <devURL>https://github.com/Willster419/xvmConfig</devURL>
           <extractPath />
@@ -2248,8 +2275,8 @@
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
               <crc>cbf8fd8b1b9b77b085a1b930278631a3</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
+              <enabled>False</enabled>
+              <visible>False</visible>
               <packageName>XVMconfigBuilder_BattleResultsModifications_ShowBattleTier_enable</packageName>
               <size>950</size>
               <updateComment />
@@ -2272,8 +2299,8 @@
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
               <crc>0e057d64573025b86a81036c933782fd</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
+              <enabled>False</enabled>
+              <visible>False</visible>
               <packageName>XVMconfigBuilder_BattleResultsModifications_ShowBattleTier_disable</packageName>
               <size>952</size>
               <updateComment />
@@ -5600,7 +5627,7 @@
                   <pictures />
                   <configs>
                     <config>
-                      <name>Enable HP circles</name>
+                      <name>Enable HP circles on by default</name>
                       <version />
                       <zipFile>XVM_config_builder_minimap_enable_hp_circles_2017-09-22.zip</zipFile>
                       <timestamp />
@@ -5615,7 +5642,31 @@
                       <description />
                       <devURL />
                       <extractPath />
-                      <type>multi</type>
+                      <type>single1</type>
+                      <userDatas />
+                      <pictures />
+                      <configs />
+                      <dependencies />
+                      <logicalDependencies />
+                      <shortCuts />
+                    </config>
+                    <config>
+                      <name>Enable HP circles for alt key press</name>
+                      <version />
+                      <zipFile>XVM_config_builder_minimap_enable_hp_circles_alt_2017-11-15.zip</zipFile>
+                      <timestamp>131552765604435049</timestamp>
+                      <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                      <endAddress />
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_MinimapModifications_XVMMinimap_enable_HP_circles_alt</packageName>
+                      <size>0</size>
+                      <updateComment />
+                      <description />
+                      <devURL />
+                      <extractPath />
+                      <type>single1</type>
                       <userDatas />
                       <pictures />
                       <configs />
@@ -7007,7 +7058,7 @@
               <size>71094</size>
               <updateComment />
               <description />
-              <devURL>http://wotsite.net/pritsely/8572-super-pritsely-meltymap-dlya-world-of-tanks.html</devURL>
+              <devURL>http://wotsite.net/pritsely/8572-</devURL>
               <extractPath />
               <type>single1</type>
               <userDatas />
@@ -10664,258 +10715,284 @@
           <shortCuts />
         </mod>
         <mod>
-          <name>Autoaim indication</name>
-          <version>0.9.20.1.2</version>
+          <name>Autoaim modifications</name>
+          <version />
           <zipFile>Ingame_Aim_AutoAim_base_2017-11-13.zip</zipFile>
-          <timestamp>131550420296884802</timestamp>
+          <timestamp />
           <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
           <endAddress />
-          <crc>016d9c392ac0c46b196003cf3345ed50</crc>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Ingame_Aim_AutoAim_Base</packageName>
-          <size>17838</size>
-          <updateComment>2017-10-29: this mod breaks the "shot with second turret" in halloween game mode.</updateComment>
-          <description>Allows you to auto aim onto a visable target (red outline) when you right click.\n\nLocks onto a target when manually highlighted, so it is legal now.</description>
-          <devURL>http://forum.worldoftanks.eu/index.php?/topic/441413-</devURL>
+          <packageName>Ingame_Aim_AutoAim_modifications</packageName>
+          <size>0</size>
+          <updateComment />
+          <description />
+          <devURL />
           <extractPath />
           <userDatas />
-          <pictures>
-            <picture>
-              <type>1</type>
-              <URL>http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_10_2014/post-506947255-0-02175200-1414274138.jpg</URL>
-            </picture>
-          </pictures>
+          <pictures />
           <configs>
             <config>
-              <name>2 sec autoaim search</name>
-              <version />
-              <zipFile>Ingame_Aim_AutoAim_config_2_sec.zip</zipFile>
+              <name>Autoaim indication</name>
+              <version>0.9.20.1.2</version>
+              <zipFile>Ingame_Aim_AutoAim_base_2017-11-13.zip</zipFile>
               <timestamp />
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>0aa0b9bd268176b63880c248b69563f0</crc>
+              <crc>016d9c392ac0c46b196003cf3345ed50</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Ingame_Aim_AutoAim_2_sec</packageName>
-              <size>1137</size>
-              <updateComment />
-              <description>Search allows the player to right click and for 2 seconds it will snap on the first highlighted enemy.</description>
-              <devURL />
+              <packageName>Ingame_Aim_AutoAim_Indication</packageName>
+              <size>17838</size>
+              <updateComment>2017-10-29: this mod breaks the "shot with second turret" in halloween game mode.</updateComment>
+              <description>Allows you to auto aim onto a visable target (red outline) when you right click.\n\nLocks onto a target when manually highlighted, so it is legal now.</description>
+              <devURL>http://forum.worldoftanks.eu/index.php?/topic/441413-</devURL>
               <extractPath />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
-              <pictures />
-              <configs />
+              <pictures>
+                <picture>
+                  <type>1</type>
+                  <URL>http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_10_2014/post-506947255-0-02175200-1414274138.jpg</URL>
+                </picture>
+              </pictures>
+              <configs>
+                <config>
+                  <name>2 sec autoaim search</name>
+                  <version />
+                  <zipFile>Ingame_Aim_AutoAim_config_2_sec.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>0aa0b9bd268176b63880c248b69563f0</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_AutoAim_2_sec</packageName>
+                  <size>1137</size>
+                  <updateComment />
+                  <description>Search allows the player to right click and for 2 seconds it will snap on the first highlighted enemy.</description>
+                  <devURL />
+                  <extractPath />
+                  <type>single</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>5 sec autoaim search</name>
+                  <version />
+                  <zipFile>Ingame_Aim_AutoAim_config_5_sec.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>78c2bcf6b1d4a22e6f6bf3afeb8b9501</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_AutoAim_5_sec</packageName>
+                  <size>1137</size>
+                  <updateComment />
+                  <description>Search allows the player to right click and for 5 seconds it will snap on the first highlighted enemy.</description>
+                  <devURL />
+                  <extractPath />
+                  <type>single</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>infinite autoaim search</name>
+                  <version />
+                  <zipFile>Ingame_Aim_AutoAim_config_inf_sec.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>07a655b4a0f57a4d302fde24f1861434</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_AutoAim_inf_search</packageName>
+                  <size>1141</size>
+                  <updateComment />
+                  <description>Search allows the player to right click, it will snap on the first highlighted enemy.</description>
+                  <devURL />
+                  <extractPath />
+                  <type>single</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>auto-announce reload add-on</name>
+                  <version />
+                  <zipFile>Ingame_Aim_AutoAim_config_announce_reload_enable.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>dfdf700c91bb96b61796ad670471cdb6</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_AutoAim_announce_reload_enable</packageName>
+                  <size>1182</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>multi</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>repair with T add-on</name>
+                  <version />
+                  <zipFile>Ingame_Aim_AutoAim_config_repair_with_t_enable.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>1b92c6ba9a85093f7575f930c635c8a6</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_AutoAim_repair_with_t_enable</packageName>
+                  <size>1175</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>multi</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>ally shot blocker add-on</name>
+                  <version />
+                  <zipFile>Ingame_Aim_AutoAim_config_ally_shot_block_enable.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>570d9d6b45736ffb17075c3c418ff291</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_AutoAim_no_friendly_fire_enable</packageName>
+                  <size>1176</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>multi</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>help message when spotted add-on</name>
+                  <version />
+                  <zipFile>Ingame_Aim_AutoAim_config_help_spotted_enable.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>576704ed7a3967d1759dd0f49f5a85fe</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_AutoAim_help_spotted_enable</packageName>
+                  <size>1166</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>multi</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>lock shell travel distance when enemy dissapeared add-on (use BalCalcMod)</name>
+                  <version />
+                  <zipFile>Ingame_Aim_AutoAim_config_howitzer_distance_lock_enable.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>56eefb41d738c8468856cf6c1911a93d</crc>
+                  <enabled>False</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_AutoAim_howitzer_distance_lock_enable</packageName>
+                  <size>1194</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>multi</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+              </configs>
               <dependencies />
               <logicalDependencies />
               <shortCuts />
             </config>
             <config>
-              <name>5 sec autoaim search</name>
-              <version />
-              <zipFile>Ingame_Aim_AutoAim_config_5_sec.zip</zipFile>
+              <name>Autoaim Indicator Extended v{version}</name>
+              <version>5.03</version>
+              <zipFile>Ingame_Aim_Autoaim_Indicator_Extended_2017-10-17.zip</zipFile>
               <timestamp />
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>78c2bcf6b1d4a22e6f6bf3afeb8b9501</crc>
+              <crc>68f514d453922cf0fd7dc59f5621c5c5</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Ingame_Aim_AutoAim_5_sec</packageName>
-              <size>1137</size>
+              <packageName>Ingame_Aim_AutoAim_Indicator_Extended</packageName>
+              <size>67815</size>
               <updateComment />
-              <description>Search allows the player to right click and for 5 seconds it will snap on the first highlighted enemy.</description>
-              <devURL />
+              <description>Using auto-aiming is very useful, especially when you start someone to twist or just the target stands and does not move. Grabbing it you no longer need to drive with your mouse and try to aim your gun at it. The majority of tankmen learned about this miracle of the invention after the introduction of the regime of tank racing. \n\nOften, in serious mixes, taking someone on an auto-target, you can forget whom you are keeping on the fly and this often does not have a very good effect on your effectiveness, because you can not shoot where you want to. In order to always be aware of what kind of goal is captured in your sight, there is a Mod: Indicator - an extended indication of this Mod. With his help, not to see the captured goal will be simply impossible.\n\nBy setting the mode of the extended auto-target display, you will see the following alerts on the captured target:\n- on the captured tank will be included a constant stroke of the contour\n- around will appear a semitransparent energy field\n- if the target you capture suddenly leaves your field of vision, the arrow on the right or left will show directions and distance to it\n\nThe color of the energy field indicator changes in the mod settings in the hangar. Available colors are shown in the row below. \n\nColor options:\n- blue\n- brown\n- chocolate\n- cornflower blue\n- cream\n- blue cyan\n- emerald\n- golden\n- green\n- yellow-green\n- hot pink\n- lime\n- orange\n- pink\n- purple\n- red\n- WG Backlight\n- WG enemy\n- WG friendly\n- WG platoon\n- yellow</description>
+              <devURL>http://wotsite.net/mody-dlya-world-of-tanks/12206-</devURL>
               <extractPath />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
-              <pictures />
+              <pictures>
+                <picture>
+                  <type>1</type>
+                  <URL>http://wotsite.net/images/2014/11/27/2.jpg</URL>
+                </picture>
+              </pictures>
               <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>infinite autoaim search</name>
-              <version />
-              <zipFile>Ingame_Aim_AutoAim_config_inf_sec.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>07a655b4a0f57a4d302fde24f1861434</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Ingame_Aim_AutoAim_inf_search</packageName>
-              <size>1141</size>
-              <updateComment />
-              <description>Search allows the player to right click, it will snap on the first highlighted enemy.</description>
-              <devURL />
-              <extractPath />
-              <type>single</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>auto-announce reload add-on</name>
-              <version />
-              <zipFile>Ingame_Aim_AutoAim_config_announce_reload_enable.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>dfdf700c91bb96b61796ad670471cdb6</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Ingame_Aim_AutoAim_announce_reload_enable</packageName>
-              <size>1182</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>multi</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>repair with T add-on</name>
-              <version />
-              <zipFile>Ingame_Aim_AutoAim_config_repair_with_t_enable.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>1b92c6ba9a85093f7575f930c635c8a6</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Ingame_Aim_AutoAim_repair_with_t_enable</packageName>
-              <size>1175</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>multi</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>ally shot blocker add-on</name>
-              <version />
-              <zipFile>Ingame_Aim_AutoAim_config_ally_shot_block_enable.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>570d9d6b45736ffb17075c3c418ff291</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Ingame_Aim_AutoAim_no_friendly_fire_enable</packageName>
-              <size>1176</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>multi</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>help message when spotted add-on</name>
-              <version />
-              <zipFile>Ingame_Aim_AutoAim_config_help_spotted_enable.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>576704ed7a3967d1759dd0f49f5a85fe</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Ingame_Aim_AutoAim_help_spotted_enable</packageName>
-              <size>1166</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>multi</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>lock shell travel distance when enemy dissapeared add-on</name>
-              <version />
-              <zipFile>Ingame_Aim_AutoAim_config_howitzer_distance_lock_enable.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>56eefb41d738c8468856cf6c1911a93d</crc>
-              <enabled>False</enabled>
-              <visible>True</visible>
-              <packageName>Ingame_Aim_AutoAim_howitzer_distance_lock_enable</packageName>
-              <size>1194</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>multi</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_modsSettingsApi</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
+                </dependency>
+              </dependencies>
               <logicalDependencies />
               <shortCuts />
             </config>
           </configs>
           <dependencies />
-          <logicalDependencies />
-          <shortCuts />
-        </mod>
-        <mod>
-          <name>Autoaim Indicator Extended v{version}</name>
-          <version>5.03</version>
-          <zipFile>Ingame_Aim_Autoaim_Indicator_Extended_2017-10-17.zip</zipFile>
-          <timestamp>131547737831684738</timestamp>
-          <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-          <endAddress />
-          <crc>68f514d453922cf0fd7dc59f5621c5c5</crc>
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>Ingame_Aim_AutoAim_Indicator_Extended</packageName>
-          <size>67815</size>
-          <updateComment />
-          <description>Using auto-aiming is very useful, especially when you start someone to twist or just the target stands and does not move. Grabbing it you no longer need to drive with your mouse and try to aim your gun at it. The majority of tankmen learned about this miracle of the invention after the introduction of the regime of tank racing. \n\nOften, in serious mixes, taking someone on an auto-target, you can forget whom you are keeping on the fly and this often does not have a very good effect on your effectiveness, because you can not shoot where you want to. In order to always be aware of what kind of goal is captured in your sight, there is a Mod: Indicator - an extended indication of this Mod. With his help, not to see the captured goal will be simply impossible.\n\nBy setting the mode of the extended auto-target display, you will see the following alerts on the captured target:\n- on the captured tank will be included a constant stroke of the contour\n- around will appear a semitransparent energy field\n- if the target you capture suddenly leaves your field of vision, the arrow on the right or left will show directions and distance to it\n\nThe color of the energy field indicator changes in the mod settings in the hangar. Available colors are shown in the row below. \n\nColor options:\n- blue\n- brown\n- chocolate\n- cornflower blue\n- cream\n- blue cyan\n- emerald\n- golden\n- green\n- yellow-green\n- hot pink\n- lime\n- orange\n- pink\n- purple\n- red\n- WG Backlight\n- WG enemy\n- WG friendly\n- WG platoon\n- yellow</description>
-          <devURL>http://wotsite.net/mody-dlya-world-of-tanks/12206-</devURL>
-          <extractPath />
-          <userDatas />
-          <pictures>
-            <picture>
-              <type>1</type>
-              <URL>http://wotsite.net/images/2014/11/27/2.jpg</URL>
-            </picture>
-          </pictures>
-          <configs />
-          <dependencies>
-            <dependency>
-              <packageName>Dependency_modsSettingsApi</packageName>
-            </dependency>
-            <dependency>
-              <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
-            </dependency>
-          </dependencies>
           <logicalDependencies />
           <shortCuts />
         </mod>
@@ -15291,12 +15368,12 @@
         <mod>
           <name>Enhanced Customizable Radial Menu</name>
           <version />
-          <zipFile>Ingame_Misc_Custom_Radial_menu_2017-09-22.zip</zipFile>
-          <timestamp />
+          <zipFile>Ingame_Misc_Custom_Radial_menu_2017-11-15.zip</zipFile>
+          <timestamp>131552787813261165</timestamp>
           <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
           <endAddress />
-          <crc>c431518f0870e6677b6a59b820414649</crc>
-          <enabled>False</enabled>
+          <crc>f</crc>
+          <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Ingame_Misc_Custom_Radial_Menu</packageName>
           <size>40920</size>
@@ -15467,7 +15544,7 @@
           <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
           <endAddress />
           <crc />
-          <enabled>False</enabled>
+          <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Ingame_Misc_Consumables_Header</packageName>
           <size>0</size>
@@ -15481,11 +15558,11 @@
             <config>
               <name>by Aimdrol without text modifications</name>
               <version />
-              <zipFile>Ingame_Misc_Consumables_by_Aimdrol_without_text_2017_10_06.zip</zipFile>
-              <timestamp />
+              <zipFile>Ingame_Misc_Consumables_by_Aimdrol_without_text_2017_11_15.zip</zipFile>
+              <timestamp>131552795071256317</timestamp>
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>9c8c02b587c84153ce2d20fa5eb8333a</crc>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Misc_Consumables_Aimdrol_w/o_text</packageName>
@@ -15510,12 +15587,12 @@
             <config>
               <name>by Aimdrol with text modifications (english)</name>
               <version />
-              <zipFile>Ingame_Misc_Consumables_by_Aimdrol_with_text_2017_10_06.zip</zipFile>
-              <timestamp />
+              <zipFile>Ingame_Misc_Consumables_by_Aimdrol_with_text_2017_11_15.zip</zipFile>
+              <timestamp>131552794901919145</timestamp>
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>8811e5ee90c7fe8ddd1df9a1b957d8ca</crc>
-              <enabled>False</enabled>
+              <crc>f</crc>
+              <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Misc_Consumables_Aimdrol</packageName>
               <size>3291319</size>
@@ -15532,7 +15609,11 @@
                 </picture>
               </pictures>
               <configs />
-              <dependencies />
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_MLG_english_localization</packageName>
+                </dependency>
+              </dependencies>
               <logicalDependencies />
               <shortCuts />
             </config>
@@ -15540,10 +15621,10 @@
               <name>by Grandpa</name>
               <version />
               <zipFile>Ingame_Misc_Consumables_by_arasgrandpa_0.9.20.0.zip</zipFile>
-              <timestamp />
+              <timestamp>131552811657207035</timestamp>
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>e85f2f2b647fcb47f9e5162b75a5f44d</crc>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Misc_Consumables_arasgrandpa</packageName>
@@ -15552,7 +15633,7 @@
               <description />
               <devURL>https://mods.curse.com/wot-mods/worldoftanks/ammo-equipment-crew-icons</devURL>
               <extractPath />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures>
                 <picture>
@@ -15576,11 +15657,11 @@
             <config>
               <name>by vvooj</name>
               <version />
-              <zipFile>Ingame_Misc_Consumables_by_vvooj_0.9.19.1.zip</zipFile>
-              <timestamp />
+              <zipFile>Ingame_Misc_Consumables_by_vvooj_0.9.20.1.zip</zipFile>
+              <timestamp>131552795309401591</timestamp>
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>acb4152b43f3f5af28abe03317c175d4</crc>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Misc_Consumables_vvooj</packageName>
@@ -15589,7 +15670,7 @@
               <description />
               <devURL>https://mods.curse.com/wot-mods/worldoftanks/letter-shell-icons</devURL>
               <extractPath />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures>
                 <picture>
@@ -16400,7 +16481,7 @@
           <shortCuts />
         </mod>
         <mod>
-          <name>Research Watchdog Without Free Experience</name>
+          <name>Research Watchdog [Discontinued by Author]</name>
           <version />
           <zipFile>Garage_mods_research_watchdog_2017_06_02.zip</zipFile>
           <timestamp />
@@ -16443,7 +16524,31 @@
               <description />
               <devURL />
               <extractPath />
-              <type>multi</type>
+              <type>single1</type>
+              <userDatas />
+              <pictures />
+              <configs />
+              <dependencies />
+              <logicalDependencies />
+              <shortCuts />
+            </config>
+            <config>
+              <name>Without Free Experience</name>
+              <version />
+              <zipFile />
+              <timestamp>131552814471356584</timestamp>
+              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+              <endAddress />
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Garage_mods_research_watchdog_without_free_xp</packageName>
+              <size>0</size>
+              <updateComment />
+              <description />
+              <devURL>http://forum.worldoftanks.eu/index.php?/topic/457788-</devURL>
+              <extractPath />
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -16988,7 +17093,7 @@
           <shortCuts />
         </mod>
         <mod>
-          <name>Medals</name>
+          <name>Medal Modifications</name>
           <version />
           <zipFile />
           <timestamp />
@@ -17000,14 +17105,14 @@
           <packageName>Garage_mods_Medals_Header</packageName>
           <size>0</size>
           <updateComment />
-          <description>Changes the medals with the Effect under the glass.</description>
+          <description />
           <devURL>https://mod-wot.com/load/official_mods_for_world_of_tanks_wot/a_new_kind_of_medals_with_the_effect_under_the_glass_mod_for_world_of_tanks/2-1-0-42</devURL>
           <extractPath />
           <userDatas />
           <pictures />
           <configs>
             <config>
-              <name>with Effect of Glass</name>
+              <name>Glass Effect</name>
               <version />
               <zipFile>Garage_mods_Medals_with_Effect_of_Glass.zip</zipFile>
               <timestamp />
@@ -17019,10 +17124,10 @@
               <packageName>Garage_mods_Medals_Effect_Glass</packageName>
               <size>16943606</size>
               <updateComment />
-              <description />
+              <description>Changes the medals with the Effect under the glass.</description>
               <devURL />
               <extractPath />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures>
                 <picture>
@@ -17611,10 +17716,10 @@
               <packageName>Garage_mods_Hangar_Cave</packageName>
               <size>0</size>
               <updateComment />
-              <description>Dont change hangar with Hangman, you dont find hangar again</description>
+              <description />
               <devURL>http://worldof-tanks.com/technology-hangar/</devURL>
               <extractPath />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures>
                 <picture>
@@ -18051,14 +18156,14 @@
               <endAddress />
               <crc>f</crc>
               <enabled>False</enabled>
-              <visible>True</visible>
+              <visible>False</visible>
               <packageName>Garage_mods_Hangar_concrete_floor</packageName>
               <size>0</size>
               <updateComment />
               <description />
               <devURL>http://forum.worldoftanks.ru/index.php?/topic/1874858-ангар/</devURL>
               <extractPath />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures>
                 <picture>
@@ -18080,14 +18185,14 @@
               <endAddress />
               <crc>d9444b177edc30758e86e082fdc578b1</crc>
               <enabled>False</enabled>
-              <visible>True</visible>
+              <visible>False</visible>
               <packageName>Garage_mods_Hangar_turquoise</packageName>
               <size>24170334</size>
               <updateComment />
               <description>It looks very good compared with the Interface for WoT (English), because is same colour.</description>
               <devURL>http://forum.worldoftanks.ru/index.php?/topic/1874858-ангар/</devURL>
               <extractPath />
-              <type>single</type>
+              <type>single1</type>
               <userDatas />
               <pictures>
                 <picture>
@@ -18156,7 +18261,7 @@
           <size>216380747</size>
           <updateComment />
           <description>Changes the complete Interface of WoT. Its looking pretty cool, nice colours. Just Test It.</description>
-          <devURL>http://forum.worldoftanks.eu/index.php?/topic/541231-interface-for-09180-by-p-h-a-r-a-o-n/</devURL>
+          <devURL>http://forum.worldoftanks.eu/index.php?/topic/541231-</devURL>
           <extractPath />
           <userDatas />
           <pictures>
@@ -19601,7 +19706,7 @@
             </config>
             <config>
               <name>YasenKrasen session statistics v{version}</name>
-              <version>0.9.20.1.2</version>
+              <version>0.9.20.1.3</version>
               <zipFile />
               <timestamp />
               <startAddress />
@@ -19628,12 +19733,12 @@
               <configs>
                 <config>
                   <name>Mini</name>
-                  <version>0.9.20.1.2</version>
-                  <zipFile>Garage_Session_Stats_YasenKrasen_Mini_0.9.20.1.2.zip</zipFile>
-                  <timestamp>131542704918648071</timestamp>
+                  <version>0.9.20.1.3</version>
+                  <zipFile>Statistics_YasenKrasen_Mini_0.9.20.1.3.zip</zipFile>
+                  <timestamp>131553306005288626</timestamp>
                   <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
                   <endAddress />
-                  <crc>08143d844c5d1afbbffe39fafcdae4f6</crc>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Statistic_Session_YK_mini</packageName>
@@ -19657,12 +19762,12 @@
                 </config>
                 <config>
                   <name>Vanilla</name>
-                  <version>0.9.20.1.2</version>
-                  <zipFile>Garage_Session_Stats_YasenKrasen_Vanilla_0.9.20.1.2.zip</zipFile>
-                  <timestamp>131542705473566875</timestamp>
+                  <version>0.9.20.1.3</version>
+                  <zipFile>Statistics_YasenKrasen_Vanilla_0.9.20.1.3.zip</zipFile>
+                  <timestamp>131553306061001431</timestamp>
                   <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
                   <endAddress />
-                  <crc>6a56fb960adeaeffaec985532b6f7c1d</crc>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Statistic_Session_YK_Vanilla</packageName>
@@ -19686,12 +19791,12 @@
                 </config>
                 <config>
                   <name>Core</name>
-                  <version>0.9.20.1.2</version>
-                  <zipFile>Garage_Session_Stats_YasenKrasen_Core_0.9.20.1.2.zip</zipFile>
-                  <timestamp>131542705703110591</timestamp>
+                  <version>0.9.20.1.3</version>
+                  <zipFile>Statistics_YasenKrasen_Core_0.9.20.1.3.zip</zipFile>
+                  <timestamp>131553306103132991</timestamp>
                   <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
                   <endAddress />
-                  <crc>4394708c4a67f746935a891a00f12b0d</crc>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Statistic_Session_YK_Core</packageName>
@@ -19735,12 +19840,12 @@
                   <configs>
                     <config>
                       <name>V1</name>
-                      <version>0.9.20.1.2</version>
-                      <zipFile>Garage_Session_Stats_YasenKrasen_Backgrounds_V1_0.9.20.1.2.zip</zipFile>
-                      <timestamp>131542714624318212</timestamp>
+                      <version>0.9.20.1.3</version>
+                      <zipFile>Statistics_YasenKrasen_Backgrounds_V1_0.9.20.1.3.zip</zipFile>
+                      <timestamp>131553306175878717</timestamp>
                       <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
                       <endAddress />
-                      <crc>eaa65e84750bb85016dd84bc4670771c</crc>
+                      <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Statistic_Session_YK_background_v1</packageName>
@@ -19764,12 +19869,12 @@
                     </config>
                     <config>
                       <name>V2</name>
-                      <version>0.9.20.1.2</version>
-                      <zipFile>Garage_Session_Stats_YasenKrasen_Backgrounds_V2_0.9.20.1.2.zip</zipFile>
-                      <timestamp>131542714718312237</timestamp>
+                      <version>0.9.20.1.3</version>
+                      <zipFile>Statistics_YasenKrasen_Backgrounds_V2_0.9.20.1.3.zip</zipFile>
+                      <timestamp>131553306231538592</timestamp>
                       <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
                       <endAddress />
-                      <crc>ff3facf304a56ae24102d68e603a1dc1</crc>
+                      <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Statistic_Session_YK_background_v2</packageName>
@@ -19793,12 +19898,12 @@
                     </config>
                     <config>
                       <name>V3</name>
-                      <version>0.9.20.1.2</version>
-                      <zipFile>Garage_Session_Stats_YasenKrasen_Backgrounds_V3_0.9.20.1.2.zip</zipFile>
-                      <timestamp>131542714807912320</timestamp>
+                      <version>0.9.20.1.3</version>
+                      <zipFile>Statistics_YasenKrasen_Backgrounds_V3_0.9.20.1.3.zip</zipFile>
+                      <timestamp>131553306274203787</timestamp>
                       <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
                       <endAddress />
-                      <crc>a254748c689fb58ed25e7cfcb83547f4</crc>
+                      <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Statistic_Session_YK_background_v3</packageName>
@@ -19822,12 +19927,12 @@
                     </config>
                     <config>
                       <name>V4</name>
-                      <version>0.9.20.1.2</version>
-                      <zipFile>Garage_Session_Stats_YasenKrasen_Backgrounds_V4_0.9.20.1.2.zip</zipFile>
-                      <timestamp>131542714909412877</timestamp>
+                      <version>0.9.20.1.3</version>
+                      <zipFile>Statistics_YasenKrasen_Backgrounds_V4_0.9.20.1.3.zip</zipFile>
+                      <timestamp>131553306313789774</timestamp>
                       <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
                       <endAddress />
-                      <crc>3ffac394e774e537ed57377519ebb9cf</crc>
+                      <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Statistic_Session_YK_background_v4</packageName>
@@ -19851,12 +19956,12 @@
                     </config>
                     <config>
                       <name>V5</name>
-                      <version>0.9.20.1.2</version>
-                      <zipFile>Garage_Session_Stats_YasenKrasen_Backgrounds_V5_0.9.20.1.2.zip</zipFile>
-                      <timestamp>131542715030869615</timestamp>
+                      <version>0.9.20.1.3</version>
+                      <zipFile>Statistics_YasenKrasen_Backgrounds_V5_0.9.20.1.3.zip</zipFile>
+                      <timestamp>131553306359250800</timestamp>
                       <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
                       <endAddress />
-                      <crc>95ef55d370159550122b9b3fc4362435</crc>
+                      <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Statistic_Session_YK_background_v5</packageName>
@@ -19884,40 +19989,7 @@
                   <shortCuts />
                 </config>
                 <config>
-                  <name>Graphical</name>
-                  <version>0.9.20.1.2</version>
-                  <zipFile>Garage_Session_Stats_YasenKrasen_Graphical_0.9.20.1.2.zip</zipFile>
-                  <timestamp>131542722320507193</timestamp>
-                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-                  <endAddress />
-                  <crc>7f3ae7dcc2c0d60b36e8a7fdefd601bb</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Statistic_Session_YK_Graphical</packageName>
-                  <size>244574</size>
-                  <updateComment />
-                  <description />
-                  <devURL />
-                  <extractPath />
-                  <type>single_dropdown1</type>
-                  <userDatas />
-                  <pictures>
-                    <picture>
-                      <type>1</type>
-                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg</URL>
-                    </picture>
-                    <picture>
-                      <type>1</type>
-                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg</URL>
-                    </picture>
-                  </pictures>
-                  <configs />
-                  <dependencies />
-                  <logicalDependencies />
-                  <shortCuts />
-                </config>
-                <config>
-                  <name>default English</name>
+                  <name>Default English</name>
                   <version />
                   <zipFile />
                   <timestamp>131542717093817752</timestamp>
@@ -19978,7 +20050,7 @@
                   <shortCuts />
                 </config>
                 <config>
-                  <name>default German (Standard Deutsch)</name>
+                  <name>Default German (Standard Deutsch)</name>
                   <version />
                   <zipFile>Garage_Session_Stats_YasenKrasen_german_base_core_config_2017-11-04.zip</zipFile>
                   <timestamp>131542783786732876</timestamp>
@@ -20048,6 +20120,39 @@
                   <shortCuts />
                 </config>
                 <config>
+                  <name>Graphical</name>
+                  <version>0.9.20.1.3</version>
+                  <zipFile>Statistics_YasenKrasen_Graphical_0.9.20.1.3.zip</zipFile>
+                  <timestamp>131553306480758408</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Statistic_Session_YK_Graphical</packageName>
+                  <size>244574</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single_dropdown1</type>
+                  <userDatas />
+                  <pictures>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg</URL>
+                    </picture>
+                    <picture>
+                      <type>1</type>
+                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg</URL>
+                    </picture>
+                  </pictures>
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
                   <name>Daily Reset</name>
                   <version />
                   <zipFile>Garage_Session_Stats_YasenKrasen_Daily_Reset_2017_05_11.zip</zipFile>
@@ -20073,12 +20178,12 @@
                 </config>
                 <config>
                   <name>Kill Skulls</name>
-                  <version>0.9.20.1.2</version>
-                  <zipFile>Garage_Session_Stats_YasenKrasen_Ingame_Skulls_0.9.20.1.2.zip</zipFile>
-                  <timestamp>131542719658575282</timestamp>
+                  <version>0.9.20.1.3</version>
+                  <zipFile>Statistics_YasenKrasen_Ingame_Skulls_0.9.20.1.3.zip</zipFile>
+                  <timestamp>131553306576999731</timestamp>
                   <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
                   <endAddress />
-                  <crc>42a39e12d6b6f5afac87bdf06c9d9f0e</crc>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Statistic_Session_YK_Skulls</packageName>
@@ -20104,6 +20209,79 @@
                   <logicalDependencies />
                   <shortCuts />
                 </config>
+                <config>
+                  <name>Enable Beta Features (English Only)</name>
+                  <version>0.9.20.1.3_beta</version>
+                  <zipFile>Statistics_YasenKrasen_Beta_2017-11-16.zip</zipFile>
+                  <timestamp>131553305655764782</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Statistic_Session_YK_Beta_Features</packageName>
+                  <size>0</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>multi</type>
+                  <userDatas />
+                  <pictures />
+                  <configs>
+                    <config>
+                      <name>Regular</name>
+                      <version>0.9.20.1.3_beta</version>
+                      <zipFile />
+                      <timestamp />
+                      <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                      <endAddress />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Statistic_Session_YK_Beta_Features_Regular</packageName>
+                      <size>0</size>
+                      <updateComment />
+                      <description />
+                      <devURL />
+                      <extractPath />
+                      <type>single1</type>
+                      <userDatas />
+                      <pictures />
+                      <configs />
+                      <dependencies />
+                      <logicalDependencies />
+                      <shortCuts />
+                    </config>
+                    <config>
+                      <name>Graphical</name>
+                      <version>0.9.20.1.3_beta</version>
+                      <zipFile>Statistics_YK_graphical_beta_2017-11-16.zip</zipFile>
+                      <timestamp>131553305786034597</timestamp>
+                      <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                      <endAddress />
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Statistic_Session_YK_Beta_Features_Graphical</packageName>
+                      <size>0</size>
+                      <updateComment />
+                      <description />
+                      <devURL />
+                      <extractPath />
+                      <type>single1</type>
+                      <userDatas />
+                      <pictures />
+                      <configs />
+                      <dependencies />
+                      <logicalDependencies />
+                      <shortCuts />
+                    </config>
+                  </configs>
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
               </configs>
               <dependencies />
               <logicalDependencies />
@@ -20117,11 +20295,11 @@
         <mod>
           <name>ADU Active Dossier Uploader PlugIns</name>
           <version />
-          <zipFile>Garage_mods_ADU_EXE_2017-07-20.zip</zipFile>
-          <timestamp />
+          <zipFile>Garage_mods_ADU_EXE_2017-11-15.zip</zipFile>
+          <timestamp>131553268701865075</timestamp>
           <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
           <endAddress />
-          <crc>1cea8fef5bff215c137c14d54c258558</crc>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Statistic_ADU_Header</packageName>
@@ -21155,14 +21333,14 @@
               <shortCuts />
             </config>
             <config>
-              <name>MLG Mod by Aimdrol</name>
+              <name>MLG Mod by Aimdrol (English sound and text)</name>
               <version />
-              <zipFile>Sounds_mlg_mod_voice_2017-08-06.zip</zipFile>
-              <timestamp />
+              <zipFile>Sounds_mlg_mod_voice_2017-11-15.zip</zipFile>
+              <timestamp>131553256878201828</timestamp>
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>51bb9d7b28d9ddcfda5a17ad633f1840</crc>
-              <enabled>False</enabled>
+              <crc>f</crc>
+              <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Sounds_crew_sounds_MLG_Base</packageName>
               <size>15164057</size>
@@ -21226,6 +21404,9 @@
               <dependencies>
                 <dependency>
                   <packageName>Dependency_Sounds_Increase_Sound_Memory</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_MLG_english_localization</packageName>
                 </dependency>
               </dependencies>
               <logicalDependencies />
@@ -21317,7 +21498,7 @@
               <size>17111513</size>
               <updateComment />
               <description />
-              <devURL>http://forum.worldoftanks.com/index.php?/topic/492840-my-little-pony-tanking-is-magic-crew-voice-mod/</devURL>
+              <devURL>http://forum.worldoftanks.com/index.php?/topic/492840-</devURL>
               <extractPath />
               <type>single1</type>
               <userDatas />
@@ -22115,11 +22296,11 @@
         <mod>
           <name>Audio</name>
           <version />
-          <zipFile>Sixth_Sense_Audio_Reset_XVM_Sound_Mapping_2017-11-03.zip</zipFile>
-          <timestamp>131542799140874471</timestamp>
+          <zipFile />
+          <timestamp>131553261745113142</timestamp>
           <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
           <endAddress />
-          <crc>08576874df20bfec28be5afa059a9fed</crc>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Sixth_Sense_Audio_Header</packageName>
@@ -22398,12 +22579,12 @@
             <config>
               <name>Illuminati by Aimdrol</name>
               <version />
-              <zipFile>Sixth_Sense_Audio_Illumanati_2017-09-25.zip</zipFile>
-              <timestamp>131529158396941164</timestamp>
+              <zipFile>Sixth_Sense_Audio_Illumanati_2017-11-16.zip</zipFile>
+              <timestamp>131553261185541447</timestamp>
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>c495d333111fe7ce3894d87e9370e3d7</crc>
-              <enabled>False</enabled>
+              <crc>f</crc>
+              <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Sixth_Sense_Audio_Illumanati</packageName>
               <size>3747290</size>
@@ -26626,7 +26807,7 @@
           <endAddress />
           <crc>a7b532eb93ba75f471632d42c93cfd0f</crc>
           <enabled>False</enabled>
-          <visible>True</visible>
+          <visible>False</visible>
           <packageName>Custom_Tank_Skins_A84_M48_Make_Patton_Great_Again</packageName>
           <size>1283960</size>
           <updateComment />
