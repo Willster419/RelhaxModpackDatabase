@@ -9635,7 +9635,7 @@
               <description />
               <devURL />
               <extractPath />
-              <type>single_dropdown</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -9659,7 +9659,7 @@
               <description />
               <devURL />
               <extractPath />
-              <type>single_dropdown</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -9683,7 +9683,7 @@
               <description />
               <devURL />
               <extractPath />
-              <type>single_dropdown</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -9707,7 +9707,7 @@
               <description />
               <devURL />
               <extractPath />
-              <type>single_dropdown</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -9731,7 +9731,7 @@
               <description />
               <devURL />
               <extractPath />
-              <type>single_dropdown</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -9755,7 +9755,7 @@
               <description />
               <devURL />
               <extractPath />
-              <type>single_dropdown</type>
+              <type>single1</type>
               <userDatas />
               <pictures />
               <configs />
@@ -10167,7 +10167,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>zoom_Base</packageName>
+          <packageName>Ingame_Aim_Zoomin_Base</packageName>
           <size>0</size>
           <updateComment />
           <description>Allows you to change the ammount that you can zoom in.\nDefault zoom changes the first zoom in when you go to sniper mode\ntd brake allows you to change wether the tank moves when you point your gun out of gun range</description>
@@ -10186,7 +10186,7 @@
               <crc>7b19785f8ee7879f1d9cd407d55c960c</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_pmod_zoomIn_12</packageName>
+              <packageName>Ingame_Aim_zoom_pmod_zoomIn_12</packageName>
               <size>1083</size>
               <updateComment />
               <description />
@@ -10210,7 +10210,7 @@
               <crc>59bda55b8c0cdb194ff4dc75f455e240</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_pmod_zoomIn_25</packageName>
+              <packageName>Ingame_Aim_zoom_pmod_zoomIn_25</packageName>
               <size>1087</size>
               <updateComment />
               <description />
@@ -10234,7 +10234,7 @@
               <crc>e9a97f955bd4abecd60119bb3def4674</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_pmod_zoomIn_2-32</packageName>
+              <packageName>Ingame_Aim_zoom_pmod_zoomIn_2-32</packageName>
               <size>1095</size>
               <updateComment />
               <description />
@@ -10258,7 +10258,7 @@
               <crc>d2acc10333680e9710e3da9c666eb2d6</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_pmod_zoomIn_2-48</packageName>
+              <packageName>Ingame_Aim_zoom_pmod_zoomIn_2-48</packageName>
               <size>1099</size>
               <updateComment />
               <description />
@@ -10273,151 +10273,201 @@
               <shortCuts />
             </config>
             <config>
-              <name>td brake on</name>
+              <name>Modify TD Brake</name>
               <version />
-              <zipFile>pmod_td_brake_on_2017-05-01.zip</zipFile>
-              <timestamp />
+              <zipFile />
+              <timestamp>131558453417276234</timestamp>
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>00ca229c0c5992665d3530b0028e91da</crc>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_pmod_td_brake_on</packageName>
-              <size>933</size>
+              <packageName>Ingame_Aim_zoom_pmod_td_brake_header</packageName>
+              <size>0</size>
               <updateComment />
               <description />
               <devURL />
               <extractPath />
-              <type>single_dropdown1</type>
+              <type>multi</type>
               <userDatas />
               <pictures />
-              <configs />
+              <configs>
+                <config>
+                  <name>td brake on</name>
+                  <version />
+                  <zipFile>pmod_td_brake_on_2017-05-01.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>00ca229c0c5992665d3530b0028e91da</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_zoom_pmod_td_brake_on</packageName>
+                  <size>933</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>td brake off</name>
+                  <version />
+                  <zipFile>pmod_td_brake_off_2017-05-01.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>a8ad683c18c4fe2aec4fdf8e003bcf97</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_zoom_pmod_td_brake_off</packageName>
+                  <size>947</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+              </configs>
               <dependencies />
               <logicalDependencies />
               <shortCuts />
             </config>
             <config>
-              <name>td brake off</name>
+              <name>Modify Starting zoom</name>
               <version />
-              <zipFile>pmod_td_brake_off_2017-05-01.zip</zipFile>
-              <timestamp />
+              <zipFile />
+              <timestamp>131558453697436456</timestamp>
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>a8ad683c18c4fe2aec4fdf8e003bcf97</crc>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_pmod_td_brake_off</packageName>
-              <size>947</size>
+              <packageName>Ingame_Aim_zoom_pmod_td_start_zoom_header</packageName>
+              <size>0</size>
               <updateComment />
               <description />
               <devURL />
               <extractPath />
-              <type>single_dropdown1</type>
+              <type>multi</type>
               <userDatas />
               <pictures />
-              <configs />
+              <configs>
+                <config>
+                  <name>starting zoom 2x (client default)</name>
+                  <version />
+                  <zipFile>pmod_default_zoom_2x_2017-05-01.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>2e4c0083cac767966fb6d754febe7599</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_zoom_pmod_default_zoom_2x</packageName>
+                  <size>943</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>starting zoom 4x</name>
+                  <version />
+                  <zipFile>pmod_default_zoom_4x_2017-05-01.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>756585f5aff83b8250ff9efeeb742a0c</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_zoom_pmod_default_zoom_4x</packageName>
+                  <size>943</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>starting zoom 8x</name>
+                  <version />
+                  <zipFile>pmod_default_zoom_8x_2017-05-01.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f382b11ef5a5f9c8bfff046432ddc401</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_zoom_pmod_default_zoom_8x</packageName>
+                  <size>943</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>starting zoom 16x</name>
+                  <version />
+                  <zipFile>pmod_default_zoom_16x_2017-05-01.zip</zipFile>
+                  <timestamp />
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>81800557a31381e034946318b99dc9f5</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_zoom_pmod_default_zoom_16x</packageName>
+                  <size>946</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+              </configs>
               <dependencies />
               <logicalDependencies />
               <shortCuts />
             </config>
             <config>
-              <name>starting zoom 2x (client default)</name>
-              <version />
-              <zipFile>pmod_default_zoom_2x_2017-05-01.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>2e4c0083cac767966fb6d754febe7599</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>zoom_pmod_default_zoom_2x</packageName>
-              <size>943</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>single_dropdown2</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>starting zoom 4x</name>
-              <version />
-              <zipFile>pmod_default_zoom_4x_2017-05-01.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>756585f5aff83b8250ff9efeeb742a0c</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>zoom_pmod_default_zoom_4x</packageName>
-              <size>943</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>single_dropdown2</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>starting zoom 8x</name>
-              <version />
-              <zipFile>pmod_default_zoom_8x_2017-05-01.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>f382b11ef5a5f9c8bfff046432ddc401</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>zoom_pmod_default_zoom_8x</packageName>
-              <size>943</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>single_dropdown2</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>starting zoom 16x</name>
-              <version />
-              <zipFile>pmod_default_zoom_16x_2017-05-01.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>81800557a31381e034946318b99dc9f5</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>zoom_pmod_default_zoom_16x</packageName>
-              <size>946</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>single_dropdown2</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>enable pmod zoom indicator</name>
+              <name>Enable pmod zoom indicator</name>
               <version />
               <zipFile>pmod_enable_zoom_indicator_2017-05-01.zip</zipFile>
               <timestamp />
@@ -10426,7 +10476,7 @@
               <crc>94874e344024b246057b0ca6e24e38bd</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_pmod_enable_zoom_indicator</packageName>
+              <packageName>Ingame_Aim_zoom_pmod_enable_zoom_indicator</packageName>
               <size>917</size>
               <updateComment />
               <description />
