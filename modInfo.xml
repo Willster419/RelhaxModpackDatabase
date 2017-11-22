@@ -2952,11 +2952,11 @@
                           <timestamp>131558444585370638</timestamp>
                           <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
                           <endAddress />
-                          <crc>f</crc>
+                          <crc>b22806acbde905d86566fbd9dae66fe4</crc>
                           <enabled>True</enabled>
                           <visible>True</visible>
                           <packageName>XVMconfigBuilder_TankCarouselBaseModifications_CellContent_NormalStyle_Scale_0.6</packageName>
-                          <size>1098</size>
+                          <size>1157</size>
                           <updateComment />
                           <description>Reduce the size of the carousel overall by a factor of 0.6</description>
                           <devURL />
@@ -9605,11 +9605,11 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>zoom_Ingame_Info_ZoomOut_Header</packageName>
+          <packageName>Ingame_Aim_ZoomOut_Header</packageName>
           <size>0</size>
           <updateComment />
           <description>How far you can zoom out in arcade mode in meters\nincrease scroll speed - your mouse wheel will be faster to scroll\ndisable gun shake - your aim will not shake when you are hit</description>
-          <devURL>http://forum.worldoftanks.ru/index.php?/topic/644719-</devURL>
+          <devURL />
           <extractPath />
           <userDatas />
           <pictures>
@@ -9620,145 +9620,268 @@
           </pictures>
           <configs>
             <config>
-              <name>100m arcade + postmortem</name>
+              <name>Arcade Zoom</name>
               <version />
-              <zipFile>Ingame_Info_Zoom_out_100.zip</zipFile>
+              <zipFile />
               <timestamp />
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>54cd0e85274cfd906de930fe2fc02224</crc>
+              <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_Ingame_Info_ZoomOut_Only_100m_in_arcade/postmortem</packageName>
-              <size>496</size>
+              <packageName>Ingame_Aim_ZoomOut_Arcade_Header</packageName>
+              <size>0</size>
               <updateComment />
               <description />
               <devURL />
               <extractPath />
-              <type>single1</type>
+              <type>multi</type>
               <userDatas />
               <pictures />
-              <configs />
+              <configs>
+                <config>
+                  <name>100m</name>
+                  <version />
+                  <zipFile>Ingame_Aim_Zoom_out_Arcade_100.zip</zipFile>
+                  <timestamp>131558609328721033</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_ZoomOut_Arcade_100</packageName>
+                  <size>525</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>200m</name>
+                  <version />
+                  <zipFile>Ingame_Aim_Zoom_out_Arcade_200.zip</zipFile>
+                  <timestamp>131558609415036773</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_ZoomOut_Arcade_200</packageName>
+                  <size>524</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>500m</name>
+                  <version />
+                  <zipFile>Ingame_Aim_Zoom_out_Arcade_500.zip</zipFile>
+                  <timestamp>131558609524808408</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_ZoomOut_Arcade_500</packageName>
+                  <size>526</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+              </configs>
               <dependencies />
               <logicalDependencies />
               <shortCuts />
             </config>
             <config>
-              <name>100m only in arcade</name>
+              <name>PostMortem Zoom</name>
               <version />
-              <zipFile>Ingame_Info_Zoom_out_Only_100_in_arcade.zip</zipFile>
+              <zipFile />
               <timestamp />
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>c4542209bd8abac4acdbf5e9cc517b8f</crc>
+              <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_Ingame_Info_ZoomOut_Only_100m_in_arcade</packageName>
-              <size>525</size>
+              <packageName>Ingame_Aim_ZoomOut_PostMortem_Header</packageName>
+              <size>0</size>
               <updateComment />
               <description />
               <devURL />
               <extractPath />
-              <type>single1</type>
+              <type>multi</type>
               <userDatas />
               <pictures />
-              <configs />
+              <configs>
+                <config>
+                  <name>100m</name>
+                  <version />
+                  <zipFile>Ingame_Aim_Zoom_out_Postmortem_100.zip</zipFile>
+                  <timestamp>131558609679521328</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_ZoomOut_PostMortem_100</packageName>
+                  <size>525</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>200m</name>
+                  <version />
+                  <zipFile>Ingame_Aim_Zoom_out_Postmortem_200.zip</zipFile>
+                  <timestamp>131558609760950484</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_ZoomOut_PostMortem_200</packageName>
+                  <size>524</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>500m</name>
+                  <version />
+                  <zipFile>Ingame_Aim_Zoom_out_Postmortem_500.zip</zipFile>
+                  <timestamp>131558609843694672</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_ZoomOut_PostMortem_500</packageName>
+                  <size>526</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+              </configs>
               <dependencies />
               <logicalDependencies />
               <shortCuts />
             </config>
             <config>
-              <name>200m arcade + postmortem</name>
+              <name>Stragetic (SPG) Zoom</name>
               <version />
-              <zipFile>Ingame_Info_Zoom_out_200.zip</zipFile>
+              <zipFile />
               <timestamp />
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>8e6d76d7d10806bc4e7efebe1653809d</crc>
+              <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_Ingame_Info_ZoomOut_Only_200m_in_arcade/postmortem</packageName>
-              <size>496</size>
+              <packageName>Ingame_Aim_ZoomOut_Stragetic_Header</packageName>
+              <size>0</size>
               <updateComment />
               <description />
               <devURL />
               <extractPath />
-              <type>single1</type>
+              <type>multi</type>
               <userDatas />
               <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>200m only in arcade</name>
-              <version />
-              <zipFile>Ingame_Info_Zoom_out_Only_200_in_arcade.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>7990713d216bc4f1cc7a65d05d73438a</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>zoom_Ingame_Info_ZoomOut_Only_200m_in_arcade</packageName>
-              <size>524</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>single1</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>500m arcade + postmortem</name>
-              <version />
-              <zipFile>Ingame_Info_Zoom_out_500.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>309244af910de9b80f0ca6ff83df1d6c</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>zoom_Ingame_Info_ZoomOut_Only_500m_in_arcade/postmortem</packageName>
-              <size>497</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>single1</type>
-              <userDatas />
-              <pictures />
-              <configs />
-              <dependencies />
-              <logicalDependencies />
-              <shortCuts />
-            </config>
-            <config>
-              <name>500m only in arcade</name>
-              <version />
-              <zipFile>Ingame_Info_Zoom_out_Only_500_in_arcade.zip</zipFile>
-              <timestamp />
-              <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
-              <endAddress />
-              <crc>59107f25176aab9497d3b71095185b88</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>zoom_Ingame_Info_ZoomOut_Only_500m_in_arcade</packageName>
-              <size>526</size>
-              <updateComment />
-              <description />
-              <devURL />
-              <extractPath />
-              <type>single1</type>
-              <userDatas />
-              <pictures />
-              <configs />
+              <configs>
+                <config>
+                  <name>200m</name>
+                  <version />
+                  <zipFile>Ingame_Aim_Zoom_out_Stragetic_200.zip</zipFile>
+                  <timestamp>131558609933043696</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_ZoomOut_Stragetic_200</packageName>
+                  <size>524</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+                <config>
+                  <name>500m</name>
+                  <version />
+                  <zipFile>Ingame_Aim_Zoom_out_Stragetic_500.zip</zipFile>
+                  <timestamp>131558610017538113</timestamp>
+                  <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
+                  <endAddress />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_ZoomOut_Stragetic_500</packageName>
+                  <size>526</size>
+                  <updateComment />
+                  <description />
+                  <devURL />
+                  <extractPath />
+                  <type>single1</type>
+                  <userDatas />
+                  <pictures />
+                  <configs />
+                  <dependencies />
+                  <logicalDependencies />
+                  <shortCuts />
+                </config>
+              </configs>
               <dependencies />
               <logicalDependencies />
               <shortCuts />
@@ -9773,7 +9896,7 @@
               <crc>fbc9bcfbea22a0312b14a0098515c75b</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_Ingame_Aim_ZoomOut_Increase_Scroll_Speed</packageName>
+              <packageName>Ingame_Aim_ZoomOut_Increase_Scroll_Speed</packageName>
               <size>632</size>
               <updateComment />
               <description>your mouse wheel will be faster to scroll</description>
@@ -9797,7 +9920,7 @@
               <crc>d47930eba82b976cf517f9d3e6e1dbe4</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>zoom_Ingame_Aim_disable_gun_shake</packageName>
+              <packageName>Ingame_Aim_disable_gun_shake</packageName>
               <size>1392</size>
               <updateComment />
               <description>your aim will not shake when you are hit</description>
@@ -10279,7 +10402,7 @@
               <timestamp>131558453417276234</timestamp>
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>f</crc>
+              <crc />
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Aim_zoom_pmod_td_brake_header</packageName>
@@ -10352,7 +10475,7 @@
               <timestamp>131558453697436456</timestamp>
               <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
               <endAddress />
-              <crc>f</crc>
+              <crc />
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Aim_zoom_pmod_td_start_zoom_header</packageName>
@@ -10532,7 +10655,7 @@
           <shortCuts />
         </mod>
         <mod>
-          <name>no sniper scroll</name>
+          <name>No sniper scroll</name>
           <version />
           <zipFile>Ingame_Aim_no_scroll_mod_0.9.20.0.zip</zipFile>
           <timestamp />
@@ -10699,11 +10822,11 @@
           <timestamp>131558450764860760</timestamp>
           <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
           <endAddress />
-          <crc>f</crc>
+          <crc>53dd637b8565cd56d687f300d7e4e2a4</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Ingame_Aim_ExtraAimInfo_Base</packageName>
-          <size>34064</size>
+          <size>62007</size>
           <updateComment>2017-11-01: Fixed aimTime flickering of -0.1</updateComment>
           <description />
           <devURL>https://koreanrandom.com/forum/topic/42300-</devURL>
