@@ -11015,7 +11015,7 @@
           <startAddress>http://wotmods.relhaxmodpack.com/WoT/{onlineFolder}/</startAddress>
           <endAddress />
           <crc>f</crc>
-          <enabled>True</enabled>
+          <enabled>False</enabled>
           <visible>True</visible>
           <packageName>Ingame_Aim_ExtraAimInfo_Base</packageName>
           <size>31415</size>
@@ -20249,7 +20249,11 @@
                   <shortCuts />
                 </config>
               </configs>
-              <dependencies />
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_ShuraBB_SDK</packageName>
+                </dependency>
+              </dependencies>
               <logicalDependencies />
               <shortCuts />
             </config>
