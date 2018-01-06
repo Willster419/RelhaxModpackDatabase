@@ -1,0 +1,41 @@
+<patchs>
+  <!-- WARNING: This method is the old way to do this, and no longer encouraged. -->
+  <!-- if you run into problems with this method I will tell you to use the new method -->
+  <!-- the xvm config folder name macro is xvmConfigFolderName -->
+  <!-- part one: add the hp bar definitions -->
+  <patch>
+    <type>regex</type>
+    <patchPath>app</patchPath>
+    <file>\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc</file>
+    <line></line>
+    <search>"def":[ \t]*{</search>
+    <replace>"def": {
+    "hpRatio": {
+      "x": 0,
+      "y": 1,
+      "w": "{{hp-ratio:135}}",
+      "h": 2,
+      "alpha": "{{alive?80|0}}",
+      "bgColor": "{{player?0xFFDD33|{{c:system}}}}"
+    },</replace>
+  </patch>
+  <!-- part two: add the hp bar references -->
+  <patch>
+    <type>regex</type>
+    <patchPath>app</patchPath>
+    <file>\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc</file>
+    <line></line>
+    <search>"extraFieldsLeft":[ \t]*\[</search>
+    <replace>"extraFieldsLeft": [
+        ${"def.hpRatio"},</replace>
+  </patch>
+  <patch>
+    <type>regex</type>
+    <patchPath>app</patchPath>
+    <file>\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc</file>
+    <line></line>
+    <search>"extraFieldsRight":[ \t]*\[</search>
+    <replace>"extraFieldsRight": [
+        ${"def.hpRatio"},</replace>
+  </patch>
+</patchs>
