@@ -14,9 +14,8 @@
   <!-- add tank view range array entry -->
   <patch>
     <type>json</type>
-    <mode>edit</mode>
     <patchPath>app</patchPath>
-    <file>\res_mods\configs\xvm\\xvmConfigFolderName\minimapCircles.xc</file>
+    <file>\res_mods\configs\xvm\xvmConfigFolderName\minimapCircles.xc</file>
     <path>$.circles.view</path>
     <search>.*</search>
     <!-- notice that the property "blindarea" acts as a unique key/ID for the later jsonpatch search values -->
@@ -25,9 +24,8 @@
   </patch>
   <patch>
     <type>json</type>
-    <mode>edit</mode>
     <patchPath>app</patchPath>
-    <file>\res_mods\configs\xvm\\xvmConfigFolderName\minimapCircles.xc</file>
+    <file>\res_mods\configs\xvm\xvmConfigFolderName\minimapCircles.xc</file>
     <path>$.circles.view[?(@.distance == 'blindarea')]</path>
     <search></search>
     <replace>enabled/true</replace>
@@ -35,9 +33,8 @@
   </patch>
   <patch>
     <type>json</type>
-    <mode>edit</mode>
     <patchPath>app</patchPath>
-    <file>\res_mods\configs\xvm\\xvmConfigFolderName\minimapCircles.xc</file>
+    <file>\res_mods\configs\xvm\xvmConfigFolderName\minimapCircles.xc</file>
     <path>$.circles.view[?(@.distance == 'blindarea')]</path>
     <search></search>
     <replace>scale/1</replace>
@@ -45,9 +42,8 @@
   </patch>
   <patch>
     <type>json</type>
-    <mode>edit</mode>
     <patchPath>app</patchPath>
-    <file>\res_mods\configs\xvm\\xvmConfigFolderName\minimapCircles.xc</file>
+    <file>\res_mods\configs\xvm\xvmConfigFolderName\minimapCircles.xc</file>
     <path>$.circles.view[?(@.distance == 'blindarea')]</path>
     <search></search>
     <replace>thickness/0.75</replace>
@@ -55,9 +51,8 @@
   </patch>
   <patch>
     <type>json</type>
-    <mode>edit</mode>
     <patchPath>app</patchPath>
-    <file>\res_mods\configs\xvm\\xvmConfigFolderName\minimapCircles.xc</file>
+    <file>\res_mods\configs\xvm\xvmConfigFolderName\minimapCircles.xc</file>
     <path>$.circles.view[?(@.distance == 'blindarea')]</path>
     <search></search>
     <replace>alpha/80</replace>
@@ -65,9 +60,8 @@
   </patch>
   <patch>
     <type>json</type>
-    <mode>edit</mode>
     <patchPath>app</patchPath>
-    <file>\res_mods\configs\xvm\\xvmConfigFolderName\minimapCircles.xc</file>
+    <file>\res_mods\configs\xvm\xvmConfigFolderName\minimapCircles.xc</file>
     <path>$.circles.view[?(@.distance == 'blindarea')]</path>
     <search></search>
     <replace>color/0x3EB5F1</replace>
