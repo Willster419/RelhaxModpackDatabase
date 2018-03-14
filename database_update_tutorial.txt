@@ -1,0 +1,39 @@
+open shortcut database update 
+Run script create database php
+pull database
+load database
+update database (Online method)
+commit & push database in folder (description "Updated CRCs and filesizes")
+Do NOT Pull, push right away
+open up databaseupdate.txt (in relhax database folder)
+git sync the database folder
+show log
+look at closest @guass
+enter everything between now and then (everything in the log is out of date, rewrite everythign manually)
+Save file after editing 
+go to filezilla
+go to modinfo folder on the ftp
+copy latest version
+reupload to the modinfobackup folder
+Rename with yyyy/mm/dd
+browse manually with explore to ftp://wotmods.relhaxmodpack.com/RelhaxModpack/
+copy filename of mod recent version
+browse on local drive to relhaxmodpackdatabase
+rename modinfo.xml to modInfo_(recentversion).xml
+browse to explorer ftp to modinfo
+replace file with the new modinfo
+rename relhaxmodpackdatabase modInfo_(recentversion).xml on local back to modinfo
+browse to managerinfo in explorer ftp
+download and open manager_version
+edit line 5 with format wotversion_year-month-day_(daily version)
+save file
+reup to the folder
+return to database update window
+run scripts create modinfo THEN create manager_info
+return to local folder relhaxmodpackdatabase
+commit file databaseupdate with description (Made database public @gauss)
+Push file
+open databaseupdate.txt (the one just pushed)
+copy everything
+paste in discord announcements
+Let willster deal with the forums I got banned calling out serb on
