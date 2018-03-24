@@ -12222,14 +12222,14 @@
         </package>
         <package>
           <name>Antitoxicity Mod by ShuraBB v{version}</name>
-          <zipFile>Ingame_Info_Antitoxicity_18.3_2017-11-30.zip</zipFile>
-          <crc>eaa1c79399cb1b159886824b2b7f4d95</crc>
+          <zipFile>Ingame_Info_Antitoxicity_18.3_2018-03-24.zip</zipFile>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Ingame_Info_Antitoxicity_Base</packageName>
           <type>multi</type>
           <version>18.3</version>
-          <timestamp>131565432638988572</timestamp>
+          <timestamp>131663954881633531</timestamp>
           <size>34935</size>
           <description>**Please note that not all features are currently implimented into the modpack.**\n\nFashion features:\nFiltering "combat commands" (Attention to the square, Need help, Attack, etc.) \nFiltering messages from commands in the chat \nFiltering the clicks on the minimap \nFiltering the display of commands on the minimap \nConfigure the filter restrictions (command type, count, time delay, type of combat) \nAbility to block commands from killed allies \nSetting the flashing time of the highlighted square on the minimap \nFiltering messages in the combat chat \nFiltering the message according to the specified pattern, including using regular expressions\nThe ability to block the message From dead players \nAutocorrect a message for a given template\nSetting the filter limits (number, time delay, type of battle) \nSetting the time of the message display and the time of its "dissolving" \nAbility to completely turn off the chat in the replicas \nDimensionless "black list" \nDimension list of friends \nDynamic platoon \nmessage filter Customizable filter of pop-up messages in the hangar \nCustomizable filter messages in the system channel, including using regular expressions \nCustomizable message filter above the minimap \nCustomizable message filter above the hardware panel \nAbout deletion of the message about the destruction of the tank: "The machine is destroyed ..."; \nDisabling the posthumous prompt panel;</description>
           <devURL>https://wgmods.net/WOT/ru/antitoksichnost-68/</devURL>
@@ -12240,6 +12240,17 @@
             </media>
           </medias>
           <packages>
+            <package>
+              <name>Disable showing of annoying garage messages (gun mounted, welcome to server, etc.)</name>
+              <zipFile>Ingame_Info_Antitoxicity_disable_annoying_garage_messages.zip</zipFile>
+              <crc>f</crc>
+              <enabled>False</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Info_Antitoxicity_disable_annoying_garage_messages</packageName>
+              <type>multi</type>
+              <timestamp>131663954186589648</timestamp>
+              <devURL>https://wgmods.net/WOT/ru/antitoksichnost-68/</devURL>
+            </package>
             <package>
               <name>Disable dynamic platoon messages</name>
               <zipFile>Ingame_Info_Antitoxicity_disable_dynamic_platoon_messages.zip</zipFile>
@@ -12346,6 +12357,19 @@
               <type>multi</type>
               <timestamp>131565520383965555</timestamp>
               <size>530</size>
+              <devURL>https://wgmods.net/WOT/ru/antitoksichnost-68/</devURL>
+            </package>
+            <package>
+              <name>Enable Clearing of blacklist with F12 key</name>
+              <zipFile>Ingame_Info_Antitoxicity_enable_clear_blacklist.zip</zipFile>
+              <crc>f</crc>
+              <enabled>False</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Info_Antitoxicity_enable_clear_blacklist</packageName>
+              <type>multi</type>
+              <version>18.3</version>
+              <timestamp>131663952617924494</timestamp>
+              <description>By pressing this in the garage you can clear your blacklist</description>
               <devURL>https://wgmods.net/WOT/ru/antitoksichnost-68/</devURL>
             </package>
           </packages>
@@ -12587,10 +12611,10 @@
           </medias>
         </package>
         <package>
-          <name>Tidy Messenger+</name>
+          <name>Tidy Messenger+ (Use AnitToxicity Mod instead)</name>
           <zipFile>Garage_Mods_tidy_messenger_0.9.19-2017-06-10.zip</zipFile>
           <crc>366387501dcdeb3bdccbd81463ea5197</crc>
-          <enabled>True</enabled>
+          <enabled>False</enabled>
           <visible>True</visible>
           <packageName>Garage_Mods_tidy_messenger</packageName>
           <type>multi</type>
