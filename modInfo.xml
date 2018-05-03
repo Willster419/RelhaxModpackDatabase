@@ -2659,6 +2659,50 @@
               </packages>
             </package>
             <package>
+              <name>Set Default Currency</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterfaceModifications_SetDefaultCurrency_Header</packageName>
+              <type>multi</type>
+              <description>Change the default form of currency for purchasing shells, consumables, etc.</description>
+              <packages>
+                <package>
+                  <name>Credits</name>
+                  <zipFile>XVM_config_builder_garage_default_currency_credits.zip</zipFile>
+                  <crc>a48d26ee23a57e693a9e7c3f733a8222</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterfaceModifications_SetDefaultCurrency_credits</packageName>
+                  <type>single</type>
+                  <size>966</size>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/XVM_Default_to_credit.jpg</URL>
+                    </media>
+                  </medias>
+                </package>
+                <package>
+                  <name>Gold</name>
+                  <zipFile>XVM_config_builder_garage_default_currency_gold.zip</zipFile>
+                  <crc>8c154d16a1123f42a2beae24f9a71289</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterfaceModifications_SetDefaultCurrency_gold</packageName>
+                  <type>single</type>
+                  <size>961</size>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/XVM_Default_To_Gold.jpg</URL>
+                    </media>
+                  </medias>
+                </package>
+              </packages>
+            </package>
+            <package>
               <name>Tech Tree free XP convert option</name>
               <zipFile />
               <crc />
@@ -5325,13 +5369,13 @@
                 </package>
                 <package>
                   <name>Grabaah Edition</name>
-                  <zipFile>Contour_Icons_J1mB0s_Grabaah_Edition_Contour_Icon_Mod_1.0.1_2018-05-03.zip</zipFile>
-                  <crc>f</crc>
+                  <zipFile>Contour_Icons_J1mB0s_Grabaah_Edition_Contour_Icon_wotmod_1.0.0.1_2018-04-08.zip</zipFile>
+                  <crc>d668f0e7c98fea500b503766ddf949c3</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Contour_Icon_J1mB0_Grabaah_Edition</packageName>
                   <type>single1</type>
-                  <timestamp>131698402080529574</timestamp>
+                  <timestamp>131676661862386147</timestamp>
                   <size>14403927</size>
                   <devURL>http://forum.worldoftanks.eu/index.php?/topic/661661-</devURL>
                 </package>
@@ -9502,14 +9546,14 @@
         </package>
         <package>
           <name>Inbattle current rating calculation by Ekspoint (Can cause FPS loss)</name>
-          <zipFile>Ingame_Info_InBattle_Rating_Base_1.0.0.3_2018-04-15.zip</zipFile>
-          <crc>3f6296073e7cacc97713625859fc0fef</crc>
+          <zipFile>Ingame_Info_InBattle_Rating_Base_1.0.1_2018-03-05.zip</zipFile>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Ingame_Info_InBattle_Rating_Base</packageName>
           <type>multi</type>
-          <version>1.0.0.3</version>
-          <timestamp>131682823980186021</timestamp>
+          <version>1.0.1</version>
+          <timestamp>131698422015709616</timestamp>
           <size>49736</size>
           <updateComment>27/03/2018: • Bug fixes.\n25/03/2018: • Fixed average damage calculation.\n Mod calculate the average damage on the tank from wargaming api.\n If you kicked out and you re-entered the battle the average damage will be show, it will also work in the replays.\n21/03/2018: • Updated for WoT 1.0\n • Added vxbattleflash v.1.6.3\n14/03/2018: • Added WN8 v2 configuration with dynamic color images based on WN8 color scale.\n11/03/2018: • Bug fixes. • Updated ekspointCore library.\n25/02/2018: • Fixed colors for AVGDMG macro.  • Added new configuration: WN8 + AvgD.\n14/02/2018: • Updated for Micropatch (0.9.22.0.1)\n08/02/2018: • Updated ekspointCore library. • Removed Ekspoint's chat from the hangar.\n07/02/2018: • Ready for WoT 0.9.22.0\n11/01/2018: • Updated folder structure. (0.9.21.0.3)\n09/01/2018: • Updated ekspointCore library.\n22/12/2017: • Updated ekspointCore library.\n17/12/2017: • Updated ekspointCore library.\n16/12/2017: • Added vxbattleflash v.1.6.2\n13/12/2017: Folder structure updated. (0.9.21.0)\n10/12/2017: • Removed WN8,EFF,XWN8,XEFF ratings from the configs (No longer needed) • Added vxbattleflash v.1.6.1\n01/12/2017: • Fixed background image. (Disabled by default)\n20/11/2017: • Code rewrited.• Added core (library) for mods (without it will not work).\n08/11/2017: - Fixed color for AVGDMG macro. - Updated values for XWN8, XEFF, COEF.\n02/11/2017: Folder structure updated. (0.9.20.1.2)\n29/10/2017: Updated python.\n26/10/2017: Folder structure updated. (0.9.20.1.1)\n16/10/2017: Fixes.\n02/10/2017: Updated ratings values.\n24/09/2017: changes with python script for FPS loss\n20/09/2017: fixed maingun macro\n19/09/2017: Minor fixes. \nPROTANKI: added: factor by DIFF: DIFF (x-factor)</updateComment>
           <description>Shows your current stats ingame. Live updates in game. Downloads latest expected values from the internet.\nDIFF = Difference between the damage you've done and the average damage expected for the tank you're in. \nEFF = Efficiency is a rating formula that calculates damage dealt,winrate,kills,cap points,cap defense points.</description>
@@ -9531,12 +9575,13 @@
           <packages>
             <package>
               <name>wn8</name>
-              <zipFile>Ingame_Info_InBattle_Rating_WN8_2017-09-03.zip</zipFile>
-              <crc>cf7dd5004219400df69fe1a6d6275114</crc>
+              <zipFile>Ingame_Info_InBattle_Rating_WN8_2018-03-05.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_InBattle_Rating_WN8</packageName>
-              <type>single</type>
+              <type>single1</type>
+              <timestamp>131698427642625490</timestamp>
               <size>2721</size>
               <medias>
                 <media>
@@ -9547,13 +9592,13 @@
             </package>
             <package>
               <name>wn8_v2</name>
-              <zipFile>Ingame_Info_InBattle_Rating_WN8_v2_2018-03-20.zip</zipFile>
-              <crc>6da1d994053af1f26aec350e70841bbf</crc>
+              <zipFile>Ingame_Info_InBattle_Rating_WN8_v2_2018-03-05.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_InBattle_Rating_WN8_V2</packageName>
               <type>single1</type>
-              <timestamp>131659512846504083</timestamp>
+              <timestamp>131698422357572330</timestamp>
               <size>5676</size>
               <medias>
                 <media>
@@ -9584,12 +9629,13 @@
             </package>
             <package>
               <name>wn8 and damage</name>
-              <zipFile>Ingame_Info_InBattle_Rating_WN8_Damage_2017-09-03.zip</zipFile>
-              <crc>71b313bf6253cc9d46873ddc8379e3de</crc>
+              <zipFile>Ingame_Info_InBattle_Rating_WN8_DMG_2018-03-05.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_InBattle_Rating_WN8_Damage</packageName>
-              <type>single</type>
+              <type>single1</type>
+              <timestamp>131698427244696259</timestamp>
               <size>2770</size>
               <medias>
                 <media>
@@ -9600,12 +9646,13 @@
             </package>
             <package>
               <name>wn8 and eff</name>
-              <zipFile>Ingame_Info_InBattle_Rating_WN8_EFF_2017-09-03.zip</zipFile>
-              <crc>9ec2a049ec6c80a20d14370fa45675ee</crc>
+              <zipFile>Ingame_Info_InBattle_Rating_WN8_EFF_2018-03-05.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_InBattle_Rating_WN8_EFF</packageName>
-              <type>single</type>
+              <type>single1</type>
+              <timestamp>131698427432346103</timestamp>
               <size>2777</size>
               <medias>
                 <media>
@@ -9616,12 +9663,13 @@
             </package>
             <package>
               <name>wn8 and diff</name>
-              <zipFile>Ingame_Info_InBattle_Rating_WN8_DIFF_2017-09-03.zip</zipFile>
-              <crc>b3c5327cad09fa0927b57d6826f6ec87</crc>
+              <zipFile>Ingame_Info_InBattle_Rating_WN8_DIFF_2018-03-05.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_InBattle_Rating_WN8_DIFF</packageName>
-              <type>single</type>
+              <type>single1</type>
+              <timestamp>131698427799226014</timestamp>
               <size>2805</size>
               <medias>
                 <media>
@@ -9632,12 +9680,13 @@
             </package>
             <package>
               <name>wn8, eff and diff</name>
-              <zipFile>Ingame_Info_InBattle_Rating_WN8_EFF_DIFF_2017-09-03.zip</zipFile>
-              <crc>2da8ff9065573e88ef17502ad4e36670</crc>
+              <zipFile>Ingame_Info_InBattle_Rating_WN8_EFF_DIFF_2018-03-05.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_InBattle_Rating_WN8_EFF_DIFF</packageName>
-              <type>single</type>
+              <type>single1</type>
+              <timestamp>131698427928782937</timestamp>
               <size>2812</size>
               <medias>
                 <media>
@@ -9664,12 +9713,13 @@
             </package>
             <package>
               <name>wn8, eff and damage</name>
-              <zipFile>Ingame_Info_InBattle_Rating_WN8_EFF_Damage_2017-09-03.zip</zipFile>
-              <crc>3d1d730bc3ab79b0540c62b653950da7</crc>
+              <zipFile>Ingame_Info_InBattle_Rating_WN8_EFF_DMG_2018-03-05.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_InBattle_Rating_WN8_EFF_Damage</packageName>
-              <type>single</type>
+              <type>single1</type>
+              <timestamp>131698428235988482</timestamp>
               <size>2785</size>
               <medias>
                 <media>
@@ -9712,12 +9762,13 @@
             </package>
             <package>
               <name>ProTANKI config</name>
-              <zipFile>Ingame_Info_InBattle_Rating_ProTANKI_2017_09_19.zip</zipFile>
-              <crc>77af6bd1d6373edf8db22adae35ce474</crc>
+              <zipFile>Ingame_Info_InBattle_Rating_ProTANKI_2018-03-05.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_InBattle_Rating_ProTANKI</packageName>
               <type>single1</type>
+              <timestamp>131698428422607377</timestamp>
               <size>2980</size>
               <updateComment>added: factor by DIFF: DIFF (x-factor)</updateComment>
               <medias>
@@ -9729,12 +9780,13 @@
             </package>
             <package>
               <name>PHARAON config</name>
-              <zipFile>Ingame_Info_InBattle_Rating_PHARAON_WN8_EFF_DIFF_Damage_2017-09-03.zip</zipFile>
-              <crc>7f6eca562ed0f107169065b71d777482</crc>
+              <zipFile>Ingame_Info_InBattle_Rating_PHARAON_WN8_EFF_DIFF_Damage_2018-03-05.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_InBattle_Rating_PHARAON</packageName>
-              <type>single</type>
+              <type>single1</type>
+              <timestamp>131698428540094053</timestamp>
               <size>61962</size>
               <medias>
                 <media>
