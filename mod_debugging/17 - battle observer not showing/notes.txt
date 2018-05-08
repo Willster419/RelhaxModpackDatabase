@@ -1,0 +1,19 @@
+date reported: 2018-05-08
+affected users: Panz0rknacker, elektrosmoker.
+issue: battle observer hp bar is now showing
+steps:
+-testing with replay files shows the issue
+-took two configs and created an intersection of each. bug still persisted. saved config as "base"
+-removed xvm from base. bug still persisted config->"base1"
+-removed garage mods and 6th sense from base1. bug still persisted. config ->base2
+-removed contour icons from base2->base3. bug still persisted.
+-removed ingame misc, safeshot from base3->base4. issue no longer persisted. leaves safeshot and antitoxcity.
+-install of just battle observer, antitoxcity with 3 click patch->base5. issue persisted.
+-theory: antitoxcity has new feature to hide graphics settings window, noticed it's hidden when mod enabled. is it a configuration or part of python?
+-install of battle observer and antitoxcity, just the base mod->base6. issue does not persist, but mod may not be on at all, or a component may be disabled.
+-manually edited patch for antiToxcity for the zipfile patch option block minimap spam repeat. issue did not persist, but python not was found of invalid configuration file
+-edited database to fix base config file. tested with battle observer. setting to disable graphics settings window was disabled. tested and file was loaded. battle observer showed, so did settings window
+-installed battle observer and 3 click patch. json loaded correctly, settings and battle observer showed.
+-installed battle observer and antitoxcity base. json loaded correctly, settings and battle observer showed.
+-installed battle observer and antitoxcity with option to hide settings window. verifird patched setting correctly. json loaded correctly, settings window and battle observer not shown.
+-issue identified, fix: change settings hide setting from true to false.
