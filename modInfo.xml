@@ -7399,86 +7399,193 @@
           </packages>
         </package>
         <package>
-          <name>SafeShot</name>
-          <zipFile>Ingame_Aim_Safeshot_1.0.1.1_2018-05-16.zip</zipFile>
-          <crc>8c374f378670af1d42513219b4c996a5</crc>
+          <name>SafeShot Mods</name>
+          <zipFile />
+          <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Ingame_Aim_SafeShot_Base</packageName>
+          <packageName>Ingame_Aim_SafeShot_Header</packageName>
           <type>multi</type>
-          <version>1.0.1.1</version>
-          <timestamp>131709888488322416</timestamp>
+          <timestamp>131711562586822656</timestamp>
           <size>28737</size>
-          <updateComment>outdated url: http://wotsite.net/mody-dlya-world-of-tanks/12038-</updateComment>
           <description>legal info\nhttp://forum.worldoftanks.eu/index.php?/topic/599621-wg-support-safeshot-is-illegal/page__st__20__pid__13403197#entry13403197\nprevents you from shooting your gun to hit allies/dead tanks/etc.</description>
-          <devURL>https://yadi.sk/d/o6kOQNXKhwaVi</devURL>
-          <medias>
-            <media>
-              <type>1</type>
-              <URL>http://s14.directupload.net/images/131220/mkrjfo7g.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>http://cdn.modsworldoftanks.com/wp-content/uploads/2015/03/1420217307_safeshot.jpg</URL>
-            </media>
-          </medias>
           <packages>
             <package>
-              <name>1 Sec no corpse Shot</name>
-              <zipFile>Ingame_Aim_SafeShot_1sec_no_deadshot_patch_0.9.20.0_2017-09-06.zip</zipFile>
-              <crc>081eef4c4d079853e5ed4457a6ce3cb3</crc>
+              <name>SafeShot by OldSkool</name>
+              <zipFile />
+              <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Ingame_Aim_SafeShot_1sec_no_dead_corps_shot</packageName>
-              <type>single</type>
+              <packageName>Ingame_Aim_SafeShot_oldskool</packageName>
+              <type>single1</type>
+              <timestamp>131711562997673513</timestamp>
               <size>1185</size>
+              <packages>
+                <package>
+                  <name>1 second timeout</name>
+                  <zipFile>Ingame_Aim_SafeShot_oldskool_timeout_1.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_oldskool_timeout_1</packageName>
+                  <type>single1</type>
+                  <timestamp>131711766442926472</timestamp>
+                </package>
+                <package>
+                  <name>3 second timeout</name>
+                  <zipFile>Ingame_Aim_SafeShot_oldskool_timeout_3.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_oldskool_timeout_3</packageName>
+                  <type>single1</type>
+                  <timestamp>131711766612261910</timestamp>
+                </package>
+                <package>
+                  <name>5 second timeout</name>
+                  <zipFile>Ingame_Aim_SafeShot_oldskool_timeout_5.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_oldskool_timeout_5</packageName>
+                  <type>single1</type>
+                  <timestamp>131711766804131937</timestamp>
+                </package>
+                <package>
+                  <name>Block shots to dead tanks</name>
+                  <zipFile>Ingame_Aim_SafeShot_oldskool_block_dead.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_oldskool_block_dead</packageName>
+                  <type>multi</type>
+                  <timestamp>131711767642561721</timestamp>
+                </package>
+                <package>
+                  <name>Block shots to allies</name>
+                  <zipFile>Ingame_Aim_SafeShot_oldskool_block_ally.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_oldskool_block_ally</packageName>
+                  <type>multi</type>
+                  <timestamp>131711767805700715</timestamp>
+                </package>
+                <package>
+                  <name>Block shots to teamkillers</name>
+                  <zipFile>Ingame_Aim_SafeShot_oldskool_block_tk.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_oldskool_block_tk</packageName>
+                  <type>multi</type>
+                  <timestamp>131711767975444478</timestamp>
+                </package>
+                <package>
+                  <name>Send message in chat</name>
+                  <zipFile>Ingame_Aim_SafeShot_oldskool_send_chat_message.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_oldskool_send_chat_message</packageName>
+                  <type>multi</type>
+                  <timestamp>131711768095670547</timestamp>
+                </package>
+              </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_easyBattleFlash_by_Oldskool</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_modsSettingsApi_Oldskool</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
-              <name>2 sec no corpse shot</name>
-              <zipFile>Ingame_Aim_SafeShot_2sec_no_deadshot_patch_0.9.20.0_2017-09-06.zip</zipFile>
-              <crc>aa9ad9f5c2d90099016dbdb7f6cf8227</crc>
+              <name>SafeShot by PROTanki</name>
+              <zipFile />
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Ingame_Aim_SafeShot_2sec_no_dead_corps_shot</packageName>
-              <type>single</type>
+              <packageName>Ingame_Aim_SafeShot_protanki</packageName>
+              <type>single1</type>
+              <timestamp>131711563478725390</timestamp>
               <size>1185</size>
-            </package>
-            <package>
-              <name>5 sec no corpse shot</name>
-              <zipFile>Ingame_Aim_SafeShot_5sec_no_deadshot_patch_0.9.20.0_2017-09-06.zip</zipFile>
-              <crc>5f44fe4855f5baa0e6ffb8d2b00e57df</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Ingame_Aim_SafeShot_5sec_no_dead_corps_shot</packageName>
-              <type>single</type>
-              <size>1185</size>
-            </package>
-            <package>
-              <name>block team damage shot</name>
-              <zipFile>Ingame_Aim_SafeShot_no_Team_friendly_fire_patch_0.9.20.0_2017-09-06.zip</zipFile>
-              <crc>358b445d3d120f0b87f2c00bb22a244b</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Ingame_Aim_SafeShot_no_friendly_fire</packageName>
-              <type>multi</type>
-              <size>1183</size>
-            </package>
-            <package>
-              <name>send team damage message in chat</name>
-              <zipFile>Ingame_Aim_SafeShot_send_Msg_to_Team_patch_0.9.20.0_2017-09-06.zip</zipFile>
-              <crc>0e491e8648652a247bcd60ff4678e1d7</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Ingame_Aim_SafeShot_send_Msg_Team</packageName>
-              <type>multi</type>
-              <size>1163</size>
+              <packages>
+                <package>
+                  <name>1 second timeout</name>
+                  <zipFile>Ingame_Aim_SafeShot_protanki_timeout_1.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_protanki_timeout_1</packageName>
+                  <type>single1</type>
+                  <timestamp>131711768224999513</timestamp>
+                </package>
+                <package>
+                  <name>3 second timeout</name>
+                  <zipFile>Ingame_Aim_SafeShot_protanki_timeout_3.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_protanki_timeout_3</packageName>
+                  <type>single1</type>
+                  <timestamp>131711768345666382</timestamp>
+                </package>
+                <package>
+                  <name>5 second timeout</name>
+                  <zipFile>Ingame_Aim_SafeShot_protanki_timeout_5.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_protanki_timeout_5</packageName>
+                  <type>single1</type>
+                  <timestamp>131711768440507147</timestamp>
+                </package>
+                <package>
+                  <name>Block shots to dead tanks</name>
+                  <zipFile>Ingame_Aim_SafeShot_protanki_block_dead.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_protanki_block_dead</packageName>
+                  <type>multi</type>
+                  <timestamp>131711768546557798</timestamp>
+                </package>
+                <package>
+                  <name>Block shots to allies</name>
+                  <zipFile>Ingame_Aim_SafeShot_protanki_block_ally.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_protanki_block_ally</packageName>
+                  <type>multi</type>
+                  <timestamp>131711768658092896</timestamp>
+                </package>
+                <package>
+                  <name>Send message in chat</name>
+                  <zipFile>Ingame_Aim_SafeShot_protanki_send_chat_message.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_SafeShot_protanki_send_chat_message</packageName>
+                  <type>multi</type>
+                  <timestamp>131711768777209609</timestamp>
+                </package>
+              </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_modsSettingsApi</packageName>
+                </dependency>
+              </dependencies>
             </package>
           </packages>
-          <dependencies>
-            <dependency>
-              <packageName>Dependency_Ekspoint_Core</packageName>
-            </dependency>
-          </dependencies>
         </package>
         <package>
           <name>BalCalcMod</name>
