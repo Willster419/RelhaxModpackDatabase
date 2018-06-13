@@ -52,12 +52,12 @@
       <timestamp>131554136556593228</timestamp>
     </dependency>
     <dependency>
-      <zipFile>Dependency_Atlases_Creation_vehicleMarkerAtlas_DDS_2018-06-07.zip</zipFile>
+      <zipFile>Dependency_Atlases_Creation_vehicleMarkerAtlas_DDS_2018-06-13.zip</zipFile>
       <crc>f</crc>
-      <enabled>False</enabled>
+      <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
-      <timestamp>131723588869260777</timestamp>
+      <timestamp>131733942983485457</timestamp>
       <logicalDependencies>
         <logicalDependency>
           <packageName>LogicalDependency_RelHaxLibraries_Atlases_Creation_DDSImages</packageName>
@@ -66,15 +66,19 @@
       </logicalDependencies>
     </dependency>
     <dependency>
-      <zipFile>Dependency_Atlases_Creation_battleAtlas_DDS_2018-06-07.zip</zipFile>
+      <zipFile>Dependency_Atlases_Creation_battleAtlas_DDS_2018-06-13.zip</zipFile>
       <crc>f</crc>
-      <enabled>False</enabled>
+      <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
-      <packageName>Dependency_Atlases_Creation_BattleAtlas</packageName>
-      <timestamp>131723588343105187</timestamp>
+      <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+      <timestamp>131733934910815408</timestamp>
       <logicalDependencies>
         <logicalDependency>
           <packageName>LogicalDependency_RelHaxLibraries_Atlases_Creation_DDSImages</packageName>
+          <negateFlag>False</negateFlag>
+        </logicalDependency>
+        <logicalDependency>
+          <packageName>LogicalDependency_lossless_battleAtlas_Images</packageName>
           <negateFlag>False</negateFlag>
         </logicalDependency>
       </logicalDependencies>
@@ -283,18 +287,20 @@
   </dependencies>
   <logicalDependencies>
     <logicalDependency>
-      <zipFile>LogicalDependency_lossless_battleAtlas_Images_2018-06-12.zip</zipFile>
+      <zipFile>LogicalDependency_lossless_battleAtlas_Images_1.0.2.0_#892_2018-06-13.zip</zipFile>
       <crc>f</crc>
-      <enabled>False</enabled>
+      <enabled>True</enabled>
       <packageName>LogicalDependency_lossless_battleAtlas_Images</packageName>
-      <timestamp>131733022739683848</timestamp>
+      <logic>OR</logic>
+      <timestamp>131733932436128984</timestamp>
       <devURL>https://bitbucket.org/AstaRom/wot_battleatlas/downloads/</devURL>
     </logicalDependency>
     <logicalDependency>
       <zipFile>LogicalDependency_RelHaxLibraries_Atlases_Creation_DDSImages_2018-05-29.zip</zipFile>
       <crc>f</crc>
-      <enabled>False</enabled>
+      <enabled>True</enabled>
       <packageName>LogicalDependency_RelHaxLibraries_Atlases_Creation_DDSImages</packageName>
+      <logic>OR</logic>
       <timestamp>131723587516710816</timestamp>
     </logicalDependency>
     <logicalDependency>
@@ -302,6 +308,7 @@
       <crc>fffed1934793bc771ae98100ee546c34</crc>
       <enabled>True</enabled>
       <packageName>LogicalDependency_Contour_Icon_Mod_mirror_hangar_no_XVM_clear</packageName>
+      <logic>AND</logic>
       <timestamp>131700211948118941</timestamp>
       <devURL>https://koreanrandom.com/forum/topic/35159-</devURL>
     </logicalDependency>
@@ -310,6 +317,7 @@
       <crc>deda2f53ee102bf8cd23593b4e0b8d13</crc>
       <enabled>False</enabled>
       <packageName>LogicalDependency_Contour_Icon_Mod_mirror_hangar_no_XVM_with_tier_name</packageName>
+      <logic>AND</logic>
       <timestamp>131700213660949937</timestamp>
       <devURL>https://koreanrandom.com/forum/topic/35159-</devURL>
     </logicalDependency>
@@ -318,6 +326,7 @@
       <crc>9882681727e1176badde854ec3f79c27</crc>
       <enabled>True</enabled>
       <packageName>LogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_clear</packageName>
+      <logic>AND</logic>
       <timestamp>131700215849320319</timestamp>
       <devURL>https://koreanrandom.com/forum/topic/35159-</devURL>
     </logicalDependency>
@@ -326,6 +335,7 @@
       <crc>7fd691364131477fc1bcb7f6b972754a</crc>
       <enabled>False</enabled>
       <packageName>LogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_with_tier_name</packageName>
+      <logic>AND</logic>
       <timestamp>131700217502377941</timestamp>
       <devURL>https://koreanrandom.com/forum/topic/35159-</devURL>
     </logicalDependency>
@@ -334,12 +344,14 @@
       <crc>97dc148da7a21860300f0f41e87f0851</crc>
       <enabled>True</enabled>
       <packageName>LogicalDependency_Contour_Icon_Mod_mirror_battle_XVM</packageName>
+      <logic>AND</logic>
     </logicalDependency>
     <logicalDependency>
       <zipFile>LogicalDependency_Contour_Icon_Mod_mirror_battle_clear_no_XVM_1.0.1.0_2018-05-05.zip</zipFile>
       <crc>872a40883fa5ff7b249e479aa3e9ce79</crc>
       <enabled>True</enabled>
       <packageName>LogicalDependency_Contour_Icon_Mod_mirror_battle_no_XVM_clear</packageName>
+      <logic>AND</logic>
       <timestamp>131700207475111882</timestamp>
       <devURL>https://koreanrandom.com/forum/topic/35159-</devURL>
     </logicalDependency>
@@ -348,6 +360,7 @@
       <crc>760975f11a27d31a425779615b7b6999</crc>
       <enabled>False</enabled>
       <packageName>LogicalDependency_Contour_Icon_Mod_mirror_battle_no_XVM_with_tier_name</packageName>
+      <logic>AND</logic>
       <timestamp>131700206870646987</timestamp>
       <devURL>https://koreanrandom.com/forum/topic/35159-</devURL>
     </logicalDependency>
@@ -5429,14 +5442,7 @@
     <catagory>
       <name>Contour Icons/Tank Icons</name>
       <installGroup>2</installGroup>
-      <dependencies>
-        <dependency>
-          <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
-        </dependency>
-        <dependency>
-          <packageName>Dependency_Atlases_Creation_BattleAtlas</packageName>
-        </dependency>
-      </dependencies>
+      <dependencies />
       <packages>
         <package>
           <name>Contour Icons</name>
@@ -5462,13 +5468,13 @@
               <packages>
                 <package>
                   <name>Standard</name>
-                  <zipFile>Contour_Icons_APCR_NOOB_Contour_Icon_Mod_1.0.1_2018-05-05.zip</zipFile>
-                  <crc>6c6439604c17d46bcfd199312c00d305</crc>
+                  <zipFile>Contour_Icons_APCR_NOOB_Contour_Icon_Mod_1.0.2.0_2018-06-13.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Contour_Icon_APCR_NOOB_Standard</packageName>
                   <type>single1</type>
-                  <timestamp>131700184232348706</timestamp>
+                  <timestamp>131733904096823876</timestamp>
                   <size>4916149</size>
                   <devURL>http://forum.worldoftanks.eu/index.php?/topic/515348-</devURL>
                   <medias>
@@ -5515,17 +5521,25 @@
                   </medias>
                 </package>
               </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Aslains</name>
-              <zipFile>Contour_Icons_Aslains_Contour_Icon_Mod_1.0.1.0_2018-05-06.zip</zipFile>
-              <crc>d44d30190ce14c3a7925454c1e713e9d</crc>
+              <zipFile>Contour_Icons_Aslains_Contour_Icon_Mod_1.0.2.0_2018-06-13.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Contour_Icon_Aslain</packageName>
               <type>single1</type>
-              <version>0.9.22.0</version>
-              <timestamp>131700419682640648</timestamp>
+              <version>1.0.2.0</version>
+              <timestamp>131733905012115061</timestamp>
               <size>4831651</size>
               <description>Aslains Contour Simple Icons small: \nLegend: \nHT - red, MT - yellovv, LT -green, TD -blue, SPG -purple, \nYellovv star -premium vehide, Red star - special vehide</description>
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/35125-</devURL>
@@ -5535,6 +5549,14 @@
                   <URL>http://s1.directupload.net/images/user/131220/s3e8arji.png</URL>
                 </media>
               </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>"Best Icons Ever" by Grandorf</name>
@@ -5553,6 +5575,14 @@
                   <URL>http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_12_2014/post-506519671-0-75369500-1419247188.jpg</URL>
                 </media>
               </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Blackspys</name>
@@ -5565,33 +5595,25 @@
               <packages>
                 <package>
                   <name>Original Edition</name>
-                  <zipFile>Contour_Icons_BlackSpy_Contour_Icon_Mod_1.0.1.0_2018-05-06.zip</zipFile>
-                  <crc>e19dbca6fd5a9cf0d49643676b365373</crc>
+                  <zipFile>Contour_Icons_BlackSpy_Contour_Icon_Mod_1.0.2.0_2018-06-13.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Contour_Icon_Blackspy_Original</packageName>
                   <type>single1</type>
-                  <timestamp>131700419954569768</timestamp>
+                  <timestamp>131733908563275870</timestamp>
                   <size>6996003</size>
                   <devURL>http://forum.worldoftanks.eu/index.php?/topic/318315-</devURL>
-                  <dependencies>
-                    <dependency>
-                      <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
-                    </dependency>
-                    <dependency>
-                      <packageName>Dependency_Atlases_Creation_BattleAtlas</packageName>
-                    </dependency>
-                  </dependencies>
                 </package>
                 <package>
                   <name>Yasha Edition</name>
-                  <zipFile>Contour_Icons_BlackSpy_Yasha_Edition_Contour_Icon_Mod_1.0.1.0_2018-05-06.zip</zipFile>
-                  <crc>6c1fc6fc4fe0290555333a77ea49b5d5</crc>
+                  <zipFile>Contour_Icons_BlackSpy_Yasha_Edition_Contour_Icon_Mod_1.0.2.0_2018-06-13.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Contour_Icon_Blackspy_Yasha</packageName>
                   <type>single1</type>
-                  <timestamp>131700420024661380</timestamp>
+                  <timestamp>131733911214791323</timestamp>
                   <size>7043026</size>
                   <medias>
                     <media>
@@ -5599,16 +5621,16 @@
                       <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/Contour_Icons_BlackSpy_Yasha_Edition.jpg</URL>
                     </media>
                   </medias>
-                  <dependencies>
-                    <dependency>
-                      <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
-                    </dependency>
-                    <dependency>
-                      <packageName>Dependency_Atlases_Creation_BattleAtlas</packageName>
-                    </dependency>
-                  </dependencies>
                 </package>
               </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Druids</name>
@@ -5639,13 +5661,13 @@
               <packages>
                 <package>
                   <name>Normal</name>
-                  <zipFile>Contour_Icons_HARDicons_Contour_Icon_Mod_1.0.1.0_2018-05-06.zip</zipFile>
-                  <crc>3423bcfc0db61151af15fef8e4b81eed</crc>
+                  <zipFile>Contour_Icons_HARDicons_Contour_Icon_Mod_1.0.2.0_2018-06-13.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Contour_Icon_HARDicons_Normal</packageName>
                   <type>single1</type>
-                  <timestamp>131700420217330181</timestamp>
+                  <timestamp>131733915207298124</timestamp>
                   <size>5492483</size>
                   <devURL>http://forum.worldoftanks.ru/index.php?/topic/374544-</devURL>
                   <medias>
@@ -5657,13 +5679,13 @@
                 </package>
                 <package>
                   <name>Colored</name>
-                  <zipFile>Contour_Icons_HARDicons_Colored_Contour_Icon_Mod_1.0.1.0_2018-05-06.zip</zipFile>
-                  <crc>9c24e4be9eeca0372fa7674fa50d3bac</crc>
+                  <zipFile>Contour_Icons_HARDicons_Colored_Contour_Icon_Mod_1.0.2.0_2018-06-13.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Contour_Icon_HARDicons_Colored</packageName>
                   <type>single1</type>
-                  <timestamp>131700420129038831</timestamp>
+                  <timestamp>131733917615210308</timestamp>
                   <size>5579976</size>
                   <medias>
                     <media>
@@ -5677,6 +5699,14 @@
                   </medias>
                 </package>
               </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>J1mB0</name>
@@ -5725,6 +5755,14 @@
                   <devURL>http://forum.worldoftanks.eu/index.php?/topic/661661-</devURL>
                 </package>
               </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Korolins</name>
@@ -6078,6 +6116,14 @@
                   </medias>
                 </package>
               </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Nikodemsky</name>
@@ -6103,6 +6149,14 @@
                   <URL>http://s8.postimg.org/pcdilm3kl/Logo_Nik1_2.png</URL>
                 </media>
               </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Pogs Contour Icons</name>
@@ -6364,6 +6418,14 @@
                   </packages>
                 </package>
               </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Risky Style by colt87</name>
@@ -6382,6 +6444,14 @@
                   <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/Contour_Icon_Risky_Style.png</URL>
                 </media>
               </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>TORQue - Inspired by Witblitz v{version}</name>
@@ -6406,6 +6476,14 @@
                   <URL>https://s21.postimg.org/qjo652xyv/TORQue-_Contour-_Mod_icons.jpg</URL>
                 </media>
               </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_vehicleMarkerAtlas</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Atlases_Creation_battleAtlas</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Wizards by yaya070</name>
@@ -12825,14 +12903,14 @@
               <packages>
                 <package>
                   <name>Aslains gold premium tanks V0</name>
-                  <zipFile>Garage_mods_Aslains_Gold_Premium_Tanks_1.0.1_2018-05-04.zip</zipFile>
-                  <crc>08bcbf48a9075d982e98ed11351dba8a</crc>
+                  <zipFile>Garage_mods_Aslains_Gold_Premium_Tanks_1.0.2.0_2018-06-13.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Garage_mods_Carousel_Aslains_Gold_Premium_Tanks_V0</packageName>
                   <type>single1</type>
-                  <version>1.0.1</version>
-                  <timestamp>131699496517865322</timestamp>
+                  <version>1.0.2.0</version>
+                  <timestamp>131733922263576064</timestamp>
                   <size>16569602</size>
                   <description>Gold premium tank icons for the garage V0</description>
                   <devURL>https://mods.curse.com/wot-mods/worldoftanks/aslains-gold-premium-tanks</devURL>
