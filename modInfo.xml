@@ -32,15 +32,6 @@
       <packageName>Dependency_global_fonts</packageName>
       <timestamp>131725991398881767</timestamp>
     </globaldependency>
-    <globaldependency>
-      <zipFile>Dependency_global_ScriptloaderPro_1.27.zip</zipFile>
-      <crc>f34d44cddca39eee9b51e9ddfffe0bcd</crc>
-      <enabled>True</enabled>
-      <appendExtraction>False</appendExtraction>
-      <packageName>Dependency_global_ScriptloaderPro</packageName>
-      <timestamp>131734450391217783</timestamp>
-      <devURL>https://wgmods.net/323/</devURL>
-    </globaldependency>
   </globaldependencies>
   <dependencies>
     <dependency>
@@ -11921,14 +11912,15 @@
           </dependencies>
         </package>
         <package>
-          <name>ScriptloaderPro by Budyx69 Settings</name>
-          <zipFile />
-          <crc />
+          <name>ScriptloaderPro v{version} by Budyx69</name>
+          <zipFile>Garage_mods_ScriptloaderPro_1.28_2018-06-27.zip</zipFile>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_mods_ScriptloaderPro_Settings</packageName>
+          <packageName>Garage_mods_ScriptloaderPro_Base</packageName>
           <type>multi</type>
-          <version>1.24</version>
+          <version>1.28</version>
+          <timestamp>131745995822693953</timestamp>
           <description>Loads mods in all modes \n with Tidy Messenger you see nothing \nIn minimal mode: Shows loaded mods as single line, unsuccesfull (red line) \nIn Full mode: Shows all loaded mods succesfull (green) or unsuccesfull (red)</description>
           <devURL>http://forum.worldoftanks.eu/index.php?/topic/561371-</devURL>
           <medias>
@@ -11946,76 +11938,71 @@
             </media>
             <media>
               <type>1</type>
-              <URL>http://dieschwarzenschafe.com/img/scriptloader/scriptloader_minimal_error_de.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
               <URL>http://dieschwarzenschafe.com/img/scriptloader/scriptloader_full_error_en.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>http://dieschwarzenschafe.com/img/scriptloader/scriptloader_minimal_io_en.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>http://dieschwarzenschafe.com/img/scriptloader/scriptloader_full_cn_de.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>http://dieschwarzenschafe.com/img/scriptloader/scriptloader_minimal_cn_de.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>http://dieschwarzenschafe.com/img/scriptloader/scriptloader_full_cn_restart_de.jpg</URL>
             </media>
           </medias>
           <packages>
             <package>
-              <name>SystemMessage Full</name>
+              <name>SystemMessage OFF</name>
               <zipFile />
-              <crc />
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Garage_mods_ScriptloaderPro_SystemMessage_OFF</packageName>
+              <type>single_dropdown1</type>
+              <timestamp>131745998234506560</timestamp>
+              <size>785</size>
+            </package>
+            <package>
+              <name>SystemMessage Full</name>
+              <zipFile>Garage_mods_ScriptloaderPro_1.28_SystemMessage_FullMessage_patch.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Garage_mods_ScriptloaderPro_SystemMessage_Full</packageName>
               <type>single_dropdown1</type>
+              <timestamp>131746000624277659</timestamp>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://dieschwarzenschafe.com/img/scriptloader/scriptloader_full_error_en.jpg</URL>
+                </media>
+                <media>
+                  <type>1</type>
+                  <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/Garage_mods_ScriptloaderPro_by_Budyx69_1-2.jpg</URL>
+                </media>
+              </medias>
             </package>
             <package>
               <name>SystemMessage Minimal</name>
-              <zipFile>Garage_mods_scriptloaderPro_1.22_by_Budyx69_SystemMessage_Minimal_patch.zip</zipFile>
-              <crc>2b40654298696641b9255bda0f59a269</crc>
+              <zipFile>Garage_mods_ScriptloaderPro_1.28_SystemMessage_ON_patch.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Garage_mods_ScriptloaderPro_SystemMessage_Minimal</packageName>
               <type>single_dropdown1</type>
+              <timestamp>131746000395179683</timestamp>
               <size>793</size>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://dieschwarzenschafe.com/img/scriptloader/scriptloader_minimal_error_de.jpg</URL>
+                </media>
+                <media>
+                  <type>1</type>
+                  <URL>http://dieschwarzenschafe.com/img/scriptloader/scriptloader_minimal_io_en.jpg</URL>
+                </media>
+              </medias>
             </package>
             <package>
-              <name>SystemMessage OFF</name>
-              <zipFile>Garage_mods_scriptloaderPro_1.22_by_Budyx69_SystemMessage_OFF_patch.zip</zipFile>
-              <crc>4c95958ea7659d4cc74b45fbaa81f731</crc>
+              <name>SpamFilter for python.log</name>
+              <zipFile>Garage_mods_ScriptloaderPro_1.28_SpamFilter_patch.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Garage_mods_ScriptloaderPro_SystemMessage_Minimal_OFF</packageName>
-              <type>single_dropdown1</type>
-              <size>785</size>
-            </package>
-            <package>
-              <name>Dont Delete CameraNode.pyc automatic and Restart automatic</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Garage_mods_ScriptloaderPro_DONT_Delete_Cameranode.pyc+Restart</packageName>
-              <type>single_dropdown2</type>
-            </package>
-            <package>
-              <name>Delete Cameranode.pyc automatic and Restart automatic</name>
-              <zipFile>Garage_mods_scriptloaderPro_1.22_by_Budyx69_Delete_Cameranode.pyc+Restart_patch.zip</zipFile>
-              <crc>d31b97f77ff73f79b1dff3abb03fc71d</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Garage_mods_ScriptloaderPro_Delete_Cameranode.pyc+Restart</packageName>
-              <type>single_dropdown2</type>
+              <packageName>Garage_mods_ScriptloaderPro_SpamFilter</packageName>
+              <type>multi</type>
+              <timestamp>131746000162069906</timestamp>
               <size>845</size>
             </package>
           </packages>
