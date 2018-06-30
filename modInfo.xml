@@ -141,12 +141,22 @@
       <timestamp>131736508203016333</timestamp>
     </dependency>
     <dependency>
-      <zipFile>Dependency_XVM_Base_7.6.5_with_patch.zip</zipFile>
-      <crc>9ee6df62b75f8568bafa1756e0c62e93</crc>
+      <zipFile>Dependency_XVM_dll_files_2018-06-29.zip</zipFile>
+      <crc>f</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
-      <packageName>Dependency_XVMMainFiles</packageName>
-      <timestamp>131743387194026137</timestamp>
+      <packageName>Dependency_XVM_dll_files</packageName>
+      <timestamp>131747931247863826</timestamp>
+      <devURL>https://modxvm.com/en/download-xvm/</devURL>
+      <logAtInstall>False</logAtInstall>
+    </dependency>
+    <dependency>
+      <zipFile>Dependency_XVM_Base_7.6.5_with_patch_2018-06-29.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_XVM_Main_Files</packageName>
+      <timestamp>131747932980474593</timestamp>
       <devURL>https://modxvm.com/en/download-xvm/</devURL>
       <logicalDependencies>
         <logicalDependency>
@@ -435,6 +445,9 @@
       <dependencies>
         <dependency>
           <packageName>Dependency_XVMMainFiles</packageName>
+        </dependency>
+        <dependency>
+          <packageName>Dependency_XVM_dll_files</packageName>
         </dependency>
       </dependencies>
       <packages>
@@ -802,6 +815,9 @@
       <dependencies>
         <dependency>
           <packageName>Dependency_XVMMainFiles</packageName>
+        </dependency>
+        <dependency>
+          <packageName>Dependency_XVM_dll_files</packageName>
         </dependency>
       </dependencies>
       <packages>
