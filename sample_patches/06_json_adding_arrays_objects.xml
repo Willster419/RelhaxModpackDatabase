@@ -1,0 +1,22 @@
+<patchs>
+<!-- add the base object -->
+<patch>
+  <type>json</type>
+  <patchPath>app</patchPath>
+  <mode>add</mode>
+  <file>\res_mods\configs\BBMods\AntiToxicity.json</file>
+  <path>$</path>
+  <search></search>
+  <replace>PopUpMessagesFilter[object]</replace>
+</patch>
+<!-- add the base array -->
+<patch>
+  <type>json</type>
+  <patchPath>app</patchPath>
+  <mode>add</mode>
+  <file>\res_mods\configs\BBMods\AntiToxicity.json</file>
+  <path>$.PopUpMessagesFilter</path>
+  <search></search>
+  <replace>DeletedMessages[array]</replace>
+</patch>
+</patchs>
