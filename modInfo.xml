@@ -239,11 +239,11 @@
     </dependency>
     <dependency>
       <zipFile>Dependency_P0LIR0ID_modsListApi_v1.12_1.0.2.1_2018-06-14.zip</zipFile>
-      <crc>eed200ab4083bb00ccca9b2181d5bcbc</crc>
+      <crc>f</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
-      <timestamp>131734946510737795</timestamp>
+      <timestamp>131756810400463644</timestamp>
       <devURL>https://bitbucket.org/P0LIR0ID/modslist/downloads/</devURL>
     </dependency>
     <dependency>
@@ -269,6 +269,15 @@
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_modsSettingsApi_AppDATA_english</packageName>
       <timestamp>131719049779665006</timestamp>
+    </dependency>
+    <dependency>
+      <zipFile>Dependency_modsListApi_P0LIR0ID_oldskool_direction_1.0.2.1_2018-07-10.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_modsSettingsApi_POLIROID_Oldskool_gundirection</packageName>
+      <timestamp>131756813852034878</timestamp>
+      <devURL>https://bitbucket.org/P0LIR0ID/modslist/downloads/</devURL>
     </dependency>
     <dependency>
       <zipFile>Dependency_modsSettingsApi_Oldskool_1.0.2.1_2018-06-22.zip</zipFile>
@@ -9624,7 +9633,7 @@
           <name>Minimap Gundirection by OldSkool</name>
           <zipFile>Ingame_Info_Minimap_Gundirection_by_OldSkool_1.02.1_2018-06-22.zip</zipFile>
           <crc>e3b0300c4ea317b45020083aa7d1dfdf</crc>
-          <enabled>False</enabled>
+          <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Ingame_Info_Minimap_Gundirection_OldSkool</packageName>
           <type>multi</type>
@@ -9634,12 +9643,31 @@
           <updateComment>2. URL for Oldskool mods: https://wgmods.net/modmakers/38530/\n1.0.2.0: removed oldskool.easyBattleFlash switched to gambiter_guiflash</updateComment>
           <description>Shows direction where enemies within the draw distance are pointing their guns (on the minimap)\n\nlegal Info: http://forum.worldoftanks.eu/index.php?/topic/598224-fair-play-policy/page__st__1020__pid__13392063#entry13392063</description>
           <devURL>https://wgmods.net/1260/</devURL>
+          <packages>
+            <package>
+              <name>Enable allied gundirections on map</name>
+              <zipFile>Ingame_Info_Minimap_Gundirection_by_OldSkool_1.02.1_enable_allys_gundir_2018-07-10.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Info_Minimap_Gundirection_OldSkool_enable_allys_gundir</packageName>
+              <type>multi</type>
+              <version>1.0.2.1</version>
+              <timestamp>131756834470875401</timestamp>
+              <updateComment>2. URL for Oldskool mods: https://wgmods.net/modmakers/38530/\n1.0.2.0: removed oldskool.easyBattleFlash switched to gambiter_guiflash</updateComment>
+              <description>Shows direction where enemies within the draw distance are pointing their guns (on the minimap)\n\nlegal Info: http://forum.worldoftanks.eu/index.php?/topic/598224-fair-play-policy/page__st__1020__pid__13392063#entry13392063</description>
+              <devURL>https://wgmods.net/1260/</devURL>
+            </package>
+          </packages>
           <dependencies>
             <dependency>
               <packageName>Dependency_modsSettingsApi_Oldskool</packageName>
             </dependency>
             <dependency>
               <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
+            </dependency>
+            <dependency>
+              <packageName>Dependency_modsSettingsApi_POLIROID_Oldskool_gundirection</packageName>
             </dependency>
           </dependencies>
         </package>
@@ -10126,13 +10154,13 @@
         </package>
         <package>
           <name>Enemy Direction Indicator by Oldskool</name>
-          <zipFile>Ingame_Info_Enemy_Direction_oldskool_1.0.2.1_2018-07-09.zip</zipFile>
+          <zipFile>Ingame_Info_Enemy_Direction_oldskool_1.0.2.1_2018-06-25.zip</zipFile>
           <crc>f</crc>
-          <enabled>True</enabled>
-          <visible>True</visible>
+          <enabled>False</enabled>
+          <visible>False</visible>
           <packageName>Ingame_Info_Enemy_Direction_oldskool</packageName>
           <type>multi</type>
-          <timestamp>131756176176969106</timestamp>
+          <timestamp>131756476407221686</timestamp>
           <size>265771</size>
           <description>This mod allows you to show the enemys gun direction on the minimap. This will only work until your maximum viewrange is reached. Also you can enable to see gun direction of your allied SPG.\n\n2. URL: http://forum.worldoftanks.eu/index.php?/topic/603810-</description>
           <devURL>https://wgmods.net/1260/</devURL>
