@@ -5414,7 +5414,6 @@
                   <type>single_dropdown1</type>
                   <timestamp>131699329260122028</timestamp>
                   <size>365609</size>
-                  <updateComment>Dependency_Crosshair_Sight_0.9.20_2017-08-30.zip-&gt;tv.protanki.sights.wotmod-&gt;mod_sights.pyc</updateComment>
                   <devURL>http://wotsite.net/pritsely/9382-</devURL>
                   <medias>
                     <media>
@@ -10601,6 +10600,20 @@
               <URL>http://fs5.directupload.net/images/user/170903/xjd6vpwg.jpg</URL>
             </media>
           </medias>
+          <packages>
+            <package>
+              <name>enabled only for light tanks</name>
+              <zipFile>Ingame_Info_spotMarks_onlylights_2018-07-25.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Info_Spot_Marks_only_lights</packageName>
+              <type>multi</type>
+              <version>1.09</version>
+              <timestamp>131770066955437101</timestamp>
+              <devURL>https://github.com/spoter/spoter-mods/tree/master/mod_spotMarks</devURL>
+            </package>
+          </packages>
           <dependencies>
             <dependency>
               <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
@@ -11601,40 +11614,69 @@
           </packages>
         </package>
         <package>
-          <name>Enhanced Customizable Radial Menu by Polyacov_Yury</name>
-          <zipFile>Ingame_Misc_Custom_Radial_menu_0.9.21.0.1_v2017-12-17.zip</zipFile>
-          <crc>c6f4320d8b206cda4cdfc4b1c9122716</crc>
+          <name>Radial Menu</name>
+          <zipFile />
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Ingame_Misc_Custom_Radial_Menu</packageName>
+          <packageName>Ingame_Misc_Custom_Radial_Menu_Header</packageName>
           <type>multi</type>
-          <timestamp>131580566027798998</timestamp>
-          <size>149731</size>
-          <updateComment>2017-12-15: added several Pre-configs, selectable in garage</updateComment>
-          <description>Provides you with a custom radial menu. It also may have custom text specified based on your current tank selection.</description>
-          <devURL>https://wotspeak.ru/mody-world-of-tanks-wot/365-prikolnoe-boevoe-menyu-trollya-dlya-world-of-tanks-wot.html</devURL>
-          <medias>
-            <media>
-              <type>1</type>
-              <URL>https://img.atwikiimg.com/www51.atwiki.jp/wot_sengiken/attach/140/273/RadialMenu.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_06_2014/post-5686007-0-35112300-1403228830.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_06_2014/post-5686007-0-82846000-1403228828.jpg</URL>
-            </media>
-          </medias>
-          <dependencies>
-            <dependency>
-              <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
-            </dependency>
-            <dependency>
-              <packageName>Dependency_PYmodsCore</packageName>
-            </dependency>
-          </dependencies>
+          <timestamp>131767543894143710</timestamp>
+          <packages>
+            <package>
+              <name>Enhanced Customizable Radial Menu by Polyacov_Yury</name>
+              <zipFile>Ingame_Misc_Custom_Radial_menu_0.9.21.0.1_v2018-07-24.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Misc_Custom_Radial_Menu</packageName>
+              <type>single1</type>
+              <timestamp>131769168991611207</timestamp>
+              <size>149731</size>
+              <updateComment>2018-07-24: changed chat-messages (keys: L or N) to movie- and duke nukem - quotes\n2017-12-15: added several Pre-configs, selectable in garage</updateComment>
+              <description>Provides you with a custom radial menu. \nIt also may have custom text specified based on your current tank selection.</description>
+              <devURL>https://wotspeak.ru/mody-world-of-tanks-wot/365-prikolnoe-boevoe-menyu-trollya-dlya-world-of-tanks-wot.html</devURL>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>https://img.atwikiimg.com/www51.atwiki.jp/wot_sengiken/attach/140/273/RadialMenu.jpg</URL>
+                </media>
+                <media>
+                  <type>1</type>
+                  <URL>http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_06_2014/post-5686007-0-35112300-1403228830.jpg</URL>
+                </media>
+                <media>
+                  <type>1</type>
+                  <URL>http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_06_2014/post-5686007-0-82846000-1403228828.jpg</URL>
+                </media>
+              </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_PYmodsCore</packageName>
+                </dependency>
+              </dependencies>
+            </package>
+            <package>
+              <name>Radial Menu by HAWG</name>
+              <zipFile>Ingame_Misc_Custom_Radial_Menu_HAWG_1.0.2.3_2018-07-22.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Misc_Custom_Radial_Menu_HAWG</packageName>
+              <type>single1</type>
+              <timestamp>131767547775620332</timestamp>
+              <devURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-radial-menu</devURL>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://i.imgur.com/x9R0TDt.png</URL>
+                </media>
+              </medias>
+            </package>
+          </packages>
         </package>
         <package>
           <name>WoT FPS First Person Tank View</name>
@@ -13356,14 +13398,14 @@
                 </package>
                 <package>
                   <name>Kaptain_Prio Greater Premium Tanks</name>
-                  <zipFile>Garage_graphics_Custom_Carousel_Kaptain-Prio_Premiumtank_icons_2018-06-30.zip</zipFile>
-                  <crc>b9f15a0a9c64cb48b6ee9a28b073eeb7</crc>
+                  <zipFile>Garage_graphics_Custom_Carousel_Kaptain-Prio_Premiumtank_icons_1.0.2.3_2018-07-26.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Garage_mods_Carousel_Kaptain_Prior_Greaterd_Premium_Tanks</packageName>
                   <type>single1</type>
-                  <version>Obj60 1.6B</version>
-                  <timestamp>131748341913511950</timestamp>
+                  <version>Obj60 1.7</version>
+                  <timestamp>131770916244078257</timestamp>
                   <size>4140599</size>
                   <updateComment>Obj60 1.6B: \n-Add new premium tanks, enhance old tank, find out yourself.</updateComment>
                   <description>This mod will change the original premium tank icons in game such as garrage-carousel into the picture you saw at premium web-shop. \nIt has nearly enough all premium that have been sale online, for some ultra rare or reward tanks are not availble so I put there temporary place-holders. \nIf you have any idea or find any bug, please report to me for I can work on that.</description>
@@ -14527,8 +14569,8 @@
               <visible>True</visible>
               <packageName>Statistic_Session_YK_Header</packageName>
               <type>single1</type>
-              <version>1.0.2.2</version>
-              <updateComment>24.05.2018: Updated Core and Vanilla colored messages for today's mini patch.</updateComment>
+              <version>1.0.2.3</version>
+              <updateComment>26.07.2018\n    Switched to Beta session statistics as default, (Parameters Panel by default disabled in config).\n    Updated Colored messages for minipatch 1.0.2.3 #936.\n    Updated translation files, added Korean language, removed unnecessary translations phrases.\n    Updated Graphical battle messages, added MoE and small visual changes.\n    Fixed byTank stats at panel if session stats are manually wiped.\n    Added icons instead item names at Research Watchdog.\n    Added new icons to the wotmod packages (combined damage, avgDamage, moe).\n\n19.07.2018\n    Updated for 1.0.2.3\n    Added localization support of session statistics and translations to many languages.\n    Added ability for comments in config's.\n    Added battle types counting.\n    Added configurable reset confirmation window.\n    Moved debug option in config.\n    Merged macros arenaType and arenaGuiType into arenaStr.\n    Bumped cache version.\n\n04.07.2018    Updated for 1.0.2.2</updateComment>
               <description>NOTE: To maintain language neutrality, the in-game messages are not in color\nShows your statistics for your tanks session in the notifications area of your garage</description>
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/583433-</devURL>
               <userDatas>
@@ -14543,14 +14585,14 @@
               <packages>
                 <package>
                   <name>Base</name>
-                  <zipFile>Statistics_YasenKrasen_Base_1.0.2.3_2018-07-19.zip</zipFile>
-                  <crc>95b589e4bf7b34c0af8a7c3dc9d68326</crc>
+                  <zipFile>Statistics_YasenKrasen_Base_1.0.2.3_2018-07-26.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Statistic_Session_YK_mini</packageName>
                   <type>single1</type>
                   <version>1.0.2.3</version>
-                  <timestamp>131765044711104653</timestamp>
+                  <timestamp>131770907580182824</timestamp>
                   <size>554839</size>
                   <medias>
                     <media>
@@ -14561,14 +14603,14 @@
                 </package>
                 <package>
                   <name>Vanilla</name>
-                  <zipFile>Statistics_YasenKrasen_Vanilla_1.0.2.3_2018-07-19.zip</zipFile>
-                  <crc>739fc0120b9fe9807dbda1c9d7909da1</crc>
+                  <zipFile>Statistics_YasenKrasen_Vanilla_1.0.2.3_2018-07-26.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Statistic_Session_YK_Vanilla</packageName>
                   <type>single1</type>
                   <version>1.0.2.3</version>
-                  <timestamp>131765044871658365</timestamp>
+                  <timestamp>131770898085292620</timestamp>
                   <size>554839</size>
                   <medias>
                     <media>
@@ -14579,14 +14621,14 @@
                 </package>
                 <package>
                   <name>Core</name>
-                  <zipFile>Statistics_YasenKrasen_Core_1.0.2.3_2018-07-19.zip</zipFile>
-                  <crc>5df12148826d9f1e824305d4abb829a8</crc>
+                  <zipFile>Statistics_YasenKrasen_Core_1.0.2.3_2018-07-26.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Statistic_Session_YK_Core</packageName>
                   <type>single1</type>
                   <version>1.0.2.3</version>
-                  <timestamp>131765045161928997</timestamp>
+                  <timestamp>131770895226838690</timestamp>
                   <size>554839</size>
                   <medias>
                     <media>
@@ -14784,14 +14826,14 @@
                 </package>
                 <package>
                   <name>Graphical</name>
-                  <zipFile>Statistics_YasenKrasen_Graphical_1.0.2.2_2018-07-04.zip</zipFile>
-                  <crc>2ce6095482a92f07ee9ced3ef0da8ce2</crc>
+                  <zipFile>Statistics_YasenKrasen_Graphical_1.0.2.3_2018-07-26.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Statistic_Session_YK_Graphical</packageName>
                   <type>single_dropdown1</type>
-                  <version>1.0.2.2</version>
-                  <timestamp>131752124466918361</timestamp>
+                  <version>1.0.2.3</version>
+                  <timestamp>131770907816925071</timestamp>
                   <size>244878</size>
                   <medias>
                     <media>
@@ -14822,7 +14864,7 @@
                   <visible>True</visible>
                   <packageName>Statistic_Session_YK_Colored_Chat</packageName>
                   <type>multi</type>
-                  <version>1.0.2.2</version>
+                  <version>1.0.2.3</version>
                   <timestamp>131765045353334591</timestamp>
                   <size>2372568</size>
                   <medias>
@@ -14838,14 +14880,14 @@
                 </package>
                 <package>
                   <name>Kill Skulls</name>
-                  <zipFile>Statistics_YasenKrasen_Ingame_Skulls_1.0.2.3_2018-07-19.zip</zipFile>
-                  <crc>4401f6832f8e20bf56fa4ed7a62a6706</crc>
+                  <zipFile>Statistics_YasenKrasen_Ingame_Skulls_1.0.2.3_2018-07-26.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Statistic_Session_YK_Skulls</packageName>
                   <type>multi</type>
-                  <version>1.0.2.2</version>
-                  <timestamp>131765045037552628</timestamp>
+                  <version>1.0.2.3</version>
+                  <timestamp>131770898585785428</timestamp>
                   <size>16246</size>
                   <medias>
                     <media>
@@ -15311,7 +15353,7 @@
           <visible>True</visible>
           <packageName>Sounds_WWIIHWA_Ambiente_sounds_Header</packageName>
           <type>multi</type>
-          <version>6.7.1</version>
+          <version>6.7.2</version>
           <size>934</size>
           <updateComment>updated Version 6.6 folder content not used anymore\nv6.5.2 Took Budyx69 idea of Rescue Pack, \nZip-files are now divided in audioww parts and non audioww paats\ncould make updates easier/faster\nSame Soundbanks:  v6.6=v6.5.3= v6.5.2=6.4.2=6.4 = 6.3.1 = v6.3.0\n\n2017-12-22: Dont use Ed76na Sounds with WWIIHWA: \n- "WoT-Circle": Restart -&gt; Crash -&gt; Restart -&gt; Crash....</updateComment>
           <description>2018-06-18: Wanna have the FIFA Hangar? Use HangMan (Garage grafics -&gt; Hangar Manager (HangMan))\n\nWWIIHWA Ambiente by Budyx69 previous by Kriegstreiber\n\nUse WWIIHWA-Configuration.exe for settings, located in your WOT directory,</description>
@@ -15352,10 +15394,10 @@
                   <visible>True</visible>
                   <packageName>WWIIHWA-Configuration.exe_Ambiente</packageName>
                   <type>multi</type>
-                  <version>6.7.1</version>
+                  <version>6.7.2</version>
                   <timestamp>131665200345179736</timestamp>
                   <size>67597046</size>
-                  <updateComment>version 6.6\n\nUse WWIIHWA-Configuration.exe for settings, located in your WOT directory</updateComment>
+                  <updateComment>Use WWIIHWA-Configuration.exe for settings, located in your WOT directory</updateComment>
                   <description>WWIIHWA Ambiente by Budyx69</description>
                   <devURL>http://forum.worldoftanks.eu/index.php?/topic/502495-</devURL>
                   <medias>
@@ -15379,8 +15421,8 @@
               <visible>True</visible>
               <packageName>WWIIHWA_Music_and_Historical</packageName>
               <type>multi</type>
-              <version>6.7.1</version>
-              <updateComment>Version 6.7.1\nSame Soundbanks:  v6.7.1=v6.6=v6.5.3= v6.5.2=v6.4.2=v6.4=v6.3.1=v6.3.0</updateComment>
+              <version>6.7.2</version>
+              <updateComment>Version 6.7.2\nSame Soundbanks:  v6.7.2=v6.7.1=v6.6=v6.5.3= v6.5.2=v6.4.2=v6.4=v6.3.1=v6.3.0</updateComment>
               <description>Play Music in Hangar, at battleloading, in Battle and at Battle result</description>
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/502495-</devURL>
               <medias>
@@ -15401,7 +15443,7 @@
                   <version>6.7.1</version>
                   <timestamp>131536622113276851</timestamp>
                   <size>497091225</size>
-                  <updateComment>Version 6.7.1\nSame Soundbanks:  v6.7.1=v6.6=v6.5.3= v6.5.2=v6.4.2=v6.4=v6.3.1=v6.3.0</updateComment>
+                  <updateComment>Version 6.7.2\nSame Soundbanks:  v6.7.2=v6.7.1=v6.6=v6.5.3= v6.5.2=v6.4.2=v6.4=v6.3.1=v6.3.0</updateComment>
                   <description>WWIIHWA Historical music and speeches</description>
                   <devURL>http://forum.worldoftanks.eu/index.php?/topic/502495-</devURL>
                   <medias>
@@ -15422,7 +15464,7 @@
                   <version>6.7.1</version>
                   <timestamp>131536622646213850</timestamp>
                   <size>874904349</size>
-                  <updateComment>Version 6.7.1\nSame Soundbanks:  v6.7.1=v6.6=v6.5.3= v6.5.2=v6.4.2=v6.4=v6.3.1=v6.3.0</updateComment>
+                  <updateComment>Version 6.7.2\nSame Soundbanks:  v6.7.2=v6.7.1=v6.6=v6.5.3= v6.5.2=v6.4.2=v6.4=v6.3.1=v6.3.0</updateComment>
                   <devURL>http://forum.worldoftanks.eu/index.php?/topic/502495-</devURL>
                   <medias>
                     <media>
@@ -17880,14 +17922,14 @@
       <packages>
         <package>
           <name>Contour skins black and white with areas of penetration ( ͡° ͜ʖ ͡°) by Mr.13 v{version}</name>
-          <zipFile>Tank_Skin_Packs_HitZone_Skins_black_white_by_Mr.13_base_1.0.1_2018-05-12.zip</zipFile>
-          <crc>fdf4c4d25ac831ac3ba8b9009e49176f</crc>
+          <zipFile>Tank_Skin_Packs_HitZone_Skins_black_white_by_Mr.13_base_1.0.2.3_2018-07-23.zip</zipFile>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Tank_Skin_Packs_HitZone_Skins_black_white_Mr_13_Header</packageName>
           <type>single1</type>
-          <version>1.0.1</version>
-          <timestamp>131706152155349973</timestamp>
+          <version>1.0.2.3</version>
+          <timestamp>131769173036188769</timestamp>
           <size>88484370</size>
           <description>Shows where to hit tanks for damage or critical hits\nBoth options are in HD</description>
           <devURL>https://koreanrandom.com/forum/topic/1400-</devURL>
@@ -17920,14 +17962,14 @@
           <packages>
             <package>
               <name>no trunk marks</name>
-              <zipFile>Tank_Skin_Packs_HitZone_Skins_black_white_by_Mr.13_no_trunk_marks_1.0.1.0_2018-05-12.zip</zipFile>
-              <crc>1976d86147af799758b3cc48b78e260b</crc>
+              <zipFile>Tank_Skin_Packs_HitZone_Skins_black_white_by_Mr.13_no_trunk_marks_1.0.2.3_2018-07-23.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Tank_Skin_Packs_HitZone_Skins_black_white_Mr_13_w/o_trunk_marks</packageName>
               <type>single1</type>
-              <version>1.0.1.0</version>
-              <timestamp>131706152314545143</timestamp>
+              <version>1.0.2.3</version>
+              <timestamp>131769839084136472</timestamp>
               <size>571673045</size>
               <devURL>https://koreanrandom.com/forum/topic/1400-</devURL>
               <medias>
@@ -17939,14 +17981,14 @@
             </package>
             <package>
               <name>with trunk marks</name>
-              <zipFile>Tank_Skin_Packs_HitZone_Skins_black_white_by_Mr.13_trunk_marks_1.0.1.0_2018-05-12.zip</zipFile>
-              <crc>93ebc9ae5b36e596b0644415df591250</crc>
+              <zipFile>Tank_Skin_Packs_HitZone_Skins_black_white_by_Mr.13_trunk_marks_1.0.2.3_2018-07-23.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Tank_Skin_Packs_HitZone_Skins_black_white_Mr_13_with_trunk_marks</packageName>
               <type>single1</type>
-              <version>1.0.1.0</version>
-              <timestamp>131706152397896830</timestamp>
+              <version>1.0.2.3</version>
+              <timestamp>131769172347160540</timestamp>
               <size>571698534</size>
               <devURL>https://koreanrandom.com/forum/topic/1400-</devURL>
               <medias>
@@ -18872,14 +18914,14 @@
             </package>
             <package>
               <name>Limpid Stickers v{version} by goofy67</name>
-              <zipFile>Custom_Tank_Skins_Misc_LimpidStickers_v1.9_1.0.2.3_2018-07-20.zip</zipFile>
-              <crc>e31981a5e15f4f533b85b2669628b344</crc>
+              <zipFile>Custom_Tank_Skins_Misc_LimpidStickers_v1.11_1.0.2.3_2018-07-26.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Custom_Tank_Skins_Misc_Limpid_Stickers</packageName>
               <type>single1</type>
-              <version>1.9</version>
-              <timestamp>131765443868382599</timestamp>
+              <version>1.11</version>
+              <timestamp>131770870360604915</timestamp>
               <size>17089</size>
               <description>Makes decals, inscriptions, camouflages and/or clan-logos invisible, configurable for any tank separately.\n\nOpen configuration-window via Modifications-Listi-Button (lower-right corner in hangar)</description>
               <devURL>https://wgmods.net/1031/</devURL>
