@@ -827,17 +827,17 @@
               <type>single1</type>
               <description>To save time with your installation of clan icons, you could check this option to recycle/move the last installed icons to the new installation.</description>
               <userDatas>
-                <userData before="True">\res_mods\mods\shared_resources\xvm\res\clanicons\CT\clan\*.png</userData>
-                <userData before="True">\res_mods\mods\shared_resources\xvm\res\clanicons\EU\clan\*.png</userData>
-                <userData before="True">\res_mods\mods\shared_resources\xvm\res\clanicons\NA\clan\*.png</userData>
-                <userData before="True">\res_mods\mods\shared_resources\xvm\res\clanicons\RU\clan\*.png</userData>
-                <userData before="False">\res_mods\mods\shared_resources\xvm\res\clanicons\CT\nick\*.png</userData>
-                <userData before="False">\res_mods\mods\shared_resources\xvm\res\clanicons\EU\nick\*.png</userData>
-                <userData before="False">\res_mods\mods\shared_resources\xvm\res\clanicons\NA\nick\*.png</userData>
-                <userData before="False">\res_mods\mods\shared_resources\xvm\res\clanicons\RU\nick\*.png</userData>
-                <userData before="False">\res_mods\mods\shared_resources\xvm\res\clanicons\ID\*.png</userData>
-                <userData before="True">\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\clan\*.png</userData>
-                <userData before="False">\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\nick\*.png</userData>
+                <userData>\res_mods\mods\shared_resources\xvm\res\clanicons\CT\clan\*.png</userData>
+                <userData>\res_mods\mods\shared_resources\xvm\res\clanicons\EU\clan\*.png</userData>
+                <userData>\res_mods\mods\shared_resources\xvm\res\clanicons\NA\clan\*.png</userData>
+                <userData>\res_mods\mods\shared_resources\xvm\res\clanicons\RU\clan\*.png</userData>
+                <userData>\res_mods\mods\shared_resources\xvm\res\clanicons\CT\nick\*.png</userData>
+                <userData>\res_mods\mods\shared_resources\xvm\res\clanicons\EU\nick\*.png</userData>
+                <userData>\res_mods\mods\shared_resources\xvm\res\clanicons\NA\nick\*.png</userData>
+                <userData>\res_mods\mods\shared_resources\xvm\res\clanicons\RU\nick\*.png</userData>
+                <userData>\res_mods\mods\shared_resources\xvm\res\clanicons\ID\*.png</userData>
+                <userData>\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\clan\*.png</userData>
+                <userData>\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\nick\*.png</userData>
               </userDatas>
             </package>
             <package>
@@ -1188,6 +1188,29 @@
               <timestamp>131771258549087414</timestamp>
               <size>1687</size>
               <description>shows the current targets reloadtime (no countdown, only standard reloadtime without perks)</description>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/battle_interface/XVM_config_builder_targetinfo.png</URL>
+                </media>
+              </medias>
+            </package>
+            <package>
+              <name>Piercing Chance (possible Penetration Indicator conflict!)</name>
+              <zipFile>XVM_config_builder_battleinterface_piercingchance_2018-07-29.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_BattleInterfaceModifications_PiercingChance</packageName>
+              <type>multi</type>
+              <timestamp>131773543450739035</timestamp>
+              <description>Like the penatration indicator, this mod shows if you have a chance to penetrate the enemy.\n\nformat: \ncurrent own gun penetration / actual enemy armor\n\ncolors:\ngreen = chance to pierce\nred = no chance to pierce</description>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png</URL>
+                </media>
+              </medias>
             </package>
             <package>
               <name>Show Aim Info</name>
@@ -2541,6 +2564,12 @@
                   <timestamp>131772934996913280</timestamp>
                   <size>4517</size>
                   <description>marks friends in allied/enemy playerspanel with a green dot</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_friendIcon.png</URL>
+                    </media>
+                  </medias>
                 </package>
                 <package>
                   <name>Ignored/Banned-Marker</name>
@@ -2553,6 +2582,12 @@
                   <timestamp>131772935088598125</timestamp>
                   <size>4525</size>
                   <description>marks blacklisted tankers in allied/enemy playerspanel with a red dot</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_ignoredicon.png</URL>
+                    </media>
+                  </medias>
                 </package>
                 <package>
                   <name>Show who´s using XVM</name>
@@ -2565,6 +2600,12 @@
                   <timestamp>131772838063351349</timestamp>
                   <size>538</size>
                   <description>shows a little orange "x" near to player-/tanknames when they are using xvm</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/players_panel/XVM_config_builder_enable_xvmUserMarker.png</URL>
+                    </media>
+                  </medias>
                 </package>
                 <package>
                   <name>Show language flag</name>
@@ -9104,7 +9145,7 @@
               <description>features:\n- Default layout of masheene (THX!)\n- Display of the basic values ​​of vehicles Ingame\n- By ALT button, the ability to view your own vehicle\n- Ingame On-the-Fly Configurator \n- Currently it is not possible to create / load your own styles,</description>
               <devURL>https://wgmods.net/1029/</devURL>
               <userDatas>
-                <userData before="False">\\mods\\configs\\oldskool\\tankpanel.json</userData>
+                <userData>\\mods\\configs\\oldskool\\tankpanel.json</userData>
               </userDatas>
               <medias>
                 <media>
@@ -10092,8 +10133,8 @@
           <description>Shows how much damage arty actually causes vs. other tanks that damage you</description>
           <devURL>https://wgmods.net/1036/</devURL>
           <userDatas>
-            <userData before="False">\\mods\\configs\\promod\\artylog\\modCache.json</userData>
-            <userData before="False">\\mods\\configs\\promod\\artylog\\modSettings.json</userData>
+            <userData>\\mods\\configs\\promod\\artylog\\modCache.json</userData>
+            <userData>\\mods\\configs\\promod\\artylog\\modSettings.json</userData>
           </userDatas>
           <medias>
             <media>
@@ -10220,7 +10261,7 @@
           <description>YOU MUST ACTIVATE THE MOD IN TEAMSPEAK. Instructions here: http://forum.worldoftanks.eu/index.php?/topic/433614-09171-tessumod-wotteamspeak-integration-mod-v0613-26032017/#topmost \nA modification for integrating TeamSpeak into Garage and Battle.</description>
           <devURL>http://forum.worldoftanks.eu/index.php?/topic/433614-</devURL>
           <userDatas>
-            <userData before="False">\\mods\\configs\\tessu_mod\\tessu_mod.ini</userData>
+            <userData>\\mods\\configs\\tessu_mod\\tessu_mod.ini</userData>
           </userDatas>
           <medias>
             <media>
@@ -11940,7 +11981,7 @@
           <description>This is a small service mod to create more comfortable conditions of the game.\n\nCurrent features:\nThe function “PreferredServer” - job server for the login and remembering user’s choice;\nThe function “saveLastServer” - remembering the last server which was played by the player;\nThe function “AutoEquip” - automatic installation of removable equipment for the selected tank;\nThe function “AutoOutfit” - automatic installation of the equipment for the selected tank (first aid Kit, repair Kit, fire extinguisher, etc.);\nThe function “AutoCrew” - automatic return of the last of the crew to the selected tank;\nThe function “Region Changer (Multi-client)” - the ability to play on all WoT clusters with one client.\nThe function “Circle of the dispersion” of the gun - displays the real circle of the dispersion of the gun.\nThe function “Server Sight” - displays the position of the sight on the server.\nThe function “Carousel of tanks” - adjustment of tank carousel\nThe option to disable the Handbrake in sniper mode;\nSeting the duration of display light bulbs “6th sense”;\nSeting the duration of displaying indicators of attack;\nFunction disable effect of hit of a shell in you;\nFunction disable flash effect when a shell hit you;\nFunction disable of the effect of the inertia of the camera;\nFunction disable of the recoil effect from the shot;\nThe disabling effect of the blackout in the sniper scope;\nFunction to enable horizontal stabilization for all tanks;\nSeting the list of values zoom in sniper mode;\nSeting fixed zoom value at switching in sniper mode;\nSetting the “camera height” above the tank;\nSetting the range of variation of the distance of the camera;\nSpecifies the size of the players panel at boot and the beginning of the battle;\nFunction “Contacts” - the allocation of the player from a predefined list to the contact list on the loading screen and “ears\n\nForum Link: http://forum.worldoftanks.eu/index.php?/topic/596487-mod-auxilium-autoequip-autocrew-autocamo-autohandbrake-region-changer-and-more/#topmost</description>
           <devURL>https://wgmods.net/41/</devURL>
           <userDatas>
-            <userData before="False">\res_mods\configs\BBMods\Auxilium.dat</userData>
+            <userData>\res_mods\configs\BBMods\Auxilium.dat</userData>
           </userDatas>
           <packages>
             <package>
@@ -12118,7 +12159,7 @@
           <description>**To play on other clusters, you need to have an account on each one**\n\nFeatures of fashion:\nSimple selection of servers in other clusters;\nThere is no need for permanent copying / deleting of files;\nDo not need constant updates when you exit the "micro patches";\nAll established fashion will be available;\nEasy installation;</description>
           <devURL>https://wgmods.net/WOT/ru/multiklient-region-changer-256/</devURL>
           <userDatas>
-            <userData before="False">\res_mods\configs\BBMods\Auxilium.dat</userData>
+            <userData>\res_mods\configs\BBMods\Auxilium.dat</userData>
           </userDatas>
           <medias>
             <media>
@@ -12180,7 +12221,7 @@
           <description>The function “AutoEquip” - automatic installation of removable equipment for the selected tank;\n\n"Teach" this mod how he should work:\nwhich automatic installation of removable equipment you wanna have on the tank - just put it on the tank the mod saves it\n\nSimple Mod to automatically mount and demount removable devices on vehicles.\nEquipment from the previous vehicle will be mounted after battle on the next vehicle.\n(Binoculars, Toolbox and Camonet)</description>
           <devURL>https://wgmods.net/1022/</devURL>
           <userDatas>
-            <userData before="False">\profile\auto_equip</userData>
+            <userData>\profile\auto_equip</userData>
           </userDatas>
           <medias>
             <media>
@@ -12203,7 +12244,7 @@
           <description>This is a small service mod to create more comfortable conditions of the game.\n\nCurrent features:\nThe function “PreferredServer” - job server for the login and remembering user’s choice;\nThe function “saveLastServer” - remembering the last server which was played by the player;\nThe function “AutoEquip” - automatic installation of removable equipment for the selected tank;\nThe function “AutoOutfit” - automatic installation of the equipment for the selected tank (first aid Kit, repair Kit, fire extinguisher, etc.);\nThe function “AutoCrew” - automatic return of the last of the crew to the selected tank;\nThe function “Region Changer (Multi-client)” - the ability to play on all WoT clusters with one client.\nThe function “Circle of the dispersion” of the gun - displays the real circle of the dispersion of the gun.\nThe function “Server Sight” - displays the position of the sight on the server.\nThe function “Carousel of tanks” - adjustment of tank carousel\nThe option to disable the Handbrake in sniper mode;\nSeting the duration of display light bulbs “6th sense”;\nSeting the duration of displaying indicators of attack;\nFunction disable effect of hit of a shell in you;\nFunction disable flash effect when a shell hit you;\nFunction disable of the effect of the inertia of the camera;\nFunction disable of the recoil effect from the shot;\nThe disabling effect of the blackout in the sniper scope;\nFunction to enable horizontal stabilization for all tanks;\nSeting the list of values zoom in sniper mode;\nSeting fixed zoom value at switching in sniper mode;\nSetting the “camera height” above the tank;\nSetting the range of variation of the distance of the camera;\nSpecifies the size of the players panel at boot and the beginning of the battle;\nFunction “Contacts” - the allocation of the player from a predefined list to the contact list on the loading screen and “ears” of commands.\nFunction setting default credits instead of gold for equipment, and ammunition\nFunction to disable the ability to use gold\nFunction of disabling the ability to use free experience\n\nTo support the author and help in the development of mod in the following ways:\n\nMasterCard: 5106211018429576\nYandex-Money: https://money.yandex.ru/to/410013932903103\nPayPal: https://www.paypal.me/shurabb\nWMR: R051923559108\nWMZ: Z312682149663\n\nForum Link: http://forum.worldoftanks.eu/index.php?/topic/596487-mod-auxilium-autoequip-autocrew-autocamo-autohandbrake-region-changer-and-more/#topmost</description>
           <devURL>https://wgmods.net/41/</devURL>
           <userDatas>
-            <userData before="False">\res_mods\configs\BBMods\Auxilium.dat</userData>
+            <userData>\res_mods\configs\BBMods\Auxilium.dat</userData>
           </userDatas>
           <medias>
             <media>
@@ -12225,7 +12266,7 @@
               <description>The function “AutoEquip” - automatic installation of removable equipment for the selected tank;\n\n"Teach" this mod how he should work:\nwhich automatic installation of removable equipment you wanna have on the tank - just put it on the tank the mod saves it</description>
               <devURL>https://wgmods.net/41/</devURL>
               <userDatas>
-                <userData before="False">\\mods\\configs\\BBMods\\Auxilium.dat</userData>
+                <userData>\\mods\\configs\\BBMods\\Auxilium.dat</userData>
               </userDatas>
             </package>
             <package>
@@ -12338,7 +12379,7 @@
           <description>Press F11 inside Garage (or change key inside res_mods&amp;#92;configs&amp;#92;mapcount&amp;#92;mapcount.xml)\nMaps sort by Battles</description>
           <devURL>http://forum.worldoftanks.eu/index.php?/topic/604269-</devURL>
           <userDatas>
-            <userData before="False">\\res_mods\\configs\\mapcount\\mapcount.xml</userData>
+            <userData>\\res_mods\\configs\\mapcount\\mapcount.xml</userData>
           </userDatas>
           <medias>
             <media>
@@ -12600,7 +12641,7 @@
           <description>Mod displays the number of fights and experience required for the next 1%-step and for 100%.</description>
           <devURL>https://github.com/spoter/spoter-mods</devURL>
           <userDatas>
-            <userData before="False">\\mods\\configs\\crewExtended\\crewExtended.json</userData>
+            <userData>\\mods\\configs\\crewExtended\\crewExtended.json</userData>
           </userDatas>
           <medias>
             <media>
@@ -14020,7 +14061,7 @@
               <size>141121</size>
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/588679-</devURL>
               <userDatas>
-                <userData before="False">\res_mods\configs\BBMods\Statistic_*.json</userData>
+                <userData>\res_mods\configs\BBMods\Statistic_*.json</userData>
               </userDatas>
               <medias>
                 <media>
@@ -14524,7 +14565,7 @@
               <description>Shows your statistics for your tanks session in the notifications area of your garage \nGerman modified Version by dirty20067</description>
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/572771-</devURL>
               <userDatas>
-                <userData before="False">\\res_mods\\configs\\wotstat\\cache.json</userData>
+                <userData>\\res_mods\\configs\\wotstat\\cache.json</userData>
               </userDatas>
               <packages>
                 <package>
@@ -14640,7 +14681,7 @@
               <description>NOTE: To maintain language neutrality, the in-game messages are not in color\nShows your statistics for your tanks session in the notifications area of your garage</description>
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/583433-</devURL>
               <userDatas>
-                <userData before="False">\\mods\\configs\\yk-stats\\cache.json</userData>
+                <userData>\\mods\\configs\\yk-stats\\cache.json</userData>
               </userDatas>
               <medias>
                 <media>
@@ -18992,7 +19033,7 @@
               <description>Makes decals, inscriptions, camouflages and/or clan-logos invisible, configurable for any tank separately.\n\nOpen configuration-window via Modifications-Listi-Button (lower-right corner in hangar)</description>
               <devURL>https://wgmods.net/1031/</devURL>
               <userDatas>
-                <userData before="False">{appData}\Wargaming.net\WorldOfTanks\LimpidStickers\config.json</userData>
+                <userData>{appData}\Wargaming.net\WorldOfTanks\LimpidStickers\config.json</userData>
               </userDatas>
               <medias>
                 <media>
