@@ -2567,43 +2567,67 @@
                   </medias>
                 </package>
                 <package>
-                  <name>Friend-Marker</name>
-                  <zipFile>XVM_config_builder_playerspanel_friendIcon_2018-07-29.zip</zipFile>
-                  <crc>58477de0e19c81d707d09777c956163c</crc>
+                  <name>Friends- and Blacklisted-Marker</name>
+                  <zipFile />
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanelModifications_friendIcon</packageName>
+                  <packageName>XVMconfigBuilder_PlayersPanelModifications_friendignored</packageName>
                   <type>multi</type>
-                  <timestamp>131772934996913280</timestamp>
-                  <size>4517</size>
-                  <description>marks friends in allied/enemy playerspanel with a green dot</description>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_friendIcon.png</URL>
-                    </media>
-                  </medias>
+                  <timestamp>131773941834232869</timestamp>
+                  <description>marks friends in allied/enemy playerspanel with a green dot,\nblacklisted tankers in allied/enemy playerspanel will have a red dot.\n\nyou can choose to see only friends or only blacklisted gamers and both.</description>
+                  <packages>
+                    <package>
+                      <name>Friends-Marker</name>
+                      <zipFile>XVM_config_builder_playerspanel_friendIcon_2018-07-29.zip</zipFile>
+                      <crc>58477de0e19c81d707d09777c956163c</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanelModifications_friendIcon</packageName>
+                      <type>multi</type>
+                      <timestamp>131772934996913280</timestamp>
+                      <size>4517</size>
+                      <description>marks friends in allied/enemy playerspanel with a green dot</description>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_friendIcon.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                    <package>
+                      <name>Blacklisted-Marker</name>
+                      <zipFile>XVM_config_builder_playerspanel_ignoredIcon_2018-07-29.zip</zipFile>
+                      <crc>740923af0f69c2fc3f1614b8621e555d</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanelModifications_ignoredIcon</packageName>
+                      <type>multi</type>
+                      <timestamp>131772935088598125</timestamp>
+                      <size>4525</size>
+                      <description>marks blacklisted tankers in allied/enemy playerspanel with a red dot</description>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_ignoredicon.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                    <package>
+                      <name>move Friends-and Blacklisted-Markers more to center  (if contouricons are overlapping)</name>
+                      <zipFile>XVM_config_builder_friendignoredicon_move_x120_2018-07-30.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanelModifications_friendignored_move_x120</packageName>
+                      <type>multi</type>
+                      <timestamp>131773955954736164</timestamp>
+                      <description>move Friends-and Blacklisted-Markers more to center  (if contouricons are overlapping)</description>
+                    </package>
+                  </packages>
                 </package>
                 <package>
-                  <name>Ignored/Banned-Marker</name>
-                  <zipFile>XVM_config_builder_playerspanel_ignoredIcon_2018-07-29.zip</zipFile>
-                  <crc>740923af0f69c2fc3f1614b8621e555d</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanelModifications_ignoredIcon</packageName>
-                  <type>multi</type>
-                  <timestamp>131772935088598125</timestamp>
-                  <size>4525</size>
-                  <description>marks blacklisted tankers in allied/enemy playerspanel with a red dot</description>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_ignoredicon.png</URL>
-                    </media>
-                  </medias>
-                </package>
-                <package>
-                  <name>Show who´s using XVM</name>
+                  <name>Show who´s using XVM (xvmUserMarker)</name>
                   <zipFile>XVM_config_builder_enable_xvmUserMarker.zip</zipFile>
                   <crc>2c6ac05818bed6fd7a2f5f70bf4c0a40</crc>
                   <enabled>True</enabled>
@@ -2619,6 +2643,19 @@
                       <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/players_panel/XVM_config_builder_enable_xvmUserMarker.png</URL>
                     </media>
                   </medias>
+                  <packages>
+                    <package>
+                      <name>move the "x" more to center</name>
+                      <zipFile>XVM_config_builder_xvmusermarker_right_2018-07-30.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanelModifications_xvmUserMarker_right</packageName>
+                      <type>multi</type>
+                      <timestamp>131773929429232688</timestamp>
+                      <description>move the "x" more to center  (if contouricons are overlapping)</description>
+                    </package>
+                  </packages>
                 </package>
                 <package>
                   <name>Show language flag</name>
@@ -2639,16 +2676,16 @@
                   </medias>
                   <packages>
                     <package>
-                      <name>move flag to the panel inside</name>
-                      <zipFile>XVM_config_builder_language_flags_move_x0_2018-07-28.zip</zipFile>
-                      <crc>c0e6a2c32fe19f1418543a42ee828f49</crc>
+                      <name>move flag to the panel inside (try to use this, if you don`t see the complete flagsymbol)</name>
+                      <zipFile>XVM_config_builder_language_flags_left_2018-07-30.zip</zipFile>
+                      <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanelModifications_Language_Flags_move_x0</packageName>
+                      <packageName>XVMconfigBuilder_PlayersPanelModifications_Language_Flags_left</packageName>
                       <type>multi</type>
-                      <timestamp>131772835655713432</timestamp>
+                      <timestamp>131773937008579212</timestamp>
                       <size>852</size>
-                      <description>useful for some prebuilt configs (eg Jimbo´s)</description>
+                      <description>move flag to the panel inside.\ntry to use this, if you don`t see the complete flagsymbol.\nuseful for some prebuilt configs (eg Jimbo´s)</description>
                     </package>
                   </packages>
                 </package>
