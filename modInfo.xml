@@ -834,6 +834,19 @@
           <size>599295</size>
           <updateComment>2018-08-22: RC\n2018-07-31: still in beta</updateComment>
           <description>XVM-Config by elektrosmoker. \nOriginaly based on J1mb0´s xvm config.\n\n\nIncluding most of the options provided in the xvm config builder section:\n\nautologin\ndebugpanel v3 by ress\n3 row carousel\ncaronte shinigami´s carousel config\npiercingchance calculator\nTarget reloadtime Panel\nAimInfo\nlanguage flags in playerspanel\nhp bars\nfriend/ignored-icons\nwn8 comparison\nOMC markers\ngold / free xp locker\nxvmuserrmarker\n...\nsixth sense mgs-sound\nsixth sense sauron symbol</description>
+          <packages>
+            <package>
+              <name>make prebuilt compatible to battle observer</name>
+              <zipFile>XVM_Prebuilt_Configs_elektrosmoker_battle_observer_compatible_patch.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMPrebuiltConfigs_elektrosmoker_battle_observer_compatible_patch</packageName>
+              <type>multi</type>
+              <timestamp>131802024572112697</timestamp>
+              <description>clean the interface from xvm things to make space for Battle_Observer</description>
+            </package>
+          </packages>
           <dependencies>
             <dependency>
               <packageName>Dependency_audio_mods_xml</packageName>
@@ -2889,21 +2902,45 @@
               </packages>
             </package>
             <package>
-              <name>Hide Promo Tank in Garage Background</name>
-              <zipFile>xvm_config_builder_GarageInterfaceModifications_dontshowpromo.zip</zipFile>
+              <name>Promo Tank in Garage Background</name>
+              <zipFile />
               <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterfaceModifications_dontshowpromo</packageName>
+              <packageName>XVMconfigBuilder_GarageInterfaceModifications_showpromo</packageName>
               <type>multi</type>
-              <timestamp>131794518960777542</timestamp>
-              <description>Hide the Promo Tank that is seen in the Background</description>
+              <timestamp>131802017933435144</timestamp>
+              <description>Hide or show the Promo Tank that is seen in the Background</description>
               <medias>
                 <media>
                   <type>1</type>
                   <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/garage/xvm_config_builder_GarageInterfaceModifications_dontshowpromo.JPG</URL>
                 </media>
               </medias>
+              <packages>
+                <package>
+                  <name>enable</name>
+                  <zipFile>xvm_config_builder_GarageInterfaceModifications_showpromo_enable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterfaceModifications_showpromo_enable</packageName>
+                  <type>single1</type>
+                  <timestamp>131802019397181177</timestamp>
+                  <description>show the Promo Tank that is seen in the Background</description>
+                </package>
+                <package>
+                  <name>disable</name>
+                  <zipFile>xvm_config_builder_GarageInterfaceModifications_showpromo_disable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterfaceModifications_showpromo_disable</packageName>
+                  <type>single1</type>
+                  <timestamp>131802018822117827</timestamp>
+                  <description>Hide the Promo Tank that is seen in the Background</description>
+                </package>
+              </packages>
             </package>
             <package>
               <name>Gold Locker</name>
@@ -14646,7 +14683,7 @@
               <type>single1</type>
               <timestamp>131801558759773447</timestamp>
               <size>144483524</size>
-              <devURL>https://mod-wot.com/load/icons_for_world_of_tanks_wot/anime_crew_icons_for_world_of_tanks/7-1-0-341</devURL>
+              <devURL>https://wotspeak.ru/ikonki-world-of-tanks-wot/386-anime-ikonki-ekipazha-dlya-world-of-tanks-wot.html</devURL>
               <medias>
                 <media>
                   <type>1</type>
