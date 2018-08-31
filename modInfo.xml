@@ -2889,21 +2889,45 @@
               </packages>
             </package>
             <package>
-              <name>Hide Promo Tank in Garage Background</name>
-              <zipFile>xvm_config_builder_GarageInterfaceModifications_dontshowpromo.zip</zipFile>
+              <name>Promo Tank in Garage Background</name>
+              <zipFile />
               <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterfaceModifications_dontshowpromo</packageName>
+              <packageName>XVMconfigBuilder_GarageInterfaceModifications_showpromo</packageName>
               <type>multi</type>
-              <timestamp>131794518960777542</timestamp>
-              <description>Hide the Promo Tank that is seen in the Background</description>
+              <timestamp>131802017933435144</timestamp>
+              <description>Hide or show the Promo Tank that is seen in the Background</description>
               <medias>
                 <media>
                   <type>1</type>
                   <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/garage/xvm_config_builder_GarageInterfaceModifications_dontshowpromo.JPG</URL>
                 </media>
               </medias>
+              <packages>
+                <package>
+                  <name>enable</name>
+                  <zipFile>xvm_config_builder_GarageInterfaceModifications_showpromo_enable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterfaceModifications_showpromo_enable</packageName>
+                  <type>single1</type>
+                  <timestamp>131802019397181177</timestamp>
+                  <description>show the Promo Tank that is seen in the Background</description>
+                </package>
+                <package>
+                  <name>disable</name>
+                  <zipFile>xvm_config_builder_GarageInterfaceModifications_showpromo_disable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterfaceModifications_showpromo_disable</packageName>
+                  <type>single1</type>
+                  <timestamp>131802018822117827</timestamp>
+                  <description>Hide the Promo Tank that is seen in the Background</description>
+                </package>
+              </packages>
             </package>
             <package>
               <name>Gold Locker</name>
