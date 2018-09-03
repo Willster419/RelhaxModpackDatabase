@@ -52,12 +52,12 @@
   </globaldependencies>
   <dependencies>
     <dependency>
-      <zipFile>Dependency_XVM_Base_7.7.1_stable_with_patch_2018-09-03.zip</zipFile>
-      <crc>ab6f9f0fbac2886c636345f7729723ee</crc>
+      <zipFile>Dependency_XVM_Base_7.7.2_nightly_build_8600_with_patch_2018-09-03.zip</zipFile>
+      <crc>f</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_XVM_Main_Files</packageName>
-      <timestamp>131804710501702530</timestamp>
+      <timestamp>131804759957095840</timestamp>
       <devURL>https://modxvm.com/en/download-xvm/</devURL>
       <logicalDependencies>
         <logicalDependency>
@@ -1323,21 +1323,51 @@
             </package>
             <package>
               <name>WN8 Comparison</name>
-              <zipFile>XVM_config_builder_wn8_comparison_2016-09-03.zip</zipFile>
-              <crc>838ee81f684eb4cee95587d393eaeab6</crc>
+              <zipFile />
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison</packageName>
+              <packageName>XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_Header</packageName>
               <type>multi</type>
-              <timestamp>131804714025842036</timestamp>
-              <size>4166</size>
+              <timestamp>131804760989657652</timestamp>
               <description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</description>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>https://puu.sh/wi2Su/6e405c1d07.png</URL>
-                </media>
-              </medias>
+              <packages>
+                <package>
+                  <name>WN8 Comparison (Standard)</name>
+                  <zipFile>XVM_config_builder_wn8_comparison_2018-09-03.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_standard</packageName>
+                  <type>single1</type>
+                  <timestamp>131804760376856439</timestamp>
+                  <size>4166</size>
+                  <description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>https://puu.sh/wi2Su/6e405c1d07.png</URL>
+                    </media>
+                  </medias>
+                </package>
+                <package>
+                  <name>WN8 Comparison by Slava7572</name>
+                  <zipFile>XVM_config_builder_wn8_comparison_slava7572_2018-09-03.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_Slava7572</packageName>
+                  <type>single1</type>
+                  <timestamp>131804786249495206</timestamp>
+                  <description>Shows the total WN8 values of each team\nby Slava7572</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_Slava7572.jpg</URL>
+                    </media>
+                  </medias>
+                </package>
+              </packages>
             </package>
             <package>
               <name>Average Damage</name>
