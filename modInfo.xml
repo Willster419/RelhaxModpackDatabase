@@ -236,6 +236,15 @@
       <timestamp>131801217439558851</timestamp>
     </dependency>
     <dependency>
+      <zipFile>Dependency_xvm_config_builder_elementsXC_temp_prepatch.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_XVM_elementsXC_temp_prepatch</packageName>
+      <timestamp>131812495175590650</timestamp>
+      <devURL>i.m.using.this.logical.dep.for.patches.inside.elements.xc.till.i.know.hoiw.to.patch.right.-elektro</devURL>
+    </dependency>
+    <dependency>
       <zipFile>XVM_config_builder_damage_log_disable.zip</zipFile>
       <crc>98e962776b8c4baea52579c3d2b6f251</crc>
       <enabled>True</enabled>
@@ -1281,6 +1290,42 @@
               </medias>
             </package>
             <package>
+              <name>DebugPanel</name>
+              <zipFile />
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_BattleInterfaceModifications_DebugPanel</packageName>
+              <type>multi</type>
+              <timestamp>131812488048625094</timestamp>
+              <description>Show FPS / Ping / Clock in upper left corner.</description>
+              <packages>
+                <package>
+                  <name>DebugPanel v3 by Ress</name>
+                  <zipFile>XVM_config_builder_debugpanel_v3_2018-09-12.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_BattleInterfaceModifications_DebugPanel_v3byRess</packageName>
+                  <type>single1</type>
+                  <timestamp>131812452186935972</timestamp>
+                  <size>18300</size>
+                  <description>Show FPS / Ping / Clock in upper left corner.\nby Ress\n\nNot compatible to some XVM PreBuiltConfigs</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/battle_interface/debugpanel_fps_ping_clock.jpg</URL>
+                    </media>
+                  </medias>
+                </package>
+              </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_XVM_elementsXC_temp_prepatch</packageName>
+                </dependency>
+              </dependencies>
+            </package>
+            <package>
               <name>Piercing Chance (possible Penetration Indicator conflict!)</name>
               <zipFile>XVM_config_builder_battleinterface_piercingchance_2018-09-03.zip</zipFile>
               <crc>cf8198128ca2620c08da28bd7a00c5a9</crc>
@@ -1295,24 +1340,6 @@
                 <media>
                   <type>1</type>
                   <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png</URL>
-                </media>
-              </medias>
-            </package>
-            <package>
-              <name>DebugPanel</name>
-              <zipFile>XVM_config_builder_debugpanel_v3_2018-09-10.zip</zipFile>
-              <crc>f</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMConfigBuilder_BattleInterfaceModifications_DebugPanel</packageName>
-              <type>multi</type>
-              <timestamp>131810592371415758</timestamp>
-              <size>18300</size>
-              <description>Show FPS / Ping / Clock in upper left corner.\nby Ress\n\nNot compatible to OMC XVM PreBuiltConfig</description>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/battle_interface/debugpanel_fps_ping_clock.jpg</URL>
                 </media>
               </medias>
             </package>
@@ -1534,6 +1561,45 @@
                   </medias>
                 </package>
               </packages>
+            </package>
+            <package>
+              <name>PreBattleMessages</name>
+              <zipFile />
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_BattleInterfaceModifications_PreBattleMessages</packageName>
+              <type>multi</type>
+              <timestamp>131812516048427337</timestamp>
+              <description>modify the look of the pre-battle timer and messages</description>
+              <packages>
+                <package>
+                  <name>only timer &amp; conditions</name>
+                  <zipFile>XVM_config_builder_PreBattleMessages_timer_and_conditions_1.1.0_2018-09-12.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_BattleInterfaceModifications_PreBattleMessages_timer_and_conditions</packageName>
+                  <type>single1</type>
+                  <timestamp>131812515942949463</timestamp>
+                  <description>disables PreBattleBackground (shadow), \nPreBattleMessages \nand \nQuestProgressHint\n\nleaves Timer and BattleWinConditions!</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_1.jpg</URL>
+                    </media>
+                    <media>
+                      <type>1</type>
+                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_2.jpg</URL>
+                    </media>
+                  </medias>
+                </package>
+              </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_XVM_elementsXC_temp_prepatch</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Last Hit Announcer</name>
@@ -4232,16 +4298,28 @@
           </packages>
         </package>
         <package>
-          <name>WN8-ChatColor</name>
-          <zipFile>XVM_config_builder_wn8chatcolor_2018-08-07.zip</zipFile>
-          <crc>32931a6e0a02a3ed88f817bb3c2254f5</crc>
+          <name>Battle Chat</name>
+          <zipFile />
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMconfigBuilder_wn8chatcolor</packageName>
+          <packageName>XVMconfigBuilder_battleChat</packageName>
           <type>multi</type>
-          <timestamp>131781074089220888</timestamp>
+          <timestamp>131812487015080046</timestamp>
           <size>5211</size>
-          <description>writer´s name is colored with his wn8color (default 6-step)</description>
+          <description>modify the battlechat</description>
+          <packages>
+            <package>
+              <name>WN8-ChatColor</name>
+              <zipFile>XVM_config_builder_wn8chatcolor_2018-08-07.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_battleChat_wn8chatcolor</packageName>
+              <type>multi</type>
+              <description>the writer´s name is colored in his wn8color</description>
+            </package>
+          </packages>
         </package>
       </packages>
     </catagory>
