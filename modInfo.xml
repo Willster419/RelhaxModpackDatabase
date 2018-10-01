@@ -321,6 +321,15 @@
       <devURL>http://forum.worldoftanks.eu/index.php?/topic/603810-</devURL>
     </dependency>
     <dependency>
+      <zipFile>Dependency_Polarfox_vxSettingsApi_v1.8.2_1.1.0.1_2018-10-01.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_Polarfox_vxSettingsApi</packageName>
+      <timestamp>131828696677486569</timestamp>
+      <devURL>https://wgmods.net/1366/</devURL>
+    </dependency>
+    <dependency>
       <zipFile>Dependency_PYmodsCore_1.1.0_2018-07-12.zip</zipFile>
       <crc>b8bbb91132ac95a3c26f5ed15dc676f7</crc>
       <enabled>True</enabled>
@@ -7731,13 +7740,13 @@
               <packages>
                 <package>
                   <name>Basic</name>
-                  <zipFile>Contour_Icons_Man1aqContourIconMod_basic_1.1.0_2018-08-29.zip</zipFile>
-                  <crc>704e7d99da32e8a0a9cb9372f963a5b7</crc>
+                  <zipFile>Contour_Icons_Man1aqContourIconMod_basic_1.1.0.1_2018-10-01.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Contour_Icon_Man1aq_Basic</packageName>
                   <type>single1</type>
-                  <timestamp>131800184405177413</timestamp>
+                  <timestamp>131828681458729608</timestamp>
                   <size>1267063</size>
                   <medias>
                     <media>
@@ -7752,13 +7761,13 @@
                 </package>
                 <package>
                   <name>Premium Alternative</name>
-                  <zipFile>Contour_Icons_Man1aqContourIconMod_premalt_1.1.0_2018-08-29.zip</zipFile>
-                  <crc>762209a543d3605857c76d214229d60f</crc>
+                  <zipFile>Contour_Icons_Man1aqContourIconMod_premalt_1.1.0.1_2018-10-01.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Contour_Icon_Man1aq_Premium</packageName>
                   <type>single1</type>
-                  <timestamp>131800184545861058</timestamp>
+                  <timestamp>131828681844463775</timestamp>
                   <size>1310652</size>
                   <medias>
                     <media>
@@ -13740,6 +13749,35 @@
       <dependencies />
       <packages>
         <package>
+          <name>Show Insignia on guns by HAWG</name>
+          <zipFile>Garage_Mods_Show_Insignia_on_guns_1.1.0.1_2018-10-01.zip</zipFile>
+          <crc>f</crc>
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>Garage_Mods_Show_Insignia_on_guns</packageName>
+          <type>multi</type>
+          <timestamp>131828619050869913</timestamp>
+          <description>Every vehicle, that has at least one mark, would always have 3 of them, and any vehicle, that has no marks, would still not have any -  with a settings GUI and a battle module.</description>
+          <devURL>https://wgmods.net/1366/</devURL>
+          <medias>
+            <media>
+              <type>1</type>
+              <URL>https://wgmods.net/media/shot_604_8dmPYGC.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
+            </media>
+          </medias>
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_Polarfox_vxSettingsApi</packageName>
+            </dependency>
+            <dependency>
+              <packageName>Dependency_PYmodsCore</packageName>
+            </dependency>
+            <dependency>
+              <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
+            </dependency>
+          </dependencies>
+        </package>
+        <package>
           <name>No promotion in garage by Goofy67</name>
           <zipFile>Garage_Mods_disable_promo_teaser_1.1.0_2018-09-08.zip</zipFile>
           <crc>0f7888985d5e56f02866e0699b3d4dbc</crc>
@@ -15994,7 +16032,8 @@
               <visible>True</visible>
               <packageName>Garage_Mods_Hellinger_Minimal_Hangar</packageName>
               <type>multi</type>
-              <version>2.4</version>
+              <version>2.7</version>
+              <updateComment>v2.7: 2018-08-28</updateComment>
               <description>WG Site:\nhttps://wgmods.net/996/\nPreview each hangar for picture</description>
               <devURL>http://forum.worldoftanks.ru/index.php?/topic/745873-</devURL>
               <packages>
@@ -16457,8 +16496,45 @@
           <visible>True</visible>
           <packageName>Garage_Graphics_Battle_Results_Header</packageName>
           <type>multi</type>
+          <updateComment>All HAWG Mods on WGMods.net: \nhttps://wgmods.net/modmakers/237525/</updateComment>
           <description>Changes the stock battle Results - a different picture for each type of results</description>
           <packages>
+            <package>
+              <name>Leviathan by HAWG</name>
+              <zipFile>Garage_Graphics_Battle_Results_Leviathan_HAWG_1.1.0.1_2018-09-30.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Garage_Graphics_Battle_Results_Leviathan_HAWG</packageName>
+              <type>single1</type>
+              <version>1.1.0.1</version>
+              <timestamp>131827779470755227</timestamp>
+              <devURL>https://wgmods.net/2015/</devURL>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>https://wgmods.net/media/lev.png.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
+                </media>
+              </medias>
+            </package>
+            <package>
+              <name>Sabaton by HAWG</name>
+              <zipFile>Garage_Graphics_Battle_Results_Sabaton_HAWG_1.1.0.1_2018-09-30.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Garage_Graphics_Battle_Results_Sabaton_HAWG</packageName>
+              <type>single1</type>
+              <version>1.1.0.1</version>
+              <timestamp>131827778028974766</timestamp>
+              <devURL>https://wgmods.net/2015/</devURL>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>https://wgmods.net/media/PtUJjuK.png.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
+                </media>
+              </medias>
+            </package>
             <package>
               <name>Darth Vader Design by HAWG</name>
               <zipFile>Garage_Graphics_Battle_Results_DarthVader_Design_HAWG_1.1.0_2018-09-03.zip</zipFile>
