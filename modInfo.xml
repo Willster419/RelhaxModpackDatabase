@@ -851,17 +851,17 @@
         </package>
         <package>
           <name>elektrosmoker's Config v{version}</name>
-          <zipFile>XVM_Prebuilt_Configs_elektrosmoker_2018-10-13.zip</zipFile>
-          <crc>039527530fbc1ca5120216481295f724</crc>
+          <zipFile>XVM_Prebuilt_Configs_elektrosmoker_2018-10-14.zip</zipFile>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>XVMPrebuiltConfigs_elektrosmoker</packageName>
           <type>single1</type>
-          <version>2018-10-09</version>
-          <timestamp>131839169708717178</timestamp>
+          <version>2018-10-14</version>
+          <timestamp>131840009714780796</timestamp>
           <size>2742023</size>
-          <updateComment>2018-10-13: fixed some symbols\n2018-09-25: changted fragcorellationbar / maincaliber / hppool\n2018-09-24: changed fragcorellationbar\n2018-09-23: changed capturebar.xc\n2018-09-21: added new HPpool and main caliber look\n2018-09-19: colors.xc updated to fit actual xvm wn8 scale\n2018-09-10: elements.xc updated\n2018-09-01: adjustments for 1.1.0\n2018-08-22: RC\n2018-07-31: still in beta</updateComment>
-          <description>XVM-Config by elektrosmoker. \nOriginaly based on J1mb0´s xvm config.\n\n\nIncluding most of the options provided in the xvm config builder section:\n\nAimInfo\npiercingchance calculator\nHPpool and main caliber (no need for battle observer anymore)\ndebugpanel v3 by ress\nautologin\n3 row carousel\ncaronte shinigami´s carousel config\nTarget reloadtime Panel\nlanguage flags in playerspanel\nhp bars\nfriend/ignored-icons\nwn8 comparison\nOMC markers\ngold / free xp locker\nxvmuserrmarker\n...\nsixth sense mgs-sound\nsixth sense sauron symbol</description>
+          <updateComment>2018-10-14: removed not needed files / added (optional) 10step wotlabs color scale to colors.xc, default is 6step xvm scale\n2018-10-13: fixed some symbols\n2018-09-25: changted fragcorellationbar / maincaliber / hppool\n2018-09-24: changed fragcorellationbar\n2018-09-23: changed capturebar.xc\n2018-09-21: added new HPpool and main caliber look\n2018-09-19: colors.xc updated to fit actual xvm wn8 scale\n2018-09-10: elements.xc updated\n2018-09-01: adjustments for 1.1.0\n2018-08-22: RC\n2018-07-31: still in beta</updateComment>
+          <description>One of the biggest XVM prebuilts around, \nincluding most of the options provided in the xvm config builder section\n----------------------------------------------------------------------------------------------------------------\nNOT compatible to battle observer! (all on board!)\nNOT compatible to following XVM_Config_Builder parts (because already built-in!):\n\nBattle Interface Modifications\n-  Information Label for Missions (Mission Tracker)\n-  Scoreboard\n-  Total HP\n-  InfoPanel\n-  High Caliber Tracker\n-  Target Info\n-  DebugPanel\n-  Piercing Chance\n-  Show Aim Info\n-  WN8 Comparison\n-  Average Damage\n-  PreBattleMessages\n-  Total Efficiency\n\nTank Carousel modifications (xvm)\n-  Enable XVM Tank Cells ( CaronteShinigami carousel config is used)  \n\nPlayers Panel Modifications (xvm)\n-  Friends-Marker\n-  Show who´s using XVM (xvmUserMarker)\n-  Show language flag\n\nStatistics color step modifications (xvm) (except those choosable directly in prebuilt section)\n\nMarker modifications (xvm)  (OMC markers are used)\n\nBattle Chat</description>
           <medias>
             <media>
               <type>1</type>
@@ -876,6 +876,19 @@
               <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_03.png</URL>
             </media>
           </medias>
+          <packages>
+            <package>
+              <name>use 10 step wotlabs color scale</name>
+              <zipFile>XVM_Prebuilt_Configs_elektrosmoker_10step_wotlabs_color_scale.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMPrebuiltConfigs_elektrosmoker_10stepwotlabs</packageName>
+              <type>single1</type>
+              <timestamp>131840025897681600</timestamp>
+              <description>set colors to 10 step wotlabs scale</description>
+            </package>
+          </packages>
           <dependencies>
             <dependency>
               <packageName>Dependency_audio_mods_xml</packageName>
