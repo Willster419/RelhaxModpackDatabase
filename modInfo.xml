@@ -211,6 +211,19 @@
       <crc />
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_Contour_Icon_vehicleLevelIcon_disable_at_XVM</packageName>
+      <logicalDependencies>
+        <logicalDependency>
+          <packageName>LogicalDependency_Contour_Icon_Mod_vehicelLevelIcon_remove_battle_XVM</packageName>
+          <negateFlag>False</negateFlag>
+        </logicalDependency>
+      </logicalDependencies>
+    </dependency>
+    <dependency>
+      <zipFile />
+      <crc />
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
       <packageName>Dependency_Contour_Icon_mirror_disable_at_XVM</packageName>
       <timestamp>131800987960603396</timestamp>
       <logicalDependencies>
@@ -446,6 +459,14 @@
       <logic>AND</logic>
       <timestamp>131845317572536638</timestamp>
       <devURL>https://koreanrandom.com/forum/topic/35159-1101-отключение-зеркальности-иконок-без-xvm/?tab=comments#comment-357523</devURL>
+    </logicalDependency>
+    <logicalDependency>
+      <zipFile>XVM_config_builder_Contour_Icon_Mod_vehicelLevelIcon_remove_battle_XVM_patch.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <packageName>LogicalDependency_Contour_Icon_Mod_vehicelLevelIcon_remove_battle_XVM</packageName>
+      <logic>AND</logic>
+      <timestamp>131846781030364313</timestamp>
     </logicalDependency>
     <logicalDependency>
       <zipFile>XVM_config_builder_contour_icon_mod_mirror_patch_xvm_disable_2017-06-01.zip</zipFile>
@@ -8858,6 +8879,11 @@
               </dependencies>
             </package>
           </packages>
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_Contour_Icon_vehicleLevelIcon_disable_at_XVM</packageName>
+            </dependency>
+          </dependencies>
         </package>
       </packages>
     </catagory>
