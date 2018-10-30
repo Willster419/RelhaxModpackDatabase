@@ -933,6 +933,9 @@
             <dependency>
               <packageName>Dependency_audio_mods_xml</packageName>
             </dependency>
+            <dependency>
+              <packageName>Dependency_Ingame_Misc_Consumables</packageName>
+            </dependency>
           </dependencies>
         </package>
       </packages>
@@ -9474,41 +9477,6 @@
             </dependency>
           </dependencies>
         </package>
-        <package>
-          <name>Dependency_NOTES</name>
-          <zipFile />
-          <crc />
-          <enabled>False</enabled>
-          <visible>False</visible>
-          <packageName>Dependency_NOTES</packageName>
-          <type>single1</type>
-          <timestamp>131835638474384210</timestamp>
-          <description>\nDependency_PMOD_1.36.0_1.2.0_2018-10-09.zip  (no original files by WG as template)\n\nDependency_P0LIR0ID_modsListApi_v1.1.3C_1.1.0_2018-10-09.zip (no original files by WG as template)</description>
-        </package>
-        <package>
-          <name>LogicalDependency_Contour_Icon_Mods_NOTES</name>
-          <zipFile>LogicalDependency_Contour_Icon_Mods_NOTES_1.1.0_2018-08-30.zip</zipFile>
-          <crc>bae621e43fd47b2873295385a19fc8f7</crc>
-          <enabled>False</enabled>
-          <visible>False</visible>
-          <packageName>LogicalDependency_Contour_Icon_Mods_NOTES</packageName>
-          <type>single1</type>
-          <timestamp>131829648740534585</timestamp>
-          <size>13063395</size>
-          <description>GAUSS: I dont know how Grumpel has get this to work. So I/ we need a place in the xml for thoughts comment with the LogicalDependencies (hate boolean). I find a small category iin our DB. \n\n1. With patch 1.1.0.1 (_2018-09-23): We have a mirror problem in the hangar. \nFor details see sreens in LogicalDependency_Contour_Icon_Mods_NOTES_1.1.0_2018-08-30.zip\ncopied by hand (try and error methode)\n\n\nLogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_CLEAR_ALL_1.1.0.1_2018-10-02.zip</description>
-          <packages>
-            <package>
-              <name>LogicalDependency_Contour_Icon_Mod_mirror_hangar_NOTES</name>
-              <zipFile />
-              <crc />
-              <enabled>False</enabled>
-              <visible>False</visible>
-              <packageName>LogicalDependency_Contour_Icon_Mod_mirror_hangar_NOTES</packageName>
-              <type>single1</type>
-              <description>Comparison: Files 1.1.0.1_2018-08-30.zip) vs 1.1.0.1_2018-10-02.zip\n\n-Added: res&amp;#92;gui&amp;#92;flash&amp;#92;lobby.swf from mvi_hangar_clear-all / mvi_hangar_clear / mvi_hangar, \n"c15a9257444ecf68fbde2176d7913414" ALL 3 Files are CRC equal, normally used WITHOUT XVM;\nto all 3 Zip files\nLogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_CLEAR_ALL_1.1.0.1_2018-10-02.zip\nLogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_show_name_1.1.0.1_2018-10-02.zip\nLogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_show_tier_name_1.1.0.1_2018-10-02.zip\n\nNOW: the Versions with or without XVM are equal in hangar \nXVM is in res_mods &lt;-&gt; No XVM is in mods\n\nWHY ITS WORKING?</description>
-            </package>
-          </packages>
-        </package>
       </packages>
     </catagory>
     <catagory>
@@ -10171,7 +10139,8 @@
           <version>2.0.8</version>
           <timestamp>131801371621373190</timestamp>
           <size>322202</size>
-          <description>Enables an isometric view from Arty.\n\nTO USE THIS MOD YOU MUST ACTIVATE (PURCHASE OR AD SUPPORTED) HERE: http://armorinspector.com/en/battleassistant\n\nforums link:\nhttp://forum.worldoftanks.ru/index.php?/topic/1389614-</description>
+          <updateComment>forums link:\nhttp://forum.worldoftanks.ru/index.php?/topic/1389614-</updateComment>
+          <description>Enables an isometric view from Arty.\n\nTO USE THIS MOD YOU MUST ACTIVATE (PURCHASE OR AD SUPPORTED) HERE: http://armorinspector.com/en/battleassistant</description>
           <devURL>https://wgmods.net/435/</devURL>
           <userDatas>
             <userData>mods\configs\battle_assistant\mod_battle_assistant.txt</userData>
@@ -10466,7 +10435,7 @@
           <type>multi</type>
           <timestamp>131711562586822656</timestamp>
           <size>28737</size>
-          <description>legal info\nhttp://forum.worldoftanks.eu/index.php?/topic/599621-wg-support-safeshot-is-illegal/page__st__20__pid__13403197#entry13403197\nprevents you from shooting your gun to hit allies/dead tanks/etc.</description>
+          <description>prevents you from shooting your gun to hit allies/dead tanks/etc.\n\n\nlegal info\nhttp://forum.worldoftanks.eu/index.php?/topic/599621-wg-support-safeshot-is-illegal/page__st__20__pid__13403197#entry13403197</description>
           <packages>
             <package>
               <name>SafeShot by OldSkool</name>
@@ -10791,9 +10760,8 @@
           <type>multi</type>
           <timestamp>131844308471070225</timestamp>
           <size>46497</size>
-          <updateComment>Use: Alternative from WGMods\nmaybe faster: https://github.com/spoter/spoter-mods</updateComment>
           <description>Shows primary and secondary conditions for Personal Missions\n\nThe mod window can be moved around the screen by holding down CTRL and dragging it using the mouse to the desired location.</description>
-          <devURL>http://wotsite.net/mody-dlya-world-of-tanks/12268-</devURL>
+          <devURL>https://github.com/spoter/spoter-mods</devURL>
           <medias>
             <media>
               <type>1</type>
@@ -11271,7 +11239,6 @@
           <type>multi</type>
           <version>1.0.2.2</version>
           <timestamp>131762489009472686</timestamp>
-          <updateComment>updated to 1.0.2.2</updateComment>
           <description>Shows a 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed\n\nNow again different colors available</description>
           <devURL>http://wotsite.net/mody-dlya-world-of-tanks/12048-</devURL>
           <medias>
@@ -11573,7 +11540,6 @@
           <version>v1.2.1</version>
           <timestamp>131742300455974663</timestamp>
           <size>214574</size>
-          <updateComment>v.1.2.1: \n- fixed bug of switching off mod itself</updateComment>
           <description>Crew Skill Informer by Voytello and Dumadidak\nis WoT mod to visualize crews skills and perks meanwhile the battle. Activate it by pressing backspace</description>
           <devURL>http://forum.worldoftanks.eu/index.php?/topic/481984-</devURL>
           <medias>
@@ -11594,7 +11560,7 @@
           <version>2.0.11</version>
           <timestamp>131786257254246729</timestamp>
           <size>1182665</size>
-          <updateComment>added 2. URL (german) http://forum.worldoftanks.eu/index.php?/topic/672149-\n\nVersion 2.0.11 (Repackaged for WoT 1.0.2.4): \nSome files of the mod are automatically generated based on game files by a build script. \nAlthough the code of the mod has not changed, some files which are generated automatically might have. That's the reason why the version receives a bump with every WoT update.</updateComment>
+          <updateComment>added 2. URL (german) http://forum.worldoftanks.eu/index.php?/topic/672149-</updateComment>
           <description>Features\n- Changes the color of hit effects\n- Multiple colors choices available\n- Works for all tanks in both teams\n- Recolors penetrating hits, bouncing shots, ricochets, shots hitting the ground or other objects\n- Does NOT recolor none penetrating hits or shots into water\n\nThis mod adds a short sparkling effect to penetrating APCR/HEAT hits. Not only will you be able to tell if an enemy tank is shooting gold rounds at your allied tanks (or at you), but also if one of your allies is a gold spammer. This information will help you determining whether to engage or not to engage an enemy.\n\nFAQ\nQ: The Mod isn't working.\nA: Make sure Extra Effects are enabled in the settings under Graphics.</description>
           <devURL>http://forum.worldoftanks.eu/index.php?/topic/669824-</devURL>
           <medias>
@@ -12063,7 +12029,6 @@
           <version>1.4.4</version>
           <timestamp>131736619679541073</timestamp>
           <size>20793</size>
-          <updateComment>1.4.4: fixed bugs with WoT 1.0.2.1\n1.4.0: added feature unspotted message</updateComment>
           <description>Sends a chat message that you are spotted in a grid square, along with the "Help!" command</description>
           <devURL>http://forum.worldoftanks.eu/index.php?/topic/562735-</devURL>
           <packages>
@@ -12383,7 +12348,8 @@
           <type>multi</type>
           <timestamp>131844305184611612</timestamp>
           <size>267192</size>
-          <description>This mod allows you to show the enemys gun direction on the minimap. This will only work until your maximum viewrange is reached. Also you can enable to see gun direction of your allied SPG.\n\n2. URL: http://forum.worldoftanks.eu/index.php?/topic/603810-</description>
+          <updateComment>http://forum.worldoftanks.eu/index.php?/topic/603810-</updateComment>
+          <description>This mod allows you to show the enemys gun direction on the minimap. This will only work until your maximum viewrange is reached. Also you can enable to see gun direction of your allied SPG.</description>
           <devURL>https://wgmods.net/2117/</devURL>
           <dependencies>
             <dependency>
@@ -12470,7 +12436,7 @@
           <version>1.10</version>
           <timestamp>131805731615602051</timestamp>
           <size>14205</size>
-          <description>Marks on the Ground for the best spotting positions.\n\nMarker looks as follows:\nCircle on the ground and the arrow on the circle to see a distance\n\nCurrently 24 Maps included, 19 Maps to do\n\nURL for mod_mods_gui: https://github.com/spoter/spoter-mods/tree/master/mod_mods_gui</description>
+          <description>Marks on the Ground for the best spotting positions.\n\nMarker looks as follows:\nCircle on the ground and the arrow on the circle to see a distance\n\nCurrently 24 Maps included, 19 Maps to do</description>
           <devURL>https://github.com/spoter/spoter-mods/tree/master/mod_spotMarks</devURL>
           <medias>
             <media>
@@ -12537,8 +12503,7 @@
           <packageName>Ingame_Info_FpsPingLagIndicator_lenya69</packageName>
           <type>multi</type>
           <size>101325</size>
-          <updateComment>Part of Harpoon Crosshair by lenya69</updateComment>
-          <description>Fps Ping coloredBar \nupper left corner</description>
+          <description>Fps Ping coloredBar in the upper left corner.\nPart of Harpoon Crosshair by lenya69</description>
           <devURL>http://forum.worldoftanks.ru/index.php?/topic/1419789-</devURL>
           <medias>
             <media>
@@ -12556,8 +12521,7 @@
           <packageName>Ingame_Info_InBattle_Timer_lenya69</packageName>
           <type>multi</type>
           <size>345572</size>
-          <updateComment>Part of Harpoon Crosshair by lenya69 \nthanks Lenya for translation</updateComment>
-          <description>InBattle timer  \nupper right corner</description>
+          <description>InBattle timer  in the upper right corner.\nPart of Harpoon Crosshair by lenya69 \nthanks Lenya for translation</description>
           <devURL>http://forum.worldoftanks.ru/index.php?/topic/1419789-</devURL>
           <medias>
             <media>
@@ -12577,7 +12541,6 @@
           <version>1.17.1</version>
           <timestamp>131843717518370345</timestamp>
           <size>160486</size>
-          <updateComment>Ingame_Info_Battle_Observer_by_armagomen_1.17_1.2.0_2018-10-09.zip  \n(no original files by WG as template)\n\n2017-12-13: added Dependency_modsListApi_P0LIR0ID</updateComment>
           <description>Shows the total HP of each team at the top of the screen.\nHigh caliber config will show how much damage you need to get high caliber.\nplayers info panel will show the hp of both teams when left alt is pressed.\nShow spotted status will show in the players panel when an enemy is spotted. It might conflict with xvm.</description>
           <devURL>http://forum.worldoftanks.ru/index.php?/topic/1385404-</devURL>
           <medias>
@@ -12820,7 +12783,6 @@
           <version>1.0.0.3</version>
           <timestamp>131682841856408889</timestamp>
           <size>88922</size>
-          <updateComment>https://wotspeak.ru/mody-world-of-tanks-wot/397-mod-odinakovoe-nebo-na-vseh-kartah-dlya-world-of-tanks-wot.html</updateComment>
           <description>Not working maps: Paris, Epic Random Valley</description>
           <devURL>https://wotspeak.ru/mody-world-of-tanks-wot/397-mod-odinakovoe-nebo-na-vseh-kartah-dlya-world-of-tanks-wot.html</devURL>
           <medias>
@@ -13923,8 +13885,9 @@
           <type>multi</type>
           <timestamp>131819121593200493</timestamp>
           <size>14043983</size>
-          <description>Shows a CoD style hitmarker whenever you penetrate ( ͡° ͜ʖ ͡°) an enemy tank\n\nDirect URL: https://github.com/Aimdrol/MLG-Hitmarker</description>
-          <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</devURL>
+          <updateComment>http://forum.worldoftanks.eu/index.php?/topic/476721-</updateComment>
+          <description>Shows a CoD style hitmarker whenever you penetrate ( ͡° ͜ʖ ͡°) an enemy tank</description>
+          <devURL>https://github.com/Aimdrol/MLG-Hitmarker</devURL>
           <medias>
             <media>
               <type>1</type>
@@ -14400,9 +14363,9 @@
           <version>3.3.4</version>
           <timestamp>131835602152053678</timestamp>
           <size>584806</size>
-          <updateComment>2018-10-09: mods&amp;#92;versiondir&amp;#92;net.wargaming.wgfmradio_3.3.4.wotmod\nIngame_Misc_WG_Radio_3.3.4_1.1.0_2018-10-09.zip\n-no original files by WG as template\n\nadded english and german translation</updateComment>
-          <description>Like Pandora internet radio, but in your game, with a configurable gui settings window\nnew URL: https://wgmods.net/19/</description>
-          <devURL>http://wotsite.net/mody-dlya-world-of-tanks/12186-</devURL>
+          <updateComment>http://wotsite.net/mody-dlya-world-of-tanks/12186-</updateComment>
+          <description>Like Pandora internet radio, but in your game, with a configurable gui settings window</description>
+          <devURL>https://wgmods.net/19/</devURL>
           <medias>
             <media>
               <type>1</type>
@@ -14893,7 +14856,6 @@
           <version>19.06</version>
           <timestamp>131821318377573281</timestamp>
           <size>3184</size>
-          <updateComment>19.06:\nupdated for wot 1.1.0.1\n\n19.00:\nUpdated for WoT 1.0.2.1\n\n18.85:\nUpdated for WoT 1.0.0\n\n18.83:\nMoved to wotmod format</updateComment>
           <description>**To play on other clusters, you need to have an account on each one**\n\nFeatures of fashion:\nSimple selection of servers in other clusters;\nThere is no need for permanent copying / deleting of files;\nDo not need constant updates when you exit the "micro patches";\nAll established fashion will be available;\nEasy installation;</description>
           <devURL>https://vk.com/shurabb_mods</devURL>
           <userDatas>
@@ -15180,7 +15142,6 @@
           <version>3.3.3</version>
           <timestamp>131835647687885681</timestamp>
           <size>669392</size>
-          <updateComment>Garage_mods_replay_manager_3.3.3_1.2.0_2018-10-09.zip\n(no original files by WG as template)</updateComment>
           <description>by STL1te_P0LIR0ID \nGerman Translation by DOC73 \n\nRU-Server: wotreplays.ru \nEU-Server: wotreplays.eu \nNA-Server: wotreplays.com</description>
           <devURL>https://wgmods.net/WOT/ru/menedzher-repleev-22/</devURL>
           <medias>
@@ -17894,7 +17855,7 @@
               <version>1_2-2</version>
               <timestamp>131843695601495528</timestamp>
               <size>405852</size>
-              <updateComment>update: 2018-08-29\nWG EU Forum URL: http://forum.worldoftanks.eu/index.php?/topic/572573-</updateComment>
+              <updateComment>WG EU Forum URL: http://forum.worldoftanks.eu/index.php?/topic/572573-</updateComment>
               <description>Awfultanker Session Stats - based on Locastans Minimal Session Stats\n\nDoes it work with CW?\nAwfultanker: Apparently not. I have never played a CW battle so I didn't know.</description>
               <devURL>https://awfultanker.torvox.eu/sessionstats.html</devURL>
               <medias>
@@ -19072,7 +19033,6 @@
                   <type>multi</type>
                   <timestamp>131765563373712386</timestamp>
                   <size>564172</size>
-                  <updateComment>2018-04-08: still buggy http://forum.worldoftanks.eu/index.php?/topic/583433-1002-yasenkrasen-colored-messages-session-statistics-eng-05042018/page__st__800__pid__15604133#entry15604133</updateComment>
                   <medias>
                     <media>
                       <type>1</type>
@@ -22052,7 +22012,7 @@
           <visible>True</visible>
           <packageName>Tank_Skin_Packs_HitZone_Skins_black_white_Mr_13_Header</packageName>
           <type>single1</type>
-          <version>1.2.0</version>
+          <version>1.2.0.1</version>
           <timestamp>131853803258828801</timestamp>
           <size>121403476</size>
           <updateComment>files are modded from res&amp;#92;vehicles&amp;#92;</updateComment>
@@ -22093,7 +22053,7 @@
               <visible>True</visible>
               <packageName>Tank_Skin_Packs_HitZone_Skins_black_white_Mr_13_w/o_trunk_marks</packageName>
               <type>single1</type>
-              <version>1.2.0</version>
+              <version>1.2.0.1</version>
               <timestamp>131853803466124778</timestamp>
               <size>786184476</size>
               <devURL>https://koreanrandom.com/forum/topic/1400-</devURL>
@@ -22112,7 +22072,7 @@
               <visible>True</visible>
               <packageName>Tank_Skin_Packs_HitZone_Skins_black_white_Mr_13_with_trunk_marks</packageName>
               <type>single1</type>
-              <version>1.2.0</version>
+              <version>1.2.0.1</version>
               <timestamp>131853803621828643</timestamp>
               <size>787743713</size>
               <devURL>https://koreanrandom.com/forum/topic/1400-</devURL>
