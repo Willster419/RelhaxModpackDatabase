@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2018-04-16 09:36:34">
+<mods ver="2.0" date="2018-09-07 17:06:05" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="beta">
   <relhaxMods>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_Headline</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_6thSenseDuration_Headline</mod>
@@ -24,14 +24,16 @@
     <mod>XVMconfigBuilder_GarageInterfaceModifications_Clock_TimeFormat_Header</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_Clock_TimeFormat_24hour</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_Clock_ChangeColorToBlue</mod>
+    <mod>XVMconfigBuilder_GarageInterfaceModifications_showpromo</mod>
+    <mod>XVMconfigBuilder_GarageInterfaceModifications_showpromo_disable</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_GoldLocker_Header</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_GoldLocker_enable</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_FreeXPLocker_Header</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_FreeXPLocker_enable</mod>
-    <mod>XVMconfigBuilder_GarageInterfaceModifications_SetDefaultCurrency_Header</mod>
-    <mod>XVMconfigBuilder_GarageInterfaceModifications_SetDefaultCurrency_credits</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_CrewAutoReturn_Header</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_CrewAutoReturn_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterfaceModifications_RemovableEquipmentAutoReturn_Header</mod>
+    <mod>XVMconfigBuilder_GarageInterfaceModifications_RemovableEquipmentAutoReturn_enable</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_BlockVehicleIfAmmoLow_Header</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_BlockVehicleIfAmmoLow_50</mod>
     <mod>XVMconfigBuilder_LoginModifications_Header</mod>
@@ -76,24 +78,31 @@
     <mod>Crosshairs_tank_sight_Kellerman_Header</mod>
     <mod>Crosshairs_tank_sight_Kellerman_V2</mod>
     <mod>Crosshairs_tank_sight_Kellerman_broken_glass</mod>
+    <mod>Crosshairs_arty_sight_Header</mod>
+    <mod>Crosshairs_arty_sight_Taipan_v1</mod>
     <mod>Crosshairs_gunConstraint_Base</mod>
+    <mod>Crosshairs_gunConstraint_German</mod>
     <mod>Contour_Icon_Header</mod>
     <mod>Contour_Icon_Wizard_Header</mod>
     <mod>Contour_Icon_Wizard_Roman_Tier</mod>
+    <mod>Ingame_Aim_AutoAim_modifications</mod>
+    <mod>Ingame_Aim_AutoAim_Indication</mod>
+    <mod>Ingame_Aim_AutoAim_5_sec</mod>
     <mod>Ingame_Aim_BalCalcMod_Base</mod>
     <mod>Ingame_Aim_BalCalcMod_Config_Q</mod>
     <mod>Ingame_Aim_Battle_Assistant_Base</mod>
     <mod>Ingame_Aim_Battle_Assistant_G</mod>
-    <mod>Ingame_Aim_SafeShot_Base</mod>
-    <mod>Ingame_Aim_SafeShot_2sec_no_dead_corps_shot</mod>
-    <mod>Ingame_Aim_SafeShot_no_friendly_fire</mod>
-    <mod>Ingame_Aim_SafeShot_send_Msg_Team</mod>
+    <mod>Ingame_Aim_Battle_Assistant_Increased_Zoom_Speed</mod>
+    <mod>Ingame_Aim_SafeShot_Header</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool_timeout_3</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool_block_dead</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool_block_ally</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool_send_chat_message</mod>
     <mod>Ingame_Aim_Zoomin_Base</mod>
     <mod>Ingame_Aim_zoom_pmod_zoomIn_2-48</mod>
-    <mod>Ingame_Aim_zoom_pmod_td_brake_header</mod>
-    <mod>Ingame_Aim_zoom_pmod_td_brake_off</mod>
     <mod>Ingame_Aim_zoom_pmod_td_start_zoom_header</mod>
-    <mod>Ingame_Aim_zoom_pmod_default_zoom_8x</mod>
+    <mod>Ingame_Aim_zoom_pmod_default_zoom_4x</mod>
     <mod>Ingame_Aim_ZoomOut_Header</mod>
     <mod>Ingame_Aim_ZoomOut_Arcade_Header</mod>
     <mod>Ingame_Aim_ZoomOut_Arcade_200</mod>
@@ -106,8 +115,12 @@
     <mod>Ingame_Info_DamageIndicator_Icon_Header</mod>
     <mod>Ingame_Info_DamageIndicator_dikey93</mod>
     <mod>Ingame_Info_Crew_Skill_Informer</mod>
-    <mod>Ingame_Info_InBattle_Rating_Base</mod>
-    <mod>Ingame_Info_InBattle_Rating_WN8_V2</mod>
+    <mod>Ingame_Info_prem_Shell_Visibility_Header</mod>
+    <mod>Ingame_Info_prem_Shell_Visibility_Blue</mod>
+    <mod>Ingame_Info_prem_Shell_Visibility_show_ally_gold_ammo</mod>
+    <mod>Ingame_Info_prem_Shell_Visibility_show_own_gold_ammo</mod>
+    <mod>Ingame_Info_InBattle_Rating_Header</mod>
+    <mod>Ingame_Info_InBattle_Rating_OldSkool</mod>
     <mod>Ingame_Info_Spot_Marks</mod>
     <mod>Ingame_Info_SpotMessenger_Base</mod>
     <mod>Ingame_Info_SpotMessenger_activated</mod>
@@ -119,7 +132,6 @@
     <mod>Ingame_Info_SpotMessenger_Battletypes_Teambattle</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Ranked</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_ClanBattle</mod>
-    <mod>Ingame_Info_SpotMessenger_Battletypes_Provingground</mod>
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_Header</mod>
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_lt</mod>
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_mt</mod>
@@ -128,42 +140,80 @@
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_spg</mod>
     <mod>Ingame_Info_Wide_Border_Of_Maps_Header</mod>
     <mod>Ingame_Info_Wide_Border_Of_Maps_COMMAND_full</mod>
-    <mod>Ingame_Info_Antitoxicity_Base</mod>
-    <mod>Ingame_Info_Antitoxicity_block_minimap_spam_repeat</mod>
-    <mod>Ingame_Info_Antitoxicity_block_chat_spam_repeat</mod>
+    <mod>Ingame_Misc_Antitoxicity_Base</mod>
+    <mod>Ingame_Misc_Antitoxicity_block_minimap_spam_repeat</mod>
     <mod>Ingame_Misc_BaseCap_Circles_Header</mod>
     <mod>Ingame_Misc_BaseCap_Circles_V3_Red</mod>
-    <mod>Garage_mods_auto-equip</mod>
+    <mod>Ingame_Misc_buttonreplacer</mod>
+    <mod>Ingame_Misc_Consumables_Header</mod>
+    <mod>Ingame_Misc_Consumables_DEbranded_equipment_Crew_skill</mod>
+    <mod>Ingame_Misc_Consumables_DEbranded_equipment</mod>
+    <mod>Ingame_Misc_Consumables_DEbranded_Crew_skill</mod>
+    <mod>Ingame_Misc_No_Sixth_Sense_Icon</mod>
+    <mod>Garage_mods_ScriptloaderPro_Base</mod>
+    <mod>Garage_mods_ScriptloaderPro_SystemMessage_Minimal</mod>
+    <mod>Garage_mods_ScriptloaderPro_SpamFilter</mod>
     <mod>Garage_mods_Techtree_Header</mod>
-    <mod>Garage_mods_Techtree_Horizontal_compact</mod>
+    <mod>Garage_mods_Techtree_AVT_Base</mod>
     <mod>Garage_mods_VehicleXP_Extended_Base</mod>
     <mod>Garage_mods_VehicleXP_Extended_german</mod>
     <mod>Garage_mods_crewExtended</mod>
-    <mod>Garage_mods_Aslains_Colored_TechTree_and_Vehicle_List_Icons_header</mod>
+    <mod>Garage_mods_carousel_LED_HEADER</mod>
+    <mod>Garage_mods_carousel_LED_blue</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_by_Debranded_Header</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Germany</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Germany_1990</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Russia</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_UDSSR</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_USA</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_France</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_France_Tricolour</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_United_Kingdom_Header</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_United_Kingdom</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_China</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_PRC_China</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Japan_Header</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Japan</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Czech_Republic_Header</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Czech_Republic</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Poland_Header</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Poland</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Sweden</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Italy_Header</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_flag_of_Italy</mod>
+    <mod>Garage_graphics_Custom_TechTree_and_Vehicle_List_Icons_header</mod>
     <mod>Garage_mods_Aslains_Colored_TechTree_and_Vehicle_List_Icons_V1</mod>
-    <mod>Garage_mods_Carousel_Aslains_Gold_Premium_Tanks_Header</mod>
-    <mod>Garage_mods_Carousel_Aslains_Gold_Premium_Tanks_V1</mod>
+    <mod>Garage_Grafics_Hangar_Freecam</mod>
+    <mod>Garage_mods_Hangar_Header</mod>
+    <mod>Garage_mods_HangMan_Base</mod>
     <mod>Garage_mods_Medals_Header</mod>
     <mod>Garage_mods_Medals_Effect_Glass</mod>
     <mod>Statistic_Session_Header</mod>
     <mod>Statistic_Session_Tomonik_Base</mod>
     <mod>Statistic_Session_Tomonik_dirty_german</mod>
     <mod>Statistic_Session_Tomonik_Daily_Reset</mod>
+    <mod>Sounds_Kill_Header</mod>
+    <mod>Sounds_Kill_UT_Announcer_Base</mod>
+    <mod>Sounds_Kill_UT_Announcer_Locastan</mod>
     <mod>Sixth_Sense_Audio_Header</mod>
-    <mod>Sixth_Sense_Audio_OMC_less_10db</mod>
+    <mod>Sixth_Sense_Audio_I_am_groot</mod>
     <mod>Sixth_Sense_Icon_Disable_Default_Icon</mod>
-    <mod>Sixth_Sense_Icon_blue_Lightning</mod>
+    <mod>Sixth_Sense_Icon_I_am_Groot</mod>
     <mod>Sixth_Sense_Icon_Duration_Header</mod>
     <mod>Sixth_Sense_Icon_Duration_5</mod>
     <mod>Custom_Tank_Skins_Misc_dead_tanks</mod>
     <mod>Custom_Tank_Skins_Misc_dead_tanks_white</mod>
-    <mod>Custom_Tank_Skins_GB85_Cromwell_Header</mod>
-    <mod>Custom_Tank_Skins_GB85_Cromwell_Carbon</mod>
-    <mod>Custom_Tank_Skins_G105_T-55_NVA_DDR</mod>
-    <mod>Custom_Tank_Skins_A58_T67_Header</mod>
-    <mod>Custom_Tank_Skins_A58_T67_Brutal</mod>
+    <mod>Custom_Tank_Skins_Germany_Header</mod>
+    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_Header</mod>
+    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_Skorpion_G_Header</mod>
+    <mod>Custom_Tank_Skins_G114_Rheinmetall_Skorpian_blue</mod>
+    <mod>Custom_Tank_Skins_USSR_Header</mod>
+    <mod>Custom_Tank_Skins_USSR_Tank_Destroyer_Header</mod>
+    <mod>Custom_Tank_Skins_USSR_Tank_Destroyer_SU85I_Header</mod>
+    <mod>Custom_Tank_Skins_USSR_Tank_Destroyer_SU85I_dark_bronze_remodel</mod>
   </relhaxMods>
   <userMods>
     <mod>Clanicons</mod>
+    <mod>Garage_mods_Aslains_Gold_Premium_Tanks_V1_0.9.22.0_2018-02-08</mod>
   </userMods>
 </mods>

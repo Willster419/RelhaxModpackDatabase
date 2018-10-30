@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2017-12-22 13:11:50">
+<mods ver="2.0" date="2018-05-21 23:19:59" dbVersion="beta">
   <relhaxMods>
     <mod>XVMPrebuiltConfigs_BonesXVMConfig</mod>
     <mod>XVMPrebuiltConfigs_BonesXVMConfig_PlayersPanel_3</mod>
-    <mod>XVMPrebuiltConfigs_BonesXVMConfig_CarouselRow_3</mod>
     <mod>XVMPrebuiltConfigs_BonesXVMConfig_MinimapHp_enable</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_Headline</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_6thSenseDuration_Headline</mod>
@@ -16,17 +15,21 @@
     <mod>XVMConfigBuilder_BattleInterfaceModifications_Hitlog_enable</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_TotalHP_Header</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_TotalHP_enable</mod>
+    <mod>XVMConfigBuilder_BattleInterfaceModifications_AimInfo</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_AverageDamage_Header</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_AverageDamage_enable</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_HighCaliber_Header</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_HighCaliber_enable</mod>
+    <mod>XVMConfigBuilder_BattleInterfaceModifications_DamageLog_Header</mod>
+    <mod>XVMConfigBuilder_BattleInterfaceModifications_DamageLog_enable</mod>
+    <mod>XVMConfigBuilder_BattleInterfaceModifications_DamageLog_toggleDefault_enable</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_LastHitAnnouncer_Header</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_LastHitAnnouncer_enable</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_VehicleOnFireAnnouncer_Header</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_VehicleOnFireAnnouncer_enable</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_Header</mod>
-    <mod>XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_enable</mod>
+    <mod>XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_disable</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_DamagePanelRepairTimers_Header</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_DamagePanelRepairTimers_enable</mod>
     <mod>XVMconfigBuilder_BattleResultsModifications_Header</mod>
@@ -43,8 +46,6 @@
     <mod>XVMconfigBuilder_GarageInterfaceModifications_GoldLocker_enable</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_FreeXPLocker_Header</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_FreeXPLocker_enable</mod>
-    <mod>XVMconfigBuilder_GarageInterfaceModifications_SetDefaultCurrency_Header</mod>
-    <mod>XVMconfigBuilder_GarageInterfaceModifications_SetDefaultCurrency_credits</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_TechTreeFreeXPConvertOption_Header</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_TechTreeFreeXPConvertOption_enable</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_CrewAutoReturn_Header</mod>
@@ -85,6 +86,8 @@
     <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_HP_circles_def</mod>
     <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_modify_minimapAimIcon</mod>
     <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_aimIcon_bones</mod>
+    <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_header</mod>
+    <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_enabled</mod>
     <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_labels_header</mod>
     <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_labels_enabled</mod>
     <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_lines_header</mod>
@@ -98,42 +101,45 @@
     <mod>XVMconfigBuilder_PlayersPanelModifications_StartingPosition_medium</mod>
     <mod>XVMconfigBuilder_PlayersPanelModifications_HpBars_Header</mod>
     <mod>XVMconfigBuilder_PlayersPanelModifications_HpBars_Default</mod>
+    <mod>XVMconfigBuilder_PlayersPanelModifications_HpBars_OnAlways</mod>
     <mod>XVMconfigBuilder_SoundModifications_Header</mod>
     <mod>XVMconfigBuilder_SoundModifications_enabled</mod>
     <mod>XVMconfigBuilder_StatisticsColorStepModifications_Header</mod>
     <mod>XVMconfigBuilder_StatisticsColorStepModifications_10StepWotlabs</mod>
     <mod>XVMconfigBuilder_TankCarouselBaseModifications_Header</mod>
     <mod>XVMconfigBuilder_TankCarouselBaseModifications_carousel_enable</mod>
-    <mod>XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_3</mod>
+    <mod>XVMconfigBuilder_TankCarouselBaseModifications_CellContent_Header</mod>
+    <mod>XVMConfigBuilder_TankCarousel_Tanks_with_limited_MM_Headline</mod>
+    <mod>XVMConfigBuilder_TankCarousel_Tanks_with_limited_MM_Green</mod>
+    <mod>XVMconfigBuilder_TankCarouselBaseModifications_CellContent_CaronteShinigami</mod>
+    <mod>XVMconfigBuilder_TankCarouselBaseModifications_CellContent_CaronteShinigami_Scale_1.0</mod>
+    <mod>XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_2</mod>
     <mod>XVMconfigBuilder_TankCarouselBaseModifications_buyTank_Header</mod>
     <mod>XVMconfigBuilder_TankCarouselBaseModifications_buyTank_show_totalSlots_show</mod>
     <mod>XVMconfigBuilder_TankCarouselBaseModifications_buySlot_usedSlots_Header</mod>
     <mod>XVMconfigBuilder_TankCarouselBaseModifications_buySlot_show_usedSlots_show</mod>
-    <mod>XVMconfigBuilder_TankCarouselBaseModifications_CellContent_Header</mod>
-    <mod>XVMconfigBuilder_TankCarouselBaseModifications_CellContent_CaronteShinigami</mod>
-    <mod>XVMconfigBuilder_TankCarouselBaseModifications_CellContent_CaronteShinigami_Scale_1.0</mod>
     <mod>Crosshairs_tank_sight_Header</mod>
-    <mod>Crosshairs_tank_sight_MeltysMathMod_Base</mod>
-    <mod>Crosshairs_tank_sight_MeltysMathMod_turqoise</mod>
+    <mod>Crosshairs_tank_sight_Kellerman_Header</mod>
+    <mod>Crosshairs_tank_sight_Kellerman_Blue</mod>
+    <mod>Crosshairs_tank_sight_Kellerman_unbroken_glass</mod>
     <mod>Crosshairs_arty_sight_Header</mod>
-    <mod>Crosshairs_arty_sight_MeltyMaps_Header</mod>
-    <mod>Crosshairs_arty_sight_MeltyMaps_Blue</mod>
+    <mod>Crosshairs_arty_sight_Taipan_v1</mod>
     <mod>Crosshairs_gunConstraint_Base</mod>
-    <mod>Contour_Icon_mirror_training_room_w/o_name</mod>
+    <mod>Contour_Icon_Header</mod>
     <mod>Contour_Icon_Blackspy_Header</mod>
     <mod>Contour_Icon_Blackspy_Yasha</mod>
     <mod>Damage_Panel_Log_Seperate_Header</mod>
     <mod>Damage_Panels_Header</mod>
-    <mod>Damage_Panel_zayaz_Header</mod>
+    <mod>Damage_Panel_Zayaz_Header</mod>
     <mod>Damage_Panel_Zayaz_with_repair_rows_and_blocking_angle</mod>
-    <mod>Damage_Logs_Header</mod>
-    <mod>Damage_Logs_GambitER_base</mod>
-    <mod>Damage_Logs_GambitER_OMC_config</mod>
-    <mod>Damage_Logs_GambitER_panel_XFT_messages_enable</mod>
-    <mod>Damage_Logs_GambitER_panel_move_damage_messages_center</mod>
+    <mod>Ingame_Aim_Aim_Info_mods</mod>
+    <mod>Ingame_Aim_Aim_Info_Dispersion_P0LIR0ID</mod>
+    <mod>Ingame_Aim_Aim_Info_Dispersion_V1_pavel3333</mod>
+    <mod>Ingame_Aim_Aim_Info_Dispersion_V2_pavel3333</mod>
+    <mod>Ingame_Aim_arty_splash_sphere</mod>
     <mod>Ingame_Aim_AutoAim_modifications</mod>
     <mod>Ingame_Aim_AutoAim_Indication</mod>
-    <mod>Ingame_Aim_AutoAim_inf_search</mod>
+    <mod>Ingame_Aim_AutoAim_2_sec</mod>
     <mod>Ingame_Aim_AutoAim_announce_reload_enable</mod>
     <mod>Ingame_Aim_AutoAim_no_friendly_fire_enable</mod>
     <mod>Ingame_Aim_AutoAim_help_spotted_enable</mod>
@@ -143,15 +149,16 @@
     <mod>Ingame_Aim_Battle_Assistant_G</mod>
     <mod>Ingame_Aim_Battle_Assistant_Increased_Zoom_Speed</mod>
     <mod>Ingame_Aim_disable_scope_shadow_green_pmod</mod>
-    <mod>Ingame_Aim_ExtraAimInfo_Base</mod>
-    <mod>Ingame_Aim_ExtraAimInfo_config_old_style</mod>
     <mod>Ingame_Aim_Penetration_Header</mod>
     <mod>Ingame_Aim_pmod_reduced_armor</mod>
     <mod>zoom_pmod_reduced_armor_font_large</mod>
-    <mod>Ingame_Aim_SafeShot_Base</mod>
-    <mod>Ingame_Aim_SafeShot_1sec_no_dead_corps_shot</mod>
-    <mod>Ingame_Aim_SafeShot_no_friendly_fire</mod>
-    <mod>Ingame_Aim_SafeShot_send_Msg_Team</mod>
+    <mod>Ingame_Aim_SafeShot_Header</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool_timeout_1</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool_block_dead</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool_block_ally</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool_block_tk</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool_send_chat_message</mod>
     <mod>Ingame_Aim_Server_reticle_header</mod>
     <mod>Crosshair_serverside_pmod_reticle_enable</mod>
     <mod>Crosshair_serverside_pmod_reticle_blue</mod>
@@ -170,33 +177,63 @@
     <mod>Ingame_Aim_ZoomOut_Stragetic_Header</mod>
     <mod>Ingame_Aim_ZoomOut_Stragetic_500</mod>
     <mod>Ingame_Aim_ZoomOut_Increase_Scroll_Speed</mod>
-    <mod>Ingame_Aim_disable_gun_shake</mod>
     <mod>Ingame_Info_15m_Circle_Base</mod>
     <mod>Ingame_Info_Artylog</mod>
     <mod>Ingame_Info_InBattle_ATAC</mod>
+    <mod>Ingame_Info_DamageIndicator_Header</mod>
+    <mod>Ingame_Info_DamageIndicator_Icon_Header</mod>
+    <mod>Ingame_Info_DamageIndicator_Harpoon</mod>
+    <mod>Ingame_Info_DamageIndicator_Showtime_Header</mod>
+    <mod>Ingame_Info_DamageIndicator_Showtime_12sec</mod>
     <mod>Ingame_Info_Crew_Skill_Informer</mod>
+    <mod>Ingame_Info_Enemy_Direction_oldskool</mod>
     <mod>Ingame_Info_FpsPingLagIndicator_lenya69</mod>
     <mod>Ingame_Info_prem_Shell_Visibility_Header</mod>
-    <mod>Ingame_Info_prem_Shell_Visibility_silver_gold</mod>
-    <mod>Ingame_Info_InBattle_Rating_Base</mod>
-    <mod>Ingame_Info_InBattle_Rating_ProTANKI</mod>
+    <mod>Ingame_Info_prem_Shell_Visibility_Yellow</mod>
+    <mod>Ingame_Info_prem_Shell_Visibility_show_ally_gold_ammo</mod>
+    <mod>Ingame_Info_prem_Shell_Visibility_show_own_gold_ammo</mod>
+    <mod>Ingame_Info_InBattle_Rating_Header</mod>
+    <mod>Ingame_Info_InBattle_Rating_OldSkool</mod>
+    <mod>Ingame_Info_InBattle_Rating_Protanki</mod>
     <mod>Ingame_Info_InBattle_Timer_lenya69</mod>
-    <mod>Ingame_Info_Mark_Industructable_Structures</mod>
-    <mod>Ingame_Info_Minimap_Gundirection</mod>
-    <mod>Ingame_Info_Pathfinder_by_Pavel3333_Base</mod>
-    <mod>Texture_Color_of_path</mod>
-    <mod>Ingame_Info_Pathfinder_Texture_Color_V4_Bright</mod>
+    <mod>Ingame_Info_MoE_Extended</mod>
     <mod>Ingame_Info_RTAN_Header</mod>
     <mod>Ingame_Info_RTAN_Protanki</mod>
+    <mod>Ingame_Info_allied_arty_aim_minimap</mod>
+    <mod>Ingame_Info_allied_arty_aim_minimap_sound_enable</mod>
+    <mod>Ingame_Info_allied_arty_aim_minimap_text_enable</mod>
+    <mod>Ingame_Info_allied_arty_aim_minimap_symbol_enable</mod>
+    <mod>Ingame_Info_allied_arty_aim_minimap_symbol_Bomber</mod>
+    <mod>Ingame_Info_allied_arty_aim_minimap_model_enable</mod>
+    <mod>Ingame_Info_allied_arty_aim_minimap_model_checkpoint_white</mod>
     <mod>Ingame_Info_Spot_Marks</mod>
-    <mod>Ingame_Info_Tessumod</mod>
+    <mod>Ingame_Info_SpotMessenger_Base</mod>
+    <mod>Ingame_Info_SpotMessenger_activated</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes_Header</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes_Random_Header</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes_Random_teammsg</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes_EpicRandom_Header</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes_EpicRandom_teammsg</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes_Teambattle</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes_Ranked</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes_ClanBattle</mod>
+    <mod>Ingame_Info_SpotMessenger_Vehicle_Types_Header</mod>
+    <mod>Ingame_Info_SpotMessenger_Vehicle_Types_lt</mod>
+    <mod>Ingame_Info_SpotMessenger_Vehicle_Types_mt</mod>
+    <mod>Ingame_Info_SpotMessenger_Vehicle_Types_ht</mod>
+    <mod>Ingame_Info_SpotMessenger_Vehicle_Types_td</mod>
+    <mod>Ingame_Info_SpotMessenger_Vehicle_Types_spg</mod>
+    <mod>Ingame_Info_Tank_Info_Panel_Header</mod>
+    <mod>Ingame_Info_Tank_Info_Panel_protanki</mod>
     <mod>Ingame_Info_Wide_Border_Of_Maps_Header</mod>
     <mod>Ingame_Info_Wide_Border_Of_Maps_COMMAND_full</mod>
+    <mod>Ingame_Info_Antitoxicity_Base</mod>
+    <mod>Ingame_Info_Antitoxicity_expand_friends_black_list</mod>
     <mod>Ingame_Misc_BaseCap_Circles_Header</mod>
     <mod>Ingame_Misc_BaseCap_Circles_V15_Yellow_Black_Slash</mod>
     <mod>Ingame_Misc_Consumables_Header</mod>
     <mod>Ingame_Misc_Consumables_arasgrandpa</mod>
-    <mod>Ingame_Misc_Custom_Radial_Menu</mod>
+    <mod>Ingame_Misc_Friend_Marker</mod>
     <mod>Ingame_Misc_hitmarker_Base</mod>
     <mod>Ingame_Misc_hitmarker_Damage_Ramming_Kamakazie</mod>
     <mod>Ingame_Misc_LightMod_Base</mod>
@@ -204,14 +241,14 @@
     <mod>Ingame_Misc_LightMod_LampLights_Car_Pack</mod>
     <mod>Ingame_Misc_LightMod_LampLights_BottomNeon</mod>
     <mod>Ingame_Misc_LightMod_LampLights_TargetLight</mod>
-    <mod>Ingame_Misc_LightMod_SunController</mod>
+    <mod>Ingame_Misc_Mask_Camo_Net_Mod</mod>
     <mod>Ingame_Misc_Minimap_Header</mod>
-    <mod>Ingame_Misc_tactical_minimap</mod>
+    <mod>Ingame_Misc_HD_minimap</mod>
     <mod>Ingame_Misc_WOT_Tweaker_Header</mod>
-    <mod>Ingame_Misc_WOT_Tweaker_enable_max_visibility</mod>
     <mod>Ingame_Misc_WOT_Tweaker_disable_fog</mod>
     <mod>Ingame_Misc_WOT_Tweaker_disable_allied_noobs</mod>
-    <mod>Garage_mods_auto-equip</mod>
+    <mod>Garage_mods_Auxilium_settings_header</mod>
+    <mod>Garage_mods_Auxilium_settings_auto_equip_equipment</mod>
     <mod>Garage_mods_Battle_Hits_Viewer</mod>
     <mod>Garage_mods_Map_Rotation</mod>
     <mod>Garage_mods_Modpack_Button_Header</mod>
@@ -222,29 +259,33 @@
     <mod>Garage_mods_VehicleXP_Extended_Base</mod>
     <mod>Garage_mods_VehicleXP_Extended_german</mod>
     <mod>Garage_mods_crewExtended</mod>
-    <mod>Garage_mods_Aslains_Colored_TechTree_and_Vehicle_List_Icons_header</mod>
-    <mod>Garage_mods_Aslains_Colored_TechTree_and_Vehicle_List_Icons_V1</mod>
-    <mod>Garage_mods_Caroussel_Gold_Premium_Tanks</mod>
     <mod>Garage_Graphics_Battle_Results_Header</mod>
-    <mod>Garage_Graphics_Battle_Results_PinUps_Design_by_PigBrains_HAWG</mod>
+    <mod>Garage_Graphics_Battle_Results_Fire_Design_by_PigBrains_HAWG</mod>
+    <mod>Garage_graphics_Custom_Carousel_tank_icons</mod>
+    <mod>Garage_graphics_custom_tank_carousel_regular_header</mod>
+    <mod>Garage_mods_Carousel_Aslains_Brighter_Tank_Icons</mod>
+    <mod>Garage_graphics_custom_tank_carousel_premium_header</mod>
+    <mod>Garage_mods_Carousel_Aslains_Brighter_Gold_Premium_Tanks</mod>
+    <mod>Garage_graphics_Custom_TechTree_and_Vehicle_List_Icons_header</mod>
+    <mod>Garage_mods_Aslains_Colored_TechTree_and_Vehicle_List_Icons_V1</mod>
     <mod>Garage_mods_Hangar_Header</mod>
     <mod>Garage_mods_HangMan_Base</mod>
-    <mod>Garage_Mods_Hangar_Wadi_by_DonSallustedeBazan</mod>
+    <mod>Garage_mods_cursor_HARPOON</mod>
+    <mod>Garage_mods_loading_animation_Header</mod>
+    <mod>Garage_mods_loading_animation_HARPOON</mod>
+    <mod>Garage_mods_LoadingVideo_Header</mod>
+    <mod>Garage_mods_LoadingVideo_WWIIHWA</mod>
+    <mod>Garage_mods_Medals_Header</mod>
+    <mod>Garage_mods_Medals_Effect_Glass</mod>
     <mod>Statistic_Session_Header</mod>
     <mod>Statistic_Session_Time_Spent_Base</mod>
     <mod>Statistic_Session_Time_Spent_Kapany3uk_5</mod>
     <mod>Sounds_crew_sounds_Header</mod>
-    <mod>Sounds_crew_sounds_Filzi_Header</mod>
-    <mod>Sounds_crew_sounds_filzi_bsth</mod>
-    <mod>Sounds_GUI_Header</mod>
-    <mod>Sounds_GUI_Sounds_Grandpa</mod>
+    <mod>Sounds_Crew_Sounds_Siegfried_german</mod>
+    <mod>Sounds_Engine_Header</mod>
+    <mod>Sounds_Engines_by_Ed76na+Apa6ecka</mod>
     <mod>Sounds_Gun_Header</mod>
-    <mod>Sounds_WWIIHWA_Guns_by_KT+Budyx69</mod>
-    <mod>Sounds_Kill_Header</mod>
-    <mod>Sounds_Kill_UT_Announcer_Base</mod>
-    <mod>Sounds_Kill_UT_Announcer_Locastan</mod>
-    <mod>Sounds_music_Header</mod>
-    <mod>Sounds_music_StarWars</mod>
+    <mod>Sounds_Gun_Ed76na+Apa6ecka</mod>
     <mod>Sounds_WWIIHWA_Ambiente_sounds_Header</mod>
     <mod>WWIIHWA_Ambiente_Base</mod>
     <mod>WWIIHWA-Configuration.exe_Ambiente</mod>
@@ -257,14 +298,20 @@
     <mod>Sixth_Sense_Icon_Kriegstreiber</mod>
     <mod>Sixth_Sense_Icon_Duration_Header</mod>
     <mod>Sixth_Sense_Icon_Duration_10</mod>
-    <mod>Tank_Skin_Packs_HitZone_Skins_goharu_Header</mod>
-    <mod>Tank_Skin_Packs_HitZone_Skins_goharu_HD</mod>
+    <mod>Tank_Skin_Packs_HitZone_Skins_black_white_Mr_13_Header</mod>
+    <mod>Tank_Skin_Packs_HitZone_Skins_black_white_Mr_13_with_trunk_marks</mod>
+    <mod>Custom_Tank_Skins_Misc_crashed_tracks</mod>
+    <mod>Custom_Tank_Skins_Misc_crashed_tracks_white</mod>
+    <mod>Custom_Tank_Skins_Misc_Colored_penetration_Header</mod>
+    <mod>Custom_Tank_Skins_Misc_penetration_HAWG_colorblind</mod>
+    <mod>Custom_Tank_Skins_Misc_dead_tanks</mod>
+    <mod>Custom_Tank_Skins_Misc_dead_tanks_white</mod>
+    <mod>Ingame_Info_marks_of_excellence_Header</mod>
+    <mod>Ingame_Info_marks_of_excellence_Aimdrol</mod>
   </relhaxMods>
   <userMods>
-    <mod>Erweiterte_Texte_by_Budyx69_v0.9.21.0.1_2017-12-19</mod>
-    <mod>Ingame_Aim_Enemyindicator_by_OldSkool_0.9.21.0.1_2017-12-19</mod>
-    <mod>Verbündete_Arti_ZielpositionV2+Minimap_SymbolV2_0.9.21.0.1_2017-12-19_No_XVM</mod>
-    <mod>WWIIHWA_GAUSS_CONFIG_2017-10-31</mod>
-    <mod>[0.9.20.1] WWIIHWA_Ambiente_6.3_Uncut_Addon_USER</mod>
+    <mod>Erweiterte_Texte_by_Budyx69_v1.0.1_2018-05-10</mod>
+    <mod>WWIIHWA_GAUSS_CONFIG_2018-05-17</mod>
+    <mod>[1.0.1.0] WWIIHWA_Ambiente_6.6.1_Uncut_Addon</mod>
   </userMods>
 </mods>
