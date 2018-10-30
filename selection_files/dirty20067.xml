@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2018-09-07 17:06:05" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="beta">
+<mods ver="2.0" date="2018-10-24 13:32:18" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="1.2.0.1_2018-10-20_1">
   <relhaxMods>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_Headline</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_6thSenseDuration_Headline</mod>
@@ -14,8 +14,12 @@
     <mod>XVMConfigBuilder_BattleInterfaceModifications_DamageLog_enable</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_VehicleOnFireAnnouncer_Header</mod>
     <mod>XVMConfigBuilder_BattleInterfaceModifications_VehicleOnFireAnnouncer_enable</mod>
+    <mod>XVMConfigBuilder_BattleInterfaceModifications_Squadmember_Color_Change_Headline</mod>
+    <mod>XVMConfigBuilder_BattleInterfaceModifications_Squadmember_Color_Change_Purple</mod>
     <mod>XVMconfigBuilder_BattleResultsModifications_Header</mod>
     <mod>XVMconfigBuilder_BattleResultsModifications_BattleResultsPage_2</mod>
+    <mod>XVMconfigBuilder_border</mod>
+    <mod>XVMconfigBuilder_border_blue</mod>
     <mod>XVMConfigBuilder_ClanIcons_Base</mod>
     <mod>XVMConfigBuilder_ClanIcons_TopClansOnly</mod>
     <mod>XVMconfigBuilder_GarageInterfaceModifications_Header</mod>
@@ -49,6 +53,12 @@
     <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_HP_circles_def</mod>
     <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_header</mod>
     <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_enabled</mod>
+    <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_custom</mod>
+    <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_50</mod>
+    <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_viewRange</mod>
+    <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_445</mod>
+    <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_564</mod>
+    <mod>XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_arty_range</mod>
     <mod>XVMconfigBuilder_PlayersPanelModifications_Header</mod>
     <mod>XVMconfigBuilder_PlayersPanelModifications_Enable</mod>
     <mod>XVMconfigBuilder_PlayersPanelModifications_StartingPosition_Header</mod>
@@ -93,14 +103,10 @@
     <mod>Ingame_Aim_Battle_Assistant_Base</mod>
     <mod>Ingame_Aim_Battle_Assistant_G</mod>
     <mod>Ingame_Aim_Battle_Assistant_Increased_Zoom_Speed</mod>
-    <mod>Ingame_Aim_SafeShot_Header</mod>
-    <mod>Ingame_Aim_SafeShot_oldskool</mod>
-    <mod>Ingame_Aim_SafeShot_oldskool_timeout_3</mod>
-    <mod>Ingame_Aim_SafeShot_oldskool_block_dead</mod>
-    <mod>Ingame_Aim_SafeShot_oldskool_block_ally</mod>
-    <mod>Ingame_Aim_SafeShot_oldskool_send_chat_message</mod>
     <mod>Ingame_Aim_Zoomin_Base</mod>
     <mod>Ingame_Aim_zoom_pmod_zoomIn_2-48</mod>
+    <mod>Ingame_Aim_zoom_pmod_td_brake_header</mod>
+    <mod>Ingame_Aim_zoom_pmod_td_brake_off</mod>
     <mod>Ingame_Aim_zoom_pmod_td_start_zoom_header</mod>
     <mod>Ingame_Aim_zoom_pmod_default_zoom_4x</mod>
     <mod>Ingame_Aim_ZoomOut_Header</mod>
@@ -122,13 +128,14 @@
     <mod>Ingame_Info_InBattle_Rating_Header</mod>
     <mod>Ingame_Info_InBattle_Rating_OldSkool</mod>
     <mod>Ingame_Info_Spot_Marks</mod>
+    <mod>Ingame_Info_Spot_Marks_only_lights</mod>
     <mod>Ingame_Info_SpotMessenger_Base</mod>
     <mod>Ingame_Info_SpotMessenger_activated</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Header</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Random_Header</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Random_teammsg</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_EpicRandom_Header</mod>
-    <mod>Ingame_Info_SpotMessenger_Battletypes_EpicRandom_teammsg</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes_EpicRandom_squadmsg</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Teambattle</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Ranked</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_ClanBattle</mod>
@@ -143,15 +150,19 @@
     <mod>Ingame_Misc_Antitoxicity_Base</mod>
     <mod>Ingame_Misc_Antitoxicity_block_minimap_spam_repeat</mod>
     <mod>Ingame_Misc_BaseCap_Circles_Header</mod>
+    <mod>Ingame_Misc_BaseCap_Circles_Colored_Header</mod>
     <mod>Ingame_Misc_BaseCap_Circles_V3_Red</mod>
-    <mod>Ingame_Misc_buttonreplacer</mod>
+    <mod>Ingame_Misc_chatmods_header</mod>
+    <mod>Ingame_Misc_chatmnods_buttonreplacer</mod>
     <mod>Ingame_Misc_Consumables_Header</mod>
     <mod>Ingame_Misc_Consumables_DEbranded_equipment_Crew_skill</mod>
     <mod>Ingame_Misc_Consumables_DEbranded_equipment</mod>
     <mod>Ingame_Misc_Consumables_DEbranded_Crew_skill</mod>
     <mod>Ingame_Misc_No_Sixth_Sense_Icon</mod>
+    <mod>Ingame_Misc_Pre_Battle_Timer_Header</mod>
+    <mod>Ingame_Misc_Pre_Battle_Timer_Green</mod>
     <mod>Garage_mods_ScriptloaderPro_Base</mod>
-    <mod>Garage_mods_ScriptloaderPro_SystemMessage_Minimal</mod>
+    <mod>Garage_mods_ScriptloaderPro_SystemMessage_Full</mod>
     <mod>Garage_mods_ScriptloaderPro_SpamFilter</mod>
     <mod>Garage_mods_Techtree_Header</mod>
     <mod>Garage_mods_Techtree_AVT_Base</mod>
@@ -182,10 +193,8 @@
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Italy_Header</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_flag_of_Italy</mod>
     <mod>Garage_graphics_Custom_TechTree_and_Vehicle_List_Icons_header</mod>
-    <mod>Garage_mods_Aslains_Colored_TechTree_and_Vehicle_List_Icons_V1</mod>
-    <mod>Garage_Grafics_Hangar_Freecam</mod>
-    <mod>Garage_mods_Hangar_Header</mod>
-    <mod>Garage_mods_HangMan_Base</mod>
+    <mod>Garage_graphics_DEbrandeds_Custom_TechTree_Header</mod>
+    <mod>Garage_graphics_DEbrandeds_Custom_TechTree_V2_Yaya-Style</mod>
     <mod>Garage_mods_Medals_Header</mod>
     <mod>Garage_mods_Medals_Effect_Glass</mod>
     <mod>Statistic_Session_Header</mod>
@@ -196,21 +205,13 @@
     <mod>Sounds_Kill_UT_Announcer_Base</mod>
     <mod>Sounds_Kill_UT_Announcer_Locastan</mod>
     <mod>Sixth_Sense_Audio_Header</mod>
-    <mod>Sixth_Sense_Audio_I_am_groot</mod>
+    <mod>Sixth_Sense_Audio_I_am_Groot</mod>
     <mod>Sixth_Sense_Icon_Disable_Default_Icon</mod>
     <mod>Sixth_Sense_Icon_I_am_Groot</mod>
     <mod>Sixth_Sense_Icon_Duration_Header</mod>
     <mod>Sixth_Sense_Icon_Duration_5</mod>
     <mod>Custom_Tank_Skins_Misc_dead_tanks</mod>
     <mod>Custom_Tank_Skins_Misc_dead_tanks_white</mod>
-    <mod>Custom_Tank_Skins_Germany_Header</mod>
-    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_Header</mod>
-    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_Skorpion_G_Header</mod>
-    <mod>Custom_Tank_Skins_G114_Rheinmetall_Skorpian_blue</mod>
-    <mod>Custom_Tank_Skins_USSR_Header</mod>
-    <mod>Custom_Tank_Skins_USSR_Tank_Destroyer_Header</mod>
-    <mod>Custom_Tank_Skins_USSR_Tank_Destroyer_SU85I_Header</mod>
-    <mod>Custom_Tank_Skins_USSR_Tank_Destroyer_SU85I_dark_bronze_remodel</mod>
   </relhaxMods>
   <userMods>
     <mod>Clanicons</mod>
