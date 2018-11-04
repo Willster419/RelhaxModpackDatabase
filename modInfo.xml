@@ -233,6 +233,14 @@
       <timestamp>131551590002776094</timestamp>
     </dependency>
     <dependency>
+      <zipFile>Dependency_MLG_bnk_1.2.0_2018-11-04.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_MLG_bnk</packageName>
+      <timestamp>131858482693162796</timestamp>
+    </dependency>
+    <dependency>
       <zipFile>Dependency_MLG_english_localization_2018-10-12.zip</zipFile>
       <crc>802bc3c52eca8fa5238b2050524d6bc2</crc>
       <enabled>True</enabled>
@@ -11788,13 +11796,13 @@
           <packages>
             <package>
               <name>RTAN by Aimdrol</name>
-              <zipFile>Ingame_Info_RTAN_Aimdrol__1.1.0_2018-09-20.zip</zipFile>
-              <crc>e2c4f3bcb4f0e6dfa7c19179a2518d81</crc>
+              <zipFile>Ingame_Info_RTAN_Aimdrol__1.1.0_2018-11-04.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_RTAN_Aimdrol</packageName>
               <type>single1</type>
-              <timestamp>131819109475290194</timestamp>
+              <timestamp>131858493236712691</timestamp>
               <size>14220346</size>
               <devURL>https://github.com/Aimdrol/MLG-RTAN</devURL>
               <medias>
@@ -11803,6 +11811,11 @@
                   <URL>http://i.imgur.com/LDKvk1n.png</URL>
                 </media>
               </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_MLG_bnk</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>RTAN by protanki</name>
@@ -13759,13 +13772,13 @@
         </package>
         <package>
           <name>Hitmarker by Aimdrol</name>
-          <zipFile>Ingame_Misc_hitmarker_by_aimdrol_1.1.0_2018-09-20.zip</zipFile>
-          <crc>aa1793272a378a63d4ded165ab5d0710</crc>
+          <zipFile>Ingame_Misc_hitmarker_by_aimdrol_1.1.0_2018-11-04.zip</zipFile>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Ingame_Misc_hitmarker_Base</packageName>
           <type>multi</type>
-          <timestamp>131819121593200493</timestamp>
+          <timestamp>131858493484294610</timestamp>
           <size>14043983</size>
           <updateComment>http://forum.worldoftanks.eu/index.php?/topic/476721-</updateComment>
           <description>Shows a CoD style hitmarker whenever you penetrate ( ͡° ͜ʖ ͡°) an enemy tank</description>
@@ -13797,6 +13810,11 @@
               <size>855</size>
             </package>
           </packages>
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_MLG_bnk</packageName>
+            </dependency>
+          </dependencies>
         </package>
         <package>
           <name>Minimap</name>
@@ -20091,13 +20109,13 @@
             </package>
             <package>
               <name>MLG Mod by Aimdrol (English sound and text)</name>
-              <zipFile>Sounds_mlg_mod_voice_1.2.0_2018-11-04.zip</zipFile>
+              <zipFile>Sounds_mlg_mod_voice_1.1.0_2018-11-04.zip</zipFile>
               <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Sounds_crew_sounds_MLG_Base</packageName>
               <type>single1</type>
-              <timestamp>131858266806833586</timestamp>
+              <timestamp>131858493983445376</timestamp>
               <size>40142127</size>
               <description>Must have sound crew language set to "standard"\nMLG EVERYWHERE\nAlso includes awesome visuals.</description>
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</devURL>
@@ -20124,10 +20142,10 @@
               </packages>
               <dependencies>
                 <dependency>
-                  <packageName>Dependency_Sounds_Increase_Sound_Memory</packageName>
+                  <packageName>Dependency_MLG_english_localization</packageName>
                 </dependency>
                 <dependency>
-                  <packageName>Dependency_MLG_english_localization</packageName>
+                  <packageName>Dependency_MLG_bnk</packageName>
                 </dependency>
               </dependencies>
             </package>
@@ -21016,14 +21034,19 @@
             </package>
             <package>
               <name>Illuminati by Aimdrol</name>
-              <zipFile>Sixth_Sense_Audio_Illumanati_2018-09-20.zip</zipFile>
-              <crc>abc49a93a1c40e67fb66c795c30d8d98</crc>
+              <zipFile>Sixth_Sense_Audio_Illumanati_2018-11-04.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Sixth_Sense_Audio_Illumanati</packageName>
               <type>single1</type>
-              <timestamp>131819157264944480</timestamp>
+              <timestamp>131858492870552045</timestamp>
               <size>14032089</size>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_MLG_bnk</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Jingles</name>
