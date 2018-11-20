@@ -14784,14 +14784,15 @@
       <packages>
         <package>
           <name>Modpack Informer (Update Notifier)</name>
-          <zipFile>Garage_Mods_ModPackInformer_2018-11-19.zip</zipFile>
+          <zipFile>Garage_Mods_ModPackInformer_2018-11-20.zip</zipFile>
           <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Mods_ModPackInformer_Header</packageName>
+          <packageName>Garage_Mods_ModPackInformer</packageName>
           <type>multi</type>
-          <timestamp>131872000794453678</timestamp>
-          <description>This modification notifies you about actual database updates. It shows you a popup window if there is a new one available.</description>
+          <version>1.2.0.1_2018-11-20_1</version>
+          <timestamp>131872049977944255</timestamp>
+          <description>This modification notifies you about actual database updates. \nIt shows you a popup window if there is a new one available.</description>
           <devURL>https://github.com/spoter/spoter-mods/tree/master/mod_modPackInformer</devURL>
           <medias>
             <media>
@@ -14803,19 +14804,6 @@
               <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/garage_mods/modpackinformer/Garage_Mods_ModPackInformer_2.png</URL>
             </media>
           </medias>
-          <packages>
-            <package>
-              <name>Actual version patch</name>
-              <zipFile>Garage_Mods_ModPackInformer_ActualVersion_Patch_2018-11-17.zip</zipFile>
-              <crc>f</crc>
-              <enabled>True</enabled>
-              <visible>False</visible>
-              <packageName>Garage_Mods_ModPackInformer_ActualVersionPatch</packageName>
-              <type>single1</type>
-              <timestamp>131872009030436538</timestamp>
-              <description>db entry set to invisible, but enabled -&gt; single selection should be installed.\n\n\nTo update notifier follow these steps:\n\n- use willsters post in announcements as template (discord). \n\tthis part -&gt; "1.2.0.1_2018-11-19_1"\n\n- edit ftp://ftp.relhaxmodpack.com/WoT/ModPackInformer/relhax_version.json\n\t( \t"version": \t"1.2.0.1_2018-11-19_1"\n\t  \t"date":\t\t"2018-11-19"\t\t)\n\n- edit modPackInformer_actual_version_patch.xml (same string as above: "1.2.0.1_2018-11-19_1")\nin Garage_Mods_ModPackInformer_ActualVersion_Patch_xxxx-xx-xx.zip</description>
-            </package>
-          </packages>
         </package>
         <package>
           <name>Show Insignia on guns by HAWG</name>
