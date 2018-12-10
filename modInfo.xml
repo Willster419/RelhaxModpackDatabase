@@ -2915,31 +2915,57 @@
                 </package>
                 <package>
                   <name>Show language flag</name>
-                  <zipFile>XVM_config_builder_playerspanel_Language_Flag_2018-07-29.zip</zipFile>
-                  <crc>306ff43dd6c50b4f048d1f0e252a27d5</crc>
+                  <zipFile />
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>XVMconfigBuilder_PlayersPanelModifications_Language_Flag</packageName>
                   <type>multi</type>
-                  <timestamp>131773255727790639</timestamp>
-                  <size>836</size>
+                  <timestamp>131889469435275963</timestamp>
                   <description>will show the individually selcted language flag of every player in the panel.\n\nOn ALT key, it will be hidden.</description>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_Language_Flag.png</URL>
-                    </media>
-                  </medias>
                   <packages>
                     <package>
+                      <name>based on XVM selected language</name>
+                      <zipFile>XVM_config_builder_playerspanel_Language_Flag_2018-07-29.zip</zipFile>
+                      <crc>306ff43dd6c50b4f048d1f0e252a27d5</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanelModifications_Language_Flag_XVM</packageName>
+                      <type>single1</type>
+                      <timestamp>131773255727790639</timestamp>
+                      <size>836</size>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_Language_Flag.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                    <package>
+                      <name>based on the client language</name>
+                      <zipFile>XVM_config_builder_playerspanel_clientLanguage_Flag_2018-12-10.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanelModifications_Language_Flag_Client</packageName>
+                      <type>single1</type>
+                      <timestamp>131889468440083648</timestamp>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://wotmods.relhaxmodpack.com/WoT/ModPictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_clientLanguage_Flag.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                    <package>
                       <name>change the flag´s position (&lt;-)</name>
-                      <zipFile>XVM_config_builder_language_flags_left_2018-07-30.zip</zipFile>
-                      <crc>3fb31f5313e5050aaafe611e8a5fd32f</crc>
+                      <zipFile>XVM_config_builder_playerspanel_Language_Flag_left_2018-12-10.zip</zipFile>
+                      <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>XVMconfigBuilder_PlayersPanelModifications_Language_Flags_left</packageName>
                       <type>multi</type>
-                      <timestamp>131773937008579212</timestamp>
+                      <timestamp>131889476712015509</timestamp>
                       <size>429</size>
                       <description>move flag to the panel inside.\nuseful for some prebuilt configs (eg Jimbo´s)</description>
                     </package>
