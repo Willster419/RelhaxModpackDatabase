@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2018-11-18 15:49:16" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="1.2.0.1_2018-11-17_2">
+<mods ver="2.0" date="2018-12-19 15:00:46" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="1.3.0.1_2018-12-17_2">
   <relhaxMods>
     <mod>XVMPrebuiltConfigs_elektrosmoker</mod>
     <mod>Crosshairs_tank_sight_Header</mod>
@@ -12,10 +12,9 @@
     <mod>Contour_Icon_Header</mod>
     <mod>Contour_Icon_HARDicons_Header</mod>
     <mod>Contour_Icon_HARDicons_Colored</mod>
-    <mod>Damage_Panel_Log_Seperate_Header</mod>
     <mod>Damage_Panels_Header</mod>
-    <mod>Damage_Panel_Zayaz_Header</mod>
-    <mod>Damage_Panel_Zayaz_with_repair_rows_and_blocking_angle</mod>
+    <mod>Damage_Panel_Legacy_Header</mod>
+    <mod>Damage_Panel_Legacy_Dark</mod>
     <mod>Ingame_Aim_arty_splash_sphere</mod>
     <mod>Ingame_Aim_AutoAim_modifications</mod>
     <mod>Ingame_Aim_AutoAim_Indication</mod>
@@ -80,7 +79,7 @@
     <mod>Ingame_Info_Spot_Marks</mod>
     <mod>Ingame_Info_Spot_Marks_only_lights</mod>
     <mod>Ingame_Info_SpotMessenger_Base</mod>
-    <mod>Ingame_Info_SpotMessenger_activated</mod>
+    <mod>Ingame_Info_SpotMessenger_deactivated</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Header</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Random_Header</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Random_teammsg</mod>
@@ -103,11 +102,17 @@
     <mod>Ingame_Misc_BattleEndMessages_by_Budyx69</mod>
     <mod>Ingame_Misc_BattleEndMessages_by_Budyx69_only_timer</mod>
     <mod>Ingame_Misc_chatmods_header</mod>
+    <mod>Ingame_Misc_chatmods_FriendsMarker_Oldskool</mod>
+    <mod>Ingame_Misc_chatmods_FriendsNotifier_Rajcel</mod>
     <mod>Ingame_Misc_chatmnods_buttonreplacer</mod>
     <mod>Ingame_Misc_chatmods_elkrda_header</mod>
     <mod>Ingame_Misc_chatmods_elkrda_announce_teamdamage</mod>
     <mod>Ingame_Misc_chatmods_elkrda_announce_spg</mod>
     <mod>Ingame_Misc_chatmods_spotted_extended_light</mod>
+    <mod>Ingame_Misc_Consumables_Header</mod>
+    <mod>Ingame_Misc_Consumables_DEbranded_equipment_Crew_skill</mod>
+    <mod>Ingame_Misc_Consumables_DEbranded_equipment</mod>
+    <mod>Ingame_Misc_Consumables_DEbranded_Crew_skill</mod>
     <mod>Ingame_Misc_Final_Shot</mod>
     <mod>Ingame_Misc_hitmarker_Base</mod>
     <mod>Ingame_Misc_hitmarker_Damage</mod>
@@ -128,7 +133,6 @@
     <mod>Garage_mods_Armor_Inspector_header</mod>
     <mod>Garage_mods_Armor_Inspector_protanki</mod>
     <mod>Garage_mods_Armor_Inspector_wotinspector</mod>
-    <mod>Garage_mods_Battle_Hits_Viewer</mod>
     <mod>Garage_mods_Map_Rotation</mod>
     <mod>Garage_mods_Modpack_Button_Header</mod>
     <mod>Garage_mods_replay_manager_Header</mod>
@@ -136,8 +140,6 @@
     <mod>Garage_mods_ScriptloaderPro_SystemMessage_Full</mod>
     <mod>Garage_mods_ScriptloaderPro_SpamFilter</mod>
     <mod>Garage_mods_Seller</mod>
-    <mod>Garage_mods_Techtree_Header</mod>
-    <mod>Garage_mods_Techtree_AVT_Base</mod>
     <mod>Garage_mods_expandItemLimits</mod>
     <mod>Garage_mods_VehicleXP_Extended_Base</mod>
     <mod>Garage_mods_VehicleXP_Extended_german</mod>
@@ -170,12 +172,14 @@
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Italy</mod>
     <mod>Garage_graphics_Custom_Carousel_tank_icons</mod>
     <mod>Garage_graphics_custom_tank_carousel_regular_header</mod>
-    <mod>Garage_mods_Carousel_Aslains_Camouflaged_Tank_Icons</mod>
+    <mod>Garage_Graphics_Carousel_Debrandeds_Tank_Icons_Regular</mod>
     <mod>Garage_graphics_custom_tank_carousel_premium_header</mod>
     <mod>Garage_mods_Carousel_Aslains_Brighter_Gold_Premium_Tanks</mod>
     <mod>Garage_graphics_Custom_TechTree_and_Vehicle_List_Icons_header</mod>
-    <mod>Garage_mods_Camouflaged_Tech_Tree_Tanks</mod>
+    <mod>Garage_graphics_DEbrandeds_Custom_TechTree_Header</mod>
+    <mod>Garage_graphics_DEbrandeds_Custom_TechTree_V2_Yaya-Style</mod>
     <mod>Garage_Graphics_GIRLS_und_PANZER_UI</mod>
+    <mod>Garage_Grafics_Hangar_Freecam</mod>
     <mod>Garage_mods_Hangar_Header</mod>
     <mod>Garage_mods_HangMan_Base</mod>
     <mod>Garage_mods_cursor_HARPOON</mod>
@@ -215,64 +219,8 @@
     <mod>Custom_Tank_Skins_Misc_penetration_protanki</mod>
     <mod>Custom_Tank_Skins_Misc_dead_tanks</mod>
     <mod>Custom_Tank_Skins_Misc_dead_tanks_red</mod>
-    <mod>Custom_Tank_Skins_Germany_Header</mod>
-    <mod>Custom_Tank_Skins_Germany_Heavy_Header</mod>
-    <mod>Custom_Tank_Skins_Germany_Heavy_Maus_Header</mod>
-    <mod>Custom_Tank_Skins_Germany_Heavy_Maus_Green_Hexagon</mod>
-    <mod>Custom_Tank_Skins_Germany_Heavy_Lowe_Header</mod>
-    <mod>Custom_Tank_Skins_Germany_Heavy_Lowe_Nvidia-Style_black</mod>
-    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_Header</mod>
-    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_E-25_Header</mod>
-    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_E-25_Gold</mod>
-    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_Skorpion_G_Header</mod>
-    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_Skorpion_G_Miruku_Remodel</mod>
-    <mod>Custom_Tank_Skins_Japan_Header</mod>
-    <mod>Custom_Tank_Skins_Japan_Heavy_Header</mod>
-    <mod>Custom_Tank_Skins_Japan_Heavy_Type5_Header</mod>
-    <mod>Custom_Tank_Skins_Japan_Heavy_Type5_Godzilla</mod>
-    <mod>Custom_Tank_Skins_Poland_Header</mod>
-    <mod>Custom_Tank_Skins_Poland_Heavy_Header</mod>
-    <mod>Custom_Tank_Skins_Poland_Heavy_60TP</mod>
-    <mod>Custom_Tank_Skins_Poland_Heavy_60TP_Brave_Monster_Hunter</mod>
-    <mod>Custom_Tank_Skins_Sweden_Header</mod>
-    <mod>Custom_Tank_Skins_Sweden_Tank_Destroyer_Header</mod>
-    <mod>Custom_Tank_Skins_Sweden_Tank_Destroyer_UDES03_Header</mod>
-    <mod>Custom_Tank_Skins_Sweden_Tank_Destroyer_UDES03_DarkMatter</mod>
-    <mod>Custom_Tank_Skins_Sweden_Tank_Destroyer_STRV_103B</mod>
-    <mod>Custom_Tank_Skins_Sweden_Tank_Destroyer_STRV_103B_profremodel</mod>
-    <mod>Custom_Tank_Skins_UK_Header</mod>
-    <mod>Custom_Tank_Skins_UK_Heavy_Header</mod>
-    <mod>Custom_Tank_Skins_GB93_Caernarvon_AX_Header</mod>
-    <mod>Custom_Tank_Skins_GB93_Caernarvon_AX_by_ByFor</mod>
-    <mod>Custom_Tank_Skins_GB63_TOG_II_Header</mod>
-    <mod>Custom_Tank_Skins_UK_Heavy_Tog2_Chewbacca</mod>
-    <mod>Custom_Tank_Skins_UK_Tank_Destroyer_Header</mod>
-    <mod>Custom_Tank_Skins_UK_Tank_Destroyer_FV217_Badger_Header</mod>
-    <mod>Custom_Tank_Skins_UK_Tank_Destroyer_FV217_Badger_Solo</mod>
-    <mod>Custom_Tank_Skins_USA_Header</mod>
-    <mod>Custom_Tank_Skins_USA_Heavy_Header</mod>
-    <mod>Custom_Tank_Skins_USA_Heavy_T110E5_Header</mod>
-    <mod>Custom_Tank_Skins_USA_Heavy_T110E5_OM_Edition</mod>
-    <mod>Custom_Tank_Skins_USA_Heavy_T34_Heavy_Header</mod>
-    <mod>Custom_Tank_Skins_USA_Heavy_T34_Heavy_Miruku_Remodel</mod>
-    <mod>Custom_Tank_Skins_USA_Light_Header</mod>
-    <mod>Custom_Tank_Skins_USA_Light_M24_Chaffe_header</mod>
-    <mod>Custom_Tank_Skins_USA_Light_M24_Chaffe_Redbull</mod>
-    <mod>Custom_Tank_Skins_USA_Light_T49_header</mod>
-    <mod>Custom_Tank_Skins_USA_Light_T49_Star_Wars_Force_Rey</mod>
-    <mod>Custom_Tank_Skins_USA_Tank_Destroyer_Header</mod>
-    <mod>Custom_Tank_Skins_USA_Tank_Destroyer_M18_Hellcat_Header</mod>
-    <mod>Custom_Tank_Skins_A41_M18_Hellcat_RESKIN_HG_Skins</mod>
-    <mod>Custom_Tank_Skins_USA_Tank_Destroyer_T67_Header</mod>
-    <mod>Custom_Tank_Skins_USA_Tank_Destroyer_T67_Copper</mod>
-    <mod>Custom_Tank_Skins_USSR_Header</mod>
-    <mod>Custom_Tank_Skins_USSR_Heavy_Header</mod>
-    <mod>Custom_Tank_Skins_USSR_Heavy_Churchill-III_Header</mod>
-    <mod>Custom_Tank_Skins_USSR_Heavy_Churchill-III_8bitsMammoth</mod>
-    <mod>Custom_Tank_Skins_USSR_Heavy_IS-3_Header</mod>
-    <mod>Custom_Tank_Skins_USSR_Heavy_IS-3_Luke</mod>
-    <mod>Custom_Tank_Skins_USSR_Heavy_KV2_Header</mod>
-    <mod>Custom_Tank_Skins_USSR_Heavy_KV2_Star_Wars_Force_Vader</mod>
+    <mod>Custom_Tank_Skins_Misc_Tank_Grafx_Remover</mod>
+    <mod>Custom_Tank_Skins_Misc_Limpid_Stickers</mod>
   </relhaxMods>
   <userMods />
 </mods>
