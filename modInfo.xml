@@ -273,6 +273,15 @@
       <packageName>Dependency_XVM_damage_log_disable</packageName>
     </dependency>
     <dependency>
+      <zipFile>Dependency_playersPanelAPI_POLIROID_PROMOD_1.3.0.1_2019-01-04.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_playersPanelAPI_POLIROID_PROMOD</packageName>
+      <timestamp>131910789067513442</timestamp>
+      <devURL>promod / oldskool mods</devURL>
+    </dependency>
+    <dependency>
       <zipFile>Dependency_PMOD_1.37_1.3.0.0_2018-12-12.zip</zipFile>
       <crc>636405c3892731efe7e8495a8bd8481a</crc>
       <enabled>True</enabled>
@@ -12434,14 +12443,14 @@
         </package>
         <package>
           <name>Enemy spotted status (by oldskool)</name>
-          <zipFile>Ingame_Info_Enemy_Spotted_Status_v10_1.3.0.1_2019-01-03.zip</zipFile>
-          <crc>5ff29701faf76433c0d7b5767393b870</crc>
+          <zipFile>Ingame_Info_Enemy_Spotted_Status_v10_1.3.0.1_2019-01-04.zip</zipFile>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Ingame_Info_Enemy_Spotted_Status</packageName>
           <type>multi</type>
           <version>10</version>
-          <timestamp>131909945831097175</timestamp>
+          <timestamp>131910790712229176</timestamp>
           <size>35454</size>
           <description>This is a Spotted Status Indicator for the enemy team. Different icons show the current Spotted Status for the vehicle.</description>
           <devURL>https://wgmods.net/1024/</devURL>
@@ -12457,6 +12466,9 @@
             </dependency>
             <dependency>
               <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
+            </dependency>
+            <dependency>
+              <packageName>Dependency_playersPanelAPI_POLIROID_PROMOD</packageName>
             </dependency>
           </dependencies>
         </package>
@@ -14906,13 +14918,13 @@
           <packages>
             <package>
               <name>Friends Marker by Oldskool</name>
-              <zipFile>Ingame_Misc_chatmods_Friendsmarker_oldskool_2018-12-07.zip</zipFile>
-              <crc>4bbf6543516753a116ac5930ae67a118</crc>
+              <zipFile>Ingame_Misc_chatmods_Friendsmarker_oldskool_2019-01-04.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Misc_chatmods_FriendsMarker_Oldskool</packageName>
               <type>multi</type>
-              <timestamp>131886588262627955</timestamp>
+              <timestamp>131910790998657078</timestamp>
               <size>21534</size>
               <description>Recognize people from your friendlist in the battle!</description>
               <devURL>https://wgmods.net/1023/</devURL>
@@ -14922,6 +14934,11 @@
                   <URL>http://wotmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Friends_Marker/Ingame_Misc_chatmods_Friendsmarker_oldskool.jpg</URL>
                 </media>
               </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_playersPanelAPI_POLIROID_PROMOD</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Friends Notifier by RAJCEL</name>
@@ -21345,9 +21362,11 @@
           <packageName>Sounds_Modules_Header</packageName>
           <type>multi</type>
           <timestamp>131910777168272821</timestamp>
+          <packages>
             <package>
               <name>CamoNet sounds</name>
               <zipFile />
+              <crc />
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Sounds_Modules_CamoNet_Header</packageName>
@@ -21355,13 +21374,13 @@
               <packages>
                 <package>
                   <name>Romulan camo sound when activating camonet</name>
-                  <zipFile>Sounds_Modules_CamoNet_Romulan_by_The_Illusive_Man_2018-01-04.zip</zipFile>
+                  <zipFile>Sounds_Modules_CamoNet_Romulan_by_The_Illusive_Man_2019-01-04.zip</zipFile>
                   <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Sounds_Modules_CamoNet_Romulan</packageName>
                   <type>single1</type>
-                  <timestamp>131910779091837590</timestamp>
+                  <timestamp>131910788971566574</timestamp>
                   <description>This mod changes the standard camonet sound to a romulan camo sound (star trek).</description>
                 </package>
               </packages>
