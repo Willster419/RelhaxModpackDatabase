@@ -351,12 +351,12 @@
       <devURL>http://forum.worldoftanks.eu/index.php?/topic/603810-</devURL>
     </dependency>
     <dependency>
-      <zipFile>Dependency_PYmodsCore_1.2.0.2_2018-11-28.zip</zipFile>
-      <crc>fa1d8db7f6196a5eae236f086c16d5ab</crc>
+      <zipFile>Dependency_PYmodsCore_1.3.0.1_2019-01-15.zip</zipFile>
+      <crc>f</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_PYmodsCore</packageName>
-      <timestamp>131878913777835596</timestamp>
+      <timestamp>131920641670304378</timestamp>
       <devURL>http://forum.worldoftanks.ru/index.php?/topic/1825657-</devURL>
     </dependency>
     <dependency>
@@ -24104,14 +24104,14 @@
         </package>
         <package>
           <name>RemodEnabler</name>
-          <zipFile>Custom_Tank_Skins_Misc_RemodEnabler_FIX_v3.1.0_2019-01-13.zip</zipFile>
-          <crc>a8cf8261c9112dbce03ea0496e142272</crc>
+          <zipFile>Custom_Tank_Skins_Misc_RemodEnabler_v3.1.0_1.3.0.1_2019-01-15.zip</zipFile>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Custom_Tank_Skins_Misc_RemodEnabler</packageName>
           <type>multi</type>
           <version>3.1.0 (07.01)</version>
-          <timestamp>131918605886223346</timestamp>
+          <timestamp>131920642823978653</timestamp>
           <size>124839</size>
           <updateComment>2019-01-13: removed file from banned developer polarfox!</updateComment>
           <description>This mod is strongly recommended to install for some Custom Tank Skins to be displayed properly.\nCurrently: Force Mod Skins (Star Wars)\n\nINFO:\n\nWe had to remove some files from this mod, because they are made by banned developer Polarfox \nwho is using his mods to display ads (java popups, cefbrowser).\nThis means that only the base function of this mod is working and the gui that is needed to create own configs is disabled. \nThe mod can not be used as described below until the developer is using a different vxSettingsAPI ! \n:/ \n\nRemember: Polarfox =&gt; Adware!\n\n##########################################\nOriginal description:\n\nThis mod dynamically edits vehicle model paths, which enables it to selectively change vehicle models. For example, you can install a remodel only on your vehicle without affecting others. All setup is made in hangar.\n\nHotkeys (hangar only): \n\nCtrl+F2 - cycles between vehicle preview modes (Player -&gt; Ally -&gt; Enemy -&gt; Player…). \n\nCtrl+F3 - switches to the next model (remodel or skin) available for this vehicle. \n\nCtrl+F4 - switches the mode of collision model displaying.\n\n\n\nMore thorough description, FAQ and user support are all here: http://forum.worldoftanks.ru/index.php?/topic/1890271-</description>
@@ -24137,6 +24137,9 @@
           <dependencies>
             <dependency>
               <packageName>Dependency_PYmodsCore</packageName>
+            </dependency>
+            <dependency>
+              <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
             </dependency>
           </dependencies>
         </package>
