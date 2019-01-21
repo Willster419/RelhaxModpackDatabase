@@ -1,0 +1,35 @@
+Securing Branches:
+
+i think we agree that branches can be useful for bigger changes to the database and that this work sometimes, eg changing all descriptions, may need several days to be done, right? 
+yeah, but there are things to know: 
+when someone is working on a different branch (subbranch), other people also can change the `same things` in the master branch that already got edited in the subbranch!
+-> if so, there is a high possibility to f*** up the database and an automatic merge between those branches may not be possible anymore and all have to be fixed by hand. 
+
+```changes that can cause chaos:
+- change package name (no matter if it is a header or not)
+- moving whole packages/entries (especially when they got several subs. eg: custom_tank_skins_NATION_header)```
+ 
+so please, when working inside a branch over a longer period of time respect following rules and nothing like that will happen:
+1) write a notice to the other database managers, so they don´t disturb your work.
+2) name the branch like this `[category name] - [info about what you are doing]`
+
+```
+eg:
+`Custom_Tank_Skins - PICS` -> this means you are working only on pictures and other ones can do package updates
+`Custom_Tank_Skins - STRUCTURE` -> means you are working on bigger changes in the database structure
+`Custom_Tank_skins_Poland_Header` -> means you are working inside the polish tree
+```
+
+also, the person who is working normally inside the master-branch have to check if there is a new branch too - to get sure that there will be no complications.
+please do not commit if there are shown any errors - just save your modinfo.xml and get in touch with the team to fix this.
+
+
+```
+possible changes to the db, which normally cause no chaos:
+- name
+- zip-file names
+- descriptions / medias / set (log.) dependecies
+- visible / enable
+- version
+- dev url
+```
