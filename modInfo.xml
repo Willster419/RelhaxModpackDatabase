@@ -1806,15 +1806,45 @@
               </medias>
               <packages>
                 <package>
-                  <name>move to bottom (above damage panel)</name>
-                  <zipFile>XVM_config_builder_total_eff_bottom_patch.zip</zipFile>
+                  <name>move the total efficiency label</name>
+                  <zipFile />
                   <crc>f</crc>
-                  <enabled>False</enabled>
+                  <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_movetobottom</packageName>
+                  <packageName>XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_move</packageName>
                   <type>multi</type>
-                  <timestamp>131930676608659132</timestamp>
-                  <description>this moves the Total Efficiency to the bottom above the xvm-damage panel</description>
+                  <timestamp>131930934157368062</timestamp>
+                  <description>this moves the "total efficiency" label from the top to a different position</description>
+                  <packages>
+                    <package>
+                      <name>under the chat (bottom left)</name>
+                      <zipFile>XVM_config_builder_total_eff_underchat_patch.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>False</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_underchat</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>131930933307981260</timestamp>
+                      <description>this moves the Total Efficiency to the space between chat and damage panel</description>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://wotmods.relhaxmodpack.com/WoT/Medias/Pictures/Xvm_Config_Builder/Battle_Interface/XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_underchat.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                    <package>
+                      <name>above damagelog</name>
+                      <zipFile>XVM_config_builder_total_eff_abovedmglog_patch.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>False</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_abovedamagelog</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>131930931932550202</timestamp>
+                      <description>this moves the Total Efficiency to the bottom above the xvm damage log</description>
+                    </package>
+                  </packages>
                 </package>
                 <package>
                   <name>Enable</name>
