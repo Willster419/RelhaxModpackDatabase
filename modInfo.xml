@@ -257,13 +257,12 @@
       <timestamp>131938704065513875</timestamp>
     </dependency>
     <dependency>
-      <zipFile>Dependency_xvm_config_builder_elementsXC_temp_prepatch.zip</zipFile>
-      <crc>aaffcc5a9b5db43dfeb4474f10d71ffe</crc>
+      <zipFile>Dependency_xvm_config_builder_elementsXC_clear.zip</zipFile>
+      <crc>f</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
-      <packageName>Dependency_XVM_elementsXC_temp_prepatch</packageName>
-      <timestamp>131812495175590650</timestamp>
-      <devURL>i.m.using.this.logical.dep.for.patches.inside.elements.xc.till.i.know.hoiw.to.patch.right.-elektro</devURL>
+      <packageName>Dependency_XVM_elementsXC_clear</packageName>
+      <timestamp>131940312096695999</timestamp>
     </dependency>
     <dependency>
       <zipFile>XVM_config_builder_damage_log_disable.zip</zipFile>
@@ -1445,13 +1444,13 @@
               <packages>
                 <package>
                   <name>DebugPanel v3 by Ress</name>
-                  <zipFile>XVM_config_builder_debugpanel_v3_2018-09-12.zip</zipFile>
-                  <crc>b64071f8da90887ac268313cbf8b15eb</crc>
+                  <zipFile>XVM_config_builder_debugpanel_v3_2019-02-07.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>XVMConfigBuilder_BattleInterfaceModifications_DebugPanel_v3byRess</packageName>
                   <type>single1</type>
-                  <timestamp>131812452186935972</timestamp>
+                  <timestamp>131940312510897943</timestamp>
                   <size>17224</size>
                   <description>Show FPS / Ping / Clock in upper left corner.\nby Ress\n\nNot compatible to some XVM PreBuiltConfigs</description>
                   <medias>
@@ -1462,11 +1461,6 @@
                   </medias>
                 </package>
               </packages>
-              <dependencies>
-                <dependency>
-                  <packageName>Dependency_XVM_elementsXC_temp_prepatch</packageName>
-                </dependency>
-              </dependencies>
             </package>
             <package>
               <name>Piercing Chance (possible Penetration Indicator conflict!)</name>
@@ -1681,13 +1675,13 @@
               <packages>
                 <package>
                   <name>only timer &amp; conditions</name>
-                  <zipFile>XVM_config_builder_PreBattleMessages_timer_and_conditions_1.1.0_2018-09-12.zip</zipFile>
-                  <crc>ea4a1e1866d1148aa723fc2e9c4eacff</crc>
+                  <zipFile>XVM_config_builder_PreBattleMessages_timer_and_conditions_2019-02-07.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>XVMConfigBuilder_BattleInterfaceModifications_PreBattleMessages_timer_and_conditions</packageName>
                   <type>single1</type>
-                  <timestamp>131812515942949463</timestamp>
+                  <timestamp>131940312976762850</timestamp>
                   <size>703</size>
                   <description>disables PreBattleBackground (shadow), \nPreBattleMessages \nand \nQuestProgressHint\n\nleaves Timer and BattleWinConditions!</description>
                   <medias>
@@ -1702,11 +1696,6 @@
                   </medias>
                 </package>
               </packages>
-              <dependencies>
-                <dependency>
-                  <packageName>Dependency_XVM_elementsXC_temp_prepatch</packageName>
-                </dependency>
-              </dependencies>
             </package>
             <package>
               <name>Last Hit Announcer</name>
@@ -1964,6 +1953,11 @@
               </packages>
             </package>
           </packages>
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_XVM_elementsXC_clear</packageName>
+            </dependency>
+          </dependencies>
         </package>
         <package>
           <name>Battle Results modifications (xvm)</name>
