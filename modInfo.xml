@@ -395,6 +395,14 @@
       <timestamp>131850631820133069</timestamp>
     </dependency>
     <dependency>
+      <zipFile>Dependency_HRMOD_Gun+Engine_SoundsBanks_by_Zorgane_v2.05Beta_1.4.0.1_2019-03-02.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_HRMOD_Guns_n_Engine_SoundsBanks_by_Zorgane</packageName>
+      <timestamp>131959995063481516</timestamp>
+    </dependency>
+    <dependency>
       <zipFile>Dependency_ShuraBB_Auxilium_19.09_res_mods_1.4.0.0_2019-02-08.zip</zipFile>
       <crc>9d008dcece601db3da8e540de6300ac4</crc>
       <enabled>True</enabled>
@@ -22409,11 +22417,11 @@
               <visible>True</visible>
               <packageName>Sounds_Gun_HRMOD_GnomeFather_Zorgane</packageName>
               <type>single_dropdown1</type>
-              <version>2.04</version>
+              <version>2.05</version>
               <timestamp>131893331329412039</timestamp>
               <size>81224198</size>
-              <updateComment>2nd link(direct): https://www.mediafire.com/folder/dh5bf45314xfo/Gnomefather's_HRMOD\n\nown soundbanks by Zorgane:\naudioww&amp;#92;Gnome_Zorg_Guns.bnk\naudioww&amp;#92;Gnome_Zorg_Guns.pck\n\nmoded scripts\nscripts&amp;#92;item_defs&amp;#92;vehicles</updateComment>
-              <description>v2.02: \n-Rewritted all scripts for  customization in hangar\n-Custom sounds added for event\n-Minor fixes added\n\n2.01:\n-Reajusted volume of some guns\n\n 2.00\n- Added reverberation effect\n- Reworked tails effects\n- Remastered a lot of original sounds\n- Lowered (again) the main volume\n- Support of polish tanks</description>
+              <updateComment>2nd link(direct): https://www.mediafire.com/folder/dh5bf45314xfo/Gnomefather's_HRMOD\n\nown soundbanks by Zorgane:\naudioww&amp;#92;Zorg_Guns_Engines.bnk\naudioww&amp;#92;Zorg_Guns_Engines.pck\n\nmoded scripts\nscripts&amp;#92;item_defs&amp;#92;vehicles</updateComment>
+              <description>V. 2.05 Patchnote\nCompatibility with 1.4.0.1\nFixed italian auto reloading sound.\nAmerican 155mm has been a bit boosted.\nFixed some others bugs.\n\nNote : Scripts for remodels are unavailable for the moment.</description>
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/596268-</devURL>
               <medias>
                 <media>
@@ -22428,6 +22436,9 @@
               <dependencies>
                 <dependency>
                   <packageName>Dependency_Sounds_Increase_Sound_Memory_XL</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_HRMOD_Guns_n_Engine_SoundsBanks_by_Zorgane</packageName>
                 </dependency>
               </dependencies>
             </package>
@@ -22532,6 +22543,39 @@
           <packageName>Sounds_Engine_Header</packageName>
           <type>multi</type>
           <packages>
+            <package>
+              <name>GnomeFather’s HRMOD Engines Sounds (reworked by Zorgane)  v{version}</name>
+              <zipFile>Sounds_HRMOD_Engines_Sounds_by_Zorgane_v2.05Beta_1.4.0.1_2019-03-02.zip</zipFile>
+              <crc>f</crc>
+              <enabled>False</enabled>
+              <visible>True</visible>
+              <packageName>Sounds_Engines_HRMOD_GnomeFather_Zorgane</packageName>
+              <type>single_dropdown1</type>
+              <version>2.05Beta</version>
+              <timestamp>131959997638211066</timestamp>
+              <size>81224198</size>
+              <updateComment>2nd link(direct): https://www.mediafire.com/folder/dh5bf45314xfo/Gnomefather's_HRMOD\n\nown soundbanks by Zorgane:\naudioww&amp;#92;Zorg_Guns_Engines.bnk\naudioww&amp;#92;Zorg_Guns_Engines.pck\n\nmoded scripts\nscripts&amp;#92;item_defs&amp;#92;vehicles</updateComment>
+              <description>Dont forget : I (Zorgane) need reviews ! - use devolper website to do this please\n\nV. 2.05 Patchnote Compatibility with 1.4.0.1\nAdded : \nBeta engines sounds based on Gnomefather and Kriegstreiber work. \nOnly some tanks are available for now and I need to know your opinion about them.\nEngines for : \nTiger 131, HT n°6, Tiger I/II, Tiger (P), VK 4502 A/B, PzVII, Maus, E-75, E100, JpE100, VK3002 M/D, Panther I/II, E50, ARL 44, AMX M4 45/51/54/65t, AMX AC 46/50/B, Cromwell, AT 7/15, Centurion I, ST-I, T-10 (IS-8). \n\nNote : Scripts for remodels are unavailable for the moment.</description>
+              <devURL>http://forum.worldoftanks.eu/index.php?/topic/596268-</devURL>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://image.noelshack.com/fichiers/2017/20/1495072185-config.jpg</URL>
+                </media>
+                <media>
+                  <type>2</type>
+                  <URL>https://youtu.be/V7G2JDB07Lw?version=3&amp;amp;autoplay=1</URL>
+                </media>
+              </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Sounds_Increase_Sound_Memory_XL</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_HRMOD_Guns_n_Engine_SoundsBanks_by_Zorgane</packageName>
+                </dependency>
+              </dependencies>
+            </package>
             <package>
               <name>NOTES: AGQJ Engines by Fedor Saveliev (SoundEventInjector)</name>
               <zipFile>Sounds_AGQJ_Engines_by_Fedor_Saveliev_1.0.2.1_2018-06-14B_res_mods.zip</zipFile>
