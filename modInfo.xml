@@ -3458,7 +3458,7 @@
               <visible>True</visible>
               <packageName>XVMconfigBuilder_GarageInterfaceModifications_GoldLocker_Header</packageName>
               <type>multi</type>
-              <description>Prevent you from using gold in your garage</description>
+              <description>Prevents you from using gold in your garage</description>
               <medias>
                 <media>
                   <type>1</type>
@@ -3483,6 +3483,38 @@
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>XVMconfigBuilder_GarageInterfaceModifications_GoldLocker_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>953</size>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Bonds Locker</name>
+              <zipFile />
+              <crc />
+              <enabled>False</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterfaceModifications_BondsLocker_Header</packageName>
+              <type>multi</type>
+              <description>Prevents you from using bonds in your garage</description>
+              <packages>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_garage_bonds_lock_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterfaceModifications_BondsLocker_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>950</size>
+                </package>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_garage_bonds_lock_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterfaceModifications_BondsLocker_disable</packageName>
                   <type>single_dropdown1</type>
                   <size>953</size>
                 </package>
