@@ -15299,37 +15299,6 @@
           </dependencies>
         </package>
         <package>
-          <name>CHAMPi's Minimap Spam Protector</name>
-          <zipFile>Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_0.9.9b5_1.4.0.1_2019-02-18.zip</zipFile>
-          <crc>3ef349d87f809c3bb7a59a1720fdd988</crc>
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>Ingame_Misc_Minimap_Spam_Protector</packageName>
-          <type>multi</type>
-          <timestamp>131965677679823938</timestamp>
-          <size>61479</size>
-          <description>MOD DESCRIPTION:\n-This mod allows you to control how many times a player can click on the minimap before the clicks will be ignored from your client. You can also control if a click sound is played.\n-All options are fully customizable in a settings dialog. You can reach it by pressing ESC in the hangar. You’ll find it under the button “Mods settings” (see screenshots)\n\n-Config-File is located at: &lt;game&gt;&amp;#92;mods&amp;#92;configs&amp;#92;CH4MPi&amp;#92;MinimapSpamProtector&amp;#92;MinimapSpamProtector.json\n-Language-Files are available for englisch and german.\n-Language-Files are located at: &lt;game&gt;&amp;#92;mods&amp;#92;configs&amp;#92;CH4MPi&amp;#92;MinimapSpamProtector&amp;#92;i18n&amp;#92;\n\nCredits:\n-spoter - for the permission to use his settings mod in my mod.\n-Elkano - this mod is based on his idea of a ping spam blocker.\n-spion_ve, Enesian - for help with the language files.\nFeel free to send me your feedback, suggestions and/or bug-reports via private message here on the forum.</description>
-          <devURL>https://wgmods.net/2601/</devURL>
-          <medias>
-            <media>
-              <type>1</type>
-              <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_01.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_02.jpg</URL>
-            </media>
-          </medias>
-          <dependencies>
-            <dependency>
-              <packageName>Dependency_gambiter_guiflash</packageName>
-            </dependency>
-            <dependency>
-              <packageName>Dependency_mods_gui</packageName>
-            </dependency>
-          </dependencies>
-        </package>
-        <package>
           <name>Minimap</name>
           <zipFile />
           <crc />
@@ -15338,6 +15307,16 @@
           <packageName>Ingame_Misc_Minimap_Header</packageName>
           <type>multi</type>
           <packages>
+            <package>
+              <name>default</name>
+              <zipFile />
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Misc_HD_minimap_default</packageName>
+              <type>single_dropdown1</type>
+              <timestamp>131966333081582235</timestamp>
+            </package>
             <package>
               <name>Tech HD Minimap v{version} by WOTInspector</name>
               <zipFile>Ingame_Misc_WOTInspector_Tech_HD_Minimap_1.4.0.1_2019-02-13.zip</zipFile>
@@ -15426,23 +15405,36 @@
               </medias>
             </package>
             <package>
-              <name>Minimap Spam Protector by CHAMPi</name>
-              <zipFile>Ingame_Misc_Minimap_MinimapSpamProtector_by_champi_0.9.9b5_1.4.0.1_2019-03-02.zip</zipFile>
-              <crc>e45170be410bae46e4e56dd4f89c2da5</crc>
+              <name>Minimap Ping Spam Protector by CHAMPi</name>
+              <zipFile>Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_0.9.9b5_1.4.0.1_2019-02-18.zip</zipFile>
+              <crc>3ef349d87f809c3bb7a59a1720fdd988</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Ingame_Misc_Minimap_MinimapSpamProtector</packageName>
+              <packageName>Ingame_Misc_Minimap_Spam_Protector</packageName>
               <type>multi</type>
-              <timestamp>131959980100968873</timestamp>
-              <size>54286</size>
-              <description>This mod allows you to control how many times a player can click on the minimap before the clicks will be ignored from your client. You can also control if a click sound is played.\n\nAll options are fully customizable in a settings dialog. You can reach it by pressing ESC in the hangar. You’ll find it under the button “Mods settings” (see screenshots)\n\nConfig-File is located at: &lt;game&gt;&amp;#92;mods&amp;#92;configs&amp;#92;CH4MPi&amp;#92;MinimapSpamProtector&amp;#92;MinimapSpamProtector.json</description>
+              <timestamp>131965677679823938</timestamp>
+              <size>61479</size>
+              <updateComment>http://forum.worldoftanks.eu/index.php?/topic/700504-1401-champis-minimap-spam-protector/</updateComment>
+              <description>MOD DESCRIPTION:\n-This mod allows you to control how many times a player can click on the minimap before the clicks will be ignored from your client. You can also control if a click sound is played.\n-All options are fully customizable in a settings dialog. You can reach it by pressing ESC in the hangar. You’ll find it under the button “Mods settings” (see screenshots)\n\n-Config-File is located at: &lt;game&gt;&amp;#92;mods&amp;#92;configs&amp;#92;CH4MPi&amp;#92;MinimapSpamProtector&amp;#92;MinimapSpamProtector.json\n-Language-Files are available for englisch and german.\n-Language-Files are located at: &lt;game&gt;&amp;#92;mods&amp;#92;configs&amp;#92;CH4MPi&amp;#92;MinimapSpamProtector&amp;#92;i18n&amp;#92;\n\nCredits:\n-spoter - for the permission to use his settings mod in my mod.\n-Elkano - this mod is based on his idea of a ping spam blocker.\n-spion_ve, Enesian - for help with the language files.\nFeel free to send me your feedback, suggestions and/or bug-reports via private message here on the forum.</description>
               <devURL>https://wgmods.net/2601/</devURL>
               <medias>
                 <media>
                   <type>1</type>
-                  <URL>https://wgmods.net/media/mod_files/Settings.png.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_01.jpg</URL>
+                </media>
+                <media>
+                  <type>1</type>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_02.jpg</URL>
                 </media>
               </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_gambiter_guiflash</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_mods_gui</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Hawg´s Arrow on Minimap</name>
