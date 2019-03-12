@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<category name="XVM Prebuilt Configs" >
+  <!-- note that for packages, there are more required properties -->
+  <package packageName="package_name" enabled="true" InstallGroup="4" PatchGroup="3" name="Best mod ever v{version}" type="multi" visible="true" >
+    <zipFile>zipfile.zip</zipFile>
+    <crc>f</crc>
+    <version>6.9</version>
+    <timestamp>131956563167896016</timestamp>
+    <devURL>http://memes.com</devURL>
+    <description>description goes here</description>
+    <size>42424</size>
+    <packages>
+      <package packageName="package_name" enabled="true" InstallGroup="4" PatchGroup="3" name="default option" type="single1" visible="true" >
+        <size>42424</size>
+        <zipFile>zipfile.zip</zipFile>
+        <crc>f</crc>
+        <timestamp>131956563167896016</timestamp>
+        <medias>
+          <media url="url" type="type"/>
+          <media url="url" type="type"/>
+        </medias>
+        <!-- total optional components defined internally: 6 database + 9 package = 15 -->
+        <!-- total lines saved: 15 internal entries + 6 entires saved as single line attributes - 3 defaults already implimented = 18 lines-->
+      </package>
+    </packages>
+    <!-- total optional components defined internally: 4 database + 6 package = 10 -->
+    <!-- total lines saved: 10 internal entries + 6 entires saved as single line attributes - 3 defaults already implimented = 13 lines-->
+  </package>
+  <package packageName="group_header_sample" enabled="true" InstallGroup="5" PatchGroup="5" name="group header sample" type="multi" visible="true" >
+        <!-- total optional components defined internally: 10 database + 10 package = 20 -->
+        <!-- total lines saved: 20 internal entries + 6 entires saved as single line attributes - 3 defaults already implimented = 23 lines-->
+  </package>
+</category>
