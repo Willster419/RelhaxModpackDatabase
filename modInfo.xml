@@ -684,6 +684,18 @@
           </packages>
         </package>
         <package>
+          <name>Elkano's XVM Config</name>
+          <zipFile>XVM_Prebuilt_Configs_Elkano_EXVMC_2019-03-14.zip</zipFile>
+          <crc>f</crc>
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>XVMPrebuiltConfigs_Elkano</packageName>
+          <type>single1</type>
+          <version>2019-03-14</version>
+          <timestamp>131970661523106869</timestamp>
+          <devURL>https://www.curseforge.com/worldoftanks/wot-mods/exvmc</devURL>
+        </package>
+        <package>
           <name>J1mB0's XVM Config</name>
           <zipFile>XVM_Prebuilt_Configs_J1mB0_2019-03-13.zip</zipFile>
           <crc>cea4ba4d00ecefb57e74f93d3216f1f1</crc>
@@ -15263,6 +15275,15 @@
               <description>Disable shadow under the tanks</description>
             </package>
             <package>
+              <name>Disable bad matchmaking</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Misc_WOT_Tweaker_disable_bad_matchmaking</packageName>
+              <type>multi</type>
+            </package>
+            <package>
               <name>Disable noobs on allied team</name>
               <zipFile />
               <crc />
@@ -15437,36 +15458,61 @@
               </medias>
             </package>
             <package>
-              <name>Minimap Ping Spam Protector by CHAMPi</name>
-              <zipFile>Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_0.9.9b5_1.4.0.1_2019-02-18.zip</zipFile>
-              <crc>3ef349d87f809c3bb7a59a1720fdd988</crc>
+              <name>Minimap Ping Spam Protector</name>
+              <zipFile />
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Ingame_Misc_Minimap_Spam_Protector</packageName>
+              <packageName>Ingame_Misc_Minimap_Spam_Protector_Header</packageName>
               <type>multi</type>
-              <timestamp>131965677679823938</timestamp>
+              <timestamp>131970650282293324</timestamp>
               <size>61479</size>
-              <updateComment>http://forum.worldoftanks.eu/index.php?/topic/700504-1401-champis-minimap-spam-protector/</updateComment>
-              <description>MOD DESCRIPTION:\n-This mod allows you to control how many times a player can click on the minimap before the clicks will be ignored from your client. You can also control if a click sound is played.\n-All options are fully customizable in a settings dialog. You can reach it by pressing ESC in the hangar. You’ll find it under the button “Mods settings” (see screenshots)\n\n-Config-File is located at: &lt;game&gt;&amp;#92;mods&amp;#92;configs&amp;#92;CH4MPi&amp;#92;MinimapSpamProtector&amp;#92;MinimapSpamProtector.json\n-Language-Files are available for englisch and german.\n-Language-Files are located at: &lt;game&gt;&amp;#92;mods&amp;#92;configs&amp;#92;CH4MPi&amp;#92;MinimapSpamProtector&amp;#92;i18n&amp;#92;\n\nCredits:\n-spoter - for the permission to use his settings mod in my mod.\n-Elkano - this mod is based on his idea of a ping spam blocker.\n-spion_ve, Enesian - for help with the language files.\nFeel free to send me your feedback, suggestions and/or bug-reports via private message here on the forum.</description>
-              <devURL>https://wgmods.net/2601/</devURL>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_01.jpg</URL>
-                </media>
-                <media>
-                  <type>1</type>
-                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_02.jpg</URL>
-                </media>
-              </medias>
-              <dependencies>
-                <dependency>
-                  <packageName>Dependency_gambiter_guiflash</packageName>
-                </dependency>
-                <dependency>
-                  <packageName>Dependency_mods_gui</packageName>
-                </dependency>
-              </dependencies>
+              <description>This mods allow you to control how many times a player can click on the minimap before the clicks will be ignored from your client.\n\nDifferent versions inside\n.</description>
+              <packages>
+                <package>
+                  <name>Elkano's Minimap Ping Spam Blocker (ElkMPSB)</name>
+                  <zipFile>Ingame_Misc_Minimap_ElkMPSB_1.10_1.4.0.2_2109-03-14.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Misc_Minimap_Spam_Protector_Elkano</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>131970654245531061</timestamp>
+                  <updateComment>http://forum.worldoftanks.eu/index.php?/topic/508100-1402-elkanos-minimap-ping-spam-blocker-110-2019-03-12/</updateComment>
+                  <description>This modification will block minimap ping spam by enforcing certain restrictions:\nWithin a given timeframe (10 seconds by default) a player can only create a given number (3 by default) minimap pings to different and a single ping to an individual cell. Further pings will be noted and keep that player blocked.\n\n \nFeel free to try it in its current state and to comment either here or on CurseForge.</description>
+                  <devURL>https://www.curseforge.com/worldoftanks/wot-mods/elkmpsb</devURL>
+                </package>
+                <package>
+                  <name>Minimap Ping Spam Protector by CHAMPi</name>
+                  <zipFile>Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_0.9.9b5_1.4.0.1_2019-02-18.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Misc_Minimap_Spam_Protector_Champi</packageName>
+                  <type>single_dropdown1</type>
+                  <updateComment>http://forum.worldoftanks.eu/index.php?/topic/700504-1401-champis-minimap-spam-protector/</updateComment>
+                  <description>MOD DESCRIPTION:\n-This mod allows you to control how many times a player can click on the minimap before the clicks will be ignored from your client. You can also control if a click sound is played.\n-All options are fully customizable in a settings dialog. You can reach it by pressing ESC in the hangar. You’ll find it under the button “Mods settings” (see screenshots)\n\n-Config-File is located at: &lt;game&gt;&amp;#92;mods&amp;#92;configs&amp;#92;CH4MPi&amp;#92;MinimapSpamProtector&amp;#92;MinimapSpamProtector.json\n-Language-Files are available for englisch and german.\n-Language-Files are located at: &lt;game&gt;&amp;#92;mods&amp;#92;configs&amp;#92;CH4MPi&amp;#92;MinimapSpamProtector&amp;#92;i18n&amp;#92;\n\nCredits:\n-spoter - for the permission to use his settings mod in my mod.\n-Elkano - this mod is based on his idea of a ping spam blocker.\n-spion_ve, Enesian - for help with the language files.\nFeel free to send me your feedback, suggestions and/or bug-reports via private message here on the forum.</description>
+                  <devURL>https://wgmods.net/2601/</devURL>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_02.jpg</URL>
+                    </media>
+                    <media>
+                      <type>1</type>
+                      <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_01.jpg</URL>
+                    </media>
+                  </medias>
+                  <dependencies>
+                    <dependency>
+                      <packageName>Dependency_gambiter_guiflash</packageName>
+                    </dependency>
+                    <dependency>
+                      <packageName>Dependency_mods_gui</packageName>
+                    </dependency>
+                  </dependencies>
+                </package>
+              </packages>
             </package>
             <package>
               <name>Hawg´s Arrow on Minimap</name>
@@ -15713,7 +15759,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Ingame_Misc_Custom_Radial_Menu_Header</packageName>
+          <packageName>Ingame_Misc_Radial_Menu_Header</packageName>
           <type>multi</type>
           <timestamp>131767543894143710</timestamp>
           <packages>
@@ -15723,7 +15769,7 @@
               <crc>fc5a490c996910eb831e66291113a33e</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Ingame_Misc_Custom_Radial_Menu</packageName>
+              <packageName>Ingame_Misc_Radial_Menu_PY</packageName>
               <type>single_dropdown1</type>
               <timestamp>131844291456673098</timestamp>
               <size>17078</size>
@@ -15759,7 +15805,7 @@
               <crc>257a745675731bf75900d090675e4370</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Ingame_Misc_Custom_Radial_Menu_HAWG</packageName>
+              <packageName>Ingame_Misc_Radial_Menu_HAWG</packageName>
               <type>single_dropdown1</type>
               <timestamp>131938983242513090</timestamp>
               <size>174056</size>
@@ -15826,8 +15872,8 @@
           <name>WoT FPS First Person Tank View</name>
           <zipFile>Ingame_Misc_FPS_Mod_2017-08-23.zip</zipFile>
           <crc>3b42115dba7f462187f157da67f796f6</crc>
-          <enabled>True</enabled>
-          <visible>True</visible>
+          <enabled>False</enabled>
+          <visible>False</visible>
           <packageName>Ingame_Misc_WoT_FPS_View</packageName>
           <type>multi</type>
           <size>3153</size>
