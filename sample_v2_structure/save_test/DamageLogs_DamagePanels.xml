@@ -1,250 +1,253 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Damage Logs/Damage Panels">
-  <Package Name="Damage Logs" Type="multi" Visible="True" PackageName="Damage_Logs_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Damage_Logs_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Damage Logs" Type="multi" Visible="True">
     <Description>Damage Logs create a list of taken damage. \nIn the list you find detailed information about who was shooting at you and how much HP these shots have taken from you.\n\nWe provide you some fine configurations with different layouts and colors, but you have to figure out yourself which one fits best to the rest of your installed modifications.</Description>
+    <Dependencies>
+      <Dependency PackageName="Dependency_XVM_damage_log_disable" NotFlag="False" Logic="OR" />
+    </Dependencies>
     <Packages>
-      <Package Name="GambitER" Type="single1" Visible="True" PackageName="Damage_Logs_GambitER_base" InstallGroup="4" PatchGroup="0" Enabled="True">
+      <Package PackageName="Damage_Logs_GambitER_base" Enabled="True" InstallGroup="4" PatchGroup="0" Name="GambitER" Type="single1" Visible="True">
+        <ZipFile>Damage_Logs_by_GambitER_base_1.4.0.0_2019-02-06.zip</ZipFile>
+        <CRC>bcb93a98587a520efd8806637f19207d</CRC>
+        <Timestamp>131940119587597067</Timestamp>
         <Size>232550</Size>
-        <Packages>
-          <Package Name="config from KobkaG" Type="single_dropdown1" Visible="True" PackageName="Damage_Logs_GambitER_KobkaG_config" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>11300</Size>
-            <Timestamp>131877247061888162</Timestamp>
-            <ZipFile>Damage_Logs_GambitER_KobkaG_cfg_1.0.0_2018-03-26.zip</ZipFile>
-            <CRC>409fc16d719cfeaa29dbe1dd801dbf86</CRC>
-          </Package>
-          <Package Name="config from Kornet_WA" Type="single_dropdown1" Visible="True" PackageName="Damage_Logs_GambitER_Kornet_WA_config" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>26654</Size>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Logs/Damage_Logs_GambitER_Damage_Log_Kornet.jpg" MediaType="Picture" />
-            </Medias>
-            <Timestamp>131877244763622151</Timestamp>
-            <ZipFile>Damage_Logs_GambitER_Kornet_WA_cfg_1.0.0_2018-11-26.zip</ZipFile>
-            <CRC>80fe5d6bf41c7fad9660f1f663f8cbfe</CRC>
-          </Package>
-          <Package Name="config from maks5189_v1" Type="single_dropdown1" Visible="False" PackageName="Damage_Logs_GambitER_maks5189_config_v1" InstallGroup="4" PatchGroup="0" Enabled="False">
-            <Size>129431</Size>
-            <Timestamp>131877245281193955</Timestamp>
-            <ZipFile>Damage_Logs_GambitER_maks5189_cfg_v1_1.0.0_2018-11-26.zip</ZipFile>
-            <CRC>fd70976af27584faaf4d9d1a92aa5af2</CRC>
-          </Package>
-          <Package Name="config from maks5189 v2" Type="single_dropdown1" Visible="False" PackageName="Damage_Logs_GambitER_maks5189_config_v2" InstallGroup="4" PatchGroup="0" Enabled="False">
-            <Size>155471</Size>
-            <Timestamp>131877245427702223</Timestamp>
-            <ZipFile>Damage_Logs_GambitER_maks5189_cfg_v2_1.0.0_2018-11-26.zip</ZipFile>
-            <CRC>e732c176b20b7cf8610a3666522bd02d</CRC>
-          </Package>
-          <Package Name="config from daemon2597" Type="single_dropdown1" Visible="False" PackageName="Damage_Logs_GambitER_daemon2597_config" InstallGroup="4" PatchGroup="0" Enabled="False">
-            <Size>66766</Size>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Logs/Damage_Logs_GambitER_Damage_Log_daemon2597.jpg" MediaType="Picture" />
-            </Medias>
-            <Timestamp>131877244944763519</Timestamp>
-            <ZipFile>Damage_Logs_GambitER_daemon2597_cfg_1.0.0_2018-11-26.zip</ZipFile>
-            <CRC>d9569bbd051c06b0e6d1cada3ffe87a0</CRC>
-          </Package>
-          <Package Name="config from OMC" Type="single_dropdown1" Visible="True" PackageName="Damage_Logs_GambitER_OMC_config" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>11398</Size>
-            <Description>press right alt to see the player name</Description>
-            <Timestamp>131877248231111970</Timestamp>
-            <ZipFile>Damage_Logs_GambitER_OMC_config_2018-05-05.zip</ZipFile>
-            <CRC>3abd5ed6e5edcdc2cb2de91f2d8b3f6a</CRC>
-          </Package>
-          <Package Name="config from XFT with integrated hitlog (xvm needed for hitlog)" Type="single_dropdown1" Visible="False" PackageName="Damage_Logs_GambitER_damage_panel_XFT_Integrated" InstallGroup="4" PatchGroup="0" Enabled="False">
-            <Size>14074</Size>
-            <Description>Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</Description>
-            <Medias>
-              <Media URL="http://i.imgur.com/pjkRzWn.jpg" MediaType="Picture" />
-            </Medias>
-            <Timestamp>131877248931554163</Timestamp>
-            <ZipFile>Damage_Logs_GambitER_XFT_Integrated_config_2017-08-30.zip</ZipFile>
-            <CRC>f16c42c4c4fd5bf85e6ff0321374989b</CRC>
-          </Package>
-          <Package Name="config from XFT with hitlog on top (xvm needed for hitlog)" Type="single_dropdown1" Visible="True" PackageName="Damage_Logs_GambitER_damage_panel_XFT_Split" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>15334</Size>
-            <Description>Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</Description>
-            <Timestamp>131877249073135610</Timestamp>
-            <ZipFile>Damage_Logs_GambitER_XFT_Split_configs_2018-05-05.zip</ZipFile>
-            <CRC>452dd0d4c477511a31390e4ff57cba5c</CRC>
-          </Package>
-          <Package Name="damage messages" Type="multi" Visible="True" PackageName="Damage_Logs_GambitER_panel_XFT_messages_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Packages>
-              <Package Name="move damage messages to center" Type="single_dropdown1" Visible="True" PackageName="Damage_Logs_GambitER_panel_move_damage_messages_center" InstallGroup="4" PatchGroup="0" Enabled="True">
-                <Size>3474</Size>
-                <Timestamp>131877249230774105</Timestamp>
-                <ZipFile>Damage_Logs_GambitER_Message_Patch_2018-05-05.zip</ZipFile>
-                <CRC>a096f913b37fb1c5ed2bd0e42b4222b7</CRC>
-              </Package>
-              <Package Name="disable damage messages" Type="single_dropdown1" Visible="True" PackageName="Damage_Logs_GambitER_disable_damage_messages" InstallGroup="4" PatchGroup="0" Enabled="True">
-                <Size>3351</Size>
-                <Timestamp>131877249367733175</Timestamp>
-                <ZipFile>Damage_Logs_GambitER_Message_Disable_2018-05-05.zip</ZipFile>
-                <CRC>bc364ac79750169190ef406b1a7ba258</CRC>
-              </Package>
-            </Packages>
-          </Package>
-        </Packages>
         <Medias>
           <Media URL="http://wotsite.net/images/2014/1/21/1.jpg" MediaType="Picture" />
           <Media URL="http://wotsite.net/images/2014/2/18/1.gif" MediaType="Picture" />
           <Media URL="http://s017.radikal.ru/i443/1505/e0/ed51e309393c.gif" MediaType="Picture" />
           <Media URL="https://youtu.be/zoNNtMH_V_U?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
         </Medias>
-        <Timestamp>131940119587597067</Timestamp>
-        <ZipFile>Damage_Logs_by_GambitER_base_1.4.0.0_2019-02-06.zip</ZipFile>
-        <CRC>bcb93a98587a520efd8806637f19207d</CRC>
+        <Packages>
+          <Package PackageName="Damage_Logs_GambitER_KobkaG_config" Enabled="True" InstallGroup="4" PatchGroup="0" Name="config from KobkaG" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Logs_GambitER_KobkaG_cfg_1.0.0_2018-03-26.zip</ZipFile>
+            <CRC>409fc16d719cfeaa29dbe1dd801dbf86</CRC>
+            <Timestamp>131877247061888162</Timestamp>
+            <Size>11300</Size>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_Kornet_WA_config" Enabled="True" InstallGroup="4" PatchGroup="0" Name="config from Kornet_WA" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Logs_GambitER_Kornet_WA_cfg_1.0.0_2018-11-26.zip</ZipFile>
+            <CRC>80fe5d6bf41c7fad9660f1f663f8cbfe</CRC>
+            <Timestamp>131877244763622151</Timestamp>
+            <Size>26654</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Logs/Damage_Logs_GambitER_Damage_Log_Kornet.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_maks5189_config_v1" Enabled="False" InstallGroup="4" PatchGroup="0" Name="config from maks5189_v1" Type="single_dropdown1" Visible="False">
+            <ZipFile>Damage_Logs_GambitER_maks5189_cfg_v1_1.0.0_2018-11-26.zip</ZipFile>
+            <CRC>fd70976af27584faaf4d9d1a92aa5af2</CRC>
+            <Timestamp>131877245281193955</Timestamp>
+            <Size>129431</Size>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_maks5189_config_v2" Enabled="False" InstallGroup="4" PatchGroup="0" Name="config from maks5189 v2" Type="single_dropdown1" Visible="False">
+            <ZipFile>Damage_Logs_GambitER_maks5189_cfg_v2_1.0.0_2018-11-26.zip</ZipFile>
+            <CRC>e732c176b20b7cf8610a3666522bd02d</CRC>
+            <Timestamp>131877245427702223</Timestamp>
+            <Size>155471</Size>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_daemon2597_config" Enabled="False" InstallGroup="4" PatchGroup="0" Name="config from daemon2597" Type="single_dropdown1" Visible="False">
+            <ZipFile>Damage_Logs_GambitER_daemon2597_cfg_1.0.0_2018-11-26.zip</ZipFile>
+            <CRC>d9569bbd051c06b0e6d1cada3ffe87a0</CRC>
+            <Timestamp>131877244944763519</Timestamp>
+            <Size>66766</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Logs/Damage_Logs_GambitER_Damage_Log_daemon2597.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_OMC_config" Enabled="True" InstallGroup="4" PatchGroup="0" Name="config from OMC" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Logs_GambitER_OMC_config_2018-05-05.zip</ZipFile>
+            <CRC>3abd5ed6e5edcdc2cb2de91f2d8b3f6a</CRC>
+            <Timestamp>131877248231111970</Timestamp>
+            <Size>11398</Size>
+            <Description>press right alt to see the player name</Description>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_damage_panel_XFT_Integrated" Enabled="False" InstallGroup="4" PatchGroup="0" Name="config from XFT with integrated hitlog (xvm needed for hitlog)" Type="single_dropdown1" Visible="False">
+            <ZipFile>Damage_Logs_GambitER_XFT_Integrated_config_2017-08-30.zip</ZipFile>
+            <CRC>f16c42c4c4fd5bf85e6ff0321374989b</CRC>
+            <Timestamp>131877248931554163</Timestamp>
+            <Size>14074</Size>
+            <Description>Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</Description>
+            <Medias>
+              <Media URL="http://i.imgur.com/pjkRzWn.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_damage_panel_XFT_Split" Enabled="True" InstallGroup="4" PatchGroup="0" Name="config from XFT with hitlog on top (xvm needed for hitlog)" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Logs_GambitER_XFT_Split_configs_2018-05-05.zip</ZipFile>
+            <CRC>452dd0d4c477511a31390e4ff57cba5c</CRC>
+            <Timestamp>131877249073135610</Timestamp>
+            <Size>15334</Size>
+            <Description>Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</Description>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_panel_XFT_messages_enable" Enabled="True" InstallGroup="4" PatchGroup="0" Name="damage messages" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="Damage_Logs_GambitER_panel_move_damage_messages_center" Enabled="True" InstallGroup="4" PatchGroup="0" Name="move damage messages to center" Type="single_dropdown1" Visible="True">
+                <ZipFile>Damage_Logs_GambitER_Message_Patch_2018-05-05.zip</ZipFile>
+                <CRC>a096f913b37fb1c5ed2bd0e42b4222b7</CRC>
+                <Timestamp>131877249230774105</Timestamp>
+                <Size>3474</Size>
+              </Package>
+              <Package PackageName="Damage_Logs_GambitER_disable_damage_messages" Enabled="True" InstallGroup="4" PatchGroup="0" Name="disable damage messages" Type="single_dropdown1" Visible="True">
+                <ZipFile>Damage_Logs_GambitER_Message_Disable_2018-05-05.zip</ZipFile>
+                <CRC>bc364ac79750169190ef406b1a7ba258</CRC>
+                <Timestamp>131877249367733175</Timestamp>
+                <Size>3351</Size>
+              </Package>
+            </Packages>
+          </Package>
+        </Packages>
       </Package>
     </Packages>
-    <Dependencies>
-      <Dependency PackageName="Dependency_XVM_damage_log_disable" NotFlag="False" Logic="OR" />
-    </Dependencies>
   </Package>
-  <Package Name="Damage Panels" Type="multi" Visible="True" PackageName="Damage_Panels_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Damage_Panels_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Damage Panels" Type="multi" Visible="True">
     <Packages>
-      <Package Name="Z-Mod" Type="single1" Visible="True" PackageName="Damage_Panel_Z-Mod" InstallGroup="4" PatchGroup="0" Enabled="True">
+      <Package PackageName="Damage_Panel_Z-Mod" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Z-Mod" Type="single1" Visible="True">
+        <ZipFile>Damage_Panel_Z-Mod_1.3.0.0_2018-12-12.zip</ZipFile>
+        <CRC>d40808a8e861724bb022a2d0d1c15944</CRC>
+        <Timestamp>131891045703264149</Timestamp>
         <Size>270290</Size>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Z-Mod.jpg" MediaType="Picture" />
         </Medias>
-        <Timestamp>131891045703264149</Timestamp>
-        <ZipFile>Damage_Panel_Z-Mod_1.3.0.0_2018-12-12.zip</ZipFile>
-        <CRC>d40808a8e861724bb022a2d0d1c15944</CRC>
       </Package>
-      <Package Name="Legacy" Type="single1" Visible="True" PackageName="Damage_Panel_Legacy_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Packages>
-          <Package Name="Metall" Type="single_dropdown1" Visible="True" PackageName="Damage_Panel_Legacy_Metall" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>296870</Size>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_metall_0.jpg" MediaType="Picture" />
-            </Medias>
-            <Timestamp>131891071672679051</Timestamp>
-            <ZipFile>Damage_Panel_Legacy_metall_1.3.0.0_2018-12-12.zip</ZipFile>
-            <CRC>20cea1b93f01c1f2b635c72bbe297210</CRC>
-          </Package>
-          <Package Name="Dark" Type="single_dropdown1" Visible="True" PackageName="Damage_Panel_Legacy_Dark" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>251721</Size>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_dark.jpg" MediaType="Picture" />
-            </Medias>
-            <Timestamp>131891071947047321</Timestamp>
-            <ZipFile>Damage_Panel_Legacy_Dark_1.3.0.0_2018-12-12.zip</ZipFile>
-            <CRC>c3b91b8648dda1f20b2fdbf308db14d7</CRC>
-          </Package>
-          <Package Name="Blue" Type="single_dropdown1" Visible="True" PackageName="Damage_Panel_Legacy_Blue" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>246847</Size>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_blue.jpg" MediaType="Picture" />
-            </Medias>
-            <Timestamp>131891071790335168</Timestamp>
-            <ZipFile>Damage_Panel_Legacy_blue_1.3.0.0_2018-12-12.zip</ZipFile>
-            <CRC>a03890c61b491a9c2e50581b251a8fab</CRC>
-          </Package>
-          <Package Name="enable central repair rose" Type="multi" Visible="True" PackageName="Damage_Panel_Legacy_central_repair" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>141732</Size>
-            <Timestamp>131891071498792206</Timestamp>
-            <ZipFile>Damage_Panel_Legacy_central_repair_1.2.0.1_2018-12-12.zip</ZipFile>
-            <CRC>dad285de74c018f0ba356893a5cd207d</CRC>
-          </Package>
-        </Packages>
+      <Package PackageName="Damage_Panel_Legacy_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Legacy" Type="single1" Visible="True">
+        <Timestamp>131887249002343337</Timestamp>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_dark.jpg" MediaType="Picture" />
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_blue_0.jpg" MediaType="Picture" />
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_metall_0.jpg" MediaType="Picture" />
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_only_repair_rose_center.jpg" MediaType="Picture" />
         </Medias>
-        <Timestamp>131887249002343337</Timestamp>
+        <Packages>
+          <Package PackageName="Damage_Panel_Legacy_Metall" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Metall" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Panel_Legacy_metall_1.3.0.0_2018-12-12.zip</ZipFile>
+            <CRC>20cea1b93f01c1f2b635c72bbe297210</CRC>
+            <Timestamp>131891071672679051</Timestamp>
+            <Size>296870</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_metall_0.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Panel_Legacy_Dark" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Dark" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Panel_Legacy_Dark_1.3.0.0_2018-12-12.zip</ZipFile>
+            <CRC>c3b91b8648dda1f20b2fdbf308db14d7</CRC>
+            <Timestamp>131891071947047321</Timestamp>
+            <Size>251721</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_dark.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Panel_Legacy_Blue" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Blue" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Panel_Legacy_blue_1.3.0.0_2018-12-12.zip</ZipFile>
+            <CRC>a03890c61b491a9c2e50581b251a8fab</CRC>
+            <Timestamp>131891071790335168</Timestamp>
+            <Size>246847</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_blue.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Panel_Legacy_central_repair" Enabled="True" InstallGroup="4" PatchGroup="0" Name="enable central repair rose" Type="multi" Visible="True">
+            <ZipFile>Damage_Panel_Legacy_central_repair_1.2.0.1_2018-12-12.zip</ZipFile>
+            <CRC>dad285de74c018f0ba356893a5cd207d</CRC>
+            <Timestamp>131891071498792206</Timestamp>
+            <Size>141732</Size>
+          </Package>
+        </Packages>
       </Package>
-      <Package Name="Playstation" Type="single1" Visible="True" PackageName="Damage_Panel_Playstation" InstallGroup="4" PatchGroup="0" Enabled="True">
+      <Package PackageName="Damage_Panel_Playstation" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Playstation" Type="single1" Visible="True">
+        <ZipFile>Damage_Panel_Playstation_1.4.0.1_2019-03-10.zip</ZipFile>
+        <CRC>32a66664f667bcdaa1c3d35ee9c34b74</CRC>
+        <Timestamp>131967224810291961</Timestamp>
         <Size>304358</Size>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Playstation.jpg" MediaType="Picture" />
         </Medias>
-        <Timestamp>131967224810291961</Timestamp>
-        <ZipFile>Damage_Panel_Playstation_1.4.0.1_2019-03-10.zip</ZipFile>
-        <CRC>32a66664f667bcdaa1c3d35ee9c34b74</CRC>
       </Package>
-      <Package Name="Bionick" Type="single1" Visible="True" PackageName="Damage_Panel_Bionick_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+      <Package PackageName="Damage_Panel_Bionick_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Bionick" Type="single1" Visible="True">
         <Description>GambitER´s damage log should be installed for full functionality. \nIt also works without dmg log - only thing missing would be that the current received hit (red text) will not be shown inside the damage panel.</Description>
         <Packages>
-          <Package Name="Transparent" Type="single1" Visible="True" PackageName="Damage_Panel_Bionick_transparent" InstallGroup="4" PatchGroup="0" Enabled="True">
+          <Package PackageName="Damage_Panel_Bionick_transparent" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Transparent" Type="single1" Visible="True">
+            <ZipFile>Damage_Panel_Bionick_transparent_1.3.0.0_2018-12-12.zip</ZipFile>
+            <CRC>85b7ccd2721ff7957ff2c38cb53aa6c5</CRC>
+            <Timestamp>131891083648852809</Timestamp>
             <Size>254875</Size>
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Bionick_transparent.jpg" MediaType="Picture" />
             </Medias>
-            <Timestamp>131891083648852809</Timestamp>
-            <ZipFile>Damage_Panel_Bionick_transparent_1.3.0.0_2018-12-12.zip</ZipFile>
-            <CRC>85b7ccd2721ff7957ff2c38cb53aa6c5</CRC>
           </Package>
         </Packages>
       </Package>
-      <Package Name="Rabbit" Type="single1" Visible="True" PackageName="Damage_Panel_Rabbit_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Packages>
-          <Package Name="Standard" Type="single_dropdown1" Visible="True" PackageName="Damage_Panel_Rabbit_standard" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>484004</Size>
-            <Timestamp>131942112416728286</Timestamp>
-            <ZipFile>Damage_Panel_Rabbit_standard_1.4.0.1_2019-02-09.zip</ZipFile>
-            <CRC>8da7ac650ec387d9e140a0c907382fac</CRC>
-          </Package>
-          <Package Name="with central repair" Type="single_dropdown1" Visible="False" PackageName="Damage_Panel_Rabbit_central_repair" InstallGroup="4" PatchGroup="0" Enabled="False">
-            <Size>501854</Size>
-            <Timestamp>131907405519098059</Timestamp>
-            <ZipFile>Damage_Panel_Rabbit_central_repair_1.3.0.1_2018-12-31.zip</ZipFile>
-            <CRC>cd257336607281d36920795ced730fa4</CRC>
-          </Package>
-        </Packages>
+      <Package PackageName="Damage_Panel_Rabbit_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Rabbit" Type="single1" Visible="True">
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Rabbit.jpg" MediaType="Picture" />
         </Medias>
-      </Package>
-      <Package Name="KobkaG" Type="single1" Visible="True" PackageName="Damage_Panel_KobkaG_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
         <Packages>
-          <Package Name="Standard" Type="single_dropdown1" Visible="True" PackageName="Damage_Panel_KobkaG_Standard" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>233734</Size>
-            <Timestamp>131943597235801978</Timestamp>
-            <ZipFile>Damage_Panel_KobkaG_normal_1.4.0.0_2019-02-11.zip</ZipFile>
-            <CRC>1b0e50f5c0bedd3c5567ca87701c923e</CRC>
+          <Package PackageName="Damage_Panel_Rabbit_standard" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Standard" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Panel_Rabbit_standard_1.4.0.1_2019-02-09.zip</ZipFile>
+            <CRC>8da7ac650ec387d9e140a0c907382fac</CRC>
+            <Timestamp>131942112416728286</Timestamp>
+            <Size>484004</Size>
           </Package>
-          <Package Name="with central repair" Type="single_dropdown1" Visible="True" PackageName="Damage_Panel_KobkaG_central_repair" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>396825</Size>
-            <Timestamp>131943597358870660</Timestamp>
-            <ZipFile>Damage_Panel_KobkaG_central_repair_1.4.0.0_2019-02-11.zip</ZipFile>
-            <CRC>ae48c9c5ece09825f5d9faecb181d884</CRC>
-          </Package>
-          <Package Name="Notebook" Type="single_dropdown1" Visible="True" PackageName="Damage_Panel_KobkaG_Notebook" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>257799</Size>
-            <Timestamp>131943597460787546</Timestamp>
-            <ZipFile>Damage_Panel_KobkaG_Notebook_1.4.0.0_2019-02-11.zip</ZipFile>
-            <CRC>c0d3cfe31c5edac8b06f6c38d1225543</CRC>
+          <Package PackageName="Damage_Panel_Rabbit_central_repair" Enabled="False" InstallGroup="4" PatchGroup="0" Name="with central repair" Type="single_dropdown1" Visible="False">
+            <ZipFile>Damage_Panel_Rabbit_central_repair_1.3.0.1_2018-12-31.zip</ZipFile>
+            <CRC>cd257336607281d36920795ced730fa4</CRC>
+            <Timestamp>131907405519098059</Timestamp>
+            <Size>501854</Size>
           </Package>
         </Packages>
+      </Package>
+      <Package PackageName="Damage_Panel_KobkaG_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="KobkaG" Type="single1" Visible="True">
+        <Version>1.7</Version>
         <Medias>
           <Media URL="https://youtu.be/PwwON-3imEs" MediaType="Webpage" />
         </Medias>
-        <Version>1.7</Version>
-      </Package>
-      <Package Name="Zayaz" Type="single1" Visible="True" PackageName="Damage_Panel_Zayaz_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
         <Packages>
-          <Package Name="Standard" Type="single_dropdown1" Visible="True" PackageName="Damage_Panel_Zayaz_simple" InstallGroup="4" PatchGroup="0" Enabled="True">
+          <Package PackageName="Damage_Panel_KobkaG_Standard" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Standard" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Panel_KobkaG_normal_1.4.0.0_2019-02-11.zip</ZipFile>
+            <CRC>1b0e50f5c0bedd3c5567ca87701c923e</CRC>
+            <Timestamp>131943597235801978</Timestamp>
+            <Size>233734</Size>
+          </Package>
+          <Package PackageName="Damage_Panel_KobkaG_central_repair" Enabled="True" InstallGroup="4" PatchGroup="0" Name="with central repair" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Panel_KobkaG_central_repair_1.4.0.0_2019-02-11.zip</ZipFile>
+            <CRC>ae48c9c5ece09825f5d9faecb181d884</CRC>
+            <Timestamp>131943597358870660</Timestamp>
+            <Size>396825</Size>
+          </Package>
+          <Package PackageName="Damage_Panel_KobkaG_Notebook" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Notebook" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Panel_KobkaG_Notebook_1.4.0.0_2019-02-11.zip</ZipFile>
+            <CRC>c0d3cfe31c5edac8b06f6c38d1225543</CRC>
+            <Timestamp>131943597460787546</Timestamp>
+            <Size>257799</Size>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Damage_Panel_Zayaz_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Zayaz" Type="single1" Visible="True">
+        <Packages>
+          <Package PackageName="Damage_Panel_Zayaz_simple" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Standard" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Panel_zayaz_simple_2019-03-10.zip</ZipFile>
+            <CRC>e8c06dba82017391cc9747c40676008b</CRC>
+            <Timestamp>131967222764410126</Timestamp>
             <Size>315640</Size>
             <UpdateComment>The panel is simple</UpdateComment>
             <Medias>
               <Media URL="http://wotsite.net/images/2015/9/10/shot_012.jpg" MediaType="Picture" />
               <Media URL="http://wotsite.net/images/2015/9/10/shot_016.jpg" MediaType="Picture" />
             </Medias>
-            <Timestamp>131967222764410126</Timestamp>
-            <ZipFile>Damage_Panel_zayaz_simple_2019-03-10.zip</ZipFile>
-            <CRC>e8c06dba82017391cc9747c40676008b</CRC>
           </Package>
-          <Package Name="with blocking angle indicator" Type="single_dropdown1" Visible="True" PackageName="Damage_Panel_Zayaz_with_blocking_angle_indicator" InstallGroup="4" PatchGroup="0" Enabled="True">
+          <Package PackageName="Damage_Panel_Zayaz_with_blocking_angle_indicator" Enabled="True" InstallGroup="4" PatchGroup="0" Name="with blocking angle indicator" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Panel_zayaz_with_blocking_angle_indicator_2019-03-10.zip</ZipFile>
+            <CRC>772e6cb673ceaf5aab21cc80e92163e0</CRC>
+            <Timestamp>131967221396867365</Timestamp>
             <Size>323052</Size>
             <UpdateComment>Panel with UGN</UpdateComment>
             <Medias>
               <Media URL="http://i.imgur.com/8MIDTue.jpg" MediaType="Picture" />
             </Medias>
-            <Timestamp>131967221396867365</Timestamp>
-            <ZipFile>Damage_Panel_zayaz_with_blocking_angle_indicator_2019-03-10.zip</ZipFile>
-            <CRC>772e6cb673ceaf5aab21cc80e92163e0</CRC>
           </Package>
-          <Package Name="with repair center" Type="single_dropdown1" Visible="True" PackageName="Damage_Panel_Zayaz_with_repair_center" InstallGroup="4" PatchGroup="0" Enabled="True">
+          <Package PackageName="Damage_Panel_Zayaz_with_repair_center" Enabled="True" InstallGroup="4" PatchGroup="0" Name="with repair center" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Panel_zayaz_with_repair_center_2019-03-10.zip</ZipFile>
+            <CRC>805cb3092a95a5e0cc1c88f5b4371ec8</CRC>
+            <Timestamp>131967220406447658</Timestamp>
             <Size>552185</Size>
             <UpdateComment>Panel simple + repair center</UpdateComment>
             <Medias>
@@ -252,11 +255,11 @@
               <Media URL="http://i.imgur.com/MMXOVT3.jpg" MediaType="Picture" />
               <Media URL="http://i.imgur.com/Gulh8Yh.jpg" MediaType="Picture" />
             </Medias>
-            <Timestamp>131967220406447658</Timestamp>
-            <ZipFile>Damage_Panel_zayaz_with_repair_center_2019-03-10.zip</ZipFile>
-            <CRC>805cb3092a95a5e0cc1c88f5b4371ec8</CRC>
           </Package>
-          <Package Name="with repair center and blocking angle indicator" Type="single_dropdown1" Visible="True" PackageName="Damage_Panel_Zayaz_with_repair_center_and_blocking_angle_indicator" InstallGroup="4" PatchGroup="0" Enabled="True">
+          <Package PackageName="Damage_Panel_Zayaz_with_repair_center_and_blocking_angle_indicator" Enabled="True" InstallGroup="4" PatchGroup="0" Name="with repair center and blocking angle indicator" Type="single_dropdown1" Visible="True">
+            <ZipFile>Damage_Panel_zayaz_with_repair_center_and_blocking_angle_indicator_2019-03-10.zip</ZipFile>
+            <CRC>f5d58296b14b9f8266cbf0d7fad52c15</CRC>
+            <Timestamp>131967221901816074</Timestamp>
             <Size>559728</Size>
             <UpdateComment>Panel with UGN + central repair</UpdateComment>
             <Medias>
@@ -264,18 +267,15 @@
               <Media URL="http://i.imgur.com/MMXOVT3.jpg" MediaType="Picture" />
               <Media URL="http://i.imgur.com/Gulh8Yh.jpg" MediaType="Picture" />
             </Medias>
-            <Timestamp>131967221901816074</Timestamp>
-            <ZipFile>Damage_Panel_zayaz_with_repair_center_and_blocking_angle_indicator_2019-03-10.zip</ZipFile>
-            <CRC>f5d58296b14b9f8266cbf0d7fad52c15</CRC>
           </Package>
         </Packages>
       </Package>
     </Packages>
   </Package>
-  <Package Name="Damage Panels + Damage Logs Seperate" Type="single1" Visible="False" PackageName="Damage_Panel_Log_Seperate_Header" InstallGroup="4" PatchGroup="0" Enabled="False">
+  <Package PackageName="Damage_Panel_Log_Seperate_Header" Enabled="False" InstallGroup="4" PatchGroup="0" Name="Damage Panels + Damage Logs Seperate" Type="single1" Visible="False">
     <Description>Mods here are seperate into Panels and Logs. They can each be toggled individualy.</Description>
   </Package>
-  <Package Name="Damage Panel + Damage Log Combo" Type="single1" Visible="False" PackageName="Damage_Panel_Log_Combo_Header" InstallGroup="4" PatchGroup="0" Enabled="False">
+  <Package PackageName="Damage_Panel_Log_Combo_Header" Enabled="False" InstallGroup="4" PatchGroup="0" Name="Damage Panel + Damage Log Combo" Type="single1" Visible="False">
     <Description>Mods here use a combination of the Damage Panel and Damage Logs</Description>
     <Dependencies>
       <Dependency PackageName="Dependency_XVM_damage_log_disable" NotFlag="False" Logic="OR" />

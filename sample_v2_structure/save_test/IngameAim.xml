@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Ingame Aim">
-  <Package Name="Dispersion (Aim time) info by P0LIR0ID" Type="multi" Visible="True" PackageName="Ingame_Aim_Aim_Info_Dispersion_P0LIR0ID" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_Aim_Info_Dispersion_P0LIR0ID" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Dispersion (Aim time) info by P0LIR0ID" Type="multi" Visible="True">
+    <Version>1.0.1</Version>
+    <ZipFile>Ingame_Aim_Aim_Info_Dispersion_P0LIR0ID_1.4.0.0_2019-02-06.zip</ZipFile>
+    <CRC>0bd3ee5f2e5d033bbf561d7543c5d222</CRC>
+    <Timestamp>131939793183946176</Timestamp>
     <Size>49881</Size>
     <Medias>
       <Media URL="https://storage.protanki.tv/uploads/images/639ebea5-0346-4113-81aa-c83cb4a003cb.jpg" MediaType="Picture" />
@@ -9,314 +13,312 @@
       <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
     </Dependencies>
-    <Version>1.0.1</Version>
-    <Timestamp>131939793183946176</Timestamp>
-    <ZipFile>Ingame_Aim_Aim_Info_Dispersion_P0LIR0ID_1.4.0.0_2019-02-06.zip</ZipFile>
-    <CRC>0bd3ee5f2e5d033bbf561d7543c5d222</CRC>
   </Package>
-  <Package Name="Replay FreeCamera" Type="multi" Visible="True" PackageName="Ingame_Aim_Replay_FreeCam" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_Replay_FreeCam" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Replay FreeCamera" Type="multi" Visible="True">
+    <ZipFile>Ingame_Aim_Replay_FreeCam_On_pmod_patch_2018-04-30.zip</ZipFile>
+    <CRC>bfead09c9203bbcbded5df7921683d65</CRC>
+    <Timestamp>131695534262792864</Timestamp>
     <Size>616</Size>
     <Description>activate in replay with 'F3'\n\nHotkeys for different manipulations with the camera:\nbind to vehicle: B\nshow gun marker: N\nshow markers: H\nset default roll: R\nswitch inertia: P\nswitch land camera: L\nswitch rotate around point: C\nset default Fov: F</Description>
     <Dependencies>
       <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
     </Dependencies>
-    <Timestamp>131695534262792864</Timestamp>
-    <ZipFile>Ingame_Aim_Replay_FreeCam_On_pmod_patch_2018-04-30.zip</ZipFile>
-    <CRC>bfead09c9203bbcbded5df7921683d65</CRC>
   </Package>
-  <Package Name="Zoom Out Config (meters)" Type="multi" Visible="True" PackageName="Ingame_Aim_ZoomOut_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_ZoomOut_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Zoom Out Config (meters)" Type="multi" Visible="True">
+    <Version>1</Version>
     <Description>How far you can zoom out in arcade mode in meters\nincrease scroll speed - your mouse wheel will be faster to scroll\ndisable gun shake - your aim will not shake when you are hit</Description>
-    <Packages>
-      <Package Name="Arcade Zoom" Type="multi" Visible="True" PackageName="Ingame_Aim_ZoomOut_Arcade_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Packages>
-          <Package Name="100m" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_ZoomOut_Arcade_100" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>495</Size>
-            <Timestamp>131558609328721033</Timestamp>
-            <ZipFile>Ingame_Aim_Zoom_out_Arcade_100.zip</ZipFile>
-            <CRC>6802ca0f7d310ebd7a2062dedda2ba8f</CRC>
-          </Package>
-          <Package Name="200m" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_ZoomOut_Arcade_200" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>495</Size>
-            <Timestamp>131558609415036773</Timestamp>
-            <ZipFile>Ingame_Aim_Zoom_out_Arcade_200.zip</ZipFile>
-            <CRC>738e0b825485836c292ff0803d09dad3</CRC>
-          </Package>
-          <Package Name="500m" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_ZoomOut_Arcade_500" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>496</Size>
-            <Timestamp>131558609524808408</Timestamp>
-            <ZipFile>Ingame_Aim_Zoom_out_Arcade_500.zip</ZipFile>
-            <CRC>9e735cb0d6fa3ea83b137fb2595f066d</CRC>
-          </Package>
-        </Packages>
-      </Package>
-      <Package Name="PostMortem Zoom" Type="multi" Visible="True" PackageName="Ingame_Aim_ZoomOut_PostMortem_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Packages>
-          <Package Name="100m" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_ZoomOut_PostMortem_100" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>506</Size>
-            <Timestamp>131558609679521328</Timestamp>
-            <ZipFile>Ingame_Aim_Zoom_out_Postmortem_100.zip</ZipFile>
-            <CRC>f65d9f488a62a9cc05682ac3fe7a796e</CRC>
-          </Package>
-          <Package Name="200m" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_ZoomOut_PostMortem_200" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>506</Size>
-            <Timestamp>131558609760950484</Timestamp>
-            <ZipFile>Ingame_Aim_Zoom_out_Postmortem_200.zip</ZipFile>
-            <CRC>212ca3600505737bc77fccb0129df0b6</CRC>
-          </Package>
-          <Package Name="500m" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_ZoomOut_PostMortem_500" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>507</Size>
-            <Timestamp>131558609843694672</Timestamp>
-            <ZipFile>Ingame_Aim_Zoom_out_Postmortem_500.zip</ZipFile>
-            <CRC>6c7eba92a209e858c39e257c63214640</CRC>
-          </Package>
-        </Packages>
-      </Package>
-      <Package Name="Stragetic (SPG) Zoom" Type="multi" Visible="True" PackageName="Ingame_Aim_ZoomOut_Stragetic_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Packages>
-          <Package Name="200m" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_ZoomOut_Stragetic_200" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>521</Size>
-            <Timestamp>131558609933043696</Timestamp>
-            <ZipFile>Ingame_Aim_Zoom_out_Stragetic_200.zip</ZipFile>
-            <CRC>b67d89d7f7e7fb079490980244cbc58e</CRC>
-          </Package>
-          <Package Name="500m" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_ZoomOut_Stragetic_500" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>521</Size>
-            <Timestamp>131558610017538113</Timestamp>
-            <ZipFile>Ingame_Aim_Zoom_out_Stragetic_500.zip</ZipFile>
-            <CRC>cc5d2296c2d36df8b9924711149a6618</CRC>
-          </Package>
-        </Packages>
-      </Package>
-      <Package Name="Increase Scroll Speed" Type="multi" Visible="True" PackageName="Ingame_Aim_ZoomOut_Increase_Scroll_Speed" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>632</Size>
-        <Description>your mouse wheel will be faster to scroll</Description>
-        <ZipFile>Ingame_Info_Zoom_out_Increase_Scroll_Speed.zip</ZipFile>
-        <CRC>fbc9bcfbea22a0312b14a0098515c75b</CRC>
-      </Package>
-    </Packages>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Zoom_out_200.jpg" MediaType="Picture" />
     </Medias>
-    <Version>1</Version>
-  </Package>
-  <Package Name="Server-side Reticle" Type="multi" Visible="True" PackageName="Ingame_Aim_Server_reticle_header" InstallGroup="4" PatchGroup="0" Enabled="True">
-    <Description>Shows where the server thinks you are aiming. Server crosshair must be enabled in game settings.</Description>
     <Packages>
-      <Package Name="Server Reticle by Awfultanker" Type="single1" Visible="True" PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>77759</Size>
-        <UpdateComment>WoT EU Forum: http://forum.worldoftanks.eu/index.php?/topic/583501-</UpdateComment>
-        <Description>Shows where the server thinks you are aiming. Server crosshair must be enabled in game settings.</Description>
+      <Package PackageName="Ingame_Aim_ZoomOut_Arcade_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Arcade Zoom" Type="multi" Visible="True">
         <Packages>
-          <Package Name="Pentagon blue" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_blue" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>520</Size>
-            <Timestamp>131801163097422819</Timestamp>
-            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_blue_1.1.0.0_2018-08-30.zip</ZipFile>
-            <CRC>2763cf99f263b6cd19b4d045b10e4924</CRC>
+          <Package PackageName="Ingame_Aim_ZoomOut_Arcade_100" Enabled="True" InstallGroup="4" PatchGroup="0" Name="100m" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Zoom_out_Arcade_100.zip</ZipFile>
+            <CRC>6802ca0f7d310ebd7a2062dedda2ba8f</CRC>
+            <Timestamp>131558609328721033</Timestamp>
+            <Size>495</Size>
           </Package>
-          <Package Name="Pentagon red" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_red" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>516</Size>
-            <Timestamp>131801163194661908</Timestamp>
-            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_red_1.1.0.0_2018-08-30.zip</ZipFile>
-            <CRC>39779e9cfb4438c4bec1acb4362b35bc</CRC>
+          <Package PackageName="Ingame_Aim_ZoomOut_Arcade_200" Enabled="True" InstallGroup="4" PatchGroup="0" Name="200m" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Zoom_out_Arcade_200.zip</ZipFile>
+            <CRC>738e0b825485836c292ff0803d09dad3</CRC>
+            <Timestamp>131558609415036773</Timestamp>
+            <Size>495</Size>
           </Package>
-          <Package Name="Pentagon green" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_green" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>525</Size>
-            <Timestamp>131801163261619820</Timestamp>
-            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_green_1.1.0.0_2018-08-30.zip</ZipFile>
-            <CRC>8324e94572f52eda8fa398b06ad61f52</CRC>
-          </Package>
-          <Package Name="blue" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_blue" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>501</Size>
-            <Timestamp>131801163364739245</Timestamp>
-            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_blue_1.1.0.0_2018-08-30.zip</ZipFile>
-            <CRC>46cdbd25c8eb25307a2d3a73381527f3</CRC>
-          </Package>
-          <Package Name="red" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_red" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>498</Size>
-            <Timestamp>131801163443880294</Timestamp>
-            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_red_1.1.0.0_2018-08-30.zip</ZipFile>
-            <CRC>9fec3c0eea2d8943bcc8d1483798fa8f</CRC>
-          </Package>
-          <Package Name="green" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_green" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>506</Size>
-            <Timestamp>131801163522868738</Timestamp>
-            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_green_1.1.0.0_2018-08-30.zip</ZipFile>
-            <CRC>68155039efd9edbb3ff14ae1e8ad68a7</CRC>
+          <Package PackageName="Ingame_Aim_ZoomOut_Arcade_500" Enabled="True" InstallGroup="4" PatchGroup="0" Name="500m" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Zoom_out_Arcade_500.zip</ZipFile>
+            <CRC>9e735cb0d6fa3ea83b137fb2595f066d</CRC>
+            <Timestamp>131558609524808408</Timestamp>
+            <Size>496</Size>
           </Package>
         </Packages>
+      </Package>
+      <Package PackageName="Ingame_Aim_ZoomOut_PostMortem_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="PostMortem Zoom" Type="multi" Visible="True">
+        <Packages>
+          <Package PackageName="Ingame_Aim_ZoomOut_PostMortem_100" Enabled="True" InstallGroup="4" PatchGroup="0" Name="100m" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Zoom_out_Postmortem_100.zip</ZipFile>
+            <CRC>f65d9f488a62a9cc05682ac3fe7a796e</CRC>
+            <Timestamp>131558609679521328</Timestamp>
+            <Size>506</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_ZoomOut_PostMortem_200" Enabled="True" InstallGroup="4" PatchGroup="0" Name="200m" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Zoom_out_Postmortem_200.zip</ZipFile>
+            <CRC>212ca3600505737bc77fccb0129df0b6</CRC>
+            <Timestamp>131558609760950484</Timestamp>
+            <Size>506</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_ZoomOut_PostMortem_500" Enabled="True" InstallGroup="4" PatchGroup="0" Name="500m" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Zoom_out_Postmortem_500.zip</ZipFile>
+            <CRC>6c7eba92a209e858c39e257c63214640</CRC>
+            <Timestamp>131558609843694672</Timestamp>
+            <Size>507</Size>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Ingame_Aim_ZoomOut_Stragetic_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Stragetic (SPG) Zoom" Type="multi" Visible="True">
+        <Packages>
+          <Package PackageName="Ingame_Aim_ZoomOut_Stragetic_200" Enabled="True" InstallGroup="4" PatchGroup="0" Name="200m" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Zoom_out_Stragetic_200.zip</ZipFile>
+            <CRC>b67d89d7f7e7fb079490980244cbc58e</CRC>
+            <Timestamp>131558609933043696</Timestamp>
+            <Size>521</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_ZoomOut_Stragetic_500" Enabled="True" InstallGroup="4" PatchGroup="0" Name="500m" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Zoom_out_Stragetic_500.zip</ZipFile>
+            <CRC>cc5d2296c2d36df8b9924711149a6618</CRC>
+            <Timestamp>131558610017538113</Timestamp>
+            <Size>521</Size>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Ingame_Aim_ZoomOut_Increase_Scroll_Speed" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Increase Scroll Speed" Type="multi" Visible="True">
+        <ZipFile>Ingame_Info_Zoom_out_Increase_Scroll_Speed.zip</ZipFile>
+        <CRC>fbc9bcfbea22a0312b14a0098515c75b</CRC>
+        <Size>632</Size>
+        <Description>your mouse wheel will be faster to scroll</Description>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="Ingame_Aim_Server_reticle_header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Server-side Reticle" Type="multi" Visible="True">
+    <Description>Shows where the server thinks you are aiming. Server crosshair must be enabled in game settings.</Description>
+    <Packages>
+      <Package PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Server Reticle by Awfultanker" Type="single1" Visible="True">
+        <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_Base_1.4.0.0_2019-02-06.zip</ZipFile>
+        <CRC>957aadbb1cb38ce4fb386de142a45c0c</CRC>
+        <Timestamp>131940494544835200</Timestamp>
+        <Size>77759</Size>
+        <Description>Shows where the server thinks you are aiming. Server crosshair must be enabled in game settings.</Description>
+        <UpdateComment>WoT EU Forum: http://forum.worldoftanks.eu/index.php?/topic/583501-</UpdateComment>
         <Medias>
           <Media URL="https://awfultanker.torvox.eu/images/server_marker.png" MediaType="Picture" />
           <Media URL="https://awfultanker.torvox.eu/images/server_marker_bottom.png" MediaType="Picture" />
         </Medias>
-        <Timestamp>131940494544835200</Timestamp>
-        <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_Base_1.4.0.0_2019-02-06.zip</ZipFile>
-        <CRC>957aadbb1cb38ce4fb386de142a45c0c</CRC>
+        <Packages>
+          <Package PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_blue" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Pentagon blue" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_blue_1.1.0.0_2018-08-30.zip</ZipFile>
+            <CRC>2763cf99f263b6cd19b4d045b10e4924</CRC>
+            <Timestamp>131801163097422819</Timestamp>
+            <Size>520</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_red" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Pentagon red" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_red_1.1.0.0_2018-08-30.zip</ZipFile>
+            <CRC>39779e9cfb4438c4bec1acb4362b35bc</CRC>
+            <Timestamp>131801163194661908</Timestamp>
+            <Size>516</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_green" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Pentagon green" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_green_1.1.0.0_2018-08-30.zip</ZipFile>
+            <CRC>8324e94572f52eda8fa398b06ad61f52</CRC>
+            <Timestamp>131801163261619820</Timestamp>
+            <Size>525</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_blue" Enabled="True" InstallGroup="4" PatchGroup="0" Name="blue" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_blue_1.1.0.0_2018-08-30.zip</ZipFile>
+            <CRC>46cdbd25c8eb25307a2d3a73381527f3</CRC>
+            <Timestamp>131801163364739245</Timestamp>
+            <Size>501</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_red" Enabled="True" InstallGroup="4" PatchGroup="0" Name="red" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_red_1.1.0.0_2018-08-30.zip</ZipFile>
+            <CRC>9fec3c0eea2d8943bcc8d1483798fa8f</CRC>
+            <Timestamp>131801163443880294</Timestamp>
+            <Size>498</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_Crosshair_serverside_Awfultanker_green" Enabled="True" InstallGroup="4" PatchGroup="0" Name="green" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_green_1.1.0.0_2018-08-30.zip</ZipFile>
+            <CRC>68155039efd9edbb3ff14ae1e8ad68a7</CRC>
+            <Timestamp>131801163522868738</Timestamp>
+            <Size>506</Size>
+          </Package>
+        </Packages>
       </Package>
-      <Package Name="Elkano´s Server Gun Marker (ElkSGM) (NOT Compatible with PMOD)" Type="single1" Visible="True" PackageName="Ingame_Aim_Elkano_Server_Gun_Marker" InstallGroup="4" PatchGroup="0" Enabled="True">
+      <Package PackageName="Ingame_Aim_Elkano_Server_Gun_Marker" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Elkano´s Server Gun Marker (ElkSGM) (NOT Compatible with PMOD)" Type="single1" Visible="True">
+        <ZipFile>Ingame_Aim_Elkanos_Server_Gun_Marker_(ElkSGM)_v1.0_0.9.18_2017_09_08.zip</ZipFile>
+        <CRC>a22fcaefb72f482f1e60a33bbad3cfd6</CRC>
         <Size>1770</Size>
         <Description>Shows where the server thinks you are aiming. Server crosshair must be enabled in game settings.</Description>
         <Medias>
           <Media URL="https://media-curse.cursecdn.com/attachments/231/187/4b262e66bb532ebce76d5ab431b2259f.png" MediaType="Picture" />
         </Medias>
-        <ZipFile>Ingame_Aim_Elkanos_Server_Gun_Marker_(ElkSGM)_v1.0_0.9.18_2017_09_08.zip</ZipFile>
-        <CRC>a22fcaefb72f482f1e60a33bbad3cfd6</CRC>
       </Package>
-      <Package Name="Battle Interface modifications - Server Reticle (pmod)" Type="single1" Visible="True" PackageName="Crosshair_serverside_pmod_reticle_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+      <Package PackageName="Crosshair_serverside_pmod_reticle_enable" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Battle Interface modifications - Server Reticle (pmod)" Type="single1" Visible="True">
+        <ZipFile>pmod_server_reticle_enable_patch.zip</ZipFile>
+        <CRC>a13a5f37cff8555b81d75be7ef6ad4af</CRC>
         <Size>918</Size>
         <Description>Shows where the server thinks you are aiming. Server crosshair must be enabled in game settings.</Description>
-        <Packages>
-          <Package Name="blue" Type="single_dropdown1" Visible="True" PackageName="Crosshair_serverside_pmod_reticle_blue" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>986</Size>
-            <ZipFile>pmod_server_reticle_blue_patch.zip</ZipFile>
-            <CRC>efd4d1f4c56ca39a2e589c7b1498545a</CRC>
-          </Package>
-          <Package Name="green" Type="single_dropdown1" Visible="True" PackageName="Crosshair_serverside_pmod_reticle_green" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>986</Size>
-            <ZipFile>pmod_server_reticle_green_patch.zip</ZipFile>
-            <CRC>f56c23d4ad87129922c4fe271f980905</CRC>
-          </Package>
-          <Package Name="black and white" Type="single_dropdown1" Visible="True" PackageName="Crosshair_serverside_pmod_reticle_black_and_white" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>1007</Size>
-            <ZipFile>pmod_server_reticle_black_and_white_patch.zip</ZipFile>
-            <CRC>a94f6798ac3a8c3e835ced7045b8c930</CRC>
-          </Package>
-          <Package Name="meltymaps mathmod" Type="single_dropdown1" Visible="True" PackageName="Crosshair_serverside_pmod_reticle_meltyMaps" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>2599</Size>
-            <ZipFile>pmod_server_reticle_meltyMaps_patch.zip</ZipFile>
-            <CRC>2c1753c4cb62bf2c8e579e4499c961f2</CRC>
-          </Package>
-        </Packages>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/pmod_server_reticle_blue_patch.jpg" MediaType="Picture" />
         </Medias>
         <Dependencies>
           <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
         </Dependencies>
-        <ZipFile>pmod_server_reticle_enable_patch.zip</ZipFile>
-        <CRC>a13a5f37cff8555b81d75be7ef6ad4af</CRC>
+        <Packages>
+          <Package PackageName="Crosshair_serverside_pmod_reticle_blue" Enabled="True" InstallGroup="4" PatchGroup="0" Name="blue" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_server_reticle_blue_patch.zip</ZipFile>
+            <CRC>efd4d1f4c56ca39a2e589c7b1498545a</CRC>
+            <Size>986</Size>
+          </Package>
+          <Package PackageName="Crosshair_serverside_pmod_reticle_green" Enabled="True" InstallGroup="4" PatchGroup="0" Name="green" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_server_reticle_green_patch.zip</ZipFile>
+            <CRC>f56c23d4ad87129922c4fe271f980905</CRC>
+            <Size>986</Size>
+          </Package>
+          <Package PackageName="Crosshair_serverside_pmod_reticle_black_and_white" Enabled="True" InstallGroup="4" PatchGroup="0" Name="black and white" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_server_reticle_black_and_white_patch.zip</ZipFile>
+            <CRC>a94f6798ac3a8c3e835ced7045b8c930</CRC>
+            <Size>1007</Size>
+          </Package>
+          <Package PackageName="Crosshair_serverside_pmod_reticle_meltyMaps" Enabled="True" InstallGroup="4" PatchGroup="0" Name="meltymaps mathmod" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_server_reticle_meltyMaps_patch.zip</ZipFile>
+            <CRC>2c1753c4cb62bf2c8e579e4499c961f2</CRC>
+            <Size>2599</Size>
+          </Package>
+        </Packages>
       </Package>
     </Packages>
   </Package>
-  <Package Name="Penetration ( ͡° ͜ʖ ͡°) Indicators" Type="multi" Visible="True" PackageName="Ingame_Aim_Penetration_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_Penetration_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Penetration ( ͡° ͜ʖ ͡°) Indicators" Type="multi" Visible="True">
+    <Timestamp>131542992576669791</Timestamp>
     <Description>Shows wether or not you can penetrate an enemy, in the form of showing the number</Description>
     <Packages>
-      <Package Name="PMOD Penetration ( ͡° ͜ʖ ͡°) Indicator" Type="single1" Visible="True" PackageName="Ingame_Aim_pmod_reduced_armor" InstallGroup="4" PatchGroup="0" Enabled="True">
+      <Package PackageName="Ingame_Aim_pmod_reduced_armor" Enabled="True" InstallGroup="4" PatchGroup="0" Name="PMOD Penetration ( ͡° ͜ʖ ͡°) Indicator" Type="single1" Visible="True">
+        <ZipFile>pmod_reduced_armor_enable_patch_2017-07-17.zip</ZipFile>
+        <CRC>d36e8e39bed835e907fae51232f333a7</CRC>
         <Size>911</Size>
         <Description>Shows wether or not you can penetrate an enemy, factoring in armor angles and normalization, in the form\n avg_gun_penetration/enemy_effective_armor</Description>
-        <Packages>
-          <Package Name="font size small (18)" Type="single_dropdown1" Visible="True" PackageName="zoom_pmod_reduced_armor_font_small" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>928</Size>
-            <ZipFile>pmod_reduced_armor_font_small_patch.zip</ZipFile>
-            <CRC>28f24b2b69b9bcfb4326b2957bb45255</CRC>
-          </Package>
-          <Package Name="font size medium (24)" Type="single_dropdown1" Visible="True" PackageName="zoom_pmod_reduced_armor_font_medium" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>931</Size>
-            <ZipFile>pmod_reduced_armor_font_medium_patch.zip</ZipFile>
-            <CRC>446b0839a1dc42c2f3d04110ee624933</CRC>
-          </Package>
-          <Package Name="font size large (30)" Type="single_dropdown1" Visible="True" PackageName="zoom_pmod_reduced_armor_font_large" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>929</Size>
-            <ZipFile>pmod_reduced_armor_font_large_patch.zip</ZipFile>
-            <CRC>8351cd7822bd685ebe390dba9e33863b</CRC>
-          </Package>
-        </Packages>
         <Dependencies>
           <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
         </Dependencies>
-        <ZipFile>pmod_reduced_armor_enable_patch_2017-07-17.zip</ZipFile>
-        <CRC>d36e8e39bed835e907fae51232f333a7</CRC>
+        <Packages>
+          <Package PackageName="zoom_pmod_reduced_armor_font_small" Enabled="True" InstallGroup="4" PatchGroup="0" Name="font size small (18)" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_reduced_armor_font_small_patch.zip</ZipFile>
+            <CRC>28f24b2b69b9bcfb4326b2957bb45255</CRC>
+            <Size>928</Size>
+          </Package>
+          <Package PackageName="zoom_pmod_reduced_armor_font_medium" Enabled="True" InstallGroup="4" PatchGroup="0" Name="font size medium (24)" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_reduced_armor_font_medium_patch.zip</ZipFile>
+            <CRC>446b0839a1dc42c2f3d04110ee624933</CRC>
+            <Size>931</Size>
+          </Package>
+          <Package PackageName="zoom_pmod_reduced_armor_font_large" Enabled="True" InstallGroup="4" PatchGroup="0" Name="font size large (30)" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_reduced_armor_font_large_patch.zip</ZipFile>
+            <CRC>8351cd7822bd685ebe390dba9e33863b</CRC>
+            <Size>929</Size>
+          </Package>
+        </Packages>
       </Package>
-      <Package Name="Number Indicator of Armor Penetration ( ͡° ͜ʖ ͡°) by Makct (non-PMOD)" Type="single1" Visible="True" PackageName="Ingame_Aim_Mod_Armor_Gui_Text" InstallGroup="4" PatchGroup="0" Enabled="True">
+      <Package PackageName="Ingame_Aim_Mod_Armor_Gui_Text" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Number Indicator of Armor Penetration ( ͡° ͜ʖ ͡°) by Makct (non-PMOD)" Type="single1" Visible="True">
+        <ZipFile>Ingame_Aim_Mod_Armor_Gui_Text_1.0.2.x_2018-06-16.zip</ZipFile>
+        <CRC>a4812235eaade6b33b39160c7f0034e4</CRC>
+        <Timestamp>131736564635115559</Timestamp>
         <Size>37880</Size>
         <Description>Shows a number of chance of penetration. The number is calculated by (enemy_effective_armor-gun_average_penetration).\nNegative number means likely to bounce.\nPositive number means likely to pierce.</Description>
         <Medias>
           <Media URL="http://4cheat.ru/i/view.php?id=333.jpg" MediaType="Picture" />
         </Medias>
-        <Timestamp>131736564635115559</Timestamp>
-        <ZipFile>Ingame_Aim_Mod_Armor_Gui_Text_1.0.2.x_2018-06-16.zip</ZipFile>
-        <CRC>a4812235eaade6b33b39160c7f0034e4</CRC>
       </Package>
     </Packages>
-    <Timestamp>131542992576669791</Timestamp>
   </Package>
-  <Package Name="Zoom modifications - zoom in (pmod)" Type="multi" Visible="True" PackageName="Ingame_Aim_Zoomin_Base" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_Zoomin_Base" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Zoom modifications - zoom in (pmod)" Type="multi" Visible="True">
     <Description>Allows you to change the ammount that you can zoom in.\nDefault zoom changes the first zoom in when you go to sniper mode\ntd brake allows you to change wether the tank moves when you point your gun out of gun range</Description>
-    <Packages>
-      <Package Name="2, 4, 8, 12" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_zoom_pmod_zoomIn_12" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>692</Size>
-        <Timestamp>131950432486406739</Timestamp>
-        <ZipFile>pmod_zoomin_config_4_2019-02-19.zip</ZipFile>
-        <CRC>02359cf44586f4c663bd11cc65ebbd26</CRC>
-      </Package>
-      <Package Name="2, 4, 8, 16, 25 (client default)" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_zoom_pmod_zoomIn_25" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>700</Size>
-        <Timestamp>131950432605169268</Timestamp>
-        <ZipFile>pmod_zoomin_config_1_2019-02-19.zip</ZipFile>
-        <CRC>7458c51885d900b6fe7a7f70e056ac9f</CRC>
-      </Package>
-      <Package Name="2, 4, 8, 12, 16, 20, 26, 32" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_zoom_pmod_zoomIn_2-32" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>737</Size>
-        <Timestamp>131950432745783371</Timestamp>
-        <ZipFile>pmod_zoomin_config_2_2019-02-19.zip</ZipFile>
-        <CRC>72708c9d428460b4cff0807d84c0b10b</CRC>
-      </Package>
-      <Package Name="2, 4, 8, 12, 16, 20, 26, 32, 40, 48" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_zoom_pmod_zoomIn_2-48" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>751</Size>
-        <Timestamp>131950432855859114</Timestamp>
-        <ZipFile>pmod_zoomin_config_3_2019-02-19.zip</ZipFile>
-        <CRC>7c7fc04c4c062f6cc4e6574497061e90</CRC>
-      </Package>
-      <Package Name="Modify TD Brake" Type="multi" Visible="True" PackageName="Ingame_Aim_zoom_pmod_td_brake_header" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Packages>
-          <Package Name="on" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_zoom_pmod_td_brake_on" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>933</Size>
-            <ZipFile>pmod_td_brake_on_2017-05-01.zip</ZipFile>
-            <CRC>00ca229c0c5992665d3530b0028e91da</CRC>
-          </Package>
-          <Package Name="off" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_zoom_pmod_td_brake_off" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>947</Size>
-            <ZipFile>pmod_td_brake_off_2017-05-01.zip</ZipFile>
-            <CRC>a8ad683c18c4fe2aec4fdf8e003bcf97</CRC>
-          </Package>
-        </Packages>
-        <Timestamp>131558453417276234</Timestamp>
-      </Package>
-      <Package Name="Modify Starting zoom" Type="multi" Visible="True" PackageName="Ingame_Aim_zoom_pmod_td_start_zoom_header" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Packages>
-          <Package Name="2x (client default)" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_zoom_pmod_default_zoom_2x" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>943</Size>
-            <ZipFile>pmod_default_zoom_2x_2017-05-01.zip</ZipFile>
-            <CRC>2e4c0083cac767966fb6d754febe7599</CRC>
-          </Package>
-          <Package Name="4x" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_zoom_pmod_default_zoom_4x" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>943</Size>
-            <ZipFile>pmod_default_zoom_4x_2017-05-01.zip</ZipFile>
-            <CRC>756585f5aff83b8250ff9efeeb742a0c</CRC>
-          </Package>
-          <Package Name="8x" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_zoom_pmod_default_zoom_8x" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>943</Size>
-            <ZipFile>pmod_default_zoom_8x_2017-05-01.zip</ZipFile>
-            <CRC>f382b11ef5a5f9c8bfff046432ddc401</CRC>
-          </Package>
-          <Package Name="16x" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_zoom_pmod_default_zoom_16x" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>946</Size>
-            <ZipFile>pmod_default_zoom_16x_2017-05-01.zip</ZipFile>
-            <CRC>81800557a31381e034946318b99dc9f5</CRC>
-          </Package>
-        </Packages>
-        <Timestamp>131558453697436456</Timestamp>
-      </Package>
-      <Package Name="Enable pmod zoom indicator" Type="multi" Visible="True" PackageName="Ingame_Aim_zoom_pmod_enable_zoom_indicator" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>917</Size>
-        <ZipFile>pmod_enable_zoom_indicator_2017-05-01.zip</ZipFile>
-        <CRC>94874e344024b246057b0ca6e24e38bd</CRC>
-      </Package>
-    </Packages>
     <Dependencies>
       <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
     </Dependencies>
+    <Packages>
+      <Package PackageName="Ingame_Aim_zoom_pmod_zoomIn_12" Enabled="True" InstallGroup="4" PatchGroup="0" Name="2, 4, 8, 12" Type="single_dropdown1" Visible="True">
+        <ZipFile>pmod_zoomin_config_4_2019-02-19.zip</ZipFile>
+        <CRC>02359cf44586f4c663bd11cc65ebbd26</CRC>
+        <Timestamp>131950432486406739</Timestamp>
+        <Size>692</Size>
+      </Package>
+      <Package PackageName="Ingame_Aim_zoom_pmod_zoomIn_25" Enabled="True" InstallGroup="4" PatchGroup="0" Name="2, 4, 8, 16, 25 (client default)" Type="single_dropdown1" Visible="True">
+        <ZipFile>pmod_zoomin_config_1_2019-02-19.zip</ZipFile>
+        <CRC>7458c51885d900b6fe7a7f70e056ac9f</CRC>
+        <Timestamp>131950432605169268</Timestamp>
+        <Size>700</Size>
+      </Package>
+      <Package PackageName="Ingame_Aim_zoom_pmod_zoomIn_2-32" Enabled="True" InstallGroup="4" PatchGroup="0" Name="2, 4, 8, 12, 16, 20, 26, 32" Type="single_dropdown1" Visible="True">
+        <ZipFile>pmod_zoomin_config_2_2019-02-19.zip</ZipFile>
+        <CRC>72708c9d428460b4cff0807d84c0b10b</CRC>
+        <Timestamp>131950432745783371</Timestamp>
+        <Size>737</Size>
+      </Package>
+      <Package PackageName="Ingame_Aim_zoom_pmod_zoomIn_2-48" Enabled="True" InstallGroup="4" PatchGroup="0" Name="2, 4, 8, 12, 16, 20, 26, 32, 40, 48" Type="single_dropdown1" Visible="True">
+        <ZipFile>pmod_zoomin_config_3_2019-02-19.zip</ZipFile>
+        <CRC>7c7fc04c4c062f6cc4e6574497061e90</CRC>
+        <Timestamp>131950432855859114</Timestamp>
+        <Size>751</Size>
+      </Package>
+      <Package PackageName="Ingame_Aim_zoom_pmod_td_brake_header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Modify TD Brake" Type="multi" Visible="True">
+        <Timestamp>131558453417276234</Timestamp>
+        <Packages>
+          <Package PackageName="Ingame_Aim_zoom_pmod_td_brake_on" Enabled="True" InstallGroup="4" PatchGroup="0" Name="on" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_td_brake_on_2017-05-01.zip</ZipFile>
+            <CRC>00ca229c0c5992665d3530b0028e91da</CRC>
+            <Size>933</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_zoom_pmod_td_brake_off" Enabled="True" InstallGroup="4" PatchGroup="0" Name="off" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_td_brake_off_2017-05-01.zip</ZipFile>
+            <CRC>a8ad683c18c4fe2aec4fdf8e003bcf97</CRC>
+            <Size>947</Size>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Ingame_Aim_zoom_pmod_td_start_zoom_header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Modify Starting zoom" Type="multi" Visible="True">
+        <Timestamp>131558453697436456</Timestamp>
+        <Packages>
+          <Package PackageName="Ingame_Aim_zoom_pmod_default_zoom_2x" Enabled="True" InstallGroup="4" PatchGroup="0" Name="2x (client default)" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_default_zoom_2x_2017-05-01.zip</ZipFile>
+            <CRC>2e4c0083cac767966fb6d754febe7599</CRC>
+            <Size>943</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_zoom_pmod_default_zoom_4x" Enabled="True" InstallGroup="4" PatchGroup="0" Name="4x" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_default_zoom_4x_2017-05-01.zip</ZipFile>
+            <CRC>756585f5aff83b8250ff9efeeb742a0c</CRC>
+            <Size>943</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_zoom_pmod_default_zoom_8x" Enabled="True" InstallGroup="4" PatchGroup="0" Name="8x" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_default_zoom_8x_2017-05-01.zip</ZipFile>
+            <CRC>f382b11ef5a5f9c8bfff046432ddc401</CRC>
+            <Size>943</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_zoom_pmod_default_zoom_16x" Enabled="True" InstallGroup="4" PatchGroup="0" Name="16x" Type="single_dropdown1" Visible="True">
+            <ZipFile>pmod_default_zoom_16x_2017-05-01.zip</ZipFile>
+            <CRC>81800557a31381e034946318b99dc9f5</CRC>
+            <Size>946</Size>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Ingame_Aim_zoom_pmod_enable_zoom_indicator" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Enable pmod zoom indicator" Type="multi" Visible="True">
+        <ZipFile>pmod_enable_zoom_indicator_2017-05-01.zip</ZipFile>
+        <CRC>94874e344024b246057b0ca6e24e38bd</CRC>
+        <Size>917</Size>
+      </Package>
+    </Packages>
   </Package>
-  <Package Name="Disable sniper scope shadow/green effect (PMOD)" Type="multi" Visible="True" PackageName="Ingame_Aim_disable_scope_shadow_green_pmod" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_disable_scope_shadow_green_pmod" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Disable sniper scope shadow/green effect (PMOD)" Type="multi" Visible="True">
+    <ZipFile>Ingame_Aim_disable_shadow_green_scope_pmod_2017-09-24.zip</ZipFile>
+    <CRC>f0ed1a727e535230756cef61701d3203</CRC>
     <Size>914</Size>
     <Description>Removes the shadow and green effect from the scope</Description>
     <Medias>
@@ -325,10 +327,12 @@
     <Dependencies>
       <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
     </Dependencies>
-    <ZipFile>Ingame_Aim_disable_shadow_green_scope_pmod_2017-09-24.zip</ZipFile>
-    <CRC>f0ed1a727e535230756cef61701d3203</CRC>
   </Package>
-  <Package Name="Projectile Flytime for SPG/Arty by oldskool" Type="multi" Visible="True" PackageName="Ingame_Aim_SPG_Flytime" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_SPG_Flytime" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Projectile Flytime for SPG/Arty by oldskool" Type="multi" Visible="True">
+    <Version>1</Version>
+    <ZipFile>Ingame_Aim_SPG_Flytime_by_oldskool_1.4.0.0_2019-02-06.zip</ZipFile>
+    <CRC>f831efb85dbf37872b4c97edd767dd79</CRC>
+    <Timestamp>131939253453521425</Timestamp>
     <Size>22230</Size>
     <Description>This mod allows you to see the shell travel time for SPG shells. You can fully adjust the position of the display during the battle. Configuration of the mod can be done ingame.</Description>
     <Medias>
@@ -339,15 +343,15 @@
       <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
     </Dependencies>
-    <Version>1</Version>
-    <Timestamp>131939253453521425</Timestamp>
-    <ZipFile>Ingame_Aim_SPG_Flytime_by_oldskool_1.4.0.0_2019-02-06.zip</ZipFile>
-    <CRC>f831efb85dbf37872b4c97edd767dd79</CRC>
   </Package>
-  <Package Name="Arty Splash Sphere by Spoter" Type="multi" Visible="True" PackageName="Ingame_Aim_arty_splash_sphere" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_arty_splash_sphere" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Arty Splash Sphere by Spoter" Type="multi" Visible="True">
+    <Version>208</Version>
+    <ZipFile>Ingame_Aim_Arty_Splash_by_Spoter_208_1.4.0.1_2019-02-19.zip</ZipFile>
+    <CRC>bdad811b29999ea66f07bb6ca69934de</CRC>
+    <Timestamp>131950446774387535</Timestamp>
     <Size>12555</Size>
-    <UpdateComment>2. URL: https://github.com/spoter/spoter-mods</UpdateComment>
     <Description>this will draw a sphere marking the stun area\n\nLegal Info from WG employe Dance210:\nHey Silvers_,\n\nWe are currently working on the creation of a process that will more formally vet mods.\n\nIn the meantime, I do not personally feel that the mod you are asking about specifically violates the guidelines listed in the fair play policy.  That said, those could change in the future and we do not recommend the use of any third-party mods, especially ones that may eventually be determined to provide an unfair information advantage.</Description>
+    <UpdateComment>2. URL: https://github.com/spoter/spoter-mods</UpdateComment>
     <Medias>
       <Media URL="http://hjundaj.com/wp-content/uploads/2017/05/ArtySplashBySpoter_1.jpg" MediaType="Picture" />
       <Media URL="http://hjundaj.com/wp-content/uploads/2017/11/art_sp_1.jpg" MediaType="Picture" />
@@ -357,15 +361,15 @@
       <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
     </Dependencies>
-    <Version>208</Version>
-    <Timestamp>131950446774387535</Timestamp>
-    <ZipFile>Ingame_Aim_Arty_Splash_by_Spoter_208_1.4.0.1_2019-02-19.zip</ZipFile>
-    <CRC>bdad811b29999ea66f07bb6ca69934de</CRC>
   </Package>
-  <Package Name="Server Turret Extended by Spoter v{version}" Type="multi" Visible="True" PackageName="Ingame_Aim_Server_Turret_Extended" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_Server_Turret_Extended" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Server Turret Extended by Spoter v{version}" Type="multi" Visible="True">
+    <Version>2.02</Version>
+    <ZipFile>Ingame_Aim_Server_Turret_Extended_by_Spoter_202_1.4.0.1_2019-03-08.zip</ZipFile>
+    <CRC>19d531811be9e2cccd72a0ab5a4aa5ba</CRC>
+    <Timestamp>131965808227565714</Timestamp>
     <Size>21179</Size>
-    <UpdateComment>2. URL</UpdateComment>
     <Description>-auto-speed for wheeled vehicles, \n-turns the tank turret along server coordinates, \n-automatically activates “Stop for a shot” when the tank is braked.</Description>
+    <UpdateComment>2. URL</UpdateComment>
     <Medias>
       <Media URL="https://coub.com/view/zrhe" MediaType="Webpage" />
     </Medias>
@@ -373,142 +377,127 @@
       <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
     </Dependencies>
-    <Version>2.02</Version>
-    <Timestamp>131965808227565714</Timestamp>
-    <ZipFile>Ingame_Aim_Server_Turret_Extended_by_Spoter_202_1.4.0.1_2019-03-08.zip</ZipFile>
-    <CRC>19d531811be9e2cccd72a0ab5a4aa5ba</CRC>
   </Package>
-  <Package Name="Battle Assistant v{version}" Type="multi" Visible="True" PackageName="Ingame_Aim_Battle_Assistant_Base" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_Battle_Assistant_Base" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Battle Assistant v{version}" Type="multi" Visible="True">
+    <Version>2.2.0</Version>
+    <ZipFile>Ingame_Aim_Battle_Assistant_Base_v2.2.0_1.3.0.1_2019-02-02.zip</ZipFile>
+    <CRC>fd3e788f409fcb8fef6bf694c9088e62</CRC>
+    <Timestamp>131935983470355624</Timestamp>
     <Size>324164</Size>
-    <UpdateComment>forums link:\nhttp://forum.worldoftanks.ru/index.php?/topic/1389614-</UpdateComment>
     <Description>Enables an isometric view from Arty.\n\nTO USE THIS MOD YOU MUST ACTIVATE (PURCHASE OR AD SUPPORTED) HERE: http://armorinspector.com/en/battleassistant</Description>
-    <UserFiles>
-      <UserFile Pattern="mods\configs\battle_assistant\mod_battle_assistant.txt" />
-    </UserFiles>
-    <Packages>
-      <Package Name="G" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_Battle_Assistant_G" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>600</Size>
-        <UpdateComment>file: mod_battle_assistant.txt</UpdateComment>
-        <Timestamp>131737547087039255</Timestamp>
-        <ZipFile>Ingame_Aim_Battle_Assistant_Config_G_2018-06-17.zip</ZipFile>
-        <CRC>b1a356611aa448ca7d6438476c524129</CRC>
-      </Package>
-      <Package Name="J" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_Battle_Assistant_J" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>600</Size>
-        <UpdateComment>file: mod_battle_assistant.txt</UpdateComment>
-        <Timestamp>131737547181602103</Timestamp>
-        <ZipFile>Ingame_Aim_Battle_Assistant_Config_J_2018-06-17.zip</ZipFile>
-        <CRC>1f0ac2948817ec0f418f532208016af0</CRC>
-      </Package>
-      <Package Name="Middle Mouse" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_Battle_Assistant_Middle_Mouse" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>2009</Size>
-        <UpdateComment>file: mod_battle_assistant.txt</UpdateComment>
-        <Timestamp>131699278379757372</Timestamp>
-      </Package>
-      <Package Name="Increased Smooth Time (0,5)" Type="multi" Visible="True" PackageName="Ingame_Aim_Battle_Assistant_Increased_smoothTime" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>505</Size>
-        <UpdateComment>patch-file</UpdateComment>
-        <Description>smoothes the mouse movement</Description>
-        <Timestamp>131865268238687440</Timestamp>
-        <ZipFile>Ingame_Aim_Battle_Assistant_Config_Increased_smoothTime_2018-11-12.zip</ZipFile>
-        <CRC>08a03a327e4d5a85cd8348bf3d37f84e</CRC>
-      </Package>
-      <Package Name="Increased Zoom Speed" Type="multi" Visible="True" PackageName="Ingame_Aim_Battle_Assistant_Increased_Zoom_Speed" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>688</Size>
-        <UpdateComment>patch-file</UpdateComment>
-        <Description>patch-file</Description>
-        <Timestamp>131737547279721772</Timestamp>
-        <ZipFile>Ingame_Aim_Battle_Assistant_Config_Increased_Zoom_Speed_2018-07-03.zip</ZipFile>
-        <CRC>9b0fbbcb83f23ef95a0c6dd814b116fa</CRC>
-      </Package>
-    </Packages>
+    <UpdateComment>forums link:\nhttp://forum.worldoftanks.ru/index.php?/topic/1389614-</UpdateComment>
     <Medias>
       <Media URL="http://cdn-frm-eu.wargaming.net/wot/ru/uploads/monthly_08_2014/post-6420121-0-91975400-1408203215.jpg" MediaType="Picture" />
       <Media URL="http://cdn-frm-eu.wargaming.net/wot/ru/uploads/monthly_08_2014/post-6420121-0-54067300-1408203191.jpg" MediaType="Picture" />
       <Media URL="http://cdn-frm-eu.wargaming.net/wot/ru/uploads/monthly_08_2014/post-6420121-0-73875800-1408203179.jpg" MediaType="Picture" />
     </Medias>
+    <UserFiles>
+      <UserFile Pattern="mods\configs\battle_assistant\mod_battle_assistant.txt" />
+    </UserFiles>
     <Dependencies>
       <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
     </Dependencies>
-    <Version>2.2.0</Version>
-    <Timestamp>131935983470355624</Timestamp>
-    <ZipFile>Ingame_Aim_Battle_Assistant_Base_v2.2.0_1.3.0.1_2019-02-02.zip</ZipFile>
-    <CRC>fd3e788f409fcb8fef6bf694c9088e62</CRC>
+    <Packages>
+      <Package PackageName="Ingame_Aim_Battle_Assistant_G" Enabled="True" InstallGroup="4" PatchGroup="0" Name="G" Type="single_dropdown1" Visible="True">
+        <ZipFile>Ingame_Aim_Battle_Assistant_Config_G_2018-06-17.zip</ZipFile>
+        <CRC>b1a356611aa448ca7d6438476c524129</CRC>
+        <Timestamp>131737547087039255</Timestamp>
+        <Size>600</Size>
+        <UpdateComment>file: mod_battle_assistant.txt</UpdateComment>
+      </Package>
+      <Package PackageName="Ingame_Aim_Battle_Assistant_J" Enabled="True" InstallGroup="4" PatchGroup="0" Name="J" Type="single_dropdown1" Visible="True">
+        <ZipFile>Ingame_Aim_Battle_Assistant_Config_J_2018-06-17.zip</ZipFile>
+        <CRC>1f0ac2948817ec0f418f532208016af0</CRC>
+        <Timestamp>131737547181602103</Timestamp>
+        <Size>600</Size>
+        <UpdateComment>file: mod_battle_assistant.txt</UpdateComment>
+      </Package>
+      <Package PackageName="Ingame_Aim_Battle_Assistant_Middle_Mouse" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Middle Mouse" Type="single_dropdown1" Visible="True">
+        <Timestamp>131699278379757372</Timestamp>
+        <Size>2009</Size>
+        <UpdateComment>file: mod_battle_assistant.txt</UpdateComment>
+      </Package>
+      <Package PackageName="Ingame_Aim_Battle_Assistant_Increased_smoothTime" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Increased Smooth Time (0,5)" Type="multi" Visible="True">
+        <ZipFile>Ingame_Aim_Battle_Assistant_Config_Increased_smoothTime_2018-11-12.zip</ZipFile>
+        <CRC>08a03a327e4d5a85cd8348bf3d37f84e</CRC>
+        <Timestamp>131865268238687440</Timestamp>
+        <Size>505</Size>
+        <Description>smoothes the mouse movement</Description>
+        <UpdateComment>patch-file</UpdateComment>
+      </Package>
+      <Package PackageName="Ingame_Aim_Battle_Assistant_Increased_Zoom_Speed" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Increased Zoom Speed" Type="multi" Visible="True">
+        <ZipFile>Ingame_Aim_Battle_Assistant_Config_Increased_Zoom_Speed_2018-07-03.zip</ZipFile>
+        <CRC>9b0fbbcb83f23ef95a0c6dd814b116fa</CRC>
+        <Timestamp>131737547279721772</Timestamp>
+        <Size>688</Size>
+        <Description>patch-file</Description>
+        <UpdateComment>patch-file</UpdateComment>
+      </Package>
+    </Packages>
   </Package>
-  <Package Name="Autoaim modifications" Type="multi" Visible="True" PackageName="Ingame_Aim_AutoAim_modifications" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_AutoAim_modifications" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Autoaim modifications" Type="multi" Visible="True">
+    <Timestamp>131562948677771761</Timestamp>
     <Size>17838</Size>
     <Packages>
-      <Package Name="Autoaim indication (press Right-ALT to en-/disable)" Type="single1" Visible="True" PackageName="Ingame_Aim_AutoAim_Indication" InstallGroup="4" PatchGroup="0" Enabled="True">
+      <Package PackageName="Ingame_Aim_AutoAim_Indication" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Autoaim indication (press Right-ALT to en-/disable)" Type="single1" Visible="True">
+        <Version>1.0.2.1</Version>
+        <ZipFile>Ingame_Aim_AutoAim_base_2019-02-26.zip</ZipFile>
+        <CRC>b8d36cef69b385010b578e9e3e41d6c8</CRC>
+        <Timestamp>131956507653384234</Timestamp>
         <Size>20088</Size>
-        <UpdateComment>2019-02-25:   oldskool fix for wheeled vehicles</UpdateComment>
         <Description>Allows you to auto aim onto a visable target (red outline) when you right click.\n\nLocks onto a target when manually highlighted, so it is legal now.\n\nTo enable or disable this mod, press the Right-ALT key.</Description>
-        <Packages>
-          <Package Name="2 sec autoaim search" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_AutoAim_2_sec" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>1137</Size>
-            <Description>Search allows the player to right click and for 2 seconds it will snap on the first highlighted enemy.</Description>
-            <ZipFile>Ingame_Aim_AutoAim_config_2_sec.zip</ZipFile>
-            <CRC>0aa0b9bd268176b63880c248b69563f0</CRC>
-          </Package>
-          <Package Name="5 sec autoaim search" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_AutoAim_5_sec" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>1137</Size>
-            <Description>Search allows the player to right click and for 5 seconds it will snap on the first highlighted enemy.</Description>
-            <ZipFile>Ingame_Aim_AutoAim_config_5_sec.zip</ZipFile>
-            <CRC>78c2bcf6b1d4a22e6f6bf3afeb8b9501</CRC>
-          </Package>
-          <Package Name="infinite autoaim search" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_AutoAim_inf_search" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>1141</Size>
-            <Description>Search allows the player to right click, it will snap on the first highlighted enemy.</Description>
-            <ZipFile>Ingame_Aim_AutoAim_config_inf_sec.zip</ZipFile>
-            <CRC>07a655b4a0f57a4d302fde24f1861434</CRC>
-          </Package>
-          <Package Name="auto-announce reload add-on" Type="multi" Visible="True" PackageName="Ingame_Aim_AutoAim_announce_reload_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>1182</Size>
-            <ZipFile>Ingame_Aim_AutoAim_config_announce_reload_enable.zip</ZipFile>
-            <CRC>dfdf700c91bb96b61796ad670471cdb6</CRC>
-          </Package>
-          <Package Name="repair with T add-on" Type="multi" Visible="True" PackageName="Ingame_Aim_AutoAim_repair_with_t_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>1175</Size>
-            <ZipFile>Ingame_Aim_AutoAim_config_repair_with_t_enable.zip</ZipFile>
-            <CRC>1b92c6ba9a85093f7575f930c635c8a6</CRC>
-          </Package>
-          <Package Name="ally shot blocker add-on" Type="multi" Visible="True" PackageName="Ingame_Aim_AutoAim_no_friendly_fire_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>1176</Size>
-            <ZipFile>Ingame_Aim_AutoAim_config_ally_shot_block_enable.zip</ZipFile>
-            <CRC>570d9d6b45736ffb17075c3c418ff291</CRC>
-          </Package>
-          <Package Name="help message when spotted add-on" Type="multi" Visible="True" PackageName="Ingame_Aim_AutoAim_help_spotted_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>1166</Size>
-            <ZipFile>Ingame_Aim_AutoAim_config_help_spotted_enable.zip</ZipFile>
-            <CRC>576704ed7a3967d1759dd0f49f5a85fe</CRC>
-          </Package>
-        </Packages>
+        <UpdateComment>2019-02-25:   oldskool fix for wheeled vehicles</UpdateComment>
         <Medias>
           <Media URL="http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_10_2014/post-506947255-0-02175200-1414274138.jpg" MediaType="Picture" />
         </Medias>
-        <Version>1.0.2.1</Version>
-        <Timestamp>131956507653384234</Timestamp>
-        <ZipFile>Ingame_Aim_AutoAim_base_2019-02-26.zip</ZipFile>
-        <CRC>b8d36cef69b385010b578e9e3e41d6c8</CRC>
-      </Package>
-      <Package Name="Autoaim Indicator Extended v{version}" Type="single1" Visible="True" PackageName="Ingame_Aim_AutoAim_Indicator_Extended" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>76211</Size>
-        <Description>Using auto-aiming is very useful, especially when you start someone to twist or just the target stands and does not move. Grabbing it you no longer need to drive with your mouse and try to aim your gun at it. The majority of tankmen learned about this miracle of the invention after the introduction of the regime of tank racing. \n\nOften, in serious mixes, taking someone on an auto-target, you can forget whom you are keeping on the fly and this often does not have a very good effect on your effectiveness, because you can not shoot where you want to. In order to always be aware of what kind of goal is captured in your sight, there is a Mod: Indicator - an extended indication of this Mod. With his help, not to see the captured goal will be simply impossible.\n\nBy setting the mode of the extended auto-target display, you will see the following alerts on the captured target:\n- on the captured tank will be included a constant stroke of the contour\n- around will appear a semitransparent energy field\n- if the target you capture suddenly leaves your field of vision, the arrow on the right or left will show directions and distance to it\n\nThe color of the energy field indicator changes in the mod settings in the hangar. Available colors are shown in the row below. \n\nColor options:\n- blue\n- brown\n- chocolate\n- cornflower blue\n- cream\n- blue cyan\n- emerald\n- golden\n- green\n- yellow-green\n- hot pink\n- lime\n- orange\n- pink\n- purple\n- red\n- WG Backlight\n- WG enemy\n- WG friendly\n- WG platoon\n- yellow</Description>
         <Packages>
-          <Package Name="english" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_AutoAim_Indicator_Extended_english" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Description>Using auto-aiming is very useful, especially when you start someone to twist or just the target stands and does not move. Grabbing it you no longer need to drive with your mouse and try to aim your gun at it. The majority of tankmen learned about this miracle of the invention after the introduction of the regime of tank racing. \n\nOften, in serious mixes, taking someone on an auto-target, you can forget whom you are keeping on the fly and this often does not have a very good effect on your effectiveness, because you can not shoot where you want to. In order to always be aware of what kind of goal is captured in your sight, there is a Mod: Indicator - an extended indication of this Mod. With his help, not to see the captured goal will be simply impossible.\n\nBy setting the mode of the extended auto-target display, you will see the following alerts on the captured target:\n- on the captured tank will be included a constant stroke of the contour\n- around will appear a semitransparent energy field\n- if the target you capture suddenly leaves your field of vision, the arrow on the right or left will show directions and distance to it\n\nThe color of the energy field indicator changes in the mod settings in the hangar. Available colors are shown in the row below. \n\nColor options:\n- blue\n- brown\n- chocolate\n- cornflower blue\n- cream\n- blue cyan\n- emerald\n- golden\n- green\n- yellow-green\n- hot pink\n- lime\n- orange\n- pink\n- purple\n- red\n- WG Backlight\n- WG enemy\n- WG friendly\n- WG platoon\n- yellow</Description>
-            <Dependencies>
-              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_english" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Version>3.12</Version>
-            <Timestamp>131719226516406406</Timestamp>
+          <Package PackageName="Ingame_Aim_AutoAim_2_sec" Enabled="True" InstallGroup="4" PatchGroup="0" Name="2 sec autoaim search" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_AutoAim_config_2_sec.zip</ZipFile>
+            <CRC>0aa0b9bd268176b63880c248b69563f0</CRC>
+            <Size>1137</Size>
+            <Description>Search allows the player to right click and for 2 seconds it will snap on the first highlighted enemy.</Description>
           </Package>
-          <Package Name="german / deutsch" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_AutoAim_Indicator_Extended_german" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Dependencies>
-              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_german" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Timestamp>131719226434238080</Timestamp>
+          <Package PackageName="Ingame_Aim_AutoAim_5_sec" Enabled="True" InstallGroup="4" PatchGroup="0" Name="5 sec autoaim search" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_AutoAim_config_5_sec.zip</ZipFile>
+            <CRC>78c2bcf6b1d4a22e6f6bf3afeb8b9501</CRC>
+            <Size>1137</Size>
+            <Description>Search allows the player to right click and for 5 seconds it will snap on the first highlighted enemy.</Description>
+          </Package>
+          <Package PackageName="Ingame_Aim_AutoAim_inf_search" Enabled="True" InstallGroup="4" PatchGroup="0" Name="infinite autoaim search" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_AutoAim_config_inf_sec.zip</ZipFile>
+            <CRC>07a655b4a0f57a4d302fde24f1861434</CRC>
+            <Size>1141</Size>
+            <Description>Search allows the player to right click, it will snap on the first highlighted enemy.</Description>
+          </Package>
+          <Package PackageName="Ingame_Aim_AutoAim_announce_reload_enable" Enabled="True" InstallGroup="4" PatchGroup="0" Name="auto-announce reload add-on" Type="multi" Visible="True">
+            <ZipFile>Ingame_Aim_AutoAim_config_announce_reload_enable.zip</ZipFile>
+            <CRC>dfdf700c91bb96b61796ad670471cdb6</CRC>
+            <Size>1182</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_AutoAim_repair_with_t_enable" Enabled="True" InstallGroup="4" PatchGroup="0" Name="repair with T add-on" Type="multi" Visible="True">
+            <ZipFile>Ingame_Aim_AutoAim_config_repair_with_t_enable.zip</ZipFile>
+            <CRC>1b92c6ba9a85093f7575f930c635c8a6</CRC>
+            <Size>1175</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_AutoAim_no_friendly_fire_enable" Enabled="True" InstallGroup="4" PatchGroup="0" Name="ally shot blocker add-on" Type="multi" Visible="True">
+            <ZipFile>Ingame_Aim_AutoAim_config_ally_shot_block_enable.zip</ZipFile>
+            <CRC>570d9d6b45736ffb17075c3c418ff291</CRC>
+            <Size>1176</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_AutoAim_help_spotted_enable" Enabled="True" InstallGroup="4" PatchGroup="0" Name="help message when spotted add-on" Type="multi" Visible="True">
+            <ZipFile>Ingame_Aim_AutoAim_config_help_spotted_enable.zip</ZipFile>
+            <CRC>576704ed7a3967d1759dd0f49f5a85fe</CRC>
+            <Size>1166</Size>
           </Package>
         </Packages>
+      </Package>
+      <Package PackageName="Ingame_Aim_AutoAim_Indicator_Extended" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Autoaim Indicator Extended v{version}" Type="single1" Visible="True">
+        <Version>3.15</Version>
+        <ZipFile>Ingame_Aim_Autoaim_Indicator_Extended_1.4.0.0_2019-02-06.zip</ZipFile>
+        <CRC>910b45db1e5c3fa76c641be9237e069c</CRC>
+        <Timestamp>131940096127208543</Timestamp>
+        <Size>76211</Size>
+        <Description>Using auto-aiming is very useful, especially when you start someone to twist or just the target stands and does not move. Grabbing it you no longer need to drive with your mouse and try to aim your gun at it. The majority of tankmen learned about this miracle of the invention after the introduction of the regime of tank racing. \n\nOften, in serious mixes, taking someone on an auto-target, you can forget whom you are keeping on the fly and this often does not have a very good effect on your effectiveness, because you can not shoot where you want to. In order to always be aware of what kind of goal is captured in your sight, there is a Mod: Indicator - an extended indication of this Mod. With his help, not to see the captured goal will be simply impossible.\n\nBy setting the mode of the extended auto-target display, you will see the following alerts on the captured target:\n- on the captured tank will be included a constant stroke of the contour\n- around will appear a semitransparent energy field\n- if the target you capture suddenly leaves your field of vision, the arrow on the right or left will show directions and distance to it\n\nThe color of the energy field indicator changes in the mod settings in the hangar. Available colors are shown in the row below. \n\nColor options:\n- blue\n- brown\n- chocolate\n- cornflower blue\n- cream\n- blue cyan\n- emerald\n- golden\n- green\n- yellow-green\n- hot pink\n- lime\n- orange\n- pink\n- purple\n- red\n- WG Backlight\n- WG enemy\n- WG friendly\n- WG platoon\n- yellow</Description>
         <Medias>
           <Media URL="http://wotsite.net/images/2014/11/27/2.jpg" MediaType="Picture" />
         </Medias>
@@ -516,66 +505,37 @@
           <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
         </Dependencies>
-        <Version>3.15</Version>
-        <Timestamp>131940096127208543</Timestamp>
-        <ZipFile>Ingame_Aim_Autoaim_Indicator_Extended_1.4.0.0_2019-02-06.zip</ZipFile>
-        <CRC>910b45db1e5c3fa76c641be9237e069c</CRC>
+        <Packages>
+          <Package PackageName="Ingame_Aim_AutoAim_Indicator_Extended_english" Enabled="True" InstallGroup="4" PatchGroup="0" Name="english" Type="single_dropdown1" Visible="True">
+            <Version>3.12</Version>
+            <Timestamp>131719226516406406</Timestamp>
+            <Description>Using auto-aiming is very useful, especially when you start someone to twist or just the target stands and does not move. Grabbing it you no longer need to drive with your mouse and try to aim your gun at it. The majority of tankmen learned about this miracle of the invention after the introduction of the regime of tank racing. \n\nOften, in serious mixes, taking someone on an auto-target, you can forget whom you are keeping on the fly and this often does not have a very good effect on your effectiveness, because you can not shoot where you want to. In order to always be aware of what kind of goal is captured in your sight, there is a Mod: Indicator - an extended indication of this Mod. With his help, not to see the captured goal will be simply impossible.\n\nBy setting the mode of the extended auto-target display, you will see the following alerts on the captured target:\n- on the captured tank will be included a constant stroke of the contour\n- around will appear a semitransparent energy field\n- if the target you capture suddenly leaves your field of vision, the arrow on the right or left will show directions and distance to it\n\nThe color of the energy field indicator changes in the mod settings in the hangar. Available colors are shown in the row below. \n\nColor options:\n- blue\n- brown\n- chocolate\n- cornflower blue\n- cream\n- blue cyan\n- emerald\n- golden\n- green\n- yellow-green\n- hot pink\n- lime\n- orange\n- pink\n- purple\n- red\n- WG Backlight\n- WG enemy\n- WG friendly\n- WG platoon\n- yellow</Description>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_english" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Ingame_Aim_AutoAim_Indicator_Extended_german" Enabled="True" InstallGroup="4" PatchGroup="0" Name="german / deutsch" Type="single_dropdown1" Visible="True">
+            <Timestamp>131719226434238080</Timestamp>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_german" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+        </Packages>
       </Package>
     </Packages>
-    <Timestamp>131562948677771761</Timestamp>
   </Package>
-  <Package Name="SafeShot Mods" Type="multi" Visible="True" PackageName="Ingame_Aim_SafeShot_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_SafeShot_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="SafeShot Mods" Type="multi" Visible="True">
+    <Timestamp>131711562586822656</Timestamp>
     <Size>28737</Size>
     <Description>prevents you from shooting your gun to hit allies/dead tanks/etc.\n\n\nlegal info\nhttp://forum.worldoftanks.eu/index.php?/topic/599621-wg-support-safeshot-is-illegal/page__st__20__pid__13403197#entry13403197</Description>
     <Packages>
-      <Package Name="SafeShot by OldSkool" Type="single1" Visible="True" PackageName="Ingame_Aim_SafeShot_oldskool" InstallGroup="4" PatchGroup="0" Enabled="True">
+      <Package PackageName="Ingame_Aim_SafeShot_oldskool" Enabled="True" InstallGroup="4" PatchGroup="0" Name="SafeShot by OldSkool" Type="single1" Visible="True">
+        <ZipFile>Ingame_Aim_SafeShot_OldSkool_base_1.4.0_2019-02-06.zip</ZipFile>
+        <CRC>21c3bdbb74c11cb1e93a0eb49beb6818</CRC>
+        <Timestamp>131939404521383872</Timestamp>
         <Size>25826</Size>
-        <UpdateComment>Url for Oldskool  mods: https://wgmods.net/search/?owner=38530</UpdateComment>
         <Description>SafeShot is preventing team damage to allied tanks. This mod offers you a nice interface and the option to configure it ingame.</Description>
-        <Packages>
-          <Package Name="1 second timeout" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_SafeShot_oldskool_timeout_1" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>941</Size>
-            <Timestamp>131711766442926472</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_oldskool_timeout_1.zip</ZipFile>
-            <CRC>8cd8c8dba4fd25f9d88aa04a3e617a4d</CRC>
-          </Package>
-          <Package Name="3 second timeout" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_SafeShot_oldskool_timeout_3" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>943</Size>
-            <Timestamp>131711766612261910</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_oldskool_timeout_3.zip</ZipFile>
-            <CRC>ff3cd244ec9c5cf6b9857c4641001aa5</CRC>
-          </Package>
-          <Package Name="5 second timeout" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_SafeShot_oldskool_timeout_5" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>943</Size>
-            <Timestamp>131711766804131937</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_oldskool_timeout_5.zip</ZipFile>
-            <CRC>f4c902717d60838227a28e11e37d4480</CRC>
-          </Package>
-          <Package Name="Block shots to dead tanks" Type="multi" Visible="True" PackageName="Ingame_Aim_SafeShot_oldskool_block_dead" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>939</Size>
-            <Timestamp>131711767642561721</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_oldskool_block_dead.zip</ZipFile>
-            <CRC>39dab16e1d8e1ce7b29c419a08a5c727</CRC>
-          </Package>
-          <Package Name="Block shots to allies" Type="multi" Visible="True" PackageName="Ingame_Aim_SafeShot_oldskool_block_ally" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>942</Size>
-            <Timestamp>131711767805700715</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_oldskool_block_ally.zip</ZipFile>
-            <CRC>8b9793a551a9162a8f2bab187b4eec4f</CRC>
-          </Package>
-          <Package Name="Block shots to teamkillers" Type="multi" Visible="True" PackageName="Ingame_Aim_SafeShot_oldskool_block_tk" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>942</Size>
-            <Timestamp>131711767975444478</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_oldskool_block_tk.zip</ZipFile>
-            <CRC>a43c674fa82579f4ce39d3e41f81bb1f</CRC>
-          </Package>
-          <Package Name="Send message in chat" Type="multi" Visible="True" PackageName="Ingame_Aim_SafeShot_oldskool_send_chat_message" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>952</Size>
-            <Timestamp>131711768095670547</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_oldskool_send_chat_message.zip</ZipFile>
-            <CRC>ac6014f589724e3a66fd695897c4cbed</CRC>
-          </Package>
-        </Packages>
+        <UpdateComment>Url for Oldskool  mods: https://wgmods.net/search/?owner=38530</UpdateComment>
         <Medias>
           <Media URL="https://wgmods.net/media/safeshot1.png.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
           <Media URL="https://wgmods.net/media/safeshot3.png.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
@@ -585,64 +545,58 @@
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
         </Dependencies>
-        <Timestamp>131939404521383872</Timestamp>
-        <ZipFile>Ingame_Aim_SafeShot_OldSkool_base_1.4.0_2019-02-06.zip</ZipFile>
-        <CRC>21c3bdbb74c11cb1e93a0eb49beb6818</CRC>
-      </Package>
-      <Package Name="SafeShot by PROTanki" Type="single1" Visible="True" PackageName="Ingame_Aim_SafeShot_protanki" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>41544</Size>
-        <UpdateComment>2018-10-23: protanki made a spelling mistake (saveshot instead of safeshot), that caused errors loading correct config -&gt; renamed/fixed!</UpdateComment>
-        <Description>The SafeShot mod is the disabling of accidental firing on corpses and allies for World of Tanks 1.0.1.1. A very useful mod that will save you from firing on already killed tanks. Example, you shoot the enemy is not one and finish it off, but you already poke without stopping the button and shoot into the already killed tank and leave not the CD. With this mod, this will not happen again. Also, the mod will help protect your account from your children or those who do not know people who can start shooting at their allies.</Description>
         <Packages>
-          <Package Name="1 second timeout" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_SafeShot_protanki_timeout_1" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>936</Size>
-            <Timestamp>131711768224999513</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_protanki_timeout_1.zip</ZipFile>
-            <CRC>5f8501dc69e40b422de51be12c8f660b</CRC>
+          <Package PackageName="Ingame_Aim_SafeShot_oldskool_timeout_1" Enabled="True" InstallGroup="4" PatchGroup="0" Name="1 second timeout" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_oldskool_timeout_1.zip</ZipFile>
+            <CRC>8cd8c8dba4fd25f9d88aa04a3e617a4d</CRC>
+            <Timestamp>131711766442926472</Timestamp>
+            <Size>941</Size>
           </Package>
-          <Package Name="3 second timeout" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_SafeShot_protanki_timeout_3" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>936</Size>
-            <Timestamp>131711768345666382</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_protanki_timeout_3.zip</ZipFile>
-            <CRC>c2de34ff364ce6ab17b16702c65deefc</CRC>
+          <Package PackageName="Ingame_Aim_SafeShot_oldskool_timeout_3" Enabled="True" InstallGroup="4" PatchGroup="0" Name="3 second timeout" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_oldskool_timeout_3.zip</ZipFile>
+            <CRC>ff3cd244ec9c5cf6b9857c4641001aa5</CRC>
+            <Timestamp>131711766612261910</Timestamp>
+            <Size>943</Size>
           </Package>
-          <Package Name="5 second timeout" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_SafeShot_protanki_timeout_5" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>936</Size>
-            <Timestamp>131711768440507147</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_protanki_timeout_5.zip</ZipFile>
-            <CRC>f8ac6733e5753da8adf46aa268d19d2a</CRC>
+          <Package PackageName="Ingame_Aim_SafeShot_oldskool_timeout_5" Enabled="True" InstallGroup="4" PatchGroup="0" Name="5 second timeout" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_oldskool_timeout_5.zip</ZipFile>
+            <CRC>f4c902717d60838227a28e11e37d4480</CRC>
+            <Timestamp>131711766804131937</Timestamp>
+            <Size>943</Size>
           </Package>
-          <Package Name="Block shots to dead tanks" Type="multi" Visible="True" PackageName="Ingame_Aim_SafeShot_protanki_block_dead" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>938</Size>
-            <Timestamp>131711768546557798</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_protanki_block_dead.zip</ZipFile>
-            <CRC>3eccbc58ecc52349e297f8570123dd72</CRC>
+          <Package PackageName="Ingame_Aim_SafeShot_oldskool_block_dead" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Block shots to dead tanks" Type="multi" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_oldskool_block_dead.zip</ZipFile>
+            <CRC>39dab16e1d8e1ce7b29c419a08a5c727</CRC>
+            <Timestamp>131711767642561721</Timestamp>
+            <Size>939</Size>
           </Package>
-          <Package Name="Block shots to allies" Type="multi" Visible="True" PackageName="Ingame_Aim_SafeShot_protanki_block_ally" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>937</Size>
-            <Timestamp>131711768658092896</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_protanki_block_ally.zip</ZipFile>
-            <CRC>72b0afa70f3832b0d8dc86d6060b5462</CRC>
+          <Package PackageName="Ingame_Aim_SafeShot_oldskool_block_ally" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Block shots to allies" Type="multi" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_oldskool_block_ally.zip</ZipFile>
+            <CRC>8b9793a551a9162a8f2bab187b4eec4f</CRC>
+            <Timestamp>131711767805700715</Timestamp>
+            <Size>942</Size>
           </Package>
-          <Package Name="Send message in chat" Type="multi" Visible="True" PackageName="Ingame_Aim_SafeShot_protanki_send_chat_message" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Size>958</Size>
-            <Timestamp>131711768777209609</Timestamp>
-            <ZipFile>Ingame_Aim_SafeShot_protanki_send_chat_message.zip</ZipFile>
-            <CRC>1df567f23bb9a66139a1654d23730962</CRC>
+          <Package PackageName="Ingame_Aim_SafeShot_oldskool_block_tk" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Block shots to teamkillers" Type="multi" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_oldskool_block_tk.zip</ZipFile>
+            <CRC>a43c674fa82579f4ce39d3e41f81bb1f</CRC>
+            <Timestamp>131711767975444478</Timestamp>
+            <Size>942</Size>
           </Package>
-          <Package Name="SafeShot by PROTanki english" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_SafeShot_protanki_send_chat_message_English" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Dependencies>
-              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_english" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Timestamp>131719238267841424</Timestamp>
-          </Package>
-          <Package Name="SafeShot by PROTanki german / deutsch" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_SafeShot_protanki_send_chat_message_German" InstallGroup="4" PatchGroup="0" Enabled="True">
-            <Dependencies>
-              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_german" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Timestamp>131719234066221532</Timestamp>
+          <Package PackageName="Ingame_Aim_SafeShot_oldskool_send_chat_message" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Send message in chat" Type="multi" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_oldskool_send_chat_message.zip</ZipFile>
+            <CRC>ac6014f589724e3a66fd695897c4cbed</CRC>
+            <Timestamp>131711768095670547</Timestamp>
+            <Size>952</Size>
           </Package>
         </Packages>
+      </Package>
+      <Package PackageName="Ingame_Aim_SafeShot_protanki" Enabled="True" InstallGroup="4" PatchGroup="0" Name="SafeShot by PROTanki" Type="single1" Visible="True">
+        <ZipFile>Ingame_Aim_SafeShot_Protanki_base_1.4.0.0_2019-02-06.zip</ZipFile>
+        <CRC>330cb4a19853b9d2eaa8ce88ed576422</CRC>
+        <Timestamp>131940125941081407</Timestamp>
+        <Size>41544</Size>
+        <Description>The SafeShot mod is the disabling of accidental firing on corpses and allies for World of Tanks 1.0.1.1. A very useful mod that will save you from firing on already killed tanks. Example, you shoot the enemy is not one and finish it off, but you already poke without stopping the button and shoot into the already killed tank and leave not the CD. With this mod, this will not happen again. Also, the mod will help protect your account from your children or those who do not know people who can start shooting at their allies.</Description>
+        <UpdateComment>2018-10-23: protanki made a spelling mistake (saveshot instead of safeshot), that caused errors loading correct config -&gt; renamed/fixed!</UpdateComment>
         <Medias>
           <Media URL="http://wotsite.net/images/2013/12/25/1.jpg" MediaType="Picture" />
         </Medias>
@@ -650,14 +604,63 @@
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
         </Dependencies>
-        <Timestamp>131940125941081407</Timestamp>
-        <ZipFile>Ingame_Aim_SafeShot_Protanki_base_1.4.0.0_2019-02-06.zip</ZipFile>
-        <CRC>330cb4a19853b9d2eaa8ce88ed576422</CRC>
+        <Packages>
+          <Package PackageName="Ingame_Aim_SafeShot_protanki_timeout_1" Enabled="True" InstallGroup="4" PatchGroup="0" Name="1 second timeout" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_protanki_timeout_1.zip</ZipFile>
+            <CRC>5f8501dc69e40b422de51be12c8f660b</CRC>
+            <Timestamp>131711768224999513</Timestamp>
+            <Size>936</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_SafeShot_protanki_timeout_3" Enabled="True" InstallGroup="4" PatchGroup="0" Name="3 second timeout" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_protanki_timeout_3.zip</ZipFile>
+            <CRC>c2de34ff364ce6ab17b16702c65deefc</CRC>
+            <Timestamp>131711768345666382</Timestamp>
+            <Size>936</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_SafeShot_protanki_timeout_5" Enabled="True" InstallGroup="4" PatchGroup="0" Name="5 second timeout" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_protanki_timeout_5.zip</ZipFile>
+            <CRC>f8ac6733e5753da8adf46aa268d19d2a</CRC>
+            <Timestamp>131711768440507147</Timestamp>
+            <Size>936</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_SafeShot_protanki_block_dead" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Block shots to dead tanks" Type="multi" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_protanki_block_dead.zip</ZipFile>
+            <CRC>3eccbc58ecc52349e297f8570123dd72</CRC>
+            <Timestamp>131711768546557798</Timestamp>
+            <Size>938</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_SafeShot_protanki_block_ally" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Block shots to allies" Type="multi" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_protanki_block_ally.zip</ZipFile>
+            <CRC>72b0afa70f3832b0d8dc86d6060b5462</CRC>
+            <Timestamp>131711768658092896</Timestamp>
+            <Size>937</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_SafeShot_protanki_send_chat_message" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Send message in chat" Type="multi" Visible="True">
+            <ZipFile>Ingame_Aim_SafeShot_protanki_send_chat_message.zip</ZipFile>
+            <CRC>1df567f23bb9a66139a1654d23730962</CRC>
+            <Timestamp>131711768777209609</Timestamp>
+            <Size>958</Size>
+          </Package>
+          <Package PackageName="Ingame_Aim_SafeShot_protanki_send_chat_message_English" Enabled="True" InstallGroup="4" PatchGroup="0" Name="SafeShot by PROTanki english" Type="single_dropdown1" Visible="True">
+            <Timestamp>131719238267841424</Timestamp>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_english" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Ingame_Aim_SafeShot_protanki_send_chat_message_German" Enabled="True" InstallGroup="4" PatchGroup="0" Name="SafeShot by PROTanki german / deutsch" Type="single_dropdown1" Visible="True">
+            <Timestamp>131719234066221532</Timestamp>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_german" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+        </Packages>
       </Package>
     </Packages>
-    <Timestamp>131711562586822656</Timestamp>
   </Package>
-  <Package Name="MeltyElement EffectiveArmorPanel (by elementofprgress)" Type="multi" Visible="True" PackageName="Ingame_Aim_MeltyElement_EffectiveArmorPanel" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_MeltyElement_EffectiveArmorPanel" Enabled="True" InstallGroup="4" PatchGroup="0" Name="MeltyElement EffectiveArmorPanel (by elementofprgress)" Type="multi" Visible="True">
+    <ZipFile>ingame_aim_MeltyElement_EffectiveArmorPanel_ALPHA_2018-07-30.zip</ZipFile>
+    <CRC>5baa743a024898424757f6d4be797856</CRC>
+    <Timestamp>131775239748831130</Timestamp>
     <Size>56267</Size>
     <Description>The effective armor calculator does, well exactly what it sounds like it does. \nIt gives you real time information about the actual thickness of your hulls armor based on angle of your tank compared to where you are looking/aiming.\nIt also displays gun constraints.\n\nIt´s a remake of the ArmorPanel (&amp; Protractor) that was included in the original MeltyMap sights. \nThis mod shows front and side armor in current line of view (side armor without trucks).\n(as i got asked: you DO NOT see the lines on the picture)\n\nAttention! \nThis mod was released by its developer as ALPHA!\n\nKnown Bugs:\nWhen changing the volume level with windows-shortcuts or over  the keyboard (if your keyboard got this) there will be a light red ball appearing on the screen. this is meant for debugging the mod by the  developers and currently can´t get disabled!</Description>
     <Medias>
@@ -666,35 +669,32 @@
     <Dependencies>
       <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
     </Dependencies>
-    <Timestamp>131775239748831130</Timestamp>
-    <ZipFile>ingame_aim_MeltyElement_EffectiveArmorPanel_ALPHA_2018-07-30.zip</ZipFile>
-    <CRC>5baa743a024898424757f6d4be797856</CRC>
   </Package>
-  <Package Name="BalCalcMod" Type="multi" Visible="True" PackageName="Ingame_Aim_BalCalcMod_Base" InstallGroup="4" PatchGroup="0" Enabled="True">
+  <Package PackageName="Ingame_Aim_BalCalcMod_Base" Enabled="True" InstallGroup="4" PatchGroup="0" Name="BalCalcMod" Type="multi" Visible="True">
+    <ZipFile>Ingame_Aim_BalCalcMod_Base_0.9.19.1_2017-07-12.zip</ZipFile>
+    <CRC>474595b7ba0df34a8e82a6910d607170</CRC>
     <Size>9176</Size>
     <Description>The mod is designed to remedy the situation where it is impossible to aim above the hill. (Overshooting)</Description>
-    <Packages>
-      <Package Name="E key" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_BalCalcMod_Config_E" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>713</Size>
-        <Timestamp>131953953104815432</Timestamp>
-        <ZipFile>Ingame_Aim_BalCalcMod_Config_E_2019-02-23.zip</ZipFile>
-        <CRC>0145d50c17745bffb2138144989e7021</CRC>
-      </Package>
-      <Package Name="F key" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_BalCalcMod_Config_F" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>734</Size>
-        <ZipFile>Ingame_Aim_BalCalcMod_Config_F_0.9.18_2017-05-02.zip</ZipFile>
-        <CRC>3c344f9f12dbedc153bf543e7c99d89c</CRC>
-      </Package>
-      <Package Name="Q key" Type="single_dropdown1" Visible="True" PackageName="Ingame_Aim_BalCalcMod_Config_Q" InstallGroup="4" PatchGroup="0" Enabled="True">
-        <Size>713</Size>
-        <ZipFile>Ingame_Aim_BalCalcMod_Config_Q_0.9.18_2017-05-02.zip</ZipFile>
-        <CRC>2ef42eb6e6b184b65dba9b44130a0597</CRC>
-      </Package>
-    </Packages>
     <Medias>
       <Media URL="http://s1.directupload.net/images/user/140614/qhfyk8zv.jpg" MediaType="Picture" />
     </Medias>
-    <ZipFile>Ingame_Aim_BalCalcMod_Base_0.9.19.1_2017-07-12.zip</ZipFile>
-    <CRC>474595b7ba0df34a8e82a6910d607170</CRC>
+    <Packages>
+      <Package PackageName="Ingame_Aim_BalCalcMod_Config_E" Enabled="True" InstallGroup="4" PatchGroup="0" Name="E key" Type="single_dropdown1" Visible="True">
+        <ZipFile>Ingame_Aim_BalCalcMod_Config_E_2019-02-23.zip</ZipFile>
+        <CRC>0145d50c17745bffb2138144989e7021</CRC>
+        <Timestamp>131953953104815432</Timestamp>
+        <Size>713</Size>
+      </Package>
+      <Package PackageName="Ingame_Aim_BalCalcMod_Config_F" Enabled="True" InstallGroup="4" PatchGroup="0" Name="F key" Type="single_dropdown1" Visible="True">
+        <ZipFile>Ingame_Aim_BalCalcMod_Config_F_0.9.18_2017-05-02.zip</ZipFile>
+        <CRC>3c344f9f12dbedc153bf543e7c99d89c</CRC>
+        <Size>734</Size>
+      </Package>
+      <Package PackageName="Ingame_Aim_BalCalcMod_Config_Q" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Q key" Type="single_dropdown1" Visible="True">
+        <ZipFile>Ingame_Aim_BalCalcMod_Config_Q_0.9.18_2017-05-02.zip</ZipFile>
+        <CRC>2ef42eb6e6b184b65dba9b44130a0597</CRC>
+        <Size>713</Size>
+      </Package>
+    </Packages>
   </Package>
 </Category>
