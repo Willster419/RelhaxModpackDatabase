@@ -1,0 +1,992 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Category Name="Ingame Info">
+  <Package Name="Show Personal Missions in Detail" Type="multi" Visible="False" PackageName="Ingame_Info_Show_Personal_Missions_in_detail" InstallGroup="4" PatchGroup="0" Enabled="False">
+    <Size>46497</Size>
+    <UpdateComment>old link\nhttp://wotsite.net/mody-dlya-world-of-tanks/12268-</UpdateComment>
+    <Description>Shows primary and secondary conditions for Personal Missions\n\nThe mod window can be moved around the screen by holding down CTRL and dragging it using the mouse to the desired location.</Description>
+    <Packages>
+      <Package Name="english" Type="single_dropdown1" Visible="False" PackageName="Ingame_Info_Show_Personal_Missions_in_detail_english" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1528</Size>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_english" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Timestamp>131719261617534611</Timestamp>
+        <ZipFile>Ingame_Info_Show_Personal_Missions_in_detail_english.zip</ZipFile>
+        <CRC>42f6d99b075d14fd679fa9d69a58f817</CRC>
+      </Package>
+      <Package Name="german / deutsch" Type="single_dropdown1" Visible="False" PackageName="Ingame_Info_Show_Personal_Missions_in_detail_german" InstallGroup="4" PatchGroup="0" Enabled="False">
+        <Size>1545</Size>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_german" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Timestamp>131719261208590968</Timestamp>
+        <ZipFile>Ingame_Info_Show_Personal_Missions_in_detail_german.zip</ZipFile>
+        <CRC>35e1191760dd1cae9cff421b1948303c</CRC>
+      </Package>
+    </Packages>
+    <Medias>
+      <Media URL="http://wotsite.net/images/2016/10/4/6.jpg" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Timestamp>131844308471070225</Timestamp>
+    <ZipFile>Ingame_Info_Show_Personal_Missions_in_detail_WGMods_1.2.0.1_2018-10-19.zip</ZipFile>
+    <CRC>742e9e35bf4c24d86892d57dd0802c94</CRC>
+  </Package>
+  <Package Name="Marks on Gun Extended (MoE) v{version} (Marks of Excellence)" Type="multi" Visible="True" PackageName="Ingame_Info_MoG_Extended" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>115612</Size>
+    <Description>Real time MoE (Marks of Excellence) progress on current tank in battle.\n\nSwitch between configurations with ALT+NUM9</Description>
+    <Packages>
+      <Package Name="#1 - Skill4tu´s config (SMALL)" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_MoG_Extended_cfg_skill4tu" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>630</Size>
+        <Description>Real time MoE (Marks of Excellence) progress on current tank in battle.</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/marks_on_gun_xtnd/1_small_skill4tu.png" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131964381134599653</Timestamp>
+        <ZipFile>Ingame_Info_Marks_On_Gun_Extended_UI_cfg_v1_skill4tu_small.zip</ZipFile>
+        <CRC>20f411b8f9a7c1a77b8202dc390e0670</CRC>
+      </Package>
+      <Package Name="#2 - Myp´s config (SMALL)" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_MoG_Extended_cfg_myp" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>631</Size>
+        <Description>Real time MoE (Marks of Excellence) progress on current tank in battle.</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/marks_on_gun_xtnd/2_small_myp.png" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131964382387542434</Timestamp>
+        <ZipFile>Ingame_Info_Marks_On_Gun_Extended_UI_cfg_v2_Myp_small.zip</ZipFile>
+        <CRC>f0721e0b9d3810de380cb626e8c4b6b3</CRC>
+      </Package>
+      <Package Name="#3 - Spoter´s extended config" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_MoG_Extended_cfg_extended" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>631</Size>
+        <Description>Real time MoE (Marks of Excellence) progress on current tank in battle.</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/marks_on_gun_xtnd/3_xtnd_spoter.png" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131964377230991981</Timestamp>
+        <ZipFile>Ingame_Info_Marks_On_Gun_Extended_UI_cfg_v3_spoter_xtnd.zip</ZipFile>
+        <CRC>50915e6fde916a9dcad1995277f10a94</CRC>
+      </Package>
+      <Package Name="#4 - Circon`s config  ( &lt;- our previous default one!)" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_MoG_Extended_cfg_Circon" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>631</Size>
+        <Description>Real time MoE (Marks of Excellence) progress on current tank in battle.</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/marks_on_gun_xtnd/4_extnd_circon.png" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131964375693390475</Timestamp>
+        <ZipFile>Ingame_Info_Marks_On_Gun_Extended_UI_cfg_v4_circon_xtnd.zip</ZipFile>
+        <CRC>81481d7a21e1d895112e4e4fd19702ab</CRC>
+      </Package>
+    </Packages>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/marks_on_gun_xtnd/1_small_skill4tu.png" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/marks_on_gun_xtnd/2_small_myp.png" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/marks_on_gun_xtnd/3_xtnd_spoter.png" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/marks_on_gun_xtnd/4_extnd_circon.png" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/marks_on_gun_xtnd/1_small_skill4tu.png" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Marks_On_Gun_Extended.png" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Version>6.02</Version>
+    <Timestamp>131960395560922175</Timestamp>
+    <ZipFile>Ingame_Info_Marks_On_Gun_Extended_v6.02_1.4.0.1_2019-03-02.zip</ZipFile>
+    <CRC>627a8f7b5d22a123ac91358ad95fa3d8</CRC>
+  </Package>
+  <Package Name="Tank Info Panel" Type="multi" Visible="True" PackageName="Ingame_Info_Tank_Info_Panel_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Packages>
+      <Package Name="Tank Info Panel by Izeberg" Type="single1" Visible="True" PackageName="Ingame_Info_Tank_Info_Panel_by_Izeberg" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>113320</Size>
+        <Description>Choose different styles in garage menu.</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/Ingame_Info_Tank_Info_Panel_by_izeberg.JPG" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Timestamp>131940485797693306</Timestamp>
+        <ZipFile>Ingame_Info_Tank_Info_Panel_by_izeberg_1.4.0.0_2019-02-07.zip</ZipFile>
+        <CRC>7afc30481e9f6616e227e96b19b729e8</CRC>
+      </Package>
+      <Package Name="Tank Info Panel by OldSkool v{version}" Type="single1" Visible="True" PackageName="Ingame_Info_Tank_Info_Panel_by_OldSkool" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>84869</Size>
+        <UpdateComment>URL for Oldskool mods: https://wgmods.net/search/?owner=38530\n\n- Updated for 1.0.2.2 \n- Switched to GUIFlash \n- Fixed a few Bugs</UpdateComment>
+        <Description>features:\n- Default layout of masheene (THX!)\n- Display of the basic values ​​of vehicles Ingame\n- By ALT button, the ability to view your own vehicle\n- Ingame On-the-Fly Configurator \n- Currently it is not possible to create / load your own styles,</Description>
+        <UserFiles>
+          <UserFile Pattern="\\mods\\configs\\oldskool\\tankpanel.json" />
+        </UserFiles>
+        <Medias>
+          <Media URL="https://img2.picload.org/image/ddgiwpar/3.png" MediaType="Picture" />
+          <Media URL="https://img2.picload.org/image/ddgiwpdw/2.png" MediaType="Picture" />
+          <Media URL="https://img2.picload.org/image/ddgiwpdi/1.png" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Version>1.4.0</Version>
+        <Timestamp>131939404995256863</Timestamp>
+        <ZipFile>Ingame_Info_Tank_Info_Panel_Mod_by_OldSkool_1.4.0_2019-02-06.zip</ZipFile>
+        <CRC>02b46f28d0ad6ba530f7c2f28b02fcdc</CRC>
+      </Package>
+      <Package Name="Tank Info Panel by PROTanki" Type="single1" Visible="True" PackageName="Ingame_Info_Tank_Info_Panel_protanki" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>113200</Size>
+        <Packages>
+          <Package Name="english" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_Tank_Info_Panel_protanki_english" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>113917</Size>
+            <Description>Ingame_Info_Tank_Info_Panel_protanki_2018-05-19.zip</Description>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_english" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Timestamp>131801472143767626</Timestamp>
+          </Package>
+          <Package Name="german / deutsch" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_Tank_Info_Panel_protanki_german" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_german" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Timestamp>131719253535355776</Timestamp>
+          </Package>
+        </Packages>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Timestamp>131940127534251439</Timestamp>
+        <ZipFile>Ingame_Info_Tank_Info_Panel_protanki_1.4.0.0_2019-02-06.zip</ZipFile>
+        <CRC>ba02a8974f4c5ad3398d38310e083ef1</CRC>
+      </Package>
+    </Packages>
+  </Package>
+  <Package Name="Wide Border of Maps" Type="multi" Visible="True" PackageName="Ingame_Info_Wide_Border_Of_Maps_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Description>Mod is made to help people with color blindness. The line, that indicates the border of maps, is expanded to the edges of the map. Now don't notice her is almost impossible. "Full" and "Light" differ only in the degree of compressibility. \nWIDE - the border of maps is expanded to the edges of the map.\nINTENSIVE - the border of maps is made in the thickness of 20 pixels (on the standard = 1 pixel).\nGRID - into the version "INTENSIVE" added the grid lines 10x10.\nEXTRAGRID - into the version "INTENSIVE" added the grid lines 50x50.\nCOMMAND - into the version "GRID" added the big numbering squares card.\nSPG - into the version "GRID" added the small numbering squares card.</Description>
+    <Packages>
+      <Package Name="COMMAND Full" Type="single1" Visible="True" PackageName="Ingame_Info_Wide_Border_Of_Maps_COMMAND_full" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>429897736</Size>
+        <Medias>
+          <Media URL="https://img-fotki.yandex.ru/get/765189/9261163.19/0_9fb24_5c07a71e_orig" MediaType="Picture" />
+          <Media URL="https://s7.wampi.ru/2018/09/01/shot_002.jpg" MediaType="Picture" />
+          <Media URL="http://img-fotki.yandex.ru/get/9251/9261163.15/0_81455_ca0f6591_orig.jpg" MediaType="Picture" />
+          <Media URL="https://media-elerium.cursecdn.com/attachments/148/135/14_COMMAND_001.jpg" MediaType="Picture" />
+          <Media URL="https://media-elerium.cursecdn.com/attachments/148/141/51_SPG_003.jpg" MediaType="Picture" />
+          <Media URL="https://media-elerium.cursecdn.com/attachments/148/142/52_SPG_004.jpg" MediaType="Picture" />
+          <Media URL="http://s14.directupload.net/images/user/131226/edtdxlqk.jpg" MediaType="Picture" />
+          <Media URL="http://s7.directupload.net/images/user/131226/tw2bkcqz.jpg" MediaType="Picture" />
+          <Media URL="http://s7.directupload.net/images/user/131226/7wm96t2i.jpg" MediaType="Picture" />
+          <Media URL="http://s1.directupload.net/images/user/131226/4sershwd.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131942145327264439</Timestamp>
+        <ZipFile>Ingame_Info_Wide_Border_Of_Maps_COMMAND_full_wotmod_1.4.0.0_2019-02-09.zip</ZipFile>
+        <CRC>f0774e3b7299e7b83b0764921cca5208</CRC>
+      </Package>
+      <Package Name="EXTRAGRID Full" Type="single1" Visible="True" PackageName="Ingame_Info_Wide_Border_Of_Maps_EXTRAGRID_full" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>425546779</Size>
+        <Medias>
+          <Media URL="https://media-elerium.cursecdn.com/attachments/148/144/EXTRAGRID_000.jpg" MediaType="Picture" />
+          <Media URL="https://media-elerium.cursecdn.com/attachments/148/147/EXTRAGRID_002.jpg" MediaType="Picture" />
+          <Media URL="https://s7.wampi.ru/2018/09/01/shot_003.jpg" MediaType="Picture" />
+          <Media URL="https://media-elerium.cursecdn.com/attachments/148/151/EXTRAGRID_004.jpg" MediaType="Picture" />
+          <Media URL="https://media-elerium.cursecdn.com/attachments/148/159/1.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131942145391446292</Timestamp>
+        <ZipFile>Ingame_Info_Wide_Border_Of_Maps_EXTRAGRID_full_wotmod_1.4.0.0_2019-02-09.zip</ZipFile>
+        <CRC>f6c3274d80562c79c435e9b3b40057a0</CRC>
+      </Package>
+      <Package Name="GRID Full" Type="single1" Visible="True" PackageName="Ingame_Info_Wide_Border_Of_Maps_GRID_full" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>429175787</Size>
+        <Medias>
+          <Media URL="http://s7.directupload.net/images/user/131226/w2a32yqj.jpg" MediaType="Picture" />
+          <Media URL="https://s7.wampi.ru/2018/09/01/shot_001.jpg" MediaType="Picture" />
+          <Media URL="https://media-elerium.cursecdn.com/attachments/148/138/32_GRID_004.jpg" MediaType="Picture" />
+          <Media URL="http://img-fotki.yandex.ru/get/9796/9261163.14/0_8144f_196c27d1_orig.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131942145537925379</Timestamp>
+        <ZipFile>Ingame_Info_Wide_Border_Of_Maps_GRID_full_wotmod_1.4.0.0_2019-02-09.zip</ZipFile>
+        <CRC>edb16be4447b906eb5d18f3f1ec40b50</CRC>
+      </Package>
+      <Package Name="INTENSIVE Full" Type="single1" Visible="True" PackageName="Ingame_Info_Wide_Border_Of_Maps_INTENSIVE_full" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>430569646</Size>
+        <Medias>
+          <Media URL="http://s7.directupload.net/images/user/131226/khu2l4w9.jpg" MediaType="Picture" />
+          <Media URL="https://media-elerium.cursecdn.com/attachments/148/132/12_INTENSIVE_001.jpg" MediaType="Picture" />
+          <Media URL="https://img-fotki.yandex.ru/get/940943/9261163.19/0_9fb23_89bcdb89_orig" MediaType="Picture" />
+          <Media URL="http://img-fotki.yandex.ru/get/9816/9261163.14/0_8144d_ada80bb0_orig.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131942145774457437</Timestamp>
+        <ZipFile>Ingame_Info_Wide_Border_Of_Maps_INTENSIVE_full_wotmod_1.4.0.0_2019-02-09.zip</ZipFile>
+        <CRC>35328081432d8c0584093b2f3f18b50b</CRC>
+      </Package>
+      <Package Name="SPG Full" Type="single1" Visible="True" PackageName="Ingame_Info_Wide_Border_Of_Maps_SPG_full" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>428172647</Size>
+        <Medias>
+          <Media URL="https://s1.wampi.ru/2018/05/02/shot_001.jpg" MediaType="Picture" />
+          <Media URL="https://img-fotki.yandex.ru/get/894414/9261163.19/0_9ea86_7e5ab143_orig" MediaType="Picture" />
+          <Media URL="https://media-elerium.cursecdn.com/attachments/148/154/02_SPG.jpg" MediaType="Picture" />
+          <Media URL="http://s7.directupload.net/images/user/140421/2mqevmv6.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131942145888777662</Timestamp>
+        <ZipFile>Ingame_Info_Wide_Border_Of_Maps_SPG_full_wotmod_1.4.0.0_2019-02-09.zip</ZipFile>
+        <CRC>387ca851ff23fe56547cb84d866ebb8f</CRC>
+      </Package>
+      <Package Name="WIDE Full" Type="single1" Visible="True" PackageName="Ingame_Info_Wide_Border_Of_Maps_WIDE_full" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>299277672</Size>
+        <Medias>
+          <Media URL="http://s1.directupload.net/images/user/131226/56qkj3qm.jpg" MediaType="Picture" />
+          <Media URL="https://img-fotki.yandex.ru/get/940943/9261163.19/0_9fb23_89bcdb89_orig" MediaType="Picture" />
+          <Media URL="https://img-fotki.yandex.ru/get/1025934/9261163.19/0_9fb22_89cdbfe9_orig" MediaType="Picture" />
+          <Media URL="https://media-elerium.cursecdn.com/attachments/148/130/11_WIDE_001.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131942145962188144</Timestamp>
+        <ZipFile>Ingame_Info_Wide_Border_Of_Maps_WIDE_full_wotmod_1.4.0.0_2019-02-09.zip</ZipFile>
+        <CRC>c96cb8ffee418dfee489e8e9d0a5a702</CRC>
+      </Package>
+    </Packages>
+    <Medias>
+      <Media URL="https://media-elerium.cursecdn.com/attachments/148/158/Logo.png" MediaType="Picture" />
+      <Media URL="https://media-elerium.cursecdn.com/attachments/148/143/53_ALL_COLOR_BLIND.jpg" MediaType="Picture" />
+      <Media URL="http://img-fotki.yandex.ru/get/9751/9261163.14/0_81368_670f1b83_orig.jpg" MediaType="Picture" />
+      <Media URL="http://s1.directupload.net/images/user/131226/56qkj3qm.jpg" MediaType="Picture" />
+      <Media URL="https://img-fotki.yandex.ru/get/940943/9261163.19/0_9fb23_89bcdb89_orig" MediaType="Picture" />
+    </Medias>
+    <Version>1.4.0</Version>
+  </Package>
+  <Package Name="15m Spot Circle" Type="multi" Visible="True" PackageName="Ingame_Info_15m_Circle_Header" InstallGroup="4" PatchGroup="0" Enabled="False">
+    <UpdateComment>"Disabled: Not working in Frontline epidode 1"</UpdateComment>
+    <Description>Shows a 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed\n\nNow again different colors available</Description>
+    <Packages>
+      <Package Name="15m Spot Circle in different colors" Type="single1" Visible="True" PackageName="Ingame_Info_15m_Circle_Base_Resmods" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>51905</Size>
+        <UpdateComment>updated to 1.0.2.2</UpdateComment>
+        <Description>Shows a 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed\n\nNow again different colors available</Description>
+        <Packages>
+          <Package Name="Toggle ON-OFF with NUMPAD1 (default F9)" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_15m_Circle_toggle" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1120</Size>
+            <UpdateComment>NumPad0 does also reset artylog mod, changed to NumPad1</UpdateComment>
+            <Description>Old working file:\nIngame_Info_15m_Circle_Base_by_Jove_0.9.21.0.1_wotmods.zip\n\nCircle &amp; color is in mod_Circle15.pyc cause unable to change color, folder "objects" not needed anymore, ALL  Circle15.dds (different colors  dont change colr)</Description>
+            <Timestamp>131801177167012958</Timestamp>
+            <ZipFile>Ingame_Info_15m_Circle_toggle_patch_NumPad1_1.1.0.0_2018-08-30.zip</ZipFile>
+            <CRC>f8710f48e353adcd1d11f447b23d968b</CRC>
+          </Package>
+          <Package Name="Enabled by Default" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_15m_Circle_Default_Enabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1266</Size>
+            <Timestamp>131762530894490617</Timestamp>
+            <ZipFile>Ingame_Info_15m_Circle_Toggle_Always_ON_patch.zip</ZipFile>
+            <CRC>b9fc1405dfd6787c25fdd8ae64053aab</CRC>
+          </Package>
+          <Package Name="Yellow" Type="single_dropdown2" Visible="True" PackageName="Ingame_Info_15m_Circle_yellow" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1339</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/15m_Circle/Ingame_Info_15m_Circle_Yellow.png" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131762461313976863</Timestamp>
+            <ZipFile>Ingame_Info_15m_Circle_Yellow.zip</ZipFile>
+            <CRC>38b6443d4f69932753f3aec1b55c61fb</CRC>
+          </Package>
+          <Package Name="green" Type="single_dropdown2" Visible="True" PackageName="Ingame_Info_15m_Circle_green" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>912</Size>
+            <Medias>
+              <Media URL="http://s1.directupload.net/images/user/140615/suw92utp.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>Ingame_Info_15m_Circle_green.zip</ZipFile>
+            <CRC>740d9fd3972bdf07ecae03a8cef4b799</CRC>
+          </Package>
+          <Package Name="light green" Type="single_dropdown2" Visible="True" PackageName="Ingame_Info_15m_Circle_light-green" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1481</Size>
+            <Medias>
+              <Media URL="http://s14.directupload.net/images/user/140615/rrydpely.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>Ingame_Info_15m_Circle_light-green.zip</ZipFile>
+            <CRC>aeab5bfd3b1a372a4a2e12e1fc299e58</CRC>
+          </Package>
+          <Package Name="violet" Type="single_dropdown2" Visible="True" PackageName="Ingame_Info_15m_Circle_violet" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1115</Size>
+            <Medias>
+              <Media URL="http://s7.directupload.net/images/user/140615/7ew4vpk8.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>Ingame_Info_15m_Circle_violet.zip</ZipFile>
+            <CRC>c908f3222a1d0d0147e94c70b2d2b18e</CRC>
+          </Package>
+          <Package Name="light violet" Type="single_dropdown2" Visible="True" PackageName="Ingame_Info_15m_Circle_light-violet" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>910</Size>
+            <Medias>
+              <Media URL="http://s1.directupload.net/images/user/140615/swi2fl8z.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>Ingame_Info_15m_Circle_light-violet.zip</ZipFile>
+            <CRC>f376dca587b990f624c3ca53c873af63</CRC>
+          </Package>
+          <Package Name="light &amp; dark violet" Type="single_dropdown2" Visible="True" PackageName="Ingame_Info_15m_Circle_light-violet_dark-violet" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>923</Size>
+            <Medias>
+              <Media URL="http://s1.directupload.net/images/user/140615/bqst76uh.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>Ingame_Info_15m_Circle_light_+_dark-violet.zip</ZipFile>
+            <CRC>f0b786e0515849befe765f36111f3463</CRC>
+          </Package>
+          <Package Name="light turquoise &amp; green" Type="single_dropdown2" Visible="True" PackageName="Ingame_Info_15m_Circle_light-turquoise_green" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>990</Size>
+            <Medias>
+              <Media URL="http://s14.directupload.net/images/user/140615/2gsjc3iu.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>Ingame_Info_15m_Circle_light-turquoise_+_green.zip</ZipFile>
+            <CRC>5f9b65b888218228c00862a2d6d37e52</CRC>
+          </Package>
+          <Package Name="turquoise" Type="single_dropdown2" Visible="True" PackageName="Ingame_Info_15m_Circle_turquoise" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1092</Size>
+            <Medias>
+              <Media URL="http://s1.directupload.net/images/user/140615/s3lp5m8x.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>Ingame_Info_15m_Circle_turquoise.zip</ZipFile>
+            <CRC>a0d4c50745c7555cfd334d8300c81a7d</CRC>
+          </Package>
+          <Package Name="turquoise &amp; pink" Type="single_dropdown2" Visible="True" PackageName="Ingame_Info_15m_Circle_turquoise_pink" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>989</Size>
+            <Medias>
+              <Media URL="http://s14.directupload.net/images/user/140615/5vjs4vlm.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>Ingame_Info_15m_Circle_turquoise_+_pink.zip</ZipFile>
+            <CRC>7712c03d29de33dac5b5b6909d3d6de4</CRC>
+          </Package>
+          <Package Name="turquoise &amp; violet &amp; red" Type="single_dropdown2" Visible="True" PackageName="Ingame_Info_15m_Circle_turquoise_violet_red" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1621</Size>
+            <Medias>
+              <Media URL="http://s14.directupload.net/images/user/140615/l2xj6zuz.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>Ingame_Info_15m_Circle_turquoise_+_violet_+_red.zip</ZipFile>
+            <CRC>4c0e50f2b56d6db66aa32a9c9dd9561a</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/15m_Circle/Ingame_Info_15m_Circle_green.jpg" MediaType="Picture" />
+        </Medias>
+        <Version>1.0.2.2</Version>
+        <Timestamp>131762477156375432</Timestamp>
+        <ZipFile>Ingame_Info_15m_Circle_Base_1.0.2.2_resmods_2018-07-16.zip</ZipFile>
+        <CRC>f693363fbe808fc3690b6058a592551e</CRC>
+      </Package>
+      <Package Name="15m Spot Circle (Type set in garage)" Type="single1" Visible="False" PackageName="Ingame_Info_15m_Circle_Base" InstallGroup="4" PatchGroup="0" Enabled="False">
+        <Size>54269</Size>
+        <UpdateComment>updated to 1.0.1.0</UpdateComment>
+        <Description>Shows a 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed</Description>
+        <Packages>
+          <Package Name="english" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_15m_Circle_english" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>50726</Size>
+            <UpdateComment>updated to 1.0.1.0</UpdateComment>
+            <Description>Shows a 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed</Description>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_english" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Version>1.0.2.1</Version>
+            <Timestamp>131735746134389254</Timestamp>
+          </Package>
+          <Package Name="german / deutsch" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_15m_Circle_german" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>50726</Size>
+            <UpdateComment>updated to 1.0.1.0</UpdateComment>
+            <Description>Shows a 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed</Description>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_german" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Version>1.0.2.1</Version>
+            <Timestamp>131735831074299584</Timestamp>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/15m_Circle/Ingame_Info_15m_Circle_green.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Version>1.0.2.1</Version>
+        <Timestamp>131735746198244152</Timestamp>
+        <ZipFile>Ingame_Info_15m_Circle_Base_wotmod_1.0.2.1_2018-06-15.zip</ZipFile>
+        <CRC>f01fab53d3a51aa104b4ee2bb7001408</CRC>
+      </Package>
+    </Packages>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/15m_Circle/Ingame_Info_15m_Circle_green.jpg" MediaType="Picture" />
+    </Medias>
+    <Version>1.0.2.2</Version>
+    <Timestamp>131762489009472686</Timestamp>
+  </Package>
+  <Package Name="Crew Skill Informer" Type="multi" Visible="True" PackageName="Ingame_Info_Crew_Skill_Informer" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>214574</Size>
+    <Description>Crew Skill Informer by Voytello and Dumadidak\nis WoT mod to visualize crews skills and perks meanwhile the battle. Activate it by pressing backspace</Description>
+    <Medias>
+      <Media URL="http://i61.tinypic.com/34errds.jpg" MediaType="Picture" />
+    </Medias>
+    <Version>v1.2.1</Version>
+    <Timestamp>131742300455974663</Timestamp>
+    <ZipFile>Ingame_Info_Crew_Skill_Informer_1.0.2.1_2018-06-23.zip</ZipFile>
+    <CRC>a7195a6c5f443a045d3f702609624b7c</CRC>
+  </Package>
+  <Package Name="Gold Visibility Mod by lgfrbcsgo" Type="multi" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>1174359</Size>
+    <UpdateComment>additional URLs \n\nwgmods: https://wgmods.net/1233/details\ngerman: http://forum.worldoftanks.eu/index.php?/topic/672149-</UpdateComment>
+    <Description>Features\n- Changes the color of hit effects\n- Multiple colors choices available\n- Works for all tanks in both teams\n- Recolors penetrating hits, bouncing shots, ricochets, shots hitting the ground or other objects\n- Does NOT recolor none penetrating hits or shots into water\n\nThis mod adds a short sparkling effect to penetrating APCR/HEAT hits. Not only will you be able to tell if an enemy tank is shooting gold rounds at your allied tanks (or at you), but also if one of your allies is a gold spammer. This information will help you determining whether to engage or not to engage an enemy.\n\nFAQ\nQ: The Mod isn't working.\nA: Make sure Extra Effects are enabled in the settings under Graphics.</Description>
+    <Packages>
+      <Package Name="Blue" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_Blue" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>6514319</Size>
+        <Medias>
+          <Media URL="https://i.imgur.com/Z1yDiW4.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131786257375530647</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_blue_2018-08-13.zip</ZipFile>
+        <CRC>ccd1d64f4cfccf22dfd422411cc1e31a</CRC>
+      </Package>
+      <Package Name="Light Blue" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_Light_Blue" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>6514287</Size>
+        <Medias>
+          <Media URL="https://i.imgur.com/rCDBezM.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131786257971765075</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_light_blue_2018-08-13.zip</ZipFile>
+        <CRC>1838dbef896164bc8ce87afc853b99d8</CRC>
+      </Package>
+      <Package Name="Cyan (Turquoise)" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_Cyan" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>6515615</Size>
+        <Medias>
+          <Media URL="https://i.imgur.com/P2E3r12.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131786258277166951</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_cyan_turquoise_2018-08-13.zip</ZipFile>
+        <CRC>ac678f2a45783e7ba09500e4a5946ce7</CRC>
+      </Package>
+      <Package Name="Green" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_Green" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>6514641</Size>
+        <Medias>
+          <Media URL="https://i.imgur.com/TtMZFdL.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131786258416940117</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_green_2018-08-13.zip</ZipFile>
+        <CRC>4be2e2d7910a30fba2a7a745709fc2a7</CRC>
+      </Package>
+      <Package Name="Lime Green" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_lime_green" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>6514481</Size>
+        <Medias>
+          <Media URL="https://i.imgur.com/rI8Yz6X.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131786258540780469</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_lime_green_2018-08-13.zip</ZipFile>
+        <CRC>1bde83849274680719d4a881ece61153</CRC>
+      </Package>
+      <Package Name="Purple" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_Purple" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>6514531</Size>
+        <Medias>
+          <Media URL="https://i.imgur.com/ZSB2WU4.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131786259010573266</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_purple_2018-08-13.zip</ZipFile>
+        <CRC>0d1198635321e662528aaa8cbc6d1103</CRC>
+      </Package>
+      <Package Name="Pink" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_Pink" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>6514254</Size>
+        <Medias>
+          <Media URL="https://i.imgur.com/iA1JZw2.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131786258803225828</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_pink_2018-08-13.zip</ZipFile>
+        <CRC>28b85daea987c780037938e46f7289f7</CRC>
+      </Package>
+      <Package Name="Red" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_Red" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>6518035</Size>
+        <Medias>
+          <Media URL="https://i.imgur.com/wUgiwjS.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131786259155695245</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_red_2018-08-13.zip</ZipFile>
+        <CRC>45331eee584de23f10fb72f0424d7a2b</CRC>
+      </Package>
+      <Package Name="Orange" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_Orange" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>6514184</Size>
+        <Medias>
+          <Media URL="https://i.imgur.com/vETYFaH.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131786258677786624</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_orange_2018-08-13.zip</ZipFile>
+        <CRC>7d4be621bfe535dc8a9db97351a98fe4</CRC>
+      </Package>
+      <Package Name="Yellow" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_Yellow" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>6514263</Size>
+        <Medias>
+          <Media URL="https://i.imgur.com/SmwSZqs.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131786259358094182</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_yellow_2018-08-13.zip</ZipFile>
+        <CRC>da63e42999f1fff1477edbf903628d10</CRC>
+      </Package>
+      <Package Name="Show ally gold shots" Type="multi" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_show_ally_gold_ammo" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1000</Size>
+        <Timestamp>131699351064439409</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_show_ally_gold_ammo_2018-05-04.zip</ZipFile>
+        <CRC>1e4d88c539cdbc5c83abba6f174d9eed</CRC>
+      </Package>
+      <Package Name="Show own gold shots" Type="multi" Visible="True" PackageName="Ingame_Info_prem_Shell_Visibility_show_own_gold_ammo" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>997</Size>
+        <Timestamp>131699351187762271</Timestamp>
+        <ZipFile>Ingame_Info_prem_Shell_Visibility_show_own_gold_ammo_2018-05-04.zip</ZipFile>
+        <CRC>50d4a9d5cf8d1906d4abe86ccaac5d26</CRC>
+      </Package>
+    </Packages>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_prem_Shell_Visibility/Ingame_Info_prem_Shell_Visibility_Yellow.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_prem_Shell_Visibility/Ingame_Info_prem_Shell_Visibility_Turquoise.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_prem_Shell_Visibility/Ingame_Info_prem_Shell_Visibility_Red.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_prem_Shell_Visibility/Ingame_Info_prem_Shell_Visibility_Purple.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_prem_Shell_Visibility/Ingame_Info_prem_Shell_Visibility_Orange.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_prem_Shell_Visibility/Ingame_Info_prem_Shell_Visibility_Lime_Green.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_prem_Shell_Visibility/Ingame_Info_prem_Shell_Visibility_Green.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_prem_Shell_Visibility/Ingame_Info_prem_Shell_Visibility_Light_Blue.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_prem_Shell_Visibility/Ingame_Info_prem_Shell_Visibility_Blue.jpg" MediaType="Picture" />
+    </Medias>
+    <Version>2.0.15</Version>
+    <Timestamp>131944386520154774</Timestamp>
+    <ZipFile>Ingame_Info_prem_Shell_Visibility_base_1.4.0_2019-02-12.zip</ZipFile>
+    <CRC>a67e1110d626e9a3fb7017f579e7fd77</CRC>
+  </Package>
+  <Package Name="Minimap Gundirection by OldSkool" Type="multi" Visible="True" PackageName="Ingame_Info_Minimap_Gundirection_OldSkool" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>18538</Size>
+    <UpdateComment>2. URL for Oldskool mods: https://wgmods.net/search/?owner=38530\n1.0.2.0: removed oldskool.easyBattleFlash switched to gambiter_guiflash</UpdateComment>
+    <Description>Shows direction where enemies within the draw distance are pointing their guns (on the minimap)\n\nlegal Info: http://forum.worldoftanks.eu/index.php?/topic/598224-fair-play-policy/page__st__1020__pid__13392063#entry13392063</Description>
+    <Packages>
+      <Package Name="Enable allied gundirections on map" Type="multi" Visible="True" PackageName="Ingame_Info_Minimap_Gundirection_OldSkool_enable_allys_gundir" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>456</Size>
+        <UpdateComment>2. URL for Oldskool mods: https://wgmods.net/search/?owner=38530\n1.0.2.0: removed oldskool.easyBattleFlash switched to gambiter_guiflash</UpdateComment>
+        <Description>Shows direction where enemies within the draw distance are pointing their guns (on the minimap)\n\nlegal Info: http://forum.worldoftanks.eu/index.php?/topic/598224-fair-play-policy/page__st__1020__pid__13392063#entry13392063</Description>
+        <Version>1.0.2.1</Version>
+        <Timestamp>131756834470875401</Timestamp>
+        <ZipFile>Ingame_Info_Minimap_Gundirection_by_OldSkool_1.02.1_enable_allys_gundir_2018-07-10.zip</ZipFile>
+        <CRC>06e4fc091dc73308611d3403267d71e3</CRC>
+      </Package>
+    </Packages>
+    <Medias>
+      <Media URL="https://wgmods.net/media/direction.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+      <Media URL="https://wgmods.net/media/direction2.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Version>1.4.0</Version>
+    <Timestamp>131939405296550843</Timestamp>
+    <ZipFile>Ingame_Info_Minimap_Gundirection_by_OldSkool_1.4.0_2019-02-06.zip</ZipFile>
+    <CRC>bef1666718a62e7e95a0360b4a8975fc</CRC>
+  </Package>
+  <Package Name="Enemy spotted status (by oldskool)" Type="multi" Visible="True" PackageName="Ingame_Info_Enemy_Spotted_Status" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>22006</Size>
+    <Description>This is a Spotted Status Indicator for the enemy team. Different icons show the current Spotted Status for the vehicle.</Description>
+    <Medias>
+      <Media URL="https://wgmods.net/media/Unbet-1.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_playersPanelAPI_POLIROID_PROMOD" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Timestamp>131939405498271914</Timestamp>
+    <ZipFile>Ingame_Info_Enemy_Spotted_Status_1.4.0.0_2019-02-06.zip</ZipFile>
+    <CRC>5c0d52db6e31aa90daaa9e782090e098</CRC>
+  </Package>
+  <Package Name="Arty HitLog by OldSkool" Type="multi" Visible="True" PackageName="Ingame_Info_ArtyHitLog_Oldskool" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>48674</Size>
+    <Description>Shows how much damage arty actually causes vs. other tanks that damage you</Description>
+    <UserFiles>
+      <UserFile Pattern="\\mods\\configs\\promod\\artylog\\modCache.json" />
+      <UserFile Pattern="\\mods\\configs\\promod\\artylog\\modSettings.json" />
+    </UserFiles>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Artylog_Extended_by_OldSkool.jpg" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Version>1.4.0.1</Version>
+    <Timestamp>131957443842550794</Timestamp>
+    <ZipFile>Ingame_Info_ArtyHitLog_by_Oldskool_1.4.0.1_2019-02-27.zip</ZipFile>
+    <CRC>bad291d42b02ed784f5299bd78679dcf</CRC>
+  </Package>
+  <Package Name="RTAN - Real Time Achievements Notifications" Type="multi" Visible="True" PackageName="Ingame_Info_RTAN_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Packages>
+      <Package Name="RTAN by Aimdrol" Type="single1" Visible="True" PackageName="Ingame_Info_RTAN_Aimdrol" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>189015</Size>
+        <Medias>
+          <Media URL="http://i.imgur.com/LDKvk1n.png" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Timestamp>131858493236712691</Timestamp>
+        <ZipFile>Ingame_Info_RTAN_Aimdrol__1.1.0_2018-11-04.zip</ZipFile>
+        <CRC>bb32ec4fd10453a2b5f32248f6664993</CRC>
+      </Package>
+      <Package Name="RTAN by protanki" Type="single1" Visible="True" PackageName="Ingame_Info_RTAN_Protanki" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1701710</Size>
+        <Packages>
+          <Package Name="english" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_RTAN_Protanki_english" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_english" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package Name="german / deutsch" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_RTAN_Protanki_german" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_german" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Timestamp>131719217834608152</Timestamp>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="https://mod-wot.com/_ld/1/59363550.jpg" MediaType="Picture" />
+          <Media URL="https://mod-wot.com/_ld/1/s78137414.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Timestamp>131939746121396956</Timestamp>
+        <ZipFile>Ingame_Info_RTAN_Protanki_1.4.0.0_2019-02-06.zip</ZipFile>
+        <CRC>6beda260cc0f47c8db64be85eb7cf9ac</CRC>
+      </Package>
+    </Packages>
+    <Timestamp>131569088015621441</Timestamp>
+  </Package>
+  <Package Name="TessuMod, WOT/Teamspeak integration" Type="multi" Visible="True" PackageName="Ingame_Info_Tessumod" InstallGroup="4" PatchGroup="0" Enabled="False">
+    <Size>3301458</Size>
+    <Description>YOU MUST ACTIVATE THE MOD IN TEAMSPEAK. Instructions here: http://forum.worldoftanks.eu/index.php?/topic/433614-09171-tessumod-wotteamspeak-integration-mod-v0613-26032017/#topmost \nA modification for integrating TeamSpeak into Garage and Battle.</Description>
+    <UserFiles>
+      <UserFile Pattern="\\mods\\configs\\tessu_mod\\tessu_mod.ini" />
+    </UserFiles>
+    <Medias>
+      <Media URL="https://www.dropbox.com/s/rlja8445hnz0e0u/notification.png?dl=1" MediaType="Picture" />
+      <Media URL="https://www.dropbox.com/s/wwpzbirxl5xnpnm/battle.jpg?dl=1" MediaType="Picture" />
+      <Media URL="https://www.dropbox.com/s/4kmtplxs48crjeo/trainingroom.png?dl=1" MediaType="Picture" />
+    </Medias>
+    <Version>0.6.14</Version>
+    <Timestamp>131531561546261940</Timestamp>
+    <ZipFile>Ingame_Info_Tessumod_0.6.14_2017-10-22.zip</ZipFile>
+    <CRC>98acab7b308644e6c3f7e6aec72d2883</CRC>
+  </Package>
+  <Package Name="SpotMessanger" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Base" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>20793</Size>
+    <Description>Sends a chat message that you are spotted in a grid square, along with the "Help!" command</Description>
+    <Packages>
+      <Package Name="active at start, deactivate with F11" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_SpotMessenger_activated" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>485</Size>
+        <ZipFile>Ingame_Info_SpotMessenger_activated_2017-07-12.zip</ZipFile>
+        <CRC>3e1399abb0122f7b023c6f1473051809</CRC>
+      </Package>
+      <Package Name="inactive at start, activate with F11" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_SpotMessenger_deactivated" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>489</Size>
+        <ZipFile>Ingame_Info_SpotMessenger_deactivated_2017-07-12.zip</ZipFile>
+        <CRC>059efcdef477fc82e90f8ff5514a3ce6</CRC>
+      </Package>
+      <Package Name="Battletypes" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Battletypes_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Packages>
+          <Package Name="Random" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Battletypes_Random_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Packages>
+              <Package Name="with Message in Team chat" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_SpotMessenger_Battletypes_Random_teammsg" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>699</Size>
+                <ZipFile>Ingame_Info_SpotMessenger_Random_1_teammsg_patch.zip</ZipFile>
+                <CRC>0bc8ca81cae69a725a70a120d1b2ba22</CRC>
+              </Package>
+              <Package Name="with Message in Platoon chat" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_SpotMessenger_Battletypes_Random_squadmsg" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>704</Size>
+                <ZipFile>Ingame_Info_SpotMessenger_Random_2_squadmsg_patch.zip</ZipFile>
+                <CRC>297633c88a0861fe9206595a0dfd73d8</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package Name="Grand Battles" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Battletypes_EpicRandom_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Packages>
+              <Package Name="with Message in Team chat" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_SpotMessenger_Battletypes_EpicRandom_teammsg" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>726</Size>
+                <Timestamp>131698513108236118</Timestamp>
+                <ZipFile>Ingame_Info_SpotMessenger_EpicRandom_EpicBattle_1_teammsg_patch.zip</ZipFile>
+                <CRC>2f4a21dd5a817821f827bc9d7ed07fae</CRC>
+              </Package>
+              <Package Name="with Message in Platoon chat" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_SpotMessenger_Battletypes_EpicRandom_squadmsg" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>725</Size>
+                <Timestamp>131698513238180156</Timestamp>
+                <ZipFile>Ingame_Info_SpotMessenger_EpicRandom_EpicBattle_2_squadmsg_patch.zip</ZipFile>
+                <CRC>4fad78923e4de492cdfd94c81bfa8d28</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package Name="Teambattle" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Battletypes_Teambattle" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>686</Size>
+            <ZipFile>Ingame_Info_SpotMessenger_Teambattle_patch.zip</ZipFile>
+            <CRC>5c584ec56e62f2ff36974f2bf8ce5efc</CRC>
+          </Package>
+          <Package Name="Ranked Teambattle" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Battletypes_Ranked" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>677</Size>
+            <ZipFile>Ingame_Info_SpotMessenger_Ranked_patch.zip</ZipFile>
+            <CRC>b273c986940eac441159721eb8375f38</CRC>
+          </Package>
+          <Package Name="ClanBattle" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Battletypes_ClanBattle" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>713</Size>
+            <Description>CW, Skirmish or Stronghold</Description>
+            <ZipFile>Ingame_Info_SpotMessenger_ClanBattle_patch.zip</ZipFile>
+            <CRC>a13a3f6408bb08b6fdbdf94f1ba1b448</CRC>
+          </Package>
+          <Package Name="ProvingGround" Type="multi" Visible="False" PackageName="Ingame_Info_SpotMessenger_Battletypes_Provingground" InstallGroup="4" PatchGroup="0" Enabled="False">
+            <Size>698</Size>
+            <ZipFile>Ingame_Info_SpotMessenger_Provingground_patch.zip</ZipFile>
+            <CRC>9de5d9d8c79e5a771c7a14ac982a1cf7</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Vehicle Types" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Vehicle_Types_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Packages>
+          <Package Name="LT" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Vehicle_Types_lt" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>616</Size>
+            <ZipFile>Ingame_Info_SpotMessenger_light_patch.zip</ZipFile>
+            <CRC>1cf0cefec0baa2f1a6425394e7f9c5f8</CRC>
+          </Package>
+          <Package Name="MT" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Vehicle_Types_mt" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>612</Size>
+            <ZipFile>Ingame_Info_SpotMessenger_med_patch.zip</ZipFile>
+            <CRC>d15ade4597929f6ad07be8cec2bd6135</CRC>
+          </Package>
+          <Package Name="HT" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Vehicle_Types_ht" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>610</Size>
+            <ZipFile>Ingame_Info_SpotMessenger_ht_patch.zip</ZipFile>
+            <CRC>cbfbd6de2468173638bba6f5f653cf42</CRC>
+          </Package>
+          <Package Name="TD" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Vehicle_Types_td" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>610</Size>
+            <Description>CW, Skirmish or Stronghold</Description>
+            <ZipFile>Ingame_Info_SpotMessenger_td_patch.zip</ZipFile>
+            <CRC>8264f99f4a6b877b38b191d49022bb19</CRC>
+          </Package>
+          <Package Name="SPG" Type="multi" Visible="True" PackageName="Ingame_Info_SpotMessenger_Vehicle_Types_spg" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>614</Size>
+            <ZipFile>Ingame_Info_SpotMessenger_spg_patch.zip</ZipFile>
+            <CRC>796320f3e212e5bbef277a9517cba47e</CRC>
+          </Package>
+        </Packages>
+      </Package>
+    </Packages>
+    <Version>1.4.4</Version>
+    <Timestamp>131736619679541073</Timestamp>
+    <ZipFile>Ingame_Info_SpotMessenger_v1.4.4_2018-06-16.zip</ZipFile>
+    <CRC>fb178d41bcfef60b15354dfb45b64305</CRC>
+  </Package>
+  <Package Name="Bullet Damage Indicator Modifications" Type="multi" Visible="True" PackageName="Ingame_Info_DamageIndicator_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Description>Changes the look of the damage indicators when you are shot</Description>
+    <Packages>
+      <Package Name="Change Indicator Icon" Type="multi" Visible="True" PackageName="Ingame_Info_DamageIndicator_Icon_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Changes the look of the damage indicators when you are shot</Description>
+        <Packages>
+          <Package Name="Badboy78" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_DamageIndicator_Badboy78" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>39478</Size>
+            <Description>– RED – penetrating hit\n– YELLOW – non penetrating hit</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_DamageIndicator/Ingame_Info_DamageIndicator_Badboy78_3.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_DamageIndicator/Ingame_Info_DamageIndicator_Badboy78_2.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_DamageIndicator/Ingame_Info_DamageIndicator_Badboy78_1.jpg" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131840385239536807</Timestamp>
+            <ZipFile>Ingame_Info_DamageIndicator_by_Badboy78_1.2.0_2018-10-14.zip</ZipFile>
+            <CRC>2cc9053b8916a37c0a2c2b945bab616d</CRC>
+          </Package>
+          <Package Name="zx80" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_DamageIndicator_big" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>334371</Size>
+            <Medias>
+              <Media URL="http://wotsite.net/images/2016/10/4/12.jpg" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131665515515558957</Timestamp>
+            <ZipFile>Ingame_Info_DamageIndicator_big_by_poVitter_1.0.0_2018-03-26.zip</ZipFile>
+            <CRC>25116b4fe22248e599b37c93b514fda3</CRC>
+          </Package>
+          <Package Name="Harpoon by lenya69" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_DamageIndicator_Harpoon" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>90264</Size>
+            <UpdateComment>Part of Harpoon Crosshair by lenya69</UpdateComment>
+            <Medias>
+              <Media URL="http://cdn-frm-eu.wargaming.net/wot/ru/uploads/monthly_01_2017/post-188170-0-97028800-1483580564.jpg" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131679547150290186</Timestamp>
+            <ZipFile>Ingame_Info_DamageIndicator_Harpoon_Lenya_Label_1.0.0.3_2018-04-11.zip</ZipFile>
+            <CRC>9e5d23e50f547e6777dc10b1283d209b</CRC>
+          </Package>
+          <Package Name="dikey93" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_DamageIndicator_dikey93" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>18271</Size>
+            <Medias>
+              <Media URL="http://wotsite.net/images/2016/10/4/10.jpg" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131669823828526434</Timestamp>
+            <ZipFile>Ingame_Info_DamageIndicator_by_dikey93_1.0.0.1.zip</ZipFile>
+            <CRC>2128798396e08607c032cb0ece391091</CRC>
+          </Package>
+        </Packages>
+      </Package>
+    </Packages>
+  </Package>
+  <Package Name="Closest Enemy Direction Indicator by Oldskool" Type="multi" Visible="True" PackageName="Ingame_Info_Closest_Enemy_Indicator_oldskool" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>267090</Size>
+    <UpdateComment>http://forum.worldoftanks.eu/index.php?/topic/603810-</UpdateComment>
+    <Description>This mod allows you to see the closest enemy out of your field of view. Since only one arrow is allowed by fair play policy this mod isnt a cheat. Configuration of the mod can be done ingame. (modsListApi)</Description>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Timestamp>131939280017823802</Timestamp>
+    <ZipFile>Ingame_Info_Closest_Enemy_Indicator_oldskool_1.4.0_2019-02-06.zip</ZipFile>
+    <CRC>d21c925a81b5742b8dc0494dc40b2a7b</CRC>
+  </Package>
+  <Package Name="Inbattle rating mods" Type="multi" Visible="True" PackageName="Ingame_Info_InBattle_Rating_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Packages>
+      <Package Name="Inbattle current rating calculation by RaJCeL" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_InBattle_Rating_RaJCeL" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>143284</Size>
+        <Description>Mod is showing some statistics in battle and replays. Mod doesn’t need XVM to work.</Description>
+        <Medias>
+          <Media URL="https://wgmods.net/media/inBattleFontSize.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131967816800704925</Timestamp>
+        <ZipFile>Ingame_Info_InBattle_Rating_RaJCeL_1.4.0.1_2018-03-11.zip</ZipFile>
+        <CRC>fc427cf1e60d4a5b0119ae75fd01c20f</CRC>
+      </Package>
+      <Package Name="Inbattle current rating calculation by OldSkool" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_InBattle_Rating_OldSkool" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>44527</Size>
+        <UpdateComment>2. URL for Oldskool mods: https://wgmods.net/search/?owner=38530</UpdateComment>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Timestamp>131939405704440382</Timestamp>
+        <ZipFile>Ingame_Info_InBattle_Rating_OldSkool_2019-02-06.zip</ZipFile>
+        <CRC>ff27a5167c56332b1680af2bf1cb4f88</CRC>
+      </Package>
+      <Package Name="Inbattle current rating calculation by PROTanki" Type="single_dropdown1" Visible="True" PackageName="Ingame_Info_InBattle_Rating_Protanki" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>141169</Size>
+        <UpdateComment>Corrected writing error in the configuration file</UpdateComment>
+        <Description>Combat efficiency calculator for World of Tanks.\n\nMaud calculates the expected damage for each tank right during the battle.\n\nThe negative value of the damage shows how much you need to fill the damage so that its value is above average.\n\nHe considers the costs of silver spent in combat.</Description>
+        <Medias>
+          <Media URL="https://storage.protanki.tv/uploads/images/7db45897-9df5-4707-9696-9efdc9136e4b.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Version>1.4.0.1</Version>
+        <Timestamp>131945694284258394</Timestamp>
+        <ZipFile>Ingame_Info_InBattle_Rating_Protanki_1.4.0.1_2019-02-13.zip</ZipFile>
+        <CRC>d44fb11f142dfaa638aec6cb04834996</CRC>
+      </Package>
+    </Packages>
+    <Timestamp>131712253302348201</Timestamp>
+  </Package>
+  <Package Name="Spot Marks" Type="multi" Visible="True" PackageName="Ingame_Info_Spot_Marks" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>14228</Size>
+    <Description>Marks on the Ground for the best spotting positions.\n\nMarker looks as follows:\nCircle on the ground and the arrow on the circle to see a distance\n\nCurrently 24 Maps included, 19 Maps to do</Description>
+    <Packages>
+      <Package Name="enabled only for light tanks" Type="multi" Visible="True" PackageName="Ingame_Info_Spot_Marks_only_lights" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>490</Size>
+        <Version>1.09</Version>
+        <Timestamp>131806149986099527</Timestamp>
+        <ZipFile>Ingame_Info_spotMarks_onlylights_2018-09-05.zip</ZipFile>
+        <CRC>1f10e93ec28ff774141a49de9c314f12</CRC>
+      </Package>
+    </Packages>
+    <Medias>
+      <Media URL="http://fs5.directupload.net/images/user/170903/xjd6vpwg.jpg" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Version>1.10</Version>
+    <Timestamp>131950450499774219</Timestamp>
+    <ZipFile>Ingame_Info_spotMarks_v1.10_1.4.0.0_2019-02-19.zip</ZipFile>
+    <CRC>cde28fc52b1bf078446a4bfd101402e9</CRC>
+  </Package>
+  <Package Name="ATAC - enemy in 150m range" Type="multi" Visible="True" PackageName="Ingame_Info_InBattle_ATAC" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>83439</Size>
+    <Description>A notification if an enemy is within a range of 150m to your position and he is not in your direction of view</Description>
+    <Medias>
+      <Media URL="https://wotspeak.ru/uploads/posts/2015-10/1445335486_shot_019.jpg" MediaType="Picture" />
+      <Media URL="https://wotspeak.ru/uploads/posts/2015-10/1445335476_shot_013.jpg" MediaType="Picture" />
+    </Medias>
+    <Timestamp>131699377247575470</Timestamp>
+    <ZipFile>Ingame_Info_ATAC_1.0.1_2018-05-04.zip</ZipFile>
+    <CRC>7ee83e25c2f26b08afe8b0679fa47956</CRC>
+  </Package>
+  <Package Name="Fps Ping coloredBar by lenya69" Type="multi" Visible="True" PackageName="Ingame_Info_FpsPingLagIndicator_lenya69" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>101325</Size>
+    <Description>Fps Ping coloredBar in the upper left corner.\nPart of Harpoon Crosshair by lenya69</Description>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Fps_Ping_coloredBar_upper_left_corner_by_lenya69_2017-07-06.jpg" MediaType="Picture" />
+    </Medias>
+    <ZipFile>Ingame_Info_Fps_Ping_coloredBar_upper_left_corner_by_lenya69_2017-08-29.zip</ZipFile>
+    <CRC>f1a26d7656dbf2f2ba395153afe56481</CRC>
+  </Package>
+  <Package Name="InBattle timer by lenya69" Type="multi" Visible="True" PackageName="Ingame_Info_InBattle_Timer_lenya69" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>345572</Size>
+    <Description>InBattle timer  in the upper right corner.\nPart of Harpoon Crosshair by lenya69 \nthanks Lenya for translation</Description>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_InBattle_timer_upper_right_corner_by_lenya69_2017-07-06.jpg" MediaType="Picture" />
+    </Medias>
+    <ZipFile>Ingame_Info_InBattle_timer_upper_right_corner_by_lenya69_2017-08-29.zip</ZipFile>
+    <CRC>f6f58e46448bd4e704e9319ffca3f416</CRC>
+  </Package>
+  <Package Name="Battle Observer (HP pools) v{version} By Armagomen (may conflict with xvm)" Type="multi" Visible="True" PackageName="Ingame_Info_Battle_Observer_Base" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>194619</Size>
+    <UpdateComment>2019-01-13: edited patch (the part for the main.json)\n2019-01-01: Updated, but author now has many new settings. If things look different in your garage, this mod is probably the cause.</UpdateComment>
+    <Description>Shows the total HP of each team at the top of the screen.\nHigh caliber config will show how much damage you need to get high caliber.\nplayers info panel will show the hp of both teams when left alt is pressed.\nShow spotted status will show in the players panel when an enemy is spotted. It might conflict with xvm.</Description>
+    <Packages>
+      <Package Name="Enable High Caliber Display (possible xvm conflict)" Type="multi" Visible="True" PackageName="Ingame_Info_Battle_Observer_show_high_caliber" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1117</Size>
+        <Timestamp>131910210437607389</Timestamp>
+        <ZipFile>Ingame_Info_Battle_Observer_by_armagomen_show_high_caliber_patch_2019-01-03.zip</ZipFile>
+        <CRC>0e427b9860778bc831ea8a975c557211</CRC>
+      </Package>
+      <Package Name="Show player spotted status in panels (possible xvm conflict)" Type="multi" Visible="True" PackageName="Ingame_Info_Battle_Observer_show_spotted_status" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1085</Size>
+        <Timestamp>131910210555803072</Timestamp>
+        <ZipFile>Ingame_Info_Battle_Observer_by_armagomen_show_spotted_status_patch_2019-01-03.zip</ZipFile>
+        <CRC>4b93a8a1e699fcdd2f6ee3258e9ce124</CRC>
+      </Package>
+      <Package Name="Enable Players info panel (when you press left alt)" Type="multi" Visible="True" PackageName="Ingame_Info_Battle_Observer_show_players_info_panel" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1093</Size>
+        <Timestamp>131910210673664490</Timestamp>
+        <ZipFile>Ingame_Info_Battle_Observer_by_armagomen_show_players_info_panel_patch_2019-01-03.zip</ZipFile>
+        <CRC>9f446d2670d98de651130fdda4b5c45e</CRC>
+      </Package>
+      <Package Name="Show HP bars on players panel (possible xvm conflict)" Type="multi" Visible="True" PackageName="Ingame_Info_Battle_Observer_show_hp_bars" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1069</Size>
+        <Timestamp>131910210787431888</Timestamp>
+        <ZipFile>Ingame_Info_Battle_Observer_by_armagomen_show_hp_bars_patch_2019-01-03.zip</ZipFile>
+        <CRC>73379758debb246c36d0d17603cd57ec</CRC>
+      </Package>
+      <Package Name="Show HP Pools" Type="multi" Visible="True" PackageName="Ingame_Info_Battle_Observer_show_hp_pools" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1056</Size>
+        <Timestamp>131910211018223262</Timestamp>
+        <ZipFile>Ingame_Info_Battle_Observer_show_hp_pools_2019-01-03.zip</ZipFile>
+        <CRC>a0dd0afac986158a32f972d13780e710</CRC>
+      </Package>
+      <Package Name="Show shell travel time and aiming distance" Type="multi" Visible="True" PackageName="Ingame_Info_Battle_Observer_show_shell_travel_aim_time" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1085</Size>
+        <Timestamp>131910211187024162</Timestamp>
+        <ZipFile>Ingame_Info_Battle_Observer_show_shell_travel_aim_time_2019-01-03.zip</ZipFile>
+        <CRC>950b151214ce8f54f87ca149a7c27b48</CRC>
+      </Package>
+    </Packages>
+    <Medias>
+      <Media URL="http://fs5.directupload.net/images/160727/pu8ywi2f.jpg" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Version>1.19.1</Version>
+    <Timestamp>131944399545932001</Timestamp>
+    <ZipFile>Ingame_Info_Battle_Observer_by_armagomen_1.19.1_1.4.0.1_2019-02-12.zip</ZipFile>
+    <CRC>978facf68aff56aac801d150c69bf03e</CRC>
+  </Package>
+</Category>

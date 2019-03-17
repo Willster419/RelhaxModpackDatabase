@@ -1,0 +1,2132 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Category Name="XVM config builder">
+  <Dependencies>
+    <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
+  </Dependencies>
+  <Package Name="Colorblind Patches for XVM" Type="multi" Visible="True" PackageName="XVMConfigBuilder_Colorblind_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Packages>
+      <Package Name="Enemies Color" Type="multi" Visible="True" PackageName="XVMConfigBuilder_Colorblind_EnemiesColor" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>537</Size>
+        <Description>changes the normal enemy color from red to a better viewable violett/blue color for colorblind people .</Description>
+        <Timestamp>131858293196446757</Timestamp>
+        <ZipFile>XVM_config_builder_colorblind_enemies.zip</ZipFile>
+        <CRC>af71d284b79f73d0e28dfb467674682b</CRC>
+      </Package>
+    </Packages>
+    <Timestamp>131858291921666972</Timestamp>
+  </Package>
+  <Package Name="Clan Icons" Type="multi" Visible="True" PackageName="XVMConfigBuilder_ClanIcons_Base" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>1308</Size>
+    <Packages>
+      <Package Name="Top Clans only (default)" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_ClanIcons_TopClansOnly" InstallGroup="4" PatchGroup="0" Enabled="True" />
+      <Package Name="use the same Clan Icons that were last installed" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_ClanIcons_Last_Installed" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>To save time with your installation of clan icons, you could check this option to recycle/move the last installed icons to the new installation.</Description>
+        <UserFiles>
+          <UserFile Pattern="\res_mods\mods\shared_resources\xvm\res\clanicons\CT\clan\*.png" />
+          <UserFile Pattern="\res_mods\mods\shared_resources\xvm\res\clanicons\EU\clan\*.png" />
+          <UserFile Pattern="\res_mods\mods\shared_resources\xvm\res\clanicons\NA\clan\*.png" />
+          <UserFile Pattern="\res_mods\mods\shared_resources\xvm\res\clanicons\RU\clan\*.png" />
+          <UserFile Pattern="\res_mods\mods\shared_resources\xvm\res\clanicons\CT\nick\*.png" />
+          <UserFile Pattern="\res_mods\mods\shared_resources\xvm\res\clanicons\EU\nick\*.png" />
+          <UserFile Pattern="\res_mods\mods\shared_resources\xvm\res\clanicons\NA\nick\*.png" />
+          <UserFile Pattern="\res_mods\mods\shared_resources\xvm\res\clanicons\RU\nick\*.png" />
+          <UserFile Pattern="\res_mods\mods\shared_resources\xvm\res\clanicons\ID\*.png" />
+          <UserFile Pattern="\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\clan\*.png" />
+          <UserFile Pattern="\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\nick\*.png" />
+        </UserFiles>
+      </Package>
+      <Package Name="Full EU stand: {version}" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_ClanIcons_fullEU" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>170042870</Size>
+        <Version>2018-12-04</Version>
+        <Timestamp>131884492341540045</Timestamp>
+        <ZipFile>XVM_config_builder_clanicons-full-EU-2018-12-04.zip</ZipFile>
+        <CRC>97dc576e7ce183cd4d73658c0dd0eac7</CRC>
+      </Package>
+      <Package Name="Full NA stand: {version}" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_ClanIcons_fullNA" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>47911287</Size>
+        <Version>2018-12-04</Version>
+        <Timestamp>131884492041680378</Timestamp>
+        <ZipFile>XVM_config_builder_clanicons-full-NA-2018-12-04.zip</ZipFile>
+        <CRC>7179cdf04a0253ab73a23e4bef46749b</CRC>
+      </Package>
+      <Package Name="Full RU stand: {version}" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_ClanIcons_fullRU" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>489074151</Size>
+        <Version>2018-12-04</Version>
+        <Timestamp>131884492757230656</Timestamp>
+        <ZipFile>XVM_config_builder_clanicons-full-RU-2018-12-04.zip</ZipFile>
+        <CRC>406519e64ae3a2a330c7a6528a8cdd9e</CRC>
+      </Package>
+      <Package Name="Full ASIA stand: {version}" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_ClanIcons_fullASIA" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>17882401</Size>
+        <Version>2018-12-04</Version>
+        <Timestamp>131884493019627754</Timestamp>
+        <ZipFile>XVM_config_builder_clanicons-full-ASIA-2018-12-04.zip</ZipFile>
+        <CRC>ef5ca299866a920228d8c9f6ba132c3d</CRC>
+      </Package>
+    </Packages>
+    <ZipFile>XVM_config_builder_clanicons_2_patch.zip</ZipFile>
+    <CRC>e216e967ac0a5cbb6d1db59fb94af738</CRC>
+  </Package>
+  <Package Name="Battle Interface modifications (xvm)" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_Headline" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Packages>
+      <Package Name="6th sense - Icon Duration" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_6thSenseDuration_Headline" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Configure how long the 6th sense icon stays on your screen.\nIf you later select 6th sense settings in the 6th sense tab, this is automaticaly turned off.</Description>
+        <Packages>
+          <Package Name="2 sec 6th sense icon" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_6thSenseDuration_2sec" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>938</Size>
+            <ZipFile>XVM_config_builder_sixth_sense_duration_2_sec_patch.zip</ZipFile>
+            <CRC>cdae2fae5a9eccb00b0d27dea771a2d5</CRC>
+          </Package>
+          <Package Name="5 sec 6th sense icon" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_6thSenseDuration_5sec" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>938</Size>
+            <ZipFile>XVM_config_builder_sixth_sense_duration_5_sec_patch.zip</ZipFile>
+            <CRC>993fe8656171479344a9366e57fae380</CRC>
+          </Package>
+          <Package Name="10 sec 6th sense icon" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_6thSenseDuration_10sec" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>938</Size>
+            <ZipFile>XVM_config_builder_sixth_sense_duration_10_sec_patch.zip</ZipFile>
+            <CRC>28d6126abd6e8b884ec99d4dfb4a0132</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Information Label for Missions (Mission Tracker)" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_MissionTracker_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>This label positioned under the left PlayersPanel shows you many informations you need for missions or for your daily games too. \nExamples for that are your damage, damage of your platoon members, damage of you and your platoon members together, number of enemys you spotted, number of critical hits you made, number of enemys your complete platoon killed, damage through reconnaissance and chain destruction, damage through spotting only, damage through chain destruction only, damage you got, hits you got and damage you blocked. \n\nInformation Label for Missions by MarsOne: http://forum.worldoftanks.eu/index.php?/topic/340002-09151-omc-modpack-installer-mit-bild-video-vorschau-letztes-update-siehe-wwwodemmortiscom/page__st__4980__pid__13912513#entry13912513</Description>
+        <Packages>
+          <Package Name="by MarsOne" Type="single1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_MissionTracker_patch" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>72667</Size>
+            <UpdateComment>created battleLabelsMarsOneEff.xc</UpdateComment>
+            <Timestamp>131951421070645922</Timestamp>
+            <ZipFile>XVM_config_builder_EFF_Mission_Tracker_by_Marsone_patch_2019-02-20.zip</ZipFile>
+            <CRC>06b2d454a9833a0d60655373f22b0e40</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://fs5.directupload.net/images/170301/iepa9zdy.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/32rpylxt.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/ax9qxb7t.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/reiaain2.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/nftgewby.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/avvxrq8b.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/7e2xelc7.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/9bahnmgt.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/3ty5gpoa.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/wmqvtr3e.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/k5alp63d.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/juo3kcsb.png" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/170301/zbukbbfp.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Scoreboard" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_Scoreboard_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Configure the scoreboard (the topmost interface component showing both teams alive or dead tanks)</Description>
+        <Packages>
+          <Package Name="Show Alive" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_Scoreboard_ShowAlive" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1057</Size>
+            <Description>Show the number of tanks alive.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_show_alive.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_scoreboard_show_alive.zip</ZipFile>
+            <CRC>bf52ef542d996dcbc5f09a3a9b9a7071</CRC>
+          </Package>
+          <Package Name="Show Kills" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_Scoreboard_ShowKills" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1057</Size>
+            <Description>Show the number of tanks killed.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_show_kills.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_scoreboard_show_kills.zip</ZipFile>
+            <CRC>59690f672df60c512e4bc1ba092e10da</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_header.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Hitlog" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_Hitlog_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Toggle the xvm hitlog (Shows a log of total damage you have caused for the duration of the game)</Description>
+        <Packages>
+          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_Hitlog_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>976</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_hitlog_enable.zip</ZipFile>
+            <CRC>53b1fa7210866b98cb6f8878a2dfa813</CRC>
+          </Package>
+          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_Hitlog_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>979</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_hitlog_disable.zip</ZipFile>
+            <CRC>49e48a27287df395bbb450a91788739e</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Total HP" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_TotalHP_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Shows the total combined hp of each team. Commonly under the scoreboard, in the format "our hp &gt; their hp".</Description>
+        <Packages>
+          <Package Name="Enable total HP" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_TotalHP_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>941</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_total_hp_enable.zip</ZipFile>
+            <CRC>870b2528e8dd2cff9340bd4a451d3ed7</CRC>
+          </Package>
+          <Package Name="Disable total HP" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_TotalHP_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>943</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_total_hp_disable.zip</ZipFile>
+            <CRC>94449733560ca722077b295f8a033818</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="InfoPanel" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_InfoPanel_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>shows a tankinfopanel like the ones chooseable in IngameInfo</Description>
+        <Packages>
+          <Package Name="InfoPanel masheene" Type="single1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_InfoPanel_masheene" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>54215</Size>
+            <Description>shows a tankinfopanel like the oldskool one in IngameInfo</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/infopanel/XVM_Config_builder_InfoPanel_masheenestyle.png" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131957763087277221</Timestamp>
+            <ZipFile>XVM_config_builder_InfoPanel_masheenestyle_2019-02-27.zip</ZipFile>
+            <CRC>25810ad86e06cc82d405b5661ca61da7</CRC>
+          </Package>
+        </Packages>
+        <Timestamp>131826011602311721</Timestamp>
+      </Package>
+      <Package Name="Target Info" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_TargetInfo" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1687</Size>
+        <Description>shows the current targets reloadtime (no countdown, only standard reloadtime without perks)</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_targetinfo.png" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131771258549087414</Timestamp>
+        <ZipFile>XVM_config_builder_targetinfo_2018-07-27.zip</ZipFile>
+        <CRC>3f017e5c7aa000c6d93eababd50f8c88</CRC>
+      </Package>
+      <Package Name="WN8 Comparison" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <UpdateComment>keep this above damagepanel in db!!</UpdateComment>
+        <Description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</Description>
+        <Packages>
+          <Package Name="WN8 Comparison (Standard)" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_standard" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>4595</Size>
+            <Description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</Description>
+            <Medias>
+              <Media URL="https://puu.sh/wi2Su/6e405c1d07.png" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131954849389445220</Timestamp>
+            <ZipFile>XVM_config_builder_wn8_comparison_2019-02-24.zip</ZipFile>
+            <CRC>43a67eb656a9b0507e45810c38cc1abe</CRC>
+          </Package>
+          <Package Name="WN8 Comparison by Slava7572" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_Slava7572" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>490929</Size>
+            <Description>Shows the total WN8 values of each team\nby Slava7572</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_Slava7572.jpg" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131954849844302124</Timestamp>
+            <ZipFile>XVM_config_builder_wn8_comparison_slava7572_2019-02-23.zip</ZipFile>
+            <CRC>ef2776a2cd1e91523fd2f9a943f5c73f</CRC>
+          </Package>
+        </Packages>
+        <Timestamp>131804760989657652</Timestamp>
+      </Package>
+      <Package Name="DebugPanel" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_DebugPanel" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Show FPS / Ping / Clock in upper left corner.</Description>
+        <Packages>
+          <Package Name="DebugPanel v3 by Ress" Type="single1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_DebugPanel_v3byRess" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>17224</Size>
+            <Description>Show FPS / Ping / Clock in upper left corner.\nby Ress\n\nNot compatible to some XVM PreBuiltConfigs</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel_fps_ping_clock.jpg" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131812452186935972</Timestamp>
+            <ZipFile>XVM_config_builder_debugpanel_v3_2018-09-12.zip</ZipFile>
+            <CRC>b64071f8da90887ac268313cbf8b15eb</CRC>
+          </Package>
+        </Packages>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_elementsXC_temp_prepatch" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Timestamp>131812488048625094</Timestamp>
+      </Package>
+      <Package Name="Piercing Chance (possible Penetration Indicator conflict!)" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_PiercingChance" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>4342</Size>
+        <Description>Like the penatration indicator, this mod shows if you have a chance to penetrate the enemy.\n\nformat: \ncurrent own gun penetration / actual enemy armor\n\ncolors:\ngreen = chance to pierce\nred = no chance to pierce</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131804701655084324</Timestamp>
+        <ZipFile>XVM_config_builder_battleinterface_piercingchance_2018-09-03.zip</ZipFile>
+        <CRC>cf8198128ca2620c08da28bd7a00c5a9</CRC>
+      </Package>
+      <Package Name="Show Aim Info" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_AimInfo" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>6230</Size>
+        <Description>Shows aim info during the battle:\nDistance, Shell travel time, Aim Time\n\nSimilar to ExtraAimInfo by ekspoint, but done with XVM and no ads</Description>
+        <Medias>
+          <Media URL="https://puu.sh/ApLEG/c48ffd73ad.png" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131804722334100420</Timestamp>
+        <ZipFile>XVM_config_builder_aim_info_2018-09-03.zip</ZipFile>
+        <CRC>7790a48b51469b36fb1803d3f84e9712</CRC>
+      </Package>
+      <Package Name="Average Damage" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_AverageDamage_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Packages>
+          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_AverageDamage_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>957</Size>
+            <ZipFile>XVM_config_builder_avgerage_damage_enable.zip</ZipFile>
+            <CRC>24f17bc2a29514fc8a2ef522fd4b19cf</CRC>
+          </Package>
+          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_AverageDamage_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>960</Size>
+            <ZipFile>XVM_config_builder_avgerage_damage_disable.zip</ZipFile>
+            <CRC>ced2987875b6cdd626688bc93a24cc8e</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="High Caliber Tracker" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_HighCaliber_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Shows how much damage you need to do to get high caliber</Description>
+        <Packages>
+          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_HighCaliber_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>949</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_high_caliber_enable.zip</ZipFile>
+            <CRC>b4ce301f0758a4c351ce23a882bd5c1b</CRC>
+          </Package>
+          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_HighCaliber_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>952</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_high_caliber_disable.zip</ZipFile>
+            <CRC>f0b1aaf5e97a3cca1df86531017a6e8d</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Damage Log" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_DamageLog_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Toggle the xvm damage log. The damage log shows how much damage you have taken for the duration of the battle.</Description>
+        <Packages>
+          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_DamageLog_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>947</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_damage_log_enable.zip</ZipFile>
+            <CRC>6d3fd2b0238cc0dc5ad59a95da52715b</CRC>
+          </Package>
+          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_DamageLog_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>950</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_damage_log_disable.zip</ZipFile>
+            <CRC>98e962776b8c4baea52579c3d2b6f251</CRC>
+          </Package>
+          <Package Name="move DamageLog in Battle (CTRL+Mouse)" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_DamageLog_MoveInBattle" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>675</Size>
+            <Description>Enabling this will allow you to move the xvm damagelog. \nWhile holding CTRL, click and drag the label with your mouse</Description>
+            <Timestamp>131950389484842302</Timestamp>
+            <ZipFile>XVM_config_builder_DamageLog_moveInBattle_true_2019-02-19.zip</ZipFile>
+            <CRC>68ca4737b7df715e3d7a4480906d875d</CRC>
+          </Package>
+          <Package Name="Enable toggling of client default damagelog from game settings" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_DamageLog_toggleDefault_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>867</Size>
+            <Description>Enabling this will allow you to configure the ingame damagelog and hitlog settings from the client settings window.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/allow_toggle_ingame_damage_log.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_damage_default_client_toggle.zip</ZipFile>
+            <CRC>79efce7f4870e12dfcc0101dada25fd7</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/damage_log_(XVM)_lower_left_web.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="PreBattleMessages" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_PreBattleMessages" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>modify the look of the pre-battle timer and messages</Description>
+        <Packages>
+          <Package Name="only timer &amp; conditions" Type="single1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_PreBattleMessages_timer_and_conditions" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>703</Size>
+            <Description>disables PreBattleBackground (shadow), \nPreBattleMessages \nand \nQuestProgressHint\n\nleaves Timer and BattleWinConditions!</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_1.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_2.jpg" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131812515942949463</Timestamp>
+            <ZipFile>XVM_config_builder_PreBattleMessages_timer_and_conditions_1.1.0_2018-09-12.zip</ZipFile>
+            <CRC>ea4a1e1866d1148aa723fc2e9c4eacff</CRC>
+          </Package>
+        </Packages>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_elementsXC_temp_prepatch" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Timestamp>131812516048427337</Timestamp>
+      </Package>
+      <Package Name="Last Hit Announcer" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_LastHitAnnouncer_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Will display a message of who just shot you and for how much. Similar to the damage announce part of the popular "Damagelog by GambitER".</Description>
+        <Packages>
+          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_LastHitAnnouncer_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>942</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_last_hit_enable.zip</ZipFile>
+            <CRC>85ba4027fdc45174d601f61aa143c995</CRC>
+          </Package>
+          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_LastHitAnnouncer_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>943</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_last_hit_disable.zip</ZipFile>
+            <CRC>cdb7cb7a1f89ddc61a5ff968182aa202</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Vehicle On Fire Announcer" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_VehicleOnFireAnnouncer_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>(Another) Visual notification if your vehicle is on fire.</Description>
+        <Packages>
+          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_VehicleOnFireAnnouncer_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>947</Size>
+            <ZipFile>XVM_config_builder_vehicle_fire_enable.zip</ZipFile>
+            <CRC>de3740a3754344fb63c08485cb96650c</CRC>
+          </Package>
+          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_VehicleOnFireAnnouncer_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>949</Size>
+            <ZipFile>XVM_config_builder_vehicle_fire_disable.zip</ZipFile>
+            <CRC>777fe98307cf4067b649aa56f98e0853</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Total Efficiency" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Shows spotting damage, assistance damage, stun damage, etc.</Description>
+        <Packages>
+          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>949</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_total_eff_enable.zip</ZipFile>
+            <CRC>93046efe67bd3a8b5808143bc470483c</CRC>
+          </Package>
+          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>951</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_total_eff_disable.zip</ZipFile>
+            <CRC>2f1dfba55e06b816550864dcfa935207</CRC>
+          </Package>
+          <Package Name="move the total efficiency label" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_move" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Description>this moves the "total efficiency" label from the top to a different position</Description>
+            <Packages>
+              <Package Name="under the chat (bottom left)" Type="single1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_underchat" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>637</Size>
+                <Description>this moves the Total Efficiency to the space between chat and damage panel</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Xvm_Config_Builder/Battle_Interface/XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_underchat.png" MediaType="Picture" />
+                </Medias>
+                <Timestamp>131930933307981260</Timestamp>
+                <ZipFile>XVM_config_builder_total_eff_underchat_patch.zip</ZipFile>
+                <CRC>d6061fcc905360513876b5831550f82f</CRC>
+              </Package>
+              <Package Name="above damagelog" Type="single1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_abovedamagelog" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>642</Size>
+                <Description>this moves the Total Efficiency to the bottom above the xvm damage log</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Xvm_Config_Builder/Battle_Interface/XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_abovedamagelog.png" MediaType="Picture" />
+                </Medias>
+                <Timestamp>131930931932550202</Timestamp>
+                <ZipFile>XVM_config_builder_total_eff_abovedmglog_patch.zip</ZipFile>
+                <CRC>cc1366a9a64ad7db02e5aeaf28acad64</CRC>
+              </Package>
+            </Packages>
+            <Timestamp>131930934157368062</Timestamp>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Damage Panel Repair Timers" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_DamagePanelRepairTimers_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Shows a number in the picture of the damaged modules in the players panel of how much time until the item is repaired.</Description>
+        <Packages>
+          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_DamagePanelRepairTimers_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1067</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_panel_show_repair_times.png" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131942100806870412</Timestamp>
+            <ZipFile>XVM_config_builder_repair_timers_enable_2019-02-09.zip</ZipFile>
+            <CRC>fb5ab252977f23a0f3551b49ce7f9fec</CRC>
+          </Package>
+          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_DamagePanelRepairTimers_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1071</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_panel_show_repair_times.png" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131942100693682840</Timestamp>
+            <ZipFile>XVM_config_builder_repair_timers_disable_2019-02-09.zip</ZipFile>
+            <CRC>31cde7be2f5d7e8d6afbaae987286fdd</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_panel_show_repair_times.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Squadmember Color Change" Type="multi" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_Squadmember_Color_Change_Headline" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Changes the default color, if Platoon members hit an enemy.</Description>
+        <Packages>
+          <Package Name="Purple" Type="single1" Visible="True" PackageName="XVMConfigBuilder_BattleInterfaceModifications_Squadmember_Color_Change_Purple" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>820</Size>
+            <Description>Changes the default color to Purple, if Platoon members hit an enemy.</Description>
+            <Timestamp>131930962452012507</Timestamp>
+            <ZipFile>XVM_config_builder_Squadmember_color_change_purple_patch_2019-01-27.zip</ZipFile>
+            <CRC>5f6a7861724f0d52d8412bebe67f0a55</CRC>
+          </Package>
+        </Packages>
+      </Package>
+    </Packages>
+    <Medias>
+      <Media URL="https://puu.sh/z80X3/959cf2b2b5.jpg" MediaType="Picture" />
+    </Medias>
+  </Package>
+  <Package Name="Battle Results modifications (xvm)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_BattleResultsModifications_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Description>Show the tier of the battle (max tier)\nalso change which results page is displayed first when you enter the garage from the battle\npage 1 is battle summary\npage 2 is teams score\npage 3 is your detailed battle stats</Description>
+    <Packages>
+      <Package Name="Init Battle Results page 1" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_BattleResultsModifications_BattleResultsPage_1" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>952</Size>
+        <Description>Show the first tab in the results page. (Game summary)</Description>
+        <Medias>
+          <Media URL="https://puu.sh/z83ft/896b242937.png" MediaType="Picture" />
+        </Medias>
+        <ZipFile>XVM_config_builder_battle_results_start_page_1.zip</ZipFile>
+        <CRC>3fd591c6db742a1e3ec303b399d15cc8</CRC>
+      </Package>
+      <Package Name="Init Battle Results page 2" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_BattleResultsModifications_BattleResultsPage_2" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>952</Size>
+        <Description>Show the second tab in the results page. (Total team information)</Description>
+        <Medias>
+          <Media URL="https://puu.sh/z83gf/15aeb7813c.png" MediaType="Picture" />
+        </Medias>
+        <ZipFile>XVM_config_builder_battle_results_start_page_2.zip</ZipFile>
+        <CRC>03d5f168a93a2d45567797a64ea36aea</CRC>
+      </Package>
+      <Package Name="Init Battle Results page 3" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_BattleResultsModifications_BattleResultsPage_3" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>952</Size>
+        <Description>Show the third tab in the results page. (Battle finances report)</Description>
+        <Medias>
+          <Media URL="https://puu.sh/z83hl/c6275ace35.png" MediaType="Picture" />
+        </Medias>
+        <ZipFile>XVM_config_builder_battle_results_start_page_3.zip</ZipFile>
+        <CRC>3b4ab82c72a9c45abd02cfa73b789a06</CRC>
+      </Package>
+    </Packages>
+    <Medias>
+      <Media URL="https://puu.sh/z83ee/c8e9d6f906.png" MediaType="Picture" />
+    </Medias>
+  </Package>
+  <Package Name="Tank Carousel modifications (xvm)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Description>Change many settings about how the tank carousel is displayed in your garage.</Description>
+    <Packages>
+      <Package Name="Disable XVM Tank Cells" Type="single1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_carousel_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>916</Size>
+        <Description>Disable the XVM carousel</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/disable_xvm_cells_header.png" MediaType="Picture" />
+        </Medias>
+        <ZipFile>XVM_config_builder_carousel_disable.zip</ZipFile>
+        <CRC>19429e58d039be7cdee08aadf19a7673</CRC>
+      </Package>
+      <Package Name="Enable XVM Tank Cells" Type="single1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_carousel_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>927</Size>
+        <Description>Enable the XVM carousel</Description>
+        <Packages>
+          <Package Name="Modify Cell Content" Type="multi" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Description>Change the content inside the tank cells</Description>
+            <Packages>
+              <Package Name="Tanks with limited MM in different colors" Type="multi" Visible="True" PackageName="XVMConfigBuilder_TankCarousel_Tanks_with_limited_MM_Headline" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Description>Shows the tankname in the tankcarousel with limited Matchmaking in different colors</Description>
+                <Packages>
+                  <Package Name="Green" Type="single1" Visible="True" PackageName="XVMConfigBuilder_TankCarousel_Tanks_with_limited_MM_Green" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>1554</Size>
+                    <Description>Shows the tankname in the tankcarousel with limited Matchmaking in Green color</Description>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder/TankCarousel/XVM_config_builder_TankCarousel_Tanks_with_limited_MM_Green.png" MediaType="Picture" />
+                    </Medias>
+                    <Version>0.9.21.0</Version>
+                    <Timestamp>131597455844748831</Timestamp>
+                    <ZipFile>XVM_config_builder_TankCarousel_Tanks_with_limited_MM_Green_patch.zip</ZipFile>
+                    <CRC>99e631990892ae04f767453ae0e7e0eb</CRC>
+                  </Package>
+                </Packages>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_TankCarousel_Tanks_with_limited_MM_Green.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package Name="From Prebuilt Config Selection" Type="single" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_FromPrebuilt" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Description>Use the carousel cell settings from the xvm config you selected in the XVM prebuilt configs tab</Description>
+                <Packages>
+                  <Package Name="Normal Style" Type="single" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_NormalStyle" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>925</Size>
+                    <Packages>
+                      <Package Name="1.0 Scale" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_NormalStyle_Scale_1.0" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Description>Normal size of the carousel</Description>
+                        <Medias>
+                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
+                        </Medias>
+                      </Package>
+                      <Package Name="0.8 scale" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_NormalStyle_Scale_0.8" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Size>1100</Size>
+                        <Description>Reduce the size of the carousel overall by a factor of 0.8</Description>
+                        <Medias>
+                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
+                        </Medias>
+                        <ZipFile>XVM_config_builder_carousel_normal_cell_scale_0.8_2017-06-26.zip</ZipFile>
+                        <CRC>c64f86f5145005917921be48cc527ad5</CRC>
+                      </Package>
+                      <Package Name="0.6 scale" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_NormalStyle_Scale_0.6" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Size>1157</Size>
+                        <Description>Reduce the size of the carousel overall by a factor of 0.6</Description>
+                        <Medias>
+                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
+                        </Medias>
+                        <Timestamp>131558444585370638</Timestamp>
+                        <ZipFile>XVM_config_builder_carousel_normal_cell_scale_0.6_2017-11-22.zip</ZipFile>
+                        <CRC>b22806acbde905d86566fbd9dae66fe4</CRC>
+                      </Package>
+                      <Package Name="Average Damage" Type="multi" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_AverageDamage_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Packages>
+                          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_AverageDamage_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1021</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/average_damage_header.png" MediaType="Picture" />
+                            </Medias>
+                            <ZipFile>XVM_config_builder_carousel_cell_average_damage_enable.zip</ZipFile>
+                            <CRC>87891e073b1ce433cec5705dc44540ff</CRC>
+                          </Package>
+                          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_AverageDamage_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1023</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/average_damage_header.png" MediaType="Picture" />
+                            </Medias>
+                            <ZipFile>XVM_config_builder_carousel_cell_average_damage_disable.zip</ZipFile>
+                            <CRC>d3cdce95e5aa90473632c1438209b294</CRC>
+                          </Package>
+                        </Packages>
+                        <Medias>
+                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/average_damage_header.png" MediaType="Picture" />
+                        </Medias>
+                      </Package>
+                      <Package Name="Battles Count" Type="multi" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_BattlesCount_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Packages>
+                          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_BattlesCount_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1023</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/battles_count_header.png" MediaType="Picture" />
+                            </Medias>
+                            <ZipFile>XVM_config_builder_carousel_cell_battle_count_enable.zip</ZipFile>
+                            <CRC>940ccb4c90e86ff530bbfb0ac4983928</CRC>
+                          </Package>
+                          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_BattlesCount_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1020</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/battles_count_header.png" MediaType="Picture" />
+                            </Medias>
+                            <ZipFile>XVM_config_builder_carousel_cell_battle_count_disable.zip</ZipFile>
+                            <CRC>4ec932387b8c400cca923aa0d93d1000</CRC>
+                          </Package>
+                        </Packages>
+                        <Medias>
+                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/battles_count_header.png" MediaType="Picture" />
+                        </Medias>
+                      </Package>
+                      <Package Name="Win Rate" Type="multi" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_WinRate_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Packages>
+                          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_WinRate_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1043</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/win_rate_header.png" MediaType="Picture" />
+                            </Medias>
+                            <ZipFile>XVM_config_builder_carousel_cell_win_rate_enable.zip</ZipFile>
+                            <CRC>95d81a679bf6b699e34533af6803e1a7</CRC>
+                          </Package>
+                          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_WinRate_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1044</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/win_rate_header.png" MediaType="Picture" />
+                            </Medias>
+                            <ZipFile>XVM_config_builder_carousel_cell_win_rate_disable.zip</ZipFile>
+                            <CRC>a0041100b10ac098aa730f85270865e2</CRC>
+                          </Package>
+                        </Packages>
+                        <Medias>
+                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/win_rate_header.png" MediaType="Picture" />
+                        </Medias>
+                      </Package>
+                    </Packages>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
+                    </Medias>
+                    <ZipFile>XVM_config_builder_carousel_normal_cell.zip</ZipFile>
+                    <CRC>e59c009cafa7dea617bc27f40c94998c</CRC>
+                  </Package>
+                  <Package Name="Small Style" Type="single" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_SmallStyle" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>923</Size>
+                    <Packages>
+                      <Package Name="Win Rate" Type="multi" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_SmallStyle_WinRate_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Packages>
+                          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_SmallStyle_WinRate_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1043</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/small_cells_wr.png" MediaType="Picture" />
+                            </Medias>
+                            <ZipFile>XVM_config_builder_carousel_cell_win_rate_enable.zip</ZipFile>
+                            <CRC>95d81a679bf6b699e34533af6803e1a7</CRC>
+                          </Package>
+                          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_SmallStyle_WinRate_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1044</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/small_cells_wr.png" MediaType="Picture" />
+                            </Medias>
+                            <ZipFile>XVM_config_builder_carousel_cell_win_rate_disable.zip</ZipFile>
+                            <CRC>a0041100b10ac098aa730f85270865e2</CRC>
+                          </Package>
+                        </Packages>
+                        <Medias>
+                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/small_cells_wr.png" MediaType="Picture" />
+                        </Medias>
+                      </Package>
+                    </Packages>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
+                    </Medias>
+                    <ZipFile>XVM_config_builder_carousel_small_cell.zip</ZipFile>
+                    <CRC>e1c8d14be77837db3d52c9709e9585ab</CRC>
+                  </Package>
+                </Packages>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/enable_xvm_cells_header_message.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package Name="By CaronteShinigami" Type="single1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_CaronteShinigami" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>925</Size>
+                <Description>Use the carousel cell settings donated to us from CaronteShinigami</Description>
+                <Packages>
+                  <Package Name="1.0 Scale" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_CaronteShinigami_Scale_1.0" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>2829</Size>
+                    <Description>Normal carousell cell size</Description>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_carousel_CaronteShinigami.png" MediaType="Picture" />
+                    </Medias>
+                    <ZipFile>XVM_config_builder_carousel_CaronteShinigami_1.0_Scale_2017-06-26.zip</ZipFile>
+                    <CRC>7823ab85e6e252a29c53cfd61257971e</CRC>
+                  </Package>
+                  <Package Name="0.8 Scale" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_CaronteShinigami_Scale_0.8" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>2838</Size>
+                    <Description>Reduce the size of the carousel overall by a factor of 0.8</Description>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_carousel_CaronteShinigami.png" MediaType="Picture" />
+                    </Medias>
+                    <ZipFile>XVM_config_builder_carousel_CaronteShinigami_0.8_Scale_2017-06-26.zip</ZipFile>
+                    <CRC>386e466fc679aa7e15ee0f68a154c8a2</CRC>
+                  </Package>
+                </Packages>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_carousel_CaronteShinigami.png" MediaType="Picture" />
+                </Medias>
+                <ZipFile>XVM_config_builder_carousel_CaronteShinigami_force_normal_2017-06-26.zip</ZipFile>
+                <CRC>e59c009cafa7dea617bc27f40c94998c</CRC>
+              </Package>
+            </Packages>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/enable_xvm_cells_header_message.png" MediaType="Picture" />
+        </Medias>
+        <ZipFile>XVM_config_builder_carousel_enable.zip</ZipFile>
+        <CRC>9786aab2cd314147e6a051ec332a7763</CRC>
+      </Package>
+      <Package Name="Rows - 1" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_1" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>908</Size>
+        <Description>One row of tanks</Description>
+        <ZipFile>XVM_config_builder_carousel_1_row.zip</ZipFile>
+        <CRC>c4edb9a3467107bb34c9894c54ab45c1</CRC>
+      </Package>
+      <Package Name="Rows - 2" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_2" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>909</Size>
+        <Description>Two rows of tanks</Description>
+        <ZipFile>XVM_config_builder_carousel_2_row.zip</ZipFile>
+        <CRC>0f0c7aec3a5d3baec6e16e900bc2b45a</CRC>
+      </Package>
+      <Package Name="Rows - 3" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_3" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>909</Size>
+        <Description>Three rows of tanks</Description>
+        <ZipFile>XVM_config_builder_carousel_3_row.zip</ZipFile>
+        <CRC>aba96db1c57cc438dd3d48a4b317d46e</CRC>
+      </Package>
+      <Package Name="Rows - 4" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_4" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>876</Size>
+        <Description>Four rows of tanks</Description>
+        <ZipFile>XVM_config_builder_carousel_4_row.zip</ZipFile>
+        <CRC>a7f2b9fb74885bb5c659284fea25d3bc</CRC>
+      </Package>
+      <Package Name="Rows - 5" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_5" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>909</Size>
+        <Description>Five rows of tanks</Description>
+        <ZipFile>XVM_config_builder_carousel_5_row.zip</ZipFile>
+        <CRC>3be6f56687122ff82b2e172c820f234e</CRC>
+      </Package>
+      <Package Name="Rows - Ingame setting" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_carouselRow_IngameSetting" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>908</Size>
+        <Description>Use the ingame setting (one or two) rows of tanks</Description>
+        <ZipFile>XVM_config_builder_carousel_0_row.zip</ZipFile>
+        <CRC>28819f047cd48e526211f0b4f6b0bd5d</CRC>
+      </Package>
+      <Package Name="&quot;Restore Tank&quot; cell" Type="multi" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_restoretankslot" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Packages>
+          <Package Name="show the restore tank cell" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_restoretankslot_show" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>507</Size>
+            <Timestamp>131859241657859578</Timestamp>
+            <ZipFile>XVM_config_builder_carousel_show_restore_tank.zip</ZipFile>
+            <CRC>7a6b76cb05c78efe6ba9824977d5bbfc</CRC>
+          </Package>
+          <Package Name="hide the restore tank cell" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_restoretankslot_hide" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>508</Size>
+            <Timestamp>131859240835835461</Timestamp>
+            <ZipFile>XVM_config_builder_carousel_hide_restore_tank.zip</ZipFile>
+            <CRC>25e8dd141fdc264b2b1ad1c0941c2038</CRC>
+          </Package>
+        </Packages>
+        <Timestamp>131859238548105940</Timestamp>
+      </Package>
+      <Package Name="&quot;Buy Tank&quot; cell" Type="multi" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_buyTank_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1011</Size>
+        <Packages>
+          <Package Name="Hide cell" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_buyTank_hide_totalSlots_hide" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1011</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_carousel_hide_buy_tank_hide_total_slots.zip</ZipFile>
+            <CRC>313a612d874c04bd8cdff08ff2230785</CRC>
+          </Package>
+          <Package Name="Show cell, hide total slots" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_buyTank_show_totalSlots_hide" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1004</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_carousel_show_buy_tank_hide_total_slots.zip</ZipFile>
+            <CRC>c97cedf8849650a6f16b206c367a7a0d</CRC>
+          </Package>
+          <Package Name="Show cell, show total slots" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_buyTank_show_totalSlots_show" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1008</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_carousel_show_buy_tank_show_total_slots.zip</ZipFile>
+            <CRC>0b9cc6a60661ba5254bd5bef29fd5cba</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" MediaType="Picture" />
+        </Medias>
+        <ZipFile>XVM_config_builder_carousel_hide_buy_tank_hide_total_slots.zip</ZipFile>
+        <CRC>313a612d874c04bd8cdff08ff2230785</CRC>
+      </Package>
+      <Package Name="&quot;Buy Slot&quot; cell" Type="multi" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_buySlot_usedSlots_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1005</Size>
+        <Packages>
+          <Package Name="Hide cell" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_buySlot_hide_usedSlots_hide" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1005</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_carousel_hide_buy_slot_hide_used_slots.zip</ZipFile>
+            <CRC>b869305de1835e6966b59b7e4eb7feba</CRC>
+          </Package>
+          <Package Name="Show cell, hide total used slots" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_buySlot_show_usedSlots_hide" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1001</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_carousel_show_buy_slot_hide_used_slots.zip</ZipFile>
+            <CRC>4b223b2e71f813107033952e7297d4d1</CRC>
+          </Package>
+          <Package Name="Show cell, show total used slots" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_TankCarouselBaseModifications_buySlot_show_usedSlots_show" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1005</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_carousel_show_buy_slot_show_used_slots.zip</ZipFile>
+            <CRC>0238565d59b83d1f10dbf857693a74c1</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" MediaType="Picture" />
+        </Medias>
+        <ZipFile>XVM_config_builder_carousel_hide_buy_slot_hide_used_slots.zip</ZipFile>
+        <CRC>b869305de1835e6966b59b7e4eb7feba</CRC>
+      </Package>
+    </Packages>
+  </Package>
+  <Package Name="Players Panel Modifications (xvm)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Packages>
+      <Package Name="Disable (Use WoT playerspanel)" Type="single1" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_Disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>931</Size>
+        <Description>Use the stock WoT playerspanel</Description>
+        <ZipFile>XVM_config_builder_playerspanel_disable.zip</ZipFile>
+        <CRC>c358c261fdb9fdc5ac99c1d0563716f1</CRC>
+      </Package>
+      <Package Name="Enable" Type="single1" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_Enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>929</Size>
+        <Description>Use the XVM players panel</Description>
+        <Packages>
+          <Package Name="Starting Position" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_StartingPosition_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Description>Choose with which Players Panel position with which the game will start.</Description>
+            <Packages>
+              <Package Name="short" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_StartingPosition_short" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>1075</Size>
+                <Medias>
+                  <Media URL="https://puu.sh/z7Yjq/2fc6abed74.png" MediaType="Picture" />
+                </Medias>
+                <ZipFile>XVM_config_builder_playerspanel_start_short_patch.zip</ZipFile>
+                <CRC>7a8f13538ae6a6413d64df93e1f09251</CRC>
+              </Package>
+              <Package Name="medium (standard)" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_StartingPosition_medium" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>1078</Size>
+                <Medias>
+                  <Media URL="https://puu.sh/z7YkP/8db56de478.png" MediaType="Picture" />
+                </Medias>
+                <ZipFile>XVM_config_builder_playerspanel_start_medium_patch.zip</ZipFile>
+                <CRC>12d68dc7678ea7164bd3e23acd2159cc</CRC>
+              </Package>
+              <Package Name="medium 2" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_StartingPosition_medium2" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>1081</Size>
+                <Medias>
+                  <Media URL="https://puu.sh/z7Yn1/64cb9429d1.png" MediaType="Picture" />
+                </Medias>
+                <ZipFile>XVM_config_builder_playerspanel_start_medium2_patch.zip</ZipFile>
+                <CRC>88d513b4dc6f42f4697b432254de6e14</CRC>
+              </Package>
+              <Package Name="large" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_StartingPosition_large" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>1074</Size>
+                <Medias>
+                  <Media URL="https://puu.sh/z7YnQ/b5e0f3f4e8.png" MediaType="Picture" />
+                </Medias>
+                <ZipFile>XVM_config_builder_playerspanel_start_large_patch.zip</ZipFile>
+                <CRC>2473b821b1fe37cc8a0fe2a59f2b5104</CRC>
+              </Package>
+            </Packages>
+            <Medias>
+              <Media URL="https://puu.sh/z7Yz4/1d76b592c7.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package Name="HP Bars" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_HpBars_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Description>Choose which HP bars you want to use</Description>
+            <Packages>
+              <Package Name="Default" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_HpBars_Default" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Description>Use the HP bars from the XVM config you selected in the Prebuilt config tab.</Description>
+                <Medias>
+                  <Media URL="https://puu.sh/wm5Aw/4a3b4e6b35.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package Name="OMC style" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_HpBars_OMCStyle" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>1181</Size>
+                <Description>From the OMC XVM config</Description>
+                <Medias>
+                  <Media URL="https://puu.sh/wm5zf/62d892e87b.png" MediaType="Picture" />
+                </Medias>
+                <Timestamp>131957792261342888</Timestamp>
+                <ZipFile>XVM_config_builder_playerspanel_OMC_hp_bars_2019-02-27.zip</ZipFile>
+                <CRC>436e2a4c3cfbcd3dc77a29b89044641c</CRC>
+              </Package>
+              <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_HpBars_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>771</Size>
+                <Medias>
+                  <Media URL="https://puu.sh/wm5xq/8db4ccf893.png" MediaType="Picture" />
+                </Medias>
+                <Timestamp>131952379810214503</Timestamp>
+                <ZipFile>XVM_config_builder_playerspanel_disable_hp_bars_2019-02-21.zip</ZipFile>
+                <CRC>06fefb3ce36c884cda5d1ba17403e023</CRC>
+              </Package>
+              <Package Name="On Key Press" Type="single_dropdown2" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_HpBars_OnKeyPress" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Description>Set the hp bars to be active on key press. (Usually left alt or left crtl)</Description>
+              </Package>
+              <Package Name="On Always" Type="single_dropdown2" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_HpBars_OnAlways" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>710</Size>
+                <Description>Set the hp bars to be active always</Description>
+                <Timestamp>131941292192902956</Timestamp>
+                <ZipFile>XVM_config_builder_playerspanel_hp_on_always_patch_2019-02-08.zip</ZipFile>
+                <CRC>5d5878f14a73678b387817cf0a978adf</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package Name="Enable small hp bar for every tank" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_HpBars_SmallBars" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>992</Size>
+            <Description>Enable a small HP bar in the players panel for every tank.</Description>
+            <Medias>
+              <Media URL="https://puu.sh/wWLdq/5e835f078a.png" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131954850697083409</Timestamp>
+            <ZipFile>XVM_config_builder_playerspanel_small_hp_bar_below_2019-02-24.zip</ZipFile>
+            <CRC>a2a45f8b7c2774302e2a66c495720970</CRC>
+          </Package>
+          <Package Name="Enable small hp numbers for every tank" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_EnemyHpLeft" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1029</Size>
+            <Description>Enable small numbers in the players panel showing the total hp of every tank. Taken from Willster419's config.</Description>
+            <Medias>
+              <Media URL="https://puu.sh/xiDWh/ef574a4fc8.png" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_playerspanel_enemy_hp_left_2017-08-24.zip</ZipFile>
+            <CRC>55f2ce9aac36764524ae5b25cd5b319c</CRC>
+          </Package>
+          <Package Name="Enemy Spotted Marker" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_Enemy_Spotted_Marker" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Description>This is a Spotted Status Indicator for the enemy team.</Description>
+            <Packages>
+              <Package Name="enable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_Enemy_Spotted_Marker_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>501</Size>
+                <Timestamp>131910192008002906</Timestamp>
+                <ZipFile>XVM_config_builder_PlayersPanelModifications_Enemy_Spotted_Marker_enabled.zip</ZipFile>
+                <CRC>c74de67423029903c80ec87ea737484f</CRC>
+              </Package>
+              <Package Name="disable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_Enemy_Spotted_Marker_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>503</Size>
+                <Timestamp>131910192252772008</Timestamp>
+                <ZipFile>XVM_config_builder_PlayersPanelModifications_Enemy_Spotted_Marker_disabled.zip</ZipFile>
+                <CRC>e32fc2e5a85aff70de1140c536487047</CRC>
+              </Package>
+            </Packages>
+            <Timestamp>131910190208253101</Timestamp>
+          </Package>
+          <Package Name="Friends-Marker" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_friendignored" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>4517</Size>
+            <Description>marks friends in allied/enemy playerspanel with a green dot,\n\nit´s also possible to mark blacklisted tankers in allied/enemy playerspanel with a red dot.\n\nif the tanksymbol is overlapping there´s an option to move the icon left/right</Description>
+            <Packages>
+              <Package Name="Blacklisted-Marker" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_ignoredIcon" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>4525</Size>
+                <Description>marks blacklisted tankers in allied/enemy playerspanel with a red dot</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_ignoredicon.png" MediaType="Picture" />
+                </Medias>
+                <Timestamp>131772935088598125</Timestamp>
+                <ZipFile>XVM_config_builder_playerspanel_ignoredIcon_2018-07-29.zip</ZipFile>
+                <CRC>740923af0f69c2fc3f1614b8621e555d</CRC>
+              </Package>
+              <Package Name="change markers position (-&gt;) (if tankicons are overlapping)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_friendignored_move_x120" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>517</Size>
+                <Description>move Friends-and Blacklisted-Markers more to center  (if contouricons are overlapping)</Description>
+                <Timestamp>131773955954736164</Timestamp>
+                <ZipFile>XVM_config_builder_friendignoredicon_move_x120_2018-07-30.zip</ZipFile>
+                <CRC>945a8e5fdea751d0bbbf5800b431b6eb</CRC>
+              </Package>
+            </Packages>
+            <Timestamp>131774048882661369</Timestamp>
+            <ZipFile>XVM_config_builder_playerspanel_friendIcon_2018-07-29.zip</ZipFile>
+            <CRC>58477de0e19c81d707d09777c956163c</CRC>
+          </Package>
+          <Package Name="Show who´s using XVM (xvmUserMarker)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_enable_xvmUserMarker" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>538</Size>
+            <Description>shows a little orange "x" near to player-/tanknames when they are using xvm</Description>
+            <Packages>
+              <Package Name="change position of &quot;x&quot; (-&gt;)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_xvmUserMarker_right" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>461</Size>
+                <Description>move the "x" more to center  (if contouricons are overlapping)</Description>
+                <Timestamp>131773929429232688</Timestamp>
+                <ZipFile>XVM_config_builder_xvmusermarker_right_2018-07-30.zip</ZipFile>
+                <CRC>17e1a7242d4ea0c8a767ef6347d4d542</CRC>
+              </Package>
+            </Packages>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_enable_xvmUserMarker.png" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131772838063351349</Timestamp>
+            <ZipFile>XVM_config_builder_enable_xvmUserMarker.zip</ZipFile>
+            <CRC>2c6ac05818bed6fd7a2f5f70bf4c0a40</CRC>
+          </Package>
+          <Package Name="Show language flag" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_Language_Flag" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Description>will show the individually selcted language flag of every player in the panel.\n\nOn ALT key, it will be hidden.</Description>
+            <Packages>
+              <Package Name="based on XVM selected language" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_Language_Flag_XVM" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>836</Size>
+                <Packages>
+                  <Package Name="change the flag´s position (&lt;-)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_PlayersPanelModifications_Language_Flag_XVM_left" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>594</Size>
+                    <Description>move flag to the panel inside.\nuseful for some prebuilt configs (eg Jimbo´s)\n\n\n\nAttention with simultaneous use of both language-flags!</Description>
+                    <Timestamp>131891289119949068</Timestamp>
+                    <ZipFile>XVM_config_builder_PlayersPanelModifications_Language_Flag_XVM_left_patch.zip</ZipFile>
+                    <CRC>2070b02b8acae8cb3869bae18eaebac8</CRC>
+                  </Package>
+                </Packages>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_Language_Flag.png" MediaType="Picture" />
+                </Medias>
+                <Timestamp>131891294424356811</Timestamp>
+                <ZipFile>XVM_config_builder_PlayersPanelModifications_Language_Flag_XVM_2018-12-12.zip</ZipFile>
+                <CRC>306ff43dd6c50b4f048d1f0e252a27d5</CRC>
+              </Package>
+            </Packages>
+            <Timestamp>131889469435275963</Timestamp>
+          </Package>
+        </Packages>
+        <ZipFile>XVM_config_builder_playerspanel_enable.zip</ZipFile>
+        <CRC>05fea47e94204ddb54d4f487cbcfe237</CRC>
+      </Package>
+    </Packages>
+  </Package>
+  <Package Name="Statistics color step modifications (xvm)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_StatisticsColorStepModifications_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Description>Choose which color scale you use to display player's tank stats</Description>
+    <Packages>
+      <Package Name="default config's colorscale" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_StatisticsColorStepModifications_default" InstallGroup="4" PatchGroup="0" Enabled="True" />
+      <Package Name="6 step xvm colorscale" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_StatisticsColorStepModifications_6StepXVM" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>982</Size>
+        <UpdateComment>2018-03-26: fixed wrong text to insert</UpdateComment>
+        <Timestamp>131665836073703025</Timestamp>
+        <ZipFile>XVM_config_builder_color_scale_6_step_xvm_patch_2018-03-26_2.zip</ZipFile>
+        <CRC>28891f39f591f3d86079bdb18aaecb28</CRC>
+      </Package>
+      <Package Name="7 step wotlabs old colorscale" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_StatisticsColorStepModifications_7StepOldWotLabs" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1025</Size>
+        <UpdateComment>fixed a syntax error</UpdateComment>
+        <Timestamp>131665836144585035</Timestamp>
+        <ZipFile>XVM_config_builder_color_scale_7_step_wotlabs_old_patch_2018-03-26_2.zip</ZipFile>
+        <CRC>a5146fef9ddcaae74c606f82e0fea97d</CRC>
+      </Package>
+      <Package Name="9 step wot-life colorscale" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_StatisticsColorStepModifications_9StepWot-life" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1078</Size>
+        <Timestamp>131891392875414168</Timestamp>
+        <ZipFile>XVM_config_builder_color_scale_9_step_wot-life_patch_2018-12-12.zip</ZipFile>
+        <CRC>ab1e0d0ec8d57bad8abc44975d6336f0</CRC>
+      </Package>
+      <Package Name="10 step wotlabs colorscale" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_StatisticsColorStepModifications_10StepWotlabs" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1084</Size>
+        <Timestamp>131665836279062627</Timestamp>
+        <ZipFile>XVM_config_builder_color_scale_10_step_wotlabs_patch_2018-03-26_2.zip</ZipFile>
+        <CRC>b94b7b510b92140ed6585585fc52f40e</CRC>
+      </Package>
+    </Packages>
+  </Package>
+  <Package Name="Garage Interface Modifications (xvm)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Description>Make changes to the garage interface. If you are looking for changes to the tank carousel, Look further down.</Description>
+    <Packages>
+      <Package Name="Clock" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_Clock_Base" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1463</Size>
+        <Description>Enable or disable the clock in the garage. Also select 12 or 24 hour clock, or blue text of the clock</Description>
+        <Packages>
+          <Package Name="Enable" Type="single1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_Clock_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>931</Size>
+            <Packages>
+              <Package Name="Time Format" Type="single1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_Clock_TimeFormat_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Description>change the time format</Description>
+                <Packages>
+                  <Package Name="12 hour" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_Clock_TimeFormat_12hour" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>677</Size>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_12.jpg" MediaType="Picture" />
+                    </Medias>
+                    <ZipFile>XVM_config_builder_clock_12_hour_9-28-2017_1.zip</ZipFile>
+                    <CRC>ba32f370e54c6b782fcda9fb42644f70</CRC>
+                  </Package>
+                  <Package Name="24 hour" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_Clock_TimeFormat_24hour" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>655</Size>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_24.jpg" MediaType="Picture" />
+                    </Medias>
+                    <ZipFile>XVM_config_builder_clock_24_hour_9-28-2017_1.zip</ZipFile>
+                    <CRC>cb0682002b44f96bd872583c1223c154</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package Name="Change Color to Blue" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_Clock_ChangeColorToBlue" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>527</Size>
+                <Description>Changes the color of the clock to Blue.</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_Blue.jpg" MediaType="Picture" />
+                </Medias>
+                <ZipFile>XVM_config_builder_clock_change_color_to_blue_patch_2017-09-27.zip</ZipFile>
+                <CRC>e360b8c116929c59b5c8bd8992a5dc4a</CRC>
+              </Package>
+            </Packages>
+            <ZipFile>XVM_config_builder_clock_enable_2017-09-28.zip</ZipFile>
+            <CRC>39140b092a867bd8111dca4f34ef35f9</CRC>
+          </Package>
+          <Package Name="Disable" Type="single1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_Clock_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>933</Size>
+            <ZipFile>XVM_config_builder_clock_disable_2017-09-28.zip</ZipFile>
+            <CRC>6e41338463803266404554b7e46ac2f8</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Gold Locker" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_GoldLocker_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Prevents you from using gold in your garage</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_GoldLocker_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>950</Size>
+            <ZipFile>XVM_config_builder_garage_gold_lock_enable.zip</ZipFile>
+            <CRC>77662c062c46e6a4d85d5b1a0675f447</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_GoldLocker_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>953</Size>
+            <ZipFile>XVM_config_builder_garage_gold_lock_disable.zip</ZipFile>
+            <CRC>bca4c8ecf1dd4c2129ba28230e5a3e5a</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Gold_Locker.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Bonds Locker" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_BondsLocker_Header" InstallGroup="4" PatchGroup="0" Enabled="False">
+        <Description>Prevents you from using bonds in your garage</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_BondsLocker_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>516</Size>
+            <ZipFile>XVM_config_builder_garage_bonds_lock_enable.zip</ZipFile>
+            <CRC>48285e43d5d97544e09c806a2d329c42</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_BondsLocker_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>518</Size>
+            <ZipFile>XVM_config_builder_garage_bonds_lock_disable.zip</ZipFile>
+            <CRC>3152f736fdef6a3412d47d4d431533f9</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Show Mastery Mark in Tech Tree" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_MasteryMarkTechTree_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Show the mastery icons for each tank in the tech tree</Description>
+        <Packages>
+          <Package Name="Enable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_MasteryMarkTechTree_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>962</Size>
+            <Timestamp>131749347009647264</Timestamp>
+            <ZipFile>XVM_config_builder_garage_mastry_mark_tech_tree_enable.zip</ZipFile>
+            <CRC>41cf0234b749310d4a8b56226f061c1a</CRC>
+          </Package>
+          <Package Name="Disable" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_MasteryMarkTechTree_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>965</Size>
+            <Timestamp>131749347100582936</Timestamp>
+            <ZipFile>XVM_config_builder_garage_mastry_mark_tech_tree_disable.zip</ZipFile>
+            <CRC>5abccfc69846435f11f56cf2cc320a65</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="https://puu.sh/AP8NO/a58307cbb2.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Free XP Locker" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_FreeXPLocker_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Prevent you from using free xp in your garage</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_FreeXPLocker_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>955</Size>
+            <ZipFile>XVM_config_builder_garage_free_xp_lock_enable.zip</ZipFile>
+            <CRC>633fc4b7315216cae385c835ff8c2034</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_FreeXPLocker_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>958</Size>
+            <ZipFile>XVM_config_builder_garage_free_xp_lock_disable.zip</ZipFile>
+            <CRC>01620a6a1d4f2d1742c36764c81207c0</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_XP_locker.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Tech Tree free XP convert option" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_TechTreeFreeXPConvertOption_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Enable an option where, when trying to research a module or tank, if you do not have enough xp, it will present you with a window to convert enough free xp to research the item</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_TechTreeFreeXPConvertOption_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>963</Size>
+            <ZipFile>XVM_config_builder_garage_free_xp_module_enable.zip</ZipFile>
+            <CRC>ddff79b95e26310ac5d2986670b36247</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_TechTreeFreeXPConvertOption_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>966</Size>
+            <ZipFile>XVM_config_builder_garage_free_xp_module_disable.zip</ZipFile>
+            <CRC>6537e86b2ef88799933fa0439b812b97</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Crew Auto-return" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_CrewAutoReturn_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Automatically return your crew between tanks</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_CrewAutoReturn_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1006</Size>
+            <ZipFile>XVM_config_builder_garage_crew_auto_return_enable.zip</ZipFile>
+            <CRC>fa87434f0e479b4d8feb2a774c93c9a9</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_CrewAutoReturn_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1009</Size>
+            <ZipFile>XVM_config_builder_garage_crew_auto_return_disable.zip</ZipFile>
+            <CRC>6301a3da2c6bf05f87e3b5f2652a7340</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Removable equipment auto-return" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_RemovableEquipmentAutoReturn_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>automatically return removable equipment</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_RemovableEquipmentAutoReturn_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>996</Size>
+            <ZipFile>XVM_config_builder_garage_removable_equipment_auto_return_enable.zip</ZipFile>
+            <CRC>deb225edec0f5bde3fcaf72e56043650</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_RemovableEquipmentAutoReturn_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>999</Size>
+            <ZipFile>XVM_config_builder_garage_removable_equipment_auto_return_disable.zip</ZipFile>
+            <CRC>7c6e5c8899b3d04d6879966815b01395</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return_Equips.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package Name="Block vehicle if ammo is lower than..." Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_BlockVehicleIfAmmoLow_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Prevent you from entering a battle if you vehicle is low on ammo</Description>
+        <Packages>
+          <Package Name="disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_BlockVehicleIfAmmoLow_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>973</Size>
+            <ZipFile>XVM_config_builder_garage_block_vehicle_ammo_disable.zip</ZipFile>
+            <CRC>da5d68964c162d1ff023d28bba40f77c</CRC>
+          </Package>
+          <Package Name="20%" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_BlockVehicleIfAmmoLow_20" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1006</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_garage_block_vehicle_ammo_20.zip</ZipFile>
+            <CRC>adaadf17bba2dae3959b70b8e45a3642</CRC>
+          </Package>
+          <Package Name="50%" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_BlockVehicleIfAmmoLow_50" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>1006</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_garage_block_vehicle_ammo_50.zip</ZipFile>
+            <CRC>9ccfeb428d6da6a05c0af8d4a2138841</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Server Ping" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_ServerPing_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Shows the ping delay (in ms) of the server(s)</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_ServerPing_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>953</Size>
+            <ZipFile>XVM_config_builder_garage_server_ping_enable.zip</ZipFile>
+            <CRC>59eac4f8428e08706ae616fdbcb1c22e</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_ServerPing_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>955</Size>
+            <ZipFile>XVM_config_builder_garage_server_ping_disable.zip</ZipFile>
+            <CRC>95184966061de2597df67553b239e5a8</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Server Populations" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_ServerPopulations_Base" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>1127</Size>
+        <Description>Display number of people on the server</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_ServerPopulations_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>953</Size>
+            <ZipFile>XVM_config_builder_garage_server_info_enable.zip</ZipFile>
+            <CRC>822e2fd16c19419149be1431376f589c</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_ServerPopulations_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>955</Size>
+            <ZipFile>XVM_config_builder_garage_server_info_disable.zip</ZipFile>
+            <CRC>bfe2e16f193af907ec0f844ecbccd0c9</CRC>
+          </Package>
+        </Packages>
+        <ZipFile>XVM_config_builder_garage_server_info_position_patch.zip</ZipFile>
+        <CRC>85b1919c2666791ea43eb852559b8ba0</CRC>
+      </Package>
+      <Package Name="Garage Statistics" Type="multi" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_Statistics" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Toggle a text field in the middle-right of the screen showing stasticts of your current win rate, and how many more wins to X percent.</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_Statistics_Enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>530</Size>
+            <ZipFile>XVM_config_builder_garage_statistics_enable.zip</ZipFile>
+            <CRC>112459abb3c57db52a1e3411c1636896</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_GarageInterfaceModifications_Statistics_Disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>532</Size>
+            <ZipFile>XVM_config_builder_garage_statistics_disable.zip</ZipFile>
+            <CRC>7c4fa4f79304f9bb4f140ce39546aa8b</CRC>
+          </Package>
+        </Packages>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Garage_Stats.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+    </Packages>
+  </Package>
+  <Package Name="Marker modifications (xvm) (Can Cause FPS loss)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Description>Toggle the xvm markers in the game. Disabling them will enable the configurations in the game</Description>
+    <Packages>
+      <Package Name="Enabled (Use XVM markers)" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_enabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>926</Size>
+        <Packages>
+          <Package Name="Default (or from pre-built page)" Type="single" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_default" InstallGroup="4" PatchGroup="0" Enabled="True" />
+          <Package Name="GRAVESTONE Enemy OTM Kill-Symbol by BoingPlatsch" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_gravestone" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>22027</Size>
+            <Description>Shows a gravestone kill symbol on enemies</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/markers/XVM_config_builder_Markers_enemy_GRAVESTONE_by_BoingPlatsch.png" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131859021793680931</Timestamp>
+            <ZipFile>XVM_config_builder_Markers_enemy_GRAVESTONE_by_BoingPlatsch_2018-11-05.zip</ZipFile>
+            <CRC>a5e55c1e6cf484ea87cebabc35549421</CRC>
+          </Package>
+          <Package Name="OTM Kill-Symbols" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_otmkillsymbols" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>38935</Size>
+            <Description>Shows ANGELWINGS on over-target-markers when allies get killed.\nShows RED OMC SKULL on over-target-marker when enemies getkilled.\nShows NUKE on over-target-marker when enemies get ammo-racked.\n\nNOT COMPATIBLE TO gravestone VARIANT</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/xvm_config_builder_markers_otmkillsymbols.JPG" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/xvm_config_builder_markers_dead_skull_redeyes.png" MediaType="Picture" />
+            </Medias>
+            <Timestamp>131859021678765630</Timestamp>
+            <ZipFile>XVM_config_builder_Markers_otmkillsymbols_2018-11-05.zip</ZipFile>
+            <CRC>a1df4614f914c0a7b67f4de0b601f9c7</CRC>
+          </Package>
+          <Package Name="OMC" Type="single" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_OMC" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>6585</Size>
+            <Packages>
+              <Package Name="Enable Focus Shield Marker" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_OMC_FocusShield_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>495</Size>
+                <Medias>
+                  <Media URL="http://s14.directupload.net/images/131222/a5lm4f52.jpg" MediaType="Picture" />
+                </Medias>
+                <ZipFile>XVM_Prebuilt_Configs_OMC_Enable_Focus_Shield_2017-07-05.zip</ZipFile>
+                <CRC>8c2116e16cee5e5d01d9bf66780993a0</CRC>
+              </Package>
+              <Package Name="Enable Damage Images" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_OMC_DamageImages_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>495</Size>
+                <Medias>
+                  <Media URL="http://s14.directupload.net/images/user/140729/fpzg5khz.png" MediaType="Picture" />
+                </Medias>
+                <ZipFile>XVM_Prebuilt_Configs_OMC_Enable_Damage_Images_2017-07-05.zip</ZipFile>
+                <CRC>9c612196568c5d919d5adca30542441c</CRC>
+              </Package>
+              <Package Name="Enable Turret Markers" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_OMC_TurretMarkers_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>510</Size>
+                <ZipFile>XVM_Prebuilt_Configs_OMC_Enable_Turret_Markers_2017-07-05.zip</ZipFile>
+                <CRC>795b216d9d1384b6e2cb2643661d77cc</CRC>
+              </Package>
+              <Package Name="Enable XMQP in markers" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_OMC_XMQP_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>480</Size>
+                <ZipFile>XVM_Prebuilt_Configs_OMC_Enable_XMQP_2017-07-05.zip</ZipFile>
+                <CRC>41f6caec2c53c256cdc8041c30a09c42</CRC>
+              </Package>
+              <Package Name="Enable Quick Color Marker (Quickstat)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_OMC_Quikstat_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Size>490</Size>
+                <Description>from left to right: WN8, EFF, global winrate, winrate on the current tank</Description>
+                <Medias>
+                  <Media URL="http://s14.directupload.net/images/131220/9rucwgjc.jpg" MediaType="Picture" />
+                </Medias>
+                <ZipFile>XVM_Prebuilt_Configs_OMC_Enable_Quikstat_2017-07-05.zip</ZipFile>
+                <CRC>6a50e9491a084b32aacb9701e2aceaec</CRC>
+              </Package>
+              <Package Name="Kill Symbols  (modified for use with OMC Markers)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_OMC_Kill Symbols" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Packages>
+                  <Package Name="OTM Kill Symbols" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_OMC_Kill Symbols_otmkillsymbols" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>33333</Size>
+                    <Description>same as OTM KILL SYMBOLS selectable above as standalone. \n\nShows ANGELWINGS on over-target-markers when allies get killed.\nShows RED OMC SKULL on over-target-marker when enemies get killed.\nShows NUKE on over-target-marker when enemies get ammo-racked.</Description>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/xvm_config_builder_markers_otmkillsymbols.JPG" MediaType="Picture" />
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/xvm_config_builder_markers_dead_skull_redeyes.png" MediaType="Picture" />
+                    </Medias>
+                    <ZipFile>XVM_config_builder_Markers_otmkillsymbols_OMC_2018-11-05.zip</ZipFile>
+                    <CRC>aca8a8b64d51c130e3777df55eba9413</CRC>
+                  </Package>
+                  <Package Name="GRAVESTONE Enemy OTM Kill-Symbol by BoingPlatsch" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_OMC_Kill Symbols_gravestone" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>16430</Size>
+                    <Description>Shows a gravestone kill symbol on enemies</Description>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/markers/XVM_config_builder_Markers_enemy_GRAVESTONE_by_BoingPlatsch.png" MediaType="Picture" />
+                    </Medias>
+                    <Timestamp>131859143099309232</Timestamp>
+                    <ZipFile>XVM_config_builder_Markers_enemy_GRAVESTONE_by_BoingPlatsch_OMC_2018-11-05.zip</ZipFile>
+                    <CRC>05bad086dbc91386b60936dd74557ebe</CRC>
+                  </Package>
+                </Packages>
+                <Timestamp>131859142036841614</Timestamp>
+              </Package>
+            </Packages>
+            <ZipFile>XVM_config_builder_markers_OMC.zip</ZipFile>
+            <CRC>3d50ba7f53602b70394fc6a162c66b25</CRC>
+          </Package>
+          <Package Name="Jimbo" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_jimbo" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>13348</Size>
+            <ZipFile>XVM_config_builder_markers_jimbo.zip</ZipFile>
+            <CRC>9f261b3b3fc2532eeaa901cb14d0bd4f</CRC>
+          </Package>
+          <Package Name="Solo" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_solo" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>13981</Size>
+            <Timestamp>131854789830843963</Timestamp>
+            <ZipFile>XVM_config_builder_markers_solo_2018-10-31.zip</ZipFile>
+            <CRC>6ae91ff90706fe331275b500a425f1f9</CRC>
+          </Package>
+          <Package Name="Willster419" Type="single" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_Willster419" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>14855</Size>
+            <ZipFile>XVM_config_builder_markers_willster419.zip</ZipFile>
+            <CRC>416c2aeb576e219873e3826b205a410c</CRC>
+          </Package>
+        </Packages>
+        <ZipFile>XVM_config_builder_markers_enabled.zip</ZipFile>
+        <CRC>ff50b6fb2146b569754702382f55c1dc</CRC>
+      </Package>
+      <Package Name="Disabled (Use stock WoT markers)" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MarkerModifications_disabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>928</Size>
+        <Description>Allows you to use the stock markers in the game. Also enables you to configure the markers using the ingame settings.</Description>
+        <ZipFile>XVM_config_builder_markers_disabled.zip</ZipFile>
+        <CRC>67fb1f23cc5898e021dfaa6f47214c7e</CRC>
+      </Package>
+    </Packages>
+  </Package>
+  <Package Name="Login Modifications (xvm)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Description>Make changes to the login screen.</Description>
+    <Packages>
+      <Package Name="Auto-login" Type="multi" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_AutoLogin_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Automatiacly log into the game</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_AutoLogin_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>928</Size>
+            <ZipFile>XVM_config_builder_login_auto_enable.zip</ZipFile>
+            <CRC>f036c47aaf6f79cddb59136f06564839</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_AutoLogin_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>931</Size>
+            <ZipFile>XVM_config_builder_login_auto_disable.zip</ZipFile>
+            <CRC>cbdd1d2bdc7432826d3adb6423eae371</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Hide the old replay confirmation window" Type="multi" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_HideTheOldReplayConfirmationWindow_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Will not ask you if you want to confirm loading an old version replay. Will load it automaticly.</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_HideTheOldReplayConfirmationWindow_enabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>965</Size>
+            <ZipFile>XVM_config_builder_login_hide_replay_confirm_window.zip</ZipFile>
+            <CRC>f46a247539e5816c98e078bd79b181e3</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_HideTheOldReplayConfirmationWindow_disabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>965</Size>
+            <ZipFile>XVM_config_builder_login_show_replay_confirm_window.zip</ZipFile>
+            <CRC>c788564605fde55eb221ffe479c038b5</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Show server ping" Type="multi" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_ShowServerPing_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Show server pings from the login screen</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_ShowServerPing_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>936</Size>
+            <ZipFile>XVM_config_builder_login_server_ping_enable.zip</ZipFile>
+            <CRC>bca098b482aed140b29d32125fcb4feb</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_ShowServerPing_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>952</Size>
+            <ZipFile>XVM_config_builder_login_server_ping_disable.zip</ZipFile>
+            <CRC>938c835a6d47a9b6b0a6efead8e59e65</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Save last server" Type="multi" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_SaveLastServer_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Save the last server that you logged into</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_SaveLastServer_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>957</Size>
+            <ZipFile>XVM_config_builder_login_save_last_server_enable.zip</ZipFile>
+            <CRC>87bc36515f588832146e834d7f53a57d</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_SaveLastServer_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>960</Size>
+            <ZipFile>XVM_config_builder_login_save_last_server_disable.zip</ZipFile>
+            <CRC>c40c72442b71f851d6c312bd6a4678f0</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Show server populations" Type="multi" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_ShowServerPopulations_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Show the servers population in the login screen</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_ShowServerPopulations_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>950</Size>
+            <ZipFile>XVM_config_builder_login_server_info_enable.zip</ZipFile>
+            <CRC>25b3f5da3ee5b521e0842284513c265d</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_LoginModifications_ShowServerPopulations_disabel" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>953</Size>
+            <ZipFile>XVM_config_builder_login_server_info_disabel.zip</ZipFile>
+            <CRC>53ff4383bfb4fb4bf23fbff4172d54e3</CRC>
+          </Package>
+        </Packages>
+      </Package>
+    </Packages>
+  </Package>
+  <Package Name="Minimap modifications (xvm)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Description>Make changes to the minimap in the game.</Description>
+    <Packages>
+      <Package Name="XVM Minimap" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Description>Toggle the xvm minimap status.</Description>
+        <Packages>
+          <Package Name="Enabled" Type="single" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>924</Size>
+            <Packages>
+              <Package Name="Modify HP Circles" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_modify_hp_circles" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Packages>
+                  <Package Name="Enable HP circles on by default" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_HP_circles_def" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>2197</Size>
+                    <Timestamp>131954098994496439</Timestamp>
+                    <ZipFile>XVM_config_builder_minimap_enable_hp_circles_2019-02-23.zip</ZipFile>
+                    <CRC>a5bf242b49387c9ec6c187650b7826ac</CRC>
+                  </Package>
+                  <Package Name="Enable HP circles for alt key press" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_HP_circles_alt" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>2201</Size>
+                    <Timestamp>131954098797040212</Timestamp>
+                    <ZipFile>XVM_config_builder_minimap_enable_hp_circles_alt_2019-02-23.zip</ZipFile>
+                    <CRC>7c336a3aee93692abcfbce2d735ddc1f</CRC>
+                  </Package>
+                </Packages>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_Minimap_Health.jpg" MediaType="Picture" />
+                </Medias>
+                <Timestamp>131566449211709067</Timestamp>
+              </Package>
+              <Package Name="Modify Minimap Arty Aim Icon" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_modify_minimapAimIcon" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Packages>
+                  <Package Name="HAWG´s Arty MiniMap Aim Crosshairs" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_aimIcon_hawg" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Description>Hawg's  36 Arty MiniMap Aim  Crosshairs: \nThis mod is adding a crosshair for arty on the minimap that points at what you are aiming at.\nThis mod will allow you to pinpoint your target faster while the crosshairs are moving across the map.</Description>
+                    <Packages>
+                      <Package Name="green" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_green" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Packages>
+                          <Package Name="green1" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_green1" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1555</Size>
+                            <Timestamp>131828969162893464</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_green1.zip</ZipFile>
+                            <CRC>5b3420cd5393b0b1fc238437f1d7bdad</CRC>
+                          </Package>
+                          <Package Name="green7" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_green7" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3876</Size>
+                            <Timestamp>131828969080027408</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_green7.zip</ZipFile>
+                            <CRC>78748d46320f6c79c6da081a326287f0</CRC>
+                          </Package>
+                          <Package Name="green13" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_green13" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3356</Size>
+                            <Timestamp>131828969007468659</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_green13.zip</ZipFile>
+                            <CRC>a5261f767e64cce4967530a662db9aae</CRC>
+                          </Package>
+                          <Package Name="green19" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_green19" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>2344</Size>
+                            <Timestamp>131828968915364619</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_green19.zip</ZipFile>
+                            <CRC>21101555e08f054c51ded4de7ee7e737</CRC>
+                          </Package>
+                          <Package Name="green25" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_green25" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1570</Size>
+                            <Timestamp>131828968826017430</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_green25.zip</ZipFile>
+                            <CRC>0b4214885c17c0e2a04ae4f15e2b7d69</CRC>
+                          </Package>
+                          <Package Name="green31" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_green31" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3312</Size>
+                            <Timestamp>131828968735216569</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_green31.zip</ZipFile>
+                            <CRC>877f2bc77649068ce437381eebd278ed</CRC>
+                          </Package>
+                        </Packages>
+                        <Medias>
+                          <Media URL="https://wgmods.net/media/3_f4BUoOr.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                        </Medias>
+                      </Package>
+                      <Package Name="pink" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_pink" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Packages>
+                          <Package Name="pink2" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_pink2" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1452</Size>
+                            <Timestamp>131828968153297757</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_pink2.zip</ZipFile>
+                            <CRC>1e68bf19056b450b72941705b40468a5</CRC>
+                          </Package>
+                          <Package Name="pink8" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_pink8" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3878</Size>
+                            <Timestamp>131828968093222775</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_pink8.zip</ZipFile>
+                            <CRC>6c57ce64b404be2597f4f5d9d8ff5283</CRC>
+                          </Package>
+                          <Package Name="pink14" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_pink14" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3276</Size>
+                            <Timestamp>131828968019534962</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_pink14.zip</ZipFile>
+                            <CRC>183b21925525a2536f515bd6d6c6d044</CRC>
+                          </Package>
+                          <Package Name="pink20" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_pink20" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>2168</Size>
+                            <Timestamp>131828967952015359</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_pink20.zip</ZipFile>
+                            <CRC>742d8c6f6dc5f7ac8e00b0906e88a4ea</CRC>
+                          </Package>
+                          <Package Name="pink26" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_pink26" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1405</Size>
+                            <Timestamp>131828967866667760</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_pink26.zip</ZipFile>
+                            <CRC>cfa7a48814a18ff4e27b2f4599d1cf19</CRC>
+                          </Package>
+                          <Package Name="pink32" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_pink32" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3219</Size>
+                            <Timestamp>131828967792179412</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_pink32.zip</ZipFile>
+                            <CRC>784c9aafee8c7c26f09ece943e514079</CRC>
+                          </Package>
+                        </Packages>
+                        <Medias>
+                          <Media URL="https://wgmods.net/media/3_f4BUoOr.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                        </Medias>
+                      </Package>
+                      <Package Name="blue" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_blue" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Packages>
+                          <Package Name="blue3" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_blue3" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1395</Size>
+                            <Timestamp>131828967207063352</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_blue3.zip</ZipFile>
+                            <CRC>83f853743d82789aa11d895f9ef96d50</CRC>
+                          </Package>
+                          <Package Name="blue9" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_blue9" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3718</Size>
+                            <Timestamp>131828967287308388</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_blue9.zip</ZipFile>
+                            <CRC>4a7183fd68d2353ff962446459c8e0fd</CRC>
+                          </Package>
+                          <Package Name="blue15" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_blue15" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3328</Size>
+                            <Timestamp>131828967138502406</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_blue15.zip</ZipFile>
+                            <CRC>d4581be47b1f17ecd9183ad3616dbb55</CRC>
+                          </Package>
+                          <Package Name="blue21" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_blue21" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>2059</Size>
+                            <Timestamp>131828967072739599</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_blue21.zip</ZipFile>
+                            <CRC>e5ef0949872590a0b470e617a2017897</CRC>
+                          </Package>
+                          <Package Name="blue27" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_blue27" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1328</Size>
+                            <Timestamp>131828966994179686</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_blue27.zip</ZipFile>
+                            <CRC>63a4541ff61a4be06e5f8d3c0538501e</CRC>
+                          </Package>
+                          <Package Name="blue33" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_blue33" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3358</Size>
+                            <Timestamp>131828966922911275</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_blue33.zip</ZipFile>
+                            <CRC>3dfcbe7436600b47f6c32d885e70490a</CRC>
+                          </Package>
+                        </Packages>
+                        <Medias>
+                          <Media URL="https://wgmods.net/media/3_f4BUoOr.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                        </Medias>
+                      </Package>
+                      <Package Name="orange" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_orange" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Packages>
+                          <Package Name="orange4" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_orange4" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1405</Size>
+                            <Timestamp>131828965704177805</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_orange4.zip</ZipFile>
+                            <CRC>4b5ed23ec86c5e54eb84ec0c6efccefd</CRC>
+                          </Package>
+                          <Package Name="orange10" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_orange10" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3836</Size>
+                            <Timestamp>131828965632038533</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_orange10.zip</ZipFile>
+                            <CRC>0d9383ba85b5267b00750c0e17226ab5</CRC>
+                          </Package>
+                          <Package Name="orange16" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_orange16" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3360</Size>
+                            <Timestamp>131828965535707245</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_orange16.zip</ZipFile>
+                            <CRC>61a97fb2d60a3dac0abfcb2e4ea0fcdc</CRC>
+                          </Package>
+                          <Package Name="orange22" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_orange22" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>2164</Size>
+                            <Timestamp>131828965435155676</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_orange22.zip</ZipFile>
+                            <CRC>14a916ece3fe6155a71a1bc826b0f0df</CRC>
+                          </Package>
+                          <Package Name="orange28" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_orange28" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1343</Size>
+                            <Timestamp>131828965356589680</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_orange28.zip</ZipFile>
+                            <CRC>d33697ad34f7b2805feba128c0122e6d</CRC>
+                          </Package>
+                          <Package Name="orange34" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_orange34" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3341</Size>
+                            <Timestamp>131828965267226257</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_orange34.zip</ZipFile>
+                            <CRC>d645bc525dc738c992742ead4be11f8d</CRC>
+                          </Package>
+                        </Packages>
+                        <Medias>
+                          <Media URL="https://wgmods.net/media/3_f4BUoOr.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                        </Medias>
+                      </Package>
+                      <Package Name="red" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_red" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Packages>
+                          <Package Name="red5" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_red5" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1426</Size>
+                            <Timestamp>131828964647389885</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_red5.zip</ZipFile>
+                            <CRC>12171638dec06a16a9fe158b3bdb1a45</CRC>
+                          </Package>
+                          <Package Name="red11" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_red11" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3773</Size>
+                            <Timestamp>131828964575709680</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_red11.zip</ZipFile>
+                            <CRC>f5e305a22aa92b91c331931e2a819fb7</CRC>
+                          </Package>
+                          <Package Name="red17" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_red17" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3339</Size>
+                            <Timestamp>131828964486743792</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_red17.zip</ZipFile>
+                            <CRC>338d7432bfdaed78046e826e088278c9</CRC>
+                          </Package>
+                          <Package Name="red23" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_red23" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>2162</Size>
+                            <Timestamp>131828964402117237</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_red23.zip</ZipFile>
+                            <CRC>7f4c2c39c9cebd0126f63ebf7fd09b7c</CRC>
+                          </Package>
+                          <Package Name="red29" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_red29" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1381</Size>
+                            <Timestamp>131828964302435107</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_red29.zip</ZipFile>
+                            <CRC>0e93d2ae3cce8ca4f90694021ab5f667</CRC>
+                          </Package>
+                          <Package Name="red35" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_red35" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3311</Size>
+                            <Timestamp>131828964187637465</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_red35.zip</ZipFile>
+                            <CRC>76f8a7e489ac76ec1b59f4307d06b363</CRC>
+                          </Package>
+                        </Packages>
+                        <Medias>
+                          <Media URL="https://wgmods.net/media/3_f4BUoOr.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                        </Medias>
+                      </Package>
+                      <Package Name="white" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_white" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Packages>
+                          <Package Name="white6" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_white6" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1376</Size>
+                            <Timestamp>131828963269960221</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_white6.zip</ZipFile>
+                            <CRC>ae5439323e927e6943e6f7bac06a6c6b</CRC>
+                          </Package>
+                          <Package Name="white12" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_white12" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>3280</Size>
+                            <Timestamp>131828963157393604</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_white12.zip</ZipFile>
+                            <CRC>1d633558b138a84b76d59413486a9fe1</CRC>
+                          </Package>
+                          <Package Name="white18" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_white18" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>2673</Size>
+                            <Timestamp>131828963059801428</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_white18.zip</ZipFile>
+                            <CRC>5dd1f18995a2381973e1420592476acf</CRC>
+                          </Package>
+                          <Package Name="white24" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_white24" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>2006</Size>
+                            <Timestamp>131828962972516355</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_white24.zip</ZipFile>
+                            <CRC>b662c33b83d89a110d500f0d30565660</CRC>
+                          </Package>
+                          <Package Name="white30" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_white30" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>1288</Size>
+                            <Timestamp>131828962888610328</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_white30.zip</ZipFile>
+                            <CRC>31345d2b4e67801ba5dbe178fafaeb88</CRC>
+                          </Package>
+                          <Package Name="white36" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_Arty_Crosshair_Minimap_white36" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>2720</Size>
+                            <Timestamp>131828962807413066</Timestamp>
+                            <ZipFile>XVM_config_builder_MinimapModifications_Arty_Crosshair_Minimap_white36.zip</ZipFile>
+                            <CRC>c141b41c351f2be0ed973308cbf55592</CRC>
+                          </Package>
+                        </Packages>
+                        <Medias>
+                          <Media URL="https://wgmods.net/media/3_f4BUoOr.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                        </Medias>
+                      </Package>
+                    </Packages>
+                    <Medias>
+                      <Media URL="https://wgmods.net/media/3_f4BUoOr.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                      <Media URL="https://wgmods.net/media/1.JPG.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                      <Media URL="https://wgmods.net/media/4.JPG.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                      <Media URL="https://wgmods.net/media/6_.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                      <Media URL="https://wgmods.net/media/3_f4BUoOr.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                  <Package Name="Bones´ Arty MiniMap Aim Crosshairs" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_aimIcon_bones" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>1810</Size>
+                    <Timestamp>131568225610900242</Timestamp>
+                    <ZipFile>XVM_config_builder_minimap_custom_AimIcon_bones.zip</ZipFile>
+                    <CRC>42d1327f68f04648e6a855a0970a66e5</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package Name="Modify Minimap Circles" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_header" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Packages>
+                  <Package Name="Enabled - Use XVM circles" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_enabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>521</Size>
+                    <Packages>
+                      <Package Name="Use the following custom circles" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_custom" InstallGroup="4" PatchGroup="0" Enabled="True">
+                        <Size>604</Size>
+                        <Packages>
+                          <Package Name="50m auto detect circle" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_50" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>637</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_50meter_Detection.jpg" MediaType="Picture" />
+                            </Medias>
+                            <ZipFile>XVM_config_builder_minimap_custom_circles_50.zip</ZipFile>
+                            <CRC>e5699170466d43d62480ee811103b2cb</CRC>
+                          </Package>
+                          <Package Name="vehicle view range circle" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_viewRange" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>673</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_max_view_range.jpg" MediaType="Picture" />
+                            </Medias>
+                            <Timestamp>131568190839764383</Timestamp>
+                            <ZipFile>XVM_config_builder_minimap_custom_circles_viewRange.zip</ZipFile>
+                            <CRC>96b84069cbbcf62dd7fec15ee832100c</CRC>
+                          </Package>
+                          <Package Name="445m maximum spotting range circle" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_445" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>642</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_vehicle_view_range.jpg" MediaType="Picture" />
+                            </Medias>
+                            <Timestamp>131567425807124040</Timestamp>
+                            <ZipFile>XVM_config_builder_minimap_custom_circles_445.zip</ZipFile>
+                            <CRC>3cab78439f64918b5eeebd655412759d</CRC>
+                          </Package>
+                          <Package Name="564m maximum vehicle render/draw range circle" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_564" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>665</Size>
+                            <Medias>
+                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_max_render_range.jpg" MediaType="Picture" />
+                            </Medias>
+                            <Timestamp>131567425893717052</Timestamp>
+                            <ZipFile>XVM_config_builder_minimap_custom_circles_564.zip</ZipFile>
+                            <CRC>f7a0f9b7981cf8d4d5bc8b54b7fcdc7b</CRC>
+                          </Package>
+                          <Package Name="Arty gun range" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_arty_range" InstallGroup="4" PatchGroup="0" Enabled="True">
+                            <Size>560</Size>
+                            <Timestamp>131567425978373251</Timestamp>
+                            <ZipFile>XVM_config_builder_minimap_custom_circles_arty_gun_range.zip</ZipFile>
+                            <CRC>cb575b9843b94da14eb9650c1b1787e0</CRC>
+                          </Package>
+                        </Packages>
+                        <Timestamp>131567426129436202</Timestamp>
+                        <ZipFile>XVM_config_builder_minimap_custom_circles_prepare.zip</ZipFile>
+                        <CRC>e28ad08fd9d91933ad67d2cd840f73fe</CRC>
+                      </Package>
+                    </Packages>
+                    <Timestamp>131567426283438891</Timestamp>
+                    <ZipFile>XVM_config_builder_minimap_circles_enabled.zip</ZipFile>
+                    <CRC>bd31d19f48d9414a99973d1714092d84</CRC>
+                  </Package>
+                  <Package Name="Disabled - Use stock WoT circles" Type="single1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_circles_disabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>526</Size>
+                    <Timestamp>131567426435196349</Timestamp>
+                    <ZipFile>XVM_config_builder_minimap_circles_disabled.zip</ZipFile>
+                    <CRC>e2b7432ade56b74b5c402b2e42072473</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package Name="Modify Minimap Icons/Labels" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_labels_header" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Packages>
+                  <Package Name="Enabled - Use XVM Labels" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_labels_enabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>519</Size>
+                    <Timestamp>131567426559298222</Timestamp>
+                    <ZipFile>XVM_config_builder_minimap_labels_enabled.zip</ZipFile>
+                    <CRC>8a18df969f5a9e2e456b13269d717efc</CRC>
+                  </Package>
+                  <Package Name="Disabled - Use stock WoT Labels" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_labels_disabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>521</Size>
+                    <Timestamp>131567426631659266</Timestamp>
+                    <ZipFile>XVM_config_builder_minimap_labels_disabled.zip</ZipFile>
+                    <CRC>14b080e3df3cb8c6738f6ceaf65e1aee</CRC>
+                  </Package>
+                </Packages>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_labels.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package Name="Modify Minimap Lines" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_lines_header" InstallGroup="4" PatchGroup="0" Enabled="True">
+                <Description>Red arrow is where you are looking at, green arrow is your tank's front.</Description>
+                <Packages>
+                  <Package Name="Enabled - Use XVM lines" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_lines_enabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>514</Size>
+                    <Timestamp>131569842865324833</Timestamp>
+                    <ZipFile>XVM_config_builder_minimap_lines_enabled_2017-12-05.zip</ZipFile>
+                    <CRC>adfb9937299da7f961ca1498b2f81ac4</CRC>
+                  </Package>
+                  <Package Name="Disabled - Use stock WoT lines" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_lines_disabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+                    <Size>517</Size>
+                    <Timestamp>131567426862136713</Timestamp>
+                    <ZipFile>XVM_config_builder_minimap_lines_disabled.zip</ZipFile>
+                    <CRC>43ec1607531b81ccf12add59fabcf97c</CRC>
+                  </Package>
+                </Packages>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_Minimap_Lines.jpg" MediaType="Picture" />
+                </Medias>
+                <Timestamp>131566451718998193</Timestamp>
+              </Package>
+            </Packages>
+            <ZipFile>XVM_config_builder_minimap_enable.zip</ZipFile>
+            <CRC>7759e0513319a01200d5079ee62d4785</CRC>
+          </Package>
+          <Package Name="Disabled" Type="single" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_disable" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>926</Size>
+            <ZipFile>XVM_config_builder_minimap_disable.zip</ZipFile>
+            <CRC>c169b9f428ef4c14f3d6b12394fc99ab</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package Name="Zoom configuration" Type="multi" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_ZoomConfiguration_enable" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>944</Size>
+        <Description>Change the key that shows minimap zoom</Description>
+        <Packages>
+          <Package Name="Hotkey Left CTRL" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_ZoomConfiguration_LeftCtrl" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>949</Size>
+            <ZipFile>XVM_config_builder_minimap_zoom_left_ctrl.zip</ZipFile>
+            <CRC>8740786c019a0943470c6fd8693385e0</CRC>
+          </Package>
+          <Package Name="Hotkey Left ALT" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_ZoomConfiguration_LeftAlt" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>948</Size>
+            <ZipFile>XVM_config_builder_minimap_zoom_left_alt.zip</ZipFile>
+            <CRC>836508041790ba54d1d0e99980eb47ab</CRC>
+          </Package>
+          <Package Name="Minimap zoom - bottom right" Type="single_dropdown2" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_ZoomConfiguration_BottomRight" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>951</Size>
+            <ZipFile>XVM_config_builder_minimap_zoom_bottom_right.zip</ZipFile>
+            <CRC>172991249d59533fb340677f966fbc4f</CRC>
+          </Package>
+          <Package Name="Minimap zoom - centered" Type="single_dropdown2" Visible="True" PackageName="XVMconfigBuilder_MinimapModifications_ZoomConfiguration_Centered" InstallGroup="4" PatchGroup="0" Enabled="True">
+            <Size>938</Size>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_Minimap_Center.jpg" MediaType="Picture" />
+            </Medias>
+            <ZipFile>XVM_config_builder_minimap_zoom_center.zip</ZipFile>
+            <CRC>b9cc2748dcc177cf5f4130fb7c3c61ee</CRC>
+          </Package>
+        </Packages>
+        <ZipFile>XVM_config_builder_minimap_zoom_enable.zip</ZipFile>
+        <CRC>b5d31703c4b6ca7faedd9f600a31e5b3</CRC>
+      </Package>
+    </Packages>
+  </Package>
+  <Package Name="Sound modifications (Custom sounds) (xvm)" Type="multi" Visible="True" PackageName="XVMconfigBuilder_SoundModifications_Header" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Description>Toggle the xvm sounds</Description>
+    <Packages>
+      <Package Name="Enabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_SoundModifications_enabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>922</Size>
+        <ZipFile>XVM_config_builder_sounds_enabled.zip</ZipFile>
+        <CRC>d246272c63f1cb3d773b9fef1cf5007b</CRC>
+      </Package>
+      <Package Name="Disabled" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_SoundModifications_disabled" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>925</Size>
+        <ZipFile>XVM_config_builder_sounds_disabled.zip</ZipFile>
+        <CRC>292c233257c62f923fbaea79570b22fd</CRC>
+      </Package>
+    </Packages>
+  </Package>
+  <Package Name="Bordercolor" Type="multi" Visible="True" PackageName="XVMconfigBuilder_border" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>1635</Size>
+    <Description>change the color of map borders</Description>
+    <Packages>
+      <Package Name="blue" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_border_blue" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>494</Size>
+        <Timestamp>131807316775237900</Timestamp>
+        <ZipFile>xvm_config_builder_border_changebordercolor_blue.zip</ZipFile>
+        <CRC>5478e019ed440a639bb3e53b013bbc86</CRC>
+      </Package>
+      <Package Name="purple" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_border_purple" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>504</Size>
+        <Timestamp>131807316893911218</Timestamp>
+        <ZipFile>xvm_config_builder_border_changebordercolor_purple.zip</ZipFile>
+        <CRC>6cd58c3b1e36461685045a66db4c81ad</CRC>
+      </Package>
+      <Package Name="yellow" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_border_yellow" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>499</Size>
+        <Timestamp>131807317031771516</Timestamp>
+        <ZipFile>xvm_config_builder_border_changebordercolor_yellow.zip</ZipFile>
+        <CRC>3e43b08783ad9cec7d91efb284abbcd0</CRC>
+      </Package>
+      <Package Name="orange" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_border_orange" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>501</Size>
+        <Timestamp>131807316657980857</Timestamp>
+        <ZipFile>xvm_config_builder_border_changebordercolor_orange.zip</ZipFile>
+        <CRC>74ce01bd6f72e78bd70a4322feb8444a</CRC>
+      </Package>
+      <Package Name="green" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_border_green" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>495</Size>
+        <Timestamp>131807332351270235</Timestamp>
+        <ZipFile>xvm_config_builder_border_changebordercolor_green.zip</ZipFile>
+        <CRC>b0395405d36c870d5fab66e83b777d10</CRC>
+      </Package>
+      <Package Name="fuchsia" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_border_fuchsia" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>501</Size>
+        <Timestamp>131807317745765363</Timestamp>
+        <ZipFile>xvm_config_builder_border_changebordercolor_fuchsia.zip</ZipFile>
+        <CRC>cf6acb172fe8fb3cfb2af48db8e7388c</CRC>
+      </Package>
+      <Package Name="aqua" Type="single_dropdown1" Visible="True" PackageName="XVMconfigBuilder_border_aqua" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>495</Size>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/border/xvm_config_builder_bordercolor.JPG" MediaType="Picture" />
+        </Medias>
+        <Timestamp>131807317221140073</Timestamp>
+        <ZipFile>xvm_config_builder_border_changebordercolor_aqua.zip</ZipFile>
+        <CRC>5757071ed1d2f33b5068f07c6889d143</CRC>
+      </Package>
+    </Packages>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/border/xvm_config_builder_bordercolor.JPG" MediaType="Picture" />
+    </Medias>
+    <Timestamp>131807308177083741</Timestamp>
+    <ZipFile>XVM_config_builder_border_bordercolor.zip</ZipFile>
+    <CRC>7c75b7df661ea494e175c8c0d33fb53c</CRC>
+  </Package>
+  <Package Name="Battle Chat" Type="multi" Visible="True" PackageName="XVMconfigBuilder_battleChat" InstallGroup="4" PatchGroup="0" Enabled="True">
+    <Size>5211</Size>
+    <Description>modify the battlechat</Description>
+    <Packages>
+      <Package Name="WN8-ChatColor" Type="multi" Visible="True" PackageName="XVMconfigBuilder_battleChat_wn8chatcolor" InstallGroup="4" PatchGroup="0" Enabled="True">
+        <Size>5132</Size>
+        <Description>the writer´s name is colored in his wn8color</Description>
+        <Timestamp>131950548698710076</Timestamp>
+        <ZipFile>XVM_config_builder_wn8chatcolor_2019-02-19.zip</ZipFile>
+        <CRC>51c8456ae430c5d41496dc01d7e6feef</CRC>
+      </Package>
+    </Packages>
+    <Timestamp>131812487015080046</Timestamp>
+  </Package>
+</Category>
