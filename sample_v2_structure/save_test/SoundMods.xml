@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Sound Mods">
+  <Dependencies>
+    <Dependency PackageName="Dependency_audio_mods_xml" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_L" NotFlag="False" Logic="OR" />
+  </Dependencies>
   <Package PackageName="Sounds_Gun_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Gun sounds" Type="multi" Visible="True">
     <Packages>
       <Package PackageName="Sounds_Gun_AGQJ" Enabled="True" InstallGroup="4" PatchGroup="0" Name="AGQJ Gun Sounds by Fedor Saveliev v{version} (SoundEventInjector)" Type="single_dropdown1" Visible="True">

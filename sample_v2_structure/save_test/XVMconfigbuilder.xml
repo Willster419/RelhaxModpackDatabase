@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="XVM config builder">
+  <Dependencies>
+    <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
+  </Dependencies>
   <Package PackageName="XVMConfigBuilder_Colorblind_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Colorblind Patches for XVM" Type="multi" Visible="True">
     <Timestamp>131858291921666972</Timestamp>
     <Packages>
@@ -588,13 +591,13 @@
                   </Package>
                 </Packages>
               </Package>
-              <Package PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_FromPrebuilt" Enabled="True" InstallGroup="4" PatchGroup="0" Name="From Prebuilt Config Selection" Type="single" Visible="True">
+              <Package PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_FromPrebuilt" Enabled="True" InstallGroup="4" PatchGroup="0" Name="From Prebuilt Config Selection" Type="single1" Visible="True">
                 <Description>Use the carousel cell settings from the xvm config you selected in the XVM prebuilt configs tab</Description>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/enable_xvm_cells_header_message.png" MediaType="Picture" />
                 </Medias>
                 <Packages>
-                  <Package PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_NormalStyle" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Normal Style" Type="single" Visible="True">
+                  <Package PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_NormalStyle" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Normal Style" Type="single1" Visible="True">
                     <ZipFile>XVM_config_builder_carousel_normal_cell.zip</ZipFile>
                     <CRC>e59c009cafa7dea617bc27f40c94998c</CRC>
                     <Size>925</Size>
@@ -698,7 +701,7 @@
                       </Package>
                     </Packages>
                   </Package>
-                  <Package PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_SmallStyle" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Small Style" Type="single" Visible="True">
+                  <Package PackageName="XVMconfigBuilder_TankCarouselBaseModifications_CellContent_SmallStyle" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Small Style" Type="single1" Visible="True">
                     <ZipFile>XVM_config_builder_carousel_small_cell.zip</ZipFile>
                     <CRC>e1c8d14be77837db3d52c9709e9585ab</CRC>
                     <Size>923</Size>
@@ -1385,7 +1388,7 @@
         <CRC>ff50b6fb2146b569754702382f55c1dc</CRC>
         <Size>926</Size>
         <Packages>
-          <Package PackageName="XVMconfigBuilder_MarkerModifications_default" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Default (or from pre-built page)" Type="single" Visible="True" />
+          <Package PackageName="XVMconfigBuilder_MarkerModifications_default" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Default (or from pre-built page)" Type="single1" Visible="True" />
           <Package PackageName="XVMconfigBuilder_MarkerModifications_gravestone" Enabled="True" InstallGroup="4" PatchGroup="0" Name="GRAVESTONE Enemy OTM Kill-Symbol by BoingPlatsch" Type="single1" Visible="True">
             <ZipFile>XVM_config_builder_Markers_enemy_GRAVESTONE_by_BoingPlatsch_2018-11-05.zip</ZipFile>
             <CRC>a5e55c1e6cf484ea87cebabc35549421</CRC>
@@ -1407,7 +1410,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/xvm_config_builder_markers_dead_skull_redeyes.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="XVMconfigBuilder_MarkerModifications_OMC" Enabled="True" InstallGroup="4" PatchGroup="0" Name="OMC" Type="single" Visible="True">
+          <Package PackageName="XVMconfigBuilder_MarkerModifications_OMC" Enabled="True" InstallGroup="4" PatchGroup="0" Name="OMC" Type="single1" Visible="True">
             <ZipFile>XVM_config_builder_markers_OMC.zip</ZipFile>
             <CRC>3d50ba7f53602b70394fc6a162c66b25</CRC>
             <Size>6585</Size>
@@ -1485,7 +1488,7 @@
             <Timestamp>131854789830843963</Timestamp>
             <Size>13981</Size>
           </Package>
-          <Package PackageName="XVMconfigBuilder_MarkerModifications_Willster419" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Willster419" Type="single" Visible="True">
+          <Package PackageName="XVMconfigBuilder_MarkerModifications_Willster419" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Willster419" Type="single1" Visible="True">
             <ZipFile>XVM_config_builder_markers_willster419.zip</ZipFile>
             <CRC>416c2aeb576e219873e3826b205a410c</CRC>
             <Size>14855</Size>
@@ -1586,7 +1589,7 @@
       <Package PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="XVM Minimap" Type="multi" Visible="True">
         <Description>Toggle the xvm minimap status.</Description>
         <Packages>
-          <Package PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_enable" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Enabled" Type="single" Visible="True">
+          <Package PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_enable" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Enabled" Type="single1" Visible="True">
             <ZipFile>XVM_config_builder_minimap_enable.zip</ZipFile>
             <CRC>7759e0513319a01200d5079ee62d4785</CRC>
             <Size>924</Size>
@@ -2000,7 +2003,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_disable" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Disabled" Type="single" Visible="True">
+          <Package PackageName="XVMconfigBuilder_MinimapModifications_XVMMinimap_disable" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Disabled" Type="single1" Visible="True">
             <ZipFile>XVM_config_builder_minimap_disable.zip</ZipFile>
             <CRC>c169b9f428ef4c14f3d6b12394fc99ab</CRC>
             <Size>926</Size>
