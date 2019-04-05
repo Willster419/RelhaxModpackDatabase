@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Category Name="Garage Mods">
+  <Package PackageName="Garage_mods_Customization_Manager" Enabled="False" InstallGroup="4" PatchGroup="0" Name="Customization_Manager_by_lgfrbcsgo" Type="multi" Visible="False">
+    <ZipFile>Garage_Mods_Customization_Manager_by_lgfrbcsgo_1.0.10_2018-09-23.zip</ZipFile>
+    <CRC>eb19e2192663d46c1172951821fad76f</CRC>
+    <Timestamp>131821792318317132</Timestamp>
+    <Size>12600</Size>
+    <Description>This mod automaticially moves customizations between tanks when switching between them. Just like the Auto Equip mod in XVM, but for camouflages.\n\nFeatures:\n- Automaticially applies customizations when switching between tanks or when tanks return from battle.\n- Works with Camouflages, Emblems, Paints, Inscriptions and Modificators.\n- Automaticially frees up all available customizations when opening the customization window.\n- The mod will show a warning that it could not apply the customizations, should a tank holding the required customizations still be in a battle.</Description>
+    <Medias>
+      <Media URL="https://wgmods.net/media/notifications.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+      <Media URL="https://wgmods.net/media/freeup.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+    </Medias>
+  </Package>
+  <Package PackageName="Garage_mods_Seller" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Seller by JOVE" Type="multi" Visible="True">
+    <ZipFile>Garage_mods_Seller_by_Jove_2018-07-30.zip</ZipFile>
+    <CRC>37261e11666c2f6db753660a46858501</CRC>
+    <Timestamp>131774249585375139</Timestamp>
+    <Size>57543</Size>
+    <Description>quicker selling of unused items\n\nWarning!\nDon´t check "compatible with vehicles"!\nOnly if you want to sell shells/consumables/modules fitting to vehicles in your garage - but in most cases that´s not what people want!</Description>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_mods/seller.JPG" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
+  <Package PackageName="Garage_mods_RegionChanger_Base" Enabled="True" InstallGroup="4" PatchGroup="0" Name="RegionChanger by ShuraBB" Type="multi" Visible="True">
+    <Version>2018-12-18</Version>
+    <ZipFile>Garage_mods_RegionChanger_Auxilium_2018-12-18.zip</ZipFile>
+    <CRC>2b7251c8558fc9b0a8660f5ba675dabc</CRC>
+    <Timestamp>131896362026131212</Timestamp>
+    <Size>3066</Size>
+    <Description>**To play on other clusters, you need to have an account on each one**\n\nFeatures of fashion:\nSimple selection of servers in other clusters;\nThere is no need for permanent copying / deleting of files;\nDo not need constant updates when you exit the "micro patches";\nAll established fashion will be available;\nEasy installation;\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
+    <UpdateComment>2018-12-18:\nUpdated server list for multi-client: updated server NA cluster, removed server CH.</UpdateComment>
+    <Medias>
+      <Media URL="https://wgmods.net/media/multi-client_khaGe8g.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+      <Media URL="https://wgmods.net/media/shot_002_O7lObNv.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+    </Medias>
+    <UserFiles>
+      <UserFile Pattern="\res_mods\configs\BBMods\Auxilium.dat" />
+    </UserFiles>
+    <Dependencies>
+      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
+  <Package PackageName="Garage_mods_Battle_Hits_Viewer" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Battle Hits Viewer in Hangar v{version}" Type="multi" Visible="True">
+    <Version>1.3.4</Version>
+    <ZipFile>Garage_mods_Battle_Hits_Viewer_in_Hangar_1.3.4_2019-02-12.zip</ZipFile>
+    <CRC>f712ccd9985b93ee6fcee078de3f27d1</CRC>
+    <Timestamp>131944404743047808</Timestamp>
+    <Size>14501039</Size>
+    <Description>Mod allows you to consider all the hits on the tank received in battle.\nYou can configure the mod directly in the hangar.\n\nhttps://protanki.tv/mods/hangar_mod/boevye-rany-ot-tornado</Description>
+    <Medias>
+      <Media URL="https://picload.org/image/riolrggi/gif_battlehits.gif" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
+  <Package PackageName="Garage_mods_auto_equip_equipment_by_OldSkool" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Auto-equip removeable equipment by OldSkool" Type="multi" Visible="True">
+    <Version>1.0.6</Version>
+    <ZipFile>Garage_mods_auto_equip_equipment_by_OldSkool_1.4.0.2_2019-03-15.zip</ZipFile>
+    <CRC>50f6f35753a2e1a1508a3ba5f82130c7</CRC>
+    <Timestamp>131971463889682955</Timestamp>
+    <Size>10573</Size>
+    <Description>The function “AutoEquip” - automatic installation of removable equipment for the selected tank;\n\n"Teach" this mod how he should work:\nwhich automatic installation of removable equipment you wanna have on the tank - just put it on the tank the mod saves it\n\nSimple Mod to automatically mount and demount removable devices on vehicles.\nEquipment from the previous vehicle will be mounted after battle on the next vehicle.\n(Binoculars, Toolbox and Camonet)</Description>
+    <Medias>
+      <Media URL="https://wgmods.net/media/autoequip_HycvqQW.png.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+    </Medias>
+    <UserFiles>
+      <UserFile Pattern="{app}\autoequip.json" />
+    </UserFiles>
+  </Package>
+  <Package PackageName="Garage_mods_Auxilium_settings_header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Auxilium Garage Settings by ShuraBB v{version}" Type="multi" Visible="True">
+    <Version>19.04</Version>
+    <Timestamp>131712147301296122</Timestamp>
+    <Size>27857</Size>
+    <Description>This is a small service mod to create more comfortable conditions of the game.\n\nCurrent features:\nThe function “PreferredServer” - job server for the login and remembering user’s choice;\nThe function “saveLastServer” - remembering the last server which was played by the player;\nThe function “AutoEquip” - automatic installation of removable equipment for the selected tank;\nThe function “AutoOutfit” - automatic installation of the equipment for the selected tank (first aid Kit, repair Kit, fire extinguisher, etc.);\nThe function “AutoCrew” - automatic return of the last of the crew to the selected tank;\nThe function “Region Changer (Multi-client)” - the ability to play on all WoT clusters with one client.\nThe function “Circle of the dispersion” of the gun - displays the real circle of the dispersion of the gun.\nThe function “Server Sight” - displays the position of the sight on the server.\nThe function “Carousel of tanks” - adjustment of tank carousel\nThe option to disable the Handbrake in sniper mode;\nSeting the duration of display light bulbs “6th sense”;\nSeting the duration of displaying indicators of attack;\nFunction disable effect of hit of a shell in you;\nFunction disable flash effect when a shell hit you;\nFunction disable of the effect of the inertia of the camera;\nFunction disable of the recoil effect from the shot;\nThe disabling effect of the blackout in the sniper scope;\nFunction to enable horizontal stabilization for all tanks;\nSeting the list of values zoom in sniper mode;\nSeting fixed zoom value at switching in sniper mode;\nSetting the “camera height” above the tank;\nSetting the range of variation of the distance of the camera;\nSpecifies the size of the players panel at boot and the beginning of the battle;\nFunction “Contacts” - the allocation of the player from a predefined list to the contact list on the loading screen and “ears” of commands.\nFunction setting default credits instead of gold for equipment, and ammunition\nFunction to disable the ability to use gold\nFunction of disabling the ability to use free experience\n\nTo support the author and help in the development of mod in the following ways:\n\nMasterCard: 5106211018429576\nYandex-Money: https://money.yandex.ru/to/410013932903103\nPayPal: https://www.paypal.me/shurabb\nWMR: R051923559108\nWMZ: Z312682149663\n\nForum Link: http://forum.worldoftanks.eu/index.php?/topic/596487-mod-auxilium-autoequip-autocrew-autocamo-autohandbrake-region-changer-and-more/#topmost\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
+    <UpdateComment>2. URL: http://forum.worldoftanks.eu/index.php?/topic/596487- post352\n&gt;Is it possible to adapt it to Frontline?\nFor the Front line, auto-return does not work, to adjust the hands you need to press CTRL-O before the fight and put all hands</UpdateComment>
+    <Medias>
+      <Media URL="https://wgmods.net/media/multi-client.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+    </Medias>
+    <UserFiles>
+      <UserFile Pattern="\res_mods\configs\BBMods\Auxilium.dat" />
+    </UserFiles>
+    <Dependencies>
+      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Packages>
+      <Package PackageName="Garage_mods_Auxilium_settings_auto_equip_equipment" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Auto-equip removeable equipment" Type="multi" Visible="True">
+        <ZipFile>Garage_mods_Auxilium_settings_auto_equip_equipment_2018-07-04_patch.zip</ZipFile>
+        <CRC>d4080bcbc6bc1cce34b4c3583a9e3c77</CRC>
+        <Timestamp>131752254411479508</Timestamp>
+        <Size>1829</Size>
+        <Description>The function “AutoEquip” - automatic installation of removable equipment for the selected tank;\n\n"Teach" this mod how he should work:\nwhich automatic installation of removable equipment you wanna have on the tank - just put it on the tank the mod saves it</Description>
+        <UserFiles>
+          <UserFile Pattern="\\mods\\configs\\BBMods\\Auxilium.dat" />
+        </UserFiles>
+      </Package>
+      <Package PackageName="Garage_mods_Auxilium_settings_auto_equip_consumables" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Auto-Equip consumables" Type="multi" Visible="True">
+        <ZipFile>Garage_mods_Auxilium_settings_auto_equip_consumables_2018-07-04_patch.zip</ZipFile>
+        <CRC>c2293349ed152d0fca115d39b140013c</CRC>
+        <Timestamp>131752258379638709</Timestamp>
+        <Size>1834</Size>
+        <Description>The function “AutoOutfit” - automatic installation of the equipment for the selected tank (first aid Kit, repair Kit, fire extinguisher, etc.);</Description>
+      </Package>
+      <Package PackageName="Garage_mods_Auxilium_settings_auto_crew_return" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Auto crew return" Type="multi" Visible="True">
+        <ZipFile>Garage_mods_Auxilium_settings_auto_crew_return_2018-07-04_patch.zip</ZipFile>
+        <CRC>4d9e2be1b830515be011a1c9c6b9c0a5</CRC>
+        <Timestamp>131752254883402133</Timestamp>
+        <Size>2614</Size>
+        <Description>The function “AutoCrew” - automatic return of the last of the crew to the selected tank;</Description>
+      </Package>
+      <Package PackageName="Garage_mods_Auxilium_settings_remove_removable_equip" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Add L_CTRL+R keys to remove all removable equipment" Type="multi" Visible="True">
+        <ZipFile>Garage_mods_Auxilium_settings_remove_removable_equipment_2018-07-04_patch.zip</ZipFile>
+        <CRC>aa6bc7495ede0978c7c1593d07626442</CRC>
+        <Timestamp>131752273503558232</Timestamp>
+        <Size>866</Size>
+        <Description>Pressing left CTRL + R in the garage will remove all removable equipment from all your tanks. It will NOT remove "Complex Equipment" (Equipment that needs gold to be un-mounted)</Description>
+      </Package>
+      <Package PackageName="Garage_mods_Auxilium_settings_prefered_server" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Save last server" Type="multi" Visible="True">
+        <ZipFile>Garage_mods_Auxilium_settings_prefered_server_2018-07-04_patch.zip</ZipFile>
+        <CRC>f708b2c03e355a2fb2d32ec13101e052</CRC>
+        <Timestamp>131752254698444416</Timestamp>
+        <Size>2716</Size>
+        <Description>The function “saveLastServer” - remembering the last server which was played by the player;</Description>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="Garage_mods_Armor_Inspector_header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Armor Inspector" Type="multi" Visible="True">
+    <Timestamp>131864323986780175</Timestamp>
+    <Size>98505</Size>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Packages>
+      <Package PackageName="Garage_mods_Armor_Inspector_protanki" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Armor Inspector by protanki" Type="multi" Visible="True">
+        <ZipFile>Garage_mods_Armor_Inspector_by_protanki_1.4.0.0_2019-02-09.zip</ZipFile>
+        <CRC>a47718a7ebe9460fb906052a436d2c66</CRC>
+        <Timestamp>131942281866222743</Timestamp>
+        <Size>101902</Size>
+      </Package>
+      <Package PackageName="Garage_mods_Armor_Inspector_wotinspector" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Armor Inspector by wotinspector.com (Online)" Type="multi" Visible="True">
+        <Version>3.3.0_2019-02-06</Version>
+        <ZipFile>Garage_mods_Armor_Inspector_by_wotinspector_1.4.0.0_2019-02-06.zip</ZipFile>
+        <CRC>974a5b9bbd6779ba0e88e610ac2a31e7</CRC>
+        <Timestamp>131939580173466449</Timestamp>
+        <Size>28599598</Size>
+        <Description>When the mod is installed properly, the button Armor Inspector will appear at the garage right under the tank and above the maintenance buttons. \nClick on it and you are redirected to the selected tank on wotinspector.com.\nShots from the last battle are autimatically accessible when you open Armor Inspector.</Description>
+        <Medias>
+          <Media URL="https://wgmods.net/media/Armor_Inspector_-_Cutaway_-_Chieftain_Mk._6.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/Armor_Inspector_-_Confrontation_-_Super_Conqueror_vs_E_100.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/shot_015.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/Armor_Inspector_-_Confrontation_-_%D0%A0%D0%8E%D0%A0%D0%88-100%D0%A0%D1%9A1_vs_Caernarvon_Action_X.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="Garage_mods_Map_Rotation" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Map Rotation - Only played Maps" Type="multi" Visible="True">
+    <Version>v0.3-0.9.17.1</Version>
+    <ZipFile>Garage_mods_Map_Rotation_only_Played_Maps_v1.2.0_tempdirfix_2018-10-10.zip</ZipFile>
+    <CRC>ad701b5052d04c777049162b6cb2ccf7</CRC>
+    <Timestamp>131836455435284378</Timestamp>
+    <Size>4492675</Size>
+    <Description>Press F11 inside Garage (or change key inside res_mods\configs\mapcount\mapcount.xml)\nMaps sort by Battles</Description>
+    <UpdateComment>added the new map "212_epic_random_valley"\nfixed the BattleReplay counting bug</UpdateComment>
+    <Medias>
+      <Media URL="http://fs5.directupload.net/images/user/161224/esfczncb.jpg" MediaType="Picture" />
+      <Media URL="http://i.imgur.com/IEvC8Sc.jpg" MediaType="Picture" />
+    </Medias>
+    <UserFiles>
+      <UserFile Pattern="\\res_mods\\configs\\mapcount\\mapcount.xml" />
+    </UserFiles>
+  </Package>
+  <Package PackageName="Garage_mods_expandItemLimits" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Tooltips count items limit expand" Type="multi" Visible="True">
+    <Version>1.01</Version>
+    <ZipFile>Garage_mods_expandItemLimits_v1.01_1.4.0.1_2019-03-10.zip</ZipFile>
+    <CRC>955174ff864a71686b2996d0e15ede9a</CRC>
+    <Timestamp>131967213059460616</Timestamp>
+    <Size>2072</Size>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_mods/garage_mods_expanditemlimits.JPG" MediaType="Picture" />
+    </Medias>
+  </Package>
+  <Package PackageName="Garage_mods_Modpack_Button_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="ModPack Button Support Tool v{version} by Budyx69" Type="multi" Visible="True">
+    <Version>9.08</Version>
+    <ZipFile>Garage_Mods_Modpack_Button_by_Budyx69_v9.08_1.4.0.2_2019-03-11.zip</ZipFile>
+    <CRC>21bd63a05f383e7f041da1da3ad4eba0</CRC>
+    <Timestamp>131967950976665893</Timestamp>
+    <Size>116419</Size>
+    <Description>ModpackButton by Budyx69: \nWith this Button you can jump to the Relhax Modpack chat channel in game, the Discord support server, and visit our official support Forums.</Description>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/ModpackButton_Budyx69_001.jpg" MediaType="Picture" />
+    </Medias>
+  </Package>
+  <Package PackageName="Garage_Mods_OfflineMode_Launcher" Enabled="True" InstallGroup="4" PatchGroup="0" Name="OfflineMode Launcher" Type="multi" Visible="True">
+    <Version>1.0.5</Version>
+    <ZipFile>Garage_Mods_Offline_Launcher_v1.0.5_1.3.0.1_2018-12-21.zip</ZipFile>
+    <CRC>cd7771a9b8d16a69e4dcc831e95bb498</CRC>
+    <Timestamp>131898702564828388</Timestamp>
+    <Size>26229</Size>
+    <Description>This mod can start maps offline.\nThere is no tank and no gui, only the blank map to explore!\nOnly Works From Login Screen\n------------------------------------------------------------------------------------------------------------------------------------------\nHow to use:\n\n1.Click the MOD list in the lower right corner of the login screen\n2.Click on item OfflineMode Launcher\n-&gt; Launcher window opens\n3.Select a map\n4.Click the Load button\n-&gt; The map will load\n5.Press the F key\n------------------------------------------------------------------------------------------------------------------------------------------\nKeys:\n\nWSAD:                 move camera\nNumpad +/-:         adjust FOV\nMouse Wheel:      adjust speed\nEscape:                toggle mouse mode\nF:                          toggle camera freeze mode\nR:                         add new camera view point\n0-7:                      change camera view point\nN:                         move to previous camera view point\nM:                        move to next camera view point\nP:                         toggle post-precessing\nC:                         toggle cinematic post-processing mode\nT:                         toggle temporal AA\nEND:                    Game will quit\nAlt+F4:             ,    Game will quit.\nPrtSc/SysRq:       ScreenShot\n------------------------------------------------------------------------------------------------------------------------------------------\nAbout camera speed:\n1.Copy the engine_config.xml from res/ to res_mods/1.1.0.1\n2.Open XML file,edit ui/straferate value.\n3.Save,Close.\n------------------------------------------------------------------------------------------------------------------------------------------\nContact：Twitter \nalphasave1\nSpecial Thanks : \nchirimenspiral , koreanrandom’s MODders</Description>
+    <Medias>
+      <Media URL="https://wgmods.net/media/shot_072_RaOpILn.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+      <Media URL="https://wgmods.net/media/shot_074_WlgFKoQ.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+      <Media URL="https://wgmods.net/media/shot_073_XrHgN30.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
+  <Package PackageName="Garage_mods_replay_manager_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Replay Manager" Type="multi" Visible="True">
+    <Version>3.3.6</Version>
+    <ZipFile>Garage_mods_replay_manager_3.3.6_1.4.0.0_2019-02-06.zip</ZipFile>
+    <CRC>12f70f6a904c52bec8b96b08192895ba</CRC>
+    <Timestamp>131939550384693371</Timestamp>
+    <Size>668992</Size>
+    <Description>by STL1te_P0LIR0ID \nGerman Translation by DOC73 \n\nRU-Server: wotreplays.ru \nEU-Server: wotreplays.eu \nNA-Server: wotreplays.com</Description>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_1-3.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_2-3.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_3-3.jpg" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
+  <Package PackageName="Garage_mods_ScriptloaderPro_Base" Enabled="True" InstallGroup="4" PatchGroup="0" Name="ScriptloaderPro v{version} by Budyx69" Type="multi" Visible="True">
+    <Version>1.30</Version>
+    <ZipFile>Garage_mods_ScriptloaderPro_1.30_1.1.0_2018-08-28.zip</ZipFile>
+    <CRC>557bbd3f6c36f5c4f1f122f7c51a1818</CRC>
+    <Timestamp>131800333356564136</Timestamp>
+    <Size>10915</Size>
+    <Description>Loads mods in all modes \n with Tidy Messenger you see nothing \nIn minimal mode: Shows loaded mods as single line, unsuccesfull (red line) \nIn Full mode: Shows all loaded mods succesfull (green) or unsuccesfull (red)</Description>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_ScriptloaderPro_by_Budyx69_1-2.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_ScriptloaderPro_by_Budyx69_2-2.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_ScriptloaderPro_by_Budyx69_WWIIHWA.jpg" MediaType="Picture" />
+      <Media URL="http://dieschwarzenschafe.com/img/scriptloader/scriptloader_full_error_en.jpg" MediaType="Picture" />
+    </Medias>
+    <Packages>
+      <Package PackageName="Garage_mods_ScriptloaderPro_SystemMessage_OFF" Enabled="True" InstallGroup="4" PatchGroup="0" Name="SystemMessage OFF" Type="single_dropdown1" Visible="True">
+        <Timestamp>131745998234506560</Timestamp>
+        <Size>785</Size>
+      </Package>
+      <Package PackageName="Garage_mods_ScriptloaderPro_SystemMessage_Full" Enabled="True" InstallGroup="4" PatchGroup="0" Name="SystemMessage Full" Type="single_dropdown1" Visible="True">
+        <ZipFile>Garage_mods_ScriptloaderPro_1.28_SystemMessage_FullMessage_patch.zip</ZipFile>
+        <CRC>86c7a47a34e594a12c4ff7f84e9ae1c1</CRC>
+        <Timestamp>131746000624277659</Timestamp>
+        <Size>1222</Size>
+        <Medias>
+          <Media URL="http://dieschwarzenschafe.com/img/scriptloader/scriptloader_full_error_en.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_ScriptloaderPro_by_Budyx69_1-2.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="Garage_mods_ScriptloaderPro_SystemMessage_Minimal" Enabled="True" InstallGroup="4" PatchGroup="0" Name="SystemMessage Minimal" Type="single_dropdown1" Visible="True">
+        <ZipFile>Garage_mods_ScriptloaderPro_1.28_SystemMessage_ON_patch.zip</ZipFile>
+        <CRC>e0ed31627daa13d075f5043820e55fef</CRC>
+        <Timestamp>131746000395179683</Timestamp>
+        <Size>1138</Size>
+        <Medias>
+          <Media URL="http://dieschwarzenschafe.com/img/scriptloader/scriptloader_minimal_error_de.jpg" MediaType="Picture" />
+          <Media URL="http://dieschwarzenschafe.com/img/scriptloader/scriptloader_minimal_io_en.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="Garage_mods_ScriptloaderPro_SpamFilter" Enabled="True" InstallGroup="4" PatchGroup="0" Name="SpamFilter for python.log" Type="multi" Visible="True">
+        <Version>1.29</Version>
+        <ZipFile>Garage_mods_ScriptloaderPro_1.29_PythonlogSpamfilter_patch.zip</ZipFile>
+        <CRC>3f28042f0954a71df800d2db4b5802b7</CRC>
+        <Timestamp>131777733560874209</Timestamp>
+        <Size>1184</Size>
+      </Package>
+      <Package PackageName="Garage_mods_ScriptloaderPro_BattleChat" Enabled="False" InstallGroup="4" PatchGroup="0" Name="Battlechat Filter Enable" Type="multi" Visible="False">
+        <Version>1.29</Version>
+        <ZipFile>Garage_mods_ScriptloaderPro_1.29_Battlechatfilter_patch.zip</ZipFile>
+        <CRC>9e55c786a29d6615637393b306c47daa</CRC>
+        <Timestamp>131777735672387255</Timestamp>
+        <Size>1172</Size>
+        <Description>only chat-msgs with "noob" get blocked</Description>
+        <Packages>
+          <Package PackageName="Garage_mods_ScriptloaderPro_BattleChat_Filterlist" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Filterlist (extended)" Type="multi" Visible="True">
+            <Version>1.29</Version>
+            <ZipFile>Garage_mods_ScriptloaderPro_1.29_Battlechatfilter_filterlist_patch_2018-08-07.zip</ZipFile>
+            <CRC>61d6e1e5633720e72c9d9c3b6baae9b0</CRC>
+            <Timestamp>131781124513596055</Timestamp>
+            <Size>970</Size>
+            <Description>for a clean and friendly chat-experience this patch adds following words to battlechatfilter:\n\n"spotted","noob","clicker","idiot","coward","anal","anus","arse","ass","ballsack","balls","bastard","bitch","biatch","blowjob","blow job","bollock","bollok","boner","boob","bugger","bum","butt","buttplug","clitoris","cock","coon","crap","cunt","dick","dildo","fag","feck","fellate","fellatio","felching","fuck","f u c k","fudgepacker","fudge packer","flange","Goddamn","God damn","homo","jerk","jizz","knobend","knob end","labia","muff","nigger","nigga","penis","piss","poop","prick","pube","pussy","queer","scrotum","sex","slut","smegma","spunk","tit","tosser","turd","twat","vagina","wank","whore"</Description>
+          </Package>
+          <Package PackageName="Garage_mods_ScriptloaderPro_BattleChat_Filterlist_facebook" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Facebook Bad Words Filterlist" Type="multi" Visible="True">
+            <Version>1.29</Version>
+            <ZipFile>Garage_mods_ScriptloaderPro_1.29_Battlechatfilter_facebookfilterlist_patch_2018-08-07.zip</ZipFile>
+            <CRC>696225d0a5a00440cf522405e72df34e</CRC>
+            <Timestamp>131781272270571215</Timestamp>
+            <Size>6659</Size>
+            <Description>for those who really wants a clean chat this filterlist is based on facebooks "bad words list"</Description>
+          </Package>
+        </Packages>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="Garage_mods_VehicleXP_Extended_Base" Enabled="True" InstallGroup="4" PatchGroup="0" Name="VehicleXP Extended" Type="multi" Visible="True">
+    <ZipFile>Garage_mods_VehicleXP_and_Personal_Missions_Izeberg_base_1.3.0.1_2018-12-14.zip</ZipFile>
+    <CRC>cbdcab8d379331dfa6cc33251d1cf3b1</CRC>
+    <Timestamp>131892670578406058</Timestamp>
+    <Size>18103</Size>
+    <Description>Mod displays Personal assignments; Main and Secondary condition; XP for Module, next tanks and Elite</Description>
+    <UpdateComment>alternative URL: http://forum.worldoftanks.eu/index.php?/topic/572805-</UpdateComment>
+    <Medias>
+      <Media URL="http://wotsite.net/images/2015/2/3/2.jpg" MediaType="Picture" />
+      <Media URL="http://wotsite.net/images/2015/2/3/2.jpg" MediaType="Picture" />
+      <Media URL="http://wotsite.net/images/2014/12/30/1.jpg" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Packages>
+      <Package PackageName="Garage_mods_VehicleXP_Extended_german" Enabled="True" InstallGroup="4" PatchGroup="0" Name="german / deutsch" Type="single_dropdown1" Visible="True">
+        <Version>2.16</Version>
+        <Timestamp>131719270434042624</Timestamp>
+        <Size>3035</Size>
+        <Description>Mod displays Personal assignments; Main and Secondary condition; XP for Module, next tanks and Elite</Description>
+        <UpdateComment>alternative URL: http://forum.worldoftanks.eu/index.php?/topic/572805-</UpdateComment>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_german" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="Garage_mods_VehicleXP_Extended_english" Enabled="True" InstallGroup="4" PatchGroup="0" Name="english" Type="single_dropdown1" Visible="True">
+        <Version>2.16</Version>
+        <Timestamp>131719270844049008</Timestamp>
+        <Size>1271</Size>
+        <Description>Mod displays Personal assignments; Main and Secondary condition; XP for Module, next tanks and Elite</Description>
+        <UpdateComment>alternative URL: http://forum.worldoftanks.eu/index.php?/topic/572805-</UpdateComment>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsSettingsApi_AppDATA_english" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="Garage_mods_crewExtended" Enabled="True" InstallGroup="4" PatchGroup="0" Name="WotXP Crew Extended" Type="multi" Visible="True">
+    <Version>5.03</Version>
+    <ZipFile>Garage_mods_WotXP_Crew_Extended_by_spoter_v5.03_1.4.0.0_2019-02-19.zip</ZipFile>
+    <CRC>4d36d688a52f198bcc746106e426dd5b</CRC>
+    <Timestamp>131950446613068774</Timestamp>
+    <Size>9525</Size>
+    <Description>Mod displays the number of fights and experience required for the next 1%-step and for 100%.</Description>
+    <UpdateComment>2. URL (and 3 Versions): http://wotsite.net/mody-dlya-world-of-tanks/12177-\n\nURL for mod_mods_gui: https://github.com/spoter/spoter-mods/tree/master/mod_mods_gui</UpdateComment>
+    <Medias>
+      <Media URL="http://fs2.directupload.net/images/150630/r8khlrlx.jpg" MediaType="Picture" />
+    </Medias>
+    <UserFiles>
+      <UserFile Pattern="\\mods\\configs\\crewExtended\\crewExtended.json" />
+    </UserFiles>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
+  <Package PackageName="Garage_Mods_Interface_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Interface" Type="multi" Visible="True">
+    <Timestamp>131924662685229411</Timestamp>
+    <Packages>
+      <Package PackageName="Garage_Mods_Interface_old_store" Enabled="False" InstallGroup="4" PatchGroup="0" Name="Old Store by goofy67" Type="single1" Visible="True">
+        <Version>1.3.0.1</Version>
+        <ZipFile>Garage_mods_interface_old_store_goofy67_1.3.0.1_2019-01-21.zip</ZipFile>
+        <CRC>ed3cf0581010a51c50d1a3c0ea90327c</CRC>
+        <Timestamp>131925849057775098</Timestamp>
+        <Size>1341</Size>
+        <Description>Disadvantages: You can not buy bonds or bundles as you can in new shop-interface.</Description>
+        <UpdateComment>"Disabled: Not working in Frontline epidode 1"</UpdateComment>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_mods/Interface/Garage_mods_interface_old_shop_goofy67_1.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_mods/Interface/Garage_mods_interface_old_shop_goofy67_2.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="Garage_mods_Techtree_Header" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Techtrees" Type="multi" Visible="True">
+    <Packages>
+      <Package PackageName="Garage_mods_Techtree_Horizontal_compact" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Horizontal compact" Type="single1" Visible="True">
+        <ZipFile>Garage_mods_Techtree_Horizontal_compact_1.4.0_2019-02-07.zip</ZipFile>
+        <CRC>e6bbbc7c6a4b3e0b3d2ddbb9f121c7b7</CRC>
+        <Timestamp>131940148258386646</Timestamp>
+        <Size>14225</Size>
+        <Description>This mod simply shortens the arrows in the horizontal tree of studies, so as not to scroll the left-right research sheet, plus maximally compactly disposes tanks in the tree of investigation in width.</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_RUS.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_GER.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_USA.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_FR.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_GB.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_CZ.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_CH.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_JP.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_PL.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_SWE.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="Garage_mods_Techtree_AVT_Base" Enabled="True" InstallGroup="4" PatchGroup="0" Name="Advanced Vertical TechTree Mod v{version}" Type="single1" Visible="True">
+        <Version>1.4.0.0</Version>
+        <ZipFile>Garage_mods_Techtree_AVT_Mod_1.4.0.0_2019-02-06.zip</ZipFile>
+        <CRC>6bbcef9e46d32dbf5e2321130afbbfb5</CRC>
+        <Timestamp>131939278187129227</Timestamp>
+        <Size>92990719</Size>
+        <Description>Mainfeatures: \n- 11 different Layout options (8 vertical, 3 horizontal) \n- 5 graphic options \n- Show hidden, removed Premium and special tanks in techtree \n- Enjoy over 490 tanks in your techtree \n- Nice, centered nations button bar \n- Compatiblity with all screen resolutions \n- In-game UI mod settings (press F8 key for Changes, press F7 key for reloading Data base) \n- Allows preview and tank compare features for all tanks in game \n\nBecause there are different options, you can style the Techtree using different combinations.\n\nOriginal Thread by Johnny: http://forum.worldoftanks.ru/index.php?/topic/1654743-\nContinued by OldSkool &amp; KukieJar: http://forum.worldoftanks.eu/index.php?/topic/669226-</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_Basic_A.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_Basic_B.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_DrLivesey.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_DW_A.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_DW_B.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_KuKieJar_A.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_KuKieJar_B1.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_KuKieJar_B2.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_PHARAON.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_U_W_X_Z.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_WG_Extended.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Packages>
+          <Package PackageName="Garage_mods_Techtree_AVT_Mod_show_hidden_tanks_true_patch" Enabled="True" InstallGroup="4" PatchGroup="0" Name="show hidden tanks on techtree" Type="multi" Visible="True">
+            <ZipFile>Garage_mods_Techtree_AVT_Mod_show_hidden_tanks_true_patch_2019-01-30.zip</ZipFile>
+            <CRC>4301db7a724dadf09b145149fb00c1d3</CRC>
+            <Timestamp>131933552563073151</Timestamp>
+            <Size>656</Size>
+          </Package>
+          <Package PackageName="Garage_mods_Techtree_AVT_Mod_show_removed_tanks_true_patch" Enabled="True" InstallGroup="4" PatchGroup="0" Name="show removed tanks on techtree" Type="multi" Visible="True">
+            <ZipFile>Garage_mods_Techtree_AVT_Mod_show_removed_tanks_true_patch_2019-01-30.zip</ZipFile>
+            <CRC>7734a81f9b187430723916e678e694fa</CRC>
+            <Timestamp>131933552672591029</Timestamp>
+            <Size>666</Size>
+          </Package>
+        </Packages>
+      </Package>
+    </Packages>
+  </Package>
+</Category>

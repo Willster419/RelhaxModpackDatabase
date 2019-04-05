@@ -1,0 +1,114 @@
+<patchs>
+<!-- xml patch example -->
+<patch>
+  <!-- the type of patch being performed -->
+  <!-- options: xml, regx, json, xvm -->
+  <!-- note: xvm type is not stable, recommended, or supported -->
+  <type>xml</type>
+  <!-- the xml patch mode to perform -->
+  <!-- options: add, remove, edit -->
+  <mode>edit</mode>
+  <!-- the macro for the beginning of the patch directory supported macros: -->
+  <!-- app/{app} (WoT directory), appData/{appData} (user wot application data folder), -->
+  <patchPath>app</patchPath>
+  <!-- the file to perform patching on -->
+  <!-- relative to directory specified from the patchPath macro -->
+  <!-- Use "versiondir" as the macro for the world of tanks mods folder version e.g. 0.9.17.1 -->
+  <file>\res_mods\versiondir\folder\mod_name.xml</file>
+  <!-- the location of the xml node to patch, xpath style -->
+  <!-- xpath information: https://msdn.microsoft.com/en-us/library/ms256086(v=vs.110).aspx -->
+  <!-- syntax: //root/child/child/etc. -->
+  <!-- syntax: //root/child/child/@attribute -->
+  <path>//xpath/goes/here</path>
+  <!-- The element value to search for, Regex syntax supported -->
+  <!-- ignored if using "add" mode -->
+  <!-- can be blank to use the regex match all syntax ".*" -->
+  <search>element_value</search>
+  <!-- the value to replace or add -->
+  <!-- ignored if using "remove" mode -->
+  <!-- for add mode if you are adding sub-elements you must specify element name as well as the value to replace -->
+  <!-- note: in add mode, the application will check if the element value in replace is already there before adding it -->
+  <!-- add example -->
+  <!-- "[sl]" (without quotes) can be used to get the "/" character in the replace value -->
+  <!-- <replace>element_name/new_element_value</replace> -->
+  <!-- edit example -->
+  <replace>new_element_value</replace>
+</patch>
+<!-- regx patch example -->
+<patch>
+  <!-- the type of patch being performed -->
+  <!-- options: xml, regx, json, xvm -->
+  <!-- note: xvm type is not stable, recommended, or supported -->
+  <type>regx</type>
+  <!-- the macro for the beginning of the patch directory supported macros: -->
+  <!-- app/{app} (WoT directory), appData/{appData} (user wot application data folder), -->
+  <patchPath>app</patchPath>
+  <!-- the file to perform patching on -->
+  <!-- relative to directory specified from the patchPath macro -->
+  <!-- Use "versiondir" as the macro for the world of tanks mods folder version e.g. 0.9.17.1 -->
+  <file>\mods\versiondir\configs\folder\mod_name_config.txt</file>
+  <!-- the line number(s) seperated by commas in the file for patching -->
+  <!-- if specified, matching search must also be in those lines -->
+  <!-- can be left blank to patch all lines of the file -->
+  <!-- example: <line></line> OR <line /> -->
+  <!-- use -1 to load the entire file and do one regex patch on it -->
+  <!-- example: <line>-1</line> -->
+  <line>69,420</line>
+  <!-- the value or phrase to search for in a single line, Regex syntax supported -->
+  <!-- can be blank to use the regex match all syntax ".*" -->
+  <search>value</search>
+  <!-- the value or phrase to replace <search> with -->
+  <replace>new_value</replace>
+</patch>
+<!-- json patch example -->
+<patch>
+  <!-- the type of patch being performed -->
+  <!-- options: xml, regx, json, xvm -->
+  <!-- note: xvm type is not stable, recommended, or supported -->
+  <type>json</type>
+  <!-- the json patch mode to perform -->
+  <!-- options: add, arrayAdd, remove, arrayRemove, edit, arrayEdit, arrayClear -->
+  <mode>edit</mode>
+  <!-- the macro for the beginning of the patch directory supported macros: -->
+  <!-- app/{app} (WoT directory), appData/{appData} (user wot application data folder), -->
+  <patchPath>app</patchPath>
+  <!-- the file to perform patching on -->
+  <!-- relative to directory specified from the patchPath macro -->
+  <!-- Use "versiondir" as the macro for the world of tanks mods folder version e.g. 0.9.17.1 -->
+  <file>\res_mods\configs\folder\mod_autoaim_indicator.json</file>
+  <!-- the location of the json value to patch, jsonpath style -->
+  <!-- jsonpath information: http://goessner.net/articles/JsonPath/ -->
+  <!-- syntax: $.child.setting_name -->
+  <path>$.addon-auto_announce_reload.enabled</path>
+  <!-- the value or phrase to search for, regex supported -->
+  <!-- can be blank to use the regex match all syntax ".*" -->
+  <search>.*</search>
+  <!-- the value or phrase to put into the specified json path -->
+  <replace>true</replace>
+</patch>
+<!-- xvm patch example -->
+<patch>
+  <!-- the type of patch being performed -->
+  <!-- options: xml, regx, json, xvm -->
+  <!-- note: xvm type is not stable, recommended, or supported -->
+  <type>xvm</type>
+  <!-- the xvm patch mode to perform -->
+  <!-- options: add, edit, array_clear, array_add, array_edit, array_remove -->
+  <mode>edit</mode>
+  <!-- the macro for the beginning of the patch directory supported macros: -->
+  <!-- app/{app} (WoT directory), appData/{appData} (user wot application data folder), -->
+  <patchPath>app</patchPath>
+  <!-- the file to perform patching on -->
+  <!-- relative to directory specified from the patchPath macro -->
+  <!-- Use "versiondir" as the macro for the world of tanks mods folder version e.g. 0.9.17.1 -->
+  <file>\res_mods\configs\xvm\xvm.xc</file>
+  <!-- the location of the value to patch -->
+  <!-- it is similar to json path, but more like the old patch syntax of OMC -->
+  <!-- syntax: $.child.setting_name -->
+  <path>login.pingServers.enabled</path>
+  <!-- the value or phrase to search for for the option, regex style -->
+  <search>false</search>
+  <!-- the value or phrase to put into in place of "search" -->
+  <replace>true</replace>
+</patch>
+</patchs>
