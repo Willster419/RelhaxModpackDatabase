@@ -16193,18 +16193,46 @@
           </packages>
         </package>
         <package>
-          <name>Repair Extended by Spoter (non-cheat-version) v{version}</name>
-          <zipFile>Ingame_Misc_Repair_Extended_7.00_2019-04-07.zip</zipFile>
-          <crc>f</crc>
+          <name>Repair Extended by Spoter (non-cheat-version)</name>
+          <zipFile>Ingame_Misc_Repair_Extended_by_Spoter_BASE_1.4.1.1_2019-04-03.zip</zipFile>
+          <crc>0c10d03a1fd61005c349abb9456bfaed</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Ingame_Misc_repair_extended</packageName>
           <type>multi</type>
-          <version>7.00</version>
-          <timestamp>131991191076304905</timestamp>
+          <timestamp>131988000479657346</timestamp>
           <size>6000</size>
           <description>pres "spacebar" to repair:\n\n    "removeStun"\n    "useGoldKits"\n    "extinguishFire"\n    "healCrew"\n    "repairDevices"</description>
           <devURL>https://github.com/spoter/spoter-mods/tree/master/mod_repair_extended</devURL>
+          <packages>
+            <package>
+              <name>default cfg</name>
+              <zipFile>Ingame_Misc_Repair_Extended_by_Spoter_DEFAULT_1.1.0.1_2018-11-06.zip</zipFile>
+              <crc>53ae622c22591a87ac1d2c0c76fff3ef</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Misc_repair_extended_default</packageName>
+              <type>single_dropdown1</type>
+              <timestamp>131859848956641184</timestamp>
+              <size>3084</size>
+              <description>pres "spacebar" to repair:\n\n    "removeStun"\n    "useGoldKits"\n    "extinguishFire"\n    "healCrew"\n    "repairDevices"</description>
+              <devURL>https://github.com/spoter/spoter-mods/tree/master/mod_repair_extended</devURL>
+            </package>
+            <package>
+              <name>Config by The_Illusive_Man</name>
+              <zipFile>Ingame_Misc_Repair_Extended_by_Spoter_The_Illusive_Man_CFG_1.1.0.1_2018-11-06.zip</zipFile>
+              <crc>61bda44a52b25227a3d67bf8f22e2aa0</crc>
+              <enabled>False</enabled>
+              <visible>False</visible>
+              <packageName>Ingame_Misc_repair_extended_theillusivemancfg</packageName>
+              <type>single_dropdown1</type>
+              <timestamp>131859849409844703</timestamp>
+              <size>3020</size>
+              <updateComment>Disabled, Not working</updateComment>
+              <description>Changed config to better prioritze crewmen/ modules.</description>
+              <devURL>https://github.com/spoter/spoter-mods/tree/master/mod_repair_extended</devURL>
+            </package>
+          </packages>
           <dependencies>
             <dependency>
               <packageName>Dependency_gambiter_guiflash</packageName>
