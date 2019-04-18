@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2019-03-05 12:05:46" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="beta">
+<mods ver="2.0" date="2019-04-18 16:19:30" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="beta">
   <relhaxMods>
     <mod>XVMConfigBuilder_BattleInterface_Headline</mod>
     <mod>XVMConfigBuilder_BattleInterface_6thSenseDuration_Headline</mod>
@@ -12,6 +12,7 @@
     <mod>XVMConfigBuilder_BattleInterface_TotalHP_enable</mod>
     <mod>XVMConfigBuilder_BattleInterface_DamageLog_Header</mod>
     <mod>XVMConfigBuilder_BattleInterface_DamageLog_enable</mod>
+    <mod>XVMConfigBuilder_BattleInterface_DamageLog_MoveInBattle</mod>
     <mod>XVMConfigBuilder_BattleInterface_VehicleOnFireAnnouncer_Header</mod>
     <mod>XVMConfigBuilder_BattleInterface_VehicleOnFireAnnouncer_enable</mod>
     <mod>XVMConfigBuilder_BattleInterface_Squadmember_Color_Change_Headline</mod>
@@ -28,6 +29,10 @@
     <mod>XVMconfigBuilder_GarageInterface_Clock_ChangeColorToBlue</mod>
     <mod>XVMconfigBuilder_GarageInterface_GoldLocker_Header</mod>
     <mod>XVMconfigBuilder_GarageInterface_GoldLocker_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_BondsLocker_Header</mod>
+    <mod>XVMconfigBuilder_GarageInterface_BondsLocker_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_Header</mod>
+    <mod>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_FreeXPLocker_Header</mod>
     <mod>XVMconfigBuilder_GarageInterface_FreeXPLocker_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn_Header</mod>
@@ -36,7 +41,11 @@
     <mod>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_Header</mod>
     <mod>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_50</mod>
+    <mod>XVMconfigBuilder_GarageInterface_Statistics</mod>
+    <mod>XVMconfigBuilder_GarageInterface_Statistics_Disable</mod>
     <mod>XVMconfigBuilder_Login_Header</mod>
+    <mod>XVMconfigBuilder_Login_HideTheOldReplayConfirmationWindow_Header</mod>
+    <mod>XVMconfigBuilder_Login_HideTheOldReplayConfirmationWindow_enabled</mod>
     <mod>XVMconfigBuilder_Login_SaveLastServer_Header</mod>
     <mod>XVMconfigBuilder_Login_SaveLastServer_enable</mod>
     <mod>XVMconfigBuilder_Marker_Header</mod>
@@ -59,11 +68,13 @@
     <mod>XVMconfigBuilder_PlayersPanel_Enable</mod>
     <mod>XVMconfigBuilder_PlayersPanel_StartingPosition_Header</mod>
     <mod>XVMconfigBuilder_PlayersPanel_StartingPosition_medium</mod>
+    <mod>XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker</mod>
+    <mod>XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_enable</mod>
     <mod>XVMconfigBuilder_PlayersPanel_friendignored</mod>
     <mod>XVMconfigBuilder_PlayersPanel_ignoredIcon</mod>
     <mod>XVMconfigBuilder_PlayersPanel_friendignored_move_x120</mod>
-    <mod>XVMconfigBuilder_StatisticsColorStep_Header</mod>
-    <mod>XVMconfigBuilder_StatisticsColorStep_9StepWot-life</mod>
+    <mod>XVMconfigBuilder_StatisticsColorSteps_Header</mod>
+    <mod>XVMconfigBuilder_StatisticsColorSteps_9StepWot-life</mod>
     <mod>XVMconfigBuilder_TankCarouselBase_Header</mod>
     <mod>XVMconfigBuilder_TankCarouselBase_carousel_enable</mod>
     <mod>XVMconfigBuilder_TankCarouselBase_CellContent_Header</mod>
@@ -91,7 +102,6 @@
     <mod>Crosshairs_arty_sight_Taipan_Header</mod>
     <mod>Crosshairs_arty_sight_Taipan_v1</mod>
     <mod>Crosshairs_gunConstraint_Base</mod>
-    <mod>Crosshairs_gunConstraint_German</mod>
     <mod>Contour_Icon_Header</mod>
     <mod>Contour_Icon_Wizard_Header</mod>
     <mod>Contour_Icon_Wizard_Roman_Tier</mod>
@@ -100,6 +110,7 @@
     <mod>Ingame_Aim_Battle_Assistant_Base</mod>
     <mod>Ingame_Aim_Battle_Assistant_G</mod>
     <mod>Ingame_Aim_Battle_Assistant_Increased_Zoom_Speed</mod>
+    <mod>Ingame_Aim_SPG_Flytime</mod>
     <mod>Ingame_Aim_Zoomin_Base</mod>
     <mod>Ingame_Aim_zoom_pmod_zoomIn_2-48</mod>
     <mod>Ingame_Aim_zoom_pmod_td_brake_header</mod>
@@ -126,9 +137,7 @@
     <mod>Ingame_Info_InBattle_Rating_Header</mod>
     <mod>Ingame_Info_InBattle_Rating_OldSkool</mod>
     <mod>Ingame_Info_MoG_Extended</mod>
-    <mod>Ingame_Info_MoG_Extended_cfg_extended</mod>
-    <mod>Ingame_Info_Spot_Marks</mod>
-    <mod>Ingame_Info_Spot_Marks_only_lights</mod>
+    <mod>Ingame_Info_MoG_Extended_cfg_Circon</mod>
     <mod>Ingame_Info_SpotMessenger_Base</mod>
     <mod>Ingame_Info_SpotMessenger_activated</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Header</mod>
@@ -147,16 +156,17 @@
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_spg</mod>
     <mod>Ingame_Info_Wide_Border_Of_Maps_Header</mod>
     <mod>Ingame_Info_Wide_Border_Of_Maps_COMMAND_full</mod>
+    <mod>Ingame_Misc_You_Died_by_goofy67_and_budyx69</mod>
+    <mod>Ingame_Misc_You_Died_no_sound</mod>
     <mod>Ingame_Misc_Antitoxicity_Base</mod>
+    <mod>Ingame_Misc_Arty_and_Siege_Filter</mod>
     <mod>Ingame_Misc_BaseCap_Circles_Header</mod>
     <mod>Ingame_Misc_BaseCap_Circles_Colored_Header</mod>
     <mod>Ingame_Misc_BaseCap_Circles_V3_Red</mod>
-    <mod>Ingame_Misc_chatmods_header</mod>
-    <mod>Ingame_Misc_chatmnods_buttonreplacer</mod>
     <mod>Ingame_Misc_Consumables_Header</mod>
-    <mod>Ingame_Misc_Consumables_DEbranded_equipment_Crew_skill</mod>
-    <mod>Ingame_Misc_Consumables_DEbranded_equipment</mod>
-    <mod>Ingame_Misc_Consumables_DEbranded_Crew_skill</mod>
+    <mod>Ingame_Misc_Consumables_Icons_Header</mod>
+    <mod>Ingame_Misc_Consumables_EquipmentIcons</mod>
+    <mod>Ingame_Misc_Consumables_EquipmentIcons_DEbranded</mod>
     <mod>Ingame_Misc_No_Sixth_Sense_Icon</mod>
     <mod>Ingame_Misc_Pre_Battle_Timer_Header</mod>
     <mod>Ingame_Misc_Pre_Battle_Timer_Green</mod>
@@ -166,15 +176,16 @@
     <mod>Garage_mods_ScriptloaderPro_SystemMessage_Full</mod>
     <mod>Garage_mods_ScriptloaderPro_SpamFilter</mod>
     <mod>Garage_mods_Techtree_Header</mod>
-    <mod>Garage_mods_Techtree_AVT_Base</mod>
-    <mod>Garage_mods_Techtree_AVT_Mod_show_hidden_tanks_true_patch</mod>
-    <mod>Garage_mods_Techtree_AVT_Mod_show_removed_tanks_true_patch</mod>
+    <mod>Garage_mods_Techtree_Horizontal_compact</mod>
+    <mod>Garage_mods_Techtree_Horizontal_compact_green</mod>
     <mod>Garage_mods_expandItemLimits</mod>
     <mod>Garage_mods_VehicleXP_Extended_Base</mod>
-    <mod>Garage_mods_VehicleXP_Extended_german</mod>
     <mod>Garage_mods_crewExtended</mod>
+    <mod>Garage_Graphics_Battle_Results_Header</mod>
+    <mod>Garage_Graphics_Battle_Results_Skulls_2_BRG_by_PigBrains_HAWG</mod>
     <mod>Garage_Graphics_carousel_LED_HEADER</mod>
-    <mod>Garage_Graphics_carousel_LED_blue</mod>
+    <mod>Garage_Graphics_carousel_LED_Blue</mod>
+    <mod>Garage_Graphics_Crew_Icons_Header</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_by_Debranded_Header</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Germany</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Germany_1990</mod>
@@ -195,12 +206,9 @@
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Poland</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Sweden</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Italy_Header</mod>
-    <mod>Garage_Graphics_Crew_Icons_Nationflags_flag_of_Italy</mod>
-    <mod>Garage_Graphics_Carousel_Tank_Icons</mod>
-    <mod>Garage_Graphics_Carousel_Premium_Tank_Icons_Header</mod>
-    <mod>Garage_Graphics_Carousel_Premium_Tank_Icons_Aslain_Gold_V1</mod>
-    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_header</mod>
-    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Yaya-Style</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Italy</mod>
+    <mod>Garage_Graphics_CrewSkills</mod>
+    <mod>Garage_Graphics_CrewSkills_DEbranded</mod>
     <mod>Garage_Graphics_Carousel_DailyXPBonusIcons</mod>
     <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_Header</mod>
     <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_2x_Header</mod>
@@ -218,6 +226,12 @@
     <mod>Garage_Graphics_LoginBackground_Picture_BeachParty</mod>
     <mod>Garage_Graphics_Medals_Header</mod>
     <mod>Garage_Graphics_Medals_Effect_Vulkanglass</mod>
+    <mod>Garage_Graphics_Carousel_Tank_Icons</mod>
+    <mod>Garage_Graphics_Carousel_Premium_Tank_Icons_Header</mod>
+    <mod>Garage_Graphics_Carousel_Premium_Tank_Icons_Aslain_Gold_V1</mod>
+    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_header</mod>
+    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Default_header</mod>
+    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Default_Yaya</mod>
     <mod>Statistic_Session_Header</mod>
     <mod>Statistic_Session_Tomonik_Base</mod>
     <mod>Statistic_Session_Tomonik_dirty_german</mod>
