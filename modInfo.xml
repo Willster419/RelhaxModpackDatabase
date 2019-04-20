@@ -9966,7 +9966,7 @@
           <visible>True</visible>
           <packageName>Damage_Logs_Header</packageName>
           <type>multi</type>
-          <description>Damage Logs create a list of taken damage. \nIn the list you find detailed information about who was shooting at you and how much HP these shots have taken from you.\n\nWe provide you some fine configurations with different layouts and colors, but you have to figure out yourself which one fits best to the rest of your installed modifications.</description>
+          <description>Damage Logs create a list of taken damage. &amp;#92;nIn the list you find detailed information about who was shooting at you and how much HP these shots have taken from you.&amp;#92;n&amp;#92;nWe provide you some fine configurations with different layouts and colors, but you have to figure out yourself which one fits best to the rest of your installed modifications.</description>
           <packages>
             <package>
               <name>GambitER</name>
@@ -10164,22 +10164,90 @@
           <type>multi</type>
           <packages>
             <package>
-              <name>Z-Mod</name>
-              <zipFile>Damage_Panel_Z-Mod_1.3.0.0_2018-12-12.zip</zipFile>
-              <crc>d40808a8e861724bb022a2d0d1c15944</crc>
+              <name>Bionick</name>
+              <zipFile />
+              <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Damage_Panel_Z-Mod</packageName>
+              <packageName>Damage_Panel_Bionick_Header</packageName>
               <type>single1</type>
-              <timestamp>131891045703264149</timestamp>
-              <size>270290</size>
-              <devURL>http://wotsite.net/paneli-povrezhdenij/12058-novyj-boevoj-interfejs-z-mod-ot-marsoff.html</devURL>
+              <description>GambitER´s damage log should be installed for full functionality. &amp;#92;nIt also works without dmg log - only thing missing would be that the current received hit (red text) will not be shown inside the damage panel.</description>
+              <devURL>http://wotsite.net/paneli-povrezhdenij/4281-novyj-mod-paneli-povrezhdenij-dlya-world-of-tanks.html</devURL>
+              <packages>
+                <package>
+                  <name>Transparent</name>
+                  <zipFile>Damage_Panel_Bionick_transparent_1.3.0.0_2018-12-12.zip</zipFile>
+                  <crc>85b7ccd2721ff7957ff2c38cb53aa6c5</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Panel_Bionick_transparent</packageName>
+                  <type>single1</type>
+                  <timestamp>131891083648852809</timestamp>
+                  <size>254875</size>
+                  <devURL>http://wotsite.net/paneli-povrezhdenij/10331-peredelannaya-panel-povrezhdenij-ot-bionick-dlya-world-of-tanks.html</devURL>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Bionick_transparent.jpg</URL>
+                    </media>
+                  </medias>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>KobkaG</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Damage_Panel_KobkaG_Header</packageName>
+              <type>single1</type>
+              <version>1.7</version>
+              <devURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</devURL>
               <medias>
                 <media>
-                  <type>1</type>
-                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Z-Mod.jpg</URL>
+                  <type>2</type>
+                  <URL>https://youtu.be/PwwON-3imEs</URL>
                 </media>
               </medias>
+              <packages>
+                <package>
+                  <name>Standard</name>
+                  <zipFile>Damage_Panel_KobkaG_normal_1.4.0.0_2019-02-11.zip</zipFile>
+                  <crc>1b0e50f5c0bedd3c5567ca87701c923e</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Panel_KobkaG_Standard</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>131943597235801978</timestamp>
+                  <size>233734</size>
+                  <devURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</devURL>
+                </package>
+                <package>
+                  <name>with central repair</name>
+                  <zipFile>Damage_Panel_KobkaG_central_repair_1.4.0.0_2019-02-11.zip</zipFile>
+                  <crc>ae48c9c5ece09825f5d9faecb181d884</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Panel_KobkaG_central_repair</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>131943597358870660</timestamp>
+                  <size>396825</size>
+                  <devURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</devURL>
+                </package>
+                <package>
+                  <name>Notebook</name>
+                  <zipFile>Damage_Panel_KobkaG_Notebook_1.4.0.0_2019-02-11.zip</zipFile>
+                  <crc>c0d3cfe31c5edac8b06f6c38d1225543</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Damage_Panel_KobkaG_Notebook</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>131943597460787546</timestamp>
+                  <size>257799</size>
+                  <devURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</devURL>
+                </package>
+              </packages>
             </package>
             <package>
               <name>Legacy</name>
@@ -10297,37 +10365,6 @@
               </medias>
             </package>
             <package>
-              <name>Bionick</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Damage_Panel_Bionick_Header</packageName>
-              <type>single1</type>
-              <description>GambitER´s damage log should be installed for full functionality. \nIt also works without dmg log - only thing missing would be that the current received hit (red text) will not be shown inside the damage panel.</description>
-              <devURL>http://wotsite.net/paneli-povrezhdenij/4281-novyj-mod-paneli-povrezhdenij-dlya-world-of-tanks.html</devURL>
-              <packages>
-                <package>
-                  <name>Transparent</name>
-                  <zipFile>Damage_Panel_Bionick_transparent_1.3.0.0_2018-12-12.zip</zipFile>
-                  <crc>85b7ccd2721ff7957ff2c38cb53aa6c5</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Damage_Panel_Bionick_transparent</packageName>
-                  <type>single1</type>
-                  <timestamp>131891083648852809</timestamp>
-                  <size>254875</size>
-                  <devURL>http://wotsite.net/paneli-povrezhdenij/10331-peredelannaya-panel-povrezhdenij-ot-bionick-dlya-world-of-tanks.html</devURL>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Bionick_transparent.jpg</URL>
-                    </media>
-                  </medias>
-                </package>
-              </packages>
-            </package>
-            <package>
               <name>Rabbit</name>
               <zipFile />
               <crc />
@@ -10366,61 +10403,6 @@
                   <timestamp>131974811515674304</timestamp>
                   <size>645873</size>
                   <devURL>http://wotsite.net/paneli-povrezhdenij/4281-novyj-mod-paneli-povrezhdenij-dlya-world-of-tanks.html</devURL>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>KobkaG</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Damage_Panel_KobkaG_Header</packageName>
-              <type>single1</type>
-              <version>1.7</version>
-              <devURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</devURL>
-              <medias>
-                <media>
-                  <type>2</type>
-                  <URL>https://youtu.be/PwwON-3imEs</URL>
-                </media>
-              </medias>
-              <packages>
-                <package>
-                  <name>Standard</name>
-                  <zipFile>Damage_Panel_KobkaG_normal_1.4.0.0_2019-02-11.zip</zipFile>
-                  <crc>1b0e50f5c0bedd3c5567ca87701c923e</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Damage_Panel_KobkaG_Standard</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>131943597235801978</timestamp>
-                  <size>233734</size>
-                  <devURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</devURL>
-                </package>
-                <package>
-                  <name>with central repair</name>
-                  <zipFile>Damage_Panel_KobkaG_central_repair_1.4.0.0_2019-02-11.zip</zipFile>
-                  <crc>ae48c9c5ece09825f5d9faecb181d884</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Damage_Panel_KobkaG_central_repair</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>131943597358870660</timestamp>
-                  <size>396825</size>
-                  <devURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</devURL>
-                </package>
-                <package>
-                  <name>Notebook</name>
-                  <zipFile>Damage_Panel_KobkaG_Notebook_1.4.0.0_2019-02-11.zip</zipFile>
-                  <crc>c0d3cfe31c5edac8b06f6c38d1225543</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Damage_Panel_KobkaG_Notebook</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>131943597460787546</timestamp>
-                  <size>257799</size>
-                  <devURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</devURL>
                 </package>
               </packages>
             </package>
@@ -10530,6 +10512,24 @@
                   </medias>
                 </package>
               </packages>
+            </package>
+            <package>
+              <name>Z-Mod</name>
+              <zipFile>Damage_Panel_Z-Mod_1.3.0.0_2018-12-12.zip</zipFile>
+              <crc>d40808a8e861724bb022a2d0d1c15944</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Damage_Panel_Z-Mod</packageName>
+              <type>single1</type>
+              <timestamp>131891045703264149</timestamp>
+              <size>270290</size>
+              <devURL>http://wotsite.net/paneli-povrezhdenij/12058-novyj-boevoj-interfejs-z-mod-ot-marsoff.html</devURL>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Z-Mod.jpg</URL>
+                </media>
+              </medias>
             </package>
           </packages>
         </package>
