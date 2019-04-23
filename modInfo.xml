@@ -1162,6 +1162,7 @@
           <visible>True</visible>
           <packageName>XVMConfigBuilder_Camera_Header</packageName>
           <type>multi</type>
+          <description>same settings that you can set with PMOD (IngameAim)</description>
           <packages>
             <package>
               <name>disable</name>
@@ -1182,324 +1183,364 @@
               <type>single1</type>
               <packages>
                 <package>
-                  <name>Zoom Out Config (meters)</name>
+                  <name>Zoom Options</name>
                   <zipFile />
                   <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_ZoomOut_Header</packageName>
+                  <packageName>XVMConfigBuilder_Camera_Zoom_Header</packageName>
                   <type>multi</type>
-                  <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
                   <packages>
                     <package>
-                      <name>Arcade</name>
+                      <name>scroll sensitivity (default 5)</name>
                       <zipFile />
                       <crc />
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade</packageName>
+                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_header</packageName>
                       <type>multi</type>
-                      <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
                       <packages>
                         <package>
-                          <name>100m</name>
-                          <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_100.zip</zipFile>
-                          <crc>f</crc>
+                          <name>4</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_4.zip</zipFile>
+                          <crc />
                           <enabled>True</enabled>
                           <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_100</packageName>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_4</packageName>
                           <type>single_dropdown1</type>
-                          <timestamp>132005016064073057</timestamp>
-                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
                         </package>
                         <package>
-                          <name>200m</name>
-                          <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_200.zip</zipFile>
-                          <crc>f</crc>
+                          <name>5 (default)</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_5.zip</zipFile>
+                          <crc />
                           <enabled>True</enabled>
                           <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_200</packageName>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_5</packageName>
                           <type>single_dropdown1</type>
-                          <timestamp>132005015997201891</timestamp>
-                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
                         </package>
                         <package>
-                          <name>500m</name>
-                          <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_500.zip</zipFile>
-                          <crc>f</crc>
+                          <name>6</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_6.zip</zipFile>
+                          <crc />
                           <enabled>True</enabled>
                           <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_500</packageName>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_6</packageName>
                           <type>single_dropdown1</type>
-                          <timestamp>132005015931148531</timestamp>
-                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                        </package>
+                        <package>
+                          <name>7</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_7.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_7</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                        <package>
+                          <name>8</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_8.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_8</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                        <package>
+                          <name>9</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_9.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_9</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                        <package>
+                          <name>10</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_10.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_10</packageName>
+                          <type>single_dropdown1</type>
                         </package>
                       </packages>
                     </package>
                     <package>
-                      <name>Postmortem</name>
+                      <name>starting zoom (sniper mode)</name>
                       <zipFile />
                       <crc />
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem</packageName>
+                      <packageName>XVMConfigBuilder_Camera_sniperStartZoom</packageName>
                       <type>multi</type>
-                      <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
                       <packages>
                         <package>
-                          <name>100m</name>
-                          <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_100.zip</zipFile>
+                          <name>last used zoom step</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_null.zip</zipFile>
                           <crc>f</crc>
                           <enabled>True</enabled>
                           <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_100</packageName>
+                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_null</packageName>
                           <type>single_dropdown1</type>
-                          <timestamp>132005015804646816</timestamp>
-                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                          <timestamp>132004939220359753</timestamp>
                         </package>
                         <package>
-                          <name>200m</name>
-                          <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_200.zip</zipFile>
+                          <name>2x</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_2.zip</zipFile>
                           <crc>f</crc>
                           <enabled>True</enabled>
                           <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_200</packageName>
+                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_2</packageName>
                           <type>single_dropdown1</type>
-                          <timestamp>132005015722945315</timestamp>
-                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                          <timestamp>132004939593970626</timestamp>
                         </package>
                         <package>
-                          <name>500m</name>
-                          <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_500.zip</zipFile>
+                          <name>4x</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_4.zip</zipFile>
                           <crc>f</crc>
                           <enabled>True</enabled>
                           <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_500</packageName>
+                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_4</packageName>
                           <type>single_dropdown1</type>
-                          <timestamp>132005015641343535</timestamp>
-                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                          <timestamp>132004940981241310</timestamp>
+                        </package>
+                        <package>
+                          <name>8x</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_8.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_8</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004940869500127</timestamp>
+                        </package>
+                        <package>
+                          <name>16x</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_16.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_16</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004940738191280</timestamp>
                         </package>
                       </packages>
                     </package>
                     <package>
-                      <name>Strategic</name>
+                      <name>show zoom indicator</name>
                       <zipFile />
                       <crc />
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic</packageName>
+                      <packageName>XVMConfigBuilder_Camera_zoomIndicator_header</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>disable</name>
+                          <zipFile>XVMConfigBuilder_Camera_zoomIndicator_disable.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_zoomIndicator_disable</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                        <package>
+                          <name>enable</name>
+                          <zipFile>XVMConfigBuilder_Camera_zoomIndicator_enable.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_zoomIndicator_enable</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                      </packages>
+                    </package>
+                    <package>
+                      <name>zoom steps (sniper mode)</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_sniperZoomSteps</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>2, 4, 8, 12</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_1</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004945852235178</timestamp>
+                        </package>
+                        <package>
+                          <name>2, 4, 8, 16, 25</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-16-25.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_2</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004946202408742</timestamp>
+                        </package>
+                        <package>
+                          <name>2, 4, 8, 12, 16, 20, 26, 32</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12-16-20-26-32.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_3</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004947090030521</timestamp>
+                        </package>
+                        <package>
+                          <name>2, 4, 8, 12, 16, 20, 26, 32, 40, 48</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12-16-20-26-32-40-48.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_4</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004946966431067</timestamp>
+                        </package>
+                      </packages>
+                    </package>
+                    <package>
+                      <name>Zoom Out Config (meters)</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_ZoomOut_Header</packageName>
                       <type>multi</type>
                       <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
                       <packages>
                         <package>
-                          <name>200m</name>
-                          <zipFile>XVMConfigBuilder_Camera_ZoomOut_Strategic_200.zip</zipFile>
-                          <crc>f</crc>
+                          <name>Arcade</name>
+                          <zipFile />
+                          <crc />
                           <enabled>True</enabled>
                           <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic_200</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132005015483954423</timestamp>
+                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade</packageName>
+                          <type>multi</type>
                           <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                          <packages>
+                            <package>
+                              <name>100m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_100.zip</zipFile>
+                              <crc>f</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_100</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005016064073057</timestamp>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                            <package>
+                              <name>200m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_200.zip</zipFile>
+                              <crc>f</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_200</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015997201891</timestamp>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                            <package>
+                              <name>500m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_500.zip</zipFile>
+                              <crc>f</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_500</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015931148531</timestamp>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                          </packages>
                         </package>
                         <package>
-                          <name>500m</name>
-                          <zipFile>XVMConfigBuilder_Camera_ZoomOut_Strategic_500.zip</zipFile>
-                          <crc>f</crc>
+                          <name>Postmortem</name>
+                          <zipFile />
+                          <crc />
                           <enabled>True</enabled>
                           <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic_500</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132005015287868797</timestamp>
+                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem</packageName>
+                          <type>multi</type>
                           <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                          <packages>
+                            <package>
+                              <name>100m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_100.zip</zipFile>
+                              <crc>f</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_100</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015804646816</timestamp>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                            <package>
+                              <name>200m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_200.zip</zipFile>
+                              <crc>f</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_200</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015722945315</timestamp>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                            <package>
+                              <name>500m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_500.zip</zipFile>
+                              <crc>f</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_500</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015641343535</timestamp>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                          </packages>
+                        </package>
+                        <package>
+                          <name>Strategic</name>
+                          <zipFile />
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic</packageName>
+                          <type>multi</type>
+                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                          <packages>
+                            <package>
+                              <name>200m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Strategic_200.zip</zipFile>
+                              <crc>f</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic_200</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015483954423</timestamp>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                            <package>
+                              <name>500m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Strategic_500.zip</zipFile>
+                              <crc>f</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic_500</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015287868797</timestamp>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                          </packages>
                         </package>
                       </packages>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>zoom steps (sniper mode)</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_sniperZoomSteps</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>2, 4, 8, 12</name>
-                      <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_1</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132004945852235178</timestamp>
-                    </package>
-                    <package>
-                      <name>2, 4, 8, 16, 25</name>
-                      <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-16-25.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_2</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132004946202408742</timestamp>
-                    </package>
-                    <package>
-                      <name>2, 4, 8, 12, 16, 20, 26, 32</name>
-                      <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12-16-20-26-32.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_3</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132004947090030521</timestamp>
-                    </package>
-                    <package>
-                      <name>2, 4, 8, 12, 16, 20, 26, 32, 40, 48</name>
-                      <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12-16-20-26-32-40-48.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_4</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132004946966431067</timestamp>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>starting zoom (sniper mode)</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_sniperStartZoom</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>last used zoom step</name>
-                      <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_null.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_sniperStartZoom_null</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132004939220359753</timestamp>
-                    </package>
-                    <package>
-                      <name>2x</name>
-                      <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_2.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_sniperStartZoom_2</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132004939593970626</timestamp>
-                    </package>
-                    <package>
-                      <name>4x</name>
-                      <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_4.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_sniperStartZoom_4</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132004940981241310</timestamp>
-                    </package>
-                    <package>
-                      <name>8x</name>
-                      <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_8.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_sniperStartZoom_8</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132004940869500127</timestamp>
-                    </package>
-                    <package>
-                      <name>16x</name>
-                      <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_16.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_sniperStartZoom_16</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132004940738191280</timestamp>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>scroll sensitivity (default 5)</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_scrollSensitivity_header</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>4</name>
-                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_4.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_4</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                    <package>
-                      <name>5 (default)</name>
-                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_5.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_5</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                    <package>
-                      <name>6</name>
-                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_6.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_6</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                    <package>
-                      <name>7</name>
-                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_7.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_7</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                    <package>
-                      <name>8</name>
-                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_8.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_8</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                    <package>
-                      <name>9</name>
-                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_9.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_9</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                    <package>
-                      <name>10</name>
-                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_10.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_10</packageName>
-                      <type>single_dropdown1</type>
                     </package>
                   </packages>
                 </package>
@@ -1560,35 +1601,6 @@
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>XVMConfigBuilder_Camera_noBinoculars_enable</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>show zoom indicator</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_zoomIndicator_header</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>disable</name>
-                      <zipFile>XVMConfigBuilder_Camera_zoomIndicator_disable.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_zoomIndicator_disable</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                    <package>
-                      <name>enable</name>
-                      <zipFile>XVMConfigBuilder_Camera_zoomIndicator_enable.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_zoomIndicator_enable</packageName>
                       <type>single_dropdown1</type>
                     </package>
                   </packages>
