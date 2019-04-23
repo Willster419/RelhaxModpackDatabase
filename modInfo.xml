@@ -1155,6 +1155,261 @@
       </dependencies>
       <packages>
         <package>
+          <name>Camera Settings</name>
+          <zipFile />
+          <crc />
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>XVMConfigBuilder_Camera_Header</packageName>
+          <type>multi</type>
+          <packages>
+            <package>
+              <name>disable</name>
+              <zipFile>XVMConfigBuilder_Camera_disable.zip</zipFile>
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_Camera_disable</packageName>
+              <type>single1</type>
+            </package>
+            <package>
+              <name>enable</name>
+              <zipFile>XVMConfigBuilder_Camera_enable.zip</zipFile>
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_Camera_enable</packageName>
+              <type>single1</type>
+              <packages>
+                <package>
+                  <name>scroll sensitivity (default 5)</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_Camera_scrollSensitivity_header</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>4</name>
+                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_4.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_4</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>5 (default)</name>
+                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_5.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_5</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>6</name>
+                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_6.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_6</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>7</name>
+                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_7.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_7</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>8</name>
+                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_8.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_8</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>9</name>
+                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_9.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_9</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>10</name>
+                      <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_10.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity_10</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>modify td brake</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_Camera_noCameraLimit_header</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable (limitation, brake is automatically set in sniper view)</name>
+                      <zipFile>XVMConfigBuilder_Camera_noCameraLimit_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noCameraLimit_disable</packageName>
+                      <type>single_dropdown1</type>
+                      <description>camera.xc&amp;#92;nnoCameraLimit_false&amp;#92;nmode_hotkey</description>
+                    </package>
+                    <package>
+                      <name>enable (no limitation, press "x" manually to activate brake)</name>
+                      <zipFile>XVMConfigBuilder_Camera_noCameraLimit_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noCameraLimit_enable</packageName>
+                      <type>single_dropdown1</type>
+                      <description>camera.xc &amp;#92;nnoCameraLimit_true&amp;#92;nmode_full</description>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>dimming and greening in sniper scope (noBinoculars)</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_Camera_noBinoculars_header</packageName>
+                  <type>multi</type>
+                  <description>enable/disable dimming and greening in sniper scope</description>
+                  <packages>
+                    <package>
+                      <name>dim (enable binoculars view)</name>
+                      <zipFile>XVMConfigBuilder_Camera_noBinoculars_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noBinoculars_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>don´t dim (disable binoculars view)</name>
+                      <zipFile>XVMConfigBuilder_Camera_noBinoculars_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noBinoculars_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>show zoom indicator</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_Camera_zoomIndicator_header</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMConfigBuilder_Camera_zoomIndicator_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_zoomIndicator_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMConfigBuilder_Camera_zoomIndicator_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_zoomIndicator_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>recoil effect (for the enabled dynamic camera option)</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_Camera_shotRecoilEffect_header</packageName>
+                  <type>multi</type>
+                  <description> enable/disable the shot recoil effect (for the enabled dynamic camera option)</description>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMConfigBuilder_Camera_shotRecoilEffect_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_shotRecoilEffect_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMConfigBuilder_Camera_shotRecoilEffect_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_shotRecoilEffect_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>red flash when enemy hit your tank</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_Camera_noFlashBang_Header</packageName>
+                  <type>multi</type>
+                  <description>enable/disable red flash when enemy hit your tank</description>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMConfigBuilder_Camera_noFlashBang_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noFlashBang_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMConfigBuilder_Camera_noFlashBang_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noFlashBang_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+          </packages>
+        </package>
+        <package>
           <name>Colorblind Patches for XVM</name>
           <zipFile />
           <crc />
