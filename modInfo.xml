@@ -1160,9 +1160,9 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMConfigBuilder_Camera_Header</packageName>
+          <packageName>XVMConfigBuilder_Camera</packageName>
           <type>multi</type>
-          <description>same settings that you also can set with PMOD (IngameAim). don´t use both methods at the same time!\n\nwe recommend using this, when xvm is activated.</description>
+          <description>same settings that you also can set with PMOD (IngameAim). don´t use both methods at the same time!&amp;#92;n&amp;#92;nwe recommend using this, when xvm is activated.</description>
           <packages>
             <package>
               <name>disable</name>
@@ -1188,7 +1188,7 @@
                   <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_Zoom_Header</packageName>
+                  <packageName>XVMConfigBuilder_Camera_Zoom</packageName>
                   <type>multi</type>
                   <packages>
                     <package>
@@ -1550,7 +1550,7 @@
                   <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_noCameraLimit_header</packageName>
+                  <packageName>XVMConfigBuilder_Camera_noCameraLimit</packageName>
                   <type>multi</type>
                   <packages>
                     <package>
@@ -1581,7 +1581,7 @@
                   <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_noBinoculars_header</packageName>
+                  <packageName>XVMConfigBuilder_Camera_noBinoculars</packageName>
                   <type>multi</type>
                   <description>enable/disable dimming and greening in sniper scope</description>
                   <packages>
@@ -1611,7 +1611,7 @@
                   <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_shotRecoilEffect_header</packageName>
+                  <packageName>XVMConfigBuilder_Camera_shotRecoilEffect</packageName>
                   <type>multi</type>
                   <description> enable/disable the shot recoil effect (for the enabled dynamic camera option)</description>
                   <packages>
@@ -1641,7 +1641,7 @@
                   <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_noFlashBang_Header</packageName>
+                  <packageName>XVMConfigBuilder_Camera_noFlashBang</packageName>
                   <type>multi</type>
                   <description>enable/disable red flash when enemy hit your tank</description>
                   <packages>
@@ -1675,7 +1675,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMConfigBuilder_Colorblind_Header</packageName>
+          <packageName>XVMConfigBuilder_Colorblind</packageName>
           <type>multi</type>
           <timestamp>131858291921666972</timestamp>
           <packages>
@@ -2920,9 +2920,9 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMconfigBuilder_BattleResults_Header</packageName>
+          <packageName>XVMConfigBuilder_BattleResults</packageName>
           <type>multi</type>
-          <description>Show the tier of the battle (max tier)\nalso change which results page is displayed first when you enter the garage from the battle\npage 1 is battle summary\npage 2 is teams score\npage 3 is your detailed battle stats</description>
+          <description>Show the tier of the battle (max tier)&amp;#92;nalso change which results page is displayed first when you enter the garage from the battle&amp;#92;npage 1 is battle summary&amp;#92;npage 2 is teams score&amp;#92;npage 3 is your detailed battle stats</description>
           <medias>
             <media>
               <type>1</type>
@@ -2931,55 +2931,227 @@
           </medias>
           <packages>
             <package>
-              <name>Init Battle Results page 1</name>
-              <zipFile>XVM_config_builder_battle_results_start_page_1.zip</zipFile>
-              <crc>3fd591c6db742a1e3ec303b399d15cc8</crc>
+              <name>Battle Results Page</name>
+              <zipFile />
+              <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_BattleResults_BattleResultsPage_1</packageName>
-              <type>single_dropdown1</type>
-              <size>952</size>
-              <description>Show the first tab in the results page. (Game summary)</description>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>https://puu.sh/z83ft/896b242937.png</URL>
-                </media>
-              </medias>
+              <packageName>XVMconfigBuilder_BattleResults_BattleResultsPage</packageName>
+              <type>multi</type>
+              <description> changes which results page is displayed first when you enter the garage from the battle&amp;#92;npage 1 is battle summary&amp;#92;npage 2 is teams score&amp;#92;npage 3 is your detailed battle stats</description>
+              <packages>
+                <package>
+                  <name>init page 1</name>
+                  <zipFile>XVM_config_builder_battle_results_start_page_1.zip</zipFile>
+                  <crc>3fd591c6db742a1e3ec303b399d15cc8</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_BattleResultsPage_1</packageName>
+                  <type>single_dropdown1</type>
+                  <size>952</size>
+                  <description>Show the first tab in the results page. (Game summary)</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>https://puu.sh/z83ft/896b242937.png</URL>
+                    </media>
+                  </medias>
+                </package>
+                <package>
+                  <name>init page 2</name>
+                  <zipFile>XVM_config_builder_battle_results_start_page_2.zip</zipFile>
+                  <crc>03d5f168a93a2d45567797a64ea36aea</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_BattleResultsPage_2</packageName>
+                  <type>single_dropdown1</type>
+                  <size>952</size>
+                  <description>Show the second tab in the results page. (Total team information)</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>https://puu.sh/z83gf/15aeb7813c.png</URL>
+                    </media>
+                  </medias>
+                </package>
+                <package>
+                  <name>init page 3</name>
+                  <zipFile>XVM_config_builder_battle_results_start_page_3.zip</zipFile>
+                  <crc>3b4ab82c72a9c45abd02cfa73b789a06</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_BattleResultsPage_3</packageName>
+                  <type>single_dropdown1</type>
+                  <size>952</size>
+                  <description>Show the third tab in the results page. (Battle finances report)</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>https://puu.sh/z83hl/c6275ace35.png</URL>
+                    </media>
+                  </medias>
+                </package>
+              </packages>
             </package>
             <package>
-              <name>Init Battle Results page 2</name>
-              <zipFile>XVM_config_builder_battle_results_start_page_2.zip</zipFile>
-              <crc>03d5f168a93a2d45567797a64ea36aea</crc>
+              <name>show totals for your battle efficiency in first page</name>
+              <zipFile />
+              <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_BattleResults_BattleResultsPage_2</packageName>
-              <type>single_dropdown1</type>
-              <size>952</size>
-              <description>Show the second tab in the results page. (Total team information)</description>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>https://puu.sh/z83gf/15aeb7813c.png</URL>
-                </media>
-              </medias>
+              <packageName>XVMconfigBuilder_BattleResults_showTotals</packageName>
+              <type>multi</type>
+              <description>show totals for your battle efficiency in first page</description>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showTotals_disable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showTotals_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005151564845256</timestamp>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showTotals_enable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showTotals_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005151696971914</timestamp>
+                </package>
+              </packages>
             </package>
             <package>
-              <name>Init Battle Results page 3</name>
-              <zipFile>XVM_config_builder_battle_results_start_page_3.zip</zipFile>
-              <crc>3b4ab82c72a9c45abd02cfa73b789a06</crc>
+              <name>display net income of credits in first page</name>
+              <zipFile />
+              <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_BattleResults_BattleResultsPage_3</packageName>
-              <type>single_dropdown1</type>
-              <size>952</size>
-              <description>Show the third tab in the results page. (Battle finances report)</description>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>https://puu.sh/z83hl/c6275ace35.png</URL>
-                </media>
-              </medias>
+              <packageName>XVMconfigBuilder_BattleResults_showNetIncome</packageName>
+              <type>multi</type>
+              <description>display net income of credits in first page</description>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showNetIncome_disable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showNetIncome_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005151005728929</timestamp>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showNetIncome_enable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showNetIncome_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005151092977135</timestamp>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>display total experience in first page</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_BattleResults_showTotalExperience</packageName>
+              <type>multi</type>
+              <description>display total experience in first page</description>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showTotalExperience_disable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showTotalExperience_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005150423306460</timestamp>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showTotalExperience_enable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showTotalExperience_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005150521493885</timestamp>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>display crew experience in first page</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_BattleResults_showCrewExperience</packageName>
+              <type>multi</type>
+              <description>display crew experience in first page</description>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showCrewExperience_disable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showCrewExperience_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005150744148456</timestamp>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showCrewExperience_enable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showCrewExperience_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005150843931617</timestamp>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>display shots precision and damage in first page under credits and XP</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_BattleResults_showExtendedInfo</packageName>
+              <type>multi</type>
+              <description>display shots precision and damage in first page under credits and XP</description>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showExtendedInfo_disable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showExtendedInfo_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005151343297717</timestamp>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showExtendedInfo_enable.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showExtendedInfo_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005151255721918</timestamp>
+                </package>
+              </packages>
             </package>
           </packages>
         </package>
@@ -5111,7 +5283,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_Minimap_XVMMinimap_Header</packageName>
+              <packageName>XVMconfigBuilder_Minimap_XVMMinimap</packageName>
               <type>multi</type>
               <description>Toggle the xvm minimap status.</description>
               <packages>
