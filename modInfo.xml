@@ -4317,17 +4317,581 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMconfigBuilder_GarageInterface_Header</packageName>
+          <packageName>XVMconfigBuilder_GarageInterface</packageName>
           <type>multi</type>
           <description>Make changes to the garage interface. If you are looking for changes to the tank carousel, Look further down.</description>
           <packages>
+            <package>
+              <name>show flags in barracks</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_barracksShowFlags</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_barracksShowFlags_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_barracksShowFlags_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_barracksShowFlags_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_barracksShowFlags_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>show skills in barracks</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_barracksShowSkills</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_barracksShowSkills_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_barracksShowSkills_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_barracksShowSkills_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_barracksShowSkills_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>"Combat Intelligence" - show/hide notifications in the main window and counters in the menu</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_combatIntelligence</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>display pop-up messages in the hangar</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>display unread notifications counter in the menu</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Number of perks to show without grouping</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_crewMaxPerksCount</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>8</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_crewMaxPerksCount_8.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_crewMaxPerksCount_8</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>return crew check box is selected by default</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_crewReturnByDefault</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_crewReturnByDefault_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_crewReturnByDefault_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_crewReturnByDefault_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_crewReturnByDefault_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Show/hide notifications counters in the main menu</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_notificationCounter</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>Missions</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_missions</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_notificationCounter_missions_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_missions_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_notificationCounter_missions_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_missions_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>Campaigns</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>Service Record</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_profile</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_notificationCounter_profile_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_profile_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_notificationCounter_profile_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_profile_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>Store</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_store</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_notificationCounter_store_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_store_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_notificationCounter_store_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_notificationCounter_store_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>restore selected battle type on switching to another server (only random, frontline and rank battle modes)</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_restoreBattleType</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_restoreBattleType_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_restoreBattleType_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_restoreBattleType_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_restoreBattleType_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>show selected battle mode text</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>show "Buy premium" button</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_showBuyPremiumButton</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showBuyPremiumButton_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showBuyPremiumButton_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showBuyPremiumButton_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showBuyPremiumButton_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>show "Create squad" text on the squad creation button</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_showCreateSquadButtonText</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>show "General chat" button</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_showGeneralChatButton</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showGeneralChatButton_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showGeneralChatButton_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showGeneralChatButton_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showGeneralChatButton_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>show "Premium shop" button</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_showPremiumShopButton</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showPremiumShopButton_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showPremiumShopButton_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showPremiumShopButton_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showPremiumShopButton_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>display promo of premium vehicle (on the background in the hangar)</name>
+              <zipFile />
+              <crc />
+              <enabled>False</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_showPromoPremVehicle</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showPromoPremVehicle_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showPromoPremVehicle_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showPromoPremVehicle_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showPromoPremVehicle_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>show "Referral Program" button</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_showReferralButton</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showReferralButton_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showReferralButton_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showReferralButton_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showReferralButton_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>show info window with list of received awards for "Reward for Merit"</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_showRewardWindow</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showRewardWindow_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showRewardWindow_disable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_showRewardWindow_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_showRewardWindow_enable</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
             <package>
               <name>Clock</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_Clock_Base</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_Clock</packageName>
               <type>multi</type>
               <size>1463</size>
               <description>Enable or disable the clock in the garage. Also select 12 or 24 hour clock, or blue text of the clock</description>
@@ -4423,7 +4987,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_GoldLocker_Header</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_GoldLocker</packageName>
               <type>multi</type>
               <description>Prevents you from using gold in your garage</description>
               <medias>
@@ -4461,7 +5025,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_BondsLocker_Header</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_BondsLocker</packageName>
               <type>multi</type>
               <description>Prevents you from using bonds in your garage</description>
               <packages>
@@ -4493,7 +5057,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_Header</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree</packageName>
               <type>multi</type>
               <description>Show the mastery icons for each tank in the tech tree</description>
               <medias>
@@ -4533,7 +5097,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_FreeXPLocker_Header</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_FreeXPLocker</packageName>
               <type>multi</type>
               <description>Prevent you from using free xp in your garage</description>
               <medias>
@@ -4571,7 +5135,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_TechTreeFreeXPConvertOption_Header</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_TechTreeFreeXPConvertOption</packageName>
               <type>multi</type>
               <description>Enable an option where, when trying to research a module or tank, if you do not have enough xp, it will present you with a window to convert enough free xp to research the item</description>
               <packages>
@@ -4603,7 +5167,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn_Header</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn</packageName>
               <type>multi</type>
               <description>Automatically return your crew between tanks</description>
               <medias>
@@ -4654,7 +5218,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_Header</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn</packageName>
               <type>multi</type>
               <description>automatically return removable equipment</description>
               <medias>
@@ -4695,7 +5259,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_Header</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow</packageName>
               <type>multi</type>
               <description>Prevent you from entering a battle if you vehicle is low on ammo</description>
               <packages>
@@ -4749,7 +5313,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_ServerPing_Header</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_ServerPing</packageName>
               <type>multi</type>
               <description>Shows the ping delay (in ms) of the server(s)</description>
               <packages>
@@ -4781,7 +5345,7 @@
               <crc>85b1919c2666791ea43eb852559b8ba0</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_ServerPopulations_Base</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_ServerPopulations</packageName>
               <type>multi</type>
               <size>1127</size>
               <description>Display number of people on the server</description>
