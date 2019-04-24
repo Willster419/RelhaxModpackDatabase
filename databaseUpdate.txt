@@ -1,43 +1,99 @@
 Database Update!
 
-Updated: 1.4.1.2_2019-04-22_1
+Updated: 1.4.1.2_2019-04-23_1
 
 Added:
--XVM config builder->Battle Interface modifications (xvm)->Minimap Dead Switch
--XVM config builder->Battle Interface modifications (xvm)->Minimap Dead Switch->disable
--XVM config builder->Battle Interface modifications (xvm)->Minimap Dead Switch->enable
--XVM config builder->Battle Interface modifications (xvm)->Postmortem Tips
--XVM config builder->Battle Interface modifications (xvm)->Postmortem Tips->disable
--XVM config builder->Battle Interface modifications (xvm)->Postmortem Tips->enable
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide trajectory view
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide trajectory view->disable
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide trajectory view->enable
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide siege indicator
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide siege indicator->disable
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide siege indicator->enable
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide quest progress
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide quest progress->disable
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide quest progress->enable
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide help screen
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide help screen->disable
--XVM config builder->Battle Interface modifications (xvm)->Battle Hints->hide help screen->enable
--Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Armor Calculator
--Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Armor Calculator->Show Percent
--Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Armor Calculator->Armor Calculator Points
--Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Disable Postmortem
--Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Show HP Pools->Show Markers
--Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Show HP Pools->Show Markers->Coloured
--Tank Skin Misc->Visibility-options for graphics on tanks (decals, inscriptions, clan logo, camouflages)->remove graphics on tanks->on all tanks->Stickers and Inscriptions Remover
+-XVM config builder->Camera Settings
+-XVM config builder->Camera Settings->disable
+-XVM config builder->Camera Settings->enable
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->scroll sensitivity (default 5)
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->scroll sensitivity (default 5)->4
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->scroll sensitivity (default 5)->5 (default)
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->scroll sensitivity (default 5)->6
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->scroll sensitivity (default 5)->7
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->scroll sensitivity (default 5)->8
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->scroll sensitivity (default 5)->9
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->scroll sensitivity (default 5)->10
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->starting zoom (sniper mode)
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->starting zoom (sniper mode)->last used zoom step
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->starting zoom (sniper mode)->2x
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->starting zoom (sniper mode)->4x
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->starting zoom (sniper mode)->8x
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->starting zoom (sniper mode)->16x
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->show zoom indicator
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->show zoom indicator->disable
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->show zoom indicator->enable
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->zoom steps (sniper mode)
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->zoom steps (sniper mode)->2, 4, 8, 12
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->zoom steps (sniper mode)->2, 4, 8, 16, 25
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->zoom steps (sniper mode)->2, 4, 8, 12, 16, 20, 26, 32
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->zoom steps (sniper mode)->2, 4, 8, 12, 16, 20, 26, 32, 40, 48
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)->Arcade
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)->Arcade->100m
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)->Arcade->200m
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)->Arcade->500m
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)->Postmortem
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)->Postmortem->100m
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)->Postmortem->200m
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)->Postmortem->500m
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)->Strategic
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)->Strategic->200m
+-XVM config builder->Camera Settings->enable->Zoom Options (xvm)->Zoom Out Config (meters)->Strategic->500m
+-XVM config builder->Camera Settings->enable->modify td brake
+-XVM config builder->Camera Settings->enable->modify td brake->disable (limitation, brake is automatically set in sniper view)
+-XVM config builder->Camera Settings->enable->modify td brake->enable (no limitation, press "x" manually to activate brake)
+-XVM config builder->Camera Settings->enable->dimming and greening in sniper scope (noBinoculars)
+-XVM config builder->Camera Settings->enable->dimming and greening in sniper scope (noBinoculars)->dim (enable binoculars view)
+-XVM config builder->Camera Settings->enable->dimming and greening in sniper scope (noBinoculars)->don´t dim (disable binoculars view)
+-XVM config builder->Camera Settings->enable->recoil effect (for the enabled dynamic camera option)
+-XVM config builder->Camera Settings->enable->recoil effect (for the enabled dynamic camera option)->disable
+-XVM config builder->Camera Settings->enable->recoil effect (for the enabled dynamic camera option)->enable
+-XVM config builder->Camera Settings->enable->red flash when enemy hit your tank
+-XVM config builder->Camera Settings->enable->red flash when enemy hit your tank->disable
+-XVM config builder->Camera Settings->enable->red flash when enemy hit your tank->enable
+-XVM config builder->Colorblind Patches for XVM
+-XVM config builder->Battle Results modifications (xvm)
+-XVM config builder->Battle Results modifications (xvm)->Battle Results Page
+-XVM config builder->Battle Results modifications (xvm)->show totals for your battle efficiency in first page
+-XVM config builder->Battle Results modifications (xvm)->show totals for your battle efficiency in first page->disable
+-XVM config builder->Battle Results modifications (xvm)->show totals for your battle efficiency in first page->enable
+-XVM config builder->Battle Results modifications (xvm)->display net income of credits in first page
+-XVM config builder->Battle Results modifications (xvm)->display net income of credits in first page->disable
+-XVM config builder->Battle Results modifications (xvm)->display net income of credits in first page->enable
+-XVM config builder->Battle Results modifications (xvm)->display total experience in first page
+-XVM config builder->Battle Results modifications (xvm)->display total experience in first page->disable
+-XVM config builder->Battle Results modifications (xvm)->display total experience in first page->enable
+-XVM config builder->Battle Results modifications (xvm)->display crew experience in first page
+-XVM config builder->Battle Results modifications (xvm)->display crew experience in first page->disable
+-XVM config builder->Battle Results modifications (xvm)->display crew experience in first page->enable
+-XVM config builder->Battle Results modifications (xvm)->display shots precision and damage in first page under credits and XP
+-XVM config builder->Battle Results modifications (xvm)->display shots precision and damage in first page under credits and XP->disable
+-XVM config builder->Battle Results modifications (xvm)->display shots precision and damage in first page under credits and XP->enable
+-XVM config builder->Minimap modifications (xvm)->XVM Minimap
+-Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Damage Log
+-Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Damage Log->Total Log
+-Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Damage Log->Input Log
+-Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Damage Log->Output Log
+-Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Damage Log->Disable Vanilla
+-Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Show HP bars on players panel (possible xvm conflict)->Show Class Colour
+-Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Show HP bars on players panel (possible xvm conflict)->Always
+-Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Show HP bars on players panel (possible xvm conflict)->On Key Press
+-Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Show HP Pools->Show Alive Count
+-Custom Tank Skins->USA->Tank Destroyer->TS-5 By psyartax
 
 Updated:
--Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)
+-Dependency_RemodEnabler
 
 Disabled:
--Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Armor Calculator->Armor Calculator Points
+-Ingame Info->Battle Observer (HP pools) v1.20.1 By Armagomen (may conflict with xvm)->Damage Log->Disable Vanilla
 
 Removed:
--Tank Skin Misc->Visibility-options for graphics on tanks (decals, inscriptions, clan logo, camouflages)->remove graphics on tanks->on all tanks->Stickers and Inscriptions Remover
+-XVM config builder->Colorblind Patches for XVM
+-XVM config builder->Battle Results modifications (xvm)
+-XVM config builder->Minimap modifications (xvm)->XVM Minimap
+-Ingame Misc->WoT FPS First Person Tank View
 
 Notes:
 -
