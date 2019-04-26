@@ -1155,6 +1155,104 @@
       </dependencies>
       <packages>
         <package>
+          <name>squad window parameters</name>
+          <zipFile />
+          <crc />
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>XVMconfigBuilder_Squad</packageName>
+          <type>multi</type>
+          <packages>
+            <package>
+              <name>disable</name>
+              <zipFile>XVMconfigBuilder_squad_disable.zip</zipFile>
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_Squad_disable</packageName>
+              <type>single1</type>
+            </package>
+            <package>
+              <name>enable</name>
+              <zipFile>XVMconfigBuilder_squad_enable.zip</zipFile>
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_Squad_enable</packageName>
+              <type>single1</type>
+              <packages>
+                <package>
+                  <name>show players clan</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_squad_showClan</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_squad_showClan_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_squad_showClan_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_squad_showClan_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_squad_showClan_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>format of vehicle info field</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_squad_formatInfoField</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>vehicle level</name>
+                      <zipFile>XVMconfigBuilder_squad_formatInfoField_Lvl.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_squad_formatInfoField_Lvl</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>minimal - maximal vehicle battle tier</name>
+                      <zipFile>XVMconfigBuilder_squad_formatInfoField_BatMinMax.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_squad_formatInfoField_BatMinMax</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>vehicle level AND minimal - maximal vehicle battle tier</name>
+                      <zipFile>XVMconfigBuilder_squad_formatInfoField_LvlBatMinMax.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_squad_formatInfoField_LvlBatMinMax</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+          </packages>
+        </package>
+        <package>
           <name>Camera Settings</name>
           <zipFile />
           <crc />
