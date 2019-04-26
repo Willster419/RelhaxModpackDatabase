@@ -4364,6 +4364,210 @@
           <description>Make changes to the garage interface. If you are looking for changes to the tank carousel, Look further down.</description>
           <packages>
             <package>
+              <name>Clock</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_Clock</packageName>
+              <type>multi</type>
+              <size>1463</size>
+              <description>Enable or disable the clock in the garage. Also select 12 or 24 hour clock, or blue text of the clock</description>
+              <packages>
+                <package>
+                  <name>Disable</name>
+                  <zipFile>XVM_config_builder_clock_disable_2017-09-28.zip</zipFile>
+                  <crc>6e41338463803266404554b7e46ac2f8</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_Clock_disable</packageName>
+                  <type>single1</type>
+                  <size>933</size>
+                </package>
+                <package>
+                  <name>Enable</name>
+                  <zipFile>XVM_config_builder_clock_enable_2017-09-28.zip</zipFile>
+                  <crc>39140b092a867bd8111dca4f34ef35f9</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_Clock_enable</packageName>
+                  <type>single1</type>
+                  <size>931</size>
+                  <packages>
+                    <package>
+                      <name>Time Format</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_Clock_TimeFormat_Header</packageName>
+                      <type>single1</type>
+                      <description>change the time format</description>
+                      <packages>
+                        <package>
+                          <name>12 hour</name>
+                          <zipFile>XVM_config_builder_clock_12_hour_9-28-2017_1.zip</zipFile>
+                          <crc>ba32f370e54c6b782fcda9fb42644f70</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_Clock_TimeFormat_12hour</packageName>
+                          <type>single_dropdown1</type>
+                          <size>677</size>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_12.jpg</URL>
+                            </media>
+                          </medias>
+                        </package>
+                        <package>
+                          <name>24 hour</name>
+                          <zipFile>XVM_config_builder_clock_24_hour_9-28-2017_1.zip</zipFile>
+                          <crc>cb0682002b44f96bd872583c1223c154</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_Clock_TimeFormat_24hour</packageName>
+                          <type>single_dropdown1</type>
+                          <size>655</size>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_24.jpg</URL>
+                            </media>
+                          </medias>
+                        </package>
+                      </packages>
+                    </package>
+                    <package>
+                      <name>Change Color to Blue</name>
+                      <zipFile>XVM_config_builder_clock_change_color_to_blue_patch_2017-09-27.zip</zipFile>
+                      <crc>e360b8c116929c59b5c8bd8992a5dc4a</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_Clock_ChangeColorToBlue</packageName>
+                      <type>multi</type>
+                      <size>527</size>
+                      <description>Changes the color of the clock to Blue.</description>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_Blue.jpg</URL>
+                        </media>
+                      </medias>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Bonds Locker</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_BondsLocker</packageName>
+              <type>multi</type>
+              <description>Prevents you from using bonds in your garage</description>
+              <packages>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_garage_bonds_lock_disable.zip</zipFile>
+                  <crc>3152f736fdef6a3412d47d4d431533f9</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_BondsLocker_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>518</size>
+                </package>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_garage_bonds_lock_enable.zip</zipFile>
+                  <crc>48285e43d5d97544e09c806a2d329c42</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_BondsLocker_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>516</size>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Free XP Locker</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_FreeXPLocker</packageName>
+              <type>multi</type>
+              <description>Prevent you from using free xp in your garage</description>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_XP_locker.jpg</URL>
+                </media>
+              </medias>
+              <packages>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_garage_free_xp_lock_disable.zip</zipFile>
+                  <crc>01620a6a1d4f2d1742c36764c81207c0</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_FreeXPLocker_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>958</size>
+                </package>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_garage_free_xp_lock_enable.zip</zipFile>
+                  <crc>633fc4b7315216cae385c835ff8c2034</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_FreeXPLocker_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>955</size>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Gold Locker</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_GoldLocker</packageName>
+              <type>multi</type>
+              <description>Prevents you from using gold in your garage</description>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Gold_Locker.jpg</URL>
+                </media>
+              </medias>
+              <packages>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_garage_gold_lock_disable.zip</zipFile>
+                  <crc>bca4c8ecf1dd4c2129ba28230e5a3e5a</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_GoldLocker_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>953</size>
+                </package>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_garage_gold_lock_enable.zip</zipFile>
+                  <crc>77662c062c46e6a4d85d5b1a0675f447</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_GoldLocker_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>950</size>
+                </package>
+              </packages>
+            </package>
+            <package>
               <name>show flags in barracks</name>
               <zipFile />
               <crc />
@@ -4418,6 +4622,60 @@
                   <visible>True</visible>
                   <packageName>XVMconfigBuilder_GarageInterface_barracksShowSkills_enable</packageName>
                   <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Block vehicle if ammo is lower than...</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow</packageName>
+              <type>multi</type>
+              <description>Prevent you from entering a battle if you vehicle is low on ammo</description>
+              <packages>
+                <package>
+                  <name>disabled</name>
+                  <zipFile>XVM_config_builder_garage_block_vehicle_ammo_disable.zip</zipFile>
+                  <crc>da5d68964c162d1ff023d28bba40f77c</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>973</size>
+                </package>
+                <package>
+                  <name>20%</name>
+                  <zipFile>XVM_config_builder_garage_block_vehicle_ammo_20.zip</zipFile>
+                  <crc>adaadf17bba2dae3959b70b8e45a3642</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_20</packageName>
+                  <type>single_dropdown1</type>
+                  <size>1006</size>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg</URL>
+                    </media>
+                  </medias>
+                </package>
+                <package>
+                  <name>50%</name>
+                  <zipFile>XVM_config_builder_garage_block_vehicle_ammo_50.zip</zipFile>
+                  <crc>9ccfeb428d6da6a05c0af8d4a2138841</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_50</packageName>
+                  <type>single_dropdown1</type>
+                  <size>1006</size>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg</URL>
+                    </media>
+                  </medias>
                 </package>
               </packages>
             </package>
@@ -4511,6 +4769,57 @@
               </packages>
             </package>
             <package>
+              <name>Crew Auto-return</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn</packageName>
+              <type>multi</type>
+              <description>Automatically return your crew between tanks</description>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return.jpg</URL>
+                </media>
+              </medias>
+              <packages>
+                <package>
+                  <name>Saves Crew Auto Return &amp; Tanks marked as Reserve</name>
+                  <zipFile />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn_Save</packageName>
+                  <type>multi</type>
+                  <timestamp>131998900214904592</timestamp>
+                  <userDatas>
+                    <userData>{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\users\*</userData>
+                  </userDatas>
+                </package>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_garage_crew_auto_return_disable.zip</zipFile>
+                  <crc>6301a3da2c6bf05f87e3b5f2652a7340</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>1009</size>
+                </package>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_garage_crew_auto_return_enable.zip</zipFile>
+                  <crc>fa87434f0e479b4d8feb2a774c93c9a9</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>1006</size>
+                </package>
+              </packages>
+            </package>
+            <package>
               <name>return crew check box is selected by default</name>
               <zipFile />
               <crc />
@@ -4536,6 +4845,46 @@
                   <visible>True</visible>
                   <packageName>XVMconfigBuilder_GarageInterface_crewReturnByDefault_enable</packageName>
                   <type>single_dropdown1</type>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Show Mastery Mark in Tech Tree</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree</packageName>
+              <type>multi</type>
+              <description>Show the mastery icons for each tank in the tech tree</description>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>https://puu.sh/AP8NO/a58307cbb2.png</URL>
+                </media>
+              </medias>
+              <packages>
+                <package>
+                  <name>Disable</name>
+                  <zipFile>XVM_config_builder_garage_mastry_mark_tech_tree_disable.zip</zipFile>
+                  <crc>5abccfc69846435f11f56cf2cc320a65</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>131749347100582936</timestamp>
+                  <size>965</size>
+                </package>
+                <package>
+                  <name>Enable</name>
+                  <zipFile>XVM_config_builder_garage_mastry_mark_tech_tree_enable.zip</zipFile>
+                  <crc>41cf0234b749310d4a8b56226f061c1a</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>131749347009647264</timestamp>
+                  <size>962</size>
                 </package>
               </packages>
             </package>
@@ -4663,6 +5012,47 @@
                       <type>single_dropdown1</type>
                     </package>
                   </packages>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Removable equipment auto-return</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn</packageName>
+              <type>multi</type>
+              <description>automatically return removable equipment</description>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return_Equips.jpg</URL>
+                </media>
+              </medias>
+              <packages>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_garage_removable_equipment_auto_return_disable.zip</zipFile>
+                  <crc>7c6e5c8899b3d04d6879966815b01395</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>999</size>
+                </package>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_garage_removable_equipment_auto_return_enable.zip</zipFile>
+                  <crc>deb225edec0f5bde3fcaf72e56043650</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>996</size>
+                  <userDatas>
+                    <userData>{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\auto_equip\*</userData>
+                  </userDatas>
                 </package>
               </packages>
             </package>
@@ -4844,7 +5234,7 @@
               <name>display promo of premium vehicle (on the background in the hangar)</name>
               <zipFile />
               <crc />
-              <enabled>False</enabled>
+              <enabled>True</enabled>
               <visible>True</visible>
               <packageName>XVMconfigBuilder_GarageInterface_showPromoPremVehicle</packageName>
               <type>multi</type>
@@ -4928,246 +5318,203 @@
               </packages>
             </package>
             <package>
-              <name>Clock</name>
+              <name>Server Ping</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_Clock</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_ServerPing</packageName>
               <type>multi</type>
-              <size>1463</size>
-              <description>Enable or disable the clock in the garage. Also select 12 or 24 hour clock, or blue text of the clock</description>
+              <description>Shows the ping delay (in ms) of the server(s)</description>
               <packages>
-                <package>
-                  <name>Enable</name>
-                  <zipFile>XVM_config_builder_clock_enable_2017-09-28.zip</zipFile>
-                  <crc>39140b092a867bd8111dca4f34ef35f9</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_Clock_enable</packageName>
-                  <type>single1</type>
-                  <size>931</size>
-                  <packages>
-                    <package>
-                      <name>Time Format</name>
-                      <zipFile />
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_GarageInterface_Clock_TimeFormat_Header</packageName>
-                      <type>single1</type>
-                      <description>change the time format</description>
-                      <packages>
-                        <package>
-                          <name>12 hour</name>
-                          <zipFile>XVM_config_builder_clock_12_hour_9-28-2017_1.zip</zipFile>
-                          <crc>ba32f370e54c6b782fcda9fb42644f70</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_GarageInterface_Clock_TimeFormat_12hour</packageName>
-                          <type>single_dropdown1</type>
-                          <size>677</size>
-                          <medias>
-                            <media>
-                              <type>1</type>
-                              <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_12.jpg</URL>
-                            </media>
-                          </medias>
-                        </package>
-                        <package>
-                          <name>24 hour</name>
-                          <zipFile>XVM_config_builder_clock_24_hour_9-28-2017_1.zip</zipFile>
-                          <crc>cb0682002b44f96bd872583c1223c154</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_GarageInterface_Clock_TimeFormat_24hour</packageName>
-                          <type>single_dropdown1</type>
-                          <size>655</size>
-                          <medias>
-                            <media>
-                              <type>1</type>
-                              <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_24.jpg</URL>
-                            </media>
-                          </medias>
-                        </package>
-                      </packages>
-                    </package>
-                    <package>
-                      <name>Change Color to Blue</name>
-                      <zipFile>XVM_config_builder_clock_change_color_to_blue_patch_2017-09-27.zip</zipFile>
-                      <crc>e360b8c116929c59b5c8bd8992a5dc4a</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_GarageInterface_Clock_ChangeColorToBlue</packageName>
-                      <type>multi</type>
-                      <size>527</size>
-                      <description>Changes the color of the clock to Blue.</description>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_Blue.jpg</URL>
-                        </media>
-                      </medias>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>Disable</name>
-                  <zipFile>XVM_config_builder_clock_disable_2017-09-28.zip</zipFile>
-                  <crc>6e41338463803266404554b7e46ac2f8</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_Clock_disable</packageName>
-                  <type>single1</type>
-                  <size>933</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Gold Locker</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_GoldLocker</packageName>
-              <type>multi</type>
-              <description>Prevents you from using gold in your garage</description>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Gold_Locker.jpg</URL>
-                </media>
-              </medias>
-              <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_garage_gold_lock_enable.zip</zipFile>
-                  <crc>77662c062c46e6a4d85d5b1a0675f447</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_GoldLocker_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>950</size>
-                </package>
                 <package>
                   <name>Disabled</name>
-                  <zipFile>XVM_config_builder_garage_gold_lock_disable.zip</zipFile>
-                  <crc>bca4c8ecf1dd4c2129ba28230e5a3e5a</crc>
+                  <zipFile>XVM_config_builder_garage_server_ping_disable.zip</zipFile>
+                  <crc>95184966061de2597df67553b239e5a8</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_GoldLocker_disable</packageName>
+                  <packageName>XVMconfigBuilder_GarageInterface_ServerPing_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>955</size>
+                </package>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_garage_server_ping_enable.zip</zipFile>
+                  <crc>59eac4f8428e08706ae616fdbcb1c22e</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_ServerPing_enable</packageName>
                   <type>single_dropdown1</type>
                   <size>953</size>
                 </package>
               </packages>
             </package>
             <package>
-              <name>Bonds Locker</name>
-              <zipFile />
-              <crc />
+              <name>Server Populations</name>
+              <zipFile>XVM_config_builder_garage_server_info_position_patch.zip</zipFile>
+              <crc>85b1919c2666791ea43eb852559b8ba0</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_BondsLocker</packageName>
+              <packageName>XVMconfigBuilder_GarageInterface_ServerPopulations</packageName>
               <type>multi</type>
-              <description>Prevents you from using bonds in your garage</description>
+              <size>1127</size>
+              <description>Display number of people on the server</description>
               <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_garage_bonds_lock_enable.zip</zipFile>
-                  <crc>48285e43d5d97544e09c806a2d329c42</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_BondsLocker_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>516</size>
-                </package>
                 <package>
                   <name>Disabled</name>
-                  <zipFile>XVM_config_builder_garage_bonds_lock_disable.zip</zipFile>
-                  <crc>3152f736fdef6a3412d47d4d431533f9</crc>
+                  <zipFile>XVM_config_builder_garage_server_info_disable.zip</zipFile>
+                  <crc>bfe2e16f193af907ec0f844ecbccd0c9</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_BondsLocker_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>518</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Show Mastery Mark in Tech Tree</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree</packageName>
-              <type>multi</type>
-              <description>Show the mastery icons for each tank in the tech tree</description>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>https://puu.sh/AP8NO/a58307cbb2.png</URL>
-                </media>
-              </medias>
-              <packages>
-                <package>
-                  <name>Enable</name>
-                  <zipFile>XVM_config_builder_garage_mastry_mark_tech_tree_enable.zip</zipFile>
-                  <crc>41cf0234b749310d4a8b56226f061c1a</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>131749347009647264</timestamp>
-                  <size>962</size>
-                </package>
-                <package>
-                  <name>Disable</name>
-                  <zipFile>XVM_config_builder_garage_mastry_mark_tech_tree_disable.zip</zipFile>
-                  <crc>5abccfc69846435f11f56cf2cc320a65</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>131749347100582936</timestamp>
-                  <size>965</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Free XP Locker</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_FreeXPLocker</packageName>
-              <type>multi</type>
-              <description>Prevent you from using free xp in your garage</description>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_XP_locker.jpg</URL>
-                </media>
-              </medias>
-              <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_garage_free_xp_lock_enable.zip</zipFile>
-                  <crc>633fc4b7315216cae385c835ff8c2034</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_FreeXPLocker_enable</packageName>
+                  <packageName>XVMconfigBuilder_GarageInterface_ServerPopulations_disable</packageName>
                   <type>single_dropdown1</type>
                   <size>955</size>
                 </package>
                 <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_garage_free_xp_lock_disable.zip</zipFile>
-                  <crc>01620a6a1d4f2d1742c36764c81207c0</crc>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_garage_server_info_enable.zip</zipFile>
+                  <crc>822e2fd16c19419149be1431376f589c</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_FreeXPLocker_disable</packageName>
+                  <packageName>XVMconfigBuilder_GarageInterface_ServerPopulations_enable</packageName>
                   <type>single_dropdown1</type>
-                  <size>958</size>
+                  <size>953</size>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>squad window parameters</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_Squad</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_squad_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_Squad_disable</packageName>
+                  <type>single1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_squad_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_Squad_enable</packageName>
+                  <type>single1</type>
+                  <packages>
+                    <package>
+                      <name>show players clan</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_squad_showClan</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>disable</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_squad_showClan_disable.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_squad_showClan_disable</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                        <package>
+                          <name>enable</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_squad_showClan_enable.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_squad_showClan_enable</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                      </packages>
+                    </package>
+                    <package>
+                      <name>format of vehicle info field</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>vehicle level</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_Lvl.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField_Lvl</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                        <package>
+                          <name>minimal - maximal vehicle battle tier</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_BatMinMax.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField_BatMinMax</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                        <package>
+                          <name>vehicle level AND minimal - maximal vehicle battle tier</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                      </packages>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Garage Statistics</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_Statistics</packageName>
+              <type>multi</type>
+              <description>Toggle a text field in the middle-right of the screen showing stasticts of your current win rate, and how many more wins to X percent.</description>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Garage_Stats.jpg</URL>
+                </media>
+              </medias>
+              <packages>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_garage_statistics_disable.zip</zipFile>
+                  <crc>7c4fa4f79304f9bb4f140ce39546aa8b</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_Statistics_Disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>532</size>
+                </package>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_garage_statistics_enable.zip</zipFile>
+                  <crc>112459abb3c57db52a1e3411c1636896</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_Statistics_Enable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>530</size>
                 </package>
               </packages>
             </package>
@@ -5182,16 +5529,6 @@
               <description>Enable an option where, when trying to research a module or tank, if you do not have enough xp, it will present you with a window to convert enough free xp to research the item</description>
               <packages>
                 <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_garage_free_xp_module_enable.zip</zipFile>
-                  <crc>ddff79b95e26310ac5d2986670b36247</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_TechTreeFreeXPConvertOption_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>963</size>
-                </package>
-                <package>
                   <name>Disabled</name>
                   <zipFile>XVM_config_builder_garage_free_xp_module_disable.zip</zipFile>
                   <crc>6537e86b2ef88799933fa0439b812b97</crc>
@@ -5201,151 +5538,15 @@
                   <type>single_dropdown1</type>
                   <size>966</size>
                 </package>
-              </packages>
-            </package>
-            <package>
-              <name>Crew Auto-return</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn</packageName>
-              <type>multi</type>
-              <description>Automatically return your crew between tanks</description>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return.jpg</URL>
-                </media>
-              </medias>
-              <packages>
-                <package>
-                  <name>Saves Crew Auto Return &amp; Tanks marked as Reserve</name>
-                  <zipFile />
-                  <crc>f</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn_Save</packageName>
-                  <type>multi</type>
-                  <timestamp>131998900214904592</timestamp>
-                  <userDatas>
-                    <userData>{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\users\*</userData>
-                  </userDatas>
-                </package>
                 <package>
                   <name>Enabled</name>
-                  <zipFile>XVM_config_builder_garage_crew_auto_return_enable.zip</zipFile>
-                  <crc>fa87434f0e479b4d8feb2a774c93c9a9</crc>
+                  <zipFile>XVM_config_builder_garage_free_xp_module_enable.zip</zipFile>
+                  <crc>ddff79b95e26310ac5d2986670b36247</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn_enable</packageName>
+                  <packageName>XVMconfigBuilder_GarageInterface_TechTreeFreeXPConvertOption_enable</packageName>
                   <type>single_dropdown1</type>
-                  <size>1006</size>
-                </package>
-                <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_garage_crew_auto_return_disable.zip</zipFile>
-                  <crc>6301a3da2c6bf05f87e3b5f2652a7340</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>1009</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Removable equipment auto-return</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn</packageName>
-              <type>multi</type>
-              <description>automatically return removable equipment</description>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return_Equips.jpg</URL>
-                </media>
-              </medias>
-              <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_garage_removable_equipment_auto_return_enable.zip</zipFile>
-                  <crc>deb225edec0f5bde3fcaf72e56043650</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>996</size>
-                  <userDatas>
-                    <userData>{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\auto_equip\*</userData>
-                  </userDatas>
-                </package>
-                <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_garage_removable_equipment_auto_return_disable.zip</zipFile>
-                  <crc>7c6e5c8899b3d04d6879966815b01395</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>999</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Block vehicle if ammo is lower than...</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow</packageName>
-              <type>multi</type>
-              <description>Prevent you from entering a battle if you vehicle is low on ammo</description>
-              <packages>
-                <package>
-                  <name>disabled</name>
-                  <zipFile>XVM_config_builder_garage_block_vehicle_ammo_disable.zip</zipFile>
-                  <crc>da5d68964c162d1ff023d28bba40f77c</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>973</size>
-                </package>
-                <package>
-                  <name>20%</name>
-                  <zipFile>XVM_config_builder_garage_block_vehicle_ammo_20.zip</zipFile>
-                  <crc>adaadf17bba2dae3959b70b8e45a3642</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_20</packageName>
-                  <type>single_dropdown1</type>
-                  <size>1006</size>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg</URL>
-                    </media>
-                  </medias>
-                </package>
-                <package>
-                  <name>50%</name>
-                  <zipFile>XVM_config_builder_garage_block_vehicle_ammo_50.zip</zipFile>
-                  <crc>9ccfeb428d6da6a05c0af8d4a2138841</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_50</packageName>
-                  <type>single_dropdown1</type>
-                  <size>1006</size>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg</URL>
-                    </media>
-                  </medias>
+                  <size>963</size>
                 </package>
               </packages>
             </package>
@@ -5585,207 +5786,6 @@
                       <type>single_dropdown1</type>
                     </package>
                   </packages>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Server Ping</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_ServerPing</packageName>
-              <type>multi</type>
-              <description>Shows the ping delay (in ms) of the server(s)</description>
-              <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_garage_server_ping_enable.zip</zipFile>
-                  <crc>59eac4f8428e08706ae616fdbcb1c22e</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_ServerPing_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>953</size>
-                </package>
-                <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_garage_server_ping_disable.zip</zipFile>
-                  <crc>95184966061de2597df67553b239e5a8</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_ServerPing_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>955</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Server Populations</name>
-              <zipFile>XVM_config_builder_garage_server_info_position_patch.zip</zipFile>
-              <crc>85b1919c2666791ea43eb852559b8ba0</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_ServerPopulations</packageName>
-              <type>multi</type>
-              <size>1127</size>
-              <description>Display number of people on the server</description>
-              <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_garage_server_info_enable.zip</zipFile>
-                  <crc>822e2fd16c19419149be1431376f589c</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_ServerPopulations_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>953</size>
-                </package>
-                <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_garage_server_info_disable.zip</zipFile>
-                  <crc>bfe2e16f193af907ec0f844ecbccd0c9</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_ServerPopulations_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>955</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>squad window parameters</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_Squad</packageName>
-              <type>multi</type>
-              <packages>
-                <package>
-                  <name>disable</name>
-                  <zipFile>XVMconfigBuilder_GarageInterface_squad_disable.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_Squad_disable</packageName>
-                  <type>single1</type>
-                </package>
-                <package>
-                  <name>enable</name>
-                  <zipFile>XVMconfigBuilder_GarageInterface_squad_enable.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_Squad_enable</packageName>
-                  <type>single1</type>
-                  <packages>
-                    <package>
-                      <name>show players clan</name>
-                      <zipFile />
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_GarageInterface_squad_showClan</packageName>
-                      <type>multi</type>
-                      <packages>
-                        <package>
-                          <name>disable</name>
-                          <zipFile>XVMconfigBuilder_GarageInterface_squad_showClan_disable.zip</zipFile>
-                          <crc />
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_squad_showClan_disable</packageName>
-                          <type>single_dropdown1</type>
-                        </package>
-                        <package>
-                          <name>enable</name>
-                          <zipFile>XVMconfigBuilder_GarageInterface_squad_showClan_enable.zip</zipFile>
-                          <crc />
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_squad_showClan_enable</packageName>
-                          <type>single_dropdown1</type>
-                        </package>
-                      </packages>
-                    </package>
-                    <package>
-                      <name>format of vehicle info field</name>
-                      <zipFile />
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField</packageName>
-                      <type>multi</type>
-                      <packages>
-                        <package>
-                          <name>vehicle level</name>
-                          <zipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_Lvl.zip</zipFile>
-                          <crc />
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField_Lvl</packageName>
-                          <type>single_dropdown1</type>
-                        </package>
-                        <package>
-                          <name>minimal - maximal vehicle battle tier</name>
-                          <zipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_BatMinMax.zip</zipFile>
-                          <crc />
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField_BatMinMax</packageName>
-                          <type>single_dropdown1</type>
-                        </package>
-                        <package>
-                          <name>vehicle level AND minimal - maximal vehicle battle tier</name>
-                          <zipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax.zip</zipFile>
-                          <crc />
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax</packageName>
-                          <type>single_dropdown1</type>
-                        </package>
-                      </packages>
-                    </package>
-                  </packages>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Garage Statistics</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_Statistics</packageName>
-              <type>multi</type>
-              <description>Toggle a text field in the middle-right of the screen showing stasticts of your current win rate, and how many more wins to X percent.</description>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Garage_Stats.jpg</URL>
-                </media>
-              </medias>
-              <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_garage_statistics_enable.zip</zipFile>
-                  <crc>112459abb3c57db52a1e3411c1636896</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_Statistics_Enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>530</size>
-                </package>
-                <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_garage_statistics_disable.zip</zipFile>
-                  <crc>7c4fa4f79304f9bb4f140ce39546aa8b</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_Statistics_Disable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>532</size>
                 </package>
               </packages>
             </package>
@@ -14418,38 +14418,6 @@
                   <packageName>Ingame_Info_Battle_Observer_Minimap_Zoom</packageName>
                   <type>multi</type>
                   <timestamp>132007583304576145</timestamp>
-                  <packages>
-                    <package>
-                      <name>ALT</name>
-                      <zipFile>Ingame_Info_Battle_Observer_Minimap_Zoom_Key_Alt.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Info_Battle_Observer_Minimap_Zoom_ALT</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132007754871341836</timestamp>
-                    </package>
-                    <package>
-                      <name>Left Control</name>
-                      <zipFile>Ingame_Info_Battle_Observer_Minimap_Zoom_Key_LCONTROL.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Info_Battle_Observer_Minimap_Zoom_LCONTROL</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132007754714236940</timestamp>
-                    </package>
-                    <package>
-                      <name>Right Control</name>
-                      <zipFile>Ingame_Info_Battle_Observer_Minimap_Zoom_Key_RCONTROL.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Info_Battle_Observer_Minimap_Zoom_RCONTROL</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132007753800307112</timestamp>
-                    </package>
-                  </packages>
                 </package>
               </packages>
             </package>
@@ -18078,14 +18046,8 @@
               <type>multi</type>
               <timestamp>131910975684497400</timestamp>
               <updateComment>URL (WGmods): https://wgmods.net/1684/details/\n\n&amp;#92;gui&amp;#92;flash&amp;#92;minimapEntriesLibrary.swf</updateComment>
-              <description>Added an arrow to the key target icon,\nnow you will see a noticeable arrow when teammates marks a target on the minimap ,\n36 colors</description>
+              <description>Added an arrow to the key target icon,\nnow you will see a noticeable arrow when teammates marks a target on the minimap ,\n1. Version, 8 colors</description>
               <devURL>https://worldoftanks.curseforge.com/projects/hawgs-minimap</devURL>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/minimap/Ingame_Misc_Hawgs_minimap_Arty.jpg</URL>
-                </media>
-              </medias>
               <packages>
                 <package>
                   <name>Black Arrow</name>
