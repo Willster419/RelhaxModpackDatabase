@@ -1155,104 +1155,6 @@
       </dependencies>
       <packages>
         <package>
-          <name>squad window parameters</name>
-          <zipFile />
-          <crc />
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>XVMconfigBuilder_Squad</packageName>
-          <type>multi</type>
-          <packages>
-            <package>
-              <name>disable</name>
-              <zipFile>XVMconfigBuilder_squad_disable.zip</zipFile>
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_Squad_disable</packageName>
-              <type>single1</type>
-            </package>
-            <package>
-              <name>enable</name>
-              <zipFile>XVMconfigBuilder_squad_enable.zip</zipFile>
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_Squad_enable</packageName>
-              <type>single1</type>
-              <packages>
-                <package>
-                  <name>show players clan</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_squad_showClan</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>disable</name>
-                      <zipFile>XVMconfigBuilder_squad_showClan_disable.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_squad_showClan_disable</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                    <package>
-                      <name>enable</name>
-                      <zipFile>XVMconfigBuilder_squad_showClan_enable.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_squad_showClan_enable</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>format of vehicle info field</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_squad_formatInfoField</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>vehicle level</name>
-                      <zipFile>XVMconfigBuilder_squad_formatInfoField_Lvl.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_squad_formatInfoField_Lvl</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                    <package>
-                      <name>minimal - maximal vehicle battle tier</name>
-                      <zipFile>XVMconfigBuilder_squad_formatInfoField_BatMinMax.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_squad_formatInfoField_BatMinMax</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                    <package>
-                      <name>vehicle level AND minimal - maximal vehicle battle tier</name>
-                      <zipFile>XVMconfigBuilder_squad_formatInfoField_LvlBatMinMax.zip</zipFile>
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_squad_formatInfoField_LvlBatMinMax</packageName>
-                      <type>single_dropdown1</type>
-                    </package>
-                  </packages>
-                </package>
-              </packages>
-            </package>
-          </packages>
-        </package>
-        <package>
           <name>Camera Settings</name>
           <zipFile />
           <crc />
@@ -5406,6 +5308,245 @@
               </packages>
             </package>
             <package>
+              <name>Userinfo (Service Record)</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_userInfo</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>initial page for other players service records</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>awards</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage_awards.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage_awards</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>hall of fame</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage_hof.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage_hof</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>statistics</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage_statistics.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage_statistics</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>summary</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage_summary.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage_summary</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>vehicles</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage_vehicles.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage_vehicles</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>initial page for current user service record</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>awards</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage_awards.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage_awards</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>hall of fame</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage_hof.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage_hof</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>statistics</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage_statistics.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage_statistics</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>summary</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage_summary.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage_summary</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>vehicles</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage_vehicles.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage_vehicles</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>show xTE column in the vehicle list</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_userInfo_showXTEColumn</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_showXTEColumn_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_showXTEColumn_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_showXTEColumn_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_showXTEColumn_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>set the default focus to the filter text input</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_userInfo_filterFocused</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_filterFocused_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_filterFocused_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_filterFocused_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_filterFocused_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>show filters on tanks</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_userInfo_showFilters</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_showFilters_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_showFilters_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_showFilters_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_showFilters_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>enable filter tanks in hangar by default</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_userInfo_inHangarFilterEnabled</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_inHangarFilterEnabled_disable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_userInfo_inHangarFilterEnabled_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_userInfo_inHangarFilterEnabled_enable.zip</zipFile>
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_userInfo_inHangarFilterEnabled_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+            <package>
               <name>Server Ping</name>
               <zipFile />
               <crc />
@@ -5467,6 +5608,104 @@
                   <packageName>XVMconfigBuilder_GarageInterface_ServerPopulations_disable</packageName>
                   <type>single_dropdown1</type>
                   <size>955</size>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>squad window parameters</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_GarageInterface_Squad</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_squad_disable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_Squad_disable</packageName>
+                  <type>single1</type>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_GarageInterface_squad_enable.zip</zipFile>
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_Squad_enable</packageName>
+                  <type>single1</type>
+                  <packages>
+                    <package>
+                      <name>show players clan</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_squad_showClan</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>disable</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_squad_showClan_disable.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_squad_showClan_disable</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                        <package>
+                          <name>enable</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_squad_showClan_enable.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_squad_showClan_enable</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                      </packages>
+                    </package>
+                    <package>
+                      <name>format of vehicle info field</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>vehicle level</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_Lvl.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField_Lvl</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                        <package>
+                          <name>minimal - maximal vehicle battle tier</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_BatMinMax.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField_BatMinMax</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                        <package>
+                          <name>vehicle level AND minimal - maximal vehicle battle tier</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax.zip</zipFile>
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax</packageName>
+                          <type>single_dropdown1</type>
+                        </package>
+                      </packages>
+                    </package>
+                  </packages>
                 </package>
               </packages>
             </package>
@@ -6943,245 +7182,6 @@
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>XVMconfigBuilder_Tweaks_allowMultipleWotInstances_enable</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-              </packages>
-            </package>
-          </packages>
-        </package>
-        <package>
-          <name>Userinfo (Service Record)</name>
-          <zipFile />
-          <crc />
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>XVMconfigBuilder_userInfo</packageName>
-          <type>multi</type>
-          <packages>
-            <package>
-              <name>initial page for other players service records</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_userInfo_contactsStartPage</packageName>
-              <type>multi</type>
-              <packages>
-                <package>
-                  <name>awards</name>
-                  <zipFile>XVMconfigBuilder_userInfo_contactsStartPage_awards.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_contactsStartPage_awards</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>hall of fame</name>
-                  <zipFile>XVMconfigBuilder_userInfo_contactsStartPage_hof.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_contactsStartPage_hof</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>statistics</name>
-                  <zipFile>XVMconfigBuilder_userInfo_contactsStartPage_statistics.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_contactsStartPage_statistics</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>summary</name>
-                  <zipFile>XVMconfigBuilder_userInfo_contactsStartPage_summary.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_contactsStartPage_summary</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>vehicles</name>
-                  <zipFile>XVMconfigBuilder_userInfo_contactsStartPage_vehicles.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_contactsStartPage_vehicles</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>initial page for current user service record</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_userInfo_profileStartPage</packageName>
-              <type>multi</type>
-              <packages>
-                <package>
-                  <name>awards</name>
-                  <zipFile>XVMconfigBuilder_userInfo_profileStartPage_awards.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_profileStartPage_awards</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>hall of fame</name>
-                  <zipFile>XVMconfigBuilder_userInfo_profileStartPage_hof.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_profileStartPage_hof</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>statistics</name>
-                  <zipFile>XVMconfigBuilder_userInfo_profileStartPage_statistics.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_profileStartPage_statistics</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>summary</name>
-                  <zipFile>XVMconfigBuilder_userInfo_profileStartPage_summary.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_profileStartPage_summary</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>vehicles</name>
-                  <zipFile>XVMconfigBuilder_userInfo_profileStartPage_vehicles.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_profileStartPage_vehicles</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>show xTE column in the vehicle list</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_userInfo_showXTEColumn</packageName>
-              <type>multi</type>
-              <packages>
-                <package>
-                  <name>disable</name>
-                  <zipFile>XVMconfigBuilder_userInfo_showXTEColumn_disable.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_showXTEColumn_disable</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>enable</name>
-                  <zipFile>XVMconfigBuilder_userInfo_showXTEColumn_enable.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_showXTEColumn_enable</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>set the default focus to the filter text input</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_userInfo_filterFocused</packageName>
-              <type>multi</type>
-              <packages>
-                <package>
-                  <name>disable</name>
-                  <zipFile>XVMconfigBuilder_userInfo_filterFocused_disable.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_filterFocused_disable</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>enable</name>
-                  <zipFile>XVMconfigBuilder_userInfo_filterFocused_enable.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_filterFocused_enable</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>show filters on tanks</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_userInfo_showFilters</packageName>
-              <type>multi</type>
-              <packages>
-                <package>
-                  <name>disable</name>
-                  <zipFile>XVMconfigBuilder_userInfo_showFilters_disable.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_showFilters_disable</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>enable</name>
-                  <zipFile>XVMconfigBuilder_userInfo_showFilters_enable.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_showFilters_enable</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>enable filter tanks in hangar by default</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_userInfo_inHangarFilterEnabled</packageName>
-              <type>multi</type>
-              <packages>
-                <package>
-                  <name>disable</name>
-                  <zipFile>XVMconfigBuilder_userInfo_inHangarFilterEnabled_disable.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_inHangarFilterEnabled_disable</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>enable</name>
-                  <zipFile>XVMconfigBuilder_userInfo_inHangarFilterEnabled_enable.zip</zipFile>
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_userInfo_inHangarFilterEnabled_enable</packageName>
                   <type>single_dropdown1</type>
                 </package>
               </packages>
