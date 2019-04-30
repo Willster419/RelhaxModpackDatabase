@@ -557,7 +557,7 @@
           <type>single1</type>
           <timestamp>132005746393084076</timestamp>
           <size>79082</size>
-          <description>This is a blank xvm config.\nMost of the functions are disabled and can be enabled with the help of our xvm config builder.</description>
+          <description>This is a blank xvm config.&amp;#92;nMost of the functions are disabled and can be enabled with the help of our xvm config builder.</description>
         </package>
         <package>
           <name>Willster419's Config v{version}</name>
@@ -1726,15 +1726,6 @@
           <size>1308</size>
           <packages>
             <package>
-              <name>Top Clans only (default)</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMConfigBuilder_ClanIcons_TopClansOnly</packageName>
-              <type>single_dropdown1</type>
-            </package>
-            <package>
               <name>use the same Clan Icons that were last installed</name>
               <zipFile />
               <crc />
@@ -1756,6 +1747,15 @@
                 <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\clan\*.png</userData>
                 <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\nick\*.png</userData>
               </userDatas>
+            </package>
+            <package>
+              <name>Top Clans only (default)</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_ClanIcons_TopClansOnly</packageName>
+              <type>single_dropdown1</type>
             </package>
             <package>
               <name>Full EU stand: {version}</name>
@@ -1865,7 +1865,7 @@
               </packages>
             </package>
             <package>
-              <name>Show Aim Info</name>
+              <name>Aim Info</name>
               <zipFile>XVM_config_builder_aim_info_2018-09-03.zip</zipFile>
               <crc>7790a48b51469b36fb1803d3f84e9712</crc>
               <enabled>True</enabled>
@@ -3073,7 +3073,41 @@
               </packages>
             </package>
             <package>
-              <name>show totals for your battle efficiency in first page</name>
+              <name>shots precision and damage in first page under credits and XP</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_BattleResults_showExtendedInfo</packageName>
+              <type>multi</type>
+              <description>display shots precision and damage in first page under credits and XP</description>
+              <packages>
+                <package>
+                  <name>disable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showExtendedInfo_disable.zip</zipFile>
+                  <crc>205f2c72b935b2d166a593f6b9463eb9</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showExtendedInfo_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005151343297717</timestamp>
+                  <size>644</size>
+                </package>
+                <package>
+                  <name>enable</name>
+                  <zipFile>XVMconfigBuilder_BattleResults_showExtendedInfo_enable.zip</zipFile>
+                  <crc>9f93c9a569cd58b0c3021e6341d84afc</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_BattleResults_showExtendedInfo_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132005151255721918</timestamp>
+                  <size>642</size>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>totals for your battle efficiency in first page</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -3107,7 +3141,7 @@
               </packages>
             </package>
             <package>
-              <name>display net income of credits in first page</name>
+              <name>net income of credits in first page</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -3141,7 +3175,7 @@
               </packages>
             </package>
             <package>
-              <name>display total experience in first page</name>
+              <name>total experience in first page</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -3175,7 +3209,7 @@
               </packages>
             </package>
             <package>
-              <name>display crew experience in first page</name>
+              <name>crew experience in first page</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -3208,40 +3242,6 @@
                 </package>
               </packages>
             </package>
-            <package>
-              <name>display shots precision and damage in first page under credits and XP</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_BattleResults_showExtendedInfo</packageName>
-              <type>multi</type>
-              <description>display shots precision and damage in first page under credits and XP</description>
-              <packages>
-                <package>
-                  <name>disable</name>
-                  <zipFile>XVMconfigBuilder_BattleResults_showExtendedInfo_disable.zip</zipFile>
-                  <crc>205f2c72b935b2d166a593f6b9463eb9</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_BattleResults_showExtendedInfo_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>132005151343297717</timestamp>
-                  <size>644</size>
-                </package>
-                <package>
-                  <name>enable</name>
-                  <zipFile>XVMconfigBuilder_BattleResults_showExtendedInfo_enable.zip</zipFile>
-                  <crc>9f93c9a569cd58b0c3021e6341d84afc</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_BattleResults_showExtendedInfo_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>132005151255721918</timestamp>
-                  <size>642</size>
-                </package>
-              </packages>
-            </package>
           </packages>
         </package>
         <package>
@@ -3250,7 +3250,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMconfigBuilder_TankCarouselBase_Header</packageName>
+          <packageName>XVMconfigBuilder_TankCarouselBase</packageName>
           <type>multi</type>
           <description>Change many settings about how the tank carousel is displayed in your garage.</description>
           <packages>
@@ -3812,7 +3812,7 @@
               <crc>313a612d874c04bd8cdff08ff2230785</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_TankCarouselBase_buyTank_Header</packageName>
+              <packageName>XVMconfigBuilder_TankCarouselBase_buyTank</packageName>
               <type>multi</type>
               <size>1011</size>
               <medias>
@@ -3878,7 +3878,7 @@
               <crc>b869305de1835e6966b59b7e4eb7feba</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_TankCarouselBase_buySlot_usedSlots_Header</packageName>
+              <packageName>XVMconfigBuilder_TankCarouselBase_buySlot_usedSlots</packageName>
               <type>multi</type>
               <size>1005</size>
               <medias>
@@ -3946,7 +3946,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMconfigBuilder_PlayersPanel_Header</packageName>
+          <packageName>XVMconfigBuilder_PlayersPanel</packageName>
           <type>multi</type>
           <packages>
             <package>
@@ -3977,7 +3977,7 @@
                   <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition_Header</packageName>
+                  <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition</packageName>
                   <type>multi</type>
                   <description>Choose with which Players Panel position with which the game will start.</description>
                   <medias>
@@ -4059,7 +4059,7 @@
                   <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_HpBars_Header</packageName>
+                  <packageName>XVMconfigBuilder_PlayersPanel_HpBars</packageName>
                   <type>multi</type>
                   <description>Choose which HP bars you want to use</description>
                   <packages>
@@ -4338,7 +4338,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMconfigBuilder_StatisticsColorSteps_Header</packageName>
+          <packageName>XVMconfigBuilder_StatisticsColorSteps</packageName>
           <type>multi</type>
           <description>Choose which color scale you use to display player's tank stats</description>
           <packages>
@@ -4615,7 +4615,7 @@
               </packages>
             </package>
             <package>
-              <name>show flags in barracks</name>
+              <name>flags in barracks</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -4646,7 +4646,7 @@
               </packages>
             </package>
             <package>
-              <name>show skills in barracks</name>
+              <name>skills in barracks</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -4731,14 +4731,14 @@
               </packages>
             </package>
             <package>
-              <name>"Combat Intelligence" - show/hide notifications in the main window and counters in the menu</name>
+              <name>"Combat Intelligence" - notifications in the main window and counters in the menu</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>XVMconfigBuilder_GarageInterface_combatIntelligence</packageName>
               <type>multi</type>
-              <description>currently we do not offer the option for disabling combat intelligence notifications in the main window.\nbut disabling the counter for unread messages is possible.</description>
+              <description>currently we do not offer the option for disabling combat intelligence notifications in the main window.&amp;#92;nbut disabling the counter for unread messages is possible.</description>
               <packages>
                 <package>
                   <name>display pop-up messages in the hangar</name>
@@ -4842,6 +4842,37 @@
               </medias>
               <packages>
                 <package>
+                  <name>return crew check box is selected by default</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_disable.zip</zipFile>
+                      <crc>f1712dff75b749e5f0e12bb1e9cd912e</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_disable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>633</size>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_enable.zip</zipFile>
+                      <crc>ff45ff3f06b63882a1f1d478e8ab3115</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_enable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>631</size>
+                    </package>
+                  </packages>
+                </package>
+                <package>
                   <name>Saves Crew Auto Return &amp; Tanks marked as Reserve</name>
                   <zipFile />
                   <crc>f</crc>
@@ -4877,38 +4908,7 @@
               </packages>
             </package>
             <package>
-              <name>return crew check box is selected by default</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_GarageInterface_crewReturnByDefault</packageName>
-              <type>multi</type>
-              <packages>
-                <package>
-                  <name>disable</name>
-                  <zipFile>XVMconfigBuilder_GarageInterface_crewReturnByDefault_disable.zip</zipFile>
-                  <crc>f1712dff75b749e5f0e12bb1e9cd912e</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_crewReturnByDefault_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>633</size>
-                </package>
-                <package>
-                  <name>enable</name>
-                  <zipFile>XVMconfigBuilder_GarageInterface_crewReturnByDefault_enable.zip</zipFile>
-                  <crc>ff45ff3f06b63882a1f1d478e8ab3115</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_GarageInterface_crewReturnByDefault_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>631</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Show Mastery Mark in Tech Tree</name>
+              <name>Mastery Mark in Tech Tree</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -4948,7 +4948,7 @@
               </packages>
             </package>
             <package>
-              <name>Show/hide notifications counters in the main menu</name>
+              <name>Notifications counters in the main menu</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -5186,7 +5186,7 @@
               </packages>
             </package>
             <package>
-              <name>show "Buy premium" button</name>
+              <name>"Buy premium" button</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -5217,7 +5217,7 @@
               </packages>
             </package>
             <package>
-              <name>show "Create squad" text on the squad creation button</name>
+              <name>"Create squad" text on the squad creation button</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -5248,7 +5248,7 @@
               </packages>
             </package>
             <package>
-              <name>show "General chat" button</name>
+              <name>"General chat" button</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -5279,7 +5279,7 @@
               </packages>
             </package>
             <package>
-              <name>show "Premium shop" button</name>
+              <name>"Premium shop" button</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -5310,7 +5310,7 @@
               </packages>
             </package>
             <package>
-              <name>display promo of premium vehicle (on the background in the hangar)</name>
+              <name>promo of premium vehicle (on the background in the hangar)</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -5341,7 +5341,7 @@
               </packages>
             </package>
             <package>
-              <name>show "Referral Program" button</name>
+              <name>"Referral Program" button</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -5372,7 +5372,7 @@
               </packages>
             </package>
             <package>
-              <name>show info window with list of received awards for "Reward for Merit"</name>
+              <name>info window with list of received awards for "Reward for Merit"</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
@@ -6042,7 +6042,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMconfigBuilder_Marker_Header</packageName>
+          <packageName>XVMconfigBuilder_Marker</packageName>
           <type>multi</type>
           <description>Toggle the xvm markers in the game. Disabling them will enable the configurations in the game</description>
           <packages>
@@ -6289,7 +6289,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMconfigBuilder_Login_Header</packageName>
+          <packageName>XVMconfigBuilder_Login</packageName>
           <type>multi</type>
           <description>Make changes to the login screen.</description>
           <packages>
@@ -6299,7 +6299,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_Login_AutoLogin_Header</packageName>
+              <packageName>XVMconfigBuilder_Login_AutoLogin</packageName>
               <type>multi</type>
               <description>Automatiacly log into the game</description>
               <packages>
@@ -6331,7 +6331,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_Login_HideTheOldReplayConfirmationWindow_Header</packageName>
+              <packageName>XVMconfigBuilder_Login_HideTheOldReplayConfirmationWindow</packageName>
               <type>multi</type>
               <description>Will not ask you if you want to confirm loading an old version replay. Will load it automaticly.</description>
               <packages>
@@ -6363,7 +6363,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_Login_ShowServerPing_Header</packageName>
+              <packageName>XVMconfigBuilder_Login_ShowServerPing</packageName>
               <type>multi</type>
               <description>Show server pings from the login screen</description>
               <packages>
@@ -6395,7 +6395,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_Login_SaveLastServer_Header</packageName>
+              <packageName>XVMconfigBuilder_Login_SaveLastServer</packageName>
               <type>multi</type>
               <description>Save the last server that you logged into</description>
               <packages>
@@ -6427,7 +6427,7 @@
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_Login_ShowServerPopulations_Header</packageName>
+              <packageName>XVMconfigBuilder_Login_ShowServerPopulations</packageName>
               <type>multi</type>
               <description>Show the servers population in the login screen</description>
               <packages>
@@ -6461,7 +6461,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMconfigBuilder_Minimap_Header</packageName>
+          <packageName>XVMconfigBuilder_Minimap</packageName>
           <type>multi</type>
           <description>Make changes to the minimap in the game.</description>
           <packages>
@@ -7409,7 +7409,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMconfigBuilder_Sound_Header</packageName>
+          <packageName>XVMconfigBuilder_Sound</packageName>
           <type>multi</type>
           <description>Toggle the xvm sounds</description>
           <packages>
@@ -20399,7 +20399,7 @@
           <crc />
           <enabled>False</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_Battle_Results_Header</packageName>
+          <packageName>Garage_Graphics_Battle_Results</packageName>
           <type>multi</type>
           <updateComment>All HAWG Mods on WGMods.net: &amp;#92;nhttps://wgmods.net/search/?owner=237525&amp;#92;n&amp;#92;n&amp;#92;nmodified .swf files  - need updates on patchdays</updateComment>
           <description>Changes the stock battle Results - a different picture for each type of results&amp;#92;n&amp;#92;n4 modders for Battle Results: &amp;#92;n-Made by Sicfunzler&amp;#92;n-Made by TheIllusion&amp;#92;n-Made by Oldskool&amp;#92;nRest:&amp;#92;n-Made by Sicfunzler</description>
@@ -21564,7 +21564,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_carousel_LED_HEADER</packageName>
+          <packageName>Garage_Graphics_carousel_LED</packageName>
           <type>multi</type>
           <updateComment>modified from gui.pkg:&amp;#92;n&amp;#92;res_mods&amp;#92;versiondir&amp;#92;gui&amp;#92;flash&amp;#92;TankCarousel.swf&amp;#92;n&amp;#92;nneeds updates on patchdays</updateComment>
           <description>by _HawgJaws_</description>
@@ -23006,7 +23006,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_cursor_Header</packageName>
+          <packageName>Garage_Graphics_cursor</packageName>
           <type>multi</type>
           <timestamp>131944710936556337</timestamp>
           <size>83692</size>
@@ -23261,10 +23261,10 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_loading_animation_Header</packageName>
+          <packageName>Garage_Graphics_loading_animation</packageName>
           <type>multi</type>
-          <updateComment>extracted wotmod to res_mods\nedited all HAWG´s logos.swf (transparent wotlogo)\n\nmodifed swf - but normally dont need an update</updateComment>
-          <description>Replaces the standard loading animation circle\nIlluminati - http://forum.worldoftanks.eu/index.php?/topic/476721-097-gtos-mlg-mod-continued-by-aimdrol-s3al-dog-in-tenks-especially-rudy/</description>
+          <updateComment>extracted wotmod to res_mods&amp;#92;nedited all HAWG´s logos.swf (transparent wotlogo)&amp;#92;n&amp;#92;nmodifed swf - but normally dont need an update</updateComment>
+          <description>Replaces the standard loading animation circle&amp;#92;nIlluminati - http://forum.worldoftanks.eu/index.php?/topic/476721-097-gtos-mlg-mod-continued-by-aimdrol-s3al-dog-in-tenks-especially-rudy/</description>
           <medias>
             <media>
               <type>1</type>
@@ -23620,7 +23620,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_LoadingLogo_Header</packageName>
+          <packageName>Garage_Graphics_LoadingLogo</packageName>
           <type>multi</type>
           <updateComment>modifed swf - but normally dont need an update</updateComment>
           <description>When you are installing this modpack, the LoadingLogo is disabled by default.&amp;#92;nIf you like to have one activated, please choose it from the dropdown list below.</description>
@@ -23773,7 +23773,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_LoadingSplash_Header</packageName>
+          <packageName>Garage_Graphics_LoadingSplash</packageName>
           <type>multi</type>
           <updateComment>only pics</updateComment>
           <packages>
@@ -24066,7 +24066,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_LoginBackground_Header</packageName>
+          <packageName>Garage_Graphics_LoginBackground</packageName>
           <type>multi</type>
           <updateComment>only pics or videofiles</updateComment>
           <description>change the style of the login screen. &amp;#92;nyou can either use a video that plays in background or a simple picture.&amp;#92;n&amp;#92;ndon´t forget to change that in the upper right corner of the login screen</description>
@@ -24471,7 +24471,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_Mastery_Badges_Header</packageName>
+          <packageName>Garage_Graphics_Mastery_Badges</packageName>
           <type>multi</type>
           <description>Changes the mastery badges to CoD style badges</description>
           <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-0914-gtos-mlg-mod-continued-by-aimdrol-marks-of-mailand-pl/</devURL>
@@ -24509,7 +24509,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_Medals_Header</packageName>
+          <packageName>Garage_Graphics_Medals</packageName>
           <type>multi</type>
           <packages>
             <package>
@@ -24597,7 +24597,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_VehiclesNationDecals_Header</packageName>
+          <packageName>Garage_Graphics_VehiclesNationDecals</packageName>
           <type>multi</type>
           <updateComment>only pics</updateComment>
           <description>Custom nation decals</description>
@@ -24685,7 +24685,7 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_FlagsLib_Header</packageName>
+          <packageName>Garage_Graphics_FlagsLib</packageName>
           <type>multi</type>
           <updateComment>modified gui/flash/flagslib.swf - updates not needed (only when a new fraction was added to game)</updateComment>
           <description>Custom nation flags</description>
@@ -25211,7 +25211,7 @@
               <type>single1</type>
               <version>1.4.0.0</version>
               <timestamp>131974315930814888</timestamp>
-              <description>Custom small icons on Techtree and Vehicle List in Garage. Colors for Tanks:\nred - Heavy Tanks, yellow - Medium Tanks, green - Light Tanks, \nblue - Tank Destroyers, violet SPG\n\nAuthor: Aslain (Thx!)\n\nextracted from Aslains modpack</description>
+              <description>Custom small icons on Techtree and Vehicle List in Garage. Colors for Tanks:&amp;#92;nred - Heavy Tanks, yellow - Medium Tanks, green - Light Tanks, &amp;#92;nblue - Tank Destroyers, violet SPG&amp;#92;n&amp;#92;nAuthor: Aslain (Thx!)&amp;#92;n&amp;#92;nextracted from Aslains modpack</description>
               <packages>
                 <package>
                   <name>Aslain´s V1 (Bar)</name>
@@ -25224,7 +25224,7 @@
                   <version>1.4.0.0</version>
                   <timestamp>131973833878045421</timestamp>
                   <size>5193391</size>
-                  <description>Custom small icons on Techtree and Vehicle List in Garage. Colors for Tanks:\nred - Heavy Tanks, yellow - Medium Tanks, green - Light Tanks, \nblue - Tank Destroyers, violet SPG\n\nAuthor: Aslain (Thx!)\n\nextracted from Aslains modpack</description>
+                  <description>Custom small icons on Techtree and Vehicle List in Garage. Colors for Tanks:&amp;#92;nred - Heavy Tanks, yellow - Medium Tanks, green - Light Tanks, &amp;#92;nblue - Tank Destroyers, violet SPG&amp;#92;n&amp;#92;nAuthor: Aslain (Thx!)&amp;#92;n&amp;#92;nextracted from Aslains modpack</description>
                   <medias>
                     <media>
                       <type>1</type>
@@ -25243,7 +25243,7 @@
                   <version>1.4.0.0</version>
                   <timestamp>131973833775170554</timestamp>
                   <size>6282439</size>
-                  <description>Custom small icons on Techtree and Vehicle List in Garage. Colors for Tanks:\nred - Heavy Tanks, yellow - Medium Tanks, green - Light Tanks, \nblue - Tank Destroyers, violet SPG\n\nAuthor: Shyts (Thx!)\n\nextracted from Aslains modpack</description>
+                  <description>Custom small icons on Techtree and Vehicle List in Garage. Colors for Tanks:&amp;#92;nred - Heavy Tanks, yellow - Medium Tanks, green - Light Tanks, &amp;#92;nblue - Tank Destroyers, violet SPG&amp;#92;n&amp;#92;nAuthor: Shyts (Thx!)&amp;#92;n&amp;#92;nextracted from Aslains modpack</description>
                   <medias>
                     <media>
                       <type>1</type>
@@ -25277,7 +25277,7 @@
                   <timestamp>131975929476395845</timestamp>
                   <size>7130055</size>
                   <updateComment>D_background.png</updateComment>
-                  <description>Color scheme: striped\nLT: yellow - striped\nMT: dark-green - striped\nHT: grey - striped\nTD: blue - striped\nAR: red - striped</description>
+                  <description>Color scheme: striped&amp;#92;nLT: yellow - striped&amp;#92;nMT: dark-green - striped&amp;#92;nHT: grey - striped&amp;#92;nTD: blue - striped&amp;#92;nAR: red - striped</description>
                   <devURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</devURL>
                   <medias>
                     <media>
@@ -26168,10 +26168,10 @@
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_Graphics_XFun_Header</packageName>
+          <packageName>Garage_Graphics_XFun</packageName>
           <type>multi</type>
           <updateComment>plz use this section for funny mods that are not "helpful" or may can be misleading in a any way</updateComment>
-          <description>In this section you find mods that change the visual apperance in a funny way. \n\nIt is possible (and most likely intended) that THESE MODS DO NOT SHOW THE CURRENT CORRECT VALUES of your tank/account.</description>
+          <description>In this section you find mods that change the visual apperance in a funny way. &amp;#92;n&amp;#92;nIt is possible (and most likely intended) that THESE MODS DO NOT SHOW THE CURRENT CORRECT VALUES of your tank/account.</description>
           <packages>
             <package>
               <name>Show Insignia on guns by Polyacov_Yury (fun mod)</name>
