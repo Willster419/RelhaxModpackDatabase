@@ -14110,14 +14110,14 @@
               <name>15m Spot Circle in different colors</name>
               <zipFile>Ingame_Info_15m_Circle_Base_1.0.2.2_resmods_2018-07-16.zip</zipFile>
               <crc>f693363fbe808fc3690b6058a592551e</crc>
-              <enabled>True</enabled>
+              <enabled>False</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_15m_Circle_Base_Resmods</packageName>
               <type>single1</type>
               <version>1.0.2.2</version>
               <timestamp>131762477156375432</timestamp>
               <size>51905</size>
-              <description>Shows a 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed\n\nNow again different colors available</description>
+              <description>Shows a 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed&amp;#92;n&amp;#92;nNow again different colors available</description>
               <devURL>http://wotsite.net/mody-dlya-world-of-tanks/12048-</devURL>
               <medias>
                 <media>
@@ -14312,6 +14312,77 @@
                   </medias>
                 </package>
               </packages>
+            </package>
+            <package>
+              <name>15m Spot Circle (Type set in garage)</name>
+              <zipFile>Ingame_Info_15m_Circle_Base_wotmod_1.5.0.0_2019-05-06.zip</zipFile>
+              <crc>f01fab53d3a51aa104b4ee2bb7001408</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Info_15m_Circle_Base</packageName>
+              <type>single1</type>
+              <version>1.5.0.0</version>
+              <timestamp>131735746198244152</timestamp>
+              <size>54269</size>
+              <updateComment>updated to 1.0.1.0</updateComment>
+              <description>Shows a green 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed</description>
+              <devURL>http://wotsite.net/mody-dlya-world-of-tanks/12048-</devURL>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/15m_Circle/Ingame_Info_15m_Circle_green.jpg</URL>
+                </media>
+              </medias>
+              <packages>
+                <package>
+                  <name>english</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>False</enabled>
+                  <visible>False</visible>
+                  <packageName>Ingame_Info_15m_Circle_english</packageName>
+                  <type>single_dropdown1</type>
+                  <version>1.0.2.1</version>
+                  <timestamp>131735746134389254</timestamp>
+                  <size>50726</size>
+                  <updateComment>updated to 1.0.1.0&amp;#92;n&amp;#92;nGAUSS: (2019-04-02)&amp;#92;ninvisible goals for Dependency_modsSettingsApi_AppDATA_english &amp; german&amp;#92;nif we dont update this  - til  end of may 2019 it can be removed</updateComment>
+                  <description>Shows a 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed&amp;#92;n&amp;#92;nGAUSS: (2019-04-02)&amp;#92;ninvisible goals for Dependency_modsSettingsApi_AppDATA_english &amp; german&amp;#92;nif we dont update this  - til  end of may 2019 it can be removed</description>
+                  <devURL>http://wotsite.net/mody-dlya-world-of-tanks/12048-</devURL>
+                  <dependencies>
+                    <dependency>
+                      <packageName>Dependency_modsSettingsApi_AppDATA_english</packageName>
+                    </dependency>
+                  </dependencies>
+                </package>
+                <package>
+                  <name>german / deutsch</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>False</enabled>
+                  <visible>False</visible>
+                  <packageName>Ingame_Info_15m_Circle_german</packageName>
+                  <type>single_dropdown1</type>
+                  <version>1.0.2.1</version>
+                  <timestamp>131735831074299584</timestamp>
+                  <size>50726</size>
+                  <updateComment>updated to 1.0.1.0&amp;#92;n&amp;#92;nGAUSS: (2019-04-02)&amp;#92;ninvisible goals for Dependency_modsSettingsApi_AppDATA_english &amp; german&amp;#92;nif we dont update this  - til  end of may 2019 it can be removed</updateComment>
+                  <description>Shows a 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed&amp;#92;n&amp;#92;nGAUSS: (2019-04-02)&amp;#92;ninvisible goals for Dependency_modsSettingsApi_AppDATA_english &amp; german&amp;#92;nif we dont update this  - til  end of may 2019 it can be removed</description>
+                  <devURL>http://wotsite.net/mody-dlya-world-of-tanks/12048-</devURL>
+                  <dependencies>
+                    <dependency>
+                      <packageName>Dependency_modsSettingsApi_AppDATA_german</packageName>
+                    </dependency>
+                  </dependencies>
+                </package>
+              </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_modsSettingsApi</packageName>
+                </dependency>
+              </dependencies>
             </package>
           </packages>
         </package>
