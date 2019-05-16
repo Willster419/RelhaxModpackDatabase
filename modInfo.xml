@@ -1001,6 +1001,30 @@
           </packages>
         </package>
         <package>
+          <name>Inbattle current rating calculation by OldSkool</name>
+          <zipFile>Ingame_Info_InBattle_Rating_OldSkool_2019-05-16.zip</zipFile>
+          <crc>ff27a5167c56332b1680af2bf1cb4f88</crc>
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>Ingame_Info_InBattle_Rating_OldSkool</packageName>
+          <type>single_dropdown1</type>
+          <timestamp>131939405704440382</timestamp>
+          <size>44527</size>
+          <updateComment>2. URL for Oldskool mods: https://wgmods.net/search/?owner=38530</updateComment>
+          <devURL>http://forum.worldoftanks.eu/index.php?/topic/603810-1010-oldskool-mods-autoequip-artylog-battle-ratings-more/</devURL>
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_modsSettingsApi_Oldskool</packageName>
+            </dependency>
+            <dependency>
+              <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
+            </dependency>
+            <dependency>
+              <packageName>Dependency_gambiter_guiflash</packageName>
+            </dependency>
+          </dependencies>
+        </package>
+        <package>
           <name>Solo XVM Config v{version}</name>
           <zipFile>XVM_Prebuilt_Configs_Solo_2019-03-25.zip</zipFile>
           <crc>a8a93f69f8d7ca0392c3432676e5f401</crc>
@@ -15102,30 +15126,6 @@
           <type>multi</type>
           <timestamp>131712253302348201</timestamp>
           <packages>
-            <package>
-              <name>Inbattle current rating calculation by OldSkool</name>
-              <zipFile>Ingame_Info_InBattle_Rating_OldSkool_2019-02-06.zip</zipFile>
-              <crc>ff27a5167c56332b1680af2bf1cb4f88</crc>
-              <enabled>False</enabled>
-              <visible>False</visible>
-              <packageName>Ingame_Info_InBattle_Rating_OldSkool</packageName>
-              <type>single_dropdown1</type>
-              <timestamp>131939405704440382</timestamp>
-              <size>44527</size>
-              <updateComment>2. URL for Oldskool mods: https://wgmods.net/search/?owner=38530</updateComment>
-              <devURL>http://forum.worldoftanks.eu/index.php?/topic/603810-1010-oldskool-mods-autoequip-artylog-battle-ratings-more/</devURL>
-              <dependencies>
-                <dependency>
-                  <packageName>Dependency_modsSettingsApi_Oldskool</packageName>
-                </dependency>
-                <dependency>
-                  <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
-                </dependency>
-                <dependency>
-                  <packageName>Dependency_gambiter_guiflash</packageName>
-                </dependency>
-              </dependencies>
-            </package>
             <package>
               <name>Inbattle current rating calculation by RaJCeL</name>
               <zipFile>Ingame_Info_InBattle_Rating_RaJCeL_1.5.0.0_2019-05-15.zip</zipFile>
