@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2019-05-18 01:20:44" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="beta">
+<mods ver="2.0" date="2019-06-07 16:10:13" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="beta">
   <relhaxMods>
+    <mod>XVMconfigBuilder_battleChat</mod>
+    <mod>XVMconfigBuilder_battleChat_wn8chatcolor</mod>
     <mod>XVMConfigBuilder_BattleInterface</mod>
     <mod>XVMConfigBuilder_BattleInterface_6thSenseDuration</mod>
-    <mod>XVMConfigBuilder_BattleInterface_6thSenseDuration_5sec</mod>
+    <mod>XVMConfigBuilder_BattleInterface_6thSenseDuration_10sec</mod>
     <mod>XVMConfigBuilder_BattleInterface_DamageLog</mod>
     <mod>XVMConfigBuilder_BattleInterface_DamageLog_enable</mod>
     <mod>XVMConfigBuilder_BattleInterface_MissionTracker</mod>
@@ -20,6 +22,8 @@
     <mod>XVMConfigBuilder_Camera</mod>
     <mod>XVMConfigBuilder_Camera_enable</mod>
     <mod>XVMConfigBuilder_Camera_Zoom</mod>
+    <mod>XVMConfigBuilder_Camera_sniperStartZoom</mod>
+    <mod>XVMConfigBuilder_Camera_sniperStartZoom_null</mod>
     <mod>XVMConfigBuilder_Camera_sniperZoomSteps</mod>
     <mod>XVMConfigBuilder_Camera_sniperZoomSteps_4</mod>
     <mod>XVMConfigBuilder_Camera_ZoomOut_Header</mod>
@@ -33,6 +37,7 @@
     <mod>XVMConfigBuilder_Camera_noCameraLimit_enable</mod>
     <mod>XVMConfigBuilder_ClanIcons_Base</mod>
     <mod>XVMConfigBuilder_ClanIcons_TopClansOnly</mod>
+    <mod>XVMConfigBuilder_ClanIcons_PlayersIcon</mod>
     <mod>XVMconfigBuilder_GarageInterface</mod>
     <mod>XVMconfigBuilder_GarageInterface_Clock</mod>
     <mod>XVMconfigBuilder_GarageInterface_Clock_enable</mod>
@@ -54,6 +59,8 @@
     <mod>XVMconfigBuilder_GarageInterface_crewMaxPerksCount</mod>
     <mod>XVMconfigBuilder_GarageInterface_crewMaxPerksCount_8</mod>
     <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn</mod>
+    <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault</mod>
+    <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn_Save</mod>
     <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree</mod>
@@ -65,8 +72,6 @@
     <mod>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_notificationCounter_profile</mod>
     <mod>XVMconfigBuilder_GarageInterface_notificationCounter_profile_enable</mod>
-    <mod>XVMconfigBuilder_GarageInterface_notificationCounter_store</mod>
-    <mod>XVMconfigBuilder_GarageInterface_notificationCounter_store_disable</mod>
     <mod>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn</mod>
     <mod>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_Squad</mod>
@@ -74,10 +79,14 @@
     <mod>XVMconfigBuilder_GarageInterface_squad_showClan</mod>
     <mod>XVMconfigBuilder_squad_showClan_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_squad_formatInfoField</mod>
-    <mod>XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax</mod>
+    <mod>XVMconfigBuilder_GarageInterface_squad_formatInfoField_BatMinMax</mod>
     <mod>XVMconfigBuilder_GarageInterface_Statistics</mod>
     <mod>XVMconfigBuilder_GarageInterface_Statistics_Disable</mod>
     <mod>XVMconfigBuilder_GarageInterface_userInfo</mod>
+    <mod>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage</mod>
+    <mod>XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage_awards</mod>
+    <mod>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage</mod>
+    <mod>XVMconfigBuilder_GarageInterface_userInfo_profileStartPage_awards</mod>
     <mod>XVMconfigBuilder_GarageInterface_userInfo_showXTEColumn</mod>
     <mod>XVMconfigBuilder_GarageInterface_userInfo_showXTEColumn_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_userInfo_showFilters</mod>
@@ -106,7 +115,7 @@
     <mod>XVMconfigBuilder_PlayersPanel_StartingPosition</mod>
     <mod>XVMconfigBuilder_PlayersPanel_StartingPosition_medium</mod>
     <mod>XVMconfigBuilder_StatisticsColorSteps</mod>
-    <mod>XVMconfigBuilder_StatisticsColorSteps_default</mod>
+    <mod>XVMconfigBuilder_StatisticsColorSteps_9StepWot-life</mod>
     <mod>XVMconfigBuilder_TankCarouselBase</mod>
     <mod>XVMconfigBuilder_TankCarouselBase_carousel_enable</mod>
     <mod>XVMconfigBuilder_TankCarouselBase_CellContent_Header</mod>
@@ -143,12 +152,14 @@
     <mod>Ingame_Aim_BalCalcMod_Config_Q</mod>
     <mod>Ingame_Aim_Battle_Assistant_Base</mod>
     <mod>Ingame_Aim_Battle_Assistant_G</mod>
+    <mod>Ingame_Aim_Battle_Assistant_Increased_smoothTime</mod>
     <mod>Ingame_Aim_Battle_Assistant_Increased_Zoom_Speed</mod>
-    <mod>Ingame_Aim_SPG_Flytime</mod>
+    <mod>Ingame_Aim_Target_Arrow</mod>
+    <mod>Ingame_Aim_Target_Arrow_Blue</mod>
     <mod>Ingame_Aim_Zoomin_Base</mod>
     <mod>Ingame_Aim_zoom_pmod_zoomIn_2-48</mod>
-    <mod>Ingame_Aim_zoom_pmod_td_brake_header</mod>
-    <mod>Ingame_Aim_zoom_pmod_td_brake_off</mod>
+    <mod>Ingame_Aim_zoom_pmod_td_brake</mod>
+    <mod>Ingame_Aim_zoom_pmod_td_brake_on</mod>
     <mod>Ingame_Aim_zoom_pmod_td_start_zoom_header</mod>
     <mod>Ingame_Aim_zoom_pmod_default_zoom_4x</mod>
     <mod>Ingame_Aim_ZoomOut_Header</mod>
@@ -160,8 +171,6 @@
     <mod>Ingame_Aim_ZoomOut_Stragetic_200</mod>
     <mod>Ingame_Aim_ZoomOut_Increase_Scroll_Speed</mod>
     <mod>Ingame_Info_Crew_Skill_Informer</mod>
-    <mod>Ingame_Info_DamageIndicator</mod>
-    <mod>Ingame_Info_DamageIndicator_dikey93</mod>
     <mod>Ingame_Info_Enemy_Spotted_Status</mod>
     <mod>Ingame_Info_Enemy_Spotted_Status_Style_1</mod>
     <mod>Ingame_Info_InBattle_Rating</mod>
@@ -172,7 +181,6 @@
     <mod>Ingame_Info_prem_Shell_Visibility</mod>
     <mod>Ingame_Info_prem_Shell_Visibility_Blue</mod>
     <mod>Ingame_Info_prem_Shell_Visibility_show_ally_gold_ammo</mod>
-    <mod>Ingame_Info_prem_Shell_Visibility_show_own_gold_ammo</mod>
     <mod>Ingame_Info_SpotMessenger_Base</mod>
     <mod>Ingame_Info_SpotMessenger_activated</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Header</mod>
@@ -189,50 +197,51 @@
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_ht</mod>
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_td</mod>
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_spg</mod>
-    <mod>Ingame_Info_Wide_Border_Of_Maps</mod>
-    <mod>Ingame_Info_Wide_Border_Of_Maps_COMMAND_full</mod>
-    <mod>Ingame_Misc_Antitoxicity_Base</mod>
     <mod>Ingame_Misc_Arty_and_Siege_Filter</mod>
     <mod>Ingame_Misc_BaseCap_Circles</mod>
     <mod>Ingame_Misc_BaseCap_Circles_Colored</mod>
-    <mod>Ingame_Misc_BaseCap_Circles_V3_Red</mod>
+    <mod>Ingame_Misc_BaseCap_Circles_V1_Faint_Red</mod>
     <mod>Ingame_Misc_chatmods</mod>
+    <mod>Ingame_Misc_chatmods_buttonreplacer</mod>
     <mod>Ingame_Misc_chatmods_SorryMessenger</mod>
     <mod>Ingame_Misc_Consumables</mod>
     <mod>Ingame_Misc_Consumables_Icons</mod>
-    <mod>Ingame_Misc_Consumables_ShellIcons</mod>
-    <mod>Ingame_Misc_Consumables_ShellIcons_2rokk</mod>
     <mod>Ingame_Misc_Consumables_EquipmentIcons</mod>
     <mod>Ingame_Misc_Consumables_EquipmentIcons_DEbranded</mod>
     <mod>Ingame_Misc_No_Sixth_Sense_Icon</mod>
     <mod>Ingame_Misc_Pre_Battle_Timer</mod>
     <mod>Ingame_Misc_Pre_Battle_Timer_Green</mod>
-    <mod>Ingame_Misc_WOT_Tweaker</mod>
-    <mod>Ingame_Misc_WOT_Tweaker_disable_clouds</mod>
     <mod>Garage_mods_ScriptloaderPro_Base</mod>
     <mod>Garage_mods_ScriptloaderPro_SystemMessage_Full</mod>
     <mod>Garage_mods_ScriptloaderPro_SpamFilter</mod>
     <mod>Garage_mods_expandItemLimits</mod>
     <mod>Garage_mods_VehicleXP_Extended_Base</mod>
     <mod>Garage_mods_crewExtended</mod>
+    <mod>Garage_Graphics_Carousel</mod>
     <mod>Garage_Graphics_Carousel_DailyXPBonusIcons</mod>
-    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_Header</mod>
-    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_2x_Header</mod>
+    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker</mod>
+    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_2x</mod>
     <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_2x_Blue</mod>
-    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_3x_Header</mod>
-    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_3x_Green</mod>
-    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_4x_Header</mod>
-    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_4x_Purple</mod>
-    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_5x_Header</mod>
+    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_3x</mod>
+    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_3x_Blue</mod>
+    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_4x</mod>
+    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_4x_Green</mod>
+    <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_5x</mod>
     <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker_5x_Purple</mod>
     <mod>Garage_Graphics_carousel_LED</mod>
     <mod>Garage_Graphics_carousel_LED_Blue</mod>
-    <mod>Garage_Graphics_Crew_Icons_Header</mod>
-    <mod>Garage_Graphics_Crew_Icons_Nationflags_by_Debranded_Header</mod>
+    <mod>Garage_Graphics_Carousel_Tank_Icons</mod>
+    <mod>Garage_Graphics_Carousel_Tank_Icons_Premium</mod>
+    <mod>Garage_Graphics_Carousel_Tank_Icons_Premium_Aslain_Gold_V1</mod>
+    <mod>Garage_Graphics_Carousel_Tank_Icons_Premium_Debranded_preColored</mod>
+    <mod>Garage_Graphics_Crew</mod>
+    <mod>Garage_Graphics_Crew_Icons</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_by_Debranded</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Germany</mod>
-    <mod>Garage_Graphics_Crew_Icons_Nationflags_Germany_1990</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_Scifi_Germany</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Russia</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_UDSSR</mod>
+    <mod>Garage_Graphics_Crew_Icons_Nationflags_USA_Header</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_USA</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_France</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_France_Tricolour</mod>
@@ -249,20 +258,20 @@
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Sweden</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Italy_Header</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_Italy</mod>
-    <mod>Garage_Graphics_CrewSkills</mod>
-    <mod>Garage_Graphics_CrewSkills_DEbranded</mod>
+    <mod>Garage_Graphics_Crew_Skills</mod>
+    <mod>Garage_Graphics_Crew_Skills_DEbranded</mod>
+    <mod>Garage_Graphics_loading</mod>
     <mod>Garage_Graphics_LoadingSplash</mod>
-    <mod>Garage_Graphics_LoadingSplash_Warranted_T49</mod>
+    <mod>Garage_Graphics_LoadingSplash_Default_Relhax</mod>
     <mod>Garage_Graphics_LoginBackground</mod>
     <mod>Garage_Graphics_LoginBackground_Picture_Header</mod>
     <mod>Garage_Graphics_LoginBackground_Picture_BeachParty</mod>
     <mod>Garage_Graphics_Medals</mod>
-    <mod>Garage_Graphics_Medals_Effect_colored</mod>
-    <mod>Garage_Graphics_Carousel_Tank_Icons</mod>
-    <mod>Garage_Graphics_Carousel_Premium_Tank_Icons_Header</mod>
-    <mod>Garage_Graphics_Carousel_Premium_Tank_Icons_Aslain_Gold_V1</mod>
-    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_header</mod>
-    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Default_header</mod>
+    <mod>Garage_Graphics_Medals_Effect_Vulkanglass</mod>
+    <mod>Garage_Graphics_FlagsLib</mod>
+    <mod>Garage_Graphics_FlagsLib_DEbranded</mod>
+    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons</mod>
+    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Default</mod>
     <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Default_Yaya</mod>
     <mod>Statistic_Session_Header</mod>
     <mod>Statistic_Session_Tomonik_Base</mod>
@@ -281,6 +290,6 @@
     <mod>Tank_Skins_Misc_dead_tanks_white</mod>
   </relhaxMods>
   <userMods>
-    <mod>Clanicons</mod>
+    <mod>Xvm_config_builder_clanicons_dirty_2019-06-03</mod>
   </userMods>
 </mods>
