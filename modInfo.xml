@@ -7483,24 +7483,84 @@
           <description>Toggle the xvm sounds</description>
           <packages>
             <package>
-              <name>Enabled</name>
-              <zipFile>XVM_config_builder_sounds_enabled.zip</zipFile>
-              <crc>d246272c63f1cb3d773b9fef1cf5007b</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_Sound_enabled</packageName>
-              <type>single_dropdown1</type>
-              <size>922</size>
-            </package>
-            <package>
               <name>Disabled</name>
               <zipFile>XVM_config_builder_sounds_disabled.zip</zipFile>
               <crc>292c233257c62f923fbaea79570b22fd</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>XVMconfigBuilder_Sound_disabled</packageName>
-              <type>single_dropdown1</type>
+              <type>single1</type>
               <size>925</size>
+            </package>
+            <package>
+              <name>Enabled</name>
+              <zipFile>XVM_config_builder_sounds_enabled.zip</zipFile>
+              <crc>d246272c63f1cb3d773b9fef1cf5007b</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_Sound_enabled</packageName>
+              <type>single1</type>
+              <size>922</size>
+              <packages>
+                <package>
+                  <name>remote communication between WoT client and WWISE Authoring Tools</name>
+                  <zipFile />
+                  <crc>292c233257c62f923fbaea79570b22fd</crc>
+                  <enabled>False</enabled>
+                  <visible>False</visible>
+                  <packageName>XVMconfigBuilder_Sound_remote_communication</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMConfigBuilder_sounds_remote_communication_disabled.zip</zipFile>
+                      <crc>292c233257c62f923fbaea79570b22fd</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_Sound_remote_communication_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMConfigBuilder_sounds_remote_communication_enabled.zip</zipFile>
+                      <crc>292c233257c62f923fbaea79570b22fd</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_Sound_remote_communication_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>sound events logging in the xvm.log</name>
+                  <zipFile />
+                  <crc>292c233257c62f923fbaea79570b22fd</crc>
+                  <enabled>False</enabled>
+                  <visible>False</visible>
+                  <packageName>XVMconfigBuilder_Sound_logSoundEvents</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMConfigBuilder_sounds_logSoundEvents_disabled.zip</zipFile>
+                      <crc>292c233257c62f923fbaea79570b22fd</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_Sound_logSoundEvents_disable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMConfigBuilder_sounds_logSoundEvents_enabled.zip</zipFile>
+                      <crc>292c233257c62f923fbaea79570b22fd</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_Sound_logSoundEvents_enable</packageName>
+                      <type>single_dropdown1</type>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
             </package>
           </packages>
         </package>
