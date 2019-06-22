@@ -451,7 +451,7 @@
       <crc>6a50cae7cb5f68a553e66bacc1033185</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
-      <packageName>Dependency_HRMOD_Guns_n_Engine_SoundsBanks_by_Zorgane</packageName>
+      <packageName>Dependency_Sounds_HRMOD_Guns_n_Engine_SoundsBanks_by_Zorgane</packageName>
       <timestamp>131981037122091804</timestamp>
       <devURL>http://forum.worldoftanks.eu/index.php?/topic/596268-</devURL>
     </dependency>
@@ -460,7 +460,16 @@
       <crc>6a50cae7cb5f68a553e66bacc1033185</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
-      <packageName>Dependency_AGQJ_Guns_Soundbanks</packageName>
+      <packageName>Dependency_Sounds_AGQJ_Guns_Soundbanks</packageName>
+      <timestamp>131981037122091804</timestamp>
+      <devURL>http://forum.worldoftanks.eu/index.php?/topic/596268-</devURL>
+    </dependency>
+    <dependency>
+      <zipFile>Dependecy_Sounds_AGQJ_Engines_Soundbanks_1.5.0.2_2019-05-18.zip</zipFile>
+      <crc>6a50cae7cb5f68a553e66bacc1033185</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_Sounds_AGQJ_Engines_Soundbanks</packageName>
       <timestamp>131981037122091804</timestamp>
       <devURL>http://forum.worldoftanks.eu/index.php?/topic/596268-</devURL>
     </dependency>
@@ -33290,7 +33299,7 @@
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Sounds_Engines_HRMOD_GnomeFather_Zorgane</packageName>
-              <type>single1</type>
+              <type>single_dropdown1</type>
               <version>2.08_1.5.1.0</version>
               <timestamp>131984275123935977</timestamp>
               <size>31276</size>
@@ -33312,64 +33321,52 @@
                   <packageName>Dependency_Sounds_Increase_Sound_Memory_512MB</packageName>
                 </dependency>
                 <dependency>
-                  <packageName>Dependency_HRMOD_Guns_n_Engine_SoundsBanks_by_Zorgane</packageName>
+                  <packageName>Dependency_Sounds_HRMOD_Guns_n_Engine_SoundsBanks_by_Zorgane</packageName>
                 </dependency>
               </dependencies>
             </package>
             <package>
-              <name>AGQJ Engines by SicFunzler &amp; Fedor Saveliev (select below - no file)</name>
-              <zipFile />
-              <crc>b3213151d195daef92573fc69fa64800</crc>
-              <enabled>False</enabled>
-              <visible>False</visible>
-              <packageName>Sounds_AGQJ_Engines_Soundbanks_Selectable</packageName>
-              <type>single1</type>
-              <version>1.5.0.2</version>
-              <timestamp>131940420589802487</timestamp>
-              <devURL>http://forum.worldoftanks.ru/index.php?/topic/1778752-\r\nhttp://forum.worldoftanks.eu/index.php?/topic/432265-</devURL>
-            </package>
-            <package>
-              <name>AGQJ Engines by SicFunzler &amp; Fedor Saveliev</name>
-              <zipFile>Sounds_AGQJ_Engines_by_SicFunzler_n_Fedor_Saveliev_Soundbanks_1.5.0.2_2019-05-18.zip</zipFile>
-              <crc>b3213151d195daef92573fc69fa64800</crc>
+              <name>AGQJ Engines by SicFunzler</name>
+              <zipFile>Sounds_AGQJ_Engines_by_SicFunzler_Only_Scripts_V124_1.5.0.4_2019-06-02.zip</zipFile>
+              <crc>77a0fe75f2632a4fa893a000514ace60</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Sounds_AGQJ_Engines_Soundbanks</packageName>
-              <type>single1</type>
+              <packageName>Sounds_AGQJ_Engines_SicFunzler</packageName>
+              <type>single_dropdown1</type>
+              <version>v126=v124</version>
+              <timestamp>131940420589802487</timestamp>
+              <size>7775</size>
+              <description>AGQJ_Engines_Fedor_Saveliev\ndirect link:Engines  (SoundEventInjector)\nhttps://yadi.sk/d/JyTOJmcq3S9bLf\r\n\r\nmaybe confict with WWIIHWA</description>
+              <devURL>http://forum.worldoftanks.eu/index.php?/topic/432265-</devURL>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_Sounds_AGQJ_Engines_Soundbanks</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_PYmodsCore</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_PYmods_SoundEventInjector</packageName>
+                </dependency>
+              </dependencies>
+            </package>
+            <package>
+              <name>AGQJ Engines by Fedor Saveliev</name>
+              <zipFile>Sounds_AGQJ_Engines_by_Fedor_Saveliev_Only_Scripts_1.5.0.2_2019-05-18.zip</zipFile>
+              <crc>2ae9155bc24bfc85e347807919d08b07</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Sounds_AGQJ_Engines_Fedor_Saveliev</packageName>
+              <type>single_dropdown1</type>
               <version>1.5.0.2</version>
               <timestamp>131940420589802487</timestamp>
-              <size>83684915</size>
+              <size>7903</size>
               <description>AGQJ_Engines_Fedor_Saveliev\ndirect link:Engines  (SoundEventInjector)\nhttps://yadi.sk/d/JyTOJmcq3S9bLf\r\n\r\nmaybe confict with WWIIHWA</description>
-              <devURL>http://forum.worldoftanks.eu/index.php?/topic/432265-\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1778752-</devURL>
-              <packages>
-                <package>
-                  <name>AGQJ Engines by SicFunzler</name>
-                  <zipFile>Sounds_AGQJ_Engines_by_SicFunzler_Only_Scripts_V124_1.5.0.4_2019-06-02.zip</zipFile>
-                  <crc>77a0fe75f2632a4fa893a000514ace60</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Sounds_AGQJ_Engines_SicFunzler</packageName>
-                  <type>single_dropdown1</type>
-                  <version>v126=v124</version>
-                  <timestamp>131940420589802487</timestamp>
-                  <size>7775</size>
-                  <devURL>http://forum.worldoftanks.eu/index.php?/topic/432265-</devURL>
-                </package>
-                <package>
-                  <name>AGQJ Engines by Fedor Saveliev</name>
-                  <zipFile>Sounds_AGQJ_Engines_by_Fedor_Saveliev_Only_Scripts_1.5.0.2_2019-05-18.zip</zipFile>
-                  <crc>2ae9155bc24bfc85e347807919d08b07</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Sounds_AGQJ_Engines_Fedor_Saveliev</packageName>
-                  <type>single_dropdown1</type>
-                  <version>1.5.0.2</version>
-                  <timestamp>131940420589802487</timestamp>
-                  <size>7903</size>
-                  <devURL>http://forum.worldoftanks.ru/index.php?/topic/1778752-</devURL>
-                </package>
-              </packages>
+              <devURL>http://forum.worldoftanks.ru/index.php?/topic/1778752-</devURL>
               <dependencies>
+                <dependency>
+                  <packageName>Dependency_Sounds_AGQJ_Engines_Soundbanks</packageName>
+                </dependency>
                 <dependency>
                   <packageName>Dependency_PYmodsCore</packageName>
                 </dependency>
@@ -33442,7 +33439,7 @@
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Sounds_Engines_by_Ed76na+Apa6ecka</packageName>
-              <type>single1</type>
+              <type>single_dropdown1</type>
               <version>1.2.0.1</version>
               <timestamp>131843677273540576</timestamp>
               <size>21658356</size>
@@ -33603,10 +33600,16 @@
               </medias>
               <dependencies>
                 <dependency>
-                  <packageName>Dependency_HRMOD_Guns_n_Engine_SoundsBanks_by_Zorgane</packageName>
+                  <packageName>Dependency_Sounds_Increase_Sound_Memory_512MB</packageName>
                 </dependency>
                 <dependency>
-                  <packageName>Dependency_Sounds_Increase_Sound_Memory_512MB</packageName>
+                  <packageName>Dependency_Sounds_HRMOD_Guns_n_Engine_SoundsBanks_by_Zorgane</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_PYmodsCore</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_PYmods_SoundEventInjector</packageName>
                 </dependency>
               </dependencies>
             </package>
@@ -33624,13 +33627,13 @@
               <devURL>http://forum.worldoftanks.ru/index.php?/topic/1778752-</devURL>
               <dependencies>
                 <dependency>
-                  <packageName>Dependency_AGQJ_Guns_Soundbanks</packageName>
-                </dependency>
-                <dependency>
                   <packageName>Dependency_PYmodsCore</packageName>
                 </dependency>
                 <dependency>
                   <packageName>Dependency_PYmods_SoundEventInjector</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Sounds_AGQJ_Guns_Soundbanks</packageName>
                 </dependency>
               </dependencies>
             </package>
@@ -33649,13 +33652,13 @@
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/432265-</devURL>
               <dependencies>
                 <dependency>
-                  <packageName>Dependency_AGQJ_Guns_Soundbanks</packageName>
-                </dependency>
-                <dependency>
                   <packageName>Dependency_PYmodsCore</packageName>
                 </dependency>
                 <dependency>
                   <packageName>Dependency_PYmods_SoundEventInjector</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_Sounds_AGQJ_Guns_Soundbanks</packageName>
                 </dependency>
               </dependencies>
             </package>
