@@ -126,6 +126,15 @@
       <devURL>https://koreanrandom.com/forum/topic/39885-сборник-py_macro/</devURL>
     </dependency>
     <dependency>
+      <zipFile>Dependecy_XVM_PY_infoPanel_2019-06-24.zip</zipFile>
+      <crc>6036c41413f1c7c6728f3a36637475dc</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_XVM_PY_infoPanel</packageName>
+      <timestamp>132033834565594668</timestamp>
+      <devURL>https://koreanrandom.com/forum/topic/36811-infopanel-средствами-xvm/\r\nhttps://aslain.com/index.php?/topic/12034-xvm-infopanel-configs-for-infopanelpy/</devURL>
+    </dependency>
+    <dependency>
       <zipFile>Dependecy_XVM_PY_sight_2019-06-24.zip</zipFile>
       <crc>109698f1d7191c56a82217aa1e663141</crc>
       <enabled>True</enabled>
@@ -3069,7 +3078,7 @@
               <packages>
                 <package>
                   <name>InfoPanel masheene</name>
-                  <zipFile>XVM_config_builder_InfoPanel_masheenestyle_2019-02-27.zip</zipFile>
+                  <zipFile>XVM_config_builder_InfoPanel_masheenestyle_2019-06-24.zip</zipFile>
                   <crc>25810ad86e06cc82d405b5661ca61da7</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
@@ -3078,6 +3087,7 @@
                   <timestamp>131957763087277221</timestamp>
                   <size>54215</size>
                   <description>shows a tankinfopanel like the oldskool one in IngameInfo</description>
+                  <devURL>https://koreanrandom.com/forum/topic/36811-infopanel-средствами-xvm/\r\nhttps://aslain.com/index.php?/topic/12034-xvm-infopanel-configs-for-infopanelpy/\r\n</devURL>
                   <medias>
                     <media>
                       <type>1</type>
@@ -3086,6 +3096,11 @@
                   </medias>
                 </package>
               </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_XVM_PY_infoPanel</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Minimap Dead Switch</name>
