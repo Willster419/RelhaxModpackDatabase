@@ -135,6 +135,15 @@
       <devURL>https://koreanrandom.com/forum/topic/36811-infopanel-средствами-xvm/\r\nhttps://aslain.com/index.php?/topic/12034-xvm-infopanel-configs-for-infopanelpy/</devURL>
     </dependency>
     <dependency>
+      <zipFile>Dependency_XVM_PY_mod_wn8_chance.py_2019-06-24.zip</zipFile>
+      <crc>6036c41413f1c7c6728f3a36637475dc</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_XVM_PY_mod_wn8_chance</packageName>
+      <timestamp>132033834565594668</timestamp>
+      <devURL>https://koreanrandom.com/forum/topic/42018-team-wn8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9-wn8/?do=findComment&amp;comment=438483</devURL>
+    </dependency>
+    <dependency>
       <zipFile>Dependecy_XVM_PY_sight_2019-06-24.zip</zipFile>
       <crc>109698f1d7191c56a82217aa1e663141</crc>
       <enabled>True</enabled>
@@ -3722,7 +3731,7 @@
               <packages>
                 <package>
                   <name>WN8 Comparison (Standard)</name>
-                  <zipFile>XVM_config_builder_wn8_comparison_2019-02-24.zip</zipFile>
+                  <zipFile>XVMConfigBuilder_wn8_comparison_2019-06-24.zip</zipFile>
                   <crc>43a67eb656a9b0507e45810c38cc1abe</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
@@ -3740,7 +3749,7 @@
                 </package>
                 <package>
                   <name>WN8 Comparison by Slava7572</name>
-                  <zipFile>XVM_config_builder_wn8_comparison_slava7572_2019-02-23.zip</zipFile>
+                  <zipFile>XVMConfigBuilder_wn8_comparison_slava7572_2019-06-24.zip</zipFile>
                   <crc>ef2776a2cd1e91523fd2f9a943f5c73f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
@@ -3757,6 +3766,11 @@
                   </medias>
                 </package>
               </packages>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_XVM_PY_mod_wn8_chance</packageName>
+                </dependency>
+              </dependencies>
             </package>
           </packages>
         </package>
