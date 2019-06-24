@@ -117,6 +117,33 @@
       <devURL>https://koreanrandom.com/forum/topic/37259-</devURL>
     </dependency>
     <dependency>
+      <zipFile>Dependency_XVM_XC_years_2019-06-24.zip</zipFile>
+      <crc>109698f1d7191c56a82217aa1e663141</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_XVM_XC_years</packageName>
+      <timestamp>132033834565594668</timestamp>
+      <devURL>https://koreanrandom.com/forum/topic/37259-</devURL>
+    </dependency>
+    <dependency>
+      <zipFile>Dependency_XVM_XC_hull_2019-06-24.zip</zipFile>
+      <crc>109698f1d7191c56a82217aa1e663141</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_XVM_XC_hull</packageName>
+      <timestamp>132033834565594668</timestamp>
+      <devURL>https://koreanrandom.com/forum/topic/37259-</devURL>
+    </dependency>
+    <dependency>
+      <zipFile>Dependency_XVM_XC_speed_2019-06-24.zip</zipFile>
+      <crc>109698f1d7191c56a82217aa1e663141</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_XVM_XC_speed</packageName>
+      <timestamp>132033834565594668</timestamp>
+      <devURL>https://koreanrandom.com/forum/topic/37259-</devURL>
+    </dependency>
+    <dependency>
       <zipFile>Dependency_night_dragon_on_1.5.1.1_2019-06-16.zip</zipFile>
       <crc>9636d2f3c93c20c7397fc4f4fbf37c75</crc>
       <enabled>True</enabled>
@@ -2888,7 +2915,7 @@
             </package>
             <package>
               <name>Hull-Info by HAWG</name>
-              <zipFile>XVMConfigBuilder_BattleInterface_HullInfo_by_HAWG_2019-06-16.zip</zipFile>
+              <zipFile>XVMConfigBuilder_BattleInterface_HullInfo_by_HAWG_2019-06-24.zip</zipFile>
               <crc>7e421cb1d3e117aee2f4282254930d64</crc>
               <enabled>True</enabled>
               <visible>True</visible>
@@ -2903,6 +2930,11 @@
                   <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Hull.png</URL>
                 </media>
               </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_XVM_XC_hull</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Last Hit Announcer</name>
@@ -3249,7 +3281,7 @@
             </package>
             <package>
               <name>Speed of current tank by HAWG</name>
-              <zipFile>XVMConfigBuilder_BattleInterface_Speed_by_HAWG_2019-06-16.zip</zipFile>
+              <zipFile>XVMConfigBuilder_BattleInterface_Speed_by_HAWG_2019-06-24.zip</zipFile>
               <crc>619f0c05663d18d6df35dbfb3e1f99af</crc>
               <enabled>True</enabled>
               <visible>True</visible>
@@ -3264,6 +3296,11 @@
                   <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Speed.png</URL>
                 </media>
               </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_XVM_XC_speed</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Squadmember Color Change</name>
@@ -6274,7 +6311,7 @@
             </package>
             <package>
               <name>Tank History Informer in Garage by HAWG</name>
-              <zipFile>XVMconfigBuilder_GarageInterface_TankHistoryInformer_by_HAWG_2019-06-18.zip</zipFile>
+              <zipFile>XVMconfigBuilder_GarageInterface_TankHistoryInformer_by_HAWG_2019-06-24.zip</zipFile>
               <crc>cb03609c06e5982032c17c3d80c0951d</crc>
               <enabled>True</enabled>
               <visible>True</visible>
@@ -6293,6 +6330,11 @@
                   <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_GarageInterface_TankHistoryInformer_inbattle.png</URL>
                 </media>
               </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_XVM_XC_years</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Tech Tree free XP convert option</name>
