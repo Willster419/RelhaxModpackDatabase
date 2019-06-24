@@ -108,6 +108,15 @@
       <devURL>https://koreanrandom.com/forum/topic/39885-</devURL>
     </dependency>
     <dependency>
+      <zipFile>Dependency_XVM_PY_borderColor_2019-06-24.zip</zipFile>
+      <crc>109698f1d7191c56a82217aa1e663141</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_XVM_PY_borderColor</packageName>
+      <timestamp>132033834565594668</timestamp>
+      <devURL>https://koreanrandom.com/forum/topic/39885-</devURL>
+    </dependency>
+    <dependency>
       <zipFile>Dependecy_XVM_PY_chancePenetration_2019-06-21.zip</zipFile>
       <crc>109698f1d7191c56a82217aa1e663141</crc>
       <enabled>True</enabled>
@@ -8384,7 +8393,7 @@
         </package>
         <package>
           <name>Bordercolor</name>
-          <zipFile>XVM_config_builder_border_bordercolor.zip</zipFile>
+          <zipFile>XVMConfigBuilder_border_bordercolor_2019-06-24.zip</zipFile>
           <crc>7c75b7df661ea494e175c8c0d33fb53c</crc>
           <enabled>True</enabled>
           <visible>True</visible>
@@ -8484,6 +8493,11 @@
               </medias>
             </package>
           </packages>
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_XVM_PY_borderColor</packageName>
+            </dependency>
+          </dependencies>
         </package>
         <package>
           <name>Battle Chat</name>
