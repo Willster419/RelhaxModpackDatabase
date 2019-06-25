@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Category Name="Statistics">
+  <Package PackageName="Session_Statistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Garage Session Statistics" Type="multi" Visible="True">
+    <Packages>
+      <Package PackageName="Session_Statistics_Awfultanker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session statistics by Awfultanker  (Settings in garage available)" Type="single1" Visible="True">
+        <Size>846321</Size>
+        <Version>1.5.1</Version>
+        <ZipFile>Statistic_Session_Awfultanker_AT_SessionStats_1.5.1_2019-06-15.zip</ZipFile>
+        <CRC>56fd9455f1ecd57de3a0f61b0351e5db</CRC>
+        <Timestamp>131986684572780805</Timestamp>
+        <DevURL>https://awfultanker.torvox.eu/sessionstats.html</DevURL>
+        <Description>Awfultanker Session Stats - based on Locastans Minimal Session Stats\n\nDoes it work with CW?\nAwfultanker: Apparently not. I have never played a CW battle so I didn't know.</Description>
+        <UpdateComment>WG EU Forum URL: http://forum.worldoftanks.eu/index.php?/topic/572573-</UpdateComment>
+        <Medias>
+          <Media URL="https://awfultanker.torvox.eu/images/notification_button_clock.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/notification_button_wn8.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/game_ended.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/battle_result_custom_kv1s.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/battle_result_custom_skoda_t25.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/battle_result_default.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/session_custom_minimal.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/session_classic_english.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/session_default_english.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/tank_main_wn8.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/tank_main_credits.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/tank_selected_default.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/tank_selected_custom1.png" MediaType="Picture" />
+          <Media URL="https://awfultanker.torvox.eu/images/session_setup.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="Session_Statistics_PMOD_stat_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session statistics modifications (pmod)" Type="single1" Visible="True">
+        <Size>997</Size>
+        <ZipFile>pmod_session_stat_enable_patch.zip</ZipFile>
+        <CRC>2e2bb02acc0cbfb586ef9e08334b1e9e</CRC>
+        <Dependencies>
+          <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Packages>
+          <Package PackageName="Session_Statistics_PMOD_default_english" Enabled="True" InstallGroup="4" PatchGroup="4" Name="default" Type="single_dropdown1" Visible="True">
+            <Size>77321</Size>
+            <ZipFile>pmod_session_stat_default_english.zip</ZipFile>
+            <CRC>714ca37a2ef7b0dd2f98ea246e62bf00</CRC>
+          </Package>
+          <Package PackageName="Session_Statistics_PMOD_WorstUnicumEU" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session Statistics by WorstUnicumEU" Type="single_dropdown1" Visible="True">
+            <Size>397968</Size>
+            <ZipFile>pmod_session_stat_WorstUnicumEU.zip</ZipFile>
+            <CRC>688fa9da5f461cf6f58e6385c2f7acd4</CRC>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/591220-</DevURL>
+            <Medias>
+              <Media URL="http://i.imgur.com/oEMO7BZ.png" MediaType="Picture" />
+              <Media URL="http://i.imgur.com/hhF6e0A.png" MediaType="Picture" />
+              <Media URL="http://i.imgur.com/qDxGpCX.png" MediaType="Picture" />
+              <Media URL="http://i.imgur.com/1zJTcVH.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_PMOD_PapaDigi_german" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session Statistics by PapaDigi (german)" Type="single_dropdown1" Visible="True">
+            <Size>1511313</Size>
+            <ZipFile>pmod_session_stat_PapaDigi_german.zip</ZipFile>
+            <CRC>36db79eec17c7c80df1113bc59a77ebe</CRC>
+            <Medias>
+              <Media URL="http://fs1.directupload.net/images/150530/4za5yvuv.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170713/9j6mc8n2.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_PMOD_Masheene_german" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session Statistics by Masheene (german)" Type="single_dropdown1" Visible="True">
+            <Size>1645965</Size>
+            <ZipFile>PMOD_Session_Stat_Masheene_german_2017-12-18.zip</ZipFile>
+            <CRC>b0bd34123719954ba4fa8aa4ab127b56</CRC>
+            <Timestamp>131580716613855964</Timestamp>
+            <Medias>
+              <Media URL="http://s14.directupload.net/images/141011/pcsl3js7.jpg" MediaType="Picture" />
+              <Media URL="http://s14.directupload.net/images/141011/dqjdbt2q.jpg" MediaType="Picture" />
+              <Media URL="http://s14.directupload.net/images/141011/q3kenypc.jpg" MediaType="Picture" />
+              <Media URL="http://s14.directupload.net/images/141011/vb28v42t.jpg" MediaType="Picture" />
+              <Media URL="http://s14.directupload.net/images/141011/gim4qlpe.jpg" MediaType="Picture" />
+              <Media URL="http://s14.directupload.net/images/141011/qtpaqc22.jpg" MediaType="Picture" />
+              <Media URL="http://s14.directupload.net/images/141011/37jseuxl.jpg" MediaType="Picture" />
+              <Media URL="http://s14.directupload.net/images/141011/j2zstg7l.jpg" MediaType="Picture" />
+              <Media URL="http://s14.directupload.net/images/141011/87nnznon.jpg" MediaType="Picture" />
+              <Media URL="http://s14.directupload.net/images/141011/rr436tnu.jpg" MediaType="Picture" />
+              <Media URL="http://s14.directupload.net/images/141011/x62pidol.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Session_Statistics_Ragnastats" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session Statistics by Ragnarocek" Type="single1" Visible="True">
+        <Size>931145</Size>
+        <ZipFile>Session_Statistics_Ragnastats_Extended_BASE_1.5.0.4_2019-05-29.zip</ZipFile>
+        <CRC>63a09cbc738b75c0f3d17ff342fd1283</CRC>
+        <Timestamp>132000746094921455</Timestamp>
+        <DevURL>https://wgmods.net/62/details</DevURL>
+        <Medias>
+          <Media URL="https://wgmods.net/media/cz_general.png.ed98f10edb8bd409234561169e1f7733.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/GP1FzBe.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/no_battles.png.ed49782056d86b6f202a5bc7905bce69.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/mod_files/eng.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/mod_files/pl.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+        </Medias>
+        <Packages>
+          <Package PackageName="Session_Statistics_Ragnastats_Czech" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Czech" Type="single_dropdown1" Visible="True">
+            <Size>4557</Size>
+            <ZipFile>Session_Statistics_Ragnastats_Extended_CZ_2019-05-02.zip</ZipFile>
+            <CRC>703d3726f75203ebbf6c08cc3631ae3f</CRC>
+            <Timestamp>132000747793880266</Timestamp>
+            <UserFiles>
+              <UserFile Pattern="\\mods\\configs\\wotstat\\cache.json" />
+            </UserFiles>
+          </Package>
+          <Package PackageName="Session_Statistics_Ragnastats_English" Enabled="True" InstallGroup="4" PatchGroup="4" Name="English" Type="single_dropdown1" Visible="True">
+            <Size>4435</Size>
+            <ZipFile>Session_Statistics_Ragnastats_Extended_EN_2019-05-02.zip</ZipFile>
+            <CRC>8c37197e713d81efb7f749ac2b34d450</CRC>
+            <Timestamp>132000746777770700</Timestamp>
+            <UserFiles>
+              <UserFile Pattern="\\mods\\configs\\wotstat\\cache.json" />
+            </UserFiles>
+          </Package>
+          <Package PackageName="Session_Statistics_Ragnastats_Polish" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Polish" Type="single_dropdown1" Visible="True">
+            <Size>4544</Size>
+            <ZipFile>Session_Statistics_Ragnastats_Extended_PL_2019-05-02.zip</ZipFile>
+            <CRC>c93d47ecf785d95ef94be21895a4937c</CRC>
+            <Timestamp>132000748755686735</Timestamp>
+            <UserFiles>
+              <UserFile Pattern="\\mods\\configs\\wotstat\\cache.json" />
+            </UserFiles>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Session_Statistics_Time_Spent_Base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session statistics Time Spent v{version} by ShuraBB" Type="single1" Visible="True">
+        <Size>146149</Size>
+        <Version>3.91</Version>
+        <ZipFile>Statistic_Session_Time_Spent_Base_v3.91_1.5.1.0_2019-06-12.zip</ZipFile>
+        <CRC>d703e70ba947199ac520b9c68bf871df</CRC>
+        <Timestamp>132013045927383295</Timestamp>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/588679-</DevURL>
+        <Description>&gt;How do i change language of the Mod ingame? Post 248\r\nThe language is selected automatically by the client language. If the skin has no translation into the current language will be used EN version, and if not RU\r\n\r\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
+        <UpdateComment>3.83_2018-12-18\nFixed a bug not taking into account the experience of the New year's action.</UpdateComment>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_base_7.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_base_6.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_base_5.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_base_4.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_base_3.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_base_2.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_base_1.png" MediaType="Picture" />
+        </Medias>
+        <UserFiles>
+          <UserFile Pattern="\res_mods\configs\BBMods\Statistic_*.json" />
+        </UserFiles>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Packages>
+          <Package PackageName="Session_Statistics_Time_Spent_bes_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from _bes_1 (languages: RU)" Type="single_dropdown1" Visible="True">
+            <Size>7329635</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_bes_1_1.5.0.2_2019-05-17.zip</ZipFile>
+            <CRC>40a461a01535d1fa70602d6e3931c78f</CRC>
+            <Timestamp>131939480365434627</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/38145-тема-для-выкладывания-скинов-для-мода-статистики-потерянное-время/?tab=comments#comment-385489</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/bes_1_config/1.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/bes_1_config/2.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/bes_1_config/3.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/bes_1_config/4.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/bes_1_config/5.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/bes_1_config/6.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/bes_1_config/1.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_2rokk" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from 2rokk (languages: RU)" Type="single_dropdown1" Visible="True">
+            <Size>3246017</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_2rokk.zip</ZipFile>
+            <CRC>6e6d355ed66e53d6d81e57c254e0c77b</CRC>
+            <Timestamp>131939480620878848</Timestamp>
+            <Medias>
+              <Media URL="https://koreanrandom.com/forum/uploads/monthly_04_2017/post-4864-0-42522600-1492003924.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_Default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Basic skin (languages: RU)" Type="single_dropdown1" Visible="True">
+            <Size>1937</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Default.zip</ZipFile>
+            <CRC>06a6951b12ed169c8f46cd1eca09808a</CRC>
+            <Timestamp>131939480758717223</Timestamp>
+            <Description>Mod is able to collect and display the following statistics in the system channel:\n\tCredit statistics;\n\tStatistics of experience;\n\tDamage statistics;\n\tStatistics expenses;\n\tStatistics bonuses from reserves;\n\tStatistics penalties;\n\ttime statistics;\n\tStatistics combat effectiveness;\n\tRatings combat effectiveness (WGR, EFF, BS, WN6, WN7, WN8, WN8KTTC, BR);\n\tDetailed statistics of the last battle;\n\tStatistics Account at the beginning of the session;\n\tThe impact of the current session on the account;</Description>
+            <Medias>
+              <Media URL="http://bb-t.ru/bbmods/timespent01.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_Armagomen" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Armagomen (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+            <Size>53729</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Armagomen_1.5.0.2_2019-05-17.zip</ZipFile>
+            <CRC>c95d54e77b7f0d7e162f8ad108da4a11</CRC>
+            <Timestamp>131939481095646834</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Armagomen_Ger.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_EZorg" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from EZorg (languages: RU,EN,DE,FR,PL)" Type="single_dropdown1" Visible="True">
+            <Size>115475</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_EZorg.zip</ZipFile>
+            <CRC>740d3d2f00f29761442e5a7bbd65b268</CRC>
+            <Timestamp>131939481213724549</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_EZorg_Ger.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_Kapany3uk_3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Kapany3uk v.#3 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+            <Size>2470919</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Kapany3uk_3_1.5.0.4_2019-05-24.zip</ZipFile>
+            <CRC>5c32e2cff6bd52b9452c2e2bbd50717d</CRC>
+            <Timestamp>131939482186396160</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/Kapany3uk_config/Statistic_Session_Time_Spent_Kapany3uk_1.4.0.0_2019-02-05.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/Kapany3uk_config/Kapany3uk_string_of_achievements_in_the_normal_window_Combat_Results.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Kapany3uk.jpg" MediaType="Picture" />
+              <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-24956-0-66622100-1499729196.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_Kapany3uk_4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Kapany3uk v.#4 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+            <Size>2526075</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Kapany3uk_4_1.5.0.4_2019-05-24.zip</ZipFile>
+            <CRC>77aee5f4679db3ea97b1f719a6412688</CRC>
+            <Timestamp>131939481972677921</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/Kapany3uk_config/Statistic_Session_Time_Spent_Kapany3uk_1.4.0.0_2019-02-05.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/Kapany3uk_config/Kapany3uk_string_of_achievements_in_the_normal_window_Combat_Results.jpg" MediaType="Picture" />
+              <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-24956-0-44054500-1499729208.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_Kapany3uk_5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Kapany3uk v.#5 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+            <Size>2526874</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Kapany3uk_5_1.5.0.4_2019-05-24.zip</ZipFile>
+            <CRC>262df5f3f4c21e8fcdf5e23f1c689cd8</CRC>
+            <Timestamp>131939481832748898</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/Kapany3uk_config/Statistic_Session_Time_Spent_Kapany3uk_1.4.0.0_2019-02-05.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/Kapany3uk_config/Kapany3uk_string_of_achievements_in_the_normal_window_Combat_Results.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Kapany3uk_5_Ger.jpg" MediaType="Picture" />
+              <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-24956-0-19127200-1501027171.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_Lite" Enabled="True" InstallGroup="4" PatchGroup="4" Name="A very simple skin (languages: RU,EN,DE,FR,PL,HU)" Type="single_dropdown1" Visible="True">
+            <Size>1944</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Lite.zip</ZipFile>
+            <CRC>6601336088591b97868567f28e810500</CRC>
+            <Timestamp>131939482349035739</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_Lite2.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_Lite.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_TimeSpent_Magistr_Full" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Magistr (Full) (languages: RU,EN,DE,FR,PL,HU,UK,CS)" Type="single_dropdown1" Visible="True">
+            <Size>38552</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Magistr_FullF_1.5.0.2_2019-05-17.zip</ZipFile>
+            <CRC>b91610fd1bc9b8cc5a9c706b0c6e4da2</CRC>
+            <Timestamp>131939482659487728</Timestamp>
+          </Package>
+          <Package PackageName="Session_Statistics_TimeSpent_Magistr_Mini" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Magistr (Mini) (languages: RU,EN,DE,FR,PL,HU,UK,CS)" Type="single_dropdown1" Visible="True">
+            <Size>38557</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Magistr_MiniM_1.5.0.2_2019-05-17.zip</ZipFile>
+            <CRC>67e201d5c994963797f5820723395bdd</CRC>
+            <Timestamp>131939482659487728</Timestamp>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_M1kE_NRG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from M1kE_NRG (languages: RU)" Type="single_dropdown1" Visible="True">
+            <Size>799563</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_M1kE_NRG.zip</ZipFile>
+            <CRC>c6bbb4e00466917e6c654942fd7b2540</CRC>
+            <Timestamp>131939482659487728</Timestamp>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_mcg00_en" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from mcg00 (EN)" Type="single_dropdown1" Visible="True">
+            <Size>123615</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_mcg00_eng.zip</ZipFile>
+            <CRC>e63d780e2806f2c49b1de32d50fc9246</CRC>
+            <Timestamp>131939482873100024</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_mcg00.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_mcg00_de" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from mcg00 (DE)" Type="single_dropdown1" Visible="True">
+            <Size>123621</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_mcg00_de.zip</ZipFile>
+            <CRC>753dcee95253deba5aff95d665742a56</CRC>
+            <Timestamp>131939482975528741</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_mcg00.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_Minimalistic" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin Minimalistic (languages: RU,EN,DE,FR,PL,HU)" Type="single_dropdown1" Visible="True">
+            <Size>1951</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Minimalistic.zip</ZipFile>
+            <CRC>8ac377a4dad1cc39b31870b9d9bc9f49</CRC>
+            <Timestamp>131939483105757956</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Minimalistic.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_MODER_Team" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from MODER Team (languages: RU)" Type="single_dropdown1" Visible="True">
+            <Size>264254</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_MODER_Team.zip</ZipFile>
+            <CRC>0f65fa958e82f72bc2a5dc12be4a279f</CRC>
+            <Timestamp>131939483252849343</Timestamp>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_NooBooL" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from NooBooL (languages: RU)" Type="single_dropdown1" Visible="True">
+            <Size>1576225</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_config_NooBooL_1.5.0.2_2019-05-17.zip</ZipFile>
+            <CRC>bfe29ac49ae1d83201f1dc15a41f7639</CRC>
+            <Timestamp>131939483445125196</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/38145-тема-для-выкладывания-скинов-для-мода-статистики-потерянное-время/?tab=comments#comment-383351</DevURL>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_professors" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from professors (languages: RU)" Type="single_dropdown1" Visible="True">
+            <Size>514804</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_professors_1.5.0.2_2019-05-17.zip</ZipFile>
+            <CRC>75d7e59d0dd46be7a122d254e4fa3b52</CRC>
+            <Timestamp>131939483755457103</Timestamp>
+            <Medias>
+              <Media URL="https://koreanrandom.com/forum/uploads/monthly_06_2017/post-22753-0-39218600-1497873981.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_Simple" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Simplified skin (languages: RU,EN,DE,FR,PL,HU)" Type="single_dropdown1" Visible="True">
+            <Size>1940</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Simple.zip</ZipFile>
+            <CRC>d96bc06b82819459f9ad57b0114eed92</CRC>
+            <Timestamp>131939483872804642</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Simple.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_wlad1164" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from wlad1164 (languages: RU)" Type="single_dropdown1" Visible="True">
+            <Size>1080717</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_wlad1164.zip</ZipFile>
+            <CRC>c7df88f62f53b3cc06662570396021a2</CRC>
+            <Timestamp>131939484032552831</Timestamp>
+            <Medias>
+              <Media URL="https://koreanrandom.com/forum/uploads/monthly_03_2017/post-6635-0-03282700-1489960437_thumb.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_Xotabych" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Xotabych (languages: RU,EN)" Type="single_dropdown1" Visible="True">
+            <Size>12630902</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Xotabych_10_1.5.0.4_2019-05-24.zip</ZipFile>
+            <CRC>e607de3ef1c2d8f31d71751f33820482</CRC>
+            <Timestamp>131939484310371693</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/38145-тема-для-выкладывания-скинов-для-мода-статистики-потерянное-время/?tab=comments#comment-383356</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/config_Xotabych/config_Xotabych_10.0_1.gif" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/config_Xotabych/config_Xotabych_10.0_2.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/config_Xotabych/config_Xotabych_10.0_3.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/config_Xotabych/config_Xotabych_10.0_4.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/config_Xotabych/config_Xotabych_10.0_5.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Xotabych_2.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Xotabych_1.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_Xotabych_Result_Armagomen" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Xotabych v2 (languages: RU,EN)" Type="single_dropdown1" Visible="True">
+            <Size>12630904</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Xotabych_10_Result_Armagomen_1.5.0.4_2019-05-24.zip</ZipFile>
+            <CRC>b04f08d49153c1e4e0722fcf81790383</CRC>
+            <Timestamp>131939484448316245</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/38145-тема-для-выкладывания-скинов-для-мода-статистики-потерянное-время/?tab=comments#comment-383356</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/config_Xotabych/config_Xotabych_10.0_1.gif" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/config_Xotabych/config_Xotabych_10.0_2.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/config_Xotabych/config_Xotabych_10.0_3.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/config_Xotabych/config_Xotabych_10.0_4.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/config_Xotabych/config_Xotabych_10.0_5.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Xotabych_Result_Armagomen_2.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Xotabych_Result_Armagomen_1.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_v1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen v1 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+            <Size>310664</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_YasenKrasen_v1_1.5.0.2_2019-05-17.zip</ZipFile>
+            <CRC>7b1aa599628a194a76e7e37149f1c16f</CRC>
+            <Timestamp>131939484598106919</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_YasenKrasen_v1.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_v2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen v2 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+            <Size>310664</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_YasenKrasen_v2_1.5.0.2_2019-05-17.zip</ZipFile>
+            <CRC>674a12f459a900606c092736befd2088</CRC>
+            <Timestamp>131939484718585499</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_YasenKrasen_v2.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_v3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen v3 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+            <Size>310664</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_YasenKrasen_v3_1.5.0.2_2019-05-17.zip</ZipFile>
+            <CRC>6f5974aae0c9cab3854a021c3a0b54b9</CRC>
+            <Timestamp>131939484858448857</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_YasenKrasen_v3.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_Vanilla" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen Vanilla (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+            <Size>310669</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_YasenKrasen_Vanilla_1.5.0.2_2019-05-17.zip</ZipFile>
+            <CRC>b3d6b87ea17c58c961d0a5cd14881a6b</CRC>
+            <Timestamp>131939484987865297</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_YasenKrasen_vanilla.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_Zero" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Zero (languages: RU,EN,DE,FR,PL,HU,UK)" Type="single_dropdown1" Visible="True">
+            <Size>1945</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Zero.zip</ZipFile>
+            <CRC>f3e8323b8383c2678e6e725917fe68ac</CRC>
+            <Timestamp>131939485125803290</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_Zero.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Session_Statistics_Tomonik_Base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session Statistics by Tomonik v{version}" Type="single1" Visible="True">
+        <Size>343292</Size>
+        <Version>1.4.1.1</Version>
+        <ZipFile>Session_Statistics_Tomonik_Base_1.4.1.1_2019-04-07.zip</ZipFile>
+        <CRC>3d414b9f496f12c29b4cd42f836cd579</CRC>
+        <Timestamp>131939464128307776</Timestamp>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/572771-</DevURL>
+        <Description>Shows your statistics for your tanks session in the notifications area of your garage \nGerman modified Version by dirty20067</Description>
+        <UpdateComment>2019-01-15: updated xvmscales.json &amp; expected_tank_values.json \n                   \n2018-11-17: only expected_tank_values.json updated\n\n\n[0.9.22.0.1].r01   (14-02-2018) - Updated for 0.9.22.0.1.\n- New macros added:\n        {{bonds}}, {{totalDamageBlocked}}, {{avgBonds}}, {{avgDamageBlocked}}.\n- Cache version changed from 6 to 7. Older cache files are no longer valid.</UpdateComment>
+        <UserFiles>
+          <UserFile Pattern="\\res_mods\\configs\\wotstat\\cache.json" />
+        </UserFiles>
+        <Packages>
+          <Package PackageName="Session_Statistics_Tomonik_english_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="English" Type="single_dropdown1" Visible="True">
+            <Description>by Tomonik</Description>
+            <Medias>
+              <Media URL="http://i.imgur.com/UOiwa7n.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Tomonik_dirty_german" Enabled="True" InstallGroup="4" PatchGroup="4" Name="German modified Version by dirty20067" Type="single_dropdown1" Visible="True">
+            <Size>6592</Size>
+            <ZipFile>Session_Statistics_Tomonik_German_dirty20067_2019_02_06.zip</ZipFile>
+            <CRC>9197391391183be7dfc670da2d2cc422</CRC>
+            <Timestamp>131939466974698896</Timestamp>
+            <Description>German modified Version by dirty20067</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_Tomonik_German_dirty20067_1.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_Tomonik_German_dirty20067_2.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_Tomonik_German_dirty20067_3.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_Tomonik_German_dirty20067_4.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_Tomonik_German_dirty20067_5.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Tomonik_Pupsvogel_german" Enabled="True" InstallGroup="4" PatchGroup="4" Name="German by Pupsvogel" Type="single_dropdown1" Visible="True">
+            <Size>6753</Size>
+            <ZipFile>Session_Statistics_Tomonik_German_Pupsvogel+skite2001(post466)_NoDaily_Reset_1.4.1.1_2019-03-31.zip</ZipFile>
+            <CRC>783b9e9b5678c580e6e09504d0eb095a</CRC>
+            <Timestamp>131985120831195687</Timestamp>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/572771-091902-session-statistics-and-battle-result-messages/page__st__180__pid__14394641#entry14394641</DevURL>
+            <Description>2017-09-06 + 2017-09-07:\nSchriftzüge, Wappen, Ignore und Sprach-Ignore Messages ausgeblendet \nstrokes, coat of arms, Ignore and language-Ignore Messages hidden</Description>
+            <UpdateComment>2019-03-30: Thx skite2001 / Danke skite2001 \n07.02.2018 Config_r05.zip Update für Mod Version 0.9.22.0_r01.zip</UpdateComment>
+            <Medias>
+              <Media URL="http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_06_2017/post-510659071-0-18797000-1497112690.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Tomonik_igorek_polish" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Polish by Igorek" Type="single_dropdown1" Visible="True">
+            <Size>6484</Size>
+            <ZipFile>Session_Statistics_Tomonik_Polish_Igorek_2017-11-05.zip</ZipFile>
+            <CRC>5712c0a920d61d65039a468b9f5a427b</CRC>
+            <Timestamp>131939467380769507</Timestamp>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/572771-091902-session-statistics-and-battle-result-messages/page__st__60__pid__13303503#entry13303503</DevURL>
+          </Package>
+          <Package PackageName="Session_Statistics_Tomonik_Daily_Reset" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Daily Reset" Type="multi" Visible="True">
+            <Size>474</Size>
+            <ZipFile>Session_Statistics_Tomonik_Daily_Reset_2019_02_06.zip</ZipFile>
+            <CRC>93d09dcc82076d07876f4edd47936760</CRC>
+            <Timestamp>131939467557287913</Timestamp>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Session_Statistics_YK" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen session statistics v{version}" Type="single1" Visible="True">
+        <Version>1.5.1</Version>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/583433-</DevURL>
+        <Description>NOTE: To maintain language neutrality, the in-game messages are not in color\nShows your statistics for your tanks session in the notifications area of your garage</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_eng.jpg" MediaType="Picture" />
+        </Medias>
+        <UserFiles>
+          <UserFile Pattern="\\mods\\configs\\yk-stats\\cache.json" />
+        </UserFiles>
+        <Packages>
+          <Package PackageName="Session_Statistics_YK_mini" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Base" Type="single_dropdown1" Visible="True">
+            <Size>694954</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_Base_1.5.1.1_2019-06-22.zip</ZipFile>
+            <CRC>198698e416221cd268c553fdc90b0301</CRC>
+            <Timestamp>132033409605492977</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Mini_eng.jpg" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_YK-Stats_BaseConfigFiles" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_Vanilla" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Vanilla" Type="single_dropdown1" Visible="True">
+            <Size>694954</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_Vanilla_1.5.1.1_2019-06-22.zip</ZipFile>
+            <CRC>c0275379abb42895dc5fa20190d7d58e</CRC>
+            <Timestamp>132033412776651445</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Vanilla_eng.jpg" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_YK-Stats_BaseConfigFiles" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_Core" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Core" Type="single_dropdown1" Visible="True">
+            <Size>694954</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_Core_1.5.1.1_2019-06-22.zip</ZipFile>
+            <CRC>0db4dcf98cdff05c5e34bbc99be033b4</CRC>
+            <Timestamp>132033388053829088</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Core_eng.jpg" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_YK-Stats_BaseConfigFiles" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_background" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Background" Type="multi" Visible="True">
+            <Version>1.5.0.4=1.4.1.0</Version>
+            <UpdateComment>pictures not really need updates! if you want to have more work - feel free to update it ;)</UpdateComment>
+            <Packages>
+              <Package PackageName="Session_Statistics_YK_background_v1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V1" Type="single_dropdown1" Visible="True">
+                <Size>405178</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V1_1.4.1_2019-03-24.zip</ZipFile>
+                <CRC>cdf78369db743f1168973c09fe923645</CRC>
+                <Timestamp>131979307013269449</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V1_eng.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_background_v2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V2" Type="single_dropdown1" Visible="True">
+                <Size>515634</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V2_1.4.1_2019-03-24.zip</ZipFile>
+                <CRC>6481fa9c7b552951c058194d8d10dfa9</CRC>
+                <Timestamp>131979306875517861</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V2_eng.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_background_v3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V3" Type="single_dropdown1" Visible="True">
+                <Size>381358</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V3_1.4.1_2019-03-24.zip</ZipFile>
+                <CRC>57913616ab8615362ec35e6af8469ff8</CRC>
+                <Timestamp>131979306778208111</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V3_eng.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_background_v4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V4" Type="single_dropdown1" Visible="True">
+                <Size>1388153</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V4_1.4.1_2019-03-24.zip</ZipFile>
+                <CRC>5ae971940643d8e7cee7cc60d12a5a60</CRC>
+                <Timestamp>131979306663963639</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V4_eng.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_background_v5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V5" Type="single_dropdown1" Visible="True">
+                <Size>1904606</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V5_1.4.1_2019-03-24.zip</ZipFile>
+                <CRC>b4491fda8e2e5477ca696f7c36e2431a</CRC>
+                <Timestamp>131979306564529575</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V5_eng.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_default_english" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Default English" Type="single_dropdown2" Visible="True">
+            <Size>3603</Size>
+            <Timestamp>131542717093817752</Timestamp>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_TankSchmidt_english" Enabled="True" InstallGroup="4" PatchGroup="4" Name="TankSchmidt DaStats (English)" Type="single_dropdown2" Visible="True">
+            <Size>5379</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_TankSchmidt_DaStats_english_1.5.0_2019-05-02.zip</ZipFile>
+            <CRC>1d42dbf351f66ef4fd735e77e269ce56</CRC>
+            <Timestamp>131953067002177462</Timestamp>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/583433-091902-yasenkrasen-colored-messages-session-statistics-eng-08062017/page__st__140__pid__13500665#entry13500665</DevURL>
+            <Description>Note: Mini recommended; No Update check, added assistance damage and crew XP</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats1-3.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats2-3.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats3-3.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_default_german" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Default German (Standard Deutsch)" Type="single_dropdown2" Visible="False">
+            <Size>4023</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_german_base_core_config_2018-06-17.zip</ZipFile>
+            <CRC>e2bda1c255c003f326dfa217318621df</CRC>
+            <Timestamp>131737409078581103</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V1_ger_1-2.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V1_ger_2-2.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_TankSchmidt_German" Enabled="False" InstallGroup="4" PatchGroup="4" Name="TankSchmidt DaStats (German)" Type="single_dropdown2" Visible="False">
+            <Size>5240</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_TankSchmidt_DaStats_german_2018-08-15.zip</ZipFile>
+            <CRC>e558e01d4c3255258d9e91a0634308e2</CRC>
+            <Timestamp>131788075416000898</Timestamp>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/583433-091902-yasenkrasen-colored-messages-session-statistics-eng-08062017/page__st__140__pid__13500665#entry13500665</DevURL>
+            <Description>Hinweis: Mini Version empfohlen, ohne Update check, mit Unterstützungsschaden und Besatzungserfahrung</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats091902-a_German1-3.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats091902-a_German2-3.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats091902-a_German3-3.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_Graphical" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Graphical" Type="single_dropdown2" Visible="True">
+            <Size>247114</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_Graphical_1.5.1.1_2019-06-20.zip</ZipFile>
+            <CRC>aa3c176c776a62659a7aebd2dc3914df</CRC>
+            <Timestamp>132033393077702373</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_useParametersPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Show stats on parameters panel" Type="multi" Visible="True">
+            <Size>506</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_useParametersPanel_2018-08-10.zip</ZipFile>
+            <CRC>eb5761e2a6609c9c51f89a0e3dcf9091</CRC>
+            <Timestamp>131783655647518120</Timestamp>
+            <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/Statistic_Session_YK_useParametersPanel.png" MediaType="Picture" />
+            </Medias>
+            <Packages>
+              <Package PackageName="Statistic_Session_YK_useParametersPanel_Tank" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Current Vehicle" Type="multi" Visible="False">
+                <Size>474</Size>
+                <ZipFile>Statistic_Session_YK_useParametersPanel_Tank_1.5.0.4_2019-06-07.zip</ZipFile>
+                <CRC>abd571094ca1b40dd783bfa91685f43d</CRC>
+                <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
+              </Package>
+              <Package PackageName="Statistic_Session_YK_useParametersPanel_Research" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Show Research Watchdog" Type="multi" Visible="False">
+                <Size>478</Size>
+                <ZipFile>Statistic_Session_YK_useParametersPanel_Research_1.5.0.4_2019-06-07.zip</ZipFile>
+                <CRC>4f714667f1dc05e92a61386c84856582</CRC>
+                <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_Daily_Reset" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Daily Reset" Type="multi" Visible="True">
+            <Size>471</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_Daily_Reset_2017_05_11.zip</ZipFile>
+            <CRC>55e568599a979b3b4d7e07f9c7d6ce56</CRC>
+            <Timestamp>131879648393714150</Timestamp>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_Colored_Messages" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Colored Messages (sets client language to english)" Type="multi" Visible="True">
+            <Size>2603882</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_Colored_Messages_1.5.1.1_2019-06-20.zip</ZipFile>
+            <CRC>79782ea6cc590887d3bf46bea819f44b</CRC>
+            <Timestamp>131990406078544585</Timestamp>
+            <UpdateComment>take from Core (5,5MB), not Vanilla</UpdateComment>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_Skulls" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Kill Skulls" Type="multi" Visible="True">
+            <Size>18209</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_Ingame_Skulls_1.5.1.1_2019-06-20.zip</ZipFile>
+            <CRC>40a4bd842cd6ce6f275d094c9b544869</CRC>
+            <Timestamp>132033392182144048</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_3.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_4.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+        </Packages>
+      </Package>
+    </Packages>
+  </Package>
+</Category>

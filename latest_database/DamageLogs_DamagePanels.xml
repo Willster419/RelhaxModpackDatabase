@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Category Name="Damage Logs/Damage Panels">
+  <Package PackageName="Damage_Logs" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Logs" Type="multi" Visible="True">
+    <Description>Damage Logs create a list of taken damage. \nIn the list you find detailed information about who was shooting at you and how much HP these shots have taken from you.\n\nWe provide you some fine configurations with different layouts and colors, but you have to figure out yourself which one fits best to the rest of your installed modifications.</Description>
+    <Dependencies>
+      <Dependency PackageName="Dependency_XVM_damage_log_disable" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Packages>
+      <Package PackageName="Damage_Logs_GambitER_base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="GambitER" Type="single1" Visible="True">
+        <Size>181546</Size>
+        <ZipFile>Damage_Logs_by_GambitER_base_1.5.1.1_2019-06-22.zip</ZipFile>
+        <CRC>621e21598351a6adb64a7fd567ccb9d1</CRC>
+        <Timestamp>131974720265828005</Timestamp>
+        <DevURL>http://wotsite.net/paneli-povrezhdenij/3109-</DevURL>
+        <Medias>
+          <Media URL="http://wotsite.net/images/2014/1/21/1.jpg" MediaType="Picture" />
+          <Media URL="http://wotsite.net/images/2014/2/18/1.gif" MediaType="Picture" />
+          <Media URL="http://s017.radikal.ru/i443/1505/e0/ed51e309393c.gif" MediaType="Picture" />
+          <Media URL="https://youtu.be/zoNNtMH_V_U?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_Fonts_10_ZurichCond" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Fonts_DamageLog" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Packages>
+          <Package PackageName="Damage_Logs_GambitER_KobkaG_config" Enabled="True" InstallGroup="4" PatchGroup="4" Name="config from KobkaG" Type="single_dropdown1" Visible="True">
+            <Size>11300</Size>
+            <ZipFile>Damage_Logs_GambitER_KobkaG_cfg_1.0.0_2018-03-26.zip</ZipFile>
+            <CRC>409fc16d719cfeaa29dbe1dd801dbf86</CRC>
+            <Timestamp>131877247061888162</Timestamp>
+            <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</DevURL>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_Kornet_WA_config" Enabled="True" InstallGroup="4" PatchGroup="4" Name="config from Kornet_WA" Type="single_dropdown1" Visible="True">
+            <Size>26654</Size>
+            <ZipFile>Damage_Logs_GambitER_Kornet_WA_cfg_1.0.0_2018-11-26.zip</ZipFile>
+            <CRC>80fe5d6bf41c7fad9660f1f663f8cbfe</CRC>
+            <Timestamp>131877244763622151</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/3109-panel-povrezhdenij-damage-panel-dlya-071.html</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Logs/Damage_Logs_GambitER_Damage_Log_Kornet.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_maks5189_config_v1" Enabled="False" InstallGroup="4" PatchGroup="4" Name="config from maks5189_v1" Type="single_dropdown1" Visible="False">
+            <Size>129431</Size>
+            <ZipFile>Damage_Logs_GambitER_maks5189_cfg_v1_1.0.0_2018-11-26.zip</ZipFile>
+            <CRC>fd70976af27584faaf4d9d1a92aa5af2</CRC>
+            <Timestamp>131877245281193955</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/3109-panel-povrezhdenij-damage-panel-dlya-071.html</DevURL>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_maks5189_config_v2" Enabled="False" InstallGroup="4" PatchGroup="4" Name="config from maks5189 v2" Type="single_dropdown1" Visible="False">
+            <Size>155471</Size>
+            <ZipFile>Damage_Logs_GambitER_maks5189_cfg_v2_1.0.0_2018-11-26.zip</ZipFile>
+            <CRC>e732c176b20b7cf8610a3666522bd02d</CRC>
+            <Timestamp>131877245427702223</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/3109-panel-povrezhdenij-damage-panel-dlya-071.html</DevURL>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_daemon2597_config" Enabled="True" InstallGroup="4" PatchGroup="4" Name="config from daemon2597" Type="single_dropdown1" Visible="False">
+            <Size>66697</Size>
+            <ZipFile>Damage_Logs_GambitER_daemon2597_cfg_1.0.0_2019-05-01.zip</ZipFile>
+            <CRC>4dabe5ebfa3dc104391e13cdb5b50568</CRC>
+            <Timestamp>131877244944763519</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/3109-panel-povrezhdenij-damage-panel-dlya-071.html</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Logs/Damage_Logs_GambitER_Damage_Log_daemon2597.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_OMC_config" Enabled="True" InstallGroup="4" PatchGroup="4" Name="config from OMC" Type="single_dropdown1" Visible="True">
+            <Size>11398</Size>
+            <ZipFile>Damage_Logs_GambitER_OMC_config_2018-05-05.zip</ZipFile>
+            <CRC>3abd5ed6e5edcdc2cb2de91f2d8b3f6a</CRC>
+            <Timestamp>131877248231111970</Timestamp>
+            <Description>press right alt to see the player name</Description>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_damage_panel_XFT_Integrated" Enabled="False" InstallGroup="4" PatchGroup="4" Name="config from XFT with integrated hitlog (xvm needed for hitlog)" Type="single_dropdown1" Visible="False">
+            <Size>14074</Size>
+            <ZipFile>Damage_Logs_GambitER_XFT_Integrated_config_2017-08-30.zip</ZipFile>
+            <CRC>f16c42c4c4fd5bf85e6ff0321374989b</CRC>
+            <Timestamp>131877248931554163</Timestamp>
+            <Description>Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</Description>
+            <Medias>
+              <Media URL="http://i.imgur.com/pjkRzWn.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_damage_panel_XFT_Split" Enabled="True" InstallGroup="4" PatchGroup="4" Name="config from XFT with hitlog on top (xvm needed for hitlog)" Type="single_dropdown1" Visible="True">
+            <Size>15334</Size>
+            <ZipFile>Damage_Logs_GambitER_XFT_Split_configs_2018-05-05.zip</ZipFile>
+            <CRC>452dd0d4c477511a31390e4ff57cba5c</CRC>
+            <Timestamp>131877249073135610</Timestamp>
+            <Description>Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</Description>
+          </Package>
+          <Package PackageName="Damage_Logs_GambitER_panel_XFT_messages_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="damage messages" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="Damage_Logs_GambitER_panel_move_damage_messages_center" Enabled="True" InstallGroup="4" PatchGroup="4" Name="move damage messages to center" Type="single_dropdown1" Visible="True">
+                <Size>3474</Size>
+                <ZipFile>Damage_Logs_GambitER_Message_Patch_2018-05-05.zip</ZipFile>
+                <CRC>a096f913b37fb1c5ed2bd0e42b4222b7</CRC>
+                <Timestamp>131877249230774105</Timestamp>
+              </Package>
+              <Package PackageName="Damage_Logs_GambitER_disable_damage_messages" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable damage messages" Type="single_dropdown1" Visible="True">
+                <Size>3351</Size>
+                <ZipFile>Damage_Logs_GambitER_Message_Disable_2018-05-05.zip</ZipFile>
+                <CRC>bc364ac79750169190ef406b1a7ba258</CRC>
+                <Timestamp>131877249367733175</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
+        </Packages>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="Damage_Panels" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Panels" Type="multi" Visible="True">
+    <Packages>
+      <Package PackageName="Damage_Panel_Bionick" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Bionick" Type="single1" Visible="True">
+        <DevURL>http://wotsite.net/paneli-povrezhdenij/4281-novyj-mod-paneli-povrezhdenij-dlya-world-of-tanks.html</DevURL>
+        <Description>GambitER´s damage log should be installed for full functionality. \nIt also works without dmg log - only thing missing would be that the current received hit (red text) will not be shown inside the damage panel.</Description>
+        <Packages>
+          <Package PackageName="Damage_Panel_Bionick_transparent" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Transparent" Type="single1" Visible="True">
+            <Size>254875</Size>
+            <ZipFile>Damage_Panel_Bionick_transparent_1.3.0.0_2018-12-12.zip</ZipFile>
+            <CRC>85b7ccd2721ff7957ff2c38cb53aa6c5</CRC>
+            <Timestamp>131891083648852809</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/10331-peredelannaya-panel-povrezhdenij-ot-bionick-dlya-world-of-tanks.html</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Bionick_transparent.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Damage_Panel_KobkaG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="KobkaG" Type="single1" Visible="True">
+        <Version>1.7</Version>
+        <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</DevURL>
+        <Medias>
+          <Media URL="https://youtu.be/PwwON-3imEs" MediaType="Webpage" />
+        </Medias>
+        <Packages>
+          <Package PackageName="Damage_Panel_KobkaG_Standard" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Standard" Type="single_dropdown1" Visible="True">
+            <Size>233734</Size>
+            <ZipFile>Damage_Panel_KobkaG_normal_1.4.0.0_2019-02-11.zip</ZipFile>
+            <CRC>1b0e50f5c0bedd3c5567ca87701c923e</CRC>
+            <Timestamp>131943597235801978</Timestamp>
+            <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</DevURL>
+          </Package>
+          <Package PackageName="Damage_Panel_KobkaG_central_repair" Enabled="True" InstallGroup="4" PatchGroup="4" Name="with central repair" Type="single_dropdown1" Visible="True">
+            <Size>396825</Size>
+            <ZipFile>Damage_Panel_KobkaG_central_repair_1.4.0.0_2019-02-11.zip</ZipFile>
+            <CRC>ae48c9c5ece09825f5d9faecb181d884</CRC>
+            <Timestamp>131943597358870660</Timestamp>
+            <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</DevURL>
+          </Package>
+          <Package PackageName="Damage_Panel_KobkaG_Notebook" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Notebook" Type="single_dropdown1" Visible="True">
+            <Size>257799</Size>
+            <ZipFile>Damage_Panel_KobkaG_Notebook_1.4.0.0_2019-02-11.zip</ZipFile>
+            <CRC>c0d3cfe31c5edac8b06f6c38d1225543</CRC>
+            <Timestamp>131943597460787546</Timestamp>
+            <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</DevURL>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Damage_Panel_Legacy" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Legacy" Type="single1" Visible="True">
+        <Timestamp>131887249002343337</Timestamp>
+        <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-panel-povrezhdenij-legacy-dlya-wot-0-9-20.html</DevURL>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_dark.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_blue_0.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_metall_0.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_only_repair_rose_center.jpg" MediaType="Picture" />
+        </Medias>
+        <Packages>
+          <Package PackageName="Damage_Panel_Legacy_Metall" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Metall" Type="single_dropdown1" Visible="True">
+            <Size>296870</Size>
+            <ZipFile>Damage_Panel_Legacy_metall_1.3.0.0_2018-12-12.zip</ZipFile>
+            <CRC>20cea1b93f01c1f2b635c72bbe297210</CRC>
+            <Timestamp>131891071672679051</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-panel-povrezhdenij-legacy-dlya-wot-0-9-20.html</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_metall_0.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Panel_Legacy_Dark" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Dark" Type="single_dropdown1" Visible="True">
+            <Size>251721</Size>
+            <ZipFile>Damage_Panel_Legacy_Dark_1.3.0.0_2018-12-12.zip</ZipFile>
+            <CRC>c3b91b8648dda1f20b2fdbf308db14d7</CRC>
+            <Timestamp>131891071947047321</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-panel-povrezhdenij-legacy-dlya-wot-0-9-20.html</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_dark.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Panel_Legacy_Blue" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Blue" Type="single_dropdown1" Visible="True">
+            <Size>246847</Size>
+            <ZipFile>Damage_Panel_Legacy_blue_1.3.0.0_2018-12-12.zip</ZipFile>
+            <CRC>a03890c61b491a9c2e50581b251a8fab</CRC>
+            <Timestamp>131891071790335168</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-panel-povrezhdenij-legacy-dlya-wot-0-9-20.html</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_blue.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Panel_Legacy_central_repair" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable central repair rose" Type="multi" Visible="True">
+            <Size>141732</Size>
+            <ZipFile>Damage_Panel_Legacy_central_repair_1.2.0.1_2018-12-12.zip</ZipFile>
+            <CRC>dad285de74c018f0ba356893a5cd207d</CRC>
+            <Timestamp>131891071498792206</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-panel-povrezhdenij-legacy-dlya-wot-0-9-20.html</DevURL>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Damage_Panel_Playstation" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Playstation" Type="single1" Visible="True">
+        <Size>359473</Size>
+        <ZipFile>Damage_Panel_Playstation_1.5.0_2019-05-02.zip</ZipFile>
+        <CRC>504ac802c8102002cf90653dcb4c3baf</CRC>
+        <Timestamp>131974810780459374</Timestamp>
+        <DevURL>http://wotsite.net/paneli-povrezhdenij/11605-panel-povrezhdenij-playstation-dlya-world-of-tanks.html</DevURL>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Playstation.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="Damage_Panel_Rabbit" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rabbit" Type="single1" Visible="True">
+        <DevURL>http://wotsite.net/paneli-povrezhdenij/4281-novyj-mod-paneli-povrezhdenij-dlya-world-of-tanks.html</DevURL>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Rabbit.jpg" MediaType="Picture" />
+        </Medias>
+        <Packages>
+          <Package PackageName="Damage_Panel_Rabbit_standard" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Standard" Type="single_dropdown1" Visible="True">
+            <Size>445025</Size>
+            <ZipFile>Damage_Panel_Rabbit_standard_1.5.0_2019-05-02.zip</ZipFile>
+            <CRC>3cf4a286ad2010ecc69487ee68490642</CRC>
+            <Timestamp>131974811337171702</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/4281-novyj-mod-paneli-povrezhdenij-dlya-world-of-tanks.html</DevURL>
+          </Package>
+          <Package PackageName="Damage_Panel_Rabbit_central_repair" Enabled="True" InstallGroup="4" PatchGroup="4" Name="with central repair" Type="single_dropdown1" Visible="True">
+            <Size>641391</Size>
+            <ZipFile>Damage_Panel_Rabbit_central_repair_1.5.0_2019-05-02.zip</ZipFile>
+            <CRC>1d4cee858c5dc006eb6bd435e5973a89</CRC>
+            <Timestamp>131974811515674304</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/4281-novyj-mod-paneli-povrezhdenij-dlya-world-of-tanks.html</DevURL>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Damage_Panel_Zayaz" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zayaz" Type="single1" Visible="True">
+        <Packages>
+          <Package PackageName="Damage_Panel_Zayaz_simple" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Standard" Type="single_dropdown1" Visible="True">
+            <Size>352452</Size>
+            <ZipFile>Damage_Panel_zayaz_simple_2019-05-02.zip</ZipFile>
+            <CRC>da44e0678033c59de5f622df2a8de7d0</CRC>
+            <Timestamp>131974815132437837</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
+            <UpdateComment>The panel is simple</UpdateComment>
+            <Medias>
+              <Media URL="http://wotsite.net/images/2015/9/10/shot_012.jpg" MediaType="Picture" />
+              <Media URL="http://wotsite.net/images/2015/9/10/shot_016.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Panel_Zayaz_with_blocking_angle_indicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="with blocking angle indicator" Type="single_dropdown1" Visible="True">
+            <Size>359683</Size>
+            <ZipFile>Damage_Panel_zayaz_with_blocking_angle_indicator_2019-05-02.zip</ZipFile>
+            <CRC>8829bad76db60f59e348290a63981c93</CRC>
+            <Timestamp>131974815224481674</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
+            <UpdateComment>Panel with UGN</UpdateComment>
+            <Medias>
+              <Media URL="http://i.imgur.com/8MIDTue.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Panel_Zayaz_with_repair_center" Enabled="True" InstallGroup="4" PatchGroup="4" Name="with repair center" Type="single_dropdown1" Visible="True">
+            <Size>589793</Size>
+            <ZipFile>Damage_Panel_zayaz_with_repair_center_2019-05-02.zip</ZipFile>
+            <CRC>3272688826998f891c0a3cce1bcd118d</CRC>
+            <Timestamp>131974815310411861</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
+            <UpdateComment>Panel simple + repair center</UpdateComment>
+            <Medias>
+              <Media URL="http://i.imgur.com/WvBhJZL.jpg" MediaType="Picture" />
+              <Media URL="http://i.imgur.com/MMXOVT3.jpg" MediaType="Picture" />
+              <Media URL="http://i.imgur.com/Gulh8Yh.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Panel_Zayaz_with_repair_center_and_blocking_angle_indicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="with repair center and blocking angle indicator" Type="single_dropdown1" Visible="True">
+            <Size>596852</Size>
+            <ZipFile>Damage_Panel_zayaz_with_repair_center_and_blocking_angle_indicator_2019-05-02.zip</ZipFile>
+            <CRC>3f32f7c3808ca117465cf05c48ef7bb5</CRC>
+            <Timestamp>131974815414463589</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
+            <UpdateComment>Panel with UGN + central repair</UpdateComment>
+            <Medias>
+              <Media URL="http://i.imgur.com/WvBhJZL.jpg" MediaType="Picture" />
+              <Media URL="http://i.imgur.com/MMXOVT3.jpg" MediaType="Picture" />
+              <Media URL="http://i.imgur.com/Gulh8Yh.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Damage_Panel_Z-Mod" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Z-Mod" Type="single1" Visible="True">
+        <Size>270290</Size>
+        <ZipFile>Damage_Panel_Z-Mod_1.3.0.0_2018-12-12.zip</ZipFile>
+        <CRC>d40808a8e861724bb022a2d0d1c15944</CRC>
+        <Timestamp>131891045703264149</Timestamp>
+        <DevURL>http://wotsite.net/paneli-povrezhdenij/12058-novyj-boevoj-interfejs-z-mod-ot-marsoff.html</DevURL>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Z-Mod.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="Damage_Panel_Log_Seperate" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Damage Panels + Damage Logs Seperate" Type="single1" Visible="False">
+    <Description>Mods here are seperate into Panels and Logs. They can each be toggled individualy.</Description>
+  </Package>
+  <Package PackageName="Damage_Panel_Log_Combo" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Damage Panel + Damage Log Combo" Type="single1" Visible="False">
+    <Description>Mods here use a combination of the Damage Panel and Damage Logs</Description>
+    <Dependencies>
+      <Dependency PackageName="Dependency_XVM_damage_log_disable" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
+</Category>
