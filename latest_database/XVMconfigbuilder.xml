@@ -780,6 +780,7 @@
         <Description>shows a tankinfopanel like the ones chooseable in IngameInfo</Description>
         <Dependencies>
           <Dependency PackageName="Dependency_XVM_PY_infoPanel" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
           <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel_masheene" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InfoPanel masheene" Type="single1" Visible="True">
@@ -879,7 +880,7 @@
         <Packages>
           <Package PackageName="XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions" Enabled="True" InstallGroup="4" PatchGroup="4" Name="only timer &amp; conditions" Type="single1" Visible="True">
             <Size>724</Size>
-            <ZipFile>XVM_config_builder_PreBattleMessages_timer_and_conditions_2019-06-12.zip</ZipFile>
+            <ZipFile>XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions_2019-06-24.zip</ZipFile>
             <CRC>93cd5ce2aea80f04dea1b04e6747a66d</CRC>
             <Timestamp>131812515942949463</Timestamp>
             <Description>disables PreBattleBackground (shadow), \nPreBattleMessages \nand \nQuestProgressHint\n\nleaves Timer and BattleWinConditions!</Description>
@@ -1040,13 +1041,16 @@
             </Medias>
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_MIAPAK" Enabled="True" InstallGroup="4" PatchGroup="4" Name="MIAPAK" Type="single_dropdown1" Visible="True">
-            <Size>245573</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_MIAPAK_2019-06-12.zip</ZipFile>
-            <CRC>5ad68a6d9285312807f151e65f723d50</CRC>
+            <Size>242134</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_MIAPAK_2019-06-25.zip</ZipFile>
+            <CRC>62f9f46aab2bd96f298ab9e76c420974</CRC>
             <Description>disable following with xvm config builder:\r\n totalHP\r\n\r\n\r\nnote: not right implemented yet - little alpha/shadow/color bug</Description>
             <Medias>
               <Media URL="https://koreanrandom.com/forum/uploads/monthly_2017_12/5a2efb3ead8e2_1515.png.3335c8a3358c52b5d0fa1807c73dee31.png.c4f6ae911c57fe536b957318662dd828.png" MediaType="Picture" />
             </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar_ktulho" NotFlag="False" Logic="OR" />
+            </Dependencies>
           </Package>
         </Packages>
       </Package>
@@ -3457,11 +3461,14 @@
     <Description>modify the battlechat</Description>
     <Packages>
       <Package PackageName="XVMconfigBuilder_battleChat_wn8chatcolor" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WN8-ChatColor" Type="multi" Visible="True">
-        <Size>5132</Size>
-        <ZipFile>XVM_config_builder_wn8chatcolor_2019-02-19.zip</ZipFile>
-        <CRC>51c8456ae430c5d41496dc01d7e6feef</CRC>
+        <Size>2295</Size>
+        <ZipFile>XVMconfigBuilder_battleChat_wn8chatcolor_2019-06-24.zip</ZipFile>
+        <CRC>54096b3d59a3956a800e54e3d154a7f0</CRC>
         <Timestamp>131950548698710076</Timestamp>
         <Description>the writer´s name is colored in his wn8color</Description>
+        <Dependencies>
+          <Dependency PackageName="Dependecy_XVM_PY_mod_chat_color" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
     </Packages>
   </Package>
