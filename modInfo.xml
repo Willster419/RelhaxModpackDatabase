@@ -38139,12 +38139,12 @@
               <description>Makes decals, inscriptions, camouflages and/or clan-logos invisible on tanks</description>
               <packages>
                 <package>
-                  <name>on all tanks</name>
+                  <name>for all vehicles</name>
                   <zipFile />
                   <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>Tank_Skins_Misc_Graphics_Remover_OnAllTanks_Header</packageName>
+                  <packageName>Tank_Skins_Misc_Graphics_Remover_forAllVehicles</packageName>
                   <type>single1</type>
                   <timestamp>131765453783772775</timestamp>
                   <description>Makes decals, inscriptions, camouflages and/or clan-logos invisible for all tanks</description>
@@ -38193,14 +38193,14 @@
                     </package>
                     <package>
                       <name>Stickers and Inscriptions Remover</name>
-                      <zipFile>Tank_Skins_Misc_Stickers_Inscriptions_Remover_1.3.0.zip</zipFile>
-                      <crc>71068912467cae37b0eabfe209948f13</crc>
+                      <zipFile>Tank_Skins_Misc_Stickers_Inscriptions_Remover_1.5.1.1_2109-06-27.zip</zipFile>
+                      <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Tank_Skins_Misc_Stickers_Inscriptions_MOE_Remover</packageName>
                       <type>multi</type>
-                      <version>1.3.0</version>
-                      <timestamp>131973343991874709</timestamp>
+                      <version>1.5.1.1</version>
+                      <timestamp>132061311318549237</timestamp>
                       <size>480034</size>
                       <description>This will remove Stickers, Inscriptions, and MOE from all tanks.</description>
                       <devURL>https://wgmods.net/1549/details</devURL>
@@ -38214,44 +38214,56 @@
                   </packages>
                 </package>
                 <package>
-                  <name>Limpid Stickers v{version} by goofy67</name>
-                  <zipFile>Tank_Skins_Misc_LimpidStickers_v2.5_1.5.1.1_2019-06-24.zip</zipFile>
-                  <crc>f740a27c7ac513d3967d56aceb750c7e</crc>
+                  <name>for single vehicles</name>
+                  <zipFile />
+                  <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>Tank_Skins_Misc_Graphics_Remover_Limpid_Stickers</packageName>
-                  <type>single1</type>
-                  <version>2.5</version>
-                  <timestamp>131973342672396059</timestamp>
-                  <size>18514</size>
-                  <description>Makes decals, inscriptions, camouflages and/or clan-logos invisible, configurable for any tank separately.\n\nOpen configuration-window via Modifications-Listi-Button (lower-right corner in hangar)</description>
-                  <devURL>https://wgmods.net/1031/details</devURL>
-                  <userDatas>
-                    <userData>{appData}\Wargaming.net\WorldOfTanks\LimpidStickers\config.json</userData>
-                  </userDatas>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>http://www.goofy67-wot.de/media/images/limpidstickers_1.10.gif</URL>
-                    </media>
-                    <media>
-                      <type>1</type>
-                      <URL>http://www.goofy67-wot.de/media/images/how_to_open.jpg</URL>
-                    </media>
-                    <media>
-                      <type>1</type>
-                      <URL>http://www.goofy67-wot.de/media/images/tooltip.jpg</URL>
-                    </media>
-                    <media>
-                      <type>1</type>
-                      <URL>https://wgmods.net/media/cover_FIIWSNQ.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
-                    </media>
-                  </medias>
-                  <dependencies>
-                    <dependency>
-                      <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
-                    </dependency>
-                  </dependencies>
+                  <packageName>Tank_Skins_Misc_Graphics_Remover_forSingleVehicles</packageName>
+                  <type>multi</type>
+                  <timestamp>131765453783772775</timestamp>
+                  <packages>
+                    <package>
+                      <name>Limpid Stickers v{version} by goofy67</name>
+                      <zipFile>Tank_Skins_Misc_LimpidStickers_v2.5_1.5.1.1_2019-06-24.zip</zipFile>
+                      <crc>f740a27c7ac513d3967d56aceb750c7e</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Tank_Skins_Misc_Graphics_Remover_Limpid_Stickers</packageName>
+                      <type>single1</type>
+                      <version>2.5</version>
+                      <timestamp>131973342672396059</timestamp>
+                      <size>18514</size>
+                      <description>Makes decals, inscriptions, camouflages and/or clan-logos invisible, configurable for any tank separately.\n\nOpen configuration-window via Modifications-Listi-Button (lower-right corner in hangar)</description>
+                      <devURL>https://wgmods.net/1031/details</devURL>
+                      <userDatas>
+                        <userData>{appData}\Wargaming.net\WorldOfTanks\LimpidStickers\config.json</userData>
+                      </userDatas>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://www.goofy67-wot.de/media/images/limpidstickers_1.10.gif</URL>
+                        </media>
+                        <media>
+                          <type>1</type>
+                          <URL>http://www.goofy67-wot.de/media/images/how_to_open.jpg</URL>
+                        </media>
+                        <media>
+                          <type>1</type>
+                          <URL>http://www.goofy67-wot.de/media/images/tooltip.jpg</URL>
+                        </media>
+                        <media>
+                          <type>1</type>
+                          <URL>https://wgmods.net/media/cover_FIIWSNQ.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
+                        </media>
+                      </medias>
+                      <dependencies>
+                        <dependency>
+                          <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
+                        </dependency>
+                      </dependencies>
+                    </package>
+                  </packages>
                 </package>
               </packages>
             </package>
