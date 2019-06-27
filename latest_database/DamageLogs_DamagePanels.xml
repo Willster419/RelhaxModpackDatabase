@@ -111,6 +111,31 @@
   </Package>
   <Package PackageName="Damage_Panels" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Panels" Type="multi" Visible="True">
     <Packages>
+      <Package PackageName="Damage_Panel_DefaultBlockingAngleIndicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="default damage panel with blocking angle indicator" Type="single1" Visible="True">
+        <DevURL>https://wotsite.net/paneli-povrezhdenij/9225-panel-povrezhdeniya-s-uglami-navodki.html</DevURL>
+        <Packages>
+          <Package PackageName="Damage_Panel_DefaultBlockingAngleIndicator_inner" Enabled="True" InstallGroup="4" PatchGroup="4" Name="inner" Type="single_dropdown1" Visible="True">
+            <Size>288065</Size>
+            <ZipFile>Damage_Panel_DefaultBlockingAngleIndicator_inner_2019-06-26.zip</ZipFile>
+            <CRC>52014bf0249400db803393a193e7d8b6</CRC>
+            <Timestamp>132060254911210719</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/4281-novyj-mod-paneli-povrezhdenij-dlya-world-of-tanks.html</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Damage_Panel/Damage_Panel_DefaultBlockingAngleIndicator_inner.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Damage_Panel_DefaultBlockingAngleIndicator_outer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="outer" Type="single_dropdown1" Visible="True">
+            <Size>280220</Size>
+            <ZipFile>Damage_Panel_DefaultBlockingAngleIndicator_outer_2019-06-26.zip</ZipFile>
+            <CRC>4974cc73cc91a9691acc787d91ae4472</CRC>
+            <Timestamp>132060254997835965</Timestamp>
+            <DevURL>http://wotsite.net/paneli-povrezhdenij/4281-novyj-mod-paneli-povrezhdenij-dlya-world-of-tanks.html</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Damage_Panel/Damage_Panel_DefaultBlockingAngleIndicator_outer.jpg" MediaType="Picture" />
+            </Medias>
+          </Package>
+        </Packages>
+      </Package>
       <Package PackageName="Damage_Panel_Bionick" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Bionick" Type="single1" Visible="True">
         <DevURL>http://wotsite.net/paneli-povrezhdenij/4281-novyj-mod-paneli-povrezhdenij-dlya-world-of-tanks.html</DevURL>
         <Description>GambitER´s damage log should be installed for full functionality. \nIt also works without dmg log - only thing missing would be that the current received hit (red text) will not be shown inside the damage panel.</Description>
@@ -131,6 +156,7 @@
         <Version>1.7</Version>
         <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1611203-</DevURL>
         <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Damage_Panel/Damage_Panel_KobkaG.jpg" MediaType="Picture" />
           <Media URL="https://youtu.be/PwwON-3imEs" MediaType="Webpage" />
         </Medias>
         <Packages>
