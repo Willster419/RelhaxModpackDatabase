@@ -99,11 +99,11 @@
     </Packages>
   </Package>
   <Package PackageName="Garage_mods_auto_equip_equipment_by_OldSkool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Auto-equip removeable equipment by OldSkool" Type="multi" Visible="True">
-    <Size>10455</Size>
+    <Size>10508</Size>
     <Version>1.0.8</Version>
-    <ZipFile>Garage_mods_auto_equip_equipment_by_OldSkool_1.0.8_1.51_2019-06-12.zip</ZipFile>
-    <CRC>4109117ede68d6a5d43cbd99d19a76ba</CRC>
-    <Timestamp>131971463889682955</Timestamp>
+    <ZipFile>Garage_Mods_auto_equip_equipment_by_OldSkool_v1.0.8_1.5.1.1_2019-06-28.zip</ZipFile>
+    <CRC>52bdcba5aaa78d051b3a7486185d3599</CRC>
+    <Timestamp>132061868800518151</Timestamp>
     <DevURL>https://wgmods.net/1022/details</DevURL>
     <Description>The function “AutoEquip” - automatic installation of removable equipment for the selected tank;\n\n"Teach" this mod how he should work:\nwhich automatic installation of removable equipment you wanna have on the tank - just put it on the tank the mod saves it\n\nSimple Mod to automatically mount and demount removable devices on vehicles.\nEquipment from the previous vehicle will be mounted after battle on the next vehicle.\n(Binoculars, Toolbox and Camonet)</Description>
     <Medias>
@@ -158,6 +158,17 @@
         <DevURL>https://wgmods.net/41/details</DevURL>
         <Description>The function “AutoCrew” - automatic return of the last of the crew to the selected tank;</Description>
         <UpdateComment>Updated Patch</UpdateComment>
+      </Package>
+      <Package PackageName="Garage_mods_Auxilium_noStatsBtn" Enabled="False" InstallGroup="4" PatchGroup="4" Name="remove wargaming statistics button" Type="multi" Visible="False">
+        <Size>471</Size>
+        <ZipFile>Garage_Mods_Auxilium_noStatsBtn_PATCH_2019-06-28.zip</ZipFile>
+        <CRC>41cbec6e9424d07e1ab772a3ffcedbc4</CRC>
+        <Timestamp>132061866032223570</Timestamp>
+        <DevURL>https://wgmods.net/41/details</DevURL>
+        <Description>this allows you to remove the button for displaying the statistics of WG</Description>
+        <Medias>
+          <Media URL="https://wgmods.net/media/mod_files/post-25106393-0-35206100-1560544539.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+        </Medias>
       </Package>
       <Package PackageName="Garage_mods_Auxilium_settings_remove_removable_equip" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Add L_CTRL+R keys to remove all removable equipment" Type="multi" Visible="True">
         <Size>866</Size>
@@ -340,10 +351,10 @@
     </Dependencies>
   </Package>
   <Package PackageName="Garage_mods_RegionChanger" Enabled="True" InstallGroup="4" PatchGroup="4" Name="RegionChanger by ShuraBB" Type="multi" Visible="True">
-    <Size>3066</Size>
-    <Version>2018-12-18</Version>
-    <ZipFile>Garage_mods_RegionChanger_Auxilium_2018-12-18.zip</ZipFile>
-    <CRC>2b7251c8558fc9b0a8660f5ba675dabc</CRC>
+    <Size>2635</Size>
+    <Version>2019-06-28</Version>
+    <ZipFile>Garage_mods_RegionChanger_Auxilium_2019-06-28.zip</ZipFile>
+    <CRC>75378705e647709b6a151b08acd5c5d4</CRC>
     <Timestamp>131896362026131212</Timestamp>
     <DevURL>https://vk.com/shurabb_mods</DevURL>
     <Description>**To play on other clusters, you need to have an account on each one**\n\nFeatures of fashion:\nSimple selection of servers in other clusters;\nThere is no need for permanent copying / deleting of files;\nDo not need constant updates when you exit the "micro patches";\nAll established fashion will be available;\nEasy installation;\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
@@ -359,6 +370,13 @@
       <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
     </Dependencies>
+    <Packages>
+      <Package PackageName="Garage_Mods_RegionChanger_NOTES" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Region Changer Notes" Type="single1" Visible="False">
+        <CRC>f</CRC>
+        <Timestamp>132062189266532443</Timestamp>
+        <Description>Please update this mod with every Auxilium patch, or wait for The Illusion to do so.</Description>
+      </Package>
+    </Packages>
   </Package>
   <Package PackageName="Garage_mods_replay_manager" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Replay Manager" Type="multi" Visible="True">
     <Size>678450</Size>
