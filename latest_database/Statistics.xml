@@ -1,5 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Statistics">
+  <Package PackageName="Statistics_Battle_Results_RaJCeL" Enabled="True" InstallGroup="4" PatchGroup="4" Name="On battle results statistics by RaJCeL (HEAVY MOD)" Type="single1" Visible="True">
+    <Size>118472</Size>
+    <ZipFile>Statistics_Battle_Results_RaJCeL_2019-06-30.zip</ZipFile>
+    <CRC>2ff6545f570da82d9bdf9012e7a11035</CRC>
+    <Timestamp>132063788374566669</Timestamp>
+    <DevURL>https://wgmods.net/3551/</DevURL>
+    <Description>These are the WN8 statistics displayed on the battle results window, for all players.\r\n\r\nMod is downloading data from WG API while battle is loading/on countdown, so depending on a bandwidth there can occur micro freeze.</Description>
+    <Dependencies>
+      <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
   <Package PackageName="Session_Statistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Garage Session Statistics" Type="multi" Visible="True">
     <Packages>
       <Package PackageName="Session_Statistics_Awfultanker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session statistics by Awfultanker  (Settings in garage available)" Type="single1" Visible="True">

@@ -4,14 +4,16 @@
     <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
   </Dependencies>
   <Package PackageName="Tank_Skins_Misc_dead_tanks" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Colored Dead Tanks" Type="multi" Visible="True">
-    <Size>2075171</Size>
-    <Version>MCTCreator Grumpelumpf</Version>
-    <ZipFile>Tank_Skins_Misc_dead_tanks_base_1.5.1.1_2019-06-27.zip</ZipFile>
-    <CRC>19085579d99544cf4336c000ba533f16</CRC>
+    <Size>2075651</Size>
+    <ZipFile>Tank_Skins_Misc_dead_tanks_base_1.5.1.1_2019-06-29.zip</ZipFile>
+    <CRC>8141f453e14d15bbff65b2e925710fc2</CRC>
     <Timestamp>132061472627745055</Timestamp>
-    <DevURL>https://drive.google.com/open?id=1mFoqHGx_oQS_gaO_Sd7TC5mG7R5BhFSP\r\nhttps://koreanrandom.com/forum/topic/1578-mctcreator-однотонные-текстуры-танков-цветные-траки-полупрозрачные-камуфляжи-версия-114-дата-02072017/</DevURL>
-    <Description>Helps to easily determine which tanks are dead, or tracks, etc. Usefull for trying to shoot around dead tanks.</Description>
-    <UpdateComment>1.5.1.1 created by MCTCreator Grumpelumpf\n\n\nyou can get the tool from our gdrive to easily update when there are new tanks in game.\n\n1) download the pkg\n\thttps://drive.google.com/open?id=1mFoqHGx_oQS_gaO_Sd7TC5mG7R5BhFSP\n\n2) extract it\n\n3) edit the path to your local wot-installation in this two files:\n"crashedTracks_Cmd_MCTCreator .bat"\n"deadTanks_Cmd_MCTCreator.bat"\n\n4) if you have mods installed - clear or rename your "res_mods/versiondir" \n(eg to "res_mods/versiondir_bkp") to prevent any issues with possibly duplicated files\n\n5)  now doubleclick (one of) the file(s) and wait until the process is finished\n\n6) go to "res_mods/versiondir" and inside you will find a new folder called "vehicles".\n\n7) put the "vehicles"-folder into a new created "res"-folder and create a .wotmod \n\t(remember, this is a .zip with different file extension and with out compression \t\t[setting = store]!)\n\n8) take the old zipfile and add the wotmod (overwrite or delete the old one)\n\n9) finished #1\n\n10) for #2 repeat above steps from  "4)" \n\t-&gt; (clear all inside "res_mods/versiondir") \n\t-&gt; but now use the second .bat</UpdateComment>
+    <DevURL>https://koreanrandom.com/forum/topic/1578-mctcreator-однотонные-текстуры-танков-цветные-траки-полупрозрачные-камуфляжи-версия-114-дата-02072017/</DevURL>
+    <Description>Helps to easily determine which tanks are dead, or tracks, etc. Usefull for trying to shoot around dead tanks.\n\ncreated by MCTCreator,\n\nModified configuration for the modpack by Grumpelumpf,\nMaintained by Relhax Modpack Team</Description>
+    <UpdateComment>you can get the tool from our gdrive to easily update when there are new tanks in game.\n\n1) download the pkg\n\thttps://drive.google.com/open?id=1mFoqHGx_oQS_gaO_Sd7TC5mG7R5BhFSP\n\n2) extract it\n\n3) edit the path to your local wot-installation in this two files:\n"crashedTracks_Cmd_MCTCreator .bat"\n"deadTanks_Cmd_MCTCreator.bat"\n\n4) if you have mods installed - clear or rename your "res_mods/versiondir" \n(eg to "res_mods/versiondir_bkp") to prevent any issues with possibly duplicated files\n\n5)  now doubleclick (one of) the file(s) and wait until the process is finished\n\n6) go to "res_mods/versiondir" and inside you will find a new folder called "vehicles".\n\n7) put the "vehicles"-folder into a new created "res"-folder and create a .wotmod \n\t(remember, this is a .zip with different file extension and with out compression \t\t[setting = store]!)\n\n8) take the old zipfile and add the wotmod (overwrite or delete the old one)\n\n9) finished #1\n\n10) for #2 repeat above steps from  "4)" \n\t-&gt; (clear all inside "res_mods/versiondir") \n\t-&gt; but now use the second .bat</UpdateComment>
+    <Dependencies>
+      <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
+    </Dependencies>
     <Packages>
       <Package PackageName="Tank_Skins_Misc_dead_tanks_white" Enabled="True" InstallGroup="4" PatchGroup="4" Name="white" Type="single_dropdown1" Visible="True">
         <Size>1080</Size>
@@ -44,14 +46,13 @@
     </Packages>
   </Package>
   <Package PackageName="Tank_Skins_Misc_crashed_tracks" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Colored Crashed Tracks" Type="multi" Visible="True">
-    <Size>538169</Size>
-    <Version>MCTCreator Grumpelumpf</Version>
-    <ZipFile>Tank_Skins_Misc_crashed_tracks_base_1.5.1.1_2019-06-27.zip</ZipFile>
-    <CRC>703a2548d778a6d3c4a5f9887f737be6</CRC>
+    <Size>538660</Size>
+    <ZipFile>Tank_Skins_Misc_crashed_tracks_base_1.5.1.1_2019-06-29.zip</ZipFile>
+    <CRC>989ecf320eef1c2ce495e89606bb0699</CRC>
     <Timestamp>132061472899981734</Timestamp>
-    <DevURL>https://drive.google.com/open?id=1mFoqHGx_oQS_gaO_Sd7TC5mG7R5BhFSP\r\nhttps://koreanrandom.com/forum/topic/1578-mctcreator-однотонные-текстуры-танков-цветные-траки-полупрозрачные-камуфляжи-версия-114-дата-02072017/</DevURL>
-    <Description>Helps to easily determine which tanks are dead, or tracks, etc. Usefull for trying to shoot around dead tanks.</Description>
-    <UpdateComment>1.5.1.1 created by MCTCreator Grumpelumpf\n\n\nyou can get the tool from our gdrive to easily update when there are new tanks in game.\n\n1) download the pkg\n\thttps://drive.google.com/open?id=1mFoqHGx_oQS_gaO_Sd7TC5mG7R5BhFSP\n\n2) extract it\n\n3) edit the path to your local wot-installation in this two files:\n"crashedTracks_Cmd_MCTCreator .bat"\n"deadTanks_Cmd_MCTCreator.bat"\n\n4) if you have mods installed - clear or rename your "res_mods/versiondir" \n(eg to "res_mods/versiondir_bkp") to prevent any issues with possibly duplicated files\n\n5)  now doubleclick (one of) the file(s) and wait until the process is finished\n\n6) go to "res_mods/versiondir" and inside you will find a new folder called "vehicles".\n\n7) put the "vehicles"-folder into a new created "res"-folder and create a .wotmod \n\t(remember, this is a .zip with different file extension and with out compression \t\t[setting = store]!)\n\n8) take the old zipfile and add the wotmod (overwrite or delete the old one)\n\n9) finished #1\n\n10) for #2 repeat above steps from  "4)" \n\t-&gt; (clear all inside "res_mods/versiondir") \n\t-&gt; but now use the second .bat</UpdateComment>
+    <DevURL>https://koreanrandom.com/forum/topic/1578-mctcreator-однотонные-текстуры-танков-цветные-траки-полупрозрачные-камуфляжи-версия-114-дата-02072017/</DevURL>
+    <Description>Helps to easily determine which tanks are dead, or tracks, etc. Usefull for trying to shoot around dead tanks.\n\ncreated by MCTCreator,\n\nModified configuration for the modpack by Grumpelumpf,\nMaintained by Relhax Modpack Team</Description>
+    <UpdateComment>you can get the tool from our gdrive to easily update when there are new tanks in game.\n\n1) download the pkg\n\thttps://drive.google.com/open?id=1mFoqHGx_oQS_gaO_Sd7TC5mG7R5BhFSP\n\n2) extract it\n\n3) edit the path to your local wot-installation in this two files:\n"crashedTracks_Cmd_MCTCreator .bat"\n"deadTanks_Cmd_MCTCreator.bat"\n\n4) if you have mods installed - clear or rename your "res_mods/versiondir" \n(eg to "res_mods/versiondir_bkp") to prevent any issues with possibly duplicated files\n\n5)  now doubleclick (one of) the file(s) and wait until the process is finished\n\n6) go to "res_mods/versiondir" and inside you will find a new folder called "vehicles".\n\n7) put the "vehicles"-folder into a new created "res"-folder and create a .wotmod \n\t(remember, this is a .zip with different file extension and with out compression \t\t[setting = store]!)\n\n8) take the old zipfile and add the wotmod (overwrite or delete the old one)\n\n9) finished #1\n\n10) for #2 repeat above steps from  "4)" \n\t-&gt; (clear all inside "res_mods/versiondir") \n\t-&gt; but now use the second .bat</UpdateComment>
     <Packages>
       <Package PackageName="Tank_Skins_Misc_crashed_tracks_white" Enabled="True" InstallGroup="4" PatchGroup="4" Name="white" Type="single_dropdown1" Visible="True">
         <Size>841</Size>
@@ -225,9 +226,10 @@
     <Description>Allows you to see where to penetrate the enemy better, or see where the enemy is penetrating you</Description>
     <Packages>
       <Package PackageName="Tank_Skins_Misc_penetration_HAWG_reg" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HAWG Regular" Type="single_dropdown1" Visible="True">
-        <Size>27077</Size>
-        <ZipFile>Tank_Skin_Misc_Damage_Stickers_hawg_regular_2019-04-08.zip</ZipFile>
-        <CRC>a132adae81fcd763878a1e3d2431158e</CRC>
+        <Size>11445</Size>
+        <Version>5.1.0</Version>
+        <ZipFile>Tank_Skin_Misc_Damage_Stickers_hawg_regular_2019-06-29.zip</ZipFile>
+        <CRC>f170d97f7a68255265e395b1e3d9bd50</CRC>
         <Timestamp>131992173146275915</Timestamp>
         <DevURL>https://worldoftanks.curseforge.com/projects/hota-paint-ball-damage</DevURL>
         <Medias>
@@ -235,9 +237,10 @@
         </Medias>
       </Package>
       <Package PackageName="Tank_Skins_Misc_penetration_HAWG_colorblind" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HAWG Colorblind" Type="single_dropdown1" Visible="True">
-        <Size>26982</Size>
-        <ZipFile>Tank_Skin_Misc_Damage_Stickers_hawg_colorblind_2019-04-08.zip</ZipFile>
-        <CRC>bd98041e7b1541c878222d21535dc142</CRC>
+        <Size>11416</Size>
+        <Version>5.1.0</Version>
+        <ZipFile>Tank_Skin_Misc_Damage_Stickers_hawg_colorblind_2019-06-29.zip</ZipFile>
+        <CRC>76b017bc76f8bbac244e0664e2520008</CRC>
         <Timestamp>131992173212758130</Timestamp>
         <DevURL>https://worldoftanks.curseforge.com/projects/hawgs-colorblind-paint-ball-damage</DevURL>
         <Medias>
@@ -247,9 +250,9 @@
         </Medias>
       </Package>
       <Package PackageName="Tank_Skins_Misc_penetration_schematic" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Schematic" Type="single_dropdown1" Visible="True">
-        <Size>18090</Size>
-        <ZipFile>Tank_Skin_Misc_Damage_Stickers_schematic_2019-04-08.zip</ZipFile>
-        <CRC>ac2fd7b4ab767444c33846062973bf3c</CRC>
+        <Size>8743</Size>
+        <ZipFile>Tank_Skin_Misc_Damage_Stickers_schematic_2019-06-29.zip</ZipFile>
+        <CRC>f271cea13b3b8e9531ab1d60c108af10</CRC>
         <Timestamp>131992173264499731</Timestamp>
         <DevURL>https://modsworldoftanks.com/colored-hits-paintball/</DevURL>
         <Medias>
@@ -258,9 +261,9 @@
         </Medias>
       </Package>
       <Package PackageName="Tank_Skins_Misc_penetration_webium" Enabled="True" InstallGroup="4" PatchGroup="4" Name="webium" Type="single_dropdown1" Visible="True">
-        <Size>87097</Size>
-        <ZipFile>Tank_Skin_Misc_Damage_Stickers_webium_2019-04-08.zip</ZipFile>
-        <CRC>01e1a76da83f7c8eac0e6a1d15689a83</CRC>
+        <Size>82707</Size>
+        <ZipFile>Tank_Skin_Misc_Damage_Stickers_webium_2019-06-29.zip</ZipFile>
+        <CRC>2a73f3d11e991dd71fce2b49e6cbbd44</CRC>
         <Timestamp>131992173328289337</Timestamp>
         <DevURL>https://modsworldoftanks.com/colored-hits-paintball/</DevURL>
         <Medias>
@@ -268,9 +271,9 @@
         </Medias>
       </Package>
       <Package PackageName="Tank_Skins_Misc_penetration_protanki" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Protanki" Type="single_dropdown1" Visible="True">
-        <Size>63191</Size>
-        <ZipFile>Tank_Skin_Misc_Damage_Stickers_protanki_2019-04-08.zip</ZipFile>
-        <CRC>61ae393eb3a95ace50eafacfb2692f47</CRC>
+        <Size>59638</Size>
+        <ZipFile>Tank_Skin_Misc_Damage_Stickers_protanki_2019-06-29.zip</ZipFile>
+        <CRC>15caf401806ee0d33d5ee20b3d28a89c</CRC>
         <Timestamp>131992173398431855</Timestamp>
         <DevURL>https://protanki.tv/mods/battle_mod/tsvetnye-otmetki-popadanii</DevURL>
         <Medias>
