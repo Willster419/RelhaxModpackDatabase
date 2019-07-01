@@ -31544,24 +31544,6 @@
       <dependencies />
       <packages>
         <package>
-          <name>On battle results statistics by RaJCeL (HEAVY MOD)</name>
-          <zipFile>Statistics_Battle_Results_RaJCeL_2019-06-30.zip</zipFile>
-          <crc>2ff6545f570da82d9bdf9012e7a11035</crc>
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>Statistics_Battle_Results_RaJCeL</packageName>
-          <type>single1</type>
-          <timestamp>132063788374566669</timestamp>
-          <size>118472</size>
-          <description>These are the WN8 statistics displayed on the battle results window, for all players.\r\n\r\nMod is downloading data from WG API while battle is loading/on countdown, so depending on a bandwidth there can occur micro freeze.</description>
-          <devURL>https://wgmods.net/3551/</devURL>
-          <dependencies>
-            <dependency>
-              <packageName>Dependency_load_order_xml</packageName>
-            </dependency>
-          </dependencies>
-        </package>
-        <package>
           <name>Garage Session Statistics</name>
           <zipFile />
           <crc />
@@ -31853,6 +31835,24 @@
                   </userDatas>
                 </package>
               </packages>
+            </package>
+            <package>
+              <name>On battle results statistics by RaJCeL (HEAVY MOD)</name>
+              <zipFile>Statistics_Battle_Results_RaJCeL_2019-06-30.zip</zipFile>
+              <crc>2ff6545f570da82d9bdf9012e7a11035</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Statistics_Battle_Results_RaJCeL</packageName>
+              <type>single1</type>
+              <timestamp>132063788374566669</timestamp>
+              <size>118472</size>
+              <description>These are the WN8 statistics displayed on the battle results window, for all players.\r\n\r\nMod is downloading data from WG API while battle is loading/on countdown, so depending on a bandwidth there can occur micro freeze.</description>
+              <devURL>https://wgmods.net/3551/</devURL>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_load_order_xml</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Session statistics Time Spent v{version} by ShuraBB</name>
@@ -32862,13 +32862,13 @@
                 </package>
                 <package>
                   <name>Show stats on parameters panel</name>
-                  <zipFile>Session_Statistics_YK_useParametersPanel_2019-06-26.zip</zipFile>
-                  <crc>d3285ae75599b68826d0968c8ccc21c3</crc>
+                  <zipFile>Session_Statistics_YK_UseParametersPanel_base_patch_2019-06-30.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Session_Statistics_YK_useParametersPanel</packageName>
                   <type>multi</type>
-                  <timestamp>132060121254558668</timestamp>
+                  <timestamp>132064238829692359</timestamp>
                   <size>507</size>
                   <description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</description>
                   <medias>
@@ -32879,26 +32879,36 @@
                   </medias>
                   <packages>
                     <package>
-                      <name>Current Vehicle</name>
-                      <zipFile>Statistic_Session_YK_useParametersPanel_Tank_1.5.0.4_2019-06-07.zip</zipFile>
-                      <crc>abd571094ca1b40dd783bfa91685f43d</crc>
-                      <enabled>False</enabled>
-                      <visible>False</visible>
+                      <name>Currently Selected Vehicle</name>
+                      <zipFile>Statistic_Session_YK_UseParametersPanel_Tank_patch_2019-06-30.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
                       <packageName>Statistic_Session_YK_useParametersPanel_Tank</packageName>
                       <type>multi</type>
+                      <timestamp>132064238960617432</timestamp>
                       <size>474</size>
                       <description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</description>
                     </package>
                     <package>
-                      <name>Show Research Watchdog</name>
-                      <zipFile>Statistic_Session_YK_useParametersPanel_Research_1.5.0.4_2019-06-07.zip</zipFile>
-                      <crc>4f714667f1dc05e92a61386c84856582</crc>
-                      <enabled>False</enabled>
-                      <visible>False</visible>
-                      <packageName>Statistic_Session_YK_useParametersPanel_Research</packageName>
+                      <name>Account Statistics</name>
+                      <zipFile>Statistic_Session_YK_UseParametersPanel_Account_patch_2019-06-30.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Statistic_Session_YK_useParametersPanel_Account</packageName>
                       <type>multi</type>
-                      <size>478</size>
-                      <description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</description>
+                      <timestamp>132064239078959512</timestamp>
+                    </package>
+                    <package>
+                      <name>Account Statistics and Currently Selected Vehicle</name>
+                      <zipFile>Statistic_Session_YK_UseParametersPanel_Tank_Accout_patch_2019-06-30.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Statistic_Session_YK_useParametersPanel_Tank_Account</packageName>
+                      <type>multi</type>
+                      <timestamp>132064239185656336</timestamp>
                     </package>
                   </packages>
                 </package>
@@ -32955,6 +32965,18 @@
                       <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_4.jpg</URL>
                     </media>
                   </medias>
+                </package>
+                <package>
+                  <name>Show Research Watchdog</name>
+                  <zipFile>Session_Statistics_YK_ResearchWatchdog_patch_2019-06-30.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Statistic_Session_YK_ResearchWatchdog</packageName>
+                  <type>multi</type>
+                  <timestamp>132064238741555294</timestamp>
+                  <size>478</size>
+                  <description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</description>
                 </package>
               </packages>
             </package>
