@@ -447,12 +447,12 @@
       <timestamp>131554136556593228</timestamp>
     </dependency>
     <dependency>
-      <zipFile>Dependency_YK-Stats_BaseConfigFiles_2019-06-29.zip</zipFile>
-      <crc>54dd4e9e8809c53059489375bd0ee858</crc>
+      <zipFile>Dependency_YK-Stats_BaseConfigFiles_2019-07-01.zip</zipFile>
+      <crc>f</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_YK-Stats_BaseConfigFiles</packageName>
-      <timestamp>132062816106749135</timestamp>
+      <timestamp>132064625799295575</timestamp>
       <devURL>https://modxvm.com/en/wn8-expected-values/\r\n\r\nhttp://forum.worldoftanks.eu/index.php?/topic/583433-1511-yasenkrasen-colored-messages-eng-session-statistics-multi-20062019/</devURL>
     </dependency>
     <dependency>
@@ -33037,14 +33037,14 @@
                   </medias>
                 </package>
                 <package>
-                  <name>Show stats on parameters panel</name>
-                  <zipFile>Session_Statistics_YK_UseParametersPanel_base_patch_2019-06-30.zip</zipFile>
-                  <crc>b49ea24cd9d5ec12bee91d6bb643e5ea</crc>
+                  <name>enable and expand panels:</name>
+                  <zipFile>Session_Statistics_YK_useParametersPanel_BASE_true_patch_2019-07-01.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Session_Statistics_YK_useParametersPanel</packageName>
                   <type>multi</type>
-                  <timestamp>132064238829692359</timestamp>
+                  <timestamp>132064622598984568</timestamp>
                   <size>524</size>
                   <description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</description>
                   <medias>
@@ -33055,14 +33055,14 @@
                   </medias>
                   <packages>
                     <package>
-                      <name>Currently Selected Vehicle</name>
-                      <zipFile>Statistic_Session_YK_UseParametersPanel_Tank_patch_2019-06-30.zip</zipFile>
-                      <crc>2de2f145fd392fb2e5008cf56390e7e8</crc>
+                      <name>vehicle parameters</name>
+                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelParameters_enable_expand_patch_2019-07-01.zip</zipFile>
+                      <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>Statistic_Session_YK_useParametersPanel_Tank</packageName>
-                      <type>single1</type>
-                      <timestamp>132064238960617432</timestamp>
+                      <packageName>Session_Statistics_YK_useParametersPanel_panelParameters</packageName>
+                      <type>multi</type>
+                      <timestamp>132064627872447820</timestamp>
                       <size>477</size>
                       <description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</description>
                       <medias>
@@ -33073,14 +33073,14 @@
                       </medias>
                     </package>
                     <package>
-                      <name>Account Statistics</name>
-                      <zipFile>Statistic_Session_YK_UseParametersPanel_Account_patch_2019-06-30.zip</zipFile>
-                      <crc>88c79d4934cfa6193017ec53c5b1231d</crc>
+                      <name>account statistics</name>
+                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelStatistics_enable_expand_patch_2019-07-01.zip</zipFile>
+                      <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>Statistic_Session_YK_useParametersPanel_Account</packageName>
-                      <type>single1</type>
-                      <timestamp>132064239078959512</timestamp>
+                      <packageName>Session_Statistics_useParametersPanel_panelStatistics</packageName>
+                      <type>multi</type>
+                      <timestamp>132064628341552497</timestamp>
                       <size>478</size>
                       <medias>
                         <media>
@@ -33090,14 +33090,24 @@
                       </medias>
                     </package>
                     <package>
-                      <name>Account Statistics and Currently Selected Vehicle</name>
-                      <zipFile>Statistic_Session_YK_UseParametersPanel_Tank_Accout_patch_2019-06-30.zip</zipFile>
-                      <crc>57789d3feb4250a5f9479d871f9536fd</crc>
+                      <name>panel by tank</name>
+                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelByTank_enable_expand_patch_2019-07-01.zip</zipFile>
+                      <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>Statistic_Session_YK_useParametersPanel_Tank_Account</packageName>
-                      <type>single1</type>
-                      <timestamp>132064239185656336</timestamp>
+                      <packageName>Session_Statistics_YK_useParametersPanel_panelByTank</packageName>
+                      <type>multi</type>
+                      <timestamp>132064632134921539</timestamp>
+                    </package>
+                    <package>
+                      <name>vehicle statistics</name>
+                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelCurrentVehicle_patch_2019-07-01.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Session_Statistics_YK_useParametersPanel_panelCurrentVehicle</packageName>
+                      <type>multi</type>
+                      <timestamp>132064628811819126</timestamp>
                       <size>508</size>
                       <medias>
                         <media>
@@ -33109,6 +33119,18 @@
                           <URL>https://i.imgur.com/rs9Oloh.png</URL>
                         </media>
                       </medias>
+                    </package>
+                    <package>
+                      <name>"Research Watchdog"</name>
+                      <zipFile>Session_Statistics_YK_researchWatchdog_patch_2019-07-01.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Session_Statistics_YK_researchWatchdog</packageName>
+                      <type>multi</type>
+                      <timestamp>132064622472333481</timestamp>
+                      <size>480</size>
+                      <description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</description>
                     </package>
                   </packages>
                 </package>
@@ -33165,18 +33187,6 @@
                       <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_4.jpg</URL>
                     </media>
                   </medias>
-                </package>
-                <package>
-                  <name>Show Research Watchdog</name>
-                  <zipFile>Session_Statistics_YK_ResearchWatchdog_patch_2019-06-30.zip</zipFile>
-                  <crc>a761f1145c7eab41e1a990dc31bbfadc</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Statistic_Session_YK_ResearchWatchdog</packageName>
-                  <type>multi</type>
-                  <timestamp>132064238741555294</timestamp>
-                  <size>480</size>
-                  <description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</description>
                 </package>
               </packages>
             </package>
