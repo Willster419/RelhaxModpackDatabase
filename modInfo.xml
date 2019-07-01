@@ -33065,13 +33065,13 @@
                   <packages>
                     <package>
                       <name>vehicle parameters</name>
-                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelParameters_enable_expand_patch_2019-07-01.zip</zipFile>
+                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelParameters_enable_patch_2019-07-01.zip</zipFile>
                       <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Session_Statistics_YK_useParametersPanel_panelParameters</packageName>
                       <type>multi</type>
-                      <timestamp>132064627872447820</timestamp>
+                      <timestamp>132064710978986867</timestamp>
                       <size>477</size>
                       <description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</description>
                       <medias>
@@ -33088,13 +33088,13 @@
                     </package>
                     <package>
                       <name>account statistics</name>
-                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelStatistics_enable_expand_patch_2019-07-01.zip</zipFile>
+                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelStatistics_enable_patch_2019-07-01.zip</zipFile>
                       <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Session_Statistics_useParametersPanel_panelStatistics</packageName>
                       <type>multi</type>
-                      <timestamp>132064628341552497</timestamp>
+                      <timestamp>132064711025915656</timestamp>
                       <size>478</size>
                       <medias>
                         <media>
@@ -33110,13 +33110,13 @@
                     </package>
                     <package>
                       <name>panel by tank</name>
-                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelByTank_enable_expand_patch_2019-07-01.zip</zipFile>
+                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelByTank_enable_patch_2019-07-01.zip</zipFile>
                       <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Session_Statistics_YK_useParametersPanel_panelByTank</packageName>
                       <type>multi</type>
-                      <timestamp>132064632134921539</timestamp>
+                      <timestamp>132064711071692364</timestamp>
                       <dependencies>
                         <dependency>
                           <packageName>Dependency_YK_Stats_UseParametersPanel_BASE</packageName>
@@ -33125,13 +33125,13 @@
                     </package>
                     <package>
                       <name>vehicle statistics</name>
-                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelCurrentVehicle_patch_2019-07-01.zip</zipFile>
+                      <zipFile>Statistic_Session_YK_UseParametersPanel_panelCurrentVehicle_enable_patch_2019-07-01.zip</zipFile>
                       <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Session_Statistics_YK_useParametersPanel_panelCurrentVehicle</packageName>
                       <type>multi</type>
-                      <timestamp>132064628811819126</timestamp>
+                      <timestamp>132064711636738221</timestamp>
                       <size>508</size>
                       <medias>
                         <media>
@@ -33151,13 +33151,13 @@
                     </package>
                     <package>
                       <name>"Research Watchdog"</name>
-                      <zipFile>Session_Statistics_YK_researchWatchdog_patch_2019-07-01.zip</zipFile>
+                      <zipFile>Session_Statistics_YK_researchWatchdog_enable_patch_2019-07-01.zip</zipFile>
                       <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Session_Statistics_YK_researchWatchdog</packageName>
                       <type>multi</type>
-                      <timestamp>132064622472333481</timestamp>
+                      <timestamp>132064712221420569</timestamp>
                       <size>480</size>
                       <description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</description>
                       <dependencies>
@@ -33165,6 +33165,38 @@
                           <packageName>Dependency_YK_Stats_UseParametersPanel_BASE</packageName>
                         </dependency>
                       </dependencies>
+                    </package>
+                    <package>
+                      <name>set all panels to</name>
+                      <zipFile />
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Session_Statistics_YK_panelsStatus</packageName>
+                      <type>multi</type>
+                      <timestamp>132064703050157585</timestamp>
+                      <packages>
+                        <package>
+                          <name>collapsed</name>
+                          <zipFile>Session_Statistics_YK_panelsCollapsed_patch_2019-07-01.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>Session_Statistics_YK_panelsCollapsed</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132064710260165370</timestamp>
+                        </package>
+                        <package>
+                          <name>expanded</name>
+                          <zipFile>Session_Statistics_YK_panelsExpanded_patch_2019-07-01.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>Session_Statistics_YK_panelsExpanded</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132064710332038041</timestamp>
+                        </package>
+                      </packages>
                     </package>
                   </packages>
                 </package>
