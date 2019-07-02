@@ -633,44 +633,89 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_YK_useParametersPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Show stats on parameters panel" Type="multi" Visible="True">
+          <Package PackageName="Session_Statistics_YK_useParametersPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable and expand panels:" Type="multi" Visible="True">
             <Size>524</Size>
-            <ZipFile>Session_Statistics_YK_UseParametersPanel_base_patch_2019-06-30.zip</ZipFile>
-            <CRC>b49ea24cd9d5ec12bee91d6bb643e5ea</CRC>
-            <Timestamp>132064238829692359</Timestamp>
-            <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
+            <CRC>f</CRC>
+            <Timestamp>132064698352995153</Timestamp>
+            <Description>This option shows you an overview of the current vehicle´s stats, your account stats, and session stats on the parameters panel (right side of screen in garage).</Description>
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/Statistic_Session_YK_useParametersPanel.png" MediaType="Picture" />
             </Medias>
             <Packages>
-              <Package PackageName="Statistic_Session_YK_useParametersPanel_Tank" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Currently Selected Vehicle" Type="single1" Visible="True">
-                <Size>477</Size>
-                <ZipFile>Statistic_Session_YK_UseParametersPanel_Tank_patch_2019-06-30.zip</ZipFile>
-                <CRC>2de2f145fd392fb2e5008cf56390e7e8</CRC>
-                <Timestamp>132064238960617432</Timestamp>
+              <Package PackageName="Session_Statistics_YK_useParametersPanel_panelParameters" Enabled="True" InstallGroup="4" PatchGroup="4" Name="vehicle parameters" Type="multi" Visible="True">
+                <Size>507</Size>
+                <ZipFile>Statistic_Session_YK_UseParametersPanel_panelParameters_enable_patch_2019-07-01.zip</ZipFile>
+                <CRC>90f1d91b25dddfe34fd5191c466478ae</CRC>
+                <Timestamp>132064710978986867</Timestamp>
                 <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
                 <Medias>
                   <Media URL="https://i.imgur.com/rs9Oloh.png" MediaType="Picture" />
                 </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_YK_Stats_UseParametersPanel_BASE" NotFlag="False" Logic="OR" />
+                </Dependencies>
               </Package>
-              <Package PackageName="Statistic_Session_YK_useParametersPanel_Account" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Account Statistics" Type="single1" Visible="True">
-                <Size>478</Size>
-                <ZipFile>Statistic_Session_YK_UseParametersPanel_Account_patch_2019-06-30.zip</ZipFile>
-                <CRC>88c79d4934cfa6193017ec53c5b1231d</CRC>
-                <Timestamp>132064239078959512</Timestamp>
+              <Package PackageName="Session_Statistics_useParametersPanel_panelStatistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="account statistics" Type="multi" Visible="True">
+                <Size>508</Size>
+                <ZipFile>Statistic_Session_YK_UseParametersPanel_panelStatistics_enable_patch_2019-07-01.zip</ZipFile>
+                <CRC>1d384ecb4edc4faae0c1078cae757a14</CRC>
+                <Timestamp>132064711025915656</Timestamp>
                 <Medias>
                   <Media URL="https://i.imgur.com/JAWLcYo.png" MediaType="Picture" />
                 </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_YK_Stats_UseParametersPanel_BASE" NotFlag="False" Logic="OR" />
+                </Dependencies>
               </Package>
-              <Package PackageName="Statistic_Session_YK_useParametersPanel_Tank_Account" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Account Statistics and Currently Selected Vehicle" Type="single1" Visible="True">
-                <Size>508</Size>
-                <ZipFile>Statistic_Session_YK_UseParametersPanel_Tank_Accout_patch_2019-06-30.zip</ZipFile>
-                <CRC>57789d3feb4250a5f9479d871f9536fd</CRC>
-                <Timestamp>132064239185656336</Timestamp>
+              <Package PackageName="Session_Statistics_YK_useParametersPanel_panelByTank" Enabled="True" InstallGroup="4" PatchGroup="4" Name="panel by tank" Type="multi" Visible="True">
+                <Size>500</Size>
+                <ZipFile>Statistic_Session_YK_UseParametersPanel_panelByTank_enable_patch_2019-07-01.zip</ZipFile>
+                <CRC>6db31873da46f1ff6aa475b7abaeb449</CRC>
+                <Timestamp>132064711071692364</Timestamp>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_YK_Stats_UseParametersPanel_BASE" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_useParametersPanel_panelCurrentVehicle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="vehicle statistics" Type="multi" Visible="True">
+                <Size>521</Size>
+                <ZipFile>Statistic_Session_YK_UseParametersPanel_panelCurrentVehicle_enable_patch_2019-07-01.zip</ZipFile>
+                <CRC>1acd66f3317d1c3a1d06cd69cc664592</CRC>
+                <Timestamp>132064711636738221</Timestamp>
                 <Medias>
                   <Media URL="https://i.imgur.com/JAWLcYo.png" MediaType="Picture" />
                   <Media URL="https://i.imgur.com/rs9Oloh.png" MediaType="Picture" />
                 </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_YK_Stats_UseParametersPanel_BASE" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_researchWatchdog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Research Watchdog&quot;" Type="multi" Visible="True">
+                <Size>510</Size>
+                <ZipFile>Session_Statistics_YK_researchWatchdog_enable_patch_2019-07-01.zip</ZipFile>
+                <CRC>8067a6d39085d51e5be1b3bd9d7a54cb</CRC>
+                <Timestamp>132064712221420569</Timestamp>
+                <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_YK_Stats_UseParametersPanel_BASE" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_panelsStatus" Enabled="True" InstallGroup="4" PatchGroup="4" Name="set all panels to" Type="multi" Visible="True">
+                <CRC>f</CRC>
+                <Timestamp>132064703050157585</Timestamp>
+                <Packages>
+                  <Package PackageName="Session_Statistics_YK_panelsCollapsed" Enabled="True" InstallGroup="4" PatchGroup="4" Name="collapsed" Type="single_dropdown1" Visible="True">
+                    <Size>531</Size>
+                    <ZipFile>Session_Statistics_YK_panelsCollapsed_patch_2019-07-01.zip</ZipFile>
+                    <CRC>254c48543bcb060b52845bd74bdb6e60</CRC>
+                    <Timestamp>132064710260165370</Timestamp>
+                  </Package>
+                  <Package PackageName="Session_Statistics_YK_panelsExpanded" Enabled="True" InstallGroup="4" PatchGroup="4" Name="expanded" Type="single_dropdown1" Visible="True">
+                    <Size>527</Size>
+                    <ZipFile>Session_Statistics_YK_panelsExpanded_patch_2019-07-01.zip</ZipFile>
+                    <CRC>a50b9b347c1edce7024ed46f9e14297e</CRC>
+                    <Timestamp>132064710332038041</Timestamp>
+                  </Package>
+                </Packages>
               </Package>
             </Packages>
           </Package>
@@ -700,13 +745,6 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_3.jpg" MediaType="Picture" />
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_4.jpg" MediaType="Picture" />
             </Medias>
-          </Package>
-          <Package PackageName="Statistic_Session_YK_ResearchWatchdog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Show Research Watchdog" Type="multi" Visible="True">
-            <Size>480</Size>
-            <ZipFile>Session_Statistics_YK_ResearchWatchdog_patch_2019-06-30.zip</ZipFile>
-            <CRC>a761f1145c7eab41e1a990dc31bbfadc</CRC>
-            <Timestamp>132064238741555294</Timestamp>
-            <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
           </Package>
         </Packages>
       </Package>
