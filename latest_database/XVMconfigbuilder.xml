@@ -2,6 +2,9 @@
 <Category Name="XVM config builder">
   <Dependencies>
     <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_PROFICIENCY_missing_pics_fix" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_FLAGS_missing_pics_fix" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missing_pics_fix" NotFlag="False" Logic="OR" />
   </Dependencies>
   <Package PackageName="XVMConfigBuilder_Camera" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Camera Settings" Type="multi" Visible="True">
     <Description>same settings that you also can set with PMOD (IngameAim). don´t use both methods at the same time!\n\nwe recommend using this, when xvm is activated.</Description>
@@ -2674,38 +2677,53 @@
             <Packages>
               <Package PackageName="XVMconfigBuilder_Marker_OMC_FocusShield_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
                 <Size>495</Size>
-                <ZipFile>XVM_Prebuilt_Configs_OMC_Enable_Focus_Shield_2017-07-05.zip</ZipFile>
-                <CRC>8c2116e16cee5e5d01d9bf66780993a0</CRC>
+                <CRC>f</CRC>
+                <Timestamp>132066330349486395</Timestamp>
                 <Medias>
                   <Media URL="http://s14.directupload.net/images/131222/a5lm4f52.jpg" MediaType="Picture" />
                 </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_Focus_Shield" NotFlag="False" Logic="OR" />
+                </Dependencies>
               </Package>
               <Package PackageName="XVMconfigBuilder_Marker_OMC_DamageImages_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Damage Images" Type="multi" Visible="True">
                 <Size>495</Size>
-                <ZipFile>XVM_Prebuilt_Configs_OMC_Enable_Damage_Images_2017-07-05.zip</ZipFile>
-                <CRC>9c612196568c5d919d5adca30542441c</CRC>
+                <CRC>f</CRC>
+                <Timestamp>132066330376214867</Timestamp>
                 <Medias>
                   <Media URL="http://s14.directupload.net/images/user/140729/fpzg5khz.png" MediaType="Picture" />
                 </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_Damage_Images" NotFlag="False" Logic="OR" />
+                </Dependencies>
               </Package>
               <Package PackageName="XVMconfigBuilder_Marker_OMC_TurretMarkers_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Turret Markers" Type="multi" Visible="True">
                 <Size>510</Size>
-                <ZipFile>XVM_Prebuilt_Configs_OMC_Enable_Turret_Markers_2017-07-05.zip</ZipFile>
-                <CRC>795b216d9d1384b6e2cb2643661d77cc</CRC>
+                <CRC>f</CRC>
+                <Timestamp>132066330403063019</Timestamp>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_Turret_Markers" NotFlag="False" Logic="OR" />
+                </Dependencies>
               </Package>
               <Package PackageName="XVMconfigBuilder_Marker_OMC_XMQP_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable XMQP in markers" Type="multi" Visible="True">
                 <Size>480</Size>
-                <ZipFile>XVM_Prebuilt_Configs_OMC_Enable_XMQP_2017-07-05.zip</ZipFile>
-                <CRC>41f6caec2c53c256cdc8041c30a09c42</CRC>
+                <CRC>f</CRC>
+                <Timestamp>132066330429053470</Timestamp>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_XMQP" NotFlag="False" Logic="OR" />
+                </Dependencies>
               </Package>
               <Package PackageName="XVMconfigBuilder_Marker_OMC_Quikstat_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Quick Color Marker (Quickstat)" Type="multi" Visible="True">
                 <Size>490</Size>
-                <ZipFile>XVM_Prebuilt_Configs_OMC_Enable_Quikstat_2017-07-05.zip</ZipFile>
-                <CRC>6a50e9491a084b32aacb9701e2aceaec</CRC>
+                <CRC>f</CRC>
+                <Timestamp>132066330503643863</Timestamp>
                 <Description>from left to right: WN8, EFF, global winrate, winrate on the current tank</Description>
                 <Medias>
                   <Media URL="http://s14.directupload.net/images/131220/9rucwgjc.jpg" MediaType="Picture" />
                 </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_Quikstat" NotFlag="False" Logic="OR" />
+                </Dependencies>
               </Package>
               <Package PackageName="XVMconfigBuilder_Marker_OMC_Kill Symbols" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Kill Symbols  (modified for use with OMC Markers)" Type="multi" Visible="True">
                 <Timestamp>131859142036841614</Timestamp>

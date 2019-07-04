@@ -2,6 +2,9 @@
 <Category Name="XVM prebuilt configs">
   <Dependencies>
     <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_PROFICIENCY_missing_pics_fix" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_FLAGS_missing_pics_fix" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missing_pics_fix" NotFlag="False" Logic="OR" />
   </Dependencies>
   <Package PackageName="XVMPrebuiltConfigs_DefaultXVMConfig" Enabled="True" InstallGroup="4" PatchGroup="4" Name="1 - XVM Default" Type="single1" Visible="True">
     <Size>1101</Size>
@@ -60,13 +63,13 @@
         <Description>made with xvm cfg builder</Description>
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_elektrosmoker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="elektrosmoker v{version}" Type="single_dropdown1" Visible="True">
-        <Size>3082821</Size>
-        <Version>2019-07-01</Version>
-        <ZipFile>XVMPrebuiltConfigs_elektrosmoker_2019-07-01.zip</ZipFile>
-        <CRC>980a377f7bb4deef8f73a361caf4177d</CRC>
-        <Timestamp>132064496845837475</Timestamp>
+        <Size>4631401</Size>
+        <Version>2019-07-03</Version>
+        <ZipFile>XVMPrebuiltConfigs_elektrosmoker_2019-07-03.zip</ZipFile>
+        <CRC>747588b9f651ca3513f9685fa056f7fb</CRC>
+        <Timestamp>132066504137748542</Timestamp>
         <Description>One of the biggest XVM prebuilts around, \nincluding most of the options provided in the xvm config builder section\n----------------------------------------------------------------------------------------------------------------\nNOT compatible to battle observer! (all on board!)\n- - - - - - - - - - - - - - - - - - - - - - - -\nCAMERA tweaked:\nzoomsteps (2,4,8,12,16,20,26,32,40,48),\nstart zoom 2x,\nzoom indicator,\narcade/postmortem/strategic zoom out (500m)\nremoved TD brake in sniper mode,\nincreased scroll speed\n- - - - - - - - - - - - - - - - - - - - - - - -\nNOT compatible to following XVM_Config_Builder parts (because already built-in!):\n- - - - - - - - - - - - - - - - - - - - - - - -\nBattle Interface Modifications\n-  Information Label for Missions (Mission Tracker)\n-  Scoreboard\n-  Total HP\n-  InfoPanel\n-  High Caliber Tracker\n-  Target Info\n-  DebugPanel\n-  Piercing Chance\n-  Show Aim Info\n-  WN8 Comparison\n-  Average Damage\n-  PreBattleMessages\n-  Total Efficiency\n- - - - - - - - - - - - - - - - - - - - - - - -\nTank Carousel modifications (xvm)\n-  Enable XVM Tank Cells ( CaronteShinigami carousel config is used)  \n- - - - - - - - - - - - - - - - - - - - - - - -\nPlayers Panel Modifications (xvm)\n-  Friends-Marker\n-  Show who´s using XVM (xvmUserMarker)\n-  Show language flag\n- - - - - - - - - - - - - - - - - - - - - - - -\nMarker modifications (xvm)  (OMC markers are used)\n- - - - - - - - - - - - - - - - - - - - - - - -\nBattle Chat\n- - - - - - - - - - - - - - - - - - - - - - - -\n\n\nKudos go out to:\n\nOMC (Grumpelumpf), \nnight_dragon_on, \nktulho,  \nDiclovit, \nOldSkool, \nSolo,\nRess, \nAslain, \nJ1mb0, \nHeliomalt, \nSmashPuppet, \nKornet_WA, \nMIAPAK, \nKotyarko_O, \nTornado_Odan_Rot,</Description>
-        <UpdateComment>2019-07-01: added mini-session-stats \r\n                    added dep for statistics.py\r\n2019-06-26: added hpBar / dependency for myHP.py\r\n2019-06-25: added dependencies for fragCorrelationBar.py / mod_chat_color.py / \r\n                    safeShot.py  / NDO-scripts / infoAutoAim.py / aimingSystem.py / \r\n                    boosters.py / battleEfficiency.py / battleMessages.py / battleTimer.py / \r\n                    damage_indicator.py\r\n2019-06-24: added dependecies for beginBattle.py / chancePenetration.py /\r\n                    debugPanel.py / sight.py / mod_wn8_chance.py\r\n2019-06-15: added dependecies for speed.xc / hull.xc /  years.xc\r\n2019-06-14: upd .py files\r\n                     added battleMessages.py / battleMessages.xc (dmg announcer, spotmsg, \t\treload announcer)\r\n                     added battleEfficiency.py / edited battleLabelsTemplates.xc  (inbattle rating)                   \r\n2019-05-17: upd readme\r\n2019-05-07: re-added boosters.py\r\n2019-05-02: removed boosters.py / edited \nxvm.xc\n2019-04-28: beautyfied code a bit\n2019-04-08: fixed dmg stickers (was wrong folder)\n2019-04-07: update infopanel (py)\n2019-04-02: fixed pictures for insignias (on guns)\n2019-03-28: enabled camera.xc (see description)\n2019-03-20: added shell speed to aiminfo / renewed sights.py\n2019-03-17: changed 6th sense image .... finally after 7 years ;)\n2019-03-13: removed vehiclenames.xc\n2019-03-03: updated vehicleNames\n2019-02-27: reworked OTM (markers)\n                    added crew skills pics\n                    cleanup\n2019-02-25: added \n                    \res_mods\versiondir\content\Interface\CheckPoint\circle.dds (austria)\n                    \res_mods\versiondir\gui\maps\fx\damage_stickers (9x .dds by hawg)\n                    \res_mods\versiondir\gui\maps\icons\library (4x bonus_*.png)\n                    \res_mods\versiondir\gui\maps\vehicles\decals\insignia (MoE VoPV_v1V)\n2019-02-22: changed clientflag back to flag -&gt; unsupportted by wg\n2019-02-15: fixed damagelog\n2019-02-10: added boosters.py -&gt; shows detailed info about active boosters\n2019-02-09: added GDZ playerspanel health bar as default (large; formerly medium2)\n2019-02-05: enabled xmpq marker in playerspanel\n2019-02-05: removed damagelog.py (now included in xvm)\n2019-01-30: some improvements...\n                    temporarly added res_mods\configs\xvm\py_macro\xvm\damageLog.py \n                     (to be removed next xvm patch)\n2019-01-07: set enemy otm to show contour icon\n2019-01-05: rearranged playerspanels (xvmusermarker, clientflag, friendmarker)\n2018-12-19: added moveable damagelog\n                    removed custom teambasespanel.swf\n2018-12-13: added a different splashscreen picture\n2018-12-13: updated vehicleNames.xc\n2018-12-11: using "clientFlag", not "flag" anymore. added new client_flags.py\n2018-11-28: updated for 1.2.0.2\n2018-11-25: updated vehiclenames.xc and readme files\n2018-11-05: no dependecy for guicontrolslobbybattle.swf -&gt; directly in zip\n2018-10-30: Happy Halloween! removed guiControlsLobbyBattle.swf from zip and added Dependency_Ingame_Misc_Consumables instead\n2018-10-25: implemented new xvm function sTW\n2018-10-18: updated guiControlsLobbyBattle.swf (DeBranded) &lt;- this was no good idea!\n2018-10-14: removed not needed files / added (optional) 10step wotlabs color scale to colors.xc, default is 6step xvm scale\n2018-10-13: fixed some symbols\n2018-09-25: changted fragcorellationbar / maincaliber / hppool\n2018-09-24: changed fragcorellationbar\n2018-09-23: changed capturebar.xc\n2018-09-21: added new HPpool and main caliber look\n2018-09-19: colors.xc updated to fit actual xvm wn8 scale\n2018-09-10: elements.xc updated\n2018-09-01: adjustments for 1.1.0\n2018-08-22: RC\n2018-07-31: still in beta\n2018-07-01: based on J1mb0´s xvm config</UpdateComment>
+        <UpdateComment>2019-07-03: fixed missing pics for garage stats mod\r\n2019-07-01: added mini-session-stats \r\n                    added dep for statistics.py\r\n2019-06-26: added hpBar / dependency for myHP.py\r\n2019-06-25: added dependencies for fragCorrelationBar.py / mod_chat_color.py / \r\n                    safeShot.py  / NDO-scripts / infoAutoAim.py / aimingSystem.py / \r\n                    boosters.py / battleEfficiency.py / battleMessages.py / battleTimer.py / \r\n                    damage_indicator.py\r\n2019-06-24: added dependecies for beginBattle.py / chancePenetration.py /\r\n                    debugPanel.py / sight.py / mod_wn8_chance.py\r\n2019-06-15: added dependecies for speed.xc / hull.xc /  years.xc\r\n2019-06-14: upd .py files\r\n                     added battleMessages.py / battleMessages.xc (dmg announcer, spotmsg, \t\treload announcer)\r\n                     added battleEfficiency.py / edited battleLabelsTemplates.xc  (inbattle rating)                   \r\n2019-05-17: upd readme\r\n2019-05-07: re-added boosters.py\r\n2019-05-02: removed boosters.py / edited \nxvm.xc\n2019-04-28: beautyfied code a bit\n2019-04-08: fixed dmg stickers (was wrong folder)\n2019-04-07: update infopanel (py)\n2019-04-02: fixed pictures for insignias (on guns)\n2019-03-28: enabled camera.xc (see description)\n2019-03-20: added shell speed to aiminfo / renewed sights.py\n2019-03-17: changed 6th sense image .... finally after 7 years ;)\n2019-03-13: removed vehiclenames.xc\n2019-03-03: updated vehicleNames\n2019-02-27: reworked OTM (markers)\n                    added crew skills pics\n                    cleanup\n2019-02-25: added \n                    \res_mods\versiondir\content\Interface\CheckPoint\circle.dds (austria)\n                    \res_mods\versiondir\gui\maps\fx\damage_stickers (9x .dds by hawg)\n                    \res_mods\versiondir\gui\maps\icons\library (4x bonus_*.png)\n                    \res_mods\versiondir\gui\maps\vehicles\decals\insignia (MoE VoPV_v1V)\n2019-02-22: changed clientflag back to flag -&gt; unsupportted by wg\n2019-02-15: fixed damagelog\n2019-02-10: added boosters.py -&gt; shows detailed info about active boosters\n2019-02-09: added GDZ playerspanel health bar as default (large; formerly medium2)\n2019-02-05: enabled xmpq marker in playerspanel\n2019-02-05: removed damagelog.py (now included in xvm)\n2019-01-30: some improvements...\n                    temporarly added res_mods\configs\xvm\py_macro\xvm\damageLog.py \n                     (to be removed next xvm patch)\n2019-01-07: set enemy otm to show contour icon\n2019-01-05: rearranged playerspanels (xvmusermarker, clientflag, friendmarker)\n2018-12-19: added moveable damagelog\n                    removed custom teambasespanel.swf\n2018-12-13: added a different splashscreen picture\n2018-12-13: updated vehicleNames.xc\n2018-12-11: using "clientFlag", not "flag" anymore. added new client_flags.py\n2018-11-28: updated for 1.2.0.2\n2018-11-25: updated vehiclenames.xc and readme files\n2018-11-05: no dependecy for guicontrolslobbybattle.swf -&gt; directly in zip\n2018-10-30: Happy Halloween! removed guiControlsLobbyBattle.swf from zip and added Dependency_Ingame_Misc_Consumables instead\n2018-10-25: implemented new xvm function sTW\n2018-10-18: updated guiControlsLobbyBattle.swf (DeBranded) &lt;- this was no good idea!\n2018-10-14: removed not needed files / added (optional) 10step wotlabs color scale to colors.xc, default is 6step xvm scale\n2018-10-13: fixed some symbols\n2018-09-25: changted fragcorellationbar / maincaliber / hppool\n2018-09-24: changed fragcorellationbar\n2018-09-23: changed capturebar.xc\n2018-09-21: added new HPpool and main caliber look\n2018-09-19: colors.xc updated to fit actual xvm wn8 scale\n2018-09-10: elements.xc updated\n2018-09-01: adjustments for 1.1.0\n2018-08-22: RC\n2018-07-31: still in beta\n2018-07-01: based on J1mb0´s xvm config</UpdateComment>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg" MediaType="Picture" />
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_02.jpg" MediaType="Picture" />
@@ -157,45 +160,55 @@
       <Dependency PackageName="Dependency_Fonts_Inconsolata" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_FocusShield_enable" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_FocusShield_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
         <Size>495</Size>
-        <ZipFile>XVMPrebuiltConfigs_OMC_Enable_Focus_Shield_2017-07-05.zip</ZipFile>
-        <CRC>8c2116e16cee5e5d01d9bf66780993a0</CRC>
-        <Timestamp>132060224020274709</Timestamp>
+        <CRC>f</CRC>
+        <Timestamp>132066329239611191</Timestamp>
         <Medias>
           <Media URL="http://s14.directupload.net/images/131222/a5lm4f52.jpg" MediaType="Picture" />
         </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_Focus_Shield" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_DamageImages_enable" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Enable Damage Images" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_DamageImages_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Damage Images" Type="multi" Visible="True">
         <Size>495</Size>
-        <ZipFile>XVMPrebuiltConfigs_OMC_Enable_Damage_Images_2017-07-05.zip</ZipFile>
-        <CRC>9c612196568c5d919d5adca30542441c</CRC>
-        <Timestamp>132060224183548129</Timestamp>
+        <CRC>f</CRC>
+        <Timestamp>132066329264125587</Timestamp>
         <Medias>
           <Media URL="http://s14.directupload.net/images/user/140729/fpzg5khz.png" MediaType="Picture" />
         </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_Damage_Images" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_TurretMarkers_enable" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Enable Turret Markers" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_TurretMarkers_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Turret Markers" Type="multi" Visible="True">
         <Size>510</Size>
-        <ZipFile>XVMPrebuiltConfigs_OMC_Enable_Turret_Markers_2017-07-05.zip</ZipFile>
-        <CRC>795b216d9d1384b6e2cb2643661d77cc</CRC>
-        <Timestamp>132060224342154034</Timestamp>
+        <CRC>f</CRC>
+        <Timestamp>132066329286346123</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_Turret_Markers" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_XMQP_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable XMQP in markers" Type="multi" Visible="True">
         <Size>480</Size>
-        <ZipFile>XVMPrebuiltConfigs_OMC_Enable_XMQP_2017-07-05.zip</ZipFile>
-        <CRC>41f6caec2c53c256cdc8041c30a09c42</CRC>
-        <Timestamp>132060224496950137</Timestamp>
+        <CRC>f</CRC>
+        <Timestamp>132066329311219562</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_XMQP" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_Quikstat_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Quick Color Marker (Quickstat)" Type="multi" Visible="True">
         <Size>490</Size>
-        <ZipFile>XVMPrebuiltConfigs_OMC_Enable_Quikstat_2017-07-05.zip</ZipFile>
-        <CRC>6a50e9491a084b32aacb9701e2aceaec</CRC>
-        <Timestamp>132060224671358838</Timestamp>
+        <CRC>f</CRC>
+        <Timestamp>132066329487577626</Timestamp>
         <Description>from left to right: WN8, EFF, global winrate, winrate on the current tank</Description>
         <Medias>
           <Media URL="http://s14.directupload.net/images/131220/9rucwgjc.jpg" MediaType="Picture" />
         </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_Quikstat" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
     </Packages>
   </Package>
