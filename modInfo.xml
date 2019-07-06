@@ -5383,154 +5383,165 @@
                   </packages>
                 </package>
                 <package>
-                  <name>HP Bars (outside PlayersPanel)</name>
+                  <name>HP Bars</name>
                   <zipFile />
                   <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside</packageName>
+                  <packageName>XVMconfigBuilder_PlayersPanel_HpBars</packageName>
                   <type>multi</type>
-                  <description>Choose which HP bars you want to use</description>
                   <packages>
                     <package>
-                      <name>default</name>
+                      <name>inside PlayersPanel</name>
                       <zipFile />
                       <crc />
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_Default</packageName>
-                      <type>single_dropdown1</type>
-                      <description>Use the HP bars from the XVM config you selected in the Prebuilt config tab.</description>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>https://puu.sh/wm5Aw/4a3b4e6b35.png</URL>
-                        </media>
-                      </medias>
+                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>BIG HP Bars (by Diclovit, used by GdZ)</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_2019-06-11.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132068818165286739</timestamp>
+                          <size>1239</size>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg</URL>
+                            </media>
+                          </medias>
+                        </package>
+                        <package>
+                          <name>Enable small hp bar for every tank (inside PlayersPanel)</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL_2019-07-06.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132068818070126355</timestamp>
+                          <size>992</size>
+                          <description>Enable a small HP bar in the players panel for every tank.</description>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>https://puu.sh/wWLdq/5e835f078a.png</URL>
+                            </media>
+                          </medias>
+                        </package>
+                      </packages>
                     </package>
                     <package>
-                      <name>colored by vehicle type</name>
-                      <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_2019-07-06.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132068818242481873</timestamp>
-                    </package>
-                    <package>
-                      <name>colored by vehicle type (elektrosmoker´s vehicle type colors)</name>
-                      <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro_2019-07-06.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132068818354200448</timestamp>
-                      <description>LT = GREEN\r\nMT = ORANGE\r\nHT= GRAY\r\nTD = BLUE\r\nSPG = RED</description>
-                    </package>
-                    <package>
-                      <name>OMC style</name>
-                      <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle_2019-02-27.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132068818438581029</timestamp>
-                      <size>1181</size>
-                      <description>From the OMC XVM config</description>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>https://puu.sh/wm5zf/62d892e87b.png</URL>
-                        </media>
-                      </medias>
-                    </package>
-                    <package>
-                      <name>Disabled</name>
-                      <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_disable_2019-02-21.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_disable</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132068818525371386</timestamp>
-                      <size>771</size>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>https://puu.sh/wm5xq/8db4ccf893.png</URL>
-                        </media>
-                      </medias>
-                    </package>
-                    <package>
-                      <name>On Key Press</name>
+                      <name>outside PlayersPanel</name>
                       <zipFile />
                       <crc />
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnKeyPress</packageName>
-                      <type>single_dropdown2</type>
-                      <description>Set the hp bars to be active on key press. (Usually left alt or left crtl)</description>
-                    </package>
-                    <package>
-                      <name>On Always</name>
-                      <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnAlways_2019-02-08.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnAlways</packageName>
-                      <type>single_dropdown2</type>
-                      <timestamp>132068818658503412</timestamp>
-                      <size>710</size>
-                      <description>Set the hp bars to be active always</description>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>HP Bars (inside PlayersPanel)</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>BIG HP Bars (by Diclovit, used by GdZ)</name>
-                      <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_2019-06-11.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132068818165286739</timestamp>
-                      <size>1239</size>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg</URL>
-                        </media>
-                      </medias>
-                    </package>
-                    <package>
-                      <name>Enable small hp bar for every tank (inside PlayersPanel)</name>
-                      <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL_2019-07-06.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132068818070126355</timestamp>
-                      <size>992</size>
-                      <description>Enable a small HP bar in the players panel for every tank.</description>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>https://puu.sh/wWLdq/5e835f078a.png</URL>
-                        </media>
-                      </medias>
+                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside</packageName>
+                      <type>multi</type>
+                      <description>Choose which HP bars you want to use</description>
+                      <packages>
+                        <package>
+                          <name>default</name>
+                          <zipFile />
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_Default</packageName>
+                          <type>single_dropdown1</type>
+                          <description>Use the HP bars from the XVM config you selected in the Prebuilt config tab.</description>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>https://puu.sh/wm5Aw/4a3b4e6b35.png</URL>
+                            </media>
+                          </medias>
+                        </package>
+                        <package>
+                          <name>colored by vehicle type</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_2019-07-06.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132068818242481873</timestamp>
+                        </package>
+                        <package>
+                          <name>colored by vehicle type (elektrosmoker´s vehicle type colors)</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro_2019-07-06.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132068818354200448</timestamp>
+                          <description>LT = GREEN\r\nMT = ORANGE\r\nHT= GRAY\r\nTD = BLUE\r\nSPG = RED</description>
+                        </package>
+                        <package>
+                          <name>OMC style</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle_2019-02-27.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132068818438581029</timestamp>
+                          <size>1181</size>
+                          <description>From the OMC XVM config</description>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>https://puu.sh/wm5zf/62d892e87b.png</URL>
+                            </media>
+                          </medias>
+                        </package>
+                        <package>
+                          <name>Disabled</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_disable_2019-02-21.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_disable</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132068818525371386</timestamp>
+                          <size>771</size>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>https://puu.sh/wm5xq/8db4ccf893.png</URL>
+                            </media>
+                          </medias>
+                        </package>
+                        <package>
+                          <name>On Key Press</name>
+                          <zipFile />
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnKeyPress</packageName>
+                          <type>single_dropdown2</type>
+                          <description>Set the hp bars to be active on key press. (Usually left alt or left crtl)</description>
+                        </package>
+                        <package>
+                          <name>On Always</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnAlways_2019-02-08.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnAlways</packageName>
+                          <type>single_dropdown2</type>
+                          <timestamp>132068818658503412</timestamp>
+                          <size>710</size>
+                          <description>Set the hp bars to be active always</description>
+                        </package>
+                      </packages>
                     </package>
                   </packages>
                 </package>
