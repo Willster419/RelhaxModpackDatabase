@@ -5383,12 +5383,12 @@
                   </packages>
                 </package>
                 <package>
-                  <name>HP Bars</name>
+                  <name>HP Bars (outside PlayersPanel)</name>
                   <zipFile />
                   <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_HpBars</packageName>
+                  <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside</packageName>
                   <type>multi</type>
                   <description>Choose which HP bars you want to use</description>
                   <packages>
@@ -5398,7 +5398,7 @@
                       <crc />
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_Default</packageName>
+                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_Default</packageName>
                       <type>single_dropdown1</type>
                       <description>Use the HP bars from the XVM config you selected in the Prebuilt config tab.</description>
                       <medias>
@@ -5414,7 +5414,7 @@
                       <crc>436e2a4c3cfbcd3dc77a29b89044641c</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_OMCStyle</packageName>
+                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle</packageName>
                       <type>single_dropdown1</type>
                       <timestamp>131957792261342888</timestamp>
                       <size>1181</size>
@@ -5427,29 +5427,12 @@
                       </medias>
                     </package>
                     <package>
-                      <name>BIG HP Bars (by Diclovit, used by GdZ)</name>
-                      <zipFile>XVM_config_builder_playerspanel_BIG_hp_bars_2019-06-11.zip</zipFile>
-                      <crc>9d54b57bfb698530936760b247d556d2</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_BIG</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>131957792261342888</timestamp>
-                      <size>1239</size>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg</URL>
-                        </media>
-                      </medias>
-                    </package>
-                    <package>
                       <name>Disabled</name>
                       <zipFile>XVM_config_builder_playerspanel_disable_hp_bars_2019-02-21.zip</zipFile>
                       <crc>06fefb3ce36c884cda5d1ba17403e023</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_disable</packageName>
+                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_disable</packageName>
                       <type>single_dropdown1</type>
                       <timestamp>131952379810214503</timestamp>
                       <size>771</size>
@@ -5466,7 +5449,7 @@
                       <crc />
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_OnKeyPress</packageName>
+                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnKeyPress</packageName>
                       <type>single_dropdown2</type>
                       <description>Set the hp bars to be active on key press. (Usually left alt or left crtl)</description>
                     </package>
@@ -5476,7 +5459,7 @@
                       <crc>5d5878f14a73678b387817cf0a978adf</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_OnAlways</packageName>
+                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnAlways</packageName>
                       <type>single_dropdown2</type>
                       <timestamp>131941292192902956</timestamp>
                       <size>710</size>
@@ -5485,22 +5468,50 @@
                   </packages>
                 </package>
                 <package>
-                  <name>Enable small hp bar for every tank (inside PlayersPanel)</name>
-                  <zipFile>XVMConfigBuilder_playerspanel_small_hp_bar_below_2019-07-06.zip</zipFile>
-                  <crc>f</crc>
+                  <name>HP Bars (inside PlayersPanel)</name>
+                  <zipFile />
+                  <crc />
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_HpBars_SmallBars</packageName>
+                  <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside</packageName>
                   <type>multi</type>
-                  <timestamp>132068709578878458</timestamp>
-                  <size>992</size>
-                  <description>Enable a small HP bar in the players panel for every tank.</description>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>https://puu.sh/wWLdq/5e835f078a.png</URL>
-                    </media>
-                  </medias>
+                  <packages>
+                    <package>
+                      <name>BIG HP Bars (by Diclovit, used by GdZ)</name>
+                      <zipFile>XVM_config_builder_playerspanel_BIG_hp_bars_2019-06-11.zip</zipFile>
+                      <crc>9d54b57bfb698530936760b247d556d2</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>131957792261342888</timestamp>
+                      <size>1239</size>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg</URL>
+                        </media>
+                      </medias>
+                    </package>
+                    <package>
+                      <name>Enable small hp bar for every tank (inside PlayersPanel)</name>
+                      <zipFile>XVMConfigBuilder_playerspanel_small_hp_bar_below_2019-07-06.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132068709578878458</timestamp>
+                      <size>992</size>
+                      <description>Enable a small HP bar in the players panel for every tank.</description>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>https://puu.sh/wWLdq/5e835f078a.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                  </packages>
                 </package>
                 <package>
                   <name>Enable small hp numbers for every tank</name>
