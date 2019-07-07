@@ -409,6 +409,32 @@
           </Package>
         </Packages>
       </Package>
+      <Package PackageName="XVMConfigBuilder_BattleInterface_AssistLog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Assist Log" Type="multi" Visible="True">
+        <Size>4704</Size>
+        <ZipFile>XVMConfigBuilder_BattleInterface_AssistLog_2019-07-07.zip</ZipFile>
+        <CRC>3e700a37f79304947a8f342d89a4cc74</CRC>
+        <Timestamp>132069901336343881</Timestamp>
+        <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
+        <Description>shows a log for dealt damage with your assistance</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_AssistLog.png" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_PY_AssistLog" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="XVMConfigBuilder_BattleInterface_battleEfficiency" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battle Efficiency (ingame current wn8 calculator)" Type="multi" Visible="True">
+        <Size>2616</Size>
+        <ZipFile>XVMConfigBuilder_BattleInterface_battleEfficiency_2019-07-07.zip</ZipFile>
+        <CRC>7043a657ef83e9abcbe45533f95ee74e</CRC>
+        <Timestamp>132069543077730353</Timestamp>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_battleEfficiency.png" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
       <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battle Hints" Type="multi" Visible="True">
         <Packages>
           <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideTrajectoryView_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide trajectory view" Type="multi" Visible="True">
@@ -504,6 +530,21 @@
             <Timestamp>131804722334100420</Timestamp>
           </Package>
         </Packages>
+      </Package>
+      <Package PackageName="XVMConfigBuilder_BattleInterface_damageIndicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Indicator + (this is an additional indicator, you still can choose one from &quot;Ingame Info&quot;)" Type="multi" Visible="True">
+        <Size>26202</Size>
+        <ZipFile>XVMConfigBuilder_BattleInterface_damageIndicator_BASE_2019-07-07.zip</ZipFile>
+        <CRC>18d10e2c55127160dc2f78b9360de742</CRC>
+        <Timestamp>132069618998153387</Timestamp>
+        <DevURL>https://koreanrandom.com/forum/topic/36620-damageindicator-средствами-xvm/#comments</DevURL>
+        <Description>shows a highlighted image when you get shot and are looking directly into that direction where the shot came from</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_2.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_1.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
       <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Log" Type="multi" Visible="True">
         <Description>Toggle the xvm damage log. The damage log shows how much damage you have taken for the duration of the battle.</Description>
