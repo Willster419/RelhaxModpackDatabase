@@ -132,6 +132,15 @@
       <devURL>https://koreanrandom.com/forum/topic/39885-сборник-py_macro/</devURL>
     </dependency>
     <dependency>
+      <zipFile>Dependency_XVM_PY_AssistLog_2019-07-07.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_XVM_PY_AssistLog</packageName>
+      <timestamp>132069901985648044</timestamp>
+      <devURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</devURL>
+    </dependency>
+    <dependency>
       <zipFile>Dependency_XVM_PY_battleEfficiency_2019-06-25.zip</zipFile>
       <crc>5059d59f43af7bd71e95d569a21104b0</crc>
       <enabled>True</enabled>
@@ -2872,6 +2881,23 @@
                   <size>960</size>
                 </package>
               </packages>
+            </package>
+            <package>
+              <name>Assist Log</name>
+              <zipFile>XVMConfigBuilder_BattleInterface_AssistLog_2019-07-07.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_BattleInterface_AssistLog</packageName>
+              <type>multi</type>
+              <timestamp>132069901336343881</timestamp>
+              <description>shows a log for dealt damage with your assistance</description>
+              <devURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</devURL>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_XVM_PY_AssistLog</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Battle Efficiency (ingame current wn8 calculator)</name>
