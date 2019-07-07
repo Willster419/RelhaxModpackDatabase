@@ -409,6 +409,32 @@
           </Package>
         </Packages>
       </Package>
+      <Package PackageName="XVMConfigBuilder_BattleInterface_AssistLog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Assist Log" Type="multi" Visible="True">
+        <Size>4704</Size>
+        <ZipFile>XVMConfigBuilder_BattleInterface_AssistLog_2019-07-07.zip</ZipFile>
+        <CRC>3e700a37f79304947a8f342d89a4cc74</CRC>
+        <Timestamp>132069901336343881</Timestamp>
+        <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
+        <Description>shows a log for dealt damage with your assistance</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_AssistLog.png" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_PY_AssistLog" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="XVMConfigBuilder_BattleInterface_battleEfficiency" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battle Efficiency (ingame current wn8 calculator)" Type="multi" Visible="True">
+        <Size>2616</Size>
+        <ZipFile>XVMConfigBuilder_BattleInterface_battleEfficiency_2019-07-07.zip</ZipFile>
+        <CRC>7043a657ef83e9abcbe45533f95ee74e</CRC>
+        <Timestamp>132069543077730353</Timestamp>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_battleEfficiency.png" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
       <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battle Hints" Type="multi" Visible="True">
         <Packages>
           <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideTrajectoryView_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide trajectory view" Type="multi" Visible="True">
@@ -504,6 +530,21 @@
             <Timestamp>131804722334100420</Timestamp>
           </Package>
         </Packages>
+      </Package>
+      <Package PackageName="XVMConfigBuilder_BattleInterface_damageIndicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Indicator + (this is an additional indicator, you still can choose one from &quot;Ingame Info&quot;)" Type="multi" Visible="True">
+        <Size>26202</Size>
+        <ZipFile>XVMConfigBuilder_BattleInterface_damageIndicator_BASE_2019-07-07.zip</ZipFile>
+        <CRC>18d10e2c55127160dc2f78b9360de742</CRC>
+        <Timestamp>132069618998153387</Timestamp>
+        <DevURL>https://koreanrandom.com/forum/topic/36620-damageindicator-средствами-xvm/#comments</DevURL>
+        <Description>shows a highlighted image when you get shot and are looking directly into that direction where the shot came from</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_2.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_1.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
       <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Log" Type="multi" Visible="True">
         <Description>Toggle the xvm damage log. The damage log shows how much damage you have taken for the duration of the battle.</Description>
@@ -1670,63 +1711,96 @@
             </Packages>
           </Package>
           <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Bars" Type="multi" Visible="True">
-            <Description>Choose which HP bars you want to use</Description>
             <Packages>
-              <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_Default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Default" Type="single_dropdown1" Visible="True">
-                <Description>Use the HP bars from the XVM config you selected in the Prebuilt config tab.</Description>
-                <Medias>
-                  <Media URL="https://puu.sh/wm5Aw/4a3b4e6b35.png" MediaType="Picture" />
-                </Medias>
+              <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_inside" Enabled="True" InstallGroup="4" PatchGroup="4" Name="inside PlayersPanel" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="BIG" Type="single_dropdown1" Visible="True">
+                    <Size>1239</Size>
+                    <ZipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_2019-06-11.zip</ZipFile>
+                    <CRC>9d54b57bfb698530936760b247d556d2</CRC>
+                    <Timestamp>132068818165286739</Timestamp>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType" Enabled="True" InstallGroup="4" PatchGroup="4" Name="BIG COLORED by vehicle type" Type="single_dropdown1" Visible="True">
+                    <Size>1250</Size>
+                    <ZipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType_2019-07-06.zip</ZipFile>
+                    <CRC>9e7efb38a688538cb0fb247f3534e335</CRC>
+                    <Timestamp>132069071549487089</Timestamp>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType.png" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL" Enabled="True" InstallGroup="4" PatchGroup="4" Name="SMALL" Type="single_dropdown1" Visible="True">
+                    <Size>981</Size>
+                    <ZipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL_2019-07-06.zip</ZipFile>
+                    <CRC>bce4392350b1e0f5716a08d83dbc999e</CRC>
+                    <Timestamp>132068818070126355</Timestamp>
+                    <Description>Enable a small HP bar in the players panel for every tank.</Description>
+                    <Medias>
+                      <Media URL="https://puu.sh/wWLdq/5e835f078a.png" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                </Packages>
               </Package>
-              <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_OMCStyle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="OMC style" Type="single_dropdown1" Visible="True">
-                <Size>1181</Size>
-                <ZipFile>XVM_config_builder_playerspanel_OMC_hp_bars_2019-02-27.zip</ZipFile>
-                <CRC>436e2a4c3cfbcd3dc77a29b89044641c</CRC>
-                <Timestamp>131957792261342888</Timestamp>
-                <Description>From the OMC XVM config</Description>
-                <Medias>
-                  <Media URL="https://puu.sh/wm5zf/62d892e87b.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_BIG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="BIG HP Bars (by Diclovit, used by GdZ)" Type="single_dropdown1" Visible="True">
-                <Size>1239</Size>
-                <ZipFile>XVM_config_builder_playerspanel_BIG_hp_bars_2019-06-11.zip</ZipFile>
-                <CRC>9d54b57bfb698530936760b247d556d2</CRC>
-                <Timestamp>131957792261342888</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
-                <Size>771</Size>
-                <ZipFile>XVM_config_builder_playerspanel_disable_hp_bars_2019-02-21.zip</ZipFile>
-                <CRC>06fefb3ce36c884cda5d1ba17403e023</CRC>
-                <Timestamp>131952379810214503</Timestamp>
-                <Medias>
-                  <Media URL="https://puu.sh/wm5xq/8db4ccf893.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_OnKeyPress" Enabled="True" InstallGroup="4" PatchGroup="4" Name="On Key Press" Type="single_dropdown2" Visible="True">
-                <Description>Set the hp bars to be active on key press. (Usually left alt or left crtl)</Description>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_OnAlways" Enabled="True" InstallGroup="4" PatchGroup="4" Name="On Always" Type="single_dropdown2" Visible="True">
-                <Size>710</Size>
-                <ZipFile>XVM_config_builder_playerspanel_hp_on_always_patch_2019-02-08.zip</ZipFile>
-                <CRC>5d5878f14a73678b387817cf0a978adf</CRC>
-                <Timestamp>131941292192902956</Timestamp>
-                <Description>Set the hp bars to be active always</Description>
+              <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_outside" Enabled="True" InstallGroup="4" PatchGroup="4" Name="outside PlayersPanel" Type="multi" Visible="True">
+                <Description>Choose which HP bars you want to use</Description>
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_outside_Default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="default" Type="single_dropdown1" Visible="True">
+                    <Description>Use the HP bars from the XVM config you selected in the Prebuilt config tab.</Description>
+                    <Medias>
+                      <Media URL="https://puu.sh/wm5Aw/4a3b4e6b35.png" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType" Enabled="True" InstallGroup="4" PatchGroup="4" Name="colored by vehicle type" Type="single_dropdown1" Visible="True">
+                    <Size>669</Size>
+                    <ZipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_2019-07-06.zip</ZipFile>
+                    <CRC>8c4885f59cde91edc9282f3918beb886</CRC>
+                    <Timestamp>132068818242481873</Timestamp>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro" Enabled="True" InstallGroup="4" PatchGroup="4" Name="colored by vehicle type (elektrosmoker´s vehicle type colors)" Type="single_dropdown1" Visible="True">
+                    <Size>777</Size>
+                    <ZipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro_2019-07-06.zip</ZipFile>
+                    <CRC>05ff8311400ec0199c3b59bc8897fdc3</CRC>
+                    <Timestamp>132068818354200448</Timestamp>
+                    <Description>LT = GREEN\r\nMT = ORANGE\r\nHT= GRAY\r\nTD = BLUE\r\nSPG = RED</Description>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro.png" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="OMC style" Type="single_dropdown1" Visible="True">
+                    <Size>1181</Size>
+                    <ZipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle_2019-02-27.zip</ZipFile>
+                    <CRC>436e2a4c3cfbcd3dc77a29b89044641c</CRC>
+                    <Timestamp>132068818438581029</Timestamp>
+                    <Description>From the OMC XVM config</Description>
+                    <Medias>
+                      <Media URL="https://puu.sh/wm5zf/62d892e87b.png" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_outside_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
+                    <Size>771</Size>
+                    <ZipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_disable_2019-02-21.zip</ZipFile>
+                    <CRC>06fefb3ce36c884cda5d1ba17403e023</CRC>
+                    <Timestamp>132068818525371386</Timestamp>
+                    <Medias>
+                      <Media URL="https://puu.sh/wm5xq/8db4ccf893.png" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_outside_OnKeyPress" Enabled="True" InstallGroup="4" PatchGroup="4" Name="On Key Press" Type="single_dropdown2" Visible="True">
+                    <Description>Set the hp bars to be active on key press. (Usually left alt or left crtl)</Description>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_outside_OnAlways" Enabled="True" InstallGroup="4" PatchGroup="4" Name="On Always" Type="single_dropdown2" Visible="True">
+                    <Size>710</Size>
+                    <ZipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnAlways_2019-02-08.zip</ZipFile>
+                    <CRC>5d5878f14a73678b387817cf0a978adf</CRC>
+                    <Timestamp>132068818658503412</Timestamp>
+                    <Description>Set the hp bars to be active always</Description>
+                  </Package>
+                </Packages>
               </Package>
             </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_SmallBars" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable small hp bar for every tank" Type="multi" Visible="True">
-            <Size>992</Size>
-            <ZipFile>XVM_config_builder_playerspanel_small_hp_bar_below_2019-02-24.zip</ZipFile>
-            <CRC>a2a45f8b7c2774302e2a66c495720970</CRC>
-            <Timestamp>131954850697083409</Timestamp>
-            <Description>Enable a small HP bar in the players panel for every tank.</Description>
-            <Medias>
-              <Media URL="https://puu.sh/wWLdq/5e835f078a.png" MediaType="Picture" />
-            </Medias>
           </Package>
           <Package PackageName="XVMconfigBuilder_PlayersPanel_EnemyHpLeft" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable small hp numbers for every tank" Type="multi" Visible="True">
             <Size>1029</Size>
