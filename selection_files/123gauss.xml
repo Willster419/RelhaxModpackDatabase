@@ -1,14 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2019-06-15 08:44:59" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="beta">
+<mods ver="2.0" date="2019-07-10 01:19:08" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="beta">
   <relhaxMods>
+    <mod>XVMPrebuiltConfigs_RelhaxDevs</mod>
     <mod>XVMPrebuiltConfigs_123gauss</mod>
+    <mod>XVMConfigBuilder_BattleInterface</mod>
+    <mod>XVMConfigBuilder_BattleInterface_HullInfo</mod>
+    <mod>XVMConfigBuilder_BattleInterface_Speed</mod>
     <mod>XVMConfigBuilder_ClanIcons_Base</mod>
     <mod>XVMConfigBuilder_ClanIcons_TopClansOnly</mod>
+    <mod>XVMconfigBuilder_GarageInterface</mod>
+    <mod>XVMconfigBuilder_GarageInterface_TankHistoryInformer</mod>
     <mod>Crosshairs_tank_sight_Header</mod>
-    <mod>Crosshairs_tank_sight_Animated-6</mod>
+    <mod>Crosshairs_tank_sight_Harpoon</mod>
+    <mod>Crosshairs_tank_sight_Harpoon_white_circle</mod>
     <mod>Crosshairs_arty_sight_Header</mod>
-    <mod>Crosshairs_arty_sight_Taipan</mod>
-    <mod>Crosshairs_arty_sight_Taipan_v4_Circle</mod>
+    <mod>Crosshairs_arty_sight_Harpoon</mod>
+    <mod>Crosshairs_arty_sight_Harpoon_standard</mod>
     <mod>Crosshairs_gunConstraint_Base</mod>
     <mod>Contour_Icons</mod>
     <mod>Contour_Icons_Blackspy</mod>
@@ -56,10 +63,7 @@
     <mod>Ingame_Info_Crew_Skill_Informer</mod>
     <mod>Ingame_Info_DamageIndicator</mod>
     <mod>Ingame_Info_DamageIndicator_Harpoon</mod>
-    <mod>Ingame_Info_DebugPanel</mod>
-    <mod>Ingame_Info_DebugPanel_theillusion</mod>
     <mod>Ingame_Info_Enemy_Spotted_Status</mod>
-    <mod>Ingame_Info_Enemy_Spotted_Status_Style_1</mod>
     <mod>Ingame_Info_InBattle_Rating</mod>
     <mod>Ingame_Info_InBattle_Rating_OldSkool</mod>
     <mod>Ingame_Info_MoG_Extended</mod>
@@ -107,7 +111,7 @@
     <mod>Ingame_Misc_chatmods_elkrda_announce_spg</mod>
     <mod>Ingame_Misc_chatmods_FriendsNotifier_Rajcel</mod>
     <mod>Ingame_Misc_chatmods_SorryMessenger</mod>
-    <mod>Ingame_Misc_Consumable_Icons</mod>
+    <mod>Ingame_Misc_Consumables</mod>
     <mod>Ingame_Misc_Consumables_EquipmentIcons</mod>
     <mod>Ingame_Misc_Consumables_EquipmentIcons_DEbranded</mod>
     <mod>Ingame_Misc_Consumables_ShellIcons</mod>
@@ -125,7 +129,7 @@
     <mod>Ingame_Misc_Minimap</mod>
     <mod>Ingame_Misc_HD_minimap</mod>
     <mod>Ingame_Misc_Hawgs_Arrow_Minimap</mod>
-    <mod>Ingame_Misc_Hawgs_Arrow_Minimap_Black</mod>
+    <mod>Ingame_Misc_Hawgs_Arrow_Minimap_Purple</mod>
     <mod>Ingame_Misc_Minimap_Spam_Protector</mod>
     <mod>Ingame_Misc_Minimap_Spam_Protector_Champi</mod>
     <mod>Ingame_Misc_No_Sixth_Sense_Icon</mod>
@@ -143,6 +147,7 @@
     <mod>Garage_mods_Armor_Inspector</mod>
     <mod>Garage_mods_Armor_Inspector_protanki</mod>
     <mod>Garage_mods_Armor_Inspector_wotinspector</mod>
+    <mod>Garage_mods_Battle_Hits_Viewer</mod>
     <mod>Garage_Mods_Chat</mod>
     <mod>Garage_Mods_Chat_Antitoxicity_disable_annoying_garage_messages</mod>
     <mod>Garage_Mods_Chat_Blacklist</mod>
@@ -157,9 +162,6 @@
     <mod>Garage_mods_expandItemLimits</mod>
     <mod>Garage_mods_VehicleXP_Extended</mod>
     <mod>Garage_mods_crewExtended</mod>
-    <mod>Garage_Graphics_Battle_Exit</mod>
-    <mod>Garage_Graphics_Battle_Exit_31_36</mod>
-    <mod>Garage_Graphics_Battle_Exit_34</mod>
     <mod>Garage_Graphics_Battle_Results</mod>
     <mod>Garage_Graphics_Battle_Results_by_HawgJaws_HAWG_PigBrains</mod>
     <mod>Garage_Graphics_Battle_Results_Tank_Invasion_Battle_Results_by_PigBrains_HAWG</mod>
@@ -176,7 +178,6 @@
     <mod>Garage_Graphics_Carousel_Tank_Icons_Regular_Debrandeds_Default</mod>
     <mod>Garage_Graphics_Carousel_Tank_Icons_Premium</mod>
     <mod>Garage_Graphics_Carousel_Tank_Icons_Premium_Debranded_Light_Gold</mod>
-    <mod>Garage_Graphics_Carousel_Tank_Icons_Premium_Debranded_preColored</mod>
     <mod>Garage_Graphics_Crew</mod>
     <mod>Garage_Graphics_Crew_Icons</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_by_Debranded</mod>
@@ -207,6 +208,8 @@
     <mod>Garage_Graphics_Crew_Skills_SabatonBrotherhood_TheIllusion</mod>
     <mod>Garage_Graphics_cursor</mod>
     <mod>Garage_Graphics_cursor_HARPOON</mod>
+    <mod>Garage_Graphics_XFun</mod>
+    <mod>Garage_Graphics_XFun_Show_Insignia_on_guns</mod>
     <mod>Garage_Graphics_Hangar</mod>
     <mod>Garage_graphics_Hangar_Freecam</mod>
     <mod>Garage_Graphics_HangMan_Base</mod>
@@ -235,11 +238,13 @@
     <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Camo_Colored</mod>
     <mod>Garage_Graphics_UserInterface</mod>
     <mod>Garage_Graphics_UserInterface_OldStore</mod>
-    <mod>Garage_Graphics_Exit_WoT_V1-V5</mod>
-    <mod>Garage_Graphics_Exit_WoT_V1</mod>
-    <mod>Garage_Graphics_Exit_WoT_V1_16_Tank_Fire</mod>
-    <mod>Garage_Graphics_XFun</mod>
-    <mod>Garage_Graphics_XFun_Show_Insignia_on_guns</mod>
+    <mod>Garage_Graphics_Exit_Screens</mod>
+    <mod>Garage_Graphics_Exit_Screens_Battle</mod>
+    <mod>Garage_Graphics_Exit_Screens_Battle_13_18</mod>
+    <mod>Garage_Graphics_Exit_Screens_Battle_15</mod>
+    <mod>Garage_Graphics_Exit_Screens_WoT_V1-V5</mod>
+    <mod>Garage_Graphics_Exit_Screens_WoT_V2_Nation_Flags</mod>
+    <mod>Garage_Graphics_Exit_Screens_WoT_V2_Germany_IronCross</mod>
     <mod>Session_Statistics</mod>
     <mod>Session_Statistics_Time_Spent_Base</mod>
     <mod>Session_Statistics_Time_Spent_Kapany3uk_3</mod>
@@ -250,10 +255,12 @@
     <mod>Sounds_Engine_Header</mod>
     <mod>Sounds_Engines_by_Ed76na+Apa6ecka</mod>
     <mod>Sounds_Extras_Header</mod>
-    <mod>Sounds_Modules_Consumable_Sounds_Header</mod>
-    <mod>Sounds_Modules_Consumable_Sounds_AW</mod>
+    <mod>Sounds_Modules_Extra_Ammo</mod>
+    <mod>Sounds_Extras_Better_Timer</mod>
     <mod>Sounds_Modules_CamoNet_Header</mod>
     <mod>Sounds_Modules_CamoNet_Romulan</mod>
+    <mod>Sounds_Modules_Consumable_Sounds_Header</mod>
+    <mod>Sounds_Modules_Consumable_Sounds_AW</mod>
     <mod>Sounds_Modules_Enemy_Spotted_Header</mod>
     <mod>Sounds_Modules_Enemy_Spotted_Sound</mod>
     <mod>Sounds_GUI_Header</mod>
@@ -289,6 +296,7 @@
     <mod>Tank_Skins_Misc_Graphics_Camo</mod>
     <mod>Tank_Skins_Misc_Graphics_Camo_CamoSelector</mod>
     <mod>Tank_Skins_Misc_Graphics_Remover</mod>
+    <mod>Tank_Skins_Misc_Graphics_Remover_forSingleVehicles</mod>
     <mod>Tank_Skins_Misc_Graphics_Remover_Limpid_Stickers</mod>
     <mod>Tank_Skins_Misc_Graphics_Skinner</mod>
     <mod>Custom_Tank_Skins_China</mod>
@@ -323,5 +331,11 @@
     <mod>Custom_Tank_Skins_USSR_Tank_Destroyer_Object_704_Object_704_Deh0mbreS</mod>
   </relhaxMods>
   <userMods>
+    <mod>DEbrandedMod_Setup_2.00_1.5.1.0_2019-06-13</mod>
+    <mod>Erweiterte_Texte_by_Budyx69_1.5.1.0_2019-06-13</mod>
+    <mod>Ingame_Misc_HD_Minimap_G206_Cfg_Main_Tactical_N_Alt_Heat_ON_2019-06-06</mod>
+    <mod>Verbündete_Arti_ZielpositionV2+Minimap_Symbol_V2_NO_XVM_1.5.0.4_2019-05-31</mod>
+    <mod>WWIIHWA_Ambiente_6.12_Uncut_Addon</mod>
+    <mod>WWIIHWA_GAUSS_CONFIG_1.4.0.1_2019-02-12</mod>
   </userMods>
 </mods>
