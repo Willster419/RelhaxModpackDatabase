@@ -9483,10 +9483,6 @@
                   <type>1</type>
                   <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Crosshairs_Harpoon_v3_Tank_Arty2.jpg</URL>
                 </media>
-                <media>
-                  <type>1</type>
-                  <URL>https://www.youtube.com/watch?v=QRtXUjJC97U&amp;start=240</URL>
-                </media>
               </medias>
               <packages>
                 <package>
@@ -10517,10 +10513,6 @@
               <devURL>http://forum.worldoftanks.ru/index.php?/topic/1419789-</devURL>
               <medias>
                 <media>
-                  <type>2</type>
-                  <URL>https://www.youtube.com/watch?v=QRtXUjJC97U</URL>
-                </media>
-                <media>
                   <type>1</type>
                   <URL>http://fs2.directupload.net/images/user/150413/om6jmi3l.jpg</URL>
                 </media>
@@ -10573,10 +10565,6 @@
                     <media>
                       <type>1</type>
                       <URL>http://imagizer.imageshack.us/a/img924/6308/pu26OT.png</URL>
-                    </media>
-                    <media>
-                      <type>2</type>
-                      <URL>https://www.youtube.com/watch?v=QRtXUjJC97U</URL>
                     </media>
                   </medias>
                 </package>
@@ -17470,44 +17458,112 @@
           </packages>
         </package>
         <package>
-          <name>Champi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</name>
-          <zipFile>Ingame_Info_HPBars_by_Champi_1.0.1_1.5.1_2019-07-03.zip</zipFile>
-          <crc>98af9b31f262a5f8f5b9db199cbde957</crc>
+          <name>HP Pools and HP Bars</name>
+          <zipFile />
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Ingame_Info_HP_Bars_Champi</packageName>
+          <packageName>Ingame_Info_HP_Bars_Pools</packageName>
           <type>multi</type>
-          <timestamp>132067201555770516</timestamp>
-          <size>116921</size>
-          <updateComment>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n\r\nConflicts with Battle Observer &amp;  with oldskool.playerspanel.api in\r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\nused by\r\nIngame_Misc_chatmods_FriendsMarker_Oldskool\r\nIngame_Info_Enemy_Spotted_Status (by Oldskool)\r\n\r\nuse  Logic NotFlag = "NAND" = Not and for \r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\n\r\nChampi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</updateComment>
-          <description>MOD DESCRIPTION: Customizable tank health bars for the playerpanel.\r\n\r\nfeatures:\r\n-draws background in vehicle class colors (see screenshot) or in standard green (own team) / red (enemy team)\r\n-can show only remaining structure points or current/max structure points\r\n-changeable graphics and layout - you can make your own backgrounds if you like\r\n\r\nNote: the health bars of the enemy team are only updated when the opponent is spotted and you're in radio signal range (if you didn't spot it by yourself). This rule is also valid for your own team. With other words: YOU CAN'T SEE IF YOUR BLIND SHOT HIT AN OPPONENT! :)\r\n\r\ncredits:\r\n-Yury Polyacov: For the permission to use his API in my mod. This mod used a modified version of the player panel API.\r\n-spoter: For his settings GUI</description>
-          <devURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</devURL>
-          <medias>
-            <media>
-              <type>1</type>
-              <URL>https://wgmods.net/media/mod_files/tankbars_classcolor.png.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>https://wgmods.net/media/mod_files/ingame1.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>https://wgmods.net/media/mod_files/ingame2.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>https://wgmods.net/media/mod_files/settings.png.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
-            </media>
-          </medias>
-          <dependencies>
-            <dependency>
-              <packageName>Dependency_mods_gui</packageName>
-            </dependency>
-            <dependency>
-              <packageName>Dependency_gambiter_guiflash</packageName>
-            </dependency>
-          </dependencies>
+          <timestamp>132071743749522467</timestamp>
+          <packages>
+            <package>
+              <name>Champi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</name>
+              <zipFile>Ingame_Info_HPBars_by_Champi_1.0.1_1.5.1_2019-07-03.zip</zipFile>
+              <crc>98af9b31f262a5f8f5b9db199cbde957</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Info_HP_Bars_Champi</packageName>
+              <type>single1</type>
+              <timestamp>132067201555770516</timestamp>
+              <size>116921</size>
+              <updateComment>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n\r\nConflicts with Battle Observer &amp;  with oldskool.playerspanel.api in\r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\nused by\r\nIngame_Misc_chatmods_FriendsMarker_Oldskool\r\nIngame_Info_Enemy_Spotted_Status (by Oldskool)\r\n\r\nuse  Logic NotFlag = "NAND" = Not and for \r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\n\r\nChampi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</updateComment>
+              <description>MOD DESCRIPTION: Customizable tank health bars for the playerpanel.\r\n\r\nfeatures:\r\n-draws background in vehicle class colors (see screenshot) or in standard green (own team) / red (enemy team)\r\n-can show only remaining structure points or current/max structure points\r\n-changeable graphics and layout - you can make your own backgrounds if you like\r\n\r\nNote: the health bars of the enemy team are only updated when the opponent is spotted and you're in radio signal range (if you didn't spot it by yourself). This rule is also valid for your own team. With other words: YOU CAN'T SEE IF YOUR BLIND SHOT HIT AN OPPONENT! :)\r\n\r\ncredits:\r\n-Yury Polyacov: For the permission to use his API in my mod. This mod used a modified version of the player panel API.\r\n-spoter: For his settings GUI</description>
+              <devURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</devURL>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>https://wgmods.net/media/mod_files/tankbars_classcolor.png.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
+                </media>
+                <media>
+                  <type>1</type>
+                  <URL>https://wgmods.net/media/mod_files/ingame1.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
+                </media>
+                <media>
+                  <type>1</type>
+                  <URL>https://wgmods.net/media/mod_files/ingame2.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
+                </media>
+                <media>
+                  <type>1</type>
+                  <URL>https://wgmods.net/media/mod_files/settings.png.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
+                </media>
+              </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_mods_gui</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_gambiter_guiflash</packageName>
+                </dependency>
+              </dependencies>
+            </package>
+            <package>
+              <name>HP Pools (PMOD)</name>
+              <zipFile>Ingame_Info_HP_Bars_Pools_PMOD_Enable_1.5.1.1_2019-07-09.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Info_HP_Bars_Pools_PMOD</packageName>
+              <type>single1</type>
+              <timestamp>132071743749522467</timestamp>
+              <packages>
+                <package>
+                  <name>Default</name>
+                  <zipFile />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Info_HP_Pools_PMOD_Default</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132071744404667544</timestamp>
+                  <devURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</devURL>
+                </package>
+                <package>
+                  <name>Locastan</name>
+                  <zipFile>Ingame_Info_HP_Pools_PMOD_Locastan_1.5.1.1_2019-07-09.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Info_HP_Pools_PMOD_Locastan</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132071744844542624</timestamp>
+                  <devURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</devURL>
+                </package>
+                <package>
+                  <name>Minimal</name>
+                  <zipFile>Ingame_Info_HP_Pools_PMOD_Minimal_1.5.1.1_2019-07-09.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Info_HP_Pools_PMOD_Minimal</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132071744404667544</timestamp>
+                  <devURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</devURL>
+                </package>
+                <package>
+                  <name>WGL</name>
+                  <zipFile>Ingame_Info_HP_Pools_PMOD_WGL_1.5.1.1_2019-07-09.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Info_HP_Pools_PMOD_WGL</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132071744844542624</timestamp>
+                  <devURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</devURL>
+                </package>
+              </packages>
+            </package>
+          </packages>
         </package>
         <package>
           <name>Enemy spotted status (by oldskool)</name>
