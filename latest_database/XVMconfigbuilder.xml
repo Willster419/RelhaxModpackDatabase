@@ -837,10 +837,10 @@
         </Dependencies>
         <Packages>
           <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel_masheene" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InfoPanel masheene" Type="single1" Visible="True">
-            <Size>49690</Size>
-            <ZipFile>XVMConfigBuilder_InfoPanel_masheenestyle_2019-06-24.zip</ZipFile>
-            <CRC>0cdb0993651ea85a897a839968e277a2</CRC>
-            <Timestamp>131957763087277221</Timestamp>
+            <Size>48955</Size>
+            <ZipFile>XVMConfigBuilder_InfoPanel_masheenestyle_2019-07-08.zip</ZipFile>
+            <CRC>fb01e631a1ad2011b7c9ed4f67bf043e</CRC>
+            <Timestamp>132070697285225337</Timestamp>
             <DevURL>https://koreanrandom.com/forum/topic/36811-infopanel-средствами-xvm/\r\nhttps://aslain.com/index.php?/topic/12034-xvm-infopanel-configs-for-infopanelpy/\r\n</DevURL>
             <Description>shows a tankinfopanel like the oldskool one in IngameInfo</Description>
             <Medias>
@@ -894,10 +894,10 @@
         </Packages>
       </Package>
       <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Piercing Chance (possible Penetration Indicator conflict!)" Type="multi" Visible="True">
-        <Size>1797</Size>
-        <ZipFile>XVM_config_builder_battleinterface_piercingchance_2019-06-21.zip</ZipFile>
-        <CRC>4cce5438870bbdde70c3fb64e6565689</CRC>
-        <Timestamp>131804701655084324</Timestamp>
+        <Size>1769</Size>
+        <ZipFile>XVM_config_builder_battleinterface_piercingchance_2019-07-08.zip</ZipFile>
+        <CRC>87bde75837c9edc6ed0250d53b754985</CRC>
+        <Timestamp>132070697816291244</Timestamp>
         <DevURL>https://koreanrandom.com/forum/topic/37259-</DevURL>
         <Description>Like the penatration indicator, this mod shows if you have a chance to penetrate the enemy.\n\nformat: \ncurrent own gun penetration / actual enemy armor\n\ncolors:\ngreen = chance to pierce\nred = no chance to pierce</Description>
         <Medias>
@@ -1938,6 +1938,19 @@
   <Package PackageName="XVMconfigBuilder_GarageInterface" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Garage Interface Modifications (xvm)" Type="multi" Visible="True">
     <Description>Make changes to the garage interface. If you are looking for changes to the tank carousel, Look further down.</Description>
     <Packages>
+      <Package PackageName="XVMconfigBuilder_GarageInterface_BoosterInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Booster Info" Type="multi" Visible="True">
+        <Size>2385</Size>
+        <ZipFile>XVMconfigBuilder_GarageInterface_BoosterInfo_2019-07-08.zip</ZipFile>
+        <CRC>f5a43857fc07a8120208706a7fced0fa</CRC>
+        <Timestamp>132070439153956815</Timestamp>
+        <Description>shows more detailed info about active reserves</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
       <Package PackageName="XVMconfigBuilder_GarageInterface_Clock" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Clock" Type="multi" Visible="True">
         <Size>1463</Size>
         <Description>Enable or disable the clock in the garage. Also select 12 or 24 hour clock, or blue text of the clock</Description>
