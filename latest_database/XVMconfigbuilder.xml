@@ -2495,23 +2495,63 @@
           </Package>
         </Packages>
       </Package>
+      <Package PackageName="XVMconfigBuilder_GarageInterface_SessionInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session Info" Type="multi" Visible="True">
+        <Size>2227</Size>
+        <ZipFile>XVMconfigBuilder_GarageInterface_SessionInfo_2019-07-09.zip</ZipFile>
+        <CRC>3ae84a2b5696a615092050ff01ca9789</CRC>
+        <Timestamp>132071364078180269</Timestamp>
+        <Description>this show your current session´s time, win count and win percent.\r\nthis also disables the text for the battle type selector button for better placement.</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_SessionInfo.png" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
       <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Garage Statistics" Type="multi" Visible="True">
         <Description>Toggle a text field in the middle-right of the screen showing stasticts of your current win rate, and how many more wins to X percent.</Description>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Garage_Stats.jpg" MediaType="Picture" />
         </Medias>
         <Packages>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_Disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
+          <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_Disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single1" Visible="True">
             <Size>532</Size>
             <ZipFile>XVM_config_builder_garage_statistics_disable.zip</ZipFile>
             <CRC>7c4fa4f79304f9bb4f140ce39546aa8b</CRC>
           </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_Enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
+          <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_Enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single1" Visible="True">
             <Size>530</Size>
-            <ZipFile>XVM_config_builder_garage_statistics_enable.zip</ZipFile>
-            <CRC>112459abb3c57db52a1e3411c1636896</CRC>
+            <CRC>f</CRC>
+            <Timestamp>132071329098097876</Timestamp>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="default" Type="single_dropdown1" Visible="True">
+                <Size>530</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_Statistics_default_enable_2019-07-09.zip</ZipFile>
+                <CRC>112459abb3c57db52a1e3411c1636896</CRC>
+                <Timestamp>132071337209600423</Timestamp>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_alternativePosition" Enabled="True" InstallGroup="4" PatchGroup="4" Name="alternative position" Type="single_dropdown1" Visible="True">
+                <Size>1971</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_Statistics_alternativePosition_2019-07-09.zip</ZipFile>
+                <CRC>1672e889100aeb6760d4f860cf0cbe0c</CRC>
+                <Timestamp>132071336559526526</Timestamp>
+                <Description>this will move the xvm statistics widget in the garage to the "menubar" on top.\r\nthis also disables the text for the create squad button for better placement.</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_Statistics_alternativePosition.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
           </Package>
         </Packages>
+      </Package>
+      <Package PackageName="XVMconfigBuilder_GarageInterface_TankStatistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Statistics (with gunmark info [MoE])" Type="multi" Visible="True">
+        <Size>1560515</Size>
+        <ZipFile>XVMconfigBuilder_GarageInterface_TankStatistics_2019-07-09.zip</ZipFile>
+        <CRC>9c38d7bf1e033244d7c5e19c959f699e</CRC>
+        <Timestamp>132071353713677107</Timestamp>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_TankStatistics.png" MediaType="Picture" />
+        </Medias>
       </Package>
       <Package PackageName="XVMconfigBuilder_GarageInterface_TankHistoryInformer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank History Informer in Garage by HAWG" Type="multi" Visible="True">
         <Size>1806</Size>

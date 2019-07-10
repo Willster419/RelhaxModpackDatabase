@@ -681,24 +681,64 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Info_HP_Bars_Champi" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Champi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)" Type="multi" Visible="True">
-    <Size>116921</Size>
-    <ZipFile>Ingame_Info_HPBars_by_Champi_1.0.1_1.5.1_2019-07-03.zip</ZipFile>
-    <CRC>98af9b31f262a5f8f5b9db199cbde957</CRC>
-    <Timestamp>132067201555770516</Timestamp>
-    <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
-    <Description>MOD DESCRIPTION: Customizable tank health bars for the playerpanel.\r\n\r\nfeatures:\r\n-draws background in vehicle class colors (see screenshot) or in standard green (own team) / red (enemy team)\r\n-can show only remaining structure points or current/max structure points\r\n-changeable graphics and layout - you can make your own backgrounds if you like\r\n\r\nNote: the health bars of the enemy team are only updated when the opponent is spotted and you're in radio signal range (if you didn't spot it by yourself). This rule is also valid for your own team. With other words: YOU CAN'T SEE IF YOUR BLIND SHOT HIT AN OPPONENT! :)\r\n\r\ncredits:\r\n-Yury Polyacov: For the permission to use his API in my mod. This mod used a modified version of the player panel API.\r\n-spoter: For his settings GUI</Description>
-    <UpdateComment>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n\r\nConflicts with Battle Observer &amp;  with oldskool.playerspanel.api in\r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\nused by\r\nIngame_Misc_chatmods_FriendsMarker_Oldskool\r\nIngame_Info_Enemy_Spotted_Status (by Oldskool)\r\n\r\nuse  Logic NotFlag = "NAND" = Not and for \r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\n\r\nChampi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</UpdateComment>
-    <Medias>
-      <Media URL="https://wgmods.net/media/mod_files/tankbars_classcolor.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/mod_files/ingame1.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/mod_files/ingame2.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/mod_files/settings.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
-    </Dependencies>
+  <Package PackageName="Ingame_Info_HP_Bars_Pools" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Pools and HP Bars" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132071743749522467</Timestamp>
+    <Packages>
+      <Package PackageName="Ingame_Info_HP_Bars_Champi" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Champi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)" Type="single1" Visible="True">
+        <Size>116921</Size>
+        <ZipFile>Ingame_Info_HPBars_by_Champi_1.0.1_1.5.1_2019-07-03.zip</ZipFile>
+        <CRC>98af9b31f262a5f8f5b9db199cbde957</CRC>
+        <Timestamp>132067201555770516</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+        <Description>MOD DESCRIPTION: Customizable tank health bars for the playerpanel.\r\n\r\nfeatures:\r\n-draws background in vehicle class colors (see screenshot) or in standard green (own team) / red (enemy team)\r\n-can show only remaining structure points or current/max structure points\r\n-changeable graphics and layout - you can make your own backgrounds if you like\r\n\r\nNote: the health bars of the enemy team are only updated when the opponent is spotted and you're in radio signal range (if you didn't spot it by yourself). This rule is also valid for your own team. With other words: YOU CAN'T SEE IF YOUR BLIND SHOT HIT AN OPPONENT! :)\r\n\r\ncredits:\r\n-Yury Polyacov: For the permission to use his API in my mod. This mod used a modified version of the player panel API.\r\n-spoter: For his settings GUI</Description>
+        <UpdateComment>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n\r\nConflicts with Battle Observer &amp;  with oldskool.playerspanel.api in\r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\nused by\r\nIngame_Misc_chatmods_FriendsMarker_Oldskool\r\nIngame_Info_Enemy_Spotted_Status (by Oldskool)\r\n\r\nuse  Logic NotFlag = "NAND" = Not and for \r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\n\r\nChampi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</UpdateComment>
+        <Medias>
+          <Media URL="https://wgmods.net/media/mod_files/tankbars_classcolor.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/mod_files/ingame1.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/mod_files/ingame2.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/mod_files/settings.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="Ingame_Info_HP_Bars_Pools_PMOD" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Pools (PMOD)" Type="single1" Visible="True">
+        <Size>478</Size>
+        <ZipFile>Ingame_Info_HP_Bars_Pools_PMOD_Enable_1.5.1.1_2019-07-09.zip</ZipFile>
+        <CRC>a8795a57c71f78879519037906ca8e30</CRC>
+        <Timestamp>132071743749522467</Timestamp>
+        <Packages>
+          <Package PackageName="Ingame_Info_HP_Pools_PMOD_Default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Default" Type="single_dropdown1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132071744404667544</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+          </Package>
+          <Package PackageName="Ingame_Info_HP_Pools_PMOD_Locastan" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Locastan" Type="single_dropdown1" Visible="True">
+            <Size>477</Size>
+            <ZipFile>Ingame_Info_HP_Pools_PMOD_Locastan_1.5.1.1_2019-07-09.zip</ZipFile>
+            <CRC>ca224ec334dfdacf2e037c195120233e</CRC>
+            <Timestamp>132071744844542624</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+          </Package>
+          <Package PackageName="Ingame_Info_HP_Pools_PMOD_Minimal" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Minimal" Type="single_dropdown1" Visible="True">
+            <Size>474</Size>
+            <ZipFile>Ingame_Info_HP_Pools_PMOD_Minimal_1.5.1.1_2019-07-09.zip</ZipFile>
+            <CRC>c855af22134cb9a088405575c25f5812</CRC>
+            <Timestamp>132071744404667544</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+          </Package>
+          <Package PackageName="Ingame_Info_HP_Pools_PMOD_WGL" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WGL" Type="single_dropdown1" Visible="True">
+            <Size>464</Size>
+            <ZipFile>Ingame_Info_HP_Pools_PMOD_WGL_1.5.1.1_2019-07-09.zip</ZipFile>
+            <CRC>d62b5d17c137cb5ec897591d846f65d1</CRC>
+            <Timestamp>132071744844542624</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+          </Package>
+        </Packages>
+      </Package>
+    </Packages>
   </Package>
   <Package PackageName="Ingame_Info_Enemy_Spotted_Status" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enemy spotted status (by oldskool)" Type="multi" Visible="True">
     <Size>25780</Size>
