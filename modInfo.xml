@@ -3846,15 +3846,15 @@
             </package>
             <package>
               <name>Piercing Chance (possible Penetration Indicator conflict!)</name>
-              <zipFile>XVM_config_builder_battleinterface_piercingchance_2019-07-08.zip</zipFile>
-              <crc>87bde75837c9edc6ed0250d53b754985</crc>
+              <zipFile />
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>XVMConfigBuilder_BattleInterface_PiercingChance</packageName>
               <type>multi</type>
-              <timestamp>132070697816291244</timestamp>
+              <timestamp>132074274822269120</timestamp>
               <size>1769</size>
-              <description>Like the penatration indicator, this mod shows if you have a chance to penetrate the enemy.\n\nformat: \ncurrent own gun penetration / actual enemy armor\n\ncolors:\ngreen = chance to pierce\nred = no chance to pierce</description>
+              <description>This mod shows if you have a chance to penetrate the enemy.\n\n\n\ncolors:\ngreen = chance to pierce\nred = no chance to pierce</description>
               <devURL>https://koreanrandom.com/forum/topic/37259-</devURL>
               <medias>
                 <media>
@@ -3862,6 +3862,41 @@
                   <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png</URL>
                 </media>
               </medias>
+              <packages>
+                <package>
+                  <name>penetration / target armor</name>
+                  <zipFile>XVM_config_builder_battleinterface_piercingchance_2019-07-08.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_BattleInterface_PiercingChance_v1</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132074274906772914</timestamp>
+                  <description>format: \ncurrent own gun penetration / actual enemy armor</description>
+                </package>
+                <package>
+                  <name>penetration / target armor / pen chance in percent</name>
+                  <zipFile>XVM_config_builder_battleinterface_piercingchance_percent_2019-07-12.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_BattleInterface_PiercingChance_v2</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132074274770397976</timestamp>
+                  <description>format: \ncurrent own gun penetration / actual enemy armor / pen chance in percent</description>
+                </package>
+                <package>
+                  <name>pen chance in percent</name>
+                  <zipFile>XVM_config_builder_battleinterface_piercingchance_percent_only_2019-07-12.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_BattleInterface_PiercingChance_v3</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132074276780811386</timestamp>
+                  <description>format: \nonly pen chance in percent</description>
+                </package>
+              </packages>
               <dependencies>
                 <dependency>
                   <packageName>Dependency_XVM_PY_chancePenetration</packageName>
