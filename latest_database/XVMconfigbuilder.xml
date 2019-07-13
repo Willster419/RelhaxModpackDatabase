@@ -895,17 +895,39 @@
       </Package>
       <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Piercing Chance (possible Penetration Indicator conflict!)" Type="multi" Visible="True">
         <Size>1769</Size>
-        <ZipFile>XVM_config_builder_battleinterface_piercingchance_2019-07-08.zip</ZipFile>
-        <CRC>87bde75837c9edc6ed0250d53b754985</CRC>
-        <Timestamp>132070697816291244</Timestamp>
+        <CRC>f</CRC>
+        <Timestamp>132074274822269120</Timestamp>
         <DevURL>https://koreanrandom.com/forum/topic/37259-</DevURL>
-        <Description>Like the penatration indicator, this mod shows if you have a chance to penetrate the enemy.\n\nformat: \ncurrent own gun penetration / actual enemy armor\n\ncolors:\ngreen = chance to pierce\nred = no chance to pierce</Description>
+        <Description>This mod shows if you have a chance to penetrate the enemy.\n\n\n\ncolors:\ngreen = chance to pierce\nred = no chance to pierce</Description>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png" MediaType="Picture" />
         </Medias>
         <Dependencies>
           <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
         </Dependencies>
+        <Packages>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance_v1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="penetration / target armor" Type="single_dropdown1" Visible="True">
+            <Size>1769</Size>
+            <ZipFile>XVM_config_builder_battleinterface_piercingchance_2019-07-08.zip</ZipFile>
+            <CRC>87bde75837c9edc6ed0250d53b754985</CRC>
+            <Timestamp>132074274906772914</Timestamp>
+            <Description>format: \ncurrent own gun penetration / actual enemy armor</Description>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance_v2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="penetration / target armor / pen chance in percent" Type="single_dropdown1" Visible="True">
+            <Size>1782</Size>
+            <ZipFile>XVM_config_builder_battleinterface_piercingchance_percent_2019-07-12.zip</ZipFile>
+            <CRC>5bfaf77b545fa4b627d57e7935b574ab</CRC>
+            <Timestamp>132074274770397976</Timestamp>
+            <Description>format: \ncurrent own gun penetration / actual enemy armor / pen chance in percent</Description>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance_v3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="pen chance in percent" Type="single_dropdown1" Visible="True">
+            <Size>1763</Size>
+            <ZipFile>XVM_config_builder_battleinterface_piercingchance_percent_only_2019-07-12.zip</ZipFile>
+            <CRC>6d03ceac5714b0d14d3a11df51d1e975</CRC>
+            <Timestamp>132074276780811386</Timestamp>
+            <Description>format: \nonly pen chance in percent</Description>
+          </Package>
+        </Packages>
       </Package>
       <Package PackageName="XVMConfigBuilder_BattleInterface_PostmortemTips" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Postmortem Tips" Type="multi" Visible="True">
         <Description>disable/enable pop-up panel at the bottom after death</Description>
@@ -1787,6 +1809,13 @@
                     <Medias>
                       <Media URL="https://puu.sh/wm5xq/8db4ccf893.png" MediaType="Picture" />
                     </Medias>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_showMaxHp" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show max HP" Type="multi" Visible="True">
+                    <Size>615</Size>
+                    <ZipFile>XVMconfigBuilder_PlayersPanel_HpBars_show maxHP_2019-07-13.zip</ZipFile>
+                    <CRC>9626e2e73a3056cc088aadbe630e3bbd</CRC>
+                    <Timestamp>132074769018683009</Timestamp>
+                    <Description>shows maximal health points of tanks when battle starts (for allies and enemies)</Description>
                   </Package>
                   <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_outside_OnKeyPress" Enabled="True" InstallGroup="4" PatchGroup="4" Name="On Key Press" Type="single_dropdown2" Visible="True">
                     <Description>Set the hp bars to be active on key press. (Usually left alt or left crtl)</Description>
