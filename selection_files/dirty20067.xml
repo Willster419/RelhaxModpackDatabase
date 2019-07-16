@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2019-06-11 09:12:57" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="beta">
+<mods ver="2.0" date="2019-07-16 16:51:13" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="beta">
   <relhaxMods>
     <mod>XVMconfigBuilder_battleChat</mod>
     <mod>XVMconfigBuilder_battleChat_wn8chatcolor</mod>
@@ -78,6 +78,8 @@
     <mod>XVMconfigBuilder_GarageInterface_notificationCounter_profile_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn</mod>
     <mod>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_showGeneralChatButton</mod>
+    <mod>XVMconfigBuilder_GarageInterface_showGeneralChatButton_disable</mod>
     <mod>XVMconfigBuilder_GarageInterface_Squad</mod>
     <mod>XVMconfigBuilder_GarageInterface_Squad_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_squad_showClan</mod>
@@ -147,17 +149,18 @@
     <mod>Crosshairs_tank_sight_Kellerman_broken_glass</mod>
     <mod>Crosshairs_arty_sight_Header</mod>
     <mod>Crosshairs_arty_sight_Taipan</mod>
-    <mod>Crosshairs_arty_sight_Taipan_v1</mod>
+    <mod>Crosshairs_arty_sight_Taipan_v2</mod>
     <mod>Crosshairs_gunConstraint_Base</mod>
-    <mod>Contour_Icon_Header</mod>
-    <mod>Contour_Icon_Wizard_Header</mod>
-    <mod>Contour_Icon_Wizard_Roman_Tier</mod>
+    <mod>Contour_Icons</mod>
+    <mod>Contour_Icons_Wizard</mod>
+    <mod>Contour_Icons_Wizard_Roman_Tier</mod>
     <mod>Ingame_Aim_BalCalcMod_Base</mod>
     <mod>Ingame_Aim_BalCalcMod_Config_Q</mod>
     <mod>Ingame_Aim_Battle_Assistant_Base</mod>
     <mod>Ingame_Aim_Battle_Assistant_G</mod>
     <mod>Ingame_Aim_Battle_Assistant_Increased_smoothTime</mod>
     <mod>Ingame_Aim_Battle_Assistant_Increased_Zoom_Speed</mod>
+    <mod>Ingame_Aim_SPG_Flytime</mod>
     <mod>Ingame_Aim_Target_Arrow</mod>
     <mod>Ingame_Aim_Target_Arrow_Blue</mod>
     <mod>Ingame_Info_Crew_Skill_Informer</mod>
@@ -190,14 +193,15 @@
     <mod>Ingame_Info_Wide_Border_Of_Maps</mod>
     <mod>Ingame_Info_Wide_Border_Of_Maps_COMMAND_full</mod>
     <mod>Ingame_Misc_Arty_and_Siege_Filter</mod>
+    <mod>Ingame_Misc_BaseCap</mod>
     <mod>Ingame_Misc_BaseCap_Circles</mod>
     <mod>Ingame_Misc_BaseCap_Circles_Colored</mod>
-    <mod>Ingame_Misc_BaseCap_Circles_V1_Faint_Red</mod>
+    <mod>Ingame_Misc_BaseCap_Circles_V3_Red</mod>
+    <mod>Ingame_Misc_Better_Visible_Flat_Train_Wagons</mod>
     <mod>Ingame_Misc_chatmods</mod>
     <mod>Ingame_Misc_chatmods_buttonreplacer</mod>
     <mod>Ingame_Misc_chatmods_SorryMessenger</mod>
     <mod>Ingame_Misc_Consumables</mod>
-    <mod>Ingame_Misc_Consumables_Icons</mod>
     <mod>Ingame_Misc_Consumables_EquipmentIcons</mod>
     <mod>Ingame_Misc_Consumables_EquipmentIcons_DEbranded</mod>
     <mod>Ingame_Misc_No_Sixth_Sense_Icon</mod>
@@ -207,7 +211,7 @@
     <mod>Garage_mods_ScriptloaderPro_SystemMessage_Full</mod>
     <mod>Garage_mods_ScriptloaderPro_SpamFilter</mod>
     <mod>Garage_mods_expandItemLimits</mod>
-    <mod>Garage_mods_VehicleXP_Extended_Base</mod>
+    <mod>Garage_mods_VehicleXP_Extended</mod>
     <mod>Garage_mods_crewExtended</mod>
     <mod>Garage_Graphics_Carousel</mod>
     <mod>Garage_Graphics_Carousel_DailyXPBonusIcons</mod>
@@ -225,7 +229,6 @@
     <mod>Garage_Graphics_Carousel_Tank_Icons</mod>
     <mod>Garage_Graphics_Carousel_Tank_Icons_Premium</mod>
     <mod>Garage_Graphics_Carousel_Tank_Icons_Premium_Aslain_Gold_V1</mod>
-    <mod>Garage_Graphics_Carousel_Tank_Icons_Premium_Debranded_preColored</mod>
     <mod>Garage_Graphics_Crew</mod>
     <mod>Garage_Graphics_Crew_Icons</mod>
     <mod>Garage_Graphics_Crew_Icons_Nationflags_by_Debranded</mod>
@@ -265,10 +268,17 @@
     <mod>Garage_Graphics_TechTree_and_VehicleList_Icons</mod>
     <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Default</mod>
     <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Default_Yaya</mod>
-    <mod>Statistic_Session_Header</mod>
-    <mod>Statistic_Session_Tomonik_Base</mod>
-    <mod>Statistic_Session_Tomonik_dirty_german</mod>
-    <mod>Statistic_Session_Tomonik_Daily_Reset</mod>
+    <mod>Garage_Graphics_Exit_Screens</mod>
+    <mod>Garage_Graphics_Exit_Screens_Battle</mod>
+    <mod>Garage_Graphics_Exit_Screens_Battle_7_12</mod>
+    <mod>Garage_Graphics_Exit_Screens_Battle_8</mod>
+    <mod>Garage_Graphics_Exit_Screens_WoT_V1-V5</mod>
+    <mod>Garage_Graphics_Exit_Screens_WoT_V2_Nation_Flags</mod>
+    <mod>Garage_Graphics_Exit_Screens_WoT_V2_Germany</mod>
+    <mod>Session_Statistics</mod>
+    <mod>Session_Statistics_Tomonik_Base</mod>
+    <mod>Session_Statistics_Tomonik_dirty_german</mod>
+    <mod>Session_Statistics_Tomonik_Daily_Reset</mod>
     <mod>Sounds_Kill_Header</mod>
     <mod>Sounds_Kill_UT_Announcer_Base</mod>
     <mod>Sounds_Kill_UT_Announcer_Locastan</mod>
