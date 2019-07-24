@@ -1618,7 +1618,7 @@
         <Timestamp>132031253001741975</Timestamp>
         <UpdateComment>No guiControlsLobbyBattle.swf (!)\n\nonly pictures\nres\gui\maps\icons\ammopanel\ammo\ only pictures\nres\gui\maps\icons\ammopanel\battle_ammo\ only pictures\nres\gui\maps\icons\shell\ only pictures\n\nkeep it that way, if possible</UpdateComment>
         <Packages>
-          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_2rokk" Enabled="True" InstallGroup="4" PatchGroup="4" Name="shell icons by 2rokk" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_2rokk" Enabled="True" InstallGroup="4" PatchGroup="4" Name="shell icons by 2rokk" Type="single1" Visible="True">
             <Size>118548</Size>
             <ZipFile>Ingame_Misc_Consumables_ShellIcons_by_2rokk_2019-03-26.zip</ZipFile>
             <CRC>1a3b476e4667bb4eddce67b00138e576</CRC>
@@ -1627,7 +1627,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Consumables/shellicons/Ingame_Misc_Consumables_ShellIcons_by2rokk.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_AW" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Armored Warfare Shell Icons by The Illusion" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_AW" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Armored Warfare Shell Icons by The Illusion" Type="single1" Visible="True">
             <Size>65760</Size>
             <ZipFile>Ingame_Misc_Ammo_AW_TheIllusion_1.5.0.2_2019-05-16.zip</ZipFile>
             <CRC>a9dbbdf79ad5668bc8d75b0a63f45015</CRC>
@@ -1636,13 +1636,71 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Consumables/Ingame_Misc_Ammo_AW_TheIllusion_1.5.0.2_2019-05-16.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_vito72m" Enabled="True" InstallGroup="4" PatchGroup="4" Name="shell icons by vito72m" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons" Enabled="True" InstallGroup="4" PatchGroup="4" Name="More Shell Icons" Type="single1" Visible="True">
+            <Size>345331</Size>
+            <ZipFile>Ingame_Misc_Ammo_More_Shell_Icons_Dependency_1.5.1.2_2019-07-23.zip</ZipFile>
+            <CRC>5b24c11002b3361a8a0e3463d736ed46</CRC>
+            <Timestamp>132083629421706514</Timestamp>
+            <Description>This mod adds up to 32 new icons for all shells, depending on the modules you select. \r\n\r\nThis mod is a work in progress!\r\n\r\nThis mod will not work with other shell icon mods.</Description>
+            <Dependencies>
+              <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Packages>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_China" Enabled="False" InstallGroup="4" PatchGroup="4" Name="China" Type="multi" Visible="False">
+                <CRC>f</CRC>
+                <Timestamp>132083630759368697</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_Czech" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Czech" Type="multi" Visible="False">
+                <CRC>f</CRC>
+                <Timestamp>132083630759368697</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_France" Enabled="False" InstallGroup="4" PatchGroup="4" Name="France" Type="multi" Visible="False">
+                <CRC>f</CRC>
+                <Timestamp>132083630759368697</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_Germany" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Germany" Type="multi" Visible="False">
+                <CRC>f</CRC>
+                <Timestamp>132083630759368697</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_Italy" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Italy" Type="multi" Visible="False">
+                <CRC>f</CRC>
+                <Timestamp>132083630759368697</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_Japan" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Japan" Type="multi" Visible="False">
+                <CRC>f</CRC>
+                <Timestamp>132083630759368697</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_Poland" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Poland" Type="multi" Visible="False">
+                <CRC>f</CRC>
+                <Timestamp>132083630759368697</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_Sweden" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Sweden" Type="multi" Visible="False">
+                <CRC>f</CRC>
+                <Timestamp>132083630759368697</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_UK" Enabled="False" InstallGroup="4" PatchGroup="4" Name="UK" Type="multi" Visible="False">
+                <CRC>f</CRC>
+                <Timestamp>132083630759368697</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_USA" Enabled="True" InstallGroup="4" PatchGroup="4" Name="USA" Type="multi" Visible="True">
+                <Size>1154384</Size>
+                <ZipFile>Ingame_Misc_Ammo_More_Shell_Icons_USA_1.5.1.2_2019-07-23.zip</ZipFile>
+                <CRC>d4115ffc102d983140768ed876784048</CRC>
+                <Timestamp>132083630759368697</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_USSR" Enabled="False" InstallGroup="4" PatchGroup="4" Name="USSR" Type="multi" Visible="False">
+                <CRC>f</CRC>
+                <Timestamp>132083630759368697</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_vito72m" Enabled="True" InstallGroup="4" PatchGroup="4" Name="shell icons by vito72m" Type="single1" Visible="True">
             <Size>107813</Size>
             <ZipFile>Ingame_Misc_Consumables_ShellIcons_by_vito74m_2019-04-03.zip</ZipFile>
             <CRC>b3c92982c0338fabd31a40d52489d90f</CRC>
             <Timestamp>131987831930264795</Timestamp>
           </Package>
-          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_vvooj" Enabled="True" InstallGroup="4" PatchGroup="4" Name="shell icons by vvooj" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_vvooj" Enabled="True" InstallGroup="4" PatchGroup="4" Name="shell icons by vvooj" Type="single1" Visible="True">
             <Size>35672</Size>
             <ZipFile>Ingame_Misc_Consumables_ShellIcons_by_vvooj_2019-03-25.zip</ZipFile>
             <CRC>259623e2294c9421a4f796e8eb82104d</CRC>
@@ -1652,7 +1710,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Consumables/shellicons/Ingame_Misc_Consumables_ShellIcons_vvooj.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_WarThunder_by_alda_bravo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WarThunder shell icons by alda_bravo" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_WarThunder_by_alda_bravo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WarThunder shell icons by alda_bravo" Type="single1" Visible="True">
             <Size>389473</Size>
             <ZipFile>Ingame_Misc_Consumables_ShellIcons_WarThunder_by_alda_bravo_2019-03-25.zip</ZipFile>
             <CRC>c19761d9e327bf84f84368a72f0f99ea</CRC>
