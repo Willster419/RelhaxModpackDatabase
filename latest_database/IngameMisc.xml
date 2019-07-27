@@ -1524,10 +1524,10 @@
         </Dependencies>
       </Package>
       <Package PackageName="Ingame_Misc_chatmods_FriendsNotifier_Rajcel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Friends Notifier by RAJCEL" Type="multi" Visible="True">
-        <Size>33034</Size>
-        <ZipFile>Ingame_Misc_chatmods_FriendsNotifier_by_rajcel_1.5.1.1_2019-06-23.zip</ZipFile>
-        <CRC>41003d7dafeeeb3cc7ec309eb7f414b9</CRC>
-        <Timestamp>131982522314617369</Timestamp>
+        <Size>31470</Size>
+        <ZipFile>Ingame_Misc_chatmods_FriendsNotifier_by_rajcel_1.5.1.3_2019-07-27.zip</ZipFile>
+        <CRC>7cb93f0ea8fb95510298e3b46a60a5a8</CRC>
+        <Timestamp>132086927447361639</Timestamp>
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691876-12022018-12-05-friends-and-clan-members-status-change-notifier-by-rajcel/</DevURL>
         <Description>Mod is showing information along to below rules:\n\n- on game launch inform about online players,\n\n- in hangar and battle informs about status change online &lt;-&gt; offline (message from battle is repeated in hangar),\n\n- in battle informs about meeting with someone (platoonmates excluded).</Description>
         <Medias>
@@ -1536,6 +1536,10 @@
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/FriendsNotifier/Ingame_Misc_chatmnods_FriendsNotifier_Rajcel_3.jpg" MediaType="Picture" />
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/FriendsNotifier/Ingame_Misc_chatmnods_FriendsNotifier_Rajcel_4.jpg" MediaType="Picture" />
         </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
       <Package PackageName="Ingame_Misc_chatmods_SorryMessenger" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Sorry&quot; message when you hit an ally" Type="multi" Visible="True">
         <Size>4653</Size>
@@ -1636,10 +1640,10 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Consumables/Ingame_Misc_Ammo_AW_TheIllusion_1.5.0.2_2019-05-16.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons" Enabled="False" InstallGroup="4" PatchGroup="4" Name="More Shell Icons" Type="single1" Visible="True">
-            <Size>345331</Size>
-            <ZipFile>Ingame_Misc_Ammo_More_Shell_Icons_Dependency_1.5.1.2_2019-07-23.zip</ZipFile>
-            <CRC>5b24c11002b3361a8a0e3463d736ed46</CRC>
+          <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons" Enabled="True" InstallGroup="4" PatchGroup="4" Name="More Shell Icons" Type="single1" Visible="True">
+            <Size>369303</Size>
+            <ZipFile>Ingame_Misc_Ammo_More_Shell_Icons_Dependency_1.5.1.3_2019-07-26.zip</ZipFile>
+            <CRC>dfb4df436114ea97b290faefdda5e48f</CRC>
             <Timestamp>132083629421706514</Timestamp>
             <Description>This mod adds up to 32 new icons for all shells, depending on the modules you select. \r\n\r\nThis mod is a work in progress!\r\n\r\nThis mod will not work with other shell icon mods.</Description>
             <Dependencies>
@@ -1650,8 +1654,10 @@
                 <CRC>f</CRC>
                 <Timestamp>132083630759368697</Timestamp>
               </Package>
-              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_Czech" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Czech" Type="multi" Visible="False">
-                <CRC>f</CRC>
+              <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_Czech" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Czech" Type="multi" Visible="True">
+                <Size>149369</Size>
+                <ZipFile>Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_Czech_1.5.1.3_2019-07-26.zip</ZipFile>
+                <CRC>0250f35b1b74f6157945e8f99a889a10</CRC>
                 <Timestamp>132083630759368697</Timestamp>
               </Package>
               <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_France" Enabled="False" InstallGroup="4" PatchGroup="4" Name="France" Type="multi" Visible="False">
@@ -1683,9 +1689,10 @@
                 <Timestamp>132083630759368697</Timestamp>
               </Package>
               <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_USA" Enabled="True" InstallGroup="4" PatchGroup="4" Name="USA" Type="multi" Visible="True">
-                <Size>1154384</Size>
-                <ZipFile>Ingame_Misc_Ammo_More_Shell_Icons_USA_1.5.1.2_2019-07-23.zip</ZipFile>
-                <CRC>d4115ffc102d983140768ed876784048</CRC>
+                <Size>1346318</Size>
+                <Version>0.04</Version>
+                <ZipFile>Ingame_Misc_Ammo_More_Shell_Icons_USA_1.5.1.3_2019-07-26.zip</ZipFile>
+                <CRC>658a5ba352eab58ab838cacd6ddcf13a</CRC>
                 <Timestamp>132083630759368697</Timestamp>
               </Package>
               <Package PackageName="Ingame_Misc_Consumables_ShellIcons_More_Shell_Icons_USSR" Enabled="False" InstallGroup="4" PatchGroup="4" Name="USSR" Type="multi" Visible="False">

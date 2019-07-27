@@ -430,15 +430,19 @@
     <Timestamp>131712253302348201</Timestamp>
     <Packages>
       <Package PackageName="Ingame_Info_InBattle_Rating_RaJCeL" Enabled="True" InstallGroup="4" PatchGroup="4" Name="RaJCeL (Broken on NA server)" Type="single_dropdown1" Visible="True">
-        <Size>108180</Size>
-        <ZipFile>Ingame_Info_InBattle_Rating_RaJCeL_1.5.1.1_2019-06-23.zip</ZipFile>
-        <CRC>c7d39473f3fc5994ac4f996940b1a7e4</CRC>
-        <Timestamp>131997465625938867</Timestamp>
-        <DevURL>https://wgmods.net/2559/details</DevURL>
+        <Size>128723</Size>
+        <ZipFile>Ingame_Info_InBattle_Rating_RaJCeL_1.5.1.3_2019-07-27.zip</ZipFile>
+        <CRC>3ddf53956f5f952b79f046ee148ab989</CRC>
+        <Timestamp>132086936061762668</Timestamp>
+        <DevURL>https://wgmods.net/2559/details\r\nhttp://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel/</DevURL>
         <Description>Mod is showing some statistics in battle and replays. Mod doesn’t need XVM to work.\r\n\r\nNot working on NA server as of 1.5.1 (06-15-2019)</Description>
         <Medias>
           <Media URL="https://wgmods.net/media/inBattleFontSize.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
         </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
       <Package PackageName="Ingame_Info_InBattle_Rating_OldSkool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="OldSkool" Type="single_dropdown1" Visible="True">
         <Size>44311</Size>
@@ -910,15 +914,19 @@
     </Dependencies>
   </Package>
   <Package PackageName="Ingame_Info_Shell_Info" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Shell Info by RaJCeL" Type="multi" Visible="True">
-    <Size>12494</Size>
-    <ZipFile>Ingame_Info_Shell_Info_by_Rajcel_1.5.1.1_2019-06-23.zip</ZipFile>
-    <CRC>f7a646574552e7955603cfe1f7ac92ad</CRC>
-    <Timestamp>131982521139952771</Timestamp>
+    <Size>15626</Size>
+    <ZipFile>Ingame_Info_Shell_Info_by_Rajcel_1.5.1.3_2019-07-27.zip</ZipFile>
+    <CRC>b3c4e8ca9c6dc0f80cc441daf04b1da5</CRC>
+    <Timestamp>132086987409068381</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
     <Description>in battle this mod shows the shell´s speed in the consumables infopanel.</Description>
     <Medias>
       <Media URL="https://i.imgur.com/oRwESiT.png" MediaType="Picture" />
     </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
+    </Dependencies>
   </Package>
   <Package PackageName="Ingame_Info_Tank_Info_Panel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Info Panel" Type="multi" Visible="True">
     <Packages>
