@@ -914,9 +914,9 @@
     </Dependencies>
   </Package>
   <Package PackageName="Ingame_Info_Shell_Info" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Shell Info by RaJCeL" Type="multi" Visible="True">
-    <Size>15626</Size>
-    <ZipFile>Ingame_Info_Shell_Info_by_Rajcel_1.5.1.3_2019-07-27.zip</ZipFile>
-    <CRC>b3c4e8ca9c6dc0f80cc441daf04b1da5</CRC>
+    <Size>15977</Size>
+    <ZipFile>Ingame_Info_Shell_Info_by_Rajcel_1.5.1.3_2019-07-29.zip</ZipFile>
+    <CRC>a6d1e7847cb7a3d8691bf7e79d236b71</CRC>
     <Timestamp>132086987409068381</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
     <Description>in battle this mod shows the shell´s speed in the consumables infopanel.</Description>
@@ -927,6 +927,45 @@
       <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
     </Dependencies>
+    <Packages>
+      <Package PackageName="Ingame_Info_Shell_Info_Debug" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Debug" Type="multi" Visible="True">
+        <Size>549</Size>
+        <ZipFile>Ingame_Info_Shell_Info_Debug_PATCH_1.5.1.3_2019-07-29.zip</ZipFile>
+        <CRC>d6475a2442c1ce6dc70053a2169b5757</CRC>
+        <Timestamp>132088870143735992</Timestamp>
+        <Description>Turn this on only if asked to</Description>
+      </Package>
+      <Package PackageName="Ingame_Info_Shell_Info_Damage_Spread" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Damage Spread" Type="multi" Visible="True">
+        <Size>576</Size>
+        <ZipFile>Ingame_Info_Shell_Info_Damage_Spread_PATCH_1.5.1.3_2019-07-29.zip</ZipFile>
+        <CRC>f10edbda21dcce2eb9bd86fd4d743cd7</CRC>
+        <Timestamp>132088870143735992</Timestamp>
+        <Description>Shows the spread of damage for any shell</Description>
+      </Package>
+      <Package PackageName="Ingame_Info_Shell_Info_Explosion" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Explosion Radius" Type="multi" Visible="True">
+        <Size>583</Size>
+        <ZipFile>Ingame_Info_Shell_Info_Explosion_Radius_PATCH_1.5.1.3_2019-07-29.zip</ZipFile>
+        <CRC>0cc8f504b8b44ab84dcc956923708eb9</CRC>
+        <Timestamp>132088870143735992</Timestamp>
+        <Description>Shows the explosion radius for any shell</Description>
+      </Package>
+      <Package PackageName="Ingame_Info_Shell_Info_Pen_Spread" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Penetration Spread" Type="multi" Visible="True">
+        <Size>574</Size>
+        <ZipFile>Ingame_Info_Shell_Info_Pen_Spread_PATCH_1.5.1.3_2019-07-29.zip</ZipFile>
+        <CRC>dd1684edf98b7dc825b943d663e8bcb5</CRC>
+        <Timestamp>132088870454316281</Timestamp>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
+        <Description>Shows the spread of penetration for any shell</Description>
+      </Package>
+      <Package PackageName="Ingame_Info_Shell_Info_Speed" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Shell Speed" Type="multi" Visible="True">
+        <Size>564</Size>
+        <ZipFile>Ingame_Info_Shell_Info_Shell_Speed_PATCH_1.5.1.3_2019-07-29.zip</ZipFile>
+        <CRC>d1e4b7b6c79df45871c60f937f74865a</CRC>
+        <Timestamp>132088870454316281</Timestamp>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
+        <Description>Shows the shell speed for any shell</Description>
+      </Package>
+    </Packages>
   </Package>
   <Package PackageName="Ingame_Info_Tank_Info_Panel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Info Panel" Type="multi" Visible="True">
     <Packages>
