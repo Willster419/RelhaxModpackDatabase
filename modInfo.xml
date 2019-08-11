@@ -21487,12 +21487,17 @@
                       <name>with text modifications (english)</name>
                       <zipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text_1.4.1.0_2019-03-24.zip</zipFile>
                       <crc>f</crc>
-                      <enabled>False</enabled>
-                      <visible>False</visible>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
                       <packageName>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text</packageName>
                       <type>single1</type>
                       <timestamp>132100271570079290</timestamp>
                       <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</devURL>
+                      <dependencies>
+                        <dependency>
+                          <packageName>Dependency_MLG_english_localization</packageName>
+                        </dependency>
+                      </dependencies>
                     </package>
                     <package>
                       <name>by Aimdrol without text modifications</name>
@@ -21513,11 +21518,6 @@
                       </medias>
                     </package>
                   </packages>
-                  <dependencies>
-                    <dependency>
-                      <packageName>Dependency_MLG_english_localization</packageName>
-                    </dependency>
-                  </dependencies>
                 </package>
                 <package>
                   <name>Armored Warfare</name>
