@@ -946,6 +946,22 @@
           </Package>
         </Packages>
       </Package>
+      <Package PackageName="XVMConfigBuilder_BattleInterface_PostmortemDogtag" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Postmortem Dogtag" Type="multi" Visible="True">
+        <Packages>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_PostmortemDogtag_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+            <Size>622</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_showPostmortemDogtag_disable.zip</ZipFile>
+            <CRC>8271aae8e483147e9f4ad13540fa8e14</CRC>
+            <Timestamp>132100202737555221</Timestamp>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_PostmortemDogtag_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+            <Size>623</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_showPostmortemDogtag_enable.zip</ZipFile>
+            <CRC>8f1c016850b215f88138938293c8fc2f</CRC>
+            <Timestamp>132100202836887547</Timestamp>
+          </Package>
+        </Packages>
+      </Package>
       <Package PackageName="XVMConfigBuilder_BattleInterface_PreBattleMessages" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PreBattleMessages" Type="multi" Visible="True">
         <Timestamp>131812516048427337</Timestamp>
         <Description>modify the look of the pre-battle timer and messages</Description>
@@ -2329,6 +2345,32 @@
           </Package>
         </Packages>
       </Package>
+      <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session Statistics Button" Type="multi" Visible="True">
+        <Packages>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show button" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showButton_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True" />
+              <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showButton_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True" />
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show battle count" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>674</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_disable.zip</ZipFile>
+                <CRC>2261b70cddec5eb19dfb803d2199eb4c</CRC>
+                <Timestamp>132100219940284465</Timestamp>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>671</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_enable.zip</ZipFile>
+                <CRC>05851ab198a8385345773fddc73b14da</CRC>
+                <Timestamp>132100219084471182</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
+        </Packages>
+      </Package>
       <Package PackageName="XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show selected battle mode text" Type="multi" Visible="True">
         <Packages>
           <Package PackageName="XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
@@ -2354,6 +2396,22 @@
             <Size>634</Size>
             <ZipFile>XVMconfigBuilder_GarageInterface_showBuyPremiumButton_enable.zip</ZipFile>
             <CRC>655779ee3db81b0710fe8b5f14d8dbaa</CRC>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="XVMconfigBuilder_GarageInterface_showDogtagWidget" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Dogtag Widget" Type="multi" Visible="True">
+        <Packages>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showDogtagWidget_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+            <Size>626</Size>
+            <ZipFile>XVMconfigBuilder_GarageInterface_showDogtagWidget_disable.zip</ZipFile>
+            <CRC>21e68b535919751d5e1e9ed4f910c317</CRC>
+            <Timestamp>132100211316427135</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showDogtagWidget_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+            <Size>624</Size>
+            <ZipFile>XVMconfigBuilder_GarageInterface_showDogtagWidget_enable.zip</ZipFile>
+            <CRC>2b9dd7063a2caa284d1f5294c55ceb1a</CRC>
+            <Timestamp>132100211269742416</Timestamp>
           </Package>
         </Packages>
       </Package>

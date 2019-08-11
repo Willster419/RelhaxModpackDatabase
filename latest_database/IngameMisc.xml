@@ -1562,30 +1562,38 @@
         <Timestamp>131980039524252268</Timestamp>
         <UpdateComment>modified from gui.pkg:\n\res_mods\versiondir\gui\flash\guiControlsLobbyBattle.swf\n\nneeds updates every patchday - urgent!</UpdateComment>
         <Packages>
-          <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Aimdrol" Enabled="False" InstallGroup="4" PatchGroup="4" Name="by Aimdrol with text modifications (english)" Type="single_dropdown1" Visible="False">
-            <Size>3583355</Size>
-            <ZipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_with_text_1.4.1.0_2019-03-24.zip</ZipFile>
-            <CRC>ff6e3f12f6ad1f5e9c27b55c6bd5b264</CRC>
-            <Timestamp>131980044181240341</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
-            <Medias>
-              <Media URL="http://i.imgur.com/6mneJsK.png" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_MLG_english_localization" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_w/o_text" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by Aimdrol without text modifications" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by Aimdrol" Type="single1" Visible="True">
             <Size>2665260</Size>
-            <ZipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_without_text_1.0.2.4_2018-10-18.zip</ZipFile>
+            <ZipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_base_1.0.2.4_2018-10-18.zip</ZipFile>
             <CRC>bd79fad9f97e609eec8b831f945bd31e</CRC>
-            <Timestamp>131980044678673148</Timestamp>
+            <Timestamp>132100271502320745</Timestamp>
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
             <Medias>
               <Media URL="http://i.imgur.com/6mneJsK.png" MediaType="Picture" />
             </Medias>
+            <Packages>
+              <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text" Enabled="True" InstallGroup="4" PatchGroup="4" Name="with text modifications (english)" Type="single1" Visible="True">
+                <Size>985179</Size>
+                <ZipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text_1.4.1.0_2019-03-24.zip</ZipFile>
+                <CRC>083550f0598701b0a7294628813387c3</CRC>
+                <Timestamp>132100271570079290</Timestamp>
+                <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_MLG_english_localization" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
+              <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_no_text" Enabled="True" InstallGroup="4" PatchGroup="4" Name="without text modifications" Type="single1" Visible="True">
+                <Size>2665260</Size>
+                <CRC>f</CRC>
+                <Timestamp>132100271306124125</Timestamp>
+                <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
+                <Medias>
+                  <Media URL="http://i.imgur.com/6mneJsK.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
           </Package>
-          <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Armored_Warfare" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Armored Warfare" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Armored_Warfare" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Armored Warfare" Type="single1" Visible="True">
             <Size>889270</Size>
             <ZipFile>Ingame_Misc_Consumables_Equipment_Icons_Armored_Warfare_1.5.1_2019-06-13.zip</ZipFile>
             <CRC>3c019d018ec60d91bd3fc2a6d5bc834f</CRC>
@@ -1595,7 +1603,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Consumables/TheIllusion_AW_Consumables.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by DEbranded" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by DEbranded" Type="single1" Visible="True">
             <Size>1473207</Size>
             <ZipFile>Ingame_Misc_Consumables_EquipmentIcons_DEbranded_1.6_2019-08-08.zip</ZipFile>
             <CRC>bde71d7fd341d9fb0b72c5e35af7c3a1</CRC>
@@ -1608,7 +1616,7 @@
               <Media URL="http://i.imgur.com/bUBDdSI.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_vito72m" Enabled="False" InstallGroup="4" PatchGroup="4" Name="by vito72m" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_vito72m" Enabled="False" InstallGroup="4" PatchGroup="4" Name="by vito72m" Type="single1" Visible="True">
             <Size>1076076</Size>
             <ZipFile>Ingame_Misc_Consumables_EquipmentIcons_vito74m_2019-04-03.zip</ZipFile>
             <CRC>53daa836e723c41f70bc0a606021cae8</CRC>
