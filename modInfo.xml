@@ -21466,14 +21466,14 @@
               <updateComment>modified from gui.pkg:\n&amp;#92;res_mods&amp;#92;versiondir&amp;#92;gui&amp;#92;flash&amp;#92;guiControlsLobbyBattle.swf\n\nneeds updates every patchday - urgent!</updateComment>
               <packages>
                 <package>
-                  <name>by Aimdrol with text modifications (english)</name>
-                  <zipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_with_text_1.4.1.0_2019-03-24.zip</zipFile>
-                  <crc>ff6e3f12f6ad1f5e9c27b55c6bd5b264</crc>
-                  <enabled>False</enabled>
-                  <visible>False</visible>
-                  <packageName>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>131980044181240341</timestamp>
+                  <name>by Aimdrol</name>
+                  <zipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_base_1.0.2.4_2018-10-18.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_Header</packageName>
+                  <type>single1</type>
+                  <timestamp>132100271502320745</timestamp>
                   <size>3583355</size>
                   <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</devURL>
                   <medias>
@@ -21482,29 +21482,42 @@
                       <URL>http://i.imgur.com/6mneJsK.png</URL>
                     </media>
                   </medias>
-                  <dependencies>
-                    <dependency>
-                      <packageName>Dependency_MLG_english_localization</packageName>
-                    </dependency>
-                  </dependencies>
-                </package>
-                <package>
-                  <name>by Aimdrol without text modifications</name>
-                  <zipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_without_text_1.0.2.4_2018-10-18.zip</zipFile>
-                  <crc>bd79fad9f97e609eec8b831f945bd31e</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_w/o_text</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>131980044678673148</timestamp>
-                  <size>2665260</size>
-                  <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</devURL>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>http://i.imgur.com/6mneJsK.png</URL>
-                    </media>
-                  </medias>
+                  <packages>
+                    <package>
+                      <name>with text modifications (english)</name>
+                      <zipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text_1.4.1.0_2019-03-24.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text</packageName>
+                      <type>single1</type>
+                      <timestamp>132100271570079290</timestamp>
+                      <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</devURL>
+                      <dependencies>
+                        <dependency>
+                          <packageName>Dependency_MLG_english_localization</packageName>
+                        </dependency>
+                      </dependencies>
+                    </package>
+                    <package>
+                      <name>without text modifications</name>
+                      <zipFile />
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_no_text</packageName>
+                      <type>single1</type>
+                      <timestamp>132100271306124125</timestamp>
+                      <size>2665260</size>
+                      <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</devURL>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://i.imgur.com/6mneJsK.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                  </packages>
                 </package>
                 <package>
                   <name>Armored Warfare</name>
@@ -21513,7 +21526,7 @@
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Ingame_Misc_Consumables_EquipmentIcons_Armored_Warfare</packageName>
-                  <type>single_dropdown1</type>
+                  <type>single1</type>
                   <timestamp>132023527603478549</timestamp>
                   <size>889270</size>
                   <description>Changes the consumables to that of Armored Warfare.</description>
@@ -21531,7 +21544,7 @@
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Ingame_Misc_Consumables_EquipmentIcons_DEbranded</packageName>
-                  <type>single_dropdown1</type>
+                  <type>single1</type>
                   <timestamp>131980042053658457</timestamp>
                   <size>1473207</size>
                   <updateComment>removed: res&amp;#92;gui&amp;#92;maps&amp;#92;icons&amp;#92;tankmen</updateComment>
@@ -21558,7 +21571,7 @@
                   <enabled>False</enabled>
                   <visible>True</visible>
                   <packageName>Ingame_Misc_Consumables_EquipmentIcons_vito72m</packageName>
-                  <type>single_dropdown1</type>
+                  <type>single1</type>
                   <timestamp>131987833055634978</timestamp>
                   <size>1076076</size>
                 </package>
