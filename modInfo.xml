@@ -867,6 +867,16 @@
       <packageName>Dependency_RemodEnabler</packageName>
       <timestamp>132097600461080038</timestamp>
       <devURL>https://koreanrandom.com/forum/topic/22800-</devURL>
+      <logicalDependencies>
+        <logicalDependency>
+          <packageName>Dependency_modsSettingsApi</packageName>
+          <negateFlag>False</negateFlag>
+        </logicalDependency>
+        <logicalDependency>
+          <packageName>Dependency_PYmodsCore</packageName>
+          <negateFlag>False</negateFlag>
+        </logicalDependency>
+      </logicalDependencies>
     </dependency>
     <dependency>
       <zipFile>Dependency_Fonts_10_ZurichCond_2019-06-18.zip</zipFile>
@@ -41130,7 +41140,7 @@
               <name>Heavy</name>
               <zipFile />
               <crc />
-              <enabled>False</enabled>
+              <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Custom_Tank_Skins_China_Heavy</packageName>
               <type>multi</type>
@@ -41282,6 +41292,12 @@
                       <dependencies>
                         <dependency>
                           <packageName>Dependency_RemodEnabler</packageName>
+                        </dependency>
+                        <dependency>
+                          <packageName>Dependency_modsSettingsApi</packageName>
+                        </dependency>
+                        <dependency>
+                          <packageName>Dependency_PYmodsCore</packageName>
                         </dependency>
                       </dependencies>
                     </package>
@@ -41482,7 +41498,7 @@
                   <zipFile />
                   <crc />
                   <enabled>False</enabled>
-                  <visible>False</visible>
+                  <visible>True</visible>
                   <packageName>Custom_Tank_Skins_Czech_Medium_Skoda_TVP_T50-51</packageName>
                   <type>multi</type>
                   <packages>
@@ -41620,7 +41636,7 @@
                       <name>105 leFH18B2 "leFHant"</name>
                       <zipFile>Custom_Tank_Skins_F28_105_leFH18B2_leFHant_v1.0_2017-06-03.zip</zipFile>
                       <crc>89eda8b165da8a1d8511c3c40bdfd9f6</crc>
-                      <enabled>True</enabled>
+                      <enabled>False</enabled>
                       <visible>True</visible>
                       <packageName>Custom_Tank_Skins_France_Artillery_105_leFH18B2_leFHant</packageName>
                       <type>single_dropdown1</type>
@@ -41907,7 +41923,7 @@
                   <zipFile />
                   <crc />
                   <enabled>False</enabled>
-                  <visible>True</visible>
+                  <visible>False</visible>
                   <packageName>Custom_Tank_Skins_France_Medium_CDC</packageName>
                   <type>multi</type>
                 </package>
@@ -42060,7 +42076,7 @@
                   <zipFile />
                   <crc />
                   <enabled>False</enabled>
-                  <visible>True</visible>
+                  <visible>False</visible>
                   <packageName>Custom_Tank_Skins_France_Light_AMX_13_105</packageName>
                   <type>multi</type>
                 </package>
@@ -42191,7 +42207,7 @@
                   <name>Panhard EBR 105</name>
                   <zipFile />
                   <crc />
-                  <enabled>True</enabled>
+                  <enabled>False</enabled>
                   <visible>True</visible>
                   <packageName>Custom_Tank_Skins_France_Light_Panhard_EBR_105</packageName>
                   <type>multi</type>
@@ -42200,7 +42216,7 @@
                       <name>Pedal to the Metal Event Edition</name>
                       <zipFile>Custom_Tank_Skins_F108_Panhard_EBR_105_Pedal_to_the_Metal_Event_1.4.0.2_2019-03-13.zip</zipFile>
                       <crc>bd7c4d1812dec5fc2b9c381e138647c8</crc>
-                      <enabled>True</enabled>
+                      <enabled>False</enabled>
                       <visible>True</visible>
                       <packageName>Custom_Tank_Skins_France_Light_Panhard_EBR_105_PedalMetal</packageName>
                       <type>single_dropdown1</type>
@@ -42254,7 +42270,7 @@
                   <name>ConquerorGC</name>
                   <zipFile />
                   <crc />
-                  <enabled>True</enabled>
+                  <enabled>False</enabled>
                   <visible>True</visible>
                   <packageName>Custom_Tank_Skins_GB_Artillery_ConquerorGC</packageName>
                   <type>multi</type>
@@ -42263,7 +42279,7 @@
                       <name>The Horse</name>
                       <zipFile>Custom_Tank_Skins_GB31_Conqueror_Gun_THE_HORSE_1.2.0.1_2018-12-23.zip</zipFile>
                       <crc>0628b9f8e75662ded7b3e882f52162c8</crc>
-                      <enabled>True</enabled>
+                      <enabled>False</enabled>
                       <visible>True</visible>
                       <packageName>Custom_Tank_Skins_GB_Artillery_ConquerorGC_The_Horse</packageName>
                       <type>single_dropdown1</type>
@@ -42342,7 +42358,7 @@
                       <name>"GB Police Car"</name>
                       <zipFile>Custom_Tank_Skins_GB77_FV304_GB_Police_Car_1.4.0.1_2019-02-21.zip</zipFile>
                       <crc>b1c23a402bfb66b4f4498b3fc973007f</crc>
-                      <enabled>False</enabled>
+                      <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Custom_Tank_Skins_GB_Artillery_FV304_GB_Police_Car</packageName>
                       <type>single_dropdown1</type>
@@ -42369,7 +42385,7 @@
                       <name>"US Police Car"</name>
                       <zipFile>Custom_Tank_Skins_GB77_FV304_US_Police_Car_1.4.0.1_2019-02-21.zip</zipFile>
                       <crc>7e7b88713cf5c59daaa479be136141ed</crc>
-                      <enabled>False</enabled>
+                      <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Custom_Tank_Skins_GB_Artillery_FV304_US_Police_Car</packageName>
                       <type>single_dropdown1</type>
@@ -42580,6 +42596,12 @@
                         <dependency>
                           <packageName>Dependency_RemodEnabler</packageName>
                         </dependency>
+                        <dependency>
+                          <packageName>Dependency_PYmodsCore</packageName>
+                        </dependency>
+                        <dependency>
+                          <packageName>Dependency_modsSettingsApi</packageName>
+                        </dependency>
                       </dependencies>
                     </package>
                     <package>
@@ -42630,7 +42652,7 @@
                   <type>multi</type>
                   <packages>
                     <package>
-                      <name>Mk.4202</name>
+                      <name>Medium Mk.4005</name>
                       <zipFile>Custom_Tank_Skins_UK_GB01_Medium_Mk4202_1.2.0.2_2018-12-04.zip</zipFile>
                       <crc>0168b6756179bcb235d6eacd6ac7b4c3</crc>
                       <enabled>False</enabled>
@@ -42667,7 +42689,7 @@
                   <name>Centurion_Mk5-1</name>
                   <zipFile />
                   <crc />
-                  <enabled>False</enabled>
+                  <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Custom_Tank_Skins_GB_Medium_Centurion_Mk5-1</packageName>
                   <type>multi</type>
@@ -42740,8 +42762,8 @@
                       <name>RGT by yodaschlumpf</name>
                       <zipFile>Custom_Tank_Skins_GB21_Cromwell_RGT_1.2.0.1.zip</zipFile>
                       <crc>4448d542f3e8a1f7f68266c2049070da</crc>
-                      <enabled>False</enabled>
-                      <visible>False</visible>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
                       <packageName>Custom_Tank_Skins_GB_Medium_Cromwell_RGT</packageName>
                       <type>single_dropdown1</type>
                       <timestamp>131861533510362980</timestamp>
@@ -42796,8 +42818,8 @@
                       <name>RGT B by yodaschlumpf</name>
                       <zipFile>Custom_Tank_Skins_GB85_Cromwell_B_RGT_1.2.0.1.zip</zipFile>
                       <crc>d67d4e5582b5021606c9a4f5402e9277</crc>
-                      <enabled>False</enabled>
-                      <visible>False</visible>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
                       <packageName>Custom_Tank_Skins_GB_Medium_Cromwell_B_RGT</packageName>
                       <type>single_dropdown1</type>
                       <timestamp>131861533784092234</timestamp>
@@ -42819,7 +42841,7 @@
                       <name>Carbon</name>
                       <zipFile>Custom_Tank_Skins_GB85_Cromwell_B_Carbon_PeNeTrAtOrX_v1.1_1.4.0.0_2019-01-23.zip</zipFile>
                       <crc>4ad85f7faa5e92d92dcd61de1c8fcb22</crc>
-                      <enabled>False</enabled>
+                      <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Custom_Tank_Skins_GB_Medium_Cromwell_B_Carbon</packageName>
                       <type>single_dropdown1</type>
@@ -42875,7 +42897,7 @@
                   <name>Centurion 7/1</name>
                   <zipFile />
                   <crc>f</crc>
-                  <enabled>False</enabled>
+                  <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Custom_Tank_Skins_GB_Medium_Centurion_Mk3</packageName>
                   <type>multi</type>
@@ -43035,6 +43057,12 @@
                         <dependency>
                           <packageName>Dependency_RemodEnabler</packageName>
                         </dependency>
+                        <dependency>
+                          <packageName>Dependency_modsSettingsApi</packageName>
+                        </dependency>
+                        <dependency>
+                          <packageName>Dependency_PYmodsCore</packageName>
+                        </dependency>
                       </dependencies>
                     </package>
                   </packages>
@@ -43071,7 +43099,7 @@
                   <name>Excalibur</name>
                   <zipFile />
                   <crc />
-                  <enabled>True</enabled>
+                  <enabled>False</enabled>
                   <visible>True</visible>
                   <packageName>Custom_Tank_Skins_GB_Tank_Destroyer_Excalibur</packageName>
                   <type>multi</type>
@@ -43124,7 +43152,7 @@
                   <name>PzVII</name>
                   <zipFile />
                   <crc />
-                  <enabled>True</enabled>
+                  <enabled>False</enabled>
                   <visible>True</visible>
                   <packageName>Custom_Tank_Skins_Germany_Heavy_PzVII</packageName>
                   <type>multi</type>
@@ -43301,8 +43329,8 @@
                       <name>Hier kommt die Maus by Yodaschlumpf</name>
                       <zipFile>Custom_Tank_Skins_G42_Maus_Hier_Kommt_Die_Maus_1.2.0.1.zip</zipFile>
                       <crc>4bb04eaf241bf35049916aae688e2780</crc>
-                      <enabled>False</enabled>
-                      <visible>False</visible>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
                       <packageName>Custom_Tank_Skins_Germany_Heavy_Maus_HierKommtDieMaus</packageName>
                       <type>single_dropdown1</type>
                       <version>1.1.0</version>
@@ -43325,8 +43353,8 @@
                       <name>Green Hexagon</name>
                       <zipFile>Custom_Tank_Skins_G42_Maus_Green_Hexagon_Supreme__Leader_1.1.0.zip</zipFile>
                       <crc>80757893617ea47fe8df295ef6b5ecb9</crc>
-                      <enabled>False</enabled>
-                      <visible>False</visible>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
                       <packageName>Custom_Tank_Skins_Germany_Heavy_Maus_Green_Hexagon</packageName>
                       <type>single_dropdown1</type>
                       <version>1.1.0</version>
@@ -43460,7 +43488,7 @@
                   <name>Tiger II</name>
                   <zipFile />
                   <crc />
-                  <enabled>True</enabled>
+                  <enabled>False</enabled>
                   <visible>True</visible>
                   <packageName>Custom_Tank_Skins_Germany_Heavy_Tiger_II</packageName>
                   <type>multi</type>
@@ -43573,8 +43601,8 @@
                   <name>TigerP</name>
                   <zipFile />
                   <crc />
-                  <enabled>False</enabled>
-                  <visible>False</visible>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
                   <packageName>Custom_Tank_Skins_Germany_Heavy_TigerP</packageName>
                   <type>multi</type>
                   <packages>
@@ -43582,8 +43610,8 @@
                       <name>TigerP Girls &amp; Panzer by Yodaschlumpf</name>
                       <zipFile>Custom_Tank_Skins_G57_PzVI_Tiger_P_Girls&amp;Panzer_1.2.0.1_2018-11-21.zip</zipFile>
                       <crc>e8717b0eb279bc08641c7ab784999aa2</crc>
-                      <enabled>False</enabled>
-                      <visible>False</visible>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
                       <packageName>Custom_Tank_Skins_Germany_Heavy_TigerP_GuP</packageName>
                       <type>single1</type>
                       <version>1.2.0.1</version>
@@ -43770,8 +43798,8 @@
                       <name>EvelKnievel by yodaschlumpf</name>
                       <zipFile>Custom_Tank_Skins_G63_PZ_I_C_EvelKnievel_1.2.0.1_2018-11-15.zip</zipFile>
                       <crc>613b3dba57f7eadcdd24de5b92379dd4</crc>
-                      <enabled>False</enabled>
-                      <visible>False</visible>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
                       <packageName>Custom_Tank_Skins_Germany_Light_PZ_I_C_EvelKnievel</packageName>
                       <type>single1</type>
                       <timestamp>131871004454723414</timestamp>
@@ -43810,6 +43838,12 @@
                       <dependencies>
                         <dependency>
                           <packageName>Dependency_RemodEnabler</packageName>
+                        </dependency>
+                        <dependency>
+                          <packageName>Dependency_PYmodsCore</packageName>
+                        </dependency>
+                        <dependency>
+                          <packageName>Dependency_modsSettingsApi</packageName>
                         </dependency>
                       </dependencies>
                     </package>
@@ -44643,7 +44677,7 @@
                       <name>Carbornium Edition</name>
                       <zipFile>Custom_Tank_Skins_G114_Rheinmetall_Skorpian_Carbornium_Edition_v1.2_1.3.0.1_2018-12-22.zip</zipFile>
                       <crc>a13b205adea439e57ea75df01d30cc61</crc>
-                      <enabled>False</enabled>
+                      <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Custom_Tank_Skins_Germany_Tank_Destroyer_Skorpion_G_Carbornium_Edition</packageName>
                       <type>single1</type>
@@ -45061,7 +45095,7 @@
                       <name>Godzilla</name>
                       <zipFile>Custom_Tank_Skins_J20_Type_5_Godzilla_1.3.0.1_2018-12-21.zip</zipFile>
                       <crc>5fba7e590053507cafd9e990fdf3b555</crc>
-                      <enabled>False</enabled>
+                      <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Custom_Tank_Skins_Japan_Heavy_Type5_Godzilla</packageName>
                       <type>single1</type>
@@ -45150,7 +45184,7 @@
                       <name>Chi-Nu-Kai "Akatsuki-Pain"</name>
                       <zipFile>Custom_Tank_Skins_J12_Chi_Nu_Kai_Remodel_Akatsuki_Pain_1.3.0.1_2019-01-20.zip</zipFile>
                       <crc>2d368dfb53dfa1ae328d6a178071ed1f</crc>
-                      <enabled>False</enabled>
+                      <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Custom_Tank_Skins_Japan_Medium_Chi_Nu_Kai_Pain</packageName>
                       <type>multi</type>
@@ -45182,7 +45216,7 @@
           <name>Poland</name>
           <zipFile />
           <crc />
-          <enabled>True</enabled>
+          <enabled>False</enabled>
           <visible>True</visible>
           <packageName>Custom_Tank_Skins_Poland</packageName>
           <type>multi</type>
@@ -45191,7 +45225,7 @@
               <name>Heavy</name>
               <zipFile />
               <crc />
-              <enabled>True</enabled>
+              <enabled>False</enabled>
               <visible>True</visible>
               <packageName>Custom_Tank_Skins_Poland_Heavy</packageName>
               <type>multi</type>
@@ -45200,7 +45234,7 @@
                   <name>60TP</name>
                   <zipFile />
                   <crc />
-                  <enabled>True</enabled>
+                  <enabled>False</enabled>
                   <visible>True</visible>
                   <packageName>Custom_Tank_Skins_Poland_Heavy_60TP</packageName>
                   <type>multi</type>
@@ -45248,7 +45282,7 @@
               <name>Medium</name>
               <zipFile />
               <crc />
-              <enabled>True</enabled>
+              <enabled>False</enabled>
               <visible>True</visible>
               <packageName>Custom_Tank_Skins_Poland_Medium</packageName>
               <type>multi</type>
@@ -45439,7 +45473,7 @@
               <name>Heavy</name>
               <zipFile />
               <crc />
-              <enabled>True</enabled>
+              <enabled>False</enabled>
               <visible>True</visible>
               <packageName>Custom_Tank_Skins_Sweden_Heavy</packageName>
               <type>multi</type>
@@ -45448,7 +45482,7 @@
                   <name>Kranvagn</name>
                   <zipFile />
                   <crc />
-                  <enabled>True</enabled>
+                  <enabled>False</enabled>
                   <visible>True</visible>
                   <packageName>Custom_Tank_Skins_Heavy_Kranvagn</packageName>
                   <type>multi</type>
@@ -45670,22 +45704,10 @@
                   <type>multi</type>
                   <packages>
                     <package>
-                      <name>Baby Blue</name>
-                      <zipFile>Custom_Tank_Skins_S22_Strv_S1_Baby_Blue_v1.1_2019-08-16.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Custom_Tank_Skins_Sweden_Tank_Destroyer_STRV_S1_Baby_blue</packageName>
-                      <type>single1</type>
-                      <version>v1.1</version>
-                      <timestamp>132104703236182174</timestamp>
-                      <devURL>https://penetratorxmodshop.weebly.com/store/p109/Strv_S1_"Poison_Green"_%26_"baby_blue"_.html</devURL>
-                    </package>
-                    <package>
                       <name>Poison Green</name>
                       <zipFile>Custom_Tank_Skins_S22_Strv_S1_Poison_Green_v1.1_2019-08-16.zip</zipFile>
                       <crc>f</crc>
-                      <enabled>True</enabled>
+                      <enabled>False</enabled>
                       <visible>True</visible>
                       <packageName>Custom_Tank_Skins_Sweden_Tank_Destroyer_STRV_S1_Poison_Green</packageName>
                       <type>single1</type>
@@ -45753,64 +45775,6 @@
               <packageName>Custom_Tank_Skins_USA_Heavy</packageName>
               <type>multi</type>
               <packages>
-                <package>
-                  <name>M48A5 Heavy</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Custom_Tank_Skins_USA_Heavy_M48A5</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>M60A1 Mirukii Remodel</name>
-                      <zipFile>Custom_Tank_Skins_A120_M48A5_M60A1_Mirukii_1.6.0.0_2019-08-16.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Custom_Tank_Skins_USA_Heavy_M48A5_M60A1_Mirukii_Remodel</packageName>
-                      <type>single1</type>
-                      <timestamp>132104744732808389</timestamp>
-                      <size>18648025</size>
-                      <description>M60A1 remodel for the M48A5 Patton</description>
-                      <devURL>https://wgmods.net/1156/details</devURL>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Custom_Tank_Skins/Custom_Tank_Skins_A120_M48A5_M60A1_Mirukii_1.jpg</URL>
-                        </media>
-                        <media>
-                          <type>1</type>
-                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Custom_Tank_Skins/Custom_Tank_Skins_A120_M48A5_M60A1_Mirukii_2.jpg</URL>
-                        </media>
-                      </medias>
-                    </package>
-                    <package>
-                      <name>Mirukii Remodel</name>
-                      <zipFile>Custom_Tank_Skins_A120_M48A5_Mirukii_1.6.0.0_2019-08-16.zip</zipFile>
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Custom_Tank_Skins_USA_Heavy_M48A5_Mirukii_Remodel</packageName>
-                      <type>single1</type>
-                      <timestamp>132104744819925546</timestamp>
-                      <size>22164764</size>
-                      <updateComment>no update 2019-01-09</updateComment>
-                      <description>Yankee doodle remodel with MORE guns (triple MGs, M16 and M72 LAWs), a gun mantlet canvas, cable for the AN/VSS-1 searchlight and one of the roadwheels removed from the turret model.</description>
-                      <devURL>https://wgmods.net/282/details</devURL>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Custom_Tank_Skins/Custom_Tank_Skins_A120_M48A5_Mirukii_1.jpg</URL>
-                        </media>
-                        <media>
-                          <type>1</type>
-                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Custom_Tank_Skins/Custom_Tank_Skins_A120_M48A5_Mirukii_2.jpg</URL>
-                        </media>
-                      </medias>
-                    </package>
-                  </packages>
-                </package>
                 <package>
                   <name>T110E5 Heavy</name>
                   <zipFile />
@@ -46123,7 +46087,7 @@
                       <name>ReModel by ShimadaReModel</name>
                       <zipFile>Custom_Tank_Skins_A12_T32_Remodel_by_Shimada_Sama_1.3.0.1_2019-02-08.zip</zipFile>
                       <crc>0874bc412d7fdce5dfa273246bac2029</crc>
-                      <enabled>False</enabled>
+                      <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Custom_Tank_Skins_USA_Heavy_T32_Heavy_ShimadaReModel</packageName>
                       <type>single1</type>
@@ -46210,8 +46174,8 @@
                   <name>M24 Chaffee</name>
                   <zipFile />
                   <crc />
-                  <enabled>False</enabled>
-                  <visible>False</visible>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
                   <packageName>Custom_Tank_Skins_USA_Light_M24_Chaffe</packageName>
                   <type>multi</type>
                   <timestamp>131701463901315202</timestamp>
@@ -46265,8 +46229,8 @@
                   <name>M5 Stuart</name>
                   <zipFile />
                   <crc />
-                  <enabled>False</enabled>
-                  <visible>False</visible>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
                   <packageName>Custom_Tank_Skins_USA_Light_M5_Stuart</packageName>
                   <type>multi</type>
                   <timestamp>131701465920091952</timestamp>
@@ -46335,8 +46299,8 @@
                   <name>T71 DA</name>
                   <zipFile />
                   <crc />
-                  <enabled>False</enabled>
-                  <visible>False</visible>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
                   <packageName>Custom_Tank_Skins_USA_Light_T71_DA</packageName>
                   <type>multi</type>
                   <packages>
@@ -46482,6 +46446,12 @@
                         <dependency>
                           <packageName>Dependency_RemodEnabler</packageName>
                         </dependency>
+                        <dependency>
+                          <packageName>Dependency_modsSettingsApi</packageName>
+                        </dependency>
+                        <dependency>
+                          <packageName>Dependency_PYmodsCore</packageName>
+                        </dependency>
                       </dependencies>
                     </package>
                   </packages>
@@ -46527,6 +46497,64 @@
                         <media>
                           <type>1</type>
                           <URL>https://wgmods.net/media/M4FL10E8_1_6Cpwz6b.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg</URL>
+                        </media>
+                      </medias>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>M48A5 Patton</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Custom_Tank_Skins_USA_Medium_M48A5</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>M60A1 Mirukii Remodel</name>
+                      <zipFile>Custom_Tank_Skins_A120_M48A5_M60A1_Mirukii_1.6.0.0_2019-08-16.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Custom_Tank_Skins_USA_Medium_M48A5_M60A1_Mirukii_Remodel</packageName>
+                      <type>single1</type>
+                      <timestamp>132104744732808389</timestamp>
+                      <size>18648025</size>
+                      <description>M60A1 remodel for the M48A5 Patton</description>
+                      <devURL>https://wgmods.net/1156/details</devURL>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Custom_Tank_Skins/Custom_Tank_Skins_A120_M48A5_M60A1_Mirukii_1.jpg</URL>
+                        </media>
+                        <media>
+                          <type>1</type>
+                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Custom_Tank_Skins/Custom_Tank_Skins_A120_M48A5_M60A1_Mirukii_2.jpg</URL>
+                        </media>
+                      </medias>
+                    </package>
+                    <package>
+                      <name>Mirukii Remodel</name>
+                      <zipFile>Custom_Tank_Skins_A120_M48A5_Mirukii_1.6.0.0_2019-08-16.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Custom_Tank_Skins_USA_Medium_M48A5_Mirukii_Remodel</packageName>
+                      <type>single1</type>
+                      <timestamp>132104744819925546</timestamp>
+                      <size>22164764</size>
+                      <updateComment>no update 2019-01-09</updateComment>
+                      <description>Yankee doodle remodel with MORE guns (triple MGs, M16 and M72 LAWs), a gun mantlet canvas, cable for the AN/VSS-1 searchlight and one of the roadwheels removed from the turret model.</description>
+                      <devURL>https://wgmods.net/282/details</devURL>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Custom_Tank_Skins/Custom_Tank_Skins_A120_M48A5_Mirukii_1.jpg</URL>
+                        </media>
+                        <media>
+                          <type>1</type>
+                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Custom_Tank_Skins/Custom_Tank_Skins_A120_M48A5_Mirukii_2.jpg</URL>
                         </media>
                       </medias>
                     </package>
@@ -46811,7 +46839,7 @@
                   <name>T25 AT</name>
                   <zipFile />
                   <crc />
-                  <enabled>True</enabled>
+                  <enabled>False</enabled>
                   <visible>True</visible>
                   <packageName>Custom_Tank_Skins_USA_Tank_Destroyer_T25_AT</packageName>
                   <type>multi</type>
@@ -46907,7 +46935,7 @@
                   </packages>
                 </package>
                 <package>
-                  <name>T110E4 Heavy</name>
+                  <name>T110E4</name>
                   <zipFile />
                   <crc />
                   <enabled>True</enabled>
@@ -47247,6 +47275,12 @@
                         <dependency>
                           <packageName>Dependency_RemodEnabler</packageName>
                         </dependency>
+                        <dependency>
+                          <packageName>Dependency_modsSettingsApi</packageName>
+                        </dependency>
+                        <dependency>
+                          <packageName>Dependency_PYmodsCore</packageName>
+                        </dependency>
                       </dependencies>
                     </package>
                     <package>
@@ -47579,6 +47613,12 @@
                       <dependencies>
                         <dependency>
                           <packageName>Dependency_RemodEnabler</packageName>
+                        </dependency>
+                        <dependency>
+                          <packageName>Dependency_modsSettingsApi</packageName>
+                        </dependency>
+                        <dependency>
+                          <packageName>Dependency_PYmodsCore</packageName>
                         </dependency>
                       </dependencies>
                     </package>
