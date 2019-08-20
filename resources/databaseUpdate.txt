@@ -1,271 +1,68 @@
-I would like to preface this by stating this tank skins update was started over 10 days ago. The team as a whole (myself included) put in about 30 hours for this update. We had to:
-
- - Check for mod updates
- - Convert them to wotmod, if not done already
- - Log changes for future reference
- - Individually test each mod by hand in a replay to check that it works (there's over 50 of these)
-
-Big shout-out to the team for making this happen :)
-
-
 Database Update!
 
-New version tag: 1.6.0.0_2019-08-18_1
+New version tag: 1.6.0.1_2019-08-19_1
 
-Number of Added packages: 12
-Number of Updated packages: 114
-Number of Disabled packages: 74
-Number of Removed packages: 14
+Number of Added packages: 10
+Number of Updated packages: 24
+Number of Disabled packages: 0
+Number of Removed packages: 3
 Number of Moved packages: 2
-Number of Renamed packages: 19
-Number of Internally renamed packages: 0
+Number of Renamed packages: 3
+Number of Internally renamed packages: 1
 
 Added:
- - Damage Logs/Damage Panels->Damage Panels->Hawgs Glass->with angle indicator (outer)
- - Damage Logs/Damage Panels->Damage Panels->Hawgs Glass->with angle indicator (inner full)
- - Damage Logs/Damage Panels->Damage Panels->Hawgs Glass->with angle indicator (inner lite)
- - Custom Tank Skins->Sweden->Tank Destroyer->STRV S1->Baby Blue
- - Custom Tank Skins->USA->Heavy->T34 B Heavy
- - Custom Tank Skins->USA->Heavy->T34 B Heavy->T34 B by HG_Skins
- - Custom Tank Skins->USA->Medium->M48A5 Patton
- - Custom Tank Skins->USSR->Heavy->IS-3A->TNXL by yodaschlumpf
- - Custom Tank Skins->USSR->Heavy->IS-3A->GIRLS&UWE by yodaschlumpf
- - Custom Tank Skins->USSR->Heavy->IS-3A->DSS CAMO by YodaSchlumpf
- - Custom Tank Skins->USSR->Heavy->IS-3A->DSS EXPLOSIV by yodaschlumpf
- - Custom Tank Skins->USSR->Heavy->IS-3A->NVIDIA-Style black
+ - Dependency_night_dragon_on_CoreMods
+ - Dependency_playersPanelAPI_OldSkool
+ - Custom Tank Skins->France->Medium->Lorraine 40 t
+ - Custom Tank Skins->France->Medium->Lorraine 40 t->Classic's Lorraine 40 t "Early Prototype" Remodel
+ - Custom Tank Skins->France->Light->AMX 40
+ - Custom Tank Skins->France->Light->AMX 40->Le Quack
+ - Custom Tank Skins->Germany->Heavy->Löwe->Schwere Panzerabteilung 508
+ - Custom Tank Skins->Germany->Tank Destroyer->Skorpion G->RazerTeck's Scorpion
+ - Custom Tank Skins->USA->Medium->T95E2
+ - Custom Tank Skins->USA->Medium->T95E2->Classic's T95E1 Remodel
 
 Updated:
- - Custom Tank Skins->China->Light->WZ-132->Star Wars Stormtrooper
- - Custom Tank Skins->China->Medium->121->Mirukii Remodel
- - Custom Tank Skins->China->Medium->T-34-3->Mirukii Remodel
- - Custom Tank Skins->China->Medium->Type 59->Mirukii Remodel
- - Custom Tank Skins->Czech->Medium->Skoda TVP VTU->Reskin by HG_Skins
- - Custom Tank Skins->Czech->Medium->Skoda T25->Reskin by HG_Skins
- - Custom Tank Skins->France->Heavy->FCM 50t->FCM 50 t Liberté Skin
- - Custom Tank Skins->France->Heavy->BDR G1 B->"Mordian-Style"
- - Custom Tank Skins->France->Light->AMX 13 90->Mirukii's AMX 13 90 Remodel
- - Custom Tank Skins->France->Light->Panhard AMD 178B->Reskin by HG_Skins
- - Custom Tank Skins->GB->Artillery->FV304->Bert The Avenger
- - Custom Tank Skins->GB->Heavy->TOG II->Chewbacca
- - Custom Tank Skins->GB->Medium->Centurion_Mk5-1->Talisman by Avalon
- - Custom Tank Skins->GB->Medium->Cromwell->Cromwell Knight
- - Custom Tank Skins->GB->Medium->Cromwell B->Cromwell Knight  B
- - Custom Tank Skins->GB->Medium->FV4202->Mirukii Remodel
- - Custom Tank Skins->GB->Medium->Centurion 7/1->Thunderbolt by Avalon
- - Custom Tank Skins->GB->Medium->Centurion Action X or  Centurion AX->AX Deh0mbreS
- - Custom Tank Skins->GB->Tank Destroyer->FV217 Badger->Star Wars Han Solo
- - Custom Tank Skins->GB->Tank Destroyer->Charioteer->Dragon By Avalon
- - Custom Tank Skins->Germany->Light->Rhm. Panzerwagen->Begleitpanzer 57
- - Custom Tank Skins->Germany->Light->M41 90 GF->Mirukii Remodel
- - Custom Tank Skins->Germany->Light->PZ I C->BB8
- - Custom Tank Skins->Germany->Light->PzII J->Gold
- - Custom Tank Skins->Germany->Medium->E-50->Mirukii Remodel
- - Custom Tank Skins->Germany->Medium->E-50 M->Mirukii Remodel
- - Custom Tank Skins->Germany->Medium->Leopard PT A->Mirukii Remodel
- - Custom Tank Skins->Germany->Medium->Leopard 1->Mirukii Remodel
- - Custom Tank Skins->Germany->Medium->T-55A->Mirukii Remodel
- - Custom Tank Skins->Germany->Medium->VK 30.01 P->Mirukii Remodel
- - Custom Tank Skins->Germany->Tank Destroyer->Hetzer->Hetzer Mirukii Remodel
- - Custom Tank Skins->Germany->Tank Destroyer->E-25->Gold
- - Custom Tank Skins->Germany->Tank Destroyer->Skorpion G->Skorpion G Removal
- - Custom Tank Skins->Germany->Tank Destroyer->Skorpion G->Mirukii Black Remodel
- - Custom Tank Skins->Japan->Heavy->Type 4->Red-Silver Reskin by HG_Skins
- - Custom Tank Skins->Sweden->Tank Destroyer->UDES 03->Chaotic Pattern by psyartax
- - Custom Tank Skins->Sweden->Tank Destroyer->UDES 03->Magma Pattern by psyartax
- - Custom Tank Skins->Sweden->Tank Destroyer->UDES 03->Dark Matter Camo by psyartax
- - Custom Tank Skins->Sweden->Tank Destroyer->STRV 103B->Swedish Blue by PeNeTrAtOrX
- - Custom Tank Skins->Sweden->Tank Destroyer->STRV S1->Mirukii Remodel
- - Custom Tank Skins->Sweden->Tank Destroyer->STRV S1->Poison Green
- - Custom Tank Skins->USA->Heavy->T110E5 Heavy->Murikii Remodel
- - Custom Tank Skins->USA->Heavy->T110E5 Heavy->OM Edition (RIP OMC Modpack)  by Yodaschlumpf
- - Custom Tank Skins->USA->Heavy->T110E5 Heavy->OMNI Edition (RIP OMC Modpack) by Yodaschlumpf
- - Custom Tank Skins->USA->Heavy->T57 Heavy->New Year Offensive
- - Custom Tank Skins->USA->Heavy->T57 Heavy->NVIDIA-Style black
- - Custom Tank Skins->USA->Heavy->M103 Heavy->Candy Apple Red by HG_Skins
- - Custom Tank Skins->USA->Heavy->T34 Heavy->T34 by HG_Skins
- - Custom Tank Skins->USA->Heavy->T34 Heavy->Independence Skin by Mirukii
- - Custom Tank Skins->USA->Heavy->T34 Heavy->Mirukii Remodel
- - Custom Tank Skins->USA->Heavy->M6 Heavy->Dragon-Style
- - Custom Tank Skins->USA->Light->M24 Chaffee->Redbull Racing Skin by Yodaschlumpf
- - Custom Tank Skins->USA->Light->M5 Stuart->Hot Wheels Racing Skin by Yodaschlumpf
- - Custom Tank Skins->USA->Light->M551 Sheridan->Mirukii Remodel
- - Custom Tank Skins->USA->Light->T71 DA->Joker by Yodaschlumpf
- - Custom Tank Skins->USA->Light->T49->Carbornium Edition
- - Custom Tank Skins->USA->Light->T49->Iron Man by PeNeTrAtOrX
- - Custom Tank Skins->USA->Light->T49->Mirukii Remodel
- - Custom Tank Skins->USA->Light->T49->Star Wars Rey by Hellinger
- - Custom Tank Skins->USA->Medium->M4A3E8->M4FL10E8 By HG_Skins
- - Custom Tank Skins->USA->Medium->M48A5 Patton->M60A1 Mirukii Remodel
- - Custom Tank Skins->USA->Medium->M48A5 Patton->Mirukii Remodel
- - Custom Tank Skins->USA->Medium->M60->M-60 "Intel-Style"
- - Custom Tank Skins->USA->Medium->M60->Mirukii Remodel
- - Custom Tank Skins->USA->Medium->T26E4 SuperPershing->Freedom Skin by Mirukii
- - Custom Tank Skins->USA->Medium->T26E4 SuperPershing->"AMD Ryzen-Style"
- - Custom Tank Skins->USA->Tank Destroyer->T67->black friend
- - Custom Tank Skins->USA->Tank Destroyer->T67->Copper by HG skins
- - Custom Tank Skins->USA->Tank Destroyer->T67->RazerTeck's T67
- - Custom Tank Skins->USA->Tank Destroyer->M18 Hellcat->RESKIN_by_HG_Skins
- - Custom Tank Skins->USA->Tank Destroyer->TS-5 By psyartax
- - Custom Tank Skins->USA->Tank Destroyer->T30->T30 Patriot by Carbornium
- - Custom Tank Skins->USA->Tank Destroyer->T110E4->Flaming Dragon Skin
- - Custom Tank Skins->USSR->Heavy->Churchill III->LendLease_Heavy_Guards_Tank_Brigade_Poland_1944
- - Custom Tank Skins->USSR->Heavy->IS-3A->Fatherland Reskin by HG_Skins
- - Custom Tank Skins->USSR->Heavy->IS-3->TNXL by yodaschlumpf
- - Custom Tank Skins->USSR->Heavy->IS-3->GIRLS&UWE by yodaschlumpf
- - Custom Tank Skins->USSR->Heavy->IS-3->Luke Skywalker
- - Custom Tank Skins->USSR->Heavy->IS-3->NVIDIA-Style black
- - Custom Tank Skins->USSR->Heavy->IS-3->DSS CAMO by YodaSchlumpf
- - Custom Tank Skins->USSR->Heavy->IS-3->DSS EXPLOSIV by yodaschlumpf
- - Custom Tank Skins->USSR->Heavy->IS-6->"Red Bull-Style"
- - Custom Tank Skins->USSR->Heavy->IS-7->New Year Offensive
- - Custom Tank Skins->USSR->Heavy->KV-5->Alex23_Z`s KV-5 remodel "KV-5-152" v1.4.0.1
- - Custom Tank Skins->USSR->Heavy->KV-5->Nvidia-Style black
- - Custom Tank Skins->USSR->Heavy->KV-2->KV2 Carbornium Edition
- - Custom Tank Skins->USSR->Heavy->KV-2->EVIL_SMILE_FACE
- - Custom Tank Skins->USSR->Heavy->KV-2->Beutepanzer KV-2 754(r)
- - Custom Tank Skins->USSR->Heavy->KV-2->Darth Vader by Hellinger
- - Custom Tank Skins->USSR->Heavy->KV-2->Nvidia-Style black
- - Custom Tank Skins->USSR->Heavy->KV-2->SMASH by Nextron
- - Custom Tank Skins->USSR->Heavy->KV-2->Valhallan_Ragnarok_Warhammer_40k-Style for Standard KV-2
- - Custom Tank Skins->USSR->Heavy->KV-220-2->KV-1 KwK40 Mirukii
- - Custom Tank Skins->USSR->Light->BT-42->BT-42 Mirukii german Remodel
- - Custom Tank Skins->USSR->Light->LTG->LTG "Nvidia-Style black" v1.2
- - Custom Tank Skins->USSR->Light->LT-432->LT-432 "T-64 Lightweight"
- - Custom Tank Skins->USSR->Medium->K-91->"Nvidia-Style white"
- - Custom Tank Skins->USSR->Medium->Object 140->Mirukii Remodel
- - Custom Tank Skins->USSR->Medium->Object 140->"NVIDIA-Style black"
- - Custom Tank Skins->USSR->Medium->Object 416->"Nvidia-Style black"
- - Custom Tank Skins->USSR->Medium->Object 430U->"Nvidia-Style white"
- - Custom Tank Skins->USSR->Medium->Object 430->Punisher Skull
- - Custom Tank Skins->USSR->Medium->Object 430->Mirukii Remodel
- - Custom Tank Skins->USSR->Medium->Rudy->Mirukii Remodel
- - Custom Tank Skins->USSR->Medium->T44-100->"Granite" (Metallic) by PeNeTrAtOrX
- - Custom Tank Skins->USSR->Medium->T-54->Mirukii Remodel
- - Custom Tank Skins->USSR->Medium->T-62A->Mirukii Remodel
- - Custom Tank Skins->USSR->Tank Destroyer->Object 263->Deh0mbreS RENEWED by Sgt_Krollnikow51
- - Custom Tank Skins->USSR->Tank Destroyer->Object 263->Nvidia-Style black
- - Custom Tank Skins->USSR->Tank Destroyer->SU-100Y->SU-100Y "Superfortress"
- - Custom Tank Skins->USSR->Tank Destroyer->SU-101->NVIDIA-Style white
- - Custom Tank Skins->USSR->Tank Destroyer->SU-122-44->NVIDIA-Style black
- - Custom Tank Skins->USSR->Tank Destroyer->SU85I->Nvidia-Style black
- - Custom Tank Skins->USSR->Tank Destroyer->SU85I->Nvidia-Style white
+ - Dependency_XVM_Main_Files
+ - Dependency_RaJCel_Core
+ - Ingame Aim->Dispersion->Dispersion (Aim time) info by P0LIR0ID
+ - Ingame Aim->SafeShot Mods->SafeShot by OldSkool
+ - Ingame Aim->SafeShot Mods->SafeShot by PROTanki
+ - Ingame Aim->Projectile Flytime for SPG/Arty by oldskool
+ - Ingame Info->Arty HitLog by OldSkool
+ - Ingame Info->Enemy spotted status (by oldskool)
+ - Ingame Info->Inbattle Rating Mods->RaJCeL (Broken on NA server)
+ - Ingame Info->RTAN - Real Time Achievements Notifications->RTAN by protanki
+ - Ingame Info->Shell Info by RaJCeL
+ - Ingame Info->Tank Info Panel->Tank Info Panel by OldSkool v1.2.3
+ - Ingame Info->Tank Info Panel->Tank Info Panel by PROTanki
+ - Ingame Misc->Chat-Mods (in-battle)->Friends Marker by Oldskool
+ - Ingame Misc->Chat-Mods (in-battle)->Friends Notifier by RAJCEL
+ - Ingame Misc->Final Shot by POLIROID (Last Hits)
+ - Garage Mods->Annoying Features Remover v30 [NDO´s Hangar Addons]
+ - Garage Mods->Armor Inspector->Armor Inspector by protanki
+ - Garage Mods->Auto-equip removeable equipment by OldSkool
+ - Garage Mods->Tooltips count items limit expand
+ - Garage Mods->Simple Vehicle Stats
+ - Garage Mods->Techtrees->OldSkool's Extended TechTree
+ - Garage graphics->Loading graphics & exit screens->Map Loading Screens->"Old Memories" - map loading screens by DrWeb7_1
+ - Statistics->On battle results statistics by RaJCeL (HEAVY MOD)
 
 Renamed:
- - "Mk.4202" was renamed to "Medium Mk.4005"
- - ""Poison Green"" was renamed to "Poison Green"
- - ""NVIDIA-Style black"" was renamed to "NVIDIA-Style black"
- - ""Joker" by Yodaschlumpf" was renamed to "Joker by Yodaschlumpf"
- - ""Iron Man" by PeNeTrAtOrX" was renamed to "Iron Man by PeNeTrAtOrX"
- - "Copper" was renamed to "Copper by HG skins"
- - ""NVIDIA-Style white"" was renamed to "NVIDIA-Style white"
- - "T110E4 Heavy" was renamed to "T110E4"
- - ""NVIDIA-Style black"" was renamed to "NVIDIA-Style black"
- - ""Nvidia-Style black"" was renamed to "Nvidia-Style black"
- - ""Nvidia-Style black"" was renamed to "Nvidia-Style black"
- - ""Valhallan_Ragnarok_Warhammer_40k-Style" for Standard KV-2" was renamed to "Valhallan_Ragnarok_Warhammer_40k-Style for Standard KV-2"
- - ""Nvidia-Style black"" was renamed to "Nvidia-Style black"
- - ""NVIDIA-Style white"" was renamed to "NVIDIA-Style white"
- - ""NVIDIA-Style black"" was renamed to "NVIDIA-Style black"
- - ""Nvidia-Style black"" was renamed to "Nvidia-Style black"
- - ""Nvidia-Style white"" was renamed to "Nvidia-Style white"
- - "M60A1 Mirukii Remodel" was renamed to "M60A1 Mirukii Remodel"
- - "Mirukii Remodel" was renamed to "Mirukii Remodel"
+ - "Final Shot by POLIROID" was renamed to "Final Shot by POLIROID (Last Hits)"
+ - "Annoying Features Remover v30 [NDO´s Hangar Addons]" was renamed to "Annoying Features Remover v30 [NDO´s Hangar Addons]"
+ - "Simple Vehicle Stats" was renamed to "Simple Vehicle Stats"
 
 Moved:
- - "Custom Tank Skins->USA->Heavy->M48A5 Heavy->M60A1 Mirukii Remodel" was moved to "Custom Tank Skins->USA->Medium->M48A5 Patton->M60A1 Mirukii Remodel"
- - "Custom Tank Skins->USA->Heavy->M48A5 Heavy->Mirukii Remodel" was moved to "Custom Tank Skins->USA->Medium->M48A5 Patton->Mirukii Remodel"
+ - "Garage Mods->Annoying Features Remover v30 [NDO´s Hangar Addons]" was moved to "Garage Mods->Annoying Features Remover v30 [NDO´s Hangar Addons]"
+ - "Garage graphics->Simple Vehicle Stats" was moved to "Garage Mods->Simple Vehicle Stats"
 
 Disabled:
- - Custom Tank Skins->France->Artillery->105 leFH18B2
- - Custom Tank Skins->France->Artillery->105 leFH18B2->105 leFH18B2 "leFHant"
- - Custom Tank Skins->France->Heavy->AMX M4 mle. 54
- - Custom Tank Skins->France->Heavy->AMX M4 mle. 54->Deh0mbreS RENEWED by Sgt_Krollnikow51
- - Custom Tank Skins->France->Heavy->AMX 50B
- - Custom Tank Skins->France->Heavy->AMX 50B->Deh0mbreS RENEWED by Sgt_Krollnikow51
- - Custom Tank Skins->France->Medium->AMX CDC
- - Custom Tank Skins->France->Light->AMX 13 105
- - Custom Tank Skins->France->Light->Panhard EBR 105
- - Custom Tank Skins->France->Light->Panhard EBR 105->Pedal to the Metal Event Edition
- - Custom Tank Skins->GB->Artillery->ConquerorGC
- - Custom Tank Skins->GB->Artillery->ConquerorGC->The Horse
- - Custom Tank Skins->GB->Heavy->Super Conqueror
- - Custom Tank Skins->GB->Heavy->Super Conqueror->Deh0mbreS RENEWED by Sgt_Krollnikow51
- - Custom Tank Skins->GB->Medium->Centurion 7/1->Deh0mbreS
- - Custom Tank Skins->GB->Tank Destroyer->Excalibur
- - Custom Tank Skins->GB->Tank Destroyer->Excalibur->Schwans Truck Style
- - Custom Tank Skins->Germany->Heavy->PzVII
- - Custom Tank Skins->Germany->Heavy->PzVII->Deh0mbreS dark yellow (dunkelgelb)
- - Custom Tank Skins->Germany->Heavy->Maus->Deh0mbreS tank grey (panzergrau)
- - Custom Tank Skins->Germany->Heavy->Maus->Deh0mbreS  dark yellow (dunkelgelb)
- - Custom Tank Skins->Germany->Heavy->Maus->Santamaus
- - Custom Tank Skins->Germany->Heavy->Löwe->No.111
- - Custom Tank Skins->Germany->Heavy->Löwe->Dark yellow Löwe
- - Custom Tank Skins->Germany->Heavy->Tiger II
- - Custom Tank Skins->Germany->Heavy->Tiger II->Deh0mbreS dark yellow (dunkelgelb)
- - Custom Tank Skins->Germany->Heavy->Tiger II->Muinch -- with Skirts
- - Custom Tank Skins->Germany->Heavy->Tiger II->Muinch -- No Skirts
- - Custom Tank Skins->Germany->Medium->Leopard 1->Leopard 1 "Schneeleopard"
- - Custom Tank Skins->Germany->Medium->Panther 8.8 Premium
- - Custom Tank Skins->Germany->Medium->Panther 8.8 Premium->Panther F dark yellow dunkelgelb
- - Custom Tank Skins->Germany->Medium->Panther M10
- - Custom Tank Skins->Germany->Medium->Panther M10->Panther M10 Gulf  by Yodaschlumpf
- - Custom Tank Skins->Germany->Medium->Panther M10->Panther M10 FC Carl Zeiss Jena  by Yodaschlumpf
- - Custom Tank Skins->Germany->Medium->Panther I
- - Custom Tank Skins->Germany->Medium->Panther I->Deh0mbreS dark-yellow "dunkelgelb"
- - Custom Tank Skins->Germany->Medium->Panther I->Panther I Schmalturm
- - Custom Tank Skins->Germany->Medium->PzIV_AusfH
- - Custom Tank Skins->Germany->Medium->PzIV_AusfH->PzIV_AusfH  "Kampfwert gesteigert" Reinforced
- - Custom Tank Skins->Germany->Medium->PzIV_AusfH->PzIV_AusfH  "Kampfwert gesteigert" Reinforced with Skin
- - Custom Tank Skins->Germany->Tank Destroyer->Hetzer->Thundertank
- - Custom Tank Skins->Germany->Tank Destroyer->E-25->with sideskirts
- - Custom Tank Skins->Germany->Tank Destroyer->E-25->E-25 as F1-car
- - Custom Tank Skins->Germany->Tank Destroyer->E-25->"The running lawn"
- - Custom Tank Skins->Germany->Tank Destroyer->KanonenJagdPanzer or Jagdpanther III
- - Custom Tank Skins->Germany->Tank Destroyer->KanonenJagdPanzer or Jagdpanther III->Jagdpanther III with skin by Sgt_Krollnikow51
- - Custom Tank Skins->Germany->Tank Destroyer->KanonenJagdPanzer or Jagdpanther III->Jagdpanther III dark-yellow
- - Custom Tank Skins->Germany->Tank Destroyer->Jagdtiger
- - Custom Tank Skins->Germany->Tank Destroyer->Jagdtiger->Jagdtiger No. 201 O.Carius
- - Custom Tank Skins->Germany->Tank Destroyer->Jagdtiger->Veteran green
- - Custom Tank Skins->Germany->Tank Destroyer->JAGDPANZER E-100
- - Custom Tank Skins->Germany->Tank Destroyer->JAGDPANZER E-100->Deh0mbreS_RENEWED by Sgt_Krollnikow51
- - Custom Tank Skins->Poland->Heavy
- - Custom Tank Skins->Poland->Heavy->60TP
- - Custom Tank Skins->Poland->Heavy->60TP->Brave_Monster_Hunter (The Witcher/Geralt)
- - Custom Tank Skins->Poland->Medium
- - Custom Tank Skins->Poland->Medium->Pudel
- - Custom Tank Skins->Poland->Medium->Pudel grey
- - Custom Tank Skins->Poland->Medium->Pudel Barkmann
- - Custom Tank Skins->Sweden->Heavy
- - Custom Tank Skins->Sweden->Heavy->Kranvagn
- - Custom Tank Skins->Sweden->Heavy->Kranvagn->Deh0mbreS
- - Custom Tank Skins->Sweden->Heavy->Kranvagn->Krampusvagn
- - Custom Tank Skins->USA->Heavy->T57 Heavy->T57 Deh0mbreS
- - Custom Tank Skins->USA->Medium->T25 Pilot
- - Custom Tank Skins->USA->Tank Destroyer->M18 Hellcat->baby blue
- - Custom Tank Skins->USA->Tank Destroyer->T25 AT
- - Custom Tank Skins->USSR->Heavy->Churchill III->8bits-Mammoth
- - Custom Tank Skins->USSR->Heavy->KV-2->Kono Subarashii Sekai Ni Shukufuku Wo!
- - Custom Tank Skins->USSR->Light->MT-25->MT-25 Remodeled by Penetratorx
- - Custom Tank Skins->USSR->Medium->T44-100
- - Custom Tank Skins->USSR->Medium->T-54 Mod.1
- - Custom Tank Skins->USSR->Tank Destroyer->Object 704
- - Custom Tank Skins->USSR->Tank Destroyer->Object 704->Deh0mbreS RENEWED by Sgt_Krollnikow51
 
 Removed:
- - Damage Logs/Damage Panels->Damage Panels->Hawgs Glass->with angle indicator
- - Custom Tank Skins->France->Medium->AMX CDC->Professor
- - Custom Tank Skins->France->Light->AMX 13 105->Professor
- - Custom Tank Skins->Sweden->Tank Destroyer->STRV 103B->Remodel by professors
- - Custom Tank Skins->Sweden->Tank Destroyer->STRV S1->Remodel STRV S1 by professors
- - Custom Tank Skins->USA->Heavy->M48A5 Heavy
- - Custom Tank Skins->USA->Medium->T25 Pilot->Professor
- - Custom Tank Skins->USA->Tank Destroyer->T67->Brutal (Remodel)
- - Custom Tank Skins->USA->Tank Destroyer->T67->Professor
- - Custom Tank Skins->USSR->Heavy->IS-3->Professor
- - Custom Tank Skins->USSR->Heavy->KV-2->SharkSkin
- - Custom Tank Skins->USSR->Heavy->KV-2->Deus_Vult_Edition
- - Custom Tank Skins->USSR->Medium->T-54 Mod.1->Professor
- - Custom Tank Skins->USSR->Tank Destroyer->SU-101->"NVIDIA-Style black"
+ - Dependency_night_dragon_on
+ - Dependency_playersPanelAPI_POLIROID_PROMOD
+ - Custom Tank Skins->France->Light->AMX 13 105
 
 Notes:
  - 

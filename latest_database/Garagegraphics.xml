@@ -682,7 +682,7 @@
         </Packages>
       </Package>
       <Package PackageName="Garage_Graphics_carousel_LED" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Carousel LED (different colors)" Type="multi" Visible="True">
-        <Version>5.1.3</Version>
+        <Version>6.1.1.2</Version>
         <DevURL>https://wgmods.net/1798/details</DevURL>
         <Description>by _HawgJaws_</Description>
         <UpdateComment>modified from gui.pkg:\n\res_mods\versiondir\gui\flash\TankCarousel.swf\n\nneeds updates on patchdays</UpdateComment>
@@ -2516,10 +2516,10 @@
       <Package PackageName="Garage_Graphics_MapLoadingScreens" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Map Loading Screens" Type="multi" Visible="True">
         <Packages>
           <Package PackageName="Garage_Graphics_MapLoadingScreens_OldMemories" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Old Memories&quot; - map loading screens by DrWeb7_1" Type="single_dropdown1" Visible="True">
-            <Size>50436381</Size>
-            <ZipFile>Garage_Graphics_MapLoadingScreens_OldMemories_2019-07-28.zip</ZipFile>
-            <CRC>e365b943fe1fb29c3ba5b427fbda0114</CRC>
-            <Timestamp>132087852420306327</Timestamp>
+            <Size>49707964</Size>
+            <ZipFile>Garage_Graphics_MapLoadingScreens_OldMemories_1.6_2019-08-19.zip</ZipFile>
+            <CRC>5351a9c1347c8656bc0bf5bc6e9f84eb</CRC>
+            <Timestamp>132107407521802418</Timestamp>
             <DevURL>https://wgmods.net/2258/</DevURL>
             <Medias>
               <Media URL="https://wgmods.net/media/Desktop_Screenshot_2018.10.02_-_14.19.34.08.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
@@ -4346,20 +4346,6 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Garage_Graphics_Simple_Vehicle_Stats" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Simple Vehicle Stats" Type="multi" Visible="True">
-    <Size>8161</Size>
-    <ZipFile>Garage_Graphics_singleListParams_1.6_2019-08-08.zip</ZipFile>
-    <CRC>2209660a1bfdd71c7e38dc274a2d63d4</CRC>
-    <Timestamp>132098357436355790</Timestamp>
-    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/717770-15132019-08-04-vehicle-parameters-on-single-list-by-rajcel/</DevURL>
-    <Description>These are vehicle parameters on single list.</Description>
-    <Medias>
-      <Media URL="https://i.imgur.com/qJP67pz.jpg" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
-    </Dependencies>
-  </Package>
   <Package PackageName="Garage_Graphics_TechTree" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Tech Tree" Type="multi" Visible="False">
     <Timestamp>131576934316186748</Timestamp>
     <Packages>
@@ -4944,8 +4930,8 @@
           <Media URL="https://wgmods.net/media/shot_604_8dmPYGC.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
         </Medias>
         <Dependencies>
-          <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
     </Packages>
