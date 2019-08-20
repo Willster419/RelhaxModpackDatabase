@@ -342,10 +342,10 @@
     <Timestamp>132071743749522467</Timestamp>
     <Packages>
       <Package PackageName="Ingame_Info_HP_Bars_Champi" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Champi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool" Type="single1" Visible="True">
-        <Size>111730</Size>
-        <ZipFile>Ingame_Info_HPBars_by_Champi_1.0.2_1.6.0.0_2019-08-12.zip</ZipFile>
-        <CRC>09d2923f30284f6e8b566b2146e9c00c</CRC>
-        <Timestamp>132101172606520267</Timestamp>
+        <Size>127187</Size>
+        <ZipFile>Ingame_Info_HPBars_by_Champi_v1.0.3_1.6.0.1_2019-08-20.zip</ZipFile>
+        <CRC>8607fc03907f1f8fb7e879a9a639b34c</CRC>
+        <Timestamp>132107639279805991</Timestamp>
         <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
         <Description>MOD DESCRIPTION: Customizable tank health bars for the playerpanel.\r\n\r\nfeatures:\r\n-draws background in vehicle class colors (see screenshot) or in standard green (own team) / red (enemy team)\r\n-can show only remaining structure points or current/max structure points\r\n-changeable graphics and layout - you can make your own backgrounds if you like\r\n\r\nNote: the health bars of the enemy team are only updated when the opponent is spotted and you're in radio signal range (if you didn't spot it by yourself). This rule is also valid for your own team. With other words: YOU CAN'T SEE IF YOUR BLIND SHOT HIT AN OPPONENT! :)\r\n\r\ncredits:\r\n-Yury Polyacov: For the permission to use his API in my mod. This mod used a modified version of the player panel API.\r\n-spoter: For his settings GUI</Description>
         <UpdateComment>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n\r\nConflicts with Battle Observer &amp;  with oldskool.playerspanel.api in\r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\nused by\r\nIngame_Misc_chatmods_FriendsMarker_Oldskool\r\nIngame_Info_Enemy_Spotted_Status (by Oldskool)\r\n\r\nuse  Logic NotFlag = "NAND" = Not and for \r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\n\r\nChampi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</UpdateComment>
@@ -801,7 +801,7 @@
     <ZipFile>Ingame_Info_SpotMessenger_v1.4.4_2018-06-16.zip</ZipFile>
     <CRC>fb178d41bcfef60b15354dfb45b64305</CRC>
     <Timestamp>131736619679541073</Timestamp>
-    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/562735-</DevURL>
+    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/562735-\r\nhttps://wgmods.net/669/</DevURL>
     <Description>Sends a chat message that you are spotted in a grid square, along with the "Help!" command</Description>
     <Packages>
       <Package PackageName="Ingame_Info_SpotMessenger_activated" Enabled="True" InstallGroup="4" PatchGroup="4" Name="active at start, deactivate with F11" Type="single_dropdown1" Visible="True">
@@ -814,9 +814,9 @@
         <ZipFile>Ingame_Info_SpotMessenger_deactivated_2017-07-12.zip</ZipFile>
         <CRC>059efcdef477fc82e90f8ff5514a3ce6</CRC>
       </Package>
-      <Package PackageName="Ingame_Info_SpotMessenger_Battletypes_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battletypes" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Info_SpotMessenger_Battletypes" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battletypes" Type="multi" Visible="True">
         <Packages>
-          <Package PackageName="Ingame_Info_SpotMessenger_Battletypes_Random_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Random" Type="multi" Visible="True">
+          <Package PackageName="Ingame_Info_SpotMessenger_Battletypes_Random" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Random" Type="multi" Visible="True">
             <Packages>
               <Package PackageName="Ingame_Info_SpotMessenger_Battletypes_Random_teammsg" Enabled="True" InstallGroup="4" PatchGroup="4" Name="with Message in Team chat" Type="single_dropdown1" Visible="True">
                 <Size>699</Size>
@@ -830,7 +830,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Ingame_Info_SpotMessenger_Battletypes_EpicRandom_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Grand Battles" Type="multi" Visible="True">
+          <Package PackageName="Ingame_Info_SpotMessenger_Battletypes_EpicRandom" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Grand Battles" Type="multi" Visible="True">
             <Packages>
               <Package PackageName="Ingame_Info_SpotMessenger_Battletypes_EpicRandom_teammsg" Enabled="True" InstallGroup="4" PatchGroup="4" Name="with Message in Team chat" Type="single_dropdown1" Visible="True">
                 <Size>726</Size>
@@ -869,7 +869,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Ingame_Info_SpotMessenger_Vehicle_Types_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Vehicle Types" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Info_SpotMessenger_Vehicle_Types" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Vehicle Types" Type="multi" Visible="True">
         <Packages>
           <Package PackageName="Ingame_Info_SpotMessenger_Vehicle_Types_lt" Enabled="True" InstallGroup="4" PatchGroup="4" Name="LT" Type="multi" Visible="True">
             <Size>616</Size>
@@ -970,7 +970,7 @@
   </Package>
   <Package PackageName="Ingame_Info_Tank_Info_Panel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Info Panel" Type="multi" Visible="True">
     <Packages>
-      <Package PackageName="Ingame_Info_Tank_Info_Panel_by_Izeberg" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Info Panel by Izeberg" Type="single1" Visible="True">
+      <Package PackageName="Ingame_Info_Tank_Info_Panel_by_Izeberg" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Info Panel by Izeberg" Type="single_dropdown1" Visible="True">
         <Size>111812</Size>
         <ZipFile>Ingame_Info_Tank_Info_Panel_by_izeberg_1.6.0.0_2019-08-09.zip</ZipFile>
         <CRC>79e7b4748136db2c7f9ac6ae07f834d1</CRC>
@@ -984,7 +984,7 @@
           <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Ingame_Info_Tank_Info_Panel_by_OldSkool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Info Panel by OldSkool v{version}" Type="single1" Visible="True">
+      <Package PackageName="Ingame_Info_Tank_Info_Panel_by_OldSkool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Info Panel by OldSkool v{version}" Type="single_dropdown1" Visible="True">
         <Size>116407</Size>
         <Version>1.2.3</Version>
         <ZipFile>Ingame_Info_Tank_Info_Panel_by_OldSkool_1.6.0.1_2019-08-19.zip</ZipFile>
@@ -1005,7 +1005,7 @@
           <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Ingame_Info_Tank_Info_Panel_protanki" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Info Panel by PROTanki" Type="single1" Visible="True">
+      <Package PackageName="Ingame_Info_Tank_Info_Panel_protanki" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Info Panel by PROTanki" Type="single_dropdown1" Visible="True">
         <Size>111699</Size>
         <ZipFile>Ingame_Info_Tank_Info_Panel_protanki_2019-08-19.zip</ZipFile>
         <CRC>885b76096157ce990689d77503914b70</CRC>

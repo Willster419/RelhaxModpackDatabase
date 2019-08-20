@@ -157,7 +157,7 @@
         <Timestamp>131752253690944721</Timestamp>
         <Description>Disable the window, "you can adjust the brightness and contrast settings..."</Description>
       </Package>
-      <Package PackageName="Ingame_Misc_Auxilium_Speedometer_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="SpeedoMeter" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Misc_Auxilium_Speedometer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="SpeedoMeter" Type="multi" Visible="True">
         <CRC>f</CRC>
         <Timestamp>132008798611194498</Timestamp>
         <Packages>
@@ -1562,7 +1562,7 @@
         <Timestamp>131980039524252268</Timestamp>
         <UpdateComment>modified from gui.pkg:\n\res_mods\versiondir\gui\flash\guiControlsLobbyBattle.swf\n\nneeds updates every patchday - urgent!</UpdateComment>
         <Packages>
-          <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by Aimdrol" Type="single1" Visible="True">
+          <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Aimdrol" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by Aimdrol" Type="single1" Visible="True">
             <Size>2665260</Size>
             <ZipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_base_1.0.2.4_2018-10-18.zip</ZipFile>
             <CRC>bd79fad9f97e609eec8b831f945bd31e</CRC>
@@ -1572,7 +1572,7 @@
               <Media URL="http://i.imgur.com/6mneJsK.png" MediaType="Picture" />
             </Medias>
             <Packages>
-              <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text" Enabled="True" InstallGroup="4" PatchGroup="4" Name="with text modifications (english)" Type="single1" Visible="True">
+              <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text" Enabled="True" InstallGroup="4" PatchGroup="4" Name="with text modifications (english)" Type="single_dropdown1" Visible="True">
                 <Size>985179</Size>
                 <ZipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text_1.4.1.0_2019-03-24.zip</ZipFile>
                 <CRC>083550f0598701b0a7294628813387c3</CRC>
@@ -1582,7 +1582,7 @@
                   <Dependency PackageName="Dependency_MLG_english_localization" NotFlag="False" Logic="OR" />
                 </Dependencies>
               </Package>
-              <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_no_text" Enabled="True" InstallGroup="4" PatchGroup="4" Name="without text modifications" Type="single1" Visible="True">
+              <Package PackageName="Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_no_text" Enabled="True" InstallGroup="4" PatchGroup="4" Name="without text modifications" Type="single_dropdown1" Visible="True">
                 <Size>2665260</Size>
                 <CRC>f</CRC>
                 <Timestamp>132100271306124125</Timestamp>
@@ -2086,11 +2086,11 @@
         <Description>This mods allow you to control how many times a player can click on the minimap before the clicks will be ignored from your client.\n\nDifferent versions inside\n.</Description>
         <Packages>
           <Package PackageName="Ingame_Misc_Minimap_Spam_Protector_Champi" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by CHAMPi" Type="single_dropdown1" Visible="True">
-            <Size>104190</Size>
+            <Size>103892</Size>
             <Version>1.0.9_cfg</Version>
-            <ZipFile>Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_1.0.9_1.6.0.0_2019-08-14.zip</ZipFile>
-            <CRC>3cc950a085ba005e3045391d7d23d590</CRC>
-            <Timestamp>132102869115325984</Timestamp>
+            <ZipFile>Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_1.0.9_1.6.0.1_2019-08-19.zip</ZipFile>
+            <CRC>ef2b7752805722614235a6db5c729841</CRC>
+            <Timestamp>132107636406866199</Timestamp>
             <DevURL>https://wot.champi.de/</DevURL>
             <Description>This mod allows you to control how many times a player can click on the minimap before the clicks will be ignored from your client. \r\nYou can also control if a click sound is played.\n\r\nAll options are fully customizable in a settings dialog. \r\nYou can reach it by pressing ESC in the hangar. \n\n\n\nCredits:\n-spoter - for the permission to use his settings mod in my mod.\n-Elkano - this mod is based on his idea of a ping spam blocker.\n-spion_ve, Enesian - for help with the language files.\nFeel free to send me your feedback, suggestions and/or bug-reports via private message here on the forum.</Description>
             <UpdateComment>https://wgmods.net/2601/details\n\nhttp://forum.worldoftanks.eu/index.php?/topic/700504-1401-champis-minimap-spam-protector/</UpdateComment>

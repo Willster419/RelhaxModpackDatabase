@@ -602,7 +602,7 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Aim_Zoomin_Base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zoom modifications - zoom in (pmod)" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Aim_Zoomin" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zoom modifications - zoom in (pmod)" Type="multi" Visible="True">
     <Description>Allows you to change the ammount that you can zoom in.\nDefault zoom changes the first zoom in when you go to sniper mode\ntd brake allows you to change wether the tank moves when you point your gun out of gun range\n\nif you are using xvm, we recommend using the xvm camera options instead of PMOD.\nyou can find the settings in the xvm config builder section.</Description>
     <Dependencies>
       <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
@@ -647,7 +647,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Ingame_Aim_zoom_pmod_td_start_zoom_header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Starting zoom" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Aim_zoom_pmod_td_start_zoom" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Starting zoom" Type="multi" Visible="True">
         <Timestamp>131558453697436456</Timestamp>
         <Packages>
           <Package PackageName="Ingame_Aim_zoom_pmod_default_zoom_2x" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2x (client default)" Type="single_dropdown1" Visible="True">
@@ -679,14 +679,14 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Aim_ZoomOut_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zoom Out Config (meters)" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Aim_ZoomOut" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zoom Out Config (meters)" Type="multi" Visible="True">
     <Version>1</Version>
     <Description>How far you can zoom out in arcade mode in meters\nincrease scroll speed - your mouse wheel will be faster to scroll\ndisable gun shake - your aim will not shake when you are hit\n\nif you are using xvm, we recommend using the xvm camera options instead of PMOD.\nyou can find the settings in the xvm config builder section.</Description>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Zoom_out_200.jpg" MediaType="Picture" />
     </Medias>
     <Packages>
-      <Package PackageName="Ingame_Aim_ZoomOut_Arcade_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Arcade Zoom" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Aim_ZoomOut_Arcade" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Arcade Zoom" Type="multi" Visible="True">
         <Packages>
           <Package PackageName="Ingame_Aim_ZoomOut_Arcade_100" Enabled="True" InstallGroup="4" PatchGroup="4" Name="100m" Type="single_dropdown1" Visible="True">
             <Size>495</Size>
@@ -708,7 +708,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Ingame_Aim_ZoomOut_PostMortem_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PostMortem Zoom" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Aim_ZoomOut_PostMortem" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PostMortem Zoom" Type="multi" Visible="True">
         <Packages>
           <Package PackageName="Ingame_Aim_ZoomOut_PostMortem_100" Enabled="True" InstallGroup="4" PatchGroup="4" Name="100m" Type="single_dropdown1" Visible="True">
             <Size>506</Size>
@@ -730,7 +730,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Ingame_Aim_ZoomOut_Stragetic_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Stragetic (SPG) Zoom" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Aim_ZoomOut_Stragetic" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Stragetic (SPG) Zoom" Type="multi" Visible="True">
         <Packages>
           <Package PackageName="Ingame_Aim_ZoomOut_Stragetic_200" Enabled="True" InstallGroup="4" PatchGroup="4" Name="200m" Type="single_dropdown1" Visible="True">
             <Size>521</Size>

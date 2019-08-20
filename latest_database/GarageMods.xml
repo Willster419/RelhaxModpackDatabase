@@ -287,7 +287,7 @@
     <Version>v0.3-0.9.17.1</Version>
     <ZipFile>Garage_mods_Map_Rotation_only_Played_Maps_v1.2.0_tempdirfix_2018-10-10.zip</ZipFile>
     <CRC>ad701b5052d04c777049162b6cb2ccf7</CRC>
-    <Timestamp>131836455435284378</Timestamp>
+    <Timestamp>132107599491497432</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/604269-</DevURL>
     <Description>Press F11 inside Garage (or change key inside res_mods\configs\mapcount\mapcount.xml)\nMaps sort by Battles</Description>
     <Medias>
@@ -371,7 +371,7 @@
       <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="Garage_Mods_RegionChanger_NOTES" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Region Changer Notes" Type="single1" Visible="False">
+      <Package PackageName="Garage_Mods_RegionChanger_NOTES" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Region Changer Notes" Type="none" Visible="False">
         <CRC>f</CRC>
         <Timestamp>132062189266532443</Timestamp>
         <Description>Please update this mod with every Auxilium patch, or wait for The Illusion to do so.</Description>
@@ -490,111 +490,6 @@
     <Dependencies>
       <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
     </Dependencies>
-  </Package>
-  <Package PackageName="Garage_mods_Techtree" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Techtrees" Type="multi" Visible="True">
-    <Packages>
-      <Package PackageName="Garage_Graphics_TechTree_ExtendedTechTree" Enabled="True" InstallGroup="4" PatchGroup="4" Name="OldSkool's Extended TechTree" Type="single1" Visible="True">
-        <Size>64299987</Size>
-        <Version>1.0.6</Version>
-        <ZipFile>Garage_Graphics_TechTree_ETT_1.0.6_1.6.0.1_2019-08-19.zip</ZipFile>
-        <CRC>2cf459bc99830ae53cf8512a192cd081</CRC>
-        <Timestamp>132107106652445706</Timestamp>
-        <DevURL>https://wgmods.net/1320/details</DevURL>
-        <Description>Mainfeatures: \n- 11 different Layout options (8 vertical, 3 horizontal) \n- 5 graphic options \n- Show hidden, removed Premium and special tanks in techtree \n- Enjoy over 490 tanks in your techtree \n- Nice, centered nations button bar \n- Compatiblity with all screen resolutions \n- In-game UI mod settings (press F8 key for Changes, press F7 key for reloading Data base) \n- Allows preview and tank compare features for all tanks in game \n\nBecause there are different options, you can style the Techtree using different combinations.\n\nOriginal Thread by Johnny: http://forum.worldoftanks.ru/index.php?/topic/1654743-\nContinued by OldSkool &amp; KukieJar: http://forum.worldoftanks.eu/index.php?/topic/669226-</Description>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_Basic_A.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_Basic_B.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_DrLivesey.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_DW_A.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_DW_B.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_KuKieJar_A.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_KuKieJar_B1.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_KuKieJar_B2.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_PHARAON.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_U_W_X_Z.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_WG_Extended.jpg" MediaType="Picture" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
-        </Dependencies>
-        <Packages>
-          <Package PackageName="Garage_Graphics_TechTree_ETT_show_hidden_tanks_true_patch" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show hidden tanks on techtree" Type="multi" Visible="True">
-            <Size>646</Size>
-            <ZipFile>Garage_Graphics_TechTree_ETT_show_hidden_tanks_true_patch_2019-06-11.zip</ZipFile>
-            <CRC>ff90c2372cd85260752b09a83d26cf29</CRC>
-            <Timestamp>131933552563073151</Timestamp>
-          </Package>
-          <Package PackageName="Garage_Graphics_TechTree_ETT_show_removed_tanks_true_patch" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show removed tanks on techtree" Type="multi" Visible="True">
-            <Size>657</Size>
-            <ZipFile>Garage_Graphics_TechTree_ETT_show_removed_tanks_true_patch_2019-06-11.zip</ZipFile>
-            <CRC>f21727a218b3ce315618d42401d5b850</CRC>
-            <Timestamp>131933552672591029</Timestamp>
-          </Package>
-          <Package PackageName="Garage_Graphics_TechTree_ETT_unlockCompareList_true_patch" Enabled="True" InstallGroup="4" PatchGroup="4" Name="unlock compare list" Type="multi" Visible="True">
-            <Size>652</Size>
-            <ZipFile>Garage_Graphics_TechTree_ETT_unlockCompareList_true_patch_2019-06-11.zip</ZipFile>
-            <CRC>8094f002a80072ab7732cd8163ec7d33</CRC>
-            <Timestamp>131933552672591029</Timestamp>
-          </Package>
-        </Packages>
-      </Package>
-      <Package PackageName="Garage_Graphics_TechTree_VT_Pharaon" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Vertical Techtree by  ____P_H_A_R_A_O_N____" Type="single1" Visible="True">
-        <Size>12079575</Size>
-        <ZipFile>Garage_Graphics_TechTree_VT_Pharaon_1.6.0.0_2019-08-08.zip</ZipFile>
-        <CRC>c0a59c829febf6140fce95090d8cc4d4</CRC>
-        <Timestamp>132097478180404151</Timestamp>
-        <DevURL>http://forum.worldoftanks.ru/index.php?/topic/2044131-1ххх-вертикальное-дерево-развития-full-hd/</DevURL>
-        <Description>Vertical tree development\r\n\r\n1920x1080 [16: 9]</Description>
-        <UpdateComment>2019-04-26:  removed flagslib.swf from wotmod (do this every update!!)</UpdateComment>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_VT_Base_Pharaon.png" MediaType="Picture" />
-        </Medias>
-      </Package>
-      <Package PackageName="Garage_Graphics_TechTree_Horizontal_compact" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Horizontal compact" Type="single1" Visible="True">
-        <Size>14225</Size>
-        <Version>1.6.0.0</Version>
-        <CRC>e6bbbc7c6a4b3e0b3d2ddbb9f121c7b7</CRC>
-        <Timestamp>131940148258386646</Timestamp>
-        <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1419763-</DevURL>
-        <Description>This mod simply shortens the arrows in the horizontal tree of studies, so as not to scroll the left-right research sheet, plus maximally compactly disposes tanks in the tree of investigation in width.</Description>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_RUS.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_GER.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_USA.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_FR.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_GB.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_CZ.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_CH.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_JP.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_PL.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_SWE.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_ITA.jpg" MediaType="Picture" />
-        </Medias>
-        <Packages>
-          <Package PackageName="Garage_Graphics_TechTree_Horizontal_compact_default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Default" Type="single_dropdown1" Visible="True">
-            <Size>210899</Size>
-            <Version>1.6.0.0</Version>
-            <ZipFile>Garage_Graphics_TechTree_Horizontal_compact_1.6.0.0_2019-08-08.zip</ZipFile>
-            <CRC>075eae536b7e2b05e6170fd7c80938c5</CRC>
-            <Timestamp>132097484553942718</Timestamp>
-            <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1419763-</DevURL>
-            <Dependencies>
-              <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="Garage_Graphics_TechTree_Horizontal_compact_green" Enabled="False" InstallGroup="4" PatchGroup="4" Name="green" Type="single_dropdown1" Visible="True">
-            <Size>826895</Size>
-            <Version>GREEN_1.5.X.X</Version>
-            <ZipFile>Garage_Graphics_TechTree_Horizontal_compact_GREEN_1.5.X.X_2019-08-08.zip</ZipFile>
-            <CRC>db66f449f72a294fe8ef89bfd9504b57</CRC>
-            <Timestamp>132097486460783945</Timestamp>
-            <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1419763-</DevURL>
-          </Package>
-        </Packages>
-      </Package>
-    </Packages>
   </Package>
   <Package PackageName="Garage_mods_VehicleXP_Extended" Enabled="True" InstallGroup="4" PatchGroup="4" Name="VehicleXP Extended" Type="multi" Visible="True">
     <Size>16712</Size>
