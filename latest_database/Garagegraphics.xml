@@ -347,7 +347,7 @@
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Tankcarousel/DailyXPBonusIcon/Garage_Graphics_Carousel_DailyXPBonusIcons_2.png" MediaType="Picture" />
         </Medias>
         <Packages>
-          <Package PackageName="Garage_Graphics_Carousel_DailyXPBonusIcons_PreDefined" Enabled="True" InstallGroup="4" PatchGroup="4" Name="select pre-defined colors" Type="single1" Visible="True">
+          <Package PackageName="Garage_Graphics_Carousel_DailyXPBonusIcons_PreDefined" Enabled="True" InstallGroup="4" PatchGroup="4" Name="select pre-defined colors" Type="single_dropdown1" Visible="True">
             <DevURL>https://worldoftanks.curseforge.com/projects/hawgs-daily-xp-bonus</DevURL>
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Tankcarousel/DailyXPBonusIcon/Garage_Graphics_Carousel_DailyXPBonusIcons_1.png" MediaType="Picture" />
@@ -422,7 +422,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="select your own colors" Type="single1" Visible="True">
+          <Package PackageName="Garage_Graphics_Carousel_DailyXPBonusIcons_colorpicker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="select your own colors" Type="single_dropdown1" Visible="True">
             <DevURL>https://worldoftanks.curseforge.com/projects/hawgs-daily-xp-bonus</DevURL>
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Tankcarousel/DailyXPBonusIcon/Garage_Graphics_Carousel_DailyXPBonusIcons_1.png" MediaType="Picture" />
@@ -2286,7 +2286,7 @@
         <Description>change the style of the login screen. \nyou can either use a video that plays in background or a simple picture.\n\ndon´t forget to change that in the upper right corner of the login screen</Description>
         <UpdateComment>only pics or videofiles</UpdateComment>
         <Packages>
-          <Package PackageName="Garage_Graphics_LoginBackground_Video_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Video" Type="single1" Visible="True">
+          <Package PackageName="Garage_Graphics_LoginBackground_Video" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Video" Type="single1" Visible="True">
             <Packages>
               <Package PackageName="Garage_Graphics_LoginBackground_Video_GuP" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Girls und Panzer" Type="single_dropdown1" Visible="True">
                 <Size>231244724</Size>
@@ -2396,7 +2396,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Garage_Graphics_LoginBackground_Picture_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Picture" Type="single1" Visible="True">
+          <Package PackageName="Garage_Graphics_LoginBackground_Picture" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Picture" Type="single1" Visible="True">
             <Description>this option changes the stock loginscreen to a custom picture.\nonly works when startvideo is disabled (upper right corner of login screen)</Description>
             <UpdateComment>maps\login\back_XXX_without_sparks.png</UpdateComment>
             <Medias>
@@ -4166,7 +4166,7 @@
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-0914-gtos-mlg-mod-continued-by-aimdrol-marks-of-mailand-pl/</DevURL>
     <Description>Changes the mastery badges to CoD style badges</Description>
     <Packages>
-      <Package PackageName="Garage_Graphics_Mastery_Badges_CS_GO" Enabled="True" InstallGroup="4" PatchGroup="4" Name="CS:GO by Aimdrol" Type="single1" Visible="True">
+      <Package PackageName="Garage_Graphics_Mastery_Badges_CS_GO" Enabled="True" InstallGroup="4" PatchGroup="4" Name="CS:GO by Aimdrol" Type="single_dropdown1" Visible="True">
         <Size>1111102</Size>
         <ZipFile>Garage_mods_CS_GO_mlg_marks_results_0.9.19.1.zip</ZipFile>
         <CRC>db6805b5c2b51a7fb561859920257f46</CRC>
@@ -4346,13 +4346,109 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Garage_Graphics_TechTree" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Tech Tree" Type="multi" Visible="False">
+  <Package PackageName="Garage_Graphics_TechTree" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Techtree" Type="multi" Visible="True">
     <Timestamp>131576934316186748</Timestamp>
     <Packages>
-      <Package PackageName="Garage_Graphics_TechTree_dummy" Enabled="False" InstallGroup="4" PatchGroup="4" Name="dummy_inv_dis" Type="multi" Visible="False">
-        <CRC>f</CRC>
-        <Timestamp>132061877314703367</Timestamp>
+      <Package PackageName="Garage_Graphics_TechTree_ExtendedTechTree" Enabled="True" InstallGroup="4" PatchGroup="4" Name="OldSkool's Extended TechTree" Type="single1" Visible="True">
+        <Size>64299987</Size>
+        <Version>1.0.6</Version>
+        <ZipFile>Garage_Graphics_TechTree_ETT_1.0.6_1.6.0.1_2019-08-19.zip</ZipFile>
+        <CRC>2cf459bc99830ae53cf8512a192cd081</CRC>
+        <Timestamp>132107106652445706</Timestamp>
         <DevURL>https://wgmods.net/1320/details</DevURL>
+        <Description>Mainfeatures: \n- 11 different Layout options (8 vertical, 3 horizontal) \n- 5 graphic options \n- Show hidden, removed Premium and special tanks in techtree \n- Enjoy over 490 tanks in your techtree \n- Nice, centered nations button bar \n- Compatiblity with all screen resolutions \n- In-game UI mod settings (press F8 key for Changes, press F7 key for reloading Data base) \n- Allows preview and tank compare features for all tanks in game \n\nBecause there are different options, you can style the Techtree using different combinations.\n\nOriginal Thread by Johnny: http://forum.worldoftanks.ru/index.php?/topic/1654743-\nContinued by OldSkool &amp; KukieJar: http://forum.worldoftanks.eu/index.php?/topic/669226-</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_Basic_A.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_Basic_B.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_DrLivesey.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_DW_A.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_DW_B.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_KuKieJar_A.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_KuKieJar_B1.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_KuKieJar_B2.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_PHARAON.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_U_W_X_Z.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree_JVT_WG_Extended.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Packages>
+          <Package PackageName="Garage_Graphics_TechTree_ETT_show_hidden_tanks_true_patch" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show hidden tanks on techtree" Type="multi" Visible="True">
+            <Size>646</Size>
+            <ZipFile>Garage_Graphics_TechTree_ETT_show_hidden_tanks_true_patch_2019-06-11.zip</ZipFile>
+            <CRC>ff90c2372cd85260752b09a83d26cf29</CRC>
+            <Timestamp>131933552563073151</Timestamp>
+          </Package>
+          <Package PackageName="Garage_Graphics_TechTree_ETT_show_removed_tanks_true_patch" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show removed tanks on techtree" Type="multi" Visible="True">
+            <Size>657</Size>
+            <ZipFile>Garage_Graphics_TechTree_ETT_show_removed_tanks_true_patch_2019-06-11.zip</ZipFile>
+            <CRC>f21727a218b3ce315618d42401d5b850</CRC>
+            <Timestamp>131933552672591029</Timestamp>
+          </Package>
+          <Package PackageName="Garage_Graphics_TechTree_ETT_unlockCompareList_true_patch" Enabled="True" InstallGroup="4" PatchGroup="4" Name="unlock compare list" Type="multi" Visible="True">
+            <Size>652</Size>
+            <ZipFile>Garage_Graphics_TechTree_ETT_unlockCompareList_true_patch_2019-06-11.zip</ZipFile>
+            <CRC>8094f002a80072ab7732cd8163ec7d33</CRC>
+            <Timestamp>131933552672591029</Timestamp>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Garage_Graphics_TechTree_VT_Pharaon" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Vertical Techtree by  ____P_H_A_R_A_O_N____" Type="single1" Visible="True">
+        <Size>12079575</Size>
+        <ZipFile>Garage_Graphics_TechTree_VT_Pharaon_1.6.0.0_2019-08-08.zip</ZipFile>
+        <CRC>c0a59c829febf6140fce95090d8cc4d4</CRC>
+        <Timestamp>132097478180404151</Timestamp>
+        <DevURL>http://forum.worldoftanks.ru/index.php?/topic/2044131-1ххх-вертикальное-дерево-развития-full-hd/</DevURL>
+        <Description>Vertical tree development\r\n\r\n1920x1080 [16: 9]</Description>
+        <UpdateComment>2019-04-26:  removed flagslib.swf from wotmod (do this every update!!)</UpdateComment>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_VT_Base_Pharaon.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="Garage_Graphics_TechTree_Horizontal_compact" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Horizontal compact" Type="single1" Visible="True">
+        <Size>14225</Size>
+        <Version>1.6.0.0</Version>
+        <CRC>e6bbbc7c6a4b3e0b3d2ddbb9f121c7b7</CRC>
+        <Timestamp>131940148258386646</Timestamp>
+        <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1419763-</DevURL>
+        <Description>This mod simply shortens the arrows in the horizontal tree of studies, so as not to scroll the left-right research sheet, plus maximally compactly disposes tanks in the tree of investigation in width.</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_RUS.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_GER.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_USA.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_FR.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_GB.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_CZ.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_CH.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_JP.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_PL.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_SWE.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_Horizontal_compact_ITA.jpg" MediaType="Picture" />
+        </Medias>
+        <Packages>
+          <Package PackageName="Garage_Graphics_TechTree_Horizontal_compact_default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Default" Type="single_dropdown1" Visible="True">
+            <Size>210899</Size>
+            <Version>1.6.0.0</Version>
+            <ZipFile>Garage_Graphics_TechTree_Horizontal_compact_1.6.0.0_2019-08-08.zip</ZipFile>
+            <CRC>075eae536b7e2b05e6170fd7c80938c5</CRC>
+            <Timestamp>132097484553942718</Timestamp>
+            <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1419763-</DevURL>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Garage_Graphics_TechTree_Horizontal_compact_green" Enabled="False" InstallGroup="4" PatchGroup="4" Name="green" Type="single_dropdown1" Visible="True">
+            <Size>826895</Size>
+            <Version>GREEN_1.5.X.X</Version>
+            <ZipFile>Garage_Graphics_TechTree_Horizontal_compact_GREEN_1.5.X.X_2019-08-08.zip</ZipFile>
+            <CRC>db66f449f72a294fe8ef89bfd9504b57</CRC>
+            <Timestamp>132097486460783945</Timestamp>
+            <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1419763-</DevURL>
+          </Package>
+        </Packages>
       </Package>
     </Packages>
   </Package>
@@ -4487,7 +4583,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Camo_header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DEBranded´s V1 Camo" Type="single1" Visible="True">
+      <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Camo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DEBranded´s V1 Camo" Type="single1" Visible="True">
         <Version>2.50_1.6.0.0</Version>
         <Timestamp>131974285791732680</Timestamp>
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
@@ -4577,80 +4673,6 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DEBranded´s V2 Premium Dark" Type="single1" Visible="True">
-        <Version>2.50_1.6.0.0</Version>
-        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
-        <Packages>
-          <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DEBranded´s V2 Premium Dark colored" Type="single_dropdown1" Visible="True">
-            <Size>3078570</Size>
-            <Version>2.50_1.6.0.0</Version>
-            <ZipFile>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_Colored_v2.50_1.6.0.0_2019-08-08.zip</ZipFile>
-            <CRC>b30e38f8ddcb0852372c848d51df75d7</CRC>
-            <Timestamp>132097539982056505</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
-            <Description>Color scheme: striped\nLT: yellow - striped\nMT: dark-green - striped\nHT: grey - striped\nTD: blue - striped\nAR: red - striped</Description>
-            <UpdateComment>D_background.png</UpdateComment>
-            <Medias>
-              <Media URL="https://wgmods.net/media/premium.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored_china-Ch01_Type59.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored_china-Ch03_WZ-111.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored_china-Ch24_Type64.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored_china-Ch39_WZ120_1G_FT.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored_france-F28_105_leFH18B2.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DEBranded´s V2 Premium Dark DEBranded" Type="single_dropdown1" Visible="True">
-            <Size>3103425</Size>
-            <Version>2.50_1.6.0.0</Version>
-            <ZipFile>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_DEbranded_v2.50_1.6.0.0_2019-08-08.zip</ZipFile>
-            <CRC>cde5c01bdf706d892ad676b934605d50</CRC>
-            <Timestamp>132097540075286911</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
-            <Description>Color scheme: bars\nLT: yellow - bar; \nMT: dark-green - bar; \nHT: grey - bar; \nTD: blue - bar; \nAR: red - bar</Description>
-            <Medias>
-              <Media URL="https://wgmods.net/media/premium.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded_china-Ch01_Type59.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded_china-Ch03_WZ-111.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded_china-Ch24_Type64.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded_china-Ch39_WZ120_1G_FT.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded_france-F28_105_leFH18B2.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DEBranded´s V2 Premium Dark Yaya" Type="single_dropdown1" Visible="True">
-            <Size>3116999</Size>
-            <Version>2.50_1.6.0.0</Version>
-            <ZipFile>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_Yaya_v2.50_1.6.0.0_2019-08-08.zip</ZipFile>
-            <CRC>bc19b7d92b679c7dffa4e1ac6d077b4b</CRC>
-            <Timestamp>132097540122862171</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
-            <Description>Color scheme: bars\nLT: yellow - bar; \nMT: dark-green - bar; \nHT: grey - bar; \nTD: blue - bar; \nAR: red - bar</Description>
-            <UpdateComment>D_Yaya.png</UpdateComment>
-            <Medias>
-              <Media URL="https://wgmods.net/media/premium.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya_china-Ch01_Type59.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya_china-Ch03_WZ-111.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya_china-Ch24_Type64.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya_china-Ch39_WZ120_1G_FT.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya_france-F28_105_leFH18B2.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V2 Premium Dark Androdizel" Type="single_dropdown1" Visible="True">
-            <Size>3278825</Size>
-            <Version>2.50_1.6.0.0</Version>
-            <ZipFile>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_v2.50_1.6.0.0_2019-08-08.zip</ZipFile>
-            <CRC>9be9393d3afeb6d5ddb4b3abe873998e</CRC>
-            <Timestamp>132097540189606894</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_china-Ch01_Type59.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_china-Ch03_WZ-111.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_china-Ch24_Type64.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_china-Ch39_WZ120_1G_FT.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_france-F28_105_leFH18B2.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-        </Packages>
-      </Package>
       <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_light" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DEBranded´s V2 Premium Light" Type="single1" Visible="True">
         <Version>2.50_1.6.0.0</Version>
         <Timestamp>131974285648126140</Timestamp>
@@ -4723,6 +4745,80 @@
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_light_smallAndrodizel_china-Ch24_Type64.png" MediaType="Picture" />
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_light_smallAndrodizel_china-Ch39_WZ120_1G_FT.png" MediaType="Picture" />
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_light_smallAndrodizel_france-F28_105_leFH18B2.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DEBranded´s V2 Premium Dark" Type="single1" Visible="True">
+        <Version>2.50_1.6.0.0</Version>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
+        <Packages>
+          <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DEBranded´s V2 Premium Dark colored" Type="single_dropdown1" Visible="True">
+            <Size>3078570</Size>
+            <Version>2.50_1.6.0.0</Version>
+            <ZipFile>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_Colored_v2.50_1.6.0.0_2019-08-08.zip</ZipFile>
+            <CRC>b30e38f8ddcb0852372c848d51df75d7</CRC>
+            <Timestamp>132097539982056505</Timestamp>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
+            <Description>Color scheme: striped\nLT: yellow - striped\nMT: dark-green - striped\nHT: grey - striped\nTD: blue - striped\nAR: red - striped</Description>
+            <UpdateComment>D_background.png</UpdateComment>
+            <Medias>
+              <Media URL="https://wgmods.net/media/premium.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored_china-Ch01_Type59.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored_china-Ch03_WZ-111.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored_china-Ch24_Type64.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored_china-Ch39_WZ120_1G_FT.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored_france-F28_105_leFH18B2.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DEBranded´s V2 Premium Dark DEBranded" Type="single_dropdown1" Visible="True">
+            <Size>3103425</Size>
+            <Version>2.50_1.6.0.0</Version>
+            <ZipFile>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_DEbranded_v2.50_1.6.0.0_2019-08-08.zip</ZipFile>
+            <CRC>cde5c01bdf706d892ad676b934605d50</CRC>
+            <Timestamp>132097540075286911</Timestamp>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
+            <Description>Color scheme: bars\nLT: yellow - bar; \nMT: dark-green - bar; \nHT: grey - bar; \nTD: blue - bar; \nAR: red - bar</Description>
+            <Medias>
+              <Media URL="https://wgmods.net/media/premium.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded_china-Ch01_Type59.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded_china-Ch03_WZ-111.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded_china-Ch24_Type64.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded_china-Ch39_WZ120_1G_FT.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded_france-F28_105_leFH18B2.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DEBranded´s V2 Premium Dark Yaya" Type="single_dropdown1" Visible="True">
+            <Size>3116999</Size>
+            <Version>2.50_1.6.0.0</Version>
+            <ZipFile>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_Yaya_v2.50_1.6.0.0_2019-08-08.zip</ZipFile>
+            <CRC>bc19b7d92b679c7dffa4e1ac6d077b4b</CRC>
+            <Timestamp>132097540122862171</Timestamp>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
+            <Description>Color scheme: bars\nLT: yellow - bar; \nMT: dark-green - bar; \nHT: grey - bar; \nTD: blue - bar; \nAR: red - bar</Description>
+            <UpdateComment>D_Yaya.png</UpdateComment>
+            <Medias>
+              <Media URL="https://wgmods.net/media/premium.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya_china-Ch01_Type59.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya_china-Ch03_WZ-111.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya_china-Ch24_Type64.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya_china-Ch39_WZ120_1G_FT.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_yaya_france-F28_105_leFH18B2.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V2 Premium Dark Androdizel" Type="single_dropdown1" Visible="True">
+            <Size>3278825</Size>
+            <Version>2.50_1.6.0.0</Version>
+            <ZipFile>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_v2.50_1.6.0.0_2019-08-08.zip</ZipFile>
+            <CRC>9be9393d3afeb6d5ddb4b3abe873998e</CRC>
+            <Timestamp>132097540189606894</Timestamp>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_china-Ch01_Type59.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_china-Ch03_WZ-111.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_china-Ch24_Type64.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_china-Ch39_WZ120_1G_FT.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_france-F28_105_leFH18B2.png" MediaType="Picture" />
             </Medias>
           </Package>
         </Packages>

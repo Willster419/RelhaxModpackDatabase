@@ -22,7 +22,7 @@
         <Packages>
           <Package PackageName="XVMConfigBuilder_Camera_Zoom" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zoom Options (xvm)" Type="multi" Visible="True">
             <Packages>
-              <Package PackageName="XVMConfigBuilder_Camera_scrollSensitivity_header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="scroll sensitivity (default 5)" Type="multi" Visible="True">
+              <Package PackageName="XVMConfigBuilder_Camera_scrollSensitivity" Enabled="True" InstallGroup="4" PatchGroup="4" Name="scroll sensitivity (default 5)" Type="multi" Visible="True">
                 <Packages>
                   <Package PackageName="XVMConfigBuilder_Camera_scrollSensitivity_4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="4" Type="single_dropdown1" Visible="True">
                     <Size>635</Size>
@@ -95,7 +95,7 @@
                   </Package>
                 </Packages>
               </Package>
-              <Package PackageName="XVMConfigBuilder_Camera_zoomIndicator_header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show zoom indicator" Type="multi" Visible="True">
+              <Package PackageName="XVMConfigBuilder_Camera_zoomIndicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show zoom indicator" Type="multi" Visible="True">
                 <Packages>
                   <Package PackageName="XVMConfigBuilder_Camera_zoomIndicator_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
                     <Size>626</Size>
@@ -137,7 +137,7 @@
                   </Package>
                 </Packages>
               </Package>
-              <Package PackageName="XVMConfigBuilder_Camera_ZoomOut_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zoom Out Config (meters)" Type="multi" Visible="True">
+              <Package PackageName="XVMConfigBuilder_Camera_ZoomOut" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zoom Out Config (meters)" Type="multi" Visible="True">
                 <Description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</Description>
                 <Packages>
                   <Package PackageName="XVMConfigBuilder_Camera_ZoomOut_Arcade" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Arcade" Type="multi" Visible="True">
@@ -292,7 +292,7 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="XVMConfigBuilder_ClanIcons_Base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Clan Icons" Type="multi" Visible="True">
+  <Package PackageName="XVMConfigBuilder_ClanIcons" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Clan Icons" Type="multi" Visible="True">
     <Size>1308</Size>
     <ZipFile>XVM_config_builder_clanicons_2_patch.zip</ZipFile>
     <CRC>e216e967ac0a5cbb6d1db59fb94af738</CRC>
@@ -437,7 +437,7 @@
       </Package>
       <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battle Hints" Type="multi" Visible="True">
         <Packages>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideTrajectoryView_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide trajectory view" Type="multi" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideTrajectoryView" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide trajectory view" Type="multi" Visible="True">
             <Description>hide the tips aiming mode changing in strategic mode</Description>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideTrajectoryView_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
@@ -454,7 +454,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideSiegeIndicator_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide siege indicator" Type="multi" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideSiegeIndicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide siege indicator" Type="multi" Visible="True">
             <Description>hide the tips about switching to siege mode and changing the driving mode (for wheeled vehicles)</Description>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideSiegeIndicator_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
@@ -471,7 +471,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideQuestProgress_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide quest progress" Type="multi" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideQuestProgress" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide quest progress" Type="multi" Visible="True">
             <Description>hide the tips about switching to menu Personal Missions</Description>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideQuestProgress_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
@@ -488,7 +488,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideHelpScreen_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide help screen" Type="multi" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideHelpScreen" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide help screen" Type="multi" Visible="True">
             <Description>hide the tips of the transition to the window of exploring the features of the machine (for wheeled vehicles)</Description>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideHelpScreen_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
@@ -836,7 +836,7 @@
           <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel_masheene" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InfoPanel masheene" Type="single1" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel_masheene" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InfoPanel masheene" Type="single_dropdown1" Visible="True">
             <Size>48955</Size>
             <ZipFile>XVMConfigBuilder_InfoPanel_masheenestyle_2019-07-08.zip</ZipFile>
             <CRC>fb01e631a1ad2011b7c9ed4f67bf043e</CRC>
@@ -884,7 +884,7 @@
           <Media URL="http://fs5.directupload.net/images/170301/zbukbbfp.png" MediaType="Picture" />
         </Medias>
         <Packages>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_MissionTracker_patch" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by MarsOne" Type="single1" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_MissionTracker_patch" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by MarsOne" Type="single_dropdown1" Visible="True">
             <Size>72667</Size>
             <ZipFile>XVM_config_builder_EFF_Mission_Tracker_by_Marsone_patch_2019-02-20.zip</ZipFile>
             <CRC>06b2d454a9833a0d60655373f22b0e40</CRC>
@@ -969,7 +969,7 @@
           <Dependency PackageName="Dependency_XVM_elementsXC_temp_prepatch" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions" Enabled="True" InstallGroup="4" PatchGroup="4" Name="only timer &amp; conditions" Type="single1" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions" Enabled="True" InstallGroup="4" PatchGroup="4" Name="only timer &amp; conditions" Type="single_dropdown1" Visible="True">
             <Size>724</Size>
             <ZipFile>XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions_2019-06-24.zip</ZipFile>
             <CRC>93cd5ce2aea80f04dea1b04e6747a66d</CRC>
@@ -1024,7 +1024,7 @@
       <Package PackageName="XVMConfigBuilder_BattleInterface_Squadmember_Color_Change" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Squadmember Color Change" Type="multi" Visible="True">
         <Description>Changes the default color, if Platoon members hit an enemy.</Description>
         <Packages>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_Squadmember_Color_Change_Purple" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Purple" Type="single1" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_Squadmember_Color_Change_Purple" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Purple" Type="single_dropdown1" Visible="True">
             <Size>820</Size>
             <ZipFile>XVM_config_builder_Squadmember_color_change_purple_patch_2019-01-27.zip</ZipFile>
             <CRC>5f6a7861724f0d52d8412bebe67f0a55</CRC>
@@ -1069,7 +1069,7 @@
             <Timestamp>131930934157368062</Timestamp>
             <Description>this moves the "total efficiency" label from the top to a different position</Description>
             <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_underchat" Enabled="True" InstallGroup="4" PatchGroup="4" Name="under the chat (bottom left)" Type="single1" Visible="True">
+              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_underchat" Enabled="True" InstallGroup="4" PatchGroup="4" Name="under the chat (bottom left)" Type="single_dropdown1" Visible="True">
                 <Size>637</Size>
                 <ZipFile>XVM_config_builder_total_eff_underchat_patch.zip</ZipFile>
                 <CRC>d6061fcc905360513876b5831550f82f</CRC>
@@ -1079,7 +1079,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Xvm_Config_Builder/Battle_Interface/XVMConfigBuilder_BattleInterfaceModifications_TotalEfficiency_underchat.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_abovedamagelog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="above damagelog" Type="single1" Visible="True">
+              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_abovedamagelog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="above damagelog" Type="single_dropdown1" Visible="True">
                 <Size>642</Size>
                 <ZipFile>XVM_config_builder_total_eff_abovedmglog_patch.zip</ZipFile>
                 <CRC>cc1366a9a64ad7db02e5aeaf28acad64</CRC>
@@ -1344,10 +1344,10 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="XVMconfigBuilder_TankCarouselBase" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Carousel modifications (xvm)" Type="multi" Visible="True">
+  <Package PackageName="XVMconfigBuilder_TankCarousel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Carousel modifications (xvm)" Type="multi" Visible="True">
     <Description>Change many settings about how the tank carousel is displayed in your garage.</Description>
     <Packages>
-      <Package PackageName="XVMconfigBuilder_TankCarouselBase_carousel_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable XVM Tank Cells" Type="single1" Visible="True">
+      <Package PackageName="XVMconfigBuilder_TankCarousel_carousel_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable XVM Tank Cells" Type="single1" Visible="True">
         <Size>916</Size>
         <ZipFile>XVM_config_builder_carousel_disable.zip</ZipFile>
         <CRC>19429e58d039be7cdee08aadf19a7673</CRC>
@@ -1356,7 +1356,7 @@
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/disable_xvm_cells_header.png" MediaType="Picture" />
         </Medias>
       </Package>
-      <Package PackageName="XVMconfigBuilder_TankCarouselBase_carousel_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable XVM Tank Cells" Type="single1" Visible="True">
+      <Package PackageName="XVMconfigBuilder_TankCarousel_carousel_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable XVM Tank Cells" Type="single1" Visible="True">
         <Size>927</Size>
         <ZipFile>XVM_config_builder_carousel_enable.zip</ZipFile>
         <CRC>9786aab2cd314147e6a051ec332a7763</CRC>
@@ -1371,18 +1371,17 @@
               <UserFile Pattern="{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\users\*" />
             </UserFiles>
           </Package>
-          <Package PackageName="XVMconfigBuilder_TankCarouselBase_CellContent_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Cell Content" Type="multi" Visible="True">
+          <Package PackageName="XVMconfigBuilder_TankCarouselBase_CellContent" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Cell Content" Type="multi" Visible="True">
             <Description>Change the content inside the tank cells</Description>
             <Packages>
-              <Package PackageName="XVMConfigBuilder_TankCarousel_Tanks_with_limited_MM_Headline" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tanks with limited MM in different colors" Type="multi" Visible="True">
+              <Package PackageName="XVMConfigBuilder_TankCarousel_Tanks_with_limited_MM" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tanks with limited MM in different colors" Type="multi" Visible="True">
                 <Description>Shows the tankname in the tankcarousel with limited Matchmaking in different colors</Description>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_TankCarousel_Tanks_with_limited_MM_Green.png" MediaType="Picture" />
                 </Medias>
                 <Packages>
-                  <Package PackageName="XVMConfigBuilder_TankCarousel_Tanks_with_limited_MM_Green" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Green" Type="single1" Visible="True">
+                  <Package PackageName="XVMConfigBuilder_TankCarousel_Tanks_with_limited_MM_Green" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Green" Type="single_dropdown1" Visible="True">
                     <Size>1554</Size>
-                    <Version>0.9.21.0</Version>
                     <ZipFile>XVM_config_builder_TankCarousel_Tanks_with_limited_MM_Green_patch.zip</ZipFile>
                     <CRC>99e631990892ae04f767453ae0e7e0eb</CRC>
                     <Timestamp>131597455844748831</Timestamp>
@@ -1432,7 +1431,7 @@
                           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
                         </Medias>
                       </Package>
-                      <Package PackageName="XVMconfigBuilder_TankCarouselBase_CellContent_AverageDamage_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Average Damage" Type="multi" Visible="True">
+                      <Package PackageName="XVMconfigBuilder_TankCarouselBase_CellContent_AverageDamage" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Average Damage" Type="multi" Visible="True">
                         <Medias>
                           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/average_damage_header.png" MediaType="Picture" />
                         </Medias>
@@ -1455,7 +1454,7 @@
                           </Package>
                         </Packages>
                       </Package>
-                      <Package PackageName="XVMconfigBuilder_TankCarouselBase_CellContent_BattlesCount_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battles Count" Type="multi" Visible="True">
+                      <Package PackageName="XVMconfigBuilder_TankCarouselBase_CellContent_BattlesCount" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battles Count" Type="multi" Visible="True">
                         <Medias>
                           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/battles_count_header.png" MediaType="Picture" />
                         </Medias>
@@ -1478,7 +1477,7 @@
                           </Package>
                         </Packages>
                       </Package>
-                      <Package PackageName="XVMconfigBuilder_TankCarouselBase_CellContent_WinRate_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Win Rate" Type="multi" Visible="True">
+                      <Package PackageName="XVMconfigBuilder_TankCarouselBase_CellContent_WinRate" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Win Rate" Type="multi" Visible="True">
                         <Medias>
                           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/win_rate_header.png" MediaType="Picture" />
                         </Medias>
@@ -1511,7 +1510,7 @@
                       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
                     </Medias>
                     <Packages>
-                      <Package PackageName="XVMconfigBuilder_TankCarouselBase_CellContent_SmallStyle_WinRate_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Win Rate" Type="multi" Visible="True">
+                      <Package PackageName="XVMconfigBuilder_TankCarouselBase_CellContent_SmallStyle_WinRate" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Win Rate" Type="multi" Visible="True">
                         <Medias>
                           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/small_cells_wr.png" MediaType="Picture" />
                         </Medias>
@@ -1571,43 +1570,43 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="XVMconfigBuilder_TankCarouselBase_carouselRow_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - 1" Type="single_dropdown1" Visible="True">
+      <Package PackageName="XVMconfigBuilder_TankCarousel_carouselRow_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - 1" Type="single_dropdown1" Visible="True">
         <Size>908</Size>
         <ZipFile>XVM_config_builder_carousel_1_row.zip</ZipFile>
         <CRC>c4edb9a3467107bb34c9894c54ab45c1</CRC>
         <Description>One row of tanks</Description>
       </Package>
-      <Package PackageName="XVMconfigBuilder_TankCarouselBase_carouselRow_2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - 2" Type="single_dropdown1" Visible="True">
+      <Package PackageName="XVMconfigBuilder_TankCarousel_carouselRow_2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - 2" Type="single_dropdown1" Visible="True">
         <Size>909</Size>
         <ZipFile>XVM_config_builder_carousel_2_row.zip</ZipFile>
         <CRC>0f0c7aec3a5d3baec6e16e900bc2b45a</CRC>
         <Description>Two rows of tanks</Description>
       </Package>
-      <Package PackageName="XVMconfigBuilder_TankCarouselBase_carouselRow_3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - 3" Type="single_dropdown1" Visible="True">
+      <Package PackageName="XVMconfigBuilder_TankCarousel_carouselRow_3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - 3" Type="single_dropdown1" Visible="True">
         <Size>909</Size>
         <ZipFile>XVM_config_builder_carousel_3_row.zip</ZipFile>
         <CRC>aba96db1c57cc438dd3d48a4b317d46e</CRC>
         <Description>Three rows of tanks</Description>
       </Package>
-      <Package PackageName="XVMconfigBuilder_TankCarouselBase_carouselRow_4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - 4" Type="single_dropdown1" Visible="True">
+      <Package PackageName="XVMconfigBuilder_TankCarousel_carouselRow_4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - 4" Type="single_dropdown1" Visible="True">
         <Size>876</Size>
         <ZipFile>XVM_config_builder_carousel_4_row.zip</ZipFile>
         <CRC>a7f2b9fb74885bb5c659284fea25d3bc</CRC>
         <Description>Four rows of tanks</Description>
       </Package>
-      <Package PackageName="XVMconfigBuilder_TankCarouselBase_carouselRow_5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - 5" Type="single_dropdown1" Visible="True">
+      <Package PackageName="XVMconfigBuilder_TankCarousel_carouselRow_5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - 5" Type="single_dropdown1" Visible="True">
         <Size>909</Size>
         <ZipFile>XVM_config_builder_carousel_5_row.zip</ZipFile>
         <CRC>3be6f56687122ff82b2e172c820f234e</CRC>
         <Description>Five rows of tanks</Description>
       </Package>
-      <Package PackageName="XVMconfigBuilder_TankCarouselBase_carouselRow_IngameSetting" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - Ingame setting" Type="single_dropdown1" Visible="True">
+      <Package PackageName="XVMconfigBuilder_TankCarousel_carouselRow_IngameSetting" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Rows - Ingame setting" Type="single_dropdown1" Visible="True">
         <Size>908</Size>
         <ZipFile>XVM_config_builder_carousel_0_row.zip</ZipFile>
         <CRC>28819f047cd48e526211f0b4f6b0bd5d</CRC>
         <Description>Use the ingame setting (one or two) rows of tanks</Description>
       </Package>
-      <Package PackageName="XVMconfigBuilder_TankCarouselBase_restoretankslot" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Restore Tank&quot; cell" Type="multi" Visible="True">
+      <Package PackageName="XVMconfigBuilder_TankCarousel_restoretankslot" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Restore Tank&quot; cell" Type="multi" Visible="True">
         <Timestamp>131859238548105940</Timestamp>
         <Packages>
           <Package PackageName="XVMconfigBuilder_TankCarouselBase_restoretankslot_show" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show the restore tank cell" Type="single_dropdown1" Visible="True">
@@ -1624,7 +1623,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="XVMconfigBuilder_TankCarouselBase_buyTank" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Buy Tank&quot; cell" Type="multi" Visible="True">
+      <Package PackageName="XVMconfigBuilder_TankCarousel_buyTank" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Buy Tank&quot; cell" Type="multi" Visible="True">
         <Size>1011</Size>
         <ZipFile>XVM_config_builder_carousel_hide_buy_tank_hide_total_slots.zip</ZipFile>
         <CRC>313a612d874c04bd8cdff08ff2230785</CRC>
@@ -1658,7 +1657,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="XVMconfigBuilder_TankCarouselBase_buySlot_usedSlots" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Buy Slot&quot; cell" Type="multi" Visible="True">
+      <Package PackageName="XVMconfigBuilder_TankCarousel_buySlot_usedSlots" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Buy Slot&quot; cell" Type="multi" Visible="True">
         <Size>1005</Size>
         <ZipFile>XVM_config_builder_carousel_hide_buy_slot_hide_used_slots.zip</ZipFile>
         <CRC>b869305de1835e6966b59b7e4eb7feba</CRC>
@@ -2010,7 +2009,7 @@
             <ZipFile>XVM_config_builder_clock_enable_2017-09-28.zip</ZipFile>
             <CRC>39140b092a867bd8111dca4f34ef35f9</CRC>
             <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_Clock_TimeFormat_Header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Time Format" Type="single1" Visible="True">
+              <Package PackageName="XVMconfigBuilder_GarageInterface_Clock_TimeFormat" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Time Format" Type="single_dropdown1" Visible="True">
                 <Description>change the time format</Description>
                 <Packages>
                   <Package PackageName="XVMconfigBuilder_GarageInterface_Clock_TimeFormat_12hour" Enabled="True" InstallGroup="4" PatchGroup="4" Name="12 hour" Type="single_dropdown1" Visible="True">
@@ -2184,7 +2183,7 @@
       </Package>
       <Package PackageName="XVMconfigBuilder_GarageInterface_crewMaxPerksCount" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Number of perks to show without grouping" Type="multi" Visible="True">
         <Packages>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_crewMaxPerksCount_8" Enabled="True" InstallGroup="4" PatchGroup="4" Name="8" Type="single_dropdown1" Visible="True">
+          <Package PackageName="XVMconfigBuilder_GarageInterface_crewMaxPerksCount_8" Enabled="True" InstallGroup="4" PatchGroup="4" Name="8" Type="single1" Visible="True">
             <Size>620</Size>
             <ZipFile>XVMconfigBuilder_GarageInterface_crewMaxPerksCount_8.zip</ZipFile>
             <CRC>6afb7e340a2c8ea2c1c77f1d3611a7ad</CRC>
@@ -3426,7 +3425,7 @@
                   </Package>
                 </Packages>
               </Package>
-              <Package PackageName="XVMconfigBuilder_Minimap_XVMMinimap_circles_header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Minimap Circles" Type="multi" Visible="True">
+              <Package PackageName="XVMconfigBuilder_Minimap_XVMMinimap_circles" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Minimap Circles" Type="multi" Visible="True">
                 <Packages>
                   <Package PackageName="XVMconfigBuilder_Minimap_XVMMinimap_circles_enabled" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled - Use XVM circles" Type="single1" Visible="True">
                     <Size>521</Size>
@@ -3493,7 +3492,7 @@
                   </Package>
                 </Packages>
               </Package>
-              <Package PackageName="XVMconfigBuilder_Minimap_XVMMinimap_labels_header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Minimap Icons/Labels" Type="multi" Visible="True">
+              <Package PackageName="XVMconfigBuilder_Minimap_XVMMinimap_labels" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Minimap Icons/Labels" Type="multi" Visible="True">
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_labels.jpg" MediaType="Picture" />
                 </Medias>
@@ -3512,7 +3511,7 @@
                   </Package>
                 </Packages>
               </Package>
-              <Package PackageName="XVMconfigBuilder_Minimap_XVMMinimap_lines_header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Minimap Lines" Type="multi" Visible="True">
+              <Package PackageName="XVMconfigBuilder_Minimap_XVMMinimap_lines" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Minimap Lines" Type="multi" Visible="True">
                 <Timestamp>131566451718998193</Timestamp>
                 <Description>Red arrow is where you are looking at, green arrow is your tank's front.</Description>
                 <Medias>
