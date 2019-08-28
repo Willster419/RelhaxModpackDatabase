@@ -15551,7 +15551,7 @@
           <crc>f</crc>
           <enabled>False</enabled>
           <visible>False</visible>
-          <packageName>Ingame_Aim_silhouetteColors_Enemy_Allies</packageName>
+          <packageName>Ingame_Aim_silhouetteColors</packageName>
           <type>multi</type>
           <timestamp>132114598029024156</timestamp>
           <updateComment>ALLIED = YELLOW\t\r\n   0.015 1 0.129\r\n= RGB (4,255,33)\r\n\r\nR: 255*0,015=003,825 ==&gt; 004\r\nG: 255*1,000=255,000 ==&gt; 255\r\nB: 255*0,129=032,895 ==&gt; 033</updateComment>
@@ -24200,37 +24200,61 @@
           </dependencies>
         </package>
         <package>
-          <name>Replay Manager</name>
-          <zipFile>Garage_mods_replay_manager_3.4.1_1.6.0.0_2019-08-08.zip</zipFile>
-          <crc>69850679a92d3849f3793368e7c7c2a6</crc>
+          <name>Replays</name>
+          <zipFile />
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_mods_replay_manager</packageName>
+          <packageName>Garage_mods_replays</packageName>
           <type>multi</type>
-          <version>3.4.1</version>
-          <timestamp>132097462962852213</timestamp>
-          <size>848672</size>
-          <description>by STL1te_P0LIR0ID \nGerman Translation by DOC73 \n\nRU-Server: wotreplays.ru \nEU-Server: wotreplays.eu \nNA-Server: wotreplays.com</description>
-          <devURL>https://wgmods.net/22/details/</devURL>
-          <medias>
-            <media>
-              <type>1</type>
-              <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_1-3.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_2-3.jpg</URL>
-            </media>
-            <media>
-              <type>1</type>
-              <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_3-3.jpg</URL>
-            </media>
-          </medias>
-          <dependencies>
-            <dependency>
-              <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
-            </dependency>
-          </dependencies>
+          <timestamp>132114918186965035</timestamp>
+          <packages>
+            <package>
+              <name>Replay Manager</name>
+              <zipFile>Garage_mods_replays_replayManager_3.4.1_1.6.0.0_2019-08-28.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Garage_mods_replays_replayManager</packageName>
+              <type>multi</type>
+              <version>3.4.1</version>
+              <timestamp>132114917168470636</timestamp>
+              <size>848672</size>
+              <description>by STL1te_P0LIR0ID \nGerman Translation by DOC73 \n\nRU-Server: wotreplays.ru \nEU-Server: wotreplays.eu \nNA-Server: wotreplays.com</description>
+              <devURL>https://wgmods.net/22/details/</devURL>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_1-3.jpg</URL>
+                </media>
+                <media>
+                  <type>1</type>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_2-3.jpg</URL>
+                </media>
+                <media>
+                  <type>1</type>
+                  <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_3-3.jpg</URL>
+                </media>
+              </medias>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_modsListApi_P0LIR0ID</packageName>
+                </dependency>
+              </dependencies>
+            </package>
+            <package>
+              <name>enable replays for the "Battle Royale" game mode (by OldSkool)</name>
+              <zipFile>Garage_mods_replays_enableBRreplays_1.6.0.3_2019-08-28.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Garage_mods_replays_enableBRreplays</packageName>
+              <type>multi</type>
+              <timestamp>132114917998123359</timestamp>
+              <description>This mod activates the replays of the Battle Royal.\r\nThus, rigger can be reported to the support.</description>
+              <devURL>http://forum.worldoftanks.eu/index.php?/topic/721258-mod-der-replays-im-battle-royal-modus-aktiviert/page__pid__17184518</devURL>
+            </package>
+          </packages>
         </package>
         <package>
           <name>Seller by JOVE</name>
