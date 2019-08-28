@@ -505,6 +505,22 @@
               </Package>
             </Packages>
           </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideRadarHint" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide radar hint (&quot;Steel Hunter&quot; mode)" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideRadarHint_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>606</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideRadarHint_disable.zip</ZipFile>
+                <CRC>29ef74778a6a1c2949f039c97d34b2f6</CRC>
+                <Timestamp>132110273330691487</Timestamp>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideRadarHint_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>604</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideRadarHint_enable.zip</ZipFile>
+                <CRC>f703ccaaf599568832e78aaa0d7e5613</CRC>
+                <Timestamp>132110273282350739</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
         </Packages>
       </Package>
       <Package PackageName="XVMconfigBuilder_BattleInterface_captureBar" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Capture Bar" Type="multi" Visible="True">
@@ -803,6 +819,22 @@
         <Dependencies>
           <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
         </Dependencies>
+        <Packages>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_hpBar_Default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Default" Type="single_dropdown1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132110329536411455</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/39885-%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA-py_macro/?tab=comments#hitpoints</DevURL>
+            <Description>shows a health bar at the bottom under the consumables</Description>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_hpBar_Small" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Small" Type="single_dropdown1" Visible="True">
+            <Size>709</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_hpBar_small_2019-08-23.zip</ZipFile>
+            <CRC>d06c06a960c173c23018d9e5812a3366</CRC>
+            <Timestamp>132110329860188161</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/39885-%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA-py_macro/?tab=comments#hitpoints</DevURL>
+            <Description>shows a small health bar at the bottom under the consumables</Description>
+          </Package>
+        </Packages>
       </Package>
       <Package PackageName="XVMConfigBuilder_BattleInterface_LastHitAnnouncer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Last Hit Announcer" Type="multi" Visible="True">
         <Description>Will display a message of who just shot you and for how much. Similar to the damage announce part of the popular "Damagelog by GambitER".</Description>
