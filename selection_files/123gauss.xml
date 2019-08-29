@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2019-08-13 23:19:46" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="beta">
+<mods ver="2.0" date="2019-08-29 22:04:42" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="1.6.0.3_2019-08-27_1">
   <relhaxMods>
     <mod>XVMPrebuiltConfigs_RelhaxDevs</mod>
     <mod>XVMPrebuiltConfigs_123gauss</mod>
     <mod>XVMConfigBuilder_BattleInterface</mod>
     <mod>XVMConfigBuilder_BattleInterface_AimInfo</mod>
     <mod>XVMConfigBuilder_BattleInterface_battleEfficiency</mod>
+    <mod>XVMconfigBuilder_BattleInterface_captureBar</mod>
+    <mod>XVMconfigBuilder_BattleInterface_captureBar_disable</mod>
     <mod>XVMConfigBuilder_BattleInterface_damageIndicator</mod>
     <mod>XVMConfigBuilder_BattleInterface_HullInfo</mod>
+    <mod>XVMConfigBuilder_BattleInterface_hpBar</mod>
+    <mod>XVMConfigBuilder_BattleInterface_hpBar_Small</mod>
     <mod>XVMConfigBuilder_BattleInterface_Speed</mod>
-    <mod>XVMConfigBuilder_ClanIcons_Base</mod>
-    <mod>XVMConfigBuilder_ClanIcons_TopClansOnly</mod>
     <mod>XVMconfigBuilder_GarageInterface</mod>
     <mod>XVMconfigBuilder_GarageInterface_BoosterInfo</mod>
     <mod>XVMconfigBuilder_GarageInterface_showDogtagWidget</mod>
@@ -18,13 +20,12 @@
     <mod>XVMconfigBuilder_GarageInterface_SessionInfo</mod>
     <mod>XVMconfigBuilder_GarageInterface_TankStatistics</mod>
     <mod>XVMconfigBuilder_GarageInterface_TankHistoryInformer</mod>
-    <mod>Crosshairs_tank_sight_Header</mod>
-    <mod>Crosshairs_tank_sight_Harpoon</mod>
-    <mod>Crosshairs_tank_sight_Harpoon_black_square</mod>
-    <mod>Crosshairs_arty_sight_Header</mod>
-    <mod>Crosshairs_arty_sight_Harpoon</mod>
-    <mod>Crosshairs_arty_sight_Harpoon_standard</mod>
-    <mod>Crosshairs_gunConstraint_Base</mod>
+    <mod>Crosshairs_tank_sight</mod>
+    <mod>Crosshairs_tank_sight_Animated-6</mod>
+    <mod>Crosshairs_arty_sight</mod>
+    <mod>Crosshairs_arty_sight_Sword_of_Damocles</mod>
+    <mod>Crosshairs_arty_sight_Sword_of_Damocles_green</mod>
+    <mod>Crosshairs_gunConstraints</mod>
     <mod>Contour_Icons</mod>
     <mod>Contour_Icons_Blackspy</mod>
     <mod>Contour_Icons_Blackspy_Yasha</mod>
@@ -44,23 +45,29 @@
     <mod>Ingame_Aim_Battle_Assistant_Middle_Mouse</mod>
     <mod>Ingame_Aim_Battle_Assistant_Increased_smoothTime</mod>
     <mod>Ingame_Aim_Battle_Assistant_Increased_Zoom_Speed</mod>
+    <mod>Ingame_Aim_Silhouette_Colors</mod>
+    <mod>Ingame_Aim_Silhouette_Colors_Colorblind</mod>
+    <mod>Ingame_Aim_Silhouette_Colors_Colorblind_Allies</mod>
+    <mod>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Black</mod>
+    <mod>Ingame_Aim_Silhouette_Colors_Colorblind_Enemy</mod>
+    <mod>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_White</mod>
+    <mod>Ingame_Aim_Silhouette_Colors_Default</mod>
+    <mod>Ingame_Aim_Silhouette_Colors_Default_Allies</mod>
+    <mod>Ingame_Aim_Silhouette_Colors_Default_Allies_LightBlue</mod>
+    <mod>Ingame_Aim_Silhouette_Colors_Default_Enemy</mod>
+    <mod>Ingame_Aim_Silhouette_Colors_Default_Enemies_Magenta</mod>
     <mod>Ingame_Aim_disable_scope_shadow_green_pmod</mod>
     <mod>Ingame_Aim_Dispersion</mod>
     <mod>Ingame_Aim_Dispersion_Info_P0LIR0ID</mod>
+    <mod>Ingame_Aim_Penetration</mod>
+    <mod>Ingame_Aim_pmod_reduced_armor</mod>
+    <mod>zoom_pmod_reduced_armor_font_large</mod>
     <mod>Ingame_Aim_SPG_Flytime</mod>
     <mod>Ingame_Aim_Replay_FreeCam</mod>
-    <mod>Ingame_Aim_SafeShot</mod>
-    <mod>Ingame_Aim_SafeShot_oldskool</mod>
-    <mod>Ingame_Aim_SafeShot_oldskool_timeout_1</mod>
-    <mod>Ingame_Aim_SafeShot_oldskool_block_dead</mod>
-    <mod>Ingame_Aim_SafeShot_oldskool_block_ally</mod>
-    <mod>Ingame_Aim_SafeShot_oldskool_send_chat_message</mod>
     <mod>Ingame_Aim_Server_Turret_Extended</mod>
     <mod>Ingame_Aim_Server_reticle</mod>
-    <mod>Crosshair_serverside_pmod_reticle_enable</mod>
-    <mod>Crosshair_serverside_pmod_reticle_meltyMaps</mod>
-    <mod>Ingame_Aim_Target_Arrow</mod>
-    <mod>Ingame_Aim_Target_Arrow_Purple</mod>
+    <mod>Ingame_Aim_Crosshair_serverside_Awfultanker</mod>
+    <mod>Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_blue</mod>
     <mod>Ingame_Info_15m_Circle</mod>
     <mod>Ingame_Info_15m_Circle_Base</mod>
     <mod>Ingame_Info_ArtyHitLog_Oldskool</mod>
@@ -68,8 +75,12 @@
     <mod>Ingame_Info_Crew_Skill_Informer</mod>
     <mod>Ingame_Info_DamageIndicator</mod>
     <mod>Ingame_Info_DamageIndicator_Harpoon</mod>
+    <mod>Ingame_Info_DebugPanel</mod>
+    <mod>Ingame_Info_DebugPanel_lenya69</mod>
+    <mod>Ingame_Info_Enemy_Spotted_Status</mod>
     <mod>Ingame_Info_InBattle_Rating</mod>
-    <mod>Ingame_Info_InBattle_Rating_RaJCeL</mod>
+    <mod>Ingame_Info_InBattle_Rating_OldSkool</mod>
+    <mod>Ingame_Info_InBattle_Timer_lenya69</mod>
     <mod>Ingame_Info_MoG_Extended</mod>
     <mod>Ingame_Info_MoG_Extended_show_in_techtree</mod>
     <mod>Ingame_Info_MoG_Extended_show_in_hangar</mod>
@@ -81,43 +92,54 @@
     <mod>Ingame_Info_RTAN</mod>
     <mod>Ingame_Info_RTAN_Protanki</mod>
     <mod>Ingame_Info_Shell_Info</mod>
+    <mod>Ingame_Info_Shell_Info_Debug</mod>
+    <mod>Ingame_Info_Shell_Info_Damage_Spread</mod>
+    <mod>Ingame_Info_Shell_Info_Explosion</mod>
+    <mod>Ingame_Info_Shell_Info_Pen_Spread</mod>
+    <mod>Ingame_Info_Shell_Info_Speed</mod>
     <mod>Ingame_Info_SpotMarks</mod>
     <mod>Ingame_Info_SpotMessenger_Base</mod>
     <mod>Ingame_Info_SpotMessenger_activated</mod>
-    <mod>Ingame_Info_SpotMessenger_Battletypes_Header</mod>
-    <mod>Ingame_Info_SpotMessenger_Battletypes_Random_Header</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes_Random</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Random_teammsg</mod>
-    <mod>Ingame_Info_SpotMessenger_Battletypes_EpicRandom_Header</mod>
+    <mod>Ingame_Info_SpotMessenger_Battletypes_EpicRandom</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_EpicRandom_teammsg</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Teambattle</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_Ranked</mod>
     <mod>Ingame_Info_SpotMessenger_Battletypes_ClanBattle</mod>
-    <mod>Ingame_Info_SpotMessenger_Vehicle_Types_Header</mod>
+    <mod>Ingame_Info_SpotMessenger_Vehicle_Types</mod>
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_lt</mod>
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_mt</mod>
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_ht</mod>
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_td</mod>
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_spg</mod>
     <mod>Ingame_Info_spotted_extended_light</mod>
+    <mod>Ingame_Info_Tank_Info_Panel</mod>
+    <mod>Ingame_Info_Tank_Info_Panel_by_Izeberg</mod>
+    <mod>Ingame_Info_Tessumod</mod>
     <mod>Ingame_Info_Wide_Border_Of_Maps</mod>
     <mod>Ingame_Info_Wide_Border_Of_Maps_COMMAND_full</mod>
     <mod>Ingame_Misc_You_Died_by_goofy67_and_budyx69</mod>
     <mod>Ingame_Misc_You_Died_with_sound</mod>
+    <mod>Ingame_Misc_Antitoxicity_Base</mod>
     <mod>Ingame_Misc_Arty_and_Siege_Filter</mod>
     <mod>Ingame_Misc_BattleEndMessages_by_Budyx69</mod>
     <mod>Ingame_Misc_BattleEndMessages_by_Budyx69_english_rude</mod>
     <mod>Ingame_Misc_Better_Visible_Flat_Train_Wagons</mod>
     <mod>Ingame_Misc_chatmods</mod>
-    <mod>Ingame_Misc_chatmods_buttonreplacer</mod>
     <mod>Ingame_Misc_chatmods_elkrda</mod>
     <mod>Ingame_Misc_chatmods_elkrda_received_dmg_announcer</mod>
     <mod>Ingame_Misc_chatmods_elkrda_announce_teamdamage</mod>
     <mod>Ingame_Misc_chatmods_elkrda_announce_spg</mod>
+    <mod>Ingame_Misc_chatmods_FriendsMarker_Oldskool</mod>
     <mod>Ingame_Misc_chatmods_FriendsNotifier_Rajcel</mod>
     <mod>Ingame_Misc_chatmods_SorryMessenger</mod>
     <mod>Ingame_Misc_Consumables</mod>
+    <mod>Ingame_Misc_Consumables_EquipmentIcons</mod>
+    <mod>Ingame_Misc_Consumables_EquipmentIcons_DEbranded</mod>
     <mod>Ingame_Misc_Consumables_ShellIcons</mod>
-    <mod>Ingame_Misc_Consumables_ShellIcons_AW</mod>
+    <mod>Ingame_Misc_Consumables_ShellIcons_vito72m</mod>
     <mod>Ingame_Misc_double_press_to_crawl</mod>
     <mod>Ingame_Misc_Final_Shot</mod>
     <mod>Ingame_Misc_hitmarker_Base</mod>
@@ -130,7 +152,6 @@
     <mod>Ingame_Misc_LightMod_LampLights_TargetLight</mod>
     <mod>Ingame_Misc_Minimap</mod>
     <mod>Ingame_Misc_HD_minimap</mod>
-    <mod>Ingame_Misc_HD_Minimap_KEY_LSHIFT</mod>
     <mod>Ingame_Misc_Hawgs_Arrow_Minimap</mod>
     <mod>Ingame_Misc_Hawgs_Arrow_Minimap_Purple</mod>
     <mod>Ingame_Misc_Minimap_Spam_Protector</mod>
@@ -143,19 +164,10 @@
     <mod>Ingame_Misc_Radial_Menu_HAWG</mod>
     <mod>Ingame_Misc_repair_extended</mod>
     <mod>Ingame_Misc_repair_extended_default</mod>
-    <mod>Ingame_Misc_WG_Radio</mod>
     <mod>Ingame_Misc_WOT_Tweaker</mod>
     <mod>Ingame_Misc_WOT_Tweaker_disable_fog</mod>
     <mod>Ingame_Misc_WOT_Tweaker_disable_bad_matchmaking</mod>
     <mod>Ingame_Misc_WOT_Tweaker_disable_allied_noobs</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover_ReferralButton</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover_GeneralChat</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover_PromoPremVehicle</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover_RewardWindow</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover_PiggyBankWindow</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover_sessionStatsButton</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover_showDogtagWidget</mod>
     <mod>Garage_mods_Armor_Inspector</mod>
     <mod>Garage_mods_Armor_Inspector_protanki</mod>
     <mod>Garage_mods_Armor_Inspector_wotinspector</mod>
@@ -167,7 +179,9 @@
     <mod>Garage_mods_Map_Rotation</mod>
     <mod>Garage_mods_Modpack_Button</mod>
     <mod>Garage_mods_Modpack_Button_Left</mod>
-    <mod>Garage_mods_replay_manager</mod>
+    <mod>Garage_mods_replays</mod>
+    <mod>Garage_mods_replays_replayManager</mod>
+    <mod>Garage_mods_replays_enableBRreplays</mod>
     <mod>Garage_mods_ScriptloaderPro_Base</mod>
     <mod>Garage_mods_ScriptloaderPro_SystemMessage_Full</mod>
     <mod>Garage_mods_ScriptloaderPro_SpamFilter</mod>
@@ -175,6 +189,7 @@
     <mod>Garage_mods_VehicleXP_Extended</mod>
     <mod>Garage_mods_crewExtended</mod>
     <mod>Garage_Graphics_Battle_Results</mod>
+    <mod>Garage_Graphics_Nation_Emblem_Battle_Results</mod>
     <mod>Garage_Graphics_Battle_Results_by_HawgJaws_HAWG_PigBrains</mod>
     <mod>Garage_Graphics_Battle_Results_Tank_Invasion_Battle_Results_by_PigBrains_HAWG</mod>
     <mod>Garage_Graphics_Carousel</mod>
@@ -182,7 +197,7 @@
     <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_PreDefined</mod>
     <mod>Garage_Graphics_Carousel_DailyXPBonusIcons_elektrosmoker</mod>
     <mod>Garage_Graphics_carousel_LED</mod>
-    <mod>Garage_Graphics_carousel_LED_Yellow_Red</mod>
+    <mod>Garage_Graphics_carousel_LED_Green_Purple_Strips</mod>
     <mod>Garage_Graphics_Carousel_Tank_Icons</mod>
     <mod>Garage_Graphics_Carousel_Tank_Icons_Regular_N_Premium_Ghostman101278</mod>
     <mod>Garage_Graphics_Carousel_Tank_Icons_Regular_N_Premium_LegionLost</mod>
@@ -231,12 +246,12 @@
     <mod>Garage_Graphics_loading_animation</mod>
     <mod>Garage_Graphics_loading_animation_HARPOON</mod>
     <mod>Garage_Graphics_LoadingLogo</mod>
-    <mod>Garage_Graphics_loading_logo_WWIIHWA_Ambiente</mod>
+    <mod>Garage_Graphics_LoadingLogo_white</mod>
     <mod>Garage_Graphics_LoadingSplash</mod>
-    <mod>Garage_Graphics_LoadingSplash_WWIIHWA_Ambiente</mod>
+    <mod>Garage_Graphics_LoadingSplash_TheIllusion_UFP</mod>
     <mod>Garage_Graphics_LoginBackground</mod>
-    <mod>Garage_Graphics_LoginBackground_Picture_Header</mod>
-    <mod>Garage_Graphics_LoginBackground_Picture_WWIIHWA</mod>
+    <mod>Garage_Graphics_LoginBackground_Video</mod>
+    <mod>Garage_Graphics_LoginBackground_Video_OldMemories_WGFest2017</mod>
     <mod>Garage_Graphics_MapLoadingScreens</mod>
     <mod>Garage_Graphics_MapLoadingScreens_OldMemories</mod>
     <mod>Garage_Graphics_Exit_Screens</mod>
@@ -248,36 +263,38 @@
     <mod>Garage_Graphics_Medals</mod>
     <mod>Garage_Graphics_Medals_Effect_Glass</mod>
     <mod>Garage_Graphics_VehiclesNationDecals</mod>
-    <mod>Garage_Graphics_VehicleNationDecals_GuP</mod>
+    <mod>Garage_Graphics_VehicleNationDecals_default</mod>
     <mod>Garage_Graphics_FlagsLib</mod>
     <mod>Garage_Graphics_FlagsLib_DEbranded</mod>
     <mod>Garage_Graphics_TechTree_and_VehicleList_Icons</mod>
-    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Camo_header</mod>
-    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Camo_Colored</mod>
+    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Camo</mod>
+    <mod>Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Camo_DEbranded</mod>
     <mod>Garage_Graphics_UserInterface</mod>
     <mod>Garage_Graphics_UserInterface_OldStore</mod>
     <mod>Session_Statistics</mod>
     <mod>Session_Statistics_Time_Spent_Base</mod>
     <mod>Session_Statistics_Time_Spent_Kapany3uk_5</mod>
-    <mod>Sounds_crew_sounds_Header</mod>
-    <mod>Crew_Voices_English_Header</mod>
-    <mod>Sounds_crew_voices_Dr_Disrespect</mod>
-    <mod>Sounds_Engine_Header</mod>
+    <mod>Statistics_Battle_Results_RaJCeL</mod>
+    <mod>Sounds_crew_sounds</mod>
+    <mod>Sounds_crew_sounds_german</mod>
+    <mod>Sounds_crew_sounds_Filzi</mod>
+    <mod>Sounds_crew_sounds_filzi_bsth</mod>
+    <mod>Sounds_Engine</mod>
     <mod>Sounds_Engines_by_Ed76na+Apa6ecka</mod>
-    <mod>Sounds_Extras_Header</mod>
+    <mod>Sounds_Extras</mod>
     <mod>Sounds_Modules_Extra_Ammo</mod>
     <mod>Sounds_Extras_Better_Timer</mod>
-    <mod>Sounds_Modules_CamoNet_Header</mod>
+    <mod>Sounds_Modules_CamoNet</mod>
     <mod>Sounds_Modules_CamoNet_Romulan</mod>
-    <mod>Sounds_Modules_Consumable_Sounds_Header</mod>
+    <mod>Sounds_Modules_Consumable_Sounds</mod>
     <mod>Sounds_Modules_Consumable_Sounds_AW</mod>
-    <mod>Sounds_Modules_Enemy_Spotted_Header</mod>
-    <mod>Sounds_Modules_Enemy_Spotted_Sound</mod>
-    <mod>Sounds_GUI_Header</mod>
+    <mod>Sounds_Modules_Enemy_Spotted</mod>
+    <mod>Sounds_Modules_Enemy_Spotted_Voice</mod>
+    <mod>Sounds_GUI</mod>
     <mod>Sounds_GUI_Relhax</mod>
-    <mod>Sounds_Gun_Header</mod>
-    <mod>Sounds_Gun_Ed76na+Apa6ecka</mod>
-    <mod>Sounds_Kill_Header</mod>
+    <mod>Sounds_Gun</mod>
+    <mod>Sounds_WWIIHWA_Guns_by_KT+Budyx69</mod>
+    <mod>Sounds_Kill</mod>
     <mod>Sounds_Kill_UT_Announcer_Base</mod>
     <mod>Sounds_Kill_UT_Announcer_Locastan</mod>
     <mod>Sounds_WWIIHWA_Ambiente</mod>
@@ -286,14 +303,12 @@
     <mod>WWIIHWA_Music_and_Historical</mod>
     <mod>WWIIHWA_Historical</mod>
     <mod>WWIIHWA_Music</mod>
-    <mod>Sixth_Sense_Audio_Header</mod>
-    <mod>Sixth_Sense_Audio_OMC</mod>
+    <mod>Sixth_Sense_Audio</mod>
+    <mod>Sixth_Sense_Audio_German_Die_Zwei</mod>
     <mod>Sixth_Sense_Icon_Disable_Default_Icon</mod>
     <mod>Sixth_Sense_Icon_Animation_WileECoyote</mod>
-    <mod>Sixth_Sense_Icon_Duration_Header</mod>
-    <mod>Sixth_Sense_Icon_Duration_10</mod>
-    <mod>Tank_Skin_Packs_HitZone_Skins_black_white_Mr_13</mod>
-    <mod>Tank_Skin_Packs_HitZone_Skins_black_white_Mr_13_with_trunk_marks</mod>
+    <mod>Sixth_Sense_Icon_Duration</mod>
+    <mod>Sixth_Sense_Icon_Duration_5</mod>
     <mod>Tank_Skins_Misc_crashed_tracks</mod>
     <mod>Tank_Skins_Misc_crashed_tracks_white</mod>
     <mod>Tank_Skins_Misc_Colored_penetration</mod>
@@ -309,6 +324,29 @@
     <mod>Tank_Skins_Misc_Graphics_Remover_forSingleVehicles</mod>
     <mod>Tank_Skins_Misc_Graphics_Remover_Limpid_Stickers</mod>
     <mod>Tank_Skins_Misc_Graphics_Skinner</mod>
+    <mod>Custom_Tank_Skins_China</mod>
+    <mod>Custom_Tank_Skins_China_Light</mod>
+    <mod>Custom_Tank_Skins_China_Light_WZ-132</mod>
+    <mod>Custom_Tank_Skins_China_Light_WZ-132_Stormtrooper</mod>
+    <mod>Custom_Tank_Skins_GB</mod>
+    <mod>Custom_Tank_Skins_GB_Heavy</mod>
+    <mod>Custom_Tank_Skins_GB_Heavy_TOG_II</mod>
+    <mod>Custom_Tank_Skins_GB_Heavy_TOG_II_Chewbacca</mod>
+    <mod>Custom_Tank_Skins_GB_Tank_Destroyer</mod>
+    <mod>Custom_Tank_Skins_GB_Tank_Destroyer_FV217_Badger</mod>
+    <mod>Custom_Tank_Skins_GB_Tank_Destroyer_FV217_Badger_Solo</mod>
+    <mod>Custom_Tank_Skins_Germany</mod>
+    <mod>Custom_Tank_Skins_Germany_Light</mod>
+    <mod>Custom_Tank_Skins_Germany_Light_PZ_I_C</mod>
+    <mod>Custom_Tank_Skins_Germany_Light_PZ_I_C_Star_Wars_Force_BB8</mod>
+    <mod>Custom_Tank_Skins_USA</mod>
+    <mod>Custom_Tank_Skins_USA_Light</mod>
+    <mod>Custom_Tank_Skins_USA_Light_T49</mod>
+    <mod>Custom_Tank_Skins_USA_Light_T49_Star_Wars_Force_Rey</mod>
+    <mod>Custom_Tank_Skins_USSR</mod>
+    <mod>Custom_Tank_Skins_USSR_Heavy</mod>
+    <mod>Custom_Tank_Skins_USSR_Heavy_KV2</mod>
+    <mod>Custom_Tank_Skins_USSR_Heavy_KV2_Star_Wars_Force_Vader</mod>
   </relhaxMods>
   <userMods>
   </userMods>
