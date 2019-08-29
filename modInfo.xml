@@ -15555,7 +15555,7 @@
           <type>multi</type>
           <timestamp>132114598029024156</timestamp>
           <updateComment>ALLIED = YELLOW\t\r\n   0.015 1 0.129\r\n= RGB (4,255,33)\r\n\r\nR: 255*0,015=003,825 ==&gt; 004\r\nG: 255*1,000=255,000 ==&gt; 255\r\nB: 255*0,129=032,895 ==&gt; 033</updateComment>
-          <description>Change the colored silhouette of the enemies and allies\r\n\r\n\r\nTO DO:  \r\n-RENAME  Ingame_Aim_silhouetteColors_Enemy_Allies with sublevels (SHI....)</description>
+          <description>Change the colored Silhouette of the Enemies and Allies in scripts_config.xml-file.\r\n\r\nYou want a Color? \r\nFind the RGB-Code, divide each value by 255. \r\n 1. number is Red, 2. number is Green, 3. number is Blue\r\nThe 4. number: 1 or 0 -  En-/Disable Silhouette</description>
           <devURL>https://wotsite.net/mody-dlya-world-of-tanks/10617-mod-raznotsvetnye-kontury-tankov.html</devURL>
           <medias>
             <media>
@@ -15595,16 +15595,6 @@
                   <timestamp>132114717882312180</timestamp>
                 </package>
                 <package>
-                  <name>Enemy &amp; Allied yellow v3 orange SIEHT KACKE AUS</name>
-                  <zipFile>Ingame_Aim_Outline_Enemy_Allies_Colorblind_yellow_v3.zip</zipFile>
-                  <crc>f</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_yellow_v3</packageName>
-                  <type>multi</type>
-                  <timestamp>132114717349347235</timestamp>
-                </package>
-                <package>
                   <name>For Allies</name>
                   <zipFile />
                   <crc>f</crc>
@@ -15615,45 +15605,45 @@
                   <timestamp>132014976279667523</timestamp>
                   <packages>
                     <package>
-                      <name>Blue RGB (80,70,150) Allies</name>
-                      <zipFile>Ingame_Aim_Outline_Enemy_Allies_Colorblind_Allies_Blue.zip</zipFile>
+                      <name>LightBlue RGB (10,120,255) Allies</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LightBlue.zip</zipFile>
                       <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Blue</packageName>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LightBlue</packageName>
                       <type>multi</type>
-                      <timestamp>132114768473472586</timestamp>
+                      <timestamp>132115740510579659</timestamp>
                       <description>Allied (yellow) &amp; Enemy (blue) \r\ncan be combined to get the same result\r\n\r\nergo: remove for release</description>
                     </package>
                     <package>
-                      <name>Magenta RGB (210,70,150) Allies</name>
-                      <zipFile>Ingame_Aim_Outline_Enemy_Allies_Colorblind_Allies_Magenta.zip</zipFile>
+                      <name>Magenta RGB (200,20,130) Allies</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Magenta.zip</zipFile>
                       <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
                       <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Magenta</packageName>
                       <type>multi</type>
-                      <timestamp>132114818077156152</timestamp>
+                      <timestamp>132115730379388256</timestamp>
                     </package>
                     <package>
-                      <name>Pink RGB (180,70,150)</name>
-                      <zipFile>Ingame_Aim_Outline_Enemy_Allies_Colorblind_Allies_pink.zip</zipFile>
+                      <name>Red RGB (255,20,10) Allies</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Red.zip</zipFile>
                       <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_pink</packageName>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Red</packageName>
                       <type>multi</type>
-                      <timestamp>132114794077180091</timestamp>
+                      <timestamp>132115732419877074</timestamp>
                     </package>
                     <package>
-                      <name>LimeGreen RGB (50,205,50) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LimeGreen.zip</zipFile>
+                      <name>Orange RGB (255,70,0) Allies</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_OrangeRed.zip</zipFile>
                       <crc>f</crc>
                       <enabled>True</enabled>
                       <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LimeGreen</packageName>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Orange</packageName>
                       <type>multi</type>
-                      <timestamp>132115714257305057</timestamp>
+                      <timestamp>132115736278537515</timestamp>
                     </package>
                     <package>
                       <name>LawnGreen RGB (125,210,10) Allies</name>
@@ -15674,6 +15664,16 @@
                       <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_OliveGreen</packageName>
                       <type>single_dropdown1</type>
                       <timestamp>132115707839224444</timestamp>
+                    </package>
+                    <package>
+                      <name>LimeGreen RGB (50,205,50) Allies</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LimeGreen.zip</zipFile>
+                      <crc>f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LimeGreen</packageName>
+                      <type>multi</type>
+                      <timestamp>132115714257305057</timestamp>
                     </package>
                     <package>
                       <name>Allies Yellow RGB(4,255,33) Allies</name>
