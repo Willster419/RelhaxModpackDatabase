@@ -760,12 +760,12 @@
       <devURL>http://forum.worldoftanks.ru/index.php?/topic/1821136-\r\nhttps://koreanrandom.com/forum/topic/36164-</devURL>
     </dependency>
     <dependency>
-      <zipFile>Dependency_RaJCel_Core_1.6.0.2_2019-08-24.zip</zipFile>
-      <crc>5e56d9bd113f20a1d5ad0b3c7d74984c</crc>
+      <zipFile>Dependency_RaJCel_Core_1.6.0.4_2019-08-30.zip</zipFile>
+      <crc>f</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_RaJCel_Core</packageName>
-      <timestamp>132111056797868688</timestamp>
+      <timestamp>132116308926117432</timestamp>
       <devURL>http://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel/</devURL>
       <logicalDependencies>
         <logicalDependency>
@@ -15546,7 +15546,7 @@
           </dependencies>
         </package>
         <package>
-          <name>Colored Silhouette for Enemies and Allies</name>
+          <name>Colored Silhouette (when aiming at tanks in battle)</name>
           <zipFile />
           <crc>f</crc>
           <enabled>True</enabled>
@@ -15554,7 +15554,8 @@
           <packageName>Ingame_Aim_Silhouette_Colors</packageName>
           <type>multi</type>
           <timestamp>132114598029024156</timestamp>
-          <description>Change the colored Silhouette of the Enemies and Allies in scripts_config.xml-file.\r\n\r\nYou want a Color? \r\nFind the RGB-Code, divide each value by 255. \r\n 1. number is Red, 2. number is Green, 3. number is Blue\r\nThe 4. number: 1 or 0 -  En-/Disable Silhouette</description>
+          <updateComment>patches for -&gt; scripts_config.xml\r\n\r\nGauss´ notice:\r\nYou want a Color? \r\nFind the RGB-Code, divide each value by 255. \r\n 1. number is Red, 2. number is Green, 3. number is Blue\r\nThe 4. number: 1 or 0 -  En-/Disable Silhouette</updateComment>
+          <description>This mod changes the silhouette color of tanks when you aim at them in battle.\r\nYou can select different colors for enemies and allies.</description>
           <devURL>https://wotsite.net/mody-dlya-world-of-tanks/10617-mod-raznotsvetnye-kontury-tankov.html</devURL>
           <medias>
             <media>
@@ -15564,353 +15565,7 @@
           </medias>
           <packages>
             <package>
-              <name>Colored outline enemy &amp; allies (Ingame with colorblind settings enabled)</name>
-              <zipFile />
-              <crc>f</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>Ingame_Aim_Silhouette_Colors_Colorblind</packageName>
-              <type>multi</type>
-              <timestamp>132014976279667523</timestamp>
-              <packages>
-                <package>
-                  <name>For Allies</name>
-                  <zipFile />
-                  <crc>f</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies</packageName>
-                  <type>multi</type>
-                  <timestamp>132014976279667523</timestamp>
-                  <packages>
-                    <package>
-                      <name>Black RGB(0,0,0) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Black.zip</zipFile>
-                      <crc>2105441aaf994c37fe270b84eb7457d1</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Black</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115756687812778</timestamp>
-                      <size>801</size>
-                    </package>
-                    <package>
-                      <name>Grey RGB(128,128,128) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Grey.zip</zipFile>
-                      <crc>f9f8715afa702baadff066c6bf9e105c</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Grey</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115800891411284</timestamp>
-                      <size>801</size>
-                    </package>
-                    <package>
-                      <name>White RGB(255,255,255) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_White.zip</zipFile>
-                      <crc>7827e1ce6f6da9e52a6c8ed1a5755bc0</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_White</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115752870023910</timestamp>
-                      <size>799</size>
-                    </package>
-                    <package>
-                      <name>LightBlue RGB (10,120,255) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LightBlue.zip</zipFile>
-                      <crc>e8eba7f157bb9e9fa87aa2887600976c</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LightBlue</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115740510579659</timestamp>
-                      <size>820</size>
-                      <description>Allied (yellow) &amp; Enemy (blue) \r\ncan be combined to get the same result\r\n\r\nergo: remove for release</description>
-                    </package>
-                    <package>
-                      <name>Blue RGB (0,0,255) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Blue.zip</zipFile>
-                      <crc>1dfd1740063b0abbb1fd3c475354db78</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Blue</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115742608906304</timestamp>
-                      <size>800</size>
-                    </package>
-                    <package>
-                      <name>WG Blue RGB (130,120,255) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_WG_Blue.zip</zipFile>
-                      <crc>5d097c6f8fa40e5c74ace7adfbaf924c</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_WG_Blue</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115747185580486</timestamp>
-                      <size>817</size>
-                    </package>
-                    <package>
-                      <name>DarkBlue Navy RGB (0,0,130) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_DarkBlue.zip</zipFile>
-                      <crc>0328d22d3964efba74fad83fee09b6a3</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_DarkBlue</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115744968974916</timestamp>
-                      <size>813</size>
-                    </package>
-                    <package>
-                      <name>OliveGreen RGB (105,200,125) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_OliveGreen.zip</zipFile>
-                      <crc>7ca3266634d4aab4c6ea42da9d688a88</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_OliveGreen</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115707839224444</timestamp>
-                      <size>827</size>
-                    </package>
-                    <package>
-                      <name>LimeGreen RGB (50,205,50) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LimeGreen.zip</zipFile>
-                      <crc>d98b2a292a3c30bd29b2468f7eb0e3c9</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LimeGreen</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115714257305057</timestamp>
-                      <size>823</size>
-                    </package>
-                    <package>
-                      <name>LawnGreen RGB (125,210,10) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_WG_LawnGreen.zip</zipFile>
-                      <crc>ed49985077a27b8bb17275bdf3aa37b7</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_WG_LawnGreen</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115710721912394</timestamp>
-                      <size>832</size>
-                    </package>
-                    <package>
-                      <name>Yellow RGB(255,255,0) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Yellow.zip</zipFile>
-                      <crc>e65369b6a56f8c83f5207cc8d3922099</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Yellow</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115751082017760</timestamp>
-                      <size>803</size>
-                      <description>Ingame_Aim_Outline_Friend_Blue_v1_colorBlind.xml\r\n\r\nOLD: Ingame_Aim_Outline_Enemy_Allies_Colorblind_blue_v1.zip\r\nNEW: Ingame_Aim_Outline_Enemy_Allies_Colorblind_Allies_Yellow.zip</description>
-                    </package>
-                    <package>
-                      <name>Orange RGB (255,70,0) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_OrangeRed.zip</zipFile>
-                      <crc>b28a3489ba6515e2ca0907505db4e3ae</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Orange</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115736278537515</timestamp>
-                      <size>820</size>
-                    </package>
-                    <package>
-                      <name>Red RGB (255,20,10) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Red.zip</zipFile>
-                      <crc>fd8e4b4970749f2ffce6c84fde430d25</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Red</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115732419877074</timestamp>
-                      <size>807</size>
-                    </package>
-                    <package>
-                      <name>Magenta RGB (200,20,130) Allies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Magenta.zip</zipFile>
-                      <crc>4d9d3b2718fa7048c2d416fe53576251</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Magenta</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115730379388256</timestamp>
-                      <size>820</size>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>For Enemies</name>
-                  <zipFile />
-                  <crc>f</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemy</packageName>
-                  <type>multi</type>
-                  <timestamp>132014976279667523</timestamp>
-                  <packages>
-                    <package>
-                      <name>Black RGB(0,0,0) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Black.zip</zipFile>
-                      <crc>f51f02e00e0316655237eea704279540</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Black</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115787538262082</timestamp>
-                      <size>619</size>
-                    </package>
-                    <package>
-                      <name>Grey RGB(128,128,128) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Grey.zip</zipFile>
-                      <crc>23cb69557652203f538e6e9febacc199</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Grey</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115799418298128</timestamp>
-                      <size>617</size>
-                    </package>
-                    <package>
-                      <name>White RGB(255,255,255) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_White.zip</zipFile>
-                      <crc>fa59375013cf0824695d2fefe911fe14</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_White</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115788734591520</timestamp>
-                      <size>617</size>
-                    </package>
-                    <package>
-                      <name>LightBlue RGB (10,120,255) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_LightBlue.zip</zipFile>
-                      <crc>4661547ece55f31de3375c908aac93dd</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_LightBlue</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115789530495198</timestamp>
-                      <size>638</size>
-                    </package>
-                    <package>
-                      <name>Blue RGB (0,0,255) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Blue.zip</zipFile>
-                      <crc>e9a5d9a07b54d6316b14d3d7f97badc5</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Blue</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115788184096710</timestamp>
-                      <size>618</size>
-                    </package>
-                    <package>
-                      <name>WG Blue RGB (130,120,255) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_WG_Blue.zip</zipFile>
-                      <crc>4049f3ba594efb4f0bc97c698e7bdd8a</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_WG_Blue</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115789873026659</timestamp>
-                      <size>635</size>
-                    </package>
-                    <package>
-                      <name>DarkBlue Navy RGB (0,0,130) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_DarkBlue.zip</zipFile>
-                      <crc>77b92d434671cb20f13a17103c0b447f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_DarkBlue</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115790416130647</timestamp>
-                      <size>630</size>
-                    </package>
-                    <package>
-                      <name>OliveGreen RGB (105,200,125) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_OliveGreen.zip</zipFile>
-                      <crc>c76874da4f6cd7fefb1c97db96222a49</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_OliveGreen</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115790778628518</timestamp>
-                      <size>644</size>
-                    </package>
-                    <package>
-                      <name>LimeGreen RGB (50,205,50) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_LimeGreen.zip</zipFile>
-                      <crc>1bb0046ea07c2cdca0e96f7c73a16afb</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_LimeGreen</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115791230750535</timestamp>
-                      <size>638</size>
-                    </package>
-                    <package>
-                      <name>LawnGreen RGB (125,210,10) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_WG_LawnGreen.zip</zipFile>
-                      <crc>fc9aae9ab5af5c3fbfae8eebda2bec1c</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_WG_LawnGreen</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115791751544646</timestamp>
-                      <size>648</size>
-                    </package>
-                    <package>
-                      <name>Yellow RGB(255,255,0) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Yellow.zip</zipFile>
-                      <crc>7fc21e15818b1ab206b50ceff9af2c8e</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Yellow</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115792185244932</timestamp>
-                      <size>621</size>
-                    </package>
-                    <package>
-                      <name>Orange RGB (255,70,0) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_OrangeRed.zip</zipFile>
-                      <crc>0e9d067e523e1acc1d2422006402fea3</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Orange</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115792736611365</timestamp>
-                      <size>638</size>
-                    </package>
-                    <package>
-                      <name>Red RGB (255,20,10) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Red.zip</zipFile>
-                      <crc>cf5b7b1378ac2f4aea30cb2fc848118f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Red</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115794575483706</timestamp>
-                      <size>625</size>
-                    </package>
-                    <package>
-                      <name>Magenta RGB (200,20,130) Enemies</name>
-                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Magenta.zip</zipFile>
-                      <crc>fa9b18ae89a411be9c052e62eeeb5282</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Magenta</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132115793927810003</timestamp>
-                      <size>637</size>
-                    </package>
-                  </packages>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Colored outline enemy (Ingame without colorblind settings enabled)</name>
+              <name>colors</name>
               <zipFile />
               <crc>f</crc>
               <enabled>True</enabled>
@@ -15920,7 +15575,7 @@
               <timestamp>132014976279667523</timestamp>
               <packages>
                 <package>
-                  <name>For Allies</name>
+                  <name>on allied tanks</name>
                   <zipFile />
                   <crc>f</crc>
                   <enabled>True</enabled>
@@ -15930,7 +15585,7 @@
                   <timestamp>132014976279667523</timestamp>
                   <packages>
                     <package>
-                      <name>Black RGB(0,0,0) Allies</name>
+                      <name>Black RGB(0,0,0)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_Black.zip</zipFile>
                       <crc>f5c6739ed070afd31a950a493da19520</crc>
                       <enabled>True</enabled>
@@ -15941,7 +15596,7 @@
                       <size>610</size>
                     </package>
                     <package>
-                      <name>Grey RGB(128,128,128) Allies</name>
+                      <name>Grey RGB(128,128,128)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_Grey.zip</zipFile>
                       <crc>8f0c792d48b0ca3ddde334f1cd6a236e</crc>
                       <enabled>True</enabled>
@@ -15952,7 +15607,7 @@
                       <size>608</size>
                     </package>
                     <package>
-                      <name>White RGB(255,255,255) Allies</name>
+                      <name>White RGB(255,255,255)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_White.zip</zipFile>
                       <crc>d69b4a2c88eeb81da7c43131a0db0b27</crc>
                       <enabled>True</enabled>
@@ -15963,7 +15618,7 @@
                       <size>607</size>
                     </package>
                     <package>
-                      <name>LightBlue RGB (10,120,255) Allies</name>
+                      <name>LightBlue RGB (10,120,255)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_LightBlue.zip</zipFile>
                       <crc>2abc5216154f8c70ef64c032ab6e14e6</crc>
                       <enabled>True</enabled>
@@ -15975,7 +15630,7 @@
                       <description>Allied (yellow) &amp; Enemy (blue) \r\ncan be combined to get the same result\r\n\r\nergo: remove for release</description>
                     </package>
                     <package>
-                      <name>Blue RGB (0,0,255) Allies</name>
+                      <name>Blue RGB (0,0,255)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_Blue.zip</zipFile>
                       <crc>b215ae226897b249ac0a50e7309d3269</crc>
                       <enabled>True</enabled>
@@ -15986,7 +15641,7 @@
                       <size>608</size>
                     </package>
                     <package>
-                      <name>WG Blue RGB (130,120,255) Allies</name>
+                      <name>WG Blue RGB (130,120,255)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_WG_Blue.zip</zipFile>
                       <crc>b7c5459791b8d6adab489b4d4dbd45e1</crc>
                       <enabled>True</enabled>
@@ -15997,7 +15652,7 @@
                       <size>626</size>
                     </package>
                     <package>
-                      <name>DarkBlue Navy RGB (0,0,130) Allies</name>
+                      <name>DarkBlue Navy RGB (0,0,130)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_DarkBlue.zip</zipFile>
                       <crc>d0dd31a140081bd10aed39b915cdf95a</crc>
                       <enabled>True</enabled>
@@ -16008,7 +15663,7 @@
                       <size>620</size>
                     </package>
                     <package>
-                      <name>OliveGreen RGB (105,200,125) Allies</name>
+                      <name>OliveGreen RGB (105,200,125)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_OliveGreen.zip</zipFile>
                       <crc>db6cd8d81377d252718e209820892a58</crc>
                       <enabled>True</enabled>
@@ -16019,7 +15674,7 @@
                       <size>634</size>
                     </package>
                     <package>
-                      <name>LimeGreen RGB (50,205,50) Allies</name>
+                      <name>LimeGreen RGB (50,205,50)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_LimeGreen.zip</zipFile>
                       <crc>bfcb782008c767b2722c7eeaab499631</crc>
                       <enabled>True</enabled>
@@ -16030,7 +15685,7 @@
                       <size>628</size>
                     </package>
                     <package>
-                      <name>LawnGreen RGB (125,210,10) Allies</name>
+                      <name>LawnGreen RGB (125,210,10)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_WG_LawnGreen.zip</zipFile>
                       <crc>ea8c805a0149b7d8a9511e3708b6e742</crc>
                       <enabled>True</enabled>
@@ -16041,7 +15696,7 @@
                       <size>822</size>
                     </package>
                     <package>
-                      <name>Yellow RGB(255,255,0) Allies</name>
+                      <name>Yellow RGB(255,255,0)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_Yellow.zip</zipFile>
                       <crc>f8a6e17d4a329ed51dbeb3ae6bdd4c0a</crc>
                       <enabled>True</enabled>
@@ -16053,7 +15708,7 @@
                       <description>Ingame_Aim_Outline_Friend_Blue_v1_colorBlind.xml\r\n\r\nOLD: Ingame_Aim_Outline_Enemy_Allies_Colorblind_blue_v1.zip\r\nNEW: Ingame_Aim_Outline_Enemy_Allies_Colorblind_Allies_Yellow.zip</description>
                     </package>
                     <package>
-                      <name>Orange RGB (255,70,0) Allies</name>
+                      <name>Orange RGB (255,70,0)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_OrangeRed.zip</zipFile>
                       <crc>e182e57b78c677ada87af81fa76482ab</crc>
                       <enabled>True</enabled>
@@ -16064,7 +15719,7 @@
                       <size>628</size>
                     </package>
                     <package>
-                      <name>Red RGB (255,20,10) Allies</name>
+                      <name>Red RGB (255,20,10)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Allies_Red.zip</zipFile>
                       <crc>fe5c00a8cbe3d28dc630855f18290438</crc>
                       <enabled>True</enabled>
@@ -16075,7 +15730,7 @@
                       <size>615</size>
                     </package>
                     <package>
-                      <name>Magenta RGB (200,20,130) Allies</name>
+                      <name>Magenta RGB (200,20,130)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Magenta.zip</zipFile>
                       <crc>4d9d3b2718fa7048c2d416fe53576251</crc>
                       <enabled>True</enabled>
@@ -16088,7 +15743,7 @@
                   </packages>
                 </package>
                 <package>
-                  <name>For Enemies</name>
+                  <name>on enemy tanks</name>
                   <zipFile />
                   <crc>f</crc>
                   <enabled>True</enabled>
@@ -16098,7 +15753,7 @@
                   <timestamp>132014976279667523</timestamp>
                   <packages>
                     <package>
-                      <name>Black RGB(0,0,0) Enemies</name>
+                      <name>Black RGB(0,0,0)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_Black.zip</zipFile>
                       <crc>84a7533b1982324dda42648e24db17ff</crc>
                       <enabled>True</enabled>
@@ -16109,7 +15764,7 @@
                       <size>610</size>
                     </package>
                     <package>
-                      <name>Grey RGB(128,128,128) Enemies</name>
+                      <name>Grey RGB(128,128,128)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_Grey.zip</zipFile>
                       <crc>a3548025f3caa868956ce7789849d52e</crc>
                       <enabled>True</enabled>
@@ -16120,7 +15775,7 @@
                       <size>609</size>
                     </package>
                     <package>
-                      <name>White RGB(255,255,255) Enemies</name>
+                      <name>White RGB(255,255,255)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_White.zip</zipFile>
                       <crc>7622dab7f0badf3eeef5cde75997909c</crc>
                       <enabled>True</enabled>
@@ -16131,7 +15786,7 @@
                       <size>609</size>
                     </package>
                     <package>
-                      <name>LightBlue RGB (10,120,255) Enemies</name>
+                      <name>LightBlue RGB (10,120,255)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_LightBlue.zip</zipFile>
                       <crc>c01598cc29b77b38a11e090f920c8918</crc>
                       <enabled>True</enabled>
@@ -16142,7 +15797,7 @@
                       <size>628</size>
                     </package>
                     <package>
-                      <name>Blue RGB (0,0,255) Enemies</name>
+                      <name>Blue RGB (0,0,255)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_Blue.zip</zipFile>
                       <crc>e981c82020927d2f1938c40e23b445ed</crc>
                       <enabled>True</enabled>
@@ -16153,7 +15808,7 @@
                       <size>609</size>
                     </package>
                     <package>
-                      <name>WG Blue RGB (130,120,255) Enemies</name>
+                      <name>WG Blue RGB (130,120,255)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_WG_Blue.zip</zipFile>
                       <crc>a6e0c9931d9789c599ebd54b5362db40</crc>
                       <enabled>True</enabled>
@@ -16164,7 +15819,7 @@
                       <size>627</size>
                     </package>
                     <package>
-                      <name>DarkBlue Navy RGB (0,0,130) Enemies</name>
+                      <name>DarkBlue Navy RGB (0,0,130)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_DarkBlue.zip</zipFile>
                       <crc>67137141b173f65a82432f01c5e5ba1a</crc>
                       <enabled>True</enabled>
@@ -16175,7 +15830,7 @@
                       <size>622</size>
                     </package>
                     <package>
-                      <name>OliveGreen RGB (105,200,125) Enemies</name>
+                      <name>OliveGreen RGB (105,200,125)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_OliveGreen.zip</zipFile>
                       <crc>f389733cab1d6cb78b65812caeead72c</crc>
                       <enabled>True</enabled>
@@ -16186,7 +15841,7 @@
                       <size>635</size>
                     </package>
                     <package>
-                      <name>LimeGreen RGB (50,205,50) Enemies</name>
+                      <name>LimeGreen RGB (50,205,50)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_LimeGreen.zip</zipFile>
                       <crc>0a8d13412222ef59bbe89a68528914f2</crc>
                       <enabled>True</enabled>
@@ -16197,7 +15852,7 @@
                       <size>629</size>
                     </package>
                     <package>
-                      <name>LawnGreen RGB (125,210,10) Enemies</name>
+                      <name>LawnGreen RGB (125,210,10)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_WG_LawnGreen.zip</zipFile>
                       <crc>60e85dcd856f51721ff9148e0a02e061</crc>
                       <enabled>True</enabled>
@@ -16208,7 +15863,7 @@
                       <size>639</size>
                     </package>
                     <package>
-                      <name>Yellow RGB(255,255,0) Enemies</name>
+                      <name>Yellow RGB(255,255,0)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_Yellow.zip</zipFile>
                       <crc>4a4621b6eb9114215d4ae921adbbd3bd</crc>
                       <enabled>True</enabled>
@@ -16219,7 +15874,7 @@
                       <size>613</size>
                     </package>
                     <package>
-                      <name>Orange RGB (255,70,0) Enemies</name>
+                      <name>Orange RGB (255,70,0)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_OrangeRed.zip</zipFile>
                       <crc>721eddade5533ea881e3a865976fb8f4</crc>
                       <enabled>True</enabled>
@@ -16230,7 +15885,7 @@
                       <size>629</size>
                     </package>
                     <package>
-                      <name>Red RGB (255,20,10) Enemies</name>
+                      <name>Red RGB (255,20,10)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_Red.zip</zipFile>
                       <crc>b6f7a2ec01b37fa840939c6f56392d72</crc>
                       <enabled>True</enabled>
@@ -16241,7 +15896,7 @@
                       <size>616</size>
                     </package>
                     <package>
-                      <name>Magenta RGB (200,20,130) Enemies</name>
+                      <name>Magenta RGB (200,20,130)</name>
                       <zipFile>Ingame_Aim_Silhouette_Colors_Default_Enemies_Magenta.zip</zipFile>
                       <crc>37a74f806f4924182aafe8bd13b20dae</crc>
                       <enabled>True</enabled>
@@ -16250,6 +15905,352 @@
                       <type>single_dropdown1</type>
                       <timestamp>132115823197537123</timestamp>
                       <size>629</size>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>colorblind (enable colorblind mode in your WoT settings)</name>
+              <zipFile />
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Aim_Silhouette_Colors_Colorblind</packageName>
+              <type>multi</type>
+              <timestamp>132014976279667523</timestamp>
+              <packages>
+                <package>
+                  <name>on allied tanks</name>
+                  <zipFile />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies</packageName>
+                  <type>multi</type>
+                  <timestamp>132014976279667523</timestamp>
+                  <packages>
+                    <package>
+                      <name>Black RGB(0,0,0)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Black.zip</zipFile>
+                      <crc>2105441aaf994c37fe270b84eb7457d1</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Black</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115756687812778</timestamp>
+                      <size>801</size>
+                    </package>
+                    <package>
+                      <name>Grey RGB(128,128,128)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Grey.zip</zipFile>
+                      <crc>f9f8715afa702baadff066c6bf9e105c</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Grey</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115800891411284</timestamp>
+                      <size>801</size>
+                    </package>
+                    <package>
+                      <name>White RGB(255,255,255)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_White.zip</zipFile>
+                      <crc>7827e1ce6f6da9e52a6c8ed1a5755bc0</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_White</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115752870023910</timestamp>
+                      <size>799</size>
+                    </package>
+                    <package>
+                      <name>LightBlue RGB (10,120,255)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LightBlue.zip</zipFile>
+                      <crc>e8eba7f157bb9e9fa87aa2887600976c</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LightBlue</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115740510579659</timestamp>
+                      <size>820</size>
+                      <description>Allied (yellow) &amp; Enemy (blue) \r\ncan be combined to get the same result\r\n\r\nergo: remove for release</description>
+                    </package>
+                    <package>
+                      <name>Blue RGB (0,0,255)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Blue.zip</zipFile>
+                      <crc>1dfd1740063b0abbb1fd3c475354db78</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Blue</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115742608906304</timestamp>
+                      <size>800</size>
+                    </package>
+                    <package>
+                      <name>WG Blue RGB (130,120,255)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_WG_Blue.zip</zipFile>
+                      <crc>5d097c6f8fa40e5c74ace7adfbaf924c</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_WG_Blue</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115747185580486</timestamp>
+                      <size>817</size>
+                    </package>
+                    <package>
+                      <name>DarkBlue Navy RGB (0,0,130)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_DarkBlue.zip</zipFile>
+                      <crc>0328d22d3964efba74fad83fee09b6a3</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_DarkBlue</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115744968974916</timestamp>
+                      <size>813</size>
+                    </package>
+                    <package>
+                      <name>OliveGreen RGB (105,200,125)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_OliveGreen.zip</zipFile>
+                      <crc>7ca3266634d4aab4c6ea42da9d688a88</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_OliveGreen</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115707839224444</timestamp>
+                      <size>827</size>
+                    </package>
+                    <package>
+                      <name>LimeGreen RGB (50,205,50)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LimeGreen.zip</zipFile>
+                      <crc>d98b2a292a3c30bd29b2468f7eb0e3c9</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_LimeGreen</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115714257305057</timestamp>
+                      <size>823</size>
+                    </package>
+                    <package>
+                      <name>LawnGreen RGB (125,210,10)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_WG_LawnGreen.zip</zipFile>
+                      <crc>ed49985077a27b8bb17275bdf3aa37b7</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_WG_LawnGreen</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115710721912394</timestamp>
+                      <size>832</size>
+                    </package>
+                    <package>
+                      <name>Yellow RGB(255,255,0)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Yellow.zip</zipFile>
+                      <crc>e65369b6a56f8c83f5207cc8d3922099</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Yellow</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115751082017760</timestamp>
+                      <size>803</size>
+                      <description>Ingame_Aim_Outline_Friend_Blue_v1_colorBlind.xml\r\n\r\nOLD: Ingame_Aim_Outline_Enemy_Allies_Colorblind_blue_v1.zip\r\nNEW: Ingame_Aim_Outline_Enemy_Allies_Colorblind_Allies_Yellow.zip</description>
+                    </package>
+                    <package>
+                      <name>Orange RGB (255,70,0)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_OrangeRed.zip</zipFile>
+                      <crc>b28a3489ba6515e2ca0907505db4e3ae</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Orange</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115736278537515</timestamp>
+                      <size>820</size>
+                    </package>
+                    <package>
+                      <name>Red RGB (255,20,10)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Red.zip</zipFile>
+                      <crc>fd8e4b4970749f2ffce6c84fde430d25</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Red</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115732419877074</timestamp>
+                      <size>807</size>
+                    </package>
+                    <package>
+                      <name>Magenta RGB (200,20,130)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Magenta.zip</zipFile>
+                      <crc>4d9d3b2718fa7048c2d416fe53576251</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Allies_Magenta</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115730379388256</timestamp>
+                      <size>820</size>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>on enemy tanks</name>
+                  <zipFile />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemy</packageName>
+                  <type>multi</type>
+                  <timestamp>132014976279667523</timestamp>
+                  <packages>
+                    <package>
+                      <name>Black RGB(0,0,0)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Black.zip</zipFile>
+                      <crc>f51f02e00e0316655237eea704279540</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Black</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115787538262082</timestamp>
+                      <size>619</size>
+                    </package>
+                    <package>
+                      <name>Grey RGB(128,128,128)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Grey.zip</zipFile>
+                      <crc>23cb69557652203f538e6e9febacc199</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Grey</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115799418298128</timestamp>
+                      <size>617</size>
+                    </package>
+                    <package>
+                      <name>White RGB(255,255,255)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_White.zip</zipFile>
+                      <crc>fa59375013cf0824695d2fefe911fe14</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_White</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115788734591520</timestamp>
+                      <size>617</size>
+                    </package>
+                    <package>
+                      <name>LightBlue RGB (10,120,255)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_LightBlue.zip</zipFile>
+                      <crc>4661547ece55f31de3375c908aac93dd</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_LightBlue</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115789530495198</timestamp>
+                      <size>638</size>
+                    </package>
+                    <package>
+                      <name>Blue RGB (0,0,255)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Blue.zip</zipFile>
+                      <crc>e9a5d9a07b54d6316b14d3d7f97badc5</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Blue</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115788184096710</timestamp>
+                      <size>618</size>
+                    </package>
+                    <package>
+                      <name>WG Blue RGB (130,120,255)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_WG_Blue.zip</zipFile>
+                      <crc>4049f3ba594efb4f0bc97c698e7bdd8a</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_WG_Blue</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115789873026659</timestamp>
+                      <size>635</size>
+                    </package>
+                    <package>
+                      <name>DarkBlue Navy RGB (0,0,130)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_DarkBlue.zip</zipFile>
+                      <crc>77b92d434671cb20f13a17103c0b447f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_DarkBlue</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115790416130647</timestamp>
+                      <size>630</size>
+                    </package>
+                    <package>
+                      <name>OliveGreen RGB (105,200,125)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_OliveGreen.zip</zipFile>
+                      <crc>c76874da4f6cd7fefb1c97db96222a49</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_OliveGreen</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115790778628518</timestamp>
+                      <size>644</size>
+                    </package>
+                    <package>
+                      <name>LimeGreen RGB (50,205,50)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_LimeGreen.zip</zipFile>
+                      <crc>1bb0046ea07c2cdca0e96f7c73a16afb</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_LimeGreen</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115791230750535</timestamp>
+                      <size>638</size>
+                    </package>
+                    <package>
+                      <name>LawnGreen RGB (125,210,10)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_WG_LawnGreen.zip</zipFile>
+                      <crc>fc9aae9ab5af5c3fbfae8eebda2bec1c</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_WG_LawnGreen</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115791751544646</timestamp>
+                      <size>648</size>
+                    </package>
+                    <package>
+                      <name>Yellow RGB(255,255,0)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Yellow.zip</zipFile>
+                      <crc>7fc21e15818b1ab206b50ceff9af2c8e</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Yellow</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115792185244932</timestamp>
+                      <size>621</size>
+                    </package>
+                    <package>
+                      <name>Orange RGB (255,70,0)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_OrangeRed.zip</zipFile>
+                      <crc>0e9d067e523e1acc1d2422006402fea3</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Orange</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115792736611365</timestamp>
+                      <size>638</size>
+                    </package>
+                    <package>
+                      <name>Red RGB (255,20,10)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Red.zip</zipFile>
+                      <crc>cf5b7b1378ac2f4aea30cb2fc848118f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Red</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115794575483706</timestamp>
+                      <size>625</size>
+                    </package>
+                    <package>
+                      <name>Magenta RGB (200,20,130)</name>
+                      <zipFile>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Magenta.zip</zipFile>
+                      <crc>fa9b18ae89a411be9c052e62eeeb5282</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>Ingame_Aim_Silhouette_Colors_Colorblind_Enemies_Magenta</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>132115793927810003</timestamp>
+                      <size>637</size>
                     </package>
                   </packages>
                 </package>
@@ -18048,13 +18049,13 @@
           <packages>
             <package>
               <name>RaJCeL (Broken on NA server)</name>
-              <zipFile>Ingame_Info_InBattle_Rating_RaJCeL_1.6.0.2_2019-08-24.zip</zipFile>
-              <crc>e0b351947c5d02949c4c5534c5644f08</crc>
+              <zipFile>Ingame_Info_InBattle_Rating_RaJCeL_1.6.0.4_2019-08-30.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_InBattle_Rating_RaJCeL</packageName>
               <type>single_dropdown1</type>
-              <timestamp>132111055362947633</timestamp>
+              <timestamp>132116310044876832</timestamp>
               <size>128442</size>
               <description>Mod is showing some statistics in battle and replays. Mod doesn’t need XVM to work.\r\n\r\nNot working on NA server as of 1.5.1 (06-15-2019)</description>
               <devURL>https://wgmods.net/2559/details\r\nhttp://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel/</devURL>
@@ -18983,13 +18984,13 @@
         </package>
         <package>
           <name>Shell Info by RaJCeL</name>
-          <zipFile>Ingame_Info_Shell_Info_by_Rajcel_1.6.0.2_2019-08-24.zip</zipFile>
-          <crc>7e0a4e150724826ad34d049e07e2ceaa</crc>
+          <zipFile>Ingame_Info_Shell_Info_by_Rajcel_1.6.0.4_2019-08-30.zip</zipFile>
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Ingame_Info_Shell_Info</packageName>
           <type>multi</type>
-          <timestamp>132111061213107691</timestamp>
+          <timestamp>132116311536355226</timestamp>
           <size>16453</size>
           <description>in battle this mod shows the shell´s speed in the consumables infopanel.</description>
           <devURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</devURL>
