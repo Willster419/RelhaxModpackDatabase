@@ -378,22 +378,36 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Garage_mods_replay_manager" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Replay Manager" Type="multi" Visible="True">
-    <Size>848672</Size>
-    <Version>3.4.1</Version>
-    <ZipFile>Garage_mods_replay_manager_3.4.1_1.6.0.0_2019-08-08.zip</ZipFile>
-    <CRC>69850679a92d3849f3793368e7c7c2a6</CRC>
-    <Timestamp>132097462962852213</Timestamp>
-    <DevURL>https://wgmods.net/22/details/</DevURL>
-    <Description>by STL1te_P0LIR0ID \nGerman Translation by DOC73 \n\nRU-Server: wotreplays.ru \nEU-Server: wotreplays.eu \nNA-Server: wotreplays.com</Description>
-    <Medias>
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_1-3.jpg" MediaType="Picture" />
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_2-3.jpg" MediaType="Picture" />
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_3-3.jpg" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
-    </Dependencies>
+  <Package PackageName="Garage_mods_replays" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Replays" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132114918186965035</Timestamp>
+    <Packages>
+      <Package PackageName="Garage_mods_replays_replayManager" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Replay Manager" Type="multi" Visible="True">
+        <Size>848672</Size>
+        <Version>3.4.1</Version>
+        <ZipFile>Garage_mods_replays_replayManager_3.4.1_1.6.0.0_2019-08-28.zip</ZipFile>
+        <CRC>69850679a92d3849f3793368e7c7c2a6</CRC>
+        <Timestamp>132114917168470636</Timestamp>
+        <DevURL>https://wgmods.net/22/details/</DevURL>
+        <Description>by STL1te_P0LIR0ID \nGerman Translation by DOC73 \n\nRU-Server: wotreplays.ru \nEU-Server: wotreplays.eu \nNA-Server: wotreplays.com</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_1-3.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_2-3.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_3-3.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="Garage_mods_replays_enableBRreplays" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable replays for the &quot;Battle Royale&quot; game mode (by OldSkool)" Type="multi" Visible="True">
+        <Size>29045</Size>
+        <ZipFile>Garage_mods_replays_enableBRreplays_1.6.0.3_2019-08-28.zip</ZipFile>
+        <CRC>56868fa3faccfddd477e60e1a181b263</CRC>
+        <Timestamp>132114917998123359</Timestamp>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/721258-mod-der-replays-im-battle-royal-modus-aktiviert/page__pid__17184518</DevURL>
+        <Description>This mod activates the replays of the Battle Royal.\r\nThus, rigger can be reported to the support.</Description>
+      </Package>
+    </Packages>
   </Package>
   <Package PackageName="Garage_mods_Seller" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Seller by JOVE" Type="multi" Visible="True">
     <Size>57529</Size>
