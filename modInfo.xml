@@ -25016,6 +25016,29 @@
           <devURL>https://worldoftanks.curseforge.com/members/hawgs_mods/projects</devURL>
           <packages>
             <package>
+              <name>On battle results statistics by RaJCeL (HEAVY MOD)</name>
+              <zipFile>Garage_Graphics_Battle_Results_OnBattleResults_by_RaJCeL_1.6.0.2_2019-08-24.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Garage_Graphics_Battle_Results_OnBattleResults</packageName>
+              <type>multi</type>
+              <version>1.6.0.2</version>
+              <timestamp>132119009850532595</timestamp>
+              <size>45310</size>
+              <updateComment>Version 1.5.1.1-1\r\nadded an option to remove badges; fixed functional issue from players context menu; fixed WG API link for NA</updateComment>
+              <description>This mod adds an WN8 indicator for all players to the battle results window.\r\n\r\nWARNING - This mod  is downloading data from WG API while battle is loading/on countdown, so depending on bandwidth there can occur micro freezes.</description>
+              <devURL>https://wgmods.net/3551/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/711864-</devURL>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_load_order_xml</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_RaJCel_Core</packageName>
+                </dependency>
+              </dependencies>
+            </package>
+            <package>
               <name>Nation Emblem Battle Results by HAWG</name>
               <zipFile>Garage_Graphics_Nation_Emblem_Battle_Results_1.6.0.2_2019-08-25.zip</zipFile>
               <crc>adee87d877eb7e78000869398250e3b6</crc>
@@ -25027,6 +25050,7 @@
               <timestamp>132112365214445584</timestamp>
               <size>18730075</size>
               <updateComment>res&amp;#92;gui&amp;#92;maps&amp;#92;shop&amp;#92;vehicles&amp;#92;600x450 =&gt; Pictures\r\nres&amp;#92;gui&amp;#92;maps&amp;#92;shop&amp;#92;vehicles&amp;#92;360x270 =&gt; Pictures</updateComment>
+              <description>This mod will change the stock Battle Results Tank Icon ,into a Tank Nation Emblem , Each Nation has it own emblem.</description>
               <devURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-nation-emblem-battle-results</devURL>
               <medias>
                 <media>
@@ -34762,29 +34786,6 @@
       <dependencies />
       <packages>
         <package>
-          <name>On battle results statistics by RaJCeL (HEAVY MOD)</name>
-          <zipFile>Statistics_Battle_Results_RaJCeL_1.6.0.2_2019-08-24.zip</zipFile>
-          <crc>cdacdef7967e9b4b5b9d0914293ac5e0</crc>
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>Statistics_Battle_Results_RaJCeL</packageName>
-          <type>multi</type>
-          <version>1.6.0.2</version>
-          <timestamp>132111059611462856</timestamp>
-          <size>45310</size>
-          <updateComment>Version 1.5.1.1-1\r\nadded an option to remove badges; fixed functional issue from players context menu; fixed WG API link for NA</updateComment>
-          <description>These are the WN8 statistics displayed on the battle results window, for all players.\r\n\r\nMod is downloading data from WG API while battle is loading/on countdown, so depending on a bandwidth there can occur micro freeze.</description>
-          <devURL>https://wgmods.net/3551/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/711864-</devURL>
-          <dependencies>
-            <dependency>
-              <packageName>Dependency_load_order_xml</packageName>
-            </dependency>
-            <dependency>
-              <packageName>Dependency_RaJCel_Core</packageName>
-            </dependency>
-          </dependencies>
-        </package>
-        <package>
           <name>Garage Session Statistics</name>
           <zipFile />
           <crc />
@@ -34793,6 +34794,16 @@
           <packageName>Session_Statistics</packageName>
           <type>multi</type>
           <packages>
+            <package>
+              <name>default</name>
+              <zipFile />
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Session_Statistics_default</packageName>
+              <type>single1</type>
+              <timestamp>132119004495385789</timestamp>
+            </package>
             <package>
               <name>Session statistics by Awfultanker  (Settings in garage available)</name>
               <zipFile>Statistic_Session_Awfultanker_AT_SessionStats_1.6.0.2_2019-08-25.zip</zipFile>
@@ -34805,7 +34816,7 @@
               <timestamp>132112350223158770</timestamp>
               <size>850455</size>
               <updateComment>upd 1.6.0.2_2019-08-25: \r\n-In-garage language selection (German translation  - thx Maskabor)\r\n-Bugfix: you must play Random battles to sorting tanks by WN8, ex. frontline doesnt count\r\n\r\nWG EU Forum URL: http://forum.worldoftanks.eu/index.php?/topic/572573-</updateComment>
-              <description>Awfultanker Session Stats - based on Locastans Minimal Session Stats\n\nDoes it work with CW?\nAwfultanker: Apparently not. I have never played a CW battle so I didn't know.</description>
+              <description>Awfultanker Session Stats - based on Locastans Minimal Session Stats (no CW)</description>
               <devURL>https://awfultanker.torvox.eu/sessionstats.html</devURL>
               <medias>
                 <media>
@@ -34875,6 +34886,7 @@
               <packageName>Session_Statistics_PMOD_stat_enable</packageName>
               <type>single1</type>
               <size>997</size>
+              <description>activate PMOD´s session statistics</description>
               <packages>
                 <package>
                   <name>default</name>
@@ -35009,6 +35021,7 @@
               <type>single1</type>
               <timestamp>132000746094921455</timestamp>
               <size>931145</size>
+              <description>Ragnastats Extended \r\nCZ/SK/PL/EN/RU session stats modification</description>
               <devURL>https://wgmods.net/62/details</devURL>
               <medias>
                 <media>
@@ -35089,7 +35102,7 @@
               <timestamp>132013045927383295</timestamp>
               <size>146149</size>
               <updateComment>3.83_2018-12-18\nFixed a bug not taking into account the experience of the New year's action.</updateComment>
-              <description>&gt;How do i change language of the Mod ingame? Post 248&amp;#92;r\nThe language is selected automatically by the client language. If the skin has no translation into the current language will be used EN version, and if not RU&amp;#92;r\n&amp;#92;r\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</description>
+              <description>Mod 'Time Spent' intended for the collection, storage and output of different game statistics (statistics for the session, statistics on the tanks, the stats on the cards, statistics on the types of fights, etc.). Has a large number of settings and macros.\r\n&gt;\r\n&gt;\r\n&gt;\r\nMod is able to collect and display the following statistics in the system channel:\r\n\r\nCredit statistics;\r\nStatistics of experience;\r\nDamage statistics;\r\nStatistics expenses;\r\nStatistics bonuses from reserves;\r\nStatistics penalties;\r\ntime statistics;\r\nStatistics combat effectiveness;\r\nRatings combat effectiveness (WGR, EFF, BS, WN6, WN7, WN8, WN8KTTC, BR);\r\nDetailed statistics of the last battle;\r\nStatistics Account at the beginning of the session;\r\nThe impact of the current session on the account;\r\n&gt;\r\n&gt;\r\n&gt;\r\nMod also has a number of the following options:\r\n\r\nUnlimited number of customizable statistics session with the same set of macros;\r\nEach session includes: general statistics, statistics on the tanks, on the cards Statistics;\r\nSpecifying types of fights that statistics will fall in a particular session;\r\nFreely configurable data output on the basis of macros and templates with support for internal and external icons;\r\nThe output data is somewhat arbitrary custom pages;\r\nCustomizable information management buttons;\r\nCall detailed results of the last battle of the statistics window;\r\nUpdate your information without closing the Notification Center;\r\nConfigurable output of the previous battle results in combat chat;\r\nSetting an arbitrary path to the statistics file;\r\nAutomatically reset the statistics at a specified time;\r\nReset Statistics button;\r\nAutomatic restart config to adjust the output of the results;\r\nAutomatic download of National config (if any);\r\nSetting the species of buttons;\r\nSetting scrolling speed communications channel in the system;\r\nSetting output PopUp results battlefield in a hangar;\r\nSetting output battlefield results in a systematic channel;\r\nSetting output battle results in combat chat;\r\nSupport for multi-file configuration file;\r\nAutomatic version control file statistics;\r\n&gt;\r\n&gt;\r\n&gt;\r\nInfo:\r\n\r\nThe language is selected automatically by the client language. If the skin has no translation into the current language will be used EN version, and if not RU\r\n&gt;\r\n&gt;\r\n&gt;\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</description>
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/588679-</devURL>
               <userDatas>
                 <userData>\res_mods\configs\BBMods\Statistic_*.json</userData>
@@ -35796,7 +35809,7 @@
               <type>single1</type>
               <version>1.6.0.2</version>
               <updateComment>07.08.2019\r\n    Updated for 1.6.0.0\r\n    Added new Battle Type 28 EPIC_BATTLE_TRAINING - Frontline Training</updateComment>
-              <description>NOTE: To maintain language neutrality, the in-game messages are not in color\nShows your statistics for your tanks session in the notifications area of your garage</description>
+              <description>Shows your statistics for your tanks session in the notifications area of your garage</description>
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/583433-</devURL>
               <userDatas>
                 <userData>\\mods\\configs\\yk-stats\\cache.json</userData>
@@ -36250,6 +36263,7 @@
                   <timestamp>132117562101269129</timestamp>
                   <size>2649523</size>
                   <updateComment>take from Core (5,5MB), not Vanilla</updateComment>
+                  <description>NOTE: this mod sets client language to english</description>
                   <medias>
                     <media>
                       <type>1</type>
