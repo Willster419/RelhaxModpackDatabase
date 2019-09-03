@@ -18114,34 +18114,57 @@
               <description>Shows wether or not you can penetrate an enemy, factoring in armor angles and normalization, in the form\n avg_gun_penetration/enemy_effective_armor\r\n\r\nNOTE: Will alter zoom settings. Use the zoom config at the bottom of this section to alter.</description>
               <packages>
                 <package>
-                  <name>font size small (18)</name>
-                  <zipFile>pmod_reduced_armor_font_small_patch.zip</zipFile>
-                  <crc>28f24b2b69b9bcfb4326b2957bb45255</crc>
+                  <name>Font</name>
+                  <zipFile />
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>zoom_pmod_reduced_armor_font_small</packageName>
-                  <type>single_dropdown1</type>
-                  <size>928</size>
+                  <packageName>Ingame_Aim_Penetration_PMOD_Font</packageName>
+                  <type>multi</type>
+                  <timestamp>132119925462710593</timestamp>
+                  <packages>
+                    <package>
+                      <name>font size small (18)</name>
+                      <zipFile>pmod_reduced_armor_font_small_patch.zip</zipFile>
+                      <crc>28f24b2b69b9bcfb4326b2957bb45255</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>zoom_pmod_reduced_armor_font_small</packageName>
+                      <type>single_dropdown1</type>
+                      <size>928</size>
+                    </package>
+                    <package>
+                      <name>font size medium (24)</name>
+                      <zipFile>pmod_reduced_armor_font_medium_patch.zip</zipFile>
+                      <crc>446b0839a1dc42c2f3d04110ee624933</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>zoom_pmod_reduced_armor_font_medium</packageName>
+                      <type>single_dropdown1</type>
+                      <size>931</size>
+                    </package>
+                    <package>
+                      <name>font size large (30)</name>
+                      <zipFile>pmod_reduced_armor_font_large_patch.zip</zipFile>
+                      <crc>8351cd7822bd685ebe390dba9e33863b</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>zoom_pmod_reduced_armor_font_large</packageName>
+                      <type>single_dropdown1</type>
+                      <size>929</size>
+                    </package>
+                  </packages>
                 </package>
                 <package>
-                  <name>font size medium (24)</name>
-                  <zipFile>pmod_reduced_armor_font_medium_patch.zip</zipFile>
-                  <crc>446b0839a1dc42c2f3d04110ee624933</crc>
+                  <name>Coloured</name>
+                  <zipFile>Ingame_Aim_PMOD_Reduced_Armor_Coloured_1.6.0.4_2019-09-03.zip</zipFile>
+                  <crc>f</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>zoom_pmod_reduced_armor_font_medium</packageName>
-                  <type>single_dropdown1</type>
-                  <size>931</size>
-                </package>
-                <package>
-                  <name>font size large (30)</name>
-                  <zipFile>pmod_reduced_armor_font_large_patch.zip</zipFile>
-                  <crc>8351cd7822bd685ebe390dba9e33863b</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>zoom_pmod_reduced_armor_font_large</packageName>
-                  <type>single_dropdown1</type>
-                  <size>929</size>
+                  <packageName>Ingame_Aim_Penetration_PMOD_Dynamic_Colour</packageName>
+                  <type>multi</type>
+                  <timestamp>132119927499492760</timestamp>
+                  <description>Changes the colour based on the change to pen.\r\n\r\n"No Chance": "E90000"\r\n"Might Pen": "FFAD00"\r\n"Should Pen": "6BF40D"</description>
                 </package>
               </packages>
               <dependencies>
