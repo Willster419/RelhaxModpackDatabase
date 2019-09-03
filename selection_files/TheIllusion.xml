@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2019-08-30 08:08:23" timezone="(UTC-04:00) Atlantic Time (Canada)" dbVersion="1.6.0.4_2019-08-29_1" dbDistro="Beta">
+<mods ver="2.0" date="2019-09-03 10:01:24" timezone="(UTC-04:00) Atlantic Time (Canada)" dbVersion="1.6.0.4_2019-09-02_1" dbDistro="Beta">
   <relhaxMods>
     <mod>Crosshairs_tank_sight</mod>
     <mod>Crosshairs_tank_sight_White</mod>
@@ -17,6 +17,8 @@
     <mod>Ingame_Aim_AutoAim_modifications</mod>
     <mod>Ingame_Aim_AutoAim_Indication</mod>
     <mod>Ingame_Aim_AutoAim_2_sec</mod>
+    <mod>Ingame_Aim_Dispersion</mod>
+    <mod>Ingame_Aim_Dispersion_Info_P0LIR0ID</mod>
     <mod>Ingame_Aim_Penetration</mod>
     <mod>Ingame_Aim_pmod_reduced_armor</mod>
     <mod>zoom_pmod_reduced_armor_font_large</mod>
@@ -59,9 +61,6 @@
     <mod>Ingame_Misc_Auxilium_Settings_Base</mod>
     <mod>Ingame_Misc_Auxilium_Enable_HStab</mod>
     <mod>Ingame_Misc_Auxilium_disable_annoying_graphics_settings_window</mod>
-    <mod>Ingame_Misc_chatmods</mod>
-    <mod>Ingame_Misc_chatmods_elkrda</mod>
-    <mod>Ingame_Misc_chatmods_elkrda_received_dmg_announcer</mod>
     <mod>Ingame_Misc_Consumables</mod>
     <mod>Ingame_Misc_Consumables_EquipmentIcons</mod>
     <mod>Ingame_Misc_Consumables_EquipmentIcons_Armored_Warfare</mod>
@@ -77,11 +76,14 @@
     <mod>Garage_Mods_Annoying_Features_Remover_PromoPremVehicle</mod>
     <mod>Garage_Mods_Annoying_Features_Remover_showDogtagWidget</mod>
     <mod>Garage_mods_Auxilium</mod>
+    <mod>Garage_mods_Auxilium_settings_auto_equip_equipment</mod>
     <mod>Garage_mods_Auxilium_settings_prefered_server</mod>
     <mod>Garage_mods_Battle_Hits_Viewer</mod>
     <mod>Garage_Mods_Chat</mod>
     <mod>Garage_Mods_Chat_Antitoxicity_disable_annoying_garage_messages</mod>
     <mod>Garage_mods_Map_Rotation</mod>
+    <mod>Garage_mods_ScriptloaderPro_Base</mod>
+    <mod>Garage_mods_ScriptloaderPro_SystemMessage_Full</mod>
     <mod>Garage_mods_Seller</mod>
     <mod>Garage_Mods_Simple_Vehicle_Stats</mod>
     <mod>Garage_mods_expandItemLimits</mod>
@@ -94,6 +96,9 @@
     <mod>Garage_Graphics_Crew_Skills</mod>
     <mod>Garage_Graphics_Crew_Skills_DEbranded</mod>
     <mod>Garage_Graphics_Crew_Skills_SabatonBrotherhood_TheIllusion</mod>
+    <mod>Garage_Graphics_Hangar</mod>
+    <mod>Garage_Graphics_Hellinger_Minimal_Hangar</mod>
+    <mod>Garage_Graphics_Hellinger_Minimal_Hangar_normal_light_large_floor</mod>
     <mod>Garage_Graphics_loading</mod>
     <mod>Garage_Graphics_LoadingSplash</mod>
     <mod>Garage_Graphics_LoadingSplash_TheIllusion_LCARS</mod>
@@ -130,12 +135,107 @@
     <mod>Sixth_Sense_Icon_Duration_10</mod>
     <mod>Tank_Skins_Misc_marks_of_excellence</mod>
     <mod>Tank_Skins_Misc_marks_of_excellence_KV2R_For_All</mod>
-    <mod>Custom_Tank_Skins_France_Light_Panhard_EBR_105</mod>
-    <mod>Custom_Tank_Skins_France_Light_Panhard_EBR_105_PedalMetal</mod>
-    <mod>Custom_Tank_Skins_GB_Artillery_ConquerorGC</mod>
-    <mod>Custom_Tank_Skins_GB_Artillery_ConquerorGC_The_Horse</mod>
-    <mod>Custom_Tank_Skins_GB_Tank_Destroyer_Excalibur</mod>
-    <mod>Custom_Tank_Skins_GB_Tank_Destroyer_Excalibur_Schwans</mod>
+    <mod>Custom_Tank_Skins_China</mod>
+    <mod>Custom_Tank_Skins_China_Medium</mod>
+    <mod>Custom_Tank_Skins_China_Medium_121</mod>
+    <mod>Custom_Tank_Skins_China_Medium_121_Miruku_Remodel</mod>
+    <mod>Custom_Tank_Skins_China_Medium_T_34_3</mod>
+    <mod>Custom_Tank_Skins_China_Medium_T_34_3_Mirukii_remodel</mod>
+    <mod>Custom_Tank_Skins_China_Medium_Type_59</mod>
+    <mod>Custom_Tank_Skins_China_Medium_Type_59_Miruku_Remodel</mod>
+    <mod>Custom_Tank_Skins_France</mod>
+    <mod>Custom_Tank_Skins_France_Heavy</mod>
+    <mod>Custom_Tank_Skins_France_Heavy_FCM_50t</mod>
+    <mod>Custom_Tank_Skins_France_Heavy_FCM_50t_Mirukii</mod>
+    <mod>Custom_Tank_Skins_France_Light</mod>
+    <mod>Custom_Tank_Skins_France_Light_AMX_13_90</mod>
+    <mod>Custom_Tank_Skins_France_Light_AMX_13_90_Mirukii</mod>
+    <mod>Custom_Tank_Skins_GB</mod>
+    <mod>Custom_Tank_Skins_GB_Medium</mod>
+    <mod>Custom_Tank_Skins_GB_Medium_Centurion_Mk5-1</mod>
+    <mod>Custom_Tank_Skins_GB_Medium_Centurion_Mk5-1_Talisman</mod>
+    <mod>Custom_Tank_Skins_GB_Medium_FV4202</mod>
+    <mod>Custom_Tank_Skins_GB_Medium_FV4202_Mirukii_Remodel</mod>
+    <mod>Custom_Tank_Skins_GB_Medium_Centurion_Mk3</mod>
+    <mod>Custom_Tank_Skins_GB_Medium_Centurion_Mk9_Thunderbolt</mod>
+    <mod>Custom_Tank_Skins_GB_Medium_Centurion_Action_X</mod>
+    <mod>Custom_Tank_Skins_GB_Medium_Centurion_Action_X_Dreadnought_ADDON</mod>
+    <mod>Custom_Tank_Skins_GB_Tank_Destroyer</mod>
+    <mod>Custom_Tank_Skins_GB_Tank_Destroyer_Charioteer</mod>
+    <mod>Custom_Tank_Skins_GB_Tank_Destroyer_Charioteer_Dragon</mod>
+    <mod>Custom_Tank_Skins_Germany</mod>
+    <mod>Custom_Tank_Skins_Germany_Light</mod>
+    <mod>Custom_Tank_Skins_Germany_Light_Rhm_Panzerwagen</mod>
+    <mod>Custom_Tank_Skins_Germany_Light_Rhm_Panzerwagen_Mirukii_Remodel</mod>
+    <mod>Custom_Tank_Skins_Germany_Light_M41_90_GF</mod>
+    <mod>Custom_Tank_Skins_Germany_Light_M41_90_GF_Miruku_Remodel</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_E50</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_E50_Miruku_Remodel</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_E50_M</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_E50_M_Miruku_Remodel</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_Leopard_PT_A</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_Leopard_PT_A_MIrukii_Remodel</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_Leopard_1</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_Leopard_1_Miruku_Remodel</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_T_55_A</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_T_55_A_Miruku_Remodel</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_VK3001P</mod>
+    <mod>Custom_Tank_Skins_Germany_Medium_VK3001P_Laupen_Mirukii_Remodel</mod>
+    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer</mod>
+    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_Hetzer</mod>
+    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_Hetzer_Mirukii</mod>
+    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_Skorpion_G</mod>
+    <mod>Custom_Tank_Skins_Germany_Tank_Destroyer_Skorpion_G_Razertech</mod>
+    <mod>Custom_Tank_Skins_Sweden</mod>
+    <mod>Custom_Tank_Skins_Sweden_Tank_Destroyer</mod>
+    <mod>Custom_Tank_Skins_Sweden_Tank_Destroyer_STRV_S1</mod>
+    <mod>Custom_Tank_Skins_Sweden_Tank_Destroyer_STRV_S1_Miruku_Remodel</mod>
+    <mod>Custom_Tank_Skins_USA</mod>
+    <mod>Custom_Tank_Skins_USA_Heavy</mod>
+    <mod>Custom_Tank_Skins_USA_Heavy_T110E5</mod>
+    <mod>Custom_Tank_Skins_USA_Heavy_T110E5_Mirukii</mod>
+    <mod>Custom_Tank_Skins_USA_Heavy_T34_Heavy</mod>
+    <mod>Custom_Tank_Skins_USA_Heavy_T34_Heavy_Miruku_Remodel</mod>
+    <mod>Custom_Tank_Skins_USA_Light</mod>
+    <mod>Custom_Tank_Skins_USA_Light_M551_Sheridan</mod>
+    <mod>Custom_Tank_Skins_USA_Light_M551_Sheridan_Mirukii_Remodel</mod>
+    <mod>Custom_Tank_Skins_USA_Light_T49</mod>
+    <mod>Custom_Tank_Skins_USA_Light_T49_Mirukii_Remodel</mod>
+    <mod>Custom_Tank_Skins_USA_Medium</mod>
+    <mod>Custom_Tank_Skins_USA_Medium_59_Patton</mod>
+    <mod>Custom_Tank_Skins_USA_Medium_59_Patton_ThePredators</mod>
+    <mod>Custom_Tank_Skins_USA_Medium_M48A5</mod>
+    <mod>Custom_Tank_Skins_USA_Medium_M48A5_M60A1_Mirukii_Remodel</mod>
+    <mod>Custom_Tank_Skins_USA_Medium_M60</mod>
+    <mod>Custom_Tank_Skins_USA_Medium_M60_Mirukii_Remodel</mod>
+    <mod>Custom_Tank_Skins_USA_Medium_T26E4_SuperPershing</mod>
+    <mod>Custom_Tank_Skins_USA_Medium_T26E4_SuperPershing_Freedom_Skin</mod>
+    <mod>Custom_Tank_Skins_USA_Medium_T95E2</mod>
+    <mod>Custom_Tank_Skins_USA_Medium_T95E2_T95E1</mod>
+    <mod>Custom_Tank_Skins_USA_Tank_Destroyer</mod>
+    <mod>Custom_Tank_Skins_USA_Tank_Destroyer_T67</mod>
+    <mod>Custom_Tank_Skins_USA_Tank_Destroyer_T67_RazerTeck</mod>
+    <mod>Custom_Tank_Skins_USSR</mod>
+    <mod>Custom_Tank_Skins_USSR_Heavy</mod>
+    <mod>Custom_Tank_Skins_USSR_Heavy_KV-220</mod>
+    <mod>Custom_Tank_Skins_USSR_Heavy_KV-220_(KV1_Kwk40)_Mirukii</mod>
+    <mod>Custom_Tank_Skins_USSR_Light</mod>
+    <mod>Custom_Tank_Skins_USSR_Light_BT-42</mod>
+    <mod>Custom_Tank_Skins_USSR_Light_BT-42_Mirukii_Remodel</mod>
+    <mod>Custom_Tank_Skins_USSR_Light_LT_432</mod>
+    <mod>Custom_Tank_Skins_USSR_Light_LT_432_T_64</mod>
+    <mod>Custom_Tank_Skins_USSR_Medium</mod>
+    <mod>Custom_Tank_Skins_USSR_Medium_Object_140</mod>
+    <mod>Custom_Tank_Skins_USSR_Medium_Object_140_Miruku_Remodel</mod>
+    <mod>Custom_Tank_Skins_USSR_Medium_Object_430</mod>
+    <mod>Custom_Tank_Skins_USSR_Medium_Object_430_Miruku_Remodel</mod>
+    <mod>Custom_Tank_Skins_USSR_Medium_Rudy</mod>
+    <mod>Custom_Tank_Skins_USSR_Medium_Rudy_Mirukii_Remodel</mod>
+    <mod>Custom_Tank_Skins_USSR_Medium_T_54</mod>
+    <mod>Custom_Tank_Skins_USSR_Medium_T_54_Mirukii_Remodel</mod>
+    <mod>Custom_Tank_Skins_USSR_Medium_T_62_A</mod>
+    <mod>Custom_Tank_Skins_USSR_Medium_T_62_A_Miruku_Remodel</mod>
   </relhaxMods>
   <userMods />
 </mods>
