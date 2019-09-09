@@ -684,7 +684,7 @@
             <ZipFile>Ingame_Aim_PMOD_Reduced_Armor_Coloured_1.6.0.4_2019-09-03.zip</ZipFile>
             <CRC>085bc24c93ba1ca97848096557a59279</CRC>
             <Timestamp>132119927499492760</Timestamp>
-            <Description>Changes the colour based on the change to pen.\r\n\r\n"No Chance": "E90000"\r\n"Might Pen": "FFAD00"\r\n"Should Pen": "6BF40D"</Description>
+            <Description>Changes the colour based on the change to pen.\r\n\r\nRed: "No Chance": Color Hex "E90000" = RGB(233,0,0)\r\nYellow: "Might Pen": Color Hex  "FFAD00" =RGB(255,173,)\r\nGreen: "Should Pen": Color Hex  "6BF40D" =RGB(107,244,13)</Description>
           </Package>
         </Packages>
       </Package>
@@ -712,7 +712,7 @@
       <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="Ingame_Aim_SafeShot_oldskool" Enabled="False" InstallGroup="4" PatchGroup="4" Name="SafeShot by OldSkool" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Aim_SafeShot_oldskool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="SafeShot by OldSkool" Type="multi" Visible="True">
     <Size>54554</Size>
     <ZipFile>Ingame_Aim_SafeShot_OldSkool_base_1.6.0.2_2019-08-22.zip</ZipFile>
     <CRC>b55cb410203a8c123c305ce3fd4aed76</CRC>
@@ -723,6 +723,9 @@
       <Media URL="https://wgmods.net/media/safeshot1.png.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
       <Media URL="https://wgmods.net/media/safeshot3.png.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
     </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+    </Dependencies>
     <Packages>
       <Package PackageName="Ingame_Aim_SafeShot_oldskool_timeout_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="1 second timeout" Type="single_dropdown1" Visible="True">
         <Size>941</Size>
