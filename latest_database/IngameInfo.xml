@@ -337,7 +337,7 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Info_HP_Bars_Pools" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Pools and HP Bars" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_HP_Bars" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Bars" Type="multi" Visible="True">
     <CRC>f</CRC>
     <Timestamp>132071743749522467</Timestamp>
     <Packages>
@@ -359,13 +359,20 @@
         <Dependencies>
           <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_champiCore" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Ingame_Info_HP_Bars_Pools_PMOD" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Pools (PMOD)" Type="single1" Visible="True">
+    </Packages>
+  </Package>
+  <Package PackageName="Ingame_Info_HP_Pools" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Pools" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132071743749522467</Timestamp>
+    <Packages>
+      <Package PackageName="Ingame_Info_HP_Pools_PMOD" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Pools (PMOD)" Type="single1" Visible="True">
         <Size>478</Size>
-        <ZipFile>Ingame_Info_HP_Bars_Pools_PMOD_Enable_1.5.1.1_2019-07-09.zip</ZipFile>
+        <ZipFile>Ingame_Info_HP_Pools_PMOD_Enable_2019-09-11.zip</ZipFile>
         <CRC>a8795a57c71f78879519037906ca8e30</CRC>
-        <Timestamp>132071743749522467</Timestamp>
+        <Timestamp>132126612805529396</Timestamp>
         <Dependencies>
           <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
         </Dependencies>
