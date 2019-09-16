@@ -2,7 +2,7 @@
 <Category Name="Statistics">
   <Package PackageName="Session_Statistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Garage Session Statistics" Type="multi" Visible="True">
     <Packages>
-      <Package PackageName="Session_Statistics_default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="default" Type="single1" Visible="True">
+      <Package PackageName="Session_Statistics_default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="default/build-in" Type="single1" Visible="True">
         <CRC>f</CRC>
         <Timestamp>132119004495385789</Timestamp>
       </Package>
@@ -32,7 +32,7 @@
           <Media URL="https://awfultanker.torvox.eu/images/session_setup.png" MediaType="Picture" />
         </Medias>
       </Package>
-      <Package PackageName="Session_Statistics_PMOD_stat_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PMOD" Type="single1" Visible="True">
+      <Package PackageName="Session_Statistics_PMOD_stat_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PMOD Statistics" Type="single1" Visible="True">
         <Size>997</Size>
         <ZipFile>pmod_session_stat_enable_patch.zip</ZipFile>
         <CRC>2e2bb02acc0cbfb586ef9e08334b1e9e</CRC>
@@ -157,7 +157,16 @@
           <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Session_Statistics_Time_Spent_bes_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from _bes_1 (languages: RU)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_Default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="CHOOSE A SKIN HERE - default = RU" Type="single_dropdown1" Visible="True">
+            <Size>1937</Size>
+            <ZipFile>Session_Statistics_TimeSpent_config_Default.zip</ZipFile>
+            <CRC>06a6951b12ed169c8f46cd1eca09808a</CRC>
+            <Timestamp>131939480758717223</Timestamp>
+            <Medias>
+              <Media URL="http://bb-t.ru/bbmods/timespent01.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Session_Statistics_Time_Spent_bes_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="bes_1 (RU)" Type="single_dropdown1" Visible="True">
             <Size>7329635</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_bes_1_1.5.0.2_2019-05-17.zip</ZipFile>
             <CRC>40a461a01535d1fa70602d6e3931c78f</CRC>
@@ -173,7 +182,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/time_spent/bes_1_config/1.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_2rokk" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from 2rokk (languages: RU)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_2rokk" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2rokk (RU)" Type="single_dropdown1" Visible="True">
             <Size>3246017</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_2rokk.zip</ZipFile>
             <CRC>6e6d355ed66e53d6d81e57c254e0c77b</CRC>
@@ -182,17 +191,7 @@
               <Media URL="https://koreanrandom.com/forum/uploads/monthly_04_2017/post-4864-0-42522600-1492003924.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_Default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Basic skin (languages: RU)" Type="single_dropdown1" Visible="True">
-            <Size>1937</Size>
-            <ZipFile>Session_Statistics_TimeSpent_config_Default.zip</ZipFile>
-            <CRC>06a6951b12ed169c8f46cd1eca09808a</CRC>
-            <Timestamp>131939480758717223</Timestamp>
-            <Description>Mod is able to collect and display the following statistics in the system channel:\n\tCredit statistics;\n\tStatistics of experience;\n\tDamage statistics;\n\tStatistics expenses;\n\tStatistics bonuses from reserves;\n\tStatistics penalties;\n\ttime statistics;\n\tStatistics combat effectiveness;\n\tRatings combat effectiveness (WGR, EFF, BS, WN6, WN7, WN8, WN8KTTC, BR);\n\tDetailed statistics of the last battle;\n\tStatistics Account at the beginning of the session;\n\tThe impact of the current session on the account;</Description>
-            <Medias>
-              <Media URL="http://bb-t.ru/bbmods/timespent01.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_Armagomen" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Armagomen (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_Armagomen" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Armagomen (RU,EN,DE)" Type="single_dropdown1" Visible="True">
             <Size>53729</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Armagomen_1.5.0.2_2019-05-17.zip</ZipFile>
             <CRC>c95d54e77b7f0d7e162f8ad108da4a11</CRC>
@@ -201,7 +200,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Armagomen_Ger.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_EZorg" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from EZorg (languages: RU,EN,DE,FR,PL)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_EZorg" Enabled="True" InstallGroup="4" PatchGroup="4" Name="EZorg (RU,EN,DE,FR,PL)" Type="single_dropdown1" Visible="True">
             <Size>115475</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_EZorg.zip</ZipFile>
             <CRC>740d3d2f00f29761442e5a7bbd65b268</CRC>
@@ -210,7 +209,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_EZorg_Ger.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_Kapany3uk_3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Kapany3uk v.#3 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_Kapany3uk_3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Kapany3uk v.#3 (RU,EN,DE)" Type="single_dropdown1" Visible="True">
             <Size>2470919</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Kapany3uk_3_1.5.0.4_2019-05-24.zip</ZipFile>
             <CRC>5c32e2cff6bd52b9452c2e2bbd50717d</CRC>
@@ -222,7 +221,7 @@
               <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-24956-0-66622100-1499729196.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_Kapany3uk_4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Kapany3uk v.#4 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_Kapany3uk_4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Kapany3uk v.#4 (RU,EN,DE)" Type="single_dropdown1" Visible="True">
             <Size>2526075</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Kapany3uk_4_1.5.0.4_2019-05-24.zip</ZipFile>
             <CRC>77aee5f4679db3ea97b1f719a6412688</CRC>
@@ -233,7 +232,7 @@
               <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-24956-0-44054500-1499729208.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_Kapany3uk_5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Kapany3uk v.#5 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_Kapany3uk_5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Kapany3uk v.#5 (RU,EN,DE)" Type="single_dropdown1" Visible="True">
             <Size>2526874</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Kapany3uk_5_1.5.0.4_2019-05-24.zip</ZipFile>
             <CRC>262df5f3f4c21e8fcdf5e23f1c689cd8</CRC>
@@ -245,7 +244,7 @@
               <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-24956-0-19127200-1501027171.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_Lite" Enabled="True" InstallGroup="4" PatchGroup="4" Name="A very simple skin (languages: RU,EN,DE,FR,PL,HU)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_Lite" Enabled="True" InstallGroup="4" PatchGroup="4" Name="A very simple skin (RU,EN,DE,FR,PL,HU)" Type="single_dropdown1" Visible="True">
             <Size>1944</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Lite.zip</ZipFile>
             <CRC>6601336088591b97868567f28e810500</CRC>
@@ -255,25 +254,25 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_Lite.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_TimeSpent_Magistr_Full" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Magistr (Full) (languages: RU,EN,DE,FR,PL,HU,UK,CS)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_TimeSpent_Magistr_Full" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Magistr (Full) (RU,EN,DE,FR,PL,HU,UK,CS)" Type="single_dropdown1" Visible="True">
             <Size>38552</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Magistr_FullF_1.5.0.2_2019-05-17.zip</ZipFile>
             <CRC>b91610fd1bc9b8cc5a9c706b0c6e4da2</CRC>
             <Timestamp>131939482659487728</Timestamp>
           </Package>
-          <Package PackageName="Session_Statistics_TimeSpent_Magistr_Mini" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Magistr (Mini) (languages: RU,EN,DE,FR,PL,HU,UK,CS)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_TimeSpent_Magistr_Mini" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Magistr (Mini) (RU,EN,DE,FR,PL,HU,UK,CS)" Type="single_dropdown1" Visible="True">
             <Size>38557</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Magistr_MiniM_1.5.0.2_2019-05-17.zip</ZipFile>
             <CRC>67e201d5c994963797f5820723395bdd</CRC>
             <Timestamp>131939482659487728</Timestamp>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_M1kE_NRG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from M1kE_NRG (languages: RU)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_M1kE_NRG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="M1kE_NRG (RU)" Type="single_dropdown1" Visible="True">
             <Size>799563</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_M1kE_NRG.zip</ZipFile>
             <CRC>c6bbb4e00466917e6c654942fd7b2540</CRC>
             <Timestamp>131939482659487728</Timestamp>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_mcg00_en" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from mcg00 (EN)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_mcg00_en" Enabled="True" InstallGroup="4" PatchGroup="4" Name="mcg00 (EN)" Type="single_dropdown1" Visible="True">
             <Size>123615</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_mcg00_eng.zip</ZipFile>
             <CRC>e63d780e2806f2c49b1de32d50fc9246</CRC>
@@ -282,7 +281,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_mcg00.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_mcg00_de" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from mcg00 (DE)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_mcg00_de" Enabled="True" InstallGroup="4" PatchGroup="4" Name="mcg00 (DE)" Type="single_dropdown1" Visible="True">
             <Size>123621</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_mcg00_de.zip</ZipFile>
             <CRC>753dcee95253deba5aff95d665742a56</CRC>
@@ -291,7 +290,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_mcg00.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_Minimalistic" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin Minimalistic (languages: RU,EN,DE,FR,PL,HU)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_Minimalistic" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Minimalistic (RU,EN,DE,FR,PL,HU)" Type="single_dropdown1" Visible="True">
             <Size>1951</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Minimalistic.zip</ZipFile>
             <CRC>8ac377a4dad1cc39b31870b9d9bc9f49</CRC>
@@ -300,20 +299,20 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Minimalistic.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_MODER_Team" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from MODER Team (languages: RU)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_MODER_Team" Enabled="True" InstallGroup="4" PatchGroup="4" Name="MODER Team (RU)" Type="single_dropdown1" Visible="True">
             <Size>264254</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_MODER_Team.zip</ZipFile>
             <CRC>0f65fa958e82f72bc2a5dc12be4a279f</CRC>
             <Timestamp>131939483252849343</Timestamp>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_NooBooL" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from NooBooL (languages: RU)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_NooBooL" Enabled="True" InstallGroup="4" PatchGroup="4" Name="NooBooL (RU)" Type="single_dropdown1" Visible="True">
             <Size>1576225</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_config_NooBooL_1.5.0.2_2019-05-17.zip</ZipFile>
             <CRC>bfe29ac49ae1d83201f1dc15a41f7639</CRC>
             <Timestamp>131939483445125196</Timestamp>
             <DevURL>https://koreanrandom.com/forum/topic/38145-тема-для-выкладывания-скинов-для-мода-статистики-потерянное-время/?tab=comments#comment-383351</DevURL>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_professors" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from professors (languages: RU)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_professors" Enabled="True" InstallGroup="4" PatchGroup="4" Name="professors (RU)" Type="single_dropdown1" Visible="True">
             <Size>514804</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_professors_1.5.0.2_2019-05-17.zip</ZipFile>
             <CRC>75d7e59d0dd46be7a122d254e4fa3b52</CRC>
@@ -322,7 +321,7 @@
               <Media URL="https://koreanrandom.com/forum/uploads/monthly_06_2017/post-22753-0-39218600-1497873981.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_Simple" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Simplified skin (languages: RU,EN,DE,FR,PL,HU)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_Simple" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Simplified (RU,EN,DE,FR,PL,HU)" Type="single_dropdown1" Visible="True">
             <Size>1940</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Simple.zip</ZipFile>
             <CRC>d96bc06b82819459f9ad57b0114eed92</CRC>
@@ -331,7 +330,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Simple.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_wlad1164" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from wlad1164 (languages: RU)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_wlad1164" Enabled="True" InstallGroup="4" PatchGroup="4" Name="wlad1164 (RU)" Type="single_dropdown1" Visible="True">
             <Size>1080717</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_wlad1164.zip</ZipFile>
             <CRC>c7df88f62f53b3cc06662570396021a2</CRC>
@@ -340,7 +339,7 @@
               <Media URL="https://koreanrandom.com/forum/uploads/monthly_03_2017/post-6635-0-03282700-1489960437_thumb.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_Xotabych" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Xotabych (languages: RU,EN)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_Xotabych" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Xotabych (RU,EN)" Type="single_dropdown1" Visible="True">
             <Size>12630902</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Xotabych_10_1.5.0.4_2019-05-24.zip</ZipFile>
             <CRC>e607de3ef1c2d8f31d71751f33820482</CRC>
@@ -356,7 +355,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Xotabych_1.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_Xotabych_Result_Armagomen" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Xotabych v2 (languages: RU,EN)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_Xotabych_Result_Armagomen" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Xotabych v2 (RU,EN)" Type="single_dropdown1" Visible="True">
             <Size>12630904</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Xotabych_10_Result_Armagomen_1.5.0.4_2019-05-24.zip</ZipFile>
             <CRC>b04f08d49153c1e4e0722fcf81790383</CRC>
@@ -372,7 +371,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Statistic_Session_Time_Spent_Xotabych_Result_Armagomen_1.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_v1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen v1 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_v1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen Skin v1 (RU,EN,DE)" Type="single_dropdown1" Visible="True">
             <Size>310664</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_YasenKrasen_v1_1.5.0.2_2019-05-17.zip</ZipFile>
             <CRC>7b1aa599628a194a76e7e37149f1c16f</CRC>
@@ -381,7 +380,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_YasenKrasen_v1.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_v2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen v2 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_v2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen Skin v2 (RU,EN,DE)" Type="single_dropdown1" Visible="True">
             <Size>310664</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_YasenKrasen_v2_1.5.0.2_2019-05-17.zip</ZipFile>
             <CRC>674a12f459a900606c092736befd2088</CRC>
@@ -390,7 +389,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_YasenKrasen_v2.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_v3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen v3 (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_v3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen Skin v3 (RU,EN,DE)" Type="single_dropdown1" Visible="True">
             <Size>310664</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_YasenKrasen_v3_1.5.0.2_2019-05-17.zip</ZipFile>
             <CRC>6f5974aae0c9cab3854a021c3a0b54b9</CRC>
@@ -399,7 +398,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_YasenKrasen_v3.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_Vanilla" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen Vanilla (languages: RU,EN,DE)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_YasenKrasen_Vanilla" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YasenKrasen Vanilla Skin (RU,EN,DE)" Type="single_dropdown1" Visible="True">
             <Size>310669</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_YasenKrasen_Vanilla_1.5.0.2_2019-05-17.zip</ZipFile>
             <CRC>b3d6b87ea17c58c961d0a5cd14881a6b</CRC>
@@ -408,7 +407,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_TimeSpent_config_YasenKrasen_vanilla.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Session_Statistics_Time_Spent_Zero" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skin from Zero (languages: RU,EN,DE,FR,PL,HU,UK)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Session_Statistics_Time_Spent_Zero" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zero (languages: RU,EN,DE,FR,PL,HU,UK)" Type="single_dropdown1" Visible="True">
             <Size>1945</Size>
             <ZipFile>Session_Statistics_TimeSpent_config_Zero.zip</ZipFile>
             <CRC>f3e8323b8383c2678e6e725917fe68ac</CRC>
