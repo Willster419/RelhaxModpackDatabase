@@ -16939,110 +16939,97 @@
           </dependencies>
         </package>
         <package>
-          <name>Autoaim</name>
-          <zipFile />
-          <crc />
+          <name>Auto-aim indicator (press Right-ALT to en-/disable)</name>
+          <zipFile>Ingame_Aim_AutoAim_base_1.5.0.0_2019-05-01.zip</zipFile>
+          <crc>b023235003600a1ebf217de8ece0b29c</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Ingame_Aim_AutoAim_modifications</packageName>
+          <packageName>Ingame_Aim_AutoAim_Indicator</packageName>
           <type>multi</type>
-          <timestamp>131562948677771761</timestamp>
-          <size>17838</size>
+          <version>1.5.0.0</version>
+          <timestamp>131956507653384234</timestamp>
+          <size>20082</size>
+          <description>Allows you to auto aim onto a visable target (red outline) when you right click.\n\nLocks onto a target when manually highlighted, so it is legal now.\n\nTo enable or disable this mod, press the Right-ALT key.</description>
+          <devURL>http://forum.worldoftanks.eu/index.php?/topic/441413-</devURL>
+          <medias>
+            <media>
+              <type>1</type>
+              <URL>http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_10_2014/post-506947255-0-02175200-1414274138.jpg</URL>
+            </media>
+          </medias>
           <packages>
             <package>
-              <name>Autoaim indication (press Right-ALT to en-/disable)</name>
-              <zipFile>Ingame_Aim_AutoAim_base_1.5.0.0_2019-05-01.zip</zipFile>
-              <crc>b023235003600a1ebf217de8ece0b29c</crc>
+              <name>2 sec autoaim search</name>
+              <zipFile>Ingame_Aim_AutoAim_config_2_sec.zip</zipFile>
+              <crc>0aa0b9bd268176b63880c248b69563f0</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>Ingame_Aim_AutoAim_Indication</packageName>
-              <type>single1</type>
-              <version>1.5.0.0</version>
-              <timestamp>131956507653384234</timestamp>
-              <size>20082</size>
-              <description>Allows you to auto aim onto a visable target (red outline) when you right click.\n\nLocks onto a target when manually highlighted, so it is legal now.\n\nTo enable or disable this mod, press the Right-ALT key.</description>
-              <devURL>http://forum.worldoftanks.eu/index.php?/topic/441413-</devURL>
-              <medias>
-                <media>
-                  <type>1</type>
-                  <URL>http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_10_2014/post-506947255-0-02175200-1414274138.jpg</URL>
-                </media>
-              </medias>
-              <packages>
-                <package>
-                  <name>2 sec autoaim search</name>
-                  <zipFile>Ingame_Aim_AutoAim_config_2_sec.zip</zipFile>
-                  <crc>0aa0b9bd268176b63880c248b69563f0</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Ingame_Aim_AutoAim_2_sec</packageName>
-                  <type>single_dropdown1</type>
-                  <size>1137</size>
-                  <description>Search allows the player to right click and for 2 seconds it will snap on the first highlighted enemy.</description>
-                </package>
-                <package>
-                  <name>5 sec autoaim search</name>
-                  <zipFile>Ingame_Aim_AutoAim_config_5_sec.zip</zipFile>
-                  <crc>78c2bcf6b1d4a22e6f6bf3afeb8b9501</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Ingame_Aim_AutoAim_5_sec</packageName>
-                  <type>single_dropdown1</type>
-                  <size>1137</size>
-                  <description>Search allows the player to right click and for 5 seconds it will snap on the first highlighted enemy.</description>
-                </package>
-                <package>
-                  <name>infinite autoaim search</name>
-                  <zipFile>Ingame_Aim_AutoAim_config_inf_sec.zip</zipFile>
-                  <crc>07a655b4a0f57a4d302fde24f1861434</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Ingame_Aim_AutoAim_inf_search</packageName>
-                  <type>single_dropdown1</type>
-                  <size>1141</size>
-                  <description>Search allows the player to right click, it will snap on the first highlighted enemy.</description>
-                </package>
-                <package>
-                  <name>auto-announce reload add-on</name>
-                  <zipFile>Ingame_Aim_AutoAim_config_announce_reload_enable.zip</zipFile>
-                  <crc>dfdf700c91bb96b61796ad670471cdb6</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Ingame_Aim_AutoAim_announce_reload_enable</packageName>
-                  <type>multi</type>
-                  <size>1182</size>
-                </package>
-                <package>
-                  <name>repair with T add-on</name>
-                  <zipFile>Ingame_Aim_AutoAim_config_repair_with_t_enable.zip</zipFile>
-                  <crc>1b92c6ba9a85093f7575f930c635c8a6</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Ingame_Aim_AutoAim_repair_with_t_enable</packageName>
-                  <type>multi</type>
-                  <size>1175</size>
-                </package>
-                <package>
-                  <name>ally shot blocker add-on</name>
-                  <zipFile>Ingame_Aim_AutoAim_config_ally_shot_block_enable.zip</zipFile>
-                  <crc>570d9d6b45736ffb17075c3c418ff291</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Ingame_Aim_AutoAim_no_friendly_fire_enable</packageName>
-                  <type>multi</type>
-                  <size>1176</size>
-                </package>
-                <package>
-                  <name>help message when spotted add-on</name>
-                  <zipFile>Ingame_Aim_AutoAim_config_help_spotted_enable.zip</zipFile>
-                  <crc>576704ed7a3967d1759dd0f49f5a85fe</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>Ingame_Aim_AutoAim_help_spotted_enable</packageName>
-                  <type>multi</type>
-                  <size>1166</size>
-                </package>
-              </packages>
+              <packageName>Ingame_Aim_AutoAim_2_sec</packageName>
+              <type>single_dropdown1</type>
+              <size>1137</size>
+              <description>Search allows the player to right click and for 2 seconds it will snap on the first highlighted enemy.</description>
+            </package>
+            <package>
+              <name>5 sec autoaim search</name>
+              <zipFile>Ingame_Aim_AutoAim_config_5_sec.zip</zipFile>
+              <crc>78c2bcf6b1d4a22e6f6bf3afeb8b9501</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Aim_AutoAim_5_sec</packageName>
+              <type>single_dropdown1</type>
+              <size>1137</size>
+              <description>Search allows the player to right click and for 5 seconds it will snap on the first highlighted enemy.</description>
+            </package>
+            <package>
+              <name>infinite autoaim search</name>
+              <zipFile>Ingame_Aim_AutoAim_config_inf_sec.zip</zipFile>
+              <crc>07a655b4a0f57a4d302fde24f1861434</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Aim_AutoAim_inf_search</packageName>
+              <type>single_dropdown1</type>
+              <size>1141</size>
+              <description>Search allows the player to right click, it will snap on the first highlighted enemy.</description>
+            </package>
+            <package>
+              <name>auto-announce reload add-on</name>
+              <zipFile>Ingame_Aim_AutoAim_config_announce_reload_enable.zip</zipFile>
+              <crc>dfdf700c91bb96b61796ad670471cdb6</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Aim_AutoAim_announce_reload_enable</packageName>
+              <type>multi</type>
+              <size>1182</size>
+            </package>
+            <package>
+              <name>repair with T add-on</name>
+              <zipFile>Ingame_Aim_AutoAim_config_repair_with_t_enable.zip</zipFile>
+              <crc>1b92c6ba9a85093f7575f930c635c8a6</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Aim_AutoAim_repair_with_t_enable</packageName>
+              <type>multi</type>
+              <size>1175</size>
+            </package>
+            <package>
+              <name>ally shot blocker add-on</name>
+              <zipFile>Ingame_Aim_AutoAim_config_ally_shot_block_enable.zip</zipFile>
+              <crc>570d9d6b45736ffb17075c3c418ff291</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Aim_AutoAim_no_friendly_fire_enable</packageName>
+              <type>multi</type>
+              <size>1176</size>
+            </package>
+            <package>
+              <name>help message when spotted add-on</name>
+              <zipFile>Ingame_Aim_AutoAim_config_help_spotted_enable.zip</zipFile>
+              <crc>576704ed7a3967d1759dd0f49f5a85fe</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Aim_AutoAim_help_spotted_enable</packageName>
+              <type>multi</type>
+              <size>1166</size>
             </package>
           </packages>
         </package>
