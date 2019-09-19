@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Ingame Aim">
-  <Package PackageName="Ingame_Aim_arty_splash_sphere" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Arty Splash Sphere by Spoter" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Aim_arty_splash_sphere" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Arty Splash Sphere" Type="multi" Visible="True">
     <Size>12932</Size>
     <Version>2.12</Version>
     <ZipFile>Ingame_Aim_Arty_Splash_by_Spoter_v2.12_1.6.0.4_2019-09-04.zip</ZipFile>
     <CRC>e7c66bb09212f7a23470d005af34c00b</CRC>
     <Timestamp>132120911641647415</Timestamp>
     <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_artySplash</DevURL>
-    <Description>this will draw a sphere marking the stun area\n\nLegal Info from WG employe Dance210:\nHey Silvers_,\n\nWe are currently working on the creation of a process that will more formally vet mods.\n\nIn the meantime, I do not personally feel that the mod you are asking about specifically violates the guidelines listed in the fair play policy.  That said, those could change in the future and we do not recommend the use of any third-party mods, especially ones that may eventually be determined to provide an unfair information advantage.</Description>
+    <Description>this will draw a sphere marking the stun area\r\n\r\nby Spoter\r\n\r\n\n\nLegal Info from WG employe Dance210:\nWe are currently working on the creation of a process that will more formally vet mods.\n\nIn the meantime, I do not personally feel that the mod you are asking about specifically violates the guidelines listed in the fair play policy.  That said, those could change in the future and we do not recommend the use of any third-party mods, especially ones that may eventually be determined to provide an unfair information advantage.</Description>
     <UpdateComment>2. URL: https://github.com/spoter/spoter-mods</UpdateComment>
     <Medias>
       <Media URL="http://hjundaj.com/wp-content/uploads/2017/05/ArtySplashBySpoter_1.jpg" MediaType="Picture" />
@@ -19,61 +19,55 @@
       <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="Ingame_Aim_AutoAim_modifications" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Autoaim" Type="multi" Visible="True">
-    <Size>17838</Size>
-    <Timestamp>131562948677771761</Timestamp>
+  <Package PackageName="Ingame_Aim_AutoAim_Indicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Auto-aim indicator (press Right-ALT to en-/disable)" Type="multi" Visible="True">
+    <Size>20082</Size>
+    <Version>1.5.0.0</Version>
+    <ZipFile>Ingame_Aim_AutoAim_base_1.5.0.0_2019-05-01.zip</ZipFile>
+    <CRC>b023235003600a1ebf217de8ece0b29c</CRC>
+    <Timestamp>131956507653384234</Timestamp>
+    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/441413-</DevURL>
+    <Description>Allows you to auto aim onto a visable target (red outline) when you right click.\n\nLocks onto a target when manually highlighted, so it is legal now.\n\nTo enable or disable this mod, press the Right-ALT key.</Description>
+    <Medias>
+      <Media URL="http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_10_2014/post-506947255-0-02175200-1414274138.jpg" MediaType="Picture" />
+    </Medias>
     <Packages>
-      <Package PackageName="Ingame_Aim_AutoAim_Indication" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Autoaim indication (press Right-ALT to en-/disable)" Type="single1" Visible="True">
-        <Size>20082</Size>
-        <Version>1.5.0.0</Version>
-        <ZipFile>Ingame_Aim_AutoAim_base_1.5.0.0_2019-05-01.zip</ZipFile>
-        <CRC>b023235003600a1ebf217de8ece0b29c</CRC>
-        <Timestamp>131956507653384234</Timestamp>
-        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/441413-</DevURL>
-        <Description>Allows you to auto aim onto a visable target (red outline) when you right click.\n\nLocks onto a target when manually highlighted, so it is legal now.\n\nTo enable or disable this mod, press the Right-ALT key.</Description>
-        <Medias>
-          <Media URL="http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_10_2014/post-506947255-0-02175200-1414274138.jpg" MediaType="Picture" />
-        </Medias>
-        <Packages>
-          <Package PackageName="Ingame_Aim_AutoAim_2_sec" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2 sec autoaim search" Type="single_dropdown1" Visible="True">
-            <Size>1137</Size>
-            <ZipFile>Ingame_Aim_AutoAim_config_2_sec.zip</ZipFile>
-            <CRC>0aa0b9bd268176b63880c248b69563f0</CRC>
-            <Description>Search allows the player to right click and for 2 seconds it will snap on the first highlighted enemy.</Description>
-          </Package>
-          <Package PackageName="Ingame_Aim_AutoAim_5_sec" Enabled="True" InstallGroup="4" PatchGroup="4" Name="5 sec autoaim search" Type="single_dropdown1" Visible="True">
-            <Size>1137</Size>
-            <ZipFile>Ingame_Aim_AutoAim_config_5_sec.zip</ZipFile>
-            <CRC>78c2bcf6b1d4a22e6f6bf3afeb8b9501</CRC>
-            <Description>Search allows the player to right click and for 5 seconds it will snap on the first highlighted enemy.</Description>
-          </Package>
-          <Package PackageName="Ingame_Aim_AutoAim_inf_search" Enabled="True" InstallGroup="4" PatchGroup="4" Name="infinite autoaim search" Type="single_dropdown1" Visible="True">
-            <Size>1141</Size>
-            <ZipFile>Ingame_Aim_AutoAim_config_inf_sec.zip</ZipFile>
-            <CRC>07a655b4a0f57a4d302fde24f1861434</CRC>
-            <Description>Search allows the player to right click, it will snap on the first highlighted enemy.</Description>
-          </Package>
-          <Package PackageName="Ingame_Aim_AutoAim_announce_reload_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="auto-announce reload add-on" Type="multi" Visible="True">
-            <Size>1182</Size>
-            <ZipFile>Ingame_Aim_AutoAim_config_announce_reload_enable.zip</ZipFile>
-            <CRC>dfdf700c91bb96b61796ad670471cdb6</CRC>
-          </Package>
-          <Package PackageName="Ingame_Aim_AutoAim_repair_with_t_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="repair with T add-on" Type="multi" Visible="True">
-            <Size>1175</Size>
-            <ZipFile>Ingame_Aim_AutoAim_config_repair_with_t_enable.zip</ZipFile>
-            <CRC>1b92c6ba9a85093f7575f930c635c8a6</CRC>
-          </Package>
-          <Package PackageName="Ingame_Aim_AutoAim_no_friendly_fire_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="ally shot blocker add-on" Type="multi" Visible="True">
-            <Size>1176</Size>
-            <ZipFile>Ingame_Aim_AutoAim_config_ally_shot_block_enable.zip</ZipFile>
-            <CRC>570d9d6b45736ffb17075c3c418ff291</CRC>
-          </Package>
-          <Package PackageName="Ingame_Aim_AutoAim_help_spotted_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="help message when spotted add-on" Type="multi" Visible="True">
-            <Size>1166</Size>
-            <ZipFile>Ingame_Aim_AutoAim_config_help_spotted_enable.zip</ZipFile>
-            <CRC>576704ed7a3967d1759dd0f49f5a85fe</CRC>
-          </Package>
-        </Packages>
+      <Package PackageName="Ingame_Aim_AutoAim_2_sec" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2 sec autoaim search" Type="single_dropdown1" Visible="True">
+        <Size>1137</Size>
+        <ZipFile>Ingame_Aim_AutoAim_config_2_sec.zip</ZipFile>
+        <CRC>0aa0b9bd268176b63880c248b69563f0</CRC>
+        <Description>Search allows the player to right click and for 2 seconds it will snap on the first highlighted enemy.</Description>
+      </Package>
+      <Package PackageName="Ingame_Aim_AutoAim_5_sec" Enabled="True" InstallGroup="4" PatchGroup="4" Name="5 sec autoaim search" Type="single_dropdown1" Visible="True">
+        <Size>1137</Size>
+        <ZipFile>Ingame_Aim_AutoAim_config_5_sec.zip</ZipFile>
+        <CRC>78c2bcf6b1d4a22e6f6bf3afeb8b9501</CRC>
+        <Description>Search allows the player to right click and for 5 seconds it will snap on the first highlighted enemy.</Description>
+      </Package>
+      <Package PackageName="Ingame_Aim_AutoAim_inf_search" Enabled="True" InstallGroup="4" PatchGroup="4" Name="infinite autoaim search" Type="single_dropdown1" Visible="True">
+        <Size>1141</Size>
+        <ZipFile>Ingame_Aim_AutoAim_config_inf_sec.zip</ZipFile>
+        <CRC>07a655b4a0f57a4d302fde24f1861434</CRC>
+        <Description>Search allows the player to right click, it will snap on the first highlighted enemy.</Description>
+      </Package>
+      <Package PackageName="Ingame_Aim_AutoAim_announce_reload_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="auto-announce reload add-on" Type="multi" Visible="True">
+        <Size>1182</Size>
+        <ZipFile>Ingame_Aim_AutoAim_config_announce_reload_enable.zip</ZipFile>
+        <CRC>dfdf700c91bb96b61796ad670471cdb6</CRC>
+      </Package>
+      <Package PackageName="Ingame_Aim_AutoAim_repair_with_t_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="repair with T add-on" Type="multi" Visible="True">
+        <Size>1175</Size>
+        <ZipFile>Ingame_Aim_AutoAim_config_repair_with_t_enable.zip</ZipFile>
+        <CRC>1b92c6ba9a85093f7575f930c635c8a6</CRC>
+      </Package>
+      <Package PackageName="Ingame_Aim_AutoAim_no_friendly_fire_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="ally shot blocker add-on" Type="multi" Visible="True">
+        <Size>1176</Size>
+        <ZipFile>Ingame_Aim_AutoAim_config_ally_shot_block_enable.zip</ZipFile>
+        <CRC>570d9d6b45736ffb17075c3c418ff291</CRC>
+      </Package>
+      <Package PackageName="Ingame_Aim_AutoAim_help_spotted_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="help message when spotted add-on" Type="multi" Visible="True">
+        <Size>1166</Size>
+        <ZipFile>Ingame_Aim_AutoAim_config_help_spotted_enable.zip</ZipFile>
+        <CRC>576704ed7a3967d1759dd0f49f5a85fe</CRC>
       </Package>
     </Packages>
   </Package>
@@ -630,13 +624,13 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Aim_MeltyElement_EffectiveArmorPanel" Enabled="False" InstallGroup="4" PatchGroup="4" Name="MeltyElement EffectiveArmorPanel (by elementofprgress)" Type="multi" Visible="False">
+  <Package PackageName="Ingame_Aim_MeltyElement_EffectiveArmorPanel" Enabled="False" InstallGroup="4" PatchGroup="4" Name="MeltyElement EffectiveArmorPanel" Type="multi" Visible="False">
     <Size>56267</Size>
     <ZipFile>ingame_aim_MeltyElement_EffectiveArmorPanel_ALPHA_2018-07-30.zip</ZipFile>
     <CRC>5baa743a024898424757f6d4be797856</CRC>
     <Timestamp>131775239748831130</Timestamp>
     <DevURL>https://github.com/elementofprgress/MeltyElement_Effective_Armor_Mod</DevURL>
-    <Description>The effective armor calculator does, well exactly what it sounds like it does. \nIt gives you real time information about the actual thickness of your hulls armor based on angle of your tank compared to where you are looking/aiming.\nIt also displays gun constraints.\n\nIt´s a remake of the ArmorPanel (&amp; Protractor) that was included in the original MeltyMap sights. \nThis mod shows front and side armor in current line of view (side armor without trucks).\n(as i got asked: you DO NOT see the lines on the picture)\n\nAttention! \nThis mod was released by its developer as ALPHA!\n\nKnown Bugs:\nWhen changing the volume level with windows-shortcuts or over  the keyboard (if your keyboard got this) there will be a light red ball appearing on the screen. this is meant for debugging the mod by the  developers and currently can´t get disabled!</Description>
+    <Description>The effective armor calculator does, well exactly what it sounds like it does. \nIt gives you real time information about the actual thickness of your hulls armor based on angle of your tank compared to where you are looking/aiming.\nIt also displays gun constraints.\n\nIt´s a remake of the ArmorPanel (&amp; Protractor) that was included in the original MeltyMap sights. \nThis mod shows front and side armor in current line of view (side armor without trucks).\n(as i got asked: you DO NOT see the lines on the picture)\n\nAttention! \nThis mod was released by its developer as ALPHA!\n\nKnown Bugs:\nWhen changing the volume level with windows-shortcuts or over  the keyboard (if your keyboard got this) there will be a light red ball appearing on the screen. this is meant for debugging the mod by the  developers and currently can´t get disabled!\r\n\r\nby elementofprgress</Description>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/ingame_aim/ingame_aim_MeltyElement_Effective_Armor.png" MediaType="Picture" />
     </Medias>
@@ -648,7 +642,7 @@
     <Timestamp>131542992576669791</Timestamp>
     <Description>Shows wether or not you can penetrate an enemy, in the form of showing the number</Description>
     <Packages>
-      <Package PackageName="Ingame_Aim_pmod_reduced_armor" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PMOD Penetration ( ͡° ͜ʖ ͡°) Indicator" Type="single1" Visible="True">
+      <Package PackageName="Ingame_Aim_pmod_reduced_armor" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PMOD" Type="single1" Visible="True">
         <Size>911</Size>
         <ZipFile>Ingame_Aim_pmod_reduced_armor_enable_patch_2019-09-03.zip</ZipFile>
         <CRC>d36e8e39bed835e907fae51232f333a7</CRC>
@@ -688,7 +682,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Ingame_Aim_Mod_Armor_Gui_Text" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Number Indicator of Armor Penetration ( ͡° ͜ʖ ͡°) by Makct (non-PMOD)" Type="single1" Visible="True">
+      <Package PackageName="Ingame_Aim_Mod_Armor_Gui_Text" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Makct" Type="single1" Visible="True">
         <Size>37880</Size>
         <ZipFile>Ingame_Aim_Mod_Armor_Gui_Text_1.0.2.x_2018-06-16.zip</ZipFile>
         <CRC>a4812235eaade6b33b39160c7f0034e4</CRC>
@@ -713,10 +707,11 @@
     </Dependencies>
   </Package>
   <Package PackageName="Ingame_Aim_SafeShot_oldskool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="SafeShot by OldSkool" Type="multi" Visible="True">
-    <Size>54554</Size>
-    <ZipFile>Ingame_Aim_SafeShot_OldSkool_base_1.6.0.2_2019-08-22.zip</ZipFile>
-    <CRC>b55cb410203a8c123c305ce3fd4aed76</CRC>
-    <Timestamp>132110236994577859</Timestamp>
+    <Size>54595</Size>
+    <Version>1.2.5</Version>
+    <ZipFile>Ingame_Aim_SafeShot_OldSkool_base_v1.2.5_1.6.0.7_2019-09-17.zip</ZipFile>
+    <CRC>e59157b015b1c03ce42864e92f3ff364</CRC>
+    <Timestamp>132132177962674567</Timestamp>
     <DevURL>https://wgmods.net/1035/details\r\nhttps://wgmods.net/search/?owner=38530</DevURL>
     <Description>SafeShot is preventing team damage to allied tanks. This mod offers you a nice interface and the option to configure it ingame.\r\n\nlegal info\nhttp://forum.worldoftanks.eu/index.php?/topic/599621-wg-support-safeshot-is-illegal/page__st__20__pid__13403197#entry13403197</Description>
     <Medias>
@@ -877,14 +872,14 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Aim_Server_Turret_Extended" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Server Turret Extended by Spoter v{version}" Type="multi" Visible="True">
-    <Size>10648</Size>
-    <Version>2.04</Version>
-    <ZipFile>Ingame_Aim_Server_Turret_Extended_by_Spoter_v2.04_1.6.0.4_2019-09-10.zip</ZipFile>
-    <CRC>a5c860090ac75f96dc048fcd50022da5</CRC>
-    <Timestamp>132125785540217092</Timestamp>
+  <Package PackageName="Ingame_Aim_Server_Turret_Extended" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Server Turret Extended v{version}" Type="multi" Visible="True">
+    <Size>10666</Size>
+    <Version>2.05</Version>
+    <ZipFile>Ingame_Aim_Server_Turret_Extended_by_Spoter_v2.05_1.6.0.7_2019-09-19.zip</ZipFile>
+    <CRC>eba4a3c4cea6d3648c420f11364fb8c4</CRC>
+    <Timestamp>132133561683582758</Timestamp>
     <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_server_turret_extended</DevURL>
-    <Description>-auto-speed for wheeled vehicles, \n-turns the tank turret along server coordinates, \n-automatically activates “Stop for a shot” when the tank is braked.</Description>
+    <Description>-auto-speed for wheeled vehicles, \n-turns the tank turret along server coordinates, \n-automatically activates “Stop for a shot” when the tank is braked.\r\n\r\nby Spoter</Description>
     <UpdateComment>2. URL</UpdateComment>
     <Medias>
       <Media URL="https://coub.com/view/zrhe" MediaType="Webpage" />
@@ -894,14 +889,14 @@
       <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="Ingame_Aim_SPG_Flytime" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Projectile Flytime for SPG/Arty by oldskool" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Aim_SPG_Flytime" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Projectile Flytime for SPG/Arty" Type="multi" Visible="True">
     <Size>46981</Size>
     <Version>103</Version>
     <ZipFile>Ingame_Aim_SPG_Flytime_by_oldskool_v1.0.3_1.6.0.2_2019-08-22.zip</ZipFile>
     <CRC>de5b3a31296b08badc183481530e4ec7</CRC>
     <Timestamp>132109497968880050</Timestamp>
     <DevURL>https://wgmods.net/2753/details</DevURL>
-    <Description>This mod allows you to see the shell travel time for SPG shells. You can fully adjust the position of the display during the battle. Configuration of the mod can be done ingame.</Description>
+    <Description>This mod allows you to see the shell travel time for SPG shells. You can fully adjust the position of the display during the battle. Configuration of the mod can be done ingame.\r\n\r\nby oldskool</Description>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/ingame_aim/Ingame_Aim_SPG_Flytime_by_oldskool.jpg" MediaType="Picture" />
     </Medias>

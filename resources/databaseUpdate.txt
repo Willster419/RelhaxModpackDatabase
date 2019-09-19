@@ -1,18 +1,47 @@
 Database Update!
 
-New version tag: 1.6.0.6_2019-09-16_2
+New version tag: 1.6.0.7_2019-09-19_1
 
-Number of Added packages: 0
-Number of Updated packages: 11
-Number of Disabled packages: 0
-Number of Removed packages: 0
-Number of Moved packages: 0
-Number of Renamed packages: 0
+Number of Added packages: 18
+Number of Updated packages: 85
+Number of Disabled packages: 9
+Number of Removed packages: 13
+Number of Moved packages: 14
+Number of Renamed packages: 40
 Number of Internally renamed packages: 0
 
 Added:
+ - Ingame Aim->Auto-aim indicator (press Right-ALT to en-/disable)
+ - Ingame Info->DebugPanel->by OldSkool
+ - Ingame Misc->BattleEndMessages
+ - Ingame Misc->FPS Limiter
+ - Ingame Misc->FPS Limiter->30 fps
+ - Ingame Misc->FPS Limiter->60 fps
+ - Ingame Misc->FPS Limiter->120 fps
+ - Ingame Misc->FPS Limiter->144 fps
+ - Ingame Misc->Minimap->Colored arrow on minimap
+ - Ingame Misc->Minimap->Colored arrow on minimap->Blue
+ - Ingame Misc->Minimap->Colored arrow on minimap->Green
+ - Ingame Misc->Minimap->Colored arrow on minimap->Orange
+ - Ingame Misc->Minimap->Colored arrow on minimap->Purple
+ - Ingame Misc->Minimap->Colored arrow on minimap->Red
+ - Ingame Misc->Minimap->Colored arrow on minimap->White
+ - Ingame Misc->Minimap->Colored arrow on minimap->Yellow
+ - Ingame Misc->"You Died"
+ - Garage Mods->Auto-equip removeable equipment
 
 Updated:
+ - Dependency_XVM_Main_Files
+ - Dependency_YK-Stats_BaseConfigFiles
+ - Dependency_playersPanelAPI_OldSkool
+ - Dependency_PMOD
+ - LogicalDependency_lossless_battleAtlas_Images
+ - LogicalDependency_Contour_Icon_Mod_mirror_hangar_no_XVM_clear
+ - LogicalDependency_Contour_Icon_Mod_mirror_hangar_no_XVM_show_name
+ - LogicalDependency_Contour_Icon_Mod_mirror_hangar_no_XVM_show_tier_name
+ - LogicalDependency_Contour_Icon_Mod_mirror_battle_no_XVM_clear
+ - LogicalDependency_Contour_Icon_Mod_mirror_battle_no_XVM_show_tier_name
+ - XVM config builder->Clan Icons->show PlayersIcon in new field (right to ClanIcons)
  - XVM config builder->Battle Interface modifications (xvm)->DebugPanel->v1
  - XVM config builder->Battle Interface modifications (xvm)->DebugPanel->v2
  - XVM config builder->Battle Interface modifications (xvm)->DebugPanel->DebugPanel v3 by Ress
@@ -23,15 +52,154 @@ Updated:
  - XVM config builder->Battle Interface modifications (xvm)->DebugPanel->v8
  - XVM config builder->Battle Interface modifications (xvm)->DebugPanel->v9
  - XVM config builder->Battle Interface modifications (xvm)->HP Bar
+ - XVM config builder->Battle Interface modifications (xvm)->Information Label for Missions (Mission Tracker)
+ - XVM config builder->Battle Interface modifications (xvm)->Squadmember Color Change->Purple
+ - XVM config builder->Battle Interface modifications (xvm)->WN8 Comparison->WN8 Comparison (Standard)
+ - XVM config builder->Battle Interface modifications (xvm)->WN8 Comparison->WN8 Comparison by Slava7572
+ - XVM config builder->Players Panel Modifications (xvm)->Enable->HP Bars->inside PlayersPanel->BIG
+ - XVM config builder->Players Panel Modifications (xvm)->Enable->HP Bars->inside PlayersPanel->BIG COLORED by vehicle type
+ - XVM config builder->Players Panel Modifications (xvm)->Enable->HP Bars->inside PlayersPanel->SMALL
+ - XVM config builder->Players Panel Modifications (xvm)->Enable->Friends-Marker
  - XVM config builder->Players Panel Modifications (xvm)->Enable->Friends-Marker->Blacklisted-Marker
+ - XVM config builder->Players Panel Modifications (xvm)->Enable->Show language flag->based on XVM selected language
+ - Ingame Aim->SafeShot by OldSkool
+ - Ingame Aim->Server Turret Extended v2.05
+ - Ingame Info->HP Bars->Champi HP Bars (Conflicts with A.) Enemy spotted status & B.) Friends Marker  BOTH by oldskool
+ - Ingame Info->Enemy spotted status
+ - Ingame Info->InBattle Rating->RaJCeL (Broken on NA server)
+ - Ingame Info->InBattle Rating->OldSkool
+ - Ingame Info->InBattle Rating->PROTanki
+ - Ingame Info->RTAN - Real Time Achievements Notifications->RTAN by protanki
+ - Ingame Misc->Final Shot (Last Hits)
+ - Ingame Misc->Minimap->Colored arrow on minimap->Black
+ - Ingame Misc->"You Died"->with sound
+ - Garage Mods->Armor Inspector->Armor Inspector by protanki
+ - Garage Mods->ModPack Support Button v9.10
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Aqua
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Aqua Yellow
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Bangel Tiger
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Blue
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Blue Green
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Blue Red Strips
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Candy Cane
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Caribbean
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Green
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Green Purple
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Green Purple Strips
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->HE
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->KeyLimePie
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->LimeAid
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Orange
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Orange Black
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Pink
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->PYSCHO 1
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->PYSCHO 2
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->PYSCHO 3
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Purple
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Purple Yellow
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Red
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Red Blue
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Sabaton
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->USA
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->White
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->White-Black
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Yellow
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Yellow Red
+ - Garage graphics->Hangar->Hangar Manager (HangMan) v2.38
+ - Garage graphics->Techtree->OldSkool's Extended TechTree
+ - Statistics->Garage Session Statistics->Awfultanker
+ - Statistics->Garage Session Statistics->YasenKrasen v1.6.0.7->Base (only session statistics)
+ - Statistics->Garage Session Statistics->YasenKrasen v1.6.0.7->Vanilla (session statistics, battle result messages, extended perk tooltips)
+ - Statistics->Garage Session Statistics->YasenKrasen v1.6.0.7->Core (session statistics, battle result messages, extended perk tooltips, system messages)
+ - Statistics->Garage Session Statistics->YasenKrasen v1.6.0.7->Graphical Battle Messages
+ - Statistics->Garage Session Statistics->YasenKrasen v1.6.0.7->Colored in-game messages (sets client language to english)
+ - Statistics->Garage Session Statistics->YasenKrasen v1.6.0.7->Kill Skulls (alternative in-game battle messages)
+ - Tank Skin Misc->Colored Dead Tanks
+ - Tank Skin Misc->Colored Crashed Tracks
 
 Renamed:
+ - "Arty Splash Sphere by Spoter" was renamed to "Arty Splash Sphere"
+ - "MeltyElement EffectiveArmorPanel (by elementofprgress)" was renamed to "MeltyElement EffectiveArmorPanel"
+ - "PMOD Penetration ( ͡° ͜ʖ ͡°) Indicator" was renamed to "PMOD"
+ - "Number Indicator of Armor Penetration ( ͡° ͜ʖ ͡°) by Makct (non-PMOD)" was renamed to "Makct"
+ - "Server Turret Extended by Spoter v2.04" was renamed to "Server Turret Extended v2.05"
+ - "Projectile Flytime for SPG/Arty by oldskool" was renamed to "Projectile Flytime for SPG/Arty"
+ - "Arty HitLog by OldSkool" was renamed to "Arty HitLog"
+ - "Enemy spotted status (by oldskool)" was renamed to "Enemy spotted status"
+ - "InBattle timer by lenya69" was renamed to "InBattle timer HARPOON"
+ - "Gold Ammo Visibility Mod by lgfrbcsgo" was renamed to "Gold Ammo Visibility Mod"
+ - "Show Personal Missions in Detail ("Quests" by izeberg)" was renamed to "Show Personal Missions in Detail ("Quests")"
+ - "Spotted Extended Light (by Spoter)" was renamed to "Spotted Extended Light"
+ - "Shell Info by RaJCeL" was renamed to "Shell Info"
+ - "Antitoxicity by ShuraBB" was renamed to "Antitoxicity"
+ - "Arty and Siege Filter (remove hint on battle start) by HAWG" was renamed to "Arty and Siege Filter (remove hint on battle start)"
+ - "Auxilium Ingame Settings by ShuraBB v19.07" was renamed to "Auxilium Ingame Settings v19.07"
+ - "Double press to crawl/move slow by lgfrbcsgo" was renamed to "Double press to crawl/move slow"
+ - "Final Shot by POLIROID (Last Hits)" was renamed to "Final Shot (Last Hits)"
+ - "Hitmarker by Aimdrol" was renamed to "Hitmarker"
+ - "Illuminati Companion by Aimdrol" was renamed to "Illuminati Companion"
+ - "LightMod by Polyacov-Yury" was renamed to "LightMod"
+ - "Black Arrow" was renamed to "Black"
+ - "No Ranked Badge  by Awfultanker" was renamed to "No Ranked Badge"
+ - "No 6th Sense available by Awfultanker" was renamed to "No 6th Sense available"
+ - "Repair Extended by Spoter (non-cheat-version)" was renamed to "Repair Extended (non-cheat-version)"
+ - "Same Blue Sky On All Maps By Johnda" was renamed to "Same Blue Sky On All Maps"
+ - "Annoying Features Remover v32 [Hangar Addons by NDO]" was renamed to "Annoying Features Remover v32 [NDO Hangar Addons]"
+ - "Auxilium Garage Settings by ShuraBB v19.04" was renamed to "Auxilium Garage Settings v19.04"
+ - "by ShuraBB" was renamed to "Antitoxicity´s expanded friends- and blacklist"
+ - "ModPack Support Button v9.10 by Budyx69" was renamed to "ModPack Support Button v9.10"
+ - "RegionChanger by ShuraBB" was renamed to "RegionChanger"
+ - "Seller by JOVE" was renamed to "Seller"
+ - "ScriptloaderPro v1.31 by Budyx69" was renamed to "ScriptloaderPro v1.31"
+ - "Simple Vehicle Stats by RajCel" was renamed to "Simple Vehicle Stats"
+ - "Hangar Manager (HangMan) v2.37" was renamed to "Hangar Manager (HangMan) v2.38"
+ - "YasenKrasen v1.6.0.2" was renamed to "YasenKrasen v1.6.0.7"
+ - "german (standard from budyx69)" was renamed to "german (standard from budyx69)"
+ - "latin (Cesar quotes)" was renamed to "latin (Cesar quotes)"
+ - "english (rude)" was renamed to "english (rude)"
+ - "disable all textfields and only show pre-battle- timer" was renamed to "disable all textfields and only show pre-battle- timer"
 
 Moved:
+ - "Ingame Aim->Autoaim->Autoaim indication (press Right-ALT to en-/disable)->2 sec autoaim search" was moved to "Ingame Aim->Auto-aim indicator (press Right-ALT to en-/disable)->2 sec autoaim search"
+ - "Ingame Aim->Autoaim->Autoaim indication (press Right-ALT to en-/disable)->5 sec autoaim search" was moved to "Ingame Aim->Auto-aim indicator (press Right-ALT to en-/disable)->5 sec autoaim search"
+ - "Ingame Aim->Autoaim->Autoaim indication (press Right-ALT to en-/disable)->infinite autoaim search" was moved to "Ingame Aim->Auto-aim indicator (press Right-ALT to en-/disable)->infinite autoaim search"
+ - "Ingame Aim->Autoaim->Autoaim indication (press Right-ALT to en-/disable)->auto-announce reload add-on" was moved to "Ingame Aim->Auto-aim indicator (press Right-ALT to en-/disable)->auto-announce reload add-on"
+ - "Ingame Aim->Autoaim->Autoaim indication (press Right-ALT to en-/disable)->repair with T add-on" was moved to "Ingame Aim->Auto-aim indicator (press Right-ALT to en-/disable)->repair with T add-on"
+ - "Ingame Aim->Autoaim->Autoaim indication (press Right-ALT to en-/disable)->ally shot blocker add-on" was moved to "Ingame Aim->Auto-aim indicator (press Right-ALT to en-/disable)->ally shot blocker add-on"
+ - "Ingame Aim->Autoaim->Autoaim indication (press Right-ALT to en-/disable)->help message when spotted add-on" was moved to "Ingame Aim->Auto-aim indicator (press Right-ALT to en-/disable)->help message when spotted add-on"
+ - "Ingame Misc->Minimap->Hawg´s Arrow on Minimap->Black Arrow" was moved to "Ingame Misc->Minimap->Colored arrow on minimap->Black"
+ - "Ingame Misc->"You Died" by goofy67 and budyx69->without sound" was moved to "Ingame Misc->"You Died"->without sound"
+ - "Ingame Misc->"You Died" by goofy67 and budyx69->with sound" was moved to "Ingame Misc->"You Died"->with sound"
+ - "Ingame Misc->BattleEndMessages by Budyx69->german (standard from budyx69)" was moved to "Ingame Misc->BattleEndMessages->german (standard from budyx69)"
+ - "Ingame Misc->BattleEndMessages by Budyx69->latin (Cesar quotes)" was moved to "Ingame Misc->BattleEndMessages->latin (Cesar quotes)"
+ - "Ingame Misc->BattleEndMessages by Budyx69->english (rude)" was moved to "Ingame Misc->BattleEndMessages->english (rude)"
+ - "Ingame Misc->BattleEndMessages by Budyx69->disable all textfields and only show pre-battle- timer" was moved to "Ingame Misc->BattleEndMessages->disable all textfields and only show pre-battle- timer"
 
 Disabled:
+ - LogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_clear
+ - LogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_show_name
+ - LogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_show_tier_name
+ - Ingame Info->Show Personal Missions in Detail ("Quests")
+ - Ingame Misc->Repair Extended (non-cheat-version)
+ - Garage Mods->Replays->enable replays for the "Battle Royale" game mode
+ - Sound Mods->Gun->GnomeFather’s HRMOD Gun Sounds (reworked by Zorgane)  v2.10_1.6.0.2
+ - Sound Mods->Gun->WWIIHWA Gunsounds by Kriegstreiber & Budyx69
+ - Sound Mods->WWIIHWA Ambiente v6.13 by Budyx69
 
 Removed:
+ - Ingame Aim->Autoaim
+ - Ingame Aim->Autoaim->Autoaim indication (press Right-ALT to en-/disable)
+ - Ingame Misc->BattleEndMessages by Budyx69
+ - Ingame Misc->Minimap->Hawg´s Arrow on Minimap
+ - Ingame Misc->Minimap->Hawg´s Arrow on Minimap->Blue Arrow
+ - Ingame Misc->Minimap->Hawg´s Arrow on Minimap->Green Arrow
+ - Ingame Misc->Minimap->Hawg´s Arrow on Minimap->OrangeArrow
+ - Ingame Misc->Minimap->Hawg´s Arrow on Minimap->Purple Arrow
+ - Ingame Misc->Minimap->Hawg´s Arrow on Minimap->Red Arrow
+ - Ingame Misc->Minimap->Hawg´s Arrow on Minimap->White Arrow
+ - Ingame Misc->Minimap->Hawg´s Arrow on Minimap->Yellow Arrow
+ - Ingame Misc->"You Died" by goofy67 and budyx69
+ - Garage Mods->Auto-equip removeable equipment by OldSkool
 
 Notes:
  - 

@@ -138,14 +138,14 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Info_ArtyHitLog_Oldskool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Arty HitLog by OldSkool" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_ArtyHitLog_Oldskool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Arty HitLog" Type="multi" Visible="True">
     <Size>70182</Size>
     <Version>106</Version>
     <ZipFile>Ingame_Info_ArtyHitLog_by_Oldskool_v1.0.6_1.6.0.2_2019-08-22.zip</ZipFile>
     <CRC>f5e05142276fa9d6ee784a2fe02a7359</CRC>
     <Timestamp>132109496555359382</Timestamp>
     <DevURL>https://wgmods.net/1036/details</DevURL>
-    <Description>Shows how much damage arty actually causes vs. other tanks that damage you</Description>
+    <Description>Shows how much damage arty actually causes vs. other tanks that damage you\r\n\r\nby OldSkool</Description>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Artylog_Extended_by_OldSkool.jpg" MediaType="Picture" />
     </Medias>
@@ -315,6 +315,18 @@
     <Timestamp>131978494867364883</Timestamp>
     <Description>Fps Ping coloredBar in the upper left corner.\nPart of Harpoon Crosshair by lenya69</Description>
     <Packages>
+      <Package PackageName="Ingame_Info_DebugPanel_oldskool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by OldSkool" Type="single_dropdown1" Visible="True">
+        <Size>22442</Size>
+        <ZipFile>Ingame_Info_DebugPanel_oldskool_v1.1.1_2019-09-18.zip</ZipFile>
+        <CRC>05f460818d4b14b40696d76a543c9e1e</CRC>
+        <Timestamp>132133138164597212</Timestamp>
+        <DevURL>https://www.oldskool.vip/promod/ProMod.zip</DevURL>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
       <Package PackageName="Ingame_Info_DebugPanel_theillusion" Enabled="True" InstallGroup="4" PatchGroup="4" Name="YADP by The Illusion" Type="single_dropdown1" Visible="True">
         <Size>3913</Size>
         <ZipFile>Ingame_Info_DebugPanel_by_The_Illusion_2019-03-23.zip</ZipFile>
@@ -342,11 +354,11 @@
     <Timestamp>132071743749522467</Timestamp>
     <Packages>
       <Package PackageName="Ingame_Info_HP_Bars_Champi" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Champi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool" Type="single1" Visible="True">
-        <Size>128369</Size>
-        <Version>1.06</Version>
-        <ZipFile>Ingame_Info_HPBars_by_Champi_v1.06_1.6.0.4_2019-08-29.zip</ZipFile>
-        <CRC>0716c8dc6a0cac9fac528041c1f7e122</CRC>
-        <Timestamp>132115860966263634</Timestamp>
+        <Size>129113</Size>
+        <Version>1.08</Version>
+        <ZipFile>Ingame_Info_HPBars_by_Champi_v1.08_1.6.0.7_2019-09-18.zip</ZipFile>
+        <CRC>1d26aa00319348f024fbdcb9242258b3</CRC>
+        <Timestamp>132133172506046490</Timestamp>
         <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
         <Description>MOD DESCRIPTION: Customizable tank health bars for the playerpanel.\r\n\r\nfeatures:\r\n-draws background in vehicle class colors (see screenshot) or in standard green (own team) / red (enemy team)\r\n-can show only remaining structure points or current/max structure points\r\n-changeable graphics and layout - you can make your own backgrounds if you like\r\n\r\nNote: the health bars of the enemy team are only updated when the opponent is spotted and you're in radio signal range (if you didn't spot it by yourself). This rule is also valid for your own team. With other words: YOU CAN'T SEE IF YOUR BLIND SHOT HIT AN OPPONENT! :)\r\n\r\ncredits:\r\n-Yury Polyacov: For the permission to use his API in my mod. This mod used a modified version of the player panel API.\r\n-spoter: For his settings GUI</Description>
         <UpdateComment>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n\r\nConflicts with Battle Observer &amp;  with oldskool.playerspanel.api in\r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\nused by\r\nIngame_Misc_chatmods_FriendsMarker_Oldskool\r\nIngame_Info_Enemy_Spotted_Status (by Oldskool)\r\n\r\nuse  Logic NotFlag = "NAND" = Not and for \r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\n\r\nChampi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</UpdateComment>
@@ -407,14 +419,14 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Info_Enemy_Spotted_Status" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enemy spotted status (by oldskool)" Type="multi" Visible="True">
-    <Size>50187</Size>
-    <Version>1.1.2</Version>
-    <ZipFile>Ingame_Info_Enemy_Spotted_Status_1.1.2_1.6.0.4_2019-09-04.zip</ZipFile>
-    <CRC>2890c48072ec181957285cd428e02d98</CRC>
-    <Timestamp>132120741841028233</Timestamp>
+  <Package PackageName="Ingame_Info_Enemy_Spotted_Status" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enemy spotted status" Type="multi" Visible="True">
+    <Size>50219</Size>
+    <Version>1.1.4</Version>
+    <ZipFile>Ingame_Info_Enemy_Spotted_Status_v1.1.4_1.6.0.7_2019-09-17.zip</ZipFile>
+    <CRC>3f25289beee259088d2f6093e85d897c</CRC>
+    <Timestamp>132132179201113827</Timestamp>
     <DevURL>https://wgmods.net/1024/details</DevURL>
-    <Description>This is a Spotted Status Indicator for the enemy team. Different icons show the current Spotted Status for the vehicle.</Description>
+    <Description>This is a Spotted Status Indicator for the enemy team. Different icons show the current Spotted Status for the vehicle.\r\n\r\n by OldSkool</Description>
     <Medias>
       <Media URL="https://wgmods.net/media/Unbet-1.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
     </Medias>
@@ -430,7 +442,6 @@
         <CRC>765d13dca5df249a609b6a12a9e5b186</CRC>
         <Timestamp>132006727153212264</Timestamp>
         <DevURL>https://wgmods.net/1024/details</DevURL>
-        <Description>This is a Spotted Status Indicator for the enemy team. Different icons show the current Spotted Status for the vehicle.</Description>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/Oldschool_Enemy_Spotted_Status_Style_1.png" MediaType="Picture" />
         </Medias>
@@ -441,10 +452,10 @@
     <Timestamp>131712253302348201</Timestamp>
     <Packages>
       <Package PackageName="Ingame_Info_InBattle_Rating_RaJCeL" Enabled="True" InstallGroup="4" PatchGroup="4" Name="RaJCeL (Broken on NA server)" Type="single_dropdown1" Visible="True">
-        <Size>134394</Size>
-        <ZipFile>Ingame_Info_InBattle_Rating_RaJCeL_1.6.0.4_2019-08-30.zip</ZipFile>
-        <CRC>aef37b2082806bf92e9bb0d23ac91bb0</CRC>
-        <Timestamp>132116310044876832</Timestamp>
+        <Size>134099</Size>
+        <ZipFile>Ingame_Info_InBattle_Rating_RaJCeL_1.6.0.7_2019-09-18.zip</ZipFile>
+        <CRC>9acf16a594d07c6b998fbac51c6de6b6</CRC>
+        <Timestamp>132132678734453968</Timestamp>
         <DevURL>https://wgmods.net/2559/details\r\nhttp://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel/</DevURL>
         <Description>Mod is showing some statistics in battle and replays. Mod doesn’t need XVM to work.\r\n\r\nNot working on NA server as of 1.5.1 (06-15-2019)</Description>
         <Medias>
@@ -456,11 +467,11 @@
         </Dependencies>
       </Package>
       <Package PackageName="Ingame_Info_InBattle_Rating_OldSkool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="OldSkool" Type="single_dropdown1" Visible="True">
-        <Size>44311</Size>
-        <ZipFile>Ingame_Info_InBattle_Rating_OldSkool_2019-05-16.zip</ZipFile>
-        <CRC>5b5f4ca95c5a68183e336f84953f7aeb</CRC>
-        <Timestamp>131939405704440382</Timestamp>
-        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/603810-1010-oldskool-mods-autoequip-artylog-battle-ratings-more/</DevURL>
+        <Size>44400</Size>
+        <ZipFile>Ingame_Info_InBattle_Rating_OldSkool_v1.1.7_2019-09-18.zip</ZipFile>
+        <CRC>7cad359734bf4b33608d0bfcbb383c47</CRC>
+        <Timestamp>132133135908265885</Timestamp>
+        <DevURL>https://www.oldskool.vip/promod/ProMod.zip\r\nhttp://forum.worldoftanks.eu/index.php?/topic/603810-1010-oldskool-mods-autoequip-artylog-battle-ratings-more/</DevURL>
         <UpdateComment>2. URL for Oldskool mods: https://wgmods.net/search/?owner=38530</UpdateComment>
         <Dependencies>
           <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
@@ -469,10 +480,11 @@
         </Dependencies>
       </Package>
       <Package PackageName="Ingame_Info_InBattle_Rating_Protanki" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PROTanki" Type="single_dropdown1" Visible="True">
-        <Size>144885</Size>
-        <ZipFile>Ingame_Info_InBattle_Rating_Protanki_v1.6_1.6.0.4_2019-09-05.zip</ZipFile>
-        <CRC>8c2971e0d57f6db67c6b5196bc0d2c79</CRC>
-        <Timestamp>132121468935332082</Timestamp>
+        <Size>145123</Size>
+        <Version>1.7</Version>
+        <ZipFile>Ingame_Info_InBattle_Rating_Protanki_v1.7_1.6.0.7_2019-09-17.zip</ZipFile>
+        <CRC>5b09a8d8d0d96e98d87f465a8a4c2efa</CRC>
+        <Timestamp>132132192819560070</Timestamp>
         <DevURL>https://protanki.tv/mods/battle_mod/kalkulyator-boevoi-effektivnosti</DevURL>
         <Description>Combat efficiency calculator for World of Tanks.\n\nMaud calculates the expected damage for each tank right during the battle.\n\nThe negative value of the damage shows how much you need to fill the damage so that its value is above average.\n\nHe considers the costs of silver spent in combat.</Description>
         <UpdateComment>2019-05-03: switched back from v1.2.1 to v1.2</UpdateComment>
@@ -486,12 +498,12 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Info_InBattle_Timer_lenya69" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InBattle timer by lenya69" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_InBattle_Timer_lenya69" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InBattle timer HARPOON" Type="multi" Visible="True">
     <Size>345572</Size>
     <ZipFile>Ingame_Info_InBattle_timer_upper_right_corner_by_lenya69_2017-08-29.zip</ZipFile>
     <CRC>f6f58e46448bd4e704e9319ffca3f416</CRC>
     <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1419789-</DevURL>
-    <Description>InBattle timer  in the upper right corner.\nPart of Harpoon Crosshair by lenya69 \nthanks Lenya for translation</Description>
+    <Description>InBattle timer  in the upper right corner.\r\n\nPart of Harpoon Crosshair by lenya69 \nthanks Lenya for translation</Description>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_InBattle_timer_upper_right_corner_by_lenya69_2017-07-06.jpg" MediaType="Picture" />
     </Medias>
@@ -578,14 +590,14 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Info_prem_Shell_Visibility" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Gold Ammo Visibility Mod by lgfrbcsgo" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_prem_Shell_Visibility" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Gold Ammo Visibility Mod" Type="multi" Visible="True">
     <Size>941534</Size>
     <Version>2.0.18</Version>
     <ZipFile>Ingame_Info_prem_Shell_Visibility_base_1.6.0.0_2019-08-11.zip</ZipFile>
     <CRC>94c8d044f894e39f3742ed383e8de81e</CRC>
     <Timestamp>132099653041637259</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/669824-</DevURL>
-    <Description>Features\n- Changes the color of hit effects\n- Multiple colors choices available\n- Works for all tanks in both teams\n- Recolors penetrating hits, bouncing shots, ricochets, shots hitting the ground or other objects\n- Does NOT recolor none penetrating hits or shots into water\n\nThis mod adds a short sparkling effect to penetrating APCR/HEAT hits. Not only will you be able to tell if an enemy tank is shooting gold rounds at your allied tanks (or at you), but also if one of your allies is a gold spammer. This information will help you determining whether to engage or not to engage an enemy.\n\nFAQ\nQ: The Mod isn't working.\nA: Make sure Extra Effects are enabled in the settings under Graphics.</Description>
+    <Description>Features\n- Changes the color of hit effects\n- Multiple colors choices available\n- Works for all tanks in both teams\n- Recolors penetrating hits, bouncing shots, ricochets, shots hitting the ground or other objects\n- Does NOT recolor none penetrating hits or shots into water\n\nThis mod adds a short sparkling effect to penetrating APCR/HEAT hits. Not only will you be able to tell if an enemy tank is shooting gold rounds at your allied tanks (or at you), but also if one of your allies is a gold spammer. This information will help you determining whether to engage or not to engage an enemy.\n\nFAQ\nQ: The Mod isn't working.\nA: Make sure Extra Effects are enabled in the settings under Graphics.\r\n\r\n\r\nby lgfrbcsgo</Description>
     <UpdateComment>additional URLs \n\nwgmods: https://wgmods.net/1233/details\ngerman: http://forum.worldoftanks.eu/index.php?/topic/672149-</UpdateComment>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_prem_Shell_Visibility/Ingame_Info_prem_Shell_Visibility_Yellow.jpg" MediaType="Picture" />
@@ -744,10 +756,11 @@
         </Dependencies>
       </Package>
       <Package PackageName="Ingame_Info_RTAN_Protanki" Enabled="True" InstallGroup="4" PatchGroup="4" Name="RTAN by protanki" Type="single_dropdown1" Visible="True">
-        <Size>759444</Size>
-        <ZipFile>Ingame_Info_RTAN_Protanki_v1.4_1.6.0.4_2019-09-05.zip</ZipFile>
-        <CRC>f3c03af1cbd34daf2cb6bc5103119481</CRC>
-        <Timestamp>132121469767566096</Timestamp>
+        <Size>758879</Size>
+        <Version>1.6</Version>
+        <ZipFile>Ingame_Info_RTAN_Protanki_v1.6_1.6.0.7_2019-09-17.zip</ZipFile>
+        <CRC>8ff2d50c79ce61c4c80a58bd4148154c</CRC>
+        <Timestamp>132132192535239871</Timestamp>
         <DevURL>https://protanki.tv/mods/battle_mod/mod-dostizheniya-v-bou</DevURL>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/RTAN_Protanki/Ingame_Info_RTAN_Protanki_00.jpg" MediaType="Picture" />
@@ -768,13 +781,13 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Info_Show_Personal_Missions_in_detail" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Show Personal Missions in Detail (&quot;Quests&quot; by izeberg)" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_Show_Personal_Missions_in_detail" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Show Personal Missions in Detail (&quot;Quests&quot;)" Type="multi" Visible="True">
     <Size>35833</Size>
     <ZipFile>Ingame_Info_Show_Personal_Missions_in_detail_1.6.0.0_2019-08-09.zip</ZipFile>
     <CRC>43bae97a156c864885a7de9120b3b40a</CRC>
     <Timestamp>132098277418467589</Timestamp>
     <DevURL>http://wotsite.net/mody-dlya-world-of-tanks/12268-</DevURL>
-    <Description>Shows primary and secondary conditions for Personal Missions\n\nThe mod window can be moved around the screen by holding down CTRL and dragging it using the mouse to the desired location.</Description>
+    <Description>Shows primary and secondary conditions for Personal Missions\n\nThe mod window can be moved around the screen by holding down CTRL and dragging it using the mouse to the desired location.\r\n\r\nby izeberg</Description>
     <UpdateComment>old link\nhttps://wgmods.net/523/details</UpdateComment>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_Show_Personal_Missions_in_detail_01.jpg" MediaType="Picture" />
@@ -912,26 +925,26 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Info_spotted_extended_light" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Spotted Extended Light (by Spoter)" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_spotted_extended_light" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Spotted Extended Light" Type="multi" Visible="True">
     <Size>8952</Size>
     <Version>4.07</Version>
     <ZipFile>Ingame_Info_spotted_extended_light_v4.07_1.6.0.2_2019-08-24.zip</ZipFile>
     <CRC>e5548ec1e6d120e85bbe9974ed8698a2</CRC>
     <Timestamp>132111039774581511</Timestamp>
     <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_spotted_extended_light</DevURL>
-    <Description>The mod will show who are you spotting, assisted spotting, damage done to tracked tanks, kills from your spotting.</Description>
+    <Description>The mod will show who are you spotting, assisted spotting, damage done to tracked tanks, kills from your spotting.\r\n\r\nby Spoter</Description>
     <Dependencies>
       <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="Ingame_Info_Shell_Info" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Shell Info by RaJCeL" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_Shell_Info" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Shell Info" Type="multi" Visible="True">
     <Size>16485</Size>
     <ZipFile>Ingame_Info_Shell_Info_by_Rajcel_1.6.0.4_2019-08-30.zip</ZipFile>
     <CRC>4a2765b3f848a28e1a257ff8b03564d4</CRC>
     <Timestamp>132116311536355226</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
-    <Description>in battle this mod shows the shell´s speed in the consumables infopanel.</Description>
+    <Description>in battle this mod shows the shell´s speed in the consumables infopanel.\r\n\r\nby RaJCeL</Description>
     <Medias>
       <Media URL="https://i.imgur.com/oRwESiT.png" MediaType="Picture" />
     </Medias>
