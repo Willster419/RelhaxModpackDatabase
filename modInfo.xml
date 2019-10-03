@@ -521,6 +521,15 @@
       <devURL>https://github.com/SEA-group/GIRLS-und-PANZER-UI</devURL>
     </dependency>
     <dependency>
+      <zipFile>Dependency_UI_Pharaon_1.6.0.8_2019-10-03.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_UI_Pharaon</packageName>
+      <timestamp>132145721457725466</timestamp>
+      <devURL>http://forum.worldoftanks.eu/index.php?/topic/541231-1608-interface</devURL>
+    </dependency>
+    <dependency>
       <zipFile>Dependency_xml_main_sound_modes_creating.zip</zipFile>
       <crc>c24f785d491b9cec76da0683abf21351</crc>
       <enabled>True</enabled>
@@ -35032,12 +35041,17 @@
               <name>____P_H_A_R_A_O_N____</name>
               <zipFile />
               <crc />
-              <enabled>False</enabled>
-              <visible>False</visible>
+              <enabled>True</enabled>
+              <visible>True</visible>
               <packageName>Garage_Graphics_UserInterface_Pharaon</packageName>
               <type>multi</type>
               <timestamp>131793446586313858</timestamp>
               <devURL>http://forum.worldoftanks.eu/index.php?/topic/541231-1608-interface/</devURL>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_UI_Pharaon</packageName>
+                </dependency>
+              </dependencies>
             </package>
             <package>
               <name>Old Store by goofy67</name>
