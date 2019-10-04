@@ -6,7 +6,7 @@
     <Dependency PackageName="Dependency_XVM_FLAGS_missing_pics_fix" NotFlag="False" Logic="OR" />
     <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missing_pics_fix" NotFlag="False" Logic="OR" />
   </Dependencies>
-  <Package PackageName="XVMPrebuiltConfigs_DefaultXVMConfig" Enabled="True" InstallGroup="4" PatchGroup="4" Name="1 - XVM Default" Type="single1" Visible="True">
+  <Package PackageName="XVMPrebuiltConfigs_Default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="1 - XVM Default" Type="single1" Visible="True">
     <Size>1101</Size>
     <Version>7.8.5</Version>
     <ZipFile>XVM_Prebuilt_Configs_Default_2017_03-24.zip</ZipFile>
@@ -127,7 +127,7 @@
           <Dependency PackageName="Dependency_Fonts_ANTIQUAB" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_Willster419XVMConfig" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Willster419 v{version}" Type="single_dropdown1" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_Willster419" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Willster419 v{version}" Type="single_dropdown1" Visible="True">
         <Size>96884</Size>
         <Version>2019-03-25</Version>
         <ZipFile>XVMPrebuiltConfigs_Willster419_2019-03-25.zip</ZipFile>
@@ -147,7 +147,7 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig" Enabled="True" InstallGroup="4" PatchGroup="4" Name="3 - OMC v{version}" Type="single1" Visible="True">
+  <Package PackageName="XVMPrebuiltConfigs_OMC" Enabled="True" InstallGroup="4" PatchGroup="4" Name="3 - OMC v{version}" Type="single1" Visible="True">
     <Size>1079988</Size>
     <Version>2019-06-30</Version>
     <ZipFile>XVMPrebuiltConfigs_OMC_REBUILT_2019-06-30.zip</ZipFile>
@@ -164,7 +164,7 @@
       <Dependency PackageName="Dependency_Fonts_Inconsolata" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_FocusShield_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMC_FocusShield_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
         <Size>495</Size>
         <CRC>f</CRC>
         <Timestamp>132066329239611191</Timestamp>
@@ -175,7 +175,7 @@
           <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_Focus_Shield" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_DamageImages_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Damage Images" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMC_DamageImages_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Damage Images" Type="multi" Visible="True">
         <Size>495</Size>
         <CRC>f</CRC>
         <Timestamp>132066329264125587</Timestamp>
@@ -186,7 +186,7 @@
           <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_Damage_Images" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_TurretMarkers_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Turret Markers" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMC_TurretMarkers_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Turret Markers" Type="multi" Visible="True">
         <Size>510</Size>
         <CRC>f</CRC>
         <Timestamp>132066329286346123</Timestamp>
@@ -194,7 +194,7 @@
           <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_Turret_Markers" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_XMQP_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable XMQP in markers" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMC_XMQP_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable XMQP in markers" Type="multi" Visible="True">
         <Size>480</Size>
         <CRC>f</CRC>
         <Timestamp>132066329311219562</Timestamp>
@@ -202,7 +202,7 @@
           <Dependency PackageName="Dependency_XVM_OTM_OMC_Enable_XMQP" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMCXVMConfig_Quikstat_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Quick Color Marker (Quickstat)" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMC_QuickStats_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Quick Color Marker (QuickStats)" Type="multi" Visible="True">
         <Size>490</Size>
         <CRC>f</CRC>
         <Timestamp>132066329487577626</Timestamp>
@@ -216,12 +216,19 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="XVMPrebuiltConfigs_BlankXVMConfig" Enabled="False" InstallGroup="4" PatchGroup="4" Name="4 - Blank XVM (all disabled)" Type="single1" Visible="False">
+  <Package PackageName="XVMPrebuiltConfigs_Blank" Enabled="False" InstallGroup="4" PatchGroup="4" Name="4 - Blank XVM (all disabled)" Type="single1" Visible="False">
     <Size>79082</Size>
     <ZipFile>XVMPrebuiltConfigs_Blank_2019_04-24.zip</ZipFile>
     <CRC>4ce7ea2473e86b324d7ed4ab11cd59fc</CRC>
     <Timestamp>132060224821686877</Timestamp>
     <Description>This is a blank xvm config.\nMost of the functions are disabled and can be enabled with the help of our xvm config builder.</Description>
+  </Package>
+  <Package PackageName="XVMPrebuiltConfigs_PURE" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PURE - only stats/colors" Type="single1" Visible="True">
+    <Size>90556</Size>
+    <ZipFile>XVMPrebuiltConfigs_PURE_2019_10-03.zip</ZipFile>
+    <CRC>ba02990923b7fc8558448071491f0d08</CRC>
+    <Timestamp>132145644795383081</Timestamp>
+    <Description>looks like vanilla - but with statistics</Description>
   </Package>
   <Package PackageName="XVMPrebuiltConfigs_Aslain" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Aslain v{version}" Type="single1" Visible="True">
     <Size>1007571</Size>
@@ -233,7 +240,7 @@
     <Description>Aslain´s Config</Description>
     <UpdateComment>https://wgmods.net/46/</UpdateComment>
   </Package>
-  <Package PackageName="XVMPrebuiltConfigs_BonesXVMConfig" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Bones v{version}" Type="single1" Visible="True">
+  <Package PackageName="XVMPrebuiltConfigs_Bones" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Bones v{version}" Type="single1" Visible="True">
     <Size>93266</Size>
     <Version>2019-05-17</Version>
     <ZipFile>XVMPrebuiltConfigs_Bones_2019-05-17.zip</ZipFile>
@@ -251,25 +258,25 @@
       <Media URL="http://i.imgur.com/4kAPdZQ.jpg" MediaType="Picture" />
     </Medias>
     <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_BonesXVMConfig_PlayersPanel_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="players panel 1" Type="single_dropdown1" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_Bones_PlayersPanel_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="players panel 1" Type="single_dropdown1" Visible="True">
         <Size>4468</Size>
         <ZipFile>XVMPrebuiltConfigs_Bones_players_panel_1_2018-03-27.zip</ZipFile>
         <CRC>9987bec79053801b88dd33a91155bd4c</CRC>
         <Timestamp>132060225226863478</Timestamp>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_BonesXVMConfig_PlayersPanel_2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="players panel 2" Type="single_dropdown1" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_Bones_PlayersPanel_2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="players panel 2" Type="single_dropdown1" Visible="True">
         <Size>4963</Size>
         <ZipFile>XVMPrebuiltConfigs_Bones_players_panel_2_2018-03-27.zip</ZipFile>
         <CRC>d8355de93ed3ee7a23fc1d173f9e2165</CRC>
         <Timestamp>132060225413404685</Timestamp>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_BonesXVMConfig_PlayersPanel_3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="players panel 3" Type="single_dropdown1" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_Bones_PlayersPanel_3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="players panel 3" Type="single_dropdown1" Visible="True">
         <Size>5028</Size>
         <ZipFile>XVMPrebuiltConfigs_Bones_players_panel_3_2018-03-27.zip</ZipFile>
         <CRC>ff1a5dd9a5a56a72b2c2930a96684b42</CRC>
         <Timestamp>132060225609570170</Timestamp>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_BonesXVMConfig_disable_stats" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable all stats" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_Bones_disable_stats" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable all stats" Type="multi" Visible="True">
         <Size>12833</Size>
         <Version>2018-03-21</Version>
         <ZipFile>XVMPrebuiltConfigs_Bones_disable_stats_2018-03-24.zip</ZipFile>
@@ -287,7 +294,7 @@
     <Timestamp>132060225954797346</Timestamp>
     <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
   </Package>
-  <Package PackageName="XVMPrebuiltConfigs_DruidsXVMConfig" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Druid v{version}" Type="single1" Visible="True">
+  <Package PackageName="XVMPrebuiltConfigs_Druid" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Druid v{version}" Type="single1" Visible="True">
     <Size>97788</Size>
     <Version>2019-05-17</Version>
     <ZipFile>XVMPrebuiltConfigs_Druids_2019-05-17.zip</ZipFile>
@@ -300,7 +307,7 @@
       <Media URL="http://i.imgur.com/e4WkGAf.jpg" MediaType="Picture" />
     </Medias>
     <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_DruidsXVMConfig_teQuilamaN_Markers" Enabled="True" InstallGroup="4" PatchGroup="4" Name="use teQuilamaN´s slightly different markers layout" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_Druid_teQuilamaN_Markers" Enabled="True" InstallGroup="4" PatchGroup="4" Name="use teQuilamaN´s slightly different markers layout" Type="multi" Visible="True">
         <Size>15771</Size>
         <ZipFile>XVM_Prebuilt_Configs_Druids_teQuilamaN_Markers_2019-02-26.zip</ZipFile>
         <CRC>47aa465fad480e58212eb33ebfc659c9</CRC>
@@ -357,7 +364,7 @@
       <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="XVMPrebuiltConfigs_J1mB0XVMConfig" Enabled="True" InstallGroup="4" PatchGroup="4" Name="J1mB0 v{version}" Type="single1" Visible="True">
+  <Package PackageName="XVMPrebuiltConfigs_J1mB0" Enabled="True" InstallGroup="4" PatchGroup="4" Name="J1mB0 v{version}" Type="single1" Visible="True">
     <Size>159562</Size>
     <Version>2019-05-11</Version>
     <ZipFile>XVMPrebuiltConfigs_J1mB0_2019-05-11.zip</ZipFile>
@@ -373,11 +380,11 @@
     </Medias>
   </Package>
   <Package PackageName="XVMPrebuiltConfigs_NDO" Enabled="True" InstallGroup="4" PatchGroup="4" Name="NDO / night_dragon_on v{version}" Type="single1" Visible="True">
-    <Size>91826</Size>
-    <Version>2019-06-26</Version>
-    <ZipFile>XVMPrebuiltConfigs_NDO_2019-06-26.zip</ZipFile>
-    <CRC>83e3d5c5a364376d3ccd4d34ec6b6092</CRC>
-    <Timestamp>132060211254348598</Timestamp>
+    <Size>92192</Size>
+    <Version>2019-10-01</Version>
+    <ZipFile>XVMPrebuiltConfigs_NDO_2019-10-01.zip</ZipFile>
+    <CRC>7849dfa72fced2ce410bd3b127518ca7</CRC>
+    <Timestamp>132144186345914361</Timestamp>
     <DevURL>https://bitbucket.org/AstaRom/xvm_config/downloads/</DevURL>
     <UpdateComment>https://koreanrandom.com/forum/topic/7378-781-120219-night_dragon_on-config-addons/\n\n2019-03-13: removed vehiclenames.xc</UpdateComment>
     <Medias>
@@ -389,10 +396,10 @@
     </Dependencies>
     <Packages>
       <Package PackageName="XVMPrebuiltConfigs_NDO_colorblind" Enabled="True" InstallGroup="4" PatchGroup="4" Name="colorblind version" Type="multi" Visible="True">
-        <Size>4320</Size>
-        <ZipFile>XVMPrebuiltConfigs_NDO_colorblind_2019-06-26.zip</ZipFile>
-        <CRC>304ea366ed16ce7d8da03a8b4415a91e</CRC>
-        <Timestamp>132060209196396142</Timestamp>
+        <Size>4336</Size>
+        <ZipFile>XVMPrebuiltConfigs_NDO_colorblind_2019-10-01.zip</ZipFile>
+        <CRC>692f2ad962265ecf8afdf96bc3b0e153</CRC>
+        <Timestamp>132144186387428964</Timestamp>
       </Package>
     </Packages>
   </Package>
@@ -407,11 +414,11 @@
     <UpdateComment>https://wgmods.net/532/\n\n2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
   </Package>
   <Package PackageName="XVMPrebuiltConfigs_quickybaby" Enabled="True" InstallGroup="4" PatchGroup="4" Name="QuickyBaby v{version}" Type="single1" Visible="True">
-    <Size>111359</Size>
-    <Version>2019-03-25</Version>
-    <ZipFile>XVMPrebuiltConfigs_QuickyBaby_2019-03-25.zip</ZipFile>
-    <CRC>2c7b2dd19ab767c74d319301f34ebb68</CRC>
-    <Timestamp>132060227218618036</Timestamp>
+    <Size>124263</Size>
+    <Version>2019-10-01</Version>
+    <ZipFile>XVMPrebuiltConfigs_QuickyBaby_2019-10-01.zip</ZipFile>
+    <CRC>29cc9937a234cf5c76f726b242ade71d</CRC>
+    <Timestamp>132144182052549223</Timestamp>
     <Description>Want to play as good as Quickybaby? Install his XVM config and get in the game!</Description>
     <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
     <Medias>
@@ -423,12 +430,12 @@
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_5.png" MediaType="Picture" />
     </Medias>
   </Package>
-  <Package PackageName="XVMPrebuiltConfigs_SoloXVMConfig" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Solo v{version}" Type="single1" Visible="True">
-    <Size>112305</Size>
-    <Version>2019-03-25</Version>
-    <ZipFile>XVMPrebuiltConfigs_Solo_2019-03-25.zip</ZipFile>
-    <CRC>a8a93f69f8d7ca0392c3432676e5f401</CRC>
-    <Timestamp>132060227390767863</Timestamp>
+  <Package PackageName="XVMPrebuiltConfigs_Solo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Solo v{version}" Type="single1" Visible="True">
+    <Size>123924</Size>
+    <Version>2019-10-01</Version>
+    <ZipFile>XVMPrebuiltConfigs_Solo_2019-10-01.zip</ZipFile>
+    <CRC>c584413fa574ebf6397686fc60358b2b</CRC>
+    <Timestamp>132144179449458249</Timestamp>
     <DevURL>http://soloviyko.com/solos-modpack/</DevURL>
     <Description>Solo XVM Config (minimap features always on)</Description>
     <UpdateComment>https://wgmods.net/37/\n\n2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>

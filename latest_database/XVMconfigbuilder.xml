@@ -315,32 +315,32 @@
       </Package>
       <Package PackageName="XVMConfigBuilder_ClanIcons_TopClansOnly" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Top Clans only (default)" Type="single_dropdown1" Visible="True" />
       <Package PackageName="XVMConfigBuilder_ClanIcons_fullEU" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Full EU stand: {version}" Type="single_dropdown1" Visible="True">
-        <Size>170042870</Size>
-        <Version>2018-12-04</Version>
-        <ZipFile>XVM_config_builder_clanicons-full-EU-2018-12-04.zip</ZipFile>
-        <CRC>97dc576e7ce183cd4d73658c0dd0eac7</CRC>
-        <Timestamp>131884492341540045</Timestamp>
+        <Size>206753768</Size>
+        <Version>2019-10-02</Version>
+        <ZipFile>XVM_config_builder_clanicons-full-EU-2019-10-02.zip</ZipFile>
+        <CRC>a9698cf3f58348ee96db66a054def37b</CRC>
+        <Timestamp>132145162174913695</Timestamp>
       </Package>
       <Package PackageName="XVMConfigBuilder_ClanIcons_fullNA" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Full NA stand: {version}" Type="single_dropdown1" Visible="True">
-        <Size>47911287</Size>
-        <Version>2018-12-04</Version>
-        <ZipFile>XVM_config_builder_clanicons-full-NA-2018-12-04.zip</ZipFile>
-        <CRC>7179cdf04a0253ab73a23e4bef46749b</CRC>
-        <Timestamp>131884492041680378</Timestamp>
+        <Size>57505809</Size>
+        <Version>2019-10-02</Version>
+        <ZipFile>XVM_config_builder_clanicons-full-NA-2019-10-02.zip</ZipFile>
+        <CRC>a8a2d44073aa0685339254ef5c640139</CRC>
+        <Timestamp>132145143687901795</Timestamp>
       </Package>
       <Package PackageName="XVMConfigBuilder_ClanIcons_fullRU" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Full RU stand: {version}" Type="single_dropdown1" Visible="True">
-        <Size>489074151</Size>
-        <Version>2018-12-04</Version>
-        <ZipFile>XVM_config_builder_clanicons-full-RU-2018-12-04.zip</ZipFile>
-        <CRC>406519e64ae3a2a330c7a6528a8cdd9e</CRC>
-        <Timestamp>131884492757230656</Timestamp>
+        <Size>573610741</Size>
+        <Version>2019-10-02</Version>
+        <ZipFile>XVM_config_builder_clanicons-full-RU-2019-10-02.zip</ZipFile>
+        <CRC>4f326e0c0605a7e2b1ae26093bbcee76</CRC>
+        <Timestamp>132145334508816203</Timestamp>
       </Package>
       <Package PackageName="XVMConfigBuilder_ClanIcons_fullASIA" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Full ASIA stand: {version}" Type="single_dropdown1" Visible="True">
-        <Size>17882401</Size>
-        <Version>2018-12-04</Version>
-        <ZipFile>XVM_config_builder_clanicons-full-ASIA-2018-12-04.zip</ZipFile>
-        <CRC>ef5ca299866a920228d8c9f6ba132c3d</CRC>
-        <Timestamp>131884493019627754</Timestamp>
+        <Size>22238386</Size>
+        <Version>2019-10-02</Version>
+        <ZipFile>XVM_config_builder_clanicons-full-ASIA-2019-10-02.zip</ZipFile>
+        <CRC>ce48c2b617469af1adbf064f409278f9</CRC>
+        <Timestamp>132145147137004867</Timestamp>
       </Package>
       <Package PackageName="XVMConfigBuilder_ClanIcons_PlayersIcon" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show PlayersIcon in new field (right to ClanIcons)" Type="multi" Visible="True">
         <Size>1003</Size>
@@ -1068,6 +1068,21 @@
             </Medias>
           </Package>
         </Packages>
+      </Package>
+      <Package PackageName="XVMConfigBuilder_BattleInterface_repairControl" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Repair Control" Type="multi" Visible="True">
+        <Size>220107</Size>
+        <ZipFile>XVMConfigBuilder_BattleInterface_repairControl_2019-10-02.zip</ZipFile>
+        <CRC>be6b25b3b543625b5b26f806fc736d95</CRC>
+        <Timestamp>132144713842746724</Timestamp>
+        <DevURL>https://koreanrandom.com/forum/topic/36840-repaircontrol-средствами-xvm/</DevURL>
+        <Description>shows a centered repair rose</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_repairControl_2.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_repairControl_1.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_PY_repairControl" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
       <Package PackageName="XVMConfigBuilder_BattleInterface_Scoreboard" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Scoreboard" Type="multi" Visible="True">
         <Description>Configure the scoreboard (the topmost interface component showing both teams alive or dead tanks)</Description>
