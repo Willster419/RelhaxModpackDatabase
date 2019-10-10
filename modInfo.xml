@@ -802,6 +802,15 @@
       </logicalDependencies>
     </dependency>
     <dependency>
+      <zipFile>Dependency_RaJCeL_inBattleStatistics_1.6.1.0_2019-10-10.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_RaJCeL_inBattleStatistics</packageName>
+      <timestamp>132151876376397575</timestamp>
+      <devURL>http://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel/</devURL>
+    </dependency>
+    <dependency>
       <zipFile>Dependency_Sounds_Increase_Sound_Memory_default_2019-08-14.zip</zipFile>
       <crc>f990b2997f2a423670550197948564f0</crc>
       <enabled>True</enabled>
@@ -19468,7 +19477,7 @@
           <zipFile>Ingame_Info_Crew_Skill_Informer_1.5.0_2019-05-14.zip</zipFile>
           <crc>f94f2e46c4d2940fd7676decc7c8a3ac</crc>
           <enabled>False</enabled>
-          <visible>True</visible>
+          <visible>False</visible>
           <packageName>Ingame_Info_Crew_Skill_Informer</packageName>
           <type>multi</type>
           <version>v1.2.1</version>
@@ -19482,6 +19491,25 @@
               <URL>http://i61.tinypic.com/34errds.jpg</URL>
             </media>
           </medias>
+        </package>
+        <package>
+          <name>show crew skills in battle (press "B")</name>
+          <zipFile>Ingame_Info_Crew_Skills_RaJCeL_enable_patch_2019-10-10.zip</zipFile>
+          <crc>f</crc>
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>Ingame_Info_Crew_Skills</packageName>
+          <type>multi</type>
+          <timestamp>132151878241119622</timestamp>
+          <description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing "B".</description>
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_RaJCel_Core</packageName>
+            </dependency>
+            <dependency>
+              <packageName>Dependency_RaJCeL_inBattleStatistics</packageName>
+            </dependency>
+          </dependencies>
         </package>
         <package>
           <name>Damage Indicator</name>
@@ -19793,6 +19821,24 @@
           </packages>
         </package>
         <package>
+          <name>show High Caliber info</name>
+          <zipFile>Ingame_Info_High_Caliber_RaJCeL_enable_patch_2019-10-10.zip</zipFile>
+          <crc>f</crc>
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>Ingame_Info_High_Caliber</packageName>
+          <type>multi</type>
+          <timestamp>132151880668307055</timestamp>
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_RaJCel_Core</packageName>
+            </dependency>
+            <dependency>
+              <packageName>Dependency_RaJCeL_inBattleStatistics</packageName>
+            </dependency>
+          </dependencies>
+        </package>
+        <package>
           <name>HP Bars</name>
           <zipFile />
           <crc>f</crc>
@@ -19987,14 +20033,14 @@
           <timestamp>131712253302348201</timestamp>
           <packages>
             <package>
-              <name>RaJCeL (Broken on NA server)</name>
-              <zipFile>Ingame_Info_InBattle_Rating_RaJCeL_1.6.1.0_2019-10-09.zip</zipFile>
+              <name>RaJCeL</name>
+              <zipFile>Ingame_Info_InBattle_Rating_RaJCeL_enable_patch_2019-10-10.zip</zipFile>
               <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_InBattle_Rating_RaJCeL</packageName>
               <type>single_dropdown1</type>
-              <timestamp>132150862761892835</timestamp>
+              <timestamp>132151877097756362</timestamp>
               <size>134099</size>
               <description>Mod is showing some statistics in battle and replays. Mod doesn’t need XVM to work.\r\n\r\nNot working on NA server as of 1.5.1 (06-15-2019)</description>
               <devURL>https://wgmods.net/2559/details\r\nhttp://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel/</devURL>
@@ -20010,6 +20056,9 @@
                 </dependency>
                 <dependency>
                   <packageName>Dependency_RaJCel_Core</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_RaJCeL_inBattleStatistics</packageName>
                 </dependency>
               </dependencies>
             </package>
@@ -20246,6 +20295,25 @@
             </dependency>
             <dependency>
               <packageName>Dependency_gambiter_guiflash</packageName>
+            </dependency>
+          </dependencies>
+        </package>
+        <package>
+          <name>show dealt damage/tank in players panel</name>
+          <zipFile>Ingame_Info_playersPanelDamage_RaJCeL_enable_patch_2019-10-10.zip</zipFile>
+          <crc>f</crc>
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>Ingame_Info_playersPanelDamage</packageName>
+          <type>multi</type>
+          <timestamp>132151882298354398</timestamp>
+          <devURL>http://wotsite.net/mody-dlya-world-of-tanks/12268-\r\nhttps://wgmods.net/523/details</devURL>
+          <dependencies>
+            <dependency>
+              <packageName>Dependency_RaJCel_Core</packageName>
+            </dependency>
+            <dependency>
+              <packageName>Dependency_RaJCeL_inBattleStatistics</packageName>
             </dependency>
           </dependencies>
         </package>
@@ -25004,7 +25072,7 @@
               <name>HD Minimap v{version} by ShuraBB</name>
               <zipFile>Ingame_Misc_HD_Minimap_G2.12_1.6.0.0_2019-08-08.zip</zipFile>
               <crc>05ed678e1f0209f244d04b4f3d2f6c35</crc>
-              <enabled>True</enabled>
+              <enabled>False</enabled>
               <visible>True</visible>
               <packageName>Ingame_Misc_HD_minimap</packageName>
               <type>single_dropdown1</type>
@@ -25048,14 +25116,13 @@
             </package>
             <package>
               <name>HD Minimap v{version} by Reven86 &amp; WOTInspector</name>
-              <zipFile>Ingame_Misc_WOTInspector_HD_Minimap_1.6.0.0_2019-08-08.zip</zipFile>
-              <crc>fdaccfab3d14832bbe4faee552abaede</crc>
+              <zipFile>Ingame_Misc_WOTInspector_HD_Minimap_1.6.1.0_2019-10-10.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Misc_HD_minimap_Reven86</packageName>
               <type>single_dropdown1</type>
-              <version>1.6</version>
-              <timestamp>132097651739069516</timestamp>
+              <timestamp>132151893849609611</timestamp>
               <size>106415401</size>
               <description>Changes minimaps to new HD maps.\nAll maps are created automatically.\nResolution is 2048x2048.\n\nImages are provided by wotinspector.com</description>
               <devURL>https://wgmods.net/434/details</devURL>
@@ -25080,14 +25147,13 @@
             </package>
             <package>
               <name>Tech HD Minimap v{version} by WOTInspector</name>
-              <zipFile>Ingame_Misc_WOTInspector_Tech_HD_Minimap_1.6.0.0_2019-08-08.zip</zipFile>
-              <crc>107390cf4f72d29b7daae86aa4c377c1</crc>
+              <zipFile>Ingame_Misc_WOTInspector_Tech_HD_Minimap_1.6.1.0_2019-10-10.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Misc_HD_minimap_Tech_WOTInspector</packageName>
               <type>single_dropdown1</type>
-              <version>1.6</version>
-              <timestamp>132097652058201010</timestamp>
+              <timestamp>132151894136738939</timestamp>
               <size>27201284</size>
               <description>Changes minimaps to new topographical (tech) maps.\n\nAll maps are created automatically using heights data of the maps.\n\nResolution 2048х2048.\n\nBenefits of using tech maps:\n- higher resolution 2048x2048\n- clear display of no-go areas\n- display of every bush, tree and destructible object\n- altitude display by color and isolines\n- every minimap is made in the same unique style because the images are generated by script\n\nSome indestructible objects are marked as destructibles due to limitations of the game client.\n\nImages are provided by wotinspector.com</description>
               <devURL>https://wgmods.net/433/details</devURL>
