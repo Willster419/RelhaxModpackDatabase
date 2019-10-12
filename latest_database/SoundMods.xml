@@ -9,23 +9,6 @@
       <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_larger_IO_stream" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="Sounds_Engines_HRMOD_GnomeFather_Zorgane" Enabled="True" InstallGroup="4" PatchGroup="4" Name="GnomeFather’s HRMOD Engines Sounds (reworked by Zorgane)  v{version}" Type="single_dropdown1" Visible="True">
-        <Size>32423</Size>
-        <Version>2.11B_1.6.0.8</Version>
-        <ZipFile>Sounds_HRMOD_Engine_Sounds_by_Zorgane_Only_Scripts_2.11B_1.6.0.8_2019-09-27.zip</ZipFile>
-        <CRC>8b3d09f8d6dc10607c54594343a78d5f</CRC>
-        <Timestamp>132140737198542923</Timestamp>
-        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/596268-</DevURL>
-        <Description>Dont forget : I (Zorgane) need reviews ! - use devolper website to do this please\r\nV. 2.07.4 Compatibility with 1.5.0.4\nV. 2.07 Patchnote Compatibility with 1.5.0.0\r\n-Fix for T-103 and TS-5\r\n-All XML have been rewritted, Battlehit is no longer in conflict.\r\n-A lot of guns sounds have been improved.\r\n-All XML for remodels have been updated (for actives modders).\r\n\r\nV. 2.06 Patchnote Compatibility with 1.4.1.0\nAdded : \nBeta engines sounds based on Gnomefather and Kriegstreiber work. \nOnly some tanks are available for now and I need to know your opinion about them.\nEngines for : \nTiger 131, HT n°6, Tiger I/II, Tiger (P), VK 4502 A/B, PzVII, Maus, E-75, E100, JpE100, VK3002 M/D, Panther I/II, E50, ARL 44, AMX M4 45/51/54/65t, AMX AC 46/50/B, Cromwell, AT 7/15, Centurion I, ST-I, T-10 (IS-8). \n\nNote : Scripts for remodels are unavailable for the moment.</Description>
-        <UpdateComment>V. 2.11B_1.6.0.8_2019-09-27\r\nCompatibility with 1.6.0.7 or something like that\r\nFix for some reported bugs\r\n2.11B_1.6.0.8 = 2.11_1.6.0.7\r\n\r\nV. 2.10 Patchnote Compatibility with 1.6.0.2\r\nFixed leopard engine sound\r\nFixed T-116 gun sound\r\nAdded 64bit memory profile\r\n\r\n\n2nd link(direct): https://www.mediafire.com/folder/dh5bf45314xfo/Gnomefather's_HRMOD\n\nown soundbanks by Zorgane:\naudioww\Zorg_Guns_Engines.bnk\naudioww\Zorg_Guns_Engines.pck\n\nmoded scripts\nscripts\item_defs\vehicles</UpdateComment>
-        <Medias>
-          <Media URL="http://image.noelshack.com/fichiers/2017/20/1495072185-config.jpg" MediaType="Picture" />
-          <Media URL="https://youtu.be/V7G2JDB07Lw?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_Sounds_HRMOD_Guns_n_Engine_SoundsBanks" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
       <Package PackageName="Sounds_AGQJ_Engines_SicFunzler" Enabled="True" InstallGroup="4" PatchGroup="4" Name="AGQJ Engines by SicFunzler" Type="single_dropdown1" Visible="True">
         <Size>7836</Size>
         <Version>v142</Version>
@@ -52,6 +35,40 @@
           <Dependency PackageName="Dependency_Sounds_AGQJ_Engines_Soundbanks" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="Sounds_Engines_by_Ed76na+Apa6ecka" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Engines by Ed76na &amp; Apa6ecka" Type="single_dropdown1" Visible="True">
+        <Size>21658356</Size>
+        <Version>1.2.0.1</Version>
+        <ZipFile>Sounds_Engines_GO_by_Ed76na+Apa6ecka_1.2.0.1_2018-10-18.zip</ZipFile>
+        <CRC>942fcf6e4b5137d576aecdcb13f9675b</CRC>
+        <Timestamp>131843677273540576</Timestamp>
+        <DevURL>http://forum.worldoftanks.ru/index.php?/topic/842096-</DevURL>
+        <Description>With Sound Event Injector; \n- great tool for modding sounds \n- no patches for the Events are needed \n\nNo PYmods_BanksLoader - only Patches to engine_config.xml\n\nUsable with WWIIHWA (no Bankloader - Patches used)\n- Sound Event Injector is compatible with WWIIHWA</Description>
+        <UpdateComment> (no original files by WG as template)\nGoogleDrive (from PY = Polyacov_Yury)\nhttps://drive.google.com/drive/folders/1T1gp79ZIifkhrU0WRfcInbhfQfiVVlIg\n\n1.2.0 = 1.1.0; 1.1.0.0: Soundbanks to Wwise 2017.2.5, new Soundbanks</UpdateComment>
+        <Medias>
+          <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="Sounds_Engines_HRMOD_GnomeFather_Zorgane" Enabled="False" InstallGroup="4" PatchGroup="4" Name="GnomeFather’s HRMOD Engines Sounds (reworked by Zorgane)  v{version}" Type="single_dropdown1" Visible="True">
+        <Size>32423</Size>
+        <Version>2.11B_1.6.0.8</Version>
+        <ZipFile>Sounds_HRMOD_Engine_Sounds_by_Zorgane_Only_Scripts_2.11B_1.6.0.8_2019-09-27.zip</ZipFile>
+        <CRC>8b3d09f8d6dc10607c54594343a78d5f</CRC>
+        <Timestamp>132140737198542923</Timestamp>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/596268-</DevURL>
+        <Description>Dont forget : I (Zorgane) need reviews ! - use devolper website to do this please\r\nV. 2.07.4 Compatibility with 1.5.0.4\nV. 2.07 Patchnote Compatibility with 1.5.0.0\r\n-Fix for T-103 and TS-5\r\n-All XML have been rewritted, Battlehit is no longer in conflict.\r\n-A lot of guns sounds have been improved.\r\n-All XML for remodels have been updated (for actives modders).\r\n\r\nV. 2.06 Patchnote Compatibility with 1.4.1.0\nAdded : \nBeta engines sounds based on Gnomefather and Kriegstreiber work. \nOnly some tanks are available for now and I need to know your opinion about them.\nEngines for : \nTiger 131, HT n°6, Tiger I/II, Tiger (P), VK 4502 A/B, PzVII, Maus, E-75, E100, JpE100, VK3002 M/D, Panther I/II, E50, ARL 44, AMX M4 45/51/54/65t, AMX AC 46/50/B, Cromwell, AT 7/15, Centurion I, ST-I, T-10 (IS-8). \n\nNote : Scripts for remodels are unavailable for the moment.</Description>
+        <UpdateComment>V. 2.11B_1.6.0.8_2019-09-27\r\nCompatibility with 1.6.0.7 or something like that\r\nFix for some reported bugs\r\n2.11B_1.6.0.8 = 2.11_1.6.0.7\r\n\r\nV. 2.10 Patchnote Compatibility with 1.6.0.2\r\nFixed leopard engine sound\r\nFixed T-116 gun sound\r\nAdded 64bit memory profile\r\n\r\n\n2nd link(direct): https://www.mediafire.com/folder/dh5bf45314xfo/Gnomefather's_HRMOD\n\nown soundbanks by Zorgane:\naudioww\Zorg_Guns_Engines.bnk\naudioww\Zorg_Guns_Engines.pck\n\nmoded scripts\nscripts\item_defs\vehicles</UpdateComment>
+        <Medias>
+          <Media URL="http://image.noelshack.com/fichiers/2017/20/1495072185-config.jpg" MediaType="Picture" />
+          <Media URL="https://youtu.be/V7G2JDB07Lw?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_Sounds_HRMOD_Guns_n_Engine_SoundsBanks" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
       <Package PackageName="Sounds_AGQJ_Engines_with_Soundinjektor_NOTES" Enabled="False" InstallGroup="4" PatchGroup="4" Name="NOTES: AGQJ Engines by Fedor Saveliev (SoundEventInjector)" Type="single_dropdown1" Visible="False">
@@ -84,27 +101,10 @@
         <Timestamp>131838128329867008</Timestamp>
         <DevURL>http://forum.worldoftanks.ru/index.php?/topic/842096-</DevURL>
         <Description>Sound Event Injector : \n\nWillster: \nI dont know what we do with tthe Sound Event Injector Versions (script-file)\nBank-loader isnt used here &amp; In Relhax - not necessary \n- take audio.xml/engine.config.xml\n\n (no original files by WG as template)</Description>
-        <UpdateComment>Dont use this version(PYmods_BanksLoader) with WWIIHWA: \n- Sound Event Injector is incompatible with WWIIHWA\n- "WoT-Circle": Restart -&gt; Crash -&gt; Restart -&gt; Crash....)\nSound Event Injector : \n- great tool for modding sounds \n- no patches are needed \n- updating get much easier &amp; faster</UpdateComment>
+        <UpdateComment>Dont use PYmods_BanksLoader with WWIIHWA: \n- Sound Event Injector is incompatible with WWIIHWA\n- "WoT-Circle": Restart -&gt; Crash -&gt; Restart -&gt; Crash....)\nSound Event Injector : \n- great tool for modding sounds \n- no patches are needed \n- updating get much easier &amp; faster</UpdateComment>
         <Medias>
           <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
         </Medias>
-      </Package>
-      <Package PackageName="Sounds_Engines_by_Ed76na+Apa6ecka" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Engines by Ed76na &amp; Apa6ecka" Type="single_dropdown1" Visible="True">
-        <Size>21658356</Size>
-        <Version>1.2.0.1</Version>
-        <ZipFile>Sounds_Engines_GO_by_Ed76na+Apa6ecka_1.2.0.1_2018-10-18.zip</ZipFile>
-        <CRC>942fcf6e4b5137d576aecdcb13f9675b</CRC>
-        <Timestamp>131843677273540576</Timestamp>
-        <DevURL>http://forum.worldoftanks.ru/index.php?/topic/842096-</DevURL>
-        <Description>With Sound Event Injector; \n- great tool for modding sounds \n- no patches for the Events are needed \n\nNo PYmods_BanksLoader - only Patches to engine_config.xml\n\nUsable with WWIIHWA (no Bankloader - Patches used)\n- Sound Event Injector is compatible with WWIIHWA</Description>
-        <UpdateComment> (no original files by WG as template)\nGoogleDrive (from PY = Polyacov_Yury)\nhttps://drive.google.com/drive/folders/1T1gp79ZIifkhrU0WRfcInbhfQfiVVlIg\n\n1.2.0 = 1.1.0; 1.1.0.0: Soundbanks to Wwise 2017.2.5, new Soundbanks</UpdateComment>
-        <Medias>
-          <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
-        </Dependencies>
       </Package>
     </Packages>
   </Package>
@@ -174,7 +174,7 @@
           <Media URL="https://youtu.be/kqOTdQ9OlIw?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
         </Medias>
       </Package>
-      <Package PackageName="Sounds_Gun_HRMOD_GnomeFather_Zorgane" Enabled="True" InstallGroup="4" PatchGroup="4" Name="GnomeFather’s HRMOD Gun Sounds (reworked by Zorgane)  v{version}" Type="single_dropdown1" Visible="True">
+      <Package PackageName="Sounds_Gun_HRMOD_GnomeFather_Zorgane" Enabled="False" InstallGroup="4" PatchGroup="4" Name="GnomeFather’s HRMOD Gun Sounds (reworked by Zorgane)  v{version}" Type="single_dropdown1" Visible="True">
         <Size>2973283</Size>
         <Version>2.11B_1.6.0.8</Version>
         <ZipFile>Sounds_HRMOD_Gun_Sounds_by_Zorgane_Only_Scripts_2.11B_1.6.0.8_2019-09-27.zip</ZipFile>
@@ -282,12 +282,13 @@
         </Medias>
       </Package>
       <Package PackageName="Sounds_WWIIHWA_Guns_by_KT+Budyx69" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WWIIHWA Gunsounds by Kriegstreiber &amp; Budyx69" Type="single_dropdown1" Visible="True">
-        <Size>15210161</Size>
-        <Version>4.06</Version>
-        <ZipFile>Sounds_WWIIHWA_Gunsounds_v4.06_1.1.0.0_2018-08-30.zip</ZipFile>
-        <CRC>b29793bd4086cfdbc40335e3f023e053</CRC>
-        <Timestamp>131801004413365208</Timestamp>
-        <UpdateComment>Update 4.06 [1.1.0.0]: Soundbanks to Wwise 2017.2.5, Soundbanks (new):  4.06</UpdateComment>
+        <Size>15210236</Size>
+        <Version>4.07</Version>
+        <ZipFile>Sounds_WWIIHWA_Gunsounds_v4.07_1.6.1.0_2019-10-11.zip</ZipFile>
+        <CRC>09dcabb75d058f6dd8f1456315a8a29c</CRC>
+        <Timestamp>132152502379007068</Timestamp>
+        <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+GunSounds&amp;order=name&amp;srt=yes\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
+        <UpdateComment>Update 4.07 [1.6.1.0]:  DualGunReload topic (maybe usefull for other gunssounds)\r\nscripts\item_defs\vehicles\common\gun_reload_effects.xml\dualgun_reload115_152\r\n\r\nUpdate 4.06 [1.1.0.0]: Soundbanks to Wwise 2017.2.5, Soundbanks (new):  4.06</UpdateComment>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Sounds_WWIIHWA_Guns_by_KT+Budyx69_Mod.png" MediaType="Picture" />
         </Medias>
@@ -385,7 +386,7 @@
               <Media URL="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Die_zwei_tv_1971.svg/429px-Die_zwei_tv_1971.svg.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Sounds_crew_sounds_oldskool_duke_nukem_german" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Duke Nukem Bruce Willis by Oldskool" Type="single1" Visible="True">
+          <Package PackageName="Sounds_crew_sounds_oldskool_duke_nukem_german" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Duke Nukem Bruce Willis by Oldskool" Type="single1" Visible="True">
             <Size>17417060</Size>
             <ZipFile>Sounds_Crew_Sounds_Duke_Nukem_by_Oldskool_german_1.1.0_2018-09-04.zip</ZipFile>
             <CRC>0d9213e0273e13ce6091bf95ebff5ea7</CRC>
@@ -461,7 +462,7 @@
                 <ZipFile>Sounds_Crew_Sounds_WWWIIHWA_by_Budyx69_(german)_2.15_1.1.0.0_2018-08-30.zip</ZipFile>
                 <CRC>70675629b537b4559828204c80cb7b61</CRC>
                 <Timestamp>131801005968484609</Timestamp>
-                <DevURL>http://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
+                <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ingame+Voices&amp;order=name&amp;srt=yes\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
                 <Description>\nBudyx69: voices from WWIIHWA\nanother dev URL:\nhttp://forum.worldoftanks.eu/index.php?/topic/449348-</Description>
                 <UpdateComment>Ask Filzi,Filzi, Doc73 and Budyx69 personal</UpdateComment>
                 <Medias>
@@ -583,7 +584,7 @@
               <Media URL="https://youtu.be/BurczXsbcM8" MediaType="Webpage" />
             </Medias>
           </Package>
-          <Package PackageName="Sounds_crew_sounds_MLG_Base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="MLG Mod by Aimdrol (English sound and text)" Type="single1" Visible="True">
+          <Package PackageName="Sounds_crew_sounds_MLG_Base" Enabled="False" InstallGroup="4" PatchGroup="4" Name="MLG Mod by Aimdrol (English sound and text)" Type="single1" Visible="True">
             <Size>26113604</Size>
             <ZipFile>Sounds_mlg_mod_voice_1.6.0.4_2019-08-31.zip</ZipFile>
             <CRC>fca1a0331ed59c676626cbecaf7e1a7f</CRC>
@@ -686,10 +687,10 @@
               </Package>
               <Package PackageName="Sounds_crew_sounds_Star_Trek" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Star Trek" Type="single_dropdown1" Visible="True">
                 <Size>2594110</Size>
-                <Version>v6</Version>
-                <ZipFile>Sounds_Crew_Sounds_Star_Trek_by_The_Illusive_Man_v6_2019-01-05.zip</ZipFile>
+                <Version>v6.1</Version>
+                <ZipFile>Sound_Mods_Crew_Sounds_Star_Trek_by_The_Illusive_Man_v6.1_2019-10-08.zip</ZipFile>
                 <CRC>acbcfc19722d03a101fe1c4e497ff3ab</CRC>
-                <Timestamp>131911553776852934</Timestamp>
+                <Timestamp>132150224087250086</Timestamp>
                 <DevURL>http://forum.worldoftanks.com/index.php?/topic/587664-star-trek-sound-mod/</DevURL>
                 <Description>Currently has:\n- Scotty\n- Sulu\n- Chekov\n- Bashir\n- The Doctor\n- Generic Klingons\n- Sela\n-Quark\n-Cooper\n-Q\n\nhttps://wgmods.net/2246/</Description>
                 <UpdateComment>2019-01-05_v6:\nAdded:\nBvat_02 [vo_vehile_destroyed/male]\nBvat_03 [vo_vehile_destroyed/male]\nCooper_008 [vo_armor_not_pierced_by_player/male]\nCooper_007 [vo_dp_player_joined_platoon, vo_dp_player_joined]\nCooper_006 [vo_target_captured]\nCooper_10 [vo_dp_assistance_been_requested]\nCooper_11 [vo_dp_player_joined_platoon, vo_dp_player_joined]\nCooper_013 [vo_dp_left_platoon]\nQuark_162 [vo_enemy_fire_started_by_player]\n\nRemoved:\nScotty_27 [Not relevent to WOT]\nHolo_Leeta_Dabo3 from vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player/male [Its only supposed to be played when a female crew is used] \nRemoved extra sound files\n\nModified:\nReduced Q Death sound [Too loud]\nAdded some Spock sounds to events properly [wherent playing]</UpdateComment>
@@ -783,16 +784,16 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Sounds_Kill" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Kill (UT Announcer)" Type="multi" Visible="True">
+  <Package PackageName="Sounds_Kill" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Kill (UT Announcer)" Type="multi" Visible="True">
     <Timestamp>131848541900323120</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/557716-</DevURL>
     <Description>UT Countdown:\nPlays certain sounds for when you get a certain number of kills in the game.</Description>
     <Packages>
-      <Package PackageName="Sounds_Kill_UT_Announcer_Base" Enabled="False" InstallGroup="4" PatchGroup="4" Name="UT Countdown" Type="single1" Visible="True">
-        <Size>1640839</Size>
-        <ZipFile>Sounds_Kill_UT_Announcer_by_budyx69_base_1.6.0.2_2019-08-22.zip</ZipFile>
-        <CRC>b821633307a7ba5b6e1cbe0f6e9808c0</CRC>
-        <Timestamp>132109544625627411</Timestamp>
+      <Package PackageName="Sounds_Kill_UT_Announcer_Base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="UT Countdown" Type="single1" Visible="True">
+        <Size>1640926</Size>
+        <ZipFile>Sounds_Kill_UT_Announcer_by_budyx69_base_1.6.1.0_2019-10-10.zip</ZipFile>
+        <CRC>e483c52b1d63ee1d9170e3827f45e6cc</CRC>
+        <Timestamp>132151915287520516</Timestamp>
         <DevURL>http://dieschwarzenschafe.com/download/</DevURL>
         <Packages>
           <Package PackageName="Sounds_Kill_UT_Announcer_Locastan" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Locastan original config" Type="single_dropdown1" Visible="True">
@@ -910,7 +911,7 @@
   </Package>
   <Package PackageName="Sounds_music" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Music" Type="multi" Visible="True">
     <Description>Full music with orchestra, Big Bands, Rock Bands, Heavy Metall, PC Games music etc.</Description>
-    <UpdateComment>Updated: 2018-01-11\r\n\r\nMaybe Trouble with Garage_Graphics_LoginBackground_Video: \r\n\taudioww\loginscreen.bnk</UpdateComment>
+    <UpdateComment>Maybe Trouble with Garage_Graphics_LoginBackground_Video: \r\n\taudioww\loginscreen.bnk</UpdateComment>
     <Dependencies>
       <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_larger_IO_stream" NotFlag="False" Logic="OR" />
     </Dependencies>
@@ -1234,6 +1235,7 @@
         <Packages>
           <Package PackageName="Sounds_music_Soundtracks_OldMemories" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Old Memories by DrWeb7_1" Type="single_dropdown1" Visible="True">
             <Size>193420421</Size>
+            <Version>5.0</Version>
             <ZipFile>Sound_Mods_Soundtracks_OldMemories_1.6.0.4_2019-08-30.zip</ZipFile>
             <CRC>a676f290dd7a6a6a8339c0599f28d7a2</CRC>
             <Timestamp>132116666040863017</Timestamp>
@@ -1245,27 +1247,29 @@
   </Package>
   <Package PackageName="Sounds_WWIIHWA_Ambiente" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WWIIHWA Ambiente v{version} by Budyx69" Type="multi" Visible="True">
     <Size>2605</Size>
-    <Version>6.14.2</Version>
+    <Version>6.15</Version>
     <ZipFile>WWIIHWA_Ambiente_6.Sinn_XVM-Out_Patch_2018-10-26.zip</ZipFile>
     <CRC>5979a4e3d7799a19dc9f7ec6d53af20f</CRC>
     <Timestamp>131850632069739711</Timestamp>
-    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
+    <DevURL>http://wwiihwa.blogspot.de/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
     <Description>WWIIHWA Ambiente by Budyx69 previous by Kriegstreiber\n\nUse WWIIHWA-Configuration.exe for settings, located in your WOT directory,</Description>
-    <UpdateComment>Update 6.8[1.1.0.0]: Soundbanks to Wwise 2017.2.5, Soundbanks (new):  6.8\n\nUpdate 6.6[1.0.1.0]: folder "resmods\versiondir\content" not used anymore (thx Budyx)\nUpdate 6.5[1.0.0.0]: Took Budyx69 idea of Rescue Pack, Zip-files are now divided in audioww parts and non-audioww paats could makes updates easier\n\nmay be outdated: 2017-12-22: Dont use Ed76na Sounds with WWIIHWA: \n- "WoT-Circle": Restart -&gt; Crash -&gt; Restart -&gt; Crash....</UpdateComment>
     <Medias>
       <Media URL="http://4.bp.blogspot.com/-oHguW5zMZbA/VHOCTNRTs3I/AAAAAAAABaM/v70vL_evqd8/s1600/WWIIHWA_Signature.png" MediaType="Picture" />
     </Medias>
+    <UserFiles>
+      <UserFile Pattern="\\res_mods\versiondir\\scripts\\client\\gui\\mods\\wwiihwa\\WWIIHWA.xml" />
+    </UserFiles>
     <Dependencies>
       <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_larger_IO_stream" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
       <Package PackageName="WWIIHWA_Ambiente_Base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WWIIHWA Ambiente Light" Type="multi" Visible="True">
-        <Size>2016524</Size>
-        <Version>6.14.2</Version>
-        <ZipFile>WWIIHWA_Ambiente_Base_No_Soundbanks_w_Patch_6.14.2_1.6.0.7_2019-09-19.zip</ZipFile>
-        <CRC>69117f40c2fd025c4f4748d92a164810</CRC>
-        <Timestamp>132133845600813830</Timestamp>
-        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
+        <Size>1924983</Size>
+        <Version>6.15</Version>
+        <ZipFile>WWIIHWA_Ambiente_Base_No_Soundbanks_w_Patch_6.15_1.6.1.0_2019-10-11.zip</ZipFile>
+        <CRC>0a801caa83e420a5eae79d96e314e23e</CRC>
+        <Timestamp>132152497798762153</Timestamp>
+        <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ambiente+Rescue+Pack&amp;order=name&amp;srt=yes\r\n</DevURL>
         <Description>Hangar Sounds: Hangar Ambiente between Standard and Premium, \nBattle Ambiente: Sounds in Battleground, \nDifferent Sounds and Crew Voices for: Gun reloaded, enemy sighted, 6. Sense, Battletimer Countdown in minutes, Cap Sirens (Own capping/ enemy capping) etc.</Description>
         <UpdateComment>2019-03-12 , 2019-02-09 , 2018-12-14 , 2018-08-31\nUpdate 6.11.1=6.11=6.10=6.9=6.8[1.1.0.0]: Soundbanks to Wwise 2017.2.5, Soundbanks (new):  6.8</UpdateComment>
         <Medias>
@@ -1277,8 +1281,8 @@
             <Version>6.10</Version>
             <ZipFile>WWIIHWA_Ambiente+GUI_Base_for_Full+Light_audioww_folder_6.8_1.1.0.0_2018-08-31.zip</ZipFile>
             <CRC>ceb157946bfa292a35c76add2d8dbb6a</CRC>
-            <Timestamp>131801810228319403</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
+            <Timestamp>132152498044791113</Timestamp>
+            <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ambiente+light&amp;order=name&amp;srt=yes</DevURL>
             <Description>WWIIHWA Ambiente by Budyx69\n\nUse WWIIHWA-Configuration.exe for settings, located in your WOT directory</Description>
             <UpdateComment>2018-12-14 , 2018-08-31\nUpdate 6.10=6.9=6.8[1.1.0.0]: Soundbanks to Wwise 2017.2.5, Soundbanks (new):  6.8</UpdateComment>
             <Medias>
@@ -1290,7 +1294,7 @@
       </Package>
       <Package PackageName="WWIIHWA_Music_and_Historical" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WWIIHWA Music and Historical  by Budyx69" Type="multi" Visible="True">
         <Version>6.10</Version>
-        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
+        <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA&amp;order=name&amp;srt=yes</DevURL>
         <Description>Play Music in Hangar, at battleloading, in Battle and at Battle result</Description>
         <UpdateComment>2018-12-14 , 2018-08-31\nUpdate 6.10=6.9=6.8[1.1.0.0]: Soundbanks to Wwise 2017.2.5, Soundbanks (new):  6.8</UpdateComment>
         <Medias>
@@ -1303,7 +1307,7 @@
             <ZipFile>WWIIHWA_Ambiente_historical_6.8_1.1.0.0_2018-08-31.zip</ZipFile>
             <CRC>d0746d4837561d359c94b0861ddd0ef0</CRC>
             <Timestamp>131801811757136617</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
+            <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ambiente&amp;order=name&amp;srt=yes</DevURL>
             <Description>WWIIHWA Historical music and speeches</Description>
             <UpdateComment>2018-12-14 , 2018-08-31\nUpdate 6.10=6.9=6.8[1.1.0.0]: Soundbanks to Wwise 2017.2.5, Soundbanks (new):  6.8</UpdateComment>
             <Medias>
