@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Designs\TheIllusion\PmodIMAGE1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Designs\TheIllusion\PmodWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -74,6 +78,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Designs\TheIllusion\PmodIMAGE1.xaml.cs">
+      <DependentUpon>PmodIMAGE1.xaml</DependentUpon>
     </Compile>
     <Compile Include="Designs\TheIllusion\PmodWindow.xaml.cs">
       <DependentUpon>PmodWindow.xaml</DependentUpon>

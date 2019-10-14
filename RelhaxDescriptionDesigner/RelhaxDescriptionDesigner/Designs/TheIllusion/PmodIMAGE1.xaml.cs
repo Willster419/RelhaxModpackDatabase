@@ -15,19 +15,13 @@ using System.Windows.Shapes;
 namespace RelhaxDescriptionDesigner.Designs.TheIllusion
 {
     /// <summary>
-    /// Interaction logic for PmodWindow.xaml
+    /// Interaction logic for PmodIMAGE1.xaml
     /// </summary>
-    public partial class PmodWindow : Window
+    public partial class PmodIMAGE1 : Window
     {
-        public PmodWindow()
+        public PmodIMAGE1()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Designs.TheIllusion.PmodIMAGE1 pmodAuthorImage = new Designs.TheIllusion.PmodIMAGE1();
-            pmodAuthorImage.Show();
         }
     }
 }
