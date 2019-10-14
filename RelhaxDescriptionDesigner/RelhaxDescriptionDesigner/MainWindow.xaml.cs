@@ -36,5 +36,11 @@ namespace RelhaxDescriptionDesigner
         {
             System.Diagnostics.Process.Start(e.Uri.ToString());
         }
+
+        private void PMOD_Click(object sender, RoutedEventArgs e)
+        {
+            Designs.TheIllusion.Test_Astro testAstro = new Designs.TheIllusion.Test_Astro();
+            testAstro.Show();
+        }
     }
 }

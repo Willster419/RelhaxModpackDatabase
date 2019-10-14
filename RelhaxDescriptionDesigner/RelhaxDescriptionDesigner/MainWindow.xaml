@@ -52,10 +52,6 @@
         </FlowDocumentScrollViewer>
         <!-- Note that this is just like XML in that you can make comments in your xaml! :)-->
         <Button x:Name="WillstersFirstWindow" Content="Willster's first window" HorizontalAlignment="Left" Margin="0,235,0,0" VerticalAlignment="Top" Width="135" Click="WillstersFirstWindow_Click"/>
-        <Button Content="PMOD" HorizontalAlignment="Left" Margin="135,235,0,0" VerticalAlignment="Top" Width="75">
-            <Button.DataContext>
-                <TheIllusion:Test_Astro/>
-            </Button.DataContext>
-        </Button>
+        <Button x:Name="PMOD" Content="PMOD" HorizontalAlignment="Left" Margin="135,235,0,0" VerticalAlignment="Top" Width="75" Click="PMOD_Click"/>
     </Grid>
 </Window>
