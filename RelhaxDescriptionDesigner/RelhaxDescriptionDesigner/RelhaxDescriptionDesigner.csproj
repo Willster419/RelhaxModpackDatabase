@@ -55,11 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Designs\TheIllusion\Test_Astro.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Designs\TheIllusion\Test_Astro_BUTTON.xaml">
+    <Page Include="Designs\TheIllusion\PmodWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -79,11 +75,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Designs\TheIllusion\Test_Astro.xaml.cs">
-      <DependentUpon>Test_Astro.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Designs\TheIllusion\Test_Astro_BUTTON.xaml.cs">
-      <DependentUpon>Test_Astro_BUTTON.xaml</DependentUpon>
+    <Compile Include="Designs\TheIllusion\PmodWindow.xaml.cs">
+      <DependentUpon>PmodWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Designs\Willster419\FirstFlowDocument.xaml.cs">
       <DependentUpon>FirstFlowDocument.xaml</DependentUpon>
