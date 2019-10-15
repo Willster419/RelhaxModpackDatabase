@@ -15,29 +15,17 @@ using System.Windows.Shapes;
 namespace RelhaxDescriptionDesigner.Designs.TheIllusion
 {
     /// <summary>
-    /// Interaction logic for PmodWindow.xaml
+    /// Interaction logic for PMOD_ReplayFreecam.xaml
     /// </summary>
-    public partial class PmodWindow : Window
+    public partial class PMOD_ReplayFreecam : Window
     {
-        public PmodWindow()
+        public PMOD_ReplayFreecam()
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Designs.TheIllusion.PmodIMAGE1 pmodAuthorImage = new Designs.TheIllusion.PmodIMAGE1();
-            pmodAuthorImage.Show();
-        }
-
         private void CloseWindow_CanExec(object sender, CanExecuteRoutedEventArgs e) => e.CanExecute = true;
 
         private void CloseWindow_Exec(object sender, ExecutedRoutedEventArgs e) => SystemCommands.CloseWindow(this);
 
-        private void Click_PMOD_ReplayFreecam(object sender, RoutedEventArgs e)
-        {
-            Designs.TheIllusion.PMOD_ReplayFreecam pmodReplayFreecam = new Designs.TheIllusion.PMOD_ReplayFreecam();
-            pmodReplayFreecam.Show();
-        }
     }
 }

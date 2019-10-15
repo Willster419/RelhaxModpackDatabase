@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RelhaxDescriptionDesigner.Designs.TheIllusion"
         mc:Ignorable="d"
-        Title="PmodWindow" Height="450" Width="800" MinHeight="300" MinWidth="400" Background="#FF1B9EDA" WindowStyle="ToolWindow">
+        Title="PmodWindow" Height="450" Width="800" MinHeight="300" MinWidth="400" WindowStyle="ToolWindow">
     <Window.CommandBindings>
         <CommandBinding Command="{x:Static SystemCommands.CloseWindowCommand}" 
                         CanExecute="CloseWindow_CanExec" 
@@ -14,12 +14,42 @@
     <Grid>
         <FlowDocumentScrollViewer HorizontalAlignment="Stretch" Height="230" VerticalAlignment="Top">
             <FlowDocument FontSize="12">
-                <Paragraph TextAlignment="Left">
+                <Paragraph TextAlignment="Center">
                     <Run Text="&quot;PMOD&quot; is a mod that allows for alot of configuration of the game. All of which should be vanilla."/>
                 </Paragraph>
+                <Paragraph TextAlignment="Left">
+                    <Run Text="PMOD has the following options:"/>
+                </Paragraph>
+                <List Margin="0,0,0,5">
+                    <ListItem>
+                        <Paragraph>
+                            Replay Freecam
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Server Reticle
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Zoom Options
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            HP Pools
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Run Text="Statistics"/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
             </FlowDocument>
         </FlowDocumentScrollViewer>
-        <Button Content="Author Image" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="78" Click="Button_Click"/>
         <Button Tag="DiscritionClose_NOTIMPLEMENTED"  Content="Close" Command="{x:Static SystemCommands.CloseWindowCommand}" HorizontalAlignment="Left" Margin="611,359,0,0" VerticalAlignment="Top" Width="171" Height="60" IsCancel="True"/>
+        <Button Content="Replay Freecam" Click="Click_PMOD_ReplayFreecam" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,165" Width="115"/>
     </Grid>
 </Window>
