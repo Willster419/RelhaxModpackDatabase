@@ -19860,44 +19860,56 @@
           </medias>
         </package>
         <package>
-          <name>Crew Skill Informer</name>
-          <zipFile>Ingame_Info_Crew_Skill_Informer_v1.2.3_1.6.1.0_2019-10-13.zip</zipFile>
-          <crc>4ee7985f39b3e61db9fe5f39270e1374</crc>
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>Ingame_Info_Crew_Skill_Informer</packageName>
-          <type>multi</type>
-          <version>v1.2.3 (1.6.1.0)</version>
-          <timestamp>132154472568323539</timestamp>
-          <size>213704</size>
-          <description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing backspace.\r\n\r\nby Voytello and Dumadidak</description>
-          <devURL>http://forum.worldoftanks.eu/index.php?/topic/481984-\r\nhttp://www.mediafire.com/file/52exewkcvq72xrt/1.5.0.0_Crew+Skill+Informer.zip</devURL>
-          <medias>
-            <media>
-              <type>1</type>
-              <URL>http://i61.tinypic.com/34errds.jpg</URL>
-            </media>
-          </medias>
-        </package>
-        <package>
-          <name>show crew skills in battle (press "B")</name>
+          <name>Crew Info</name>
           <zipFile>Ingame_Info_Crew_Skills_RaJCeL_enable_patch_2019-10-10.zip</zipFile>
           <crc>712adc3d812fe4cd9f25884de5afde92</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Ingame_Info_Crew_Skills</packageName>
+          <packageName>Ingame_Info_Crew</packageName>
           <type>multi</type>
           <timestamp>132151878241119622</timestamp>
-          <size>535</size>
-          <description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing "B".</description>
-          <dependencies>
-            <dependency>
-              <packageName>Dependency_RaJCel_Core</packageName>
-            </dependency>
-            <dependency>
-              <packageName>Dependency_RaJCeL_inBattleStatistics</packageName>
-            </dependency>
-          </dependencies>
+          <packages>
+            <package>
+              <name>crew skills in battle (press "B")</name>
+              <zipFile>Ingame_Info_Crew_CrewSkills_RaJCeL_enable_patch_2019-10-10.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Info_Crew_CrewSkills</packageName>
+              <type>single_dropdown1</type>
+              <timestamp>132156367025308639</timestamp>
+              <size>535</size>
+              <description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing "B".</description>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependency_RaJCel_Core</packageName>
+                </dependency>
+                <dependency>
+                  <packageName>Dependency_RaJCeL_inBattleStatistics</packageName>
+                </dependency>
+              </dependencies>
+            </package>
+            <package>
+              <name>"Crew Skill Informer"</name>
+              <zipFile>Ingame_Info_CrewSkillInformer_v1.2.3_1.6.1.0_2019-10-13.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Info_Crew_CrewSkillInformer</packageName>
+              <type>single_dropdown1</type>
+              <version>v1.2.3</version>
+              <timestamp>132156367346160876</timestamp>
+              <size>213704</size>
+              <description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing backspace.\r\n\r\nby Voytello and Dumadidak</description>
+              <devURL>http://forum.worldoftanks.eu/index.php?/topic/481984-\r\nhttp://www.mediafire.com/file/52exewkcvq72xrt/1.5.0.0_Crew+Skill+Informer.zip</devURL>
+              <medias>
+                <media>
+                  <type>1</type>
+                  <URL>http://i61.tinypic.com/34errds.jpg</URL>
+                </media>
+              </medias>
+            </package>
+          </packages>
         </package>
         <package>
           <name>Damage Indicator</name>
