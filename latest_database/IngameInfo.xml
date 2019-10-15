@@ -170,28 +170,39 @@
       <Media URL="https://wotspeak.org/uploads/posts/2015-10/1445335476_shot_013.jpg" MediaType="Picture" />
     </Medias>
   </Package>
-  <Package PackageName="Ingame_Info_Crew_Skill_Informer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Crew Skill Informer" Type="multi" Visible="True">
-    <Size>213704</Size>
-    <Version>v1.2.3 (1.6.1.0)</Version>
-    <ZipFile>Ingame_Info_Crew_Skill_Informer_v1.2.3_1.6.1.0_2019-10-13.zip</ZipFile>
-    <CRC>4ee7985f39b3e61db9fe5f39270e1374</CRC>
-    <Timestamp>132154472568323539</Timestamp>
-    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/481984-\r\nhttp://www.mediafire.com/file/52exewkcvq72xrt/1.5.0.0_Crew+Skill+Informer.zip</DevURL>
-    <Description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing backspace.\r\n\r\nby Voytello and Dumadidak</Description>
-    <Medias>
-      <Media URL="http://i61.tinypic.com/34errds.jpg" MediaType="Picture" />
-    </Medias>
-  </Package>
-  <Package PackageName="Ingame_Info_Crew_Skills" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show crew skills in battle (press &quot;B&quot;)" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_Crew" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Crew Info" Type="multi" Visible="True">
     <Size>535</Size>
     <ZipFile>Ingame_Info_Crew_Skills_RaJCeL_enable_patch_2019-10-10.zip</ZipFile>
     <CRC>712adc3d812fe4cd9f25884de5afde92</CRC>
     <Timestamp>132151878241119622</Timestamp>
-    <Description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing "B".</Description>
-    <Dependencies>
-      <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
-    </Dependencies>
+    <Packages>
+      <Package PackageName="Ingame_Info_Crew_CrewSkills" Enabled="True" InstallGroup="4" PatchGroup="4" Name="crew skills in battle (press &quot;B&quot;)" Type="single_dropdown1" Visible="True">
+        <Size>535</Size>
+        <ZipFile>Ingame_Info_Crew_CrewSkills_RaJCeL_enable_patch_2019-10-10.zip</ZipFile>
+        <CRC>712adc3d812fe4cd9f25884de5afde92</CRC>
+        <Timestamp>132156367025308639</Timestamp>
+        <Description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing "B".</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_Crew_CrewSkills.png" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="Ingame_Info_Crew_CrewSkillInformer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Crew Skill Informer&quot;" Type="single_dropdown1" Visible="True">
+        <Size>213704</Size>
+        <Version>v1.2.3</Version>
+        <ZipFile>Ingame_Info_CrewSkillInformer_v1.2.3_1.6.1.0_2019-10-13.zip</ZipFile>
+        <CRC>4ee7985f39b3e61db9fe5f39270e1374</CRC>
+        <Timestamp>132156367346160876</Timestamp>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/481984-\r\nhttp://www.mediafire.com/file/52exewkcvq72xrt/1.5.0.0_Crew+Skill+Informer.zip</DevURL>
+        <Description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing backspace.\r\n\r\nby Voytello and Dumadidak</Description>
+        <Medias>
+          <Media URL="http://i61.tinypic.com/34errds.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+    </Packages>
   </Package>
   <Package PackageName="Ingame_Info_DamageIndicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Indicator" Type="multi" Visible="True">
     <Description>Changes the look of the damage indicators when you are shot</Description>
