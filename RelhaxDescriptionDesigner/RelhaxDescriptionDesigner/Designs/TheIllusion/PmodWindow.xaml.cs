@@ -39,5 +39,11 @@ namespace RelhaxDescriptionDesigner.Designs.TheIllusion
             Designs.TheIllusion.PMOD_ReplayFreecam pmodReplayFreecam = new Designs.TheIllusion.PMOD_ReplayFreecam();
             pmodReplayFreecam.Show();
         }
+        private void Click_PMOD_ServerReticle(object sender, RoutedEventArgs e)
+        {
+            Designs.TheIllusion.PMOD_ServerReticle pmodServerReticle = new Designs.TheIllusion.PMOD_ServerReticle();
+            pmodServerReticle.Show();
+        }
+
     }
 }
