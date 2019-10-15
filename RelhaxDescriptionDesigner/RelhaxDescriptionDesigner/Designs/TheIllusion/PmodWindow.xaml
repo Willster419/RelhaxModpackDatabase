@@ -21,11 +21,11 @@
                     <Run Text="PMOD has the following options:"/>
                 </Paragraph>
                 <List Margin="0,0,0,5">
-                     <ListItem>
+                    <ListItem>
                         <Paragraph>
-                                Replay Freecam
+                            Replay Freecam
                         </Paragraph>
-                        </ListItem>
+                    </ListItem>
                     <ListItem>
                         <Paragraph>
                             Server Reticle
@@ -43,12 +43,13 @@
                     </ListItem>
                     <ListItem>
                         <Paragraph>
-                            Statistics
+                            <Run Text="Statistics"/>
                         </Paragraph>
                     </ListItem>
                 </List>
             </FlowDocument>
         </FlowDocumentScrollViewer>
         <Button Tag="DiscritionClose_NOTIMPLEMENTED"  Content="Close" Command="{x:Static SystemCommands.CloseWindowCommand}" HorizontalAlignment="Left" Margin="611,359,0,0" VerticalAlignment="Top" Width="171" Height="60" IsCancel="True"/>
+        <Button Content="Replay Freecam" Click="Click_PMOD_ReplayFreecam" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,165" Width="115"/>
     </Grid>
 </Window>

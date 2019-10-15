@@ -33,5 +33,11 @@ namespace RelhaxDescriptionDesigner.Designs.TheIllusion
         private void CloseWindow_CanExec(object sender, CanExecuteRoutedEventArgs e) => e.CanExecute = true;
 
         private void CloseWindow_Exec(object sender, ExecutedRoutedEventArgs e) => SystemCommands.CloseWindow(this);
+
+        private void Click_PMOD_ReplayFreecam(object sender, RoutedEventArgs e)
+        {
+            Designs.TheIllusion.PmodWindow pmodReplayFreecam = new Designs.TheIllusion.PMOD_ReplayFreecam();
+            PMOD_ReplayFreecam.Show();
+        }
     }
 }
