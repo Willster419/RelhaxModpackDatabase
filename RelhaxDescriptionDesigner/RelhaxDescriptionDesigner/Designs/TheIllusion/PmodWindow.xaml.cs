@@ -36,8 +36,8 @@ namespace RelhaxDescriptionDesigner.Designs.TheIllusion
 
         private void Click_PMOD_ReplayFreecam(object sender, RoutedEventArgs e)
         {
-            Designs.TheIllusion.PmodWindow pmodReplayFreecam = new Designs.TheIllusion.PMOD_ReplayFreecam();
-            PMOD_ReplayFreecam.Show();
+            Designs.TheIllusion.PMOD_ReplayFreecam pmodReplayFreecam = new Designs.TheIllusion.PMOD_ReplayFreecam();
+            pmodReplayFreecam.Show();
         }
     }
 }
