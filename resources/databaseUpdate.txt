@@ -1,34 +1,168 @@
 Database Update!
 
-New version tag: 1.6.1.1_2019-10-14_1
+New version tag: 1.6.1.1_2019-10-15_1
 
-Number of Added packages: 0
-Number of Updated packages: 8
+Number of Added packages: 32
+Number of Updated packages: 13
 Number of Disabled packages: 0
-Number of Removed packages: 0
-Number of Moved packages: 0
-Number of Renamed packages: 0
+Number of Removed packages: 28
+Number of Moved packages: 33
+Number of Renamed packages: 36
 Number of Internally renamed packages: 0
 
 Added:
+ - XVM config builder->Carousel
+ - XVM config builder->Carousel->disable XVM tank slot informations (use default)
+ - XVM config builder->Carousel->enable XVM tank slot information
+ - XVM config builder->Carousel->enable XVM tank slot information->Rows - use ingame setting
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->Battles Count->Enable
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->Battles Count->Disable
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->Win Rate->Enable
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->Win Rate->Disable
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->small sized
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->small sized->Win Rate
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->small sized->Win Rate->Enable
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->small sized->Win Rate->Disable
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->colorize names for tanks with limited matchmaking
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->by CaronteShinigami
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->by CaronteShinigami->1.0 Scale
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->by CaronteShinigami->colorize names for tanks with limited matchmaking
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->by CaronteShinigami->colorize names for tanks with limited matchmaking->green
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->"MaxData" by DivingDuck
+ - XVM config builder->statistics colorscale
+ - XVM config builder->statistics colorscale->no change  (using the selected config's colorscale or the  default one)
+ - XVM config builder->statistics colorscale->6-step XVM (default)
+ - XVM config builder->statistics colorscale->7-step WOTLABS old
+ - XVM config builder->statistics colorscale->9-step WOT-LIFE
+ - XVM config builder->statistics colorscale->10-step WOTLABS
+ - XVM config builder->Map Border Color
+ - XVM config builder->Map Border Color->green
+ - Ingame Info->Crew Info
+ - Ingame Info->Crew Info->crew skills in battle (press "B")
+ - Ingame Info->Crew Info->"Crew Skill Informer"
 
 Updated:
- - Dependency_XVM_Main_Files
- - LogicalDependency_lossless_battleAtlas_Images
- - LogicalDependency_Contour_Icon_Mod_mirror_hangar_no_XVM_clear
- - LogicalDependency_Contour_Icon_Mod_mirror_hangar_no_XVM_show_name
- - LogicalDependency_Contour_Icon_Mod_mirror_hangar_no_XVM_show_tier_name
- - LogicalDependency_Contour_Icon_Mod_mirror_battle_no_XVM_clear
- - LogicalDependency_Contour_Icon_Mod_mirror_battle_no_XVM_show_tier_name
- - XVM prebuilt configs->2 - Relhax developers:->elektrosmoker v2019-10-13
+ - Dependency_night_dragon_on_CoreMods
+ - XVM prebuilt configs->2 - Relhax developers:->123gauss (colorblind) v2019-10-15
+ - XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->colorize names for tanks with limited matchmaking->green
+ - Ingame Misc->Consumable Icons->Equipment and Consumable Icons->by DEbranded
+ - Garage Mods->Annoying Features Remover v [NDO Hangar Addons]
+ - Statistics->Garage Session Statistics->YasenKrasen v1.6.1.0->Language->TankSchmidt DaStats (English)
+ - Custom Tank Skins->China->Light->WZ-132->Star Wars Stormtrooper
+ - Custom Tank Skins->GB->Heavy->TOG II->Chewbacca
+ - Custom Tank Skins->GB->Tank Destroyer->FV217 Badger->Star Wars Han Solo
+ - Custom Tank Skins->Germany->Light->PZ I C->BB8
+ - Custom Tank Skins->USA->Light->T49->Star Wars Rey by Hellinger
+ - Custom Tank Skins->USSR->Heavy->IS-3->Luke Skywalker
+ - Custom Tank Skins->USSR->Heavy->KV-2->Darth Vader by Hellinger
 
 Renamed:
+ - "123gauss (colorblind) v2019-10-13" was renamed to "123gauss (colorblind) v2019-10-15"
+ - "Camera Settings" was renamed to "Camera"
+ - "Colorblind Patches for XVM" was renamed to "Colorblind"
+ - "Battle Interface modifications (xvm)" was renamed to "Battle Interface"
+ - "Battle Results modifications (xvm)" was renamed to "Battle Results"
+ - "Players Panel Modifications (xvm)" was renamed to "Players Panel"
+ - "Garage Interface Modifications (xvm)" was renamed to "Garage Interface"
+ - "Marker modifications (xvm) (Can Cause FPS loss)" was renamed to "Over-Taget-Marker OTM"
+ - "Login Modifications (xvm)" was renamed to "Login"
+ - "Minimap modifications (xvm)" was renamed to "Minimap"
+ - "Sound modifications (Custom sounds - !Experts Only!) (xvm)" was renamed to "Sound (!Experts Only!)"
+ - "Rows - 1" was renamed to "Rows - 1"
+ - "Rows - 2" was renamed to "Rows - 2"
+ - "Rows - 3" was renamed to "Rows - 3"
+ - "Rows - 4" was renamed to "Rows - 4"
+ - "Rows - 5" was renamed to "Rows - 5"
+ - "Saves Tanks marked as Reserve (& Crew Auto Return)" was renamed to "Saves Tanks marked as Reserve (& Crew Auto Return)"
+ - ""Restore Tank" cell" was renamed to ""Restore Tank" cell"
+ - ""Buy Tank" cell" was renamed to ""Buy Tank" cell"
+ - ""Buy Slot" cell" was renamed to ""Buy Slot" cell"
+ - "1.0 Scale" was renamed to "1.0 Scale"
+ - "0.8 scale" was renamed to "0.8 scale"
+ - "0.6 scale" was renamed to "0.6 scale"
+ - "Average Damage" was renamed to "Average Damage"
+ - "Enable" was renamed to "Enable"
+ - "Disable" was renamed to "Disable"
+ - "Battles Count" was renamed to "Battles Count"
+ - "Win Rate" was renamed to "Win Rate"
+ - "green" was renamed to "green"
+ - "0.8 Scale" was renamed to "0.8 Scale"
+ - "blue" was renamed to "blue"
+ - "purple" was renamed to "purple"
+ - "yellow" was renamed to "yellow"
+ - "orange" was renamed to "orange"
+ - "fuchsia" was renamed to "fuchsia"
+ - "aqua" was renamed to "aqua"
 
 Moved:
+ - "XVM config builder->Tank Carousel modifications (xvm)->"Restore Tank" cell->show the restore tank cell" was moved to "XVM config builder->Carousel->enable XVM tank slot information->"Restore Tank" cell->show the restore tank cell"
+ - "XVM config builder->Tank Carousel modifications (xvm)->"Restore Tank" cell->hide the restore tank cell" was moved to "XVM config builder->Carousel->enable XVM tank slot information->"Restore Tank" cell->hide the restore tank cell"
+ - "XVM config builder->Tank Carousel modifications (xvm)->"Buy Tank" cell->Hide cell" was moved to "XVM config builder->Carousel->enable XVM tank slot information->"Buy Tank" cell->Hide cell"
+ - "XVM config builder->Tank Carousel modifications (xvm)->"Buy Tank" cell->Show cell, hide total slots" was moved to "XVM config builder->Carousel->enable XVM tank slot information->"Buy Tank" cell->Show cell, hide total slots"
+ - "XVM config builder->Tank Carousel modifications (xvm)->"Buy Tank" cell->Show cell, show total slots" was moved to "XVM config builder->Carousel->enable XVM tank slot information->"Buy Tank" cell->Show cell, show total slots"
+ - "XVM config builder->Tank Carousel modifications (xvm)->"Buy Slot" cell->Hide cell" was moved to "XVM config builder->Carousel->enable XVM tank slot information->"Buy Slot" cell->Hide cell"
+ - "XVM config builder->Tank Carousel modifications (xvm)->"Buy Slot" cell->Show cell, hide total used slots" was moved to "XVM config builder->Carousel->enable XVM tank slot information->"Buy Slot" cell->Show cell, hide total used slots"
+ - "XVM config builder->Tank Carousel modifications (xvm)->"Buy Slot" cell->Show cell, show total used slots" was moved to "XVM config builder->Carousel->enable XVM tank slot information->"Buy Slot" cell->Show cell, show total used slots"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Rows - 1" was moved to "XVM config builder->Carousel->enable XVM tank slot information->Rows - 1"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Rows - 2" was moved to "XVM config builder->Carousel->enable XVM tank slot information->Rows - 2"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Rows - 3" was moved to "XVM config builder->Carousel->enable XVM tank slot information->Rows - 3"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Rows - 4" was moved to "XVM config builder->Carousel->enable XVM tank slot information->Rows - 4"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Rows - 5" was moved to "XVM config builder->Carousel->enable XVM tank slot information->Rows - 5"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Saves Tanks marked as Reserve (& Crew Auto Return)" was moved to "XVM config builder->Carousel->enable XVM tank slot information->Saves Tanks marked as Reserve (& Crew Auto Return)"
+ - "XVM config builder->Tank Carousel modifications (xvm)->"Restore Tank" cell" was moved to "XVM config builder->Carousel->enable XVM tank slot information->"Restore Tank" cell"
+ - "XVM config builder->Tank Carousel modifications (xvm)->"Buy Tank" cell" was moved to "XVM config builder->Carousel->enable XVM tank slot information->"Buy Tank" cell"
+ - "XVM config builder->Tank Carousel modifications (xvm)->"Buy Slot" cell" was moved to "XVM config builder->Carousel->enable XVM tank slot information->"Buy Slot" cell"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->1.0 Scale" was moved to "XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->1.0 Scale"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->0.8 scale" was moved to "XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->0.8 scale"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->0.6 scale" was moved to "XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->0.6 scale"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->Average Damage" was moved to "XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->Average Damage"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->Average Damage->Enable" was moved to "XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->Average Damage->Enable"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->Average Damage->Disable" was moved to "XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->Average Damage->Disable"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->Battles Count" was moved to "XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->Battles Count"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->Win Rate" was moved to "XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->normal sized->Win Rate"
+ - "XVM config builder->Bordercolor->green" was moved to "XVM config builder->Carousel->enable XVM tank slot information->tank slot content->modify default slots->colorize names for tanks with limited matchmaking->green"
+ - "XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->By CaronteShinigami->0.8 Scale" was moved to "XVM config builder->Carousel->enable XVM tank slot information->tank slot content->by CaronteShinigami->0.8 Scale"
+ - "XVM config builder->Bordercolor->blue" was moved to "XVM config builder->Map Border Color->blue"
+ - "XVM config builder->Bordercolor->purple" was moved to "XVM config builder->Map Border Color->purple"
+ - "XVM config builder->Bordercolor->yellow" was moved to "XVM config builder->Map Border Color->yellow"
+ - "XVM config builder->Bordercolor->orange" was moved to "XVM config builder->Map Border Color->orange"
+ - "XVM config builder->Bordercolor->fuchsia" was moved to "XVM config builder->Map Border Color->fuchsia"
+ - "XVM config builder->Bordercolor->aqua" was moved to "XVM config builder->Map Border Color->aqua"
 
 Disabled:
 
 Removed:
+ - XVM config builder->Tank Carousel modifications (xvm)
+ - XVM config builder->Tank Carousel modifications (xvm)->Disable XVM Tank Cells
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->Tanks with limited MM in different colors
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->Tanks with limited MM in different colors->Green
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->Battles Count->Enable
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->Battles Count->Disable
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->Win Rate->Enable
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Normal Style->Win Rate->Disable
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Small Style
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Small Style->Win Rate
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Small Style->Win Rate->Enable
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->From Prebuilt Config Selection->Small Style->Win Rate->Disable
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->By CaronteShinigami
+ - XVM config builder->Tank Carousel modifications (xvm)->Enable XVM Tank Cells->Modify Cell Content->By CaronteShinigami->1.0 Scale
+ - XVM config builder->Tank Carousel modifications (xvm)->Rows - Ingame setting
+ - XVM config builder->Statistics color step modifications (xvm)
+ - XVM config builder->Statistics color step modifications (xvm)->default config's colorscale
+ - XVM config builder->Statistics color step modifications (xvm)->6 step xvm colorscale
+ - XVM config builder->Statistics color step modifications (xvm)->7 step wotlabs old colorscale
+ - XVM config builder->Statistics color step modifications (xvm)->9 step wot-life colorscale
+ - XVM config builder->Statistics color step modifications (xvm)->10 step wotlabs colorscale
+ - XVM config builder->Bordercolor
+ - Ingame Info->Crew Skill Informer
+ - Ingame Info->show crew skills in battle (press "B")
 
 Notes:
  - 
