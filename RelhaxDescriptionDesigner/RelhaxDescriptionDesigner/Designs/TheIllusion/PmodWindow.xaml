@@ -5,7 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RelhaxDescriptionDesigner.Designs.TheIllusion"
         mc:Ignorable="d"
-        Title="PmodWindow" Height="450" Width="800" MinHeight="300" MinWidth="400" Background="#FF1B9EDA">
+        Title="PmodWindow" Height="450" Width="800" MinHeight="300" MinWidth="400" Background="#FF1B9EDA" WindowStyle="ToolWindow">
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static SystemCommands.CloseWindowCommand}" 
+                        CanExecute="CloseWindow_CanExec" 
+                        Executed="CloseWindow_Exec" />
+    </Window.CommandBindings>
     <Grid>
         <FlowDocumentScrollViewer HorizontalAlignment="Stretch" Height="230" VerticalAlignment="Top">
             <FlowDocument FontSize="12">
@@ -15,5 +20,6 @@
             </FlowDocument>
         </FlowDocumentScrollViewer>
         <Button Content="Author Image" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="78" Click="Button_Click"/>
+        <Button Content="Close" Command="{x:Static SystemCommands.CloseWindowCommand}" HorizontalAlignment="Left" Margin="611,359,0,0" VerticalAlignment="Top" Width="171" Height="60" IsCancel="True"/>
     </Grid>
 </Window>

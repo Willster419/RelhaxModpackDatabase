@@ -29,5 +29,12 @@ namespace RelhaxDescriptionDesigner.Designs.TheIllusion
             Designs.TheIllusion.PmodIMAGE1 pmodAuthorImage = new Designs.TheIllusion.PmodIMAGE1();
             pmodAuthorImage.Show();
         }
+
+        private void CloseWindow_CanExec(object sender, CanExecuteRoutedEventArgs e)
+        {
+            e.CanExecute = true;
+        }
+
+        private void CloseWindow_Exec(object sender, ExecutedRoutedEventArgs e) => SystemCommands.CloseWindow(this);
     }
 }
