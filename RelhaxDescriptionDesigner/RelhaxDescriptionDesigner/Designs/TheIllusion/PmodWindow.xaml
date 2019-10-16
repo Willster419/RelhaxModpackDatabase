@@ -12,7 +12,7 @@
                         Executed="CloseWindow_Exec" />
     </Window.CommandBindings>
     <Grid>
-        <FlowDocumentScrollViewer HorizontalAlignment="Stretch" Height="132" VerticalAlignment="Top">
+        <FlowDocumentScrollViewer HorizontalAlignment="Stretch" Height="132" VerticalAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Disabled">
             <FlowDocument FontSize="22">
                 <Paragraph TextAlignment="Center">
                     <Run Text="&quot;PMOD&quot; is a mod that allows for alot of configuration of the game. All of which should be vanilla."/>
@@ -22,7 +22,7 @@
                 </Paragraph>
             </FlowDocument>
         </FlowDocumentScrollViewer>
-        <Button Tag="DiscritionClose_NOTIMPLEMENTED"  Content="Close" Command="{x:Static SystemCommands.CloseWindowCommand}" HorizontalAlignment="Left" Margin="611,359,0,0" VerticalAlignment="Top" Width="171" Height="60" IsCancel="True"/>
+        <Button Tag="DiscritionClose_NOTIMPLEMENTED" Content="Close" Foreground="Black" Command="{x:Static SystemCommands.CloseWindowCommand}" HorizontalAlignment="Left" Margin="611,359,0,0" VerticalAlignment="Top" Width="171" Height="60" IsCancel="True"/>
         <Button Content="Replay Freecam" Click="Click_PMOD_ReplayFreecam" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,270" Width="190"/>
         <Button Content="Server Reticle" Click="Click_PMOD_ServerReticle" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,250" Width="190"/>
         <Button Content="Penetration Markers" Click="Click_PMOD_PenMarkers" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,230" Width="190"/>
