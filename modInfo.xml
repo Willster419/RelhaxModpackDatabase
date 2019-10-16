@@ -2146,682 +2146,33 @@
       </dependencies>
       <packages>
         <package>
-          <name>Camera</name>
+          <name>Battle Chat</name>
           <zipFile />
           <crc />
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMConfigBuilder_Camera</packageName>
+          <packageName>XVMconfigBuilder_battleChat</packageName>
           <type>multi</type>
-          <description>same settings that you also can set with PMOD (IngameAim). don´t use both methods at the same time!\n\nwe recommend using this, when xvm is activated.</description>
+          <timestamp>131812487015080046</timestamp>
+          <size>5211</size>
+          <description>modify the battlechat</description>
           <packages>
             <package>
-              <name>disable</name>
-              <zipFile>XVMConfigBuilder_Camera_disable.zip</zipFile>
-              <crc>d1f3700a87bb89e12a55fda57d3db968</crc>
+              <name>WN8-ChatColor</name>
+              <zipFile>XVMconfigBuilder_battleChat_wn8chatcolor_2019-06-24.zip</zipFile>
+              <crc>54096b3d59a3956a800e54e3d154a7f0</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMConfigBuilder_Camera_disable</packageName>
-              <type>single1</type>
-              <size>588</size>
-            </package>
-            <package>
-              <name>enable (not compatible to PMOD zoom options)</name>
-              <zipFile>XVMConfigBuilder_Camera_enable.zip</zipFile>
-              <crc>8061ad0814be86e20017050abe328236</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMConfigBuilder_Camera_enable</packageName>
-              <type>single1</type>
-              <size>585</size>
-              <description>if you are using xvm, we recommend using this camera options instead of PMOD.\ndont use pmod zoomoptions and xvm zoom options at the same time!</description>
-              <packages>
-                <package>
-                  <name>Zoom Options (xvm)</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_Zoom</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>scroll sensitivity (default 5)</name>
-                      <zipFile />
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity</packageName>
-                      <type>multi</type>
-                      <packages>
-                        <package>
-                          <name>4</name>
-                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_4.zip</zipFile>
-                          <crc>64bf3c23d47847fcb71f8dcb81e39c45</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_4</packageName>
-                          <type>single_dropdown1</type>
-                          <size>635</size>
-                        </package>
-                        <package>
-                          <name>5 (default)</name>
-                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_5.zip</zipFile>
-                          <crc>f619eef28462600f30dbf92cb26f76a7</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_5</packageName>
-                          <type>single_dropdown1</type>
-                          <size>635</size>
-                        </package>
-                        <package>
-                          <name>6</name>
-                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_6.zip</zipFile>
-                          <crc>8682fe3604ae9f52060805f1e778231d</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_6</packageName>
-                          <type>single_dropdown1</type>
-                          <size>635</size>
-                        </package>
-                        <package>
-                          <name>7</name>
-                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_7.zip</zipFile>
-                          <crc>3cb02b4bc211a5624888a6a9185f9315</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_7</packageName>
-                          <type>single_dropdown1</type>
-                          <size>635</size>
-                        </package>
-                        <package>
-                          <name>8</name>
-                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_8.zip</zipFile>
-                          <crc>90996f528d8fd6627db3687d2e95c392</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_8</packageName>
-                          <type>single_dropdown1</type>
-                          <size>635</size>
-                        </package>
-                        <package>
-                          <name>9</name>
-                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_9.zip</zipFile>
-                          <crc>197c1dc8e0cb853f7d52965adc36f974</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_9</packageName>
-                          <type>single_dropdown1</type>
-                          <size>635</size>
-                        </package>
-                        <package>
-                          <name>10</name>
-                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_10.zip</zipFile>
-                          <crc>6a6bf20cbeb8865ea1e3e2e72537d7aa</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_10</packageName>
-                          <type>single_dropdown1</type>
-                          <size>638</size>
-                        </package>
-                      </packages>
-                    </package>
-                    <package>
-                      <name>starting zoom (sniper mode)</name>
-                      <zipFile />
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_sniperStartZoom</packageName>
-                      <type>multi</type>
-                      <packages>
-                        <package>
-                          <name>last used zoom step</name>
-                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_null.zip</zipFile>
-                          <crc>3d138913a092f0df084b008d13e42ab1</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_null</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132004939220359753</timestamp>
-                          <size>621</size>
-                        </package>
-                        <package>
-                          <name>2x</name>
-                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_2.zip</zipFile>
-                          <crc>695b3fe5f9f35c965def10a31751c736</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_2</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132004939593970626</timestamp>
-                          <size>613</size>
-                        </package>
-                        <package>
-                          <name>4x</name>
-                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_4.zip</zipFile>
-                          <crc>ff7caad4c87f48f40403666876ac5dbc</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_4</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132004940981241310</timestamp>
-                          <size>614</size>
-                        </package>
-                        <package>
-                          <name>8x</name>
-                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_8.zip</zipFile>
-                          <crc>d01c5a9ffcb1bae3c9175a215abc35e5</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_8</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132004940869500127</timestamp>
-                          <size>614</size>
-                        </package>
-                        <package>
-                          <name>16x</name>
-                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_16.zip</zipFile>
-                          <crc>6718869aeb9f60f0a8c3dc24fb19390c</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_16</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132004940738191280</timestamp>
-                          <size>617</size>
-                        </package>
-                      </packages>
-                    </package>
-                    <package>
-                      <name>show zoom indicator</name>
-                      <zipFile />
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_zoomIndicator</packageName>
-                      <type>multi</type>
-                      <packages>
-                        <package>
-                          <name>disable</name>
-                          <zipFile>XVMConfigBuilder_Camera_zoomIndicator_disable.zip</zipFile>
-                          <crc>bc5fddd383207210a77a76c0ac948330</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_zoomIndicator_disable</packageName>
-                          <type>single_dropdown1</type>
-                          <size>626</size>
-                        </package>
-                        <package>
-                          <name>enable</name>
-                          <zipFile>XVMConfigBuilder_Camera_zoomIndicator_enable.zip</zipFile>
-                          <crc>47fdd7615b8b3dfd6470d2f940044d97</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_zoomIndicator_enable</packageName>
-                          <type>single_dropdown1</type>
-                          <size>624</size>
-                        </package>
-                      </packages>
-                    </package>
-                    <package>
-                      <name>zoom steps (sniper mode)</name>
-                      <zipFile />
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_sniperZoomSteps</packageName>
-                      <type>multi</type>
-                      <packages>
-                        <package>
-                          <name>2, 4, 8, 12</name>
-                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12.zip</zipFile>
-                          <crc>ab62beff072e9d4dcf98b69a3c1dafd0</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_1</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132004945852235178</timestamp>
-                          <size>692</size>
-                        </package>
-                        <package>
-                          <name>2, 4, 8, 16, 25</name>
-                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-16-25.zip</zipFile>
-                          <crc>ccdc5a6427e8ff8d01505953b22ec1b9</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_2</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132004946202408742</timestamp>
-                          <size>710</size>
-                        </package>
-                        <package>
-                          <name>2, 4, 8, 12, 16, 20, 26, 32</name>
-                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12-16-20-26-32.zip</zipFile>
-                          <crc>86f988af3a62fbe79bcc4a93c8e07191</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_3</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132004947090030521</timestamp>
-                          <size>767</size>
-                        </package>
-                        <package>
-                          <name>2, 4, 8, 12, 16, 20, 26, 32, 40, 48</name>
-                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12-16-20-26-32-40-48.zip</zipFile>
-                          <crc>b7b2da0101a4ed8c34f4651e8988a43c</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_4</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132004946966431067</timestamp>
-                          <size>793</size>
-                        </package>
-                      </packages>
-                    </package>
-                    <package>
-                      <name>Zoom Out Config (meters)</name>
-                      <zipFile />
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_ZoomOut</packageName>
-                      <type>multi</type>
-                      <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                      <packages>
-                        <package>
-                          <name>Arcade</name>
-                          <zipFile />
-                          <crc />
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade</packageName>
-                          <type>multi</type>
-                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                          <packages>
-                            <package>
-                              <name>100m</name>
-                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_100.zip</zipFile>
-                              <crc>b3bdab2ceadfc527a950a81e0de92d9a</crc>
-                              <enabled>True</enabled>
-                              <visible>True</visible>
-                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_100</packageName>
-                              <type>single_dropdown1</type>
-                              <timestamp>132005016064073057</timestamp>
-                              <size>685</size>
-                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                            </package>
-                            <package>
-                              <name>200m</name>
-                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_200.zip</zipFile>
-                              <crc>844495a9e0de18a2b1b262e386495155</crc>
-                              <enabled>True</enabled>
-                              <visible>True</visible>
-                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_200</packageName>
-                              <type>single_dropdown1</type>
-                              <timestamp>132005015997201891</timestamp>
-                              <size>684</size>
-                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                            </package>
-                            <package>
-                              <name>500m</name>
-                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_500.zip</zipFile>
-                              <crc>6191b54f4de34230762afdf934c38237</crc>
-                              <enabled>True</enabled>
-                              <visible>True</visible>
-                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_500</packageName>
-                              <type>single_dropdown1</type>
-                              <timestamp>132005015931148531</timestamp>
-                              <size>686</size>
-                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                            </package>
-                          </packages>
-                        </package>
-                        <package>
-                          <name>Postmortem</name>
-                          <zipFile />
-                          <crc />
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem</packageName>
-                          <type>multi</type>
-                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                          <packages>
-                            <package>
-                              <name>100m</name>
-                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_100.zip</zipFile>
-                              <crc>d456cb87e8343f8ef4f7bb89763d8471</crc>
-                              <enabled>True</enabled>
-                              <visible>True</visible>
-                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_100</packageName>
-                              <type>single_dropdown1</type>
-                              <timestamp>132005015804646816</timestamp>
-                              <size>698</size>
-                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                            </package>
-                            <package>
-                              <name>200m</name>
-                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_200.zip</zipFile>
-                              <crc>75a50c793eb342fa33163bdcc2902feb</crc>
-                              <enabled>True</enabled>
-                              <visible>True</visible>
-                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_200</packageName>
-                              <type>single_dropdown1</type>
-                              <timestamp>132005015722945315</timestamp>
-                              <size>697</size>
-                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                            </package>
-                            <package>
-                              <name>500m</name>
-                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_500.zip</zipFile>
-                              <crc>4d2be398eb24481c77b5ebf5bb86ac4c</crc>
-                              <enabled>True</enabled>
-                              <visible>True</visible>
-                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_500</packageName>
-                              <type>single_dropdown1</type>
-                              <timestamp>132005015641343535</timestamp>
-                              <size>699</size>
-                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                            </package>
-                          </packages>
-                        </package>
-                        <package>
-                          <name>Strategic</name>
-                          <zipFile />
-                          <crc />
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic</packageName>
-                          <type>multi</type>
-                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                          <packages>
-                            <package>
-                              <name>200m</name>
-                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Strategic_200.zip</zipFile>
-                              <crc>00eddaf0575c33c2da434d7eb16779cb</crc>
-                              <enabled>True</enabled>
-                              <visible>True</visible>
-                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic_200</packageName>
-                              <type>single_dropdown1</type>
-                              <timestamp>132005015483954423</timestamp>
-                              <size>693</size>
-                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                            </package>
-                            <package>
-                              <name>500m</name>
-                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Strategic_500.zip</zipFile>
-                              <crc>3da6eff515d5ed1f28c02ff25673fa86</crc>
-                              <enabled>True</enabled>
-                              <visible>True</visible>
-                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic_500</packageName>
-                              <type>single_dropdown1</type>
-                              <timestamp>132005015287868797</timestamp>
-                              <size>696</size>
-                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
-                            </package>
-                          </packages>
-                        </package>
-                      </packages>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>modify td brake</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_noCameraLimit</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>disable (limitation, brake is automatically set in sniper view)</name>
-                      <zipFile>XVMConfigBuilder_Camera_noCameraLimit_disable.zip</zipFile>
-                      <crc>81edf90c56d04116ca8178757304c1a5</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_noCameraLimit_disable</packageName>
-                      <type>single_dropdown1</type>
-                      <size>661</size>
-                      <description>camera.xc\nnoCameraLimit_false\nmode_hotkey</description>
-                    </package>
-                    <package>
-                      <name>enable (no limitation, press "x" manually to activate brake)</name>
-                      <zipFile>XVMConfigBuilder_Camera_noCameraLimit_enable.zip</zipFile>
-                      <crc>6a9b5f63d1772110d21a33954321e5f9</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_noCameraLimit_enable</packageName>
-                      <type>single_dropdown1</type>
-                      <size>654</size>
-                      <description>camera.xc \nnoCameraLimit_true\nmode_full</description>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>dimming and greening in sniper scope (noBinoculars)</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_noBinoculars</packageName>
-                  <type>multi</type>
-                  <description>enable/disable dimming and greening in sniper scope</description>
-                  <packages>
-                    <package>
-                      <name>dim (enable binoculars view)</name>
-                      <zipFile>XVMConfigBuilder_Camera_noBinoculars_disable.zip</zipFile>
-                      <crc>36fd0a72bd87ab04f87f48ff64344753</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_noBinoculars_disable</packageName>
-                      <type>single_dropdown1</type>
-                      <size>614</size>
-                    </package>
-                    <package>
-                      <name>don´t dim (disable binoculars view)</name>
-                      <zipFile>XVMConfigBuilder_Camera_noBinoculars_enable.zip</zipFile>
-                      <crc>d695fe2e9e2465cb1f91682c4707978f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_noBinoculars_enable</packageName>
-                      <type>single_dropdown1</type>
-                      <size>612</size>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>recoil effect (for the enabled dynamic camera option)</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_shotRecoilEffect</packageName>
-                  <type>multi</type>
-                  <description> enable/disable the shot recoil effect (for the enabled dynamic camera option)</description>
-                  <packages>
-                    <package>
-                      <name>disable</name>
-                      <zipFile>XVMConfigBuilder_Camera_shotRecoilEffect_disable.zip</zipFile>
-                      <crc>2f2fb78febc85886d02a6636f3663f92</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_shotRecoilEffect_disable</packageName>
-                      <type>single_dropdown1</type>
-                      <size>653</size>
-                    </package>
-                    <package>
-                      <name>enable</name>
-                      <zipFile>XVMConfigBuilder_Camera_shotRecoilEffect_enable.zip</zipFile>
-                      <crc>bb999a0783a6f240239b9bb3e0af87eb</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_shotRecoilEffect_enable</packageName>
-                      <type>single_dropdown1</type>
-                      <size>653</size>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>red flash when enemy hit your tank</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMConfigBuilder_Camera_noFlashBang</packageName>
-                  <type>multi</type>
-                  <description>enable/disable red flash when enemy hit your tank</description>
-                  <packages>
-                    <package>
-                      <name>disable</name>
-                      <zipFile>XVMConfigBuilder_Camera_noFlashBang_disable.zip</zipFile>
-                      <crc>4612ecf98b4eb74d1965cfa5697d76e2</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_noFlashBang_disable</packageName>
-                      <type>single_dropdown1</type>
-                      <size>613</size>
-                    </package>
-                    <package>
-                      <name>enable</name>
-                      <zipFile>XVMConfigBuilder_Camera_noFlashBang_enable.zip</zipFile>
-                      <crc>10578a2fc3efe98a9072f4b3e69c4fa4</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMConfigBuilder_Camera_noFlashBang_enable</packageName>
-                      <type>single_dropdown1</type>
-                      <size>610</size>
-                    </package>
-                  </packages>
-                </package>
-              </packages>
-            </package>
-          </packages>
-        </package>
-        <package>
-          <name>Colorblind</name>
-          <zipFile />
-          <crc />
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>XVMConfigBuilder_Colorblind</packageName>
-          <type>multi</type>
-          <timestamp>131858291921666972</timestamp>
-          <packages>
-            <package>
-              <name>Enemies Color</name>
-              <zipFile>XVMConfigBuilder_Colorblind_EnemiesColor_2019-06-26.zip</zipFile>
-              <crc>af71d284b79f73d0e28dfb467674682b</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMConfigBuilder_Colorblind_EnemiesColor</packageName>
+              <packageName>XVMconfigBuilder_battleChat_wn8chatcolor</packageName>
               <type>multi</type>
-              <timestamp>132060078521563057</timestamp>
-              <size>537</size>
-              <description>changes the normal enemy color from red to a better viewable violett/blue color for colorblind people .</description>
-            </package>
-          </packages>
-        </package>
-        <package>
-          <name>Clan Icons</name>
-          <zipFile>XVM_config_builder_clanicons_2_patch.zip</zipFile>
-          <crc>e216e967ac0a5cbb6d1db59fb94af738</crc>
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>XVMConfigBuilder_ClanIcons</packageName>
-          <type>multi</type>
-          <size>1308</size>
-          <packages>
-            <package>
-              <name>use the same Clan Icons that were last installed</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMConfigBuilder_ClanIcons_Last_Installed</packageName>
-              <type>single_dropdown1</type>
-              <description>To save time with your installation of clan icons, you could check this option to recycle/move the last installed icons to the new installation.</description>
-              <userDatas>
-                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\CT\clan\*.png</userData>
-                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\EU\clan\*.png</userData>
-                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\NA\clan\*.png</userData>
-                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\RU\clan\*.png</userData>
-                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\CT\nick\*.png</userData>
-                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\EU\nick\*.png</userData>
-                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\NA\nick\*.png</userData>
-                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\RU\nick\*.png</userData>
-                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\ID\*.png</userData>
-                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\clan\*.png</userData>
-                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\nick\*.png</userData>
-              </userDatas>
-            </package>
-            <package>
-              <name>Top Clans only (default)</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMConfigBuilder_ClanIcons_TopClansOnly</packageName>
-              <type>single_dropdown1</type>
-            </package>
-            <package>
-              <name>Full EU stand: {version}</name>
-              <zipFile>XVM_config_builder_clanicons-full-EU-2019-10-02.zip</zipFile>
-              <crc>a9698cf3f58348ee96db66a054def37b</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMConfigBuilder_ClanIcons_fullEU</packageName>
-              <type>single_dropdown1</type>
-              <version>2019-10-02</version>
-              <timestamp>132145162174913695</timestamp>
-              <size>206753768</size>
-            </package>
-            <package>
-              <name>Full NA stand: {version}</name>
-              <zipFile>XVM_config_builder_clanicons-full-NA-2019-10-02.zip</zipFile>
-              <crc>a8a2d44073aa0685339254ef5c640139</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMConfigBuilder_ClanIcons_fullNA</packageName>
-              <type>single_dropdown1</type>
-              <version>2019-10-02</version>
-              <timestamp>132145143687901795</timestamp>
-              <size>57505809</size>
-            </package>
-            <package>
-              <name>Full RU stand: {version}</name>
-              <zipFile>XVM_config_builder_clanicons-full-RU-2019-10-02.zip</zipFile>
-              <crc>4f326e0c0605a7e2b1ae26093bbcee76</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMConfigBuilder_ClanIcons_fullRU</packageName>
-              <type>single_dropdown1</type>
-              <version>2019-10-02</version>
-              <timestamp>132145334508816203</timestamp>
-              <size>573610741</size>
-            </package>
-            <package>
-              <name>Full ASIA stand: {version}</name>
-              <zipFile>XVM_config_builder_clanicons-full-ASIA-2019-10-02.zip</zipFile>
-              <crc>ce48c2b617469af1adbf064f409278f9</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMConfigBuilder_ClanIcons_fullASIA</packageName>
-              <type>single_dropdown1</type>
-              <version>2019-10-02</version>
-              <timestamp>132145147137004867</timestamp>
-              <size>22238386</size>
-            </package>
-            <package>
-              <name>show PlayersIcon in new field (right to ClanIcons)</name>
-              <zipFile>XVMConfigBuilder_ClanIcons_playersIcon_2019-09-18.zip</zipFile>
-              <crc>17ff47c8c6c592db3f4fb3c027aa85b9</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMConfigBuilder_ClanIcons_PlayersIcon</packageName>
-              <type>multi</type>
-              <timestamp>132133074584694033</timestamp>
-              <size>1003</size>
-              <description>to see plaers icons, you need to put pictures with the ingame name of the player into the following directrory:\r\n\r\nEU:\r\n..&amp;#92;World_of_Tanks&amp;#92;res_mods&amp;#92;mods&amp;#92;shared_resources&amp;#92;xvm&amp;#92;res&amp;#92;clanicons&amp;#92;EU&amp;#92;nick\r\n\r\nNA:\r\n..&amp;#92;World_of_Tanks&amp;#92;res_mods&amp;#92;mods&amp;#92;shared_resources&amp;#92;xvm&amp;#92;res&amp;#92;clanicons&amp;#92;NA&amp;#92;nick\r\n\r\nRU:\r\n..&amp;#92;World_of_Tanks&amp;#92;res_mods&amp;#92;mods&amp;#92;shared_resources&amp;#92;xvm&amp;#92;res&amp;#92;clanicons&amp;#92;RU&amp;#92;nick\r\n\r\n\r\nCT is also possible:\r\n..&amp;#92;World_of_Tanks&amp;#92;res_mods&amp;#92;mods&amp;#92;shared_resources&amp;#92;xvm&amp;#92;res&amp;#92;clanicons&amp;#92;CT&amp;#92;nick</description>
+              <timestamp>131950548698710076</timestamp>
+              <size>2295</size>
+              <description>the writer´s name is colored in his wn8color</description>
+              <dependencies>
+                <dependency>
+                  <packageName>Dependecy_XVM_PY_mod_chat_color</packageName>
+                </dependency>
+              </dependencies>
             </package>
           </packages>
         </package>
@@ -4878,6 +4229,558 @@
           </packages>
         </package>
         <package>
+          <name>Camera</name>
+          <zipFile />
+          <crc />
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>XVMConfigBuilder_Camera</packageName>
+          <type>multi</type>
+          <description>same settings that you also can set with PMOD (IngameAim). don´t use both methods at the same time!\n\nwe recommend using this, when xvm is activated.</description>
+          <packages>
+            <package>
+              <name>disable</name>
+              <zipFile>XVMConfigBuilder_Camera_disable.zip</zipFile>
+              <crc>d1f3700a87bb89e12a55fda57d3db968</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_Camera_disable</packageName>
+              <type>single1</type>
+              <size>588</size>
+            </package>
+            <package>
+              <name>enable (not compatible to PMOD zoom options)</name>
+              <zipFile>XVMConfigBuilder_Camera_enable.zip</zipFile>
+              <crc>8061ad0814be86e20017050abe328236</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_Camera_enable</packageName>
+              <type>single1</type>
+              <size>585</size>
+              <description>if you are using xvm, we recommend using this camera options instead of PMOD.\ndont use pmod zoomoptions and xvm zoom options at the same time!</description>
+              <packages>
+                <package>
+                  <name>Zoom Options (xvm)</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_Camera_Zoom</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>scroll sensitivity (default 5)</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_scrollSensitivity</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>4</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_4.zip</zipFile>
+                          <crc>64bf3c23d47847fcb71f8dcb81e39c45</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_4</packageName>
+                          <type>single_dropdown1</type>
+                          <size>635</size>
+                        </package>
+                        <package>
+                          <name>5 (default)</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_5.zip</zipFile>
+                          <crc>f619eef28462600f30dbf92cb26f76a7</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_5</packageName>
+                          <type>single_dropdown1</type>
+                          <size>635</size>
+                        </package>
+                        <package>
+                          <name>6</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_6.zip</zipFile>
+                          <crc>8682fe3604ae9f52060805f1e778231d</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_6</packageName>
+                          <type>single_dropdown1</type>
+                          <size>635</size>
+                        </package>
+                        <package>
+                          <name>7</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_7.zip</zipFile>
+                          <crc>3cb02b4bc211a5624888a6a9185f9315</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_7</packageName>
+                          <type>single_dropdown1</type>
+                          <size>635</size>
+                        </package>
+                        <package>
+                          <name>8</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_8.zip</zipFile>
+                          <crc>90996f528d8fd6627db3687d2e95c392</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_8</packageName>
+                          <type>single_dropdown1</type>
+                          <size>635</size>
+                        </package>
+                        <package>
+                          <name>9</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_9.zip</zipFile>
+                          <crc>197c1dc8e0cb853f7d52965adc36f974</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_9</packageName>
+                          <type>single_dropdown1</type>
+                          <size>635</size>
+                        </package>
+                        <package>
+                          <name>10</name>
+                          <zipFile>XVMConfigBuilder_Camera_scrollSensitivity_10.zip</zipFile>
+                          <crc>6a6bf20cbeb8865ea1e3e2e72537d7aa</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_scrollSensitivity_10</packageName>
+                          <type>single_dropdown1</type>
+                          <size>638</size>
+                        </package>
+                      </packages>
+                    </package>
+                    <package>
+                      <name>starting zoom (sniper mode)</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_sniperStartZoom</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>last used zoom step</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_null.zip</zipFile>
+                          <crc>3d138913a092f0df084b008d13e42ab1</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_null</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004939220359753</timestamp>
+                          <size>621</size>
+                        </package>
+                        <package>
+                          <name>2x</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_2.zip</zipFile>
+                          <crc>695b3fe5f9f35c965def10a31751c736</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_2</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004939593970626</timestamp>
+                          <size>613</size>
+                        </package>
+                        <package>
+                          <name>4x</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_4.zip</zipFile>
+                          <crc>ff7caad4c87f48f40403666876ac5dbc</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_4</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004940981241310</timestamp>
+                          <size>614</size>
+                        </package>
+                        <package>
+                          <name>8x</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_8.zip</zipFile>
+                          <crc>d01c5a9ffcb1bae3c9175a215abc35e5</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_8</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004940869500127</timestamp>
+                          <size>614</size>
+                        </package>
+                        <package>
+                          <name>16x</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperStartZoom_16.zip</zipFile>
+                          <crc>6718869aeb9f60f0a8c3dc24fb19390c</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperStartZoom_16</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004940738191280</timestamp>
+                          <size>617</size>
+                        </package>
+                      </packages>
+                    </package>
+                    <package>
+                      <name>show zoom indicator</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_zoomIndicator</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>disable</name>
+                          <zipFile>XVMConfigBuilder_Camera_zoomIndicator_disable.zip</zipFile>
+                          <crc>bc5fddd383207210a77a76c0ac948330</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_zoomIndicator_disable</packageName>
+                          <type>single_dropdown1</type>
+                          <size>626</size>
+                        </package>
+                        <package>
+                          <name>enable</name>
+                          <zipFile>XVMConfigBuilder_Camera_zoomIndicator_enable.zip</zipFile>
+                          <crc>47fdd7615b8b3dfd6470d2f940044d97</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_zoomIndicator_enable</packageName>
+                          <type>single_dropdown1</type>
+                          <size>624</size>
+                        </package>
+                      </packages>
+                    </package>
+                    <package>
+                      <name>zoom steps (sniper mode)</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_sniperZoomSteps</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>2, 4, 8, 12</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12.zip</zipFile>
+                          <crc>ab62beff072e9d4dcf98b69a3c1dafd0</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_1</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004945852235178</timestamp>
+                          <size>692</size>
+                        </package>
+                        <package>
+                          <name>2, 4, 8, 16, 25</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-16-25.zip</zipFile>
+                          <crc>ccdc5a6427e8ff8d01505953b22ec1b9</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_2</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004946202408742</timestamp>
+                          <size>710</size>
+                        </package>
+                        <package>
+                          <name>2, 4, 8, 12, 16, 20, 26, 32</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12-16-20-26-32.zip</zipFile>
+                          <crc>86f988af3a62fbe79bcc4a93c8e07191</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_3</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004947090030521</timestamp>
+                          <size>767</size>
+                        </package>
+                        <package>
+                          <name>2, 4, 8, 12, 16, 20, 26, 32, 40, 48</name>
+                          <zipFile>XVMConfigBuilder_Camera_sniperZoomSteps_2-4-8-12-16-20-26-32-40-48.zip</zipFile>
+                          <crc>b7b2da0101a4ed8c34f4651e8988a43c</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_sniperZoomSteps_4</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132004946966431067</timestamp>
+                          <size>793</size>
+                        </package>
+                      </packages>
+                    </package>
+                    <package>
+                      <name>Zoom Out Config (meters)</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_ZoomOut</packageName>
+                      <type>multi</type>
+                      <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                      <packages>
+                        <package>
+                          <name>Arcade</name>
+                          <zipFile />
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade</packageName>
+                          <type>multi</type>
+                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                          <packages>
+                            <package>
+                              <name>100m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_100.zip</zipFile>
+                              <crc>b3bdab2ceadfc527a950a81e0de92d9a</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_100</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005016064073057</timestamp>
+                              <size>685</size>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                            <package>
+                              <name>200m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_200.zip</zipFile>
+                              <crc>844495a9e0de18a2b1b262e386495155</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_200</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015997201891</timestamp>
+                              <size>684</size>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                            <package>
+                              <name>500m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Arcade_500.zip</zipFile>
+                              <crc>6191b54f4de34230762afdf934c38237</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Arcade_500</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015931148531</timestamp>
+                              <size>686</size>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                          </packages>
+                        </package>
+                        <package>
+                          <name>Postmortem</name>
+                          <zipFile />
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem</packageName>
+                          <type>multi</type>
+                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                          <packages>
+                            <package>
+                              <name>100m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_100.zip</zipFile>
+                              <crc>d456cb87e8343f8ef4f7bb89763d8471</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_100</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015804646816</timestamp>
+                              <size>698</size>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                            <package>
+                              <name>200m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_200.zip</zipFile>
+                              <crc>75a50c793eb342fa33163bdcc2902feb</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_200</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015722945315</timestamp>
+                              <size>697</size>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                            <package>
+                              <name>500m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Postmortem_500.zip</zipFile>
+                              <crc>4d2be398eb24481c77b5ebf5bb86ac4c</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Postmortem_500</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015641343535</timestamp>
+                              <size>699</size>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                          </packages>
+                        </package>
+                        <package>
+                          <name>Strategic</name>
+                          <zipFile />
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic</packageName>
+                          <type>multi</type>
+                          <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                          <packages>
+                            <package>
+                              <name>200m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Strategic_200.zip</zipFile>
+                              <crc>00eddaf0575c33c2da434d7eb16779cb</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic_200</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015483954423</timestamp>
+                              <size>693</size>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                            <package>
+                              <name>500m</name>
+                              <zipFile>XVMConfigBuilder_Camera_ZoomOut_Strategic_500.zip</zipFile>
+                              <crc>3da6eff515d5ed1f28c02ff25673fa86</crc>
+                              <enabled>True</enabled>
+                              <visible>True</visible>
+                              <packageName>XVMConfigBuilder_Camera_ZoomOut_Strategic_500</packageName>
+                              <type>single_dropdown1</type>
+                              <timestamp>132005015287868797</timestamp>
+                              <size>696</size>
+                              <description>change how far you can zoom out in arcade / postmortem /  mode (in meters)</description>
+                            </package>
+                          </packages>
+                        </package>
+                      </packages>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>modify td brake</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_Camera_noCameraLimit</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable (limitation, brake is automatically set in sniper view)</name>
+                      <zipFile>XVMConfigBuilder_Camera_noCameraLimit_disable.zip</zipFile>
+                      <crc>81edf90c56d04116ca8178757304c1a5</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noCameraLimit_disable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>661</size>
+                      <description>camera.xc\nnoCameraLimit_false\nmode_hotkey</description>
+                    </package>
+                    <package>
+                      <name>enable (no limitation, press "x" manually to activate brake)</name>
+                      <zipFile>XVMConfigBuilder_Camera_noCameraLimit_enable.zip</zipFile>
+                      <crc>6a9b5f63d1772110d21a33954321e5f9</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noCameraLimit_enable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>654</size>
+                      <description>camera.xc \nnoCameraLimit_true\nmode_full</description>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>dimming and greening in sniper scope (noBinoculars)</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_Camera_noBinoculars</packageName>
+                  <type>multi</type>
+                  <description>enable/disable dimming and greening in sniper scope</description>
+                  <packages>
+                    <package>
+                      <name>dim (enable binoculars view)</name>
+                      <zipFile>XVMConfigBuilder_Camera_noBinoculars_disable.zip</zipFile>
+                      <crc>36fd0a72bd87ab04f87f48ff64344753</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noBinoculars_disable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>614</size>
+                    </package>
+                    <package>
+                      <name>don´t dim (disable binoculars view)</name>
+                      <zipFile>XVMConfigBuilder_Camera_noBinoculars_enable.zip</zipFile>
+                      <crc>d695fe2e9e2465cb1f91682c4707978f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noBinoculars_enable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>612</size>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>recoil effect (for the enabled dynamic camera option)</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_Camera_shotRecoilEffect</packageName>
+                  <type>multi</type>
+                  <description> enable/disable the shot recoil effect (for the enabled dynamic camera option)</description>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMConfigBuilder_Camera_shotRecoilEffect_disable.zip</zipFile>
+                      <crc>2f2fb78febc85886d02a6636f3663f92</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_shotRecoilEffect_disable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>653</size>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMConfigBuilder_Camera_shotRecoilEffect_enable.zip</zipFile>
+                      <crc>bb999a0783a6f240239b9bb3e0af87eb</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_shotRecoilEffect_enable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>653</size>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>red flash when enemy hit your tank</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMConfigBuilder_Camera_noFlashBang</packageName>
+                  <type>multi</type>
+                  <description>enable/disable red flash when enemy hit your tank</description>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMConfigBuilder_Camera_noFlashBang_disable.zip</zipFile>
+                      <crc>4612ecf98b4eb74d1965cfa5697d76e2</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noFlashBang_disable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>613</size>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMConfigBuilder_Camera_noFlashBang_enable.zip</zipFile>
+                      <crc>10578a2fc3efe98a9072f4b3e69c4fa4</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMConfigBuilder_Camera_noFlashBang_enable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>610</size>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+          </packages>
+        </package>
+        <package>
           <name>Carousel</name>
           <zipFile />
           <crc />
@@ -5613,559 +5516,130 @@
           </packages>
         </package>
         <package>
-          <name>Players Panel</name>
-          <zipFile />
-          <crc />
+          <name>Clan Icons</name>
+          <zipFile>XVM_config_builder_clanicons_2_patch.zip</zipFile>
+          <crc>e216e967ac0a5cbb6d1db59fb94af738</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>XVMconfigBuilder_PlayersPanel</packageName>
+          <packageName>XVMConfigBuilder_ClanIcons</packageName>
           <type>multi</type>
+          <size>1308</size>
           <packages>
             <package>
-              <name>Disable (Use WoT playerspanel)</name>
-              <zipFile>XVM_config_builder_playerspanel_disable.zip</zipFile>
-              <crc>c358c261fdb9fdc5ac99c1d0563716f1</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_PlayersPanel_Disable</packageName>
-              <type>single1</type>
-              <size>931</size>
-              <description>Use the stock WoT playerspanel</description>
-            </package>
-            <package>
-              <name>Enable</name>
-              <zipFile>XVM_config_builder_playerspanel_enable.zip</zipFile>
-              <crc>05fea47e94204ddb54d4f487cbcfe237</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_PlayersPanel_Enable</packageName>
-              <type>single1</type>
-              <size>929</size>
-              <description>Use the XVM players panel</description>
-              <packages>
-                <package>
-                  <name>Starting Position</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition</packageName>
-                  <type>multi</type>
-                  <description>Choose with which Players Panel position with which the game will start.</description>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>https://puu.sh/z7Yz4/1d76b592c7.png</URL>
-                    </media>
-                  </medias>
-                  <packages>
-                    <package>
-                      <name>short</name>
-                      <zipFile>XVM_config_builder_playerspanel_start_short_patch.zip</zipFile>
-                      <crc>7a8f13538ae6a6413d64df93e1f09251</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition_short</packageName>
-                      <type>single_dropdown1</type>
-                      <size>1075</size>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>https://puu.sh/z7Yjq/2fc6abed74.png</URL>
-                        </media>
-                      </medias>
-                    </package>
-                    <package>
-                      <name>medium (standard)</name>
-                      <zipFile>XVM_config_builder_playerspanel_start_medium_patch.zip</zipFile>
-                      <crc>12d68dc7678ea7164bd3e23acd2159cc</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition_medium</packageName>
-                      <type>single_dropdown1</type>
-                      <size>1078</size>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>https://puu.sh/z7YkP/8db56de478.png</URL>
-                        </media>
-                      </medias>
-                    </package>
-                    <package>
-                      <name>medium 2</name>
-                      <zipFile>XVM_config_builder_playerspanel_start_medium2_patch.zip</zipFile>
-                      <crc>88d513b4dc6f42f4697b432254de6e14</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition_medium2</packageName>
-                      <type>single_dropdown1</type>
-                      <size>1081</size>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>https://puu.sh/z7Yn1/64cb9429d1.png</URL>
-                        </media>
-                      </medias>
-                    </package>
-                    <package>
-                      <name>large</name>
-                      <zipFile>XVM_config_builder_playerspanel_start_large_patch.zip</zipFile>
-                      <crc>2473b821b1fe37cc8a0fe2a59f2b5104</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition_large</packageName>
-                      <type>single_dropdown1</type>
-                      <size>1074</size>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>https://puu.sh/z7YnQ/b5e0f3f4e8.png</URL>
-                        </media>
-                      </medias>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>HP Bars</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_HpBars</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>inside PlayersPanel</name>
-                      <zipFile />
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside</packageName>
-                      <type>multi</type>
-                      <packages>
-                        <package>
-                          <name>BIG</name>
-                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_2019-09-18.zip</zipFile>
-                          <crc>c477a88ebb4eb3a191156dd33f6684ef</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132133073925182899</timestamp>
-                          <size>1267</size>
-                          <medias>
-                            <media>
-                              <type>1</type>
-                              <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg</URL>
-                            </media>
-                          </medias>
-                        </package>
-                        <package>
-                          <name>BIG COLORED by vehicle type</name>
-                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType_2019-09-18.zip</zipFile>
-                          <crc>d150970ccc30809e5a2ee804d3d8a05c</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132133074007491508</timestamp>
-                          <size>1279</size>
-                          <medias>
-                            <media>
-                              <type>1</type>
-                              <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType.png</URL>
-                            </media>
-                          </medias>
-                        </package>
-                        <package>
-                          <name>SMALL</name>
-                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL_2019-09-18.zip</zipFile>
-                          <crc>3360af3e0173877195b84838f67b46a5</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132133074145021584</timestamp>
-                          <size>999</size>
-                          <description>Enable a small HP bar in the players panel for every tank.</description>
-                          <medias>
-                            <media>
-                              <type>1</type>
-                              <URL>https://puu.sh/wWLdq/5e835f078a.png</URL>
-                            </media>
-                          </medias>
-                        </package>
-                      </packages>
-                    </package>
-                    <package>
-                      <name>outside PlayersPanel</name>
-                      <zipFile />
-                      <crc />
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside</packageName>
-                      <type>multi</type>
-                      <description>Choose which HP bars you want to use</description>
-                      <packages>
-                        <package>
-                          <name>default</name>
-                          <zipFile />
-                          <crc />
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_Default</packageName>
-                          <type>single_dropdown1</type>
-                          <description>Use the HP bars from the XVM config you selected in the Prebuilt config tab.</description>
-                          <medias>
-                            <media>
-                              <type>1</type>
-                              <URL>https://puu.sh/wm5Aw/4a3b4e6b35.png</URL>
-                            </media>
-                          </medias>
-                        </package>
-                        <package>
-                          <name>colored by vehicle type</name>
-                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_2019-07-06.zip</zipFile>
-                          <crc>8c4885f59cde91edc9282f3918beb886</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132068818242481873</timestamp>
-                          <size>669</size>
-                        </package>
-                        <package>
-                          <name>colored by vehicle type (elektrosmoker´s vehicle type colors)</name>
-                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro_2019-07-06.zip</zipFile>
-                          <crc>05ff8311400ec0199c3b59bc8897fdc3</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132068818354200448</timestamp>
-                          <size>777</size>
-                          <description>LT = GREEN\r\nMT = ORANGE\r\nHT= GRAY\r\nTD = BLUE\r\nSPG = RED</description>
-                          <medias>
-                            <media>
-                              <type>1</type>
-                              <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro.png</URL>
-                            </media>
-                          </medias>
-                        </package>
-                        <package>
-                          <name>OMC style</name>
-                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle_2019-02-27.zip</zipFile>
-                          <crc>436e2a4c3cfbcd3dc77a29b89044641c</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132068818438581029</timestamp>
-                          <size>1181</size>
-                          <description>From the OMC XVM config</description>
-                          <medias>
-                            <media>
-                              <type>1</type>
-                              <URL>https://puu.sh/wm5zf/62d892e87b.png</URL>
-                            </media>
-                          </medias>
-                        </package>
-                        <package>
-                          <name>Disabled</name>
-                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_disable_2019-02-21.zip</zipFile>
-                          <crc>06fefb3ce36c884cda5d1ba17403e023</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_disable</packageName>
-                          <type>single_dropdown1</type>
-                          <timestamp>132068818525371386</timestamp>
-                          <size>771</size>
-                          <medias>
-                            <media>
-                              <type>1</type>
-                              <URL>https://puu.sh/wm5xq/8db4ccf893.png</URL>
-                            </media>
-                          </medias>
-                        </package>
-                        <package>
-                          <name>show max HP</name>
-                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_show maxHP_2019-07-13.zip</zipFile>
-                          <crc>9626e2e73a3056cc088aadbe630e3bbd</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_showMaxHp</packageName>
-                          <type>multi</type>
-                          <timestamp>132074769018683009</timestamp>
-                          <size>615</size>
-                          <description>shows maximal health points of tanks when battle starts (for allies and enemies)</description>
-                        </package>
-                        <package>
-                          <name>On Key Press</name>
-                          <zipFile />
-                          <crc />
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnKeyPress</packageName>
-                          <type>single_dropdown2</type>
-                          <description>Set the hp bars to be active on key press. (Usually left alt or left crtl)</description>
-                        </package>
-                        <package>
-                          <name>On Always</name>
-                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnAlways_2019-02-08.zip</zipFile>
-                          <crc>5d5878f14a73678b387817cf0a978adf</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnAlways</packageName>
-                          <type>single_dropdown2</type>
-                          <timestamp>132068818658503412</timestamp>
-                          <size>710</size>
-                          <description>Set the hp bars to be active always</description>
-                        </package>
-                      </packages>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>Enable small hp numbers for every tank</name>
-                  <zipFile>XVM_config_builder_playerspanel_enemy_hp_left_2017-08-24.zip</zipFile>
-                  <crc>55f2ce9aac36764524ae5b25cd5b319c</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_EnemyHpLeft</packageName>
-                  <type>multi</type>
-                  <size>1029</size>
-                  <description>Enable small numbers in the players panel showing the total hp of every tank. Taken from Willster419's config.</description>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>https://puu.sh/xiDWh/ef574a4fc8.png</URL>
-                    </media>
-                  </medias>
-                </package>
-                <package>
-                  <name>Enemy Spotted Marker</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker</packageName>
-                  <type>multi</type>
-                  <timestamp>131910190208253101</timestamp>
-                  <description>This is a Spotted Status Indicator for the enemy team.</description>
-                  <packages>
-                    <package>
-                      <name>enable</name>
-                      <zipFile>XVM_config_builder_PlayersPanelModifications_Enemy_Spotted_Marker_enabled.zip</zipFile>
-                      <crc>c74de67423029903c80ec87ea737484f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_enable</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>131910192008002906</timestamp>
-                      <size>501</size>
-                    </package>
-                    <package>
-                      <name>disable</name>
-                      <zipFile>XVM_config_builder_PlayersPanelModifications_Enemy_Spotted_Marker_disabled.zip</zipFile>
-                      <crc>e32fc2e5a85aff70de1140c536487047</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_disable</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>131910192252772008</timestamp>
-                      <size>503</size>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>Friends-Marker</name>
-                  <zipFile>XVMConfigBuilder_PlayersPanel_friendIcon_2019-09-18.zip</zipFile>
-                  <crc>68f906671fe87b7124d6570b25209a14</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_friendignored</packageName>
-                  <type>multi</type>
-                  <timestamp>132133073820783707</timestamp>
-                  <size>4569</size>
-                  <description>marks friends in allied/enemy playerspanel with a green dot,\n\nit´s also possible to mark blacklisted tankers in allied/enemy playerspanel with a red dot.\n\nif the tanksymbol is overlapping there´s an option to move the icon left/right</description>
-                  <packages>
-                    <package>
-                      <name>Blacklisted-Marker</name>
-                      <zipFile>XVMConfigBuilder_PlayersPanel_ignoredIcon_2019-09-18.zip</zipFile>
-                      <crc>3ce57f1a8f61517915dbfc78662b10f4</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_ignoredIcon</packageName>
-                      <type>multi</type>
-                      <timestamp>132133073617410729</timestamp>
-                      <size>4574</size>
-                      <description>marks blacklisted tankers in allied/enemy playerspanel with a red dot</description>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_ignoredicon.png</URL>
-                        </media>
-                      </medias>
-                    </package>
-                    <package>
-                      <name>change markers position (-&gt;) (if tankicons are overlapping)</name>
-                      <zipFile>XVM_config_builder_friendignoredicon_move_x120_2018-07-30.zip</zipFile>
-                      <crc>945a8e5fdea751d0bbbf5800b431b6eb</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_friendignored_move_x120</packageName>
-                      <type>multi</type>
-                      <timestamp>131773955954736164</timestamp>
-                      <size>517</size>
-                      <description>move Friends-and Blacklisted-Markers more to center  (if contouricons are overlapping)</description>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>Show who´s using XVM (xvmUserMarker)</name>
-                  <zipFile>XVM_config_builder_enable_xvmUserMarker.zip</zipFile>
-                  <crc>2c6ac05818bed6fd7a2f5f70bf4c0a40</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_enable_xvmUserMarker</packageName>
-                  <type>multi</type>
-                  <timestamp>131772838063351349</timestamp>
-                  <size>538</size>
-                  <description>shows a little orange "x" near to player-/tanknames when they are using xvm</description>
-                  <medias>
-                    <media>
-                      <type>1</type>
-                      <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_enable_xvmUserMarker.png</URL>
-                    </media>
-                  </medias>
-                  <packages>
-                    <package>
-                      <name>change position of "x" (-&gt;)</name>
-                      <zipFile>XVM_config_builder_xvmusermarker_right_2018-07-30.zip</zipFile>
-                      <crc>17e1a7242d4ea0c8a767ef6347d4d542</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_xvmUserMarker_right</packageName>
-                      <type>multi</type>
-                      <timestamp>131773929429232688</timestamp>
-                      <size>461</size>
-                      <description>move the "x" more to center  (if contouricons are overlapping)</description>
-                    </package>
-                  </packages>
-                </package>
-                <package>
-                  <name>Show language flag</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_PlayersPanel_Language_Flag</packageName>
-                  <type>multi</type>
-                  <timestamp>131889469435275963</timestamp>
-                  <description>will show the individually selcted language flag of every player in the panel.\n\nOn ALT key, it will be hidden.</description>
-                  <packages>
-                    <package>
-                      <name>based on XVM selected language</name>
-                      <zipFile>XVMConfigBuilder_PlayersPanelModifications_Language_Flag_XVM_2019-09-18.zip</zipFile>
-                      <crc>532d057024bd32d05154db2eb4295bf2</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_PlayersPanel_Language_Flag_XVM</packageName>
-                      <type>multi</type>
-                      <timestamp>132133074366560782</timestamp>
-                      <size>977</size>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_Language_Flag.png</URL>
-                        </media>
-                      </medias>
-                      <packages>
-                        <package>
-                          <name>change the flag´s position (&lt;-)</name>
-                          <zipFile>XVM_config_builder_PlayersPanelModifications_Language_Flag_XVM_left_patch.zip</zipFile>
-                          <crc>2070b02b8acae8cb3869bae18eaebac8</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_PlayersPanel_Language_Flag_XVM_left</packageName>
-                          <type>multi</type>
-                          <timestamp>131891289119949068</timestamp>
-                          <size>594</size>
-                          <description>move flag to the panel inside.\nuseful for some prebuilt configs (eg Jimbo´s)\n\n\n\nAttention with simultaneous use of both language-flags!</description>
-                        </package>
-                      </packages>
-                    </package>
-                  </packages>
-                </package>
-              </packages>
-            </package>
-          </packages>
-        </package>
-        <package>
-          <name>statistics colorscale</name>
-          <zipFile />
-          <crc />
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>XVMconfigBuilder_StatisticsColorScale</packageName>
-          <type>multi</type>
-          <description>Choose which color scale you use to display player's tank stats</description>
-          <packages>
-            <package>
-              <name>no change  (using the selected config's colorscale or the  default one)</name>
+              <name>use the same Clan Icons that were last installed</name>
               <zipFile />
               <crc />
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_StatisticsColorScale_default</packageName>
+              <packageName>XVMConfigBuilder_ClanIcons_Last_Installed</packageName>
+              <type>single_dropdown1</type>
+              <description>To save time with your installation of clan icons, you could check this option to recycle/move the last installed icons to the new installation.</description>
+              <userDatas>
+                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\CT\clan\*.png</userData>
+                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\EU\clan\*.png</userData>
+                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\NA\clan\*.png</userData>
+                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\RU\clan\*.png</userData>
+                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\CT\nick\*.png</userData>
+                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\EU\nick\*.png</userData>
+                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\NA\nick\*.png</userData>
+                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\RU\nick\*.png</userData>
+                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\ID\*.png</userData>
+                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\clan\*.png</userData>
+                <userData pre="True" system="True">\res_mods\mods\shared_resources\xvm\res\clanicons\ASIA\nick\*.png</userData>
+              </userDatas>
+            </package>
+            <package>
+              <name>Top Clans only (default)</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_ClanIcons_TopClansOnly</packageName>
               <type>single_dropdown1</type>
             </package>
             <package>
-              <name>6-step XVM (default)</name>
-              <zipFile>XVM_config_builder_color_scale_6_step_xvm_patch_2019-06-04.zip</zipFile>
-              <crc>aa1b775b631797e59f4e50858389e76f</crc>
+              <name>Full EU stand: {version}</name>
+              <zipFile>XVM_config_builder_clanicons-full-EU-2019-10-02.zip</zipFile>
+              <crc>a9698cf3f58348ee96db66a054def37b</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_StatisticsColorScale_6StepXVM</packageName>
+              <packageName>XVMConfigBuilder_ClanIcons_fullEU</packageName>
               <type>single_dropdown1</type>
-              <timestamp>131665836073703025</timestamp>
-              <size>1025</size>
-              <updateComment>2018-03-26: fixed wrong text to insert</updateComment>
+              <version>2019-10-02</version>
+              <timestamp>132145162174913695</timestamp>
+              <size>206753768</size>
             </package>
             <package>
-              <name>7-step WOTLABS old</name>
-              <zipFile>XVM_config_builder_color_scale_7_step_wotlabs_old_patch_2019-06-04.zip</zipFile>
-              <crc>4440fec522beb0f33ebc32cccd524b6d</crc>
+              <name>Full NA stand: {version}</name>
+              <zipFile>XVM_config_builder_clanicons-full-NA-2019-10-02.zip</zipFile>
+              <crc>a8a2d44073aa0685339254ef5c640139</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_StatisticsColorScale_7StepOldWotLabs</packageName>
+              <packageName>XVMConfigBuilder_ClanIcons_fullNA</packageName>
               <type>single_dropdown1</type>
-              <timestamp>131665836144585035</timestamp>
-              <size>1088</size>
-              <updateComment>fixed a syntax error</updateComment>
+              <version>2019-10-02</version>
+              <timestamp>132145143687901795</timestamp>
+              <size>57505809</size>
             </package>
             <package>
-              <name>9-step WOT-LIFE</name>
-              <zipFile>XVM_config_builder_color_scale_9_step_wot-life_patch_2019-06-04.zip</zipFile>
-              <crc>1063412285af489d3b344564c8d0693f</crc>
+              <name>Full RU stand: {version}</name>
+              <zipFile>XVM_config_builder_clanicons-full-RU-2019-10-02.zip</zipFile>
+              <crc>4f326e0c0605a7e2b1ae26093bbcee76</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_StatisticsColorScale_9StepWot-life</packageName>
+              <packageName>XVMConfigBuilder_ClanIcons_fullRU</packageName>
               <type>single_dropdown1</type>
-              <timestamp>131891392875414168</timestamp>
-              <size>1123</size>
-              <devURL>https://wot-life.com/</devURL>
+              <version>2019-10-02</version>
+              <timestamp>132145334508816203</timestamp>
+              <size>573610741</size>
             </package>
             <package>
-              <name>10-step WOTLABS</name>
-              <zipFile>XVM_config_builder_color_scale_10_step_wotlabs_patch_2019-06-04.zip</zipFile>
-              <crc>011853e6d582df2322c280e294b4be3b</crc>
+              <name>Full ASIA stand: {version}</name>
+              <zipFile>XVM_config_builder_clanicons-full-ASIA-2019-10-02.zip</zipFile>
+              <crc>ce48c2b617469af1adbf064f409278f9</crc>
               <enabled>True</enabled>
               <visible>True</visible>
-              <packageName>XVMconfigBuilder_StatisticsColorScale_10StepWotlabs</packageName>
+              <packageName>XVMConfigBuilder_ClanIcons_fullASIA</packageName>
               <type>single_dropdown1</type>
-              <timestamp>131665836279062627</timestamp>
-              <size>1126</size>
+              <version>2019-10-02</version>
+              <timestamp>132145147137004867</timestamp>
+              <size>22238386</size>
+            </package>
+            <package>
+              <name>show PlayersIcon in new field (right to ClanIcons)</name>
+              <zipFile>XVMConfigBuilder_ClanIcons_playersIcon_2019-09-18.zip</zipFile>
+              <crc>17ff47c8c6c592db3f4fb3c027aa85b9</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_ClanIcons_PlayersIcon</packageName>
+              <type>multi</type>
+              <timestamp>132133074584694033</timestamp>
+              <size>1003</size>
+              <description>to see plaers icons, you need to put pictures with the ingame name of the player into the following directrory:\r\n\r\nEU:\r\n..&amp;#92;World_of_Tanks&amp;#92;res_mods&amp;#92;mods&amp;#92;shared_resources&amp;#92;xvm&amp;#92;res&amp;#92;clanicons&amp;#92;EU&amp;#92;nick\r\n\r\nNA:\r\n..&amp;#92;World_of_Tanks&amp;#92;res_mods&amp;#92;mods&amp;#92;shared_resources&amp;#92;xvm&amp;#92;res&amp;#92;clanicons&amp;#92;NA&amp;#92;nick\r\n\r\nRU:\r\n..&amp;#92;World_of_Tanks&amp;#92;res_mods&amp;#92;mods&amp;#92;shared_resources&amp;#92;xvm&amp;#92;res&amp;#92;clanicons&amp;#92;RU&amp;#92;nick\r\n\r\n\r\nCT is also possible:\r\n..&amp;#92;World_of_Tanks&amp;#92;res_mods&amp;#92;mods&amp;#92;shared_resources&amp;#92;xvm&amp;#92;res&amp;#92;clanicons&amp;#92;CT&amp;#92;nick</description>
+            </package>
+          </packages>
+        </package>
+        <package>
+          <name>Colorblind</name>
+          <zipFile />
+          <crc />
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>XVMConfigBuilder_Colorblind</packageName>
+          <type>multi</type>
+          <timestamp>131858291921666972</timestamp>
+          <packages>
+            <package>
+              <name>Enemies Color</name>
+              <zipFile>XVMConfigBuilder_Colorblind_EnemiesColor_2019-06-26.zip</zipFile>
+              <crc>af71d284b79f73d0e28dfb467674682b</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMConfigBuilder_Colorblind_EnemiesColor</packageName>
+              <type>multi</type>
+              <timestamp>132060078521563057</timestamp>
+              <size>537</size>
+              <description>changes the normal enemy color from red to a better viewable violett/blue color for colorblind people .</description>
             </package>
           </packages>
         </package>
@@ -8035,6 +7509,178 @@
           </packages>
         </package>
         <package>
+          <name>Login</name>
+          <zipFile />
+          <crc />
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>XVMconfigBuilder_Login</packageName>
+          <type>multi</type>
+          <description>Make changes to the login screen.</description>
+          <packages>
+            <package>
+              <name>Auto-login</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_Login_AutoLogin</packageName>
+              <type>multi</type>
+              <description>Automatiacly log into the game</description>
+              <packages>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_login_auto_enable.zip</zipFile>
+                  <crc>f036c47aaf6f79cddb59136f06564839</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Login_AutoLogin_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>928</size>
+                </package>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_login_auto_disable.zip</zipFile>
+                  <crc>cbdd1d2bdc7432826d3adb6423eae371</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Login_AutoLogin_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>931</size>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Hide the old replay confirmation window</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_Login_HideTheOldReplayConfirmationWindow</packageName>
+              <type>multi</type>
+              <description>Will not ask you if you want to confirm loading an old version replay. Will load it automaticly.</description>
+              <packages>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_login_hide_replay_confirm_window.zip</zipFile>
+                  <crc>f46a247539e5816c98e078bd79b181e3</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Login_HideTheOldReplayConfirmationWindow_enabled</packageName>
+                  <type>single_dropdown1</type>
+                  <size>965</size>
+                </package>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_login_show_replay_confirm_window.zip</zipFile>
+                  <crc>c788564605fde55eb221ffe479c038b5</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Login_HideTheOldReplayConfirmationWindow_disabled</packageName>
+                  <type>single_dropdown1</type>
+                  <size>965</size>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Show server ping</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_Login_ShowServerPing</packageName>
+              <type>multi</type>
+              <description>Show server pings from the login screen</description>
+              <packages>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_login_server_ping_enable.zip</zipFile>
+                  <crc>bca098b482aed140b29d32125fcb4feb</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Login_ShowServerPing_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>936</size>
+                </package>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_login_server_ping_disable.zip</zipFile>
+                  <crc>938c835a6d47a9b6b0a6efead8e59e65</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Login_ShowServerPing_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>952</size>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Save last server</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_Login_SaveLastServer</packageName>
+              <type>multi</type>
+              <description>Save the last server that you logged into</description>
+              <packages>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_login_save_last_server_enable.zip</zipFile>
+                  <crc>87bc36515f588832146e834d7f53a57d</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Login_SaveLastServer_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>957</size>
+                </package>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_login_save_last_server_disable.zip</zipFile>
+                  <crc>c40c72442b71f851d6c312bd6a4678f0</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Login_SaveLastServer_disable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>960</size>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Show server populations</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_Login_ShowServerPopulations</packageName>
+              <type>multi</type>
+              <description>Show the servers population in the login screen</description>
+              <packages>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_login_server_info_enable.zip</zipFile>
+                  <crc>25b3f5da3ee5b521e0842284513c265d</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Login_ShowServerPopulations_enable</packageName>
+                  <type>single_dropdown1</type>
+                  <size>950</size>
+                </package>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_login_server_info_disabel.zip</zipFile>
+                  <crc>53ff4383bfb4fb4bf23fbff4172d54e3</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Login_ShowServerPopulations_disabel</packageName>
+                  <type>single_dropdown1</type>
+                  <size>953</size>
+                </package>
+              </packages>
+            </package>
+          </packages>
+        </package>
+        <package>
           <name>Map Border Color</name>
           <zipFile>XVMConfigBuilder_border_bordercolor_2019-06-24.zip</zipFile>
           <crc>2710a88f36eac0c395b737d9f28131f7</crc>
@@ -8395,178 +8041,6 @@
                       </medias>
                     </package>
                   </packages>
-                </package>
-              </packages>
-            </package>
-          </packages>
-        </package>
-        <package>
-          <name>Login</name>
-          <zipFile />
-          <crc />
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>XVMconfigBuilder_Login</packageName>
-          <type>multi</type>
-          <description>Make changes to the login screen.</description>
-          <packages>
-            <package>
-              <name>Auto-login</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_Login_AutoLogin</packageName>
-              <type>multi</type>
-              <description>Automatiacly log into the game</description>
-              <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_login_auto_enable.zip</zipFile>
-                  <crc>f036c47aaf6f79cddb59136f06564839</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Login_AutoLogin_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>928</size>
-                </package>
-                <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_login_auto_disable.zip</zipFile>
-                  <crc>cbdd1d2bdc7432826d3adb6423eae371</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Login_AutoLogin_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>931</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Hide the old replay confirmation window</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_Login_HideTheOldReplayConfirmationWindow</packageName>
-              <type>multi</type>
-              <description>Will not ask you if you want to confirm loading an old version replay. Will load it automaticly.</description>
-              <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_login_hide_replay_confirm_window.zip</zipFile>
-                  <crc>f46a247539e5816c98e078bd79b181e3</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Login_HideTheOldReplayConfirmationWindow_enabled</packageName>
-                  <type>single_dropdown1</type>
-                  <size>965</size>
-                </package>
-                <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_login_show_replay_confirm_window.zip</zipFile>
-                  <crc>c788564605fde55eb221ffe479c038b5</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Login_HideTheOldReplayConfirmationWindow_disabled</packageName>
-                  <type>single_dropdown1</type>
-                  <size>965</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Show server ping</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_Login_ShowServerPing</packageName>
-              <type>multi</type>
-              <description>Show server pings from the login screen</description>
-              <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_login_server_ping_enable.zip</zipFile>
-                  <crc>bca098b482aed140b29d32125fcb4feb</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Login_ShowServerPing_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>936</size>
-                </package>
-                <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_login_server_ping_disable.zip</zipFile>
-                  <crc>938c835a6d47a9b6b0a6efead8e59e65</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Login_ShowServerPing_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>952</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Save last server</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_Login_SaveLastServer</packageName>
-              <type>multi</type>
-              <description>Save the last server that you logged into</description>
-              <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_login_save_last_server_enable.zip</zipFile>
-                  <crc>87bc36515f588832146e834d7f53a57d</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Login_SaveLastServer_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>957</size>
-                </package>
-                <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_login_save_last_server_disable.zip</zipFile>
-                  <crc>c40c72442b71f851d6c312bd6a4678f0</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Login_SaveLastServer_disable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>960</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Show server populations</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_Login_ShowServerPopulations</packageName>
-              <type>multi</type>
-              <description>Show the servers population in the login screen</description>
-              <packages>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_login_server_info_enable.zip</zipFile>
-                  <crc>25b3f5da3ee5b521e0842284513c265d</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Login_ShowServerPopulations_enable</packageName>
-                  <type>single_dropdown1</type>
-                  <size>950</size>
-                </package>
-                <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_login_server_info_disabel.zip</zipFile>
-                  <crc>53ff4383bfb4fb4bf23fbff4172d54e3</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Login_ShowServerPopulations_disabel</packageName>
-                  <type>single_dropdown1</type>
-                  <size>953</size>
                 </package>
               </packages>
             </package>
@@ -9368,6 +8842,495 @@
           </packages>
         </package>
         <package>
+          <name>Players Panel</name>
+          <zipFile />
+          <crc />
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>XVMconfigBuilder_PlayersPanel</packageName>
+          <type>multi</type>
+          <packages>
+            <package>
+              <name>Disable (Use WoT playerspanel)</name>
+              <zipFile>XVM_config_builder_playerspanel_disable.zip</zipFile>
+              <crc>c358c261fdb9fdc5ac99c1d0563716f1</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_PlayersPanel_Disable</packageName>
+              <type>single1</type>
+              <size>931</size>
+              <description>Use the stock WoT playerspanel</description>
+            </package>
+            <package>
+              <name>Enable</name>
+              <zipFile>XVM_config_builder_playerspanel_enable.zip</zipFile>
+              <crc>05fea47e94204ddb54d4f487cbcfe237</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_PlayersPanel_Enable</packageName>
+              <type>single1</type>
+              <size>929</size>
+              <description>Use the XVM players panel</description>
+              <packages>
+                <package>
+                  <name>Starting Position</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition</packageName>
+                  <type>multi</type>
+                  <description>Choose with which Players Panel position with which the game will start.</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>https://puu.sh/z7Yz4/1d76b592c7.png</URL>
+                    </media>
+                  </medias>
+                  <packages>
+                    <package>
+                      <name>short</name>
+                      <zipFile>XVM_config_builder_playerspanel_start_short_patch.zip</zipFile>
+                      <crc>7a8f13538ae6a6413d64df93e1f09251</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition_short</packageName>
+                      <type>single_dropdown1</type>
+                      <size>1075</size>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>https://puu.sh/z7Yjq/2fc6abed74.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                    <package>
+                      <name>medium (standard)</name>
+                      <zipFile>XVM_config_builder_playerspanel_start_medium_patch.zip</zipFile>
+                      <crc>12d68dc7678ea7164bd3e23acd2159cc</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition_medium</packageName>
+                      <type>single_dropdown1</type>
+                      <size>1078</size>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>https://puu.sh/z7YkP/8db56de478.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                    <package>
+                      <name>medium 2</name>
+                      <zipFile>XVM_config_builder_playerspanel_start_medium2_patch.zip</zipFile>
+                      <crc>88d513b4dc6f42f4697b432254de6e14</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition_medium2</packageName>
+                      <type>single_dropdown1</type>
+                      <size>1081</size>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>https://puu.sh/z7Yn1/64cb9429d1.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                    <package>
+                      <name>large</name>
+                      <zipFile>XVM_config_builder_playerspanel_start_large_patch.zip</zipFile>
+                      <crc>2473b821b1fe37cc8a0fe2a59f2b5104</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_StartingPosition_large</packageName>
+                      <type>single_dropdown1</type>
+                      <size>1074</size>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>https://puu.sh/z7YnQ/b5e0f3f4e8.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>HP Bars</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_PlayersPanel_HpBars</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>inside PlayersPanel</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>BIG</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_2019-09-18.zip</zipFile>
+                          <crc>c477a88ebb4eb3a191156dd33f6684ef</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132133073925182899</timestamp>
+                          <size>1267</size>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg</URL>
+                            </media>
+                          </medias>
+                        </package>
+                        <package>
+                          <name>BIG COLORED by vehicle type</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType_2019-09-18.zip</zipFile>
+                          <crc>d150970ccc30809e5a2ee804d3d8a05c</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132133074007491508</timestamp>
+                          <size>1279</size>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType.png</URL>
+                            </media>
+                          </medias>
+                        </package>
+                        <package>
+                          <name>SMALL</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL_2019-09-18.zip</zipFile>
+                          <crc>3360af3e0173877195b84838f67b46a5</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132133074145021584</timestamp>
+                          <size>999</size>
+                          <description>Enable a small HP bar in the players panel for every tank.</description>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>https://puu.sh/wWLdq/5e835f078a.png</URL>
+                            </media>
+                          </medias>
+                        </package>
+                      </packages>
+                    </package>
+                    <package>
+                      <name>outside PlayersPanel</name>
+                      <zipFile />
+                      <crc />
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside</packageName>
+                      <type>multi</type>
+                      <description>Choose which HP bars you want to use</description>
+                      <packages>
+                        <package>
+                          <name>default</name>
+                          <zipFile />
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_Default</packageName>
+                          <type>single_dropdown1</type>
+                          <description>Use the HP bars from the XVM config you selected in the Prebuilt config tab.</description>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>https://puu.sh/wm5Aw/4a3b4e6b35.png</URL>
+                            </media>
+                          </medias>
+                        </package>
+                        <package>
+                          <name>colored by vehicle type</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_2019-07-06.zip</zipFile>
+                          <crc>8c4885f59cde91edc9282f3918beb886</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132068818242481873</timestamp>
+                          <size>669</size>
+                        </package>
+                        <package>
+                          <name>colored by vehicle type (elektrosmoker´s vehicle type colors)</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro_2019-07-06.zip</zipFile>
+                          <crc>05ff8311400ec0199c3b59bc8897fdc3</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132068818354200448</timestamp>
+                          <size>777</size>
+                          <description>LT = GREEN\r\nMT = ORANGE\r\nHT= GRAY\r\nTD = BLUE\r\nSPG = RED</description>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro.png</URL>
+                            </media>
+                          </medias>
+                        </package>
+                        <package>
+                          <name>OMC style</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle_2019-02-27.zip</zipFile>
+                          <crc>436e2a4c3cfbcd3dc77a29b89044641c</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132068818438581029</timestamp>
+                          <size>1181</size>
+                          <description>From the OMC XVM config</description>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>https://puu.sh/wm5zf/62d892e87b.png</URL>
+                            </media>
+                          </medias>
+                        </package>
+                        <package>
+                          <name>Disabled</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_disable_2019-02-21.zip</zipFile>
+                          <crc>06fefb3ce36c884cda5d1ba17403e023</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_disable</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132068818525371386</timestamp>
+                          <size>771</size>
+                          <medias>
+                            <media>
+                              <type>1</type>
+                              <URL>https://puu.sh/wm5xq/8db4ccf893.png</URL>
+                            </media>
+                          </medias>
+                        </package>
+                        <package>
+                          <name>show max HP</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_show maxHP_2019-07-13.zip</zipFile>
+                          <crc>9626e2e73a3056cc088aadbe630e3bbd</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_showMaxHp</packageName>
+                          <type>multi</type>
+                          <timestamp>132074769018683009</timestamp>
+                          <size>615</size>
+                          <description>shows maximal health points of tanks when battle starts (for allies and enemies)</description>
+                        </package>
+                        <package>
+                          <name>On Key Press</name>
+                          <zipFile />
+                          <crc />
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnKeyPress</packageName>
+                          <type>single_dropdown2</type>
+                          <description>Set the hp bars to be active on key press. (Usually left alt or left crtl)</description>
+                        </package>
+                        <package>
+                          <name>On Always</name>
+                          <zipFile>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnAlways_2019-02-08.zip</zipFile>
+                          <crc>5d5878f14a73678b387817cf0a978adf</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_HpBars_outside_OnAlways</packageName>
+                          <type>single_dropdown2</type>
+                          <timestamp>132068818658503412</timestamp>
+                          <size>710</size>
+                          <description>Set the hp bars to be active always</description>
+                        </package>
+                      </packages>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>Enable small hp numbers for every tank</name>
+                  <zipFile>XVM_config_builder_playerspanel_enemy_hp_left_2017-08-24.zip</zipFile>
+                  <crc>55f2ce9aac36764524ae5b25cd5b319c</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_PlayersPanel_EnemyHpLeft</packageName>
+                  <type>multi</type>
+                  <size>1029</size>
+                  <description>Enable small numbers in the players panel showing the total hp of every tank. Taken from Willster419's config.</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>https://puu.sh/xiDWh/ef574a4fc8.png</URL>
+                    </media>
+                  </medias>
+                </package>
+                <package>
+                  <name>Enemy Spotted Marker</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker</packageName>
+                  <type>multi</type>
+                  <timestamp>131910190208253101</timestamp>
+                  <description>This is a Spotted Status Indicator for the enemy team.</description>
+                  <packages>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVM_config_builder_PlayersPanelModifications_Enemy_Spotted_Marker_enabled.zip</zipFile>
+                      <crc>c74de67423029903c80ec87ea737484f</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_enable</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>131910192008002906</timestamp>
+                      <size>501</size>
+                    </package>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVM_config_builder_PlayersPanelModifications_Enemy_Spotted_Marker_disabled.zip</zipFile>
+                      <crc>e32fc2e5a85aff70de1140c536487047</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_disable</packageName>
+                      <type>single_dropdown1</type>
+                      <timestamp>131910192252772008</timestamp>
+                      <size>503</size>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>Friends-Marker</name>
+                  <zipFile>XVMConfigBuilder_PlayersPanel_friendIcon_2019-09-18.zip</zipFile>
+                  <crc>68f906671fe87b7124d6570b25209a14</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_PlayersPanel_friendignored</packageName>
+                  <type>multi</type>
+                  <timestamp>132133073820783707</timestamp>
+                  <size>4569</size>
+                  <description>marks friends in allied/enemy playerspanel with a green dot,\n\nit´s also possible to mark blacklisted tankers in allied/enemy playerspanel with a red dot.\n\nif the tanksymbol is overlapping there´s an option to move the icon left/right</description>
+                  <packages>
+                    <package>
+                      <name>Blacklisted-Marker</name>
+                      <zipFile>XVMConfigBuilder_PlayersPanel_ignoredIcon_2019-09-18.zip</zipFile>
+                      <crc>3ce57f1a8f61517915dbfc78662b10f4</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_ignoredIcon</packageName>
+                      <type>multi</type>
+                      <timestamp>132133073617410729</timestamp>
+                      <size>4574</size>
+                      <description>marks blacklisted tankers in allied/enemy playerspanel with a red dot</description>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_ignoredicon.png</URL>
+                        </media>
+                      </medias>
+                    </package>
+                    <package>
+                      <name>change markers position (-&gt;) (if tankicons are overlapping)</name>
+                      <zipFile>XVM_config_builder_friendignoredicon_move_x120_2018-07-30.zip</zipFile>
+                      <crc>945a8e5fdea751d0bbbf5800b431b6eb</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_friendignored_move_x120</packageName>
+                      <type>multi</type>
+                      <timestamp>131773955954736164</timestamp>
+                      <size>517</size>
+                      <description>move Friends-and Blacklisted-Markers more to center  (if contouricons are overlapping)</description>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>Show who´s using XVM (xvmUserMarker)</name>
+                  <zipFile>XVM_config_builder_enable_xvmUserMarker.zip</zipFile>
+                  <crc>2c6ac05818bed6fd7a2f5f70bf4c0a40</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_PlayersPanel_enable_xvmUserMarker</packageName>
+                  <type>multi</type>
+                  <timestamp>131772838063351349</timestamp>
+                  <size>538</size>
+                  <description>shows a little orange "x" near to player-/tanknames when they are using xvm</description>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_enable_xvmUserMarker.png</URL>
+                    </media>
+                  </medias>
+                  <packages>
+                    <package>
+                      <name>change position of "x" (-&gt;)</name>
+                      <zipFile>XVM_config_builder_xvmusermarker_right_2018-07-30.zip</zipFile>
+                      <crc>17e1a7242d4ea0c8a767ef6347d4d542</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_xvmUserMarker_right</packageName>
+                      <type>multi</type>
+                      <timestamp>131773929429232688</timestamp>
+                      <size>461</size>
+                      <description>move the "x" more to center  (if contouricons are overlapping)</description>
+                    </package>
+                  </packages>
+                </package>
+                <package>
+                  <name>Show language flag</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_PlayersPanel_Language_Flag</packageName>
+                  <type>multi</type>
+                  <timestamp>131889469435275963</timestamp>
+                  <description>will show the individually selcted language flag of every player in the panel.\n\nOn ALT key, it will be hidden.</description>
+                  <packages>
+                    <package>
+                      <name>based on XVM selected language</name>
+                      <zipFile>XVMConfigBuilder_PlayersPanelModifications_Language_Flag_XVM_2019-09-18.zip</zipFile>
+                      <crc>532d057024bd32d05154db2eb4295bf2</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_PlayersPanel_Language_Flag_XVM</packageName>
+                      <type>multi</type>
+                      <timestamp>132133074366560782</timestamp>
+                      <size>977</size>
+                      <medias>
+                        <media>
+                          <type>1</type>
+                          <URL>http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_Language_Flag.png</URL>
+                        </media>
+                      </medias>
+                      <packages>
+                        <package>
+                          <name>change the flag´s position (&lt;-)</name>
+                          <zipFile>XVM_config_builder_PlayersPanelModifications_Language_Flag_XVM_left_patch.zip</zipFile>
+                          <crc>2070b02b8acae8cb3869bae18eaebac8</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_PlayersPanel_Language_Flag_XVM_left</packageName>
+                          <type>multi</type>
+                          <timestamp>131891289119949068</timestamp>
+                          <size>594</size>
+                          <description>move flag to the panel inside.\nuseful for some prebuilt configs (eg Jimbo´s)\n\n\n\nAttention with simultaneous use of both language-flags!</description>
+                        </package>
+                      </packages>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+          </packages>
+        </package>
+        <package>
           <name>Sound (!Experts Only!)</name>
           <zipFile />
           <crc />
@@ -9464,6 +9427,74 @@
           </packages>
         </package>
         <package>
+          <name>statistics colorscale</name>
+          <zipFile />
+          <crc />
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>XVMconfigBuilder_StatisticsColorScale</packageName>
+          <type>multi</type>
+          <description>Choose which color scale you use to display player's tank stats</description>
+          <packages>
+            <package>
+              <name>no change  (using the selected config's colorscale or the  default one)</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_StatisticsColorScale_default</packageName>
+              <type>single_dropdown1</type>
+            </package>
+            <package>
+              <name>6-step XVM (default)</name>
+              <zipFile>XVM_config_builder_color_scale_6_step_xvm_patch_2019-06-04.zip</zipFile>
+              <crc>aa1b775b631797e59f4e50858389e76f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_StatisticsColorScale_6StepXVM</packageName>
+              <type>single_dropdown1</type>
+              <timestamp>131665836073703025</timestamp>
+              <size>1025</size>
+              <updateComment>2018-03-26: fixed wrong text to insert</updateComment>
+            </package>
+            <package>
+              <name>7-step WOTLABS old</name>
+              <zipFile>XVM_config_builder_color_scale_7_step_wotlabs_old_patch_2019-06-04.zip</zipFile>
+              <crc>4440fec522beb0f33ebc32cccd524b6d</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_StatisticsColorScale_7StepOldWotLabs</packageName>
+              <type>single_dropdown1</type>
+              <timestamp>131665836144585035</timestamp>
+              <size>1088</size>
+              <updateComment>fixed a syntax error</updateComment>
+            </package>
+            <package>
+              <name>9-step WOT-LIFE</name>
+              <zipFile>XVM_config_builder_color_scale_9_step_wot-life_patch_2019-06-04.zip</zipFile>
+              <crc>1063412285af489d3b344564c8d0693f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_StatisticsColorScale_9StepWot-life</packageName>
+              <type>single_dropdown1</type>
+              <timestamp>131891392875414168</timestamp>
+              <size>1123</size>
+              <devURL>https://wot-life.com/</devURL>
+            </package>
+            <package>
+              <name>10-step WOTLABS</name>
+              <zipFile>XVM_config_builder_color_scale_10_step_wotlabs_patch_2019-06-04.zip</zipFile>
+              <crc>011853e6d582df2322c280e294b4be3b</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_StatisticsColorScale_10StepWotlabs</packageName>
+              <type>single_dropdown1</type>
+              <timestamp>131665836279062627</timestamp>
+              <size>1126</size>
+            </package>
+          </packages>
+        </package>
+        <package>
           <name>Tweaks</name>
           <zipFile />
           <crc />
@@ -9502,37 +9533,6 @@
                   <size>648</size>
                 </package>
               </packages>
-            </package>
-          </packages>
-        </package>
-        <package>
-          <name>Battle Chat</name>
-          <zipFile />
-          <crc />
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>XVMconfigBuilder_battleChat</packageName>
-          <type>multi</type>
-          <timestamp>131812487015080046</timestamp>
-          <size>5211</size>
-          <description>modify the battlechat</description>
-          <packages>
-            <package>
-              <name>WN8-ChatColor</name>
-              <zipFile>XVMconfigBuilder_battleChat_wn8chatcolor_2019-06-24.zip</zipFile>
-              <crc>54096b3d59a3956a800e54e3d154a7f0</crc>
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_battleChat_wn8chatcolor</packageName>
-              <type>multi</type>
-              <timestamp>131950548698710076</timestamp>
-              <size>2295</size>
-              <description>the writer´s name is colored in his wn8color</description>
-              <dependencies>
-                <dependency>
-                  <packageName>Dependecy_XVM_PY_mod_chat_color</packageName>
-                </dependency>
-              </dependencies>
             </package>
           </packages>
         </package>
