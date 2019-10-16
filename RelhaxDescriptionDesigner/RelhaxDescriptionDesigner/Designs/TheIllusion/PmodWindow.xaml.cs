@@ -44,6 +44,5 @@ namespace RelhaxDescriptionDesigner.Designs.TheIllusion
             Designs.TheIllusion.PMOD_ServerReticle pmodServerReticle = new Designs.TheIllusion.PMOD_ServerReticle();
             pmodServerReticle.Show();
         }
-
     }
 }
