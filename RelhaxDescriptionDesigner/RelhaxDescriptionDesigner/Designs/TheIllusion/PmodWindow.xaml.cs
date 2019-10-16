@@ -1,16 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
+﻿using System.Windows;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace RelhaxDescriptionDesigner.Designs.TheIllusion
 {
@@ -43,6 +32,16 @@ namespace RelhaxDescriptionDesigner.Designs.TheIllusion
         {
             Designs.TheIllusion.PMOD_ServerReticle pmodServerReticle = new Designs.TheIllusion.PMOD_ServerReticle();
             pmodServerReticle.Show();
+        }
+        private void Click_PMOD_PenMarkers(object sender, RoutedEventArgs e)
+        {
+            Designs.TheIllusion.PMOD_PenMarkers pmodPenMarker = new Designs.TheIllusion.PMOD_PenMarkers();
+            pmodPenMarker.Show();
+        }
+        private void Click_PMOD_HPPools(object sender, RoutedEventArgs e)
+        {
+            Designs.TheIllusion.PMOD_HPPools pmodHPPools = new Designs.TheIllusion.PMOD_HPPools();
+            pmodHPPools.Show();
         }
     }
 }
