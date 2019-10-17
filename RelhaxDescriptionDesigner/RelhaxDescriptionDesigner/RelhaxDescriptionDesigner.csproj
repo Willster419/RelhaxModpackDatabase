@@ -71,6 +71,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Designs\TheIllusion\StarTrek\StarTrekMainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Designs\Willster419\FirstFlowDocument.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -98,6 +102,9 @@
     </Compile>
     <Compile Include="Designs\TheIllusion\PMOD\PMOD_ServerReticle.xaml.cs">
       <DependentUpon>PMOD_ServerReticle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Designs\TheIllusion\StarTrek\StarTrekMainWindow.xaml.cs">
+      <DependentUpon>StarTrekMainWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Designs\Willster419\FirstFlowDocument.xaml.cs">
       <DependentUpon>FirstFlowDocument.xaml</DependentUpon>

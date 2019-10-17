@@ -42,5 +42,10 @@ namespace RelhaxDescriptionDesigner
             Designs.TheIllusion.PMOD.PmodWindow pmod = new Designs.TheIllusion.PMOD.PmodWindow();
             pmod.Show();
         }
+        private void StarTrek_Click(object sender, RoutedEventArgs e)
+        {
+            Designs.TheIllusion.StarTrek.StarTrekMainWindow starTrek = new Designs.TheIllusion.StarTrek.StarTrekMainWindow();
+            starTrek.Show();
+        }
     }
 }
