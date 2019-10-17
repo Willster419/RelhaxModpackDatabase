@@ -1453,10 +1453,10 @@
       <Media URL="https://wgmods.net/media/2_mkwWObb.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
     </Medias>
   </Package>
-  <Package PackageName="Ingame_Misc_chatmods" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Chat-Mods (in-battle)" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Misc_Chatmods" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Chat-Mods (in-battle)" Type="multi" Visible="True">
     <Timestamp>131826383659795290</Timestamp>
     <Packages>
-      <Package PackageName="Ingame_Misc_chatmods_buttonreplacer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Colored messages aka &quot;ButtonReplacer&quot; - Chat &amp; Kill-Log (sys-log) by Polyakov Yuri" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Misc_Chatmods_buttonReplacer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Colored messages aka &quot;ButtonReplacer&quot; - Chat &amp; Kill-Log (sys-log) by Polyakov Yuri" Type="multi" Visible="True">
         <Size>9510</Size>
         <ZipFile>Ingame_misc_buttonreplacer_1.5.1.1_2019-06-18.zip</ZipFile>
         <CRC>79d39d4c69218bfe98226a90c1bf15dc</CRC>
@@ -1471,7 +1471,7 @@
           <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Ingame_Misc_chatmods_elkrda" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Elkano's Received Damage Announcer (ElkRDA)" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Misc_Chatmods_elkrda" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Elkano's Received Damage Announcer (ElkRDA)" Type="multi" Visible="True">
         <Size>10966</Size>
         <ZipFile>Ingame_Misc_chatmods_ElkRDA_1.8_2019-10-10.zip</ZipFile>
         <CRC>6ffd75b8ec09593eb3dd7a74596a72d2</CRC>
@@ -1509,7 +1509,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Ingame_Misc_chatmods_FriendsMarker_Oldskool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Friends Marker by Oldskool" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Misc_Chatmods_FriendsMarker_Oldskool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Friends Marker by Oldskool" Type="multi" Visible="True">
         <Size>29020</Size>
         <Version>v1.0.8</Version>
         <ZipFile>Ingame_Misc_chatmods_Friendsmarker_oldskool_v1.0.8_1.6.1.0_2019-10-09.zip</ZipFile>
@@ -1524,7 +1524,7 @@
           <Dependency PackageName="Dependency_playersPanelAPI_OldSkool" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Ingame_Misc_chatmods_FriendsNotifier_Rajcel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Friends Notifier by RAJCEL" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Misc_Chatmods_FriendsNotifier_Rajcel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Friends Notifier by RAJCEL" Type="multi" Visible="True">
         <Size>30943</Size>
         <ZipFile>Ingame_Misc_chatmods_FriendsNotifier_by_rajcel_1.6.1.0_2019-10-09.zip</ZipFile>
         <CRC>ada56bd6dbcd8b205d2b16803d652ec1</CRC>
@@ -1542,7 +1542,7 @@
           <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Ingame_Misc_chatmods_SorryMessenger" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Sorry&quot; message when you hit an ally" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Misc_Chatmods_SorryMessenger" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Sorry&quot; message when you hit an ally" Type="multi" Visible="True">
         <Size>4653</Size>
         <ZipFile>Ingame_Misc_Chatmods_SorryMessenger_1.5.0_2019-05-08.zip</ZipFile>
         <CRC>80a42575e0917773608b31fc0cadcd2e</CRC>
@@ -1553,6 +1553,39 @@
         <Medias>
           <Media URL="https://wgmods.net/media/mod_files/D0gAuynUwAIr_yV.png_large.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
         </Medias>
+      </Package>
+      <Package PackageName="Ingame_Misc_Chatmods_RadialMenu" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Radial Menu" Type="multi" Visible="True">
+        <Timestamp>131767543894143710</Timestamp>
+        <Packages>
+          <Package PackageName="Ingame_Misc_Chatmods_RadialMenu_PY" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enhanced Customizable Radial Menu by Polyacov_Yury" Type="single_dropdown1" Visible="True">
+            <Size>159292</Size>
+            <ZipFile>Ingame_Misc_Chatmods_RadialMenu_PY_1.6.1_2019-10-13.zip</ZipFile>
+            <CRC>0bcd7ff60201901fe334a8db9b5138a1</CRC>
+            <Timestamp>132157886060556316</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/36164-</DevURL>
+            <Description>Provides you with a custom radial menu. \nIt also may have custom text specified based on your current tank selection.</Description>
+            <UpdateComment>\ndb-managers: use old cfg/skin when patching</UpdateComment>
+            <Medias>
+              <Media URL="https://img.atwikiimg.com/www51.atwiki.jp/wot_sengiken/attach/140/273/RadialMenu.jpg" MediaType="Picture" />
+              <Media URL="http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_06_2014/post-5686007-0-35112300-1403228830.jpg" MediaType="Picture" />
+              <Media URL="http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_06_2014/post-5686007-0-82846000-1403228828.jpg" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Ingame_Misc_Chatmods_RadialMenu_HAWG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Radial Menu by HAWG" Type="single_dropdown1" Visible="True">
+            <Size>173184</Size>
+            <ZipFile>Ingame_Misc_Chatmods_RadialMenu_HAWG_1.5.0_2019-05-02.zip</ZipFile>
+            <CRC>f584a87e05c9be9f08d12726fe182546</CRC>
+            <Timestamp>132157885868607750</Timestamp>
+            <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-radial-menu</DevURL>
+            <Medias>
+              <Media URL="http://i.imgur.com/x9R0TDt.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+        </Packages>
       </Package>
     </Packages>
   </Package>
@@ -1841,11 +1874,11 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Misc_hitmarker_Base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hitmarker" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Misc_hitmarker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hitmarker" Type="multi" Visible="True">
     <Size>5100</Size>
-    <ZipFile>Ingame_Misc_hitmarker_by_aimdrol_1.6.0.7_2019-09-21.zip</ZipFile>
+    <ZipFile>Ingame_Misc_hitmarker_1.6.0.7_2019-09-21.zip</ZipFile>
     <CRC>07cc78b4e2341c86ab4fb0ee86556bf1</CRC>
-    <Timestamp>132135554733022681</Timestamp>
+    <Timestamp>132157892757976499</Timestamp>
     <DevURL>https://github.com/Aimdrol/MLG-Hitmarker\r\nhttp://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
     <Description>Shows a CoD style hitmarker whenever you penetrate ( ͡° ͜ʖ ͡°) an enemy tank.\r\n\r\nby Aimdrol</Description>
     <Medias>
@@ -1899,7 +1932,7 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Misc_LightMod_Base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="LightMod" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Misc_LightMod" Enabled="True" InstallGroup="4" PatchGroup="4" Name="LightMod" Type="multi" Visible="True">
     <Size>20124</Size>
     <ZipFile>Ingame_Misc_LightMod_LampLights_Base_1.6.1.0_2019-10-09.zip</ZipFile>
     <CRC>9e95d82ed8a67692eb996fc5ceeeab74</CRC>
@@ -2283,39 +2316,6 @@
         <Timestamp>131808096332661518</Timestamp>
         <DevURL>https://wgmods.net/2040/details</DevURL>
         <Description>Change the color of the Pre Battle Timer</Description>
-      </Package>
-    </Packages>
-  </Package>
-  <Package PackageName="Ingame_Misc_Radial_Menu" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Radial Menu" Type="multi" Visible="True">
-    <Timestamp>131767543894143710</Timestamp>
-    <Packages>
-      <Package PackageName="Ingame_Misc_Radial_Menu_PY" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enhanced Customizable Radial Menu by Polyacov_Yury" Type="single_dropdown1" Visible="True">
-        <Size>159292</Size>
-        <ZipFile>Ingame_Misc_Radial_Menu_PY_1.6.1_2019-10-13.zip</ZipFile>
-        <CRC>0bcd7ff60201901fe334a8db9b5138a1</CRC>
-        <Timestamp>132154581717378462</Timestamp>
-        <DevURL>https://koreanrandom.com/forum/topic/36164-</DevURL>
-        <Description>Provides you with a custom radial menu. \nIt also may have custom text specified based on your current tank selection.</Description>
-        <UpdateComment>\ndb-managers: use old cfg/skin when patching</UpdateComment>
-        <Medias>
-          <Media URL="https://img.atwikiimg.com/www51.atwiki.jp/wot_sengiken/attach/140/273/RadialMenu.jpg" MediaType="Picture" />
-          <Media URL="http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_06_2014/post-5686007-0-35112300-1403228830.jpg" MediaType="Picture" />
-          <Media URL="http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_06_2014/post-5686007-0-82846000-1403228828.jpg" MediaType="Picture" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="Ingame_Misc_Radial_Menu_HAWG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Radial Menu by HAWG" Type="single_dropdown1" Visible="True">
-        <Size>173184</Size>
-        <ZipFile>Ingame_Misc_Radial_Menu_HAWG_1.5.0_2019-05-02.zip</ZipFile>
-        <CRC>f584a87e05c9be9f08d12726fe182546</CRC>
-        <Timestamp>131938983242513090</Timestamp>
-        <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-radial-menu</DevURL>
-        <Medias>
-          <Media URL="http://i.imgur.com/x9R0TDt.png" MediaType="Picture" />
-        </Medias>
       </Package>
     </Packages>
   </Package>

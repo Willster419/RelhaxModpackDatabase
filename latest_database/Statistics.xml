@@ -13,7 +13,6 @@
         <Timestamp>132150981604021885</Timestamp>
         <DevURL>https://awfultanker.torvox.eu/sessionstats.html</DevURL>
         <Description>Awfultanker Session Stats - based on Locastans Minimal Session Stats (no CW).\r\nSettings can be changed in garage.</Description>
-        <UpdateComment>upd 1.6.0.2_2019-08-25: \r\n-In-garage language selection (German translation  - thx Maskabor)\r\n-Bugfix: you must play Random battles to sorting tanks by WN8, ex. frontline doesnt count\r\n\r\nWG EU Forum URL: http://forum.worldoftanks.eu/index.php?/topic/572573-</UpdateComment>
         <Medias>
           <Media URL="https://awfultanker.torvox.eu/images/notification_button_clock.png" MediaType="Picture" />
           <Media URL="https://awfultanker.torvox.eu/images/notification_button_wn8.png" MediaType="Picture" />
@@ -423,7 +422,6 @@
         <Timestamp>132154491169688989</Timestamp>
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/572771-</DevURL>
         <Description>Shows your statistics for your tanks session in the notifications area of your garage \nGerman modified Version by dirty20067</Description>
-        <UpdateComment>2019-01-15: updated xvmscales.json &amp; expected_tank_values.json \n                   \n2018-11-17: only expected_tank_values.json updated\n\n\n[0.9.22.0.1].r01   (14-02-2018) - Updated for 0.9.22.0.1.\n- New macros added:\n        {{bonds}}, {{totalDamageBlocked}}, {{avgBonds}}, {{avgDamageBlocked}}.\n- Cache version changed from 6 to 7. Older cache files are no longer valid.</UpdateComment>
         <UserFiles>
           <UserFile Pattern="\\res_mods\\configs\\wotstat\\cache.json" />
         </UserFiles>
@@ -479,7 +477,6 @@
         <Version>1.6.1.0</Version>
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/583433-</DevURL>
         <Description>Shows your statistics for your tanks session in the notifications area of your garage</Description>
-        <UpdateComment>07.08.2019\r\n    Updated for 1.6.0.0\r\n    Added new Battle Type 28 EPIC_BATTLE_TRAINING - Frontline Training</UpdateComment>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/statistics/Session_Statistics_YK.jpg" MediaType="Picture" />
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_eng.jpg" MediaType="Picture" />
@@ -527,94 +524,31 @@
               <Dependency PackageName="Dependency_YK-BCV_Backgrounds" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Session_Statistics_YK_background" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Background" Type="multi" Visible="True">
-            <DevURL>NOT NEEDED TO UPDATE - ONLY PICS</DevURL>
-            <UpdateComment>pictures not really need updates! if you want to have more work - feel free to update it ;)</UpdateComment>
-            <Packages>
-              <Package PackageName="Session_Statistics_YK_background_v1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V1" Type="single_dropdown1" Visible="True">
-                <Size>405178</Size>
-                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V1_1.4.1_2019-03-24.zip</ZipFile>
-                <CRC>cdf78369db743f1168973c09fe923645</CRC>
-                <Timestamp>131979307013269449</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V1_eng.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="Session_Statistics_YK_background_v2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V2" Type="single_dropdown1" Visible="True">
-                <Size>515634</Size>
-                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V2_1.4.1_2019-03-24.zip</ZipFile>
-                <CRC>6481fa9c7b552951c058194d8d10dfa9</CRC>
-                <Timestamp>131979306875517861</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V2_eng.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="Session_Statistics_YK_background_v3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V3" Type="single_dropdown1" Visible="True">
-                <Size>381358</Size>
-                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V3_1.4.1_2019-03-24.zip</ZipFile>
-                <CRC>57913616ab8615362ec35e6af8469ff8</CRC>
-                <Timestamp>131979306778208111</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V3_eng.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="Session_Statistics_YK_background_v4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V4" Type="single_dropdown1" Visible="True">
-                <Size>1388153</Size>
-                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V4_1.4.1_2019-03-24.zip</ZipFile>
-                <CRC>5ae971940643d8e7cee7cc60d12a5a60</CRC>
-                <Timestamp>131979306663963639</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V4_eng.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="Session_Statistics_YK_background_v5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V5" Type="single_dropdown1" Visible="True">
-                <Size>1904606</Size>
-                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V5_1.4.1_2019-03-24.zip</ZipFile>
-                <CRC>b4491fda8e2e5477ca696f7c36e2431a</CRC>
-                <Timestamp>131979306564529575</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V5_eng.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="Session_Statistics_YK_Language" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Language" Type="single1" Visible="True">
+          <Package PackageName="Session_Statistics_YK_Configuration" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Configurations" Type="multi" Visible="True">
             <Timestamp>131542717093817752</Timestamp>
             <Packages>
-              <Package PackageName="Session_Statistics_YK_default_english" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Default English" Type="single_dropdown2" Visible="True">
+              <Package PackageName="Session_Statistics_YK_Configuration_default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Default" Type="single_dropdown2" Visible="True">
                 <Size>3603</Size>
                 <Timestamp>131542717093817752</Timestamp>
               </Package>
-              <Package PackageName="Session_Statistics_YK_TankSchmidt_english" Enabled="True" InstallGroup="4" PatchGroup="4" Name="TankSchmidt DaStats (English)" Type="single_dropdown2" Visible="True">
+              <Package PackageName="Session_Statistics_YK_Configuration_TankSchmidt_english" Enabled="True" InstallGroup="4" PatchGroup="4" Name="TankSchmidt DaStats (English)" Type="single_dropdown2" Visible="True">
                 <Size>5362</Size>
                 <ZipFile>Session_Statistics_YasenKrasen_TankSchmidt_DaStats_english_1.6.1.0_2019-10-14.zip</ZipFile>
                 <CRC>c16dfafda3c285647c518bdab44774c9</CRC>
                 <Timestamp>132155540002781250</Timestamp>
                 <DevURL>http://forum.worldoftanks.eu/index.php?/topic/583433-091902-yasenkrasen-colored-messages-session-statistics-eng-08062017/page__st__140__pid__13500665#entry13500665</DevURL>
-                <Description>Note: Mini recommended; No Update check, added assistance damage and crew XP</Description>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats1-3.png" MediaType="Picture" />
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats2-3.png" MediaType="Picture" />
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats3-3.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Session_Statistics_YK_default_german" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Default German (Standard Deutsch)" Type="single_dropdown2" Visible="False">
-                <Size>4023</Size>
-                <ZipFile>Session_Statistics_YasenKrasen_german_base_core_config_2018-06-17.zip</ZipFile>
-                <CRC>e2bda1c255c003f326dfa217318621df</CRC>
-                <Timestamp>131737409078581103</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V1_ger_1-2.jpg" MediaType="Picture" />
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V1_ger_2-2.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="Session_Statistics_YK_TankSchmidt_German" Enabled="False" InstallGroup="4" PatchGroup="4" Name="TankSchmidt DaStats (German)" Type="single_dropdown2" Visible="False">
+              <Package PackageName="Session_Statistics_YK_Configuration_TankSchmidt_German" Enabled="False" InstallGroup="4" PatchGroup="4" Name="TankSchmidt DaStats (German)" Type="single_dropdown2" Visible="False">
                 <Size>5240</Size>
                 <ZipFile>Session_Statistics_YasenKrasen_TankSchmidt_DaStats_german_2018-08-15.zip</ZipFile>
                 <CRC>e558e01d4c3255258d9e91a0634308e2</CRC>
                 <Timestamp>131788075416000898</Timestamp>
                 <DevURL>http://forum.worldoftanks.eu/index.php?/topic/583433-091902-yasenkrasen-colored-messages-session-statistics-eng-08062017/page__st__140__pid__13500665#entry13500665</DevURL>
-                <Description>Hinweis: Mini Version empfohlen, ohne Update check, mit Unterstützungsschaden und Besatzungserfahrung</Description>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats091902-a_German1-3.jpg" MediaType="Picture" />
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats091902-a_German2-3.jpg" MediaType="Picture" />
@@ -623,7 +557,13 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Session_Statistics_YK_useParametersPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable panels:" Type="multi" Visible="True">
+          <Package PackageName="Session_Statistics_YK_Daily_Reset" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Daily Reset" Type="multi" Visible="True">
+            <Size>471</Size>
+            <ZipFile>Session_Statistics_YasenKrasen_Daily_Reset_2017_05_11.zip</ZipFile>
+            <CRC>55e568599a979b3b4d7e07f9c7d6ce56</CRC>
+            <Timestamp>131879648393714150</Timestamp>
+          </Package>
+          <Package PackageName="Session_Statistics_YK_useParametersPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Statistics Panels" Type="multi" Visible="True">
             <Size>493</Size>
             <ZipFile>Session_Statistics_YK_useParametersPanel_true_patch_2019-08-24.zip</ZipFile>
             <CRC>03059831218e72c78bf87f64c026fc7d</CRC>
@@ -643,7 +583,7 @@
                   <Media URL="https://i.imgur.com/rs9Oloh.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Session_Statistics_useParametersPanel_panelStatistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="account statistics" Type="multi" Visible="True">
+              <Package PackageName="Session_Statistics_YK_useParametersPanel_panelStatistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="account statistics" Type="multi" Visible="True">
                 <Size>508</Size>
                 <ZipFile>Statistic_Session_YK_UseParametersPanel_panelStatistics_enable_patch_2019-07-01.zip</ZipFile>
                 <CRC>1d384ecb4edc4faae0c1078cae757a14</CRC>
@@ -695,43 +635,92 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Session_Statistics_YK_Graphical" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Graphical Battle Messages" Type="multi" Visible="True">
-            <Size>241777</Size>
-            <ZipFile>Session_Statistics_YasenKrasen_Graphical_1.6.1.0_2019-10-10.zip</ZipFile>
-            <CRC>4d1abd29a3d30ef4bb18d54ddf0ed72c</CRC>
-            <Timestamp>132151711264409717</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
-            </Medias>
+          <Package PackageName="Session_Statistics_YK_Module" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modules" Type="multi" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132156509487304729</Timestamp>
+            <Packages>
+              <Package PackageName="Session_Statistics_YK_Module_ColoredMessages" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Colored In-Game Messages -&gt; !! sets client language to english !!" Type="multi" Visible="True">
+                <Size>2639331</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Colored_Messages_1.6.1.0_2019-10-10.zip</ZipFile>
+                <CRC>e6415bf72cc1b61bd101057037ac3182</CRC>
+                <Timestamp>132151711316282218</Timestamp>
+                <Description>NOTE: this mod sets client language to english</Description>
+                <UpdateComment>take from Core (5,5MB), not Vanilla</UpdateComment>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_Module_GraphicalBattleMessages" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Graphical Battle Messages" Type="multi" Visible="True">
+                <Size>241777</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Graphical_1.6.1.0_2019-10-10.zip</ZipFile>
+                <CRC>4d1abd29a3d30ef4bb18d54ddf0ed72c</CRC>
+                <Timestamp>132151711264409717</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_Module_Skulls" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Kill Skulls (alternative in-game battle messages)" Type="multi" Visible="True">
+                <Size>18520</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Ingame_Skulls_1.6.1.0_2019-10-10.zip</ZipFile>
+                <CRC>0a68be710da6957d73a22cb7e6283858</CRC>
+                <Timestamp>132151711384586065</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_3.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_4.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
           </Package>
-          <Package PackageName="Session_Statistics_YK_Daily_Reset" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Daily Reset" Type="multi" Visible="True">
-            <Size>471</Size>
-            <ZipFile>Session_Statistics_YasenKrasen_Daily_Reset_2017_05_11.zip</ZipFile>
-            <CRC>55e568599a979b3b4d7e07f9c7d6ce56</CRC>
-            <Timestamp>131879648393714150</Timestamp>
-          </Package>
-          <Package PackageName="Session_Statistics_YK_Colored_Messages" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Colored in-game messages (sets client language to english)" Type="multi" Visible="True">
-            <Size>2639331</Size>
-            <ZipFile>Session_Statistics_YasenKrasen_Colored_Messages_1.6.1.0_2019-10-10.zip</ZipFile>
-            <CRC>e6415bf72cc1b61bd101057037ac3182</CRC>
-            <Timestamp>132151711316282218</Timestamp>
-            <Description>NOTE: this mod sets client language to english</Description>
-            <UpdateComment>take from Core (5,5MB), not Vanilla</UpdateComment>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Session_Statistics_YK_Skulls" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Kill Skulls (alternative in-game battle messages)" Type="multi" Visible="True">
-            <Size>18520</Size>
-            <ZipFile>Session_Statistics_YasenKrasen_Ingame_Skulls_1.6.1.0_2019-10-10.zip</ZipFile>
-            <CRC>0a68be710da6957d73a22cb7e6283858</CRC>
-            <Timestamp>132151711384586065</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_3.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_4.jpg" MediaType="Picture" />
-            </Medias>
+          <Package PackageName="Session_Statistics_YK_background" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Background" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="Session_Statistics_YK_background_v1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V1" Type="single_dropdown1" Visible="True">
+                <Size>405178</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V1_1.4.1_2019-03-24.zip</ZipFile>
+                <CRC>cdf78369db743f1168973c09fe923645</CRC>
+                <Timestamp>131979307013269449</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V1_eng.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_background_v2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V2" Type="single_dropdown1" Visible="True">
+                <Size>515634</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V2_1.4.1_2019-03-24.zip</ZipFile>
+                <CRC>6481fa9c7b552951c058194d8d10dfa9</CRC>
+                <Timestamp>131979306875517861</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V2_eng.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_background_v3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V3" Type="single_dropdown1" Visible="True">
+                <Size>381358</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V3_1.4.1_2019-03-24.zip</ZipFile>
+                <CRC>57913616ab8615362ec35e6af8469ff8</CRC>
+                <Timestamp>131979306778208111</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V3_eng.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_background_v4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V4" Type="single_dropdown1" Visible="True">
+                <Size>1388153</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V4_1.4.1_2019-03-24.zip</ZipFile>
+                <CRC>5ae971940643d8e7cee7cc60d12a5a60</CRC>
+                <Timestamp>131979306663963639</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V4_eng.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Session_Statistics_YK_background_v5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="V5" Type="single_dropdown1" Visible="True">
+                <Size>1904606</Size>
+                <ZipFile>Session_Statistics_YasenKrasen_Backgrounds_V5_1.4.1_2019-03-24.zip</ZipFile>
+                <CRC>b4491fda8e2e5477ca696f7c36e2431a</CRC>
+                <Timestamp>131979306564529575</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V5_eng.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
           </Package>
         </Packages>
       </Package>

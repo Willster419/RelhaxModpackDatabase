@@ -70,10 +70,11 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Aim_BalCalcMod" Enabled="False" InstallGroup="4" PatchGroup="4" Name="BalCalcMod" Type="multi" Visible="True">
-    <Size>9176</Size>
-    <ZipFile>Ingame_Aim_BalCalcMod_Base_0.9.19.1_2017-07-12.zip</ZipFile>
-    <CRC>474595b7ba0df34a8e82a6910d607170</CRC>
+  <Package PackageName="Ingame_Aim_BalCalcMod" Enabled="True" InstallGroup="4" PatchGroup="4" Name="BalCalcMod" Type="multi" Visible="True">
+    <Size>9257</Size>
+    <ZipFile>Ingame_Aim_BalCalcMod_1.6.1.1_2019-10-16.zip</ZipFile>
+    <CRC>838d8ae8bdcb3492b9e60d93ba90bbbe</CRC>
+    <Timestamp>132157090162916567</Timestamp>
     <DevURL>https://koreanrandom.com/forum/topic/30440-</DevURL>
     <Description>The mod is designed to remedy the situation where it is impossible to aim above the hill. (Overshooting)</Description>
     <Medias>
@@ -966,80 +967,93 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Aim_Zoomin" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zoom In (pmod)" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Aim_ZoomIn" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zoom In (pmod)" Type="multi" Visible="True">
     <Description>Allows you to change the ammount that you can zoom in.\nDefault zoom changes the first zoom in when you go to sniper mode\ntd brake allows you to change wether the tank moves when you point your gun out of gun range\n\nif you are using xvm, we recommend using the xvm camera options instead of PMOD.\nyou can find the settings in the xvm config builder section.</Description>
     <Dependencies>
       <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="Ingame_Aim_zoom_pmod_zoomIn_12" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2, 4, 8, 12" Type="single_dropdown1" Visible="True">
-        <Size>692</Size>
-        <ZipFile>pmod_zoomin_config_4_2019-02-19.zip</ZipFile>
-        <CRC>02359cf44586f4c663bd11cc65ebbd26</CRC>
-        <Timestamp>131950432486406739</Timestamp>
+      <Package PackageName="Ingame_Aim_ZoomIn_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2, 4, 8, 12" Type="single_dropdown1" Visible="True">
+        <Size>690</Size>
+        <ZipFile>Ingame_Aim_ZoomIn_1_2019-02-19.zip</ZipFile>
+        <CRC>f834f143ca80cd9a44f430534aa4d6ee</CRC>
+        <Timestamp>132158122420417837</Timestamp>
       </Package>
-      <Package PackageName="Ingame_Aim_zoom_pmod_zoomIn_25" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2, 4, 8, 16, 25 (client default)" Type="single_dropdown1" Visible="True">
-        <Size>700</Size>
-        <ZipFile>pmod_zoomin_config_1_2019-02-19.zip</ZipFile>
-        <CRC>7458c51885d900b6fe7a7f70e056ac9f</CRC>
-        <Timestamp>131950432605169268</Timestamp>
+      <Package PackageName="Ingame_Aim_ZoomIn_2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2, 4, 8, 16, 25 (client default)" Type="single_dropdown1" Visible="True">
+        <Size>698</Size>
+        <ZipFile>Ingame_Aim_ZoomIn_2_2019-02-19.zip</ZipFile>
+        <CRC>a852f6b255e00e857ca0d1b75cdf9cb8</CRC>
+        <Timestamp>132158119545427471</Timestamp>
       </Package>
-      <Package PackageName="Ingame_Aim_zoom_pmod_zoomIn_2-32" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2, 4, 8, 12, 16, 20, 26, 32" Type="single_dropdown1" Visible="True">
-        <Size>737</Size>
-        <ZipFile>pmod_zoomin_config_2_2019-02-19.zip</ZipFile>
-        <CRC>72708c9d428460b4cff0807d84c0b10b</CRC>
-        <Timestamp>131950432745783371</Timestamp>
+      <Package PackageName="Ingame_Aim_ZoomIn_3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2, 4, 8, 12, 16, 20, 26, 32" Type="single_dropdown1" Visible="True">
+        <Size>735</Size>
+        <ZipFile>Ingame_Aim_ZoomIn_3_2019-02-19.zip</ZipFile>
+        <CRC>40fa68455ae49095181962820f901869</CRC>
+        <Timestamp>132158121819486563</Timestamp>
       </Package>
-      <Package PackageName="Ingame_Aim_zoom_pmod_zoomIn_2-48" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2, 4, 8, 12, 16, 20, 26, 32, 40, 48" Type="single_dropdown1" Visible="True">
-        <Size>751</Size>
-        <ZipFile>pmod_zoomin_config_3_2019-02-19.zip</ZipFile>
-        <CRC>7c7fc04c4c062f6cc4e6574497061e90</CRC>
-        <Timestamp>131950432855859114</Timestamp>
+      <Package PackageName="Ingame_Aim_ZoomIn_4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2, 4, 8, 12, 16, 20, 26, 32, 40, 48" Type="single_dropdown1" Visible="True">
+        <Size>749</Size>
+        <ZipFile>Ingame_Aim_ZoomIn_4_2019-02-19.zip</ZipFile>
+        <CRC>e520cde7aa46d7d77d080f8fadd56fee</CRC>
+        <Timestamp>132158121015111042</Timestamp>
       </Package>
-      <Package PackageName="Ingame_Aim_zoom_pmod_td_brake" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify TD Brake" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Aim_ZoomIn_5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2, 4, 8, 12, 16, 20, 26, 32, 40, 48, 52, 56" Type="single_dropdown1" Visible="True">
+        <Size>761</Size>
+        <ZipFile>Ingame_Aim_ZoomIn_5_2019-02-19.zip</ZipFile>
+        <CRC>a291c7093b03329510e3d591428e20ca</CRC>
+        <Timestamp>132158124014002666</Timestamp>
+      </Package>
+      <Package PackageName="Ingame_Aim_ZoomIn_tdBrake" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify TD Brake" Type="multi" Visible="True">
         <Timestamp>131558453417276234</Timestamp>
         <Packages>
-          <Package PackageName="Ingame_Aim_zoom_pmod_td_brake_on" Enabled="True" InstallGroup="4" PatchGroup="4" Name="on" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Aim_ZoomIn_tdBrake_on" Enabled="True" InstallGroup="4" PatchGroup="4" Name="on" Type="single_dropdown1" Visible="True">
             <Size>933</Size>
-            <ZipFile>pmod_td_brake_on_2017-05-01.zip</ZipFile>
+            <ZipFile>Ingame_Aim_ZoomIn_tdBrake_on_2017-05-01.zip</ZipFile>
             <CRC>00ca229c0c5992665d3530b0028e91da</CRC>
+            <Timestamp>132158129077911553</Timestamp>
           </Package>
-          <Package PackageName="Ingame_Aim_zoom_pmod_td_brake_off" Enabled="True" InstallGroup="4" PatchGroup="4" Name="off" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Aim_ZoomIn_tdBrake_off" Enabled="True" InstallGroup="4" PatchGroup="4" Name="off" Type="single_dropdown1" Visible="True">
             <Size>947</Size>
-            <ZipFile>pmod_td_brake_off_2017-05-01.zip</ZipFile>
+            <ZipFile>Ingame_Aim_ZoomIn_tdBrake_off_2017-05-01.zip</ZipFile>
             <CRC>a8ad683c18c4fe2aec4fdf8e003bcf97</CRC>
+            <Timestamp>132158129168879868</Timestamp>
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Ingame_Aim_zoom_pmod_td_start_zoom" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Starting zoom" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Aim_ZoomIn_tdStartZoom" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Modify Starting zoom" Type="multi" Visible="True">
         <Timestamp>131558453697436456</Timestamp>
         <Packages>
-          <Package PackageName="Ingame_Aim_zoom_pmod_default_zoom_2x" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2x (client default)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Aim_ZoomIn_tdStartZoom_2x" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2x (client default)" Type="single_dropdown1" Visible="True">
             <Size>943</Size>
-            <ZipFile>pmod_default_zoom_2x_2017-05-01.zip</ZipFile>
+            <ZipFile>Ingame_Aim_ZoomIn_tdStartZoom_2x_2017-05-01.zip</ZipFile>
             <CRC>2e4c0083cac767966fb6d754febe7599</CRC>
+            <Timestamp>132158129397404100</Timestamp>
           </Package>
-          <Package PackageName="Ingame_Aim_zoom_pmod_default_zoom_4x" Enabled="True" InstallGroup="4" PatchGroup="4" Name="4x" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Aim_ZoomIn_tdStartZoom_4x" Enabled="True" InstallGroup="4" PatchGroup="4" Name="4x" Type="single_dropdown1" Visible="True">
             <Size>943</Size>
-            <ZipFile>pmod_default_zoom_4x_2017-05-01.zip</ZipFile>
+            <ZipFile>Ingame_Aim_ZoomIn_tdStartZoom_4x_2017-05-01.zip</ZipFile>
             <CRC>756585f5aff83b8250ff9efeeb742a0c</CRC>
+            <Timestamp>132158129611412821</Timestamp>
           </Package>
-          <Package PackageName="Ingame_Aim_zoom_pmod_default_zoom_8x" Enabled="True" InstallGroup="4" PatchGroup="4" Name="8x" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Aim_ZoomIn_tdStartZoom_8x" Enabled="True" InstallGroup="4" PatchGroup="4" Name="8x" Type="single_dropdown1" Visible="True">
             <Size>943</Size>
-            <ZipFile>pmod_default_zoom_8x_2017-05-01.zip</ZipFile>
+            <ZipFile>Ingame_Aim_ZoomIn_tdStartZoom_8x_2017-05-01.zip</ZipFile>
             <CRC>f382b11ef5a5f9c8bfff046432ddc401</CRC>
+            <Timestamp>132158129691739662</Timestamp>
           </Package>
-          <Package PackageName="Ingame_Aim_zoom_pmod_default_zoom_16x" Enabled="True" InstallGroup="4" PatchGroup="4" Name="16x" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Aim_ZoomIn_tdStartZoom_16x" Enabled="True" InstallGroup="4" PatchGroup="4" Name="16x" Type="single_dropdown1" Visible="True">
             <Size>946</Size>
-            <ZipFile>pmod_default_zoom_16x_2017-05-01.zip</ZipFile>
+            <ZipFile>Ingame_Aim_ZoomIn_tdStartZoom_16x_2017-05-01.zip</ZipFile>
             <CRC>81800557a31381e034946318b99dc9f5</CRC>
+            <Timestamp>132158129759629937</Timestamp>
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Ingame_Aim_zoom_pmod_enable_zoom_indicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable pmod zoom indicator" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Aim_ZoomIn_enableZoomIndicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable pmod zoom indicator" Type="multi" Visible="True">
         <Size>917</Size>
-        <ZipFile>pmod_enable_zoom_indicator_2017-05-01.zip</ZipFile>
+        <ZipFile>Ingame_Aim_ZoomIn_enableZoomIndicator_2017-05-01.zip</ZipFile>
         <CRC>94874e344024b246057b0ca6e24e38bd</CRC>
+        <Timestamp>132158129995809193</Timestamp>
       </Package>
     </Packages>
   </Package>
