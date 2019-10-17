@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using RelhaxDescriptionDesigner.Designs;
 
-namespace RelhaxDescriptionDesigner.Designs.TheIllusion
+namespace RelhaxDescriptionDesigner.Designs.TheIllusion.PMOD
 {
     /// <summary>
     /// Interaction logic for PmodWindow.xaml
@@ -28,7 +28,7 @@ namespace RelhaxDescriptionDesigner.Designs.TheIllusion
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Designs.TheIllusion.PmodIMAGE1 pmodAuthorImage = new Designs.TheIllusion.PmodIMAGE1();
+            PmodIMAGE1 pmodAuthorImage = new PmodIMAGE1();
             pmodAuthorImage.Show();
         }
 
@@ -38,22 +38,22 @@ namespace RelhaxDescriptionDesigner.Designs.TheIllusion
 
         private void Click_PMOD_ReplayFreecam(object sender, RoutedEventArgs e)
         {
-            Designs.TheIllusion.PMOD_ReplayFreecam pmodReplayFreecam = new Designs.TheIllusion.PMOD_ReplayFreecam();
+            PMOD_ReplayFreecam pmodReplayFreecam = new PMOD_ReplayFreecam();
             pmodReplayFreecam.Show();
         }
         private void Click_PMOD_ServerReticle(object sender, RoutedEventArgs e)
         {
-            Designs.TheIllusion.PMOD_ServerReticle pmodServerReticle = new Designs.TheIllusion.PMOD_ServerReticle();
+            PMOD_ServerReticle pmodServerReticle = new PMOD_ServerReticle();
             pmodServerReticle.Show();
         }
         private void Click_PMOD_PenMarkers(object sender, RoutedEventArgs e)
         {
-            Designs.TheIllusion.PMOD_PenMarkers pmodPenMarker = new Designs.TheIllusion.PMOD_PenMarkers();
+            PMOD_PenMarkers pmodPenMarker = new PMOD_PenMarkers();
             pmodPenMarker.Show();
         }
         private void Click_PMOD_HPPools(object sender, RoutedEventArgs e)
         {
-            Designs.TheIllusion.PMOD_HPPools pmodHPPools = new Designs.TheIllusion.PMOD_HPPools();
+            PMOD_HPPools pmodHPPools = new PMOD_HPPools();
             pmodHPPools.Show();
         }
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
