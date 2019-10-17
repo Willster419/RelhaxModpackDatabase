@@ -15,7 +15,10 @@
         <FlowDocumentScrollViewer HorizontalAlignment="Stretch" Height="132" VerticalAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Disabled">
             <FlowDocument FontSize="22">
                 <Paragraph TextAlignment="Center">
-                    <Run Text="&quot;PMOD&quot; is a mod that allows for alot of configuration of the game. All of which should be vanilla."/>
+                    <Hyperlink NavigateUri="https://wgmods.net/50" RequestNavigate="Hyperlink_RequestNavigate">
+                        <TextBlock Text="PMOD"/>
+                    </Hyperlink>
+                    <Run Text="is a mod that allows for alot of configuration of the game. All of which should be vanilla."/>
                 </Paragraph>
                 <Paragraph FontSize="20" TextAlignment="Left">
                     <Run Text="PMOD has the following options:"/>
@@ -27,5 +30,16 @@
         <Button Content="Server Reticle" Click="Click_PMOD_ServerReticle" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,250" Width="190"/>
         <Button Content="Penetration Markers" Click="Click_PMOD_PenMarkers" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,230" Width="190"/>
         <Button Content="HP Pools" Click="Click_PMOD_HPPools" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,210" Width="190"/>
+        <Image Name="Image" Source="https://wgmods.net/media/screan1.png.1600x0_q85_crop_detail_replace_alpha-white.jpg"
+    Stretch="Uniform" Margin="0,215,408,0">
+            <Image.ToolTip>
+                <ToolTip DataContext="{Binding PlacementTarget, 
+            RelativeSource={RelativeSource Self}}">
+                    <Border BorderBrush="Black" BorderThickness="1" Margin="5,7,5,5">
+                        <Image Source="{Binding Source}" Stretch="None" />
+                    </Border>
+                </ToolTip>
+            </Image.ToolTip>
+        </Image>
     </Grid>
 </Window>
