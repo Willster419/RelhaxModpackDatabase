@@ -6,30 +6,48 @@
         xmlns:local="clr-namespace:RelhaxDescriptionDesigner.Designs.TheIllusion.StarTrek"
         mc:Ignorable="d"
         Title="StarTrekMainWindow" Height="450" Width="800">
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static SystemCommands.CloseWindowCommand}" 
+                        CanExecute="CloseWindow_CanExec" 
+                        Executed="CloseWindow_Exec" />
+    </Window.CommandBindings>
     <Grid>
-        <TextBlock TextAlignment="Center" FontSize="24" Text="The Star Trek mods includes:"/>
-        <FlowDocumentScrollViewer VerticalScrollBarVisibility="Disabled">
-            <FlowDocument>
-                <List>
+         <FlowDocumentScrollViewer HorizontalAlignment="Stretch" Height="387" VerticalAlignment="Top" VerticalScrollBarVisibility="Disabled">
+            <FlowDocument FontSize="12">
+                <Paragraph TextAlignment="Center" FontSize="24">
+                    Star Trek
+                </Paragraph>
+                <Paragraph FontSize="22">
+                    This mod includes:
+                </Paragraph>
+                <List Margin="0,0,0,5" FontSize="18">
                     <ListItem>
+                        <Paragraph>
                         Crew Sounds
-                    </ListItem>
-                    <ListItem>
-                        Camo Net Sounds (Cloaking)
-                    </ListItem>
-                    <ListItem>
-                        Loading Screens
+                        </Paragraph>
                     </ListItem>
                     <ListItem>
                         <Paragraph>
-                            <TextBlock Text="Gun Sounds"/>
+                        Camo Net Sounds (Cloaking)
                         </Paragraph>
                     </ListItem>
-                </List>
-                    
-                
+                    <ListItem>
+                        <Paragraph>
+                        Loading Screens
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Gun Sounds
+                        </Paragraph>
+                    </ListItem>
+                </List>                                 
             </FlowDocument>
         </FlowDocumentScrollViewer>
         <Button Tag="DiscritionClose_NOTIMPLEMENTED" Content="Close" Foreground="Black" Command="{x:Static SystemCommands.CloseWindowCommand}" HorizontalAlignment="Left" Margin="621,359,0,0" VerticalAlignment="Top" Width="171" Height="60" IsCancel="True"/>
+        <Button Content="More Info: Crew Sounds" Foreground="Black" Click="Click_ST_Crew" Margin="0,207,605,152"/>
+        <Button Content="More Info: Camo Net" Foreground="Black" Click="Click_ST_Camo" Margin="0,272,605,87"/>
+        <Button Content="More Info: Loading Screens" Foreground="Black" Click="Click_ST_LoadingScreen" Margin="192,207,413,152"/>
+        <Button Content="More Info: Gun Sounds" Foreground="Black" Click="Click_ST_GunSounds" Margin="192,272,413,87"/>
     </Grid>
 </Window>
