@@ -1,9 +1,9 @@
-﻿<Window x:Class="RelhaxDescriptionDesigner.Designs.TheIllusion.PmodWindow"
+﻿<Window x:Class="RelhaxDescriptionDesigner.Designs.TheIllusion.PMOD.PmodWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RelhaxDescriptionDesigner.Designs.TheIllusion"
+        xmlns:local="clr-namespace:RelhaxDescriptionDesigner.Designs.TheIllusion.PMOD"
         mc:Ignorable="d"
         Title="PmodWindow" Height="450" Width="800" MinHeight="300" MinWidth="400" WindowStyle="ToolWindow">
     <Window.CommandBindings>
@@ -29,7 +29,6 @@
         <Button Content="Replay Freecam" Click="Click_PMOD_ReplayFreecam" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,270" Width="190"/>
         <Button Content="Server Reticle" Click="Click_PMOD_ServerReticle" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,250" Width="190"/>
         <Button Content="Penetration Markers" Click="Click_PMOD_PenMarkers" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,230" Width="190"/>
-        <Button Content="HP Pools" Click="Click_PMOD_HPPools" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,210" Width="190"/>
         <Image Name="Image" Source="https://wgmods.net/media/screan1.png.1600x0_q85_crop_detail_replace_alpha-white.jpg"
     Stretch="Uniform" Margin="0,215,408,0">
             <Image.ToolTip>

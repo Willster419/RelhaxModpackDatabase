@@ -26,12 +26,6 @@ namespace RelhaxDescriptionDesigner.Designs.TheIllusion.PMOD
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            PmodIMAGE1 pmodAuthorImage = new PmodIMAGE1();
-            pmodAuthorImage.Show();
-        }
-
         private void CloseWindow_CanExec(object sender, CanExecuteRoutedEventArgs e) => e.CanExecute = true;
 
         private void CloseWindow_Exec(object sender, ExecutedRoutedEventArgs e) => SystemCommands.CloseWindow(this);
@@ -50,11 +44,6 @@ namespace RelhaxDescriptionDesigner.Designs.TheIllusion.PMOD
         {
             PMOD_PenMarkers pmodPenMarker = new PMOD_PenMarkers();
             pmodPenMarker.Show();
-        }
-        private void Click_PMOD_HPPools(object sender, RoutedEventArgs e)
-        {
-            PMOD_HPPools pmodHPPools = new PMOD_HPPools();
-            pmodHPPools.Show();
         }
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {

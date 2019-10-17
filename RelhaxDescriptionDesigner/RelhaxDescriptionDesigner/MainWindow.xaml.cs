@@ -39,7 +39,7 @@ namespace RelhaxDescriptionDesigner
 
         private void PMOD_Click(object sender, RoutedEventArgs e)
         {
-            Designs.TheIllusion.PmodWindow pmod = new Designs.TheIllusion.PmodWindow();
+            Designs.TheIllusion.PMOD.PmodWindow pmod = new Designs.TheIllusion.PMOD.PmodWindow();
             pmod.Show();
         }
     }

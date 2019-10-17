@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace RelhaxDescriptionDesigner.Designs.TheIllusion
+namespace RelhaxDescriptionDesigner.Designs.TheIllusion.PMOD
 {
     /// <summary>
     /// Interaction logic for PMOD_ReplayFreecam.xaml
