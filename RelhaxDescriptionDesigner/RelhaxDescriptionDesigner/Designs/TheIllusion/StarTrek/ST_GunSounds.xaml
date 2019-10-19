@@ -6,6 +6,11 @@
         xmlns:local="clr-namespace:RelhaxDescriptionDesigner.Designs.TheIllusion.StarTrek"
         mc:Ignorable="d"
         Title="ST_GunSounds" Height="450" Width="800">
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static SystemCommands.CloseWindowCommand}" 
+                        CanExecute="CloseWindow_CanExec" 
+                        Executed="CloseWindow_Exec" />
+    </Window.CommandBindings>
     <Grid>
         <TextBlock TextAlignment="Center" FontSize="24" Text="Phaser Gun Sounds"/>
         <FlowDocumentReader Margin="0,25,0,0">
@@ -15,6 +20,6 @@
                 </Paragraph>
             </FlowDocument>
         </FlowDocumentReader>
-        <Button Tag="DiscritionClose_NOTIMPLEMENTED"  Content="Close" Command="{x:Static SystemCommands.CloseWindowCommand}" Margin="309,392,0,0>Close" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Background="Black"/>
+        <Button Tag="DiscritionClose_NOTIMPLEMENTED"  Content="Close" Command="{x:Static SystemCommands.CloseWindowCommand}" Margin="309,392,0,0>Close" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Foreground="Black"/>
     </Grid>
 </Window>
