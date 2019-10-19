@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RelhaxDescriptionDesigner.Designs.TheIllusion.StarTrek"
         mc:Ignorable="d"
-        Title="StarTrekMainWindow" Height="450" Width="800">
+        Title="Star Trek Main Window" Height="450" Width="320">
     <Window.CommandBindings>
         <CommandBinding Command="{x:Static SystemCommands.CloseWindowCommand}" 
                         CanExecute="CloseWindow_CanExec" 
                         Executed="CloseWindow_Exec" />
     </Window.CommandBindings>
     <Grid>
-         <FlowDocumentScrollViewer HorizontalAlignment="Stretch" Height="387" VerticalAlignment="Top" VerticalScrollBarVisibility="Disabled">
+         <FlowDocumentScrollViewer HorizontalAlignment="Stretch" Height="200" VerticalAlignment="Top" VerticalScrollBarVisibility="Disabled">
             <FlowDocument FontSize="12">
                 <Paragraph TextAlignment="Center" FontSize="24">
                     Star Trek
@@ -44,10 +44,10 @@
                 </List>                                 
             </FlowDocument>
         </FlowDocumentScrollViewer>
-        <Button Tag="DiscritionClose_NOTIMPLEMENTED" Content="Close" Foreground="Black" Command="{x:Static SystemCommands.CloseWindowCommand}" HorizontalAlignment="Left" Margin="621,359,0,0" VerticalAlignment="Top" Width="171" Height="60" IsCancel="True"/>
-        <Button Content="More Info: Crew Sounds" Foreground="Black" Click="Click_ST_Crew" Margin="0,207,605,152"/>
-        <Button Content="More Info: Camo Net" Foreground="Black" Click="Click_ST_Camo" Margin="0,272,605,87"/>
-        <Button Content="More Info: Loading Screens" Foreground="Black" Click="Click_ST_LoadingScreen" Margin="192,207,413,152"/>
-        <Button Content="More Info: Gun Sounds" Foreground="Black" Click="Click_ST_GunSounds" Margin="192,272,413,87"/>
+        <Button Tag="DiscritionClose_NOTIMPLEMENTED" Content="Close" Foreground="Black" Command="{x:Static SystemCommands.CloseWindowCommand}" HorizontalAlignment="Left" Margin="5,350,0,0" VerticalAlignment="Top" Width="171" Height="60" IsCancel="True"/>
+        <Button Content="Crew Sounds" Foreground="Black" Click="Click_ST_Crew" Margin="10,200,155,175"/>
+        <Button Content="Camo Net" Foreground="Black" Click="Click_ST_Camo" Margin="10,249,155,126"/>
+        <Button Content="Loading Screens" Foreground="Black" Click="Click_ST_LoadingScreen" Margin="162,200,10,175"/>
+        <Button Content="Gun Sounds" Foreground="Black" Click="Click_ST_GunSounds" Margin="162,249,10,126"/>
     </Grid>
 </Window>
