@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RelhaxDescriptionDesigner.Designs.TheIllusion.PMOD"
         mc:Ignorable="d"
-        Title="PMOD_ReplayFreecam" Height="450" Width="450.106" WindowStyle="ToolWindow">
+        Title="Replay Free Camera" Height="450" Width="451" WindowStyle="ToolWindow">
     <Window.CommandBindings>
         <CommandBinding Command="{x:Static SystemCommands.CloseWindowCommand}" 
                         CanExecute="CloseWindow_CanExec" 
@@ -69,6 +69,6 @@
             </List>
         </FlowDocument>
     </FlowDocumentScrollViewer>
-        <Button Tag="DiscritionClose_NOTIMPLEMENTED"  Content="Close" Command="{x:Static SystemCommands.CloseWindowCommand}" Margin="309,392,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Tag="DiscritionClose_NOTIMPLEMENTED"  Content="Close" Command="{x:Static SystemCommands.CloseWindowCommand}" Margin="309,392,0,0>Close" VerticalAlignment="Top" Width="75" Background="Black"/>
     </Grid>
 </Window>
