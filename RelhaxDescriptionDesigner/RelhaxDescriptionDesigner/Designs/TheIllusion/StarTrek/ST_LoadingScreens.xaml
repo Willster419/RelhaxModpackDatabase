@@ -6,8 +6,13 @@
         xmlns:local="clr-namespace:RelhaxDescriptionDesigner.Designs.TheIllusion.StarTrek"
         mc:Ignorable="d"
         Title="ST_LoadingScreens" Height="450" Width="800">
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static SystemCommands.CloseWindowCommand}" 
+                        CanExecute="CloseWindow_CanExec" 
+                        Executed="CloseWindow_Exec" />
+    </Window.CommandBindings>
     <Grid>
-        <Image Name="Borg Image" Source="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_TheIllusion_Borg.png"
+        <Image Name="Borg_Image" Source="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_TheIllusion_Borg.png"
     Stretch="Uniform" Margin="-10,215,418,0">
             <Image.ToolTip>
                 <ToolTip DataContext="{Binding PlacementTarget, 
@@ -18,5 +23,6 @@
                 </ToolTip>
             </Image.ToolTip>
         </Image>
+        <Button Tag="DiscritionClose_NOTIMPLEMENTED" Content="Close" Foreground="Black" Command="{x:Static SystemCommands.CloseWindowCommand}" HorizontalAlignment="Left" Margin="621,359,0,0" VerticalAlignment="Top" Width="171" Height="60" IsCancel="True"/>
     </Grid>
 </Window>
