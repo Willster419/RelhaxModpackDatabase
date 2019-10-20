@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Garage graphics">
+  <Package PackageName="Garage_Graphics_AwardNotificationPopup" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Award notification popup style" Type="multi" Visible="True">
+    <Packages>
+      <Package PackageName="Garage_Graphics_AwardNotificationPopup_StarWarsV1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Star Wars" Type="single_dropdown1" Visible="True">
+        <Size>684787</Size>
+        <ZipFile>Garage_Graphics_AwardNotificationPopup_StarWarsV1_2019-10-18.zip</ZipFile>
+        <CRC>5e70021f87cda7283233514c06ae49cb</CRC>
+        <Timestamp>132158661187028375</Timestamp>
+      </Package>
+    </Packages>
+  </Package>
   <Package PackageName="Garage_Graphics_Battle_Results" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battle Results" Type="multi" Visible="True">
     <DevURL>https://worldoftanks.curseforge.com/members/hawgs_mods/projects\r\nhttps://wgmods.net/search/?owner=237525</DevURL>
     <Description>Changes the stock battle results pictures.\n\nMods by:\n- Sicfunzler\n- TheIllusion\n- Oldskool\n- HAWG</Description>
@@ -421,6 +431,20 @@
           <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
         </Dependencies>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="Garage_Graphics_BlueprintsBG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Blueprints" Type="multi" Visible="True">
+    <Packages>
+      <Package PackageName="Garage_Graphics_BlueprintsBG_StarTrek" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Star Trek" Type="single_dropdown1" Visible="True">
+        <Size>1158855</Size>
+        <ZipFile>Garage_Graphics_Blueprints_BG_StarTrek_2019-10-18.zip</ZipFile>
+        <CRC>72da0a0ff71e50f91773349bac4468b3</CRC>
+        <Timestamp>132158289817204141</Timestamp>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/blueprintsBG/Garage_Graphics_Blueprints_BG_StarTrek_1.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/blueprintsBG/Garage_Graphics_Blueprints_BG_StarTrek_2.png" MediaType="Picture" />
+        </Medias>
       </Package>
     </Packages>
   </Package>
@@ -1557,7 +1581,7 @@
   <Package PackageName="Garage_Graphics_Hangar" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hangar" Type="multi" Visible="True">
     <Description>Customize your hangar!</Description>
     <Packages>
-      <Package PackageName="Garage_Graphics_Hangar_Freecam" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hangar FreeCamera v{version}" Type="multi" Visible="True">
+      <Package PackageName="Garage_Graphics_Hangar_Freecam" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hangar FreeCam v{version}" Type="multi" Visible="True">
         <Size>14676</Size>
         <Version>2.11</Version>
         <ZipFile>Garage_Graphics_Hangar_Freecam_2.11_1.6.1.0_2019-10-08.zip</ZipFile>
@@ -1574,7 +1598,7 @@
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Garage_Graphics_Hangar_HangMan" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hangar Manager (HangMan) v{version}" Type="multi" Visible="True">
+      <Package PackageName="Garage_Graphics_Hangar_HangMan" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HangMan v{version}" Type="multi" Visible="True">
         <Size>535071</Size>
         <Version>2.39</Version>
         <ZipFile>Garage_Graphics_HangMan_v2.39_1.6.0.7_2019-09-22.zip</ZipFile>
@@ -1592,11 +1616,23 @@
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Garage_Graphics_Hangar_HangMan_fadeonmousemove_patch" Enabled="True" InstallGroup="4" PatchGroup="4" Name="GUI fadeout on mousemove (while holding down left mouse)" Type="multi" Visible="True">
+          <Package PackageName="Garage_Graphics_Hangar_HangMan_fadeonmousemove_TRUE" Enabled="True" InstallGroup="4" PatchGroup="4" Name="GUI fadeout on mousemove (while holding down left mouse)" Type="multi" Visible="True">
             <Size>495</Size>
-            <ZipFile>Garage_Graphics_HangMan_fadeonmousemove_patch.zip</ZipFile>
+            <ZipFile>Garage_Graphics_Hangar_HangMan_fadeonmousemove_TRUE.zip</ZipFile>
             <CRC>61cad3fee541825c3782753b36e64bd0</CRC>
-            <Timestamp>131899812594570396</Timestamp>
+            <Timestamp>132159793024399533</Timestamp>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_HangMan_showPremTank_FALSE" Enabled="True" InstallGroup="4" PatchGroup="4" Name="remove premium tank in background" Type="multi" Visible="True">
+            <Size>520</Size>
+            <ZipFile>Garage_Graphics_Hangar_HangMan_showPremTank_FALSE.zip</ZipFile>
+            <CRC>5188872d692ef9cbe5ce1a3e1ee8db5f</CRC>
+            <Timestamp>132159792654824507</Timestamp>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_HangMan_showTeaser_FALSE" Enabled="True" InstallGroup="4" PatchGroup="4" Name="remove combat-intelligence popup window" Type="multi" Visible="True">
+            <Size>521</Size>
+            <ZipFile>Garage_Graphics_Hangar_HangMan_showTeaser_FALSE.zip</ZipFile>
+            <CRC>5138ac630cd57c2b55cd7da971a902ab</CRC>
+            <Timestamp>132159792714864917</Timestamp>
           </Package>
         </Packages>
       </Package>
