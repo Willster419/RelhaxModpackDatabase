@@ -2155,6 +2155,223 @@
       </dependencies>
       <packages>
         <package>
+          <name>-----[GLOBAL Settings]-----</name>
+          <zipFile />
+          <crc />
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>XVMconfigBuilder_GLOBAL</packageName>
+          <type>multi</type>
+          <packages>
+            <package>
+              <name>Sound (!Experts Only!)</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_Sound</packageName>
+              <type>multi</type>
+              <description>Toggle the xvm sounds</description>
+              <packages>
+                <package>
+                  <name>Disabled</name>
+                  <zipFile>XVM_config_builder_sounds_disabled.zip</zipFile>
+                  <crc>292c233257c62f923fbaea79570b22fd</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Sound_disabled</packageName>
+                  <type>single1</type>
+                  <size>925</size>
+                </package>
+                <package>
+                  <name>Enabled</name>
+                  <zipFile>XVM_config_builder_sounds_enabled.zip</zipFile>
+                  <crc>d246272c63f1cb3d773b9fef1cf5007b</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Sound_enabled</packageName>
+                  <type>single1</type>
+                  <size>922</size>
+                  <packages>
+                    <package>
+                      <name>remote communication between WoT client and WWISE Authoring Tools</name>
+                      <zipFile />
+                      <crc>292c233257c62f923fbaea79570b22fd</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_Sound_remote_communication</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>disable</name>
+                          <zipFile>XVMConfigBuilder_sounds_remote_communication_disabled.zip</zipFile>
+                          <crc>4de3fdbfad5c6e88d4b7b1450a69c5ff</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_Sound_remote_communication_disable</packageName>
+                          <type>single_dropdown1</type>
+                          <size>532</size>
+                        </package>
+                        <package>
+                          <name>enable</name>
+                          <zipFile>XVMConfigBuilder_sounds_remote_communication_enabled.zip</zipFile>
+                          <crc>6ed664e3a81e2e123f8b1d2610e7d5ba</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_Sound_remote_communication_enable</packageName>
+                          <type>single_dropdown1</type>
+                          <size>530</size>
+                        </package>
+                      </packages>
+                    </package>
+                    <package>
+                      <name>sound events logging in the xvm.log</name>
+                      <zipFile />
+                      <crc>292c233257c62f923fbaea79570b22fd</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_Sound_logSoundEvents</packageName>
+                      <type>multi</type>
+                      <packages>
+                        <package>
+                          <name>disable</name>
+                          <zipFile>XVMConfigBuilder_sounds_logSoundEvents_disabled.zip</zipFile>
+                          <crc>4960f7bd23a8340e1745ba3aaecb733d</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_Sound_logSoundEvents_disable</packageName>
+                          <type>single_dropdown1</type>
+                          <size>519</size>
+                        </package>
+                        <package>
+                          <name>enable</name>
+                          <zipFile>XVMConfigBuilder_sounds_logSoundEvents_enabled.zip</zipFile>
+                          <crc>84c02c6db964168382a26badc09ac27f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_Sound_logSoundEvents_enable</packageName>
+                          <type>single_dropdown1</type>
+                          <size>517</size>
+                        </package>
+                      </packages>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>statistics colorscale</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_StatisticsColorScale</packageName>
+              <type>multi</type>
+              <description>Choose which color scale you use to display player's tank stats</description>
+              <packages>
+                <package>
+                  <name>no change  (using the selected config's colorscale or the  default one)</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_StatisticsColorScale_default</packageName>
+                  <type>single_dropdown1</type>
+                </package>
+                <package>
+                  <name>6-step XVM (default)</name>
+                  <zipFile>XVM_config_builder_color_scale_6_step_xvm_patch_2019-06-04.zip</zipFile>
+                  <crc>aa1b775b631797e59f4e50858389e76f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_StatisticsColorScale_6StepXVM</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>131665836073703025</timestamp>
+                  <size>1025</size>
+                  <updateComment>2018-03-26: fixed wrong text to insert</updateComment>
+                </package>
+                <package>
+                  <name>7-step WOTLABS old</name>
+                  <zipFile>XVM_config_builder_color_scale_7_step_wotlabs_old_patch_2019-06-04.zip</zipFile>
+                  <crc>4440fec522beb0f33ebc32cccd524b6d</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_StatisticsColorScale_7StepOldWotLabs</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>131665836144585035</timestamp>
+                  <size>1088</size>
+                  <updateComment>fixed a syntax error</updateComment>
+                </package>
+                <package>
+                  <name>9-step WOT-LIFE</name>
+                  <zipFile>XVM_config_builder_color_scale_9_step_wot-life_patch_2019-06-04.zip</zipFile>
+                  <crc>1063412285af489d3b344564c8d0693f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_StatisticsColorScale_9StepWot-life</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>131891392875414168</timestamp>
+                  <size>1123</size>
+                  <devURL>https://wot-life.com/</devURL>
+                </package>
+                <package>
+                  <name>10-step WOTLABS</name>
+                  <zipFile>XVM_config_builder_color_scale_10_step_wotlabs_patch_2019-06-04.zip</zipFile>
+                  <crc>011853e6d582df2322c280e294b4be3b</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_StatisticsColorScale_10StepWotlabs</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>131665836279062627</timestamp>
+                  <size>1126</size>
+                </package>
+              </packages>
+            </package>
+            <package>
+              <name>Tweaks</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_Tweaks</packageName>
+              <type>multi</type>
+              <packages>
+                <package>
+                  <name>allow multiple WOT instances</name>
+                  <zipFile />
+                  <crc />
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>XVMconfigBuilder_Tweaks_allowMultipleWotInstances</packageName>
+                  <type>multi</type>
+                  <packages>
+                    <package>
+                      <name>disable</name>
+                      <zipFile>XVMconfigBuilder_Tweaks_allowMultipleWotInstances_disable.zip</zipFile>
+                      <crc>042702af360e10fda1859ef686cd56ed</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_Tweaks_allowMultipleWotInstances_disable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>650</size>
+                    </package>
+                    <package>
+                      <name>enable</name>
+                      <zipFile>XVMconfigBuilder_Tweaks_allowMultipleWotInstances_enable.zip</zipFile>
+                      <crc>f9e4484d2912a73f1e39fb8094dc1cab</crc>
+                      <enabled>True</enabled>
+                      <visible>True</visible>
+                      <packageName>XVMconfigBuilder_Tweaks_allowMultipleWotInstances_enable</packageName>
+                      <type>single_dropdown1</type>
+                      <size>648</size>
+                    </package>
+                  </packages>
+                </package>
+              </packages>
+            </package>
+          </packages>
+        </package>
+        <package>
           <name>-----[HANGAR Settings]-----</name>
           <zipFile />
           <crc />
@@ -8259,22 +8476,34 @@
                       <packages>
                         <package>
                           <name>hotkey - Left CTRL (default)</name>
-                          <zipFile>XVM_config_builder_minimap_zoom_left_ctrl.zip</zipFile>
-                          <crc>8740786c019a0943470c6fd8693385e0</crc>
+                          <zipFile>XVMconfigBuilder_Minimap_Zoom_LeftCtrl.zip</zipFile>
+                          <crc>f</crc>
                           <enabled>True</enabled>
                           <visible>True</visible>
                           <packageName>XVMconfigBuilder_Minimap_Zoom_LeftCtrl</packageName>
                           <type>single_dropdown1</type>
+                          <timestamp>132160363403078614</timestamp>
                           <size>949</size>
                         </package>
                         <package>
-                          <name>hotkey - Left ALT</name>
-                          <zipFile>XVM_config_builder_minimap_zoom_left_alt.zip</zipFile>
-                          <crc>836508041790ba54d1d0e99980eb47ab</crc>
+                          <name>hotkey - Left SHIFT</name>
+                          <zipFile>XVMconfigBuilder_Minimap_Zoom_LeftShift.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_Minimap_Zoom_LeftShift</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132160363235905662</timestamp>
+                        </package>
+                        <package>
+                          <name>hotkey - Left ALT [possible conflicts with other mod´s hotkeys]</name>
+                          <zipFile>XVMconfigBuilder_Minimap_Zoom_LeftAlt.zip</zipFile>
+                          <crc>f</crc>
                           <enabled>True</enabled>
                           <visible>True</visible>
                           <packageName>XVMconfigBuilder_Minimap_Zoom_LeftAlt</packageName>
                           <type>single_dropdown1</type>
+                          <timestamp>132160363568615945</timestamp>
                           <size>948</size>
                         </package>
                         <package>
@@ -9495,223 +9724,6 @@
                           </packages>
                         </package>
                       </packages>
-                    </package>
-                  </packages>
-                </package>
-              </packages>
-            </package>
-          </packages>
-        </package>
-        <package>
-          <name>-----[GLOBAL Settings]-----</name>
-          <zipFile />
-          <crc />
-          <enabled>True</enabled>
-          <visible>True</visible>
-          <packageName>XVMconfigBuilder_GLOBAL</packageName>
-          <type>multi</type>
-          <packages>
-            <package>
-              <name>Sound (!Experts Only!)</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_Sound</packageName>
-              <type>multi</type>
-              <description>Toggle the xvm sounds</description>
-              <packages>
-                <package>
-                  <name>Disabled</name>
-                  <zipFile>XVM_config_builder_sounds_disabled.zip</zipFile>
-                  <crc>292c233257c62f923fbaea79570b22fd</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Sound_disabled</packageName>
-                  <type>single1</type>
-                  <size>925</size>
-                </package>
-                <package>
-                  <name>Enabled</name>
-                  <zipFile>XVM_config_builder_sounds_enabled.zip</zipFile>
-                  <crc>d246272c63f1cb3d773b9fef1cf5007b</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Sound_enabled</packageName>
-                  <type>single1</type>
-                  <size>922</size>
-                  <packages>
-                    <package>
-                      <name>remote communication between WoT client and WWISE Authoring Tools</name>
-                      <zipFile />
-                      <crc>292c233257c62f923fbaea79570b22fd</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_Sound_remote_communication</packageName>
-                      <type>multi</type>
-                      <packages>
-                        <package>
-                          <name>disable</name>
-                          <zipFile>XVMConfigBuilder_sounds_remote_communication_disabled.zip</zipFile>
-                          <crc>4de3fdbfad5c6e88d4b7b1450a69c5ff</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_Sound_remote_communication_disable</packageName>
-                          <type>single_dropdown1</type>
-                          <size>532</size>
-                        </package>
-                        <package>
-                          <name>enable</name>
-                          <zipFile>XVMConfigBuilder_sounds_remote_communication_enabled.zip</zipFile>
-                          <crc>6ed664e3a81e2e123f8b1d2610e7d5ba</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_Sound_remote_communication_enable</packageName>
-                          <type>single_dropdown1</type>
-                          <size>530</size>
-                        </package>
-                      </packages>
-                    </package>
-                    <package>
-                      <name>sound events logging in the xvm.log</name>
-                      <zipFile />
-                      <crc>292c233257c62f923fbaea79570b22fd</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_Sound_logSoundEvents</packageName>
-                      <type>multi</type>
-                      <packages>
-                        <package>
-                          <name>disable</name>
-                          <zipFile>XVMConfigBuilder_sounds_logSoundEvents_disabled.zip</zipFile>
-                          <crc>4960f7bd23a8340e1745ba3aaecb733d</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_Sound_logSoundEvents_disable</packageName>
-                          <type>single_dropdown1</type>
-                          <size>519</size>
-                        </package>
-                        <package>
-                          <name>enable</name>
-                          <zipFile>XVMConfigBuilder_sounds_logSoundEvents_enabled.zip</zipFile>
-                          <crc>84c02c6db964168382a26badc09ac27f</crc>
-                          <enabled>True</enabled>
-                          <visible>True</visible>
-                          <packageName>XVMconfigBuilder_Sound_logSoundEvents_enable</packageName>
-                          <type>single_dropdown1</type>
-                          <size>517</size>
-                        </package>
-                      </packages>
-                    </package>
-                  </packages>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>statistics colorscale</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_StatisticsColorScale</packageName>
-              <type>multi</type>
-              <description>Choose which color scale you use to display player's tank stats</description>
-              <packages>
-                <package>
-                  <name>no change  (using the selected config's colorscale or the  default one)</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_StatisticsColorScale_default</packageName>
-                  <type>single_dropdown1</type>
-                </package>
-                <package>
-                  <name>6-step XVM (default)</name>
-                  <zipFile>XVM_config_builder_color_scale_6_step_xvm_patch_2019-06-04.zip</zipFile>
-                  <crc>aa1b775b631797e59f4e50858389e76f</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_StatisticsColorScale_6StepXVM</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>131665836073703025</timestamp>
-                  <size>1025</size>
-                  <updateComment>2018-03-26: fixed wrong text to insert</updateComment>
-                </package>
-                <package>
-                  <name>7-step WOTLABS old</name>
-                  <zipFile>XVM_config_builder_color_scale_7_step_wotlabs_old_patch_2019-06-04.zip</zipFile>
-                  <crc>4440fec522beb0f33ebc32cccd524b6d</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_StatisticsColorScale_7StepOldWotLabs</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>131665836144585035</timestamp>
-                  <size>1088</size>
-                  <updateComment>fixed a syntax error</updateComment>
-                </package>
-                <package>
-                  <name>9-step WOT-LIFE</name>
-                  <zipFile>XVM_config_builder_color_scale_9_step_wot-life_patch_2019-06-04.zip</zipFile>
-                  <crc>1063412285af489d3b344564c8d0693f</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_StatisticsColorScale_9StepWot-life</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>131891392875414168</timestamp>
-                  <size>1123</size>
-                  <devURL>https://wot-life.com/</devURL>
-                </package>
-                <package>
-                  <name>10-step WOTLABS</name>
-                  <zipFile>XVM_config_builder_color_scale_10_step_wotlabs_patch_2019-06-04.zip</zipFile>
-                  <crc>011853e6d582df2322c280e294b4be3b</crc>
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_StatisticsColorScale_10StepWotlabs</packageName>
-                  <type>single_dropdown1</type>
-                  <timestamp>131665836279062627</timestamp>
-                  <size>1126</size>
-                </package>
-              </packages>
-            </package>
-            <package>
-              <name>Tweaks</name>
-              <zipFile />
-              <crc />
-              <enabled>True</enabled>
-              <visible>True</visible>
-              <packageName>XVMconfigBuilder_Tweaks</packageName>
-              <type>multi</type>
-              <packages>
-                <package>
-                  <name>allow multiple WOT instances</name>
-                  <zipFile />
-                  <crc />
-                  <enabled>True</enabled>
-                  <visible>True</visible>
-                  <packageName>XVMconfigBuilder_Tweaks_allowMultipleWotInstances</packageName>
-                  <type>multi</type>
-                  <packages>
-                    <package>
-                      <name>disable</name>
-                      <zipFile>XVMconfigBuilder_Tweaks_allowMultipleWotInstances_disable.zip</zipFile>
-                      <crc>042702af360e10fda1859ef686cd56ed</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_Tweaks_allowMultipleWotInstances_disable</packageName>
-                      <type>single_dropdown1</type>
-                      <size>650</size>
-                    </package>
-                    <package>
-                      <name>enable</name>
-                      <zipFile>XVMconfigBuilder_Tweaks_allowMultipleWotInstances_enable.zip</zipFile>
-                      <crc>f9e4484d2912a73f1e39fb8094dc1cab</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>XVMconfigBuilder_Tweaks_allowMultipleWotInstances_enable</packageName>
-                      <type>single_dropdown1</type>
-                      <size>648</size>
                     </package>
                   </packages>
                 </package>
