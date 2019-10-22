@@ -217,13 +217,6 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="XVMPrebuiltConfigs_Blank" Enabled="False" InstallGroup="4" PatchGroup="4" Name="4 - Blank XVM (all disabled)" Type="single1" Visible="False">
-    <Size>79082</Size>
-    <ZipFile>XVMPrebuiltConfigs_Blank_2019_04-24.zip</ZipFile>
-    <CRC>4ce7ea2473e86b324d7ed4ab11cd59fc</CRC>
-    <Timestamp>132060224821686877</Timestamp>
-    <Description>This is a blank xvm config.\nMost of the functions are disabled and can be enabled with the help of our xvm config builder.</Description>
-  </Package>
   <Package PackageName="XVMPrebuiltConfigs_PURE" Enabled="True" InstallGroup="4" PatchGroup="4" Name="4 - PURE - only stats/colors" Type="single1" Visible="True">
     <Size>90556</Size>
     <ZipFile>XVMPrebuiltConfigs_PURE_2019_10-03.zip</ZipFile>
@@ -231,214 +224,182 @@
     <Timestamp>132145644795383081</Timestamp>
     <Description>looks like vanilla - but with statistics</Description>
   </Package>
-  <Package PackageName="XVMPrebuiltConfigs_Aslain" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Aslain v{version}" Type="single1" Visible="True">
-    <Size>1007571</Size>
-    <Version>2019-06-26</Version>
-    <ZipFile>XVMPrebuiltConfigs_Aslain_2019-06-26.zip</ZipFile>
-    <CRC>663fa3c94e8089a5b60de67a501ae3cd</CRC>
-    <Timestamp>132060213628649410</Timestamp>
+  <Package PackageName="XVMPrebuiltConfigs_Various" Enabled="True" InstallGroup="4" PatchGroup="4" Name="XVM prebuilt configurations by known Streamers/Modders" Type="single1" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132161401405627541</Timestamp>
     <DevURL>http://aslain.com/index.php?/topic/13-aslains-xvm-mod-modpack-installer-wpicture-sound-preview/</DevURL>
-    <Description>Aslain´s Config</Description>
-    <UpdateComment>https://wgmods.net/46/</UpdateComment>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_Bones" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Bones v{version}" Type="single1" Visible="True">
-    <Size>93266</Size>
-    <Version>2019-05-17</Version>
-    <ZipFile>XVMPrebuiltConfigs_Bones_2019-05-17.zip</ZipFile>
-    <CRC>ffdbe9f5ce9f1ef5337ae544eb81e287</CRC>
-    <Timestamp>132060224971047507</Timestamp>
-    <DevURL>http://forum.worldoftanks.com/index.php?/topic/316189-</DevURL>
-    <Description>Bones's Config\n\nwith HP on minimap</Description>
-    <UpdateComment>2019-05-17: hitlog; total ef\r\n2019-03-23:hit/dmf-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
-    <Medias>
-      <Media URL="http://fs1.directupload.net/images/user/150113/qpgv6v4f.jpg" MediaType="Picture" />
-      <Media URL="http://fs2.directupload.net/images/user/150113/xcwnuz54.jpg" MediaType="Picture" />
-      <Media URL="http://fs2.directupload.net/images/user/150113/s5blk6vz.jpg" MediaType="Picture" />
-      <Media URL="http://fs2.directupload.net/images/user/150113/3aeri5pj.jpg" MediaType="Picture" />
-      <Media URL="http://fs5.directupload.net/images/user/160816/pupyyjmp.jpg" MediaType="Picture" />
-      <Media URL="http://i.imgur.com/4kAPdZQ.jpg" MediaType="Picture" />
-    </Medias>
     <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_Bones_PlayersPanel_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="players panel 1" Type="single_dropdown1" Visible="True">
-        <Size>4468</Size>
-        <ZipFile>XVMPrebuiltConfigs_Bones_players_panel_1_2018-03-27.zip</ZipFile>
-        <CRC>9987bec79053801b88dd33a91155bd4c</CRC>
-        <Timestamp>132060225226863478</Timestamp>
+      <Package PackageName="XVMPrebuiltConfigs_Aslain" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Aslain v{version}" Type="single_dropdown1" Visible="True">
+        <Size>1007571</Size>
+        <Version>2019-06-26</Version>
+        <ZipFile>XVMPrebuiltConfigs_Aslain_2019-06-26.zip</ZipFile>
+        <CRC>663fa3c94e8089a5b60de67a501ae3cd</CRC>
+        <Timestamp>132060213628649410</Timestamp>
+        <DevURL>http://aslain.com/index.php?/topic/13-aslains-xvm-mod-modpack-installer-wpicture-sound-preview/</DevURL>
+        <Description>Aslain´s Config</Description>
+        <UpdateComment>https://wgmods.net/46/</UpdateComment>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_Bones_PlayersPanel_2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="players panel 2" Type="single_dropdown1" Visible="True">
-        <Size>4963</Size>
-        <ZipFile>XVMPrebuiltConfigs_Bones_players_panel_2_2018-03-27.zip</ZipFile>
-        <CRC>d8355de93ed3ee7a23fc1d173f9e2165</CRC>
-        <Timestamp>132060225413404685</Timestamp>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_Bones_PlayersPanel_3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="players panel 3" Type="single_dropdown1" Visible="True">
-        <Size>5028</Size>
-        <ZipFile>XVMPrebuiltConfigs_Bones_players_panel_3_2018-03-27.zip</ZipFile>
-        <CRC>ff1a5dd9a5a56a72b2c2930a96684b42</CRC>
-        <Timestamp>132060225609570170</Timestamp>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_Bones_disable_stats" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable all stats" Type="multi" Visible="True">
-        <Size>12833</Size>
-        <Version>2018-03-21</Version>
-        <ZipFile>XVMPrebuiltConfigs_Bones_disable_stats_2018-03-24.zip</ZipFile>
-        <CRC>a68b0bd1262a71bee61f9184671c1ff0</CRC>
-        <Timestamp>132060225784183553</Timestamp>
-        <Description>Disable stastical information. Overwrites your changes for PlayersPanel Selection</Description>
-      </Package>
-    </Packages>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_Diclovit" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Diclovit v{version}" Type="single1" Visible="True">
-    <Size>100842</Size>
-    <Version>2019-03-25</Version>
-    <ZipFile>XVMPrebuiltConfigs_Diclovit_2019-03-25.zip</ZipFile>
-    <CRC>b56db18e93b2f3eb9fa0ce862d8f5641</CRC>
-    <Timestamp>132060225954797346</Timestamp>
-    <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_Druid" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Druid v{version}" Type="single1" Visible="True">
-    <Size>97788</Size>
-    <Version>2019-05-17</Version>
-    <ZipFile>XVMPrebuiltConfigs_Druids_2019-05-17.zip</ZipFile>
-    <CRC>dba7f7acfc8c07985dde35cf7752ec7d</CRC>
-    <Timestamp>132060226089207949</Timestamp>
-    <DevURL>http://forum.worldoftanks.com/index.php?/topic/390563-</DevURL>
-    <UpdateComment>2019-03-23:hit/dmg-log\n2019-03-13: removed vehiclenames.xc\n2019-01-06: renewed markersalivenormal.xc\n                    fixed overlapping totalefficiency/hitlog\n2018-09-01: Updated to xvm template stnadard</UpdateComment>
-    <Medias>
-      <Media URL="http://i.imgur.com/9akX8VH.jpg" MediaType="Picture" />
-      <Media URL="http://i.imgur.com/e4WkGAf.jpg" MediaType="Picture" />
-    </Medias>
-    <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_Druid_teQuilamaN_Markers" Enabled="True" InstallGroup="4" PatchGroup="4" Name="use teQuilamaN´s slightly different markers layout" Type="multi" Visible="True">
-        <Size>15771</Size>
-        <ZipFile>XVM_Prebuilt_Configs_Druids_teQuilamaN_Markers_2019-02-26.zip</ZipFile>
-        <CRC>47aa465fad480e58212eb33ebfc659c9</CRC>
-        <Timestamp>131956582837407399</Timestamp>
+      <Package PackageName="XVMPrebuiltConfigs_Bones" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Bones v{version}" Type="single_dropdown1" Visible="True">
+        <Size>93266</Size>
+        <Version>2019-05-17</Version>
+        <ZipFile>XVMPrebuiltConfigs_Bones_2019-05-17.zip</ZipFile>
+        <CRC>ffdbe9f5ce9f1ef5337ae544eb81e287</CRC>
+        <Timestamp>132060224971047507</Timestamp>
+        <DevURL>http://forum.worldoftanks.com/index.php?/topic/316189-</DevURL>
+        <Description>Bones's Config\n\nwith HP on minimap</Description>
+        <UpdateComment>2019-05-17: hitlog; total ef\r\n2019-03-23:hit/dmf-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/XVM_Prebuilt_Configs_Druids_teQuilamaN_Markers.png" MediaType="Picture" />
+          <Media URL="http://fs1.directupload.net/images/user/150113/qpgv6v4f.jpg" MediaType="Picture" />
+          <Media URL="http://fs2.directupload.net/images/user/150113/xcwnuz54.jpg" MediaType="Picture" />
+          <Media URL="http://fs2.directupload.net/images/user/150113/s5blk6vz.jpg" MediaType="Picture" />
+          <Media URL="http://fs2.directupload.net/images/user/150113/3aeri5pj.jpg" MediaType="Picture" />
+          <Media URL="http://fs5.directupload.net/images/user/160816/pupyyjmp.jpg" MediaType="Picture" />
+          <Media URL="http://i.imgur.com/4kAPdZQ.jpg" MediaType="Picture" />
         </Medias>
       </Package>
-    </Packages>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_Elkano" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Elkano v{version}" Type="single1" Visible="True">
-    <Size>171595</Size>
-    <Version>2019-03-25</Version>
-    <ZipFile>XVMPrebuiltConfigs_Elkano_EXVMC_2019-03-25.zip</ZipFile>
-    <CRC>3b80d7481db6da38e45482c19055cac0</CRC>
-    <Timestamp>132060226263781156</Timestamp>
-    <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/exvmc</DevURL>
-    <UpdateComment>2019-03-25: dmg/hit-log</UpdateComment>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_Heliomalt" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Heliomalt v{version}" Type="single1" Visible="True">
-    <Size>1889876</Size>
-    <Version>2019-07-01</Version>
-    <ZipFile>XVMPrebuiltConfigs_Heliomalt_2019-07-01.zip</ZipFile>
-    <CRC>54bf537650512d7b997f5f0e5f57cee4</CRC>
-    <Timestamp>132064373272407148</Timestamp>
-    <DevURL>http://heliomalt.blogspot.com/p/blog-page_75.html</DevURL>
-    <Description>Bei dieser XVM Konfiguration sind nachfolgende Änderungen enthalten:\n\nHangar:\nGold und Free XP Locker, Premium Buttons entfernt, 3 Panzerreihen, alle Perks sichtbar (bis 8 Stück), Uhr, Garagen Stellplatz und Panzer kaufen Box entfernt, Anzeige der aktiven Reserven mit Icons und Timer, erweiterte Info im Popup für Panzer, Auto Return Crew standardmässig an, automatischer Einbau von Schere, Tarnnetz und Werkzeugkiste, Flaggen in der Kaserne, automatischer Login (nicht in Minimal XVM), Modpack Check im Hangar, Server Info in den Hangarkopf verschoben, Tages- und Gesamtstatistik, Gunmark mit Fortschritt, Gunmark Icon, Siegrate und Panzerass Icon für den ausgewählten Panzer (nicht im Karussell), allgemeiner Chat entfernt.\n\nIm Spiel:\nTeam HP Anzeige, Panzerklasse Anzeige mit Zähler, wahlweise auch Standard, XMQP Marker, Icon für Spieler die auf der Freundesliste sind, Spotted Marker für das gegnerische Team, Playerspanel Switcher entfernt, lässt sich mit Strg+Tab umschalten, Gunmarkanzeige im Playerpanel, Hitpoint Balken, wahlweise erweiterte Anzeige im Playerspanel und auf der Minimap beim drücken von ALT, unter anderem Panzer- und Spielername, erweiterte Kreise auf der Minimap inkl. Proxyspottingkreis 50m, HP Anzeige mit Kreis für jeden Panzer auf der Minimap, Zentrierung der Minimap beim drücken von Strg, Reparatur Timer im Damage Panel, erweiterte Infos im Fadenkreuz für Arcade-, Sniper- und Artyansicht, z.B. Distanz, normalisierter Geschosswinkel, Durchschlagsanzeige, Flugzeit, Einzielzeit, Munitionsart mit Zähler, Arty Splash Radius, optische Anzeige vom Vanilla Autoaim (kein erweitertes AA, kein Snapping oder sonstige grenzwertige Modifikationen), Safe Shot, lässt sich deaktivieren durch gedrückt halten von F12, bleibt aber sonst aktiv, optional leicht angepasste Sounds, z.B. kein Minimap Ping, kein Chat Ping, Geladen und andere Capture Sirenen, UT Frags Announcer optional, Battle Chat auf 2 Linien begrenzt, Max Zoom out.</Description>
-    <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
-    <Medias>
-      <Media URL="https://2.bp.blogspot.com/-FWEe-mPS3lU/W8CLNK7ctSI/AAAAAAAAAIM/C8iNftT9xasyPgJO-sZLlI0MlEhjpoNZACEwYBhgL/s400/panzernamen.jpg" MediaType="Picture" />
-      <Media URL="https://1.bp.blogspot.com/-wO9BIvI9FgA/W14mwtq0ObI/AAAAAAAAADk/DXvue4xVeDYiZj_vHqHDGx2avoDB3DPyACPcBGAYYCw/s400/wot_14.jpg" MediaType="Picture" />
-      <Media URL="https://1.bp.blogspot.com/-_3KKWMbZA_Q/W13hS-E_zOI/AAAAAAAAACc/1PEyTJbTY1AVbQzIBEjGZVdouYq2cIX3wCPcBGAYYCw/s400/wot_2.jpg" MediaType="Picture" />
-      <Media URL="https://2.bp.blogspot.com/-fQPzbYCtbio/W2MMLaZHc4I/AAAAAAAAAEk/nlKcanil6FYIbPAauyxq4LgGvhePMs0NACEwYBhgL/s400/wot_2.jpg" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_battleMessages" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar_ktulho" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_infoAutoAim" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_sight" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_messenger" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_infoChargedShell" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_quantityShells" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_reloading" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_targetInfo" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_safeShot" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_sixthSense" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_colorMacros" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_statisticsXVM" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
-    </Dependencies>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_J1mB0" Enabled="True" InstallGroup="4" PatchGroup="4" Name="J1mB0 v{version}" Type="single1" Visible="True">
-    <Size>159562</Size>
-    <Version>2019-05-11</Version>
-    <ZipFile>XVMPrebuiltConfigs_J1mB0_2019-05-11.zip</ZipFile>
-    <CRC>0a761fe146f6a1988b59785444547001</CRC>
-    <Timestamp>132060226604799313</Timestamp>
-    <Description>J1mB0's Config, updated for modern xvm configuration standards by the Relhax Modpack team.</Description>
-    <UpdateComment>2019-03-23: hit7dm,g-log\n2019-03-13: removed vehiclenames.xc\n2018-09-01: Updated for new xvm config templage standards</UpdateComment>
-    <Medias>
-      <Media URL="http://i.imgur.com/2bm1H04.png" MediaType="Picture" />
-      <Media URL="http://i.imgur.com/r1BsiSL.png" MediaType="Picture" />
-      <Media URL="http://i.imgur.com/mytpRoG.png" MediaType="Picture" />
-      <Media URL="http://i.imgur.com/ar2TFi3.png" MediaType="Picture" />
-    </Medias>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_NDO" Enabled="True" InstallGroup="4" PatchGroup="4" Name="NDO / night_dragon_on v{version}" Type="single1" Visible="True">
-    <Size>92192</Size>
-    <Version>2019-10-01</Version>
-    <ZipFile>XVMPrebuiltConfigs_NDO_2019-10-01.zip</ZipFile>
-    <CRC>7849dfa72fced2ce410bd3b127518ca7</CRC>
-    <Timestamp>132144186345914361</Timestamp>
-    <DevURL>https://github.com/AstaRom/xvm_config</DevURL>
-    <UpdateComment>https://koreanrandom.com/forum/topic/7378-781-120219-night_dragon_on-config-addons/\n\n2019-03-13: removed vehiclenames.xc</UpdateComment>
-    <Medias>
-      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_NDO.png" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_XVM_PY_NDO_scripts" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_Fonts_NDO" NotFlag="False" Logic="OR" />
-    </Dependencies>
-    <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_NDO_colorblind" Enabled="True" InstallGroup="4" PatchGroup="4" Name="colorblind version" Type="multi" Visible="True">
-        <Size>4336</Size>
-        <ZipFile>XVMPrebuiltConfigs_NDO_colorblind_2019-10-01.zip</ZipFile>
-        <CRC>692f2ad962265ecf8afdf96bc3b0e153</CRC>
-        <Timestamp>132144186387428964</Timestamp>
+      <Package PackageName="XVMPrebuiltConfigs_Diclovit" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Diclovit v{version}" Type="single_dropdown1" Visible="True">
+        <Size>100842</Size>
+        <Version>2019-03-25</Version>
+        <ZipFile>XVMPrebuiltConfigs_Diclovit_2019-03-25.zip</ZipFile>
+        <CRC>b56db18e93b2f3eb9fa0ce862d8f5641</CRC>
+        <Timestamp>132060225954797346</Timestamp>
+        <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
+      </Package>
+      <Package PackageName="XVMPrebuiltConfigs_Druid" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Druid v{version}" Type="single_dropdown1" Visible="True">
+        <Size>97788</Size>
+        <Version>2019-05-17</Version>
+        <ZipFile>XVMPrebuiltConfigs_Druids_2019-05-17.zip</ZipFile>
+        <CRC>dba7f7acfc8c07985dde35cf7752ec7d</CRC>
+        <Timestamp>132060226089207949</Timestamp>
+        <DevURL>http://forum.worldoftanks.com/index.php?/topic/390563-</DevURL>
+        <UpdateComment>2019-03-23:hit/dmg-log\n2019-03-13: removed vehiclenames.xc\n2019-01-06: renewed markersalivenormal.xc\n                    fixed overlapping totalefficiency/hitlog\n2018-09-01: Updated to xvm template stnadard</UpdateComment>
+        <Medias>
+          <Media URL="http://i.imgur.com/9akX8VH.jpg" MediaType="Picture" />
+          <Media URL="http://i.imgur.com/e4WkGAf.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="XVMPrebuiltConfigs_Elkano" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Elkano v{version}" Type="single_dropdown1" Visible="True">
+        <Size>171595</Size>
+        <Version>2019-03-25</Version>
+        <ZipFile>XVMPrebuiltConfigs_Elkano_EXVMC_2019-03-25.zip</ZipFile>
+        <CRC>3b80d7481db6da38e45482c19055cac0</CRC>
+        <Timestamp>132060226263781156</Timestamp>
+        <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/exvmc</DevURL>
+        <UpdateComment>2019-03-25: dmg/hit-log</UpdateComment>
+      </Package>
+      <Package PackageName="XVMPrebuiltConfigs_Heliomalt" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Heliomalt v{version}" Type="single_dropdown1" Visible="True">
+        <Size>1889876</Size>
+        <Version>2019-07-01</Version>
+        <ZipFile>XVMPrebuiltConfigs_Heliomalt_2019-07-01.zip</ZipFile>
+        <CRC>54bf537650512d7b997f5f0e5f57cee4</CRC>
+        <Timestamp>132064373272407148</Timestamp>
+        <DevURL>http://heliomalt.blogspot.com/p/blog-page_75.html</DevURL>
+        <Description>Bei dieser XVM Konfiguration sind nachfolgende Änderungen enthalten:\n\nHangar:\nGold und Free XP Locker, Premium Buttons entfernt, 3 Panzerreihen, alle Perks sichtbar (bis 8 Stück), Uhr, Garagen Stellplatz und Panzer kaufen Box entfernt, Anzeige der aktiven Reserven mit Icons und Timer, erweiterte Info im Popup für Panzer, Auto Return Crew standardmässig an, automatischer Einbau von Schere, Tarnnetz und Werkzeugkiste, Flaggen in der Kaserne, automatischer Login (nicht in Minimal XVM), Modpack Check im Hangar, Server Info in den Hangarkopf verschoben, Tages- und Gesamtstatistik, Gunmark mit Fortschritt, Gunmark Icon, Siegrate und Panzerass Icon für den ausgewählten Panzer (nicht im Karussell), allgemeiner Chat entfernt.\n\nIm Spiel:\nTeam HP Anzeige, Panzerklasse Anzeige mit Zähler, wahlweise auch Standard, XMQP Marker, Icon für Spieler die auf der Freundesliste sind, Spotted Marker für das gegnerische Team, Playerspanel Switcher entfernt, lässt sich mit Strg+Tab umschalten, Gunmarkanzeige im Playerpanel, Hitpoint Balken, wahlweise erweiterte Anzeige im Playerspanel und auf der Minimap beim drücken von ALT, unter anderem Panzer- und Spielername, erweiterte Kreise auf der Minimap inkl. Proxyspottingkreis 50m, HP Anzeige mit Kreis für jeden Panzer auf der Minimap, Zentrierung der Minimap beim drücken von Strg, Reparatur Timer im Damage Panel, erweiterte Infos im Fadenkreuz für Arcade-, Sniper- und Artyansicht, z.B. Distanz, normalisierter Geschosswinkel, Durchschlagsanzeige, Flugzeit, Einzielzeit, Munitionsart mit Zähler, Arty Splash Radius, optische Anzeige vom Vanilla Autoaim (kein erweitertes AA, kein Snapping oder sonstige grenzwertige Modifikationen), Safe Shot, lässt sich deaktivieren durch gedrückt halten von F12, bleibt aber sonst aktiv, optional leicht angepasste Sounds, z.B. kein Minimap Ping, kein Chat Ping, Geladen und andere Capture Sirenen, UT Frags Announcer optional, Battle Chat auf 2 Linien begrenzt, Max Zoom out.</Description>
+        <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
+        <Medias>
+          <Media URL="https://2.bp.blogspot.com/-FWEe-mPS3lU/W8CLNK7ctSI/AAAAAAAAAIM/C8iNftT9xasyPgJO-sZLlI0MlEhjpoNZACEwYBhgL/s400/panzernamen.jpg" MediaType="Picture" />
+          <Media URL="https://1.bp.blogspot.com/-wO9BIvI9FgA/W14mwtq0ObI/AAAAAAAAADk/DXvue4xVeDYiZj_vHqHDGx2avoDB3DPyACPcBGAYYCw/s400/wot_14.jpg" MediaType="Picture" />
+          <Media URL="https://1.bp.blogspot.com/-_3KKWMbZA_Q/W13hS-E_zOI/AAAAAAAAACc/1PEyTJbTY1AVbQzIBEjGZVdouYq2cIX3wCPcBGAYYCw/s400/wot_2.jpg" MediaType="Picture" />
+          <Media URL="https://2.bp.blogspot.com/-fQPzbYCtbio/W2MMLaZHc4I/AAAAAAAAAEk/nlKcanil6FYIbPAauyxq4LgGvhePMs0NACEwYBhgL/s400/wot_2.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_battleMessages" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar_ktulho" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_infoAutoAim" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_sight" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_messenger" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_infoChargedShell" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_quantityShells" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_reloading" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_targetInfo" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_safeShot" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_sixthSense" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_colorMacros" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_statisticsXVM" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="XVMPrebuiltConfigs_J1mB0" Enabled="True" InstallGroup="4" PatchGroup="4" Name="J1mB0 v{version}" Type="single_dropdown1" Visible="True">
+        <Size>159562</Size>
+        <Version>2019-05-11</Version>
+        <ZipFile>XVMPrebuiltConfigs_J1mB0_2019-05-11.zip</ZipFile>
+        <CRC>0a761fe146f6a1988b59785444547001</CRC>
+        <Timestamp>132060226604799313</Timestamp>
+        <Description>J1mB0's Config, updated for modern xvm configuration standards by the Relhax Modpack team.</Description>
+        <UpdateComment>2019-03-23: hit7dm,g-log\n2019-03-13: removed vehiclenames.xc\n2018-09-01: Updated for new xvm config templage standards</UpdateComment>
+        <Medias>
+          <Media URL="http://i.imgur.com/2bm1H04.png" MediaType="Picture" />
+          <Media URL="http://i.imgur.com/r1BsiSL.png" MediaType="Picture" />
+          <Media URL="http://i.imgur.com/mytpRoG.png" MediaType="Picture" />
+          <Media URL="http://i.imgur.com/ar2TFi3.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="XVMPrebuiltConfigs_NDO" Enabled="True" InstallGroup="4" PatchGroup="4" Name="NDO / night_dragon_on v{version}" Type="single_dropdown1" Visible="True">
+        <Size>92192</Size>
+        <Version>2019-10-01</Version>
+        <ZipFile>XVMPrebuiltConfigs_NDO_2019-10-01.zip</ZipFile>
+        <CRC>7849dfa72fced2ce410bd3b127518ca7</CRC>
+        <Timestamp>132144186345914361</Timestamp>
+        <DevURL>https://github.com/AstaRom/xvm_config</DevURL>
+        <UpdateComment>https://koreanrandom.com/forum/topic/7378-781-120219-night_dragon_on-config-addons/\n\n2019-03-13: removed vehiclenames.xc</UpdateComment>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_NDO.png" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XVM_PY_NDO_scripts" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Fonts_NDO" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="XVMPrebuiltConfigs_NDO_colorblind" Enabled="True" InstallGroup="4" PatchGroup="4" Name="NDO colorblind" Type="single_dropdown1" Visible="True">
+        <Size>92186</Size>
+        <Version>2019-10-01</Version>
+        <ZipFile>XVMPrebuiltConfigs_NDO_colorblind_2019-10-21.zip</ZipFile>
+        <CRC>b60ae142abf0f5ac3ec49a25b4c07ebf</CRC>
+        <Timestamp>132161402555190995</Timestamp>
+        <DevURL>https://github.com/AstaRom/xvm_config</DevURL>
+      </Package>
+      <Package PackageName="XVMPrebuiltConfigs_Oldskool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Oldskool (ProMod) v{version}" Type="single_dropdown1" Visible="True">
+        <Size>110831</Size>
+        <Version>2019-05-16</Version>
+        <ZipFile>XVMPrebuiltConfigs_Oldskool_2019-05-16.zip</ZipFile>
+        <CRC>3ef00d626b74e13dfefe091836ef7569</CRC>
+        <Timestamp>132060226774016846</Timestamp>
+        <DevURL>https://www.oldskool.vip/</DevURL>
+        <Description>Oldskool´s XVM Config extracted from his ProMod-Modpack.</Description>
+        <UpdateComment>https://wgmods.net/532/\n\n2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
+      </Package>
+      <Package PackageName="XVMPrebuiltConfigs_quickybaby" Enabled="True" InstallGroup="4" PatchGroup="4" Name="QuickyBaby v{version}" Type="single_dropdown1" Visible="True">
+        <Size>124263</Size>
+        <Version>2019-10-01</Version>
+        <ZipFile>XVMPrebuiltConfigs_QuickyBaby_2019-10-01.zip</ZipFile>
+        <CRC>29cc9937a234cf5c76f726b242ade71d</CRC>
+        <Timestamp>132144182052549223</Timestamp>
+        <Description>Want to play as good as Quickybaby? Install his XVM config and get in the game!</Description>
+        <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_6.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_1.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_2.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_3.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_4.png" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_5.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="XVMPrebuiltConfigs_Solo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Solo v{version}" Type="single_dropdown1" Visible="True">
+        <Size>123924</Size>
+        <Version>2019-10-01</Version>
+        <ZipFile>XVMPrebuiltConfigs_Solo_2019-10-01.zip</ZipFile>
+        <CRC>c584413fa574ebf6397686fc60358b2b</CRC>
+        <Timestamp>132144179449458249</Timestamp>
+        <DevURL>http://soloviyko.com/solos-modpack/</DevURL>
+        <Description>Solo XVM Config (minimap features always on)</Description>
+        <UpdateComment>https://wgmods.net/37/\n\n2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
       </Package>
     </Packages>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_Oldskool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Oldskool (ProMod) v{version}" Type="single1" Visible="True">
-    <Size>110831</Size>
-    <Version>2019-05-16</Version>
-    <ZipFile>XVMPrebuiltConfigs_Oldskool_2019-05-16.zip</ZipFile>
-    <CRC>3ef00d626b74e13dfefe091836ef7569</CRC>
-    <Timestamp>132060226774016846</Timestamp>
-    <DevURL>https://www.oldskool.vip/</DevURL>
-    <Description>Oldskool´s XVM Config extracted from his ProMod-Modpack.</Description>
-    <UpdateComment>https://wgmods.net/532/\n\n2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_quickybaby" Enabled="True" InstallGroup="4" PatchGroup="4" Name="QuickyBaby v{version}" Type="single1" Visible="True">
-    <Size>124263</Size>
-    <Version>2019-10-01</Version>
-    <ZipFile>XVMPrebuiltConfigs_QuickyBaby_2019-10-01.zip</ZipFile>
-    <CRC>29cc9937a234cf5c76f726b242ade71d</CRC>
-    <Timestamp>132144182052549223</Timestamp>
-    <Description>Want to play as good as Quickybaby? Install his XVM config and get in the game!</Description>
-    <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
-    <Medias>
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_6.png" MediaType="Picture" />
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_1.png" MediaType="Picture" />
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_2.png" MediaType="Picture" />
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_3.png" MediaType="Picture" />
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_4.png" MediaType="Picture" />
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_5.png" MediaType="Picture" />
-    </Medias>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_Solo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Solo v{version}" Type="single1" Visible="True">
-    <Size>123924</Size>
-    <Version>2019-10-01</Version>
-    <ZipFile>XVMPrebuiltConfigs_Solo_2019-10-01.zip</ZipFile>
-    <CRC>c584413fa574ebf6397686fc60358b2b</CRC>
-    <Timestamp>132144179449458249</Timestamp>
-    <DevURL>http://soloviyko.com/solos-modpack/</DevURL>
-    <Description>Solo XVM Config (minimap features always on)</Description>
-    <UpdateComment>https://wgmods.net/37/\n\n2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
   </Package>
 </Category>

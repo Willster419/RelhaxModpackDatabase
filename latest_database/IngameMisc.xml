@@ -2094,13 +2094,12 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Ingame_Misc_Minimap_Advanced" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Advanced Minimap (press ALT to display a second map)" Type="single1" Visible="True">
+      <Package PackageName="Ingame_Misc_Minimap_Advanced" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Advanced (HD) Minimap by ShuraBB et al. (conflicts with xvm minimap)" Type="single1" Visible="True">
         <Size>8624</Size>
-        <ZipFile>Ingame_Misc_Minimap_Advanced_BaseCFG_2019-10-20.zip</ZipFile>
-        <CRC>3a7e91d166ac56fab73def610755cfc4</CRC>
-        <Timestamp>132160457773518852</Timestamp>
+        <CRC>f</CRC>
+        <Timestamp>132161259252623299</Timestamp>
         <DevURL>https://wgmods.net/39/details/\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1651746-\r\n\r\nhttps://worldoftanks.curseforge.com/projects/hawgs-tactical-spg-td-minimaps-combo\r\nhttps://wgmods.net/1682/\r\n\r\nhttps://wgmods.net/433/details\r\nhttps://wgmods.net/434/details</DevURL>
-        <Description>Minimaps for various porpuse, in different styles and made made by several modders. \r\nThe Minimaps normally are in HD. \r\n\r\nThe styles are: \r\n- Black &amp; White Maps made by ShuraBB\r\n- HD Maps made by ShuraBB\r\n- Tactical Maps made by ShuraBB\r\n- Heat Maps made by ShuraBB\r\n- Colored  Maps made by ShuraBB\r\n\r\n- Tactical Maps made by HAWG\r\n\r\n- HD Maps made by WOTInspector &amp; Reven86\r\n- Topographical Maps made by WOTInspector &amp; Reven86\r\n\r\nShuraBB: \r\nhttp://forum.worldoftanks.ru/index.php?/topic/1651746-\r\n\r\nHAWG: \r\nhttps://worldoftanks.curseforge.com/projects/hawgs-tactical-spg-td-minimaps-combo\r\n\r\nReven86: \r\nhttps://wgmods.net/433 &amp; https://wgmods.net/434</Description>
+        <Description>Press ALT to show an alternative map.\r\n\r\nMinimaps for various porpuse, in different styles and made made by several modders. \r\nThe Minimaps normally are in HD. \r\n\r\nThe styles are: \r\n- Black &amp; White Maps made by ShuraBB\r\n- HD Maps made by ShuraBB\r\n- Tactical Maps made by ShuraBB\r\n- Heat Maps made by ShuraBB\r\n\r\n\r\n- Tactical Maps made by HAWG\r\n\r\n- HD Maps made by WOTInspector &amp; Reven86\r\n- Topographical Maps made by WOTInspector &amp; Reven86\r\n\r\nShuraBB: \r\nhttp://forum.worldoftanks.ru/index.php?/topic/1651746-\r\n\r\nHAWG: \r\nhttps://worldoftanks.curseforge.com/projects/hawgs-tactical-spg-td-minimaps-combo\r\n\r\nReven86: \r\nhttps://wgmods.net/433 &amp; https://wgmods.net/434</Description>
         <Dependencies>
           <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_Minimap_Advanced" NotFlag="False" Logic="OR" />
@@ -2153,7 +2152,7 @@
               <Dependency PackageName="Dependency_Minimap_Advanced_Pics_HeatMaps" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Ingame_Misc_Minimap_Advanced_Main_HDColoredMaps" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HD Colored Maps (as default map)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Ingame_Misc_Minimap_Advanced_Main_HDColoredMaps" Enabled="False" InstallGroup="4" PatchGroup="4" Name="HD Colored Maps (as default map)" Type="single_dropdown1" Visible="False">
             <Size>646</Size>
             <ZipFile>Ingame_Misc_Minimap_Advanced_Main_HDColoredMaps_patch.zip</ZipFile>
             <CRC>fde0c099141272e9822750afe5321c47</CRC>
@@ -2296,7 +2295,7 @@
               <Dependency PackageName="Dependency_Minimap_Advanced_Pics_HeatMaps" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Ingame_Misc_Minimap_Advanced_Alt_HDColoredMaps" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HD Colored Maps (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="True">
+          <Package PackageName="Ingame_Misc_Minimap_Advanced_Alt_HDColoredMaps" Enabled="False" InstallGroup="4" PatchGroup="4" Name="HD Colored Maps (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="False">
             <Size>644</Size>
             <ZipFile>Ingame_Misc_Minimap_Advanced_Alt_HDColoredMaps_patch.zip</ZipFile>
             <CRC>6b5e75b9d575f98d2d88aed5958bca49</CRC>
@@ -2403,7 +2402,7 @@
                 <Timestamp>132160331824787659</Timestamp>
                 <DevURL>https://wgmods.net/39/details/\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1651746-</DevURL>
               </Package>
-              <Package PackageName="Ingame_Misc_Minimap_Advanced_LoadingImage_HDColoredMaps" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HD other Colored Maps" Type="single_dropdown2" Visible="True">
+              <Package PackageName="Ingame_Misc_Minimap_Advanced_LoadingImage_HDColoredMaps" Enabled="False" InstallGroup="4" PatchGroup="4" Name="HD other Colored Maps" Type="single_dropdown2" Visible="False">
                 <Size>588</Size>
                 <ZipFile>Ingame_Misc_Minimap_Advanced_LoadingImage_HDColoredMaps_patch.zip</ZipFile>
                 <CRC>960e32cd243f2f50cae4e1be12f53ad0</CRC>
