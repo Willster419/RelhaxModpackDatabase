@@ -689,6 +689,14 @@
       <timestamp>132153096287080074</timestamp>
     </dependency>
     <dependency>
+      <zipFile>Dependency_MLG_Consumables_Base_1.6.1.1_2019-10-23.zip</zipFile>
+      <crc>f</crc>
+      <enabled>True</enabled>
+      <appendExtraction>False</appendExtraction>
+      <packageName>Dependency_MLG_Consumables_Base</packageName>
+      <timestamp>132163069868046510</timestamp>
+    </dependency>
+    <dependency>
       <zipFile>Dependency_Crosshair_Sight_1.6.1.0_2019-10-08.zip</zipFile>
       <crc>3b378648951453bf492c31a4858efaec</crc>
       <enabled>True</enabled>
@@ -24860,15 +24868,15 @@
               <updateComment>modified from gui.pkg:\n&amp;#92;res_mods&amp;#92;versiondir&amp;#92;gui&amp;#92;flash&amp;#92;guiControlsLobbyBattle.swf\n\nneeds updates every patchday - urgent!</updateComment>
               <packages>
                 <package>
-                  <name>by Aimdrol</name>
-                  <zipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_base_1.6.0.7_2019-09-21.zip</zipFile>
-                  <crc>21ecdf4b4d592625f15a1022f9d88795</crc>
-                  <enabled>False</enabled>
+                  <name>Aimdrol (with [english] text modifications)</name>
+                  <zipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text_1.6.1.1_2019-10-23.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
                   <visible>True</visible>
-                  <packageName>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol</packageName>
-                  <type>single1</type>
-                  <timestamp>132135555093466293</timestamp>
-                  <size>2673071</size>
+                  <packageName>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132163066924508597</timestamp>
+                  <size>985724</size>
                   <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</devURL>
                   <medias>
                     <media>
@@ -24876,43 +24884,37 @@
                       <URL>http://i.imgur.com/6mneJsK.png</URL>
                     </media>
                   </medias>
-                  <packages>
-                    <package>
-                      <name>with text modifications (english)</name>
-                      <zipFile>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text_1.6.0.7_2019-09-21.zip</zipFile>
-                      <crc>e614a554f655560096961f30b45fe5dd</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_text</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132135554854380677</timestamp>
-                      <size>985724</size>
-                      <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</devURL>
-                      <dependencies>
-                        <dependency>
-                          <packageName>Dependency_MLG_english_localization</packageName>
-                        </dependency>
-                      </dependencies>
-                    </package>
-                    <package>
-                      <name>without text modifications</name>
-                      <zipFile />
-                      <crc>f</crc>
-                      <enabled>True</enabled>
-                      <visible>True</visible>
-                      <packageName>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_no_text</packageName>
-                      <type>single_dropdown1</type>
-                      <timestamp>132100271306124125</timestamp>
-                      <size>2665260</size>
-                      <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</devURL>
-                      <medias>
-                        <media>
-                          <type>1</type>
-                          <URL>http://i.imgur.com/6mneJsK.png</URL>
-                        </media>
-                      </medias>
-                    </package>
-                  </packages>
+                  <dependencies>
+                    <dependency>
+                      <packageName>Dependency_MLG_english_localization</packageName>
+                    </dependency>
+                    <dependency>
+                      <packageName>Dependency_MLG_Consumables_Base</packageName>
+                    </dependency>
+                  </dependencies>
+                </package>
+                <package>
+                  <name>Aimdrol (without text modifications)</name>
+                  <zipFile />
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Misc_Consumables_EquipmentIcons_Aimdrol_no_text</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132100271306124125</timestamp>
+                  <size>2665260</size>
+                  <devURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</devURL>
+                  <medias>
+                    <media>
+                      <type>1</type>
+                      <URL>http://i.imgur.com/6mneJsK.png</URL>
+                    </media>
+                  </medias>
+                  <dependencies>
+                    <dependency>
+                      <packageName>Dependency_MLG_Consumables_Base</packageName>
+                    </dependency>
+                  </dependencies>
                 </package>
                 <package>
                   <name>Armored Warfare</name>
@@ -24921,7 +24923,7 @@
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Ingame_Misc_Consumables_EquipmentIcons_Armored_Warfare</packageName>
-                  <type>single1</type>
+                  <type>single_dropdown1</type>
                   <version>1.2</version>
                   <timestamp>132151436318764472</timestamp>
                   <size>888897</size>
@@ -24935,13 +24937,13 @@
                   </medias>
                 </package>
                 <package>
-                  <name>by DEbranded</name>
+                  <name>DEbranded</name>
                   <zipFile>Ingame_Misc_Consumables_EquipmentIcons_DEbranded_1.6.1.1_2019-10-15.zip</zipFile>
                   <crc>d12d83020d48aab201d04ad7d5d69b33</crc>
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Ingame_Misc_Consumables_EquipmentIcons_DEbranded</packageName>
-                  <type>single1</type>
+                  <type>single_dropdown1</type>
                   <timestamp>132156352433965885</timestamp>
                   <size>1418113</size>
                   <updateComment>removed: res&amp;#92;gui&amp;#92;maps&amp;#92;icons&amp;#92;tankmen</updateComment>
@@ -24968,7 +24970,7 @@
                   <enabled>True</enabled>
                   <visible>True</visible>
                   <packageName>Ingame_Misc_Consumables_EquipmentIcons_LegionLost</packageName>
-                  <type>single1</type>
+                  <type>single_dropdown1</type>
                   <timestamp>132154498631329660</timestamp>
                   <size>170562</size>
                   <description>Direct Customization of the original Battle Interface to change the base colors from green to blue according to the LegionLost Crosshair style.\r\n\r\nNOTE: THIS IS JUST CONSUMABLES</description>
@@ -24981,13 +24983,13 @@
                   </medias>
                 </package>
                 <package>
-                  <name>by vito72m</name>
+                  <name>vito72m</name>
                   <zipFile>Ingame_Misc_Consumables_EquipmentIcons_vito74m_2019-04-03.zip</zipFile>
                   <crc>53daa836e723c41f70bc0a606021cae8</crc>
                   <enabled>False</enabled>
                   <visible>False</visible>
                   <packageName>Ingame_Misc_Consumables_EquipmentIcons_vito72m</packageName>
-                  <type>single1</type>
+                  <type>single_dropdown1</type>
                   <timestamp>131987833055634978</timestamp>
                   <size>1076076</size>
                 </package>
