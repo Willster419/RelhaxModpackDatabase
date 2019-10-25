@@ -47,5 +47,11 @@ namespace RelhaxDescriptionDesigner
             Designs.TheIllusion.StarTrek.StarTrekMainWindow starTrek = new Designs.TheIllusion.StarTrek.StarTrekMainWindow();
             starTrek.Show();
         }
+        private void CA_Click(object sender, RoutedEventArgs e)
+        {
+            Designs.TheIllusion.ColourApparatus.ColourApparatus colourApparatus = new Designs.TheIllusion.ColourApparatus.ColourApparatus();
+            colourApparatus.Show();
+        }
+
     }
 }

@@ -23,5 +23,13 @@ namespace RelhaxDescriptionDesigner.Designs.TheIllusion.ColourApparatus
         {
             InitializeComponent();
         }
+        private void ColorSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            Color color = Color.FromRgb((byte)slColorR.Value, (byte)slColorG.Value, (byte)slColorB.Value);
+            this.Background = new SolidColorBrush(color);
+        }
+        private void CloseWindow_CanExec(object sender, CanExecuteRoutedEventArgs e) => e.CanExecute = true;
+
+        private void CloseWindow_Exec(object sender, ExecutedRoutedEventArgs e) => SystemCommands.CloseWindow(this);
     }
 }
