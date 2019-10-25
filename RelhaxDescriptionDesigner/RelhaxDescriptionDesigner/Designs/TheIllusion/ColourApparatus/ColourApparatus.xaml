@@ -5,10 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RelhaxDescriptionDesigner.Designs.TheIllusion.ColourApparatus"
         mc:Ignorable="d"
-        Title="ColourApparatus" Height="450" Width="800">
-    <Grid>
-        <Slider Name="Red" Maximum="255" Width="500" Margin="0,100,0,0" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True"/>
-        <Slider Name="Blue" Maximum="255" Width="500" Margin="0,130,0,0" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True"/>
-        <Slider Name="Green" Maximum="255" Width="500" Margin="0,160,0,0" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True"/>
-    </Grid>
+        Title="ColourApparatus" Height="250" Width="300" WindowStyle="ToolWindow">
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static SystemCommands.CloseWindowCommand}" 
+                        CanExecute="CloseWindow_CanExec" 
+                        Executed="CloseWindow_Exec" />
+    </Window.CommandBindings>
+    <StackPanel Margin="10" VerticalAlignment="Top">
+        <DockPanel VerticalAlignment="Center" Margin="10">
+            <Label DockPanel.Dock="Left" FontWeight="Bold">R:</Label>
+            <TextBox Text="{Binding ElementName=slColorR, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+            <Slider Maximum="255" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" Name="slColorR" ValueChanged="ColorSlider_ValueChanged" />
+        </DockPanel>
+
+        <DockPanel VerticalAlignment="Center" Margin="10">
+            <Label DockPanel.Dock="Left" FontWeight="Bold">G:</Label>
+            <TextBox Text="{Binding ElementName=slColorG, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+            <Slider Maximum="255" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" Name="slColorG" ValueChanged="ColorSlider_ValueChanged" />
+        </DockPanel>
+
+        <DockPanel VerticalAlignment="Center" Margin="10">
+            <Label DockPanel.Dock="Left" FontWeight="Bold">B:</Label>
+            <TextBox Text="{Binding ElementName=slColorB, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+            <Slider Maximum="255" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" Name="slColorB" ValueChanged="ColorSlider_ValueChanged" />
+        </DockPanel>
+        <Button Tag="DiscritionClose_NOTIMPLEMENTED" Content="Done" Foreground="Black" Command="{x:Static SystemCommands.CloseWindowCommand}" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" Width="171" Height="60" IsCancel="True"/>
+     </StackPanel>
 </Window>
