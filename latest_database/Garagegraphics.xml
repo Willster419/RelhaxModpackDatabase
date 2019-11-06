@@ -82,8 +82,8 @@
             <ZipFile>Garage_Graphics_Battle_Results_Leviathan_HAWG_1.5.0.0_2019-05-04.zip</ZipFile>
             <CRC>d9e5c10aa0b7b114044617416ad0430c</CRC>
             <Timestamp>131985083383948471</Timestamp>
-            <DevURL>https://worldoftanks.curseforge.com/projects/leviathan-battle-results</DevURL>
-            <UpdateComment>2. URL on wgmods.net\nhttps://wgmods.net/2015/</UpdateComment>
+            <DevURL>https://worldoftanks.curseforge.com/projects/leviathan-battle-results\r\nhttps://wgmods.net/1836/</DevURL>
+            <UpdateComment>2. URL on wgmods.net\r\nhttps://wgmods.net/1836/</UpdateComment>
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/Battle_Results/Garage_Graphics_Battle_Results_Leviathan_HAWG_01.png" MediaType="Picture" />
               <Media URL="https://wgmods.net/media/lev.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
@@ -1636,6 +1636,21 @@
           </Package>
         </Packages>
       </Package>
+      <Package PackageName="Garage_Graphics_Hangar_Premium_V2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hangar Premium V2" Type="multi" Visible="True">
+        <Size>92599401</Size>
+        <ZipFile>Garage_Graphics_Hangar_Premium_V2_1.6.1.3_2019-11-03.zip</ZipFile>
+        <CRC>580db49adea17283e56ee77ee4ec98bd</CRC>
+        <Timestamp>132172758336589640</Timestamp>
+        <DevURL>http://www.goofy67-wot.de/hangar-premium-v2.html</DevURL>
+        <Description>This hangar was used in World of Tanks in versions 0.9.x as premium-hangar.</Description>
+        <Medias>
+          <Media URL="http://www.goofy67-wot.de/media/images/shot_002.jpg" MediaType="Picture" />
+          <Media URL="http://www.goofy67-wot.de/media/images/shot_003.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
       <Package PackageName="Garage_Graphics_Hangar_Customization_Hangar" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Customization-Hangar by goofy67" Type="multi" Visible="True">
         <Size>13521449</Size>
         <ZipFile>Garage_Graphics_Hangar_Customization_Hangar_1.6.1.0_2019-10-08.zip</ZipFile>
@@ -1651,7 +1666,7 @@
         <ZipFile>Garage_Graphics_Hangar_Victory_Day_1.5.1.1_2019-06-24.zip</ZipFile>
         <CRC>e7182722b0e490ed46b5480f810d0f9a</CRC>
         <Timestamp>131976357811053706</Timestamp>
-        <DevURL>https://wgmods.net/3520/</DevURL>
+        <DevURL>https://wgmods.net/3520/\r\nhttps://wotbaza.com/hangars-wot/70-hangar-victory-day-may-9-for-world-of-tanks</DevURL>
         <Description>Change normal hangar to victory day hangar.\r\n\r\n: Requires goofy67's "HangMan" mod</Description>
         <Medias>
           <Media URL="https://wgmods.net/media/mod_files/shot_262_TBcg24G.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
@@ -1705,7 +1720,265 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Garage_Graphics_Hangar_MIKUv2HMHM" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Miku v2 [HMHM version]" Type="multi" Visible="True">
+      <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV" Enabled="True" InstallGroup="4" PatchGroup="4" Name="16 Hangars from GrebTV by KasykC" Type="multi" Visible="True">
+        <Version>1.6.1.1</Version>
+        <CRC>f</CRC>
+        <Timestamp>132170422894472379</Timestamp>
+        <DevURL>https://koreanrandom.com/forum/topic/51445-</DevURL>
+        <UpdateComment>1. unpack: *.wotmod, cause there are some doubled files\r\n\r\n2. delete scripts: Check scripts folder - scripts\client\gui\mods\*.pyc &amp; delete\r\n\r\n3. install to res_mods\r\n\r\nmaybe helpful for self-made updates:\r\nhttps://koreanrandom.com/forum/topic/45741-world-editor-for-mod-creators</UpdateComment>
+        <Medias>
+          <Media URL="https://c.radikal.ru/c35/1908/f3/1a2dfe79f485.png" MediaType="Picture" />
+        </Medias>
+        <Packages>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV001_No1_Miku" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(1) MIKU by Tesh2016 (TaLLIePO)" Type="multi" Visible="True">
+            <Size>25575287</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV001_No1_Miku_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>684b5a122003e388bcffc2c4dd34ed9a</CRC>
+            <Timestamp>132170757378907482</Timestamp>
+            <DevURL>https://wotbaza.com/hangars-wot/83-stylish-anime-hangar-miku-v2-for-world-of-tanks</DevURL>
+            <Description>- Stylish anime hangar “Miku V2” with 2 girls Megurin Luka and Hatsune Miku,\r\n- A large three-dimensional scene, a mixture themes of anime and science fiction,\r\n- Your tank will be illuminated with a blue fantastic light spotlight.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV001_No1_Miku_00.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_MIKUv2HMHM.png" MediaType="Picture" />
+              <Media URL="https://wotbaza.com/images/mody/angary/014/shot_003.jpg" MediaType="Picture" />
+              <Media URL="https://wotbaza.com/images/mody/angary/014/shot_004.jpg" MediaType="Picture" />
+              <Media URL="https://wotbaza.com/images/mody/angary/014/shot_005.jpg" MediaType="Picture" />
+              <Media URL="https://wotbaza.com/images/mody/angary/014/shot_006.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_Miku_GrebTV001_No1_01.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_Miku_GrebTV001_No1_02.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_Miku_GrebTV001_No1_03.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_Miku_GrebTV001_No1_04.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_Miku_GrebTV001_No1_05.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/ixcR41iN7_c?t=10" MediaType="Webpage" />
+              <Media URL="https://youtu.be/ixcR41iN7_c" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV014_No2_Eve1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(2) EVE 1" Type="multi" Visible="True">
+            <Size>22652355</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV014_No2_EVE1_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>db6d26e4cf54d3120588a2fe4067002c</CRC>
+            <Timestamp>132175082721813643</Timestamp>
+            <Description>Hangar of the EVE games\r\n- a futuristic hangar, \r\n- made on the basis of the hangar of the EVE games. \r\n- you're a fan of science fiction? Try it.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV014_No2_EVE1_00.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/ilPzIby15U4?t=10" MediaType="Webpage" />
+              <Media URL="https://youtu.be/ilPzIby15U4" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV015_No3_Eve2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(3) EVE 2" Type="multi" Visible="True">
+            <Size>20954076</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV015_No3_EVE2_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>9f94b4b6d74dc22d26da00f5ad68dac8</CRC>
+            <Timestamp>132170785219795981</Timestamp>
+            <Description>Hangar of the EVE games\r\n- a futuristic hangar, \r\n- made on the basis of the hangar of the EVE games. \r\n- you're a fan of science fiction? Try it.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV015_No3_EVE2_00.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/qSmLgMet7Q8?t=10" MediaType="Webpage" />
+              <Media URL="https://youtu.be/qSmLgMet7Q8" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV_No5_Hangar_with_Maize" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(5) Air hangar with airplanes &amp; a tank" Type="multi" Visible="True">
+            <Size>124353628</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV_No5_Hangar_with_Maize_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>d7b6a07724df00c882efd8379098092e</CRC>
+            <Timestamp>132170831201296285</Timestamp>
+            <DevURL>https://wotbaza.com/hangars-wot/71-air-hangar-with-airplanes-for-world-of-tanks</DevURL>
+            <Description>- based on the map airfield inside one of the airplane hangars\r\n- enjoy all the colors and effects of this hangar if using improved graphics</Description>
+            <UpdateComment>the PackageID is NOT a joke: Its the name of  hangar no. 5 from GrebTV</UpdateComment>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No5_Hangar_with_Maize_00.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No5_Hangar_with_Maize_01.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No5_Hangar_with_Maize_02.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No5_Hangar_with_Maize_03.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No5_Hangar_with_Maize_04.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No5_Hangar_with_Maize_05.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/eSixJVNQ9BA?t=10" MediaType="Webpage" />
+              <Media URL="https://youtu.be/eSixJVNQ9BA" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV_No4_or_No6" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hangar V3 Versions" Type="multi" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132170425186698858</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No4_Standart_Easy_hangar2_=_Hanggar_V3_00.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No6_Easy_hangar2_00.jpg" MediaType="Picture" />
+            </Medias>
+            <Packages>
+              <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV_No4_Standart_Easy_hangar2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(4) In open Field" Type="single1" Visible="True">
+                <Size>15762287</Size>
+                <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV_No4_Standart_Easy_hangar2_1.6.1.3_2019-11-01.zip</ZipFile>
+                <CRC>5895af92664178c8c99f037bdfb0567a</CRC>
+                <Timestamp>132170815705688248</Timestamp>
+                <Description>- based on the map airfield inside one of the airplane hangars\r\n- enjoy all the colors and effects of this hangar if using improved graphics</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No4_Standart_Easy_hangar2_=_Hanggar_V3_00.jpg" MediaType="Picture" />
+                  <Media URL="https://youtu.be/xP2YurYRvdM?t=10" MediaType="Webpage" />
+                  <Media URL="https://youtu.be/xP2YurYRvdM" MediaType="Webpage" />
+                </Medias>
+              </Package>
+              <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV_No6_Easy_hangar2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(6) Just Simple &amp; beautiful" Type="single1" Visible="True">
+                <Size>11561496</Size>
+                <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV_No6_Easy_hangar2_1.6.1.3_2019-11-01.zip</ZipFile>
+                <CRC>feb9f0f6f97abfeb5e764f29116306c3</CRC>
+                <Timestamp>132170847334366882</Timestamp>
+                <Description>- designed to increase the FPS in the hangar, \r\n- on the walls hang drawings of tanks, \r\n- on the floor there are barrels of fuel and ammunition boxes.</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No6_Easy_hangar2_00.jpg" MediaType="Picture" />
+                  <Media URL="https://youtu.be/b33lf0PvBhI?t=10" MediaType="Webpage" />
+                  <Media URL="https://youtu.be/b33lf0PvBhI" MediaType="Webpage" />
+                </Medias>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV_No7_Standart" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(7) lumberjack worked in the forest" Type="multi" Visible="True">
+            <Size>108756504</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV_No7_Standart_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>1e97b31c77fa0f9e6fba9a90e7c157a8</CRC>
+            <Timestamp>132170859933231822</Timestamp>
+            <Medias>
+              <Media URL="https://youtu.be/pRLYzqjZYsU?t=10" MediaType="Webpage" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No7_Standart_00.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/pRLYzqjZYsU" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV_No8_Angar_prost_PK" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(8) Simple hangar" Type="multi" Visible="True">
+            <Size>50297855</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV_No8_Angar_prost_PK_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>3f5ba1b298d2c07f4d7579d4010baa82</CRC>
+            <Timestamp>132170871134655268</Timestamp>
+            <Description>- designed to increase the FPS in the hangar, \r\n- on the walls hang drawings of tanks, \r\n- on the floor there are barrels of fuel and ammunition boxes.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV_No8_Angar_prost_PK_00.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/w467l9eruok?t=10" MediaType="Webpage" />
+              <Media URL="https://youtu.be/w467l9eruok" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV00_No9_Stalker_KaTyKoB" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(9) Hangar 3D style Stalker KaTyKoB" Type="multi" Visible="True">
+            <Size>149863790</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV00_No9_Stalker_KaTyKoB_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>a16c912777990d2374bf4a81a271c08d</CRC>
+            <Timestamp>132170883453392693</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV00_No9_Stalker_KaTyKoB_00.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/7wBGqcmgbuI?t=10" MediaType="Webpage" />
+              <Media URL="https://youtu.be/7wBGqcmgbuI" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV024_No10_Love" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(10) SWAT love" Type="multi" Visible="True">
+            <Size>75316490</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV024_No10_Love_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>316b9a3f572fe3b90b8b1f60e8884acd</CRC>
+            <Timestamp>132170885526396788</Timestamp>
+            <Description>- in the middle of the city block\r\n- for fans of the sexy girls</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV024_No10_Love_00.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/DNfc2fTN8lU?t=10" MediaType="Webpage" />
+              <Media URL="https://youtu.be/DNfc2fTN8lU" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV023_No11A_or_11B" Enabled="True" InstallGroup="4" PatchGroup="4" Name="choose techno with or without terminator" Type="multi" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132170425186698858</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11A_Tehno_Terminator_00.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11B_Techno_00.jpg" MediaType="Picture" />
+            </Medias>
+            <Packages>
+              <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV023_No11A_Techno_Terminator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(11A) Techno by Terminator" Type="single1" Visible="True">
+                <Size>28608870</Size>
+                <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV023_No11A_Tehno_Terminator_1.6.1.3_2019-11-01.zip</ZipFile>
+                <CRC>2663942a30952c8b87e57f819c8822f7</CRC>
+                <Timestamp>132170891393294400</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11A_Tehno_Terminator_00.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11A_Techno_Terminator_01.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11A_Techno_Terminator_02.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11A_Techno_Terminator_03.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11A_Techno_Terminator_04.jpg" MediaType="Picture" />
+                  <Media URL="https://youtu.be/Ss7y4XOwt9k?t=10" MediaType="Webpage" />
+                  <Media URL="https://youtu.be/Ss7y4XOwt9k" MediaType="Webpage" />
+                </Medias>
+              </Package>
+              <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV023_No11B_Techno" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(11B) Techno by WG" Type="single1" Visible="True">
+                <Size>31022098</Size>
+                <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV023_No11B_Techno_1.6.1.3_2019-11-01.zip</ZipFile>
+                <CRC>7e61cc089bead986bc4ed84111380658</CRC>
+                <Timestamp>132170890739383159</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11B_Techno_00.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11B_Techno_01.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11B_Techno_02.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11B_Techno_03.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11B_Techno_04.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV023_No11B_Techno_05.jpg" MediaType="Picture" />
+                  <Media URL="https://youtu.be/Ss7y4XOwt9k?t=10" MediaType="Webpage" />
+                  <Media URL="https://youtu.be/Ss7y4XOwt9k" MediaType="Webpage" />
+                </Medias>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV010_No12_WoWP_premium" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(12) WoWP premium" Type="multi" Visible="True">
+            <Size>75542774</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV010_No12_WoWP_premium_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>c5faac489de417e7731232a35f5e8b98</CRC>
+            <Timestamp>132170904625709796</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV010_No12_WoWP_premium_00.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/_j0lBy2J3HQ?t=10" MediaType="Webpage" />
+              <Media URL="https://youtu.be/_j0lBy2J3HQ" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV022_No13_WoWP_basic" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(13) WoWP basic" Type="multi" Visible="True">
+            <Size>73623287</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV022_No13_WoWP_basic_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>9457a69a04876de004d82823c70cf86d</CRC>
+            <Timestamp>132170906442722729</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV022_No13_WoWP_basic_00.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/mugoLYABlRY?t=10" MediaType="Webpage" />
+              <Media URL="https://youtu.be/mugoLYABlRY" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV008_No14_Prem_089" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(14) old premium hanagr (0.8.9)" Type="multi" Visible="True">
+            <Size>59431283</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV008_No14_Prem_089_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>2d2d5d07eb3b21688d2379d6b9185532</CRC>
+            <Timestamp>132170912950542081</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV008_No14_Prem_089_00.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/JkxpSm1eBv8?t=10" MediaType="Webpage" />
+              <Media URL="https://youtu.be/JkxpSm1eBv8" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV025_No15_desert_Hellinger" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(15) Hangar Hellinger in desert style" Type="multi" Visible="True">
+            <Size>32350877</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV025_No15_desert_Hellinger_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>2cf6c8663aad44dc3ae32a3da933fe73</CRC>
+            <Timestamp>132170918129133604</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV025_No15_desert_Hellinger_00.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/mA0gFFq8pec?t=10" MediaType="Webpage" />
+            </Medias>
+          </Package>
+          <Package PackageName="Garage_Graphics_Hangar_Pack_GrebTV026_No16_Bday" Enabled="True" InstallGroup="4" PatchGroup="4" Name="(16) WG 15th Birthday (0.8.7)" Type="multi" Visible="True">
+            <Size>37884477</Size>
+            <ZipFile>Garage_Graphics_Hangar_Pack_GrebTV026_No16_Bday_1.6.1.3_2019-11-01.zip</ZipFile>
+            <CRC>703e10fca65b58159d8d5951ba83f2a0</CRC>
+            <Timestamp>132170923931829498</Timestamp>
+            <DevURL>https://wotbaza.com/hangars-wot/75-hangar-jubilee-for-world-of-tanks</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_GrebTV026_No16_Bday_00.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_Miku_GrebTV001_No1_01.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_Miku_GrebTV001_No1_02.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_Miku_GrebTV001_No1_03.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_Miku_GrebTV001_No1_04.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/Garage_Graphics_Hangar_Pack_Miku_GrebTV001_No1_05.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/tF5OttiXYwk?t=10" MediaType="Webpage" />
+            </Medias>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Garage_Graphics_Hangar_MIKUv2HMHM" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Miku v2 [HMHM version]" Type="multi" Visible="False">
         <Size>25763908</Size>
         <ZipFile>Garage_Graphics_Hangar_MIKUv2HMHM_1.6.1.1_2019-10-17.zip</ZipFile>
         <CRC>e8992409f798e497b03c6210445b9ca1</CRC>
