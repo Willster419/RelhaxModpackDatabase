@@ -3679,14 +3679,15 @@
                   <name>EquipmentPanel</name>
                   <zipFile>XVMconfigBuilder_GarageInterface_BoosterInfo_2019-07-08.zip</zipFile>
                   <crc>f5a43857fc07a8120208706a7fced0fa</crc>
-                  <enabled>False</enabled>
-                  <visible>False</visible>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
                   <packageName>XVMconfigBuilder_GarageInterface_equipmentPanel</packageName>
                   <type>multi</type>
                   <timestamp>132070439153956815</timestamp>
+                  <description>show/hide the number of equipment and directives.</description>
                   <packages>
                     <package>
-                      <name>showConsumablesCount</name>
+                      <name>show the remaining quantity of consumables in depot</name>
                       <zipFile />
                       <crc>f</crc>
                       <enabled>True</enabled>
@@ -3694,9 +3695,31 @@
                       <packageName>XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount</packageName>
                       <type>multi</type>
                       <timestamp>132176814966385990</timestamp>
+                      <packages>
+                        <package>
+                          <name>disabled</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_disabled_2019-11-08.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_disabled</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132176823307957630</timestamp>
+                        </package>
+                        <package>
+                          <name>enabled</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_enabled_2019-11-08.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_enabled</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132176823401387808</timestamp>
+                        </package>
+                      </packages>
                     </package>
                     <package>
-                      <name>showDirectivesCount</name>
+                      <name>show the remaining quantity of directives in depot</name>
                       <zipFile />
                       <crc>f</crc>
                       <enabled>True</enabled>
@@ -3704,6 +3727,28 @@
                       <packageName>XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount</packageName>
                       <type>multi</type>
                       <timestamp>132176814936067058</timestamp>
+                      <packages>
+                        <package>
+                          <name>disabled</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_disabled_2019-11-08.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_disabled</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132176823473365352</timestamp>
+                        </package>
+                        <package>
+                          <name>enabled</name>
+                          <zipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_enabled_2019-11-08.zip</zipFile>
+                          <crc>f</crc>
+                          <enabled>True</enabled>
+                          <visible>True</visible>
+                          <packageName>XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_enabled</packageName>
+                          <type>single_dropdown1</type>
+                          <timestamp>132176823534262512</timestamp>
+                        </package>
+                      </packages>
                     </package>
                   </packages>
                 </package>
