@@ -1,7 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2019-09-01 22:02:35" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="1.6.0.4_2019-09-01_1" dbDistro="Beta">
+<mods ver="2.0" date="2019-11-08 13:07:17" timezone="(UTC+01:00) Bruksela, Kopenhaga, Madryt, Paryż" dbVersion="1.6.1.3_2019-11-06_3">
   <relhaxMods>
+    <mod>XVMconfigBuilder_HANGAR</mod>
+    <mod>XVMConfigBuilder_BattleResults</mod>
+    <mod>XVMconfigBuilder_BattleResults_showExtendedInfo</mod>
+    <mod>XVMconfigBuilder_BattleResults_showExtendedInfo_enable</mod>
+    <mod>XVMconfigBuilder_BattleResults_showTotals</mod>
+    <mod>XVMconfigBuilder_BattleResults_showTotals_enable</mod>
+    <mod>XVMconfigBuilder_BattleResults_showNetIncome</mod>
+    <mod>XVMconfigBuilder_BattleResults_showNetIncome_enable</mod>
+    <mod>XVMconfigBuilder_BattleResults_showTotalExperience</mod>
+    <mod>XVMconfigBuilder_BattleResults_showTotalExperience_enable</mod>
+    <mod>XVMconfigBuilder_BattleResults_showCrewExperience</mod>
+    <mod>XVMconfigBuilder_BattleResults_showCrewExperience_enable</mod>
+    <mod>XVMconfigBuilder_Carousel</mod>
+    <mod>XVMconfigBuilder_Carousel_enable</mod>
+    <mod>XVMconfigBuilder_Carousel_Slots</mod>
+    <mod>XVMconfigBuilder_Carousel_Slots_default</mod>
+    <mod>XVMconfigBuilder_Carousel_Slots_default_Normal</mod>
+    <mod>XVMconfigBuilder_Carousel_Slots_default_Normal_Scale_0.8</mod>
+    <mod>XVMconfigBuilder_Carousel_Rows_2</mod>
     <mod>XVMconfigBuilder_GarageInterface</mod>
+    <mod>XVMconfigBuilder_GarageInterface_BoosterInfo</mod>
     <mod>XVMconfigBuilder_GarageInterface_Clock</mod>
     <mod>XVMconfigBuilder_GarageInterface_Clock_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_Clock_TimeFormat</mod>
@@ -10,21 +30,151 @@
     <mod>XVMconfigBuilder_GarageInterface_barracksShowFlags_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_barracksShowSkills</mod>
     <mod>XVMconfigBuilder_GarageInterface_barracksShowSkills_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_crewMaxPerksCount</mod>
+    <mod>XVMconfigBuilder_GarageInterface_crewMaxPerksCount_8</mod>
     <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn</mod>
     <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault</mod>
     <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_enable</mod>
-    <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn_disable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn_Save</mod>
+    <mod>XVMconfigBuilder_GarageInterface_CrewAutoReturn_enable</mod>
     <mod>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree</mod>
     <mod>XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_notificationCounter</mod>
+    <mod>XVMconfigBuilder_GarageInterface_notificationCounter_missions</mod>
+    <mod>XVMconfigBuilder_GarageInterface_notificationCounter_missions_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage</mod>
+    <mod>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_notificationCounter_profile</mod>
+    <mod>XVMconfigBuilder_GarageInterface_notificationCounter_profile_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_notificationCounter_store</mod>
+    <mod>XVMconfigBuilder_GarageInterface_notificationCounter_store_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn</mod>
+    <mod>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_ServerPing</mod>
+    <mod>XVMconfigBuilder_GarageInterface_ServerPing_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_ServerPopulations</mod>
+    <mod>XVMconfigBuilder_GarageInterface_ServerPopulations_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_Squad</mod>
+    <mod>XVMconfigBuilder_GarageInterface_Squad_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_squad_showClan</mod>
+    <mod>XVMconfigBuilder_squad_showClan_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_squad_formatInfoField</mod>
+    <mod>XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax</mod>
+    <mod>XVMconfigBuilder_GarageInterface_TankStatistics</mod>
+    <mod>XVMconfigBuilder_GarageInterface_TankHistoryInformer</mod>
+    <mod>XVMconfigBuilder_GarageInterface_Tooltips</mod>
+    <mod>XVMconfigBuilder_GarageInterface_Tooltips_combineIcons</mod>
+    <mod>XVMconfigBuilder_GarageInterface_Tooltips_combineIcons_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh</mod>
+    <mod>XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_userInfo</mod>
+    <mod>XVMconfigBuilder_GarageInterface_userInfo_showXTEColumn</mod>
+    <mod>XVMconfigBuilder_GarageInterface_userInfo_showXTEColumn_enable</mod>
+    <mod>XVMconfigBuilder_GarageInterface_userInfo_showFilters</mod>
+    <mod>XVMconfigBuilder_GarageInterface_userInfo_showFilters_disable</mod>
+    <mod>XVMconfigBuilder_Login</mod>
+    <mod>XVMconfigBuilder_Login_ShowServerPing</mod>
+    <mod>XVMconfigBuilder_Login_ShowServerPing_enable</mod>
+    <mod>XVMconfigBuilder_Login_ShowServerPopulations</mod>
+    <mod>XVMconfigBuilder_Login_ShowServerPopulations_enable</mod>
+    <mod>XVMconfigBuilder_IN-BATTLE</mod>
+    <mod>XVMconfigBuilder_battleChat</mod>
+    <mod>XVMconfigBuilder_battleChat_wn8chatcolor</mod>
+    <mod>XVMConfigBuilder_BattleInterface</mod>
+    <mod>XVMConfigBuilder_BattleInterface_6thSenseDuration</mod>
+    <mod>XVMConfigBuilder_BattleInterface_6thSenseDuration_10sec</mod>
+    <mod>XVMconfigBuilder_BattleInterface_captureBar</mod>
+    <mod>XVMconfigBuilder_BattleInterface_captureBar_enable</mod>
+    <mod>XVMConfigBuilder_BattleInterface_damageIndicator</mod>
+    <mod>XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers</mod>
+    <mod>XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers_enable</mod>
+    <mod>XVMConfigBuilder_BattleInterface_HighCaliber</mod>
+    <mod>XVMConfigBuilder_BattleInterface_HighCaliber_enable</mod>
+    <mod>XVMConfigBuilder_BattleInterface_MissionTracker</mod>
+    <mod>XVMConfigBuilder_BattleInterface_PreBattleMessages</mod>
+    <mod>XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions</mod>
+    <mod>XVMConfigBuilder_BattleInterface_Scoreboard</mod>
+    <mod>XVMConfigBuilder_BattleInterface_Scoreboard_ShowAlive</mod>
+    <mod>XVMConfigBuilder_BattleInterface_Squadmember_Color_Change</mod>
+    <mod>XVMConfigBuilder_BattleInterface_Squadmember_Color_Change_Purple</mod>
+    <mod>XVMConfigBuilder_BattleInterface_TotalHP</mod>
+    <mod>XVMConfigBuilder_BattleInterface_TotalHP_enable</mod>
+    <mod>XVMConfigBuilder_BattleInterface_VehicleOnFireAnnouncer</mod>
+    <mod>XVMConfigBuilder_BattleInterface_VehicleOnFireAnnouncer_enable</mod>
+    <mod>XVMConfigBuilder_Camera</mod>
+    <mod>XVMConfigBuilder_Camera_enable</mod>
+    <mod>XVMConfigBuilder_Camera_Zoom</mod>
+    <mod>XVMConfigBuilder_Camera_sniperStartZoom</mod>
+    <mod>XVMConfigBuilder_Camera_sniperStartZoom_2</mod>
+    <mod>XVMConfigBuilder_Camera_sniperZoomSteps</mod>
+    <mod>XVMConfigBuilder_Camera_sniperZoomSteps_6</mod>
+    <mod>XVMConfigBuilder_Camera_ZoomOut</mod>
+    <mod>XVMConfigBuilder_Camera_ZoomOut_Arcade</mod>
+    <mod>XVMConfigBuilder_Camera_ZoomOut_Arcade_200</mod>
+    <mod>XVMConfigBuilder_Camera_ZoomOut_Postmortem</mod>
+    <mod>XVMConfigBuilder_Camera_ZoomOut_Postmortem_500</mod>
+    <mod>XVMConfigBuilder_Camera_ZoomOut_Strategic</mod>
+    <mod>XVMConfigBuilder_Camera_ZoomOut_Strategic_500</mod>
+    <mod>XVMConfigBuilder_Camera_noBinoculars</mod>
+    <mod>XVMConfigBuilder_Camera_noBinoculars_enable</mod>
+    <mod>XVMConfigBuilder_ClanIcons</mod>
+    <mod>XVMConfigBuilder_ClanIcons_Last_Installed</mod>
+    <mod>XVMconfigBuilder_Marker</mod>
+    <mod>XVMconfigBuilder_Marker_enabled</mod>
+    <mod>XVMconfigBuilder_Marker_Style</mod>
+    <mod>XVMconfigBuilder_Marker_Style_elektrosmoker_v1</mod>
+    <mod>XVMconfigBuilder_Marker_KillSymbols</mod>
+    <mod>XVMconfigBuilder_Marker_KillSymbols_otmkillsymbols</mod>
+    <mod>XVMconfigBuilder_Minimap</mod>
+    <mod>XVMconfigBuilder_Minimap_enable</mod>
+    <mod>XVMconfigBuilder_Minimap_Zoom</mod>
+    <mod>XVMconfigBuilder_Minimap_Zoom_LeftCtrl</mod>
+    <mod>XVMconfigBuilder_Minimap_Zoom_Centered</mod>
+    <mod>XVMconfigBuilder_Minimap_HPcircles</mod>
+    <mod>XVMconfigBuilder_Minimap_XVMMinimap_HPcircles_alt</mod>
+    <mod>XVMconfigBuilder_Minimap_labels</mod>
+    <mod>XVMconfigBuilder_Minimap_labels_enabled</mod>
+    <mod>XVMconfigBuilder_Minimap_lines</mod>
+    <mod>XVMconfigBuilder_Minimap_lines_enabled</mod>
+    <mod>XVMconfigBuilder_Minimap_circles</mod>
+    <mod>XVMconfigBuilder_Minimap_circles_enabled</mod>
+    <mod>XVMconfigBuilder_Minimap_circles_50</mod>
+    <mod>XVMconfigBuilder_Minimap_circles_445</mod>
+    <mod>XVMconfigBuilder_Minimap_circles_564</mod>
+    <mod>XVMconfigBuilder_Minimap_circles_viewRange</mod>
+    <mod>XVMconfigBuilder_Minimap_AimIcon</mod>
+    <mod>XVMconfigBuilder_Minimap_AimIcon_blue3</mod>
+    <mod>XVMconfigBuilder_PlayersPanel</mod>
+    <mod>XVMconfigBuilder_PlayersPanel_Enable</mod>
+    <mod>XVMconfigBuilder_PlayersPanel_StartingPosition</mod>
+    <mod>XVMconfigBuilder_PlayersPanel_StartingPosition_medium</mod>
+    <mod>XVMconfigBuilder_PlayersPanel_EnemyHpLeft</mod>
+    <mod>XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker</mod>
+    <mod>XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_enable</mod>
+    <mod>XVMconfigBuilder_PlayersPanel_Language_Flag</mod>
+    <mod>XVMconfigBuilder_PlayersPanel_Language_Flag_XVM</mod>
+    <mod>Crosshairs_gunConstraints</mod>
     <mod>Contour_Icons</mod>
     <mod>Contour_Icons_Pogs</mod>
     <mod>Contour_Icons_Pogs_Clear</mod>
     <mod>Contour_Icons_Pogs_CLEARCOLOR_MAX_FSR</mod>
-    <mod>Ingame_Aim_Zoomin</mod>
-    <mod>Ingame_Aim_zoom_pmod_zoomIn_12</mod>
-    <mod>Ingame_Aim_zoom_pmod_td_start_zoom</mod>
-    <mod>Ingame_Aim_zoom_pmod_default_zoom_2x</mod>
-    <mod>Garage_mods_auto_equip_equipment_by_OldSkool</mod>
+    <mod>Ingame_Aim_arty_splash_sphere</mod>
+    <mod>Ingame_Aim_Penetration</mod>
+    <mod>Ingame_Aim_pmod_reduced_armor</mod>
+    <mod>Ingame_Aim_Penetration_PMOD_Font</mod>
+    <mod>zoom_pmod_reduced_armor_font_small</mod>
+    <mod>Ingame_Aim_Penetration_PMOD_Dynamic_Colour</mod>
+    <mod>Ingame_Aim_SPG_Flytime</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool_timeout_1</mod>
+    <mod>Ingame_Aim_SafeShot_oldskool_block_dead</mod>
+    <mod>Ingame_Info_Show_Personal_Missions_in_detail</mod>
+    <mod>Garage_mods_Armor_Inspector</mod>
+    <mod>Garage_mods_Armor_Inspector_protanki</mod>
+    <mod>Garage_mods_Battle_Hits_Viewer</mod>
+    <mod>Garage_mods_expandItemLimits</mod>
+    <mod>Sixth_Sense_Audio</mod>
+    <mod>Sixth_Sense_Audio_OMC_less_10db</mod>
   </relhaxMods>
   <userMods />
 </mods>
