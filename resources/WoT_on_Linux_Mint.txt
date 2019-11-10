@@ -1,0 +1,61 @@
+Not much of a guide, but here's what you need to do to get the game center to work on Linux Mint 19
+
+Most info is from here:
+
+https://wiki.winehq.org/Ubuntu
+
+https://forum.winehq.org/viewtopic.php?f=8&t=32192#p121683winehq-staging
+
+https://appdb.winehq.org/objectManager.php?sClass=version&iId=36493&iTestingId=103963
+
+
+Add the OBS repository (from second link, Ubuntu 18.04 section):
+
+wget https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/Release.key
+sudo apt-key add Release.key
+sudo apt-add-repository 'deb https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/ ./'
+
+
+Add wine repositroy
+
+sudo dpkg --add-architecture i386
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+sudo apt-key add winehq.key
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
+
+
+Update your packages
+
+sudo apt update
+
+
+Install wine staging
+sudo apt install --install-recommends winehq-staging
+
+
+Install vulkan and winbind
+
+sudo apt install libvulkan1 libvulkan1:i386 libvulkan-dev libvulkan-dev:i386 vulkan-utils
+sudo apt-get install winbind
+
+
+Install winetricks
+
+wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+chmod +x winetricks
+sudo cp winetricks /usr/local/bin
+
+
+Should probably reboot after this step.
+
+
+Configure winetricks to create a win7 (or win10) x64 wine profile and install corefonts.
+
+If you want Aslains modpack, install mfc40 mfc42 msxml3 msxml4 msxml6.
+
+If you want promod, install dotnet48.
+
+If you want relhax, install dotnet462.
+
+
+NOTE: You need to be using the latest nvidia or AMD MESA drivers.
