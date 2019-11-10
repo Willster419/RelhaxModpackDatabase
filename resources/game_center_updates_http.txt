@@ -1,11 +1,34 @@
-Download game center updates over HTTP:
+Required programs:
+Relhax Modpack (V2) - https://relhaxmodpack.com/relhax-v2-official-public-beta/
 
-1 - Tor Browser:
-  https://www.torproject.org/
-  
-2 - Relhax Modpack:
-  https://relhaxmodpack.com/
-  
---IF cant download .torrent files via HTTP--
-3 - SocksCap64
-  https://sourceforge.net/projects/sockscap64/
+(If you can’t download .torrent files over HTTP or using just the modpack fails) 
+Tor browser - https://www.torproject.org/
+SocksCap64 - https://sourceforge.net/projects/sockscap64/
+
+Steps:
+Download and install the above programs
+Open Relhax Modpack
+Click “Diagnostic Utilities”
+Click “Download WG patch files…”
+Select the exe (or ico) of the WG client you wish to download updates for and click next
+Close the Game Center if it is currently open
+Wait until the window populates with update information and click next
+Wait for the Application to download the required files.
+After Complete, close the modpack and open the game center.
+The game center should detect the new files, hash them to verify integrity, and immediately install them.
+
+(If you can’t download .torrent files over HTTP or using just the modpack fails)
+Open the Tor Browser from the “Tor Browser” folder -> “Start Tor Browser” shortcut and minimize it.
+Close the Game Center if it is open
+Open SocksCap64 (admin if you can, but normal should work).
+Click the arrow to the right of “Apps” and click “Add an executable file”
+Give the profile a name
+For command line, click Browse and navigate to “C:\ProgramData\Wargaming.net\GameCenter” and click on “wgc.exe”
+Click OK
+Click the “Proxy” Button
+Click the plus button in the Proxy Manager window or right click under “Local Socks” and click “Add a new proxy”
+Double click inside the Address and type “127.0.0.1”
+Double click inside the Port and type “9150”
+Click Save
+Highlight the Game center Icon and click the “Run button”
+It will be slow, but it should now perform any previously blocked HTTP activity. It should proceed to step 10.
