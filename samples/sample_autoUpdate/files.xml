@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <files.xml formatVersion="1.0">
   <UpdateType>wotmod</UpdateType>
-  <WotmodFilenameInZip>mods/versiondir/M103_Candy_Apple_Red_7NjF4FF.wotmod</WotmodFilenameInZip>
+  <WotmodFilenameInZip>mods/versiondir/M103_Candy_Apple_Red.wotmod</WotmodFilenameInZip>
+  <PatchUpdates>
+    <PatchUpdate>
+      <PatchesToUpdate>.*M103_Candy_Apple_Red.*\.xml$</PatchesToUpdate>
+      <XPath>//patchs/patch/replace</XPath>
+      <Search single="true">.*M103_Candy_Apple_Red.*</Search>
+      <Replace>pkg/M103_Candy_Apple_Red.wotmod</Replace>
+    </PatchUpdate>
+  </PatchUpdates>
 </files.xml>
