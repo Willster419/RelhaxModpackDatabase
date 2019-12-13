@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<modInfoAlpha.xml version="1.7.0.0" onlineFolder="1.7.0">
+<modInfoAlpha.xml version="1.7.0.1" onlineFolder="1.7.0">
   <globaldependencies>
     <globaldependency>
       <zipFile>Dependency_global_RelHax_LoadingSplash_ChristmasDay_2019-11-10.zip</zipFile>
@@ -52,12 +52,12 @@
   </globaldependencies>
   <dependencies>
     <dependency>
-      <zipFile>Dependency_XVM_Main_Files_8.2.0_31_with_patch_2019-12-12.zip</zipFile>
+      <zipFile>Dependency_XVM_Main_Files_8.2.0_35_with_patch_2019-12-13.zip</zipFile>
       <crc>f</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_XVM_Main_Files</packageName>
-      <timestamp>132206608160807312</timestamp>
+      <timestamp>132207021219513768</timestamp>
       <devURL>https://modxvm.com/en/download-xvm/</devURL>
       <logicalDependencies>
         <logicalDependency>
@@ -763,20 +763,20 @@
       <timestamp>131551590002776094</timestamp>
     </dependency>
     <dependency>
-      <zipFile>Dependency_MLG_bnk_1.6.1.4_2019-12-02.zip</zipFile>
-      <crc>f7a0e1ebfd0221fbdfe1c70300e40d39</crc>
+      <zipFile>Dependency_MLG_bnk_1.6.1.4_2019-12-13.zip</zipFile>
+      <crc>f</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_MLG_bnk</packageName>
-      <timestamp>132197837695833595</timestamp>
+      <timestamp>132207046082034825</timestamp>
     </dependency>
     <dependency>
-      <zipFile>Dependency_MLG_english_localization_1.6.1.4_2019-12-02.zip</zipFile>
-      <crc>3b4860bf4b2e023771065b4bb6662667</crc>
+      <zipFile>Dependency_MLG_english_localization_1.7.0.1_2019-12-13.zip</zipFile>
+      <crc>f</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_MLG_english_localization</packageName>
-      <timestamp>132197838467291937</timestamp>
+      <timestamp>132207047905001257</timestamp>
     </dependency>
     <dependency>
       <zipFile>Dependency_MLG_Consumables_Base_1.6.1.4_2019-12-02.zip</zipFile>
@@ -29336,17 +29336,15 @@
         </package>
         <package>
           <name>Crew Extended (shows XP for leveling)</name>
-          <zipFile>Garage_mods_WotXP_Crew_Extended_by_spoter_v6.01_1.6.1.0_2019-10-11.zip</zipFile>
-          <crc>b4f3132794c145d6c4298a513537d006</crc>
+          <zipFile />
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Garage_mods_crewExtended</packageName>
+          <packageName>Garage_Mods_CrewExtended</packageName>
           <type>multi</type>
-          <version>6.01</version>
-          <timestamp>132153404574971024</timestamp>
+          <timestamp>132207059492195487</timestamp>
           <size>11665</size>
           <description>Crew leveling, shows the number of battles and experience until the next studied crew perk (1%-step and for 100%.)</description>
-          <devURL>https://github.com/spoter/spoter-mods/tree/master/mod_crewExtended/zip</devURL>
           <userDatas>
             <userData>\\mods\\configs\\crewExtended\\crewExtended.json</userData>
           </userDatas>
@@ -29358,15 +29356,27 @@
           </medias>
           <packages>
             <package>
-              <name>Crew Extended (shows XP for leveling) Alternative</name>
-              <zipFile>Garage_mods_WotXP_Crew_Extended_WGMods_1.7.0.0_2019-12-12.zip</zipFile>
+              <name>by spoter</name>
+              <zipFile>Garage_mods_CrewExtended_v6.01_1.6.1.0_2019-10-11.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Garage_Mods_CrewExtended_spoter</packageName>
+              <type>single_dropdown1</type>
+              <version>6.01</version>
+              <timestamp>132207059020730236</timestamp>
+              <devURL>https://github.com/spoter/spoter-mods/tree/master/mod_crewExtended/zip</devURL>
+            </package>
+            <package>
+              <name>alternative by WGMods</name>
+              <zipFile>Garage_mods_CrewExtended_alt_WGMods_1.7.0.0_2019-12-12.zip</zipFile>
               <crc>f</crc>
               <enabled>True</enabled>
               <visible>False</visible>
-              <packageName>Garage_mods_CrewExtended2</packageName>
-              <type>multi</type>
-              <timestamp>132206366977065792</timestamp>
-              <description>Crew leveling, shows the number of battles and experience until the next studied crew perk (1%-step and for 100%.)\r\n\r\njust an alternative for spoter mods  - keep invisible or maintain it on each patchday</description>
+              <packageName>Garage_mods_CrewExtended_alt</packageName>
+              <type>single_dropdown1</type>
+              <timestamp>132207063314118370</timestamp>
+              <description>just an alternative for spoter mods  - keep invisible or maintain it on each patchday</description>
               <devURL>https://wotsite.net/mody-dlya-world-of-tanks/12177-mod-ekipazh-rasshirennoe-lichnoe-delo-tankista-dlya-wot.html</devURL>
               <medias>
                 <media>
@@ -29673,7 +29683,7 @@
           <name>Seller</name>
           <zipFile>Garage_mods_Seller_by_Jove_1.6.1.0_2019-10-09.zip</zipFile>
           <crc>bb499906d45285a9b8f02c51628dff1f</crc>
-          <enabled>True</enabled>
+          <enabled>False</enabled>
           <visible>True</visible>
           <packageName>Garage_mods_Seller</packageName>
           <type>multi</type>
@@ -32893,14 +32903,14 @@
         </package>
         <package>
           <name>Hangar Manager "HangMan" v{version}</name>
-          <zipFile>Garage_Graphics_Hangar_HangMan_v2.40_1.7.0.0_2019-12-10.zip</zipFile>
+          <zipFile>Garage_Graphics_Hangar_HangMan_v2.40.1_1.7.0.1_2019-12-13.zip</zipFile>
           <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
           <packageName>Garage_Graphics_Hangar</packageName>
           <type>multi</type>
-          <version>2.40</version>
-          <timestamp>132204878277623208</timestamp>
+          <version>.12.40</version>
+          <timestamp>132207085287859281</timestamp>
           <size>535071</size>
           <description>Customize your hangar with HangMan!\r\n\r\nFeatures:\n\nCreating your own hangar during a battle by saving the map and tank position\nPossibility to make separate sound settings for each hangar\nChange the hangar by:\r\nselector-window or by pressing keys on keyboard \nrandom (on login and after battle)\ndepending on nation of selected vehicle\nlast known position on map of last battle  \nAutomatic reading of all installed hangars (with exclusion list)\nsettings-window for keyboard-settings\npreview-images installabe</description>
           <devURL>http://www.goofy67-wot.de/hangman-english.php\r\nhttp://forum.worldoftanks.eu/index.php?/topic/439322-</devURL>
@@ -38838,7 +38848,7 @@
               <name>____P_H_A_R_A_O_N____</name>
               <zipFile />
               <crc />
-              <enabled>True</enabled>
+              <enabled>False</enabled>
               <visible>True</visible>
               <packageName>Garage_Graphics_UserInterface_Pharaon</packageName>
               <type>single_dropdown1</type>
