@@ -822,12 +822,12 @@
       <devURL>https://wgmods.net/50/details/</devURL>
     </dependency>
     <dependency>
-      <zipFile>Dependency_champiCore_v1.04_1.6.0.1_2019-08-20.zip</zipFile>
-      <crc>a7d9df863f5868043b25364d5188a880</crc>
+      <zipFile>Dependency_champiCore_v1.06_1.70.2_2019-12-24.zip</zipFile>
+      <crc>f</crc>
       <enabled>True</enabled>
       <appendExtraction>False</appendExtraction>
       <packageName>Dependency_champiCore</packageName>
-      <timestamp>132107637219171549</timestamp>
+      <timestamp>132216833405783155</timestamp>
       <devURL>https://wgmods.net/2601/\r\nhttps://wot.champi.de/</devURL>
     </dependency>
     <dependency>
@@ -21935,16 +21935,16 @@
           <packages>
             <package>
               <name>Champi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool</name>
-              <zipFile>Ingame_Info_HPBars_by_Champi_v1.11_1.7.0.1_2019-12-14.zip</zipFile>
-              <crc>0dea8e7b80e71c13c235177833eec000</crc>
+              <zipFile>Ingame_Info_HPBars_by_Champi_v1.14_1.7.0.2_2019-12-24.zip</zipFile>
+              <crc>f</crc>
               <enabled>True</enabled>
               <visible>True</visible>
               <packageName>Ingame_Info_HpBars_Champi</packageName>
               <type>single1</type>
-              <version>11.1</version>
-              <timestamp>132208054666033195</timestamp>
+              <version>1.14</version>
+              <timestamp>132216834706980037</timestamp>
               <size>148095</size>
-              <updateComment>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n\r\nConflicts with Battle Observer &amp;  with oldskool.playerspanel.api in\r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\nused by\r\nIngame_Misc_chatmods_FriendsMarker_Oldskool\r\nIngame_Info_Enemy_Spotted_Status (by Oldskool)\r\n\r\nuse  Logic NotFlag = "NAND" = Not and for \r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\n\r\nChampi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</updateComment>
+              <updateComment>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n\r\n- 1.14\r\n- fix: the health bars are no longer drawn in full size when a tank is under 1% of the structure points. - fix: enemy spotted status icons are no longer set tanks to unspotted when they are out the max. drawing distance. - add: champiCore v1.06 lib included - add: slightly modified version of the eye icon set. (eye-symbol v2). The undetected icon is a bit darker and the spotted icon is more shiny, maybe you like it more. Look at the tooltip for preview. - code cleanup and corrections\r\n\r\nConflicts with Battle Observer &amp;  with oldskool.playerspanel.api in\r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\nused by\r\nIngame_Misc_chatmods_FriendsMarker_Oldskool\r\nIngame_Info_Enemy_Spotted_Status (by Oldskool)\r\n\r\nuse  Logic NotFlag = "NAND" = Not and for \r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\n\r\nChampi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</updateComment>
               <description>MOD DESCRIPTION: Customizable tank health bars for the playerpanel.\r\n\r\nfeatures:\r\n-draws background in vehicle class colors (see screenshot) or in standard green (own team) / red (enemy team)\r\n-can show only remaining structure points or current/max structure points\r\n-changeable graphics and layout - you can make your own backgrounds if you like\r\n\r\nNote: the health bars of the enemy team are only updated when the opponent is spotted and you're in radio signal range (if you didn't spot it by yourself). This rule is also valid for your own team. With other words: YOU CAN'T SEE IF YOUR BLIND SHOT HIT AN OPPONENT! :)\r\n\r\ncredits:\r\n-Yury Polyacov: For the permission to use his API in my mod. This mod used a modified version of the player panel API.\r\n-spoter: For his settings GUI</description>
               <devURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</devURL>
               <medias>
@@ -29197,6 +29197,28 @@
               <devURL>https://wgmods.net/41/details</devURL>
             </package>
             <package>
+              <name>Gold Locker</name>
+              <zipFile>Garage_mods_Auxilium_settings_Gold_Locker_1.7.0.2_2019-12-24.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Garage_mods_Auxilium_settings_Gold_Locker</packageName>
+              <type>multi</type>
+              <timestamp>132216941028042946</timestamp>
+              <description>Prevents the use of Gold</description>
+            </package>
+            <package>
+              <name>Free XP Locker</name>
+              <zipFile>Garage_mods_Auxilium_settings_FreeXP_Locker_1.7.0.2_2019-12-24.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Garage_mods_Auxilium_settings_FreeXP_Locker</packageName>
+              <type>multi</type>
+              <timestamp>132216941120437037</timestamp>
+              <description>Prevents the use of Free XP.</description>
+            </package>
+            <package>
               <name>remove wargaming statistics button</name>
               <zipFile>Garage_Mods_Auxilium_noStatsBtn_PATCH_2019-06-28.zip</zipFile>
               <crc>41cbec6e9424d07e1ab772a3ffcedbc4</crc>
@@ -29241,6 +29263,66 @@
               <updateComment>Updated Patch</updateComment>
               <description>The function “saveLastServer” - remembering the last server which was played by the player;</description>
               <devURL>https://wgmods.net/41/details</devURL>
+            </package>
+            <package>
+              <name>Carousel</name>
+              <zipFile />
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Garage_Mods_Auxilium_Carousel</packageName>
+              <type>multi</type>
+              <timestamp>132207059492195487</timestamp>
+              <packages>
+                <package>
+                  <name>Enable Small</name>
+                  <zipFile>Garage_Mods_Carousel_Small_1.7.0.2_2019-12-23.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Garage_Mods_Auxilium_Carousel_Small</packageName>
+                  <type>multi</type>
+                  <timestamp>132216234504703882</timestamp>
+                </package>
+                <package>
+                  <name>3 Rows</name>
+                  <zipFile>Garage_Mods_Carousel_3_1.7.0.2_2019-12-23.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Garage_Mods_Auxilium_Carousel_3</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132216237173896882</timestamp>
+                </package>
+                <package>
+                  <name>4 Rows</name>
+                  <zipFile>Garage_Mods_Carousel_4_1.7.0.2_2019-12-23.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Garage_Mods_Auxilium_Carousel_4</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132216237229464438</timestamp>
+                </package>
+                <package>
+                  <name>5 Rows</name>
+                  <zipFile>Garage_Mods_Carousel_5_1.7.0.2_2019-12-23.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Garage_Mods_Auxilium_Carousel_5</packageName>
+                  <type>single_dropdown1</type>
+                  <timestamp>132216237264495185</timestamp>
+                </package>
+          </packages>
+          <dependencies>
+            <dependency>
+                  <packageName>Dependency_ShuraBB_SDK</packageName>
+                </dependency>
+                <dependency>
+              <packageName>Dependency_ShuraBB_Auxilium</packageName>
+            </dependency>
+              </dependencies>
             </package>
           </packages>
           <dependencies>
