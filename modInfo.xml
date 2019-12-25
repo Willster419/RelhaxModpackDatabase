@@ -22136,15 +22136,24 @@
           </packages>
         </package>
         <package>
-          <name>Enemy spotted status</name>
-          <zipFile>Ingame_Info_Enemy_Spotted_Status_v1.1.6_1.7.0.1_2019-12-17.zip</zipFile>
-          <crc>7c23258d058bb60bc51806f4bd18f768</crc>
+          <name>6th Sense in player panel (conflicts with XVM)</name>
+          <zipFile />
+          <crc>f</crc>
           <enabled>True</enabled>
           <visible>True</visible>
-          <packageName>Ingame_Info_Enemy_Spotted_Status</packageName>
+          <packageName>Ingame_Info_6thsense</packageName>
           <type>multi</type>
-          <version>1.1.6</version>
-          <timestamp>132210991930433799</timestamp>
+          <timestamp>132071743749522467</timestamp>
+        </package>
+        <package>
+          <name>Enemy spotted status</name>
+          <zipFile />
+          <crc>f</crc>
+          <enabled>True</enabled>
+          <visible>True</visible>
+          <packageName>Ingame_Info_Enemy_Spotted_Status_header</packageName>
+          <type>multi</type>
+          <timestamp>132217271784682420</timestamp>
           <size>50587</size>
           <description>This is a Spotted Status Indicator for the enemy team. Different icons show the current Spotted Status for the vehicle.\r\n\r\n by OldSkool</description>
           <devURL>https://wgmods.net/1024/details</devURL>
@@ -22156,6 +22165,18 @@
           </medias>
           <packages>
             <package>
+              <name>by oldskool</name>
+              <zipFile>Ingame_Info_Enemy_Spotted_Status_v1.1.6_1.7.0.1_2019-12-17.zip</zipFile>
+              <crc>7c23258d058bb60bc51806f4bd18f768</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Info_Enemy_Spotted_Status_OldSkool</packageName>
+              <type>single1</type>
+              <version>1.1.6</version>
+              <timestamp>132210991930433799</timestamp>
+              <devURL>https://wgmods.net/1024/details</devURL>
+              <packages>
+                <package>
                   <name>Ball</name>
                   <zipFile>Ingame_Info_Enemy_Spotted_Status_Style_1_1.4.1.2_2019-04-25.zip</zipFile>
                   <crc>765d13dca5df249a609b6a12a9e5b186</crc>
@@ -22187,6 +22208,30 @@
               </dependencies>
             </package>
             <package>
+              <name>by PMOD</name>
+              <zipFile>Ingame_Info_Enemy_Spotted_Status_PMOD_Enable_2019-12-25.zip</zipFile>
+              <crc>f</crc>
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>Ingame_Info_Enemy_Spotted_Status_PMOD</packageName>
+              <type>single1</type>
+              <timestamp>132217294322810657</timestamp>
+              <packages>
+                <package>
+                  <name>Use colored asterisk "*" from Willster419's xvm config</name>
+                  <zipFile>Ingame_Info_Enemy_Spotted_Status_PMOD_asterisk_2019-12-25.zip</zipFile>
+                  <crc>f</crc>
+                  <enabled>True</enabled>
+                  <visible>True</visible>
+                  <packageName>Ingame_Info_6thsense_PMOD_asterisk</packageName>
+                  <type>multi</type>
+                  <timestamp>132217294418291868</timestamp>
+                </package>
+              </packages>
+            </package>
+          </packages>
+        </package>
+        <package>
           <name>InBattle Rating</name>
           <zipFile />
           <crc />
