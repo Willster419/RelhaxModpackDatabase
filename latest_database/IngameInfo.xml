@@ -391,7 +391,7 @@
     <CRC>f</CRC>
     <Timestamp>132071743749522467</Timestamp>
     <Packages>
-      <Package PackageName="Ingame_Info_HpBars_Champi" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Champi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool" Type="single1" Visible="True">
+      <Package PackageName="Ingame_Info_HpBars_Champi" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Champi HP Bars (Conflicts with A.) Enemy spotted status (oldskool only) &amp; B.) Friends Marker  BOTH by oldskool" Type="single1" Visible="True">
         <Size>161577</Size>
         <Version>1.14</Version>
         <ZipFile>Ingame_Info_HPBars_by_Champi_v1.14_1.7.0.2_2019-12-24.zip</ZipFile>
@@ -411,6 +411,55 @@
           <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_champiCore" NotFlag="False" Logic="OR" />
         </Dependencies>
+        <Packages>
+          <Package PackageName="Ingame_Info_HpBars_Champi_onAlways" Enabled="True" InstallGroup="4" PatchGroup="4" Name="always displayed" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132217266573929576</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+          </Package>
+          <Package PackageName="Ingame_Info_HpBars_Champi_toggle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="toggle (press alt to show/hide)" Type="single1" Visible="True">
+            <Size>474</Size>
+            <ZipFile>Ingame_Info_HpBars_Champi_toggle_2019-12-25.zip</ZipFile>
+            <CRC>12689c0e07d3937b378f481e686848f5</CRC>
+            <Timestamp>132217292654563356</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+          </Package>
+          <Package PackageName="Ingame_Info_HpBars_Champi_hotkey" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hotkey (hold alt to show)" Type="single1" Visible="True">
+            <Size>474</Size>
+            <ZipFile>Ingame_Info_HpBars_Champi_hotkey_2019-12-25.zip.zip</ZipFile>
+            <CRC>e4eecd7884d3e62d83fe964cd5d085b5</CRC>
+            <Timestamp>132217292756628639</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+          </Package>
+          <Package PackageName="Ingame_Info_HpBars_Champi_disable_class_icon" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable display of class icon next to panels" Type="multi" Visible="True">
+            <Size>507</Size>
+            <ZipFile>Ingame_Info_HpBars_Champi_disable_class_icon_2019-12-25.zip</ZipFile>
+            <CRC>b3cee189974fbdcd7a9b721c3ba320d8</CRC>
+            <Timestamp>132217293758122378</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+          </Package>
+          <Package PackageName="Ingame_Info_HpBars_Champi_disable_class_color" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable hpbar color by vehicle class (becomes red/green)" Type="multi" Visible="True">
+            <Size>506</Size>
+            <ZipFile>Ingame_Info_HpBars_Champi_disable_class_color_2019-12-25.zip</ZipFile>
+            <CRC>147e65883013be505a17ad3edaa75877</CRC>
+            <Timestamp>132217293841472717</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+          </Package>
+          <Package PackageName="Ingame_Info_HpBars_Champi_disable_enemy_spotted_status" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable enemy spotted status" Type="multi" Visible="True">
+            <Size>529</Size>
+            <ZipFile>Ingame_Info_HpBars_Champi_disable_enemy_spotted_status_2019-12-25.zip</ZipFile>
+            <CRC>897e6d8e55b68b74eb5ee2616760e507</CRC>
+            <Timestamp>132217292839425816</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+          </Package>
+          <Package PackageName="Ingame_Info_HpBars_Champi_bars_closer_to_panels" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Move bars closer (~30px) to panels" Type="multi" Visible="True">
+            <Size>701</Size>
+            <ZipFile>Ingame_Info_HpBars_Champi_bars_closer_to_panels_2019-12-25.zip</ZipFile>
+            <CRC>38ac0fbe1b44dec72c7bd77c02621a5e</CRC>
+            <Timestamp>132217294011965389</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+          </Package>
+        </Packages>
       </Package>
     </Packages>
   </Package>
@@ -457,32 +506,58 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Ingame_Info_Enemy_Spotted_Status" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enemy spotted status" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_6thsense" Enabled="True" InstallGroup="4" PatchGroup="4" Name="6th Sense in player panel (conflicts with XVM)" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132071743749522467</Timestamp>
+  </Package>
+  <Package PackageName="Ingame_Info_Enemy_Spotted_Status_header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enemy spotted status" Type="multi" Visible="True">
     <Size>50587</Size>
-    <Version>1.1.6</Version>
-    <ZipFile>Ingame_Info_Enemy_Spotted_Status_v1.1.6_1.7.0.1_2019-12-17.zip</ZipFile>
-    <CRC>7c23258d058bb60bc51806f4bd18f768</CRC>
-    <Timestamp>132210991930433799</Timestamp>
+    <CRC>f</CRC>
+    <Timestamp>132217271784682420</Timestamp>
     <DevURL>https://wgmods.net/1024/details</DevURL>
     <Description>This is a Spotted Status Indicator for the enemy team. Different icons show the current Spotted Status for the vehicle.\r\n\r\n by OldSkool</Description>
     <Medias>
       <Media URL="https://wgmods.net/media/Unbet-1.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
     </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_playersPanelAPI_OldSkool" NotFlag="False" Logic="OR" />
-    </Dependencies>
     <Packages>
-      <Package PackageName="Ingame_Info_Enemy_Spotted_Status_Style_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Ball" Type="multi" Visible="True">
-        <Size>571</Size>
-        <ZipFile>Ingame_Info_Enemy_Spotted_Status_Style_1_1.4.1.2_2019-04-25.zip</ZipFile>
-        <CRC>765d13dca5df249a609b6a12a9e5b186</CRC>
-        <Timestamp>132006727153212264</Timestamp>
+      <Package PackageName="Ingame_Info_Enemy_Spotted_Status_OldSkool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by oldskool" Type="single1" Visible="True">
+        <Size>50587</Size>
+        <Version>1.1.6</Version>
+        <ZipFile>Ingame_Info_Enemy_Spotted_Status_v1.1.6_1.7.0.1_2019-12-17.zip</ZipFile>
+        <CRC>7c23258d058bb60bc51806f4bd18f768</CRC>
+        <Timestamp>132210991930433799</Timestamp>
         <DevURL>https://wgmods.net/1024/details</DevURL>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/Oldschool_Enemy_Spotted_Status_Style_1.png" MediaType="Picture" />
-        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_playersPanelAPI_OldSkool" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Packages>
+          <Package PackageName="Ingame_Info_Enemy_Spotted_Status_Style_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Ball" Type="multi" Visible="True">
+            <Size>571</Size>
+            <ZipFile>Ingame_Info_Enemy_Spotted_Status_Style_1_1.4.1.2_2019-04-25.zip</ZipFile>
+            <CRC>765d13dca5df249a609b6a12a9e5b186</CRC>
+            <Timestamp>132006727153212264</Timestamp>
+            <DevURL>https://wgmods.net/1024/details</DevURL>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/Oldschool_Enemy_Spotted_Status_Style_1.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Ingame_Info_Enemy_Spotted_Status_PMOD" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by PMOD" Type="single1" Visible="True">
+        <Size>499</Size>
+        <ZipFile>Ingame_Info_Enemy_Spotted_Status_PMOD_Enable_2019-12-25.zip</ZipFile>
+        <CRC>02ccdd4318dbc4336c494476d47142bb</CRC>
+        <Timestamp>132217294322810657</Timestamp>
+        <Packages>
+          <Package PackageName="Ingame_Info_6thsense_PMOD_asterisk" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Use colored asterisk &quot;*&quot; from Willster419's xvm config" Type="multi" Visible="True">
+            <Size>635</Size>
+            <ZipFile>Ingame_Info_Enemy_Spotted_Status_PMOD_asterisk_2019-12-25.zip</ZipFile>
+            <CRC>bc5d31622acaacf601a6bbb7da7ad6cf</CRC>
+            <Timestamp>132217294418291868</Timestamp>
+          </Package>
+        </Packages>
       </Package>
     </Packages>
   </Package>
