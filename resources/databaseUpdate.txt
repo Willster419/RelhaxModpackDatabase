@@ -1,73 +1,122 @@
 Database Update!
 
-New version tag: 1.7.0.2_2019-12-27_1
+New version tag: 1.7.0.2_2019-12-28_1
 
-Number of Added packages: 12
-Number of Updated packages: 17
-Number of Disabled packages: 0
-Number of Removed packages: 6
-Number of Moved packages: 4
-Number of Renamed packages: 8
-Number of Internally renamed packages: 2
+Number of Added packages: 6
+Number of Updated packages: 35
+Number of Disabled packages: 20
+Number of Removed packages: 5
+Number of Moved packages: 29
+Number of Renamed packages: 1
+Number of Internally renamed packages: 0
 
 Added:
- - Ingame Info->HP Bars->Champi HP Bars (Conflicts with A.) Enemy spotted status (oldskool only) & B.) Friends Marker  BOTH by oldskool->always displayed
- - Ingame Info->HP Bars->Champi HP Bars (Conflicts with A.) Enemy spotted status (oldskool only) & B.) Friends Marker  BOTH by oldskool->toggle (press alt to show/hide)
- - Ingame Info->HP Bars->Champi HP Bars (Conflicts with A.) Enemy spotted status (oldskool only) & B.) Friends Marker  BOTH by oldskool->Hotkey (hold alt to show)
- - Ingame Info->HP Bars->Champi HP Bars (Conflicts with A.) Enemy spotted status (oldskool only) & B.) Friends Marker  BOTH by oldskool->disable display of class icon next to panels
- - Ingame Info->HP Bars->Champi HP Bars (Conflicts with A.) Enemy spotted status (oldskool only) & B.) Friends Marker  BOTH by oldskool->disable hpbar color by vehicle class (becomes red/green)
- - Ingame Info->HP Bars->Champi HP Bars (Conflicts with A.) Enemy spotted status (oldskool only) & B.) Friends Marker  BOTH by oldskool->disable enemy spotted status
- - Ingame Info->HP Bars->Champi HP Bars (Conflicts with A.) Enemy spotted status (oldskool only) & B.) Friends Marker  BOTH by oldskool->Move bars closer (~30px) to panels
- - Ingame Info->6th Sense in player panel (conflicts with XVM)
- - Ingame Info->Enemy spotted status->by oldskool
- - Ingame Info->Enemy spotted status->by PMOD
- - Ingame Info->Enemy spotted status->by PMOD->Use colored asterisk "*" from Willster419's xvm config
- - Garage graphics->Battle Results->Unanonymizer on battle results
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use Circles defined in default/prebuilt selection
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use the following circles
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Hotkeys and other options->Disable Destroyed Tanks
 
 Updated:
- - Dependency_Sounds_HRMOD_Guns_n_Engine_SoundsBanks
- - Dependency_Sounds_AGQJ_Guns_Soundbanks
- - Dependency_Sounds_AGQJ_Engines_Soundbanks
+ - Dependency_XVM_Main_Files
+ - Dependency_RaJCel_Core
+ - Dependency_RaJCeL_inBattleStatistics
+ - Dependency_ShuraBB_SDK
  - Dependency_Minimap_Advanced
- - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->WN8 Comparison->WN8 Comparison (Standard)
- - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->WN8 Comparison->WN8 Comparison by Slava7572
- - XVM config builder->-----[IN-BATTLE Settings]------>disable statistics (battle loading / stats tab)
- - Ingame Misc->Minimap->Minimap Ping Spam Protector->by CHAMPi
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tank History Informer in Garage by HAWG
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Chat->WN8-ChatColor
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->HP Circles->show permanent
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->HP Circles->show when pressing the ALT-key
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->stock WoT circles
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use the following circles->50m auto detect
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use the following circles->445m maximum spotting range
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use the following circles->564m maximum vehicle render/draw range
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use the following circles->vehicle view range
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use the following circles->artillery gun range
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->HD Maps (as default map)
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->Tactical Maps (as default map)
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->Heat Maps (as default map)
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->HD Maps (press "Alt")
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->Tactical Maps  (press "Alt")
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->Heat Maps (press "Alt")
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->HD Maps
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->Tactical  Maps
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->Heat Maps
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Hotkeys and other options->default Hotkey Left Control
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Hotkeys and other options->alternate Hotkey Left SHIFT
  - Garage graphics->Battle Results->Share Engame Results
- - Garage graphics->Battle Results->Unanonymizer on battle results->Remove Badges
  - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2
- - Sound Mods->Engine->AGQJ Engines by SicFunzler
- - Sound Mods->Engine->GnomeFather’s HRMOD Engines Sounds (reworked by Zorgane)  v2.16_1.7.0.2
- - Sound Mods->Gun->GnomeFather’s HRMOD Gun Sounds (reworked by Zorgane)  v2.16_1.7.0.2
- - Sound Mods->Gun->AGQJ Guns by SicFunzler
- - Tank Skin Packs->Contour skins with areas of penetration->Contour skins black and white with areas of penetration ( ͡° ͜ʖ ͡°) by Mr.13 v1.7.0.2
- - Custom Tank Skins->USSR->Medium->T-54->Mirukii Remodel
+ - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Configurations->TankSchmidt DaStats (English)
+ - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Configurations->TankSchmidt DaStats (German)
+ - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Daily Reset
+ - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Modules->Colored In-Game Messages -> !! sets client language to english !!
+ - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Modules->Graphical Battle Messages
+ - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Modules->Kill Skulls (alternative in-game battle messages)
 
 Renamed:
- - "Champi HP Bars (Conflicts with A.) Enemy spotted status & B.) Friends Marker  BOTH by oldskool" was renamed to "Champi HP Bars (Conflicts with A.) Enemy spotted status (oldskool only) & B.) Friends Marker  BOTH by oldskool"
- - "On battle results statistics by RaJCeL (HEAVY MOD)" was renamed to "On battle results statistics (HEAVY MOD)"
- - "YasenKrasen v1.7.0.0" was renamed to "YasenKrasen v1.7.0.2"
- - "GnomeFather’s HRMOD Engines Sounds (reworked by Zorgane)  v2.15_1.7.0.1" was renamed to "GnomeFather’s HRMOD Engines Sounds (reworked by Zorgane)  v2.16_1.7.0.2"
- - "GnomeFather’s HRMOD Gun Sounds (reworked by Zorgane)  v2.15_1.7.0.1" was renamed to "GnomeFather’s HRMOD Gun Sounds (reworked by Zorgane)  v2.16_1.7.0.2"
- - "Enemy spotted status" was renamed to "Enemy spotted status"
- - "Share Engame Results" was renamed to "Share Engame Results"
- - "Remove Badges" was renamed to "Remove Badges"
+ - "Hotkey & LoadingImage" was renamed to "Hotkeys and other options"
 
 Moved:
- - "Ingame Info->Enemy spotted status->Ball" was moved to "Ingame Info->Enemy spotted status->by oldskool->Ball"
- - "Ingame Info->Enemy spotted status" was moved to "Ingame Info->Enemy spotted status"
- - "Garage graphics->Battle Results->Share Engame Results" was moved to "Garage graphics->Battle Results->Share Engame Results"
- - "Garage graphics->Battle Results->Unanonymizer on battle results by RaJCeL->Remove Badges" was moved to "Garage graphics->Battle Results->Unanonymizer on battle results->Remove Badges"
+ - "XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->50m auto detect" was moved to "XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use the following circles->50m auto detect"
+ - "XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->445m maximum spotting range" was moved to "XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use the following circles->445m maximum spotting range"
+ - "XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->564m maximum vehicle render/draw range" was moved to "XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use the following circles->564m maximum vehicle render/draw range"
+ - "XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->vehicle view range" was moved to "XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use the following circles->vehicle view range"
+ - "XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->artillery gun range" was moved to "XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Circles->XVM circles->Use the following circles->artillery gun range"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->HD Maps (as default map)" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->HD Maps (as default map)"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Tactical Maps (as default map)" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->Tactical Maps (as default map)"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Heat Maps (as default map)" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->Heat Maps (as default map)"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->HD Colored Maps (as default map)" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->HD Colored Maps (as default map)"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->HD Black & White Maps (as default map)" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->HD Black & White Maps (as default map)"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->HAWG´s Tactical Maps (as default map)" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->HAWG´s Tactical Maps (as default map)"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->WOTInspector´s Maps (as default map)" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->WOTInspector´s Maps (as default map)"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->WOTInspector´s TechMaps (as default map)" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->WOTInspector´s TechMaps (as default map)"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->HD Maps (press "Alt")" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->HD Maps (press "Alt")"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Tactical Maps  (press "Alt")" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->Tactical Maps  (press "Alt")"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Heat Maps (press "Alt")" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->Heat Maps (press "Alt")"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->HD Colored Maps (press "Alt")" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->HD Colored Maps (press "Alt")"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->HD Black & White Maps (press "Alt")" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->HD Black & White Maps (press "Alt")"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->HAWG´s Tactical Maps (press "Alt")" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->HAWG´s Tactical Maps (press "Alt")"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->WOTInspector´s Maps (press "Alt")" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->WOTInspector´s Maps (press "Alt")"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->WOTInspector´s Tactical Maps  (press "Alt")" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->WOTInspector´s Tactical Maps  (press "Alt")"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Hotkey & LoadingImage->HD Maps" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->HD Maps"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Hotkey & LoadingImage->Tactical  Maps" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->Tactical  Maps"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Hotkey & LoadingImage->Heat Maps" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->Heat Maps"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Hotkey & LoadingImage->HD other Colored Maps" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->HD other Colored Maps"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Hotkey & LoadingImage->Black & White Maps" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->Black & White Maps"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Hotkey & LoadingImage->Tactical Maps by HAWG" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->Tactical Maps by HAWG"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Hotkey & LoadingImage->HD Maps by Reven86 & WOTInspector" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->HD Maps by Reven86 & WOTInspector"
+ - "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Hotkey & LoadingImage->Tactical Maps by Reven86 & WOTInspector" was moved to "Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->Tactical Maps by Reven86 & WOTInspector"
 
 Disabled:
+ - Dependency_Minimap_Advanced_Pics_BWMaps
+ - Dependency_Minimap_Advanced_Pics_HAWGTacticalMaps
+ - Dependency_Minimap_Advanced_Pics_HDColoredMaps
+ - Dependency_Minimap_Advanced_Pics_HDMaps
+ - Dependency_Minimap_Advanced_Pics_HeatMaps
+ - Dependency_Minimap_Advanced_Pics_Reven86Maps
+ - Dependency_Minimap_Advanced_Pics_Reven86TechMaps
+ - Dependency_Minimap_Advanced_Pics_TacticalMaps
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->HD Black & White Maps (as default map)
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->HAWG´s Tactical Maps (as default map)
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->WOTInspector´s Maps (as default map)
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Minimap->WOTInspector´s TechMaps (as default map)
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->HD Black & White Maps (press "Alt")
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->HAWG´s Tactical Maps (press "Alt")
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->WOTInspector´s Maps (press "Alt")
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->When holding ALT->WOTInspector´s Tactical Maps  (press "Alt")
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->Black & White Maps
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->Tactical Maps by HAWG
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->HD Maps by Reven86 & WOTInspector
+ - Ingame Misc->Minimap->Advanced (HD) Minimap (conflicts with xvm minimap)->Loading Maps->Tactical Maps by Reven86 & WOTInspector
 
 Removed:
- - Garage Mods->Carousel
- - Garage Mods->Carousel->Enable Small
- - Garage Mods->Carousel->3 Rows
- - Garage Mods->Carousel->4 Rows
- - Garage Mods->Carousel->5 Rows
- - Garage graphics->Battle Results->Unanonymizer on battle results by RaJCeL
+ - Dependency_YK-Stats_BaseConfigFiles
+ - Dependency_YK-BCV_Backgrounds
+ - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Base (only session statistics)
+ - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Vanilla (session statistics, battle result messages, extended perk tooltips)
+ - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Core (session statistics, battle result messages, extended perk tooltips, system messages)
 
 Notes:
  - 
