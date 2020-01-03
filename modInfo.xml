@@ -2500,6 +2500,35 @@
       </dependencies>
       <packages>
         <package>
+          <name>XVM Build Selector (choose between Stable and Nightly)</name>
+          <zipFile />
+          <crc />
+          <enabled>False</enabled>
+          <visible>False</visible>
+          <packageName>XVMconfigBuilder_BuildSelector</packageName>
+          <type>single1</type>
+          <packages>
+            <package>
+              <name>Stable v{version}</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_BuildSelector_Stable</packageName>
+              <type>single_dropdown1</type>
+            </package>
+            <package>
+              <name>Nightly v{version}</name>
+              <zipFile />
+              <crc />
+              <enabled>True</enabled>
+              <visible>True</visible>
+              <packageName>XVMconfigBuilder_BuildSelector_Nightly</packageName>
+              <type>single_dropdown1</type>
+            </package>
+          </packages>
+        </package>
+        <package>
           <name>-----[GLOBAL Settings]-----</name>
           <zipFile />
           <crc />
