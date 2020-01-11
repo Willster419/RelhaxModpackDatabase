@@ -149,8 +149,8 @@
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Artylog_Extended_by_OldSkool.jpg" MediaType="Picture" />
     </Medias>
     <UserFiles>
-      <UserFile Pattern="\\mods\\configs\\promod\\artylog\\modCache.json" />
-      <UserFile Pattern="\\mods\\configs\\promod\\artylog\\modSettings.json" />
+      <UserFile Pattern="\mods\configs\promod\artylog\modCache.json" />
+      <UserFile Pattern="\mods\configs\promod\artylog\modSettings.json" />
     </UserFiles>
     <Dependencies>
       <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
@@ -510,7 +510,7 @@
     <CRC>f</CRC>
     <Timestamp>132071743749522467</Timestamp>
   </Package>
-  <Package PackageName="Ingame_Info_Enemy_Spotted_Status_header" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enemy spotted status" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_Enemy_Spotted_Status" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enemy spotted status" Type="multi" Visible="True">
     <Size>50587</Size>
     <CRC>f</CRC>
     <Timestamp>132217271784682420</Timestamp>
@@ -561,24 +561,35 @@
       </Package>
     </Packages>
   </Package>
+  <Package PackageName="Ingame_Info_TankRatingColors" Enabled="True" InstallGroup="4" PatchGroup="4" Name="CHAMPi's Tank Rating Colors" Type="multi" Visible="True">
+    <Size>71381</Size>
+    <Version>0.92</Version>
+    <ZipFile>Ingame_Info_TankRatingColors_v0.92_1.7.0.2_2020-01-09.zip</ZipFile>
+    <CRC>2cc4e5c1122d44c5775bf9b4a02aad3b</CRC>
+    <Timestamp>132231449194131397</Timestamp>
+    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/731680-1702-champis-tank-rating-colors\r\nhttps://wot.champi.de/\r\nhttps://wgmods.net/4045/</DevURL>
+    <Description>Repaints tanks based on winrate or WGR value without any textures!\r\nuse ESC in the hangar and then click on MOD Settings\r\n\r\nfeatures:\r\n - you can decide which tank parts are painted (hull, chassis, turret, gun)\r\n - you can choose which tanks are painted (enemy tanks, ally tanks and/or your own tank)\r\n - you can control if camouflages are removed before the tanks are painted (not all are currently removed - in work!)\r\n - you can set the gloss and metallic effect for the color.\r\n - graphical user interface to control the most important settings</Description>
+    <UpdateComment>Maybe conflict with "Contour skins with areas of penetration" or just hard to see</UpdateComment>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/InBattle_Rating/Ingame_Info_InBattle_Rating_Champi_00.png" MediaType="Picture" />
+      <Media URL="https://wot.champi.de/gfx/ratingcolortable.png" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/InBattle_Rating/Ingame_Info_InBattle_Rating_Champi_02.png" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/InBattle_Rating/Ingame_Info_InBattle_Rating_Champi_01.png" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/InBattle_Rating/Ingame_Info_InBattle_Rating_Champi_03.png" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/InBattle_Rating/Ingame_Info_InBattle_Rating_Champi_04.png" MediaType="Picture" />
+    </Medias>
+    <UserFiles>
+      <UserFile Pattern="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" />
+    </UserFiles>
+    <Dependencies>
+      <Dependency PackageName="Dependency_champiCore" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
   <Package PackageName="Ingame_Info_InBattle_Rating" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InBattle Rating" Type="multi" Visible="True">
     <Timestamp>131712253302348201</Timestamp>
     <Packages>
-      <Package PackageName="Ingame_Info_InBattle_Rating_RaJCeL" Enabled="True" InstallGroup="4" PatchGroup="4" Name="RaJCeL" Type="single_dropdown1" Visible="True">
-        <Size>560</Size>
-        <ZipFile>Ingame_Info_InBattle_Rating_RaJCeL_enable_patch_2019-10-10.zip</ZipFile>
-        <CRC>31990daa0f216c5d64d139b0f6603870</CRC>
-        <Timestamp>132151877097756362</Timestamp>
-        <DevURL>https://wgmods.net/2559/details\r\nhttp://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel/</DevURL>
-        <Description>Mod is showing some statistics in battle and replays. Mod doesn’t need XVM to work.\r\n\r\nNot working on NA server as of 1.5.1 (06-15-2019)</Description>
-        <Medias>
-          <Media URL="https://wgmods.net/media/inBattleFontSize.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
       <Package PackageName="Ingame_Info_InBattle_Rating_OldSkool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="OldSkool" Type="single_dropdown1" Visible="True">
         <Size>72930</Size>
         <Version>1.1.9</Version>
@@ -608,6 +619,21 @@
         <Dependencies>
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="Ingame_Info_InBattle_Rating_RaJCeL" Enabled="True" InstallGroup="4" PatchGroup="4" Name="RaJCeL" Type="single_dropdown1" Visible="True">
+        <Size>560</Size>
+        <ZipFile>Ingame_Info_InBattle_Rating_RaJCeL_enable_patch_2019-10-10.zip</ZipFile>
+        <CRC>31990daa0f216c5d64d139b0f6603870</CRC>
+        <Timestamp>132151877097756362</Timestamp>
+        <DevURL>https://wgmods.net/2559/details\r\nhttp://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel/</DevURL>
+        <Description>Mod is showing some statistics in battle and replays. Mod doesn’t need XVM to work.\r\n\r\nNot working on NA server as of 1.5.1 (06-15-2019)</Description>
+        <Medias>
+          <Media URL="https://wgmods.net/media/inBattleFontSize.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
     </Packages>
@@ -872,9 +898,9 @@
       </Package>
       <Package PackageName="Ingame_Info_RTAN_Aimdrol" Enabled="True" InstallGroup="4" PatchGroup="4" Name="RTAN by Aimdrol" Type="single_dropdown1" Visible="True">
         <Size>184343</Size>
-        <ZipFile>Ingame_Info_RTAN_Aimdrol_1.6.1.4_2019-12-02.zip</ZipFile>
-        <CRC>e5b74d5c2872c459a05201179b56e5eb</CRC>
-        <Timestamp>132197832809467133</Timestamp>
+        <ZipFile>Ingame_Info_RTAN_Aimdrol_1.7.0.2_2020-01-08.zip</ZipFile>
+        <CRC>047c486dfcdbc30ed6c4f52b41c14adf</CRC>
+        <Timestamp>132229425369330638</Timestamp>
         <DevURL>https://github.com/Aimdrol/MLG-RTAN</DevURL>
         <Description>INFO: Will change the 6th sense sound to version 1.</Description>
         <Medias>
@@ -1149,7 +1175,7 @@
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/tank_info_panel/Ingame_Info_Tank_Info_Panel_by_OldSkool.jpg" MediaType="Picture" />
         </Medias>
         <UserFiles>
-          <UserFile Pattern="\\mods\\configs\\oldskool\\tankpanel.json" />
+          <UserFile Pattern="\mods\configs\oldskool\tankpanel.json" />
         </UserFiles>
         <Dependencies>
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
@@ -1187,7 +1213,7 @@
       <Media URL="https://www.dropbox.com/s/4kmtplxs48crjeo/trainingroom.png?dl=1" MediaType="Picture" />
     </Medias>
     <UserFiles>
-      <UserFile Pattern="\\mods\\configs\\tessu_mod\\tessu_mod.ini" />
+      <UserFile Pattern="\mods\configs\tessu_mod\tessu_mod.ini" />
       <UserFile Pattern="{app}\mods\configs\tessu_mod\*" />
     </UserFiles>
   </Package>
