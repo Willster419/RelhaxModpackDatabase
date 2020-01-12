@@ -434,53 +434,6 @@
     <CRC>c24f785d491b9cec76da0683abf21351</CRC>
     <Timestamp>131554136556593228</Timestamp>
   </Dependency>
-  <Dependency PackageName="Dependency_Atlases_Creation_vehicleMarkerAtlas" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Size>899</Size>
-    <ZipFile>Dependency_Atlases_Creation_vehicleMarkerAtlas_po2_DDS_2018-08-30.zip</ZipFile>
-    <CRC>829c740797719127c7864af21782d7c6</CRC>
-    <Timestamp>131800987731066477</Timestamp>
-  </Dependency>
-  <Dependency PackageName="Dependency_Atlases_Creation_battleAtlas" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Size>882</Size>
-    <ZipFile>Dependency_Atlases_Creation_battleAtlas_po2_DDS_2018-08-30.zip</ZipFile>
-    <CRC>5394f9c90d4eed9310428e9ac49d0242</CRC>
-    <Timestamp>131800987811345339</Timestamp>
-    <Dependencies>
-      <Dependency PackageName="LogicalDependency_lossless_battleAtlas_Images" NotFlag="False" Logic="AND" />
-    </Dependencies>
-  </Dependency>
-  <Dependency PackageName="Dependency_MVI_remove_all" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Dependencies>
-      <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM" NotFlag="False" Logic="AND" />
-      <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM" NotFlag="False" Logic="AND" />
-      <Dependency PackageName="LogicalDependency_MVI_BATTLE_CLEAR_noXVM" NotFlag="False" Logic="AND" />
-    </Dependencies>
-  </Dependency>
-  <Dependency PackageName="Dependency_MVI_show_name" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Dependencies>
-      <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM" NotFlag="False" Logic="AND" />
-      <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM" NotFlag="False" Logic="AND" />
-    </Dependencies>
-  </Dependency>
-  <Dependency PackageName="Dependency_MVI_show_tier_name" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Timestamp>131742588773209465</Timestamp>
-    <Dependencies>
-      <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_noXVM" NotFlag="False" Logic="AND" />
-      <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_XVM" NotFlag="False" Logic="AND" />
-      <Dependency PackageName="LogicalDependency_MVI_BATTLE_noXVM" NotFlag="False" Logic="AND" />
-    </Dependencies>
-  </Dependency>
-  <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Dependencies>
-      <Dependency PackageName="LogicalDependency_MVI_BATTLE_remove_vehicelLevelIcon_XVM" NotFlag="False" Logic="AND" />
-    </Dependencies>
-  </Dependency>
-  <Dependency PackageName="Dependency_MVI_disable_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Timestamp>131800987960603396</Timestamp>
-    <Dependencies>
-      <Dependency PackageName="LogicalDependency_MVI_BATTLE_disable_XVM" NotFlag="False" Logic="AND" />
-    </Dependencies>
-  </Dependency>
   <Dependency PackageName="Dependency_audio_mods_xml" Enabled="True" InstallGroup="2" PatchGroup="2">
     <Size>913</Size>
     <ZipFile>Dependency_audio_mods_xml.zip</ZipFile>
@@ -594,6 +547,13 @@
     <CRC>1ab281d7547006625cdca5701d89ce13</CRC>
     <Timestamp>132220372891478798</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel/</DevURL>
+  </Dependency>
+  <Dependency PackageName="Dependency_SixthSense_Aimdrol_Base" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Size>4811</Size>
+    <ZipFile>Dependency_SixthSense_Aimdrol_Base_1.7.0.2_2020-01-08.zip</ZipFile>
+    <CRC>66f82e34e239598c0434bbf84611da41</CRC>
+    <Timestamp>132229425027143926</Timestamp>
+    <DevURL>https://github.com/Aimdrol/MLG-6th-Sense</DevURL>
   </Dependency>
   <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_default" Enabled="True" InstallGroup="2" PatchGroup="2">
     <Size>1457</Size>
@@ -945,18 +905,58 @@
     <CRC>1a5aa4d8a20414cbb14e7b50eaf1623c</CRC>
     <Timestamp>132172516512551124</Timestamp>
   </Dependency>
-  <Dependency PackageName="Dependency_SixthSense_Aimdrol_Base" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Size>4811</Size>
-    <ZipFile>Dependency_SixthSense_Aimdrol_Base_1.7.0.2_2020-01-08.zip</ZipFile>
-    <CRC>66f82e34e239598c0434bbf84611da41</CRC>
-    <Timestamp>132229425027143926</Timestamp>
-    <DevURL>https://github.com/Aimdrol/MLG-6th-Sense</DevURL>
-  </Dependency>
   <Dependency PackageName="Dependency_ZZZ_autoUpdateTest" Enabled="False" InstallGroup="2" PatchGroup="2">
     <Size>10202671</Size>
     <ZipFile>Dependency_ZZZ_autoUpdateTest_2019-12-08.zip</ZipFile>
     <CRC>57650535daa9fc141a0230909d8a19cf</CRC>
     <Timestamp>132203239152587021</Timestamp>
+  </Dependency>
+  <Dependency PackageName="Dependency_Atlases_Creation_battleAtlas" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Size>882</Size>
+    <ZipFile>Dependency_Atlases_Creation_battleAtlas_po2_DDS_2018-08-30.zip</ZipFile>
+    <CRC>5394f9c90d4eed9310428e9ac49d0242</CRC>
+    <Timestamp>131800987811345339</Timestamp>
+    <Dependencies>
+      <Dependency PackageName="LogicalDependency_lossless_battleAtlas_Images" NotFlag="False" Logic="AND" />
+    </Dependencies>
+  </Dependency>
+  <Dependency PackageName="Dependency_Atlases_Creation_vehicleMarkerAtlas" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Size>899</Size>
+    <ZipFile>Dependency_Atlases_Creation_vehicleMarkerAtlas_po2_DDS_2018-08-30.zip</ZipFile>
+    <CRC>829c740797719127c7864af21782d7c6</CRC>
+    <Timestamp>131800987731066477</Timestamp>
+  </Dependency>
+  <Dependency PackageName="Dependency_MVI_disable_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Timestamp>131800987960603396</Timestamp>
+    <Dependencies>
+      <Dependency PackageName="LogicalDependency_MVI_BATTLE_disable_XVM" NotFlag="False" Logic="AND" />
+    </Dependencies>
+  </Dependency>
+  <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Dependencies>
+      <Dependency PackageName="LogicalDependency_MVI_BATTLE_remove_vehicelLevelIcon_XVM" NotFlag="False" Logic="AND" />
+    </Dependencies>
+  </Dependency>
+  <Dependency PackageName="Dependency_MVI_remove_all" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Dependencies>
+      <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM" NotFlag="False" Logic="AND" />
+      <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM" NotFlag="False" Logic="AND" />
+      <Dependency PackageName="LogicalDependency_MVI_BATTLE_CLEAR_noXVM" NotFlag="False" Logic="AND" />
+    </Dependencies>
+  </Dependency>
+  <Dependency PackageName="Dependency_MVI_show_name" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Dependencies>
+      <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM" NotFlag="False" Logic="AND" />
+      <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM" NotFlag="False" Logic="AND" />
+    </Dependencies>
+  </Dependency>
+  <Dependency PackageName="Dependency_MVI_show_tier_name" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Timestamp>131742588773209465</Timestamp>
+    <Dependencies>
+      <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_noXVM" NotFlag="False" Logic="AND" />
+      <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_XVM" NotFlag="False" Logic="AND" />
+      <Dependency PackageName="LogicalDependency_MVI_BATTLE_noXVM" NotFlag="False" Logic="AND" />
+    </Dependencies>
   </Dependency>
   <Dependency PackageName="LogicalDependency_lossless_battleAtlas_Images" Enabled="True" InstallGroup="2" PatchGroup="2">
     <Size>7176352</Size>
@@ -966,18 +966,30 @@
     <LogAtInstall>False</LogAtInstall>
     <DevURL>https://github.com/AstaRom/wot_battleAtlas/releases\r\nhttps://bitbucket.org/AstaRom/wot_battleatlas/downloads/</DevURL>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Size>2520444</Size>
-    <ZipFile>LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM_1.7.0.2_2020-01-10.zip</ZipFile>
-    <CRC>e7d909fa3d6829b5f224d01066b978d6</CRC>
-    <Timestamp>132231533656206230</Timestamp>
+  <Dependency PackageName="LogicalDependency_MVI_BATTLE_disable_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Size>959</Size>
+    <ZipFile>XVM_config_builder_contour_icon_mod_mirror_patch_xvm_disable_2017-06-01.zip</ZipFile>
+    <CRC>97dc148da7a21860300f0f41e87f0851</CRC>
+    <DevURL>https://koreanrandom.com/forum/topic/35159-/?tab=comments#comment-357523</DevURL>
+  </Dependency>
+  <Dependency PackageName="LogicalDependency_MVI_BATTLE_remove_vehicelLevelIcon_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Size>854</Size>
+    <ZipFile>LogicalDependency_Contour_Icon_Mod_vehicelLevelIcon_remove_battle_XVM_patch_2019-02-19.zip</ZipFile>
+    <CRC>a20240d3fdf0445ca4931d69afda6dde</CRC>
+    <Timestamp>131950408011198343</Timestamp>
+  </Dependency>
+  <Dependency PackageName="LogicalDependency_MVI_BATTLE_noXVM" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Size>1612930</Size>
+    <ZipFile>LogicalDependency_MVI_BATTLE_noXVM_1.7.0.2_2020-01-10.zip</ZipFile>
+    <CRC>0725df10a13b5a20e2a2c08238267648</CRC>
+    <Timestamp>132231534168428112</Timestamp>
     <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Size>2520386</Size>
-    <ZipFile>LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM_1.7.0.2_2020-01-10.zip</ZipFile>
-    <CRC>60446a5e2eedc8b59771038a71bb8f11</CRC>
-    <Timestamp>132231533584652454</Timestamp>
+  <Dependency PackageName="LogicalDependency_MVI_BATTLE_CLEAR_noXVM" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Size>1613067</Size>
+    <ZipFile>LogicalDependency_MVI_BATTLE_CLEAR_noXVM_1.7.0.2_2020-01-10.zip</ZipFile>
+    <CRC>7be0b01b1a00848549b8158fd1c00be2</CRC>
+    <Timestamp>132231534000575555</Timestamp>
     <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
   </Dependency>
   <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_noXVM" Enabled="True" InstallGroup="2" PatchGroup="2">
@@ -987,11 +999,25 @@
     <Timestamp>132231533374648859</Timestamp>
     <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Size>2521316</Size>
-    <ZipFile>LogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_CLEAR_ALL_1.7.0.2_2019-12-19.zip</ZipFile>
-    <CRC>49a4c8ced1c5058242ca408542ee6194</CRC>
-    <Timestamp>132212367166340268</Timestamp>
+  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Size>2520386</Size>
+    <ZipFile>LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM_1.7.0.2_2020-01-10.zip</ZipFile>
+    <CRC>60446a5e2eedc8b59771038a71bb8f11</CRC>
+    <Timestamp>132231533584652454</Timestamp>
+    <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
+  </Dependency>
+  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Size>2520444</Size>
+    <ZipFile>LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM_1.7.0.2_2020-01-10.zip</ZipFile>
+    <CRC>e7d909fa3d6829b5f224d01066b978d6</CRC>
+    <Timestamp>132231533656206230</Timestamp>
+    <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
+  </Dependency>
+  <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Size>2521284</Size>
+    <ZipFile>LogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_show_tier_name_1.7.0.2_2019-12-19.zip</ZipFile>
+    <CRC>8e748459ed6eb5e36b14883f22fb0e92</CRC>
+    <Timestamp>132212367341402401</Timestamp>
     <DevURL>https://koreanrandom.com/forum/topic/35159-1101-отключение-зеркальности-иконок-без-xvm/?tab=comments#comment-357523</DevURL>
   </Dependency>
   <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
@@ -1001,37 +1027,11 @@
     <Timestamp>132212367235096510</Timestamp>
     <DevURL>https://koreanrandom.com/forum/topic/35159-1101-отключение-зеркальности-иконок-без-xvm/?tab=comments#comment-357523</DevURL>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Size>2521284</Size>
-    <ZipFile>LogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_show_tier_name_1.7.0.2_2019-12-19.zip</ZipFile>
-    <CRC>8e748459ed6eb5e36b14883f22fb0e92</CRC>
-    <Timestamp>132212367341402401</Timestamp>
+  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <Size>2521316</Size>
+    <ZipFile>LogicalDependency_Contour_Icon_Mod_mirror_hangar_XVM_CLEAR_ALL_1.7.0.2_2019-12-19.zip</ZipFile>
+    <CRC>49a4c8ced1c5058242ca408542ee6194</CRC>
+    <Timestamp>132212367166340268</Timestamp>
     <DevURL>https://koreanrandom.com/forum/topic/35159-1101-отключение-зеркальности-иконок-без-xvm/?tab=comments#comment-357523</DevURL>
-  </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_BATTLE_remove_vehicelLevelIcon_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Size>854</Size>
-    <ZipFile>LogicalDependency_Contour_Icon_Mod_vehicelLevelIcon_remove_battle_XVM_patch_2019-02-19.zip</ZipFile>
-    <CRC>a20240d3fdf0445ca4931d69afda6dde</CRC>
-    <Timestamp>131950408011198343</Timestamp>
-  </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_BATTLE_disable_XVM" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Size>959</Size>
-    <ZipFile>XVM_config_builder_contour_icon_mod_mirror_patch_xvm_disable_2017-06-01.zip</ZipFile>
-    <CRC>97dc148da7a21860300f0f41e87f0851</CRC>
-    <DevURL>https://koreanrandom.com/forum/topic/35159-/?tab=comments#comment-357523</DevURL>
-  </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_BATTLE_CLEAR_noXVM" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Size>1613067</Size>
-    <ZipFile>LogicalDependency_MVI_BATTLE_CLEAR_noXVM_1.7.0.2_2020-01-10.zip</ZipFile>
-    <CRC>7be0b01b1a00848549b8158fd1c00be2</CRC>
-    <Timestamp>132231534000575555</Timestamp>
-    <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
-  </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_BATTLE_noXVM" Enabled="True" InstallGroup="2" PatchGroup="2">
-    <Size>1612930</Size>
-    <ZipFile>LogicalDependency_MVI_BATTLE_noXVM_1.7.0.2_2020-01-10.zip</ZipFile>
-    <CRC>0725df10a13b5a20e2a2c08238267648</CRC>
-    <Timestamp>132231534168428112</Timestamp>
-    <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
   </Dependency>
 </Dependencies>
