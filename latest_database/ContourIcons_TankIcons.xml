@@ -1335,6 +1335,11 @@
           <Media URL="https://i.imgur.com/vRM2ecR.png?1" MediaType="Picture" />
           <Media URL="https://i.imgur.com/6hwgUD7.png?1" MediaType="Picture" />
         </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_Atlases_Creation_battleAtlas" NotFlag="True" Logic="AND" />
+          <Dependency PackageName="Dependency_Atlases_Creation_vehicleMarkerAtlas" NotFlag="True" Logic="AND" />
+          <Dependency PackageName="Dependency_MVI_disable_XVM" NotFlag="True" Logic="AND" />
+        </Dependencies>
         <Packages>
           <Package PackageName="Contour_Icons_RealTime_Original" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Original" Type="single_dropdown1" Visible="True">
             <Size>2557101</Size>
