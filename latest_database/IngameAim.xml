@@ -888,21 +888,37 @@
   </Package>
   <Package PackageName="Ingame_Aim_SPG_Flytime" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Projectile Flytime for SPG/Arty" Type="multi" Visible="True">
     <Size>47174</Size>
-    <Version>1.0.5</Version>
-    <ZipFile>Ingame_Aim_SPG_Flytime_v1.0.5_1.7.0.2_2020-01-04.zip</ZipFile>
-    <CRC>e8ba81b077a682e5ebdfbc4a173f828a</CRC>
-    <Timestamp>132226136085285852</Timestamp>
-    <DevURL>https://wgmods.net/2753/details</DevURL>
-    <Author>OldSkool</Author>
-    <Description>This mod allows you to see the shell travel time for SPG shells. \r\nConfiguration of the mod can be done ingame.\r\n\r\nby oldskool</Description>
-    <Medias>
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/ingame_aim/Ingame_Aim_SPG_Flytime_by_oldskool.jpg" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
-    </Dependencies>
+    <CRC>f</CRC>
+    <Timestamp>132248027807961266</Timestamp>
+    <Description>This mod allows you to see the shell travel time for SPG shells. \r\n</Description>
+    <Packages>
+      <Package PackageName="Ingame_Aim_SPG_Flytime_OldSkool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Projectile Flytime for SPG/Arty by Oldskool" Type="single_dropdown1" Visible="True">
+        <Version>1.0.5</Version>
+        <ZipFile>Ingame_Aim_SPG_Flytime_v1.0.5_1.7.0.2_2020-01-04.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132248031870669589</Timestamp>
+        <DevURL>https://wgmods.net/2753/details</DevURL>
+        <Author>OldSkool</Author>
+        <Description>This mod allows you to see the shell travel time for SPG shells. \r\n\r\nConfiguration of the mod can be done ingame.\r\n\r\nby oldskool</Description>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="Ingame_Aim_Easy_Flytime_Budyx69" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Easy Flytime by Budyx69" Type="single_dropdown1" Visible="True">
+        <Version>1.7</Version>
+        <ZipFile>Ingame_Aim_Easy_Flytime_Budyx69_v1.7_1.7.1.0_2020-01-29.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132248036643529163</Timestamp>
+        <InternalNotes>https://www.dieschwarzenschafe.com/download/</InternalNotes>
+        <Author>Budyx69</Author>
+        <Description>This mod allows you to see the shell travel time for SPG shells. </Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/ingame_aim/Ingame_Aim_Easy_Flytime_Budyx69.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+    </Packages>
   </Package>
   <Package PackageName="Ingame_Aim_Target_Arrow" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Target Arrow" Type="multi" Visible="True">
     <Version>4.1.1</Version>
