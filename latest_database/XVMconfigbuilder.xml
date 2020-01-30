@@ -1868,17 +1868,18 @@
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_AimInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Aim Info" Type="multi" Visible="True">
             <Size>1754</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_AimInfo_2019-06-24.zip</ZipFile>
-            <CRC>1f50e0133b6d0c7928c64362277361b7</CRC>
-            <Timestamp>131804722334100420</Timestamp>
+            <ZipFile>XVMConfigBuilder_BattleInterface_AimInfo_2020-01-30.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132248802272813268</Timestamp>
             <Description>Shows aim info during the battle:\nDistance, Shell travel time, Aim Time</Description>
             <Medias>
               <Media URL="https://puu.sh/ApLEG/c48ffd73ad.png" MediaType="Picture" />
             </Medias>
             <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_sight" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_XVM_PY_beginBattle" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_XVM_PY_displayingItems" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_PY_aiming" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_PY_markerPosition" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_AverageDamage" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Average Damage" Type="multi" Visible="True">
