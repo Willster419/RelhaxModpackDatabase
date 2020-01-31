@@ -13,7 +13,7 @@
       <Package PackageName="XVMconfigBuilder_BuildSelector_Nightly" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Nightly v{version}" Type="single_dropdown1" Visible="True">
         <Dependencies>
           <Dependency PackageName="Dependency_XVM_Base_Nightly" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_Base_Stable" NotFlag="True" Logic="OR" />
+          <Dependency PackageName="Dependency_XVM_Base_Stable" NotFlag="True" Logic="AND" />
         </Dependencies>
       </Package>
     </Packages>
