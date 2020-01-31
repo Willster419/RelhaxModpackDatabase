@@ -7,7 +7,7 @@
     <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missing_pics_fix" NotFlag="False" Logic="OR" />
     <Dependency PackageName="Dependency_XVM_Base_Stable" NotFlag="False" Logic="OR" />
   </Dependencies>
-  <Package PackageName="XVMconfigBuilder_BuildSelector" Enabled="False" InstallGroup="4" PatchGroup="4" Name="XVM Build Selector (choose between Stable and Nightly)" Type="single1" Visible="False">
+  <Package PackageName="XVMconfigBuilder_BuildSelector" Enabled="True" InstallGroup="4" PatchGroup="4" Name="XVM Build Selector (choose between Stable and Nightly)" Type="single1" Visible="True">
     <Packages>
       <Package PackageName="XVMconfigBuilder_BuildSelector_Stable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Stable v{version}" Type="single_dropdown1" Visible="True" />
       <Package PackageName="XVMconfigBuilder_BuildSelector_Nightly" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Nightly v{version}" Type="single_dropdown1" Visible="True">
