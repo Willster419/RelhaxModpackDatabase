@@ -1,56 +1,442 @@
 Database Update!
 
-New version tag: 1.7.0.2_2020-01-27_1
+New version tag: 1.7.1.1_2020-02-01_1
 
-Number of Added packages: 10
-Number of Updated packages: 12
-Number of Disabled packages: 3
-Number of Removed packages: 0
-Number of Moved packages: 0
-Number of Renamed packages: 5
-Number of Internally renamed packages: 0
+Number of Added packages: 21
+Number of Updated packages: 339
+Number of Disabled packages: 17
+Number of Removed packages: 3
+Number of Moved packages: 5
+Number of Renamed packages: 31
+Number of Internally renamed packages: 5
 
 Added:
- - Dependency_Global_BattleResultsFix
- - Dependency_Global_ScriptLoaderPro
- - Ingame Info->HP Bars->CHAMPi´s HP Bars (Conflicts with A.) Enemy spotted status (oldskool only) & B.) Friends Marker  BOTH by oldskool->Enable Team HP Pools
- - Custom Tank Skins->Germany->Heavy->E100->Deh0mbreS Goodman12 Algiz
- - Custom Tank Skins->Germany->Medium->Panther I->Barkmanns Panther I No. 421
- - Custom Tank Skins->Germany->Tank Destroyer->Ferdinand Porsche
- - Custom Tank Skins->Germany->Tank Destroyer->Ferdinand Porsche->Deh0mbreS
- - Custom Tank Skins->Germany->Tank Destroyer->Grille 15->Deh0mbreS dark yellow (dunkelgelb)
- - Custom Tank Skins->Germany->Tank Destroyer->Grille 15->Deh0mbreS tank grey (panzergrau)
- - Custom Tank Skins->Germany->Tank Destroyer->Skorpion G->Deh0mbreS Rheinmetall "Skorpion"
+ - LogicalDependency_XVM_Main_Stable
+ - LogicalDependency_XVM_Main_Nightly
+ - Crosshairs->Arcade and Sniper->Destroyer->Green->Inner Circle gree
+ - Ingame Aim->Projectile Flytime for SPG/Arty->Projectile Flytime for SPG/Arty by Oldskool
+ - Ingame Aim->Projectile Flytime for SPG/Arty->Easy Flytime by Budyx69
+ - Ingame Misc->Flying damage without XVM
+ - Ingame Misc->Flying damage without XVM->V1
+ - Ingame Misc->Flying damage without XVM->V2
+ - Garage Mods->ScriptloaderPro v1.40->No message at the messagecenter when loading scripts in res folder
+ - Garage graphics->Battle Results->Battle Results by HAWG->Vucic by HAWG
+ - Garage graphics->Hangar Manager "HangMan" v2.45->Depth Of Field (default: 1.00) in hangar
+ - Garage graphics->Lobby
+ - Garage graphics->Lobby->Hawg's Personal Reserve
+ - Garage graphics->Lobby->Hawg's Personal Reserve->Aqua
+ - Garage graphics->Lobby->Hawg's Personal Reserve->Blue
+ - Garage graphics->Lobby->Hawg's Personal Reserve->Green
+ - Garage graphics->Lobby->Hawg's Personal Reserve->Lime
+ - Garage graphics->Lobby->Hawg's Personal Reserve->Orange
+ - Garage graphics->Lobby->Hawg's Personal Reserve->Purple
+ - Garage graphics->Lobby->Hawg's Personal Reserve->Red
+ - Garage graphics->Lobby->Hawg's Personal Reserve->Yellow
 
 Updated:
- - Dependency_XVM_Main_Files
- - Dependency_XVM_XC_years
- - Dependency_XVM_XC_hull
- - Dependency_XVM_XC_speed
+ - Dependency_Global_ScriptLoaderPro
+ - Dependency_XVM_PY_aiming
+ - Dependency_XVM_PY_aimingSystem
+ - Dependency_XVM_PY_anglesAiming
+ - Dependency_XVM_PY_AssistLog
+ - Dependency_XVM_PY_battleEfficiency
+ - Dependency_XVM_PY_battleMessages
+ - Dependency_XVM_PY_battleTimer
+ - Dependency_XVM_PY_beginBattle
+ - Dependency_XVM_PY_borderColor
+ - Dependency_XVM_PY_boosters
+ - Dependency_XVM_PY_chancePenetration
+ - Dependency_XVM_PY_collection
+ - Dependency_XVM_PY_colorMacros
+ - Dependency_XVM_PY_displayingItems
+ - Dependency_XVM_PY_SWF_damageIndicator
+ - Dependency_XVM_PY_debugPanel
+ - Dependency_XVM_PY_fragCorrelationBar_ktulho
+ - Dependency_XVM_PY_infoAutoAim
+ - Dependency_XVM_PY_infoChargedShell
+ - Dependency_XVM_PY_infoPanel
+ - Dependency_XVM_PY_IsAnonym
+ - Dependency_XVM_PY_maps
+ - Dependency_XVM_PY_markerPosition
+ - Dependency_XVM_PY_messenger
+ - Dependency_XVM_PY_modesVehicle
+ - Dependency_XVM_PY_mod_chat_color
+ - Dependency_XVM_PY_mod_wn8_chance
+ - Dependency_XVM_PY_myHP
+ - Dependency_XVM_PY_NDO_scripts
+ - Dependency_XVM_PY_quantityShells
+ - Dependency_XVM_PY_reloading
+ - Dependency_XVM_PY_repairControl
+ - Dependency_XVM_PY_rewindRepeat
+ - Dependency_XVM_PY_safeShot
+ - Dependency_XVM_PY_sight
+ - Dependency_XVM_PY_sixthSense
+ - Dependency_XVM_PY_speedometer
+ - Dependency_XVM_PY_sphere
+ - Dependency_XVM_PY_startBattle
+ - Dependency_XVM_PY_statistics
+ - Dependency_XVM_PY_statisticsXVM
+ - Dependency_XVM_PY_systemColor
+ - Dependency_XVM_PY_targetInfo
+ - Dependency_XVM_PY_timer
+ - Dependency_night_dragon_on_CoreMods
+ - Dependency_UI_GirlsPanzer
+ - Dependency_MLG_english_localization
+ - Dependency_Crosshair_Sight
+ - Dependency_PMOD
+ - Dependency_modsListApi_P0LIR0ID
+ - Dependency_modsSettingsApi
+ - Dependency_ShuraBB_Auxilium
+ - Dependency_Minimap_Advanced_Pics_HAWGTacticalMaps
+ - LogicalDependency_lossless_battleAtlas_Images
+ - LogicalDependency_MVI_BATTLE_noXVM
+ - LogicalDependency_MVI_BATTLE_CLEAR_noXVM
+ - LogicalDependency_MVI_HANGAR_showAll_noXVM
+ - LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM
+ - LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM
+ - LogicalDependency_MVI_HANGAR_showAll_XVM
+ - LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM
+ - LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM
+ - XVM prebuilt configs->2 - Relhax developers:->123gauss (colorblind) v2020-01-30
+ - XVM prebuilt configs->2 - Relhax developers:->elektrosmoker v2020-01-30 [including crosshair mod]
+ - XVM prebuilt configs->XVM prebuilt configurations by known Streamers/Modders->HAWG's Alternative XVM v2020-01-31
+ - XVM prebuilt configs->XVM prebuilt configurations by known Streamers/Modders->NDO / night_dragon_on v2020-01-28
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Aim Info
+ - Crosshairs->Arty->Armored Warfare by Johnda & Andre_V->V1
+ - Crosshairs->Arty->Armored Warfare by Johnda & Andre_V->V2
+ - Crosshairs->Arty->Animated (6) Arty
+ - Crosshairs->Arty->Animated (1) blue
+ - Crosshairs->Arty->Deegie->V1 blue
+ - Crosshairs->Arty->Deegie->V2 green
+ - Crosshairs->Arty->Harpoon->HAVOK
+ - Crosshairs->Arty->Harpoon->BlackCircleSquare OR WhiteCircleSquare
+ - Crosshairs->Arty->Harpoon->New White
+ - Crosshairs->Arty->Harpoon->Mini
+ - Crosshairs->Arty->J1mBOs Crosshair
+ - Crosshairs->Arty->MeltyMap (continued by Andre_V)->Blue
+ - Crosshairs->Arty->MeltyMap (continued by Andre_V)->Green
+ - Crosshairs->Arty->MIX by DINIKK
+ - Crosshairs->Arty->Predator
+ - Crosshairs->Arty->Sword of Damocles->Sword of Damocles (green)
+ - Crosshairs->Arty->Sword of Damocles->Sword of Damocles (white)
+ - Crosshairs->Arty->Sight Taipan->Arty Taipan v2 default
+ - Crosshairs->Arty->Sight Taipan->Arty Taipan V6 white
+ - Crosshairs->Arty->Terminator
+ - Crosshairs->Arty->Sight White->Standard
+ - Crosshairs->Arcade and Sniper->2DZoom
+ - Crosshairs->Arcade and Sniper->Armored Warfare by Johnda & Andre_V->V1
+ - Crosshairs->Arcade and Sniper->Armored Warfare by Johnda & Andre_V->V2
+ - Crosshairs->Arcade and Sniper->Animated Tank
+ - Crosshairs->Arcade and Sniper->Animated (1) blue
+ - Crosshairs->Arcade and Sniper->Animated (6) Tank
+ - Crosshairs->Arcade and Sniper->Bushmaster by Valuhov & Andre_V
+ - Crosshairs->Arcade and Sniper->Circle by Hobbit_007
+ - Crosshairs->Arcade and Sniper->Circle by Hobbit_007->Oval
+ - Crosshairs->Arcade and Sniper->Circle by Hobbit_007->Square
+ - Crosshairs->Arcade and Sniper->Circle by Hobbit_007->Triangle
+ - Crosshairs->Arcade and Sniper->Deegie->V1  blue
+ - Crosshairs->Arcade and Sniper->Deegie->V2 green
+ - Crosshairs->Arcade and Sniper->Compass
+ - Crosshairs->Arcade and Sniper->Destroyer->Blue
+ - Crosshairs->Arcade and Sniper->Destroyer->Blue->Inner Circle Blue
+ - Crosshairs->Arcade and Sniper->Destroyer->Blue->Inner Circle Red
+ - Crosshairs->Arcade and Sniper->Destroyer->Blue->Inner Circle White
+ - Crosshairs->Arcade and Sniper->Destroyer->Green
+ - Crosshairs->Arcade and Sniper->Destroyer->Green->Inner Circle Red
+ - Crosshairs->Arcade and Sniper->Destroyer->Green->Inner Circle White
+ - Crosshairs->Arcade and Sniper->Devastator by Helpics & Andre_V
+ - Crosshairs->Arcade and Sniper->Eagle->Eagle Brown
+ - Crosshairs->Arcade and Sniper->Eagle->Eagle torquoise
+ - Crosshairs->Arcade and Sniper->Fatalii by Luxz & Andre_V
+ - Crosshairs->Arcade and Sniper->Giacint (Hyacinth)->V1
+ - Crosshairs->Arcade and Sniper->Giacint (Hyacinth)->V2=V1+ Ready
+ - Crosshairs->Arcade and Sniper->HARDscope by Andrey-Hard and KobkaG
+ - Crosshairs->Arcade and Sniper->Harpoon
+ - Crosshairs->Arcade and Sniper->Harpoon->HAVOK
+ - Crosshairs->Arcade and Sniper->Harpoon->Black Circle
+ - Crosshairs->Arcade and Sniper->Harpoon->Black Square
+ - Crosshairs->Arcade and Sniper->Harpoon->New White
+ - Crosshairs->Arcade and Sniper->Harpoon->White Circle
+ - Crosshairs->Arcade and Sniper->Harpoon->White Square
+ - Crosshairs->Arcade and Sniper->Harpoon->Mini
+ - Crosshairs->Arcade and Sniper->J1mBO´s Crosshair
+ - Crosshairs->Arcade and Sniper->J1mBO´s Crosshair->J1mBOs Crosshair V1
+ - Crosshairs->Arcade and Sniper->J1mBO´s Crosshair->J1mBOs Crosshair v2
+ - Crosshairs->Arcade and Sniper->J1mBO´s Crosshair->J1mBOs Crosshair V3
+ - Crosshairs->Arcade and Sniper->Kellerman->V1 Blue
+ - Crosshairs->Arcade and Sniper->Kellerman->V2
+ - Crosshairs->Arcade and Sniper->Kodos
+ - Crosshairs->Arcade and Sniper->MeltyMap (continued by Andre_V)->Blue
+ - Crosshairs->Arcade and Sniper->MeltyMap (continued by Andre_V)->Green
+ - Crosshairs->Arcade and Sniper->MIX by DINIKK
+ - Crosshairs->Arcade and Sniper->Mjolnir Hammer of Thor
+ - Crosshairs->Arcade and Sniper->Octagon->original
+ - Crosshairs->Arcade and Sniper->Octagon->torquoise
+ - Crosshairs->Arcade and Sniper->Predator
+ - Crosshairs->Arcade and Sniper->Pulse
+ - Crosshairs->Arcade and Sniper->Raspberry by 19Nikolay94
+ - Crosshairs->Arcade and Sniper->Square->Square Green
+ - Crosshairs->Arcade and Sniper->Square->Square White
+ - Crosshairs->Arcade and Sniper->Strike->Tank Blue Strike
+ - Crosshairs->Arcade and Sniper->Strike->Tank Green Strike
+ - Crosshairs->Arcade and Sniper->Sword of Damocles->Sword of Damocles (green)
+ - Crosshairs->Arcade and Sniper->Sword of Damocles->Sword of Damocles (white)
+ - Crosshairs->Arcade and Sniper->Taipan->Tank Taipan V1
+ - Crosshairs->Arcade and Sniper->Taipan->Tank Taipan V2 default
+ - Crosshairs->Arcade and Sniper->Taipan->Tank Taipan V4 white
+ - Crosshairs->Arcade and Sniper->Taipan->Tank Taipan V3 Torquoise
+ - Crosshairs->Arcade and Sniper->Taipan->Tank Taipan V3 Green
+ - Crosshairs->Arcade and Sniper->Techno
+ - Crosshairs->Arcade and Sniper->Terminator
+ - Crosshairs->Arcade and Sniper->Sight White->Standard
+ - Crosshairs->Arcade and Sniper->WoWp
+ - Crosshairs->Arcade and Sniper->Yellow Sight by Andre_V
+ - Contour Icons/Tank Icons->Contour Icons->APCR_NOOB - by Mike->Standard
+ - Contour Icons/Tank Icons->Contour Icons->APCR_NOOB - by Mike->mini V1
+ - Contour Icons/Tank Icons->Contour Icons->APCR_NOOB - by Mike->mini V2
+ - Contour Icons/Tank Icons->Contour Icons->APCR_NOOB - by Mike->mini V2.1
+ - Contour Icons/Tank Icons->Contour Icons->Aslain
+ - Contour Icons/Tank Icons->Contour Icons->Blackspy->Original Edition
+ - Contour Icons/Tank Icons->Contour Icons->Blackspy->Yasha Edition
+ - Contour Icons/Tank Icons->Contour Icons->"Darker `A`" by Ress
+ - Contour Icons/Tank Icons->Contour Icons->elektrosmoker
+ - Contour Icons/Tank Icons->Contour Icons->HARDicons->Normal
+ - Contour Icons/Tank Icons->Contour Icons->HARDicons->Colored
+ - Contour Icons/Tank Icons->Contour Icons->J1mB0->Grabaah Edition
+ - Contour Icons/Tank Icons->Contour Icons->LordFelix
+ - Contour Icons/Tank Icons->Contour Icons->Pogs - continued by DaMatz (2019)->Clear->tier, name
+ - Contour Icons/Tank Icons->Contour Icons->Pogs - continued by DaMatz (2019)->Clear->tier, name, avg or gold penetration
+ - Contour Icons/Tank Icons->Contour Icons->Pogs - continued by DaMatz (2019)->Clear->tier, name, avg or gold penetration, armor numbers
+ - Contour Icons/Tank Icons->Contour Icons->Pogs - continued by DaMatz (2019)->Clear->tier, name, avg or gold penetration, armor numbers, view range
+ - Contour Icons/Tank Icons->Contour Icons->Pogs - continued by DaMatz (2019)->Clear->tier, name, avg or gold penetration, armor numbers, view range, reload time
+ - Contour Icons/Tank Icons->Contour Icons->Pogs - continued by DaMatz (2019)->Colored->DaMatz
+ - Contour Icons/Tank Icons->Contour Icons->Pogs - continued by DaMatz (2019)->Colored->tier, name
+ - Contour Icons/Tank Icons->Contour Icons->Pogs - continued by DaMatz (2019)->Colored->tier, name, avg or gold penetration
+ - Contour Icons/Tank Icons->Contour Icons->Pogs - continued by DaMatz (2019)->Colored->tier, name, avg or gold penetration, armour numbers
+ - Contour Icons/Tank Icons->Contour Icons->Pogs - continued by DaMatz (2019)->Colored->tier, name, avg or gold penetration, armour numbers, view range
+ - Contour Icons/Tank Icons->Contour Icons->Pogs - continued by DaMatz (2019)->Colored->tier, name, avg or gold penetration, armour numbers, view range, reload
+ - Contour Icons/Tank Icons->Contour Icons->Real Time Contour Icons (Not Compatible With Other Contour Icons)->Original
+ - Contour Icons/Tank Icons->Contour Icons->Real Time Contour Icons (Not Compatible With Other Contour Icons)->Original with Big Coordinates
+ - Contour Icons/Tank Icons->Contour Icons->Real Time Contour Icons (Not Compatible With Other Contour Icons)->Blue Heavy and Yellow TD
+ - Contour Icons/Tank Icons->Contour Icons->Real Time Contour Icons (Not Compatible With Other Contour Icons)->Battle Observer Style 1
+ - Contour Icons/Tank Icons->Contour Icons->Real Time Contour Icons (Not Compatible With Other Contour Icons)->Battle Observer Style 2
+ - Contour Icons/Tank Icons->Contour Icons->The Illusion v1.7.1.0->Big
+ - Contour Icons/Tank Icons->Contour Icons->The Illusion v1.7.1.0->Small
+ - Contour Icons/Tank Icons->Contour Icons->Wizard by yaya070->Arabic Tier Numbers
+ - Contour Icons/Tank Icons->Contour Icons->Wizard by yaya070->Roman Tier Numbers
+ - Contour Icons/Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->Debranded´s camouflaged premium tanks
+ - Contour Icons/Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->Debranded´s dark-golden premium tanks
+ - Contour Icons/Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->Debranded´s light-golden premium tanks
+ - Contour Icons/Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->Debranded´s pre-colored tanks
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Camo->Androdizel
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Camo->Colored
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Camo->DEbranded
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Camo->Yaya
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Default->Androdizel
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Default->colored
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Default->DEbranded
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Default->Yaya
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Camo->Androdizel
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Camo->colored
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Camo->DEbranded
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Camo->Yaya
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Dark->Androdizel
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Dark->colored
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Dark->DEBranded
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Dark->Yaya
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Light->Androdizel
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Light->colored
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Light->DEbranded
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Light->Yaya
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V3 Premium preColored->Androdizel
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V3 Premium preColored->colored
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V3 Premium preColored->DEBranded
+ - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V3 Premium preColored->Yaya
+ - Damage Logs/Damage Panels->Damage Logs->GambitER
+ - Ingame Aim->Dispersion Indicator (aim time)->simple dispersion indicator
+ - Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator->Versions->Release Version 0.4.2
+ - Ingame Aim->Target Arrow->Black
+ - Ingame Aim->Target Arrow->Blue
+ - Ingame Aim->Target Arrow->Green
+ - Ingame Aim->Target Arrow->Purple
+ - Ingame Aim->Target Arrow->Red
+ - Ingame Aim->Target Arrow->White
+ - Ingame Aim->Target Arrow->Yellow
  - Ingame Info->HP Bars->CHAMPi´s HP Bars (Conflicts with A.) Enemy spotted status (oldskool only) & B.) Friends Marker  BOTH by oldskool
+ - Ingame Info->Enemy spotted status->by oldskool
+ - Ingame Info->Tank Rating Colors 
+ - Ingame Info->InBattle Rating->PROTanki
  - Ingame Info->Marks of Excellence Extended (Formerly called Marks on Gun Extended)
- - Custom Tank Skins->Czech->Medium->Skoda TVP T50-51->Deh0mbreS RENEWED by Sgt_Krollnikow51
- - Custom Tank Skins->Germany->Heavy->Löwe->Dark yellow Löwe
- - Custom Tank Skins->Poland->Medium->Pudel->Pudel Barkmann
- - Custom Tank Skins->USSR->Tank Destroyer->Object 268 V4->Deh0mbreS
- - Custom Tank Skins->USSR->Tank Destroyer->Object 263->Deh0mbreS
- - Custom Tank Skins->USSR->Tank Destroyer->Object 704->Deh0mbreS
+ - Ingame Info->RTAN - Real Time Achievements Notifications->RTAN by protanki
+ - Ingame Info->Tank Info Panel->PROTanki
+ - Ingame Misc->Chat-Mods (in-battle)->Friends Marker
+ - Ingame Misc->Consumable Icons->Equipment and Consumable Icons->Aimdrol (with [english] text modifications)
+ - Ingame Misc->Consumable Icons->Equipment and Consumable Icons->Armored Warfare
+ - Ingame Misc->Consumable Icons->Equipment and Consumable Icons->DEbranded
+ - Ingame Misc->Final Shot (Last Hits)
+ - Ingame Misc->Minimap->Minimap->HAWG´s Tactical Minimap
+ - Ingame Misc->Minimap->Minimap Ping Spam Protector->by CHAMPi
+ - Ingame Misc->Wargaming.FM Radio v3.4.4
+ - Garage Mods->Annoying Features Remover v [NDO Hangar Addons]
+ - Garage Mods->Armor Inspector->Armor Inspector by protanki
+ - Garage Mods->Auto-equip removeable equipment
+ - Garage Mods->Battle Hits Viewer in Hangar v1.4.7
+ - Garage Mods->Replays->Replay Manager
+ - Garage graphics->Battle Results->Battle Results by HAWG->Cobra Design by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Darth Vader Design by HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Fire Design by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Grim Design by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Leviathan by HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Marvin by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Minions by HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->PinUps Design by PigBrains HAWG [ADULT CONTENT]
+ - Garage graphics->Battle Results->Battle Results by HAWG->Sabaton by HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Simple Black Window by Pigbrain HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Simple Rustic Steel HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Skulls Design by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Skulls 2 Blue-Red-Gray by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Skulls 2 Red-Gray-Blue by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Tank Invasion Battle Results by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Tank Battle Results by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Trump Design by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->UK Flag Results by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->USA Flag Battle Results by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->WG "Old Style" by Pigbrain HAWG
+ - Garage graphics->Battle Results->Battle Results by HAWG->Wonder Woman Battle Results by PigBrains HAWG
+ - Garage graphics->Battle Results->Battle Results Made by Various Moders->Made by Ragnarocek
+ - Garage graphics->Battle Results->Battle Results Made by Various Moders->Sexy Design by Papadigi
+ - Garage graphics->Battle Results->Battle Results Made by Various Moders->Sexy Design by OldSkool
+ - Garage graphics->Battle Results->Battle Results Tank Icon by HAWG->Beach Party [ADULT CONTENT]
+ - Garage graphics->Battle Results->Battle Results Tank Icon by HAWG->Nation emblem by HAWG
+ - Garage graphics->Battle Results->Battle Results Tank Icon by HAWG->Nation flag by HAWG
+ - Garage graphics->Battle Results->Battle Results Tank Icon by HAWG->PinUp Pics [ADULT CONTENT]
+ - Garage graphics->Battle Results->Share Engame Results
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Aqua
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Aqua Yellow
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Bangel Tiger
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Blue
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Blue Green
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Blue Red Strips
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Candy Cane
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Caribbean
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Green
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Green Purple
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Green Purple Strips
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->HE
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->KeyLimePie
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->LimeAid
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Orange
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Orange Black
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Pink
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->PYSCHO 1
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->PYSCHO 2
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->PYSCHO 3
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Purple
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Purple Yellow
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Red
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Red Blue
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Sabaton
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->USA
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->White
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->White-Black
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Yellow
+ - Garage graphics->Carousel graphics->Carousel LED (different colors)->Yellow Red
+ - Garage graphics->Hangar Manager "HangMan" v2.45
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Blue Cog
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Clan
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Cowgirl
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Fallen Soldier
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Fire Ball
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Ghostbusters
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Grim
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->HAWG
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Hypnotize Swirls Cog
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Leviathan Ghost
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Original Cog
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Pin Up Girl
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Rank
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Red Cog
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Skull
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Skull 2
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Swords
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Tank
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->WWIIHWA Ambiente by Budyx69
+ - Garage graphics->Loading graphics & exit screens->Loading Logo->WWIIHWA Logo
+ - Garage graphics->Techtree->Horizontal Compact Techtree
+ - Statistics->Garage Session Statistics->Awfultanker
+ - Sound Mods->Engine->AGQJ Engines by SicFunzler v222
+ - Sound Mods->Gun->AGQJ Guns by SicFunzler v222
+ - Sound Mods->Gun->WWIIHWA Gunsounds by Budyx69 & KT  v4.09
+ - Sound Mods->Crew Voices->English Crew Voices->MLG Mod by Aimdrol (English sound and text)
+ - Sound Mods->WWIIHWA Ambiente v6.16 by Budyx69->WWIIHWA Ambiente Light
+ - Tank Skin Packs->Contour skins with areas of penetration->Contour Skins Xmas 3D by Mr13 with smaller updates since december 21, 2019
+ - Tank Skin Misc->Colored Crashed Tracks
+ - Tank Skin Misc->Colored Dead Tanks
+ - Custom Tank Skins->USSR->Tank Destroyer->Object 268 V4->Deh0mbreS [with ATACMS Universal Model Loader (UML)]
 
 Renamed:
- - "Marks on Gun Extended (MoE) v8.06B_TT (Marks of Excellence)" was renamed to "Marks of Excellence Extended (Formerly called Marks on Gun Extended)"
- - "Deh0mbreS_RENEWED by Sgt_Krollnikow51" was renamed to "Deh0mbreS"
- - "Deh0mbreS RENEWED by Sgt_Krollnikow51" was renamed to "Deh0mbreS"
- - "Deh0mbreS RENEWED by Sgt_Krollnikow51" was renamed to "Deh0mbreS"
- - "Deh0mbreS RENEWED by Sgt_Krollnikow51" was renamed to "Deh0mbreS"
+ - "123gauss (colorblind) v2019-12-17" was renamed to "123gauss (colorblind) v2020-01-30"
+ - "elektrosmoker v2019-12-23 [including crosshair mod]" was renamed to "elektrosmoker v2020-01-30 [including crosshair mod]"
+ - "HAWG's Alternative XVM v2019-12-16" was renamed to "HAWG's Alternative XVM v2020-01-31"
+ - "NDO / night_dragon_on v2019-12-23" was renamed to "NDO / night_dragon_on v2020-01-28"
+ - "XVM Build Selector (choose between Stable and Nightly)" was renamed to "-----[Build Selector]----- (choose between Stable and Nightly)"
+ - "Stable v" was renamed to "Stable v8.3.0_74"
+ - "Nightly v" was renamed to "Nightly v8.3.1_1"
+ - "Animated 6 Arty" was renamed to "Animated (6) Arty"
+ - "Animated blue" was renamed to "Animated (1) blue"
+ - "Animated blue" was renamed to "Animated (1) blue"
+ - "Animated 6 Tank" was renamed to "Animated (6) Tank"
+ - "Black circle" was renamed to "Black Circle"
+ - "The Illusion v1.7.0.1" was renamed to "The Illusion v1.7.1.0"
+ - "Release" was renamed to "Release Version 0.4.2"
+ - "CHAMPi's Tank Rating Colors" was renamed to "Tank Rating Colors "
+ - "Tank Info Panel by OldSkool v1.2.5" was renamed to "OldSkool"
+ - "Tank Info Panel by PROTanki" was renamed to "PROTanki"
+ - "Wargaming.FM Radio v3.4.3" was renamed to "Wargaming.FM Radio v3.4.4"
+ - "Battle Hits Viewer in Hangar v1.4.6" was renamed to "Battle Hits Viewer in Hangar v1.4.7"
+ - "ScriptloaderPro v1.39" was renamed to "ScriptloaderPro v1.40"
+ - "Hangar Manager "HangMan" v2.43" was renamed to "Hangar Manager "HangMan" v2.45"
+ - "AGQJ Engines by SicFunzler" was renamed to "AGQJ Engines by SicFunzler v222"
+ - "AGQJ Guns by SicFunzler" was renamed to "AGQJ Guns by SicFunzler v222"
+ - "WWIIHWA Gunsounds by Budyx69 & KT  v4.08" was renamed to "WWIIHWA Gunsounds by Budyx69 & KT  v4.09"
+ - "Contour Skins Xmas 3D by Mr13 (included for Mr13 with 1.7.0.2_2019-12-21)" was renamed to "Contour Skins Xmas 3D by Mr13 with smaller updates since december 21, 2019"
+ - "Deh0mbreS" was renamed to "Deh0mbreS [with ATACMS Universal Model Loader (UML)]"
+ - "J1mBOs Crosshair" was renamed to "J1mBOs Crosshair"
+ - "J1mBO´s Crosshair" was renamed to "J1mBO´s Crosshair"
+ - "J1mBOs Crosshair V1" was renamed to "J1mBOs Crosshair V1"
+ - "J1mBOs Crosshair v2" was renamed to "J1mBOs Crosshair v2"
+ - "J1mBOs Crosshair V3" was renamed to "J1mBOs Crosshair V3"
 
 Moved:
+ - "Crosshairs->Arty->J1mBOs Crosshair" was moved to "Crosshairs->Arty->J1mBOs Crosshair"
+ - "Crosshairs->Arcade and Sniper->J1mBO´s Crosshair" was moved to "Crosshairs->Arcade and Sniper->J1mBO´s Crosshair"
+ - "Crosshairs->Arcade and Sniper->J1mBO´s Crosshair->J1mBOs Crosshair V1" was moved to "Crosshairs->Arcade and Sniper->J1mBO´s Crosshair->J1mBOs Crosshair V1"
+ - "Crosshairs->Arcade and Sniper->J1mBO´s Crosshair->J1mBOs Crosshair v2" was moved to "Crosshairs->Arcade and Sniper->J1mBO´s Crosshair->J1mBOs Crosshair v2"
+ - "Crosshairs->Arcade and Sniper->J1mBO´s Crosshair->J1mBOs Crosshair V3" was moved to "Crosshairs->Arcade and Sniper->J1mBO´s Crosshair->J1mBOs Crosshair V3"
 
 Disabled:
- - Garage Mods->ScriptloaderPro v1.39->SystemMessage OFF
- - Garage Mods->ScriptloaderPro v1.39->SystemMessage Full
- - Garage Mods->ScriptloaderPro v1.39->SystemMessage Minimal
+ - Crosshairs->Arcade and Sniper->LegionLost->Tank sight ZF.2E by LegionLost
+ - Crosshairs->Arcade and Sniper->LegionLost->Tank sight blue by LegionLost
+ - Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator->Versions->Developer
+ - Garage Mods->ScriptloaderPro v1.40->No message at the messagecenter when loading scripts in res folder
+ - Garage graphics->Carousel graphics->'Crew Incomplete' icon & text-overlay removed
+ - Garage graphics->Loading graphics & exit screens->Loading Animation
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Illuminati by Aimdrol
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->OMC by Technowolf (RIP OMC)
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->HARPOON by lenya69
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->XMAS Girl by ZloyYurich
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->Tracks
+ - Garage graphics->Loading graphics & exit screens->Loading Animation->X-Files
+ - Garage graphics->Techtree->OldSkool's Extended TechTree
+ - Garage graphics->Techtree->Vertical Techtree by  ____P_H_A_R_A_O_N____
+ - Garage graphics->User Interface->____P_H_A_R_A_O_N____
+ - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Modules->Colored In-Game Messages -> !! sets client language to english !!
+ - Sound Mods->Gun->Gun Sounds by Shimada Samas
 
 Removed:
+ - Crosshairs->Arcade and Sniper->Destroyer->Green->Inner Circle Blue
+ - Ingame Info->Tank Info Panel->Tank Info Panel by Izeberg
+ - Garage graphics->Battle Results->Battle Results Made by Various Moders->Made by Sicfunzler
 
 Notes:
  - 
