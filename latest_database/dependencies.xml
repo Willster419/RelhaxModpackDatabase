@@ -2,9 +2,8 @@
 <Dependencies>
   <Dependency PackageName="Dependency_XVM_Main_Files" Enabled="True" InstallGroup="2" PatchGroup="2">
     <Size>7873226</Size>
-    <ZipFile>Dependency_XVM_Base_8.3.0_72_with_patch_2020-01-30.zip</ZipFile>
     <CRC>f</CRC>
-    <Timestamp>132248787452328469</Timestamp>
+    <Timestamp>132250217429212728</Timestamp>
     <DevURL>https://modxvm.com/en/download-xvm/</DevURL>
     <Dependencies>
       <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM" NotFlag="True" Logic="AND" />
@@ -16,18 +15,29 @@
       <Dependency PackageName="LogicalDependency_MVI_BATTLE_disable_XVM" NotFlag="False" Logic="AND" />
       <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM" NotFlag="True" Logic="AND" />
       <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM" NotFlag="False" Logic="AND" />
+      <Dependency PackageName="LogicalDependency_XVM_Main_Stable" NotFlag="False" Logic="AND" />
+      <Dependency PackageName="LogicalDependency_XVM_Main_Nightly" NotFlag="False" Logic="AND" />
     </Dependencies>
   </Dependency>
-  <Dependency PackageName="Dependency_XVM_Base_Stable" Enabled="False" InstallGroup="2" PatchGroup="2">
+  <Dependency PackageName="Dependency_XVM_Main_nightlyLogic" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <CRC>f</CRC>
+    <Timestamp>132250216343012101</Timestamp>
+    <DevURL>https://modxvm.com/en/download-xvm/</DevURL>
+    <Dependencies>
+      <Dependency PackageName="LogicalDependency_XVM_Main_Stable" NotFlag="True" Logic="AND" />
+      <Dependency PackageName="LogicalDependency_XVM_Main_Nightly" NotFlag="False" Logic="AND" />
+    </Dependencies>
+  </Dependency>
+  <Dependency PackageName="LogicalDependency_XVM_Main_Stable" Enabled="True" InstallGroup="2" PatchGroup="2">
     <ZipFile>STABLE.zip</ZipFile>
     <CRC>f</CRC>
     <Timestamp>132249423780523809</Timestamp>
     <DevURL>https://modxvm.com/en/download-xvm/</DevURL>
   </Dependency>
-  <Dependency PackageName="Dependency_XVM_Base_Nightly" Enabled="False" InstallGroup="2" PatchGroup="2">
-    <ZipFile>NIGHTLY_TEST.zip</ZipFile>
+  <Dependency PackageName="LogicalDependency_XVM_Main_Nightly" Enabled="True" InstallGroup="2" PatchGroup="2">
+    <ZipFile>Dependency_XVM_Base_8.3.0_72_with_patch_2020-01-30.zip</ZipFile>
     <CRC>f</CRC>
-    <Timestamp>132249417238444016</Timestamp>
+    <Timestamp>132250217537647885</Timestamp>
     <DevURL>https://modxvm.com/en/download-xvm/</DevURL>
   </Dependency>
   <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missing_pics_fix" Enabled="True" InstallGroup="2" PatchGroup="2">
