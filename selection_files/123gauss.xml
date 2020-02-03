@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2020-01-27 23:09:29" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="1.7.0.2_2020-01-19_2" dbDistro="Test">
+<mods ver="2.0" date="2020-02-03 22:01:36" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="1.7.1.1_2020-02-01_1" dbDistro="Beta">
   <relhaxMods>
     <mod>XVMPrebuiltConfigs_RelhaxDevs</mod>
     <mod>XVMPrebuiltConfigs_123gauss</mod>
@@ -8,11 +8,9 @@
     <mod>XVMconfigBuilder_PlayersPanel_Enable</mod>
     <mod>XVMconfigBuilder_PlayersPanel_snowflakeIndicator</mod>
     <mod>Crosshairs_ArcadeSniper</mod>
-    <mod>Crosshairs_ArcadeSniper_Kellerman</mod>
-    <mod>Crosshairs_ArcadeSniper_Kellerman_Blue</mod>
-    <mod>Crosshairs_ArcadeSniper_Kellerman_broken_glass</mod>
+    <mod>Crosshairs_ArcadeSniper_Animated_blue</mod>
     <mod>Crosshairs_Strategic</mod>
-    <mod>Crosshairs_Strategic_Mjolnir_Hammer_of_Thor</mod>
+    <mod>Crosshairs_Strategic_Animated_blue</mod>
     <mod>Crosshairs_gunConstraints</mod>
     <mod>Contour_Icons</mod>
     <mod>Contour_Icons_Blackspy</mod>
@@ -60,6 +58,7 @@
     <mod>zoom_pmod_reduced_armor_font_large</mod>
     <mod>Ingame_Aim_Penetration_PMOD_Dynamic_Colour</mod>
     <mod>Ingame_Aim_SPG_Flytime</mod>
+    <mod>Ingame_Aim_SPG_Flytime_OldSkool</mod>
     <mod>Ingame_Aim_SafeShot_oldskool</mod>
     <mod>Ingame_Aim_SafeShot_oldskool_timeout_3</mod>
     <mod>Ingame_Aim_SafeShot_oldskool_block_dead</mod>
@@ -74,7 +73,6 @@
     <mod>Ingame_Info_15m_Circle</mod>
     <mod>Ingame_Info_15m_Circle_Base</mod>
     <mod>Ingame_Info_InBattle_ATAC</mod>
-    <mod>Ingame_Info_TankRatingColors</mod>
     <mod>Ingame_Info_Crew</mod>
     <mod>Ingame_Info_Crew_CrewSkillInformer</mod>
     <mod>Ingame_Info_DamageIndicator</mod>
@@ -122,6 +120,14 @@
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_td</mod>
     <mod>Ingame_Info_SpotMessenger_Vehicle_Types_spg</mod>
     <mod>Ingame_Info_spotted_extended_light</mod>
+    <mod>Ingame_Info_TankRatingColors</mod>
+    <mod>IngameInfo_TankRatingColors_Recolor</mod>
+    <mod>IngameInfo_TankRatingColors_Recolor_Winrate</mod>
+    <mod>IngameInfo_TankRatingColors_removeCamouflages</mod>
+    <mod>IngameInfo_TankRatingColors_ignorePresentPaints</mod>
+    <mod>IngameInfo_TankRatingColors_notPaintPlayersTank</mod>
+    <mod>IngameInfo_TankRatingColors_paintWholeAlliedTanks</mod>
+    <mod>IngameInfo_TankRatingColors_paintWholeEnemyTanks</mod>
     <mod>Ingame_Info_Wide_Border_Of_Maps</mod>
     <mod>Ingame_Info_Wide_Border_Of_Maps_COMMAND_full</mod>
     <mod>Ingame_Misc_You_Died</mod>
@@ -262,8 +268,6 @@
     <mod>Garage_Graphics_Hangar_Design_Pack_GrebTV025_No15_desert_Hellinger</mod>
     <mod>Garage_Graphics_Hangar_Design_Pack_GrebTV026_No16_Bday</mod>
     <mod>Garage_Graphics_loading</mod>
-    <mod>Garage_Graphics_loading_animation</mod>
-    <mod>Garage_Graphics_loading_animation_XMASGirl</mod>
     <mod>Garage_Graphics_LoadingLogo</mod>
     <mod>Garage_Graphics_loading_logo_Relhax_with_small_BG</mod>
     <mod>Garage_Graphics_LoadingSplash</mod>
@@ -288,7 +292,7 @@
     <mod>Garage_Graphics_UserInterface_OldStore</mod>
     <mod>Session_Statistics</mod>
     <mod>Session_Statistics_Time_Spent</mod>
-    <mod>Session_Statistics_Time_Spent_Kapany3uk_5</mod>
+    <mod>Session_Statistics_TimeSpent_Kapany3uk_5/mod>
     <mod>Sounds_CrewVoices</mod>
     <mod>Sounds_CrewVoices_German</mod>
     <mod>Sounds_crew_sounds_Filzi</mod>
@@ -308,6 +312,7 @@
     <mod>Sounds_GUI_Relhax</mod>
     <mod>Sounds_Gun</mod>
     <mod>Sounds_Gun_by_Shimada_Samas</mod>
+    <mod>Sounds_WWIIHWA_Guns_by_KT+Budyx69</mod>
     <mod>Sounds_Kill</mod>
     <mod>Sounds_Kill_UT_Announcer</mod>
     <mod>Sounds_Kill_UT_Announcer_Locastan</mod>
@@ -323,6 +328,8 @@
     <mod>Sixth_Sense_Icon_Animation_WileECoyote</mod>
     <mod>Sixth_Sense_Icon_Duration</mod>
     <mod>Sixth_Sense_Icon_Duration_10</mod>
+    <mod>Tank_Skins_Misc_Camo</mod>
+    <mod>Tank_Skins_Misc_Camo_Transparent_Camouflage</mod>
     <mod>Tank_Skins_Misc_crashed_tracks</mod>
     <mod>Tank_Skins_Misc_crashed_tracks_white</mod>
     <mod>Tank_Skins_Misc_Colored_penetration</mod>
@@ -388,12 +395,19 @@
     <mod>Custom_Tank_Skins_Sweden_Tank_Destroyer</mod>
     <mod>Custom_Tank_Skins_Sweden_Tank_Destroyer_UDES03</mod>
     <mod>Custom_Tank_Skins_Sweden_Tank_Destroyer_UDES03_DarkMatter</mod>
+    <mod>Custom_Tank_Skins_USA</mod>
     <mod>Custom_Tank_Skins_USSR</mod>
     <mod>Custom_Tank_Skins_USSR_Tank_Destroyer</mod>
+    <mod>Custom_Tank_Skins_USSR_Tank_Destroyer_Object_268_V4</mod>
+    <mod>Custom_Tank_Skins_USSR_Tank_Destroyer_Object_268_V4_Deh0mbreS</mod>
     <mod>Custom_Tank_Skins_USSR_Tank_Destroyer_Object_263</mod>
     <mod>Custom_Tank_Skins_USSR_Tank_Destroyer_Object_263_Deh0mbreS</mod>
   </relhaxMods>
   <userMods>
+    <mod>Erweiterte_Texte_by_Budyx69_1.7.1.0_2020-01-29</mod>
+    <mod>Erweiterte_Texte_by_NOT_Budyx69_1.7.1.0_2020-01-29</mod>
+    <mod>Garage_mods_auto_equip_equipment_by_OldSkool_UserData_Gauss_1.5.0.0_2019-05-05</mod>
+    <mod>Garage_mods_auto_equip_equipment_by_OldSkool_UserData_Gauss_1.5.1.0_2019-06-12AppData</mod>
     <mod>Tank_Skins_Misc_Graphics_Camo_CamoSelector_GaussCfg_1.7.0.0_2019-12-12</mod>
     <mod>WWIIHWA_GAUSS_only_Cfg_1.6.0.3_2019-11-16</mod>
   </userMods>
