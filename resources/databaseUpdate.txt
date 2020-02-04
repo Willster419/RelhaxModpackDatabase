@@ -1,60 +1,379 @@
 Database Update!
 
-New version tag: 1.7.1.1_2020-02-04_1
+New version tag: 1.7.1.1_2020-02-04_2
 
-Number of Added packages: 8
-Number of Updated packages: 24
-Number of Disabled packages: 2
+Number of Added packages: 0
+Number of Updated packages: 355
+Number of Disabled packages: 0
 Number of Removed packages: 0
 Number of Moved packages: 0
-Number of Renamed packages: 2
+Number of Renamed packages: 0
 Number of Internally renamed packages: 0
 
 Added:
- - Ingame Info->Tank Rating Colors ->recolor tanks by
- - Ingame Info->Tank Rating Colors ->recolor tanks by->Winrate
- - Ingame Info->Tank Rating Colors ->recolor tanks by->WGR
- - Ingame Info->Tank Rating Colors ->remove camouflages
- - Ingame Info->Tank Rating Colors ->ignore present paints
- - Ingame Info->Tank Rating Colors ->not paint player´s tank
- - Ingame Info->Tank Rating Colors ->paint whole allied tanks
- - Ingame Info->Tank Rating Colors ->paint whole enemy tanks
 
 Updated:
  - LogicalDependency_XVM_Main_Nightly
- - Dependency_XVM_PY_reloading
- - Dependency_XVM_PY_safeShot
- - Dependency_ShuraBB_Auxilium
- - Dependency_ShuraBB_Antitoxicity
- - Dependency_ShuraBB_SDK
- - XVM prebuilt configs->2 - Relhax developers:->dirty20067 v2020-02-02
- - Contour Icons/Tank Icons->Tank Icons->Carousel Tankicons->Ghostman101278´s regular & premium tank icons
- - Contour Icons/Tank Icons->Tank Icons->Carousel Tankicons->Regular tank icons->Debranded´s camouflaged tank icons
- - Contour Icons/Tank Icons->Tank Icons->Carousel Tankicons->Regular tank icons->Debranded´s default ->  brighter tank icons
- - Contour Icons/Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->Debranded´s light-golden premium tanks
- - Contour Icons/Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->Ghostman101278
- - Ingame Info->Tank Rating Colors 
- - Garage graphics->Crew graphics->Crew Icons->LordFelix´ tinted female crew icons->BLUE
- - Garage graphics->Crew graphics->Crew Icons->LordFelix´ tinted female crew icons->CYAN
- - Garage graphics->Crew graphics->Crew Icons->LordFelix´ tinted female crew icons->FUCSIA
- - Garage graphics->Crew graphics->Crew Icons->LordFelix´ tinted female crew icons->GREEN
- - Garage graphics->Crew graphics->Crew Icons->LordFelix´ tinted female crew icons->GREEN 2
- - Garage graphics->Crew graphics->Crew Icons->LordFelix´ tinted female crew icons->ORANGE
- - Garage graphics->Crew graphics->Crew Icons->LordFelix´ tinted female crew icons->PURPLE
- - Garage graphics->Hangar Manager "HangMan" v62.4
- - Statistics->Garage Session Statistics->Time Spent v3.96
- - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Modules->Colored In-Game Messages -> !! sets client language to english !!
- - Statistics->Garage Session Statistics->YasenKrasen v1.7.0.2->Modules->Kill Skulls (alternative in-game battle messages)
+ - Dependency_XVM_damage_log_disable
+ - LogicalDependency_MVI_BATTLE_disable_XVM
+ - XVM config builder->-----[GLOBAL Settings]------>Sound (!Experts Only!)->Disabled
+ - XVM config builder->-----[GLOBAL Settings]------>Sound (!Experts Only!)->Enabled
+ - XVM config builder->-----[GLOBAL Settings]------>Sound (!Experts Only!)->Enabled->remote communication between WoT client and WWISE Authoring Tools->disable
+ - XVM config builder->-----[GLOBAL Settings]------>Sound (!Experts Only!)->Enabled->remote communication between WoT client and WWISE Authoring Tools->enable
+ - XVM config builder->-----[GLOBAL Settings]------>Sound (!Experts Only!)->Enabled->sound events logging in the xvm.log->disable
+ - XVM config builder->-----[GLOBAL Settings]------>Sound (!Experts Only!)->Enabled->sound events logging in the xvm.log->enable
+ - XVM config builder->-----[GLOBAL Settings]------>statistics colorscale->6-step XVM (default)
+ - XVM config builder->-----[GLOBAL Settings]------>statistics colorscale->7-step WOTLABS old
+ - XVM config builder->-----[GLOBAL Settings]------>statistics colorscale->9-step WOT-LIFE
+ - XVM config builder->-----[GLOBAL Settings]------>statistics colorscale->10-step WOTLABS
+ - XVM config builder->-----[GLOBAL Settings]------>Tweaks->allow multiple WOT instances->disable
+ - XVM config builder->-----[GLOBAL Settings]------>Tweaks->allow multiple WOT instances->enable
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->Battle Results Page->init page 1
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->Battle Results Page->init page 2
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->Battle Results Page->init page 3
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->shots precision and damage in first page under credits and XP->disable
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->shots precision and damage in first page under credits and XP->enable
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->totals for your battle efficiency in first page->disable
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->totals for your battle efficiency in first page->enable
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->net income of credits in first page->disable
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->net income of credits in first page->enable
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->total experience in first page->disable
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->total experience in first page->enable
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->crew experience in first page->disable
+ - XVM config builder->-----[HANGAR Settings]------>Battle Results->crew experience in first page->enable
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->disable XVM tank slot informations (use default)
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->normal sized
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->normal sized->0.8 scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->normal sized->0.6 scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->normal sized->Average Damage->Enable
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->normal sized->Average Damage->Disable
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->normal sized->Battles Count->Enable
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->normal sized->Battles Count->Disable
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->normal sized->Win Rate->Enable
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->normal sized->Win Rate->Disable
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->small sized
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->small sized->Win Rate->Enable
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->small sized->Win Rate->Disable
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->colorize names for tanks with limited matchmaking
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->colorize names for tanks with limited matchmaking->Dodger blue
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->colorize names for tanks with limited matchmaking->green
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->colorize names for tanks with limited matchmaking->red
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->modify default slots->colorize names for tanks with limited matchmaking->yellow
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->by CaronteShinigami
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->by CaronteShinigami->1.0 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->by CaronteShinigami->0.8 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->by CaronteShinigami->colorize names for tanks with limited matchmaking
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->by CaronteShinigami->colorize names for tanks with limited matchmaking->Dodger blue
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->by CaronteShinigami->colorize names for tanks with limited matchmaking->green
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->by CaronteShinigami->colorize names for tanks with limited matchmaking->red
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->by CaronteShinigami->colorize names for tanks with limited matchmaking->yellow
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->0.8 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->0.9 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->1.0 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->1.1 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->1.2 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->colorize names for tanks with limited matchmaking
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->colorize names for tanks with limited matchmaking->0.8 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->colorize names for tanks with limited matchmaking->0.9 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->colorize names for tanks with limited matchmaking->1.0 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->colorize names for tanks with limited matchmaking->1.1 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->colorize names for tanks with limited matchmaking->1.2 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->colorize names for tanks with limited matchmaking->Dodger Blue
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->colorize names for tanks with limited matchmaking->Green
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->colorize names for tanks with limited matchmaking->Red
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->colorize names for tanks with limited matchmaking->Yellow
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->"MaxData" by DivingDuck->smaller gap
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->Relhax developers configs of the MaxData carousel (thx@DivingDuck)
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->Relhax developers configs of the MaxData carousel (thx@DivingDuck)->dirty20067´s "MaxData" version with different features - 0.8 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->Pre-built slot configurations->Relhax developers configs of the MaxData carousel (thx@DivingDuck)->elektrosmoker´s "MaxData" version with alternative Flags - 1.0 Scale
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->"Restore Tank" cell->show the restore tank cell
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->"Restore Tank" cell->hide the restore tank cell
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->"Buy Tank" cell
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->"Buy Tank" cell->Hide cell
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->"Buy Tank" cell->Show cell, hide total slots
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->"Buy Tank" cell->Show cell, show total slots
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->"Buy Slot" cell
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->"Buy Slot" cell->Hide cell
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->"Buy Slot" cell->Show cell, hide total used slots
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Slot content->"Buy Slot" cell->Show cell, show total used slots
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Rows - 1
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Rows - 2
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Rows - 3
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Rows - 4
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Rows - 5
+ - XVM config builder->-----[HANGAR Settings]------>Carousel->enable XVM tank slot information->Rows - use ingame setting
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Booster Info
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->EquipmentPanel
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Bonds Locker->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Bonds Locker->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Free XP Locker->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Free XP Locker->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Gold Locker->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Gold Locker->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->flags in barracks->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->flags in barracks->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->skills in barracks->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->skills in barracks->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Block vehicle if ammo is lower than...->disabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Block vehicle if ammo is lower than...->20%
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Block vehicle if ammo is lower than...->50%
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Combat Intelligence" - notifications in the main window and counters in the menu->display pop-up messages in the hangar->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Combat Intelligence" - notifications in the main window and counters in the menu->display pop-up messages in the hangar->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Combat Intelligence" - notifications in the main window and counters in the menu->display unread notifications counter in the menu->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Combat Intelligence" - notifications in the main window and counters in the menu->display unread notifications counter in the menu->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Number of perks to show without grouping->8
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Crew Auto-return->return crew check box is selected by default->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Crew Auto-return->return crew check box is selected by default->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Crew Auto-return->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Crew Auto-return->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Mastery Mark in Tech Tree->Disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Mastery Mark in Tech Tree->Enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Notifications counters in the main menu->Missions->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Notifications counters in the main menu->Missions->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Notifications counters in the main menu->Campaigns->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Notifications counters in the main menu->Campaigns->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Notifications counters in the main menu->Service Record->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Notifications counters in the main menu->Service Record->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Notifications counters in the main menu->Store->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Notifications counters in the main menu->Store->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Removable equipment auto-return->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Removable equipment auto-return->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->restore selected battle type on switching to another server (only random, frontline and rank battle modes)->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->restore selected battle type on switching to another server (only random, frontline and rank battle modes)->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Session Statistics Button->show battle count->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Session Statistics Button->show battle count->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->show selected battle mode text->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->show selected battle mode text->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Buy premium" button->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Buy premium" button->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Dogtag Widget->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Dogtag Widget->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Create squad" text on the squad creation button->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Create squad" text on the squad creation button->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"General chat" button->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"General chat" button->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Premium shop" button->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Premium shop" button->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->promo of premium vehicle (on the background in the hangar)->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->promo of premium vehicle (on the background in the hangar)->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Referral Program" button->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->"Referral Program" button->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->info window with list of received awards for "Reward for Merit"->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->info window with list of received awards for "Reward for Merit"->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Server Ping->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Server Ping->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Server Populations
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Server Populations->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Server Populations->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->squad window parameters->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->squad window parameters->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->squad window parameters->enable->show players clan->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->squad window parameters->enable->show players clan->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->squad window parameters->enable->format of vehicle info field->vehicle level
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->squad window parameters->enable->format of vehicle info field->minimal - maximal vehicle battle tier
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->squad window parameters->enable->format of vehicle info field->vehicle level AND minimal - maximal vehicle battle tier
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Session Info
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Garage Statistics->Enabled->alternative position
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tank Statistics (with gunmark info [MoE])
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tank History Informer in Garage by HAWG
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tech Tree free XP convert option->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tech Tree free XP convert option->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tooltips->combine icons of equipment and optional devices into one row->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tooltips->combine icons of equipment and optional devices into one row->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tooltips->hide simplified vehicle parameters->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tooltips->hide simplified vehicle parameters->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tooltips->hide text at bottom of tooltip showing quantity of used eqipment, optional devices and crew->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tooltips->hide text at bottom of tooltip showing quantity of used eqipment, optional devices and crew->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tooltips->display of missing experience to unlock vehicles->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Tooltips->display of missing experience to unlock vehicles->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->initial page for other players service records->awards
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->initial page for other players service records->hall of fame
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->initial page for other players service records->statistics
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->initial page for other players service records->summary
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->initial page for other players service records->vehicles
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->initial page for current user service record->awards
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->initial page for current user service record->hall of fame
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->initial page for current user service record->statistics
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->initial page for current user service record->summary
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->initial page for current user service record->vehicles
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->show xTE column in the vehicle list->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->show xTE column in the vehicle list->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->set the default focus to the filter text input->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->set the default focus to the filter text input->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->show filters on tanks->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->show filters on tanks->enable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->enable filter tanks in hangar by default->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface->Userinfo (Service Record)->enable filter tanks in hangar by default->enable
+ - XVM config builder->-----[HANGAR Settings]------>Login->Auto-login->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Login->Auto-login->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Login->Hide the old replay confirmation window->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Login->Hide the old replay confirmation window->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Login->Show server ping->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Login->Show server ping->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Login->Save last server->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Login->Save last server->Disabled
+ - XVM config builder->-----[HANGAR Settings]------>Login->Show server populations->Enabled
+ - XVM config builder->-----[HANGAR Settings]------>Login->Show server populations->Disabled
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Chat->WN8-ChatColor
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->6th sense - Icon Duration->2 sec 6th sense icon
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->6th sense - Icon Duration->5 sec 6th sense icon
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->6th sense - Icon Duration->10 sec 6th sense icon
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Average Damage->Enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Average Damage->Disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Assist Log
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Battle Efficiency (ingame current wn8 calculator)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Battle Hints->hide trajectory view->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Battle Hints->hide trajectory view->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Battle Hints->hide siege indicator->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Battle Hints->hide siege indicator->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Battle Hints->hide quest progress->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Battle Hints->hide quest progress->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Battle Hints->hide help screen->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Battle Hints->hide help screen->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Battle Hints->hide radar hint ("Steel Hunter" mode)->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Battle Hints->hide radar hint ("Steel Hunter" mode)->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Capture Bar->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Capture Bar->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Capture Bar->enable; but hide own progress bar
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Damage Indicator + (this is an additional indicator, you still can choose one from "Ingame Info")
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Damage Log->Enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Damage Log->Disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Damage Log->move DamageLog in Battle (CTRL+Mouse)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Damage Log->Enable toggling of client default damagelog from game settings
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Damage Panel Repair Timers->Enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Damage Panel Repair Timers->Disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->DebugPanel->v1
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->DebugPanel->v2
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->DebugPanel->v3 by Ress
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->DebugPanel->v4
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->DebugPanel->v5
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->DebugPanel->v6
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->DebugPanel->v7
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->DebugPanel->v8
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->DebugPanel->v9
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->High Caliber Tracker->Enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->High Caliber Tracker->Disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Hitlog->Enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Hitlog->Disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Hitlog->move in battle
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Hull-Info by HAWG
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->HP Pools / Frag Correlation Bar->Arm
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->HP Pools / Frag Correlation Bar->WGL_old
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->HP Pools / Frag Correlation Bar->Fallout
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->HP Pools / Frag Correlation Bar->Straight
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->HP Pools / Frag Correlation Bar->MIAPAK
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Last Hit Announcer->Enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Last Hit Announcer->Disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->InfoPanel->InfoPanel masheene
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Minimap Dead Switch->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Minimap Dead Switch->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Information Label for Missions (Mission Tracker)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Postmortem Tips->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Postmortem Tips->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Postmortem Dogtag->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Postmortem Dogtag->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Repair Control
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Scoreboard->Show Alive
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Scoreboard->Show Kills
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Speed of current tank by HAWG
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Squadmember Color Change->Purple
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Total Efficiency->Enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Total Efficiency->Disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Total Efficiency->move the total efficiency label->under the chat (bottom left)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Total Efficiency->move the total efficiency label->above damagelog
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Total HP->Enable total HP
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Total HP->Disable total HP
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Vehicle On Fire Announcer->Enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Vehicle On Fire Announcer->Disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->WN8 Comparison->WN8 Comparison (Standard)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->WN8 Comparison->WN8 Comparison by Slava7572
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->scroll sensitivity (default 5)->4
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->scroll sensitivity (default 5)->5 (default)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->scroll sensitivity (default 5)->6
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->scroll sensitivity (default 5)->7
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->scroll sensitivity (default 5)->8
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->scroll sensitivity (default 5)->9
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->scroll sensitivity (default 5)->10
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->starting zoom (sniper mode)->last used zoom step
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->starting zoom (sniper mode)->2x
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->starting zoom (sniper mode)->4x
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->starting zoom (sniper mode)->8x
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->starting zoom (sniper mode)->16x
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->show zoom indicator->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->show zoom indicator->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->zoom steps (sniper mode)->2, 4, 8, 12
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->zoom steps (sniper mode)->2, 4, 8, 16, 25
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->zoom steps (sniper mode)->2, 4, 8, 12, 16, 20, 26, 32
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->zoom steps (sniper mode)->2, 4, 8, 12, 16, 20, 26, 32, 40, 48
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->zoom steps (sniper mode)->2, 4, 8, 12, 16, 20, 26, 32, 40, 48, 52, 56
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->zoom steps (sniper mode)->2, 4, 8, 12, 16, 20, 26, 32, 40, 48, 50, 52, 54, 56, 58, 60
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->Zoom Out Config (meters)->Arcade->100m
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->Zoom Out Config (meters)->Arcade->200m
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->Zoom Out Config (meters)->Arcade->500m
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->Zoom Out Config (meters)->Postmortem->100m
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->Zoom Out Config (meters)->Postmortem->200m
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->Zoom Out Config (meters)->Postmortem->500m
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->Zoom Out Config (meters)->Strategic->200m
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->Zoom Out Config (meters)->Strategic->500m
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->modify td brake->disable (limitation, brake is automatically set in sniper view)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->modify td brake->enable (no limitation, press "x" manually to activate brake)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->dimming and greening in sniper scope (noBinoculars)->dim (enable binoculars view)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->dimming and greening in sniper scope (noBinoculars)->don´t dim (disable binoculars view)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->recoil effect (for the enabled dynamic camera option)->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->recoil effect (for the enabled dynamic camera option)->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->red flash when enemy hit your tank->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->red flash when enemy hit your tank->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Colorblind options->change the in-battle color of enemy names to violet/blue
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Disabled (Use stock WoT markers)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->OTM-Style:->OMC
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->OTM-Style:->elektrosmoker v1
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->OTM-Style:->Willster419
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->OTM-Style:->Aslain
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->OTM-Style:->J1mb0
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->OTM-Style:->NDO [night_dragon_on]
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->OTM-Style:->Solo
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->OTM-Style:->teQuilamaN
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->OTM-Style with detailed options:->OMC
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->Kill Symbols->red OMC-SKULL on enemies & ANGELWINGS on allies
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->Kill Symbols->GRAVESTONE (on enemies) by BoingPlatsch
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker OTM->Enabled (Use XVM markers)->Player's position in the beginning of battle (for CW) [doesnt work with all marker styles]
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->stock WoT minimap
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Zoom
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Zoom->hotkey - Left CTRL (default)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Zoom->hotkey - Left SHIFT
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Zoom->hotkey - Left ALT [possible conflicts with other mod´s hotkeys]
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Zoom->zoom - bottom right (default)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->Zoom->zoom - centered
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->HP Circles->show permanent
+ - XVM config builder->-----[IN-BATTLE Settings]------>Minimap->XVM Minimap->HP Circles->show when pressing the ALT-key
+ - XVM config builder->-----[IN-BATTLE Settings]------>Players Panel->Enable->Starting Position->short
+ - XVM config builder->-----[IN-BATTLE Settings]------>Players Panel->Enable->Starting Position->medium (standard)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Players Panel->Enable->Starting Position->medium 2
+ - XVM config builder->-----[IN-BATTLE Settings]------>Players Panel->Enable->Starting Position->large
+ - XVM config builder->-----[IN-BATTLE Settings]------>Players Panel->Enable->Enemy Spotted Marker->enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Players Panel->Enable->Enemy Spotted Marker->disable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Players Panel->Enable->Friends-Marker
+ - XVM config builder->-----[IN-BATTLE Settings]------>Players Panel->Enable->Friends-Marker->Blacklisted-Marker
+ - XVM config builder->-----[IN-BATTLE Settings]------>Players Panel->Enable->Friends-Marker->change markers position (->) (if tankicons are overlapping)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Players Panel->Enable->Show who´s using XVM (xvmUserMarker)->change position of "x" (->)
+ - XVM config builder->-----[IN-BATTLE Settings]------>Players Panel->Enable->Show language flag->based on XVM selected language->change the flag´s position (<-)
+ - Damage Logs/Damage Panels->Damage Panels->Hawgs Glass->Original
+ - Damage Logs/Damage Panels->Damage Panels->Hawgs Glass->with angle indicator (outer)
+ - Damage Logs/Damage Panels->Damage Panels->Hawgs Glass->with angle indicator (inner full)
+ - Damage Logs/Damage Panels->Damage Panels->Hawgs Glass->with angle indicator (inner lite)
+ - Ingame Aim->Battle Assistant v2.2.6
 
 Renamed:
- - "dirty20067 v2019-12-17" was renamed to "dirty20067 v2020-02-02"
- - "Hangar Manager "HangMan" v2.45" was renamed to "Hangar Manager "HangMan" v62.4"
 
 Moved:
 
 Disabled:
- - Sound Mods->Gun->GnomeFather’s HRMOD Gun Sounds (reworked by Zorgane)  v2.16_1.7.0.2
- - Tank Skin Misc->camouflage management->Customization Manager
 
 Removed:
 
