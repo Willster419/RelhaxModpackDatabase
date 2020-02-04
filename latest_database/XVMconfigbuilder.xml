@@ -1856,6 +1856,7 @@
         <Packages>
           <Package PackageName="XVMConfigBuilder_BattleInterface_6thSenseDuration" Enabled="True" InstallGroup="4" PatchGroup="4" Name="6th sense - Icon Duration" Type="multi" Visible="True">
             <Description>Configure how long the 6th sense icon stays on your screen.\nIf you later select 6th sense settings in the 6th sense tab, this is automaticaly turned off.</Description>
+            <ConflictingPackages>Ingame_Info_6thsense</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_6thSenseDuration_2sec" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2 sec 6th sense icon" Type="single_dropdown1" Visible="True">
                 <Size>938</Size>
