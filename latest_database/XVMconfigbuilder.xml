@@ -8,7 +8,7 @@
   </Dependencies>
   <Package PackageName="XVMconfigBuilder_BuildSelector" Enabled="True" InstallGroup="4" PatchGroup="4" Name="-----[Build Selector]----- (choose between Stable and Nightly)" Type="single1" Visible="True">
     <Packages>
-      <Package PackageName="XVMconfigBuilder_BuildSelector_Stable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Stable v{version}" Type="single_dropdown1" Visible="True">
+      <Package PackageName="XVMconfigBuilder_BuildSelector_Stable" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Stable v{version}" Type="single_dropdown1" Visible="True">
         <Version>8.3.0_74</Version>
         <Dependencies>
           <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
