@@ -26,8 +26,8 @@
             <ZipFile>Ingame_Info_15m_Circle_toggle_patch_NumPad1_1.1.0.0_2018-08-30.zip</ZipFile>
             <CRC>f8710f48e353adcd1d11f447b23d968b</CRC>
             <Timestamp>131801177167012958</Timestamp>
+            <InternalNotes>NumPad0 does also reset artylog mod, changed to NumPad1</InternalNotes>
             <Description>Old working file:\nIngame_Info_15m_Circle_Base_by_Jove_0.9.21.0.1_wotmods.zip\n\nCircle &amp; color is in mod_Circle15.pyc cause unable to change color, folder "objects" not needed anymore, ALL  Circle15.dds (different colors  dont change colr)</Description>
-            <UpdateComment>NumPad0 does also reset artylog mod, changed to NumPad1</UpdateComment>
           </Package>
           <Package PackageName="Ingame_Info_15m_Circle_Default_Enabled" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled by Default" Type="single_dropdown1" Visible="True">
             <Size>1266</Size>
@@ -349,8 +349,8 @@
         <CRC>05f460818d4b14b40696d76a543c9e1e</CRC>
         <Timestamp>132133138164597212</Timestamp>
         <DevURL>https://www.oldskool.vip/promod/ProMod.zip</DevURL>
+        <InternalNotes>res\scripts\client\gui\mods\mod_debugpanel.pyc &amp; No swf-filesx</InternalNotes>
         <Author>OldSkool</Author>
-        <UpdateComment>res\scripts\client\gui\mods\mod_debugpanel.pyc &amp; No swf-filesx</UpdateComment>
         <Dependencies>
           <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
@@ -362,8 +362,8 @@
         <ZipFile>Ingame_Info_DebugPanel_by_The_Illusion_2019-03-23.zip</ZipFile>
         <CRC>96137ccfe935e9d4082ba95e7c397716</CRC>
         <Timestamp>131978497357256251</Timestamp>
+        <InternalNotes>gui\flash\debugPanel.swf &amp; No pyc-files</InternalNotes>
         <Author>theIllusion</Author>
-        <UpdateComment>gui\flash\debugPanel.swf &amp; No pyc-files</UpdateComment>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/debugpanel/Ingame_Info_DebugPanel_by_The_Illusion.png" MediaType="Picture" />
         </Medias>
@@ -374,9 +374,9 @@
         <CRC>f1a26d7656dbf2f2ba395153afe56481</CRC>
         <Timestamp>131978495557429361</Timestamp>
         <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1419789-</DevURL>
+        <InternalNotes>gui\flash\debugPanel.swf &amp; No pyc-files</InternalNotes>
         <Author>lenya69</Author>
         <Description>"Harpoon" Fps Ping coloredBar in the upper left corner.\n\r\n\r\nby lenya69</Description>
-        <UpdateComment>gui\flash\debugPanel.swf &amp; No pyc-files</UpdateComment>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Fps_Ping_coloredBar_upper_left_corner_by_lenya69_2017-07-06.jpg" MediaType="Picture" />
         </Medias>
@@ -406,8 +406,9 @@
         <CRC>de100cd3f133e48a095fec184d87ab6c</CRC>
         <Timestamp>132259460567236603</Timestamp>
         <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+        <InternalNotes>Conflicts with Battle Observer &amp;  with oldskool.playerspanel.api in\r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\nused by\r\nIngame_Misc_chatmods_FriendsMarker_Oldskool\r\nIngame_Info_Enemy_Spotted_Status (by Oldskool)\r\n\r\nuse  Logic NotFlag = "NAND" = Not and for \r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\n\r\nChampi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</InternalNotes>
         <Description>MOD DESCRIPTION: Customizable tank health bars for the playerpanel.\r\n\r\nfeatures:\r\n-draws background in vehicle class colors (see screenshot) or in standard green (own team) / red (enemy team)\r\n-can show only remaining structure points or current/max structure points\r\n-changeable graphics and layout - you can make your own backgrounds if you like\r\n\r\nNote: the health bars of the enemy team are only updated when the opponent is spotted and you're in radio signal range (if you didn't spot it by yourself). This rule is also valid for your own team. With other words: YOU CAN'T SEE IF YOUR BLIND SHOT HIT AN OPPONENT! :)\r\n\r\ncredits:\r\n-Yury Polyacov: For the permission to use his API in my mod. This mod used a modified version of the player panel API.\r\n-spoter: For his settings GUI</Description>
-        <UpdateComment>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n\r\n- 1.14\r\n- fix: the health bars are no longer drawn in full size when a tank is under 1% of the structure points. - fix: enemy spotted status icons are no longer set tanks to unspotted when they are out the max. drawing distance. - add: champiCore v1.06 lib included - add: slightly modified version of the eye icon set. (eye-symbol v2). The undetected icon is a bit darker and the spotted icon is more shiny, maybe you like it more. Look at the tooltip for preview. - code cleanup and corrections\r\n\r\nConflicts with Battle Observer &amp;  with oldskool.playerspanel.api in\r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\nused by\r\nIngame_Misc_chatmods_FriendsMarker_Oldskool\r\nIngame_Info_Enemy_Spotted_Status (by Oldskool)\r\n\r\nuse  Logic NotFlag = "NAND" = Not and for \r\nDependency_playersPanelAPI_POLIROID_PROMOD\r\n\r\nChampi HP Bars (Conflicts with A.) Enemy spotted status &amp; B.) Friends Marker  BOTH by oldskool &amp; C.) Battle Observer)</UpdateComment>
+        <UpdateComment>- 1.14\r\n- fix: the health bars are no longer drawn in full size when a tank is under 1% of the structure points. \r\n- fix: enemy spotted status icons are no longer set tanks to unspotted when they are out the max. drawing distance. - add: champiCore v1.06 lib included \r\n- add: slightly modified version of the eye icon set. (eye-symbol v2). The undetected icon is a bit darker and the spotted icon is more shiny, maybe you like it more. Look at the tooltip for preview. \r\n- code cleanup and corrections\r\n\r\n</UpdateComment>
         <Medias>
           <Media URL="https://wgmods.net/media/mod_files/tankbars_classcolor.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
           <Media URL="https://wgmods.net/media/mod_files/ingame1.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
@@ -586,9 +587,9 @@
     <CRC>cf401be54d69c4c04b98368dff238156</CRC>
     <Timestamp>132251445046525750</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/731680-1702-champis-tank-rating-colors\r\nhttps://wot.champi.de/\r\nhttps://wgmods.net/4045/</DevURL>
+    <InternalNotes>Maybe conflict with "Contour skins with areas of penetration" or just hard to see</InternalNotes>
     <Author>CHAMPi</Author>
     <Description>Repaints tanks based on winrate or WGR value without any textures!\r\nuse ESC in the hangar and then click on MOD Settings\r\n\r\nfeatures:\r\n - you can decide which tank parts are painted (hull, chassis, turret, gun)\r\n - you can choose which tanks are painted (enemy tanks, ally tanks and/or your own tank)\r\n - you can control if camouflages are removed before the tanks are painted (not all are currently removed - in work!)\r\n - you can set the gloss and metallic effect for the color.\r\n - graphical user interface to control the most important settings</Description>
-    <UpdateComment>Maybe conflict with "Contour skins with areas of penetration" or just hard to see</UpdateComment>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/InBattle_Rating/Ingame_Info_InBattle_Rating_Champi_00.png" MediaType="Picture" />
       <Media URL="https://wot.champi.de/gfx/ratingcolortable.png" MediaType="Picture" />
@@ -675,7 +676,6 @@
         <CRC>cd8fe2dd2f43990df3ba6c6161ba75fe</CRC>
         <Timestamp>132208365532242521</Timestamp>
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/603810-1010-oldskool-mods-autoequip-artylog-battle-ratings-more/</DevURL>
-        <UpdateComment>2. URL for Oldskool mods: https://wgmods.net/search/?owner=38530</UpdateComment>
         <Dependencies>
           <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
@@ -690,7 +690,6 @@
         <Timestamp>132247245946792747</Timestamp>
         <DevURL>https://protanki.tv/mods/battle_mod/kalkulyator-boevoi-effektivnosti</DevURL>
         <Description>Combat efficiency calculator for World of Tanks.\n\nMaud calculates the expected damage for each tank right during the battle.\n\nThe negative value of the damage shows how much you need to fill the damage so that its value is above average.\n\nHe considers the costs of silver spent in combat.</Description>
-        <UpdateComment>2019-05-03: switched back from v1.2.1 to v1.2</UpdateComment>
         <Medias>
           <Media URL="https://storage.protanki.tv/uploads/images/7db45897-9df5-4707-9696-9efdc9136e4b.jpg" MediaType="Picture" />
         </Medias>
@@ -1026,7 +1025,6 @@
     <DevURL>http://wotsite.net/mody-dlya-world-of-tanks/12268-\r\nhttps://wgmods.net/523/details</DevURL>
     <Author>WGMods</Author>
     <Description>Shows primary and secondary conditions for Personal Missions\n\nThe mod window can be moved around the screen by holding down CTRL and dragging it using the mouse to the desired location.\r\n\r\nby izeberg</Description>
-    <UpdateComment>2. URL https://wgmods.net/523/details</UpdateComment>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_Show_Personal_Missions_in_detail_01.jpg" MediaType="Picture" />
       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_Show_Personal_Missions_in_detail_02.jpg" MediaType="Picture" />
@@ -1243,7 +1241,6 @@
         <Timestamp>132208366952652023</Timestamp>
         <DevURL>https://wgmods.net/1029/details</DevURL>
         <Description>features:\n- Default layout of masheene (THX!)\n- Display of the basic values ​​of vehicles Ingame\n- By ALT button, the ability to view your own vehicle\n- Ingame configurator</Description>
-        <UpdateComment>URL for Oldskool mods: https://wgmods.net/search/?owner=38530</UpdateComment>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/tank_info_panel/Ingame_Info_Tank_Info_Panel_by_OldSkool.jpg" MediaType="Picture" />
         </Medias>
