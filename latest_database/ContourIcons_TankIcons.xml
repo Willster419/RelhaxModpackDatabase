@@ -6,9 +6,9 @@
     <DevURL>https://ci.appveyor.com/project/rstarkov/tankiconmaker/build/artifacts</DevURL>
     <UpdateComment>Icons category maintained by Dirty20067 and 123Gauss</UpdateComment>
     <Dependencies>
-      <Dependency PackageName="Dependency_Atlases_Creation_vehicleMarkerAtlas" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_Atlases_Creation_battleAtlas" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_MVI_disable_XVM" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_AtlasCreation_battleAtlas" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_AtlasCreation_vehicleMarkerAtlas" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
       <Package PackageName="Contour_Icons_APCR_NOOB" Enabled="True" InstallGroup="4" PatchGroup="4" Name="APCR_NOOB - by Mike" Type="single1" Visible="True">
@@ -1226,9 +1226,9 @@
           <Media URL="https://i.imgur.com/6hwgUD7.png?1" MediaType="Picture" />
         </Medias>
         <Dependencies>
-          <Dependency PackageName="Dependency_Atlases_Creation_battleAtlas" NotFlag="True" Logic="AND" />
-          <Dependency PackageName="Dependency_Atlases_Creation_vehicleMarkerAtlas" NotFlag="True" Logic="AND" />
           <Dependency PackageName="Dependency_MVI_disable_XVM" NotFlag="True" Logic="AND" />
+          <Dependency PackageName="Dependency_AtlasCreation_battleAtlas" NotFlag="True" Logic="AND" />
+          <Dependency PackageName="Dependency_AtlasCreation_vehicleMarkerAtlas" NotFlag="True" Logic="AND" />
         </Dependencies>
         <Packages>
           <Package PackageName="Contour_Icons_RealTime_Original" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Original" Type="single_dropdown1" Visible="True">
