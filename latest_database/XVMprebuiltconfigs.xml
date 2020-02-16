@@ -16,6 +16,9 @@
   <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs" Enabled="True" InstallGroup="4" PatchGroup="4" Name="2 - Relhax developers:" Type="single1" Visible="True">
     <CRC>b56db18e93b2f3eb9fa0ce862d8f5641</CRC>
     <Timestamp>131980179882351364</Timestamp>
+    <Dependencies>
+      <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
+    </Dependencies>
     <Packages>
       <Package PackageName="XVMPrebuiltConfigs_123gauss" Enabled="True" InstallGroup="4" PatchGroup="4" Name="123gauss (colorblind) v{version}" Type="single_dropdown1" Visible="True">
         <Size>4514022</Size>
@@ -189,6 +192,7 @@
     </Medias>
     <Dependencies>
       <Dependency PackageName="Dependency_Fonts_Inconsolata" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
       <Package PackageName="XVMPrebuiltConfigs_OMC_FocusShield_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
@@ -251,10 +255,16 @@
     <Timestamp>132261420141285022</Timestamp>
     <DevURL>https://wgmods.net/3802/</DevURL>
     <Description>looks like vanilla - but with statistics</Description>
+    <Dependencies>
+      <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
+    </Dependencies>
   </Package>
   <Package PackageName="XVMPrebuiltConfigs_Various" Enabled="True" InstallGroup="4" PatchGroup="4" Name="XVM prebuilt configurations by known Streamers/Modders" Type="single1" Visible="True">
     <CRC>f</CRC>
     <Timestamp>132161401405627541</Timestamp>
+    <Dependencies>
+      <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
+    </Dependencies>
     <Packages>
       <Package PackageName="XVMPrebuiltConfigs_Aslain" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Aslain v{version}" Type="single_dropdown1" Visible="True">
         <Size>280795</Size>
