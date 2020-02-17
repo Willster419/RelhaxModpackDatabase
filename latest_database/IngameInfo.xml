@@ -475,7 +475,7 @@
             <CRC>9d2d7337cf28b8575525031c52a96c2a</CRC>
             <Timestamp>132259460663226057</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
-            <ConflictingPackages>Ingame_Info_HpPools</ConflictingPackages>
+            <ConflictingPackages>Ingame_Info_HpPools_PMOD</ConflictingPackages>
           </Package>
         </Packages>
       </Package>
@@ -484,13 +484,13 @@
   <Package PackageName="Ingame_Info_HpPools" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Pools" Type="multi" Visible="True">
     <CRC>f</CRC>
     <Timestamp>132071743749522467</Timestamp>
-    <ConflictingPackages>Ingame_Info_HpBars_Champi_HP_Pool</ConflictingPackages>
     <Packages>
       <Package PackageName="Ingame_Info_HpPools_PMOD" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PMOD" Type="single1" Visible="True">
         <Size>478</Size>
         <ZipFile>Ingame_Info_HP_Pools_PMOD_Enable_2019-09-11.zip</ZipFile>
         <CRC>a8795a57c71f78879519037906ca8e30</CRC>
         <Timestamp>132126612805529396</Timestamp>
+        <ConflictingPackages>Ingame_Info_HpBars_Champi</ConflictingPackages>
         <Dependencies>
           <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
         </Dependencies>
