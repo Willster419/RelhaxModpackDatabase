@@ -278,6 +278,7 @@
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/enable_xvm_cells_header_message.png" MediaType="Picture" />
             </Medias>
+            <ConflictingPackages>Garage_Mods_Auxilium_Carousel</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMconfigBuilder_Carousel_Slots" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Slot content" Type="multi" Visible="True">
                 <Description>Change the content inside the tank cells</Description>
@@ -968,6 +969,7 @@
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_XP_locker.jpg" MediaType="Picture" />
             </Medias>
+            <ConflictingPackages>Garage_mods_Auxilium_settings_FreeXP_Locker</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMconfigBuilder_GarageInterface_FreeXPLocker_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
                 <Size>963</Size>
@@ -986,6 +988,7 @@
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Gold_Locker.jpg" MediaType="Picture" />
             </Medias>
+            <ConflictingPackages>Garage_mods_Auxilium_settings_Gold_Locker</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMconfigBuilder_GarageInterface_GoldLocker_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
                 <Size>957</Size>
@@ -1055,6 +1058,7 @@
           </Package>
           <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Combat Intelligence&quot; - notifications in the main window and counters in the menu" Type="multi" Visible="True">
             <Description>currently we do not offer the option for disabling combat intelligence notifications in the main window.\nbut disabling the counter for unread messages is possible.</Description>
+            <ConflictingPackages>Garage_Mods_Annoying_Features_Remover</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages" Enabled="False" InstallGroup="4" PatchGroup="4" Name="display pop-up messages in the hangar" Type="multi" Visible="False">
                 <Packages>
@@ -1100,6 +1104,7 @@
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return.jpg" MediaType="Picture" />
             </Medias>
+            <ConflictingPackages>Garage_mods_Auxilium_settings_auto_crew_return</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault" Enabled="True" InstallGroup="4" PatchGroup="4" Name="return crew check box is selected by default" Type="multi" Visible="True">
                 <Packages>
@@ -1139,6 +1144,7 @@
             <Medias>
               <Media URL="https://puu.sh/AP8NO/a58307cbb2.png" MediaType="Picture" />
             </Medias>
+            <ConflictingPackages>Ingame_Info_MoG_Extended_show_in_techtree</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
                 <Size>969</Size>
@@ -1219,6 +1225,7 @@
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return_Equips.jpg" MediaType="Picture" />
             </Medias>
+            <ConflictingPackages>Garage_mods_auto_equip_equipment</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
                 <Size>1005</Size>
@@ -1804,6 +1811,7 @@
           </Package>
           <Package PackageName="XVMconfigBuilder_Login_SaveLastServer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Save last server" Type="multi" Visible="True">
             <Description>Save the last server that you logged into</Description>
+            <ConflictingPackages>Garage_mods_Auxilium_settings_prefered_server</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMconfigBuilder_Login_SaveLastServer_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
                 <Size>961</Size>
@@ -1892,6 +1900,7 @@
             <Medias>
               <Media URL="https://puu.sh/ApLEG/c48ffd73ad.png" MediaType="Picture" />
             </Medias>
+            <ConflictingPackages>Ingame_Aim_SPG_Flytime</ConflictingPackages>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_PY_beginBattle" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_XVM_PY_displayingItems" NotFlag="False" Logic="OR" />
@@ -1937,11 +1946,13 @@
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_battleEfficiency.png" MediaType="Picture" />
             </Medias>
+            <ConflictingPackages>Ingame_Info_InBattle_Rating</ConflictingPackages>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battle Hints" Type="multi" Visible="True">
+            <ConflictingPackages>Ingame_Misc_Arty_and_Siege_Filter</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideTrajectoryView" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide trajectory view" Type="multi" Visible="True">
                 <Description>hide the tips aiming mode changing in strategic mode</Description>
@@ -2141,6 +2152,7 @@
           <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DebugPanel" Type="multi" Visible="True">
             <Timestamp>131812488048625094</Timestamp>
             <Description>Show FPS / Ping / Clock in upper left corner.</Description>
+            <ConflictingPackages>Ingame_Info_DebugPanel</ConflictingPackages>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_elementsXC_temp_prepatch" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_XVM_PY_debugPanel" NotFlag="False" Logic="OR" />
@@ -2256,6 +2268,7 @@
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
                 </Medias>
+                <ConflictingPackages>Ingame_Info_HighCaliber</ConflictingPackages>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_HighCaliber_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
                 <Size>958</Size>
@@ -2312,7 +2325,7 @@
               <Dependency PackageName="Dependency_XVM_XC_hull" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_hpBar" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Bar" Type="multi" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_hpBar" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Health Bar (under consumables panel)" Type="multi" Visible="True">
             <Size>12986</Size>
             <ZipFile>XVMConfigBuilder_BattleInterface_hpBar_2019-09-18.zip</ZipFile>
             <CRC>5592fc18ad9803069424b4dab0189b3c</CRC>
@@ -2344,6 +2357,7 @@
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Pools / Frag Correlation Bar" Type="multi" Visible="True">
             <DevURL>https://koreanrandom.com/forum/topic/40350-конфигурации-totalhp-средствами-xvm/</DevURL>
+            <ConflictingPackages>Ingame_Info_HpPools</ConflictingPackages>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_elementsXC_temp_prepatch" NotFlag="False" Logic="OR" />
             </Dependencies>
@@ -2429,6 +2443,7 @@
           <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InfoPanel" Type="multi" Visible="True">
             <Timestamp>131826011602311721</Timestamp>
             <Description>shows a tankinfopanel like the ones chooseable in IngameInfo</Description>
+            <ConflictingPackages>Ingame_Info_Tank_Info_Panel</ConflictingPackages>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_PY_infoPanel" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
@@ -2495,6 +2510,7 @@
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png" MediaType="Picture" />
             </Medias>
+            <ConflictingPackages>Ingame_Aim_Penetration</ConflictingPackages>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
             </Dependencies>
@@ -2785,6 +2801,7 @@
             <ZipFile>XVMConfigBuilder_Camera_enable.zip</ZipFile>
             <CRC>8793977e9b9d8e55675722412c1e90f1</CRC>
             <Description>if you are using xvm, we recommend using this camera options instead of PMOD.\ndont use pmod zoomoptions and xvm zoom options at the same time!</Description>
+            <ConflictingPackages>Ingame_Aim_ZoomIn,Ingame_Aim_ZoomOut</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMConfigBuilder_Camera_Zoom" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Zoom Options (xvm)" Type="multi" Visible="True">
                 <Packages>
@@ -3203,6 +3220,7 @@
             <Size>930</Size>
             <ZipFile>XVM_config_builder_markers_enabled.zip</ZipFile>
             <CRC>386f6564c7ab12d719f83116862879c1</CRC>
+            <ConflictingPackages>Ingame_Misc_Flying_Damage</ConflictingPackages>
             <Packages>
               <Package PackageName="XVMconfigBuilder_Marker_Style" Enabled="True" InstallGroup="4" PatchGroup="4" Name="OTM-Style:" Type="single1" Visible="True">
                 <Packages>
@@ -3866,6 +3884,7 @@
                 </Packages>
               </Package>
               <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Bars" Type="multi" Visible="True">
+                <ConflictingPackages>Ingame_Info_HpBars</ConflictingPackages>
                 <Packages>
                   <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_inside" Enabled="True" InstallGroup="4" PatchGroup="4" Name="inside PlayersPanel" Type="multi" Visible="True">
                     <Packages>
@@ -3976,6 +3995,7 @@
               <Package PackageName="XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enemy Spotted Marker" Type="multi" Visible="True">
                 <Timestamp>131910190208253101</Timestamp>
                 <Description>This is a Spotted Status Indicator for the enemy team.</Description>
+                <ConflictingPackages>Ingame_Info_Enemy_Spotted_Status</ConflictingPackages>
                 <Packages>
                   <Package PackageName="XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
                     <Size>509</Size>
@@ -3997,6 +4017,7 @@
                 <CRC>93ccbb6fc0f2127f0bec6efb7d682ce7</CRC>
                 <Timestamp>132133073820783707</Timestamp>
                 <Description>marks friends in allied/enemy playerspanel with a green dot,\n\nit´s also possible to mark blacklisted tankers in allied/enemy playerspanel with a red dot.\n\nif the tanksymbol is overlapping there´s an option to move the icon left/right</Description>
+                <ConflictingPackages>Ingame_Misc_Chatmods_FriendsMarker_Oldskool</ConflictingPackages>
                 <Packages>
                   <Package PackageName="XVMconfigBuilder_PlayersPanel_ignoredIcon" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Blacklisted-Marker" Type="multi" Visible="True">
                     <Size>4518</Size>
