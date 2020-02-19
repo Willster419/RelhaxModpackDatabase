@@ -496,12 +496,44 @@
           <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Ingame_Info_HpPools_PMOD_High_Caliber" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable High Caliber Display (Doesnt work on all skins)" Type="multi" Visible="True">
+          <Package PackageName="Ingame_Info_BattleGUI_PMOD_High_Caliber" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable High Caliber Display (Doesnt work on all skins)" Type="multi" Visible="True">
             <ZipFile>Ingame_Info_HpPools_PMOD_Enable_HC_1.7.1.2_2020-02-18.zip</ZipFile>
             <CRC>f</CRC>
             <Timestamp>132265274133098132</Timestamp>
           </Package>
-          <Package PackageName="Ingame_Info_HpPools_PMOD_Skin_Selections" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skins" Type="single1" Visible="True">
+          <Package PackageName="Ingame_Info_BattleGUI_PMOD_Players_Panel_State" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Players Panel State" Type="multi" Visible="True">
+            <ZipFile>Ingame_Info_HP_Pools_PMOD_Enable_2019-09-11.zip</ZipFile>
+            <CRC>a8795a57c71f78879519037906ca8e30</CRC>
+            <Timestamp>132126612805529396</Timestamp>
+            <Packages>
+              <Package PackageName="Ingame_Info_BattleGUI_PMOD_Players_Panel_State_None" Enabled="True" InstallGroup="4" PatchGroup="4" Name="None" Type="single_dropdown1" Visible="True">
+                <ZipFile>Ingame_Info_HpPools_PMOD_Players_Panel_State_NONE_1.7.1.2_2020-02-19.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132265995834734946</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Info_BattleGUI_PMOD_Players_Panel_State_Short" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Short" Type="single_dropdown1" Visible="True">
+                <ZipFile>Ingame_Info_HpPools_PMOD_Players_Panel_State_SHORT_1.7.1.2_2020-02-19.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132265996011440901</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Info_BattleGUI_PMOD_Players_Panel_State_Medium" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Medium" Type="single_dropdown1" Visible="True">
+                <ZipFile>Ingame_Info_HpPools_PMOD_Players_Panel_State_MEDIUM_1.7.1.2_2020-02-19.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132265996198709453</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Info_BattleGUI_PMOD_Players_Panel_State_Medium_2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Medium 2" Type="single_dropdown1" Visible="True">
+                <ZipFile>Ingame_Info_HpPools_PMOD_Players_Panel_State_MEDIUM2_1.7.1.2_2020-02-19.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132265996439131631</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Info_BattleGUI_PMOD_Players_Panel_State_Large" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Large" Type="single_dropdown1" Visible="True">
+                <ZipFile>Ingame_Info_HpPools_PMOD_Players_Panel_State_LARGE_1.7.1.2_2020-02-19.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132265996597115469</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Ingame_Info_BattleGUI_PMOD_Skin_Selections" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Skins" Type="single1" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132265269806039215</Timestamp>
             <Packages>
@@ -531,7 +563,7 @@
                 <Timestamp>132071744844542624</Timestamp>
                 <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
               </Package>
-              <Package PackageName="Ingame_Info_HpPools_PMOD_lebwa_varian_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Lebwa Variant #1" Type="single_dropdown1" Visible="True">
+              <Package PackageName="Ingame_Info_BattleGUI_PMOD_lebwa_varian_1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Lebwa Variant #1" Type="single_dropdown1" Visible="True">
                 <ZipFile>Ingame_Info_HpPools_PMOD_lebwa_1_1.7.1.2_2020-02-18.zip</ZipFile>
                 <CRC>f</CRC>
                 <Timestamp>132265263518655375</Timestamp>
@@ -539,7 +571,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_1.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Ingame_Info_HpPools_PMOD_lebwa_varian_2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Lebwa Variant #2" Type="single_dropdown1" Visible="True">
+              <Package PackageName="Ingame_Info_BattleGUI_PMOD_lebwa_varian_2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Lebwa Variant #2" Type="single_dropdown1" Visible="True">
                 <ZipFile>Ingame_Info_HpPools_PMOD_lebwa_2_1.7.1.2_2020-02-18.zip</ZipFile>
                 <CRC>f</CRC>
                 <Timestamp>132265263888106890</Timestamp>
@@ -547,7 +579,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_2.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Ingame_Info_HpPools_PMOD_lebwa_varian_3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Lebwa Variant #3" Type="single_dropdown1" Visible="True">
+              <Package PackageName="Ingame_Info_BattleGUI_PMOD_lebwa_varian_3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Lebwa Variant #3" Type="single_dropdown1" Visible="True">
                 <ZipFile>Ingame_Info_HpPools_PMOD_lebwa_3_1.7.1.2_2020-02-18.zip</ZipFile>
                 <CRC>f</CRC>
                 <Timestamp>132265264197314486</Timestamp>
@@ -555,7 +587,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_3.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Ingame_Info_HpPools_PMOD_lebwa_varian_4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Lebwa Variant #4" Type="single_dropdown1" Visible="True">
+              <Package PackageName="Ingame_Info_BattleGUI_PMOD_lebwa_varian_4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Lebwa Variant #4" Type="single_dropdown1" Visible="True">
                 <ZipFile>Ingame_Info_HpPools_PMOD_lebwa_4_1.7.1.2_2020-02-18.zip</ZipFile>
                 <CRC>f</CRC>
                 <Timestamp>132265264474704967</Timestamp>
@@ -563,7 +595,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_4.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Ingame_Info_HpPools_PMOD_lebwa_varian_5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Lebwa Variant #5" Type="single_dropdown1" Visible="True">
+              <Package PackageName="Ingame_Info_BattleGUI_PMOD_lebwa_varian_5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Lebwa Variant #5" Type="single_dropdown1" Visible="True">
                 <ZipFile>Ingame_Info_HpPools_PMOD_lebwa_5_1.7.1.2_2020-02-18.zip</ZipFile>
                 <CRC>f</CRC>
                 <Timestamp>132265264729168184</Timestamp>
