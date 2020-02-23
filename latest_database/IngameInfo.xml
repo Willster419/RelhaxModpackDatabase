@@ -403,6 +403,12 @@
     <Timestamp>132269590185941109</Timestamp>
     <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
     <Author>CHAMPi</Author>
+    <Dependencies>
+      <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsListApi_CHAMPi" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+    </Dependencies>
     <Packages>
       <Package PackageName="Ingame_Info_HpBars_Champi" Enabled="False" InstallGroup="4" PatchGroup="4" Name="CHAMPi´s HP Bars" Type="single1" Visible="False">
         <Size>196079</Size>
