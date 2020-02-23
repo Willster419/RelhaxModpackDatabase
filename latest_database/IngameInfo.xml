@@ -396,9 +396,10 @@
       <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="Ingame_Info_HpBars" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Bars" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_Players_Panel_Pro" Enabled="True" InstallGroup="4" PatchGroup="4" Name="CHAMPIi's Players Panel Pro" Type="multi" Visible="True">
     <CRC>f</CRC>
     <Timestamp>132071743749522467</Timestamp>
+    <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
     <Packages>
       <Package PackageName="Ingame_Info_HpBars_Champi" Enabled="True" InstallGroup="4" PatchGroup="4" Name="CHAMPi´s HP Bars" Type="single1" Visible="True">
         <Size>196079</Size>
@@ -422,54 +423,64 @@
           <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_champiCore" NotFlag="False" Logic="OR" />
         </Dependencies>
+      </Package>
+      <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Bars" Type="multi" Visible="True">
+        <CRC>f</CRC>
+        <Timestamp>132071743749522467</Timestamp>
         <Packages>
-          <Package PackageName="Ingame_Info_HpBars_Champi_onAlways" Enabled="True" InstallGroup="4" PatchGroup="4" Name="always displayed" Type="single1" Visible="True">
+          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_onAlways" Enabled="True" InstallGroup="4" PatchGroup="4" Name="always displayed" Type="single_dropdown1" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132217266573929576</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
           </Package>
-          <Package PackageName="Ingame_Info_HpBars_Champi_toggle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="toggle (press alt to show/hide)" Type="single1" Visible="True">
+          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_toggle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="toggle (press alt to show/hide)" Type="single_dropdown1" Visible="True">
             <Size>474</Size>
             <ZipFile>Ingame_Info_HpBars_Champi_toggle_2019-12-25.zip</ZipFile>
             <CRC>12689c0e07d3937b378f481e686848f5</CRC>
             <Timestamp>132217292654563356</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
           </Package>
-          <Package PackageName="Ingame_Info_HpBars_Champi_hotkey" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hotkey (hold alt to show)" Type="single1" Visible="True">
+          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_hotkey" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hotkey (hold alt to show)" Type="single_dropdown1" Visible="True">
             <Size>474</Size>
             <ZipFile>Ingame_Info_HpBars_Champi_hotkey_2019-12-25.zip.zip</ZipFile>
             <CRC>e4eecd7884d3e62d83fe964cd5d085b5</CRC>
             <Timestamp>132217292756628639</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
           </Package>
-          <Package PackageName="Ingame_Info_HpBars_Champi_disable_class_icon" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable display of class icon next to panels" Type="multi" Visible="True">
+          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_disable_class_icon" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable display of class icon next to panels" Type="multi" Visible="True">
             <Size>507</Size>
             <ZipFile>Ingame_Info_HpBars_Champi_disable_class_icon_2019-12-25.zip</ZipFile>
             <CRC>b3cee189974fbdcd7a9b721c3ba320d8</CRC>
             <Timestamp>132217293758122378</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
           </Package>
-          <Package PackageName="Ingame_Info_HpBars_Champi_disable_class_color" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable hpbar color by vehicle class (becomes red/green)" Type="multi" Visible="True">
+          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_disable_class_color" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable hpbar color by vehicle class (becomes red/green)" Type="multi" Visible="True">
             <Size>506</Size>
             <ZipFile>Ingame_Info_HpBars_Champi_disable_class_color_2019-12-25.zip</ZipFile>
             <CRC>147e65883013be505a17ad3edaa75877</CRC>
             <Timestamp>132217293841472717</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
           </Package>
-          <Package PackageName="Ingame_Info_HpBars_Champi_disable_enemy_spotted_status" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable enemy spotted status" Type="multi" Visible="True">
+          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_disable_enemy_spotted_status" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable enemy spotted status" Type="multi" Visible="True">
             <Size>529</Size>
             <ZipFile>Ingame_Info_HpBars_Champi_disable_enemy_spotted_status_2019-12-25.zip</ZipFile>
             <CRC>897e6d8e55b68b74eb5ee2616760e507</CRC>
             <Timestamp>132217292839425816</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
           </Package>
-          <Package PackageName="Ingame_Info_HpBars_Champi_bars_closer_to_panels" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Move bars closer (~30px) to panels" Type="multi" Visible="True">
+          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_bars_closer_to_panels" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Move bars closer (~30px) to panels" Type="multi" Visible="True">
             <Size>701</Size>
             <ZipFile>Ingame_Info_HpBars_Champi_bars_closer_to_panels_2019-12-25.zip</ZipFile>
             <CRC>38ac0fbe1b44dec72c7bd77c02621a5e</CRC>
             <Timestamp>132217294011965389</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
           </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Pools" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WRITE_NEW_NAME" Type="multi" Visible="True">
+        <CRC>f</CRC>
+        <Timestamp>132071743749522467</Timestamp>
+        <Packages>
           <Package PackageName="Ingame_Info_HpBars_Champi_HP_Pool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Team HP Pools" Type="multi" Visible="True">
             <Size>512</Size>
             <ZipFile>Ingame_Info_HpBars_Champi_HP_Pool_1.7.1.2_2020-02-11.zip</ZipFile>
