@@ -1843,19 +1843,22 @@
           </Package>
           <Package PackageName="XVMconfigBuilder_Login_Clock" Enabled="True" InstallGroup="4" PatchGroup="4" Name="clock on login screen" Type="multi" Visible="True">
             <Packages>
-              <Package PackageName="XVMconfigBuilder_Login_Clock_A" Enabled="True" InstallGroup="4" PatchGroup="4" Name="A" Type="single_dropdown1" Visible="True">
-                <ZipFile>XVMconfigBuilder_Login_Clock_A_2020-02-26.zip</ZipFile>
+              <Package PackageName="XVMconfigBuilder_Login_Clock_onlyTime" Enabled="True" InstallGroup="4" PatchGroup="4" Name="only time" Type="single_dropdown1" Visible="True">
+                <ZipFile>XVMconfigBuilder_Login_Clock_onlyTime_2020-02-26.zip</ZipFile>
                 <CRC>f</CRC>
-                <Timestamp>132271972308803637</Timestamp>
+                <Timestamp>132271983067911159</Timestamp>
                 <Author>LordFelix \ elektrosmoker</Author>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/login/XVMconfigBuilder_Login_Clock_onlyTime.png" MediaType="Picture" />
+                </Medias>
                 <Dependencies>
                   <Dependency PackageName="Dependency_Fonts_Dinpro" NotFlag="False" Logic="OR" />
                 </Dependencies>
               </Package>
-              <Package PackageName="XVMconfigBuilder_Login_Clock_B" Enabled="True" InstallGroup="4" PatchGroup="4" Name="B" Type="single_dropdown1" Visible="True">
-                <ZipFile>XVMconfigBuilder_Login_Clock_B_2020-02-26.zip</ZipFile>
+              <Package PackageName="XVMconfigBuilder_Login_Clock_TimeDay" Enabled="True" InstallGroup="4" PatchGroup="4" Name="time and day" Type="single_dropdown1" Visible="True">
+                <ZipFile>XVMconfigBuilder_Login_Clock_TimeDay_2020-02-26.zip</ZipFile>
                 <CRC>f</CRC>
-                <Timestamp>132271972355315331</Timestamp>
+                <Timestamp>132271983335123686</Timestamp>
                 <Author>LordFelix \ elektrosmoker</Author>
                 <Dependencies>
                   <Dependency PackageName="Dependency_Fonts_Dinpro" NotFlag="False" Logic="OR" />
