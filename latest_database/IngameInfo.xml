@@ -765,10 +765,10 @@
   </Package>
   <Package PackageName="Ingame_Info_TankRatingColors" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Rating Colors " Type="multi" Visible="True">
     <Size>71940</Size>
-    <Version>0.94</Version>
-    <ZipFile>IngameInfo_TankRatingColors_v0.94_1.7.1.1_2020-02-02.zip</ZipFile>
-    <CRC>cf401be54d69c4c04b98368dff238156</CRC>
-    <Timestamp>132251445046525750</Timestamp>
+    <Version>0.97</Version>
+    <ZipFile>IngameInfo_TankRatingColors_v0.97_1.8.0.0_2020-03-04.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132278177492937157</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/731680-1702-champis-tank-rating-colors\r\nhttps://wot.champi.de/\r\nhttps://wgmods.net/4045/</DevURL>
     <InternalNotes>Maybe conflict with "Contour skins with areas of penetration" or just hard to see</InternalNotes>
     <Author>CHAMPi</Author>
@@ -786,9 +786,9 @@
     </UserFiles>
     <ConflictingPackages>Custom_Tank_Skins_China,Custom_Tank_Skins_Czech,Custom_Tank_Skins_France,Custom_Tank_Skins_Germany,Custom_Tank_Skins_Italy,Custom_Tank_Skins_Japan,Custom_Tank_Skins_Poland,Custom_Tank_Skins_Sweden,Custom_Tank_Skins_GB,Custom_Tank_Skins_USA,Custom_Tank_Skins_USSR</ConflictingPackages>
     <Dependencies>
-      <Dependency PackageName="Dependency_champiCore" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
       <Package PackageName="IngameInfo_TankRatingColors_Recolor" Enabled="True" InstallGroup="4" PatchGroup="4" Name="recolor tanks by" Type="single1" Visible="True">
