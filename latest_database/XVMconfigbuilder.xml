@@ -1311,6 +1311,21 @@
               </Package>
             </Packages>
           </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showDailyQuestWidget" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Daily Quest Widget" Type="multi" Visible="True">
+            <Description>this enables or disables the daily quest widget in hangar on the left of the screen</Description>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showDailyQuestWidget_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="multi" Visible="True">
+                <ZipFile>XVMconfigBuilder_GarageInterface_showDailyQuestWidget_disable.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132279919533894745</Timestamp>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showDailyQuestWidget_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="multi" Visible="True">
+                <ZipFile>XVMconfigBuilder_GarageInterface_showDailyQuestWidget_enable.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132279919463257518</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
           <Package PackageName="XVMconfigBuilder_GarageInterface_showDogtagWidget" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Dogtag Widget" Type="multi" Visible="False">
             <Packages>
               <Package PackageName="XVMconfigBuilder_GarageInterface_showDogtagWidget_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
