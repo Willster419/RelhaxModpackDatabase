@@ -1360,11 +1360,11 @@
       <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="Ingame_Info_Shell_Info" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Shell Info" Type="multi" Visible="False">
+  <Package PackageName="Ingame_Info_Hidden_Parameters" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hidden parameters (Was Shell Info)" Type="multi" Visible="True">
     <Size>15833</Size>
-    <ZipFile>Ingame_Info_Shell_Info_by_Rajcel_1.7.0.1_2019-12-13.zip</ZipFile>
-    <CRC>b374bbeed0e83cddaf0827b921e2f591</CRC>
-    <Timestamp>132207312646814079</Timestamp>
+    <ZipFile>Ingame_Info_Hidden_Parameters_by_Rajcel_1.8.0.0_2020-03-06.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132280133605803286</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
     <Author>RaJCeL</Author>
     <Description>in battle this mod shows the shell´s speed in the consumables infopanel.\r\n\r\nby RaJCeL</Description>
@@ -1375,42 +1375,48 @@
       <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="Ingame_Info_Shell_Info_Debug" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Debug" Type="multi" Visible="True">
-        <Size>549</Size>
-        <ZipFile>Ingame_Info_Shell_Info_Debug_PATCH_1.5.1.3_2019-07-29.zip</ZipFile>
-        <CRC>d6475a2442c1ce6dc70053a2169b5757</CRC>
-        <Timestamp>132088870143735992</Timestamp>
-        <Description>Turn this on only if asked to</Description>
+      <Package PackageName="Ingame_Info_Hidden_Parameters_Speed" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Shell Speed" Type="multi" Visible="True">
+        <Size>564</Size>
+        <ZipFile>Ingame_Info_Hidden_Parameters_Shell_Speed_PATCH_1.8.0.0_2020-03-06.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132280127548446135</Timestamp>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
+        <Description>Shows the shell speed for any shell</Description>
       </Package>
-      <Package PackageName="Ingame_Info_Shell_Info_Damage_Spread" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Damage Spread" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Info_Hidden_Parameters_Damage_Spread" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Damage Spread" Type="multi" Visible="True">
         <Size>576</Size>
-        <ZipFile>Ingame_Info_Shell_Info_Damage_Spread_PATCH_1.5.1.3_2019-07-29.zip</ZipFile>
-        <CRC>f10edbda21dcce2eb9bd86fd4d743cd7</CRC>
-        <Timestamp>132088870143735992</Timestamp>
+        <ZipFile>Ingame_Info_Hidden_Parameters_Damage_Spread_PATCH_1.8.0.0-2020-03-06.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132280127656096148</Timestamp>
         <Description>Shows the spread of damage for any shell</Description>
       </Package>
-      <Package PackageName="Ingame_Info_Shell_Info_Explosion" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Explosion Radius" Type="multi" Visible="True">
-        <Size>583</Size>
-        <ZipFile>Ingame_Info_Shell_Info_Explosion_Radius_PATCH_1.5.1.3_2019-07-29.zip</ZipFile>
-        <CRC>0cc8f504b8b44ab84dcc956923708eb9</CRC>
-        <Timestamp>132088870143735992</Timestamp>
-        <Description>Shows the explosion radius for any shell</Description>
-      </Package>
-      <Package PackageName="Ingame_Info_Shell_Info_Pen_Spread" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Penetration Spread" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Info_Hidden_Parameters_Pen_Spread" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Penetration Spread" Type="multi" Visible="True">
         <Size>574</Size>
-        <ZipFile>Ingame_Info_Shell_Info_Pen_Spread_PATCH_1.5.1.3_2019-07-29.zip</ZipFile>
-        <CRC>dd1684edf98b7dc825b943d663e8bcb5</CRC>
-        <Timestamp>132088870454316281</Timestamp>
+        <ZipFile>Ingame_Info_Hidden_Parameters_Pen_Spread_PATCH_1.8.0.0-2020-03-06.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132280127755016754</Timestamp>
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
         <Description>Shows the spread of penetration for any shell</Description>
       </Package>
-      <Package PackageName="Ingame_Info_Shell_Info_Speed" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Shell Speed" Type="multi" Visible="True">
-        <Size>564</Size>
-        <ZipFile>Ingame_Info_Shell_Info_Shell_Speed_PATCH_1.5.1.3_2019-07-29.zip</ZipFile>
-        <CRC>d1e4b7b6c79df45871c60f937f74865a</CRC>
-        <Timestamp>132088870454316281</Timestamp>
+      <Package PackageName="Ingame_Info_Hidden_Parameters_Explosion" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Explosion Radius" Type="multi" Visible="True">
+        <Size>583</Size>
+        <ZipFile>Ingame_Info_Hidden_Parameters_Explosion_Radius_PATCH_1.8.0.0-2020-03-06.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132280127840308402</Timestamp>
+        <Description>Shows the explosion radius for any shell</Description>
+      </Package>
+      <Package PackageName="Ingame_Info_Hidden_Parameters_Terrain_Resistance" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Terrain Resistance" Type="multi" Visible="True">
+        <ZipFile>Ingame_Info_Hidden_Parameters_Terrain_Resistance_PATCH_1.8.0.0-2020-03-06.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132280128552037205</Timestamp>
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
-        <Description>Shows the shell speed for any shell</Description>
+      </Package>
+      <Package PackageName="Ingame_Info_Hidden_Parameters_Debug" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable Debug" Type="multi" Visible="True">
+        <Size>549</Size>
+        <ZipFile>Ingame_Info_Hidden_Parameters_Debug_PATCH_1.8.0.0-2020-03-06.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132280128079224449</Timestamp>
+        <Description>Turn this on only if asked to</Description>
       </Package>
     </Packages>
   </Package>
