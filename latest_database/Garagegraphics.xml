@@ -2050,7 +2050,7 @@
   </Package>
   <Package PackageName="Garage_Graphics_loading" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Loading graphics &amp; exit screens" Type="multi" Visible="True">
     <Packages>
-      <Package PackageName="Garage_Graphics_loading_animation" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Loading Animation" Type="multi" Visible="False">
+      <Package PackageName="Garage_Graphics_loading_animation" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Loading Animation" Type="multi" Visible="True">
         <CRC>f</CRC>
         <Timestamp>132250424692950519</Timestamp>
         <InternalNotes>extracted wotmod to res_mods\nedited all HAWG´s logos.swf (transparent wotlogo)\n\nmodifed swf - but normally dont need an update\r\ngui\flash\waiting.swf\r\n\r\n\r\nUPDATE 2020-02-12:\r\nall broken. needs logos/waiting/waitingtransition.swf now</InternalNotes>
@@ -2066,6 +2066,17 @@
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_loading_animation_WWIIHWA_Ambiente_by_Budyx69.jpg" MediaType="Picture" />
         </Medias>
         <Packages>
+          <Package PackageName="Garage_Graphics_loading_animation_Borg" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Borg (Not compatible with Loading Logos!)" Type="single_dropdown1" Visible="True">
+            <ZipFile>Garage_Graphics_loading_animation_Borg_1.8.0.0_2020-03-07.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132281087070812943</Timestamp>
+            <InternalNotes>Uses &gt;\r\nlogos.swf\r\nwaiting.swf\r\nwaitingTransition.swf</InternalNotes>
+            <Description>Resistance is Futile!</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Video/Garage Graphics/Loading Animation/Borg Animation.mkv" MediaType="Picture" />
+            </Medias>
+            <ConflictingPackages>Garage_Graphics_LoadingLogo_none,Garage_Graphics_LoadingLogo_default,Garage_Graphics_LoadingLogo_hd1,Garage_Graphics_LoadingLogo_GTR,Garage_Graphics_LoadingLogo_8bit,Garage_Graphics_LoadingLogo_SoA_black,Garage_Graphics_LoadingLogo_white</ConflictingPackages>
+          </Package>
           <Package PackageName="Garage_Graphics_loading_animation_illuminati" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Illuminati by Aimdrol" Type="single_dropdown1" Visible="True">
             <Size>113806</Size>
             <ZipFile>Garage_Graphics_loading_animation_illuminati_by_Aimdrol.zip</ZipFile>
