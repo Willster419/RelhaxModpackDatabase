@@ -2081,6 +2081,35 @@
   </Package>
   <Package PackageName="Garage_Graphics_loading" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Loading graphics &amp; exit screens" Type="multi" Visible="True">
     <Packages>
+      <Package PackageName="GarageGraphics_LoadingLogoAnimation" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Loading Logo/Animation" Type="multi" Visible="True">
+        <CRC>f</CRC>
+        <Timestamp>132250424692950519</Timestamp>
+        <InternalNotes>contains:\r\n\r\nwaiting.swf\r\nwaitingTransition.swf\r\nlogos.swf\r\n\r\n</InternalNotes>
+        <Description>This mod replaces the standard loading animation circle AND the logo shown at start of the game.</Description>
+        <Packages>
+          <Package PackageName="GarageGraphics_LoadingLogoAnimation_Relhax" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Relhax" Type="single_dropdown1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132250424692950519</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_by_Warranted.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="GarageGraphics_LoadingLogoAnimation_RelhaxBG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Relhax (with small background)" Type="single_dropdown1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132250424692950519</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_with small_BG_by_Warranted.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="GarageGraphics_LoadingLogoAnimation_OMC" Enabled="True" InstallGroup="4" PatchGroup="4" Name="OMC" Type="single_dropdown1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132250424692950519</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_LoadingLogoAnimation_OMC.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+        </Packages>
+      </Package>
       <Package PackageName="Garage_Graphics_loading_animation" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Loading Animation" Type="multi" Visible="True">
         <CRC>f</CRC>
         <Timestamp>132250424692950519</Timestamp>
@@ -2101,12 +2130,6 @@
           <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Garage_Graphics_loading_animation_READ_ME" Enabled="False" InstallGroup="4" PatchGroup="4" Name="READ ME!" Type="multi" Visible="False">
-            <CRC>f</CRC>
-            <Timestamp>132250424692950519</Timestamp>
-            <Description>If any of these mods include logo.swf, it NEEDS to be a res_mods mod.</Description>
-            <ShowInSearchList>False</ShowInSearchList>
-          </Package>
           <Package PackageName="Garage_Graphics_Loading_Animation_Relhax" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Relhax" Type="single_dropdown1" Visible="True">
             <Size>909666</Size>
             <ZipFile>Garage_Graphics_Loading_Animation_Relhax_1.8.0.0_2020-03-09.zip</ZipFile>
