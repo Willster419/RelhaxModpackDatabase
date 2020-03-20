@@ -2087,7 +2087,7 @@
         <InternalNotes>contains:\r\n\r\nwaiting.swf\r\nwaitingTransition.swf\r\nlogos.swf\r\n\r\nexchanged infopics in logos.swf and waiting.swf with transparent ones\r\n\r\nL = only logo = logos.swf\r\nL/A = logo AND waiting animation = logos.swf + waiting.swf + waitingTransition.swf\r\nA = only waiting animation = logos.swf (with default logos, but award/info slots are transparent) + waiting.swf + waitingTransition.swf\r\n\r\n\r\n\r\n\r\n</InternalNotes>
         <Description>This mod replaces the standard loading animation circle and/or the logo shown at start of the game.\r\nThis depends on the selected option.\r\n\r\nL = only logo\r\nL/A = logo AND waiting animation\r\nA = only waiting animation\r\n\r\n</Description>
         <Packages>
-          <Package PackageName="GarageGraphics_LoadingLogoAnimation_defaultWG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="default by WG" Type="single_dropdown1" Visible="True">
+          <Package PackageName="GarageGraphics_LoadingLogoAnimation_defaultWG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="default logo and animation by WG" Type="single_dropdown1" Visible="True">
             <ZipFile>GarageGraphics_LoadingLogoAnimation_defaultWG_2020-03-19.zip</ZipFile>
             <CRC>f</CRC>
             <Timestamp>132290939423616137</Timestamp>
@@ -2146,6 +2146,42 @@
             <Timestamp>132290924507135640</Timestamp>
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_LoadingLogoAnimation_SkullCross.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="GarageGraphics_LoadingLogoAnimation_GTR" Enabled="True" InstallGroup="4" PatchGroup="4" Name="German Tank Racing (L)" Type="single_dropdown1" Visible="True">
+            <Size>846103</Size>
+            <ZipFile>GarageGraphics_LoadingLogoAnimation_GTR_2020-03-20.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132291873552883181</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_GTR.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="GarageGraphics_LoadingLogoAnimation_8bit" Enabled="True" InstallGroup="4" PatchGroup="4" Name="8bit WoT-Logo (L)" Type="single_dropdown1" Visible="True">
+            <Size>374196</Size>
+            <ZipFile>GarageGraphics_LoadingLogoAnimation_8bit_2020-03-20.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132291873605408844</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_8bit.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="GarageGraphics_LoadingLogoAnimation_SoA_black" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Black Sons Of Anarchy Style WoT-Logo (L)" Type="single_dropdown1" Visible="True">
+            <Size>589967</Size>
+            <ZipFile>GarageGraphics_LoadingLogoAnimation_SonsOfAnarchyStyle_black_2020-03-20.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132291873650853483</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_SonsOfAnarchyStyle_black.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="GarageGraphics_LoadingLogoAnimation_white" Enabled="True" InstallGroup="4" PatchGroup="4" Name="White WoT-Logo (L)" Type="single_dropdown1" Visible="True">
+            <Size>566958</Size>
+            <ZipFile>GarageGraphics_LoadingLogoAnimation_white_2020-03-20.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132291873692313767</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_white.png" MediaType="Picture" />
             </Medias>
           </Package>
         </Packages>
@@ -2416,96 +2452,6 @@
             <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ambiente+Rescue+Pack&amp;order=name&amp;srt=yes\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
             <Description>Part of WWIIHWA_Ambiente_by_Budyx69 (Thx Budyx69)</Description>
             <UpdateComment>2018-08-31 Update 6.8 [1.1.0.0]: Versioning\r\n\r\ngui\flash\waiting.swf</UpdateComment>
-          </Package>
-        </Packages>
-      </Package>
-      <Package PackageName="Garage_Graphics_LoadingLogo" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Loading Logo" Type="multi" Visible="False">
-        <InternalNotes>modifed swf - but normally dont need an update\r\ngui\flash\logos.swf\r\ngui\maps\login\__login_logo.png</InternalNotes>
-        <Description>When you are installing this modpack, the LoadingLogo is disabled by default.\nIf you like to have one activated, please choose it from the dropdown list below.</Description>
-        <Packages>
-          <Package PackageName="Garage_Graphics_LoadingLogo_NoLogo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="No Logo (Relhax default)" Type="single_dropdown1" Visible="True">
-            <ZipFile>GarageGraphics_LoadingLogo_NOLOGO_2020-03-18.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132290100492811154</Timestamp>
-          </Package>
-          <Package PackageName="Garage_Graphics_LoadingLogo_default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Default Logo" Type="single_dropdown1" Visible="True">
-            <Size>625945</Size>
-            <ZipFile>GarageGraphics_LoadingLogo_defaultWG_2020-03-18.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132290100696147207</Timestamp>
-          </Package>
-          <Package PackageName="Garage_Graphics_LoadingLogo_GTR" Enabled="True" InstallGroup="4" PatchGroup="4" Name="German Tank Racing" Type="single_dropdown1" Visible="True">
-            <Size>846103</Size>
-            <ZipFile>GarageGraphics_LoadingLogo_GTR_2020-03-18.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132290100825431354</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_GTR.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_logo_Relhax" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Relhax Logo" Type="single_dropdown1" Visible="True">
-            <Size>611105</Size>
-            <ZipFile>GarageGraphics_LoadingLogo_Relhax_2020-03-18.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132290101249187751</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_by_Warranted.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_logo_Relhax_smallBG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Relhax Logo (with a small background image)" Type="single_dropdown1" Visible="True">
-            <Size>620167</Size>
-            <ZipFile>GarageGraphics_LoadingLogo_Relhax_smallBG_2020-03-18.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132290101360749305</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_with small_BG_by_Warranted.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_LoadingLogo_hd1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HD WoT-Logo" Type="single_dropdown1" Visible="True">
-            <Size>750322</Size>
-            <ZipFile>GarageGraphics_LoadingLogo_hd1_2020-03-18.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132290100902584955</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_hd1.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_LoadingLogo_8bit" Enabled="True" InstallGroup="4" PatchGroup="4" Name="8bit WoT-Logo" Type="single_dropdown1" Visible="True">
-            <Size>374196</Size>
-            <ZipFile>GarageGraphics_LoadingLogo_8bit_2020-03-18.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132290100757134053</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_8bit.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_LoadingLogo_SoA_black" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Black Sons Of Anarchy Style WoT-Logo" Type="single_dropdown1" Visible="True">
-            <Size>589967</Size>
-            <ZipFile>GarageGraphics_LoadingLogo_SonsOfAnarchyStyle_black_2020-03-18.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132290101536678672</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_SonsOfAnarchyStyle_black.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_LoadingLogo_white" Enabled="True" InstallGroup="4" PatchGroup="4" Name="White WoT-Logo" Type="single_dropdown1" Visible="True">
-            <Size>566958</Size>
-            <ZipFile>GarageGraphics_LoadingLogo_white_2020-03-18.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132290101657146402</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_white.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_Loading_Logo_Ritterkreuz" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Ritterkreuz Logo" Type="single_dropdown1" Visible="True">
-            <Size>3928026</Size>
-            <ZipFile>GarageGraphics_LoadingLogo_Ritterkreuz_2020-03-18.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132290101768717940</Timestamp>
-            <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/ritterkreuz/files</DevURL>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_Loading_Logo_Ritterkreuz.jpg" MediaType="Picture" />
-            </Medias>
           </Package>
         </Packages>
       </Package>
