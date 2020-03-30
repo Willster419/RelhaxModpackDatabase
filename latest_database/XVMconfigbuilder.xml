@@ -2,10 +2,10 @@
 <Category Name="XVM config builder">
   <Dependencies>
     <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_PROFICIENCY_missing_pics_fix" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_FLAGS_missing_pics_fix" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missing_pics_fix" NotFlag="False" Logic="OR" />
     <Dependency PackageName="Dependency_XVM_XC_RelhaxLoginCredits" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missingPicsFix" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_PROFICIENCY_missingPicsFix" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_FLAGS_missingPicsFix" NotFlag="False" Logic="OR" />
   </Dependencies>
   <Package PackageName="XVMconfigBuilder_BuildSelector" Enabled="True" InstallGroup="4" PatchGroup="4" Name="-----[Build Selector]----- (choose between Stable and Nightly)" Type="single1" Visible="True">
     <Packages>
