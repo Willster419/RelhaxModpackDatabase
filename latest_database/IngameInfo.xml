@@ -997,6 +997,7 @@
         <CRC>f</CRC>
         <Timestamp>132302140697682504</Timestamp>
         <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+        <InternalNotes>with prePatch to disable options first</InternalNotes>
         <Author>Champi</Author>
         <Description>Shows expected vehicle damage, marks of excellence percentage and many more infos in real time during the battle. Highly customizable!</Description>
         <Medias>
@@ -1009,24 +1010,28 @@
           <Dependency PackageName="Dependency_modsSettingsApi" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_enableMoEDisplay" Enabled="False" InstallGroup="4" PatchGroup="4" Name="enable MoE Display" Type="multi" Visible="True">
+          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_enableMoEDisplay" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable MoE Display" Type="multi" Visible="True">
+            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_enableMoEDisplay.zip</ZipFile>
             <CRC>f</CRC>
-            <Timestamp>132302141225153916</Timestamp>
+            <Timestamp>132302170716930671</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
           </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInStatistic" Enabled="False" InstallGroup="4" PatchGroup="4" Name="show in statistics" Type="multi" Visible="True">
+          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInStatistic" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show in statistics" Type="multi" Visible="True">
+            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInStatistic.zip</ZipFile>
             <CRC>f</CRC>
-            <Timestamp>132302141171901105</Timestamp>
+            <Timestamp>132302170850533480</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
           </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInTechTree" Enabled="False" InstallGroup="4" PatchGroup="4" Name="show in techtree" Type="multi" Visible="True">
+          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInTechTree" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show in techtree" Type="multi" Visible="True">
+            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInTechtree.zip</ZipFile>
             <CRC>f</CRC>
-            <Timestamp>132302141196041613</Timestamp>
+            <Timestamp>132302170946397188</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
           </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleHalfPercents" Enabled="False" InstallGroup="4" PatchGroup="4" Name="show half percents in battle" Type="multi" Visible="True">
+          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleHalfPercents" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show half percents in battle" Type="multi" Visible="True">
+            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleHalfPercents.zip</ZipFile>
             <CRC>f</CRC>
-            <Timestamp>132302141246491937</Timestamp>
+            <Timestamp>132302170787272615</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
           </Package>
         </Packages>
