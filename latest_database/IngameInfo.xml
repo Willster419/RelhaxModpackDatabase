@@ -955,6 +955,10 @@
         <DevURL>https://wgmods.net/4111/</DevURL>
         <Author>OldSkool</Author>
         <Description>Real time MoE (Marks of Excellence) progress on current tank in battle.\n\nSwitch between configurations with ALT+NUM9\r\n\r\nOriginally created by Spoter, now maintained by Oldskool.</Description>
+        <Dependencies>
+          <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
+        </Dependencies>
         <Packages>
           <Package PackageName="IngameInfo_ExpectedValues_MoE_showInTechtree" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show in techtree" Type="multi" Visible="True">
             <Size>687</Size>
