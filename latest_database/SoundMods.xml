@@ -952,6 +952,9 @@
     <Packages>
       <Package PackageName="Sounds_Extras_IVM" Enabled="True" InstallGroup="4" PatchGroup="4" Name="IVM Sounds" Type="multi" Visible="True">
         <Timestamp>131910777168272821</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_IVM_Main" NotFlag="False" Logic="OR" />
+        </Dependencies>
         <Packages>
           <Package PackageName="Sounds_Extras_IVM_Stun_DeadPool" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Stun Sound DeadPool" Type="multi" Visible="True">
             <ZipFile>Sounds_Extras_IVM_Stun_DeadPool_1.8.0.1_2020-04-07.zip</ZipFile>
