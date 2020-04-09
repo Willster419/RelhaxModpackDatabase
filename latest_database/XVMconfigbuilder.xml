@@ -4008,6 +4008,34 @@
                   </Package>
                 </Packages>
               </Package>
+              <Package PackageName="XVMconfigBuilder_PlayersPanel_EnemyHpLeft" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable small hp numbers for every tank" Type="multi" Visible="True">
+                <Size>1029</Size>
+                <ZipFile>XVM_config_builder_playerspanel_enemy_hp_left_2017-08-24.zip</ZipFile>
+                <CRC>55f2ce9aac36764524ae5b25cd5b319c</CRC>
+                <Description>Enable small numbers in the players panel showing the total hp of every tank. Taken from Willster419's config.</Description>
+                <Medias>
+                  <Media URL="https://puu.sh/xiDWh/ef574a4fc8.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enemy Spotted Marker" Type="multi" Visible="True">
+                <Timestamp>131910190208253101</Timestamp>
+                <Description>This is a Spotted Status Indicator for the enemy team.</Description>
+                <ConflictingPackages>Ingame_Info_Enemy_Spotted_Status</ConflictingPackages>
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>509</Size>
+                    <ZipFile>XVM_config_builder_PlayersPanelModifications_Enemy_Spotted_Marker_enabled.zip</ZipFile>
+                    <CRC>6c41b0b26b4000ea41198bdd3a132643</CRC>
+                    <Timestamp>131910192008002906</Timestamp>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>511</Size>
+                    <ZipFile>XVM_config_builder_PlayersPanelModifications_Enemy_Spotted_Marker_disabled.zip</ZipFile>
+                    <CRC>39cda828cc3e2e9b627a139c0773988e</CRC>
+                    <Timestamp>131910192252772008</Timestamp>
+                  </Package>
+                </Packages>
+              </Package>
               <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Bars" Type="multi" Visible="True">
                 <ConflictingPackages>Ingame_Info_HpBars</ConflictingPackages>
                 <Packages>
@@ -4108,31 +4136,27 @@
                   </Package>
                 </Packages>
               </Package>
-              <Package PackageName="XVMconfigBuilder_PlayersPanel_EnemyHpLeft" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable small hp numbers for every tank" Type="multi" Visible="True">
-                <Size>1029</Size>
-                <ZipFile>XVM_config_builder_playerspanel_enemy_hp_left_2017-08-24.zip</ZipFile>
-                <CRC>55f2ce9aac36764524ae5b25cd5b319c</CRC>
-                <Description>Enable small numbers in the players panel showing the total hp of every tank. Taken from Willster419's config.</Description>
-                <Medias>
-                  <Media URL="https://puu.sh/xiDWh/ef574a4fc8.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enemy Spotted Marker" Type="multi" Visible="True">
-                <Timestamp>131910190208253101</Timestamp>
-                <Description>This is a Spotted Status Indicator for the enemy team.</Description>
-                <ConflictingPackages>Ingame_Info_Enemy_Spotted_Status</ConflictingPackages>
+              <Package PackageName="XVMconfigBuilder_PlayersPanel_Language_Flag" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Show language flag" Type="multi" Visible="True">
+                <Timestamp>131889469435275963</Timestamp>
+                <Description>will show the individually selcted language flag of every player in the panel.\n\nOn ALT key, it will be hidden.</Description>
                 <Packages>
-                  <Package PackageName="XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>509</Size>
-                    <ZipFile>XVM_config_builder_PlayersPanelModifications_Enemy_Spotted_Marker_enabled.zip</ZipFile>
-                    <CRC>6c41b0b26b4000ea41198bdd3a132643</CRC>
-                    <Timestamp>131910192008002906</Timestamp>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>511</Size>
-                    <ZipFile>XVM_config_builder_PlayersPanelModifications_Enemy_Spotted_Marker_disabled.zip</ZipFile>
-                    <CRC>39cda828cc3e2e9b627a139c0773988e</CRC>
-                    <Timestamp>131910192252772008</Timestamp>
+                  <Package PackageName="XVMconfigBuilder_PlayersPanel_Language_Flag_XVM" Enabled="True" InstallGroup="4" PatchGroup="4" Name="based on XVM selected language" Type="multi" Visible="True">
+                    <Size>977</Size>
+                    <ZipFile>XVMConfigBuilder_PlayersPanelModifications_Language_Flag_XVM_2019-09-18.zip</ZipFile>
+                    <CRC>532d057024bd32d05154db2eb4295bf2</CRC>
+                    <Timestamp>132133074366560782</Timestamp>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_Language_Flag.png" MediaType="Picture" />
+                    </Medias>
+                    <Packages>
+                      <Package PackageName="XVMconfigBuilder_PlayersPanel_Language_Flag_XVM_left" Enabled="True" InstallGroup="4" PatchGroup="4" Name="change the flag´s position (&lt;-)" Type="multi" Visible="True">
+                        <Size>603</Size>
+                        <ZipFile>XVM_config_builder_PlayersPanelModifications_Language_Flag_XVM_left_patch.zip</ZipFile>
+                        <CRC>9e8cbf7e82c761a4b6998cefad3f861a</CRC>
+                        <Timestamp>131891289119949068</Timestamp>
+                        <Description>move flag to the panel inside.\nuseful for some prebuilt configs (eg Jimbo´s)\n\n\n\nAttention with simultaneous use of both language-flags!</Description>
+                      </Package>
+                    </Packages>
                   </Package>
                 </Packages>
               </Package>
@@ -4182,6 +4206,11 @@
                   </Package>
                 </Packages>
               </Package>
+              <Package PackageName="XVMconfigBuilder_PlayersPanel_removePanelsModeSwitcher" Enabled="True" InstallGroup="4" PatchGroup="4" Name="remove Panels Mode Switcher" Type="multi" Visible="True">
+                <ZipFile>XVMconfigBuilder_PlayersPanel_removePanelsModeSwitcher.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132309099264128612</Timestamp>
+              </Package>
               <Package PackageName="XVMconfigBuilder_PlayersPanel_snowflakeIndicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Snowflake Indicator" Type="multi" Visible="True">
                 <Size>13408</Size>
                 <ZipFile>XVMconfigBuilder_PlayersPanel_snowflakeIndicator_2019-12-18.zip</ZipFile>
@@ -4191,30 +4220,6 @@
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_snowflakeIndicator.png" MediaType="Picture" />
                 </Medias>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_PlayersPanel_Language_Flag" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Show language flag" Type="multi" Visible="True">
-                <Timestamp>131889469435275963</Timestamp>
-                <Description>will show the individually selcted language flag of every player in the panel.\n\nOn ALT key, it will be hidden.</Description>
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_PlayersPanel_Language_Flag_XVM" Enabled="True" InstallGroup="4" PatchGroup="4" Name="based on XVM selected language" Type="multi" Visible="True">
-                    <Size>977</Size>
-                    <ZipFile>XVMConfigBuilder_PlayersPanelModifications_Language_Flag_XVM_2019-09-18.zip</ZipFile>
-                    <CRC>532d057024bd32d05154db2eb4295bf2</CRC>
-                    <Timestamp>132133074366560782</Timestamp>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_Language_Flag.png" MediaType="Picture" />
-                    </Medias>
-                    <Packages>
-                      <Package PackageName="XVMconfigBuilder_PlayersPanel_Language_Flag_XVM_left" Enabled="True" InstallGroup="4" PatchGroup="4" Name="change the flag´s position (&lt;-)" Type="multi" Visible="True">
-                        <Size>603</Size>
-                        <ZipFile>XVM_config_builder_PlayersPanelModifications_Language_Flag_XVM_left_patch.zip</ZipFile>
-                        <CRC>9e8cbf7e82c761a4b6998cefad3f861a</CRC>
-                        <Timestamp>131891289119949068</Timestamp>
-                        <Description>move flag to the panel inside.\nuseful for some prebuilt configs (eg Jimbo´s)\n\n\n\nAttention with simultaneous use of both language-flags!</Description>
-                      </Package>
-                    </Packages>
-                  </Package>
-                </Packages>
               </Package>
             </Packages>
           </Package>
