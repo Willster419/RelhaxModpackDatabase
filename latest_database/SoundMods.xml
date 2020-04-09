@@ -700,8 +700,8 @@
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
             <Description>Must have sound crew language set to "standard"\nMLG EVERYWHERE\nAlso includes awesome visuals.</Description>
             <Dependencies>
-              <Dependency PackageName="Dependency_MLG_english_localization" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_MLG_englishLocalization" NotFlag="False" Logic="OR" />
             </Dependencies>
             <Packages>
               <Package PackageName="Sounds_crew_sounds_MLG_only_audio" Enabled="True" InstallGroup="4" PatchGroup="4" Name="audio only, no visuals" Type="single_dropdown1" Visible="True">
