@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Sound Mods">
   <Dependencies>
-    <Dependency PackageName="Dependency_audio_mods_xml" NotFlag="False" Logic="OR" />
     <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_default" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
   </Dependencies>
   <Package PackageName="Sounds_Engine" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Engine" Type="multi" Visible="True">
     <Dependencies>
@@ -318,7 +318,7 @@
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/381695-\r\nhttp://forum.worldoftanks.eu/index.php?/topic/563633-</DevURL>
         <Description>Change the default voice of all crews to selected language</Description>
         <Dependencies>
-          <Dependency PackageName="Dependency_xml_main_sound_modes" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XML_mainSoundModes" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
           <Package PackageName="Sounds_Crew_voices_EasyCrewVoice_selector_IT" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Italian" Type="single_dropdown1" Visible="True">
@@ -610,7 +610,7 @@
                   <Media URL="https://youtu.be/yOkMux-bswk?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
                 </Medias>
                 <Dependencies>
-                  <Dependency PackageName="Dependency_audio_mods_xml" NotFlag="False" Logic="OR" />
+                  <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
                 </Dependencies>
               </Package>
               <Package PackageName="Sounds_Crew_Sounds_Siegfried_german" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Siegfried with Strategic_Music" Type="single_dropdown1" Visible="True">
@@ -626,7 +626,7 @@
                   <Media URL="https://youtu.be/HXfT-DRzIwk?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
                 </Medias>
                 <Dependencies>
-                  <Dependency PackageName="Dependency_audio_mods_xml" NotFlag="False" Logic="OR" />
+                  <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
                 </Dependencies>
               </Package>
             </Packages>
@@ -879,7 +879,7 @@
                   <Media URL="https://youtu.be/565ek6lrqbo?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
                 </Medias>
                 <Dependencies>
-                  <Dependency PackageName="Dependency_audio_mods_xml" NotFlag="False" Logic="OR" />
+                  <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
                 </Dependencies>
               </Package>
             </Packages>

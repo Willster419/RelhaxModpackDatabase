@@ -101,7 +101,6 @@
         </Medias>
         <ConflictingPackages>XVMconfigBuilder_GLOBAL</ConflictingPackages>
         <Dependencies>
-          <Dependency PackageName="Dependency_audio_mods_xml" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_XVM_PY_debugPanel" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_XVM_PY_beginBattle" NotFlag="False" Logic="OR" />
@@ -147,7 +146,8 @@
           <Dependency PackageName="Dependency_XVM_PY_crosshair" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_Fonts_Dinpro" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_XVM_XC_RelhaxLoginCredits" NotFlag="True" Logic="AND" />
-          <Dependency PackageName="Dependency_xml_main_sound_modes" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XML_mainSoundModes" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_the_illusion" Enabled="True" InstallGroup="4" PatchGroup="4" Name="The Illusion v{version}" Type="single_dropdown1" Visible="True">
