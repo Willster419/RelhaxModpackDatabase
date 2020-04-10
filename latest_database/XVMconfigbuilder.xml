@@ -1904,7 +1904,7 @@
             <Timestamp>132220291224989085</Timestamp>
             <Description>the writer´s name is colored in his wn8color</Description>
             <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_mod_chat_color" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_PY_modChatColor" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
         </Packages>
@@ -2200,7 +2200,7 @@
             <Description>Show FPS / Ping / Clock in upper left corner.</Description>
             <ConflictingPackages>Ingame_Info_DebugPanel</ConflictingPackages>
             <Dependencies>
-              <Dependency PackageName="Dependency_XVM_elementsXC_temp_prepatch" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_XVM_PY_debugPanel" NotFlag="False" Logic="OR" />
             </Dependencies>
             <Packages>
@@ -2405,7 +2405,7 @@
             <DevURL>https://koreanrandom.com/forum/topic/40350-конфигурации-totalhp-средствами-xvm/</DevURL>
             <ConflictingPackages>Ingame_Info_HpPools</ConflictingPackages>
             <Dependencies>
-              <Dependency PackageName="Dependency_XVM_elementsXC_temp_prepatch" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
             </Dependencies>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_Arm" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Arm" Type="single_dropdown1" Visible="True">
@@ -2454,7 +2454,7 @@
                   <Media URL="https://koreanrandom.com/forum/uploads/monthly_2017_12/5a2efb3ead8e2_1515.png.3335c8a3358c52b5d0fa1807c73dee31.png.c4f6ae911c57fe536b957318662dd828.png" MediaType="Picture" />
                 </Medias>
                 <Dependencies>
-                  <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar_ktulho" NotFlag="False" Logic="OR" />
+                  <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar" NotFlag="False" Logic="OR" />
                   <Dependency PackageName="Dependency_Fonts_KAPb14" NotFlag="False" Logic="OR" />
                   <Dependency PackageName="Dependency_Fonts_Gunplay" NotFlag="False" Logic="OR" />
                   <Dependency PackageName="Dependency_Fonts_Calligraph" NotFlag="False" Logic="OR" />
@@ -2621,7 +2621,7 @@
             <Timestamp>131812516048427337</Timestamp>
             <Description>modify the look of the pre-battle timer and messages</Description>
             <Dependencies>
-              <Dependency PackageName="Dependency_XVM_elementsXC_temp_prepatch" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
             </Dependencies>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions" Enabled="True" InstallGroup="4" PatchGroup="4" Name="only timer &amp; conditions" Type="single_dropdown1" Visible="True">
@@ -2807,7 +2807,7 @@
             <Description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</Description>
             <UpdateComment>keep this above damagepanel in db!!</UpdateComment>
             <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_mod_wn8_chance" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_PY_modWN8Chance" NotFlag="False" Logic="OR" />
             </Dependencies>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_WN8Comparison_standard" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WN8 Comparison (Standard)" Type="single_dropdown1" Visible="True">
