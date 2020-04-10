@@ -2206,7 +2206,7 @@
             <Description>Developer:: ShuraBB\r\n\r\n- By pressing the ALT key you can switch between different maps.\r\n- Full support for the functions of the standard minimap (displaying the commands “attention to”, “support by fire”, “need help”, etc.);\r\n- Accurate calculation of the review of the tank (taking into account the installed equipment, consumables, pumpability of the crew and its perks);\r\n- Display of the place of the last exposure of the enemy;\r\n- Customizable range circles (color, transparency, visibility);\r\n- Dynamic circle “tank viewing radius”, calculated taking into account installed additional equipment and pumped crew perks;\r\n- Customizable circle drawing objects;\r\n- Magnification of the minimap in the center of the screen;\r\n\r\n\r\nIncluded maps:\r\n- Black &amp; White Map\r\n- HD Maps\r\n- Tactical Maps\r\n- Heat Maps\r\n\r\nAdditionally added maps:\r\n- HAWG´s Tactical Maps\r\n- HD Maps WOTInspector\r\n- TechMaps WOTInspector</Description>
             <Dependencies>
               <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_Minimap_Advanced" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_MinimapAdvanced" NotFlag="False" Logic="OR" />
             </Dependencies>
             <Packages>
               <Package PackageName="Ingame_Misc_Minimap_Advanced_Main" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Minimap" Type="multi" Visible="True">
@@ -2227,6 +2227,9 @@
                       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Steppes_colored5.jpg" MediaType="Picture" />
                       <Media URL="https://youtu.be/J7aUoDftn2w" MediaType="Webpage" />
                     </Medias>
+                    <Dependencies>
+                      <Dependency PackageName="Dependency_MinimapAdvanced_HDMaps" NotFlag="False" Logic="OR" />
+                    </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Main_TacticalMaps" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Tactical Maps (as default map)" Type="single_dropdown1" Visible="True">
                     <Size>687</Size>
@@ -2239,6 +2242,9 @@
                       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_02.png" MediaType="Picture" />
                       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_03.png" MediaType="Picture" />
                     </Medias>
+                    <Dependencies>
+                      <Dependency PackageName="Dependency_MinimapAdvanced_TacticalMaps" NotFlag="False" Logic="OR" />
+                    </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Main_HeatMaps" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Heat Maps (as default map)" Type="single_dropdown1" Visible="True">
                     <Size>675</Size>
@@ -2251,6 +2257,9 @@
                       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_07_lakeville.png" MediaType="Picture" />
                       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_02_malinovka.png" MediaType="Picture" />
                     </Medias>
+                    <Dependencies>
+                      <Dependency PackageName="Dependency_MinimapAdvanced_HeatMaps" NotFlag="False" Logic="OR" />
+                    </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Main_HDColoredMaps" Enabled="False" InstallGroup="4" PatchGroup="4" Name="HD Colored Maps (as default map)" Type="single_dropdown1" Visible="False">
                     <Size>646</Size>
@@ -2266,7 +2275,7 @@
                       <Media URL="https://youtu.be/J7aUoDftn2w" MediaType="Webpage" />
                     </Medias>
                     <Dependencies>
-                      <Dependency PackageName="Dependency_Minimap_Advanced_Pics_HDColoredMaps" NotFlag="False" Logic="OR" />
+                      <Dependency PackageName="Dependency_MinimapAdvanced_HDColored" NotFlag="False" Logic="OR" />
                     </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Main_BWMaps" Enabled="False" InstallGroup="4" PatchGroup="4" Name="HD Black &amp; White Maps (as default map)" Type="single_dropdown1" Visible="False">
@@ -2280,7 +2289,7 @@
                       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Paris_BW.jpg" MediaType="Picture" />
                     </Medias>
                     <Dependencies>
-                      <Dependency PackageName="Dependency_Minimap_Advanced_Pics_BWMaps" NotFlag="False" Logic="OR" />
+                      <Dependency PackageName="Dependency_MinimapAdvanced_BWMaps" NotFlag="False" Logic="OR" />
                     </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Main_HAWGTacticalMaps" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HAWG´s Tactical Maps (as default map)" Type="single_dropdown1" Visible="True">
@@ -2296,7 +2305,7 @@
                       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HAWGTacticalMaps_03.jpg" MediaType="Picture" />
                     </Medias>
                     <Dependencies>
-                      <Dependency PackageName="Dependency_Minimap_Advanced_Pics_HAWGTacticalMaps" NotFlag="False" Logic="OR" />
+                      <Dependency PackageName="Dependency_MinimapAdvanced_HAWGTactical" NotFlag="False" Logic="OR" />
                     </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Main_WOTInspector" Enabled="False" InstallGroup="4" PatchGroup="4" Name="WOTInspector´s Maps (as default map)" Type="single_dropdown1" Visible="False">
@@ -2319,7 +2328,7 @@
                       <Media URL="https://wgmods.net/media/hd4.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
                     </Medias>
                     <Dependencies>
-                      <Dependency PackageName="Dependency_Minimap_Advanced_Pics_Reven86Maps" NotFlag="False" Logic="OR" />
+                      <Dependency PackageName="Dependency_MinimapAdvanced_WOTInspectorMaps" NotFlag="False" Logic="OR" />
                     </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Main_WOTInspectorTech" Enabled="False" InstallGroup="4" PatchGroup="4" Name="WOTInspector´s TechMaps (as default map)" Type="single_dropdown1" Visible="False">
@@ -2343,7 +2352,7 @@
                       <Media URL="https://wgmods.net/media/techmap4.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
                     </Medias>
                     <Dependencies>
-                      <Dependency PackageName="Dependency_Minimap_Advanced_Pics_Reven86TechMaps" NotFlag="False" Logic="OR" />
+                      <Dependency PackageName="Dependency_MinimapAdvanced_WOTInspectorTechMaps" NotFlag="False" Logic="OR" />
                     </Dependencies>
                   </Package>
                 </Packages>
@@ -2366,6 +2375,9 @@
                       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Steppes_colored5.jpg" MediaType="Picture" />
                       <Media URL="https://youtu.be/J7aUoDftn2w" MediaType="Webpage" />
                     </Medias>
+                    <Dependencies>
+                      <Dependency PackageName="Dependency_MinimapAdvanced_HDMaps" NotFlag="False" Logic="OR" />
+                    </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Alt_Tactical" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Tactical Maps  (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="True">
                     <Size>693</Size>
@@ -2378,6 +2390,9 @@
                       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_02.png" MediaType="Picture" />
                       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_03.png" MediaType="Picture" />
                     </Medias>
+                    <Dependencies>
+                      <Dependency PackageName="Dependency_MinimapAdvanced_TacticalMaps" NotFlag="False" Logic="OR" />
+                    </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Alt_Heat" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Heat Maps (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="True">
                     <Size>682</Size>
@@ -2392,6 +2407,9 @@
                       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_02_malinovka.png" MediaType="Picture" />
                       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Mines_colored4.jpg" MediaType="Picture" />
                     </Medias>
+                    <Dependencies>
+                      <Dependency PackageName="Dependency_MinimapAdvanced_HeatMaps" NotFlag="False" Logic="OR" />
+                    </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Alt_HDColoredMaps" Enabled="False" InstallGroup="4" PatchGroup="4" Name="HD Colored Maps (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="False">
                     <Size>644</Size>
@@ -2407,7 +2425,7 @@
                       <Media URL="https://youtu.be/J7aUoDftn2w" MediaType="Webpage" />
                     </Medias>
                     <Dependencies>
-                      <Dependency PackageName="Dependency_Minimap_Advanced_Pics_HDColoredMaps" NotFlag="False" Logic="OR" />
+                      <Dependency PackageName="Dependency_MinimapAdvanced_HDColored" NotFlag="False" Logic="OR" />
                     </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Alt_BWMaps" Enabled="False" InstallGroup="4" PatchGroup="4" Name="HD Black &amp; White Maps (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="False">
@@ -2421,7 +2439,7 @@
                       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Paris_BW.jpg" MediaType="Picture" />
                     </Medias>
                     <Dependencies>
-                      <Dependency PackageName="Dependency_Minimap_Advanced_Pics_BWMaps" NotFlag="False" Logic="OR" />
+                      <Dependency PackageName="Dependency_MinimapAdvanced_BWMaps" NotFlag="False" Logic="OR" />
                     </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Alt_HAWGTacticalMaps" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HAWG´s Tactical Maps (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="True">
@@ -2437,7 +2455,7 @@
                       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HAWGTacticalMaps_03.jpg" MediaType="Picture" />
                     </Medias>
                     <Dependencies>
-                      <Dependency PackageName="Dependency_Minimap_Advanced_Pics_HAWGTacticalMaps" NotFlag="False" Logic="OR" />
+                      <Dependency PackageName="Dependency_MinimapAdvanced_HAWGTactical" NotFlag="False" Logic="OR" />
                     </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Alt_WOTInspector" Enabled="False" InstallGroup="4" PatchGroup="4" Name="WOTInspector´s Maps (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="False">
@@ -2447,7 +2465,7 @@
                     <Timestamp>132160330054970458</Timestamp>
                     <DevURL>https://wgmods.net/434/details</DevURL>
                     <Dependencies>
-                      <Dependency PackageName="Dependency_Minimap_Advanced_Pics_Reven86Maps" NotFlag="False" Logic="OR" />
+                      <Dependency PackageName="Dependency_MinimapAdvanced_WOTInspectorMaps" NotFlag="False" Logic="OR" />
                     </Dependencies>
                   </Package>
                   <Package PackageName="Ingame_Misc_Minimap_Advanced_Alt_WOTInspectorTech" Enabled="False" InstallGroup="4" PatchGroup="4" Name="WOTInspector´s Tactical Maps  (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="False">
@@ -2457,7 +2475,7 @@
                     <Timestamp>132160330168975587</Timestamp>
                     <DevURL>https://wgmods.net/433/details</DevURL>
                     <Dependencies>
-                      <Dependency PackageName="Dependency_Minimap_Advanced_Pics_Reven86TechMaps" NotFlag="False" Logic="OR" />
+                      <Dependency PackageName="Dependency_MinimapAdvanced_WOTInspectorTechMaps" NotFlag="False" Logic="OR" />
                     </Dependencies>
                   </Package>
                 </Packages>
