@@ -3,7 +3,7 @@
   <Package PackageName="Damage_Logs" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Logs" Type="multi" Visible="True">
     <Description>Damage Logs create a list of taken damage. \nIn the list you find detailed information about who was shooting at you and how much HP these shots have taken from you.\n\nWe provide you some fine configurations with different layouts and colors, but you have to figure out yourself which one fits best to the rest of your installed modifications.</Description>
     <Dependencies>
-      <Dependency PackageName="Dependency_XVM_damage_log_disable" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_XVM_damageLogDisable" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
       <Package PackageName="Damage_Logs_GambitER_base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="GambitER" Type="single1" Visible="True">
@@ -375,7 +375,7 @@
   <Package PackageName="Damage_Panel_Log_Combo" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Damage Panel + Damage Log Combo" Type="single1" Visible="False">
     <Description>Mods here use a combination of the Damage Panel and Damage Logs</Description>
     <Dependencies>
-      <Dependency PackageName="Dependency_XVM_damage_log_disable" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_XVM_damageLogDisable" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
 </Category>

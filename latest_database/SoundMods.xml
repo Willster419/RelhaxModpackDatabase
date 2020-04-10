@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Sound Mods">
   <Dependencies>
-    <Dependency PackageName="Dependency_audio_mods_xml" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_default" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_default" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
   </Dependencies>
   <Package PackageName="Sounds_Engine" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Engine" Type="multi" Visible="True">
     <Dependencies>
-      <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_larger_IO_stream" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
       <Package PackageName="Sounds_AGQJ_Engines_SicFunzler" Enabled="True" InstallGroup="4" PatchGroup="4" Name="AGQJ Engines by SicFunzler v{version}" Type="single_dropdown1" Visible="True">
@@ -19,7 +19,7 @@
         <Description>AGQJ_Engines_Fedor_Saveliev\ndirect link:Engines  (SoundEventInjector)\nhttps://yadi.sk/d/JyTOJmcq3S9bLf\r\n\r\nmaybe confict with WWIIHWA</Description>
         <UpdateComment>T10 Fix"V-12-6": \r\n{                "wwsoundPC": "V_12P",\r\n                "wwsoundNPC": "V_12P_NPC"           },\r\n\r\nUpdate  G&amp;M  V230  ( 04.03.2020 )</UpdateComment>
         <Dependencies>
-          <Dependency PackageName="Dependency_Sounds_AGQJ_Engines_Soundbanks" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_AGQJ_Soundbanks_Engines" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
         </Dependencies>
@@ -33,7 +33,7 @@
         <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1778752-</DevURL>
         <Description>AGQJ_Engines_Fedor_Saveliev\ndirect link:Engines  (SoundEventInjector)\nhttps://yadi.sk/d/JyTOJmcq3S9bLf\r\n\r\nmaybe confict with WWIIHWA</Description>
         <Dependencies>
-          <Dependency PackageName="Dependency_Sounds_AGQJ_Engines_Soundbanks" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_AGQJ_Soundbanks_Engines" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
         </Dependencies>
@@ -71,7 +71,7 @@
           <Media URL="https://youtu.be/V7G2JDB07Lw?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
         </Medias>
         <Dependencies>
-          <Dependency PackageName="Dependency_Sounds_HRMOD_Guns_n_Engine_SoundsBanks" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_HRMOD_SoundsBanks" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
@@ -123,14 +123,14 @@
           <Media URL="http://i.imgur.com/uWih1kD.jpg" MediaType="Picture" />
         </Medias>
         <Dependencies>
-          <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_larger_IO_stream" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
     </Packages>
   </Package>
   <Package PackageName="Sounds_Gun" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Gun" Type="multi" Visible="True">
     <Dependencies>
-      <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_larger_IO_stream" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
       <Package PackageName="Sounds_Gun_Star_Trek_Phaser" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Star Trek Phasers by The Illusion v{version}" Type="single_dropdown1" Visible="True">
@@ -194,7 +194,7 @@
         </Medias>
         <Dependencies>
           <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Sounds_HRMOD_Guns_n_Engine_SoundsBanks" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_HRMOD_SoundsBanks" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_load_order_xml" NotFlag="False" Logic="OR" />
         </Dependencies>
@@ -210,7 +210,7 @@
         <UpdateComment>2019-12-11: added GO_reload.wotmod</UpdateComment>
         <Dependencies>
           <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Sounds_AGQJ_Guns_Soundbanks" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_AGQJ_Soundbanks_Guns" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
@@ -225,7 +225,7 @@
         <UpdateComment>Update  G&amp;M  V230  ( 04.03.2020 )\r\n\r\nV210 (2019-12-27): double barrel guns working (OBJEKT 703 VERSION II)\r\n\r\n2019-12-11: added GO_reload.wotmod</UpdateComment>
         <Dependencies>
           <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Sounds_AGQJ_Guns_Soundbanks" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_AGQJ_Soundbanks_Guns" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
@@ -318,7 +318,7 @@
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/381695-\r\nhttp://forum.worldoftanks.eu/index.php?/topic/563633-</DevURL>
         <Description>Change the default voice of all crews to selected language</Description>
         <Dependencies>
-          <Dependency PackageName="Dependency_xml_main_sound_modes" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_XML_mainSoundModes" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
           <Package PackageName="Sounds_Crew_voices_EasyCrewVoice_selector_IT" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Italian" Type="single_dropdown1" Visible="True">
@@ -610,7 +610,7 @@
                   <Media URL="https://youtu.be/yOkMux-bswk?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
                 </Medias>
                 <Dependencies>
-                  <Dependency PackageName="Dependency_audio_mods_xml" NotFlag="False" Logic="OR" />
+                  <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
                 </Dependencies>
               </Package>
               <Package PackageName="Sounds_Crew_Sounds_Siegfried_german" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Siegfried with Strategic_Music" Type="single_dropdown1" Visible="True">
@@ -626,7 +626,7 @@
                   <Media URL="https://youtu.be/HXfT-DRzIwk?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
                 </Medias>
                 <Dependencies>
-                  <Dependency PackageName="Dependency_audio_mods_xml" NotFlag="False" Logic="OR" />
+                  <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
                 </Dependencies>
               </Package>
             </Packages>
@@ -700,8 +700,8 @@
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
             <Description>Must have sound crew language set to "standard"\nMLG EVERYWHERE\nAlso includes awesome visuals.</Description>
             <Dependencies>
-              <Dependency PackageName="Dependency_MLG_english_localization" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_MLG_englishLocalization" NotFlag="False" Logic="OR" />
             </Dependencies>
             <Packages>
               <Package PackageName="Sounds_crew_sounds_MLG_only_audio" Enabled="True" InstallGroup="4" PatchGroup="4" Name="audio only, no visuals" Type="single_dropdown1" Visible="True">
@@ -762,7 +762,7 @@
             <Timestamp>131931517940589771</Timestamp>
             <DevURL>http://forum.worldoftanks.com/index.php?/topic/587664-star-trek-sound-mod/</DevURL>
             <Dependencies>
-              <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_larger_IO_stream" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
             </Dependencies>
             <Packages>
               <Package PackageName="Sounds_Crew_Voices_The_Illusive_Man_Combined" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Combined Crew Sounds (Read Description)" Type="single_dropdown1" Visible="True">
@@ -879,7 +879,7 @@
                   <Media URL="https://youtu.be/565ek6lrqbo?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
                 </Medias>
                 <Dependencies>
-                  <Dependency PackageName="Dependency_audio_mods_xml" NotFlag="False" Logic="OR" />
+                  <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
                 </Dependencies>
               </Package>
             </Packages>
@@ -1073,7 +1073,7 @@
     <InternalNotes>Maybe Trouble with Garage_Graphics_LoginBackground_Video: \r\n\taudioww\loginscreen.bnk</InternalNotes>
     <Description>Full music with orchestra, Big Bands, Rock Bands, Heavy Metall, PC Games music etc.</Description>
     <Dependencies>
-      <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_larger_IO_stream" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
       <Package PackageName="Sounds_Music_by_The_Illusion" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Star Trek Hanger Music Mod by The Illusion v{version}" Type="single1" Visible="True">
@@ -1089,11 +1089,12 @@
         </Medias>
       </Package>
       <Package PackageName="Sounds_Music_by_Andre_V" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Music Mods by Andre_V" Type="single1" Visible="True">
+        <ZipFile>Sounds_Music_AndreV_BASE_2020-04-09.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132309359020898119</Timestamp>
+        <InternalNotes>Get the script files for the base pkg from any of Andre V's music mods. \r\n\r\nThe code is encrypted</InternalNotes>
         <Description>Full music with orchestra, Big Bands, Rock Bands, Heavy Metall, PC Games music etc.\n\nall created by ANDRE_V</Description>
         <ObfuscatedMod>True</ObfuscatedMod>
-        <Dependencies>
-          <Dependency PackageName="Dependency_Music_AndreV_Scripts" NotFlag="False" Logic="OR" />
-        </Dependencies>
         <Packages>
           <Package PackageName="Sounds_Music_by_Andre_V_NOTES" Enabled="False" InstallGroup="4" PatchGroup="4" Name="NOTES: Sounds Music by Andre_V" Type="none" Visible="False">
             <Size>680662282</Size>
@@ -1393,7 +1394,7 @@
       <UserFile Pattern="\res_mods\versiondir\scripts\client\gui\mods\wwiihwa\WWIIHWA.xml" />
     </UserFiles>
     <Dependencies>
-      <Dependency PackageName="Dependency_Sounds_Increase_Sound_Memory_larger_IO_stream" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
       <Package PackageName="WWIIHWA_Ambiente_Base" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WWIIHWA Ambiente Light" Type="multi" Visible="True">

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Garage Mods">
-  <Package PackageName="Garage_Mods_Annoying_Features_Remover" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Annoying Features Remover v{version} [NDO Hangar Addons]" Type="multi" Visible="True">
+  <Package PackageName="Garage_Mods_Annoying_Features_Remover" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Annoying Features Remover [Hangar Addons] v{version}" Type="multi" Visible="True">
     <Size>4835</Size>
     <Version>#55</Version>
-    <ZipFile>GarageMods_AnnoyingFeaturesRemover_1.8.0.1_2020-03-14.zip</ZipFile>
-    <CRC>e782b3bc4be6281f23de9e94dc42d2fc</CRC>
-    <Timestamp>132286614345388799</Timestamp>
+    <ZipFile>GarageMods_AnnoyingFeaturesRemover_1.8.0.2_2020-04-09.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132308904116610265</Timestamp>
     <DevURL>https://wgmods.net/1550/</DevURL>
     <Author>NDO</Author>
     <Description>– disable display "Referral Program" button;\r\n– disable display "General chat" button;\r\n– disable display promo of premium vehicle (on the background in the hangar); \r\n– disable display of information windows with a list of received awards for "Reward for Merit";\r\n– disable the display of pop-up messages and unread notifications counter in the menu received from "Combat Intelligence".\r\n[-disable dogtags]</Description>
@@ -103,9 +103,9 @@
   <Package PackageName="Garage_mods_auto_equip_equipment" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Auto-equip removeable equipment" Type="multi" Visible="True">
     <Size>33195</Size>
     <Version>1.1.1</Version>
-    <ZipFile>GarageMods_autoEquipEquipment_OldSkool_v1.1.1_1.8.0.0_2020-03-06.zip</ZipFile>
-    <CRC>a2d39119a9ef0127df0e6def027d1baa</CRC>
-    <Timestamp>132279620332121414</Timestamp>
+    <ZipFile>GarageMods_autoEquipEquipment_OldSkool_v1.1.1_1.8.0.2_2020-04-09.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132308874964292918</Timestamp>
     <DevURL>https://wgmods.net/1022/details</DevURL>
     <Author>OldSkool</Author>
     <Description>Simple Mod to automatically mount and demount removable devices on vehicles.\r\n\r\nTeach this mod how it should work:\nEquipment from the previous vehicle will be mounted after battle on the next vehicle.\n(Binoculars, Toolbox and Camonet)\r\n\r\n by OldSkool</Description>
@@ -115,6 +115,18 @@
     <UserFiles>
       <UserFile Pattern="{app}\autoequip.json" />
     </UserFiles>
+  </Package>
+  <Package PackageName="GarageMods_CrewAutoReturn" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Crew auto-return" Type="multi" Visible="True">
+    <Version>1.0.7</Version>
+    <ZipFile>GarageMods_CrewAutoReturn_OldSkool_v1.1.1_1.8.0.2_2020-04-09.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132308903046288116</Timestamp>
+    <DevURL>https://wgmods.net/3668/</DevURL>
+    <Author>OldSkool</Author>
+    <Description>OLDSKOOL'S AUTO RETURN CREW MOD\r\n... IS AN EXTENSION TO AUTOSWITCH YOUR CREWS BETWEEN TANKS.\r\n\r\n\r\nFEATURES:\r\n• Autoswitch your crews between tanks.\r\n• Easy enable or disable it for each of your tanks.\r\n• Over 10 languages aresupported for now.\r\n• Save configuration to safe file location to prevent issues.</Description>
+    <Medias>
+      <Media URL="https://wgmods.net/media/mod_files/Screenshot_2_BrmwiVY.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+    </Medias>
   </Package>
   <Package PackageName="Garage_mods_Auxilium" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Auxilium Garage Settings v{version}" Type="multi" Visible="True">
     <Size>27857</Size>
@@ -241,10 +253,10 @@
   </Package>
   <Package PackageName="Garage_mods_Battle_Hits_Viewer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battle Hits Viewer in Hangar v{version}" Type="multi" Visible="True">
     <Size>11840657</Size>
-    <Version>1.4.9</Version>
-    <ZipFile>GarageMods_BattleHitsViewer_1.4.9_1.8.0.0_2020-03-05.zip</ZipFile>
-    <CRC>f73e4274e2f264c15e694c4481ac82b8</CRC>
-    <Timestamp>132278779499446926</Timestamp>
+    <Version>1.5.0</Version>
+    <ZipFile>GarageMods_BattleHitsViewer_1.5.0_1.8.0.2_2020-04-09.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132308861296349310</Timestamp>
     <DevURL>https://bitbucket.org/P0LIR0ID/wot-battlehits/downloads/</DevURL>
     <Author>P0LIR0ID</Author>
     <Description>Mod allows you to consider all the hits on the tank received in battle.\nYou can configure the mod directly in the hangar.</Description>
@@ -259,7 +271,7 @@
       <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="Garage_Mods_Chat" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Chat &amp; System-Messages (in Garage)" Type="multi" Visible="True">
+  <Package PackageName="Garage_Mods_Chat" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Chat &amp; System-Messages (in Garage)" Type="multi" Visible="True">
     <Packages>
       <Package PackageName="Garage_Mods_Chat_Antitoxicity_disable_annoying_garage_messages" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable showing of annoying garage messages (gun mounted, welcome to server, etc.)" Type="multi" Visible="True">
         <Size>732</Size>
@@ -316,7 +328,7 @@
     <Dependencies>
       <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_gambiter_guiflash" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
       <Package PackageName="Garage_Mods_CrewExtended_spoter" Enabled="True" InstallGroup="4" PatchGroup="4" Name="by spoter" Type="single_dropdown1" Visible="True">
@@ -363,6 +375,7 @@
     <CRC>059069d3df5c66c50070b8daa68b1dc2</CRC>
     <Timestamp>132205095608912985</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/507925-</DevURL>
+    <Author>Budyx69</Author>
     <Description>With this Button you can jump to the Relhax Modpack chat channel in game, the Discord support server, and visit our official support Forums.\r\n\r\nby Budyx69</Description>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/ModpackButton_Budyx69_001.jpg" MediaType="Picture" />
@@ -398,6 +411,7 @@
     <CRC>13114b3e0fca3de5d25e47a60fe82bac</CRC>
     <Timestamp>131898702564828388</Timestamp>
     <DevURL>https://wgmods.net/1010/details</DevURL>
+    <Author>alphasave1</Author>
     <Description>This mod can start maps offline.\nThere is no tank and no gui, only the blank map to explore!\nOnly Works From Login Screen\n------------------------------------------------------------------------------------------------------------------------------------------\nHow to use:\n\n1.Click the MOD list in the lower right corner of the login screen\n2.Click on item OfflineMode Launcher\n-&gt; Launcher window opens\n3.Select a map\n4.Click the Load button\n-&gt; The map will load\n5.Press the F key\n------------------------------------------------------------------------------------------------------------------------------------------\nKeys:\n\nWSAD:                 move camera\nNumpad +/-:         adjust FOV\nMouse Wheel:      adjust speed\nEscape:                toggle mouse mode\nF:                          toggle camera freeze mode\nR:                         add new camera view point\n0-7:                      change camera view point\nN:                         move to previous camera view point\nM:                        move to next camera view point\nP:                         toggle post-precessing\nC:                         toggle cinematic post-processing mode\nT:                         toggle temporal AA\nEND:                    Game will quit\nAlt+F4:             ,    Game will quit.\nPrtSc/SysRq:       ScreenShot\n------------------------------------------------------------------------------------------------------------------------------------------\nAbout camera speed:\n1.Copy the engine_config.xml from res/ to res_mods/1.1.0.1\n2.Open XML file,edit ui/straferate value.\n3.Save,Close.\n------------------------------------------------------------------------------------------------------------------------------------------\nContact：Twitter \nalphasave1\nSpecial Thanks : \nchirimenspiral , koreanrandom’s MODders</Description>
     <Medias>
       <Media URL="https://wgmods.net/media/shot_072_RaOpILn.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
@@ -440,6 +454,7 @@
         <CRC>c9b8f6029372d154ff1660bcc05dd73d</CRC>
         <Timestamp>132278781016394015</Timestamp>
         <DevURL>https://wgmods.net/22/details/</DevURL>
+        <Author>WGMods</Author>
         <Description>Mod allows you to manage your game replays directly from the the game!\r\n\r\nMain features of the mod:\r\n- display in a convenient form all replays from the folder “replays”.\r\n- sorting and filtering replays on various parameters, simplifying the search for the desired replay.\r\n- viewing the results of the recorded battle in a convenient form.\r\n- running the selected replay (is possible only after disconnecting from the server, and then restarting the client).\r\n- upload replays to the site wotreplays.com and get a direct link to it.\r\n\r\n\r\n\r\n\r\nby STL1te_P0LIR0ID \nGerman Translation by DOC73 \n\nRU-Server: wotreplays.ru \nEU-Server: wotreplays.eu \nNA-Server: wotreplays.com</Description>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_1-3.jpg" MediaType="Picture" />
@@ -575,6 +590,7 @@
     <CRC>f8af85e51a3771e3ee72d13b03ec001c</CRC>
     <Timestamp>132279931464903830</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/717770-15132019-08-04-vehicle-parameters-on-single-list-by-rajcel/\r\nhttps://wgmods.net/3646/</DevURL>
+    <Author>RaJCeL</Author>
     <Description>These are vehicle parameters on single list.\r\n\r\nby RajCel</Description>
     <Medias>
       <Media URL="https://i.imgur.com/qJP67pz.jpg" MediaType="Picture" />
