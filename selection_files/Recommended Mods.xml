@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<mods ver="2.0" date="2020-04-12 14:31:22" timezone="(UTC-04:00) Atlantic Time (Canada)" dbVersion="1.8.0.2_2020-04-10_1" dbDistro="Stable">
+<mods ver="2.0" date="2020-04-13 13:11:21" timezone="(UTC+01:00) Amsterdam, Berlin, Bern, Rom, Stockholm, Wien" dbVersion="1.8.0.2_2020-04-10_1" dbDistro="Beta">
   <relhaxMods>
     <mod>Damage_Panels</mod>
     <mod>Damage_Panel_Hawg_Glass</mod>
@@ -14,8 +14,11 @@
     <mod>Ingame_Aim_ServerReticle_PMOD_BlackWhite</mod>
     <mod>Ingame_Aim_ZoomIn</mod>
     <mod>Ingame_Aim_ZoomIn_2</mod>
+    <mod>Ingame_Aim_ZoomIn_tdBrake</mod>
+    <mod>Ingame_Aim_ZoomIn_tdBrake_off</mod>
     <mod>Ingame_Aim_ZoomIn_tdStartZoom</mod>
     <mod>Ingame_Aim_ZoomIn_tdStartZoom_2x</mod>
+    <mod>Ingame_Aim_ZoomIn_enableZoomIndicator</mod>
     <mod>Ingame_Aim_ZoomOut</mod>
     <mod>Ingame_Aim_ZoomOut_Arcade</mod>
     <mod>Ingame_Aim_ZoomOut_Arcade_500</mod>
@@ -24,16 +27,6 @@
     <mod>Ingame_Aim_ZoomOut_Stragetic</mod>
     <mod>Ingame_Aim_ZoomOut_Stragetic_500</mod>
     <mod>Ingame_Aim_ZoomOut_Increase_Scroll_Speed</mod>
-    <mod>Ingame_Info_Players_Panel_Pro</mod>
-    <mod>Ingame_Info_Players_Panel_Pro_HP_Bars</mod>
-    <mod>Ingame_Info_Players_Panel_Pro_HP_Bars_Mode</mod>
-    <mod>Ingame_Info_Players_Panel_Pro_HP_Bars_onAlways</mod>
-    <mod>Ingame_Info_Players_Panel_Pro_HP_Bars_Format</mod>
-    <mod>Ingame_Info_Players_Panel_Pro_HP_Bars_Format_Remaining_and_Maximum</mod>
-    <mod>Ingame_Info_Players_Panel_Pro_HP_Bars_Style</mod>
-    <mod>Ingame_Info_Players_Panel_Pro_HP_Bars_Style_Shiny</mod>
-    <mod>Ingame_Info_Players_Panel_Pro_HP_Bars_disable_class_color</mod>
-    <mod>Ingame_Info_Players_Panel_Pro_HP_Bars_bars_closer_to_panels</mod>
     <mod>IngameInfo_ExpectedValues</mod>
     <mod>IngameInfo_ExpectedValues_ExpectedVehicleValues</mod>
     <mod>IngameInfo_ExpectedValues_ExpectedVehicleValues_enableMoEDisplay</mod>
@@ -42,38 +35,26 @@
     <mod>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleHalfPercents</mod>
     <mod>Ingame_Info_prem_Shell_Visibility</mod>
     <mod>Ingame_Info_prem_Shell_Visibility_Blue</mod>
+    <mod>Ingame_Info_prem_Shell_Visibility_show_ally_gold_ammo</mod>
+    <mod>Ingame_Info_prem_Shell_Visibility_show_own_gold_ammo</mod>
     <mod>Ingame_Info_Hidden_Parameters</mod>
     <mod>Ingame_Info_Hidden_Parameters_Speed</mod>
     <mod>Ingame_Info_Hidden_Parameters_Terrain_Resistance</mod>
-    <mod>Ingame_Info_HpPools</mod>
-    <mod>Ingame_Info_HpPools_PMOD</mod>
-    <mod>Ingame_Info_BattleGUI_PMOD_Minimap_Angles_Fix</mod>
-    <mod>Ingame_Info_BattleGUI_PMOD_Players_Panel_State</mod>
-    <mod>Ingame_Info_BattleGUI_PMOD_Players_Panel_State_Medium_2</mod>
-    <mod>Ingame_Info_BattleGUI_PMOD_Skin_Selections</mod>
-    <mod>Ingame_Info_HpPools_PMOD_WGL</mod>
-    <mod>Ingame_Misc_Auxilium_Settings</mod>
-    <mod>Ingame_Misc_Auxilium_6thSense</mod>
-    <mod>Ingame_Misc_Auxilium_6thSense_12</mod>
-    <mod>Ingame_Misc_Auxilium_Damage_Timer</mod>
-    <mod>Ingame_Misc_Auxilium_Damage_Timer_6</mod>
-    <mod>Ingame_Misc_Auxilium_disable_TD_Break</mod>
-    <mod>Ingame_Misc_Auxilium_Enable_HStab</mod>
+    <mod>Ingame_Misc_Better_Visible_Flat_Train_Wagons</mod>
     <mod>Ingame_Misc_Flying_Damage</mod>
     <mod>Ingame_Misc_Flying_Damage_V1</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover_GeneralChat</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover_PromoPremVehicle</mod>
-    <mod>Garage_Mods_Annoying_Features_Remover_sessionStatsButton</mod>
     <mod>Garage_mods_Auxilium</mod>
+    <mod>Garage_mods_Auxilium_settings_auto_crew_return</mod>
+    <mod>Garage_mods_Auxilium_settings_Gold_Locker</mod>
+    <mod>Garage_mods_Auxilium_settings_FreeXP_Locker</mod>
     <mod>Garage_mods_Auxilium_settings_prefered_server</mod>
-    <mod>Garage_Mods_Auxilium_Carousel</mod>
-    <mod>Garage_Mods_Auxilium_Carousel_Small</mod>
-    <mod>Garage_Mods_Auxilium_Carousel_3</mod>
     <mod>Garage_mods_Battle_Hits_Viewer</mod>
     <mod>Garage_Mods_CrewExtended</mod>
     <mod>Garage_Mods_CrewExtended_spoter</mod>
-    <mod>Garage_mods_Seller</mod>
+    <mod>Garage_mods_Modpack_Button</mod>
+    <mod>Garage_mods_Modpack_Button_Left</mod>
+    <mod>Garage_mods_ScriptloaderPro</mod>
+    <mod>Garage_mods_ScriptloaderPro_SpamFilter</mod>
     <mod>Garage_Mods_Simple_Vehicle_Stats</mod>
     <mod>GarageMods_TooltipPro</mod>
     <mod>Garage_mods_VehicleXP_Extended</mod>
@@ -81,11 +62,16 @@
     <mod>Session_Statistics_YK</mod>
     <mod>Session_Statistics_YK_Daily_Reset</mod>
     <mod>Session_Statistics_YK_Module</mod>
-    <mod>Session_Statistics_YK_Module_ColoredMessages</mod>
     <mod>Session_Statistics_YK_Module_GraphicalBattleMessages</mod>
     <mod>Session_Statistics_YK_Module_Skulls</mod>
-    <mod>Session_Statistics_YK_background</mod>
-    <mod>Session_Statistics_YK_background_v5</mod>
+    <mod>Sixth_Sense_Icon_Disable_Default_Icon</mod>
+    <mod>Sixth_Sense_Icon_light_bulb</mod>
+    <mod>Sixth_Sense_Icon_Duration</mod>
+    <mod>Sixth_Sense_Icon_Duration_10</mod>
+    <mod>Tank_Skins_Misc_crashed_tracks</mod>
+    <mod>Tank_Skins_Misc_crashed_tracks_white</mod>
+    <mod>Tank_Skins_Misc_dead_tanks</mod>
+    <mod>Tank_Skins_Misc_dead_tanks_gray</mod>
   </relhaxMods>
   <userMods />
 </mods>
