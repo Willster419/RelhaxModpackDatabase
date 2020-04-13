@@ -1914,6 +1914,567 @@
           <Media URL="https://puu.sh/z80X3/959cf2b2b5.jpg" MediaType="Picture" />
         </Medias>
         <Packages>
+          <Package PackageName="Spacer_Logs" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Logs--" Type="none" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132312511351952390</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Log" Type="multi" Visible="True">
+            <Description>Toggle the xvm damage log. The damage log shows how much damage you have taken for the duration of the battle.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/damage_log_(XVM)_lower_left_web.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
+            </Medias>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
+                <Size>533</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DamageLog_enable_2019-06-26.zip</ZipFile>
+                <CRC>9527bb8cf27cc347fd77a9f107c4befb</CRC>
+                <Timestamp>132060081070552386</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
+                <Size>535</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DamageLog_disable_2019-06-26.zip</ZipFile>
+                <CRC>3bbdd3dd07842090f2d6418937fa6137</CRC>
+                <Timestamp>132060081301674390</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_MoveInBattle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="move DamageLog in Battle (CTRL+Mouse)" Type="multi" Visible="True">
+                <Size>683</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DamageLog_MoveInBattle_true_2019-06-26.zip</ZipFile>
+                <CRC>68bbaf352c4e6e05705c4b4ff2b3cea5</CRC>
+                <Timestamp>132060081627592921</Timestamp>
+                <Description>Enabling this will allow you to move the xvm damagelog. \nWhile holding CTRL, click and drag the label with your mouse</Description>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_toggleDefault_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable toggling of client default damagelog from game settings" Type="multi" Visible="True">
+                <Size>550</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DamageLog_toggleDefault_enable_2019-06-26.zip</ZipFile>
+                <CRC>2466637cdbdbfadf65a894d87129cf2a</CRC>
+                <Timestamp>132060081916709854</Timestamp>
+                <Description>Enabling this will allow you to configure the ingame damagelog and hitlog settings from the client settings window.</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/allow_toggle_ingame_damage_log.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hitlog" Type="multi" Visible="True">
+            <Description>Toggle the xvm hitlog (Shows a log of total damage you have caused for the duration of the game)</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
+            </Medias>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
+                <Size>537</Size>
+                <ZipFile>XVM_config_builder_hitlog_enable_2019-03-24.zip</ZipFile>
+                <CRC>60682cd788d8201d70179f01750741c1</CRC>
+                <Timestamp>131979163191293358</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
+                <Size>539</Size>
+                <ZipFile>XVM_config_builder_hitlog_disable_2019-03-24.zip</ZipFile>
+                <CRC>f20b47c310e7e7535c733ce0a26030e9</CRC>
+                <Timestamp>131979163291236079</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog_MoveInBattle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="move in battle" Type="multi" Visible="True">
+                <Size>512</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_Hitlog_MoveInBattle_2019-06-06.zip</ZipFile>
+                <CRC>1cb1af8a4dae316ec2ddee687de72173</CRC>
+                <Timestamp>131979163291236079</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_AssistLog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Assist Log" Type="multi" Visible="True">
+            <Size>4776</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_AssistLog_2019-07-07.zip</ZipFile>
+            <CRC>41a1262881c727ae9c7b91249722e099</CRC>
+            <Timestamp>132069901336343881</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
+            <Description>shows a log for dealt damage with your assistance</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_AssistLog.png" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_AssistLog" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Spacer_Eff" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Efficiency--" Type="none" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132312511351952390</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Total Efficiency" Type="multi" Visible="True">
+            <Description>Shows spotting damage, assistance damage, stun damage, etc.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
+            </Medias>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
+                <Size>955</Size>
+                <ZipFile>XVM_config_builder_total_eff_enable.zip</ZipFile>
+                <CRC>7c2db2e5ddcabed916a626650e02438f</CRC>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
+                <Size>957</Size>
+                <ZipFile>XVM_config_builder_total_eff_disable.zip</ZipFile>
+                <CRC>f64aaeb342ba7f758f115202e2ad083d</CRC>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_move" Enabled="True" InstallGroup="4" PatchGroup="4" Name="move the total efficiency label" Type="multi" Visible="True">
+                <Timestamp>131930934157368062</Timestamp>
+                <Description>this moves the "total efficiency" label from the top to a different position</Description>
+                <Packages>
+                  <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_underchat" Enabled="True" InstallGroup="4" PatchGroup="4" Name="under the chat (bottom left)" Type="single_dropdown1" Visible="True">
+                    <Size>644</Size>
+                    <ZipFile>XVM_config_builder_total_eff_underchat_patch.zip</ZipFile>
+                    <CRC>5706efbba42921607dcf69156fe989d3</CRC>
+                    <Timestamp>131930933307981260</Timestamp>
+                    <Description>this moves the Total Efficiency to the space between chat and damage panel</Description>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TotalEfficiency_underchat.png" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                  <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_abovedamagelog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="above damagelog" Type="single_dropdown1" Visible="True">
+                    <Size>649</Size>
+                    <ZipFile>XVM_config_builder_total_eff_abovedmglog_patch.zip</ZipFile>
+                    <CRC>bb0d27cca3e54cb6643428e6e086bb11</CRC>
+                    <Timestamp>131930931932550202</Timestamp>
+                    <Description>this moves the Total Efficiency to the bottom above the xvm damage log</Description>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TotalEfficiency_abovedamagelog.jpg" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                </Packages>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_battleEfficiency" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battle Efficiency (ingame current wn8 calculator)" Type="multi" Visible="True">
+            <Size>2688</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_battleEfficiency_2019-07-07.zip</ZipFile>
+            <CRC>11167f822022be374506d23748d08115</CRC>
+            <Timestamp>132069543077730353</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_battleEfficiency.png" MediaType="Picture" />
+            </Medias>
+            <ConflictingPackages>Ingame_Info_InBattle_Rating</ConflictingPackages>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_AverageDamage" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Average Damage" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_AverageDamage_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
+                <Size>963</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_AverageDamage_enable_2019-06-26.zip</ZipFile>
+                <CRC>9fdf892bd333fe1b1883256faa9bba75</CRC>
+                <Timestamp>132060080050863875</Timestamp>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_AverageDamage_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
+                <Size>965</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_AverageDamage_disable_2019-06-26.zip</ZipFile>
+                <CRC>c90ed2216a368b9d9b487ef9f33287a5</CRC>
+                <Timestamp>132060080288368810</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_HighCaliber" Enabled="True" InstallGroup="4" PatchGroup="4" Name="High Caliber Tracker" Type="multi" Visible="True">
+            <Description>Shows how much damage you need to do to get high caliber</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
+            </Medias>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_HighCaliber_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
+                <Size>955</Size>
+                <ZipFile>XVM_config_builder_high_caliber_enable.zip</ZipFile>
+                <CRC>1f4580100062508213ed9d802628a97d</CRC>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
+                </Medias>
+                <ConflictingPackages>Ingame_Info_HighCaliber</ConflictingPackages>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_HighCaliber_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
+                <Size>958</Size>
+                <ZipFile>XVM_config_builder_high_caliber_disable.zip</ZipFile>
+                <CRC>25e29658adf2188da358111c716cc897</CRC>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_MissionTracker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Information Label for Missions (Mission Tracker)" Type="multi" Visible="True">
+            <Size>72738</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_MissionTracker_by_Marsone_patch_2019-09-18.zip</ZipFile>
+            <CRC>2928d60f91b34800177f167fb62c0f9e</CRC>
+            <Timestamp>132133075876723867</Timestamp>
+            <Description>This label positioned under the left PlayersPanel shows you many informations you need for missions or for your daily games too. \nExamples for that are your damage, damage of your platoon members, damage of you and your platoon members together, number of enemys you spotted, number of critical hits you made, number of enemys your complete platoon killed, damage through reconnaissance and chain destruction, damage through spotting only, damage through chain destruction only, damage you got, hits you got and damage you blocked. \n\nInformation Label for Missions by MarsOne: http://forum.worldoftanks.eu/index.php?/topic/340002-09151-omc-modpack-installer-mit-bild-video-vorschau-letztes-update-siehe-wwwodemmortiscom/page__st__4980__pid__13912513#entry13912513</Description>
+            <Medias>
+              <Media URL="http://fs5.directupload.net/images/170301/iepa9zdy.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/32rpylxt.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/ax9qxb7t.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/reiaain2.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/nftgewby.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/avvxrq8b.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/7e2xelc7.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/9bahnmgt.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/3ty5gpoa.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/wmqvtr3e.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/k5alp63d.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/juo3kcsb.png" MediaType="Picture" />
+              <Media URL="http://fs5.directupload.net/images/170301/zbukbbfp.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Spacer_Info" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Info Labels--" Type="none" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132312511351952390</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DebugPanel (FPS &amp; Ping)" Type="multi" Visible="True">
+            <Timestamp>131812488048625094</Timestamp>
+            <Description>Show FPS / Ping / Clock in upper left corner.</Description>
+            <ConflictingPackages>Ingame_Info_DebugPanel</ConflictingPackages>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_PY_debugPanel" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v1" Type="single_dropdown1" Visible="True">
+                <Size>26381</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v1_2019-09-18.zip</ZipFile>
+                <CRC>0e6adfc375d474b3daf3ff94c7a6ae1f</CRC>
+                <Timestamp>132133076834607388</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v1.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v2" Type="single_dropdown1" Visible="True">
+                <Size>69610</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v2_2019-09-18.zip</ZipFile>
+                <CRC>91ca6b838f7ccc9f8c878134d043b0e3</CRC>
+                <Timestamp>132133076791074481</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v2.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v3byRess" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v3 by Ress" Type="single_dropdown1" Visible="True">
+                <Size>17410</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v3byRess_2019-09-18.zip</ZipFile>
+                <CRC>f27555c64148daaf65dbc6356a01f923</CRC>
+                <Timestamp>132133076710142177</Timestamp>
+                <Description>Show FPS / Ping / Clock in upper left corner.\nby Ress\n\nNot compatible to some XVM PreBuiltConfigs</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel_fps_ping_clock.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v3.jpg" MediaType="Picture" />
+                </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_Fonts_Visitor_TT1_BRK" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v4" Type="single_dropdown1" Visible="True">
+                <Size>2182</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v4_2019-09-18.zip</ZipFile>
+                <CRC>72ba6219a891d87a7b58d5659a351a5a</CRC>
+                <Timestamp>132133076625918718</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v4.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v5" Type="single_dropdown1" Visible="True">
+                <Size>51502</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v5_2019-09-18.zip</ZipFile>
+                <CRC>5a7562343176bd5b5ac4ab4e7e922c83</CRC>
+                <Timestamp>132133076563895545</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v5.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v6" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v6" Type="single_dropdown1" Visible="True">
+                <Size>4254</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v6_2019-09-18.zip</ZipFile>
+                <CRC>83d4afdbf852d4a97e51d3e55cb45c29</CRC>
+                <Timestamp>132133076493415116</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v6.jpg" MediaType="Picture" />
+                </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_Fonts_Micrac" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v7" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v7" Type="single_dropdown1" Visible="True">
+                <Size>5520</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v7_2019-09-18.zip</ZipFile>
+                <CRC>b2f29a4c04787d8b7bb531c4022a2eef</CRC>
+                <Timestamp>132133076414816524</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v7.jpg" MediaType="Picture" />
+                </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_Fonts_Cuprum" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v8" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v8" Type="single_dropdown1" Visible="True">
+                <Size>14001</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v8_2019-09-18.zip</ZipFile>
+                <CRC>7b7ef2afc44e8ec927f5bccd96d41b3c</CRC>
+                <Timestamp>132133076330443470</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v8.jpg" MediaType="Picture" />
+                </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_Fonts_Harpoon" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v9" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v9" Type="single_dropdown1" Visible="True">
+                <Size>4320</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v9_2019-09-18.zip</ZipFile>
+                <CRC>1273bff45b769f39672738a8943cd79f</CRC>
+                <Timestamp>132133076262017524</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v9.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_HullInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hull-Info for current tank" Type="multi" Visible="True">
+            <Size>1891</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_HullInfo_by_HAWG_2019-06-24.zip</ZipFile>
+            <CRC>516e8da97d4f581b909149dd8d8756af</CRC>
+            <DevURL>https://koreanrandom.com/forum/topic/47599-hullxc-hull-armor-informer/  \r\nhttps://discord.gg/a6s5EfB</DevURL>
+            <Author>HAWG</Author>
+            <Description>This will display your hull armor in battle .</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Hull.png" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_XC_hull" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_Speed" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Speed of current tank" Type="multi" Visible="True">
+            <Size>1789</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_Speed_by_HAWG_2019-06-24.zip</ZipFile>
+            <CRC>03f5a1ba995937b7be882e20afaf53da</CRC>
+            <DevURL>https://koreanrandom.com/forum/topic/47422-speedxc-tanks-top-speed/ \r\nhttps://discord.gg/grvGWMj</DevURL>
+            <Author>HAWG</Author>
+            <Description>This is Speed.xc the xc file will show your tanks top speed forward and reverse , above the damage panel.\r\n\r\nYou will always know what your tanks top speed  is .</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Speed.png" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Spacer_InfoAim" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--AimInfo Labels--" Type="none" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132312511351952390</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Piercing Chance (possible Penetration Indicator conflict!)" Type="multi" Visible="True">
+            <Size>1769</Size>
+            <CRC>f</CRC>
+            <Timestamp>132074274822269120</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/37259-</DevURL>
+            <Description>This mod shows if you have a chance to penetrate the enemy.\n\n\n\ncolors:\ngreen = chance to pierce\nred = no chance to pierce</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png" MediaType="Picture" />
+            </Medias>
+            <ConflictingPackages>Ingame_Aim_Penetration</ConflictingPackages>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance_v1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="penetration / target armor" Type="single_dropdown1" Visible="True">
+                <Size>1769</Size>
+                <ZipFile>XVM_config_builder_battleinterface_piercingchance_2019-07-08.zip</ZipFile>
+                <CRC>87bde75837c9edc6ed0250d53b754985</CRC>
+                <Timestamp>132074274906772914</Timestamp>
+                <Description>format: \ncurrent own gun penetration / actual enemy armor</Description>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance_v2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="penetration / target armor / pen chance in percent" Type="single_dropdown1" Visible="True">
+                <Size>1782</Size>
+                <ZipFile>XVM_config_builder_battleinterface_piercingchance_percent_2019-07-12.zip</ZipFile>
+                <CRC>5bfaf77b545fa4b627d57e7935b574ab</CRC>
+                <Timestamp>132074274770397976</Timestamp>
+                <Description>format: \ncurrent own gun penetration / actual enemy armor / pen chance in percent</Description>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance_v3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="pen chance in percent" Type="single_dropdown1" Visible="True">
+                <Size>1763</Size>
+                <ZipFile>XVM_config_builder_battleinterface_piercingchance_percent_only_2019-07-12.zip</ZipFile>
+                <CRC>6d03ceac5714b0d14d3a11df51d1e975</CRC>
+                <Timestamp>132074276780811386</Timestamp>
+                <Description>format: \nonly pen chance in percent</Description>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_AimInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Aim Info" Type="multi" Visible="True">
+            <Size>1750</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_AimInfo_2020-01-30.zip</ZipFile>
+            <CRC>84e3258386443a72a688c5071d86cd75</CRC>
+            <Timestamp>132248802272813268</Timestamp>
+            <Description>Shows aim info during the battle:\nDistance, Shell travel time, Aim Time</Description>
+            <Medias>
+              <Media URL="https://puu.sh/ApLEG/c48ffd73ad.png" MediaType="Picture" />
+            </Medias>
+            <ConflictingPackages>Ingame_Aim_SPG_Flytime</ConflictingPackages>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_beginBattle" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_PY_displayingItems" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_PY_aiming" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_PY_markerPosition" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_TargetInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Target Info" Type="multi" Visible="True">
+            <Size>1687</Size>
+            <ZipFile>XVM_config_builder_targetinfo_2018-07-27.zip</ZipFile>
+            <CRC>3f017e5c7aa000c6d93eababd50f8c88</CRC>
+            <Timestamp>131771258549087414</Timestamp>
+            <Description>shows the current targets reloadtime (no countdown, only standard reloadtime without perks)</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_targetinfo.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InfoPanel" Type="multi" Visible="True">
+            <Timestamp>131826011602311721</Timestamp>
+            <Description>shows a tankinfopanel like the ones chooseable in IngameInfo</Description>
+            <ConflictingPackages>Ingame_Info_Tank_Info_Panel</ConflictingPackages>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_infoPanel" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel_masheene" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InfoPanel masheene" Type="single_dropdown1" Visible="True">
+                <Size>49773</Size>
+                <ZipFile>XVMConfigBuilder_InfoPanel_masheenestyle_2019-07-08.zip</ZipFile>
+                <CRC>b4e69d2138eda560e1113ae9cd42b352</CRC>
+                <Timestamp>132070697285225337</Timestamp>
+                <DevURL>https://koreanrandom.com/forum/topic/36811-infopanel-средствами-xvm/\r\nhttps://aslain.com/index.php?/topic/12034-xvm-infopanel-configs-for-infopanelpy/\r\n</DevURL>
+                <Description>shows a tankinfopanel like the oldskool one in IngameInfo</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/infopanel/XVM_Config_builder_InfoPanel_masheenestyle.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Spacer_InfoHitDmg" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Damage &amp; Hit Infos--" Type="none" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132312511351952390</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_damageIndicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Indicator + (this is an additional indicator, you still can choose one from &quot;Ingame Info&quot;)" Type="multi" Visible="True">
+            <Size>26250</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_damageIndicator_BASE_2019-07-07.zip</ZipFile>
+            <CRC>3ac6f1f91d01785185e25536f17f6e0c</CRC>
+            <Timestamp>132069618998153387</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/36620-damageindicator-средствами-xvm/#comments</DevURL>
+            <Description>shows a highlighted image when you get shot and are looking directly into that direction where the shot came from</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_2.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_1.jpg" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_LastHitAnnouncer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Last Hit Announcer" Type="multi" Visible="True">
+            <Description>Will display a message of who just shot you and for how much. Similar to the damage announce part of the popular "Damagelog by GambitER".</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
+            </Medias>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_LastHitAnnouncer_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
+                <Size>949</Size>
+                <ZipFile>XVM_config_builder_last_hit_enable.zip</ZipFile>
+                <CRC>f2d03701b4ec3647978bf46479d3dfea</CRC>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_LastHitAnnouncer_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
+                <Size>949</Size>
+                <ZipFile>XVM_config_builder_last_hit_disable.zip</ZipFile>
+                <CRC>da4cfd27482f5712ebebd3264c510d4c</CRC>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_VehicleOnFireAnnouncer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Vehicle On Fire Announcer" Type="multi" Visible="True">
+            <Description>(Another) Visual notification if your vehicle is on fire.</Description>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_VehicleOnFireAnnouncer_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
+                <Size>953</Size>
+                <ZipFile>XVM_config_builder_vehicle_fire_enable.zip</ZipFile>
+                <CRC>4e02c6218ea96aa7eeda7c21bf771d38</CRC>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_VehicleOnFireAnnouncer_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
+                <Size>954</Size>
+                <ZipFile>XVM_config_builder_vehicle_fire_disable.zip</ZipFile>
+                <CRC>4cf3618070217df8fa76da14b15e76a1</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Spacer_Repair" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Repairing--" Type="none" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132312511351952390</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Panel Repair Timers" Type="multi" Visible="True">
+            <Description>Shows a number in the picture of the damaged modules in the players panel of how much time until the item is repaired.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_panel_show_repair_times.png" MediaType="Picture" />
+            </Medias>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
+                <Size>1054</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers_enable_2019-06-26.zip</ZipFile>
+                <CRC>389dc66b2d2682a30de6aaa671d913f4</CRC>
+                <Timestamp>132060082178011169</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_panel_show_repair_times.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
+                <Size>1056</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers_disable_2019-06-26.zip</ZipFile>
+                <CRC>26a7a364a9496eceda8f7a3f6864e4d5</CRC>
+                <Timestamp>132060082392647247</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_panel_show_repair_times.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_repairControl" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Repair Control" Type="multi" Visible="True">
+            <Size>231700</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_repairControl_2019-11-10.zip</ZipFile>
+            <CRC>75858627ca727c891300c0cce501a078</CRC>
+            <Timestamp>132178574163410205</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/36840-repaircontrol-средствами-xvm/</DevURL>
+            <Description>shows a centered repair rose</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_repairControl_2.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_repairControl_1.jpg" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_repairControl" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_6thSenseDuration" Enabled="True" InstallGroup="4" PatchGroup="4" Name="6th sense - Icon Duration" Type="multi" Visible="True">
             <Description>Configure how long the 6th sense icon stays on your screen.\nIf you later select 6th sense settings in the 6th sense tab, this is automaticaly turned off.</Description>
             <Packages>
@@ -1937,65 +2498,206 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_AimInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Aim Info" Type="multi" Visible="True">
-            <Size>1750</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_AimInfo_2020-01-30.zip</ZipFile>
-            <CRC>84e3258386443a72a688c5071d86cd75</CRC>
-            <Timestamp>132248802272813268</Timestamp>
-            <Description>Shows aim info during the battle:\nDistance, Shell travel time, Aim Time</Description>
-            <Medias>
-              <Media URL="https://puu.sh/ApLEG/c48ffd73ad.png" MediaType="Picture" />
-            </Medias>
-            <ConflictingPackages>Ingame_Aim_SPG_Flytime</ConflictingPackages>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_beginBattle" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_XVM_PY_displayingItems" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_XVM_PY_aiming" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_XVM_PY_markerPosition" NotFlag="False" Logic="OR" />
-            </Dependencies>
+          <Package PackageName="Spacer_InfoHP" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Health Infos--" Type="none" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132312511351952390</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_AverageDamage" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Average Damage" Type="multi" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_Scoreboard" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Scoreboard" Type="multi" Visible="True">
+            <Description>Configure the scoreboard (the topmost interface component showing both teams alive or dead tanks)</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_header.jpg" MediaType="Picture" />
+            </Medias>
             <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_AverageDamage_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
-                <Size>963</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_AverageDamage_enable_2019-06-26.zip</ZipFile>
-                <CRC>9fdf892bd333fe1b1883256faa9bba75</CRC>
-                <Timestamp>132060080050863875</Timestamp>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_Scoreboard_ShowAlive" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Show Alive" Type="single_dropdown1" Visible="True">
+                <Size>1060</Size>
+                <ZipFile>XVM_config_builder_scoreboard_show_alive.zip</ZipFile>
+                <CRC>c3b97655d27e51a6af02ba01a7c311eb</CRC>
+                <Description>Show the number of tanks alive.</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_show_alive.png" MediaType="Picture" />
+                </Medias>
               </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_AverageDamage_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
-                <Size>965</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_AverageDamage_disable_2019-06-26.zip</ZipFile>
-                <CRC>c90ed2216a368b9d9b487ef9f33287a5</CRC>
-                <Timestamp>132060080288368810</Timestamp>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_Scoreboard_ShowKills" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Show Kills" Type="single_dropdown1" Visible="True">
+                <Size>1061</Size>
+                <ZipFile>XVM_config_builder_scoreboard_show_kills.zip</ZipFile>
+                <CRC>d49cc9faf4f419b190f8db337d91ab07</CRC>
+                <Description>Show the number of tanks killed.</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_show_kills.png" MediaType="Picture" />
+                </Medias>
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_AssistLog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Assist Log" Type="multi" Visible="True">
-            <Size>4776</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_AssistLog_2019-07-07.zip</ZipFile>
-            <CRC>41a1262881c727ae9c7b91249722e099</CRC>
-            <Timestamp>132069901336343881</Timestamp>
-            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
-            <Description>shows a log for dealt damage with your assistance</Description>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_TotalHP" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Total HP" Type="multi" Visible="True">
+            <Description>Shows the total combined hp of each team. Commonly under the scoreboard, in the format "our hp &gt; their hp".</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_AssistLog.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
             </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_AssistLog" NotFlag="False" Logic="OR" />
-            </Dependencies>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalHP_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable total HP" Type="single_dropdown1" Visible="True">
+                <Size>947</Size>
+                <ZipFile>XVM_config_builder_total_hp_enable.zip</ZipFile>
+                <CRC>d2db01060ed492f7c4f887c6d56e1c6c</CRC>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalHP_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable total HP" Type="single_dropdown1" Visible="True">
+                <Size>950</Size>
+                <ZipFile>XVM_config_builder_total_hp_disable.zip</ZipFile>
+                <CRC>bb6a042d49c79a2bf4d22fc97de5640c</CRC>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_battleEfficiency" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battle Efficiency (ingame current wn8 calculator)" Type="multi" Visible="True">
-            <Size>2688</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_battleEfficiency_2019-07-07.zip</ZipFile>
-            <CRC>11167f822022be374506d23748d08115</CRC>
-            <Timestamp>132069543077730353</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_battleEfficiency.png" MediaType="Picture" />
-            </Medias>
-            <ConflictingPackages>Ingame_Info_InBattle_Rating</ConflictingPackages>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Pools / Frag Correlation Bar" Type="multi" Visible="True">
+            <DevURL>https://koreanrandom.com/forum/topic/40350-конфигурации-totalhp-средствами-xvm/</DevURL>
+            <ConflictingPackages>Ingame_Info_HpPools</ConflictingPackages>
             <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
             </Dependencies>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_Arm" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Arm" Type="single_dropdown1" Visible="True">
+                <Size>11987</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_Arm_2019-09-15.zip</ZipFile>
+                <CRC>e9c84e2669e8a6800bcfcf7dd39bd329</CRC>
+                <Timestamp>132130694867878804</Timestamp>
+                <Medias>
+                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-35674400-1500132133.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_WGLold" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WGL_old" Type="single_dropdown1" Visible="True">
+                <Size>15834</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_WGLold_2019-09-15.zip</ZipFile>
+                <CRC>1ecd9eec462b1d329601034222b417a2</CRC>
+                <Timestamp>132130704251659640</Timestamp>
+                <Medias>
+                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-04949600-1500132082.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_Fallout" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Fallout" Type="single_dropdown1" Visible="True">
+                <Size>236000</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_Fallout_2019-09-15.zip</ZipFile>
+                <CRC>f3f8648b28f1d2f352a079382650d371</CRC>
+                <Timestamp>132130704371528357</Timestamp>
+                <Medias>
+                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-45312000-1500132178.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_Straight" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Straight" Type="single_dropdown1" Visible="True">
+                <Size>35809</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_Straight_2019-09-15.zip</ZipFile>
+                <CRC>4117b22cfa82485f951a09c5e8140a41</CRC>
+                <Timestamp>132130704461101606</Timestamp>
+                <Medias>
+                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-89713500-1501414244.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_MIAPAK" Enabled="True" InstallGroup="4" PatchGroup="4" Name="MIAPAK" Type="single_dropdown1" Visible="True">
+                <Size>173462</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_MIAPAK_2019-09-15.zip</ZipFile>
+                <CRC>608352613d6670fdf3fc448717641b50</CRC>
+                <Timestamp>132130704554548636</Timestamp>
+                <Description>disable following with xvm config builder:\r\n totalHP\r\n\r\n\r\nnote: not right implemented yet - little alpha/shadow/color bug</Description>
+                <Medias>
+                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_2017_12/5a2efb3ead8e2_1515.png.3335c8a3358c52b5d0fa1807c73dee31.png.c4f6ae911c57fe536b957318662dd828.png" MediaType="Picture" />
+                </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar" NotFlag="False" Logic="OR" />
+                  <Dependency PackageName="Dependency_Fonts_KAPb14" NotFlag="False" Logic="OR" />
+                  <Dependency PackageName="Dependency_Fonts_Gunplay" NotFlag="False" Logic="OR" />
+                  <Dependency PackageName="Dependency_Fonts_Calligraph" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_hpBar" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Health Bar (under consumables panel)" Type="multi" Visible="True">
+            <Size>12986</Size>
+            <ZipFile>XVMConfigBuilder_BattleInterface_hpBar_2019-09-18.zip</ZipFile>
+            <CRC>5592fc18ad9803069424b4dab0189b3c</CRC>
+            <Timestamp>132133076127948147</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/39885-%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA-py_macro/?tab=comments#hitpoints</DevURL>
+            <Description>shows a health bar at the bottom under the consumables</Description>
+            <Medias>
+              <Media URL="https://koreanrandom.com/forum/uploads/monthly_08_2017/post-17624-0-43658800-1502559240_thumb.jpg" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_hpBar_Default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Default" Type="single_dropdown1" Visible="True">
+                <CRC>f</CRC>
+                <Timestamp>132110329536411455</Timestamp>
+                <DevURL>https://koreanrandom.com/forum/topic/39885-%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA-py_macro/?tab=comments#hitpoints</DevURL>
+                <Description>shows a health bar at the bottom under the consumables</Description>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_hpBar_Small" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Small" Type="single_dropdown1" Visible="True">
+                <Size>709</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_hpBar_small_2019-08-23.zip</ZipFile>
+                <CRC>d06c06a960c173c23018d9e5812a3366</CRC>
+                <Timestamp>132110329860188161</Timestamp>
+                <DevURL>https://koreanrandom.com/forum/topic/39885-%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA-py_macro/?tab=comments#hitpoints</DevURL>
+                <Description>shows a small health bar at the bottom under the consumables</Description>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_WN8Comparison" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WN8 Comparison" Type="multi" Visible="True">
+            <Timestamp>131804760989657652</Timestamp>
+            <Description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</Description>
+            <UpdateComment>keep this above damagepanel in db!!</UpdateComment>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_modWN8Chance" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_WN8Comparison_standard" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WN8 Comparison (Standard)" Type="single_dropdown1" Visible="True">
+                <Size>1798</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_WN8Comparison_standard_2020-02-18.zip</ZipFile>
+                <CRC>fac700f6412862a966ebf339b5bf6522</CRC>
+                <Timestamp>132265247433358106</Timestamp>
+                <Description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_WN8Comparison_standard.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_WN8Comparison_Slava7572" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WN8 Comparison by Slava7572" Type="single_dropdown1" Visible="True">
+                <Size>488175</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_WN8Comparison_Slava7572_2020-02-18.zip</ZipFile>
+                <CRC>01e57513661c44e75c8e7789068bcd95</CRC>
+                <Timestamp>132265242776511796</Timestamp>
+                <Description>Shows the total WN8 values of each team\nby Slava7572</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_Slava7572.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Spacer_battleMsgsHints" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Battle Messages &amp; Hints--" Type="none" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132312511351952390</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_PreBattleMessages" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PreBattleMessages" Type="multi" Visible="True">
+            <Timestamp>131812516048427337</Timestamp>
+            <Description>modify the look of the pre-battle timer and messages</Description>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions" Enabled="True" InstallGroup="4" PatchGroup="4" Name="only timer &amp; conditions" Type="single_dropdown1" Visible="True">
+                <Size>724</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions_2019-06-24.zip</ZipFile>
+                <CRC>93cd5ce2aea80f04dea1b04e6747a66d</CRC>
+                <Timestamp>131812515942949463</Timestamp>
+                <Description>disables PreBattleBackground (shadow), \nPreBattleMessages \nand \nQuestProgressHint\n\nleaves Timer and BattleWinConditions!</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_1.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_2.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Battle Hints" Type="multi" Visible="True">
             <ConflictingPackages>Ingame_Misc_Arty_and_Siege_Filter</ConflictingPackages>
@@ -2110,480 +2812,6 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_damageIndicator" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Indicator + (this is an additional indicator, you still can choose one from &quot;Ingame Info&quot;)" Type="multi" Visible="True">
-            <Size>26250</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_damageIndicator_BASE_2019-07-07.zip</ZipFile>
-            <CRC>3ac6f1f91d01785185e25536f17f6e0c</CRC>
-            <Timestamp>132069618998153387</Timestamp>
-            <DevURL>https://koreanrandom.com/forum/topic/36620-damageindicator-средствами-xvm/#comments</DevURL>
-            <Description>shows a highlighted image when you get shot and are looking directly into that direction where the shot came from</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_2.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_1.jpg" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Log" Type="multi" Visible="True">
-            <Description>Toggle the xvm damage log. The damage log shows how much damage you have taken for the duration of the battle.</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/damage_log_(XVM)_lower_left_web.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
-            </Medias>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
-                <Size>533</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DamageLog_enable_2019-06-26.zip</ZipFile>
-                <CRC>9527bb8cf27cc347fd77a9f107c4befb</CRC>
-                <Timestamp>132060081070552386</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
-                <Size>535</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DamageLog_disable_2019-06-26.zip</ZipFile>
-                <CRC>3bbdd3dd07842090f2d6418937fa6137</CRC>
-                <Timestamp>132060081301674390</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_MoveInBattle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="move DamageLog in Battle (CTRL+Mouse)" Type="multi" Visible="True">
-                <Size>683</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DamageLog_MoveInBattle_true_2019-06-26.zip</ZipFile>
-                <CRC>68bbaf352c4e6e05705c4b4ff2b3cea5</CRC>
-                <Timestamp>132060081627592921</Timestamp>
-                <Description>Enabling this will allow you to move the xvm damagelog. \nWhile holding CTRL, click and drag the label with your mouse</Description>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_toggleDefault_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable toggling of client default damagelog from game settings" Type="multi" Visible="True">
-                <Size>550</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DamageLog_toggleDefault_enable_2019-06-26.zip</ZipFile>
-                <CRC>2466637cdbdbfadf65a894d87129cf2a</CRC>
-                <Timestamp>132060081916709854</Timestamp>
-                <Description>Enabling this will allow you to configure the ingame damagelog and hitlog settings from the client settings window.</Description>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/allow_toggle_ingame_damage_log.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Damage Panel Repair Timers" Type="multi" Visible="True">
-            <Description>Shows a number in the picture of the damaged modules in the players panel of how much time until the item is repaired.</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_panel_show_repair_times.png" MediaType="Picture" />
-            </Medias>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
-                <Size>1054</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers_enable_2019-06-26.zip</ZipFile>
-                <CRC>389dc66b2d2682a30de6aaa671d913f4</CRC>
-                <Timestamp>132060082178011169</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_panel_show_repair_times.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
-                <Size>1056</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DamagePanelRepairTimers_disable_2019-06-26.zip</ZipFile>
-                <CRC>26a7a364a9496eceda8f7a3f6864e4d5</CRC>
-                <Timestamp>132060082392647247</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_panel_show_repair_times.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="DebugPanel (FPS &amp; Ping)" Type="multi" Visible="True">
-            <Timestamp>131812488048625094</Timestamp>
-            <Description>Show FPS / Ping / Clock in upper left corner.</Description>
-            <ConflictingPackages>Ingame_Info_DebugPanel</ConflictingPackages>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_XVM_PY_debugPanel" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v1" Type="single_dropdown1" Visible="True">
-                <Size>26381</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v1_2019-09-18.zip</ZipFile>
-                <CRC>0e6adfc375d474b3daf3ff94c7a6ae1f</CRC>
-                <Timestamp>132133076834607388</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v1.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v2" Type="single_dropdown1" Visible="True">
-                <Size>69610</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v2_2019-09-18.zip</ZipFile>
-                <CRC>91ca6b838f7ccc9f8c878134d043b0e3</CRC>
-                <Timestamp>132133076791074481</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v2.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v3byRess" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v3 by Ress" Type="single_dropdown1" Visible="True">
-                <Size>17410</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v3byRess_2019-09-18.zip</ZipFile>
-                <CRC>f27555c64148daaf65dbc6356a01f923</CRC>
-                <Timestamp>132133076710142177</Timestamp>
-                <Description>Show FPS / Ping / Clock in upper left corner.\nby Ress\n\nNot compatible to some XVM PreBuiltConfigs</Description>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel_fps_ping_clock.jpg" MediaType="Picture" />
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v3.jpg" MediaType="Picture" />
-                </Medias>
-                <Dependencies>
-                  <Dependency PackageName="Dependency_Fonts_Visitor_TT1_BRK" NotFlag="False" Logic="OR" />
-                </Dependencies>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v4" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v4" Type="single_dropdown1" Visible="True">
-                <Size>2182</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v4_2019-09-18.zip</ZipFile>
-                <CRC>72ba6219a891d87a7b58d5659a351a5a</CRC>
-                <Timestamp>132133076625918718</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v4.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v5" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v5" Type="single_dropdown1" Visible="True">
-                <Size>51502</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v5_2019-09-18.zip</ZipFile>
-                <CRC>5a7562343176bd5b5ac4ab4e7e922c83</CRC>
-                <Timestamp>132133076563895545</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v5.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v6" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v6" Type="single_dropdown1" Visible="True">
-                <Size>4254</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v6_2019-09-18.zip</ZipFile>
-                <CRC>83d4afdbf852d4a97e51d3e55cb45c29</CRC>
-                <Timestamp>132133076493415116</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v6.jpg" MediaType="Picture" />
-                </Medias>
-                <Dependencies>
-                  <Dependency PackageName="Dependency_Fonts_Micrac" NotFlag="False" Logic="OR" />
-                </Dependencies>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v7" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v7" Type="single_dropdown1" Visible="True">
-                <Size>5520</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v7_2019-09-18.zip</ZipFile>
-                <CRC>b2f29a4c04787d8b7bb531c4022a2eef</CRC>
-                <Timestamp>132133076414816524</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v7.jpg" MediaType="Picture" />
-                </Medias>
-                <Dependencies>
-                  <Dependency PackageName="Dependency_Fonts_Cuprum" NotFlag="False" Logic="OR" />
-                </Dependencies>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v8" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v8" Type="single_dropdown1" Visible="True">
-                <Size>14001</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v8_2019-09-18.zip</ZipFile>
-                <CRC>7b7ef2afc44e8ec927f5bccd96d41b3c</CRC>
-                <Timestamp>132133076330443470</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v8.jpg" MediaType="Picture" />
-                </Medias>
-                <Dependencies>
-                  <Dependency PackageName="Dependency_Fonts_Harpoon" NotFlag="False" Logic="OR" />
-                </Dependencies>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v9" Enabled="True" InstallGroup="4" PatchGroup="4" Name="v9" Type="single_dropdown1" Visible="True">
-                <Size>4320</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_DebugPanel_v9_2019-09-18.zip</ZipFile>
-                <CRC>1273bff45b769f39672738a8943cd79f</CRC>
-                <Timestamp>132133076262017524</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v9.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_HighCaliber" Enabled="True" InstallGroup="4" PatchGroup="4" Name="High Caliber Tracker" Type="multi" Visible="True">
-            <Description>Shows how much damage you need to do to get high caliber</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
-            </Medias>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_HighCaliber_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
-                <Size>955</Size>
-                <ZipFile>XVM_config_builder_high_caliber_enable.zip</ZipFile>
-                <CRC>1f4580100062508213ed9d802628a97d</CRC>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
-                </Medias>
-                <ConflictingPackages>Ingame_Info_HighCaliber</ConflictingPackages>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_HighCaliber_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
-                <Size>958</Size>
-                <ZipFile>XVM_config_builder_high_caliber_disable.zip</ZipFile>
-                <CRC>25e29658adf2188da358111c716cc897</CRC>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hitlog" Type="multi" Visible="True">
-            <Description>Toggle the xvm hitlog (Shows a log of total damage you have caused for the duration of the game)</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
-            </Medias>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
-                <Size>537</Size>
-                <ZipFile>XVM_config_builder_hitlog_enable_2019-03-24.zip</ZipFile>
-                <CRC>60682cd788d8201d70179f01750741c1</CRC>
-                <Timestamp>131979163191293358</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
-                <Size>539</Size>
-                <ZipFile>XVM_config_builder_hitlog_disable_2019-03-24.zip</ZipFile>
-                <CRC>f20b47c310e7e7535c733ce0a26030e9</CRC>
-                <Timestamp>131979163291236079</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog_MoveInBattle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="move in battle" Type="multi" Visible="True">
-                <Size>512</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_Hitlog_MoveInBattle_2019-06-06.zip</ZipFile>
-                <CRC>1cb1af8a4dae316ec2ddee687de72173</CRC>
-                <Timestamp>131979163291236079</Timestamp>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_HullInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Hull-Info by HAWG" Type="multi" Visible="True">
-            <Size>1891</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_HullInfo_by_HAWG_2019-06-24.zip</ZipFile>
-            <CRC>516e8da97d4f581b909149dd8d8756af</CRC>
-            <DevURL>https://koreanrandom.com/forum/topic/47599-hullxc-hull-armor-informer/  \r\nhttps://discord.gg/a6s5EfB</DevURL>
-            <Description>This will display your hull armor in battle .</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Hull.png" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_XC_hull" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_hpBar" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Health Bar (under consumables panel)" Type="multi" Visible="True">
-            <Size>12986</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_hpBar_2019-09-18.zip</ZipFile>
-            <CRC>5592fc18ad9803069424b4dab0189b3c</CRC>
-            <Timestamp>132133076127948147</Timestamp>
-            <DevURL>https://koreanrandom.com/forum/topic/39885-%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA-py_macro/?tab=comments#hitpoints</DevURL>
-            <Description>shows a health bar at the bottom under the consumables</Description>
-            <Medias>
-              <Media URL="https://koreanrandom.com/forum/uploads/monthly_08_2017/post-17624-0-43658800-1502559240_thumb.jpg" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_hpBar_Default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Default" Type="single_dropdown1" Visible="True">
-                <CRC>f</CRC>
-                <Timestamp>132110329536411455</Timestamp>
-                <DevURL>https://koreanrandom.com/forum/topic/39885-%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA-py_macro/?tab=comments#hitpoints</DevURL>
-                <Description>shows a health bar at the bottom under the consumables</Description>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_hpBar_Small" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Small" Type="single_dropdown1" Visible="True">
-                <Size>709</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_hpBar_small_2019-08-23.zip</ZipFile>
-                <CRC>d06c06a960c173c23018d9e5812a3366</CRC>
-                <Timestamp>132110329860188161</Timestamp>
-                <DevURL>https://koreanrandom.com/forum/topic/39885-%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA-py_macro/?tab=comments#hitpoints</DevURL>
-                <Description>shows a small health bar at the bottom under the consumables</Description>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools" Enabled="True" InstallGroup="4" PatchGroup="4" Name="HP Pools / Frag Correlation Bar" Type="multi" Visible="True">
-            <DevURL>https://koreanrandom.com/forum/topic/40350-конфигурации-totalhp-средствами-xvm/</DevURL>
-            <ConflictingPackages>Ingame_Info_HpPools</ConflictingPackages>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_Arm" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Arm" Type="single_dropdown1" Visible="True">
-                <Size>11987</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_Arm_2019-09-15.zip</ZipFile>
-                <CRC>e9c84e2669e8a6800bcfcf7dd39bd329</CRC>
-                <Timestamp>132130694867878804</Timestamp>
-                <Medias>
-                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-35674400-1500132133.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_WGLold" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WGL_old" Type="single_dropdown1" Visible="True">
-                <Size>15834</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_WGLold_2019-09-15.zip</ZipFile>
-                <CRC>1ecd9eec462b1d329601034222b417a2</CRC>
-                <Timestamp>132130704251659640</Timestamp>
-                <Medias>
-                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-04949600-1500132082.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_Fallout" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Fallout" Type="single_dropdown1" Visible="True">
-                <Size>236000</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_Fallout_2019-09-15.zip</ZipFile>
-                <CRC>f3f8648b28f1d2f352a079382650d371</CRC>
-                <Timestamp>132130704371528357</Timestamp>
-                <Medias>
-                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-45312000-1500132178.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_Straight" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Straight" Type="single_dropdown1" Visible="True">
-                <Size>35809</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_Straight_2019-09-15.zip</ZipFile>
-                <CRC>4117b22cfa82485f951a09c5e8140a41</CRC>
-                <Timestamp>132130704461101606</Timestamp>
-                <Medias>
-                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-89713500-1501414244.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_MIAPAK" Enabled="True" InstallGroup="4" PatchGroup="4" Name="MIAPAK" Type="single_dropdown1" Visible="True">
-                <Size>173462</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_HPpools_MIAPAK_2019-09-15.zip</ZipFile>
-                <CRC>608352613d6670fdf3fc448717641b50</CRC>
-                <Timestamp>132130704554548636</Timestamp>
-                <Description>disable following with xvm config builder:\r\n totalHP\r\n\r\n\r\nnote: not right implemented yet - little alpha/shadow/color bug</Description>
-                <Medias>
-                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_2017_12/5a2efb3ead8e2_1515.png.3335c8a3358c52b5d0fa1807c73dee31.png.c4f6ae911c57fe536b957318662dd828.png" MediaType="Picture" />
-                </Medias>
-                <Dependencies>
-                  <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar" NotFlag="False" Logic="OR" />
-                  <Dependency PackageName="Dependency_Fonts_KAPb14" NotFlag="False" Logic="OR" />
-                  <Dependency PackageName="Dependency_Fonts_Gunplay" NotFlag="False" Logic="OR" />
-                  <Dependency PackageName="Dependency_Fonts_Calligraph" NotFlag="False" Logic="OR" />
-                </Dependencies>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_LastHitAnnouncer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Last Hit Announcer" Type="multi" Visible="True">
-            <Description>Will display a message of who just shot you and for how much. Similar to the damage announce part of the popular "Damagelog by GambitER".</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
-            </Medias>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_LastHitAnnouncer_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
-                <Size>949</Size>
-                <ZipFile>XVM_config_builder_last_hit_enable.zip</ZipFile>
-                <CRC>f2d03701b4ec3647978bf46479d3dfea</CRC>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_LastHitAnnouncer_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
-                <Size>949</Size>
-                <ZipFile>XVM_config_builder_last_hit_disable.zip</ZipFile>
-                <CRC>da4cfd27482f5712ebebd3264c510d4c</CRC>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InfoPanel" Type="multi" Visible="True">
-            <Timestamp>131826011602311721</Timestamp>
-            <Description>shows a tankinfopanel like the ones chooseable in IngameInfo</Description>
-            <ConflictingPackages>Ingame_Info_Tank_Info_Panel</ConflictingPackages>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_infoPanel" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel_masheene" Enabled="True" InstallGroup="4" PatchGroup="4" Name="InfoPanel masheene" Type="single_dropdown1" Visible="True">
-                <Size>49773</Size>
-                <ZipFile>XVMConfigBuilder_InfoPanel_masheenestyle_2019-07-08.zip</ZipFile>
-                <CRC>b4e69d2138eda560e1113ae9cd42b352</CRC>
-                <Timestamp>132070697285225337</Timestamp>
-                <DevURL>https://koreanrandom.com/forum/topic/36811-infopanel-средствами-xvm/\r\nhttps://aslain.com/index.php?/topic/12034-xvm-infopanel-configs-for-infopanelpy/\r\n</DevURL>
-                <Description>shows a tankinfopanel like the oldskool one in IngameInfo</Description>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/infopanel/XVM_Config_builder_InfoPanel_masheenestyle.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_minimapDeadSwitch" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Minimap Dead Switch" Type="multi" Visible="True">
-            <Description>enable/disable switching between players on the minimap after death.</Description>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_minimapDeadSwitch_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>623</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_minimapDeadSwitch_disable.zip</ZipFile>
-                <CRC>33691b99037f681b4ad648ffe4d13bc1</CRC>
-                <Timestamp>132004332420710062</Timestamp>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_minimapDeadSwitch_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>611</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_minimapDeadSwitch_enable.zip</ZipFile>
-                <CRC>fb0957ab0d6d57b499a92cb376bc8691</CRC>
-                <Timestamp>132004332733976426</Timestamp>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_MissionTracker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Information Label for Missions (Mission Tracker)" Type="multi" Visible="True">
-            <Size>72738</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_MissionTracker_by_Marsone_patch_2019-09-18.zip</ZipFile>
-            <CRC>2928d60f91b34800177f167fb62c0f9e</CRC>
-            <Timestamp>132133075876723867</Timestamp>
-            <Description>This label positioned under the left PlayersPanel shows you many informations you need for missions or for your daily games too. \nExamples for that are your damage, damage of your platoon members, damage of you and your platoon members together, number of enemys you spotted, number of critical hits you made, number of enemys your complete platoon killed, damage through reconnaissance and chain destruction, damage through spotting only, damage through chain destruction only, damage you got, hits you got and damage you blocked. \n\nInformation Label for Missions by MarsOne: http://forum.worldoftanks.eu/index.php?/topic/340002-09151-omc-modpack-installer-mit-bild-video-vorschau-letztes-update-siehe-wwwodemmortiscom/page__st__4980__pid__13912513#entry13912513</Description>
-            <Medias>
-              <Media URL="http://fs5.directupload.net/images/170301/iepa9zdy.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/32rpylxt.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/ax9qxb7t.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/reiaain2.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/nftgewby.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/avvxrq8b.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/7e2xelc7.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/9bahnmgt.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/3ty5gpoa.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/wmqvtr3e.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/k5alp63d.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/juo3kcsb.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/zbukbbfp.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Piercing Chance (possible Penetration Indicator conflict!)" Type="multi" Visible="True">
-            <Size>1769</Size>
-            <CRC>f</CRC>
-            <Timestamp>132074274822269120</Timestamp>
-            <DevURL>https://koreanrandom.com/forum/topic/37259-</DevURL>
-            <Description>This mod shows if you have a chance to penetrate the enemy.\n\n\n\ncolors:\ngreen = chance to pierce\nred = no chance to pierce</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png" MediaType="Picture" />
-            </Medias>
-            <ConflictingPackages>Ingame_Aim_Penetration</ConflictingPackages>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance_v1" Enabled="True" InstallGroup="4" PatchGroup="4" Name="penetration / target armor" Type="single_dropdown1" Visible="True">
-                <Size>1769</Size>
-                <ZipFile>XVM_config_builder_battleinterface_piercingchance_2019-07-08.zip</ZipFile>
-                <CRC>87bde75837c9edc6ed0250d53b754985</CRC>
-                <Timestamp>132074274906772914</Timestamp>
-                <Description>format: \ncurrent own gun penetration / actual enemy armor</Description>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance_v2" Enabled="True" InstallGroup="4" PatchGroup="4" Name="penetration / target armor / pen chance in percent" Type="single_dropdown1" Visible="True">
-                <Size>1782</Size>
-                <ZipFile>XVM_config_builder_battleinterface_piercingchance_percent_2019-07-12.zip</ZipFile>
-                <CRC>5bfaf77b545fa4b627d57e7935b574ab</CRC>
-                <Timestamp>132074274770397976</Timestamp>
-                <Description>format: \ncurrent own gun penetration / actual enemy armor / pen chance in percent</Description>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance_v3" Enabled="True" InstallGroup="4" PatchGroup="4" Name="pen chance in percent" Type="single_dropdown1" Visible="True">
-                <Size>1763</Size>
-                <ZipFile>XVM_config_builder_battleinterface_piercingchance_percent_only_2019-07-12.zip</ZipFile>
-                <CRC>6d03ceac5714b0d14d3a11df51d1e975</CRC>
-                <Timestamp>132074276780811386</Timestamp>
-                <Description>format: \nonly pen chance in percent</Description>
-              </Package>
-            </Packages>
-          </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_PostmortemTips" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Postmortem Tips" Type="multi" Visible="True">
             <Description>disable/enable pop-up panel at the bottom after death</Description>
             <Packages>
@@ -2617,79 +2845,10 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_PreBattleMessages" Enabled="True" InstallGroup="4" PatchGroup="4" Name="PreBattleMessages" Type="multi" Visible="True">
-            <Timestamp>131812516048427337</Timestamp>
-            <Description>modify the look of the pre-battle timer and messages</Description>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions" Enabled="True" InstallGroup="4" PatchGroup="4" Name="only timer &amp; conditions" Type="single_dropdown1" Visible="True">
-                <Size>724</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions_2019-06-24.zip</ZipFile>
-                <CRC>93cd5ce2aea80f04dea1b04e6747a66d</CRC>
-                <Timestamp>131812515942949463</Timestamp>
-                <Description>disables PreBattleBackground (shadow), \nPreBattleMessages \nand \nQuestProgressHint\n\nleaves Timer and BattleWinConditions!</Description>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_1.jpg" MediaType="Picture" />
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_2.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_repairControl" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Repair Control" Type="multi" Visible="True">
-            <Size>231700</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_repairControl_2019-11-10.zip</ZipFile>
-            <CRC>75858627ca727c891300c0cce501a078</CRC>
-            <Timestamp>132178574163410205</Timestamp>
-            <DevURL>https://koreanrandom.com/forum/topic/36840-repaircontrol-средствами-xvm/</DevURL>
-            <Description>shows a centered repair rose</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_repairControl_2.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_repairControl_1.jpg" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_repairControl" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_Scoreboard" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Scoreboard" Type="multi" Visible="True">
-            <Description>Configure the scoreboard (the topmost interface component showing both teams alive or dead tanks)</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_header.jpg" MediaType="Picture" />
-            </Medias>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_Scoreboard_ShowAlive" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Show Alive" Type="single_dropdown1" Visible="True">
-                <Size>1060</Size>
-                <ZipFile>XVM_config_builder_scoreboard_show_alive.zip</ZipFile>
-                <CRC>c3b97655d27e51a6af02ba01a7c311eb</CRC>
-                <Description>Show the number of tanks alive.</Description>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_show_alive.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_Scoreboard_ShowKills" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Show Kills" Type="single_dropdown1" Visible="True">
-                <Size>1061</Size>
-                <ZipFile>XVM_config_builder_scoreboard_show_kills.zip</ZipFile>
-                <CRC>d49cc9faf4f419b190f8db337d91ab07</CRC>
-                <Description>Show the number of tanks killed.</Description>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_show_kills.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_Speed" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Speed of current tank by HAWG" Type="multi" Visible="True">
-            <Size>1789</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_Speed_by_HAWG_2019-06-24.zip</ZipFile>
-            <CRC>03f5a1ba995937b7be882e20afaf53da</CRC>
-            <DevURL>https://koreanrandom.com/forum/topic/47422-speedxc-tanks-top-speed/ \r\nhttps://discord.gg/grvGWMj</DevURL>
-            <Description>This is Speed.xc the xc file will show your tanks top speed forward and reverse , above the damage panel.\r\n\r\nYou will always know what your tanks top speed  is .</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Speed.png" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
-            </Dependencies>
+          <Package PackageName="Spacer_VAinterface" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Various Interface Modifications--" Type="none" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132312511351952390</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_Squadmember_Color_Change" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Squadmember Color Change" Type="multi" Visible="True">
             <Description>Changes the default color, if Platoon members hit an enemy.</Description>
@@ -2703,132 +2862,20 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_TargetInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Target Info" Type="multi" Visible="True">
-            <Size>1687</Size>
-            <ZipFile>XVM_config_builder_targetinfo_2018-07-27.zip</ZipFile>
-            <CRC>3f017e5c7aa000c6d93eababd50f8c88</CRC>
-            <Timestamp>131771258549087414</Timestamp>
-            <Description>shows the current targets reloadtime (no countdown, only standard reloadtime without perks)</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_targetinfo.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Total Efficiency" Type="multi" Visible="True">
-            <Description>Shows spotting damage, assistance damage, stun damage, etc.</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
-            </Medias>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_minimapDeadSwitch" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Minimap Dead Switch" Type="multi" Visible="True">
+            <Description>enable/disable switching between players on the minimap after death.</Description>
             <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
-                <Size>955</Size>
-                <ZipFile>XVM_config_builder_total_eff_enable.zip</ZipFile>
-                <CRC>7c2db2e5ddcabed916a626650e02438f</CRC>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
-                </Medias>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_minimapDeadSwitch_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>623</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_minimapDeadSwitch_disable.zip</ZipFile>
+                <CRC>33691b99037f681b4ad648ffe4d13bc1</CRC>
+                <Timestamp>132004332420710062</Timestamp>
               </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
-                <Size>957</Size>
-                <ZipFile>XVM_config_builder_total_eff_disable.zip</ZipFile>
-                <CRC>f64aaeb342ba7f758f115202e2ad083d</CRC>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_move" Enabled="True" InstallGroup="4" PatchGroup="4" Name="move the total efficiency label" Type="multi" Visible="True">
-                <Timestamp>131930934157368062</Timestamp>
-                <Description>this moves the "total efficiency" label from the top to a different position</Description>
-                <Packages>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_underchat" Enabled="True" InstallGroup="4" PatchGroup="4" Name="under the chat (bottom left)" Type="single_dropdown1" Visible="True">
-                    <Size>644</Size>
-                    <ZipFile>XVM_config_builder_total_eff_underchat_patch.zip</ZipFile>
-                    <CRC>5706efbba42921607dcf69156fe989d3</CRC>
-                    <Timestamp>131930933307981260</Timestamp>
-                    <Description>this moves the Total Efficiency to the space between chat and damage panel</Description>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TotalEfficiency_underchat.png" MediaType="Picture" />
-                    </Medias>
-                  </Package>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_abovedamagelog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="above damagelog" Type="single_dropdown1" Visible="True">
-                    <Size>649</Size>
-                    <ZipFile>XVM_config_builder_total_eff_abovedmglog_patch.zip</ZipFile>
-                    <CRC>bb0d27cca3e54cb6643428e6e086bb11</CRC>
-                    <Timestamp>131930931932550202</Timestamp>
-                    <Description>this moves the Total Efficiency to the bottom above the xvm damage log</Description>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TotalEfficiency_abovedamagelog.jpg" MediaType="Picture" />
-                    </Medias>
-                  </Package>
-                </Packages>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_TotalHP" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Total HP" Type="multi" Visible="True">
-            <Description>Shows the total combined hp of each team. Commonly under the scoreboard, in the format "our hp &gt; their hp".</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
-            </Medias>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalHP_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable total HP" Type="single_dropdown1" Visible="True">
-                <Size>947</Size>
-                <ZipFile>XVM_config_builder_total_hp_enable.zip</ZipFile>
-                <CRC>d2db01060ed492f7c4f887c6d56e1c6c</CRC>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_TotalHP_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable total HP" Type="single_dropdown1" Visible="True">
-                <Size>950</Size>
-                <ZipFile>XVM_config_builder_total_hp_disable.zip</ZipFile>
-                <CRC>bb6a042d49c79a2bf4d22fc97de5640c</CRC>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_VehicleOnFireAnnouncer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Vehicle On Fire Announcer" Type="multi" Visible="True">
-            <Description>(Another) Visual notification if your vehicle is on fire.</Description>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_VehicleOnFireAnnouncer_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
-                <Size>953</Size>
-                <ZipFile>XVM_config_builder_vehicle_fire_enable.zip</ZipFile>
-                <CRC>4e02c6218ea96aa7eeda7c21bf771d38</CRC>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_VehicleOnFireAnnouncer_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
-                <Size>954</Size>
-                <ZipFile>XVM_config_builder_vehicle_fire_disable.zip</ZipFile>
-                <CRC>4cf3618070217df8fa76da14b15e76a1</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_WN8Comparison" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WN8 Comparison" Type="multi" Visible="True">
-            <Timestamp>131804760989657652</Timestamp>
-            <Description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</Description>
-            <UpdateComment>keep this above damagepanel in db!!</UpdateComment>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_modWN8Chance" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_WN8Comparison_standard" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WN8 Comparison (Standard)" Type="single_dropdown1" Visible="True">
-                <Size>1798</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_WN8Comparison_standard_2020-02-18.zip</ZipFile>
-                <CRC>fac700f6412862a966ebf339b5bf6522</CRC>
-                <Timestamp>132265247433358106</Timestamp>
-                <Description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</Description>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_WN8Comparison_standard.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_WN8Comparison_Slava7572" Enabled="True" InstallGroup="4" PatchGroup="4" Name="WN8 Comparison by Slava7572" Type="single_dropdown1" Visible="True">
-                <Size>488175</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_WN8Comparison_Slava7572_2020-02-18.zip</ZipFile>
-                <CRC>01e57513661c44e75c8e7789068bcd95</CRC>
-                <Timestamp>132265242776511796</Timestamp>
-                <Description>Shows the total WN8 values of each team\nby Slava7572</Description>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_Slava7572.jpg" MediaType="Picture" />
-                </Medias>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_minimapDeadSwitch_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>611</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_minimapDeadSwitch_enable.zip</ZipFile>
+                <CRC>fb0957ab0d6d57b499a92cb376bc8691</CRC>
+                <Timestamp>132004332733976426</Timestamp>
               </Package>
             </Packages>
           </Package>
