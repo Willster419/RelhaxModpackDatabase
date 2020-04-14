@@ -45,7 +45,7 @@
         <CRC>3780335cb4ffde6806be9d2abd7393dc</CRC>
         <Timestamp>132011076874459310</Timestamp>
       </Package>
-      <Package PackageName="Garage_Mods_Annoying_Features_Remover_combatIntelligence" Enabled="False" InstallGroup="4" PatchGroup="4" Name="no Combat Intelligence" Type="multi" Visible="False">
+      <Package PackageName="Garage_Mods_Annoying_Features_Remover_combatIntelligence" Enabled="True" InstallGroup="4" PatchGroup="4" Name="no Combat Intelligence" Type="multi" Visible="True">
         <Size>588</Size>
         <ZipFile>Garage_Mods_Annoying_Features_Remover_combatIntelligence_1.5.1.1_2019-06-16.zip</ZipFile>
         <CRC>8d5cceeadc0bb237c3ae254c6b7d4121</CRC>
@@ -361,15 +361,16 @@
   </Package>
   <Package PackageName="GarageMods_TooltipPro" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tooltip Pro" Type="multi" Visible="True">
     <Size>30016</Size>
-    <Version>1.00</Version>
-    <ZipFile>GarageMods_TooltipPro_v1.00_1.8.0_2020-03-07.zip</ZipFile>
-    <CRC>2c53672945758a8acd8038b11d9d8860</CRC>
-    <Timestamp>132280599677646473</Timestamp>
+    <ZipFile>GarageMods_TooltipPro_PATCH_2020-04-14.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132313281102078694</Timestamp>
     <DevURL>https://wot.champi.de/</DevURL>
+    <InternalNotes>this is now part of the "little helper collection" (dependency).\r\n\r\ncan conflict with NDO hangar addons (promo prem vehicle option)\r\n\r\n</InternalNotes>
     <Author>CHAMPi</Author>
-    <Description>Expands the list of tanks on which the equipment is installed (in hangar tips), shows the full selling price of modules, consumables and ammunition (in stock)</Description>
+    <Description>Expands the list of tanks on which the equipment is installed (in hangar tips), \r\nshows the full selling price of modules, consumables and ammunition (in stock)</Description>
     <Dependencies>
       <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_CHAMPi_littleHelperCollection" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
   <Package PackageName="Garage_mods_Modpack_Button" Enabled="True" InstallGroup="4" PatchGroup="4" Name="ModPack Support Button v{version}" Type="multi" Visible="True">

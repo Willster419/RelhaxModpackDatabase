@@ -1509,10 +1509,14 @@
       <Media URL="https://wgmods.net/media/2_mkwWObb.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
     </Medias>
   </Package>
-  <Package PackageName="IngameMisc_BorderColor" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Border Color" Type="multi" Visible="True">
+  <Package PackageName="IngameMisc_BorderColor" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Border Color" Type="multi" Visible="False">
     <CRC>f</CRC>
     <Timestamp>132313270473117658</Timestamp>
     <Description>this changes the color of the arena border indicator</Description>
+    <Dependencies>
+      <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_CHAMPi_littleHelperCollection" NotFlag="False" Logic="OR" />
+    </Dependencies>
   </Package>
   <Package PackageName="Ingame_Misc_Chatmods" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Chat-Mods (in-battle)" Type="multi" Visible="True">
     <Timestamp>131826383659795290</Timestamp>
