@@ -845,63 +845,9 @@
       <Package PackageName="XVMconfigBuilder_GarageInterface" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Garage Interface" Type="multi" Visible="True">
         <Description>Make changes to the garage interface. If you are looking for changes to the tank carousel, Look further down.</Description>
         <Packages>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_BoosterInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Booster Info" Type="multi" Visible="True">
-            <Size>2476</Size>
-            <ZipFile>XVMconfigBuilder_GarageInterface_BoosterInfo_2019-11-15.zip</ZipFile>
-            <CRC>041fce1deff2df8e363e452ab79c4e36</CRC>
-            <Timestamp>132183687800149769</Timestamp>
-            <Description>shows more detailed info about active reserves</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo.jpg" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="EquipmentPanel" Type="multi" Visible="True">
-            <Size>2457</Size>
-            <ZipFile>XVMconfigBuilder_GarageInterface_BoosterInfo_2019-07-08.zip</ZipFile>
-            <CRC>e8feb3ca2b0b873d59e92655d2cbb7dc</CRC>
-            <Timestamp>132070439153956815</Timestamp>
-            <Description>show/hide the number of equipment and directives.</Description>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show the remaining quantity of consumables in depot" Type="multi" Visible="True">
-                <CRC>f</CRC>
-                <Timestamp>132176814966385990</Timestamp>
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_disabled" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disabled" Type="single_dropdown1" Visible="True">
-                    <Size>602</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_disabled_2019-11-08.zip</ZipFile>
-                    <CRC>2db35ba0c4b55bfb680571d1ab23bcf2</CRC>
-                    <Timestamp>132176823307957630</Timestamp>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_enabled" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enabled" Type="single_dropdown1" Visible="True">
-                    <Size>600</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_enabled_2019-11-08.zip</ZipFile>
-                    <CRC>6c33922094707d88eb7c47f073125413</CRC>
-                    <Timestamp>132176823401387808</Timestamp>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show the remaining quantity of directives in depot" Type="multi" Visible="True">
-                <CRC>f</CRC>
-                <Timestamp>132176814936067058</Timestamp>
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_disabled" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disabled" Type="single_dropdown1" Visible="True">
-                    <Size>600</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_disabled_2019-11-08.zip</ZipFile>
-                    <CRC>5ec0cae5eda05d3dcdefe23ddbbc96b4</CRC>
-                    <Timestamp>132176823473365352</Timestamp>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_enabled" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enabled" Type="single_dropdown1" Visible="True">
-                    <Size>598</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_enabled_2019-11-08.zip</ZipFile>
-                    <CRC>1ad361695d638b767c34b160256949bb</CRC>
-                    <Timestamp>132176823534262512</Timestamp>
-                  </Package>
-                </Packages>
-              </Package>
-            </Packages>
+          <Package PackageName="Spacer_Clock" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Clock--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
           </Package>
           <Package PackageName="XVMconfigBuilder_GarageInterface_Clock" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Clock" Type="multi" Visible="True">
             <Size>1463</Size>
@@ -951,714 +897,9 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_BondsLocker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Bonds Locker" Type="multi" Visible="True">
-            <Description>Prevents you from using bonds in your garage</Description>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_BondsLocker_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
-                <Size>527</Size>
-                <ZipFile>XVM_config_builder_garage_bonds_lock_disable.zip</ZipFile>
-                <CRC>9e9d1a51b636d4fda547a74528c9d87e</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_BondsLocker_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
-                <Size>525</Size>
-                <ZipFile>XVM_config_builder_garage_bonds_lock_enable.zip</ZipFile>
-                <CRC>cab1f0cf85f547f3b8628daec0a9a472</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_FreeXPLocker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Free XP Locker" Type="multi" Visible="True">
-            <Description>Prevent you from using free xp in your garage</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_XP_locker.jpg" MediaType="Picture" />
-            </Medias>
-            <ConflictingPackages>Garage_mods_Auxilium_settings_FreeXP_Locker</ConflictingPackages>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_FreeXPLocker_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
-                <Size>963</Size>
-                <ZipFile>XVM_config_builder_garage_free_xp_lock_disable.zip</ZipFile>
-                <CRC>af4f3fec4fefa96ade584d95abd849ec</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_FreeXPLocker_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
-                <Size>961</Size>
-                <ZipFile>XVM_config_builder_garage_free_xp_lock_enable.zip</ZipFile>
-                <CRC>008d01e2c4b8222e3938eb289dee349e</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_GoldLocker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Gold Locker" Type="multi" Visible="True">
-            <Description>Prevents you from using gold in your garage</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Gold_Locker.jpg" MediaType="Picture" />
-            </Medias>
-            <ConflictingPackages>Garage_mods_Auxilium_settings_Gold_Locker</ConflictingPackages>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_GoldLocker_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
-                <Size>957</Size>
-                <ZipFile>XVM_config_builder_garage_gold_lock_disable.zip</ZipFile>
-                <CRC>c8c5cec462184c7dadbbda38b402d7ff</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_GoldLocker_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
-                <Size>954</Size>
-                <ZipFile>XVM_config_builder_garage_gold_lock_enable.zip</ZipFile>
-                <CRC>9d7f29b96c17edb4b93c94cdd091d3d3</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowFlags" Enabled="True" InstallGroup="4" PatchGroup="4" Name="flags in barracks" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowFlags_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>636</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_barracksShowFlags_disable.zip</ZipFile>
-                <CRC>677f7bc8b05e7f3d02b669a08b2e86f3</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowFlags_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>634</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_barracksShowFlags_enable.zip</ZipFile>
-                <CRC>f39443e6aff9d0e5647e1e2b2ca8c974</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowSkills" Enabled="True" InstallGroup="4" PatchGroup="4" Name="skills in barracks" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowSkills_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>639</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_barracksShowSkills_disable.zip</ZipFile>
-                <CRC>24986fce3c7a7c4809073593c992a9bf</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowSkills_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>637</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_barracksShowSkills_enable.zip</ZipFile>
-                <CRC>5dd8ddda9a3fa23b729ff109009ccf9e</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Block vehicle if ammo is lower than..." Type="multi" Visible="True">
-            <Description>Prevent you from entering a battle if you vehicle is low on ammo</Description>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disabled" Type="single_dropdown1" Visible="True">
-                <Size>977</Size>
-                <ZipFile>XVM_config_builder_garage_block_vehicle_ammo_disable.zip</ZipFile>
-                <CRC>f3556982d2ca44fa0e0e0590858ce4ef</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_20" Enabled="True" InstallGroup="4" PatchGroup="4" Name="20%" Type="single_dropdown1" Visible="True">
-                <Size>1012</Size>
-                <ZipFile>XVM_config_builder_garage_block_vehicle_ammo_20.zip</ZipFile>
-                <CRC>df3008ce247e3e3ad714b182859ab557</CRC>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_50" Enabled="True" InstallGroup="4" PatchGroup="4" Name="50%" Type="single_dropdown1" Visible="True">
-                <Size>1012</Size>
-                <ZipFile>XVM_config_builder_garage_block_vehicle_ammo_50.zip</ZipFile>
-                <CRC>3c17b5d2d6f8a793302532e9c6e37fb4</CRC>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Combat Intelligence&quot; - notifications in the main window and counters in the menu" Type="multi" Visible="True">
-            <Description>currently we do not offer the option for disabling combat intelligence notifications in the main window.\nbut disabling the counter for unread messages is possible.</Description>
-            <ConflictingPackages>Garage_Mods_Annoying_Features_Remover</ConflictingPackages>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages" Enabled="False" InstallGroup="4" PatchGroup="4" Name="display pop-up messages in the hangar" Type="multi" Visible="False">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_disable" Enabled="False" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>688</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_disable.zip</ZipFile>
-                    <CRC>49dab3f82f3e3da5de1f4d78dc1ef2a6</CRC>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_enable" Enabled="False" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>686</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_enable.zip</ZipFile>
-                    <CRC>280fa6b8b3ed26266642f16e1298da8a</CRC>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter" Enabled="True" InstallGroup="4" PatchGroup="4" Name="display unread notifications counter in the menu" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>688</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_disable.zip</ZipFile>
-                    <CRC>5753a8c83b3460c1e6551c1d4fd43bd6</CRC>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>685</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_enable.zip</ZipFile>
-                    <CRC>e5a22e991a9e3989ea6770141dc1623c</CRC>
-                  </Package>
-                </Packages>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_crewMaxPerksCount" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Number of perks to show without grouping" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_crewMaxPerksCount_8" Enabled="True" InstallGroup="4" PatchGroup="4" Name="8" Type="single1" Visible="True">
-                <Size>627</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_crewMaxPerksCount_8.zip</ZipFile>
-                <CRC>3aeca65129cc0f9da0bb5389c634b3eb</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Crew Auto-return" Type="multi" Visible="True">
-            <Description>Automatically return your crew between tanks</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return.jpg" MediaType="Picture" />
-            </Medias>
-            <ConflictingPackages>Garage_mods_Auxilium_settings_auto_crew_return</ConflictingPackages>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault" Enabled="True" InstallGroup="4" PatchGroup="4" Name="return crew check box is selected by default" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>642</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_disable.zip</ZipFile>
-                    <CRC>f48e6965099dd4d824088aa42a82cb96</CRC>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>640</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_enable.zip</ZipFile>
-                    <CRC>788bcdd0a57e367b702902c18ecc5838</CRC>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_Save" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Saves Crew Auto Return &amp; Tanks marked as Reserve" Type="multi" Visible="True">
-                <CRC>f</CRC>
-                <Timestamp>131998900214904592</Timestamp>
-                <UserFiles>
-                  <UserFile Pattern="{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\users\*" />
-                </UserFiles>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
-                <Size>1007</Size>
-                <ZipFile>XVM_config_builder_garage_crew_auto_return_disable.zip</ZipFile>
-                <CRC>871b1e7f845b5899c174f955601eee16</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
-                <Size>1004</Size>
-                <ZipFile>XVM_config_builder_garage_crew_auto_return_enable.zip</ZipFile>
-                <CRC>03aee8b0bbb31323bcda32310b4a0732</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_MasteryMarkTechTree" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Mastery Mark in Tech Tree" Type="multi" Visible="True">
-            <Description>Show the mastery icons for each tank in the tech tree</Description>
-            <Medias>
-              <Media URL="https://puu.sh/AP8NO/a58307cbb2.png" MediaType="Picture" />
-            </Medias>
-            <ConflictingPackages>Ingame_Info_MoG_Extended_show_in_techtree</ConflictingPackages>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
-                <Size>969</Size>
-                <ZipFile>XVM_config_builder_garage_mastry_mark_tech_tree_disable.zip</ZipFile>
-                <CRC>09a78db266c450f8d174f26d0c858fc4</CRC>
-                <Timestamp>131749347100582936</Timestamp>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
-                <Size>967</Size>
-                <ZipFile>XVM_config_builder_garage_mastry_mark_tech_tree_enable.zip</ZipFile>
-                <CRC>3069953b2aa989fff1608c2f54c619e1</CRC>
-                <Timestamp>131749347009647264</Timestamp>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Notifications counters in the main menu" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_missions" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Missions" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_missions_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>663</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_missions_disable.zip</ZipFile>
-                    <CRC>e5986fc7769cc0d1c0b966be7c387a05</CRC>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_missions_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>661</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_missions_enable.zip</ZipFile>
-                    <CRC>d3b35f2403d14c6d7f723be616ab797d</CRC>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Campaigns" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>717</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_disable.zip</ZipFile>
-                    <CRC>5a07e8484ad1e3c8b84fb2b1088538ec</CRC>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>715</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_enable.zip</ZipFile>
-                    <CRC>4f095c747ac9f5f8be76b03cc65c1b9e</CRC>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_profile" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Service Record" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_profile_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>660</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_profile_disable.zip</ZipFile>
-                    <CRC>103b47d76ef7ec36a830625cc350c39b</CRC>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_profile_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>658</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_profile_enable.zip</ZipFile>
-                    <CRC>83cae1b8f52bd98ec86beaefbc279133</CRC>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_store" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Store" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_store_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>655</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_store_disable.zip</ZipFile>
-                    <CRC>7340dcc9ddfcb5bd438ba981b18b6637</CRC>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_store_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>653</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_store_enable.zip</ZipFile>
-                    <CRC>2817420c9aa66b14537ee59b05a9c544</CRC>
-                  </Package>
-                </Packages>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Removable equipment auto-return" Type="multi" Visible="True">
-            <Description>automatically return removable equipment</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return_Equips.jpg" MediaType="Picture" />
-            </Medias>
-            <ConflictingPackages>Garage_mods_auto_equip_equipment</ConflictingPackages>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
-                <Size>1005</Size>
-                <ZipFile>XVM_config_builder_garage_removable_equipment_auto_return_disable.zip</ZipFile>
-                <CRC>2ce78bd8b3c32c4ad9792c316d745c88</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
-                <Size>1003</Size>
-                <ZipFile>XVM_config_builder_garage_removable_equipment_auto_return_enable.zip</ZipFile>
-                <CRC>fbebff375b956394927076e86ee2ce35</CRC>
-                <UserFiles>
-                  <UserFile Pattern="{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\auto_equip\*" />
-                </UserFiles>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_restoreBattleType" Enabled="True" InstallGroup="4" PatchGroup="4" Name="restore selected battle type on switching to another server (only random, frontline and rank battle modes)" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_restoreBattleType_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>636</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_restoreBattleType_disable.zip</ZipFile>
-                <CRC>a65ab61217c24d1588332e1d7653c91f</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_restoreBattleType_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>634</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_restoreBattleType_enable.zip</ZipFile>
-                <CRC>f7bd2f677a683f3dac58643209f55268</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session Statistics Button" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show button" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showButton_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True" />
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showButton_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True" />
-                </Packages>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show battle count" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>681</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_disable.zip</ZipFile>
-                    <CRC>19750794311303adec8bb922aeb548e2</CRC>
-                    <Timestamp>132100219940284465</Timestamp>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>679</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_enable.zip</ZipFile>
-                    <CRC>d67282a6eb3ad24fdd725f22a14b7dc7</CRC>
-                    <Timestamp>132100219084471182</Timestamp>
-                  </Package>
-                </Packages>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show selected battle mode text" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>660</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_disable.zip</ZipFile>
-                <CRC>0871b2a8052818618f93d1bab53462f3</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>658</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_enable.zip</ZipFile>
-                <CRC>5bdb920784a759b5f686d6a305098f61</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_showBuyPremiumButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Buy premium&quot; button" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showBuyPremiumButton_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>645</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showBuyPremiumButton_disable.zip</ZipFile>
-                <CRC>7c52287632ff8f73618477f898070c52</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showBuyPremiumButton_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>643</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showBuyPremiumButton_enable.zip</ZipFile>
-                <CRC>d7642ed8e9758393dcabb5a66d0ddd08</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_showDailyQuestWidget" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Daily Quest Widget" Type="multi" Visible="True">
-            <Description>this enables or disables the daily quest widget in hangar on the left of the screen</Description>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showDailyQuestWidget_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="multi" Visible="True">
-                <Size>647</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showDailyQuestWidget_disable.zip</ZipFile>
-                <CRC>04b96f687e9bb429965e11d83a71a413</CRC>
-                <Timestamp>132279919533894745</Timestamp>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showDailyQuestWidget_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="multi" Visible="True">
-                <Size>644</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showDailyQuestWidget_enable.zip</ZipFile>
-                <CRC>01de33d14fadc6d309c16df2360c2fbb</CRC>
-                <Timestamp>132279919463257518</Timestamp>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_showDogtagWidget" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Dogtag Widget" Type="multi" Visible="False">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showDogtagWidget_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>633</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showDogtagWidget_disable.zip</ZipFile>
-                <CRC>e88b648f2fdc62b597bbd2601c476933</CRC>
-                <Timestamp>132100211316427135</Timestamp>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showDogtagWidget_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>631</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showDogtagWidget_enable.zip</ZipFile>
-                <CRC>e723ad51fcf53a6564707ce9ff01a70b</CRC>
-                <Timestamp>132100211269742416</Timestamp>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_showCreateSquadButtonText" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Create squad&quot; text on the squad creation button" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>659</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_disable.zip</ZipFile>
-                <CRC>b27e7bbafbd848e7f65770637d565e1a</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>656</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_enable.zip</ZipFile>
-                <CRC>10697f34f1379d807988898f212b9a74</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_showGeneralChatButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;General chat&quot; button" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showGeneralChatButton_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>647</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showGeneralChatButton_disable.zip</ZipFile>
-                <CRC>4b73d0cb7abe6f22ad1219c003aa0060</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showGeneralChatButton_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>645</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showGeneralChatButton_enable.zip</ZipFile>
-                <CRC>9bcf7a61520f011d0a4a33cac9bdc267</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_showPremiumShopButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Premium shop&quot; button" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showPremiumShopButton_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>647</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showPremiumShopButton_disable.zip</ZipFile>
-                <CRC>c2899377294281cc77c4cf8426ef19a7</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showPremiumShopButton_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>645</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showPremiumShopButton_enable.zip</ZipFile>
-                <CRC>cd9c1b23867f4ef1a3d99241b3070201</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_showPromoPremVehicle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="promo of premium vehicle (on the background in the hangar)" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showPromoPremVehicle_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>643</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showPromoPremVehicle_disable.zip</ZipFile>
-                <CRC>a346c3195b0dde014d90605a134f04c5</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showPromoPremVehicle_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>641</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showPromoPremVehicle_enable.zip</ZipFile>
-                <CRC>108a970bbb1eea44e86fe5aa0162b1df</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_showReferralButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Referral Program&quot; button" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showReferralButton_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>639</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showReferralButton_disable.zip</ZipFile>
-                <CRC>a14e385e9184532c79ff23aefd900527</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showReferralButton_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>636</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showReferralButton_enable.zip</ZipFile>
-                <CRC>3537c63229286e9a654ea9d3dd0838b0</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_showRewardWindow" Enabled="True" InstallGroup="4" PatchGroup="4" Name="info window with list of received awards for &quot;Reward for Merit&quot;" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showRewardWindow_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                <Size>634</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showRewardWindow_disable.zip</ZipFile>
-                <CRC>d5c691056ea08e3779e41a2c38bc8d29</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_showRewardWindow_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                <Size>632</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_showRewardWindow_enable.zip</ZipFile>
-                <CRC>90a3afefa052ce2ab99739f0fcd717de</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPing" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Server Ping" Type="multi" Visible="True">
-            <Description>Shows the ping delay (in ms) of the server(s)</Description>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPing_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
-                <Size>960</Size>
-                <ZipFile>XVM_config_builder_garage_server_ping_disable.zip</ZipFile>
-                <CRC>579dda9d863454f65fd363394dffb202</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPing_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
-                <Size>958</Size>
-                <ZipFile>XVM_config_builder_garage_server_ping_enable.zip</ZipFile>
-                <CRC>5ebe085ee0a35172250017f9d058e89e</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPopulations" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Server Populations" Type="multi" Visible="True">
-            <Size>1132</Size>
-            <ZipFile>XVM_config_builder_garage_server_info_position_patch.zip</ZipFile>
-            <CRC>3283d6da32ed0d7f82970811ffdf6a06</CRC>
-            <Description>Display number of people on the server</Description>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPopulations_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
-                <Size>961</Size>
-                <ZipFile>XVM_config_builder_garage_server_info_disable.zip</ZipFile>
-                <CRC>299bb9afe34e3ef512751bee0099c008</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPopulations_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
-                <Size>958</Size>
-                <ZipFile>XVM_config_builder_garage_server_info_enable.zip</ZipFile>
-                <CRC>8da87196b9be6b0bfcae0af55c101869</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_Squad" Enabled="True" InstallGroup="4" PatchGroup="4" Name="squad window parameters" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_Squad_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single1" Visible="True">
-                <Size>606</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_squad_disable.zip</ZipFile>
-                <CRC>582bd5008b43576ed4f9028db1a2251b</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_Squad_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single1" Visible="True">
-                <Size>604</Size>
-                <ZipFile>XVMconfigBuilder_GarageInterface_squad_enable.zip</ZipFile>
-                <CRC>46867e36821b78501dba8a446ef0f449</CRC>
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_squad_showClan" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show players clan" Type="multi" Visible="True">
-                    <Packages>
-                      <Package PackageName="XVMconfigBuilder_squad_showClan_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                        <Size>609</Size>
-                        <ZipFile>XVMconfigBuilder_GarageInterface_squad_showClan_disable.zip</ZipFile>
-                        <CRC>bb0afec51bff6260d32f20ac1d457a8f</CRC>
-                      </Package>
-                      <Package PackageName="XVMconfigBuilder_squad_showClan_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                        <Size>607</Size>
-                        <ZipFile>XVMconfigBuilder_GarageInterface_squad_showClan_enable.zip</ZipFile>
-                        <CRC>2f8453d183a89ea714c2715064cbecd1</CRC>
-                      </Package>
-                    </Packages>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_squad_formatInfoField" Enabled="True" InstallGroup="4" PatchGroup="4" Name="format of vehicle info field" Type="multi" Visible="True">
-                    <Packages>
-                      <Package PackageName="XVMconfigBuilder_GarageInterface_squad_formatInfoField_Lvl" Enabled="True" InstallGroup="4" PatchGroup="4" Name="vehicle level" Type="single_dropdown1" Visible="True">
-                        <Size>634</Size>
-                        <ZipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_Lvl.zip</ZipFile>
-                        <CRC>f206f36c35df15dc13a1e15d45407366</CRC>
-                      </Package>
-                      <Package PackageName="XVMconfigBuilder_GarageInterface_squad_formatInfoField_BatMinMax" Enabled="True" InstallGroup="4" PatchGroup="4" Name="minimal - maximal vehicle battle tier" Type="single_dropdown1" Visible="True">
-                        <Size>659</Size>
-                        <ZipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_BatMinMax.zip</ZipFile>
-                        <CRC>d015cea7e0e460589fbdf344adab336d</CRC>
-                      </Package>
-                      <Package PackageName="XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax" Enabled="True" InstallGroup="4" PatchGroup="4" Name="vehicle level AND minimal - maximal vehicle battle tier" Type="single_dropdown1" Visible="True">
-                        <Size>680</Size>
-                        <ZipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax_2019-06-30.zip</ZipFile>
-                        <CRC>41f75cd9a8499b640241d0b62268a00b</CRC>
-                        <Timestamp>132064052678269601</Timestamp>
-                      </Package>
-                    </Packages>
-                  </Package>
-                </Packages>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_SessionInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session Info" Type="multi" Visible="True">
-            <Size>2275</Size>
-            <ZipFile>XVMconfigBuilder_GarageInterface_SessionInfo_2019-07-09.zip</ZipFile>
-            <CRC>49256ead440cdd837209f871d4d837c9</CRC>
-            <Timestamp>132071364078180269</Timestamp>
-            <Description>this show your current session´s time, win count and win percent.\r\nthis also disables the text for the battle type selector button for better placement.</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_SessionInfo.png" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Garage Statistics" Type="multi" Visible="True">
-            <Description>Toggle a text field in the middle-right of the screen showing stasticts of your current win rate, and how many more wins to X percent.</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Garage_Stats.jpg" MediaType="Picture" />
-            </Medias>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_Disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single1" Visible="True">
-                <Size>532</Size>
-                <ZipFile>XVM_config_builder_garage_statistics_disable.zip</ZipFile>
-                <CRC>7c4fa4f79304f9bb4f140ce39546aa8b</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_Enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single1" Visible="True">
-                <Size>530</Size>
-                <CRC>f</CRC>
-                <Timestamp>132071329098097876</Timestamp>
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="default" Type="single_dropdown1" Visible="True">
-                    <Size>530</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_Statistics_default_enable_2019-07-09.zip</ZipFile>
-                    <CRC>112459abb3c57db52a1e3411c1636896</CRC>
-                    <Timestamp>132071337209600423</Timestamp>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_alternativePosition" Enabled="True" InstallGroup="4" PatchGroup="4" Name="alternative position" Type="single_dropdown1" Visible="True">
-                    <Size>2019</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_Statistics_alternativePosition_2019-07-09.zip</ZipFile>
-                    <CRC>fc7cd7b172f2032ea85775e5b3395ccc</CRC>
-                    <Timestamp>132071336559526526</Timestamp>
-                    <Description>this will move the xvm statistics widget in the garage to the "menubar" on top.\r\nthis also disables the text for the create squad button for better placement.</Description>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_Statistics_alternativePosition.png" MediaType="Picture" />
-                    </Medias>
-                  </Package>
-                </Packages>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_TankStatistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Statistics (with gunmark info [MoE])" Type="multi" Visible="True">
-            <Size>1560563</Size>
-            <ZipFile>XVMconfigBuilder_GarageInterface_TankStatistics_2019-07-09.zip</ZipFile>
-            <CRC>ca04b670c007f31a677cd997531a468d</CRC>
-            <Timestamp>132071353713677107</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_TankStatistics.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_TankHistoryInformer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank History Informer in Garage by HAWG" Type="multi" Visible="True">
-            <Size>1856</Size>
-            <ZipFile>XVMconfigBuilder_GarageInterface_TankHistoryInformer_by_HAWG_2020-03-02.zip</ZipFile>
-            <CRC>af07ed378fa0fbb77c7e2bfa573b286c</CRC>
-            <Timestamp>132276468593920515</Timestamp>
-            <DevURL>https://koreanrandom.com/forum/topic/47493-yearsxc-tank-history-informer/  \r\nhttps://discord.gg/D7bVw95</DevURL>
-            <Description>This is  a Tank History Informer.\r\nNow you can see what year your tank was developed in and you also can see if your tank is real or never was built.\r\n\r\nYellow years represents real working  tanks that the tank blueprints was developed in .\r\nThe Purple  years represents that the tank was never made , just blueprints of tank or prototype was never complete .\r\n\r\nYellow Year = R﻿eal\r\nPurple  Year = Not Real\r\n\r\nIn battle you also can see History informer for your tank</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_GarageInterface_TankHistoryInformer.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_GarageInterface_TankHistoryInformer_inbattle.png" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XVM_XC_years" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_TechTreeFreeXPConvertOption" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tech Tree free XP convert option" Type="multi" Visible="True">
-            <Description>Enable an option where, when trying to research a module or tank, if you do not have enough xp, it will present you with a window to convert enough free xp to research the item</Description>
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_TechTreeFreeXPConvertOption_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
-                <Size>971</Size>
-                <ZipFile>XVM_config_builder_garage_free_xp_module_disable.zip</ZipFile>
-                <CRC>06b1301235320195db04d6666c733206</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_TechTreeFreeXPConvertOption_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
-                <Size>968</Size>
-                <ZipFile>XVM_config_builder_garage_free_xp_module_enable.zip</ZipFile>
-                <CRC>16976cb438d3e3c0bb5292bf27e72129</CRC>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tooltips" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_combineIcons" Enabled="True" InstallGroup="4" PatchGroup="4" Name="combine icons of equipment and optional devices into one row" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_combineIcons_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>628</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_combineIcons_disable.zip</ZipFile>
-                    <CRC>2fdfdda081b8f16e0be8f268f62fdcbc</CRC>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_combineIcons_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>626</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_combineIcons_enable.zip</ZipFile>
-                    <CRC>d9a33062245438475a36711c9b6074a8</CRC>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideSimplifiedVehParams" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide simplified vehicle parameters" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideSimplifiedVehParams_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>657</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_hideSimplifiedVehParams_disable.zip</ZipFile>
-                    <CRC>d4788ffa485326ab9285b07706fd0bd1</CRC>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideSimplifiedVehParams_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>655</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_hideSimplifiedVehParams_enable.zip</ZipFile>
-                    <CRC>2c60444de6bffdaeb36156e10e6937e8</CRC>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideBottomText" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide text at bottom of tooltip showing quantity of used eqipment, optional devices and crew" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideBottomText_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>633</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_hideBottomText_disable.zip</ZipFile>
-                    <CRC>dd5c92a0b0013504e97967a4c7e6c1d2</CRC>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideBottomText_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>630</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_hideBottomText_enable.zip</ZipFile>
-                    <CRC>b84bf5b26e1dc3478872a757d9fdfbf3</CRC>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh" Enabled="True" InstallGroup="4" PatchGroup="4" Name="display of missing experience to unlock vehicles" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>643</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh_disable.zip</ZipFile>
-                    <CRC>ae6b733180e3f766cdb142b9a68752c3</CRC>
-                  </Package>
-                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>641</Size>
-                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh_enable.zip</ZipFile>
-                    <CRC>eb60687b5c2cd81c4dc4fa98eb86c5ab</CRC>
-                  </Package>
-                </Packages>
-              </Package>
-            </Packages>
+          <Package PackageName="Spacer_InfoPersonal" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Personal Infos--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
           </Package>
           <Package PackageName="XVMconfigBuilder_GarageInterface_userInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Userinfo (Service Record)" Type="multi" Visible="True">
             <Packages>
@@ -1773,6 +1014,821 @@
                     <Size>652</Size>
                     <ZipFile>XVMconfigBuilder_GarageInterface_userInfo_inHangarFilterEnabled_enable.zip</ZipFile>
                     <CRC>fb771bda0248d45c3f0e6e6c6f55fcbf</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_BoosterInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Booster Info" Type="multi" Visible="True">
+            <Size>2476</Size>
+            <ZipFile>XVMconfigBuilder_GarageInterface_BoosterInfo_2019-11-15.zip</ZipFile>
+            <CRC>041fce1deff2df8e363e452ab79c4e36</CRC>
+            <Timestamp>132183687800149769</Timestamp>
+            <Description>shows more detailed info about active reserves</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo.jpg" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Spacer_InfoServer" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Server Info--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPing" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Server Ping" Type="multi" Visible="True">
+            <Description>Shows the ping delay (in ms) of the server(s)</Description>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPing_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
+                <Size>960</Size>
+                <ZipFile>XVM_config_builder_garage_server_ping_disable.zip</ZipFile>
+                <CRC>579dda9d863454f65fd363394dffb202</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPing_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
+                <Size>958</Size>
+                <ZipFile>XVM_config_builder_garage_server_ping_enable.zip</ZipFile>
+                <CRC>5ebe085ee0a35172250017f9d058e89e</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPopulations" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Server Populations" Type="multi" Visible="True">
+            <Size>1132</Size>
+            <ZipFile>XVM_config_builder_garage_server_info_position_patch.zip</ZipFile>
+            <CRC>3283d6da32ed0d7f82970811ffdf6a06</CRC>
+            <Description>Display number of people on the server</Description>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPopulations_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
+                <Size>961</Size>
+                <ZipFile>XVM_config_builder_garage_server_info_disable.zip</ZipFile>
+                <CRC>299bb9afe34e3ef512751bee0099c008</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPopulations_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
+                <Size>958</Size>
+                <ZipFile>XVM_config_builder_garage_server_info_enable.zip</ZipFile>
+                <CRC>8da87196b9be6b0bfcae0af55c101869</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Spacer_Notifications" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Notifications--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Notifications counters in the main menu" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_missions" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Missions" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_missions_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>663</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_missions_disable.zip</ZipFile>
+                    <CRC>e5986fc7769cc0d1c0b966be7c387a05</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_missions_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>661</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_missions_enable.zip</ZipFile>
+                    <CRC>d3b35f2403d14c6d7f723be616ab797d</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Campaigns" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>717</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_disable.zip</ZipFile>
+                    <CRC>5a07e8484ad1e3c8b84fb2b1088538ec</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>715</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_PersonalMissionOperationsPage_enable.zip</ZipFile>
+                    <CRC>4f095c747ac9f5f8be76b03cc65c1b9e</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_profile" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Service Record" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_profile_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>660</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_profile_disable.zip</ZipFile>
+                    <CRC>103b47d76ef7ec36a830625cc350c39b</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_profile_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>658</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_profile_enable.zip</ZipFile>
+                    <CRC>83cae1b8f52bd98ec86beaefbc279133</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_store" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Store" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_store_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>655</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_store_disable.zip</ZipFile>
+                    <CRC>7340dcc9ddfcb5bd438ba981b18b6637</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_notificationCounter_store_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>653</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_notificationCounter_store_enable.zip</ZipFile>
+                    <CRC>2817420c9aa66b14537ee59b05a9c544</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Combat Intelligence&quot; - notifications in the main window and counters in the menu" Type="multi" Visible="True">
+            <Description>currently we do not offer the option for disabling combat intelligence notifications in the main window.\nbut disabling the counter for unread messages is possible.</Description>
+            <ConflictingPackages>Garage_Mods_Annoying_Features_Remover</ConflictingPackages>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages" Enabled="True" InstallGroup="4" PatchGroup="4" Name="display pop-up messages in the hangar" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>688</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_disable.zip</ZipFile>
+                    <CRC>49dab3f82f3e3da5de1f4d78dc1ef2a6</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>686</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages_enable.zip</ZipFile>
+                    <CRC>280fa6b8b3ed26266642f16e1298da8a</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter" Enabled="True" InstallGroup="4" PatchGroup="4" Name="display unread notifications counter in the menu" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>688</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_disable.zip</ZipFile>
+                    <CRC>5753a8c83b3460c1e6551c1d4fd43bd6</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>685</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_combatIntelligence_showUnreadCounter_enable.zip</ZipFile>
+                    <CRC>e5a22e991a9e3989ea6770141dc1623c</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showDailyQuestWidget" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Daily Quest Widget" Type="multi" Visible="True">
+            <Description>this enables or disables the daily quest widget in hangar on the left of the screen</Description>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showDailyQuestWidget_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="multi" Visible="True">
+                <Size>647</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showDailyQuestWidget_disable.zip</ZipFile>
+                <CRC>04b96f687e9bb429965e11d83a71a413</CRC>
+                <Timestamp>132279919533894745</Timestamp>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showDailyQuestWidget_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="multi" Visible="True">
+                <Size>644</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showDailyQuestWidget_enable.zip</ZipFile>
+                <CRC>01de33d14fadc6d309c16df2360c2fbb</CRC>
+                <Timestamp>132279919463257518</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showDogtagWidget" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Dogtag Widget" Type="multi" Visible="False">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showDogtagWidget_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>633</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showDogtagWidget_disable.zip</ZipFile>
+                <CRC>e88b648f2fdc62b597bbd2601c476933</CRC>
+                <Timestamp>132100211316427135</Timestamp>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showDogtagWidget_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>631</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showDogtagWidget_enable.zip</ZipFile>
+                <CRC>e723ad51fcf53a6564707ce9ff01a70b</CRC>
+                <Timestamp>132100211269742416</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showRewardWindow" Enabled="True" InstallGroup="4" PatchGroup="4" Name="info window with list of received awards for &quot;Reward for Merit&quot;" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showRewardWindow_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>634</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showRewardWindow_disable.zip</ZipFile>
+                <CRC>d5c691056ea08e3779e41a2c38bc8d29</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showRewardWindow_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>632</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showRewardWindow_enable.zip</ZipFile>
+                <CRC>90a3afefa052ce2ab99739f0fcd717de</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Spacer_CurrencyLocker" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Currency Locker--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_BondsLocker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Bonds Locker" Type="multi" Visible="True">
+            <Description>Prevents you from using bonds in your garage</Description>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_BondsLocker_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
+                <Size>527</Size>
+                <ZipFile>XVM_config_builder_garage_bonds_lock_disable.zip</ZipFile>
+                <CRC>9e9d1a51b636d4fda547a74528c9d87e</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_BondsLocker_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
+                <Size>525</Size>
+                <ZipFile>XVM_config_builder_garage_bonds_lock_enable.zip</ZipFile>
+                <CRC>cab1f0cf85f547f3b8628daec0a9a472</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_FreeXPLocker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Free XP Locker" Type="multi" Visible="True">
+            <Description>Prevent you from using free xp in your garage</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_XP_locker.jpg" MediaType="Picture" />
+            </Medias>
+            <ConflictingPackages>Garage_mods_Auxilium_settings_FreeXP_Locker</ConflictingPackages>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_FreeXPLocker_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
+                <Size>963</Size>
+                <ZipFile>XVM_config_builder_garage_free_xp_lock_disable.zip</ZipFile>
+                <CRC>af4f3fec4fefa96ade584d95abd849ec</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_FreeXPLocker_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
+                <Size>961</Size>
+                <ZipFile>XVM_config_builder_garage_free_xp_lock_enable.zip</ZipFile>
+                <CRC>008d01e2c4b8222e3938eb289dee349e</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_GoldLocker" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Gold Locker" Type="multi" Visible="True">
+            <Description>Prevents you from using gold in your garage</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Gold_Locker.jpg" MediaType="Picture" />
+            </Medias>
+            <ConflictingPackages>Garage_mods_Auxilium_settings_Gold_Locker</ConflictingPackages>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_GoldLocker_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
+                <Size>957</Size>
+                <ZipFile>XVM_config_builder_garage_gold_lock_disable.zip</ZipFile>
+                <CRC>c8c5cec462184c7dadbbda38b402d7ff</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_GoldLocker_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
+                <Size>954</Size>
+                <ZipFile>XVM_config_builder_garage_gold_lock_enable.zip</ZipFile>
+                <CRC>9d7f29b96c17edb4b93c94cdd091d3d3</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Spacer_Techtree" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Techtree--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_TechTreeFreeXPConvertOption" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tech Tree free XP convert option" Type="multi" Visible="True">
+            <Description>Enable an option where, when trying to research a module or tank, if you do not have enough xp, it will present you with a window to convert enough free xp to research the item</Description>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_TechTreeFreeXPConvertOption_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
+                <Size>971</Size>
+                <ZipFile>XVM_config_builder_garage_free_xp_module_disable.zip</ZipFile>
+                <CRC>06b1301235320195db04d6666c733206</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_TechTreeFreeXPConvertOption_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
+                <Size>968</Size>
+                <ZipFile>XVM_config_builder_garage_free_xp_module_enable.zip</ZipFile>
+                <CRC>16976cb438d3e3c0bb5292bf27e72129</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_MasteryMarkTechTree" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Mastery Mark in Tech Tree" Type="multi" Visible="True">
+            <Description>Show the mastery icons for each tank in the tech tree</Description>
+            <Medias>
+              <Media URL="https://puu.sh/AP8NO/a58307cbb2.png" MediaType="Picture" />
+            </Medias>
+            <ConflictingPackages>Ingame_Info_MoG_Extended_show_in_techtree</ConflictingPackages>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disable" Type="single_dropdown1" Visible="True">
+                <Size>969</Size>
+                <ZipFile>XVM_config_builder_garage_mastry_mark_tech_tree_disable.zip</ZipFile>
+                <CRC>09a78db266c450f8d174f26d0c858fc4</CRC>
+                <Timestamp>131749347100582936</Timestamp>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enable" Type="single_dropdown1" Visible="True">
+                <Size>967</Size>
+                <ZipFile>XVM_config_builder_garage_mastry_mark_tech_tree_enable.zip</ZipFile>
+                <CRC>3069953b2aa989fff1608c2f54c619e1</CRC>
+                <Timestamp>131749347009647264</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Spacer_Crew" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Crew--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Crew Auto-return" Type="multi" Visible="True">
+            <Description>Automatically return your crew between tanks</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return.jpg" MediaType="Picture" />
+            </Medias>
+            <ConflictingPackages>Garage_mods_Auxilium_settings_auto_crew_return</ConflictingPackages>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault" Enabled="True" InstallGroup="4" PatchGroup="4" Name="return crew check box is selected by default" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>642</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_disable.zip</ZipFile>
+                    <CRC>f48e6965099dd4d824088aa42a82cb96</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>640</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_enable.zip</ZipFile>
+                    <CRC>788bcdd0a57e367b702902c18ecc5838</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_Save" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Saves Crew Auto Return &amp; Tanks marked as Reserve" Type="multi" Visible="True">
+                <CRC>f</CRC>
+                <Timestamp>131998900214904592</Timestamp>
+                <UserFiles>
+                  <UserFile Pattern="{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\users\*" />
+                </UserFiles>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
+                <Size>1007</Size>
+                <ZipFile>XVM_config_builder_garage_crew_auto_return_disable.zip</ZipFile>
+                <CRC>871b1e7f845b5899c174f955601eee16</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
+                <Size>1004</Size>
+                <ZipFile>XVM_config_builder_garage_crew_auto_return_enable.zip</ZipFile>
+                <CRC>03aee8b0bbb31323bcda32310b4a0732</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_crewMaxPerksCount" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Number of perks to show without grouping" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_crewMaxPerksCount_8" Enabled="True" InstallGroup="4" PatchGroup="4" Name="8" Type="single1" Visible="True">
+                <Size>627</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_crewMaxPerksCount_8.zip</ZipFile>
+                <CRC>3aeca65129cc0f9da0bb5389c634b3eb</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Spacer_Chat" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Chat--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="Spacer_Statistics" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Statistics--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session Statistics Button" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show button" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showButton_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True" />
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showButton_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True" />
+                </Packages>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show battle count" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>681</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_disable.zip</ZipFile>
+                    <CRC>19750794311303adec8bb922aeb548e2</CRC>
+                    <Timestamp>132100219940284465</Timestamp>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>679</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_sessionStatsButton_showBattleCount_enable.zip</ZipFile>
+                    <CRC>d67282a6eb3ad24fdd725f22a14b7dc7</CRC>
+                    <Timestamp>132100219084471182</Timestamp>
+                  </Package>
+                </Packages>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_SessionInfo" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Session Info" Type="multi" Visible="True">
+            <Size>2275</Size>
+            <ZipFile>XVMconfigBuilder_GarageInterface_SessionInfo_2019-07-09.zip</ZipFile>
+            <CRC>49256ead440cdd837209f871d4d837c9</CRC>
+            <Timestamp>132071364078180269</Timestamp>
+            <Description>this show your current session´s time, win count and win percent.\r\nthis also disables the text for the battle type selector button for better placement.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_SessionInfo.png" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Garage Statistics" Type="multi" Visible="True">
+            <Description>Toggle a text field in the middle-right of the screen showing stasticts of your current win rate, and how many more wins to X percent.</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Garage_Stats.jpg" MediaType="Picture" />
+            </Medias>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_Disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single1" Visible="True">
+                <Size>532</Size>
+                <ZipFile>XVM_config_builder_garage_statistics_disable.zip</ZipFile>
+                <CRC>7c4fa4f79304f9bb4f140ce39546aa8b</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_Enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single1" Visible="True">
+                <Size>530</Size>
+                <CRC>f</CRC>
+                <Timestamp>132071329098097876</Timestamp>
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_default" Enabled="True" InstallGroup="4" PatchGroup="4" Name="default" Type="single_dropdown1" Visible="True">
+                    <Size>530</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_Statistics_default_enable_2019-07-09.zip</ZipFile>
+                    <CRC>112459abb3c57db52a1e3411c1636896</CRC>
+                    <Timestamp>132071337209600423</Timestamp>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_alternativePosition" Enabled="True" InstallGroup="4" PatchGroup="4" Name="alternative position" Type="single_dropdown1" Visible="True">
+                    <Size>2019</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_Statistics_alternativePosition_2019-07-09.zip</ZipFile>
+                    <CRC>fc7cd7b172f2032ea85775e5b3395ccc</CRC>
+                    <Timestamp>132071336559526526</Timestamp>
+                    <Description>this will move the xvm statistics widget in the garage to the "menubar" on top.\r\nthis also disables the text for the create squad button for better placement.</Description>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_Statistics_alternativePosition.png" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                </Packages>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_TankStatistics" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank Statistics (with gunmark info [MoE])" Type="multi" Visible="True">
+            <Size>1560563</Size>
+            <ZipFile>XVMconfigBuilder_GarageInterface_TankStatistics_2019-07-09.zip</ZipFile>
+            <CRC>ca04b670c007f31a677cd997531a468d</CRC>
+            <Timestamp>132071353713677107</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_TankStatistics.png" MediaType="Picture" />
+            </Medias>
+          </Package>
+          <Package PackageName="Spacer_Barracks" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Barracks--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowSkills" Enabled="True" InstallGroup="4" PatchGroup="4" Name="skills in barracks" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowSkills_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>639</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_barracksShowSkills_disable.zip</ZipFile>
+                <CRC>24986fce3c7a7c4809073593c992a9bf</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowSkills_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>637</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_barracksShowSkills_enable.zip</ZipFile>
+                <CRC>5dd8ddda9a3fa23b729ff109009ccf9e</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowFlags" Enabled="True" InstallGroup="4" PatchGroup="4" Name="flags in barracks" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowFlags_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>636</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_barracksShowFlags_disable.zip</ZipFile>
+                <CRC>677f7bc8b05e7f3d02b669a08b2e86f3</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_barracksShowFlags_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>634</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_barracksShowFlags_enable.zip</ZipFile>
+                <CRC>f39443e6aff9d0e5647e1e2b2ca8c974</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Spacer_Squad" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Squad Window--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_Squad" Enabled="True" InstallGroup="4" PatchGroup="4" Name="squad window parameters" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_Squad_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single1" Visible="True">
+                <Size>606</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_squad_disable.zip</ZipFile>
+                <CRC>582bd5008b43576ed4f9028db1a2251b</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_Squad_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single1" Visible="True">
+                <Size>604</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_squad_enable.zip</ZipFile>
+                <CRC>46867e36821b78501dba8a446ef0f449</CRC>
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_squad_showClan" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show players clan" Type="multi" Visible="True">
+                    <Packages>
+                      <Package PackageName="XVMconfigBuilder_squad_showClan_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                        <Size>609</Size>
+                        <ZipFile>XVMconfigBuilder_GarageInterface_squad_showClan_disable.zip</ZipFile>
+                        <CRC>bb0afec51bff6260d32f20ac1d457a8f</CRC>
+                      </Package>
+                      <Package PackageName="XVMconfigBuilder_squad_showClan_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                        <Size>607</Size>
+                        <ZipFile>XVMconfigBuilder_GarageInterface_squad_showClan_enable.zip</ZipFile>
+                        <CRC>2f8453d183a89ea714c2715064cbecd1</CRC>
+                      </Package>
+                    </Packages>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_squad_formatInfoField" Enabled="True" InstallGroup="4" PatchGroup="4" Name="format of vehicle info field" Type="multi" Visible="True">
+                    <Packages>
+                      <Package PackageName="XVMconfigBuilder_GarageInterface_squad_formatInfoField_Lvl" Enabled="True" InstallGroup="4" PatchGroup="4" Name="vehicle level" Type="single_dropdown1" Visible="True">
+                        <Size>634</Size>
+                        <ZipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_Lvl.zip</ZipFile>
+                        <CRC>f206f36c35df15dc13a1e15d45407366</CRC>
+                      </Package>
+                      <Package PackageName="XVMconfigBuilder_GarageInterface_squad_formatInfoField_BatMinMax" Enabled="True" InstallGroup="4" PatchGroup="4" Name="minimal - maximal vehicle battle tier" Type="single_dropdown1" Visible="True">
+                        <Size>659</Size>
+                        <ZipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_BatMinMax.zip</ZipFile>
+                        <CRC>d015cea7e0e460589fbdf344adab336d</CRC>
+                      </Package>
+                      <Package PackageName="XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax" Enabled="True" InstallGroup="4" PatchGroup="4" Name="vehicle level AND minimal - maximal vehicle battle tier" Type="single_dropdown1" Visible="True">
+                        <Size>680</Size>
+                        <ZipFile>XVMconfigBuilder_GarageInterface_squad_formatInfoField_LvlBatMinMax_2019-06-30.zip</ZipFile>
+                        <CRC>41f75cd9a8499b640241d0b62268a00b</CRC>
+                        <Timestamp>132064052678269601</Timestamp>
+                      </Package>
+                    </Packages>
+                  </Package>
+                </Packages>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Spacer_Tank" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Tank--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Block vehicle if ammo is lower than..." Type="multi" Visible="True">
+            <Description>Prevent you from entering a battle if you vehicle is low on ammo</Description>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disabled" Type="single_dropdown1" Visible="True">
+                <Size>977</Size>
+                <ZipFile>XVM_config_builder_garage_block_vehicle_ammo_disable.zip</ZipFile>
+                <CRC>f3556982d2ca44fa0e0e0590858ce4ef</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_20" Enabled="True" InstallGroup="4" PatchGroup="4" Name="20%" Type="single_dropdown1" Visible="True">
+                <Size>1012</Size>
+                <ZipFile>XVM_config_builder_garage_block_vehicle_ammo_20.zip</ZipFile>
+                <CRC>df3008ce247e3e3ad714b182859ab557</CRC>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_50" Enabled="True" InstallGroup="4" PatchGroup="4" Name="50%" Type="single_dropdown1" Visible="True">
+                <Size>1012</Size>
+                <ZipFile>XVM_config_builder_garage_block_vehicle_ammo_50.zip</ZipFile>
+                <CRC>3c17b5d2d6f8a793302532e9c6e37fb4</CRC>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Removable equipment auto-return" Type="multi" Visible="True">
+            <Description>automatically return removable equipment</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return_Equips.jpg" MediaType="Picture" />
+            </Medias>
+            <ConflictingPackages>Garage_mods_auto_equip_equipment</ConflictingPackages>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Disabled" Type="single_dropdown1" Visible="True">
+                <Size>1005</Size>
+                <ZipFile>XVM_config_builder_garage_removable_equipment_auto_return_disable.zip</ZipFile>
+                <CRC>2ce78bd8b3c32c4ad9792c316d745c88</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Enabled" Type="single_dropdown1" Visible="True">
+                <Size>1003</Size>
+                <ZipFile>XVM_config_builder_garage_removable_equipment_auto_return_enable.zip</ZipFile>
+                <CRC>fbebff375b956394927076e86ee2ce35</CRC>
+                <UserFiles>
+                  <UserFile Pattern="{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\auto_equip\*" />
+                </UserFiles>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_TankHistoryInformer" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tank History Informer in Garage by HAWG" Type="multi" Visible="True">
+            <Size>1856</Size>
+            <ZipFile>XVMconfigBuilder_GarageInterface_TankHistoryInformer_by_HAWG_2020-03-02.zip</ZipFile>
+            <CRC>af07ed378fa0fbb77c7e2bfa573b286c</CRC>
+            <Timestamp>132276468593920515</Timestamp>
+            <DevURL>https://koreanrandom.com/forum/topic/47493-yearsxc-tank-history-informer/  \r\nhttps://discord.gg/D7bVw95</DevURL>
+            <Description>This is  a Tank History Informer.\r\nNow you can see what year your tank was developed in and you also can see if your tank is real or never was built.\r\n\r\nYellow years represents real working  tanks that the tank blueprints was developed in .\r\nThe Purple  years represents that the tank was never made , just blueprints of tank or prototype was never complete .\r\n\r\nYellow Year = R﻿eal\r\nPurple  Year = Not Real\r\n\r\nIn battle you also can see History informer for your tank</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_GarageInterface_TankHistoryInformer.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_GarageInterface_TankHistoryInformer_inbattle.png" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_XC_years" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Spacer_ButtonsTextsModels" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Buttons, Texts &amp; Models--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show selected battle mode text" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>660</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_disable.zip</ZipFile>
+                <CRC>0871b2a8052818618f93d1bab53462f3</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>658</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showBattleTypeSelectorText_enable.zip</ZipFile>
+                <CRC>5bdb920784a759b5f686d6a305098f61</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showBuyPremiumButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Buy premium&quot; button" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showBuyPremiumButton_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>645</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showBuyPremiumButton_disable.zip</ZipFile>
+                <CRC>7c52287632ff8f73618477f898070c52</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showBuyPremiumButton_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>643</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showBuyPremiumButton_enable.zip</ZipFile>
+                <CRC>d7642ed8e9758393dcabb5a66d0ddd08</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showCreateSquadButtonText" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Create squad&quot; text on the squad creation button" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>659</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_disable.zip</ZipFile>
+                <CRC>b27e7bbafbd848e7f65770637d565e1a</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>656</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showCreateSquadButtonText_enable.zip</ZipFile>
+                <CRC>10697f34f1379d807988898f212b9a74</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showGeneralChatButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;General chat&quot; button" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showGeneralChatButton_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>647</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showGeneralChatButton_disable.zip</ZipFile>
+                <CRC>4b73d0cb7abe6f22ad1219c003aa0060</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showGeneralChatButton_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>645</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showGeneralChatButton_enable.zip</ZipFile>
+                <CRC>9bcf7a61520f011d0a4a33cac9bdc267</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showPremiumShopButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Premium shop&quot; button" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showPremiumShopButton_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>647</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showPremiumShopButton_disable.zip</ZipFile>
+                <CRC>c2899377294281cc77c4cf8426ef19a7</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showPremiumShopButton_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>645</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showPremiumShopButton_enable.zip</ZipFile>
+                <CRC>cd9c1b23867f4ef1a3d99241b3070201</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showReferralButton" Enabled="True" InstallGroup="4" PatchGroup="4" Name="&quot;Referral Program&quot; button" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showReferralButton_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>639</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showReferralButton_disable.zip</ZipFile>
+                <CRC>a14e385e9184532c79ff23aefd900527</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showReferralButton_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>636</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showReferralButton_enable.zip</ZipFile>
+                <CRC>3537c63229286e9a654ea9d3dd0838b0</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showPromoPremVehicle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="promo of premium vehicle (on the background in the hangar)" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showPromoPremVehicle_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>643</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showPromoPremVehicle_disable.zip</ZipFile>
+                <CRC>a346c3195b0dde014d90605a134f04c5</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showPromoPremVehicle_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>641</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_showPromoPremVehicle_enable.zip</ZipFile>
+                <CRC>108a970bbb1eea44e86fe5aa0162b1df</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Spacer_Tweaker" Enabled="False" InstallGroup="4" PatchGroup="4" Name="--Tweaker--" Type="single1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132313538777740262</Timestamp>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel" Enabled="True" InstallGroup="4" PatchGroup="4" Name="EquipmentPanel" Type="multi" Visible="True">
+            <Size>2457</Size>
+            <ZipFile>XVMconfigBuilder_GarageInterface_BoosterInfo_2019-07-08.zip</ZipFile>
+            <CRC>e8feb3ca2b0b873d59e92655d2cbb7dc</CRC>
+            <Timestamp>132070439153956815</Timestamp>
+            <Description>show/hide the number of equipment and directives.</Description>
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show the remaining quantity of consumables in depot" Type="multi" Visible="True">
+                <CRC>f</CRC>
+                <Timestamp>132176814966385990</Timestamp>
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_disabled" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disabled" Type="single_dropdown1" Visible="True">
+                    <Size>602</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_disabled_2019-11-08.zip</ZipFile>
+                    <CRC>2db35ba0c4b55bfb680571d1ab23bcf2</CRC>
+                    <Timestamp>132176823307957630</Timestamp>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_enabled" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enabled" Type="single_dropdown1" Visible="True">
+                    <Size>600</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showConsumablesCount_enabled_2019-11-08.zip</ZipFile>
+                    <CRC>6c33922094707d88eb7c47f073125413</CRC>
+                    <Timestamp>132176823401387808</Timestamp>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount" Enabled="True" InstallGroup="4" PatchGroup="4" Name="show the remaining quantity of directives in depot" Type="multi" Visible="True">
+                <CRC>f</CRC>
+                <Timestamp>132176814936067058</Timestamp>
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_disabled" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disabled" Type="single_dropdown1" Visible="True">
+                    <Size>600</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_disabled_2019-11-08.zip</ZipFile>
+                    <CRC>5ec0cae5eda05d3dcdefe23ddbbc96b4</CRC>
+                    <Timestamp>132176823473365352</Timestamp>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_enabled" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enabled" Type="single_dropdown1" Visible="True">
+                    <Size>598</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_equipmentPanel_showDirectivesCount_enabled_2019-11-08.zip</ZipFile>
+                    <CRC>1ad361695d638b767c34b160256949bb</CRC>
+                    <Timestamp>132176823534262512</Timestamp>
+                  </Package>
+                </Packages>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_restoreBattleType" Enabled="True" InstallGroup="4" PatchGroup="4" Name="restore selected battle type on switching to another server (only random, frontline and rank battle modes)" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_restoreBattleType_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>636</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_restoreBattleType_disable.zip</ZipFile>
+                <CRC>a65ab61217c24d1588332e1d7653c91f</CRC>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_restoreBattleType_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>634</Size>
+                <ZipFile>XVMconfigBuilder_GarageInterface_restoreBattleType_enable.zip</ZipFile>
+                <CRC>f7bd2f677a683f3dac58643209f55268</CRC>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Tooltips" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_combineIcons" Enabled="True" InstallGroup="4" PatchGroup="4" Name="combine icons of equipment and optional devices into one row" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_combineIcons_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>628</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_combineIcons_disable.zip</ZipFile>
+                    <CRC>2fdfdda081b8f16e0be8f268f62fdcbc</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_combineIcons_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>626</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_combineIcons_enable.zip</ZipFile>
+                    <CRC>d9a33062245438475a36711c9b6074a8</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideSimplifiedVehParams" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide simplified vehicle parameters" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideSimplifiedVehParams_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>657</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_hideSimplifiedVehParams_disable.zip</ZipFile>
+                    <CRC>d4788ffa485326ab9285b07706fd0bd1</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideSimplifiedVehParams_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>655</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_hideSimplifiedVehParams_enable.zip</ZipFile>
+                    <CRC>2c60444de6bffdaeb36156e10e6937e8</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideBottomText" Enabled="True" InstallGroup="4" PatchGroup="4" Name="hide text at bottom of tooltip showing quantity of used eqipment, optional devices and crew" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideBottomText_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>633</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_hideBottomText_disable.zip</ZipFile>
+                    <CRC>dd5c92a0b0013504e97967a4c7e6c1d2</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_hideBottomText_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>630</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_hideBottomText_enable.zip</ZipFile>
+                    <CRC>b84bf5b26e1dc3478872a757d9fdfbf3</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh" Enabled="True" InstallGroup="4" PatchGroup="4" Name="display of missing experience to unlock vehicles" Type="multi" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh_disable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable" Type="single_dropdown1" Visible="True">
+                    <Size>643</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh_disable.zip</ZipFile>
+                    <CRC>ae6b733180e3f766cdb142b9a68752c3</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh_enable" Enabled="True" InstallGroup="4" PatchGroup="4" Name="enable" Type="single_dropdown1" Visible="True">
+                    <Size>641</Size>
+                    <ZipFile>XVMconfigBuilder_GarageInterface_Tooltips_showXpToUnlockVeh_enable.zip</ZipFile>
+                    <CRC>eb60687b5c2cd81c4dc4fa98eb86c5ab</CRC>
                   </Package>
                 </Packages>
               </Package>
