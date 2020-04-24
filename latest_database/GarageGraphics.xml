@@ -4770,6 +4770,10 @@
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_GREEN_Beta_1.jpg" MediaType="Picture" />
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_GREEN_Beta_2.jpg" MediaType="Picture" />
         </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
       <Package PackageName="Garage_Graphics_TechTree_Horizontal_Compact" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Horizontal Compact Techtree" Type="single1" Visible="False">
         <Size>1215013</Size>
