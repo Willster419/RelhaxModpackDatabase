@@ -1080,6 +1080,18 @@
       <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
+      <Package PackageName="Sounds_Music_disableBrawlMusic" Enabled="True" InstallGroup="4" PatchGroup="4" Name="disable Brawl music in garage" Type="multi" Visible="True">
+        <ZipFile>Sounds_Music_disableBrawlMusic_PATCH_2020-04-26.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132323643003728494</Timestamp>
+        <InternalNotes>part of champi´s little helper collection</InternalNotes>
+        <Dependencies>
+          <Dependency PackageName="Dependency_CHAMPi_littleHelperCollection" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
       <Package PackageName="Sounds_Music_by_The_Illusion" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Star Trek Hanger Music Mod by The Illusion v{version}" Type="single1" Visible="True">
         <Size>52404300</Size>
         <Version>0.3</Version>
