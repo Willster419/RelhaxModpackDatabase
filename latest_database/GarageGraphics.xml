@@ -2978,7 +2978,8 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Garage_Graphics_Exit_Screens" Enabled="False" InstallGroup="4" PatchGroup="4" Name="exit background screens (selectable for battle and game)" Type="multi" Visible="False">
+      <Package PackageName="Garage_Graphics_Exit_Screens" Enabled="False" InstallGroup="4" PatchGroup="4" Name="exit background screens (selectable for battle and game)  [keep this disabled!!]" Type="multi" Visible="False">
+        <InternalNotes>dis/inv Garage_Graphics_Exit_Screens [keep this disabled!!]\r\nit needs the same file as the loadinganimations (+global dep) do,\r\n</InternalNotes>
         <Packages>
           <Package PackageName="Garage_Graphics_Exit_Screens_Battle" Enabled="True" InstallGroup="4" PatchGroup="4" Name="84 Battle Exit Screens by HAWG" Type="multi" Visible="True">
             <Version>1.5.0.4</Version>
