@@ -2141,6 +2141,245 @@
         <InternalNotes>contains:\r\n\r\nwaiting.swf\r\nwaitingTransition.swf\r\nlogos.swf\r\n\r\nexchanged infopics in logos.swf and waiting.swf with transparent ones\r\n\r\nL = only logo = logos.swf\r\nL/A = logo AND waiting animation = logos.swf + waiting.swf + waitingTransition.swf\r\nA = only waiting animation = logos.swf (with default logos, but award/info slots are transparent) + waiting.swf + waitingTransition.swf\r\n\r\n\r\n\r\n\r\n</InternalNotes>
         <Description>This mod replaces the standard loading animation circle and/or the logo shown at start of the game.\r\nThis depends on the selected option.\r\n\r\nL = only logo\r\nL/A = logo AND waiting animation\r\nA = only waiting animation\r\n\r\n</Description>
         <Packages>
+          <Package PackageName="GarageGraphics_loadingAnimation_NEEDSREWORK" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Loading Animation" Type="multi" Visible="False">
+            <CRC>f</CRC>
+            <Timestamp>132250424692950519</Timestamp>
+            <InternalNotes>extracted wotmod to res_mods\nedited all HAWG´s logos.swf (transparent wotlogo)\n\nmodifed swf - but normally dont need an update\r\ngui\flash\waiting.swf\r\n\r\n\r\nUPDATE 2020-02-12:\r\nall broken. needs logos/waiting/waitingtransition.swf now</InternalNotes>
+            <Description>Replaces the standard loading animation circle\nIlluminati - http://forum.worldoftanks.eu/index.php?/topic/476721-097-gtos-mlg-mod-continued-by-aimdrol-s3al-dog-in-tenks-especially-rudy/</Description>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_Header_1.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_Header_2.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_loading_animation_HARPOON_with_Corsur_by_lenya69_2017-07-06.png" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_XFiles.png" MediaType="Picture" />
+              <Media URL="http://fs1.directupload.net/images/150606/annusd34.jpg" MediaType="Picture" />
+              <Media URL="http://i.imgur.com/fsnK4YY.png" MediaType="Picture" />
+              <Media URL="https://wgmods.net/media/shot_012_peExlZg.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_loading_animation_WWIIHWA_Ambiente_by_Budyx69.jpg" MediaType="Picture" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
+            </Dependencies>
+            <Packages>
+              <Package PackageName="Garage_Graphics_loading_animation_illuminati" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Illuminati by Aimdrol" Type="single_dropdown1" Visible="False">
+                <Size>113806</Size>
+                <ZipFile>Garage_Graphics_loading_animation_illuminati_by_Aimdrol.zip</ZipFile>
+                <CRC>93f4a22a73fbea48e5c97cba27eafbe5</CRC>
+                <Timestamp>131941890463598013</Timestamp>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_HARPOON" Enabled="False" InstallGroup="4" PatchGroup="4" Name="HARPOON by lenya69" Type="single_dropdown1" Visible="False">
+                <Size>151680</Size>
+                <ZipFile>Garage_Graphics_loading_animation_HARPOON_by_lenya69_2017-07-16.zip</ZipFile>
+                <CRC>0cbb29041992dbba817e10761b7209a2</CRC>
+                <Timestamp>131941890817654794</Timestamp>
+                <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1419789-</DevURL>
+                <InternalNotes>Gauss (2020-02-01): Wrote a post in his thread, have to wait</InternalNotes>
+                <Description>Part of Harpoon Crosshair by lenya69</Description>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_XMASGirl" Enabled="False" InstallGroup="4" PatchGroup="4" Name="XMAS Girl by ZloyYurich" Type="single_dropdown1" Visible="False">
+                <Size>140972</Size>
+                <ZipFile>Garage_Graphics_loading_animation_XMAS_Girl_by_ZloyYurich_2019-01-07.zip</ZipFile>
+                <CRC>10f914334e9976c08aa3cb8771b6c4ff</CRC>
+                <Timestamp>131941890948554024</Timestamp>
+                <DevURL>https://wgmods.net/2763/details</DevURL>
+                <InternalNotes>mods by ZloyYurich last update: wot 1.3.0.1 (2018-12)\r\n\r\ngui\flash\waiting.swf</InternalNotes>
+                <UpdateComment>mods by ZloyYurich last update: wot 1.3.0.1 (2018-12)\r\n\r\ngui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_BlueCog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Blue Cog" Type="single_dropdown1" Visible="True">
+                <Size>658408</Size>
+                <ZipFile>Garage_Graphics_loading_animation_BlueCog_by_HAWG_1.8.0.1_2020-03-17.zip</ZipFile>
+                <CRC>555bc61f9539412ae531250c733856ce</CRC>
+                <Timestamp>132290147870450756</Timestamp>
+                <DevURL>https://wgmods.net/2244/details</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_Clan" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Clan" Type="single_dropdown1" Visible="True">
+                <Size>681923</Size>
+                <ZipFile>Garage_Graphics_loading_animation_Clan_by_HAWG_1.8.0.1_2020-03-18.zip</ZipFile>
+                <CRC>ed2bcbf0f0e229196d8fefbdd0891101</CRC>
+                <Timestamp>132290148594611489</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_CowGirl" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Cowgirl" Type="single_dropdown1" Visible="True">
+                <Size>682542</Size>
+                <ZipFile>Garage_Graphics_loading_animation_CowGirl_by_HAWG_1.8.0.1_2020-03-18.zip</ZipFile>
+                <CRC>65db83e545d6ccc09d6cf3e33abd3378</CRC>
+                <Timestamp>132290149328030408</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_FallenSoldier" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Fallen Soldier" Type="single_dropdown1" Visible="True">
+                <Size>662701</Size>
+                <ZipFile>Garage_Graphics_loading_animation_FallenSoldier_by_HAWG_1.8.0.1_2020-03-18.zip</ZipFile>
+                <CRC>d4e51242e0e8e98056aeb7a50a0461b6</CRC>
+                <Timestamp>132290150030137277</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_FireBall" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Fire Ball" Type="single_dropdown1" Visible="True">
+                <Size>674854</Size>
+                <ZipFile>Garage_Graphics_loading_animation_FireBall_by_HAWG_1.8.0.1_2020-03-18.zip</ZipFile>
+                <CRC>f212c9d2698b2bb6a0175716c8c1e02f</CRC>
+                <Timestamp>132290151736349955</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_GhostBusters" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Ghostbusters" Type="single_dropdown1" Visible="True">
+                <Size>19364</Size>
+                <ZipFile>Garage_Graphics_loading_animation_GhostBusters_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>f1df174c8b4554787ad7ce1d05ad9162</CRC>
+                <Timestamp>132250455080018787</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_HAWG" Enabled="False" InstallGroup="4" PatchGroup="4" Name="HAWG" Type="single_dropdown1" Visible="True">
+                <Size>19370</Size>
+                <ZipFile>Garage_Graphics_loading_animation_Hawg_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>6e003e01fdb8fde6f05412523172dc1b</CRC>
+                <Timestamp>132250455441078522</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_Grim" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Grim" Type="single_dropdown1" Visible="True">
+                <Size>19374</Size>
+                <ZipFile>Garage_Graphics_loading_animation_Grim_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>54546d52bb4afed2756bbd94dfc11132</CRC>
+                <Timestamp>132250455203864756</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_HypnotizeSwirlsCog" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Hypnotize Swirls Cog" Type="single_dropdown1" Visible="True">
+                <Size>26809</Size>
+                <ZipFile>Garage_Graphics_loading_animation_HypnotizeSwirlsCog_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>82a77e54aae874b0393058e951897881</CRC>
+                <Timestamp>132250455568624934</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_LeviathanGhost" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Leviathan Ghost" Type="single_dropdown1" Visible="True">
+                <Size>82115</Size>
+                <ZipFile>Garage_Graphics_loading_animation_LeviathanGhost_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>557eadaff739705cb66be810f022579a</CRC>
+                <Timestamp>132250455707048941</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_OriginalCog" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Original Cog" Type="single_dropdown1" Visible="True">
+                <Size>21075</Size>
+                <ZipFile>Garage_Graphics_loading_animation_OriginalCog_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>aa8b3c50a74619bcbf54d18fad419b8f</CRC>
+                <Timestamp>132250455815145309</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_PinUpGirl" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Pin Up Girl" Type="single_dropdown1" Visible="True">
+                <Size>19370</Size>
+                <ZipFile>Garage_Graphics_loading_animation_PinUpGirl_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>43ba91c9864e28bd95151cc9d6fb63ef</CRC>
+                <Timestamp>132250455903658782</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_Rank" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Rank" Type="single_dropdown1" Visible="True">
+                <Size>21072</Size>
+                <ZipFile>Garage_Graphics_loading_animation_Rank_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>d2daf8bc94dc95a121a34475ed2b0449</CRC>
+                <Timestamp>132250455956164255</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_RedCog" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Red Cog" Type="single_dropdown1" Visible="True">
+                <Size>19370</Size>
+                <ZipFile>Garage_Graphics_loading_animation_RedCog_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>21021583d6ecdc2463170c09e62ea3eb</CRC>
+                <Timestamp>132250455995093447</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_Skull" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Skull" Type="single_dropdown1" Visible="True">
+                <Size>19371</Size>
+                <ZipFile>Garage_Graphics_loading_animation_Skull_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>750f02404868c835898fc6008b48c22d</CRC>
+                <Timestamp>132250456037997703</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_Skull2" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Skull 2" Type="single_dropdown1" Visible="True">
+                <Size>19371</Size>
+                <ZipFile>Garage_Graphics_loading_animation_Skull2_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>626ca0d5767ac33cd784823656348c7e</CRC>
+                <Timestamp>132250456096432133</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_Swords" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Swords" Type="single_dropdown1" Visible="True">
+                <Size>21072</Size>
+                <ZipFile>Garage_Graphics_loading_animation_Swords_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>f87d1454abb5cf701d8040e09eafa1c8</CRC>
+                <Timestamp>132250456139570195</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_Tank" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Tank" Type="single_dropdown1" Visible="True">
+                <Size>21065</Size>
+                <ZipFile>Garage_Graphics_loading_animation_Tank_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>5bd76c492547c4837cea68511ad89b07</CRC>
+                <Timestamp>132250456188840337</Timestamp>
+                <DevURL>https://wgmods.net/2244/details/</DevURL>
+                <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_Tracks" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Tracks" Type="single_dropdown1" Visible="True">
+                <Size>16354</Size>
+                <ZipFile>Garage_Graphics_loading_animation_Tracks_2019-04-05.zip</ZipFile>
+                <CRC>d277ad7a03720ec9cced418b84d18c97</CRC>
+                <Timestamp>131989299069189282</Timestamp>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_Tracks.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_XFiles" Enabled="False" InstallGroup="4" PatchGroup="4" Name="X-Files" Type="single_dropdown1" Visible="True">
+                <Size>37521</Size>
+                <ZipFile>Garage_Graphics_loading_animation_X-Files_by_elektrosmoker_2019-03-30.zip</ZipFile>
+                <CRC>2094ae452005c7fb13e631bcb31be92a</CRC>
+                <Timestamp>131984197439273200</Timestamp>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_XFiles.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Garage_Graphics_loading_animation_WWIIHWA_Ambiente" Enabled="False" InstallGroup="4" PatchGroup="4" Name="WWIIHWA Ambiente by Budyx69" Type="single_dropdown1" Visible="True">
+                <Size>21163</Size>
+                <Version>6.17</Version>
+                <ZipFile>Garage_Graphics_loading_animation_WWIIHWA_6.17_1.7.1.1_2020-02-01.zip</ZipFile>
+                <CRC>9f5597a179141d4753535244af3ace20</CRC>
+                <Timestamp>132250424819949103</Timestamp>
+                <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ambiente+Rescue+Pack&amp;order=name&amp;srt=yes\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
+                <Description>Part of WWIIHWA_Ambiente_by_Budyx69 (Thx Budyx69)</Description>
+                <UpdateComment>2018-08-31 Update 6.8 [1.1.0.0]: Versioning\r\n\r\ngui\flash\waiting.swf</UpdateComment>
+              </Package>
+            </Packages>
+          </Package>
           <Package PackageName="GarageGraphics_LoadingLogoAnimation_defaultWG" Enabled="True" InstallGroup="4" PatchGroup="4" Name="default logo and animation by WG" Type="single_dropdown1" Visible="True">
             <Size>694433</Size>
             <ZipFile>GarageGraphics_LoadingLogoAnimation_defaultWG_2020-03-19.zip</ZipFile>
@@ -2255,245 +2494,6 @@
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_white.png" MediaType="Picture" />
             </Medias>
-          </Package>
-        </Packages>
-      </Package>
-      <Package PackageName="Garage_Graphics_loading_animation" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Loading Animation" Type="multi" Visible="False">
-        <CRC>f</CRC>
-        <Timestamp>132250424692950519</Timestamp>
-        <InternalNotes>extracted wotmod to res_mods\nedited all HAWG´s logos.swf (transparent wotlogo)\n\nmodifed swf - but normally dont need an update\r\ngui\flash\waiting.swf\r\n\r\n\r\nUPDATE 2020-02-12:\r\nall broken. needs logos/waiting/waitingtransition.swf now</InternalNotes>
-        <Description>Replaces the standard loading animation circle\nIlluminati - http://forum.worldoftanks.eu/index.php?/topic/476721-097-gtos-mlg-mod-continued-by-aimdrol-s3al-dog-in-tenks-especially-rudy/</Description>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_Header_1.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_Header_2.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_loading_animation_HARPOON_with_Corsur_by_lenya69_2017-07-06.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_XFiles.png" MediaType="Picture" />
-          <Media URL="http://fs1.directupload.net/images/150606/annusd34.jpg" MediaType="Picture" />
-          <Media URL="http://i.imgur.com/fsnK4YY.png" MediaType="Picture" />
-          <Media URL="https://wgmods.net/media/shot_012_peExlZg.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_loading_animation_WWIIHWA_Ambiente_by_Budyx69.jpg" MediaType="Picture" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
-        </Dependencies>
-        <Packages>
-          <Package PackageName="Garage_Graphics_loading_animation_illuminati" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Illuminati by Aimdrol" Type="single_dropdown1" Visible="False">
-            <Size>113806</Size>
-            <ZipFile>Garage_Graphics_loading_animation_illuminati_by_Aimdrol.zip</ZipFile>
-            <CRC>93f4a22a73fbea48e5c97cba27eafbe5</CRC>
-            <Timestamp>131941890463598013</Timestamp>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_HARPOON" Enabled="False" InstallGroup="4" PatchGroup="4" Name="HARPOON by lenya69" Type="single_dropdown1" Visible="False">
-            <Size>151680</Size>
-            <ZipFile>Garage_Graphics_loading_animation_HARPOON_by_lenya69_2017-07-16.zip</ZipFile>
-            <CRC>0cbb29041992dbba817e10761b7209a2</CRC>
-            <Timestamp>131941890817654794</Timestamp>
-            <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1419789-</DevURL>
-            <InternalNotes>Gauss (2020-02-01): Wrote a post in his thread, have to wait</InternalNotes>
-            <Description>Part of Harpoon Crosshair by lenya69</Description>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_XMASGirl" Enabled="False" InstallGroup="4" PatchGroup="4" Name="XMAS Girl by ZloyYurich" Type="single_dropdown1" Visible="False">
-            <Size>140972</Size>
-            <ZipFile>Garage_Graphics_loading_animation_XMAS_Girl_by_ZloyYurich_2019-01-07.zip</ZipFile>
-            <CRC>10f914334e9976c08aa3cb8771b6c4ff</CRC>
-            <Timestamp>131941890948554024</Timestamp>
-            <DevURL>https://wgmods.net/2763/details</DevURL>
-            <InternalNotes>mods by ZloyYurich last update: wot 1.3.0.1 (2018-12)\r\n\r\ngui\flash\waiting.swf</InternalNotes>
-            <UpdateComment>mods by ZloyYurich last update: wot 1.3.0.1 (2018-12)\r\n\r\ngui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_BlueCog" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Blue Cog" Type="single_dropdown1" Visible="True">
-            <Size>658408</Size>
-            <ZipFile>Garage_Graphics_loading_animation_BlueCog_by_HAWG_1.8.0.1_2020-03-17.zip</ZipFile>
-            <CRC>555bc61f9539412ae531250c733856ce</CRC>
-            <Timestamp>132290147870450756</Timestamp>
-            <DevURL>https://wgmods.net/2244/details</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_Clan" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Clan" Type="single_dropdown1" Visible="True">
-            <Size>681923</Size>
-            <ZipFile>Garage_Graphics_loading_animation_Clan_by_HAWG_1.8.0.1_2020-03-18.zip</ZipFile>
-            <CRC>ed2bcbf0f0e229196d8fefbdd0891101</CRC>
-            <Timestamp>132290148594611489</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_CowGirl" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Cowgirl" Type="single_dropdown1" Visible="True">
-            <Size>682542</Size>
-            <ZipFile>Garage_Graphics_loading_animation_CowGirl_by_HAWG_1.8.0.1_2020-03-18.zip</ZipFile>
-            <CRC>65db83e545d6ccc09d6cf3e33abd3378</CRC>
-            <Timestamp>132290149328030408</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_FallenSoldier" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Fallen Soldier" Type="single_dropdown1" Visible="True">
-            <Size>662701</Size>
-            <ZipFile>Garage_Graphics_loading_animation_FallenSoldier_by_HAWG_1.8.0.1_2020-03-18.zip</ZipFile>
-            <CRC>d4e51242e0e8e98056aeb7a50a0461b6</CRC>
-            <Timestamp>132290150030137277</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_FireBall" Enabled="True" InstallGroup="4" PatchGroup="4" Name="Fire Ball" Type="single_dropdown1" Visible="True">
-            <Size>674854</Size>
-            <ZipFile>Garage_Graphics_loading_animation_FireBall_by_HAWG_1.8.0.1_2020-03-18.zip</ZipFile>
-            <CRC>f212c9d2698b2bb6a0175716c8c1e02f</CRC>
-            <Timestamp>132290151736349955</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_GhostBusters" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Ghostbusters" Type="single_dropdown1" Visible="True">
-            <Size>19364</Size>
-            <ZipFile>Garage_Graphics_loading_animation_GhostBusters_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>f1df174c8b4554787ad7ce1d05ad9162</CRC>
-            <Timestamp>132250455080018787</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_HAWG" Enabled="False" InstallGroup="4" PatchGroup="4" Name="HAWG" Type="single_dropdown1" Visible="True">
-            <Size>19370</Size>
-            <ZipFile>Garage_Graphics_loading_animation_Hawg_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>6e003e01fdb8fde6f05412523172dc1b</CRC>
-            <Timestamp>132250455441078522</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_Grim" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Grim" Type="single_dropdown1" Visible="True">
-            <Size>19374</Size>
-            <ZipFile>Garage_Graphics_loading_animation_Grim_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>54546d52bb4afed2756bbd94dfc11132</CRC>
-            <Timestamp>132250455203864756</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_HypnotizeSwirlsCog" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Hypnotize Swirls Cog" Type="single_dropdown1" Visible="True">
-            <Size>26809</Size>
-            <ZipFile>Garage_Graphics_loading_animation_HypnotizeSwirlsCog_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>82a77e54aae874b0393058e951897881</CRC>
-            <Timestamp>132250455568624934</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_LeviathanGhost" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Leviathan Ghost" Type="single_dropdown1" Visible="True">
-            <Size>82115</Size>
-            <ZipFile>Garage_Graphics_loading_animation_LeviathanGhost_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>557eadaff739705cb66be810f022579a</CRC>
-            <Timestamp>132250455707048941</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_OriginalCog" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Original Cog" Type="single_dropdown1" Visible="True">
-            <Size>21075</Size>
-            <ZipFile>Garage_Graphics_loading_animation_OriginalCog_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>aa8b3c50a74619bcbf54d18fad419b8f</CRC>
-            <Timestamp>132250455815145309</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_PinUpGirl" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Pin Up Girl" Type="single_dropdown1" Visible="True">
-            <Size>19370</Size>
-            <ZipFile>Garage_Graphics_loading_animation_PinUpGirl_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>43ba91c9864e28bd95151cc9d6fb63ef</CRC>
-            <Timestamp>132250455903658782</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_Rank" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Rank" Type="single_dropdown1" Visible="True">
-            <Size>21072</Size>
-            <ZipFile>Garage_Graphics_loading_animation_Rank_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>d2daf8bc94dc95a121a34475ed2b0449</CRC>
-            <Timestamp>132250455956164255</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_RedCog" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Red Cog" Type="single_dropdown1" Visible="True">
-            <Size>19370</Size>
-            <ZipFile>Garage_Graphics_loading_animation_RedCog_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>21021583d6ecdc2463170c09e62ea3eb</CRC>
-            <Timestamp>132250455995093447</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_Skull" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Skull" Type="single_dropdown1" Visible="True">
-            <Size>19371</Size>
-            <ZipFile>Garage_Graphics_loading_animation_Skull_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>750f02404868c835898fc6008b48c22d</CRC>
-            <Timestamp>132250456037997703</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_Skull2" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Skull 2" Type="single_dropdown1" Visible="True">
-            <Size>19371</Size>
-            <ZipFile>Garage_Graphics_loading_animation_Skull2_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>626ca0d5767ac33cd784823656348c7e</CRC>
-            <Timestamp>132250456096432133</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_Swords" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Swords" Type="single_dropdown1" Visible="True">
-            <Size>21072</Size>
-            <ZipFile>Garage_Graphics_loading_animation_Swords_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>f87d1454abb5cf701d8040e09eafa1c8</CRC>
-            <Timestamp>132250456139570195</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_Tank" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Tank" Type="single_dropdown1" Visible="True">
-            <Size>21065</Size>
-            <ZipFile>Garage_Graphics_loading_animation_Tank_by_HAWG_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>5bd76c492547c4837cea68511ad89b07</CRC>
-            <Timestamp>132250456188840337</Timestamp>
-            <DevURL>https://wgmods.net/2244/details/</DevURL>
-            <InternalNotes>no Hawg_logo.wotmod</InternalNotes>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_Tracks" Enabled="False" InstallGroup="4" PatchGroup="4" Name="Tracks" Type="single_dropdown1" Visible="True">
-            <Size>16354</Size>
-            <ZipFile>Garage_Graphics_loading_animation_Tracks_2019-04-05.zip</ZipFile>
-            <CRC>d277ad7a03720ec9cced418b84d18c97</CRC>
-            <Timestamp>131989299069189282</Timestamp>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_Tracks.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_XFiles" Enabled="False" InstallGroup="4" PatchGroup="4" Name="X-Files" Type="single_dropdown1" Visible="True">
-            <Size>37521</Size>
-            <ZipFile>Garage_Graphics_loading_animation_X-Files_by_elektrosmoker_2019-03-30.zip</ZipFile>
-            <CRC>2094ae452005c7fb13e631bcb31be92a</CRC>
-            <Timestamp>131984197439273200</Timestamp>
-            <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_XFiles.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="Garage_Graphics_loading_animation_WWIIHWA_Ambiente" Enabled="False" InstallGroup="4" PatchGroup="4" Name="WWIIHWA Ambiente by Budyx69" Type="single_dropdown1" Visible="True">
-            <Size>21163</Size>
-            <Version>6.17</Version>
-            <ZipFile>Garage_Graphics_loading_animation_WWIIHWA_6.17_1.7.1.1_2020-02-01.zip</ZipFile>
-            <CRC>9f5597a179141d4753535244af3ace20</CRC>
-            <Timestamp>132250424819949103</Timestamp>
-            <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ambiente+Rescue+Pack&amp;order=name&amp;srt=yes\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
-            <Description>Part of WWIIHWA_Ambiente_by_Budyx69 (Thx Budyx69)</Description>
-            <UpdateComment>2018-08-31 Update 6.8 [1.1.0.0]: Versioning\r\n\r\ngui\flash\waiting.swf</UpdateComment>
           </Package>
         </Packages>
       </Package>
