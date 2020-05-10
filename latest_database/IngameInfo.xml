@@ -402,15 +402,18 @@
       <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="Ingame_Info_Players_Panel_Pro" Enabled="True" InstallGroup="4" PatchGroup="4" UID="msak80oyaflkjz9l" Name="CHAMPi's Players Panel Pro" Type="multi" Visible="True">
+  <Package PackageName="Ingame_Info_PlayersPanelPro" Enabled="True" InstallGroup="4" PatchGroup="4" UID="msak80oyaflkjz9l" Name="Players Panel Pro by CHAMPi" Type="multi" Visible="True">
     <Size>315552</Size>
-    <Version>1.27</Version>
-    <ZipFile>IngameInfo_PlayersPanelPro_v1.27_1.9.0.1_2020-04-27.zip</ZipFile>
-    <CRC>6ec31932d0ab0cf8d71a80c6c4567957</CRC>
-    <Timestamp>132324911289635637</Timestamp>
+    <Version>1.28</Version>
+    <ZipFile>IngameInfo_PlayersPanelPro_v1.28_1.9.0.2_2020-05-09.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132335438273045459</Timestamp>
     <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
     <InternalNotes>make sure you turn off $.showTeamHealth in the configs when you update</InternalNotes>
     <Author>CHAMPi</Author>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/playersPanelPro.jpg" MediaType="Picture" />
+    </Medias>
     <Dependencies>
       <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
@@ -418,135 +421,275 @@
       <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zhhyg0uzabd2jagl" Name="HP Bars" Type="multi" Visible="True">
+      <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars" Enabled="True" InstallGroup="4" PatchGroup="4" UID="jv5txkvsb801sg8e" Name="Individual Tank HP Bars" Type="single1" Visible="True">
         <CRC>f</CRC>
-        <Timestamp>132071743749522467</Timestamp>
+        <Timestamp>132335583673952336</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
         <Packages>
-          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Mode" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tvz684ki4vfru3yy" Name="Mode" Type="multi" Visible="True">
-            <CRC>f</CRC>
-            <Timestamp>132071743749522467</Timestamp>
-            <Packages>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_onAlways" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6k5lg3qj4r79uf6y" Name="always displayed" Type="single_dropdown1" Visible="True">
-                <CRC>f</CRC>
-                <Timestamp>132217266573929576</Timestamp>
-                <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
-              </Package>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_toggle" Enabled="True" InstallGroup="4" PatchGroup="4" UID="j9c0o2wk3n0rurdy" Name="toggle (press alt to show/hide)" Type="single_dropdown1" Visible="True">
-                <Size>474</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_toggle_1.8.0.0_2020-03-06.zip</ZipFile>
-                <CRC>6d9a577b2a0cec68bcb21f9f595d3b32</CRC>
-                <Timestamp>132280014025223077</Timestamp>
-                <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
-              </Package>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_hotkey" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dot7g6m3y71g6jvb" Name="Hotkey (hold alt to show)" Type="single_dropdown1" Visible="True">
-                <Size>474</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_hotkey_1.8.0.0_2020-03-06.zip</ZipFile>
-                <CRC>e4eecd7884d3e62d83fe964cd5d085b5</CRC>
-                <Timestamp>132280014121994951</Timestamp>
-                <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Format" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qd0mo6s4x3uy6v2b" Name="Format" Type="multi" Visible="True">
-            <CRC>f</CRC>
-            <Timestamp>132071743749522467</Timestamp>
-            <Packages>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Format_Remaining_and_Maximum" Enabled="True" InstallGroup="4" PatchGroup="4" UID="krhtgainsmwnhoko" Name="Remaining and Maximum" Type="single_dropdown1" Visible="True">
-                <CRC>f</CRC>
-                <Timestamp>132071743749522467</Timestamp>
-              </Package>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Format_Remaining_structure_points" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xgo8o9oorio5h0rn" Name="Remaining structure points" Type="single_dropdown1" Visible="True">
-                <Size>586</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_Format_Remaining_structure_points_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>075868a6c72380b23bb9c1caabac4e79</CRC>
-                <Timestamp>132269588632756984</Timestamp>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Style" Enabled="True" InstallGroup="4" PatchGroup="4" UID="95vnw8vpqfgnhbyn" Name="Style" Type="multi" Visible="True">
-            <CRC>f</CRC>
-            <Timestamp>132071743749522467</Timestamp>
-            <Packages>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Style_Shiny" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4kcuock8lyics4g0" Name="Shiny" Type="single_dropdown1" Visible="True">
-                <CRC>f</CRC>
-                <Timestamp>132071743749522467</Timestamp>
-              </Package>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Style_Outfading" Enabled="True" InstallGroup="4" PatchGroup="4" UID="g9j9wcr9kubusgn0" Name="Outfading" Type="single_dropdown1" Visible="True">
-                <Size>551</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Outfading_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>e052b9f8685242d6565abf39e5993cb6</CRC>
-                <Timestamp>132269594746640810</Timestamp>
-              </Package>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Style_Cylinder_gradiant_small" Enabled="True" InstallGroup="4" PatchGroup="4" UID="typo4bxakr3cssv0" Name="Cylinder gradiant small" Type="single_dropdown1" Visible="True">
-                <Size>579</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Cylinder_gradiant_small_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>558803a7bbfdcc7615e8bb0d31ea0ce6</CRC>
-                <Timestamp>132269595175636489</Timestamp>
-              </Package>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Style_Cylinder_gradiant_big" Enabled="True" InstallGroup="4" PatchGroup="4" UID="oc7vwfntea513ldd" Name="Cylinder gradiant big" Type="single_dropdown1" Visible="True">
-                <Size>575</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Cylinder_gradiant_big_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>be9372a5670151716e5289d96ba19bc8</CRC>
-                <Timestamp>132269595580693543</Timestamp>
-              </Package>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Style_Style_Fusili_1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="01da4ette6xj3wkd" Name="Fusili #1" Type="single_dropdown1" Visible="True">
-                <Size>550</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Fusili_1_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>b3234e1cd23d7bd64db726af81072b8d</CRC>
-                <Timestamp>132269596124662686</Timestamp>
-              </Package>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Style_Powercell" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vgvivijc8pz9ep2q" Name="Powercell" Type="single_dropdown1" Visible="True">
-                <Size>552</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Powercell_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>99c1446eb5ffc0ec054487050a274d2f</CRC>
-                <Timestamp>132269596518046623</Timestamp>
-              </Package>
-              <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_Style_Springs" Enabled="True" InstallGroup="4" PatchGroup="4" UID="751w4ipd8mrqe19q" Name="Springs (Fusili #2)" Type="single_dropdown1" Visible="True">
-                <Size>548</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Springs_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>d0f6ad95dad9218ac760701e08986b9f</CRC>
-                <Timestamp>132269596903917040</Timestamp>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_disable_class_icon" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ku8bchve7ik8edgq" Name="disable display of class icon next to panels" Type="multi" Visible="True">
-            <Size>508</Size>
-            <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_disable_class_icon_1.8.0.0_2020-03-06.zip</ZipFile>
-            <CRC>29eb3901030be9fde7a3962a31abdfb5</CRC>
-            <Timestamp>132280014270621182</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
-          </Package>
-          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_disable_class_color" Enabled="True" InstallGroup="4" PatchGroup="4" UID="e8pj3llx21lyp5y3" Name="disable hpbar color by vehicle class (becomes red/green)" Type="multi" Visible="True">
-            <Size>507</Size>
-            <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_disable_class_color_1.8.0.0_2020-03-06.zip</ZipFile>
-            <CRC>b9d7348306ed5d67063ccf9f80ee90d8</CRC>
-            <Timestamp>132280014373623325</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
-          </Package>
-          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_disable_enemy_spotted_status" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rxwybkry1yefph53" Name="disable enemy spotted status" Type="multi" Visible="True">
-            <Size>529</Size>
-            <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_disable_enemy_spotted_status_1.8.0.0_2020-03-06.zip</ZipFile>
-            <CRC>897e6d8e55b68b74eb5ee2616760e507</CRC>
-            <Timestamp>132280014499954722</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
-          </Package>
-          <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Bars_bars_closer_to_panels" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4m3dkkxz0u6xptc2" Name="Move bars closer (~30px) to panels" Type="multi" Visible="True">
+          <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_ClosertoPanels" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4m3dkkxz0u6xptc2" Name="Move bars closer (~30px) to panels" Type="multi" Visible="True">
             <Size>691</Size>
             <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_bars_closer_to_panels_1.8.0.0_2020-03-06.zip</ZipFile>
             <CRC>494f101024f05797bace316b9cb31b41</CRC>
             <Timestamp>132280014642258751</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Format" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qd0mo6s4x3uy6v2b" Name="Change Text Format" Type="multi" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132071743749522467</Timestamp>
+            <ShowInSearchList>False</ShowInSearchList>
+            <Packages>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Format_RemainingAndMaximum" Enabled="True" InstallGroup="4" PatchGroup="4" UID="krhtgainsmwnhoko" Name="Remaining and Maximum (Default)" Type="single_dropdown1" Visible="True">
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_Format_Remaining_and_Maximum_1.9.0.2_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132335600267912037</Timestamp>
+              </Package>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Format_RemainingStructurePoints" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xgo8o9oorio5h0rn" Name="Remaining structure points (HP Remaining)" Type="single_dropdown1" Visible="True">
+                <Size>586</Size>
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_Format_Remaining_structure_points_1.9.0.2_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132335600411778373</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_ToggleKey" Enabled="True" InstallGroup="4" PatchGroup="4" UID="uiig0u9m4508btzq" Name="Change toggle key to..." Type="multi" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132217266573929576</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+            <ShowInSearchList>False</ShowInSearchList>
+            <Packages>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_ToggleKey_alt" Enabled="True" InstallGroup="4" PatchGroup="4" UID="v6wbeujtw7kt8jkn" Name="Alt" Type="single_dropdown1" Visible="True">
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_toggleKey_alt_1.9.0.2_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132335617942260879</Timestamp>
+                <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+              </Package>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_ToggleKey_ctrl" Enabled="True" InstallGroup="4" PatchGroup="4" UID="yhnsa7luaq8fmw4d" Name="Control" Type="single_dropdown1" Visible="True">
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_toggleKey_ctrl_1.9.0.2_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132335617995876817</Timestamp>
+                <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_KeyMode" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tvz684ki4vfru3yy" Name="Change Key Mode" Type="multi" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132071743749522467</Timestamp>
+            <ShowInSearchList>False</ShowInSearchList>
+            <Packages>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_KeyMode_OnAlways" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6k5lg3qj4r79uf6y" Name="Always displayed (Default)" Type="single_dropdown1" Visible="True">
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_onAlways_1.9.0.2_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132335621641586808</Timestamp>
+                <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+              </Package>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_KeyMode_Toggle" Enabled="True" InstallGroup="4" PatchGroup="4" UID="j9c0o2wk3n0rurdy" Name="Toggle (press to show/hide)" Type="single_dropdown1" Visible="True">
+                <Size>474</Size>
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_toggle_1.9.0.2_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132335621522372908</Timestamp>
+                <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+              </Package>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_KeyMode_Holding" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dot7g6m3y71g6jvb" Name="Hotkey (hold to show)" Type="single_dropdown1" Visible="True">
+                <Size>474</Size>
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_holding_1.9.0.2_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132335621239258502</Timestamp>
+                <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+              </Package>
+            </Packages>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Style" Enabled="True" InstallGroup="4" PatchGroup="4" UID="y0kkbnnivd8n1muf" Name="Change bar style" Type="multi" Visible="True">
+            <Size>551</Size>
+            <CRC>f</CRC>
+            <Timestamp>132336160532659745</Timestamp>
+            <Medias>
+              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_Players_Panel_Pro_HP_Pools.jpg" MediaType="Picture" />
+            </Medias>
+            <Packages>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Style_Shiny" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4kcuock8lyics4g0" Name="Shiny" Type="single_dropdown1" Visible="True">
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Shiny_1.9.0.2_2020-05-10.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132336077287083242</Timestamp>
+                <ShowInSearchList>False</ShowInSearchList>
+              </Package>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Style_Outfading" Enabled="True" InstallGroup="4" PatchGroup="4" UID="g9j9wcr9kubusgn0" Name="Outfading" Type="single_dropdown1" Visible="True">
+                <Size>551</Size>
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Outfading_1.7.1.2_2020-02-23.zip</ZipFile>
+                <CRC>e052b9f8685242d6565abf39e5993cb6</CRC>
+                <Timestamp>132269594746640810</Timestamp>
+                <ShowInSearchList>False</ShowInSearchList>
+              </Package>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Style_CylinderGradiantSmall" Enabled="True" InstallGroup="4" PatchGroup="4" UID="typo4bxakr3cssv0" Name="Cylinder gradiant small" Type="single_dropdown1" Visible="True">
+                <Size>579</Size>
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Cylinder_gradiant_small_1.7.1.2_2020-02-23.zip</ZipFile>
+                <CRC>558803a7bbfdcc7615e8bb0d31ea0ce6</CRC>
+                <Timestamp>132269595175636489</Timestamp>
+                <ShowInSearchList>False</ShowInSearchList>
+              </Package>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Style_CylinderGradiantBig" Enabled="True" InstallGroup="4" PatchGroup="4" UID="oc7vwfntea513ldd" Name="Cylinder gradiant big" Type="single_dropdown1" Visible="True">
+                <Size>575</Size>
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Cylinder_gradiant_big_1.7.1.2_2020-02-23.zip</ZipFile>
+                <CRC>be9372a5670151716e5289d96ba19bc8</CRC>
+                <Timestamp>132269595580693543</Timestamp>
+                <ShowInSearchList>False</ShowInSearchList>
+              </Package>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Style_Fusili1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="01da4ette6xj3wkd" Name="Fusili #1" Type="single_dropdown1" Visible="True">
+                <Size>550</Size>
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Fusili_1_1.7.1.2_2020-02-23.zip</ZipFile>
+                <CRC>b3234e1cd23d7bd64db726af81072b8d</CRC>
+                <Timestamp>132269596124662686</Timestamp>
+                <ShowInSearchList>False</ShowInSearchList>
+              </Package>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Style_Powercell" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vgvivijc8pz9ep2q" Name="Powercell" Type="single_dropdown1" Visible="True">
+                <Size>552</Size>
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Powercell_1.7.1.2_2020-02-23.zip</ZipFile>
+                <CRC>99c1446eb5ffc0ec054487050a274d2f</CRC>
+                <Timestamp>132269596518046623</Timestamp>
+                <ShowInSearchList>False</ShowInSearchList>
+              </Package>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Style_Springs" Enabled="True" InstallGroup="4" PatchGroup="4" UID="751w4ipd8mrqe19q" Name="Springs (Fusili #2)" Type="single_dropdown1" Visible="True">
+                <Size>548</Size>
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Springs_1.7.1.2_2020-02-23.zip</ZipFile>
+                <CRC>d0f6ad95dad9218ac760701e08986b9f</CRC>
+                <Timestamp>132269596903917040</Timestamp>
+                <ShowInSearchList>False</ShowInSearchList>
+              </Package>
+              <Package PackageName="Ingame_Info_PlayersPanelPro_TankHPBars_Style_Quacksen" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rq8x92civjg2r4fg" Name="Quacksen" Type="single_dropdown1" Visible="True">
+                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Quacksen_1.9.0.2_2020-05-10.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132336077396290298</Timestamp>
+                <ShowInSearchList>False</ShowInSearchList>
+              </Package>
+            </Packages>
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Ingame_Info_Players_Panel_Pro_HP_Pools" Enabled="True" InstallGroup="4" PatchGroup="4" UID="y0kkbnnivd8n1muf" Name="Enable HP Pools" Type="multi" Visible="True">
-        <Size>551</Size>
-        <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_1.8.0.2_2020-03-24.zip</ZipFile>
-        <CRC>5acba915ba7025401ae9b0c9b3a71779</CRC>
-        <Timestamp>132295377185788753</Timestamp>
+      <Package PackageName="Ingame_Info_PlayersPanelPro_EnableClassColor" Enabled="True" InstallGroup="4" PatchGroup="4" UID="e8pj3llx21lyp5y3" Name="Enable HP bar color by vehicle class" Type="multi" Visible="True">
+        <Size>507</Size>
+        <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_enable_class_color_1.9.0.2_2020-05-09.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132335625111617035</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+        <ShowInSearchList>False</ShowInSearchList>
+      </Package>
+      <Package PackageName="Ingame_Info_PlayersPanelPro_EnableClassIcon" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ku8bchve7ik8edgq" Name="Enable display of class icon next to panels" Type="multi" Visible="True">
+        <Size>508</Size>
+        <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_enable_class_icon_1.9.0.2_2020-05-09.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132335625182757918</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+        <ShowInSearchList>False</ShowInSearchList>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_Players_Panel_Pro_HP_Pools.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/show_class_icon.png" MediaType="Picture" />
         </Medias>
+      </Package>
+      <Package PackageName="Ingame_Info_PlayersPanelPro_HighlightPopular" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5etf1yfde04du5ju" Name="Highlight known streamers/modders with icon" Type="multi" Visible="True">
+        <ZipFile>Ingame_Info_PlayersPanelPro_HighlightPopular_1.9.0.2_2020-05-10.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132336060953278437</Timestamp>
+      </Package>
+      <Package PackageName="Ingame_Info_PlayersPanelPro_HighlightFriend" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2btfq4ljjl3pe56h" Name="Highlight friend with icon" Type="multi" Visible="True">
+        <CRC>f</CRC>
+        <Timestamp>132071743749522467</Timestamp>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/friend_icon_styles.png" MediaType="Picture" />
+        </Medias>
+        <Packages>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_HighlightFriend_Cyan" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vy0wvg8sx1oi1rn9" Name="Cyan" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Info_PlayersPanelPro_HightlightFriends_Color_Cyan_1.9.0.2_2020-05-10.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132336065537931630</Timestamp>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_HighlightFriend_Purple" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kqvt2zcbpfmdwbvx" Name="Purple" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Info_PlayersPanelPro_HightlightFriends_Color_Purple_1.9.0.2_2020-05-10.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132336065715482659</Timestamp>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_HighlightFriend_LightBlue" Enabled="True" InstallGroup="4" PatchGroup="4" UID="g5q1o6ej9snadgxq" Name="Light Blue" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Info_PlayersPanelPro_HightlightFriends_Color_LightBlue_1.9.0.2_2020-05-10.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132336065881632361</Timestamp>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_HighlightFriend_Orange" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5zwzj7ybnwq8j698" Name="Orange" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Info_PlayersPanelPro_HightlightFriends_Color_Orange_1.9.0.2_2020-05-10.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132336066094441423</Timestamp>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_HighlightFriend_Yellow" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5cn5uo0eszhd77su" Name="Yellow" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Info_PlayersPanelPro_HightlightFriends_Color_Yellow_1.9.0.2_2020-05-10.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132336066242138748</Timestamp>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="Ingame_Info_PlayersPanelPro_TeamHPPoolBar" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pjqu2h2dcutmw6dw" Name="Enable team HP pool bar" Type="multi" Visible="True">
+        <ZipFile>Ingame_Info_PlayersPanelPro_EnableTeamHPPoolsBar_1.9.0.2_2020-05-10.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132336068392380605</Timestamp>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/show_team_hp_pool_bar.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="Ingame_Info_PlayersPanelPro_TeamHPPoolText" Enabled="True" InstallGroup="4" PatchGroup="4" UID="g4ecqyqdqpuvnphw" Name="Enable team HP pool text" Type="multi" Visible="True">
+        <ZipFile>Ingame_Info_PlayersPanelPro_EnableTeamHPPoolsText_1.9.0.2_2020-05-10.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132336069648930098</Timestamp>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/show_team_hp_pool_text.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="Ingame_Info_PlayersPanelPro_EnemySpottedStatus" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rxwybkry1yefph53" Name="Enable enemy spotted status (conflicts with xvm and pmod spotted status)" Type="multi" Visible="True">
+        <Size>529</Size>
+        <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Enable_1.9.0.2_2020-05-09.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132336078895784113</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/spotted_icon_styles.png" MediaType="Picture" />
+        </Medias>
+        <Packages>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_EnemySpottedStatus_EyeV1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6wrz8nb7bwkubrx2" Name="Eye V1" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_EyeV1_1.9.0.2_2020-05-09.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132336087613111070</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_EnemySpottedStatus_EyeV2" Enabled="True" InstallGroup="4" PatchGroup="4" UID="u6ae7ppav2l9ji8n" Name="Eye V2" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_EyeV2_1.9.0.2_2020-05-09.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132336087706268571</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Dot" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nfdyi3vt7qh7we2w" Name="Dot" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Dot_1.9.0.2_2020-05-09.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132336087528549852</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Crosshair" Enabled="True" InstallGroup="4" PatchGroup="4" UID="7lz52nzh64v1vwjv" Name="Crosshair" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Crosshair_1.9.0.2_2020-05-09.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132336087455017680</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Lamp" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ye4be56evquh7u91" Name="Lamp" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Lamp_1.9.0.2_2020-05-09.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132336087778599684</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+        </Packages>
       </Package>
     </Packages>
   </Package>
