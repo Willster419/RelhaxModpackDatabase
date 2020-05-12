@@ -1276,41 +1276,44 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Crosshairs_Strategic_Animated_Series_Andre_V_Header" Enabled="False" InstallGroup="4" PatchGroup="4" UID="ukv6lob05jux4bg7" Name="Animated Series by Andre_V" Type="single1" Visible="False">
+      <Package PackageName="Crosshairs_Strategic_Animated" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ukv6lob05jux4bg7" Name="Animated Series" Type="single1" Visible="True">
         <CRC>f</CRC>
         <Timestamp>132171945354324232</Timestamp>
-      </Package>
-      <Package PackageName="Crosshairs_Strategic_Animated--6" Enabled="True" InstallGroup="4" PatchGroup="4" UID="792ltoh14gme4nn7" Name="Animated (6) Arty" Type="single1" Visible="True">
-        <Size>47240</Size>
-        <Version>1.7.1.0</Version>
-        <ZipFile>Crosshairs_Strategic_Animated-6_1.7.1.0_2020-01-29.zip</ZipFile>
-        <CRC>63fcb1dd7e3833fe278465c4642014e4</CRC>
-        <Timestamp>132248050971021967</Timestamp>
-        <DevURL>http://wotsite.net/pritsely/12141-</DevURL>
-        <Medias>
-          <Media URL="http://wotsite.net/images/2018/Animated06.jpg" MediaType="Picture" />
-          <Media URL="http://wotsite.net/images/2018/Animated09.jpg" MediaType="Picture" />
-          <Media URL="https://youtu.be/RQZNfcl5qJw?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_Fonts_AndreV" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_Gunplay" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="Crosshairs_Strategic_Animated_blue" Enabled="True" InstallGroup="4" PatchGroup="4" UID="1njsks7kzzo4ff5k" Name="Animated (1) blue" Type="single1" Visible="True">
-        <Size>611030</Size>
-        <Version>1.7.1.0</Version>
-        <ZipFile>Crosshairs_Strategic_Animated_1_blue_1.7.1.0_2020-01-29.zip</ZipFile>
-        <CRC>4c077c511d5796508b6f12cb26705951</CRC>
-        <Timestamp>132248049113049674</Timestamp>
-        <DevURL>https://wotsite.net/pritsely/11660-pritsel-animated-izmenyayushchiesya-pritsely-dlya-world-of-tanks.html</DevURL>
-        <Medias>
-          <Media URL="https://youtu.be/4pgTw3Puoi0" MediaType="Webpage" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_Fonts_GAMECUBEN_DualSet" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_ZurichCondBold" NotFlag="False" Logic="OR" />
-        </Dependencies>
+        <Author>Andre_V</Author>
+        <Packages>
+          <Package PackageName="Crosshairs_Strategic_Animated_blue" Enabled="True" InstallGroup="4" PatchGroup="4" UID="1njsks7kzzo4ff5k" Name="(1) blue" Type="single_dropdown1" Visible="True">
+            <Size>611030</Size>
+            <Version>1.7.1.0</Version>
+            <ZipFile>Crosshairs_Strategic_Animated_1_blue_1.7.1.0_2020-01-29.zip</ZipFile>
+            <CRC>4c077c511d5796508b6f12cb26705951</CRC>
+            <Timestamp>132248049113049674</Timestamp>
+            <DevURL>https://wotsite.net/pritsely/11660-pritsel-animated-izmenyayushchiesya-pritsely-dlya-world-of-tanks.html</DevURL>
+            <Medias>
+              <Media URL="https://youtu.be/4pgTw3Puoi0" MediaType="Webpage" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_Fonts_GAMECUBEN_DualSet" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_Fonts_ZurichCondBold" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Crosshairs_Strategic_Animated_6" Enabled="True" InstallGroup="4" PatchGroup="4" UID="792ltoh14gme4nn7" Name="(6)" Type="single_dropdown1" Visible="True">
+            <Size>47240</Size>
+            <Version>1.7.1.0</Version>
+            <ZipFile>Crosshairs_Strategic_Animated-6_1.7.1.0_2020-01-29.zip</ZipFile>
+            <CRC>63fcb1dd7e3833fe278465c4642014e4</CRC>
+            <Timestamp>132248050971021967</Timestamp>
+            <DevURL>http://wotsite.net/pritsely/12141-</DevURL>
+            <Medias>
+              <Media URL="http://wotsite.net/images/2018/Animated06.jpg" MediaType="Picture" />
+              <Media URL="http://wotsite.net/images/2018/Animated09.jpg" MediaType="Picture" />
+              <Media URL="https://youtu.be/RQZNfcl5qJw?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_Fonts_AndreV" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_Fonts_Gunplay" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+        </Packages>
       </Package>
       <Package PackageName="Crosshairs_Strategic_Deegie" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ecq7srdlyvgmfrck" Name="Deegie" Type="single1" Visible="True">
         <Version>1.7.1.0</Version>
@@ -1371,7 +1374,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Crosshairs_arty_sight/Crosshairs_Arty_sight_HARPOON_HAVOK_02.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Crosshairs_Strategic_Harpoon_BSC_WSC" Enabled="True" InstallGroup="4" PatchGroup="4" UID="589u0xbqlnxi1cya" Name="BlackCircleSquare OR WhiteCircleSquare" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_Harpoon_BSCWSC" Enabled="True" InstallGroup="4" PatchGroup="4" UID="589u0xbqlnxi1cya" Name="BlackCircleSquare OR WhiteCircleSquare" Type="single_dropdown1" Visible="True">
             <Size>62411</Size>
             <Version>1.7.1.0</Version>
             <ZipFile>Crosshairs_Strategic_HARPOON_Black_CircleSquare_OR_White_CircleSquare_1.7.1.1_2020-01-30.zip</ZipFile>
@@ -1382,7 +1385,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Crosshairs_Harpoon_v3_Tank_Arty2.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Crosshairs_Strategic_Harpoon_new_white" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ixf98whrljp01o59" Name="New White" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_Harpoon_newWhite" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ixf98whrljp01o59" Name="New White" Type="single_dropdown1" Visible="True">
             <Size>49498</Size>
             <Version>1.7.1.0</Version>
             <ZipFile>Crosshairs_Strategic_HARPOON_New_White_1.7.1.1_2020-01-30.zip</ZipFile>
@@ -1427,7 +1430,7 @@
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Crosshairs_arty_sight/Crosshairs_sight_LegionLost_Header_02.jpg" MediaType="Picture" />
         </Medias>
         <Packages>
-          <Package PackageName="Crosshairs_Strategic_LegionLost_ZF.20E_edition" Enabled="True" InstallGroup="4" PatchGroup="4" UID="w4ri839u9eeeoxjz" Name="Arty sight ZF.20E_edition by LegionLost" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_LegionLost_ZF20E" Enabled="True" InstallGroup="4" PatchGroup="4" UID="w4ri839u9eeeoxjz" Name="ZF.20E_edition" Type="single_dropdown1" Visible="True">
             <Size>50515</Size>
             <ZipFile>Crosshairs_Strategic_LegionLost_ZF.20E_edition_v3.5.2_1.8.0.0_2020-03-06.zip</ZipFile>
             <CRC>b536115b71421d2b1eb1ce829aba8d6d</CRC>
@@ -1439,7 +1442,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Crosshairs_arty_sight/Crosshair_LegionLost_ZF.20E_edition_arty_03.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Crosshairs_Strategic_LegionLost_Almost_Standard" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9tyxg2fv8b6wo9qz" Name="Arty sight blue by LegionLost" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_LegionLost_blue" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9tyxg2fv8b6wo9qz" Name="blue" Type="single_dropdown1" Visible="True">
             <Size>50515</Size>
             <ZipFile>Crosshairs_Strategic_LegionLost_Almost_Standard_blue_v2.8.2_1.8.0.0_2020-03-06.zip</ZipFile>
             <CRC>66ce0d03299e3ba92fc5c68e28ded13d</CRC>
@@ -1482,7 +1485,7 @@
           <Package PackageName="Crosshairs_Strategic_Marksman_red" Enabled="False" InstallGroup="4" PatchGroup="4" UID="n0a5g97zw6uaai5p" Name="red" Type="single_dropdown1" Visible="False" />
         </Packages>
       </Package>
-      <Package PackageName="Crosshairs_Strategic_MeltyMap" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0phko8e0v2nsatcp" Name="MeltyMap (continued by Andre_V)" Type="single1" Visible="True">
+      <Package PackageName="Crosshairs_Strategic_MeltyMap" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0phko8e0v2nsatcp" Name="MeltyMap" Type="single1" Visible="True">
         <DevURL>http://wotsite.net/pritsely/8572-</DevURL>
         <Description>MeltyMaps</Description>
         <Dependencies>
@@ -1506,17 +1509,18 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Crosshairs_Strategic_MIX_DINIKK" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kiclwbglpe9hla81" Name="MIX by DINIKK" Type="single1" Visible="True">
+      <Package PackageName="Crosshairs_Strategic_MIX_DINIKK" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kiclwbglpe9hla81" Name="MIX" Type="single1" Visible="True">
         <Size>75308</Size>
         <ZipFile>Crosshair_MIX_DINIKK_Arty_1.7.1.1_2020-01-30.zip</ZipFile>
         <CRC>c9e9094b30aa298b88a2de33d793dc86</CRC>
         <Timestamp>132248868187377128</Timestamp>
         <DevURL>https://wotsite.net/pritsely/2063-crosshair-mix-02-by-dinik.html</DevURL>
+        <Author>DINIKK</Author>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Crosshairs_arty_sight/Crosshairs_arty_sight_MIX_DINIKK_01.jpg" MediaType="Picture" />
         </Medias>
       </Package>
-      <Package PackageName="Crosshairs_Strategic_Mjolnir_Hammer_of_Thor" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ewtsof64jxb7w3qf" Name="Mjolnir Hammer of Thor" Type="single1" Visible="True">
+      <Package PackageName="Crosshairs_Strategic_Mjolnir" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ewtsof64jxb7w3qf" Name="Mjolnir Hammer of Thor" Type="single1" Visible="True">
         <Size>91108</Size>
         <ZipFile>Crosshairs_Arty_sight_Mjolnir_Hammer_of_Thor_1.6.1.1_2019-10-23.zip</ZipFile>
         <CRC>56781db13a25a2c1c796ed2d1fe0fdd2</CRC>
@@ -1553,7 +1557,7 @@
             <CRC>ff57282fc521052deb1ccd65943f05de</CRC>
             <Timestamp>132172493762701607</Timestamp>
           </Package>
-          <Package PackageName="Crosshairs_Strategic_Octagon_torquoise" Enabled="True" InstallGroup="4" PatchGroup="4" UID="yoouvh8pd9yw7jnr" Name="torquoise" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_Octagon_turquoise" Enabled="True" InstallGroup="4" PatchGroup="4" UID="yoouvh8pd9yw7jnr" Name="turquoise" Type="single_dropdown1" Visible="True">
             <Size>52801</Size>
             <ZipFile>Crosshairs_Arty_sight_Octagon_torquoise_1.6.1.2_2019-10-27.zip</ZipFile>
             <CRC>09b636ec8c7d194475af02d41d0c32a0</CRC>
@@ -1590,7 +1594,7 @@
           <Dependency PackageName="Dependency_Fonts_AndreV" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Crosshairs_Strategic_Strike_blue" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ihiv3kaa6lkljzj4" Name="Arty Blue Strike" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_Strike_blue" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ihiv3kaa6lkljzj4" Name="blue" Type="single_dropdown1" Visible="True">
             <Size>28834</Size>
             <Version>1.6.1.0</Version>
             <ZipFile>Crosshairs_Strategic_Strike_blue_1.9.0.1_2020-04-30.zip</ZipFile>
@@ -1601,7 +1605,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Crosshairs_arty_sight/Crosshairs_arty_sight_Strike_blue_01.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Crosshairs_Strategic_Strike_green" Enabled="True" InstallGroup="4" PatchGroup="4" UID="v6pabjgb5hd2jbq4" Name="Arty Green Strike" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_Strike_green" Enabled="True" InstallGroup="4" PatchGroup="4" UID="v6pabjgb5hd2jbq4" Name="green" Type="single_dropdown1" Visible="True">
             <Size>28995</Size>
             <Version>1.6.1.0</Version>
             <ZipFile>Crosshairs_Strategic_Strike_green_1.9.0.1_2020-04-30.zip</ZipFile>
@@ -1617,7 +1621,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Crosshairs_Strategic_Sword_of_Damocles" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pk6h3n6t00fsu48h" Name="Sword of Damocles" Type="single1" Visible="True">
+      <Package PackageName="Crosshairs_Strategic_SwordOfDamocles" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pk6h3n6t00fsu48h" Name="Sword of Damocles" Type="single1" Visible="True">
         <Size>149107</Size>
         <CRC>eae1202afb728e3f344109c15a02ac60</CRC>
         <Timestamp>131943676244536667</Timestamp>
@@ -1630,7 +1634,7 @@
           <Media URL="http://wotsite.net/images/2015/3/23/2.jpg" MediaType="Picture" />
         </Medias>
         <Packages>
-          <Package PackageName="Crosshairs_Strategic_Sword_of_Damocles_green" Enabled="True" InstallGroup="4" PatchGroup="4" UID="29dwbncuzx7auffh" Name="Sword of Damocles (green)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_SwordOfDamocles_green" Enabled="True" InstallGroup="4" PatchGroup="4" UID="29dwbncuzx7auffh" Name="Sword of Damocles (green)" Type="single_dropdown1" Visible="True">
             <Size>29921</Size>
             <ZipFile>Crosshairs_Strategic_Sword_of_Damocles_green_1.7.1.1_2020-01-30.zip</ZipFile>
             <CRC>01be13ed2911b4481646be48187ddc6b</CRC>
@@ -1639,7 +1643,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Crosshairs_arty_sight/Crosshairs_arty_sight_Sword_of_Damocles_green_01.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Crosshairs_Strategic_Sword_of_Damocles_white" Enabled="True" InstallGroup="4" PatchGroup="4" UID="fykbjmivztzrurmg" Name="Sword of Damocles (white)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_SwordOfDamocles_white" Enabled="True" InstallGroup="4" PatchGroup="4" UID="fykbjmivztzrurmg" Name="Sword of Damocles (white)" Type="single_dropdown1" Visible="True">
             <Size>29866</Size>
             <ZipFile>Crosshairs_Strategic_Sword_of_Damocles_white_1.7.1.1_2020-01-30.zip</ZipFile>
             <CRC>f9304adabe6947a8ce96eac7587b2908</CRC>
@@ -1662,7 +1666,7 @@
           <Dependency PackageName="Dependency_Fonts_Micro" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Crosshairs_Strategic_Taipan_v1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="m28xjpeft9tz5wct" Name="Arty Taipan v1" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_Taipan_v1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="m28xjpeft9tz5wct" Name="v1" Type="single_dropdown1" Visible="True">
             <Size>189930</Size>
             <Version>1.9.0.1</Version>
             <ZipFile>Crosshairs_Arty_sight_taipan_V1_1.9.0.1_2020-04-24.zip</ZipFile>
@@ -1675,7 +1679,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Crosshairs_arty_sight/Crosshairs_Arty_sight_taipan_V1_02.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Crosshairs_Strategic_Taipan_v2" Enabled="False" InstallGroup="4" PatchGroup="4" UID="zrecrpkgs5mg57jt" Name="Arty Taipan v2 default" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_Taipan_v2" Enabled="False" InstallGroup="4" PatchGroup="4" UID="zrecrpkgs5mg57jt" Name="v2" Type="single_dropdown1" Visible="True">
             <Size>64263</Size>
             <Version>1.7.1.1</Version>
             <ZipFile>Crosshairs_Strategic_taipan_V2_default_1.7.1.1_2020-01-30.zip</ZipFile>
@@ -1690,7 +1694,7 @@
               <Media URL="http://wotsite.net/images/2015/3/23/5.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Crosshairs_Strategic_Taipan_v3" Enabled="True" InstallGroup="4" PatchGroup="4" UID="t5wjjsaznoo6g016" Name="Arty Taipan v3 torquoise" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_Taipan_v3" Enabled="True" InstallGroup="4" PatchGroup="4" UID="t5wjjsaznoo6g016" Name="v3 torquoise" Type="single_dropdown1" Visible="True">
             <Size>223315</Size>
             <Version>1.6.1.0</Version>
             <ZipFile>Crosshairs_Arty_sight_taipan_V3_Torquoise_1.6.1.0_2019-10-10.zip</ZipFile>
@@ -1704,7 +1708,7 @@
               <Media URL="https://youtu.be/d8BGoEchW80?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
             </Medias>
           </Package>
-          <Package PackageName="Crosshairs_Strategic_Taipan_v4_Circle" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6u2yrsg0mlgngc86" Name="Arty Taipan v4 Circles" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_Taipan_v4Circle" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6u2yrsg0mlgngc86" Name="v4 (circles)" Type="single_dropdown1" Visible="True">
             <Size>106875</Size>
             <Version>1.6.1.0</Version>
             <ZipFile>Crosshairs_Arty_sight_taipan_V4_with_Circles_1.6.1.0_2019-10-10.zip</ZipFile>
@@ -1712,7 +1716,7 @@
             <Timestamp>132151839638205322</Timestamp>
             <DevURL>https://wotsite.net/pritsely/9382-</DevURL>
           </Package>
-          <Package PackageName="Crosshairs_Strategic_Taipan_v5_no_Circle" Enabled="True" InstallGroup="4" PatchGroup="4" UID="09k5jw6jh4idr5qj" Name="Arty Taipan v5 No Circles" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_Taipan_v5noCircle" Enabled="True" InstallGroup="4" PatchGroup="4" UID="09k5jw6jh4idr5qj" Name="v5 (no Circles)" Type="single_dropdown1" Visible="True">
             <Size>78183</Size>
             <Version>1.6.1.0</Version>
             <ZipFile>Crosshairs_Arty_sight_taipan_V5_without_Circles_1.6.1.0_2019-10-10.zip</ZipFile>
@@ -1720,7 +1724,7 @@
             <Timestamp>132151839874002015</Timestamp>
             <DevURL>https://wotsite.net/pritsely/9382-</DevURL>
           </Package>
-          <Package PackageName="Crosshairs_Strategic_Taipan_v6_White" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dyqkrvckg0avrhxj" Name="Arty Taipan V6 white" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Crosshairs_Strategic_Taipan_v6White" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dyqkrvckg0avrhxj" Name="v6 white" Type="single_dropdown1" Visible="True">
             <Size>65636</Size>
             <Version>1.7.1.1</Version>
             <ZipFile>Crosshairs_Strategic_taipan_V6_White_1.7.1.1_2020-01-30.zip</ZipFile>
@@ -1747,7 +1751,7 @@
           <Dependency PackageName="Dependency_Fonts_Terminator_Cyr4" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Crosshairs_Strategic_White" Enabled="True" InstallGroup="4" PatchGroup="4" UID="k1f7ry84ag422lmw" Name="Sight White" Type="single1" Visible="True">
+      <Package PackageName="Crosshairs_Strategic_White" Enabled="True" InstallGroup="4" PatchGroup="4" UID="k1f7ry84ag422lmw" Name="White" Type="single1" Visible="True">
         <DevURL>https://wotsite.net/pritsely/6098-\r\nhttp://hjundaj.com/mods/gun-sights/white-arcade-sniper-sight</DevURL>
         <Medias>
           <Media URL="&lt;html&gt;&lt;head&gt;&lt;meta http-equiv='X-UA-Compatible' content='IE=11' /&gt;&lt;body&gt;&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/FDvdAjKgwlo&quot; frameborder=&quot;0&quot; style=&quot;position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;&quot;&gt; Your browser doesn't support iFrames.&lt;/iframe&gt;&lt;/body&gt;&lt;/html&gt;" MediaType="HTML" />
@@ -1769,26 +1773,6 @@
             <Timestamp>132029110899760019</Timestamp>
           </Package>
         </Packages>
-      </Package>
-      <Package PackageName="Crosshairs_Strategic_Animated--6_0_4_0_0" Enabled="False" InstallGroup="4" PatchGroup="4" UID="4u98z1ap4srre1j9" Name="WRITE_NEW_NAME" Type="single1" Visible="False">
-        <CRC>f</CRC>
-        <Timestamp>132171945354324232</Timestamp>
-      </Package>
-      <Package PackageName="Crosshairs_Strategic_Animated--6_0_0_0_0" Enabled="False" InstallGroup="4" PatchGroup="4" UID="hjgn70gq3oj9edq8" Name="WRITE_NEW_NAME" Type="single1" Visible="False">
-        <CRC>f</CRC>
-        <Timestamp>132171945354324232</Timestamp>
-      </Package>
-      <Package PackageName="Crosshairs_Strategic_Animated--6_0_3" Enabled="False" InstallGroup="4" PatchGroup="4" UID="bxxuz469y7lyp68m" Name="WRITE_NEW_NAME" Type="single1" Visible="False">
-        <CRC>f</CRC>
-        <Timestamp>132171945354324232</Timestamp>
-      </Package>
-      <Package PackageName="Crosshairs_Strategic_Animated--6_0_2" Enabled="False" InstallGroup="4" PatchGroup="4" UID="om4974cax4dgpifl" Name="WRITE_NEW_NAME" Type="single1" Visible="False">
-        <CRC>f</CRC>
-        <Timestamp>132171945354324232</Timestamp>
-      </Package>
-      <Package PackageName="Crosshairs_Strategic_Animated--6_0_1" Enabled="False" InstallGroup="4" PatchGroup="4" UID="1bbof3jbw06yptml" Name="WRITE_NEW_NAME" Type="single1" Visible="False">
-        <CRC>f</CRC>
-        <Timestamp>132171945354324232</Timestamp>
       </Package>
     </Packages>
   </Package>
