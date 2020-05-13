@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Contour &amp; Tank Icons">
-  <Package PackageName="Contour_Icons" Enabled="True" InstallGroup="4" PatchGroup="4" UID="8fzaf6fuqg050yby" Name="Contour Icons" Type="multi" Visible="True">
+  <Package PackageName="ContourIcons" Enabled="True" InstallGroup="4" PatchGroup="4" UID="8fzaf6fuqg050yby" Name="Contour Icons" Type="multi" Visible="True">
     <Size>698</Size>
     <Timestamp>131676633965705428</Timestamp>
     <DevURL>https://ci.appveyor.com/project/rstarkov/tankiconmaker/build/artifacts</DevURL>
@@ -11,16 +11,17 @@
       <Dependency PackageName="Dependency_AtlasCreation_vehicleMarkerAtlas" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="Contour_Icons_APCR_NOOB" Enabled="True" InstallGroup="4" PatchGroup="4" UID="k45pn6lvpcsn0ajy" Name="APCR_NOOB - by Mike" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_APCRnoob" Enabled="True" InstallGroup="4" PatchGroup="4" UID="k45pn6lvpcsn0ajy" Name="APCR_NOOB" Type="single1" Visible="True">
         <Version>1.9.0.0</Version>
         <InternalNotes>created with TIM</InternalNotes>
+        <Author>Mike</Author>
         <Description>Contour Icons originally by APCR_NOOB maintained by Relhax Modpack Team</Description>
         <Dependencies>
           <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Contour_Icons_APCR_NOOB_Standard" Enabled="True" InstallGroup="4" PatchGroup="4" UID="finweabekvucb31b" Name="Standard" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_APCRnoob_Standard" Enabled="True" InstallGroup="4" PatchGroup="4" UID="finweabekvucb31b" Name="Standard" Type="single_dropdown1" Visible="True">
             <Size>2111066</Size>
             <ZipFile>Contour_Icons_APCR_NOOB_classic_1.9.0.0_2020-04-22.zip</ZipFile>
             <CRC>2292dbc95d4c5e56ef98fac87be454f7</CRC>
@@ -32,7 +33,7 @@
               <Media URL="http://fs1.directupload.net/images/user/150722/ei448scw.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Contour_Icons_APCR_NOOB_mini_V1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="r7tbm9hfkrnube8b" Name="mini V1" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_APCRnoob_miniV1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="r7tbm9hfkrnube8b" Name="mini V1" Type="single_dropdown1" Visible="True">
             <Size>1544393</Size>
             <ZipFile>Contour_Icons_APCR_NOOB_mini_V1_1.9.0.0_2020-04-22.zip</ZipFile>
             <CRC>f46cac1635bf29444bdde2b0ed2dd744</CRC>
@@ -44,7 +45,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icons/Contour_Icons_APCR_NOOB_Contour_Icon_Mod_mini_V1.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Contour_Icons_APCR_NOOB_mini_V2.0" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mmbied7yebokm7qo" Name="mini V2" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_APCRnoob_miniV2" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mmbied7yebokm7qo" Name="mini V2" Type="single_dropdown1" Visible="True">
             <Size>1749733</Size>
             <ZipFile>Contour_Icons_APCR_NOOB_mini_V2.0_1.9.0.0_2020-04-22.zip</ZipFile>
             <CRC>811ad5790fecbeee24e40c38823d19c0</CRC>
@@ -56,7 +57,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icons/Contour_Icons_APCR_NOOB_Contour_Icon_Mod_mini_V2.0.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Contour_Icons_APCR_NOOB_mini_V2.1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zbhxmcdze7h1mjxo" Name="mini V2.1" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_APCRnoob_miniV21" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zbhxmcdze7h1mjxo" Name="mini V2.1" Type="single_dropdown1" Visible="True">
             <Size>1407348</Size>
             <ZipFile>Contour_Icons_APCR_NOOB_mini_V2.1_1.9.0.0_2020-04-22.zip</ZipFile>
             <CRC>c9ef47d36af1817059a8a6befa5d8a10</CRC>
@@ -70,7 +71,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Contour_Icons_Aslain" Enabled="True" InstallGroup="4" PatchGroup="4" UID="b0ocucj0d39jmv4n" Name="Aslain" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_Aslain" Enabled="True" InstallGroup="4" PatchGroup="4" UID="b0ocucj0d39jmv4n" Name="Aslain" Type="single1" Visible="True">
         <Size>1643440</Size>
         <Version>1.9.0.0</Version>
         <ZipFile>Contour_Icons_Aslain_1.9.0.0_2020-04-22.zip</ZipFile>
@@ -86,13 +87,14 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_Best_Icons_Ever" Enabled="False" InstallGroup="4" PatchGroup="4" UID="6e5kmf9j8mb8yom1" Name="&quot;Best Icons Ever&quot; by Grandorf" Type="single1" Visible="False">
+      <Package PackageName="ContourIcons_BestIconsEver" Enabled="False" InstallGroup="4" PatchGroup="4" UID="6e5kmf9j8mb8yom1" Name="Best Icons Ever" Type="single1" Visible="False">
         <Size>2727753</Size>
         <ZipFile>Contour_Icons_Best_Icons_Ever_by_Grandorf_1.6.0.0_2019-08-09.zip</ZipFile>
         <CRC>e9b985df0f2116160a130a34fb4462d6</CRC>
         <Timestamp>132098326159869933</Timestamp>
         <EndAddress>1.6</EndAddress>
         <DevURL>http://aslain.com</DevURL>
+        <Author>Grandorf</Author>
         <Medias>
           <Media URL="http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_12_2014/post-506519671-0-75369500-1419247188.jpg" MediaType="Picture" />
         </Medias>
@@ -101,7 +103,7 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_Blackspy" Enabled="True" InstallGroup="4" PatchGroup="4" UID="i3cyuffk7j3qyzt0" Name="Blackspy" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_Blackspy" Enabled="True" InstallGroup="4" PatchGroup="4" UID="i3cyuffk7j3qyzt0" Name="Blackspy" Type="single1" Visible="True">
         <Version>1.9.0.0</Version>
         <InternalNotes>created with TIM</InternalNotes>
         <Description>BlackSpy Contour Icons maintained by Relhax Modpack Team</Description>
@@ -110,7 +112,7 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Contour_Icons_Blackspy_Original" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vsjd2ell6fw8yb00" Name="Original Edition" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_Blackspy_Original" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vsjd2ell6fw8yb00" Name="Original Edition" Type="single_dropdown1" Visible="True">
             <Size>3345124</Size>
             <ZipFile>Contour_Icons_BlackSpy_Original_Edition_1.9.0.0_2020-04-22.zip</ZipFile>
             <CRC>98b1dc5ba3de58b34007b630a6854ccd</CRC>
@@ -118,7 +120,7 @@
             <InternalNotes>BlackSpy Contour Icons maintained by Relhax Modpack Team\r\nMain maintainer: dirty20067\r\n\r\nhttps://drive.google.com/open?id=1iwzmRTmejHcZOIfzOIWj8awPa2UM-fr8</InternalNotes>
             <Description>BlackSpy Contour Icons maintained by Relhax Modpack Team</Description>
           </Package>
-          <Package PackageName="Contour_Icons_Blackspy_Yasha" Enabled="True" InstallGroup="4" PatchGroup="4" UID="p60luib41yxx94id" Name="Yasha Edition" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_Blackspy_Yasha" Enabled="True" InstallGroup="4" PatchGroup="4" UID="p60luib41yxx94id" Name="Yasha Edition" Type="single_dropdown1" Visible="True">
             <Size>3384370</Size>
             <ZipFile>Contour_Icons_BlackSpy_Yasha_Edition_1.9.0.0_2020-04-22.zip</ZipFile>
             <CRC>17a3a4cd8790d569d0fb86f70cfda2d7</CRC>
@@ -131,7 +133,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Contour_Icons_Champi" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2v702hh50vqf9fqd" Name="CHAMPi" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_Champi" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2v702hh50vqf9fqd" Name="CHAMPi" Type="single1" Visible="True">
         <Version>1.6.0.4</Version>
         <DevURL>https://wot.champi.de\r\nhttps://wgmods.net/search/?owner=282118</DevURL>
         <Dependencies>
@@ -139,7 +141,7 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Contour_Icons_Champi_Style2" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xao7ul7oves5k88q" Name="Clear Style2" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_Champi_Style2" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xao7ul7oves5k88q" Name="Clear Style2" Type="single_dropdown1" Visible="True">
             <Size>2209897</Size>
             <ZipFile>Contour_Icon_Champi_Style2_Clear_1.8.0.1_2020-03-16.zip</ZipFile>
             <CRC>ea7f9d0a04ad607ef14f2ca826be4b70</CRC>
@@ -154,7 +156,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icons/Contour_Icon_Champi_Style2_04.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Contour_Icons_Champi_Style1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9zvm2ldpuakmkkfq" Name="Style 1" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_Champi_Style1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9zvm2ldpuakmkkfq" Name="Style 1" Type="single_dropdown1" Visible="True">
             <Size>2648411</Size>
             <ZipFile>Contour_Icon_Champi_Style1_1.8.0.1_2020-03-16.zip</ZipFile>
             <CRC>25fe0c529838c59c42ad6f764998158c</CRC>
@@ -170,7 +172,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Contour_Icons_corecroft27" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mo11akjqu7c4kwmq" Name="corecroft27" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_corecroft27" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mo11akjqu7c4kwmq" Name="corecroft27" Type="single1" Visible="True">
         <Size>1245944</Size>
         <Version>1.6.0.0</Version>
         <ZipFile>Contour_Icons_Corecraft27_v1.73_1.6.0.0_2019-08-08.zip</ZipFile>
@@ -185,13 +187,14 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_Darker_A" Enabled="True" InstallGroup="4" PatchGroup="4" UID="g2j82o99oqeuvp43" Name="&quot;Darker `A`&quot; by Ress" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_DarkerA" Enabled="True" InstallGroup="4" PatchGroup="4" UID="g2j82o99oqeuvp43" Name="Darker A" Type="single1" Visible="True">
         <Size>1720230</Size>
         <Version>1.9.0.0</Version>
         <ZipFile>Contour_Icons_Darker_A_1.9.0.0_2020-04-22.zip</ZipFile>
         <CRC>60485b3518b759700345e305af8f7325</CRC>
         <Timestamp>132320518461277091</Timestamp>
         <InternalNotes>created with TIM\r\nhttps://drive.google.com/open?id=1WA0JNZO94jv3rHCb5-p58nKN-EIT4gaT</InternalNotes>
+        <Author>Ress</Author>
         <Description>"Darker A" Contour Icons originally by Ress maintained by Relhax Modpack Team</Description>
         <Medias>
           <Media URL="https://wgmods.net/media/mod_files/darker_contour_icons_Nj8xiv0.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
@@ -203,7 +206,7 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_Druid_Reloaded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="trqnanfaom7bv0b3" Name="Druid Reloaded" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_DruidReloaded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="trqnanfaom7bv0b3" Name="Druid Reloaded" Type="single1" Visible="True">
         <Size>4973980</Size>
         <Version>1.6.0.8</Version>
         <ZipFile>Contour_Icons_Druid_Reloaded_1.6.0.8_2019-10-03.zip</ZipFile>
@@ -220,7 +223,7 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6gw2inlbnjztvci2" Name="DEbranded" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6gw2inlbnjztvci2" Name="DEbranded" Type="single1" Visible="True">
         <Version>1.9.0.2</Version>
         <Timestamp>131794120527310147</Timestamp>
         <DevURL>https://wgmods.net/search/?owner=27727\r\nhttp://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
@@ -238,7 +241,7 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Contour_Icons_DEbranded_2D" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0ve9arbti21j650g" Name="Edition 2D" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_DEbranded_2D" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0ve9arbti21j650g" Name="Edition 2D" Type="single_dropdown1" Visible="True">
             <Size>4003566</Size>
             <ZipFile>Contour_IconS_DEbranded_2D_1.9.0.2_2020-05-08.zip</ZipFile>
             <CRC>bee7c9c6a63201585aba18bbe9cad741</CRC>
@@ -254,7 +257,7 @@
               <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Contour_Icons_DEbranded_2D_vanilla" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dkkoiqhuhyt06h7f" Name="Edition 2D Vanilla" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_DEbranded_2Dvanilla" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dkkoiqhuhyt06h7f" Name="Edition 2D Vanilla" Type="single_dropdown1" Visible="True">
             <Size>4006047</Size>
             <ZipFile>Contour_IconS_DEbranded_2D_vanilla_1.9.0.2_2020-05-08.zip</ZipFile>
             <CRC>f31af5222eb1813b1442ab6b2c355bbd</CRC>
@@ -288,7 +291,7 @@
               <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Contour_Icons_DEbranded_Edition_Budyx69" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kn8aitdeben8hlxs" Name="Edition Budyx69" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_DEbranded_Budyx69" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kn8aitdeben8hlxs" Name="Edition Budyx69" Type="single_dropdown1" Visible="True">
             <Size>4133074</Size>
             <ZipFile>Contour_IconS_DEbranded_Budyx69_1.9.0.2_2020-05-08.zip</ZipFile>
             <CRC>2329117fd3a62fde4a9f4f6b2f3d5077</CRC>
@@ -305,7 +308,7 @@
               <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Contour_Icons_DEbranded_Edition_Heliomalt" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xcfpqtjfaagphx4s" Name="Edition Heliomalt" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_DEbranded_Heliomalt" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xcfpqtjfaagphx4s" Name="Edition Heliomalt" Type="single_dropdown1" Visible="True">
             <Size>2079834</Size>
             <ZipFile>Contour_IconS_DEbranded_Heliomat_1.9.0.2_2020-05-08.zip</ZipFile>
             <CRC>c21a752d1c771d4a5a696c307320671b</CRC>
@@ -321,7 +324,7 @@
               <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Contour_Icons_DEbranded_Edition_SicFunzler" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rrwwix9y5tiftqm5" Name="Edition SicFunzler" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_DEbranded_SicFunzler" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rrwwix9y5tiftqm5" Name="Edition SicFunzler" Type="single_dropdown1" Visible="True">
             <Size>3413520</Size>
             <ZipFile>Contour_IconS_DEbranded_SicFunzler_1.9.0.2_2020-05-08.zip</ZipFile>
             <CRC>a2153bd5df96d1eab3862ac234c1336c</CRC>
@@ -338,7 +341,7 @@
               <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Contour_Icons_DEbranded_simple" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4g3bqwfz4qaxt1t5" Name="Edition Simple" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_DEbranded_simple" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4g3bqwfz4qaxt1t5" Name="Edition Simple" Type="single_dropdown1" Visible="True">
             <Size>3514709</Size>
             <ZipFile>Contour_IconS_DEbranded_simple_1.9.0.2_2020-05-08.zip</ZipFile>
             <CRC>8da60b1d937ac84a6d4b81abcddeed78</CRC>
@@ -354,7 +357,7 @@
               <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Contour_Icons_DEbranded_Edition_WG" Enabled="True" InstallGroup="4" PatchGroup="4" UID="h5aqyvl04m2etd05" Name="Edition  WG" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_DEbranded_WG" Enabled="True" InstallGroup="4" PatchGroup="4" UID="h5aqyvl04m2etd05" Name="Edition  WG" Type="single_dropdown1" Visible="True">
             <Size>1791457</Size>
             <ZipFile>Contour_IconS_DEbranded_WG_1.9.0.2_2020-05-08.zip</ZipFile>
             <CRC>409f84c637b5d1f918a479ab85875de0</CRC>
@@ -370,7 +373,7 @@
               <Dependency PackageName="Dependency_MVI_show_tier_name" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Contour_Icons_DEbranded_Edition_xXFreeFunXx" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bjrypzbjy54446ii" Name="Edition xXFreeFunXx" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_DEbranded_xXFreeFunXx" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bjrypzbjy54446ii" Name="Edition xXFreeFunXx" Type="single_dropdown1" Visible="True">
             <Size>1724350</Size>
             <ZipFile>Contour_IconS_DEbranded_xXFreeFunXx_1.9.0.2_2020-05-08.zip</ZipFile>
             <CRC>e817f4d2d17a3ece956333c8dae85232</CRC>
@@ -387,7 +390,7 @@
               <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Contour_Icons_DEbranded_Edition_xXFreeFunXx_vanilla" Enabled="True" InstallGroup="4" PatchGroup="4" UID="o8ydyzhky2wm4ipi" Name="Edition xXFreeFunXx vanilla" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_DEbranded_xXFreeFunXx_vanilla" Enabled="True" InstallGroup="4" PatchGroup="4" UID="o8ydyzhky2wm4ipi" Name="Edition xXFreeFunXx vanilla" Type="single_dropdown1" Visible="True">
             <Size>1728370</Size>
             <ZipFile>Contour_IconS_DEbranded_xXFreeFunXx_vanilla_1.9.0.2_2020-05-08.zip</ZipFile>
             <CRC>01976053997c16606db8acb5d89940ad</CRC>
@@ -407,7 +410,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Contour_Icons_elektrosmoker" Enabled="True" InstallGroup="4" PatchGroup="4" UID="infkp273tlybfb7v" Name="elektrosmoker" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_elektrosmoker" Enabled="True" InstallGroup="4" PatchGroup="4" UID="infkp273tlybfb7v" Name="elektrosmoker" Type="single1" Visible="True">
         <Size>2728070</Size>
         <Version>1.9.0.0</Version>
         <ZipFile>Contour_Icons_elektrosmoker_1.9.0.0_2020-04-22.zip</ZipFile>
@@ -422,7 +425,7 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_Ghostman101278" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vcmzx2d4shrtfmev" Name="Ghostman101278" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_Ghostman101278" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vcmzx2d4shrtfmev" Name="Ghostman101278" Type="single1" Visible="True">
         <Size>3566391</Size>
         <ZipFile>Contour_Icon_Ghostman101278_1.9.0.0_2020-04-23.zip</ZipFile>
         <CRC>38e2bf94c3cd74390fedf558701e0d0d</CRC>
@@ -438,7 +441,7 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_HARDicons" Enabled="True" InstallGroup="4" PatchGroup="4" UID="81se51k5rejbfymu" Name="HARDicons" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_HARDicons" Enabled="True" InstallGroup="4" PatchGroup="4" UID="81se51k5rejbfymu" Name="HARDicons" Type="single1" Visible="True">
         <Version>1.9.0.0</Version>
         <InternalNotes>created with TIM</InternalNotes>
         <Description>Contour Icons originally by Andrey_Hard maintained by Relhax Modpack Team</Description>
@@ -447,7 +450,7 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Contour_Icons_HARDicons_Original" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2falx5aomxl0qr48" Name="Original" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_HARDicons_Original" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2falx5aomxl0qr48" Name="Original" Type="single_dropdown1" Visible="True">
             <Size>2011492</Size>
             <ZipFile>Contour_Icons_HARDicons_Original_1.9.0.0_2020-04-22.zip</ZipFile>
             <CRC>72640448029bee855a9c5a060481fecd</CRC>
@@ -458,7 +461,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icon_HARDicons_Normal_1.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Contour_Icons_HARDicons_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="f4g054gpltdiq3b7" Name="Colored" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_HARDicons_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="f4g054gpltdiq3b7" Name="Colored" Type="single_dropdown1" Visible="True">
             <Size>2060667</Size>
             <ZipFile>Contour_Icons_HARDicons_Colored_1.9.0.0_2020-04-22.zip</ZipFile>
             <CRC>4e54cc03ea048ef7eb4c0adac6e5717b</CRC>
@@ -472,7 +475,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Contour_Icons_J1mB0" Enabled="True" InstallGroup="4" PatchGroup="4" UID="stnfd4mqkp60qei7" Name="J1mB0" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_J1mB0" Enabled="True" InstallGroup="4" PatchGroup="4" UID="stnfd4mqkp60qei7" Name="J1mB0" Type="single1" Visible="True">
         <Size>2225435</Size>
         <Timestamp>131629416848547931</Timestamp>
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/661661-</DevURL>
@@ -481,7 +484,7 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Contour_Icons_J1mB0_Dado_Ze" Enabled="True" InstallGroup="4" PatchGroup="4" UID="m84m58c9f97p170k" Name="by Dado_Ze v{version} " Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_J1mB0_DadoZe" Enabled="True" InstallGroup="4" PatchGroup="4" UID="m84m58c9f97p170k" Name="by Dado_Ze v{version} " Type="single_dropdown1" Visible="True">
             <Size>1855422</Size>
             <Version>1.7.0.1</Version>
             <ZipFile>Contour_Icons_J1mB0s_Dado_Ze_Edition_1.7.0.1_2019-12-15.zip</ZipFile>
@@ -495,7 +498,7 @@
               <Media URL="https://wgmods.net/media/J1mB0_QtaWgtp.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Contour_Icons_J1mB0_Grabaah_Edition" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zxb1d7iae5071j7k" Name="Grabaah Edition v{version} " Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_J1mB0_Grabaah" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zxb1d7iae5071j7k" Name="Grabaah Edition v{version} " Type="single_dropdown1" Visible="True">
             <Size>1964021</Size>
             <Version>1.9.0.1</Version>
             <ZipFile>Contour_Icons_J1mB0s_Grabaah_Edition_1.9.0.0_2020-04-22.zip</ZipFile>
@@ -507,7 +510,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Contour_Icons_LordFelix" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tbt85b8s9o2wdcpx" Name="LordFelix" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_LordFelix" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tbt85b8s9o2wdcpx" Name="LordFelix" Type="single1" Visible="True">
         <Size>1308985</Size>
         <Version>1.9.0.0</Version>
         <ZipFile>Contour_Icons_LordFelix_1.9.0.0_2020-04-22.zip</ZipFile>
@@ -525,7 +528,7 @@
           <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_Man1aq" Enabled="True" InstallGroup="4" PatchGroup="4" UID="60zndaet9kuecnwx" Name="Man1aq" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_Man1aq" Enabled="True" InstallGroup="4" PatchGroup="4" UID="60zndaet9kuecnwx" Name="Man1aq" Type="single1" Visible="True">
         <Version>1.9.0.1</Version>
         <DevURL>http://man1aqcontourmod.one.pl/</DevURL>
         <InternalNotes>Contour Icons originally by Man1aq maintained by Relhax Modpack Team\r\nMain maintainer: dirty20067\r\n\r\nWot Forum:\nhttp://forum.worldoftanks.eu/index.php?/topic/619734-</InternalNotes>
@@ -536,7 +539,7 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Contour_Icons_Man1aq_Basic" Enabled="True" InstallGroup="4" PatchGroup="4" UID="jp62laku8hmwcz4x" Name="Basic" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_Man1aq_Basic" Enabled="True" InstallGroup="4" PatchGroup="4" UID="jp62laku8hmwcz4x" Name="Basic" Type="single_dropdown1" Visible="True">
             <Size>1449476</Size>
             <ZipFile>Contour_Icons_Man1aq_basic_1.9.0.1_2020-04-28.zip</ZipFile>
             <CRC>44c3705fdcecf020ac90b45cd0471597</CRC>
@@ -548,7 +551,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Man1aqContourIconMod_basic_0.9.19.0.2_06-15-2017.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Contour_Icons_Man1aq_Premium" Enabled="True" InstallGroup="4" PatchGroup="4" UID="d4n9dead30olosma" Name="Premium Alternative" Type="single_dropdown1" Visible="True">
+          <Package PackageName="ContourIcons_Man1aq_Premium" Enabled="True" InstallGroup="4" PatchGroup="4" UID="d4n9dead30olosma" Name="Premium Alternative" Type="single_dropdown1" Visible="True">
             <Size>1508495</Size>
             <ZipFile>Contour_Icons_Man1aq_premalt_1.9.0.1_2020-04-28.zip</ZipFile>
             <CRC>980e579f193d469552cdad32cd0fcf93</CRC>
@@ -562,7 +565,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Contour_Icons_Mirukii" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qtuoldge2wg3o4ta" Name="Mirukii" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_Mirukii" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qtuoldge2wg3o4ta" Name="Mirukii" Type="single1" Visible="True">
         <Size>2058941</Size>
         <Version>1.6.1.3</Version>
         <ZipFile>Contour_Icons_Mirukii_1.6.1.3_2019-11-12.zip</ZipFile>
@@ -577,10 +580,11 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_Pogs" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3i03tcmf1t9lof09" Name="Pogs - continued by DaMatz (2019)" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_Pogs" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3i03tcmf1t9lof09" Name="Pogs" Type="single1" Visible="True">
         <Version>1.8.0.0</Version>
         <DevURL>https://www.mediafire.com/folder/gnq4dfy7z13yg/ContourIcons_Pogs\r\nhttp://forum.worldoftanks.eu/index.php?/topic/637660-\r\n</DevURL>
         <InternalNotes>DaMatz  (2020-04)\r\nwants / will rework Database for the icons (Post 189)\r\nhttp://forum.worldoftanks.eu/index.php?/topic/637660-%e2%98%85%e2%98%85%e2%98%85%e2%98%85%e2%98%851510-pogs-contour-icon-mod-continued-by-solo/page__st__180__pid__17779008#entry17779008\r\n\r\nalternative downloadlinks/ devURL\r\nhttps://www.mediafire.com/folder/gnq4dfy7z13yg/ContourIcons_Pogs\r\nhttp://forum.worldoftanks.eu/index.php?/topic/637660-\r\nhttps://wgmods.net/37/details\r\nhttp://wotsite.net/ikonki/3122-</InternalNotes>
+        <Author>Pogs / DaMatz</Author>
         <Description>Pogs Contour Icons - continued by DaMatz (2019-) thx DaMatz \nPogs Contour Icons - continued by Solo (2017-2018) thx Solo\n\nabbreviations:\nDMG - damage | PEN - penetration | RLD - reload\nHP - Hit Points | VR - view range | FSR - front sides rear\n\nDe​sc​ri​ption:\nPENETRATION - It’s average penetration with standard AP shell, in gold gold shells\nDAMAGE - It’s avarage damage with standard AP shell, HE shell for artillery\nARMOR - It’s normal - nothing in pack name - or FSR:\n- Normal - REAR·SIDES·FRONT armor RSF\n- FSR - FRONT·SIDES·REAR armor\nHP - Hit points with upgraded turret\nView range - view range with upgraded turret\nReload time - time to reload gun / drum in autoloader</Description>
         <Medias>
           <Media URL="http://i.imgur.com/Q1XDe1d.jpg" MediaType="Picture" />
@@ -591,13 +595,13 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Contour_Icons_Pogs_Clear" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xwiblgcywcbaz8in" Name="Clear" Type="single1" Visible="True">
+          <Package PackageName="ContourIcons_Pogs_Clear" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xwiblgcywcbaz8in" Name="Clear" Type="single1" Visible="True">
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/637660-</DevURL>
             <Medias>
               <Media URL="http://s14.directupload.net/images/131221/tackejcf.png" MediaType="Picture" />
             </Medias>
             <Packages>
-              <Package PackageName="Contour_Icons_Pogs_CLEARCOLOR_SIMPLE" Enabled="True" InstallGroup="4" PatchGroup="4" UID="alpqtgizv83szkpm" Name="tier, name" Type="single_dropdown1" Visible="True">
+              <Package PackageName="ContourIcons_Pogs_Clear_SIMPLE" Enabled="True" InstallGroup="4" PatchGroup="4" UID="alpqtgizv83szkpm" Name="tier, name" Type="single_dropdown1" Visible="True">
                 <Size>2621702</Size>
                 <ZipFile>Contour_Icons_Pogs_Contour_Icon_CLEARCOLOR_SIMPLE_1.8.0.0_2020-03-06.zip</ZipFile>
                 <CRC>473176299ef82fe376b771efa80621f9</CRC>
@@ -608,7 +612,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Pogs_Contour_CLEARCOLOR_SIMPLE.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Contour_Icons_Pogs_CLEARCOLOR_MAX" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4z6xlj8iqr5iad70" Name="tier, name, avg or gold penetration" Type="single_dropdown1" Visible="True">
+              <Package PackageName="ContourIcons_Pogs_Clear_MAX" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4z6xlj8iqr5iad70" Name="tier, name, avg or gold penetration" Type="single_dropdown1" Visible="True">
                 <Size>2730846</Size>
                 <ZipFile>Contour_Icons_Pogs_Contour_Icon_CLEARCOLOR_MAX_1.8.0.0_2020-03-06.zip</ZipFile>
                 <CRC>36f4d178f9933797d408e78567660dbb</CRC>
@@ -619,7 +623,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Pogs_Contour_Icon_CLEARCOLOR_MAX.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Contour_Icons_Pogs_CLEARCOLOR_MAX_FSR" Enabled="True" InstallGroup="4" PatchGroup="4" UID="hodctjejpoxzapez" Name="tier, name, avg or gold penetration, armor numbers" Type="single_dropdown1" Visible="True">
+              <Package PackageName="ContourIcons_Pogs_Clear_MAX_FSR" Enabled="True" InstallGroup="4" PatchGroup="4" UID="hodctjejpoxzapez" Name="tier, name, avg or gold penetration, armor numbers" Type="single_dropdown1" Visible="True">
                 <Size>2727977</Size>
                 <ZipFile>Contour_Icons_Pogs_Contour_Icon_CLEARCOLOR_MAX_FSR_1.8.0.0_2020-03-06.zip</ZipFile>
                 <CRC>c0ca6ab44584f9aebf3f931621b817c4</CRC>
@@ -630,7 +634,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Pogs_Contour_Icon_CLEARCOLOR_MAX_FSR.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Contour_Icons_Pogs_CLEARCOLOR_MAX_FSR_VR" Enabled="True" InstallGroup="4" PatchGroup="4" UID="udjr1ikkpkqha0lz" Name="tier, name, avg or gold penetration, armor numbers, view range" Type="single_dropdown1" Visible="True">
+              <Package PackageName="ContourIcons_Pogs_Clear_MaxFsrVr" Enabled="True" InstallGroup="4" PatchGroup="4" UID="udjr1ikkpkqha0lz" Name="tier, name, avg or gold penetration, armor numbers, view range" Type="single_dropdown1" Visible="True">
                 <Size>2731597</Size>
                 <ZipFile>Contour_Icons_Pogs_Contour_Icon_CLEARCOLOR_MAX_FSR_VR_1.8.0.0_2020-03-06.zip</ZipFile>
                 <CRC>0ebfb85effbf5bcad793a7019bc25c58</CRC>
@@ -641,7 +645,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Pogs_Contour_Icon_CLEARCOLOR_MAX_FSR_VR.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Contour_Icons_Pogs_CLEARCOLOR_MAX_FSR_VR_RLD" Enabled="True" InstallGroup="4" PatchGroup="4" UID="os1ytma3j3r7lt3c" Name="tier, name, avg or gold penetration, armor numbers, view range, reload time" Type="single_dropdown1" Visible="True">
+              <Package PackageName="ContourIcons_Pogs_Clear_MacFsrVrRld" Enabled="True" InstallGroup="4" PatchGroup="4" UID="os1ytma3j3r7lt3c" Name="tier, name, avg or gold penetration, armor numbers, view range, reload time" Type="single_dropdown1" Visible="True">
                 <Size>2696849</Size>
                 <ZipFile>Contour_Icons_Pogs_Contour_Icon_CLEARCOLOR_MAX_FSR_VR_RLD_1.8.0.0_2020-03-06.zip</ZipFile>
                 <CRC>fdd9ff4f0db6f067a3defd8c4fd120b5</CRC>
@@ -654,14 +658,14 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Contour_Icons_Pogs_COLOR" Enabled="True" InstallGroup="4" PatchGroup="4" UID="1h7d1lg4j0kol5bc" Name="Colored" Type="single1" Visible="True">
+          <Package PackageName="ContourIcons_Pogs_COLOR" Enabled="True" InstallGroup="4" PatchGroup="4" UID="1h7d1lg4j0kol5bc" Name="Colored" Type="single1" Visible="True">
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/637660-</DevURL>
             <Description>Ingame Info Pogs Contour Icon COLORED SIMPLE Tier, Name</Description>
             <Medias>
               <Media URL="http://s14.directupload.net/images/131221/tackejcf.png" MediaType="Picture" />
             </Medias>
             <Packages>
-              <Package PackageName="Contour_Icons_Pogs_COLOR_DaMatz" Enabled="True" InstallGroup="4" PatchGroup="4" UID="e6es9lm5iwc6lhic" Name="DaMatz" Type="single_dropdown1" Visible="True">
+              <Package PackageName="ContourIcons_Pogs_COLOR_DaMatz" Enabled="True" InstallGroup="4" PatchGroup="4" UID="e6es9lm5iwc6lhic" Name="DaMatz" Type="single_dropdown1" Visible="True">
                 <Size>2092041</Size>
                 <ZipFile>Contour_Icons_Pogs_Contour_Icon_COLOR_DaMatz_1.8.0.0_2020-03-06.zip</ZipFile>
                 <CRC>caa4ceb31d335cb726ead24ff06ed300</CRC>
@@ -672,7 +676,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icons/Contour_Icons_Pogs_Contour_Icon_COLOR_DaMatz-G16_PzVIB_Tiger_II.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Contour_Icons_Pogs_COLOR_SIMPLE" Enabled="True" InstallGroup="4" PatchGroup="4" UID="8kvz1pcodfewwa0p" Name="tier, name" Type="single_dropdown1" Visible="True">
+              <Package PackageName="ContourIcons_Pogs_COLOR_SIMPLE" Enabled="True" InstallGroup="4" PatchGroup="4" UID="8kvz1pcodfewwa0p" Name="tier, name" Type="single_dropdown1" Visible="True">
                 <Size>1945988</Size>
                 <ZipFile>Contour_Icons_Pogs_Contour_Icon_COLOR_SIMPLE_1.8.0.0_2020-03-06.zip</ZipFile>
                 <CRC>71725663e6527814bbfef9fe878f04ef</CRC>
@@ -682,7 +686,7 @@
                   <Media URL="http://s1.directupload.net/images/131221/we7iunr3.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Contour_Icons_Pogs_COLOR_MAX" Enabled="True" InstallGroup="4" PatchGroup="4" UID="l92e9oipcc6dwl7p" Name="tier, name, avg or gold penetration" Type="single_dropdown1" Visible="True">
+              <Package PackageName="ContourIcons_Pogs_COLOR_MAX" Enabled="True" InstallGroup="4" PatchGroup="4" UID="l92e9oipcc6dwl7p" Name="tier, name, avg or gold penetration" Type="single_dropdown1" Visible="True">
                 <Size>2156023</Size>
                 <ZipFile>Contour_Icons_Pogs_Contour_Icon_COLOR_MAX_1.8.0.0_2020-03-06.zip</ZipFile>
                 <CRC>0928d5eba85c0ad7a1034978fdd6b2bd</CRC>
@@ -693,7 +697,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Pogs_Contour_Icon_COLOR_MAX.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Contour_Icons_Pogs_COLOR_MAX_FSR" Enabled="False" InstallGroup="4" PatchGroup="4" UID="fojl0s887v838ep2" Name="tier, name, avg or gold penetration, armour numbers" Type="single_dropdown1" Visible="True">
+              <Package PackageName="ContourIcons_Pogs_COLOR_MaxFsr" Enabled="False" InstallGroup="4" PatchGroup="4" UID="fojl0s887v838ep2" Name="tier, name, avg or gold penetration, armour numbers" Type="single_dropdown1" Visible="True">
                 <Size>2152004</Size>
                 <ZipFile>Contour_Icons_Pogs_Contour_Icon_COLOR_MAX_FSR_1.8.0.0_2020-03-06.zip</ZipFile>
                 <CRC>059ad7c53df0ba56c33c25c11c350da5</CRC>
@@ -704,7 +708,7 @@
                   <Media URL="http://s14.directupload.net/images/user/131220/7ae8xerv.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Contour_Icons_Pogs_COLOR_MAX_FSR_VR" Enabled="True" InstallGroup="4" PatchGroup="4" UID="sdq08re96r0k8qw2" Name="tier, name, avg or gold penetration, armour numbers, view range" Type="single_dropdown1" Visible="True">
+              <Package PackageName="ContourIcons_Pogs_COLOR_MaxFsrVr" Enabled="True" InstallGroup="4" PatchGroup="4" UID="sdq08re96r0k8qw2" Name="tier, name, avg or gold penetration, armour numbers, view range" Type="single_dropdown1" Visible="True">
                 <Size>2151330</Size>
                 <ZipFile>Contour_Icons_Pogs_Contour_Icon_COLOR_MAX_FSR_VR_1.8.0.0_2020-03-06.zip</ZipFile>
                 <CRC>08804cb176b4e99ab836952ef03d48f8</CRC>
@@ -715,7 +719,7 @@
                   <Media URL="http://s1.directupload.net/images/user/131220/q79625an.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Contour_Icons_Pogs_COLOR_MAX_FSR_VR_RLD" Enabled="True" InstallGroup="4" PatchGroup="4" UID="52xfgrka5ot28131" Name="tier, name, avg or gold penetration, armour numbers, view range, reload" Type="single_dropdown1" Visible="True">
+              <Package PackageName="ContourIcons_Pogs_COLOR_MaxFsrVrRld" Enabled="True" InstallGroup="4" PatchGroup="4" UID="52xfgrka5ot28131" Name="tier, name, avg or gold penetration, armour numbers, view range, reload" Type="single_dropdown1" Visible="True">
                 <Size>2164212</Size>
                 <ZipFile>Contour_Icons_Pogs_Contour_Icon_COLOR_MAX_FSR_VR_RLD_1.8.0.0_2020-03-06.zip</ZipFile>
                 <CRC>895ca1c22e5ba3463baaa75f54321a09</CRC>
@@ -730,7 +734,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Contour_Icons_Psycho_Killer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zgem8vas07vsjulf" Name="Psycho Killer" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_PsychoKiller" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zgem8vas07vsjulf" Name="Psycho Killer" Type="single1" Visible="True">
         <Size>1472335</Size>
         <Version>1.7.1.2</Version>
         <ZipFile>Contour_Icons_Psycho_Killer_LEFT_1.7.1.2_2020-02-06.zip</ZipFile>
@@ -745,9 +749,10 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_RealTime" Enabled="True" InstallGroup="4" PatchGroup="4" UID="c5l1gugtz3n9j6se" Name="Real Time Contour Icons" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_RealTime" Enabled="True" InstallGroup="4" PatchGroup="4" UID="c5l1gugtz3n9j6se" Name="Real Time" Type="single1" Visible="True">
         <Timestamp>131569088015621441</Timestamp>
         <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-real-time-contour-icons\r\nhttps://wgmods.net/1672/</DevURL>
+        <Author>HAWG</Author>
         <Description>Instead of the red and green tanks at the top of your screen during battle you now have colored icons matching those in the players panel. When a tank is destroyed there icon is deleted from the list. With a quick glance you can see how many heavies, meds, lights etc.... are left on each team. \r\n\r\nAdded is cross informer when a team mate dies an white cross will flash on the minimap for a few seconds at the location where it was killed at.\r\n\r\nIf a enemy dies an orange cross will flash on the minimap for a few seconds at the location where it was killed at.\r\n\r\nIf a platoon mate dies an blue cross will flash on the minimap for a few seconds at the location where it was killed at.</Description>
         <Medias>
           <Media URL="http://i.imgur.com/OD4vHFw.png?1" MediaType="Picture" />
@@ -802,13 +807,14 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Contour_Icons_Risky_Style" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gqa4wzlzmrwn53l4" Name="&quot;Risky Style&quot; by colt87 &amp; Ragnarocek" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_RiskyStyle" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gqa4wzlzmrwn53l4" Name="Risky Style" Type="single1" Visible="True">
         <Size>2579129</Size>
         <Version>1.9.0.0</Version>
         <ZipFile>Contour_Icons_Risky_Style_1.9.0.1_2020-04-28.zip</ZipFile>
         <CRC>5ea44d3d6819dfdc482d53c83a67fec5</CRC>
         <Timestamp>132325605370507847</Timestamp>
         <DevURL>https://wgmods.net/2945/\r\nhttps://www.wgmods.eu/forum/files/file/14-1510-colored-contour-icons-riskynets-colors/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/534757-\r\nhttps://wgmods.net/2945/</DevURL>
+        <Author>colt87 &amp; Ragnarocek</Author>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icon_Risky_Style.png" MediaType="Picture" />
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icons/Contour_Icon_Risky_Style_01.png" MediaType="Picture" />
@@ -818,7 +824,7 @@
           <Dependency PackageName="Dependency_MVI_show_tier_name" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_TheIllusion" Enabled="True" InstallGroup="4" PatchGroup="4" UID="a5sbo3bihaydgw3h" Name="The Illusion v{version}" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_TheIllusion" Enabled="True" InstallGroup="4" PatchGroup="4" UID="a5sbo3bihaydgw3h" Name="The Illusion v{version}" Type="single1" Visible="True">
         <Size>2137300</Size>
         <Version>1.9.0.0</Version>
         <CRC>f</CRC>
@@ -848,7 +854,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Contour_Icons_TORQue" Enabled="False" InstallGroup="4" PatchGroup="4" UID="uxmcw6d3amk2rc0u" Name="TORQue - Inspired by Witblitz" Type="single1" Visible="False">
+      <Package PackageName="ContourIcons_TORQue" Enabled="False" InstallGroup="4" PatchGroup="4" UID="uxmcw6d3amk2rc0u" Name="TORQue - Inspired by Witblitz" Type="single1" Visible="False">
         <Size>2572388</Size>
         <Version>1.6</Version>
         <ZipFile>Contour_Icons_TORQue_by_Witblitz_by_Aslain_NeonAlt_TIM_1.6.0.0_2019-08-09.zip</ZipFile>
@@ -864,11 +870,12 @@
           <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Contour_Icons_Wizard" Enabled="True" InstallGroup="4" PatchGroup="4" UID="7mtr45j49idkrn7t" Name="Wizard by yaya070" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_Wizard" Enabled="True" InstallGroup="4" PatchGroup="4" UID="7mtr45j49idkrn7t" Name="Wizard" Type="single1" Visible="True">
         <Version>1.9.0.0</Version>
         <Timestamp>131535294813102902</Timestamp>
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/610927-</DevURL>
         <InternalNotes>created with TIM</InternalNotes>
+        <Author>yaya070</Author>
         <Description>Wizards Contour Icons by yaya070 modified and maintained by Relhax Modpack Team</Description>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icons/Contour_Icon_Wizard_Header_01.png" MediaType="Picture" />
@@ -907,10 +914,10 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Tank_Icons" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rfosc8lp3uz93436" Name="Tank Icons" Type="multi" Visible="True">
+  <Package PackageName="TankIcons" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rfosc8lp3uz93436" Name="Tank Icons" Type="multi" Visible="True">
     <Timestamp>131676633965705428</Timestamp>
     <Packages>
-      <Package PackageName="Tank_Icons_Carousel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="lt5z4cb8xe1yexlj" Name="Carousel Tankicons" Type="multi" Visible="True">
+      <Package PackageName="TankIcons_Carousel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="lt5z4cb8xe1yexlj" Name="Carousel Tankicons" Type="multi" Visible="True">
         <Size>5079998</Size>
         <Timestamp>131625384450446191</Timestamp>
         <Description>Change the tank icons in the carousel in the garage</Description>
@@ -922,24 +929,26 @@
           <Media URL="http://i.imgur.com/hTFvw4W.jpg" MediaType="Picture" />
         </Medias>
         <Packages>
-          <Package PackageName="Tank_Icons_Carousel_Regular_N_Premium_Ghostman101278" Enabled="True" InstallGroup="4" PatchGroup="4" UID="yicecbh9xauge8sj" Name="Ghostman101278´s regular &amp; premium tank icons" Type="multi" Visible="True">
+          <Package PackageName="TankIcons_Carousel_RegularNPremium_Ghostman101278" Enabled="True" InstallGroup="4" PatchGroup="4" UID="yicecbh9xauge8sj" Name="Regular &amp; premium tank icons" Type="multi" Visible="True">
             <Size>19421157</Size>
             <Version>1.9.0.0</Version>
             <ZipFile>Tank_Icons_Carousel_Regular_N_Premium_Ghostman101278_1.9.0.1_2020-04-28.zip</ZipFile>
             <CRC>34d1fb9fe89bf7e5fdb0517f267ebbfe</CRC>
             <Timestamp>132325461651755997</Timestamp>
             <DevURL>http://www.mediafire.com/file/84oc1jad7oc8mll/Ghostman101278%2527s_Carousel_Icons.zip/file\r\nhttps://aslain.com/index.php?/topic/12286-1410-ghostman101278s-carousel-icons</DevURL>
+            <Author>Ghostman101278</Author>
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Tankcarousel/Garage_Graphics_Carousel_Regular_N_Premium_Tank_Icons_Ghostman101278_01.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Tank_Icons_Carousel_Regular_N_Premium_LegionLost" Enabled="True" InstallGroup="4" PatchGroup="4" UID="b7itkanaw6myekzj" Name="LegionLost´s regular &amp; premium tank icons" Type="multi" Visible="True">
+          <Package PackageName="TankIcons_Carousel_RegularNPremium_LegionLost" Enabled="True" InstallGroup="4" PatchGroup="4" UID="b7itkanaw6myekzj" Name="LegionLost´s regular &amp; premium tank icons" Type="multi" Visible="True">
             <Size>27416938</Size>
             <Version>1.20.0_1.9.00</Version>
             <ZipFile>Tank_Icons_Carousel_Regular_N_Premium_LegionLost_v1.20.0_1.9.0.1_2020-04-28.zip</ZipFile>
             <CRC>c0969c1a7c82a60d00e5e05bc73249f2</CRC>
             <Timestamp>132325460467570775</Timestamp>
             <DevURL>https://wgmods.net/2147/details</DevURL>
+            <Author>LegionLost</Author>
             <Description>Picture 1 &amp; Picture 2:\n-highlighting the role of the tank and \n-highlighting the premium status divided by normal matchmaking (blue) and preferential (purple).\n\nPicture 3:\n-only icons, No XVM</Description>
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Garage_Graphics_Carousel_Regular_n_Premium_Tank_Icons_LegionLost_01.png" MediaType="Picture" />
@@ -947,13 +956,13 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Garage_Graphics_Carousel_Regular_n_Premium_Tank_Icons_LegionLost_02.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Tank_Icons_Carousel_Regular" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5m01cedsrponpdhw" Name="Regular tank icons" Type="multi" Visible="True">
+          <Package PackageName="TankIcons_Carousel_Regular" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5m01cedsrponpdhw" Name="Regular tank icons" Type="multi" Visible="True">
             <Version>3.02_1.9.0.2</Version>
             <Author>Debranded</Author>
             <Maintainers>Gauss</Maintainers>
             <Description>change the regular tanks to something different</Description>
             <Packages>
-              <Package PackageName="Tank_Icons_Carousel_Regular_Debranded_Camouflaged" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ib6gkejtqmg5pppw" Name="Debranded´s camouflaged tank icons" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_Carousel_Regular_DEbrandedCamouflaged" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ib6gkejtqmg5pppw" Name="Debranded´s camouflaged tank icons" Type="single_dropdown1" Visible="True">
                 <Size>29920633</Size>
                 <Version>1.9.0.2</Version>
                 <ZipFile>Tank_Icons_Carousel_Regular_Debranded_Camouflaged_v302_1.9.0.2_2020-05-08.zip</ZipFile>
@@ -968,7 +977,7 @@
                   <Media URL="http://i.imgur.com/hTFvw4W.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_Carousel_Regular_Debranded_Default" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cponbi9cl5iu0i79" Name="Debranded´s default -&gt;  brighter tank icons" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_Carousel_Regular_DEbrandedDefault" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cponbi9cl5iu0i79" Name="Debranded´s default -&gt;  brighter tank icons" Type="single_dropdown1" Visible="True">
                 <Size>30176262</Size>
                 <Version>1.9.0.2</Version>
                 <ZipFile>Tank_Icons_Carousel_Regular_Debranded_Default_v302_1.9.0.2_2020-05-08.zip</ZipFile>
@@ -983,11 +992,11 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Tank_Icons_Carousel_Premium" Enabled="True" InstallGroup="4" PatchGroup="4" UID="peu2jhfdk1ac0te9" Name="Premium tank icons" Type="multi" Visible="True">
+          <Package PackageName="TankIcons_Carousel_Premium" Enabled="True" InstallGroup="4" PatchGroup="4" UID="peu2jhfdk1ac0te9" Name="Premium tank icons" Type="multi" Visible="True">
             <Timestamp>131700451971680497</Timestamp>
             <Description>change the premium tanks to something different</Description>
             <Packages>
-              <Package PackageName="Tank_Icons_Carousel_Premium_Aslain_Gold_V0" Enabled="True" InstallGroup="4" PatchGroup="4" UID="231hsglejy3u05l8" Name="Aslain´s golden premium tanks V0" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_Carousel_Premium_AslainGoldV0" Enabled="True" InstallGroup="4" PatchGroup="4" UID="231hsglejy3u05l8" Name="Aslain´s golden premium tanks V0" Type="single_dropdown1" Visible="True">
                 <Size>8791384</Size>
                 <Version>1.8.0.0</Version>
                 <ZipFile>Garage_Graphics_Carousel_Premium_Tank_Icons_Aslain_Gold_V0_1.8.0.0_2020-03-04.zip</ZipFile>
@@ -1000,7 +1009,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_mods_Aslain_Gold_Premium_Tanks_V0.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_Carousel_Premium_Aslain_Gold_V1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="whiojkbxeh5jby3m" Name="Aslain´s golden premium tanks V1" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_Carousel_Premium_AslainGoldV1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="whiojkbxeh5jby3m" Name="Aslain´s golden premium tanks V1" Type="single_dropdown1" Visible="True">
                 <Size>9536483</Size>
                 <Version>1.8.0.0</Version>
                 <ZipFile>Garage_Graphics_Carousel_Premium_Tank_Icons_Aslain_Gold_V1_1.8.0.0_2020-03-04.zip</ZipFile>
@@ -1014,7 +1023,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Tankcarousel/Premium_Gold/Garage_Graphics_Custom_Tank_Carousel_Premium_Gold_Aslains_V1_2.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_Carousel_Premium_Debranded_Camouflaged" Enabled="True" InstallGroup="4" PatchGroup="4" UID="96p3rkhyddx1baal" Name="Debranded´s camouflaged premium tanks" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_Carousel_Premium_DebrandedCamouflaged" Enabled="True" InstallGroup="4" PatchGroup="4" UID="96p3rkhyddx1baal" Name="Debranded´s camouflaged premium tanks" Type="single_dropdown1" Visible="True">
                 <Size>15495066</Size>
                 <Version>1.9.0.2</Version>
                 <ZipFile>Tank_Icons_Carousel_Premium_Debranded_Camo_v302_1.9.0.2_2020-05-08.zip</ZipFile>
@@ -1030,7 +1039,7 @@
                   <Media URL="http://i.imgur.com/hTFvw4W.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_Carousel_Premium_Debranded_Dark_Gold" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mvwizjnzdapjblhl" Name="Debranded´s dark-golden premium tanks" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_Carousel_Premium_DebrandedDarkGold" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mvwizjnzdapjblhl" Name="Debranded´s dark-golden premium tanks" Type="single_dropdown1" Visible="True">
                 <Size>13606895</Size>
                 <Version>1.9.0.2</Version>
                 <ZipFile>Tank_Icons_Carousel_Premium_Debranded_Dark_Gold_v302_1.9.0.2_2020-05-08.zip</ZipFile>
@@ -1048,7 +1057,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Tankcarousel/Premium_Gold/Garage_Graphics_Carousel_Debrandeds_Tank_Icons_Premium_Dark_4.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_Carousel_Premium_Debranded_Light_Gold" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gadprndi8tr8mezy" Name="Debranded´s light-golden premium tanks" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_Carousel_Premium_DebrandedLightGold" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gadprndi8tr8mezy" Name="Debranded´s light-golden premium tanks" Type="single_dropdown1" Visible="True">
                 <Size>14398335</Size>
                 <Version>1.9.0.2</Version>
                 <ZipFile>Tank_Icons_Carousel_Premium_Debranded_Light_Gold_v302_1.9.0.2_2020-05-08.zip</ZipFile>
@@ -1063,7 +1072,7 @@
                   <Media URL="https://i.imgur.com/PENr9Wr.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_Carousel_Premium_Debranded_preColored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tzk4zmjj7pjqmq6y" Name="Debranded´s pre-colored tanks" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_Carousel_Premium_DebrandedPrecolored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tzk4zmjj7pjqmq6y" Name="Debranded´s pre-colored tanks" Type="single_dropdown1" Visible="True">
                 <Size>1595595</Size>
                 <Version>1.9.0.2</Version>
                 <ZipFile>Tank_Icons_Carousel_Premium_Debranded_preColored_v302_1.9.0.2_2020-05-08.zip</ZipFile>
@@ -1076,7 +1085,7 @@
                 <Description>precolored (all coloured tanks: e.g. black version or country versions)</Description>
                 <UpdateComment>1.6.0.0: added new tanks, corrected misallocations (Premium / Normal)</UpdateComment>
               </Package>
-              <Package PackageName="Tank_Icons_Carousel_Premium_Kaptain_Prio" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nd1brq9228lgyjob" Name="Kaptain_Prio´s &quot;Greater Premium Tanks&quot;" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_Carousel_Premium_KaptainPrio" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nd1brq9228lgyjob" Name="Kaptain_Prio´s &quot;Greater Premium Tanks&quot;" Type="single_dropdown1" Visible="True">
                 <Size>5764270</Size>
                 <Version>1.7.0.2_2020-01-16</Version>
                 <ZipFile>Tank_Icons_Carousel_Premium_Kaptain_Prio_Greater_Premium_Tanks_1.7.0.2_2020-01-16.zip</ZipFile>
@@ -1102,7 +1111,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Tank_Icons_TechTree" Enabled="True" InstallGroup="4" PatchGroup="4" UID="028qzqf315exyuwb" Name="Techtree and Vehicle List Tankicons" Type="multi" Visible="True">
+      <Package PackageName="TankIcons_TechTree" Enabled="True" InstallGroup="4" PatchGroup="4" UID="028qzqf315exyuwb" Name="Techtree and Vehicle List Tankicons" Type="multi" Visible="True">
         <Size>5491205</Size>
         <Timestamp>131576934316186748</Timestamp>
         <Description>change the icons in the tech tree and battle results</Description>
@@ -1113,12 +1122,12 @@
           <Media URL="http://i.imgur.com/oH23pCX.jpg" MediaType="Picture" />
         </Medias>
         <Packages>
-          <Package PackageName="Tank_Icons_TechTree_Aslain_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dre57pl4016fy63b" Name="Aslain´s" Type="single1" Visible="True">
+          <Package PackageName="TankIcons_TechTree_AslainColored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dre57pl4016fy63b" Name="Aslain´s" Type="single1" Visible="True">
             <Version>1.8.0.0</Version>
             <Timestamp>131974315930814888</Timestamp>
             <Description>Custom small icons on Techtree and Vehicle List in Garage. Colors for Tanks:\nred - Heavy Tanks, yellow - Medium Tanks, green - Light Tanks, \nblue - Tank Destroyers, violet SPG\n\nAuthor: Aslain (Thx!)\n\nextracted from Aslains modpack</Description>
             <Packages>
-              <Package PackageName="Tank_Icons_TechTree_Aslain_Colored_V1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="76wcztbnvk859zlo" Name="V1 (Bar)" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_AslainColored_V1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="76wcztbnvk859zlo" Name="V1 (Bar)" Type="single_dropdown1" Visible="True">
                 <Size>6802362</Size>
                 <Version>1.9.0.0</Version>
                 <ZipFile>Tank_Icons_TechTree_Aslain_Colored_V1_TIM_1.9.0.1_2020-04-28.zip</ZipFile>
@@ -1129,7 +1138,7 @@
                   <Media URL="https://puu.sh/yG0So/4eeb50ab50.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_Aslain_Colored_V2" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kv3r7shouh0m9bso" Name="V2 (Circle)" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_AslainColored_V2" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kv3r7shouh0m9bso" Name="V2 (Circle)" Type="single_dropdown1" Visible="True">
                 <Size>6802362</Size>
                 <Version>1.9.0.0</Version>
                 <ZipFile>Tank_Icons_TechTree_Aslain_Colored_V2_TIM_1.9.0.1_2020-04-28.zip</ZipFile>
@@ -1142,7 +1151,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Tank_Icons_TechTree_DEbranded_V1_Camo" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xk96fsnptdt49mzo" Name="DEBranded´s V1 Camo" Type="single1" Visible="True">
+          <Package PackageName="TankIcons_TechTree_DEbrandedV1Camo" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xk96fsnptdt49mzo" Name="DEBranded´s V1 Camo" Type="single1" Visible="True">
             <Version>1.9.0.0</Version>
             <Timestamp>131974285791732680</Timestamp>
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
@@ -1150,7 +1159,7 @@
             <Author>DEBranded</Author>
             <Maintainers>Gauss</Maintainers>
             <Packages>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V1_Camo_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ryre7vd8owuukfh1" Name="Androdizel" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV1Camo_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ryre7vd8owuukfh1" Name="Androdizel" Type="single_dropdown1" Visible="True">
                 <Size>8557417</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V1_Camo_Androdizel_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>81b28a6c9ae28aa32edc77085acac8b5</CRC>
@@ -1164,7 +1173,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Camo_smallAndrodizel_france-F28_105_leFH18B2.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V1_Camo_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4nxtfvj9otnbkro0" Name="Colored" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV1Camo_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4nxtfvj9otnbkro0" Name="Colored" Type="single_dropdown1" Visible="True">
                 <Size>8587919</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V1_Camo_Color_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>72d0f2bb1d99a6ea1db0ff8254d44476</CRC>
@@ -1186,7 +1195,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Camo_Colored_france-F23_AMX_13F3AM.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V1_Camo_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="y2f07z9sicp1vk6e" Name="DEbranded" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV1Camo_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="y2f07z9sicp1vk6e" Name="DEbranded" Type="single_dropdown1" Visible="True">
                 <Size>7986778</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V1_Camo_DEbranded_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>2960528152546fe4fd6895b82cef19a8</CRC>
@@ -1208,7 +1217,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Camo_smallDEbranded_france-F23_AMX_13F3AM.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V1_Camo_Yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="brlffygti8hjvwdd" Name="Yaya" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV1Camo_Yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="brlffygti8hjvwdd" Name="Yaya" Type="single_dropdown1" Visible="True">
                 <Size>8027900</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V1_Camo_Yaya_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>1f449f4d47055f81e1a456e3c5d8e9c8</CRC>
@@ -1231,7 +1240,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Tank_Icons_TechTree_DEbranded_V1_Default" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ngsunxmth590v7ld" Name="DEBranded´s V1 Default" Type="single1" Visible="True">
+          <Package PackageName="TankIcons_TechTree_DEbrandedV1Default" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ngsunxmth590v7ld" Name="DEBranded´s V1 Default" Type="single1" Visible="True">
             <Version>1.9.0.0</Version>
             <Timestamp>131974285648126140</Timestamp>
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
@@ -1239,7 +1248,7 @@
             <Author>DEBranded</Author>
             <Maintainers>Gauss</Maintainers>
             <Packages>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V1_Default_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="iu91f1cccobq603q" Name="Androdizel" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV1Default_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="iu91f1cccobq603q" Name="Androdizel" Type="single_dropdown1" Visible="True">
                 <Size>7969627</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V1_Default_Androdizel_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>37983f17fa5ba29cfb744a0b3565d0be</CRC>
@@ -1253,7 +1262,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Default_smallAndrodizel_france-F28_105_leFH18B2.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V1_Default_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vjggn1idbk386caq" Name="colored" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV1Default_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vjggn1idbk386caq" Name="colored" Type="single_dropdown1" Visible="True">
                 <Size>8000826</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V1_Default_Color_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>f214825d3603b40d85015a532ad83d9b</CRC>
@@ -1275,7 +1284,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Default_smallColor_france-F23_AMX_13F3AM.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V1_Default_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="78nvv0oeagwp6nhq" Name="DEbranded" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV1Default_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="78nvv0oeagwp6nhq" Name="DEbranded" Type="single_dropdown1" Visible="True">
                 <Size>7434653</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V1_Default_DEbranded_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>83a8ad3f2abe5ff9caeca64e8528e341</CRC>
@@ -1296,7 +1305,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V1_Default_smallDEbranded_france-F23_AMX_13F3AM.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V1_Default_Yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2n42n4ex50yfigz3" Name="Yaya" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV1Default_Yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2n42n4ex50yfigz3" Name="Yaya" Type="single_dropdown1" Visible="True">
                 <Size>7478517</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V1_Default_Yaya_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>fa724e54f72d9de7768a8abc25c332a2</CRC>
@@ -1320,7 +1329,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_Camo" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ecbhv3ky4wqwis63" Name="DEBranded´s V2 Premium Camo" Type="single1" Visible="True">
+          <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumCamo" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ecbhv3ky4wqwis63" Name="DEBranded´s V2 Premium Camo" Type="single1" Visible="True">
             <Version>1.9.0.0</Version>
             <Timestamp>131974285791732680</Timestamp>
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
@@ -1328,7 +1337,7 @@
             <Author>DEBranded</Author>
             <Maintainers>Gauss</Maintainers>
             <Packages>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_Camo_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9qsom7ahzfsmtlog" Name="Androdizel" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumCamo_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9qsom7ahzfsmtlog" Name="Androdizel" Type="single_dropdown1" Visible="True">
                 <Size>3741056</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_Camo_Androdizel_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>1dcf9d332f06957378e7148ed36c274f</CRC>
@@ -1342,7 +1351,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Camo_smallAndrodizel_france-F28_105_leFH18B2.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_Camo_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="lfz3v7giyck4txvg" Name="colored" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumCamo_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="lfz3v7giyck4txvg" Name="colored" Type="single_dropdown1" Visible="True">
                 <Size>3507041</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_Camo_Colored_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>b1600426facd544815802e87c7c90d6d</CRC>
@@ -1358,7 +1367,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Camo_Colored_france-F28_105_leFH18B2.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_Camo_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="y45i36mjy8dlt83g" Name="DEbranded" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumCamo_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="y45i36mjy8dlt83g" Name="DEbranded" Type="single_dropdown1" Visible="True">
                 <Size>3528770</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_Camo_DEbranded_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>f77f7010e7e75c67762097fe98d92067</CRC>
@@ -1374,7 +1383,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Camo_DEbranded_france-F28_105_leFH18B2.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_Camo_yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tjnpuac2sreb41lt" Name="Yaya" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumCamo_yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tjnpuac2sreb41lt" Name="Yaya" Type="single_dropdown1" Visible="True">
                 <Size>3543649</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_Camo_Yaya_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>31b438ba3ac5cd22d6695c9c962f5d5a</CRC>
@@ -1392,14 +1401,14 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_Dark" Enabled="True" InstallGroup="4" PatchGroup="4" UID="58t429i3sn7t4dss" Name="DEBranded´s V2 Premium Dark" Type="single1" Visible="True">
+          <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumDark" Enabled="True" InstallGroup="4" PatchGroup="4" UID="58t429i3sn7t4dss" Name="DEBranded´s V2 Premium Dark" Type="single1" Visible="True">
             <Version>1.9.0.0</Version>
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
             <InternalNotes>https://www.debranded.de\r\nhttps://www.debranded.de/DEbranded_de_HangarIcons.php</InternalNotes>
             <Author>DEBranded</Author>
             <Maintainers>Gauss</Maintainers>
             <Packages>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_Dark_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ix0jb9o4rkza4pzs" Name="Androdizel" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumDark_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ix0jb9o4rkza4pzs" Name="Androdizel" Type="single_dropdown1" Visible="True">
                 <Size>3617187</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_dark_Androdizel_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>aa851fd55aa2a508593f7ff7b2fc84bc</CRC>
@@ -1413,7 +1422,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_dark_smallAndrodizel_france-F28_105_leFH18B2.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_Dark_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cbhr2denm310fih5" Name="colored" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumDark_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cbhr2denm310fih5" Name="colored" Type="single_dropdown1" Visible="True">
                 <Size>3383669</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_dark_Colored_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>30fb217f0be6030f71681171c6a41174</CRC>
@@ -1430,7 +1439,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_Colored_france-F28_105_leFH18B2.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_Dark_DEBranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="p0o6ackolztifto5" Name="DEBranded" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumDark_DEBranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="p0o6ackolztifto5" Name="DEBranded" Type="single_dropdown1" Visible="True">
                 <Size>3411788</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_dark_DEbranded_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>1949f34d403cbbb393ccfbbde821ea66</CRC>
@@ -1446,7 +1455,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_Dark_DEBranded_france-F28_105_leFH18B2.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_Dark_yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="jf6d2ga7gjv7qm6i" Name="Yaya" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumDark_yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="jf6d2ga7gjv7qm6i" Name="Yaya" Type="single_dropdown1" Visible="True">
                 <Size>3426789</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_dark_Yaya_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>c55a36297b291a0f32d2120696e55827</CRC>
@@ -1465,7 +1474,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_light" Enabled="True" InstallGroup="4" PatchGroup="4" UID="w4csafg8ffnpqydi" Name="DEBranded´s V2 Premium Light" Type="single1" Visible="True">
+          <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumLight" Enabled="True" InstallGroup="4" PatchGroup="4" UID="w4csafg8ffnpqydi" Name="DEBranded´s V2 Premium Light" Type="single1" Visible="True">
             <Version>1.9.0.0</Version>
             <Timestamp>131974285648126140</Timestamp>
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/608624-</DevURL>
@@ -1473,7 +1482,7 @@
             <Author>DEBranded</Author>
             <Maintainers>Gauss</Maintainers>
             <Packages>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_light_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9tj7ifm9ebg7qaki" Name="Androdizel" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumLight_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9tj7ifm9ebg7qaki" Name="Androdizel" Type="single_dropdown1" Visible="True">
                 <Size>3664279</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_light_Androdizel_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>d763e974900e4a16aa1281fa6495496e</CRC>
@@ -1487,7 +1496,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_light_smallAndrodizel_france-F28_105_leFH18B2.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_light_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="370eaics9uiw122v" Name="colored" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumLight_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="370eaics9uiw122v" Name="colored" Type="single_dropdown1" Visible="True">
                 <Size>3431937</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_light_Colored_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>badccee8cb5a2efd6821b14cbf42ac02</CRC>
@@ -1504,7 +1513,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_light_Colored_france-F28_105_leFH18B2.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_light_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gw7tiiit8rae1eav" Name="DEbranded" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumLight_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gw7tiiit8rae1eav" Name="DEbranded" Type="single_dropdown1" Visible="True">
                 <Size>3458412</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_light_DEbranded_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>5f754f635984ef42585e6cc936fa50e0</CRC>
@@ -1521,7 +1530,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V2_Premium_light_DEbranded_france-F28_105_leFH18B2.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V2_Premium_light_Yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tld8qhot8n2w1qhv" Name="Yaya" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV2PremiumLight_Yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tld8qhot8n2w1qhv" Name="Yaya" Type="single_dropdown1" Visible="True">
                 <Size>3473834</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V2_Premium_light_Yaya_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>37dcc270cf4701447418c58015e42699</CRC>
@@ -1540,7 +1549,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Tank_Icons_TechTree_DEbranded_V3_Premium_preColored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nzvfilec264ldjz8" Name="DEBranded´s V3 Premium preColored" Type="single1" Visible="True">
+          <Package PackageName="TankIcons_TechTree_DEbrandedV3PremiumPrecolored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nzvfilec264ldjz8" Name="DEBranded´s V3 Premium preColored" Type="single1" Visible="True">
             <Size>400620</Size>
             <Version>1.9.0.0</Version>
             <CRC>f</CRC>
@@ -1550,7 +1559,7 @@
             <Author>DEBranded</Author>
             <Maintainers>Gauss</Maintainers>
             <Packages>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V3_Premium_preColored_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0o2uqkkd23x3du68" Name="Androdizel" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV3PremiumPrecolored_Androdizel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0o2uqkkd23x3du68" Name="Androdizel" Type="single_dropdown1" Visible="True">
                 <Size>386973</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V3_Premium_preColored_Androdizel_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>a7a8092fe592eec2e99a613623c641e7</CRC>
@@ -1562,7 +1571,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V3_Premium_preColored_smallAndrodizel_germany-G114_Rheinmetall_Skorpian.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V3_Premium_preColored_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="u3j1ioawxmytonol" Name="colored" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV3PremiumPrecolored_Colored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="u3j1ioawxmytonol" Name="colored" Type="single_dropdown1" Visible="True">
                 <Size>400620</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V3_Premium_preColored_Colored_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>a2622deee314b0d648a89f6560027d3d</CRC>
@@ -1576,7 +1585,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V3_Premium_preColored_Colored_germany-G114_Rheinmetall_Skorpian.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V3_Premium_preColored_DEBranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="7sqgqogxwiraozvk" Name="DEBranded" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV3PremiumPrecolored_DEBranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="7sqgqogxwiraozvk" Name="DEBranded" Type="single_dropdown1" Visible="True">
                 <Size>382255</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V3_Premium_preColored_DEbranded_v302_1.9.0.2_2020-05-08.zip</ZipFile>
                 <CRC>b1c1f7d33fdce095140f485caba302f8</CRC>
@@ -1590,7 +1599,7 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/TechTree/Garage_Graphics_TechTree_and_VehicleList_Icons_DEbranded_V3_Premium_preColored_DEBranded_germany-G114_Rheinmetall_Skorpian.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="Tank_Icons_TechTree_DEbranded_V3_Premium_preColored_yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="khwvynmyvfjsob2k" Name="Yaya" Type="single_dropdown1" Visible="True">
+              <Package PackageName="TankIcons_TechTree_DEbrandedV3PremiumPrecolored_yaya" Enabled="True" InstallGroup="4" PatchGroup="4" UID="khwvynmyvfjsob2k" Name="Yaya" Type="single_dropdown1" Visible="True">
                 <Size>385953</Size>
                 <ZipFile>Tank_Icons_TechTree_DEbranded_V3_Premium_preColored_Yaya_v290_1.9.0.0_2020-04-22.zip</ZipFile>
                 <CRC>0d9cf5cd642cf4a7818a61e08344b579</CRC>
@@ -1606,7 +1615,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Tank_Icons_TechTree_Ghostman101278" Enabled="True" InstallGroup="4" PatchGroup="4" UID="eve2qrchqylhz4kx" Name="Ghostman101278" Type="single1" Visible="True">
+          <Package PackageName="TankIcons_TechTree_Ghostman101278" Enabled="True" InstallGroup="4" PatchGroup="4" UID="eve2qrchqylhz4kx" Name="Ghostman101278" Type="single1" Visible="True">
             <Size>3461498</Size>
             <Version>1.9.0.0</Version>
             <ZipFile>Tank_Icons_TechTree_Ghostman101278_1.9.0.1_2020-04-28.zip</ZipFile>
