@@ -410,6 +410,51 @@
       <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
+  <Package PackageName="IngameInfo_Hitmarker" Enabled="True" InstallGroup="4" PatchGroup="4" UID="y7kl5b4iri4nxded" Name="Hitmarker" Type="multi" Visible="True">
+    <Size>4549</Size>
+    <ZipFile>Ingame_Misc_hitmarker_1.7.0.2_2020-01-08.zip</ZipFile>
+    <CRC>6efe260d7a32e022ce3e2494fc9c17c1</CRC>
+    <Timestamp>132229425441992938</Timestamp>
+    <DevURL>https://github.com/Aimdrol/MLG-Hitmarker\r\nhttp://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
+    <Author>Aimdrol</Author>
+    <Description>Shows a CoD style hitmarker whenever you penetrate ( ͡° ͜ʖ ͡°) an enemy tank.\r\n\r\nby Aimdrol</Description>
+    <Medias>
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc_hitmarker_by_aimdrol.jpg" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Packages>
+      <Package PackageName="IngameInfo_Hitmarker_default" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tl1sxfu1m16d96wq" Name="default" Type="single_dropdown1" Visible="True">
+        <Size>8910</Size>
+        <ZipFile>Ingame_Misc_hitmarker_DEFAULT.zip</ZipFile>
+        <CRC>b3e8d1b34d0147bb4a819e661de0e12a</CRC>
+        <Timestamp>131977292754183685</Timestamp>
+      </Package>
+      <Package PackageName="IngameInfo_Hitmarker_ComicsVersion" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6a875e02lxyu9i3q" Name="Comics Version" Type="single_dropdown1" Visible="True">
+        <Size>81910</Size>
+        <ZipFile>Ingame_Misc_hitmarker_COMICS_VERSION_2019-03-22.zip</ZipFile>
+        <CRC>154255bd43fda02d56c7e3ee75525e6f</CRC>
+        <Timestamp>131977292754183685</Timestamp>
+        <Author>elektrosmoker</Author>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Ingame_Misc_hitmarker_COMIC_VERSION.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="IngameInfo_Hitmarker_soundOff" Enabled="True" InstallGroup="4" PatchGroup="4" UID="izemde73kurc9tap" Name="don´t play hitmarker-sound on hitting enemies" Type="multi" Visible="True">
+        <Size>590</Size>
+        <ZipFile>Ingame_Misc_hitmarker_by_aimdrol_playsound_off.zip</ZipFile>
+        <CRC>423f0fb0d696f609238b28359d702f4a</CRC>
+        <Timestamp>131859265903706299</Timestamp>
+      </Package>
+      <Package PackageName="IngameInfo_Hitmarker_Damage" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dewt5iwmfdt1kms3" Name="Damage Only" Type="single_dropdown2" Visible="True" />
+      <Package PackageName="IngameInfo_Hitmarker_DamageRammingKamakazie" Enabled="True" InstallGroup="4" PatchGroup="4" UID="p338dh3ne9ljkyz2" Name="Damage, Ramming, Kamakazie" Type="single_dropdown2" Visible="True">
+        <Size>849</Size>
+        <ZipFile>Ingame_Misc_hitmarker_by_aimdrol_0.9.14.1_all_patch.zip</ZipFile>
+        <CRC>aa25010417d4442c9b406221bf3dde74</CRC>
+      </Package>
+    </Packages>
+  </Package>
   <Package PackageName="IngameInfo_HighCaliber" Enabled="True" InstallGroup="4" PatchGroup="4" UID="934501ixbjs2jn2l" Name="show High Caliber info" Type="multi" Visible="True">
     <Size>541</Size>
     <ZipFile>Ingame_Info_High_Caliber_RaJCeL_enable_patch_2019-10-10.zip</ZipFile>
