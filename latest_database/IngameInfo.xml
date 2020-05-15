@@ -158,7 +158,7 @@
       <UserFile Pattern="\mods\configs\promod\artylog\modSettings.json" />
     </UserFiles>
     <Dependencies>
-      <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsCore_Oldskool" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
     </Dependencies>
@@ -359,7 +359,7 @@
         <InternalNotes>res\scripts\client\gui\mods\mod_debugpanel.pyc &amp; No swf-filesx</InternalNotes>
         <Author>OldSkool</Author>
         <Dependencies>
-          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsCore_Oldskool" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
         </Dependencies>
@@ -1023,7 +1023,7 @@
         <DevURL>https://wgmods.net/1024/details</DevURL>
         <ObfuscatedMod>True</ObfuscatedMod>
         <Dependencies>
-          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsCore_Oldskool" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_playersPanelAPI_OldSkool" NotFlag="False" Logic="OR" />
         </Dependencies>
@@ -1155,7 +1155,7 @@
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/603810-1010-oldskool-mods-autoequip-artylog-battle-ratings-more/</DevURL>
         <ObfuscatedMod>True</ObfuscatedMod>
         <Dependencies>
-          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsCore_Oldskool" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
         </Dependencies>
@@ -1232,12 +1232,18 @@
             <ZipFile>IngameInfo_ExpectedValues_MoE_showInTechtree_2020-05-15.zip</ZipFile>
             <CRC>1504abdbc2652c88bf7ce05da20b1744</CRC>
             <Timestamp>132340171749717340</Timestamp>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsCore_Oldskool" NotFlag="False" Logic="OR" />
+            </Dependencies>
           </Package>
           <Package PackageName="IngameInfo_ExpectedValues_MoE_showInHangar" Enabled="True" InstallGroup="4" PatchGroup="4" UID="z6h9x6kbidmdxxj7" Name="show in hangar" Type="multi" Visible="True">
             <Size>92326</Size>
             <ZipFile>IngameInfo_ExpectedValues_MoE_showInHangar_2020-05-15.zip</ZipFile>
             <CRC>9123220e715596ad93d9d0133f5b8bf8</CRC>
             <Timestamp>132340171687343272</Timestamp>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsCore_Oldskool" NotFlag="False" Logic="OR" />
+            </Dependencies>
           </Package>
           <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_Circon" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cvno55qch9evx9q6" Name="#4 - Circon`s config  ( &lt;- our previous default one!)" Type="single_dropdown1" Visible="True">
             <Size>636</Size>
@@ -1787,7 +1793,7 @@
         </UserFiles>
         <Dependencies>
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_modsSettingsApi_Oldskool" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsCore_Oldskool" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
