@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Category Name="Auxilium [by ShuraBB]">
+<Category Name="Auxilium">
   <Maintainers>The Illusion</Maintainers>
   <Dependencies>
     <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
@@ -10,7 +10,6 @@
     <Timestamp>131712147301296122</Timestamp>
     <DevURL>https://wgmods.net/41/details</DevURL>
     <Description>This is a small service mod to create more comfortable conditions of the game.\n\nCurrent features:\nThe function “PreferredServer” - job server for the login and remembering user’s choice;\nThe function “saveLastServer” - remembering the last server which was played by the player;\nThe function “AutoEquip” - automatic installation of removable equipment for the selected tank;\nThe function “AutoOutfit” - automatic installation of the equipment for the selected tank (first aid Kit, repair Kit, fire extinguisher, etc.);\nThe function “AutoCrew” - automatic return of the last of the crew to the selected tank;\nThe function “Region Changer (Multi-client)” - the ability to play on all WoT clusters with one client.\nThe function “Circle of the dispersion” of the gun - displays the real circle of the dispersion of the gun.\nThe function “Server Sight” - displays the position of the sight on the server.\nThe function “Carousel of tanks” - adjustment of tank carousel\nThe option to disable the Handbrake in sniper mode;\nSeting the duration of display light bulbs “6th sense”;\nSeting the duration of displaying indicators of attack;\nFunction disable effect of hit of a shell in you;\nFunction disable flash effect when a shell hit you;\nFunction disable of the effect of the inertia of the camera;\nFunction disable of the recoil effect from the shot;\nThe disabling effect of the blackout in the sniper scope;\nFunction to enable horizontal stabilization for all tanks;\nSeting the list of values zoom in sniper mode;\nSeting fixed zoom value at switching in sniper mode;\nSetting the “camera height” above the tank;\nSetting the range of variation of the distance of the camera;\nSpecifies the size of the players panel at boot and the beginning of the battle;\nFunction “Contacts” - the allocation of the player from a predefined list to the contact list on the loading screen and “ears” of commands.\nFunction setting default credits instead of gold for equipment, and ammunition\nFunction to disable the ability to use gold\nFunction of disabling the ability to use free experience\n\r\n\r\n by ShuraBB\n\nForum Link: http://forum.worldoftanks.eu/index.php?/topic/596487-mod-auxilium-autoequip-autocrew-autocamo-autohandbrake-region-changer-and-more/#topmost\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
-    <PopularMod>True</PopularMod>
     <ObfuscatedMod>True</ObfuscatedMod>
     <Medias>
       <Media URL="https://wgmods.net/media/multi-client.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
@@ -19,6 +18,44 @@
       <UserFile Pattern="\res_mods\configs\BBMods\Auxilium.dat" />
     </UserFiles>
     <Packages>
+      <Package PackageName="Auxilium_GarageMods_RegionChanger" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tlm2zr1es2gnb7q9" Name="RegionChanger" Type="multi" Visible="True">
+        <Size>2615</Size>
+        <Version>1.7.0.1_2019-12-13</Version>
+        <ZipFile>Garage_mods_RegionChanger_Auxilium_1.7.0.1_2019-12-13.zip</ZipFile>
+        <CRC>a431e2f100bb45b8d97bfe89d22010da</CRC>
+        <Timestamp>132207407195145455</Timestamp>
+        <DevURL>https://vk.com/shurabb_mods</DevURL>
+        <Description>**To play on other clusters, you need to have an account on each one**\n\nFeatures of fashion:\nSimple selection of servers in other clusters;\nThere is no need for permanent copying / deleting of files;\nDo not need constant updates when you exit the "micro patches";\nAll established fashion will be available;\n\r\n by ShuraBB\r\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
+        <PopularMod>True</PopularMod>
+        <Medias>
+          <Media URL="https://wgmods.net/media/multi-client_khaGe8g.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/shot_002_O7lObNv.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+        </Medias>
+        <UserFiles>
+          <UserFile Pattern="\res_mods\configs\BBMods\Auxilium.dat" />
+        </UserFiles>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="Auxilium_GarageMods_preferedServer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="t1jh448v70l2uwce" Name="Save last server" Type="multi" Visible="True">
+        <Size>2716</Size>
+        <ZipFile>Garage_mods_Auxilium_settings_prefered_server_2018-07-04_patch.zip</ZipFile>
+        <CRC>f708b2c03e355a2fb2d32ec13101e052</CRC>
+        <Timestamp>132009367543869920</Timestamp>
+        <DevURL>https://wgmods.net/41/details</DevURL>
+        <Description>The function “saveLastServer” - remembering the last server which was played by the player;</Description>
+      </Package>
+      <Package PackageName="Auxilium_GarageMods_autoCrewReturn" Enabled="True" InstallGroup="4" PatchGroup="4" UID="250uwyarj8468bqp" Name="Auto crew return" Type="multi" Visible="True">
+        <Size>2614</Size>
+        <ZipFile>Garage_mods_Auxilium_settings_auto_crew_return_2018-07-04_patch.zip</ZipFile>
+        <CRC>4d9e2be1b830515be011a1c9c6b9c0a5</CRC>
+        <Timestamp>132009367406356799</Timestamp>
+        <DevURL>https://wgmods.net/41/details</DevURL>
+        <Description>The function “AutoCrew” - automatic return of the last of the crew to the selected tank;</Description>
+        <ConflictingPackages>XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault,GarageMods_CrewAutoReturn</ConflictingPackages>
+      </Package>
       <Package PackageName="Auxilium_GarageMods_autoEquipEquipment" Enabled="True" InstallGroup="4" PatchGroup="4" UID="crn0gzyplgj78ncp" Name="Auto-equip removeable equipment" Type="multi" Visible="True">
         <Size>1834</Size>
         <ZipFile>Garage_mods_Auxilium_settings_auto_equip_equipment_2019-06-21_patch.zip</ZipFile>
@@ -29,6 +66,7 @@
         <UserFiles>
           <UserFile Pattern="\mods\configs\BBMods\Auxilium.dat" />
         </UserFiles>
+        <ConflictingPackages>XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn</ConflictingPackages>
       </Package>
       <Package PackageName="Auxilium_GarageMods_autoEquipConsumables" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pgufoy4qkcco8zjp" Name="Auto-Equip consumables" Type="multi" Visible="True">
         <Size>1835</Size>
@@ -38,20 +76,13 @@
         <DevURL>https://wgmods.net/41/details</DevURL>
         <Description>The function “AutoOutfit” - automatic installation of the equipment for the selected tank (first aid Kit, repair Kit, fire extinguisher, etc.);</Description>
       </Package>
-      <Package PackageName="Auxilium_GarageMods_autoCrewReturn" Enabled="True" InstallGroup="4" PatchGroup="4" UID="250uwyarj8468bqp" Name="Auto crew return" Type="multi" Visible="True">
-        <Size>2614</Size>
-        <ZipFile>Garage_mods_Auxilium_settings_auto_crew_return_2018-07-04_patch.zip</ZipFile>
-        <CRC>4d9e2be1b830515be011a1c9c6b9c0a5</CRC>
-        <Timestamp>132009367406356799</Timestamp>
+      <Package PackageName="Auxilium_GarageMods_removeRemovableEquip" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gcc2w42u73tluk5e" Name="Add L_CTRL+R keys to remove all removable equipment" Type="multi" Visible="True">
+        <Size>866</Size>
+        <ZipFile>Garage_mods_Auxilium_settings_remove_removable_equipment_2018-07-04_patch.zip</ZipFile>
+        <CRC>aa6bc7495ede0978c7c1593d07626442</CRC>
+        <Timestamp>131752273503558232</Timestamp>
         <DevURL>https://wgmods.net/41/details</DevURL>
-        <Description>The function “AutoCrew” - automatic return of the last of the crew to the selected tank;</Description>
-      </Package>
-      <Package PackageName="Auxilium_GarageMods_GoldLocker" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wji1o20aes6wj482" Name="Gold Locker" Type="multi" Visible="True">
-        <Size>529</Size>
-        <ZipFile>Garage_mods_Auxilium_settings_Gold_Locker_1.7.0.2_2019-12-24.zip</ZipFile>
-        <CRC>662a0fed382aacc700424b67d721681b</CRC>
-        <Timestamp>132216941028042946</Timestamp>
-        <Description>Prevents the use of Gold</Description>
+        <Description>Pressing left CTRL + R in the garage will remove all removable equipment from all your tanks. It will NOT remove "Complex Equipment" (Equipment that needs gold to be un-mounted)</Description>
       </Package>
       <Package PackageName="Auxilium_GarageMods_FreeXPLocker" Enabled="True" InstallGroup="4" PatchGroup="4" UID="98ogw16bdoydjfg2" Name="Free XP Locker" Type="multi" Visible="True">
         <Size>534</Size>
@@ -59,8 +90,17 @@
         <CRC>e1889abf60942569d768b1e6ee3e45a8</CRC>
         <Timestamp>132216941120437037</Timestamp>
         <Description>Prevents the use of Free XP.</Description>
+        <ConflictingPackages>XVMconfigBuilder_GarageInterface_FreeXPLocker</ConflictingPackages>
       </Package>
-      <Package PackageName="Auxilium_GarageMods_noStatsBtn" Enabled="False" InstallGroup="4" PatchGroup="4" UID="mxvv40ccdkrvjrn1" Name="remove wargaming statistics button" Type="multi" Visible="False">
+      <Package PackageName="Auxilium_GarageMods_GoldLocker" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wji1o20aes6wj482" Name="Gold Locker" Type="multi" Visible="True">
+        <Size>529</Size>
+        <ZipFile>Garage_mods_Auxilium_settings_Gold_Locker_1.7.0.2_2019-12-24.zip</ZipFile>
+        <CRC>662a0fed382aacc700424b67d721681b</CRC>
+        <Timestamp>132216941028042946</Timestamp>
+        <Description>Prevents the use of Gold</Description>
+        <ConflictingPackages>XVMconfigBuilder_GarageInterface_GoldLocker</ConflictingPackages>
+      </Package>
+      <Package PackageName="Auxilium_GarageMods_noStatsBtn" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mxvv40ccdkrvjrn1" Name="remove wargaming statistics button" Type="multi" Visible="True">
         <Size>471</Size>
         <ZipFile>Garage_Mods_Auxilium_noStatsBtn_PATCH_2019-06-28.zip</ZipFile>
         <CRC>41cbec6e9424d07e1ab772a3ffcedbc4</CRC>
@@ -70,26 +110,12 @@
         <Medias>
           <Media URL="https://wgmods.net/media/mod_files/post-25106393-0-35206100-1560544539.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
         </Medias>
+        <ConflictingPackages>XVMconfigBuilder_GarageInterface_sessionStatsButton,GarageMods_AnnoyingFeaturesRemover_sessionStatsButton</ConflictingPackages>
       </Package>
-      <Package PackageName="Auxilium_GarageMods_removeRemovableEquip" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gcc2w42u73tluk5e" Name="Add L_CTRL+R keys to remove all removable equipment" Type="multi" Visible="True">
-        <Size>866</Size>
-        <ZipFile>Garage_mods_Auxilium_settings_remove_removable_equipment_2018-07-04_patch.zip</ZipFile>
-        <CRC>aa6bc7495ede0978c7c1593d07626442</CRC>
-        <Timestamp>131752273503558232</Timestamp>
-        <DevURL>https://wgmods.net/41/details</DevURL>
-        <Description>Pressing left CTRL + R in the garage will remove all removable equipment from all your tanks. It will NOT remove "Complex Equipment" (Equipment that needs gold to be un-mounted)</Description>
-      </Package>
-      <Package PackageName="Auxilium_GarageMods_preferedServer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="t1jh448v70l2uwce" Name="Save last server" Type="multi" Visible="True">
-        <Size>2716</Size>
-        <ZipFile>Garage_mods_Auxilium_settings_prefered_server_2018-07-04_patch.zip</ZipFile>
-        <CRC>f708b2c03e355a2fb2d32ec13101e052</CRC>
-        <Timestamp>132009367543869920</Timestamp>
-        <DevURL>https://wgmods.net/41/details</DevURL>
-        <Description>The function “saveLastServer” - remembering the last server which was played by the player;</Description>
-      </Package>
-      <Package PackageName="Auxilium_GarageMods__TankCarousel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nf0ow8ye1jns5our" Name="Carousel" Type="multi" Visible="True">
+      <Package PackageName="Auxilium_GarageMods_TankCarousel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nf0ow8ye1jns5our" Name="Carousel" Type="multi" Visible="True">
         <CRC>f</CRC>
         <Timestamp>132207059492195487</Timestamp>
+        <ConflictingPackages>XVMconfigBuilder_Carousel</ConflictingPackages>
         <Packages>
           <Package PackageName="Auxilium_GarageMods_TankCarousel_Small" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0473475f1ffa501r" Name="Enable Small" Type="multi" Visible="True">
             <Size>556</Size>
@@ -123,13 +149,15 @@
     <ZipFile>Ingame_Misc_Auxilium_6thSense_enable_patch_1.7.0.2_2019-12-23.zip</ZipFile>
     <CRC>cc252cf7e35a70ad70b9e6fdeaca525a</CRC>
     <Timestamp>132216090469603273</Timestamp>
+    <ObfuscatedMod>True</ObfuscatedMod>
     <Packages>
-      <Package PackageName="Auxilium_IngameAim_SniperShadowing" Enabled="False" InstallGroup="4" PatchGroup="4" UID="10yk6rz7k77u6xew" Name="Disable Sniper Shadowing" Type="multi" Visible="False">
+      <Package PackageName="Auxilium_IngameAim_SniperShadowing" Enabled="True" InstallGroup="4" PatchGroup="4" UID="10yk6rz7k77u6xew" Name="Disable Sniper Shadowing" Type="multi" Visible="True">
         <Size>456</Size>
         <ZipFile>Ingame_Misc_Auxilium_BinoDimming_2019-04-27.zip</ZipFile>
         <CRC>01c9dc86bf25913107c5a5937ecaa9a8</CRC>
         <Timestamp>132008796443202624</Timestamp>
         <Description>Disables the dimming when going into Sniper mode (ADS)</Description>
+        <ConflictingPackages>IngameAim_PMODdisableScopeShadow,XVMConfigBuilder_Camera_noBinoculars</ConflictingPackages>
       </Package>
       <Package PackageName="Auxilium_IngameAim_disableTDbreak" Enabled="True" InstallGroup="4" PatchGroup="4" UID="63tgd3qfwuc5freb" Name="Disable TD Break" Type="multi" Visible="True">
         <Size>478</Size>
@@ -137,6 +165,7 @@
         <CRC>259eff51f1db7203d69639b2c6def981</CRC>
         <Timestamp>132290355093099526</Timestamp>
         <Description>Disables the TD break</Description>
+        <ConflictingPackages>IngameAim_ZoomIn_tdBrake,XVMConfigBuilder_Camera_noCameraLimit</ConflictingPackages>
       </Package>
       <Package PackageName="Auxilium_IngameAim_EnableHStab" Enabled="True" InstallGroup="4" PatchGroup="4" UID="js0vl2wgvq4me3lb" Name="Enable Horizonal Stabilizer on all tanks" Type="multi" Visible="True">
         <Size>494</Size>
@@ -153,6 +182,8 @@
     <CRC>cc252cf7e35a70ad70b9e6fdeaca525a</CRC>
     <Timestamp>132216090469603273</Timestamp>
     <Description>Sets the 6th sense duration in seconds.</Description>
+    <ObfuscatedMod>True</ObfuscatedMod>
+    <ConflictingPackages>XVMConfigBuilder_BattleInterface_6thSenseDuration,6thSense_Icon_Duration</ConflictingPackages>
     <Packages>
       <Package PackageName="Auxilium_6thSense_5" Enabled="True" InstallGroup="4" PatchGroup="4" UID="a5fxyl12xgqyjcs6" Name="5" Type="single_dropdown1" Visible="True">
         <Size>518</Size>
@@ -189,8 +220,9 @@
   <Package PackageName="Auxilium_IngameInfo" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2xht125lioiyqcpi" Name="Ingame Info" Type="multi" Visible="True">
     <Timestamp>131739994130833418</Timestamp>
     <DevURL>https://wgmods.net/41/details</DevURL>
+    <ObfuscatedMod>True</ObfuscatedMod>
     <Packages>
-      <Package PackageName="Auxilium_IngameInfo_2MinuteWarning" Enabled="False" InstallGroup="4" PatchGroup="4" UID="kr23imp0yn5yjpe7" Name="Disable 2 Minute Warning" Type="multi" Visible="False">
+      <Package PackageName="Auxilium_IngameInfo_2MinuteWarning" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kr23imp0yn5yjpe7" Name="Disable 2 Minute Warning" Type="multi" Visible="True">
         <Size>462</Size>
         <ZipFile>Ingame_Misc_Auxilium_2MinuteWarningDisable_2019-04-27.zip</ZipFile>
         <CRC>6590474eed0339cdd349ee52b82d28a3</CRC>
@@ -253,12 +285,13 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Auxilium_IngameInfo_CombatMessages" Enabled="False" InstallGroup="4" PatchGroup="4" UID="vffsyvpqfq9jhqw9" Name="Disable Combat Messages (above minimap)" Type="multi" Visible="False">
+      <Package PackageName="Auxilium_IngameInfo_CombatMessages" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vffsyvpqfq9jhqw9" Name="Disable Combat Messages (above minimap)" Type="multi" Visible="True">
         <Size>461</Size>
         <ZipFile>Ingame_Misc_Auxilium_CombatMessages_2019-04-27.zip</ZipFile>
         <CRC>7f0dfeba3b790d404cf7778254ce0571</CRC>
         <Timestamp>132008794561201056</Timestamp>
         <Description>Disables the combat messages that show above the minimap.</Description>
+        <ConflictingPackages>XVMConfigBuilder_BattleInterface_battleHint,IngameMisc_ArtyAndSiegeFilter</ConflictingPackages>
       </Package>
       <Package PackageName="Auxilium_IngameInfo_Speedometer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3luwt5y1o2rbqjho" Name="SpeedoMeter" Type="multi" Visible="True">
         <CRC>f</CRC>
@@ -286,6 +319,7 @@
         <CRC>f9fd4470dda839606338faf55d4f37b6</CRC>
         <Timestamp>131752253817540015</Timestamp>
         <Description>Disable display of tips and of who killed you</Description>
+        <ConflictingPackages>XVMConfigBuilder_BattleInterface_PostmortemTips,XVMConfigBuilder_BattleInterface_PostmortemDogtag</ConflictingPackages>
       </Package>
     </Packages>
   </Package>
@@ -293,7 +327,6 @@
     <Timestamp>131739994130833418</Timestamp>
     <DevURL>https://wgmods.net/41/details</DevURL>
     <Description>This is a small service mod to create more comfortable conditions of the game.\n\nCurrent features:\nThe function “PreferredServer” - job server for the login and remembering user’s choice;\nThe function “saveLastServer” - remembering the last server which was played by the player;\nThe function “AutoEquip” - automatic installation of removable equipment for the selected tank;\nThe function “AutoOutfit” - automatic installation of the equipment for the selected tank (first aid Kit, repair Kit, fire extinguisher, etc.);\nThe function “AutoCrew” - automatic return of the last of the crew to the selected tank;\nThe function “Region Changer (Multi-client)” - the ability to play on all WoT clusters with one client.\nThe function “Circle of the dispersion” of the gun - displays the real circle of the dispersion of the gun.\nThe function “Server Sight” - displays the position of the sight on the server.\nThe function “Carousel of tanks” - adjustment of tank carousel\nThe option to disable the Handbrake in sniper mode;\nSeting the duration of display light bulbs “6th sense”;\nSeting the duration of displaying indicators of attack;\nFunction disable effect of hit of a shell in you;\nFunction disable flash effect when a shell hit you;\nFunction disable of the effect of the inertia of the camera;\nFunction disable of the recoil effect from the shot;\nThe disabling effect of the blackout in the sniper scope;\nFunction to enable horizontal stabilization for all tanks;\nSeting the list of values zoom in sniper mode;\nSeting fixed zoom value at switching in sniper mode;\nSetting the “camera height” above the tank;\nSetting the range of variation of the distance of the camera;\nSpecifies the size of the players panel at boot and the beginning of the battle;\nFunction “Contacts” - the allocation of the player from a predefined list to the contact list on the loading screen and “ears\n\r\n\r\nby ShuraBB\r\n\nForum Link: http://forum.worldoftanks.eu/index.php?/topic/596487-mod-auxilium-autoequip-autocrew-autocamo-autohandbrake-region-changer-and-more/#topmost\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
-    <PopularMod>True</PopularMod>
     <ObfuscatedMod>True</ObfuscatedMod>
     <UserFiles>
       <UserFile Pattern="\res_mods\configs\BBMods\Auxilium.dat" />
