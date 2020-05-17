@@ -84,10 +84,10 @@
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_elektrosmoker" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5n7w0stu0a1lcvez" Name="elektrosmoker v{version} [including crosshair mod]" Type="single_dropdown1" Visible="True">
         <Size>7796448</Size>
-        <Version>2020-04-24</Version>
-        <ZipFile>XVMPrebuiltConfigs_elektrosmoker_2020-04-24.zip</ZipFile>
-        <CRC>3c766275de9b4e7e043628f58b5b85fc</CRC>
-        <Timestamp>132322297709306014</Timestamp>
+        <Version>2020-05-17</Version>
+        <ZipFile>XVMPrebuiltConfigs_elektrosmoker_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132341739129088021</Timestamp>
         <DevURL>https://github.com/elektrosmoker/XVMPrebuiltConfigs_elektrosmoker</DevURL>
         <Description>One of the biggest XVM prebuilts around, \nincluding most of the options provided in the xvm config builder section\n----------------------------------------------------------------------------------------------------------------\nNOT fully compatible to XVM_Config_Builder (only partially)\n\nKudos go out to:\n\nOMC (Grumpelumpf), \nnight_dragon_on, \nktulho,  \nDiclovit, \nOldSkool, \nSolo,\nRess, \nAslain, \nJ1mb0, \nHeliomalt, \nSmashPuppet, \nKornet_WA, \nMIAPAK, \nKotyarko_O, \nTornado_Odan_Rot,</Description>
         <Medias>
@@ -206,7 +206,7 @@
       <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_OMC_FocusShield_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wipj8yszn2hhzg0p" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMC_enableFocusShield" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wipj8yszn2hhzg0p" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
         <Size>495</Size>
         <CRC>f</CRC>
         <Timestamp>132066329239611191</Timestamp>
@@ -217,7 +217,7 @@
           <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableFocusShield" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMC_DamageImages_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qx7r02hiilj6a9i2" Name="Enable Damage Images" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMC_enableDamageImages" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qx7r02hiilj6a9i2" Name="Enable Damage Images" Type="multi" Visible="True">
         <Size>495</Size>
         <CRC>f</CRC>
         <Timestamp>132066329264125587</Timestamp>
@@ -228,7 +228,7 @@
           <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableDamageImages" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMC_TurretMarkers_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3md681ojhhcoakp2" Name="Enable Turret Markers" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMC_enableTurretMarkers" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3md681ojhhcoakp2" Name="Enable Turret Markers" Type="multi" Visible="True">
         <Size>510</Size>
         <CRC>f</CRC>
         <Timestamp>132066329286346123</Timestamp>
@@ -236,7 +236,7 @@
           <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableTurretMarkers" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMC_XMQP_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gbklg0ukhe46aww1" Name="Enable XMQP in markers" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMC_enableXMQP" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gbklg0ukhe46aww1" Name="Enable XMQP in markers" Type="multi" Visible="True">
         <Size>480</Size>
         <CRC>f</CRC>
         <Timestamp>132066329311219562</Timestamp>
@@ -244,7 +244,7 @@
           <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableXMQP" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMC_QuickStats_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ap1s84k3bx6vlpef" Name="Enable Quick Color Marker (QuickStats)" Type="multi" Visible="True">
+      <Package PackageName="XVMPrebuiltConfigs_OMC_enableQuickStats" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ap1s84k3bx6vlpef" Name="Enable Quick Color Marker (QuickStats)" Type="multi" Visible="True">
         <Size>490</Size>
         <CRC>f</CRC>
         <Timestamp>132066329487577626</Timestamp>
@@ -317,22 +317,6 @@
           <Media URL="http://i.imgur.com/e4WkGAf.jpg" MediaType="Picture" />
         </Medias>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_Elkano" Enabled="True" InstallGroup="4" PatchGroup="4" UID="earuoao9ylf97l74" Name="Elkano v{version}" Type="single_dropdown1" Visible="True">
-        <Size>171401</Size>
-        <Version>2020-02-04</Version>
-        <ZipFile>XVMPrebuiltConfigs_Elkano_EXVMC_2020-02-04.zip</ZipFile>
-        <CRC>eed385b645ba5d3b180bb25624735cf4</CRC>
-        <Timestamp>132253198602650518</Timestamp>
-        <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/exvmc</DevURL>
-        <UpdateComment>2019-03-25: dmg/hit-log</UpdateComment>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_GdZ" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qzx9w9u9xh7r7xe4" Name="GdZ  v{version} (original cfg was from DICLOVIT)" Type="single_dropdown1" Visible="True">
-        <Size>100771</Size>
-        <Version>2020-02-04</Version>
-        <ZipFile>XVMPrebuiltConfigs_GDZ_2020-02-04.zip</ZipFile>
-        <CRC>ae7617b5e55165079692d4331358598e</CRC>
-        <Timestamp>132253198635263260</Timestamp>
-      </Package>
       <Package PackageName="XVMPrebuiltConfigs_HAWG" Enabled="True" InstallGroup="4" PatchGroup="4" UID="lefgndkss09hjqwh" Name="HAWG's Alternative XVM v{version}" Type="single_dropdown1" Visible="True">
         <Size>8033017</Size>
         <Version>2020-04-09</Version>
@@ -376,44 +360,6 @@
           <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="XVMPrebuiltConfigs_Heliomalt" Enabled="True" InstallGroup="4" PatchGroup="4" UID="y3lvvcqtrx1yj23h" Name="Heliomalt v{version}" Type="single_dropdown1" Visible="True">
-        <Size>1893613</Size>
-        <Version>2020-02-18</Version>
-        <ZipFile>XVMPrebuiltConfigs_Heliomalt_2020-02-18.zip</ZipFile>
-        <CRC>3e0f95b9781c92fad3a20c377108c678</CRC>
-        <Timestamp>132265117269530691</Timestamp>
-        <DevURL>http://heliomalt.blogspot.com/p/blog-page_75.html</DevURL>
-        <Description>Bei dieser XVM Konfiguration sind nachfolgende Änderungen enthalten:\n\nHangar:\nGold und Free XP Locker, Premium Buttons entfernt, 3 Panzerreihen, alle Perks sichtbar (bis 8 Stück), Uhr, Garagen Stellplatz und Panzer kaufen Box entfernt, Anzeige der aktiven Reserven mit Icons und Timer, erweiterte Info im Popup für Panzer, Auto Return Crew standardmässig an, automatischer Einbau von Schere, Tarnnetz und Werkzeugkiste, Flaggen in der Kaserne, automatischer Login (nicht in Minimal XVM), Modpack Check im Hangar, Server Info in den Hangarkopf verschoben, Tages- und Gesamtstatistik, Gunmark mit Fortschritt, Gunmark Icon, Siegrate und Panzerass Icon für den ausgewählten Panzer (nicht im Karussell), allgemeiner Chat entfernt.\n\nIm Spiel:\nTeam HP Anzeige, Panzerklasse Anzeige mit Zähler, wahlweise auch Standard, XMQP Marker, Icon für Spieler die auf der Freundesliste sind, Spotted Marker für das gegnerische Team, Playerspanel Switcher entfernt, lässt sich mit Strg+Tab umschalten, Gunmarkanzeige im Playerpanel, Hitpoint Balken, wahlweise erweiterte Anzeige im Playerspanel und auf der Minimap beim drücken von ALT, unter anderem Panzer- und Spielername, erweiterte Kreise auf der Minimap inkl. Proxyspottingkreis 50m, HP Anzeige mit Kreis für jeden Panzer auf der Minimap, Zentrierung der Minimap beim drücken von Strg, Reparatur Timer im Damage Panel, erweiterte Infos im Fadenkreuz für Arcade-, Sniper- und Artyansicht, z.B. Distanz, normalisierter Geschosswinkel, Durchschlagsanzeige, Flugzeit, Einzielzeit, Munitionsart mit Zähler, Arty Splash Radius, optische Anzeige vom Vanilla Autoaim (kein erweitertes AA, kein Snapping oder sonstige grenzwertige Modifikationen), Safe Shot, lässt sich deaktivieren durch gedrückt halten von F12, bleibt aber sonst aktiv, optional leicht angepasste Sounds, z.B. kein Minimap Ping, kein Chat Ping, Geladen und andere Capture Sirenen, UT Frags Announcer optional, Battle Chat auf 2 Linien begrenzt, Max Zoom out.</Description>
-        <UpdateComment>2019-11-08: added to zip (no dependency) SPHERE.PY\r\n2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
-        <Medias>
-          <Media URL="https://2.bp.blogspot.com/-FWEe-mPS3lU/W8CLNK7ctSI/AAAAAAAAAIM/C8iNftT9xasyPgJO-sZLlI0MlEhjpoNZACEwYBhgL/s400/panzernamen.jpg" MediaType="Picture" />
-          <Media URL="https://1.bp.blogspot.com/-wO9BIvI9FgA/W14mwtq0ObI/AAAAAAAAADk/DXvue4xVeDYiZj_vHqHDGx2avoDB3DPyACPcBGAYYCw/s400/wot_14.jpg" MediaType="Picture" />
-          <Media URL="https://1.bp.blogspot.com/-_3KKWMbZA_Q/W13hS-E_zOI/AAAAAAAAACc/1PEyTJbTY1AVbQzIBEjGZVdouYq2cIX3wCPcBGAYYCw/s400/wot_2.jpg" MediaType="Picture" />
-          <Media URL="https://2.bp.blogspot.com/-fQPzbYCtbio/W2MMLaZHc4I/AAAAAAAAAEk/nlKcanil6FYIbPAauyxq4LgGvhePMs0NACEwYBhgL/s400/wot_2.jpg" MediaType="Picture" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_battleMessages" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_infoAutoAim" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_messenger" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_infoChargedShell" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_quantityShells" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_reloading" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_targetInfo" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_safeShot" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_sixthSense" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_colorMacros" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_statisticsXVM" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_sphere" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_displayingItems" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
       <Package PackageName="XVMPrebuiltConfigs_J1mB0" Enabled="True" InstallGroup="4" PatchGroup="4" UID="sh33nggcmg3ouvlu" Name="J1mB0 v{version}" Type="single_dropdown1" Visible="True">
         <Size>157366</Size>
         <Version>2020-02-04</Version>
@@ -431,10 +377,10 @@
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_NDO" Enabled="True" InstallGroup="4" PatchGroup="4" UID="56aivfmdlcw6u6su" Name="NDO / night_dragon_on v{version}" Type="single_dropdown1" Visible="True">
         <Size>94868</Size>
-        <Version>2020-04-22</Version>
-        <ZipFile>XVMPrebuiltConfigs_NDO_2020-04-22.zip</ZipFile>
-        <CRC>0ad068b9a38369e3fff987fc8eb9a78a</CRC>
-        <Timestamp>132320520807601247</Timestamp>
+        <Version>2020-05-17</Version>
+        <ZipFile>XVMPrebuiltConfigs_NDO_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132341740386128017</Timestamp>
         <DevURL>https://github.com/AstaRom/xvm_config\r\nhttps://koreanrandom.com/forum/topic/7378-781-120219-night_dragon_on-config-addons/</DevURL>
         <UpdateComment>2019-03-13: removed vehiclenames.xc</UpdateComment>
         <Medias>
@@ -472,16 +418,6 @@
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_4.png" MediaType="Picture" />
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_5.png" MediaType="Picture" />
         </Medias>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_Solo" Enabled="True" InstallGroup="4" PatchGroup="4" UID="oz4j3ioyfoiv5np6" Name="Solo v{version}" Type="single_dropdown1" Visible="True">
-        <Size>373521</Size>
-        <Version>2020-02-04</Version>
-        <ZipFile>XVMPrebuiltConfigs_Solo_2020-02-04.zip</ZipFile>
-        <CRC>796f8dbc7352967d28b00b7ea7be329a</CRC>
-        <Timestamp>132253199213167227</Timestamp>
-        <DevURL>https://wgmods.net/37/\nhttp://soloviyko.com/solos-modpack/</DevURL>
-        <Description>Solo XVM Config (minimap features always on)</Description>
-        <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
       </Package>
     </Packages>
   </Package>

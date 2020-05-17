@@ -1727,6 +1727,20 @@
               </Package>
             </Packages>
           </Package>
+          <Package PackageName="XVMconfigBuilder_GarageInterface_showSE20Banner" Enabled="True" InstallGroup="4" PatchGroup="4" UID="7a87p48jhns889hb" Name="SE20 Banner" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showSE20Banner_disable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ja39ft0nzr65skt6" Name="disable" Type="single_dropdown1" Visible="True">
+                <ZipFile>XVMconfigBuilder_GarageInterface_sshowSE20Banner_disable.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132341732242741058</Timestamp>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_showSE20Banner_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2xp68bbmkhile5gn" Name="enable" Type="single_dropdown1" Visible="True">
+                <ZipFile>XVMconfigBuilder_GarageInterface_showSE20Banner_enable.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132341732292889898</Timestamp>
+              </Package>
+            </Packages>
+          </Package>
           <Package PackageName="Spacer_Tweaker" Enabled="False" InstallGroup="4" PatchGroup="4" UID="8oelk2ri650logdj" Name="--Tweaker--" Type="single1" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132313538777740262</Timestamp>
@@ -3522,7 +3536,7 @@
                     <ZipFile>XVM_config_builder_markers_OMC.zip</ZipFile>
                     <CRC>e0d284c504d0f2d58a7ccb2bf8c8f46f</CRC>
                     <Packages>
-                      <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_FocusShield_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vtdtyp8utecms9cy" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
+                      <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_enableFocusShield" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vtdtyp8utecms9cy" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
                         <Size>495</Size>
                         <CRC>f</CRC>
                         <Timestamp>132066330349486395</Timestamp>
@@ -3533,7 +3547,7 @@
                           <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableFocusShield" NotFlag="False" Logic="OR" />
                         </Dependencies>
                       </Package>
-                      <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_DamageImages_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="p8v1qtxdoxec32uc" Name="Enable Damage Images" Type="multi" Visible="True">
+                      <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_enableDamageImages" Enabled="True" InstallGroup="4" PatchGroup="4" UID="p8v1qtxdoxec32uc" Name="Enable Damage Images" Type="multi" Visible="True">
                         <Size>495</Size>
                         <CRC>f</CRC>
                         <Timestamp>132066330376214867</Timestamp>
@@ -3544,7 +3558,7 @@
                           <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableDamageImages" NotFlag="False" Logic="OR" />
                         </Dependencies>
                       </Package>
-                      <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_TurretMarkers_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2x1gyt4eot6t3e1b" Name="Enable Turret Markers" Type="multi" Visible="True">
+                      <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_enableTurretMarkers" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2x1gyt4eot6t3e1b" Name="Enable Turret Markers" Type="multi" Visible="True">
                         <Size>510</Size>
                         <CRC>f</CRC>
                         <Timestamp>132066330403063019</Timestamp>
@@ -3552,7 +3566,7 @@
                           <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableTurretMarkers" NotFlag="False" Logic="OR" />
                         </Dependencies>
                       </Package>
-                      <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_XMQP_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="fm8u6safnqzb3p9b" Name="Enable XMQP in markers" Type="multi" Visible="True">
+                      <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_enableXMQP" Enabled="True" InstallGroup="4" PatchGroup="4" UID="fm8u6safnqzb3p9b" Name="Enable XMQP in markers" Type="multi" Visible="True">
                         <Size>480</Size>
                         <CRC>f</CRC>
                         <Timestamp>132066330429053470</Timestamp>
@@ -3560,7 +3574,7 @@
                           <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableXMQP" NotFlag="False" Logic="OR" />
                         </Dependencies>
                       </Package>
-                      <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_Quikstat_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="90p2xw0yi911eiro" Name="Enable Quick Color Marker (Quickstat)" Type="multi" Visible="True">
+                      <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_enableQuikstat" Enabled="True" InstallGroup="4" PatchGroup="4" UID="90p2xw0yi911eiro" Name="Enable Quick Color Marker (Quickstat)" Type="multi" Visible="True">
                         <Size>490</Size>
                         <CRC>f</CRC>
                         <Timestamp>132066330503643863</Timestamp>
