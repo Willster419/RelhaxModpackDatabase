@@ -14,6 +14,180 @@
       <Media URL="https://wgmods.net/media/logo_0xMfoM2.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
     </Medias>
   </Package>
+  <Package PackageName="IngameMisc_AuxiliumSettings" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qclwqizh34398wwt" Name="Auxilium Ingame Settings v{version}" Type="multi" Visible="True">
+    <Version>19.16</Version>
+    <Timestamp>131739994130833418</Timestamp>
+    <DevURL>https://wgmods.net/41/details</DevURL>
+    <Description>This is a small service mod to create more comfortable conditions of the game.\n\nCurrent features:\nThe function “PreferredServer” - job server for the login and remembering user’s choice;\nThe function “saveLastServer” - remembering the last server which was played by the player;\nThe function “AutoEquip” - automatic installation of removable equipment for the selected tank;\nThe function “AutoOutfit” - automatic installation of the equipment for the selected tank (first aid Kit, repair Kit, fire extinguisher, etc.);\nThe function “AutoCrew” - automatic return of the last of the crew to the selected tank;\nThe function “Region Changer (Multi-client)” - the ability to play on all WoT clusters with one client.\nThe function “Circle of the dispersion” of the gun - displays the real circle of the dispersion of the gun.\nThe function “Server Sight” - displays the position of the sight on the server.\nThe function “Carousel of tanks” - adjustment of tank carousel\nThe option to disable the Handbrake in sniper mode;\nSeting the duration of display light bulbs “6th sense”;\nSeting the duration of displaying indicators of attack;\nFunction disable effect of hit of a shell in you;\nFunction disable flash effect when a shell hit you;\nFunction disable of the effect of the inertia of the camera;\nFunction disable of the recoil effect from the shot;\nThe disabling effect of the blackout in the sniper scope;\nFunction to enable horizontal stabilization for all tanks;\nSeting the list of values zoom in sniper mode;\nSeting fixed zoom value at switching in sniper mode;\nSetting the “camera height” above the tank;\nSetting the range of variation of the distance of the camera;\nSpecifies the size of the players panel at boot and the beginning of the battle;\nFunction “Contacts” - the allocation of the player from a predefined list to the contact list on the loading screen and “ears\n\r\n\r\nby ShuraBB\r\n\nForum Link: http://forum.worldoftanks.eu/index.php?/topic/596487-mod-auxilium-autoequip-autocrew-autocamo-autohandbrake-region-changer-and-more/#topmost\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
+    <PopularMod>True</PopularMod>
+    <ObfuscatedMod>True</ObfuscatedMod>
+    <UserFiles>
+      <UserFile Pattern="\res_mods\configs\BBMods\Auxilium.dat" />
+    </UserFiles>
+    <Dependencies>
+      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Packages>
+      <Package PackageName="IngameMisc_Auxilium_2MinuteWarning" Enabled="False" InstallGroup="4" PatchGroup="4" UID="kr23imp0yn5yjpe7" Name="Disable 2 Minute Warning" Type="multi" Visible="False">
+        <Size>462</Size>
+        <ZipFile>Ingame_Misc_Auxilium_2MinuteWarningDisable_2019-04-27.zip</ZipFile>
+        <CRC>6590474eed0339cdd349ee52b82d28a3</CRC>
+        <Timestamp>132008797629532862</Timestamp>
+        <Description>Disables the 2 minute warning before the end of the battle</Description>
+      </Package>
+      <Package PackageName="IngameMisc_Auxilium_6thSense" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xg9iqlv1xjygj1l6" Name="Sixth Sense Duration (Don't use with the 6th sense category)" Type="multi" Visible="True">
+        <Size>526</Size>
+        <ZipFile>Ingame_Misc_Auxilium_6thSense_enable_patch_1.7.0.2_2019-12-23.zip</ZipFile>
+        <CRC>cc252cf7e35a70ad70b9e6fdeaca525a</CRC>
+        <Timestamp>132216090469603273</Timestamp>
+        <Description>Sets the 6th sense duration in seconds.</Description>
+        <Packages>
+          <Package PackageName="IngameMisc_Auxilium_6thSense_5" Enabled="True" InstallGroup="4" PatchGroup="4" UID="a5fxyl12xgqyjcs6" Name="5" Type="single_dropdown1" Visible="True">
+            <Size>518</Size>
+            <ZipFile>Ingame_Misc_Auxilium_6thSense_5_1.7.0.2_2019-12-23.zip</ZipFile>
+            <CRC>d4a6b1aa01d2a9cd9cc2018d2b5d2c82</CRC>
+            <Timestamp>132216090550451905</Timestamp>
+          </Package>
+          <Package PackageName="IngameMisc_Auxilium_6thSense_7" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4jx4qprlrzsnv5aj" Name="7" Type="single_dropdown1" Visible="True">
+            <Size>518</Size>
+            <ZipFile>Ingame_Misc_Auxilium_6thSense_7_1.7.0.2_2019-12-23.zip</ZipFile>
+            <CRC>19870f862fcb41b466648415dadc3da2</CRC>
+            <Timestamp>132216090606677569</Timestamp>
+          </Package>
+          <Package PackageName="IngameMisc_Auxilium_6thSense_10" Enabled="True" InstallGroup="4" PatchGroup="4" UID="h83jyoxmrvk5vhhj" Name="10" Type="single_dropdown1" Visible="True">
+            <Size>521</Size>
+            <ZipFile>Ingame_Misc_Auxilium_6thSense_10_1.7.0.2_2019-12-23.zip</ZipFile>
+            <CRC>c8b314a19291c6268f97c9f8134e3b2a</CRC>
+            <Timestamp>132216090693086961</Timestamp>
+          </Package>
+          <Package PackageName="IngameMisc_Auxilium_6thSense_12" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bmlqqsn5memu6azw" Name="12" Type="single_dropdown1" Visible="True">
+            <Size>520</Size>
+            <ZipFile>Ingame_Misc_Auxilium_6thSense_12_1.7.0.2_2019-12-23.zip</ZipFile>
+            <CRC>2c3bd604f841989ef34ee0a25c5dc94f</CRC>
+            <Timestamp>132216090751675310</Timestamp>
+          </Package>
+          <Package PackageName="IngameMisc_Auxilium_6thSense_14" Enabled="True" InstallGroup="4" PatchGroup="4" UID="obr5yrt6lbec6m7w" Name="14" Type="single_dropdown1" Visible="True">
+            <Size>521</Size>
+            <ZipFile>Ingame_Misc_Auxilium_6thSense_14_1.7.0.2_2019-12-23.zip</ZipFile>
+            <CRC>173547ea77f4dcfab9745b7b7bc47de2</CRC>
+            <Timestamp>132216090811494923</Timestamp>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="IngameMisc_Auxilium_SniperShadowing" Enabled="False" InstallGroup="4" PatchGroup="4" UID="10yk6rz7k77u6xew" Name="Disable Sniper Shadowing" Type="multi" Visible="False">
+        <Size>456</Size>
+        <ZipFile>Ingame_Misc_Auxilium_BinoDimming_2019-04-27.zip</ZipFile>
+        <CRC>01c9dc86bf25913107c5a5937ecaa9a8</CRC>
+        <Timestamp>132008796443202624</Timestamp>
+        <Description>Disables the dimming when going into Sniper mode (ADS)</Description>
+      </Package>
+      <Package PackageName="IngameMisc_Auxilium_CombatMessages" Enabled="False" InstallGroup="4" PatchGroup="4" UID="vffsyvpqfq9jhqw9" Name="Disable Combat Messages (above minimap)" Type="multi" Visible="False">
+        <Size>461</Size>
+        <ZipFile>Ingame_Misc_Auxilium_CombatMessages_2019-04-27.zip</ZipFile>
+        <CRC>7f0dfeba3b790d404cf7778254ce0571</CRC>
+        <Timestamp>132008794561201056</Timestamp>
+        <Description>Disables the combat messages that show above the minimap.</Description>
+      </Package>
+      <Package PackageName="IngameMisc_Auxilium_DamageTimer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="84m76uvren11h239" Name="Damage Indicator Timer" Type="multi" Visible="True">
+        <CRC>f</CRC>
+        <Timestamp>132008789704290672</Timestamp>
+        <Description>This will change how long the damage indicator stays on screen. The defualt is 5.8</Description>
+        <Packages>
+          <Package PackageName="IngameMisc_Auxilium_DamageTimer_6" Enabled="True" InstallGroup="4" PatchGroup="4" UID="lttlet1sdjtjhea8" Name="6 Second" Type="single_dropdown1" Visible="True">
+            <Size>512</Size>
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_6_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>fbada95c42bd607c6df218a77e384e5f</CRC>
+            <Timestamp>132008791691685040</Timestamp>
+          </Package>
+          <Package PackageName="IngameMisc_Auxilium_DamageTimer_5" Enabled="True" InstallGroup="4" PatchGroup="4" UID="f7at6xrb82v8s6sm" Name="5 Second" Type="single_dropdown1" Visible="True">
+            <Size>512</Size>
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_5_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>3fbeb963dea2842558a2f8a0298c5904</CRC>
+            <Timestamp>132008791381330717</Timestamp>
+          </Package>
+          <Package PackageName="IngameMisc_Auxilium_DamageTimer_4" Enabled="True" InstallGroup="4" PatchGroup="4" UID="swh8exyc7zoqsizl" Name="4 Second" Type="single_dropdown1" Visible="True">
+            <Size>512</Size>
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_4_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>dcef80539c8c292cc6655ac811c91e4a</CRC>
+            <Timestamp>132008791089148433</Timestamp>
+          </Package>
+          <Package PackageName="IngameMisc_Auxilium_DamageTimer_3" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mbyf60nu2ipg3bhz" Name="3 Second" Type="single_dropdown1" Visible="True">
+            <Size>511</Size>
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_3_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>69e55ae0ec5f17599b0ca914a2649745</CRC>
+            <Timestamp>132008790724859839</Timestamp>
+          </Package>
+          <Package PackageName="IngameMisc_Auxilium_DamageTimer_2" Enabled="True" InstallGroup="4" PatchGroup="4" UID="z05ue0uv1eix3npy" Name="2 Second" Type="single_dropdown1" Visible="True">
+            <Size>511</Size>
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_2_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>bc5d9c681a0afbf43ea688712e166794</CRC>
+            <Timestamp>132008790266450570</Timestamp>
+          </Package>
+          <Package PackageName="IngameMisc_Auxilium_DamageTimer_1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cpb9mz0w1aaf3ywy" Name="1 Second" Type="single_dropdown1" Visible="True">
+            <Size>511</Size>
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_1_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>fb54a42aa1128a50367366dcd4d36959</CRC>
+            <Timestamp>132008789950827760</Timestamp>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="IngameMisc_Auxilium_disableTDbreak" Enabled="True" InstallGroup="4" PatchGroup="4" UID="63tgd3qfwuc5freb" Name="Disable TD Break" Type="multi" Visible="True">
+        <Size>478</Size>
+        <ZipFile>Ingame_Misc_Auxilium_noHandbrake_19.16_PATCH_1.8.0.1_2020-03-18.zip</ZipFile>
+        <CRC>259eff51f1db7203d69639b2c6def981</CRC>
+        <Timestamp>132290355093099526</Timestamp>
+        <Description>Disables the TD break</Description>
+      </Package>
+      <Package PackageName="IngameMisc_Auxilium_EnableHStab" Enabled="True" InstallGroup="4" PatchGroup="4" UID="js0vl2wgvq4me3lb" Name="Enable Horizonal Stabilizer on all tanks" Type="multi" Visible="True">
+        <Size>494</Size>
+        <ZipFile>Ingame_Misc_Auxilium_Hstab_PATCH_1.5_2019-05-23.zip</ZipFile>
+        <CRC>63d633428afe8ef353f3e92422c8f221</CRC>
+        <Timestamp>132031083160019939</Timestamp>
+        <Description>Enables Hstab on all tanks.</Description>
+      </Package>
+      <Package PackageName="IngameMisc_Auxilium_disableDynamicPlatoonMessages" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wh6au22humx4efsb" Name="Disable dynamic platoon messages" Type="multi" Visible="True">
+        <Size>1946</Size>
+        <ZipFile>Ingame_Misc_Auxilium_disable_dynamic_platoon_messages_2018-07-04_patch.zip</ZipFile>
+        <CRC>0b0850c9bc2c3447d06e6b718715f685</CRC>
+        <Timestamp>131752253550593831</Timestamp>
+      </Package>
+      <Package PackageName="IngameMisc_Auxilium_disableGraphicsSettingsWindow" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qwohl6s0p5yuq8ao" Name="Disable graphics settings window at battle start" Type="multi" Visible="True">
+        <Size>1940</Size>
+        <ZipFile>Ingame_Misc_Auxilium_disable_annoying_graphics_settings_window_2018-07-04_patch.zip</ZipFile>
+        <CRC>5785490df422fa0100757ba67fee620b</CRC>
+        <Timestamp>131752253690944721</Timestamp>
+        <Description>Disable the window, "you can adjust the brightness and contrast settings..."</Description>
+      </Package>
+      <Package PackageName="IngameMisc_Auxilium_Speedometer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3luwt5y1o2rbqjho" Name="SpeedoMeter" Type="multi" Visible="True">
+        <CRC>f</CRC>
+        <Timestamp>132008798611194498</Timestamp>
+        <Packages>
+          <Package PackageName="IngameMisc_Auxilium_Speedometer_All" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xzc3l9okjlt11cz1" Name="SpeedoMeter For All Tanks" Type="single_dropdown1" Visible="True">
+            <Size>485</Size>
+            <ZipFile>Ingame_Misc_Auxilium_Speedometer_ALL_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>f1cb38d4e616491b49c9c40f3a73d562</CRC>
+            <Timestamp>132008799633517537</Timestamp>
+            <Description>Adds the speed o meter to all tanks.</Description>
+          </Package>
+          <Package PackageName="IngameMisc_Auxilium_Speedometer_Disable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="aoiit8ulihlj1o61" Name="Disable SpeedoMeter" Type="single_dropdown1" Visible="True">
+            <Size>493</Size>
+            <ZipFile>Ingame_Misc_Auxilium_Speedometer_DISABLE_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>c8d74ebd0f5ed4c981485822b0359a6b</CRC>
+            <Timestamp>132008799145549200</Timestamp>
+            <Description>This will disable the speed o meter</Description>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="IngameMisc_Auxilium_disablePostmortemTips" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ndpx180mhed010e0" Name="Disable postmortem tips" Type="multi" Visible="True">
+        <Size>1885</Size>
+        <ZipFile>Ingame_Misc_Auxilium_disable_postmortem_tips_2018-07-04_patch.zip</ZipFile>
+        <CRC>f9fd4470dda839606338faf55d4f37b6</CRC>
+        <Timestamp>131752253817540015</Timestamp>
+        <Description>Disable display of tips and of who killed you</Description>
+      </Package>
+    </Packages>
+  </Package>
   <Package PackageName="IngameMisc_BaseCap" Enabled="True" InstallGroup="4" PatchGroup="4" UID="hs65tcq5cxfqcswe" Name="BaseCap" Type="multi" Visible="True">
     <Packages>
       <Package PackageName="IngameMisc_BaseCap_Circles" Enabled="True" InstallGroup="4" PatchGroup="4" UID="uhdj1bw6ct88c43d" Name="BaseCap Circles" Type="multi" Visible="True">
@@ -2714,180 +2888,6 @@
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_You_Died_by_goofy67_and_budyx69_01.jpg" MediaType="Picture" />
           <Media URL="https://youtu.be/j_nV2jcTFvA" MediaType="Webpage" />
         </Medias>
-      </Package>
-    </Packages>
-  </Package>
-  <Package PackageName="IngameMisc_Auxilium" Enabled="False" InstallGroup="4" PatchGroup="4" UID="qclwqizh34398wwt" Name="Auxilium Ingame Settings v{version}" Type="multi" Visible="False">
-    <Version>19.16</Version>
-    <Timestamp>131739994130833418</Timestamp>
-    <DevURL>https://wgmods.net/41/details</DevURL>
-    <Description>This is a small service mod to create more comfortable conditions of the game.\n\nCurrent features:\nThe function “PreferredServer” - job server for the login and remembering user’s choice;\nThe function “saveLastServer” - remembering the last server which was played by the player;\nThe function “AutoEquip” - automatic installation of removable equipment for the selected tank;\nThe function “AutoOutfit” - automatic installation of the equipment for the selected tank (first aid Kit, repair Kit, fire extinguisher, etc.);\nThe function “AutoCrew” - automatic return of the last of the crew to the selected tank;\nThe function “Region Changer (Multi-client)” - the ability to play on all WoT clusters with one client.\nThe function “Circle of the dispersion” of the gun - displays the real circle of the dispersion of the gun.\nThe function “Server Sight” - displays the position of the sight on the server.\nThe function “Carousel of tanks” - adjustment of tank carousel\nThe option to disable the Handbrake in sniper mode;\nSeting the duration of display light bulbs “6th sense”;\nSeting the duration of displaying indicators of attack;\nFunction disable effect of hit of a shell in you;\nFunction disable flash effect when a shell hit you;\nFunction disable of the effect of the inertia of the camera;\nFunction disable of the recoil effect from the shot;\nThe disabling effect of the blackout in the sniper scope;\nFunction to enable horizontal stabilization for all tanks;\nSeting the list of values zoom in sniper mode;\nSeting fixed zoom value at switching in sniper mode;\nSetting the “camera height” above the tank;\nSetting the range of variation of the distance of the camera;\nSpecifies the size of the players panel at boot and the beginning of the battle;\nFunction “Contacts” - the allocation of the player from a predefined list to the contact list on the loading screen and “ears\n\r\n\r\nby ShuraBB\r\n\nForum Link: http://forum.worldoftanks.eu/index.php?/topic/596487-mod-auxilium-autoequip-autocrew-autocamo-autohandbrake-region-changer-and-more/#topmost\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
-    <PopularMod>True</PopularMod>
-    <ObfuscatedMod>True</ObfuscatedMod>
-    <UserFiles>
-      <UserFile Pattern="\res_mods\configs\BBMods\Auxilium.dat" />
-    </UserFiles>
-    <Dependencies>
-      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-    </Dependencies>
-    <Packages>
-      <Package PackageName="IngameMisc_Auxilium_2MinuteWarning" Enabled="False" InstallGroup="4" PatchGroup="4" UID="kr23imp0yn5yjpe7" Name="Disable 2 Minute Warning" Type="multi" Visible="False">
-        <Size>462</Size>
-        <ZipFile>Ingame_Misc_Auxilium_2MinuteWarningDisable_2019-04-27.zip</ZipFile>
-        <CRC>6590474eed0339cdd349ee52b82d28a3</CRC>
-        <Timestamp>132008797629532862</Timestamp>
-        <Description>Disables the 2 minute warning before the end of the battle</Description>
-      </Package>
-      <Package PackageName="IngameMisc_Auxilium_6thSense" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xg9iqlv1xjygj1l6" Name="Sixth Sense Duration (Don't use with the 6th sense category)" Type="multi" Visible="True">
-        <Size>526</Size>
-        <ZipFile>Ingame_Misc_Auxilium_6thSense_enable_patch_1.7.0.2_2019-12-23.zip</ZipFile>
-        <CRC>cc252cf7e35a70ad70b9e6fdeaca525a</CRC>
-        <Timestamp>132216090469603273</Timestamp>
-        <Description>Sets the 6th sense duration in seconds.</Description>
-        <Packages>
-          <Package PackageName="IngameMisc_Auxilium_6thSense_5" Enabled="True" InstallGroup="4" PatchGroup="4" UID="a5fxyl12xgqyjcs6" Name="5" Type="single_dropdown1" Visible="True">
-            <Size>518</Size>
-            <ZipFile>Ingame_Misc_Auxilium_6thSense_5_1.7.0.2_2019-12-23.zip</ZipFile>
-            <CRC>d4a6b1aa01d2a9cd9cc2018d2b5d2c82</CRC>
-            <Timestamp>132216090550451905</Timestamp>
-          </Package>
-          <Package PackageName="IngameMisc_Auxilium_6thSense_7" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4jx4qprlrzsnv5aj" Name="7" Type="single_dropdown1" Visible="True">
-            <Size>518</Size>
-            <ZipFile>Ingame_Misc_Auxilium_6thSense_7_1.7.0.2_2019-12-23.zip</ZipFile>
-            <CRC>19870f862fcb41b466648415dadc3da2</CRC>
-            <Timestamp>132216090606677569</Timestamp>
-          </Package>
-          <Package PackageName="IngameMisc_Auxilium_6thSense_10" Enabled="True" InstallGroup="4" PatchGroup="4" UID="h83jyoxmrvk5vhhj" Name="10" Type="single_dropdown1" Visible="True">
-            <Size>521</Size>
-            <ZipFile>Ingame_Misc_Auxilium_6thSense_10_1.7.0.2_2019-12-23.zip</ZipFile>
-            <CRC>c8b314a19291c6268f97c9f8134e3b2a</CRC>
-            <Timestamp>132216090693086961</Timestamp>
-          </Package>
-          <Package PackageName="IngameMisc_Auxilium_6thSense_12" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bmlqqsn5memu6azw" Name="12" Type="single_dropdown1" Visible="True">
-            <Size>520</Size>
-            <ZipFile>Ingame_Misc_Auxilium_6thSense_12_1.7.0.2_2019-12-23.zip</ZipFile>
-            <CRC>2c3bd604f841989ef34ee0a25c5dc94f</CRC>
-            <Timestamp>132216090751675310</Timestamp>
-          </Package>
-          <Package PackageName="IngameMisc_Auxilium_6thSense_14" Enabled="True" InstallGroup="4" PatchGroup="4" UID="obr5yrt6lbec6m7w" Name="14" Type="single_dropdown1" Visible="True">
-            <Size>521</Size>
-            <ZipFile>Ingame_Misc_Auxilium_6thSense_14_1.7.0.2_2019-12-23.zip</ZipFile>
-            <CRC>173547ea77f4dcfab9745b7b7bc47de2</CRC>
-            <Timestamp>132216090811494923</Timestamp>
-          </Package>
-        </Packages>
-      </Package>
-      <Package PackageName="IngameMisc_Auxilium_SniperShadowing" Enabled="False" InstallGroup="4" PatchGroup="4" UID="10yk6rz7k77u6xew" Name="Disable Sniper Shadowing" Type="multi" Visible="False">
-        <Size>456</Size>
-        <ZipFile>Ingame_Misc_Auxilium_BinoDimming_2019-04-27.zip</ZipFile>
-        <CRC>01c9dc86bf25913107c5a5937ecaa9a8</CRC>
-        <Timestamp>132008796443202624</Timestamp>
-        <Description>Disables the dimming when going into Sniper mode (ADS)</Description>
-      </Package>
-      <Package PackageName="IngameMisc_Auxilium_CombatMessages" Enabled="False" InstallGroup="4" PatchGroup="4" UID="vffsyvpqfq9jhqw9" Name="Disable Combat Messages (above minimap)" Type="multi" Visible="False">
-        <Size>461</Size>
-        <ZipFile>Ingame_Misc_Auxilium_CombatMessages_2019-04-27.zip</ZipFile>
-        <CRC>7f0dfeba3b790d404cf7778254ce0571</CRC>
-        <Timestamp>132008794561201056</Timestamp>
-        <Description>Disables the combat messages that show above the minimap.</Description>
-      </Package>
-      <Package PackageName="IngameMisc_Auxilium_DamageTimer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="84m76uvren11h239" Name="Damage Indicator Timer" Type="multi" Visible="True">
-        <CRC>f</CRC>
-        <Timestamp>132008789704290672</Timestamp>
-        <Description>This will change how long the damage indicator stays on screen. The defualt is 5.8</Description>
-        <Packages>
-          <Package PackageName="IngameMisc_Auxilium_DamageTimer_6" Enabled="True" InstallGroup="4" PatchGroup="4" UID="lttlet1sdjtjhea8" Name="6 Second" Type="single_dropdown1" Visible="True">
-            <Size>512</Size>
-            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_6_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
-            <CRC>fbada95c42bd607c6df218a77e384e5f</CRC>
-            <Timestamp>132008791691685040</Timestamp>
-          </Package>
-          <Package PackageName="IngameMisc_Auxilium_DamageTimer_5" Enabled="True" InstallGroup="4" PatchGroup="4" UID="f7at6xrb82v8s6sm" Name="5 Second" Type="single_dropdown1" Visible="True">
-            <Size>512</Size>
-            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_5_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
-            <CRC>3fbeb963dea2842558a2f8a0298c5904</CRC>
-            <Timestamp>132008791381330717</Timestamp>
-          </Package>
-          <Package PackageName="IngameMisc_Auxilium_DamageTimer_4" Enabled="True" InstallGroup="4" PatchGroup="4" UID="swh8exyc7zoqsizl" Name="4 Second" Type="single_dropdown1" Visible="True">
-            <Size>512</Size>
-            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_4_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
-            <CRC>dcef80539c8c292cc6655ac811c91e4a</CRC>
-            <Timestamp>132008791089148433</Timestamp>
-          </Package>
-          <Package PackageName="IngameMisc_Auxilium_DamageTimer_3" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mbyf60nu2ipg3bhz" Name="3 Second" Type="single_dropdown1" Visible="True">
-            <Size>511</Size>
-            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_3_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
-            <CRC>69e55ae0ec5f17599b0ca914a2649745</CRC>
-            <Timestamp>132008790724859839</Timestamp>
-          </Package>
-          <Package PackageName="IngameMisc_Auxilium_DamageTimer_2" Enabled="True" InstallGroup="4" PatchGroup="4" UID="z05ue0uv1eix3npy" Name="2 Second" Type="single_dropdown1" Visible="True">
-            <Size>511</Size>
-            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_2_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
-            <CRC>bc5d9c681a0afbf43ea688712e166794</CRC>
-            <Timestamp>132008790266450570</Timestamp>
-          </Package>
-          <Package PackageName="IngameMisc_Auxilium_DamageTimer_1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cpb9mz0w1aaf3ywy" Name="1 Second" Type="single_dropdown1" Visible="True">
-            <Size>511</Size>
-            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_1_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
-            <CRC>fb54a42aa1128a50367366dcd4d36959</CRC>
-            <Timestamp>132008789950827760</Timestamp>
-          </Package>
-        </Packages>
-      </Package>
-      <Package PackageName="IngameMisc_Auxilium_disableTDbreak" Enabled="True" InstallGroup="4" PatchGroup="4" UID="63tgd3qfwuc5freb" Name="Disable TD Break" Type="multi" Visible="True">
-        <Size>478</Size>
-        <ZipFile>Ingame_Misc_Auxilium_noHandbrake_19.16_PATCH_1.8.0.1_2020-03-18.zip</ZipFile>
-        <CRC>259eff51f1db7203d69639b2c6def981</CRC>
-        <Timestamp>132290355093099526</Timestamp>
-        <Description>Disables the TD break</Description>
-      </Package>
-      <Package PackageName="IngameMisc_Auxilium_EnableHStab" Enabled="True" InstallGroup="4" PatchGroup="4" UID="js0vl2wgvq4me3lb" Name="Enable Horizonal Stabilizer on all tanks" Type="multi" Visible="True">
-        <Size>494</Size>
-        <ZipFile>Ingame_Misc_Auxilium_Hstab_PATCH_1.5_2019-05-23.zip</ZipFile>
-        <CRC>63d633428afe8ef353f3e92422c8f221</CRC>
-        <Timestamp>132031083160019939</Timestamp>
-        <Description>Enables Hstab on all tanks.</Description>
-      </Package>
-      <Package PackageName="IngameMisc_Auxilium_disableDynamicPlatoonMessages" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wh6au22humx4efsb" Name="Disable dynamic platoon messages" Type="multi" Visible="True">
-        <Size>1946</Size>
-        <ZipFile>Ingame_Misc_Auxilium_disable_dynamic_platoon_messages_2018-07-04_patch.zip</ZipFile>
-        <CRC>0b0850c9bc2c3447d06e6b718715f685</CRC>
-        <Timestamp>131752253550593831</Timestamp>
-      </Package>
-      <Package PackageName="IngameMisc_Auxilium_disableGraphicsSettingsWindow" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qwohl6s0p5yuq8ao" Name="Disable graphics settings window at battle start" Type="multi" Visible="True">
-        <Size>1940</Size>
-        <ZipFile>Ingame_Misc_Auxilium_disable_annoying_graphics_settings_window_2018-07-04_patch.zip</ZipFile>
-        <CRC>5785490df422fa0100757ba67fee620b</CRC>
-        <Timestamp>131752253690944721</Timestamp>
-        <Description>Disable the window, "you can adjust the brightness and contrast settings..."</Description>
-      </Package>
-      <Package PackageName="IngameMisc_Auxilium_Speedometer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3luwt5y1o2rbqjho" Name="SpeedoMeter" Type="multi" Visible="True">
-        <CRC>f</CRC>
-        <Timestamp>132008798611194498</Timestamp>
-        <Packages>
-          <Package PackageName="IngameMisc_Auxilium_Speedometer_All" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xzc3l9okjlt11cz1" Name="SpeedoMeter For All Tanks" Type="single_dropdown1" Visible="True">
-            <Size>485</Size>
-            <ZipFile>Ingame_Misc_Auxilium_Speedometer_ALL_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
-            <CRC>f1cb38d4e616491b49c9c40f3a73d562</CRC>
-            <Timestamp>132008799633517537</Timestamp>
-            <Description>Adds the speed o meter to all tanks.</Description>
-          </Package>
-          <Package PackageName="IngameMisc_Auxilium_Speedometer_Disable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="aoiit8ulihlj1o61" Name="Disable SpeedoMeter" Type="single_dropdown1" Visible="True">
-            <Size>493</Size>
-            <ZipFile>Ingame_Misc_Auxilium_Speedometer_DISABLE_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
-            <CRC>c8d74ebd0f5ed4c981485822b0359a6b</CRC>
-            <Timestamp>132008799145549200</Timestamp>
-            <Description>This will disable the speed o meter</Description>
-          </Package>
-        </Packages>
-      </Package>
-      <Package PackageName="IngameMisc_Auxilium_disablePostmortemTips" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ndpx180mhed010e0" Name="Disable postmortem tips" Type="multi" Visible="True">
-        <Size>1885</Size>
-        <ZipFile>Ingame_Misc_Auxilium_disable_postmortem_tips_2018-07-04_patch.zip</ZipFile>
-        <CRC>f9fd4470dda839606338faf55d4f37b6</CRC>
-        <Timestamp>131752253817540015</Timestamp>
-        <Description>Disable display of tips and of who killed you</Description>
       </Package>
     </Packages>
   </Package>
