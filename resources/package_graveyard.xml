@@ -3,6 +3,24 @@
   <!-- This is the package graveyard. Removed packages can live here with a reason as to why they were removed.
        The idea is that if we ever need them again, we can get them from here to re-add them back in (Revive). -->
   <removed_packages>
+  <Package PackageName="IngameMisc_Antitoxicity" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mrvuadvchguvm034" Name="Antitoxicity [by {author}]" Type="multi" Visible="True">
+    <Size>33375</Size>
+    <CRC>f</CRC>
+    <Timestamp>132001693146314984</Timestamp>
+    <DevURL>https://wgmods.net/68/details</DevURL>
+    <Author>ShuraBB</Author>
+    <Description>**Please note that not all features are currently implimented into the modpack.**\n\nFashion features:\nFiltering "combat commands" (Attention to the square, Need help, Attack, etc.) \nFiltering messages from commands in the chat \nFiltering the clicks on the minimap \nFiltering the display of commands on the minimap \nConfigure the filter restrictions (command type, count, time delay, type of combat) \nAbility to block commands from killed allies \nSetting the flashing time of the highlighted square on the minimap \nFiltering messages in the combat chat \nFiltering the message according to the specified pattern, including using regular expressions\nThe ability to block the message From dead players \nAutocorrect a message for a given template\nSetting the filter limits (number, time delay, type of battle) \nSetting the time of the message display and the time of its "dissolving" \nAbility to completely turn off the chat in the replicas \nDimensionless "black list" \nDimension list of friends \nDynamic platoon \nmessage filter Customizable filter of pop-up messages in the hangar \nCustomizable filter messages in the system channel, including using regular expressions \nCustomizable message filter above the minimap \nCustomizable message filter above the hardware panel \nAbout deletion of the message about the destruction of the tank: "The machine is destroyed ..."; \nDisabling the posthumous prompt panel;\n\r\nby ShuraBB\r\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
+    <Medias>
+      <Media URL="https://wgmods.net/media/Desc_SystemMessages.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+      <Media URL="https://wgmods.net/media/Desc_Duration.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+      <Media URL="https://wgmods.net/media/Desc_Chat.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+      <Media URL="https://wgmods.net/media/Chat.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+    </Medias>
+    <Dependencies>
+      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_ShuraBB_Antitoxicity" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
     <Dependency PackageName="Dependency_WG_StockLoadingWaitingSWF" Enabled="True" InstallGroup="2" PatchGroup="2">
       <Size>1192980</Size>
       <ZipFile>Dependency_WG_StockLoadingWaitingSWF_2020-03-15.zip</ZipFile>
