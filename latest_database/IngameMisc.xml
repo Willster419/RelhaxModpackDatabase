@@ -1,49 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Ingame Misc">
-  <Package PackageName="IngameMisc_Antitoxicity" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mrvuadvchguvm034" Name="Antitoxicity [by {author}]" Type="multi" Visible="True">
-    <Size>33375</Size>
-    <CRC>f</CRC>
-    <Timestamp>132001693146314984</Timestamp>
-    <DevURL>https://wgmods.net/68/details</DevURL>
-    <Author>ShuraBB</Author>
-    <Description>**Please note that not all features are currently implimented into the modpack.**\n\nFashion features:\nFiltering "combat commands" (Attention to the square, Need help, Attack, etc.) \nFiltering messages from commands in the chat \nFiltering the clicks on the minimap \nFiltering the display of commands on the minimap \nConfigure the filter restrictions (command type, count, time delay, type of combat) \nAbility to block commands from killed allies \nSetting the flashing time of the highlighted square on the minimap \nFiltering messages in the combat chat \nFiltering the message according to the specified pattern, including using regular expressions\nThe ability to block the message From dead players \nAutocorrect a message for a given template\nSetting the filter limits (number, time delay, type of battle) \nSetting the time of the message display and the time of its "dissolving" \nAbility to completely turn off the chat in the replicas \nDimensionless "black list" \nDimension list of friends \nDynamic platoon \nmessage filter Customizable filter of pop-up messages in the hangar \nCustomizable filter messages in the system channel, including using regular expressions \nCustomizable message filter above the minimap \nCustomizable message filter above the hardware panel \nAbout deletion of the message about the destruction of the tank: "The machine is destroyed ..."; \nDisabling the posthumous prompt panel;\n\r\nby ShuraBB\r\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
-    <Medias>
-      <Media URL="https://wgmods.net/media/Desc_SystemMessages.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/Desc_Duration.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/Desc_Chat.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/Chat.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_ShuraBB_Antitoxicity" NotFlag="False" Logic="OR" />
-    </Dependencies>
-    <Packages>
-      <Package PackageName="IngameMisc_Antitoxicity_disableOwnMessages" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zg28ic1cgcncmba4" Name="Disable own messages" Type="multi" Visible="True">
-        <Size>555</Size>
-        <ZipFile>Ingame_Info_Antitoxicity_disable_showing_of_own_messages_2018-07-05.zip</ZipFile>
-        <CRC>6d791d66771d8ddc0f76f7389ba87495</CRC>
-        <Timestamp>131752801452507852</Timestamp>
-      </Package>
-      <Package PackageName="IngameMisc_Antitoxicity_disableReplayChat" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tvjgagrvbvp2x4sh" Name="Disable replay chat" Type="multi" Visible="True">
-        <Size>519</Size>
-        <ZipFile>Ingame_Info_Antitoxicity_disable_replay_chat_2018-07-05.zip</ZipFile>
-        <CRC>44a47d5ced44782636786c8d23e98694</CRC>
-        <Timestamp>131752801547915887</Timestamp>
-      </Package>
-      <Package PackageName="IngameMisc_Antitoxicity_blockMinimapSpamRepeat" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6kqvifxwashkxg0h" Name="Block minimap spam click after 3 repeats" Type="multi" Visible="True">
-        <Size>674</Size>
-        <ZipFile>Ingame_Info_Antitoxicity_block_minimap_spam_repeat_2018-07-05.zip</ZipFile>
-        <CRC>c93ec33abf290f3582ae3a34a1e73aaf</CRC>
-        <Timestamp>131752801765969869</Timestamp>
-      </Package>
-      <Package PackageName="IngameMisc_Antitoxicity_blockDeadAlliesBattleChat" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0y72ajnf5bj989iu" Name="Block dead allies from battle chat" Type="multi" Visible="True">
-        <Size>700</Size>
-        <ZipFile>Ingame_Info_Antitoxicity_block_dead_allies_battle_chat_2018-07-05.zip</ZipFile>
-        <CRC>63eb81a2db16432b31361f8f3988de6d</CRC>
-        <Timestamp>131752801989152789</Timestamp>
-      </Package>
-    </Packages>
-  </Package>
   <Package PackageName="IngameMisc_ArtyAndSiegeFilter" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dnehijtg47br8kpu" Name="Arty and Siege Filter (remove hint on battle start) [by {author}]" Type="multi" Visible="True">
     <Size>4184</Size>
     <Version>1.7.0.0_2019-12-09</Version>
@@ -1395,6 +1351,36 @@
           <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
+      <Package PackageName="IngameMisc_Chatmods_AntitoxicityDisableOwnMessages" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zg28ic1cgcncmba4" Name="Disable own messages [Antitoxicity by ShuraBB]" Type="multi" Visible="True">
+        <Size>555</Size>
+        <ZipFile>Ingame_Info_Antitoxicity_disable_showing_of_own_messages_2018-07-05.zip</ZipFile>
+        <CRC>6d791d66771d8ddc0f76f7389ba87495</CRC>
+        <Timestamp>131752801452507852</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Antitoxicity" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="IngameMisc_Chatmods_AntitoxicityDisableReplayChat" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tvjgagrvbvp2x4sh" Name="Disable replay chat [Antitoxicity by ShuraBB]" Type="multi" Visible="True">
+        <Size>519</Size>
+        <ZipFile>Ingame_Info_Antitoxicity_disable_replay_chat_2018-07-05.zip</ZipFile>
+        <CRC>44a47d5ced44782636786c8d23e98694</CRC>
+        <Timestamp>131752801547915887</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Antitoxicity" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="IngameMisc_Chatmods_AntitoxicityBlockDeadAlliesBattleChat" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0y72ajnf5bj989iu" Name="Block dead allies from battle chat [Antitoxicity by ShuraBB]" Type="multi" Visible="True">
+        <Size>700</Size>
+        <ZipFile>Ingame_Info_Antitoxicity_block_dead_allies_battle_chat_2018-07-05.zip</ZipFile>
+        <CRC>63eb81a2db16432b31361f8f3988de6d</CRC>
+        <Timestamp>131752801989152789</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Antitoxicity" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
       <Package PackageName="IngameMisc_Chatmods_elkrda" Enabled="True" InstallGroup="4" PatchGroup="4" UID="7p7u7a133s5lwsir" Name="Elkano's Received Damage Announcer (ElkRDA)" Type="multi" Visible="True">
         <Size>10985</Size>
         <ZipFile>Ingame_Misc_chatmods_ElkRDA_1.9_1.7.0.1_2019-12-13.zip</ZipFile>
@@ -2382,6 +2368,17 @@
               <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="IngameMisc_MinimapSpamProtector_Antitoxicity" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6kqvifxwashkxg0h" Name="Antitoxicity - Block minimap spam click after 3 repeats [by {author}]" Type="single_dropdown1" Visible="True">
+            <Size>674</Size>
+            <ZipFile>Ingame_Info_Antitoxicity_block_minimap_spam_repeat_2018-07-05.zip</ZipFile>
+            <CRC>c93ec33abf290f3582ae3a34a1e73aaf</CRC>
+            <Timestamp>131752801765969869</Timestamp>
+            <Author>ShuraBB</Author>
+            <Dependencies>
+              <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_ShuraBB_Antitoxicity" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
           <Package PackageName="IngameMisc_MinimapSpamProtector_Elkano" Enabled="True" InstallGroup="4" PatchGroup="4" UID="yee2va9salh2p398" Name="ElkMPSB" Type="single_dropdown1" Visible="True">
