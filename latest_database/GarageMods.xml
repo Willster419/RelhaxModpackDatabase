@@ -113,157 +113,6 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="GarageMods_autoEquipEquipment" Enabled="True" InstallGroup="4" PatchGroup="4" UID="b9h6pscmwhnalq5z" Name="Auto-equip removeable equipment [by {author}]" Type="multi" Visible="True">
-    <Size>30661</Size>
-    <Version>1.1.2</Version>
-    <ZipFile>GarageMods_autoEquipEquipment_v1.1.2_1.9.0.3_2020-05-15.zip</ZipFile>
-    <CRC>39f75f2ac47da1b77df8d3b2d6061594</CRC>
-    <Timestamp>132340146769951423</Timestamp>
-    <DevURL>https://wgmods.net/1022/details</DevURL>
-    <Author>OldSkool</Author>
-    <Description>Simple Mod to automatically mount and demount removable devices on vehicles.\r\n\r\nTeach this mod how it should work:\nEquipment from the previous vehicle will be mounted after battle on the next vehicle.\n(Binoculars, Toolbox and Camonet)\r\n\r\n by OldSkool</Description>
-    <ObfuscatedMod>True</ObfuscatedMod>
-    <Medias>
-      <Media URL="https://wgmods.net/media/autoequip_HycvqQW.png.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-    </Medias>
-    <UserFiles>
-      <UserFile Pattern="{app}\autoequip.json" />
-    </UserFiles>
-  </Package>
-  <Package PackageName="GarageMods_CrewAutoReturn" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5ozdgw25r0pzwjnc" Name="Crew auto-return [by {author}]" Type="multi" Visible="True">
-    <Size>46326</Size>
-    <Version>1.0.9</Version>
-    <ZipFile>GarageMods_CrewAutoReturn_v1.0.9_1.9.0.3_2020-05-15.zip</ZipFile>
-    <CRC>42f2404dcb58ae878c262db1aac6cabc</CRC>
-    <Timestamp>132340145242686253</Timestamp>
-    <DevURL>https://wgmods.net/3668/</DevURL>
-    <Author>OldSkool</Author>
-    <Description>OLDSKOOL'S AUTO RETURN CREW MOD\r\n... IS AN EXTENSION TO AUTOSWITCH YOUR CREWS BETWEEN TANKS.\r\n\r\n\r\nFEATURES:\r\n• Autoswitch your crews between tanks.\r\n• Easy enable or disable it for each of your tanks.\r\n• Over 10 languages aresupported for now.\r\n• Save configuration to safe file location to prevent issues.</Description>
-    <ObfuscatedMod>True</ObfuscatedMod>
-    <Medias>
-      <Media URL="https://wgmods.net/media/mod_files/Screenshot_2_BrmwiVY.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-    </Medias>
-  </Package>
-  <Package PackageName="GarageMods_Auxilium" Enabled="True" InstallGroup="4" PatchGroup="4" UID="id5spv86qwihwuuc" Name="Auxilium Garage Settings v{version} [by {author}]" Type="multi" Visible="True">
-    <Size>27857</Size>
-    <Version>19.16</Version>
-    <Timestamp>131712147301296122</Timestamp>
-    <DevURL>https://wgmods.net/41/details</DevURL>
-    <Author>ShuraBB</Author>
-    <Description>This is a small service mod to create more comfortable conditions of the game.\n\nCurrent features:\nThe function “PreferredServer” - job server for the login and remembering user’s choice;\nThe function “saveLastServer” - remembering the last server which was played by the player;\nThe function “AutoEquip” - automatic installation of removable equipment for the selected tank;\nThe function “AutoOutfit” - automatic installation of the equipment for the selected tank (first aid Kit, repair Kit, fire extinguisher, etc.);\nThe function “AutoCrew” - automatic return of the last of the crew to the selected tank;\nThe function “Region Changer (Multi-client)” - the ability to play on all WoT clusters with one client.\nThe function “Circle of the dispersion” of the gun - displays the real circle of the dispersion of the gun.\nThe function “Server Sight” - displays the position of the sight on the server.\nThe function “Carousel of tanks” - adjustment of tank carousel\nThe option to disable the Handbrake in sniper mode;\nSeting the duration of display light bulbs “6th sense”;\nSeting the duration of displaying indicators of attack;\nFunction disable effect of hit of a shell in you;\nFunction disable flash effect when a shell hit you;\nFunction disable of the effect of the inertia of the camera;\nFunction disable of the recoil effect from the shot;\nThe disabling effect of the blackout in the sniper scope;\nFunction to enable horizontal stabilization for all tanks;\nSeting the list of values zoom in sniper mode;\nSeting fixed zoom value at switching in sniper mode;\nSetting the “camera height” above the tank;\nSetting the range of variation of the distance of the camera;\nSpecifies the size of the players panel at boot and the beginning of the battle;\nFunction “Contacts” - the allocation of the player from a predefined list to the contact list on the loading screen and “ears” of commands.\nFunction setting default credits instead of gold for equipment, and ammunition\nFunction to disable the ability to use gold\nFunction of disabling the ability to use free experience\n\r\n\r\n by ShuraBB\n\nForum Link: http://forum.worldoftanks.eu/index.php?/topic/596487-mod-auxilium-autoequip-autocrew-autocamo-autohandbrake-region-changer-and-more/#topmost\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
-    <PopularMod>True</PopularMod>
-    <ObfuscatedMod>True</ObfuscatedMod>
-    <Medias>
-      <Media URL="https://wgmods.net/media/multi-client.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-    </Medias>
-    <UserFiles>
-      <UserFile Pattern="\res_mods\configs\BBMods\Auxilium.dat" />
-    </UserFiles>
-    <Dependencies>
-      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-    </Dependencies>
-    <Packages>
-      <Package PackageName="GarageMods_Auxilium_autoEquipEquipment" Enabled="True" InstallGroup="4" PatchGroup="4" UID="crn0gzyplgj78ncp" Name="Auto-equip removeable equipment" Type="multi" Visible="True">
-        <Size>1834</Size>
-        <ZipFile>Garage_mods_Auxilium_settings_auto_equip_equipment_2019-06-21_patch.zip</ZipFile>
-        <CRC>a74cb014ff46492de66ad5a9caad2037</CRC>
-        <Timestamp>131752254411479508</Timestamp>
-        <DevURL>https://wgmods.net/41/details</DevURL>
-        <Description>The function “AutoEquip” - automatic installation of removable equipment for the selected tank;\n\n"Teach" this mod how he should work:\nwhich automatic installation of removable equipment you wanna have on the tank - just put it on the tank the mod saves it</Description>
-        <UserFiles>
-          <UserFile Pattern="\mods\configs\BBMods\Auxilium.dat" />
-        </UserFiles>
-      </Package>
-      <Package PackageName="GarageMods_Auxilium_autoEquipConsumables" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pgufoy4qkcco8zjp" Name="Auto-Equip consumables" Type="multi" Visible="True">
-        <Size>1835</Size>
-        <ZipFile>Garage_mods_Auxilium_settings_auto_equip_consumables_2019-06-21_patch.zip</ZipFile>
-        <CRC>ec277ac25a21785237dbc3fdff1832c8</CRC>
-        <Timestamp>131752258379638709</Timestamp>
-        <DevURL>https://wgmods.net/41/details</DevURL>
-        <Description>The function “AutoOutfit” - automatic installation of the equipment for the selected tank (first aid Kit, repair Kit, fire extinguisher, etc.);</Description>
-      </Package>
-      <Package PackageName="GarageMods_Auxilium_autoCrewReturn" Enabled="True" InstallGroup="4" PatchGroup="4" UID="250uwyarj8468bqp" Name="Auto crew return" Type="multi" Visible="True">
-        <Size>2614</Size>
-        <ZipFile>Garage_mods_Auxilium_settings_auto_crew_return_2018-07-04_patch.zip</ZipFile>
-        <CRC>4d9e2be1b830515be011a1c9c6b9c0a5</CRC>
-        <Timestamp>132009367406356799</Timestamp>
-        <DevURL>https://wgmods.net/41/details</DevURL>
-        <Description>The function “AutoCrew” - automatic return of the last of the crew to the selected tank;</Description>
-      </Package>
-      <Package PackageName="GarageMods_Auxilium_GoldLocker" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wji1o20aes6wj482" Name="Gold Locker" Type="multi" Visible="True">
-        <Size>529</Size>
-        <ZipFile>Garage_mods_Auxilium_settings_Gold_Locker_1.7.0.2_2019-12-24.zip</ZipFile>
-        <CRC>662a0fed382aacc700424b67d721681b</CRC>
-        <Timestamp>132216941028042946</Timestamp>
-        <Description>Prevents the use of Gold</Description>
-      </Package>
-      <Package PackageName="GarageMods_Auxilium_FreeXPLocker" Enabled="True" InstallGroup="4" PatchGroup="4" UID="98ogw16bdoydjfg2" Name="Free XP Locker" Type="multi" Visible="True">
-        <Size>534</Size>
-        <ZipFile>Garage_mods_Auxilium_settings_FreeXP_Locker_1.7.0.2_2019-12-24.zip</ZipFile>
-        <CRC>e1889abf60942569d768b1e6ee3e45a8</CRC>
-        <Timestamp>132216941120437037</Timestamp>
-        <Description>Prevents the use of Free XP.</Description>
-      </Package>
-      <Package PackageName="GarageMods_Auxilium_noStatsBtn" Enabled="False" InstallGroup="4" PatchGroup="4" UID="mxvv40ccdkrvjrn1" Name="remove wargaming statistics button" Type="multi" Visible="False">
-        <Size>471</Size>
-        <ZipFile>Garage_Mods_Auxilium_noStatsBtn_PATCH_2019-06-28.zip</ZipFile>
-        <CRC>41cbec6e9424d07e1ab772a3ffcedbc4</CRC>
-        <Timestamp>132061866032223570</Timestamp>
-        <DevURL>https://wgmods.net/41/details</DevURL>
-        <Description>this allows you to remove the button for displaying the statistics of WG</Description>
-        <Medias>
-          <Media URL="https://wgmods.net/media/mod_files/post-25106393-0-35206100-1560544539.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-        </Medias>
-      </Package>
-      <Package PackageName="GarageMods_Auxilium_removeRemovableEquip" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gcc2w42u73tluk5e" Name="Add L_CTRL+R keys to remove all removable equipment" Type="multi" Visible="True">
-        <Size>866</Size>
-        <ZipFile>Garage_mods_Auxilium_settings_remove_removable_equipment_2018-07-04_patch.zip</ZipFile>
-        <CRC>aa6bc7495ede0978c7c1593d07626442</CRC>
-        <Timestamp>131752273503558232</Timestamp>
-        <DevURL>https://wgmods.net/41/details</DevURL>
-        <Description>Pressing left CTRL + R in the garage will remove all removable equipment from all your tanks. It will NOT remove "Complex Equipment" (Equipment that needs gold to be un-mounted)</Description>
-      </Package>
-      <Package PackageName="GarageMods_Auxilium_preferedServer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="t1jh448v70l2uwce" Name="Save last server" Type="multi" Visible="True">
-        <Size>2716</Size>
-        <ZipFile>Garage_mods_Auxilium_settings_prefered_server_2018-07-04_patch.zip</ZipFile>
-        <CRC>f708b2c03e355a2fb2d32ec13101e052</CRC>
-        <Timestamp>132009367543869920</Timestamp>
-        <DevURL>https://wgmods.net/41/details</DevURL>
-        <Description>The function “saveLastServer” - remembering the last server which was played by the player;</Description>
-      </Package>
-      <Package PackageName="GarageMods_Auxilium_Carousel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nf0ow8ye1jns5our" Name="Carousel" Type="multi" Visible="True">
-        <CRC>f</CRC>
-        <Timestamp>132207059492195487</Timestamp>
-        <Packages>
-          <Package PackageName="GarageMods_Auxilium_Carousel_Small" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0473475f1ffa501r" Name="Enable Small" Type="multi" Visible="True">
-            <Size>556</Size>
-            <ZipFile>Garage_Mods_Carousel_Small_1.7.0.2_2019-12-23.zip</ZipFile>
-            <CRC>418779eb0aeb2b0e5a710fe8cc939302</CRC>
-            <Timestamp>132216234504703882</Timestamp>
-          </Package>
-          <Package PackageName="GarageMods_Auxilium_Carousel_3" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dteic6bg0c7r5c8r" Name="3 Rows" Type="single_dropdown1" Visible="True">
-            <Size>535</Size>
-            <ZipFile>Garage_Mods_Carousel_3_1.7.0.2_2019-12-23.zip</ZipFile>
-            <CRC>4aad6db9944d0e3690bd369f0194c6e9</CRC>
-            <Timestamp>132216237173896882</Timestamp>
-          </Package>
-          <Package PackageName="GarageMods_Auxilium_Carousel_4" Enabled="True" InstallGroup="4" PatchGroup="4" UID="78vp4a1zvv9hg5q4" Name="4 Rows" Type="single_dropdown1" Visible="True">
-            <Size>535</Size>
-            <ZipFile>Garage_Mods_Carousel_4_1.7.0.2_2019-12-23.zip</ZipFile>
-            <CRC>b6c0bfe0ea02f2c4c8ed7700427752f1</CRC>
-            <Timestamp>132216237229464438</Timestamp>
-          </Package>
-          <Package PackageName="GarageMods_Auxilium_Carousel_5" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kx24ca70ur2zggx4" Name="5 Rows" Type="single_dropdown1" Visible="True">
-            <Size>535</Size>
-            <ZipFile>Garage_Mods_Carousel_5_1.7.0.2_2019-12-23.zip</ZipFile>
-            <CRC>877c63d2b60ef6960fc4c76d95b6bd4a</CRC>
-            <Timestamp>132216237264495185</Timestamp>
-          </Package>
-        </Packages>
-      </Package>
-    </Packages>
-  </Package>
   <Package PackageName="GarageMods_BattleHitsViewer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xm8jk9d1touggs54" Name="Battle Hits Viewer in Hangar v{version} [by {author}]" Type="multi" Visible="True">
     <Size>11843162</Size>
     <Version>1.5.0</Version>
@@ -326,6 +175,61 @@
       </Package>
     </Packages>
   </Package>
+  <Package PackageName="GarageMods_Consumables" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nsrx688i5xptommw" Name="Consumables" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132342596815110917</Timestamp>
+    <Packages>
+      <Package PackageName="GarageMods_Consumables_AutoEquip" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0xoqb28svdpi1wsk" Name="Auto-Equip consumables [by {author}]" Type="multi" Visible="True">
+        <ZipFile>GarageMods_Consumables_AutoEquip_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342604437633335</Timestamp>
+        <DevURL>https://wgmods.net/41/details</DevURL>
+        <Author>ShuraBB (Auxilium)</Author>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="GarageMods_CurrenciesLocker" Enabled="True" InstallGroup="4" PatchGroup="4" UID="i489m59vbg5rfl03" Name="Currencies Lockers (Safe your Money!)" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132342596815110917</Timestamp>
+    <Packages>
+      <Package PackageName="GarageMods_CurrenciesLocker_FreeXP" Enabled="True" InstallGroup="4" PatchGroup="4" UID="62jcgtulj6mf71q1" Name="Free XP Locker" Type="multi" Visible="True">
+        <ZipFile>GarageMods_CurrenciesLocker_FreeXP_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342608386764994</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="GarageMods_CurrenciesLocker_Gold" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ecdvdgqdl6fdyw3r" Name="Gold Locker" Type="multi" Visible="True">
+        <ZipFile>GarageMods_CurrenciesLocker_Gold_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342608213000234</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="GarageMods_CrewAutoReturn" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5ozdgw25r0pzwjnc" Name="Crew auto-return [by {author}]" Type="multi" Visible="True">
+    <Size>46326</Size>
+    <Version>1.0.9</Version>
+    <ZipFile>GarageMods_CrewAutoReturn_v1.0.9_1.9.0.3_2020-05-15.zip</ZipFile>
+    <CRC>42f2404dcb58ae878c262db1aac6cabc</CRC>
+    <Timestamp>132340145242686253</Timestamp>
+    <DevURL>https://wgmods.net/3668/</DevURL>
+    <Author>OldSkool</Author>
+    <Description>OLDSKOOL'S AUTO RETURN CREW MOD\r\n... IS AN EXTENSION TO AUTOSWITCH YOUR CREWS BETWEEN TANKS.\r\n\r\n\r\nFEATURES:\r\n• Autoswitch your crews between tanks.\r\n• Easy enable or disable it for each of your tanks.\r\n• Over 10 languages aresupported for now.\r\n• Save configuration to safe file location to prevent issues.</Description>
+    <ObfuscatedMod>True</ObfuscatedMod>
+    <Medias>
+      <Media URL="https://wgmods.net/media/mod_files/Screenshot_2_BrmwiVY.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+    </Medias>
+  </Package>
   <Package PackageName="GarageMods_CrewExtended" Enabled="True" InstallGroup="4" PatchGroup="4" UID="iw9ekj1pbyd2e686" Name="Crew Extended (shows XP for leveling) [by {author}]" Type="multi" Visible="True">
     <Size>11665</Size>
     <CRC>f</CRC>
@@ -368,6 +272,65 @@
       </Package>
     </Packages>
   </Package>
+  <Package PackageName="GarageMods_Equipment" Enabled="True" InstallGroup="4" PatchGroup="4" UID="etd8v08tvmypip73" Name="Equipment" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132342596815110917</Timestamp>
+    <Packages>
+      <Package PackageName="GarageMods_Equipment_autoEquip" Enabled="True" InstallGroup="4" PatchGroup="4" UID="b9h6pscmwhnalq5z" Name="Auto-equip removeable equipment" Type="multi" Visible="True">
+        <Size>30661</Size>
+        <CRC>f</CRC>
+        <Timestamp>132342596815110917</Timestamp>
+        <ObfuscatedMod>True</ObfuscatedMod>
+        <Packages>
+          <Package PackageName="GarageMods_Equipment_autoEquip_Auxilium" Enabled="True" InstallGroup="4" PatchGroup="4" UID="crn0gzyplgj78ncp" Name=" [by {author}]" Type="single_dropdown1" Visible="True">
+            <Size>1834</Size>
+            <ZipFile>GarageMods_autoEquipEquipment_Auxilium_2020-05-17.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132342597881668257</Timestamp>
+            <DevURL>https://wgmods.net/41/details</DevURL>
+            <Author>ShuraBB (Auxilium)</Author>
+            <Description>The function “AutoEquip” - automatic installation of removable equipment for the selected tank;\n\n"Teach" this mod how he should work:\nwhich automatic installation of removable equipment you wanna have on the tank - just put it on the tank the mod saves it</Description>
+            <UserFiles>
+              <UserFile Pattern="\mods\configs\BBMods\Auxilium.dat" />
+            </UserFiles>
+            <Dependencies>
+              <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="GarageMods_Equipment_autoEquip_OldSkool" Enabled="True" InstallGroup="4" PatchGroup="4" UID="fg8jggomj04gougd" Name="v{version} [by {author}]" Type="single_dropdown1" Visible="True">
+            <Version>1.1.2</Version>
+            <ZipFile>GarageMods_autoEquipEquipment_OldSkool_v1.1.2_1.9.0.3_2020-05-15.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132342599129979391</Timestamp>
+            <DevURL>https://wgmods.net/1022/details</DevURL>
+            <Author>OldSkool</Author>
+            <Description>Simple Mod to automatically mount and demount removable devices on vehicles.\r\n\r\nTeach this mod how it should work:\nEquipment from the previous vehicle will be mounted after battle on the next vehicle.\n(Binoculars, Toolbox and Camonet)\r\n\r\n by OldSkool</Description>
+            <Medias>
+              <Media URL="https://wgmods.net/media/autoequip_HycvqQW.png.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+            </Medias>
+            <UserFiles>
+              <UserFile Pattern="{app}\autoequip.json" />
+            </UserFiles>
+            <Dependencies>
+              <Dependency PackageName="Dependency_modsCore_Oldskool" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="GarageMods_Equipment_RemoveRemovable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zgbe0yv0x4i0zmu7" Name="Add L_CTRL+R keys to remove all removable equipment [by {author}]" Type="multi" Visible="True">
+        <ZipFile>GarageMods_Equipment_RemoveRemovable_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342602414369196</Timestamp>
+        <DevURL>https://wgmods.net/41/details</DevURL>
+        <Author>ShuraBB (Auxilium)</Author>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+    </Packages>
+  </Package>
   <Package PackageName="GarageMods_TooltipPro" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2p3fsl3a5azrpm4j" Name="Tooltip Pro [by {author}]" Type="multi" Visible="True">
     <Size>480</Size>
     <ZipFile>GarageMods_TooltipPro_PATCH_2020-04-14.zip</ZipFile>
@@ -383,6 +346,93 @@
       <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
     </Dependencies>
+  </Package>
+  <Package PackageName="GarageMods_TankCarousel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="60ld4abhwsbdq1c6" Name="Tank Carousel" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132207059492195487</Timestamp>
+    <Packages>
+      <Package PackageName="GarageMods_TankCarousel_AuxiliumDisableNoCrewMsg" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bxf6tq1k9jm6j27t" Name="disable the No Crew Message" Type="multi" Visible="True">
+        <ZipFile>GarageMods_TankCarousel_AuxiliumDisableNoCrewMsg_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342610253706287</Timestamp>
+      </Package>
+      <Package PackageName="GarageMods_TankCarousel_AuxiliumSmall" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0wp1zosegcj5vzcl" Name="enable small carousell" Type="multi" Visible="True">
+        <ZipFile>GarageMods_TankCarousel_AuxiliumSmall_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342610410246594</Timestamp>
+      </Package>
+      <Package PackageName="GarageMods_TankCarousel_AuxiliumRows3" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9quaj6b6hr35pii6" Name="3 Rows" Type="single_dropdown1" Visible="True">
+        <ZipFile>GarageMods_TankCarousel_AuxiliumRows3_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342610555377840</Timestamp>
+      </Package>
+      <Package PackageName="GarageMods_TankCarousel_AuxiliumRows4" Enabled="True" InstallGroup="4" PatchGroup="4" UID="crhp042ggmtuy2m7" Name="4 Rows" Type="single_dropdown1" Visible="True">
+        <ZipFile>GarageMods_TankCarousel_AuxiliumRows4_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342610670366982</Timestamp>
+      </Package>
+      <Package PackageName="GarageMods_TankCarousel_AuxiliumRows5" Enabled="True" InstallGroup="4" PatchGroup="4" UID="jcksbcjbs31fqayd" Name="5 Rows" Type="single_dropdown1" Visible="True">
+        <ZipFile>GarageMods_TankCarousel_AuxiliumRows5_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342610795496260</Timestamp>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="GarageMods_Login" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vt1o0lkkmk93wgd1" Name="Login" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132342612930843497</Timestamp>
+    <Packages>
+      <Package PackageName="GarageMods_Login_PreferedServer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="fi8ipyzun9mjhx5j" Name="Save last server [by {author}]" Type="multi" Visible="True">
+        <ZipFile>GarageMods_Login_PreferedServer_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342612695007812</Timestamp>
+        <DevURL>https://wgmods.net/41/details</DevURL>
+        <Author>ShuraBB (Auxilium)</Author>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_Antitoxicity" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="GarageMods_Login_RegionChanger" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tlm2zr1es2gnb7q9" Name="RegionChanger [by {author}]" Type="multi" Visible="True">
+        <Size>2615</Size>
+        <ZipFile>GarageMods_Login_RegionChanger_1.9.0.3_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342616361153283</Timestamp>
+        <DevURL>https://vk.com/shurabb_mods</DevURL>
+        <Author>ShuraBB (Auxilium)</Author>
+        <Description>**To play on other clusters, you need to have an account on each one**\n\nFeatures of fashion:\nSimple selection of servers in other clusters;\nThere is no need for permanent copying / deleting of files;\nDo not need constant updates when you exit the "micro patches";\nAll established fashion will be available;\n\r\n by ShuraBB\r\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
+        <PopularMod>True</PopularMod>
+        <Medias>
+          <Media URL="https://wgmods.net/media/multi-client_khaGe8g.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/shot_002_O7lObNv.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+        </Medias>
+        <UserFiles>
+          <UserFile Pattern="\res_mods\configs\BBMods\Auxilium.dat" />
+        </UserFiles>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="GarageMods_Login_OfflineModeLauncher" Enabled="True" InstallGroup="4" PatchGroup="4" UID="z65v7nbvxjey0e8w" Name="OfflineMode Launcher [by {author}]" Type="multi" Visible="True">
+        <Size>25711</Size>
+        <Version>1.0.8</Version>
+        <ZipFile>GarageMods_Login_OfflineModeLauncher_v1.0.8_1.5.0.1_2019-06-06.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342613348651786</Timestamp>
+        <DevURL>https://wgmods.net/1010/details</DevURL>
+        <Author>alphasave1</Author>
+        <Description>This mod can start maps offline.\nThere is no tank and no gui, only the blank map to explore!\nOnly Works From Login Screen\n------------------------------------------------------------------------------------------------------------------------------------------\nHow to use:\n\n1.Click the MOD list in the lower right corner of the login screen\n2.Click on item OfflineMode Launcher\n-&gt; Launcher window opens\n3.Select a map\n4.Click the Load button\n-&gt; The map will load\n5.Press the F key\n------------------------------------------------------------------------------------------------------------------------------------------\nKeys:\n\nWSAD:                 move camera\nNumpad +/-:         adjust FOV\nMouse Wheel:      adjust speed\nEscape:                toggle mouse mode\nF:                          toggle camera freeze mode\nR:                         add new camera view point\n0-7:                      change camera view point\nN:                         move to previous camera view point\nM:                        move to next camera view point\nP:                         toggle post-precessing\nC:                         toggle cinematic post-processing mode\nT:                         toggle temporal AA\nEND:                    Game will quit\nAlt+F4:             ,    Game will quit.\nPrtSc/SysRq:       ScreenShot\n------------------------------------------------------------------------------------------------------------------------------------------\nAbout camera speed:\n1.Copy the engine_config.xml from res/ to res_mods/1.1.0.1\n2.Open XML file,edit ui/straferate value.\n3.Save,Close.\n------------------------------------------------------------------------------------------------------------------------------------------\nContact：Twitter \nalphasave1\nSpecial Thanks : \nchirimenspiral , koreanrandom’s MODders</Description>
+        <Medias>
+          <Media URL="https://wgmods.net/media/shot_072_RaOpILn.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/shot_074_WlgFKoQ.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media URL="https://wgmods.net/media/shot_073_XrHgN30.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+    </Packages>
   </Package>
   <Package PackageName="GarageMods_ModpackButton" Enabled="True" InstallGroup="4" PatchGroup="4" UID="feau0l9b47r9pycj" Name="ModPack Support Button v{version} [by {author}]" Type="multi" Visible="True">
     <Size>51216</Size>
@@ -419,44 +469,6 @@
         </Medias>
       </Package>
     </Packages>
-  </Package>
-  <Package PackageName="GarageMods_OfflineModeLauncher" Enabled="True" InstallGroup="4" PatchGroup="4" UID="z65v7nbvxjey0e8w" Name="OfflineMode Launcher [by {author}]" Type="multi" Visible="True">
-    <Size>25711</Size>
-    <Version>1.0.8</Version>
-    <ZipFile>Garage_Mods_Offline_Launcher_v1.0.8_1.5.0.1_2019-06-06.zip</ZipFile>
-    <CRC>13114b3e0fca3de5d25e47a60fe82bac</CRC>
-    <Timestamp>131898702564828388</Timestamp>
-    <DevURL>https://wgmods.net/1010/details</DevURL>
-    <Author>alphasave1</Author>
-    <Description>This mod can start maps offline.\nThere is no tank and no gui, only the blank map to explore!\nOnly Works From Login Screen\n------------------------------------------------------------------------------------------------------------------------------------------\nHow to use:\n\n1.Click the MOD list in the lower right corner of the login screen\n2.Click on item OfflineMode Launcher\n-&gt; Launcher window opens\n3.Select a map\n4.Click the Load button\n-&gt; The map will load\n5.Press the F key\n------------------------------------------------------------------------------------------------------------------------------------------\nKeys:\n\nWSAD:                 move camera\nNumpad +/-:         adjust FOV\nMouse Wheel:      adjust speed\nEscape:                toggle mouse mode\nF:                          toggle camera freeze mode\nR:                         add new camera view point\n0-7:                      change camera view point\nN:                         move to previous camera view point\nM:                        move to next camera view point\nP:                         toggle post-precessing\nC:                         toggle cinematic post-processing mode\nT:                         toggle temporal AA\nEND:                    Game will quit\nAlt+F4:             ,    Game will quit.\nPrtSc/SysRq:       ScreenShot\n------------------------------------------------------------------------------------------------------------------------------------------\nAbout camera speed:\n1.Copy the engine_config.xml from res/ to res_mods/1.1.0.1\n2.Open XML file,edit ui/straferate value.\n3.Save,Close.\n------------------------------------------------------------------------------------------------------------------------------------------\nContact：Twitter \nalphasave1\nSpecial Thanks : \nchirimenspiral , koreanrandom’s MODders</Description>
-    <Medias>
-      <Media URL="https://wgmods.net/media/shot_072_RaOpILn.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/shot_074_WlgFKoQ.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/shot_073_XrHgN30.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
-    </Dependencies>
-  </Package>
-  <Package PackageName="GarageMods_RegionChanger" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tlm2zr1es2gnb7q9" Name="RegionChanger" Type="multi" Visible="True">
-    <Size>2615</Size>
-    <ZipFile>GarageMods_RegionChanger_1.9.0.3_2020-05-17.zip</ZipFile>
-    <CRC>f</CRC>
-    <Timestamp>132342153750747623</Timestamp>
-    <DevURL>https://vk.com/shurabb_mods</DevURL>
-    <Description>**To play on other clusters, you need to have an account on each one**\n\nFeatures of fashion:\nSimple selection of servers in other clusters;\nThere is no need for permanent copying / deleting of files;\nDo not need constant updates when you exit the "micro patches";\nAll established fashion will be available;\n\r\n by ShuraBB\r\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
-    <PopularMod>True</PopularMod>
-    <Medias>
-      <Media URL="https://wgmods.net/media/multi-client_khaGe8g.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/shot_002_O7lObNv.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-    </Medias>
-    <UserFiles>
-      <UserFile Pattern="\res_mods\configs\BBMods\Auxilium.dat" />
-    </UserFiles>
-    <Dependencies>
-      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
-    </Dependencies>
   </Package>
   <Package PackageName="GarageMods_Replays" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6ath7r7fry85bjx9" Name="Replays" Type="multi" Visible="True">
     <CRC>f</CRC>
@@ -630,28 +642,6 @@
     <Dependencies>
       <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
-    </Dependencies>
-  </Package>
-  <Package PackageName="GarageMods_RegionChanger" Enabled="False" InstallGroup="4" PatchGroup="4" UID="tlm2zr1es2gnb7q9" Name="RegionChanger" Type="multi" Visible="False">
-    <Size>2615</Size>
-    <Version>1.7.0.1_2019-12-13</Version>
-    <ZipFile>Garage_mods_RegionChanger_Auxilium_1.7.0.1_2019-12-13.zip</ZipFile>
-    <CRC>a431e2f100bb45b8d97bfe89d22010da</CRC>
-    <Timestamp>132207407195145455</Timestamp>
-    <DevURL>https://vk.com/shurabb_mods</DevURL>
-    <Description>**To play on other clusters, you need to have an account on each one**\n\nFeatures of fashion:\nSimple selection of servers in other clusters;\nThere is no need for permanent copying / deleting of files;\nDo not need constant updates when you exit the "micro patches";\nAll established fashion will be available;\n\r\n by ShuraBB\r\n\nThe developer asks that if you like his work, please give him a positive rating on wgmods:\nhttps://wgmods.net/search/?owner=70</Description>
-    <PopularMod>True</PopularMod>
-    <ObfuscatedMod>True</ObfuscatedMod>
-    <Medias>
-      <Media URL="https://wgmods.net/media/multi-client_khaGe8g.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/shot_002_O7lObNv.jpg.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-    </Medias>
-    <UserFiles>
-      <UserFile Pattern="\res_mods\configs\BBMods\Auxilium.dat" />
-    </UserFiles>
-    <Dependencies>
-      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
 </Category>
