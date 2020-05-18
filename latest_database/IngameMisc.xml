@@ -19,6 +19,39 @@
           <Media URL="https://wgmods.net/media/logo_0xMfoM2.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
         </Medias>
       </Package>
+      <Package PackageName="IngameMisc_BattleHints_IVMquestHintPanel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="stv9mezb54jr0wrl" Name="Mission Hint Panel Disable [by {author}]" Type="multi" Visible="True">
+        <Size>506</Size>
+        <Version>0.2B</Version>
+        <ZipFile>Ingame_Misc_IVM_questHintPanel_1.9.0.0_2020-04-22.zip</ZipFile>
+        <CRC>787f50fc7449b46160cde68e5ada7c39</CRC>
+        <Timestamp>132320552250357273</Timestamp>
+        <Author>The Illusion</Author>
+        <Maintainers>The Illusion</Maintainers>
+        <Description>Disables the4 mission hint panel on start using python</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/questHintPanel.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_IVM_Main" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="IngameMisc_BattleHints_PersonalMissionsInDetail" Enabled="True" InstallGroup="4" PatchGroup="4" UID="7wzzo4l6crzqn2ig" Name="show Personal Missions in Detail (&quot;Quests&quot;) [by {author}]" Type="multi" Visible="True">
+        <Size>35838</Size>
+        <ZipFile>IngameMisc_BattleHints_PersonalMissionsInDetail_1.7.0.1_2019-12-16.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342645287798462</Timestamp>
+        <DevURL>http://wotsite.net/mody-dlya-world-of-tanks/12268-</DevURL>
+        <Author>WGMods</Author>
+        <Description>Shows primary and secondary conditions for Personal Missions\n\nThe mod window can be moved around the screen by holding down CTRL and dragging it using the mouse to the desired location.\r\n\r\nby izeberg</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_Show_Personal_Missions_in_detail_01.jpg" MediaType="Picture" />
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_Show_Personal_Missions_in_detail_02.jpg" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
       <Package PackageName="IngameMisc_BattleHints_disableDynamicPlatoonMessages" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rii0mlid9zllrz6v" Name="disable dynamic platoon messages [by {author}]" Type="multi" Visible="True">
         <ZipFile>IngameMisc_BattleHints_disableDynamicPlatoonMessages_2020-05-18.zip</ZipFile>
         <CRC>f</CRC>
@@ -1673,19 +1706,6 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="IngameMisc_doublePressToCrawl" Enabled="True" InstallGroup="4" PatchGroup="4" UID="r15ga1w7i6mvpkty" Name="Double press to crawl/move slow [by {author}]" Type="multi" Visible="True">
-    <Size>4913</Size>
-    <Version>1.1.1</Version>
-    <ZipFile>Ingame_Misc_double_press_to_crawl_by_lgfrbcsgo_2019-01-16.zip</ZipFile>
-    <CRC>f1292bbef008934bf9af0019c87bfbd2</CRC>
-    <Timestamp>131920669799220902</Timestamp>
-    <DevURL>https://wgmods.net/1452/details</DevURL>
-    <Author>lgfrbcsgo</Author>
-    <Description>This mod allows you to crawl forwards or backwards by double pressing and holding your forwards or backwards movement key.\nThis is equivalent to engaging cruise control on the lowest setting, with the difference that the tank will stop once you let go of the key.\r\n\r\n\r\nby lgfrbcsgo</Description>
-    <Medias>
-      <Media URL="https://wgmods.net/media/creepy_CuocBZs.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-    </Medias>
-  </Package>
   <Package PackageName="IngameMisc_FirstPersonView" Enabled="True" InstallGroup="4" PatchGroup="4" UID="hfiaqz89gz7up77x" Name="First person view [by {author}]" Type="multi" Visible="True">
     <Size>5568</Size>
     <ZipFile>Ingame_Misc_FirstPersonView_1.6.1.0_2019-10-09.zip</ZipFile>
@@ -2430,22 +2450,6 @@
         </Packages>
       </Package>
     </Packages>
-  </Package>
-  <Package PackageName="IngameMisc_IVM_questHintPanel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="stv9mezb54jr0wrl" Name="Mission Hint Panel Disable [by {author}]" Type="multi" Visible="True">
-    <Size>506</Size>
-    <Version>0.2B</Version>
-    <ZipFile>Ingame_Misc_IVM_questHintPanel_1.9.0.0_2020-04-22.zip</ZipFile>
-    <CRC>787f50fc7449b46160cde68e5ada7c39</CRC>
-    <Timestamp>132320552250357273</Timestamp>
-    <Author>The Illusion</Author>
-    <Maintainers>The Illusion</Maintainers>
-    <Description>Disables the4 mission hint panel on start using python</Description>
-    <Medias>
-      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/questHintPanel.jpg" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_IVM_Main" NotFlag="False" Logic="OR" />
-    </Dependencies>
   </Package>
   <Package PackageName="IngameMisc_NoRankedBadge" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5i2oud5c40b907yl" Name="No Ranked Badge [by {author}]" Type="multi" Visible="True">
     <Size>60475</Size>
