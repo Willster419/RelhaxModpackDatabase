@@ -2558,45 +2558,6 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="IngameMisc_repairExtended" Enabled="True" InstallGroup="4" PatchGroup="4" UID="udslasx59z39kivd" Name="Repair Extended (non-cheat-version) [by {author}]" Type="multi" Visible="True">
-    <Size>8422</Size>
-    <Version>3.11</Version>
-    <ZipFile>Ingame_Misc_Repair_Extended_by_Spoter_v3.11_1.6.1.0_2019-10-11.zip</ZipFile>
-    <CRC>5d6d8d6feeea63129f5b1b7aec8dd088</CRC>
-    <Timestamp>132153404765882228</Timestamp>
-    <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_repair_extended</DevURL>
-    <Author>Spoter</Author>
-    <Description>press "spacebar" to repair:\n\n    "removeStun"\n    "useGoldKits"\n    "extinguishFire"\n    "healCrew"\n    "repairDevices"\r\n\r\nby Spoter</Description>
-    <Dependencies>
-      <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
-    </Dependencies>
-    <Packages>
-      <Package PackageName="IngameMisc_repairExtended_default" Enabled="True" InstallGroup="4" PatchGroup="4" UID="72y0is368vvqkt2d" Name="default - press SPACE" Type="single_dropdown1" Visible="True">
-        <Size>3084</Size>
-        <CRC>53ae622c22591a87ac1d2c0c76fff3ef</CRC>
-        <Timestamp>131859848956641184</Timestamp>
-        <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_repair_extended</DevURL>
-        <Description>pres "spacebar" to repair:\n\n    "removeStun"\n    "useGoldKits"\n    "extinguishFire"\n    "healCrew"\n    "repairDevices"</Description>
-      </Package>
-      <Package PackageName="IngameMisc_repairExtended_alternative" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kr5fqr978so8k59d" Name="alternative - press ALT+SPACE" Type="single_dropdown1" Visible="True">
-        <Size>1363</Size>
-        <ZipFile>Ingame_Misc_Repair_Extended_by_Spoter_ALT_2019-06-08.zip</ZipFile>
-        <CRC>343c5d047f52a42be90c66ada3221680</CRC>
-        <Timestamp>131991497236500947</Timestamp>
-        <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_repair_extended</DevURL>
-        <Description>pres "ALT + spacebar" to repair:\n\n    "removeStun"\n    "useGoldKits"\n    "extinguishFire"\n    "healCrew"\n    "repairDevices"</Description>
-      </Package>
-      <Package PackageName="IngameMisc_repairExtended_theillusivemancfg" Enabled="True" InstallGroup="4" PatchGroup="4" UID="e6mmivzq2bqyvyrq" Name="The_Illusive_Man v{version} USE MOUSE 4" Type="single_dropdown1" Visible="True">
-        <Size>1321</Size>
-        <ZipFile>Ingame_Misc_Repair_Extended_by_Spoter_The_Illusive_Man_CFG_2019-06-08.zip</ZipFile>
-        <CRC>01d2a400a95508a5380fc017538871dc</CRC>
-        <Timestamp>131991907852471121</Timestamp>
-        <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_repair_extended</DevURL>
-        <Description>Changed config to better prioritze crewmen/ modules. Also updateds the english language files, and mouse binds.</Description>
-      </Package>
-    </Packages>
-  </Package>
   <Package PackageName="IngameMisc_ReplayFreeCam" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rvt1qu5r27ifv9yq" Name="Replay FreeCamera (PMOD) [by {author}]" Type="multi" Visible="True">
     <Size>616</Size>
     <ZipFile>Ingame_Misc_Replay_FreeCam_PMOD_2018-04-30.zip</ZipFile>
@@ -2608,6 +2569,39 @@
     <Dependencies>
       <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
     </Dependencies>
+  </Package>
+  <Package PackageName="IngameMisc_Repair" Enabled="True" InstallGroup="4" PatchGroup="4" UID="aqtnh8hv2j3i7pic" Name="Repair Mods" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132342784388986318</Timestamp>
+    <Packages>
+      <Package PackageName="IngameMisc_Repair_repairExtended" Enabled="True" InstallGroup="4" PatchGroup="4" UID="udslasx59z39kivd" Name="Repair Extended (non-cheat-version) [by {author}]" Type="single_dropdown1" Visible="True">
+        <Size>8422</Size>
+        <Version>3.11</Version>
+        <ZipFile>IngameMisc_Repair_repairExtended_v3.11_1.6.1.0_2019-10-11.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342786916678213</Timestamp>
+        <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_repair_extended</DevURL>
+        <Author>Spoter</Author>
+        <Description>press "spacebar" to repair:\n\n    "removeStun"\n    "useGoldKits"\n    "extinguishFire"\n    "healCrew"\n    "repairDevices"\r\n\r\nby Spoter</Description>
+        <Dependencies>
+          <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_mods_gui" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="IngameMisc_Repair_smartRepair" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ocfhqnv3chhb5k9x" Name="SmartRepair [by {author}]" Type="single_dropdown1" Visible="True">
+        <Version>1.1.8</Version>
+        <ZipFile>IngameMisc_Repair_smartRepair_1.1.8_1.9.0.3_2020-05-18.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342786673415594</Timestamp>
+        <DevURL>https://protanki.tv/mods/hangar_mod/bystryi-remont-i-lechenie-ekipazha</DevURL>
+        <Author>P0LIR0ID</Author>
+        <Description>This is a unique modification with the help of which you can install the treatment of damaged modules and crew on your own buttons.\r\n\r\nAfter all, with just one button, you can cure all damaged modules and crew.\r\n\r\n\r\nTreat shell-shocked crew.\r\nRepair damaged modules.\r\nRemove stunning.\r\nVery convenient and useful mod.\r\n\r\n(Note: google translated rus-eng)</Description>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+    </Packages>
   </Package>
   <Package PackageName="IngameMisc_StarrySky" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4k0gyubs13axvl5q" Name="Starry Sky" Type="multi" Visible="True">
     <Size>422837</Size>
