@@ -140,6 +140,47 @@
       </Package>
     </Packages>
   </Package>
+  <Package PackageName="IngameInfo_Speedometer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cpddhvg29xkjj7c0" Name="SpeedoMeter [by {author}]" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132008798611194498</Timestamp>
+    <Author>ShuraBB (Auxilium)</Author>
+    <Dependencies>
+      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Packages>
+      <Package PackageName="IngameInfo_Speedometer_All" Enabled="True" InstallGroup="4" PatchGroup="4" UID="k2svw7r9pi1iiwz3" Name="show for all vehicles" Type="single_dropdown1" Visible="True">
+        <ZipFile>Ingame_Misc_Auxilium_Speedometer_ALL_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+        <CRC>f1cb38d4e616491b49c9c40f3a73d562</CRC>
+        <Timestamp>132008799633517537</Timestamp>
+      </Package>
+      <Package PackageName="IngameInfo_Speedometer_Disable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0trd1fty7ij9so1g" Name="disable" Type="single_dropdown1" Visible="True">
+        <ZipFile>Ingame_Misc_Auxilium_Speedometer_DISABLE_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+        <CRC>c8d74ebd0f5ed4c981485822b0359a6b</CRC>
+        <Timestamp>132008799145549200</Timestamp>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="IngameInfo_CombatMessages" Enabled="True" InstallGroup="4" PatchGroup="4" UID="q72zqku0hzcrzfwa" Name="Disable Combat Messages (above minimap) [by {author}]" Type="multi" Visible="True">
+    <ZipFile>Ingame_Misc_Auxilium_CombatMessages_2019-04-27.zip</ZipFile>
+    <CRC>7f0dfeba3b790d404cf7778254ce0571</CRC>
+    <Timestamp>132008794561201056</Timestamp>
+    <Author>ShuraBB (Auxilium)</Author>
+    <Dependencies>
+      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
+  <Package PackageName="IngameInfo_disable2MinuteWarning" Enabled="True" InstallGroup="4" PatchGroup="4" UID="8gbovteekj3ym754" Name="disable 2 minutes warning [by {author}]" Type="multi" Visible="True">
+    <ZipFile>Ingame_Misc_Auxilium_2MinuteWarningDisable_2019-04-27.zip</ZipFile>
+    <CRC>6590474eed0339cdd349ee52b82d28a3</CRC>
+    <Timestamp>132008797629532862</Timestamp>
+    <Author>ShuraBB (Auxilium)</Author>
+    <Dependencies>
+      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
   <Package PackageName="IngameInfo_ArtyHitLog" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2gdx5auuv13ar7ze" Name="Arty HitLog [by {author}]" Type="multi" Visible="True">
     <Size>73917</Size>
     <Version>1.0.9</Version>
@@ -341,6 +382,47 @@
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info_DamageIndicator/Ingame_Info_DamageIndicator_Wotspeak.png" MediaType="Picture" />
         </Medias>
+      </Package>
+      <Package PackageName="IngameInfo_DamageIndicator_Timer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wzphd38fgfggyyxx" Name="Damage Indicator Timer [by {author}]" Type="multi" Visible="True">
+        <CRC>f</CRC>
+        <Timestamp>132008789704290672</Timestamp>
+        <Author>ShuraBB (Auxilium)</Author>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+        <Packages>
+          <Package PackageName="IngameInfo_DamageIndicator_Timer_6" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5siowh3m84u7q3az" Name="6 Second" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_6_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>fbada95c42bd607c6df218a77e384e5f</CRC>
+            <Timestamp>132008791691685040</Timestamp>
+          </Package>
+          <Package PackageName="IngameInfo_DamageIndicator_Timer_5" Enabled="True" InstallGroup="4" PatchGroup="4" UID="18wyohjnul334mdg" Name="5 Second" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_5_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>3fbeb963dea2842558a2f8a0298c5904</CRC>
+            <Timestamp>132008791381330717</Timestamp>
+          </Package>
+          <Package PackageName="IngameInfo_DamageIndicator_Timer_4" Enabled="True" InstallGroup="4" PatchGroup="4" UID="irflqrj2g9i6oun4" Name="4 Second" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_4_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>dcef80539c8c292cc6655ac811c91e4a</CRC>
+            <Timestamp>132008791089148433</Timestamp>
+          </Package>
+          <Package PackageName="IngameInfo_DamageIndicator_Timer_3" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tm81ybufng8hgmuk" Name="3 Second" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_3_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>69e55ae0ec5f17599b0ca914a2649745</CRC>
+            <Timestamp>132008790724859839</Timestamp>
+          </Package>
+          <Package PackageName="IngameInfo_DamageIndicator_Timer_2" Enabled="True" InstallGroup="4" PatchGroup="4" UID="7gwfu64mfdo0faku" Name="2 Second" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_2_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>bc5d9c681a0afbf43ea688712e166794</CRC>
+            <Timestamp>132008790266450570</Timestamp>
+          </Package>
+          <Package PackageName="IngameInfo_DamageIndicator_Timer_1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="hvrgwd8h6m9vod55" Name="1 Second" Type="single_dropdown1" Visible="True">
+            <ZipFile>Ingame_Misc_Auxilium_DamageIndicatorDuration_1_PATCH_1.5.1.1_2019-06-21.zip</ZipFile>
+            <CRC>fb54a42aa1128a50367366dcd4d36959</CRC>
+            <Timestamp>132008789950827760</Timestamp>
+          </Package>
+        </Packages>
       </Package>
     </Packages>
   </Package>
