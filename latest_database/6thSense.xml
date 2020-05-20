@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="6th Sense">
-  <Package PackageName="6thSense_Audio" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6csuc8wsr9ahjo3p" Name="Audio" Type="multi" Visible="True">
+  <Package PackageName="6thSense_Audio" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6csuc8wsr9ahjo3p" Name="Audio [by {author}]" Type="multi" Visible="True">
     <Size>616</Size>
     <ZipFile>Sixth_Sense_Audio_Reset_XVM_Sound_Mapping_2017-11-16.zip</ZipFile>
     <CRC>1791f2d38f04199165d517c902b0a5d0</CRC>
     <Timestamp>131553559033249244</Timestamp>
+    <Author>Aimdrol</Author>
     <Dependencies>
       <Dependency PackageName="Dependency_SixthSense_Aimdrol" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
@@ -214,11 +215,12 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="6thSense_Icon" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3dwwnyxw5jj9bskw" Name="Icon &amp; Durationtime" Type="multi" Visible="True">
+  <Package PackageName="6thSense_Icon" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3dwwnyxw5jj9bskw" Name="Icon &amp; Durationtime [by {author}]" Type="multi" Visible="True">
     <Size>990</Size>
     <ZipFile>Sixth_Sense_Icon_Disable_Default_Icon_temp_fix_2017-10-20.zip</ZipFile>
     <CRC>660a8ffacab7815068b9284ac1ed75b1</CRC>
     <Timestamp>131529924059591378</Timestamp>
+    <Author>Aimdrol</Author>
     <Description>Change your 6th sense icon to one of these from the list</Description>
     <Dependencies>
       <Dependency PackageName="Dependency_SixthSense_Aimdrol" NotFlag="False" Logic="OR" />
@@ -871,12 +873,13 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="6thSense_Duration" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xg9iqlv1xjygj1l6" Name="only change Durationtime (NOT COMPATIBLE TO THE OTHER 6thSENSE SELECTIONS ABOVE)" Type="multi" Visible="True">
+  <Package PackageName="6thSense_Duration" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xg9iqlv1xjygj1l6" Name="Icon Durationtime [by {author}] (READ DESCRIPTION)" Type="multi" Visible="True">
     <Size>526</Size>
     <ZipFile>Ingame_Misc_Auxilium_6thSense_enable_patch_1.7.0.2_2019-12-23.zip</ZipFile>
     <CRC>cc252cf7e35a70ad70b9e6fdeaca525a</CRC>
     <Timestamp>132216090469603273</Timestamp>
-    <Description>Sets the 6th sense duration in seconds.</Description>
+    <Author>ShuraBB (Auxilium)</Author>
+    <Description>Sets the 6th sense duration in seconds.\r\n\r\nTHIS MOD IS NOT COMPATIBLE TO THE OTHER 6thSENSE SELECTIONS ABOVE (from author: Aimdrol)!!\r\n</Description>
     <ObfuscatedMod>True</ObfuscatedMod>
     <ConflictingPackages>XVMConfigBuilder_BattleInterface_6thSenseDuration,6thSense_Icon,6thSense_Audio</ConflictingPackages>
     <Dependencies>
