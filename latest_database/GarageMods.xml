@@ -113,21 +113,6 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="GarageMods_littleHelperCollection" Enabled="True" InstallGroup="4" PatchGroup="4" UID="8z5kl22gkhmzd1b4" Name="Little Helper Collection [by {author}] (READ DESCRIPTION + WARNING)" Type="none" Visible="True">
-    <Version>0.95</Version>
-    <ZipFile>GarageMods_littleHelperCollection_v0.95_1.9.0.3_2020-05-15.zip</ZipFile>
-    <CRC>f</CRC>
-    <Timestamp>132344421905211683</Timestamp>
-    <DevURL>https://wgmods.net/2601/\r\nhttps://wot.champi.de/</DevURL>
-    <Author>Champi</Author>
-    <Description>The mod collects some useful improvements that never made it to their own mod. \r\nNot because they're useless, but because they're too small for an own mod. But now I've combined them all in one mod and give the player control to turn them on and off\r\n\r\nFeatures: - hangarTooltip -&gt; Expands the list of tanks on which the equipment is installed (in hangar tips)\r\n- storageTooltip -&gt; Shows the full selling price of modules, consumables and ammunition (in stock)\r\n- contourIconMode -&gt; Disables the flipping of the tank contour icons in the tankman info tooltip. This is for using custom tank contour icons.\r\n- arenaBorderRecolor -&gt; Allows to set a new arena border color. It looks really good to see some fresh new colors there\r\n- disableHeroTank -&gt; Disables the promotion of a tank in the background of the hangar.\r\n\r\n\r\nWARNING:\r\nThis mod can conflict with XVM-, AnnoyingFeaturesRemover- and some other Garage-Settings.</Description>
-    <ConflictingPackages>GarageMods_AnnoyingFeaturesRemover,GarageMods_AnnoyingFeaturesRemover</ConflictingPackages>
-    <Dependencies>
-      <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
-    </Dependencies>
-  </Package>
   <Package PackageName="GarageMods_BattleHitsViewer" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xm8jk9d1touggs54" Name="Battle Hits Viewer in Hangar v{version} [by {author}]" Type="multi" Visible="True">
     <Size>11843162</Size>
     <Version>1.5.0</Version>
@@ -371,72 +356,20 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="GarageMods_TooltipPro" Enabled="False" InstallGroup="4" PatchGroup="4" UID="2p3fsl3a5azrpm4j" Name="Tooltip Pro [by {author}]" Type="multi" Visible="False">
-    <Size>480</Size>
-    <ZipFile>GarageMods_TooltipPro_PATCH_2020-04-14.zip</ZipFile>
-    <CRC>323c5a14d2a5aa870db5a2ca92e5f197</CRC>
-    <Timestamp>132313281102078694</Timestamp>
-    <DevURL>https://wot.champi.de/</DevURL>
-    <InternalNotes>this is now part of the "little helper collection" (dependency).\r\n\r\ncan conflict with NDO hangar addons (promo prem vehicle option)\r\n\r\n</InternalNotes>
-    <Author>CHAMPi</Author>
-    <Description>Expands the list of tanks on which the equipment is installed (in hangar tips), \r\nshows the full selling price of modules, consumables and ammunition (in stock)</Description>
+  <Package PackageName="GarageMods_littleHelperCollection" Enabled="True" InstallGroup="4" PatchGroup="4" UID="8z5kl22gkhmzd1b4" Name="Little Helper Collection [by {author}] (READ DESCRIPTION + WARNING)" Type="none" Visible="True">
+    <Version>0.95</Version>
+    <ZipFile>GarageMods_littleHelperCollection_v0.95_1.9.0.3_2020-05-15.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132344421905211683</Timestamp>
+    <DevURL>https://wgmods.net/2601/\r\nhttps://wot.champi.de/</DevURL>
+    <Author>Champi</Author>
+    <Description>The mod collects some useful improvements that never made it to their own mod. \r\nNot because they're useless, but because they're too small for an own mod. But now I've combined them all in one mod and give the player control to turn them on and off\r\n\r\nFeatures: - hangarTooltip -&gt; Expands the list of tanks on which the equipment is installed (in hangar tips)\r\n- storageTooltip -&gt; Shows the full selling price of modules, consumables and ammunition (in stock)\r\n- contourIconMode -&gt; Disables the flipping of the tank contour icons in the tankman info tooltip. This is for using custom tank contour icons.\r\n- arenaBorderRecolor -&gt; Allows to set a new arena border color. It looks really good to see some fresh new colors there\r\n- disableHeroTank -&gt; Disables the promotion of a tank in the background of the hangar.\r\n\r\n\r\nWARNING:\r\nThis mod can conflict with XVM-, AnnoyingFeaturesRemover- and some other Garage-Settings.</Description>
+    <ConflictingPackages>GarageMods_AnnoyingFeaturesRemover,GarageMods_AnnoyingFeaturesRemover</ConflictingPackages>
     <Dependencies>
       <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_CHAMPi_littleHelperCollection" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
     </Dependencies>
-  </Package>
-  <Package PackageName="GarageMods_TankCarousel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="60ld4abhwsbdq1c6" Name="Tank Carousel" Type="multi" Visible="True">
-    <CRC>f</CRC>
-    <Timestamp>132207059492195487</Timestamp>
-    <Packages>
-      <Package PackageName="GarageMods_TankCarousel_AuxiliumDisableNoCrewMsg" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bxf6tq1k9jm6j27t" Name="disable the No Crew Message" Type="multi" Visible="True">
-        <ZipFile>GarageMods_TankCarousel_AuxiliumDisableNoCrewMsg_2020-05-17.zip</ZipFile>
-        <CRC>f</CRC>
-        <Timestamp>132342610253706287</Timestamp>
-        <Dependencies>
-          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="GarageMods_TankCarousel_AuxiliumSmall" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0wp1zosegcj5vzcl" Name="enable small carousell" Type="multi" Visible="True">
-        <ZipFile>GarageMods_TankCarousel_AuxiliumSmall_2020-05-17.zip</ZipFile>
-        <CRC>f</CRC>
-        <Timestamp>132342610410246594</Timestamp>
-        <Dependencies>
-          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="GarageMods_TankCarousel_AuxiliumRows3" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9quaj6b6hr35pii6" Name="3 Rows" Type="single_dropdown1" Visible="True">
-        <ZipFile>GarageMods_TankCarousel_AuxiliumRows3_2020-05-17.zip</ZipFile>
-        <CRC>f</CRC>
-        <Timestamp>132342610555377840</Timestamp>
-        <Dependencies>
-          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="GarageMods_TankCarousel_AuxiliumRows4" Enabled="True" InstallGroup="4" PatchGroup="4" UID="crhp042ggmtuy2m7" Name="4 Rows" Type="single_dropdown1" Visible="True">
-        <ZipFile>GarageMods_TankCarousel_AuxiliumRows4_2020-05-17.zip</ZipFile>
-        <CRC>f</CRC>
-        <Timestamp>132342610670366982</Timestamp>
-        <Dependencies>
-          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="GarageMods_TankCarousel_AuxiliumRows5" Enabled="True" InstallGroup="4" PatchGroup="4" UID="jcksbcjbs31fqayd" Name="5 Rows" Type="single_dropdown1" Visible="True">
-        <ZipFile>GarageMods_TankCarousel_AuxiliumRows5_2020-05-17.zip</ZipFile>
-        <CRC>f</CRC>
-        <Timestamp>132342610795496260</Timestamp>
-        <Dependencies>
-          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-    </Packages>
   </Package>
   <Package PackageName="GarageMods_Login" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vt1o0lkkmk93wgd1" Name="Login" Type="multi" Visible="True">
     <CRC>f</CRC>
@@ -684,6 +617,73 @@
     </Medias>
     <Dependencies>
       <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Package>
+  <Package PackageName="GarageMods_TankCarousel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="60ld4abhwsbdq1c6" Name="Tank Carousel" Type="multi" Visible="True">
+    <CRC>f</CRC>
+    <Timestamp>132207059492195487</Timestamp>
+    <Packages>
+      <Package PackageName="GarageMods_TankCarousel_AuxiliumDisableNoCrewMsg" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bxf6tq1k9jm6j27t" Name="disable the No Crew Message" Type="multi" Visible="True">
+        <ZipFile>GarageMods_TankCarousel_AuxiliumDisableNoCrewMsg_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342610253706287</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="GarageMods_TankCarousel_AuxiliumSmall" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0wp1zosegcj5vzcl" Name="enable small carousell" Type="multi" Visible="True">
+        <ZipFile>GarageMods_TankCarousel_AuxiliumSmall_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342610410246594</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="GarageMods_TankCarousel_AuxiliumRows3" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9quaj6b6hr35pii6" Name="3 Rows" Type="single_dropdown1" Visible="True">
+        <ZipFile>GarageMods_TankCarousel_AuxiliumRows3_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342610555377840</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="GarageMods_TankCarousel_AuxiliumRows4" Enabled="True" InstallGroup="4" PatchGroup="4" UID="crhp042ggmtuy2m7" Name="4 Rows" Type="single_dropdown1" Visible="True">
+        <ZipFile>GarageMods_TankCarousel_AuxiliumRows4_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342610670366982</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="GarageMods_TankCarousel_AuxiliumRows5" Enabled="True" InstallGroup="4" PatchGroup="4" UID="jcksbcjbs31fqayd" Name="5 Rows" Type="single_dropdown1" Visible="True">
+        <ZipFile>GarageMods_TankCarousel_AuxiliumRows5_2020-05-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132342610795496260</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="GarageMods_TooltipPro" Enabled="False" InstallGroup="4" PatchGroup="4" UID="2p3fsl3a5azrpm4j" Name="Tooltip Pro [by {author}]" Type="multi" Visible="False">
+    <Size>480</Size>
+    <ZipFile>GarageMods_TooltipPro_PATCH_2020-04-14.zip</ZipFile>
+    <CRC>323c5a14d2a5aa870db5a2ca92e5f197</CRC>
+    <Timestamp>132313281102078694</Timestamp>
+    <DevURL>https://wot.champi.de/</DevURL>
+    <InternalNotes>this is now part of the "little helper collection" (dependency).\r\n\r\ncan conflict with NDO hangar addons (promo prem vehicle option)\r\n\r\n</InternalNotes>
+    <Author>CHAMPi</Author>
+    <Description>Expands the list of tanks on which the equipment is installed (in hangar tips), \r\nshows the full selling price of modules, consumables and ammunition (in stock)</Description>
+    <Dependencies>
+      <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_CHAMPi_littleHelperCollection" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
   <Package PackageName="GarageMods_VehicleXPextended" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5bq9b7evo17t6x4d" Name="VehicleXP Extended [by {author}]" Type="multi" Visible="True">
