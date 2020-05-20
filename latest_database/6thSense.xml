@@ -1,14 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="6th Sense">
-  <Dependencies>
-    <Dependency PackageName="Dependency_SixthSense_Aimdrol" NotFlag="False" Logic="OR" />
-  </Dependencies>
   <Package PackageName="6thSense_Audio" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6csuc8wsr9ahjo3p" Name="Audio" Type="multi" Visible="True">
     <Size>616</Size>
     <ZipFile>Sixth_Sense_Audio_Reset_XVM_Sound_Mapping_2017-11-16.zip</ZipFile>
     <CRC>1791f2d38f04199165d517c902b0a5d0</CRC>
     <Timestamp>131553559033249244</Timestamp>
     <Dependencies>
+      <Dependency PackageName="Dependency_SixthSense_Aimdrol" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
@@ -216,12 +214,15 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="6thSense_Icon" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3dwwnyxw5jj9bskw" Name="Icon" Type="multi" Visible="True">
+  <Package PackageName="6thSense_Icon" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3dwwnyxw5jj9bskw" Name="Icon &amp; Durationtime" Type="multi" Visible="True">
     <Size>990</Size>
     <ZipFile>Sixth_Sense_Icon_Disable_Default_Icon_temp_fix_2017-10-20.zip</ZipFile>
     <CRC>660a8ffacab7815068b9284ac1ed75b1</CRC>
     <Timestamp>131529924059591378</Timestamp>
     <Description>Change your 6th sense icon to one of these from the list</Description>
+    <Dependencies>
+      <Dependency PackageName="Dependency_SixthSense_Aimdrol" NotFlag="False" Logic="OR" />
+    </Dependencies>
     <Packages>
       <Package PackageName="6thSense_Icon_relic" Enabled="True" InstallGroup="4" PatchGroup="4" UID="g23avx3x5fcrb4rv" Name="Relic" Type="single_dropdown1" Visible="True">
         <Size>79376</Size>
@@ -867,6 +868,51 @@
             <CRC>a3368cac819886a9de67c27cb0d606c4</CRC>
           </Package>
         </Packages>
+      </Package>
+    </Packages>
+  </Package>
+  <Package PackageName="6thSense_Duration" Enabled="True" InstallGroup="4" PatchGroup="4" UID="xg9iqlv1xjygj1l6" Name="only change Durationtime (NOT COMPATIBLE TO THE OTHER 6thSENSE SELECTIONS ABOVE)" Type="multi" Visible="True">
+    <Size>526</Size>
+    <ZipFile>Ingame_Misc_Auxilium_6thSense_enable_patch_1.7.0.2_2019-12-23.zip</ZipFile>
+    <CRC>cc252cf7e35a70ad70b9e6fdeaca525a</CRC>
+    <Timestamp>132216090469603273</Timestamp>
+    <Description>Sets the 6th sense duration in seconds.</Description>
+    <ObfuscatedMod>True</ObfuscatedMod>
+    <ConflictingPackages>XVMConfigBuilder_BattleInterface_6thSenseDuration,6thSense_Icon,6thSense_Audio</ConflictingPackages>
+    <Dependencies>
+      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+    </Dependencies>
+    <Packages>
+      <Package PackageName="6thSense_Duration_5" Enabled="True" InstallGroup="4" PatchGroup="4" UID="a5fxyl12xgqyjcs6" Name="5" Type="single_dropdown1" Visible="True">
+        <Size>518</Size>
+        <ZipFile>Ingame_Misc_Auxilium_6thSense_5_1.7.0.2_2019-12-23.zip</ZipFile>
+        <CRC>d4a6b1aa01d2a9cd9cc2018d2b5d2c82</CRC>
+        <Timestamp>132216090550451905</Timestamp>
+      </Package>
+      <Package PackageName="6thSense_Duration_7" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4jx4qprlrzsnv5aj" Name="7" Type="single_dropdown1" Visible="True">
+        <Size>518</Size>
+        <ZipFile>Ingame_Misc_Auxilium_6thSense_7_1.7.0.2_2019-12-23.zip</ZipFile>
+        <CRC>19870f862fcb41b466648415dadc3da2</CRC>
+        <Timestamp>132216090606677569</Timestamp>
+      </Package>
+      <Package PackageName="6thSense_Duration_10" Enabled="True" InstallGroup="4" PatchGroup="4" UID="h83jyoxmrvk5vhhj" Name="10" Type="single_dropdown1" Visible="True">
+        <Size>521</Size>
+        <ZipFile>Ingame_Misc_Auxilium_6thSense_10_1.7.0.2_2019-12-23.zip</ZipFile>
+        <CRC>c8b314a19291c6268f97c9f8134e3b2a</CRC>
+        <Timestamp>132216090693086961</Timestamp>
+      </Package>
+      <Package PackageName="6thSense_Duration_12" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bmlqqsn5memu6azw" Name="12" Type="single_dropdown1" Visible="True">
+        <Size>520</Size>
+        <ZipFile>Ingame_Misc_Auxilium_6thSense_12_1.7.0.2_2019-12-23.zip</ZipFile>
+        <CRC>2c3bd604f841989ef34ee0a25c5dc94f</CRC>
+        <Timestamp>132216090751675310</Timestamp>
+      </Package>
+      <Package PackageName="6thSense_Duration_14" Enabled="True" InstallGroup="4" PatchGroup="4" UID="obr5yrt6lbec6m7w" Name="14" Type="single_dropdown1" Visible="True">
+        <Size>521</Size>
+        <ZipFile>Ingame_Misc_Auxilium_6thSense_14_1.7.0.2_2019-12-23.zip</ZipFile>
+        <CRC>173547ea77f4dcfab9745b7b7bc47de2</CRC>
+        <Timestamp>132216090811494923</Timestamp>
       </Package>
     </Packages>
   </Package>
