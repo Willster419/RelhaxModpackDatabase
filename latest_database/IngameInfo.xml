@@ -577,6 +577,7 @@
     <CRC>f</CRC>
     <Timestamp>132346181282396534</Timestamp>
     <DevURL>protanki.tv</DevURL>
+    <InternalNotes>+ disable patch</InternalNotes>
     <Author>Protanki</Author>
     <Description>This mod shows colored lights to indicate if your vehicle is visible.\r\nIt can also play a sound if you are in the line of sight of an enemy outside the screen. </Description>
     <ObfuscatedMod>True</ObfuscatedMod>
@@ -587,6 +588,64 @@
       <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
     </Dependencies>
+    <Packages>
+      <Package PackageName="IngameInfo_DangerLights_enableCustomUI" Enabled="True" InstallGroup="4" PatchGroup="4" UID="p035x9zrcs8qxgj8" Name="enable and choose custom UI type:" Type="multi" Visible="True">
+        <ZipFile>IngameInfo_DangerLights_enableCustomUI_2020-05-22.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132346388999328561</Timestamp>
+        <DevURL>protanki.tv</DevURL>
+        <Packages>
+          <Package PackageName="IngameInfo_DangerLights_customUIType1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mypkoll2ycwtydnl" Name="1 - large vertical" Type="single_dropdown1" Visible="True">
+            <ZipFile>IngameInfo_DangerLights_customUIType1_2020-05-22.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132346389230657356</Timestamp>
+            <DevURL>protanki.tv</DevURL>
+          </Package>
+          <Package PackageName="IngameInfo_DangerLights_customUIType2" Enabled="True" InstallGroup="4" PatchGroup="4" UID="hx5fc9tm6v09u84w" Name="2 - small vertical" Type="single_dropdown1" Visible="True">
+            <ZipFile>IngameInfo_DangerLights_customUIType2_2020-05-22.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132346389406379474</Timestamp>
+            <DevURL>protanki.tv</DevURL>
+          </Package>
+          <Package PackageName="IngameInfo_DangerLights_customUIType3" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6yvdlb3f7yoab9km" Name="3 - large horizontal" Type="single_dropdown1" Visible="True">
+            <ZipFile>IngameInfo_DangerLights_customUIType3_2020-05-22.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132346389351895828</Timestamp>
+            <DevURL>protanki.tv</DevURL>
+          </Package>
+          <Package PackageName="IngameInfo_DangerLights_customUIType4" Enabled="True" InstallGroup="4" PatchGroup="4" UID="21hh2uhdoc601s2g" Name="4 - small horizontal" Type="single_dropdown1" Visible="True">
+            <ZipFile>IngameInfo_DangerLights_customUIType4_2020-05-22.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132346389311989104</Timestamp>
+            <DevURL>protanki.tv</DevURL>
+          </Package>
+        </Packages>
+      </Package>
+      <Package PackageName="IngameInfo_DangerLights_enableSoundCanShot" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pellgrxgj9bwjj5h" Name="play a warning sound once the enemy started to go out of sight" Type="multi" Visible="True">
+        <ZipFile>IngameInfo_DangerLights_enableSoundCanShot_2020-05-22.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132346385721529755</Timestamp>
+        <DevURL>protanki.tv</DevURL>
+      </Package>
+      <Package PackageName="IngameInfo_DangerLights_enableSoundSighted" Enabled="True" InstallGroup="4" PatchGroup="4" UID="w8oeej6j1aj19tor" Name="continous notification sound for out-of-screen enemies you are in direct line of sight" Type="multi" Visible="True">
+        <ZipFile>IngameInfo_DangerLights_enableSoundSighted_2020-05-22.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132346384533663370</Timestamp>
+        <DevURL>protanki.tv</DevURL>
+      </Package>
+      <Package PackageName="IngameInfo_DangerLights_enableMinimap" Enabled="True" InstallGroup="4" PatchGroup="4" UID="hy190im36p7yeb8g" Name="highlight spotted enemies on the minimap for which you are in direct visibility." Type="multi" Visible="True">
+        <ZipFile>IngameInfo_DangerLights_enableMinimap_2020-05-22.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132346388047830997</Timestamp>
+        <DevURL>protanki.tv</DevURL>
+      </Package>
+      <Package PackageName="IngameInfo_DangerLights_enableSightedLogic" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2srgpsnddsrm010x" Name="try to process all enemies" Type="multi" Visible="True">
+        <ZipFile>IngameInfo_DangerLights_enableSightedLogic_2020-05-22.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132346387038832391</Timestamp>
+        <DevURL>protanki.tv</DevURL>
+      </Package>
+    </Packages>
   </Package>
   <Package PackageName="IngameInfo_FinalShot" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4qcvi028h2edpw0y" Name="Final Shot (Last Hits) [by {author}]" Type="multi" Visible="True">
     <Size>594786</Size>
