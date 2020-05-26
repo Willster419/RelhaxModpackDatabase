@@ -86,7 +86,7 @@
     <CRC>f</CRC>
     <Timestamp>132096939128029782</Timestamp>
     <Packages>
-      <Package PackageName="TankSkinsMisc_Camo_CamoSelector" Enabled="False" InstallGroup="4" PatchGroup="4" UID="zlveom2b3w6fvlxy" Name="Camouflages Selector [by {author}]" Type="single_dropdown1" Visible="True">
+      <Package PackageName="TankSkinsMisc_Camo_CamoSelector" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zlveom2b3w6fvlxy" Name="Camo Selector [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>43139</Size>
         <ZipFile>Tank_Skins_Misc_Graphics_Camo_CamoSelector_1.7.0.0_2019-12-11.zip</ZipFile>
         <CRC>869e2d4559d9031e2c1a9512fbea6af8</CRC>
@@ -101,6 +101,19 @@
         </Medias>
         <Dependencies>
           <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="TankSkinsMisc_Camo_autoCamo" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3i9g9jbg5aq4q3bj" Name="Camouflage Manager [by {author}]" Type="single_dropdown1" Visible="True">
+        <ZipFile>TankSkinsMisc_Camo_autoCamo_v1.1_1.9.0.3_2020-05-26.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132349485867102414</Timestamp>
+        <DevURL>https://wgmods.net/1150/</DevURL>
+        <Author>OldSkool</Author>
+        <Description>OLDSKOOL'S CAMOUFLAGE MANAGER\r\n... IS AN EXTENSION TO MANAGE YOUR CAMOUFLAGES.</Description>
+        <Dependencies>
+          <Dependency PackageName="Dependency_modsCore_Oldskool" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
