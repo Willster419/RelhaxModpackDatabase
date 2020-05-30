@@ -640,202 +640,86 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Sounds_CrewVoices_English" Enabled="True" InstallGroup="4" PatchGroup="4" UID="lr70rss3bzqwwx8o" Name="English" Type="single1" Visible="True">
+      <Package PackageName="Sounds_CrewVoices_English" Enabled="True" InstallGroup="4" PatchGroup="4" UID="lr70rss3bzqwwx8o" Name="English Crew Voices" Type="single1" Visible="True">
         <Packages>
-          <Package PackageName="Sounds_CrewVoices_English_81" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kt4sv9yj72pkrbet" Name="8.1 Crew Sounds [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>5874342</Size>
-            <ZipFile>Sound_Mods_Crew_Sounds_81CrewSounds_1.5.0.3_2019-05-22.zip</ZipFile>
-            <CRC>9c3b01ac0d03f2f8d5bf37d9d8971685</CRC>
-            <Timestamp>132030347594545646</Timestamp>
-            <Author>The_Illusive_Man</Author>
-            <Description>Brings back the 8.1 crew sounds</Description>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
-            </Dependencies>
+          <Package PackageName="Sounds_CrewVoices_English_JohnTankPL" Enabled="False" InstallGroup="4" PatchGroup="4" UID="ygdf0sy4avjew8fo" Name="English Crew Sounds by JohnTankPL" Type="single1" Visible="False">
+            <Size>25743715</Size>
+            <ZipFile>Sounds_Crew_Sounds_Dzwieki_zalogi_By_JohnTankPL.zip</ZipFile>
+            <CRC>963a2d37c84339aa8cd85cf13ce91d97</CRC>
+            <Timestamp>131987322114911464</Timestamp>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/603317-audio-1411-dzwieki-zalogi/</DevURL>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_English_AllFemale" Enabled="False" InstallGroup="4" PatchGroup="4" UID="y0g0vfqnwxezektj" Name="Elkano's All Female Voices (ElkAFV) [by {author}]" Type="single_dropdown1" Visible="False">
-            <Size>1580</Size>
-            <ZipFile>Sounds_Elkanos_All_Female_Crew_Voices_(ElkAFV).zip</ZipFile>
-            <CRC>bf50b80e62b54ffadd5a643ed577a800</CRC>
-            <DevURL>https://mods.curse.com/wot-mods/worldoftanks/269045-elkafv</DevURL>
-            <Author>Elkano</Author>
-            <Description>ElkAFV:  Very, very quiet, quiet as hell\nChange the default voice gender of all crews to female\n\nElkano: Very, very quiet, quiet as hell\nChange the default voice of all crews</Description>
-            <UpdateComment>\nElkano:\nElkASV:updated to 0.9.20.0\nElkAFV:\nv1.0 - updated to 0.9.19.0.1</UpdateComment>
-          </Package>
-          <Package PackageName="Sounds_CrewVoices_English_AW" Enabled="True" InstallGroup="4" PatchGroup="4" UID="e8mzndo22lra34w6" Name="Armored Warfare [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>4272027</Size>
-            <ZipFile>Sound_Mods_Crew_Sounds_AW_by_Theillusion_1.5.1.1_2019-06-28.zip</ZipFile>
-            <CRC>73726ccddb3ef861d6386f69c3f091f5</CRC>
-            <Timestamp>132009438482404233</Timestamp>
-            <Author>The_Illusive_Man</Author>
-            <Description>Changes most crew sounds to that of Armored Warfare. Includes both Male, and Female sounds.</Description>
-            <UpdateComment>V2:\r\n- Added Female Crew Sounds\r\n- Complete Rework - Added over 200 sounds</UpdateComment>
-            <Dependencies>
-              <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="Sounds_CrewVoices_English_Combined" Enabled="True" InstallGroup="4" PatchGroup="4" UID="74xdn9si86x3rz7t" Name="Combined Crew Sounds (Read Description) [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>11618720</Size>
-            <Version>2020-02-27</Version>
-            <ZipFile>Sounds_Crew_Voices_The_Illusive_Man_Combined_1.7.1.2_2020-02-27.zip</ZipFile>
-            <CRC>358881f2c874af47205930bea7597ae9</CRC>
-            <Timestamp>132272849848981900</Timestamp>
-            <InternalNotes>This uses \gui\soundModes\main_sound_modes.xml. But does not patch it. This may be changed in the future.</InternalNotes>
-            <Author>The Illusion</Author>
-            <Description>This includes the following crew voice mods in one package:\r\n\r\n- Armored Warfare\r\n- Deadpool\r\n- Star Trek</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/sound_mods/Crew Sound Mods/The Illusion/shot_043.jpg" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="Sounds_CrewVoices_English_Deadpool" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rxsevcu31ijs3f46" Name="Deadpool v{version} [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>4465309</Size>
-            <Version>2.1</Version>
-            <ZipFile>Sound_Mods_Crew_Sounds_Deadpool_V2_1.5.0.4_2019-06-01.zip</ZipFile>
-            <CRC>27afdc78e1781f57a9e31ec964da0750</CRC>
-            <Timestamp>131841511508320234</Timestamp>
-            <DevURL>http://forum.worldoftanks.com/index.php?/topic/587664-star-trek-sound-mod/</DevURL>
-            <Author>The_Illusive_Man</Author>
-            <Description>Basically adds Deadpool sounds to the game. Chimichangas!\n\nPlease note that it does not currently replace all sounds.</Description>
-            <UpdateComment>- Updated to 1.5 wwise project\r\n- Added 80 new sounds\r\n- Fixed event posting\r\n- Fixed audio levels (When below 30, still happens below 20ish)</UpdateComment>
-            <Dependencies>
-              <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="Sounds_CrewVoices_English_dukeNukem" Enabled="True" InstallGroup="4" PatchGroup="4" UID="svvmrvon5ek381x1" Name="Duke Nukem [by {author}]" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Sounds_CrewVoices_English_dukeNukem" Enabled="True" InstallGroup="4" PatchGroup="4" UID="svvmrvon5ek381x1" Name="Duke Nukem by Silgi" Type="single1" Visible="True">
             <Size>13876468</Size>
             <Version>1.10.1</Version>
             <ZipFile>Sounds_Crew_Sounds_duke_nukem_by_Silgi_EN_1.1.0_2019-09-06.zip</ZipFile>
             <CRC>cd86686e2e77d7529cd1bceb98c87ffd</CRC>
             <Timestamp>131806675515689164</Timestamp>
             <DevURL>https://wgmods.net/1014/details</DevURL>
-            <Author>Silgi</Author>
             <Description>Mods by Silgi: https://wgmods.net/search/?owner=138375</Description>
             <UpdateComment>v1.10.1 = v1.10\nThe simple version has the audioww\voiceover.bnk included</UpdateComment>
             <Medias>
               <Media URL="https://youtu.be/BjDIlk-0ijI?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
             </Medias>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_English_JohnTankPL" Enabled="False" InstallGroup="4" PatchGroup="4" UID="ygdf0sy4avjew8fo" Name="English [by {author}]" Type="single_dropdown1" Visible="False">
-            <Size>25743715</Size>
-            <ZipFile>Sounds_Crew_Sounds_Dzwieki_zalogi_By_JohnTankPL.zip</ZipFile>
-            <CRC>963a2d37c84339aa8cd85cf13ce91d97</CRC>
-            <Timestamp>131987322114911464</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/603317-audio-1411-dzwieki-zalogi/</DevURL>
-            <Author>JohnTankPL</Author>
+          <Package PackageName="Sounds_CrewVoices_English_DrDisrespect" Enabled="False" InstallGroup="4" PatchGroup="4" UID="5k11zvuo4bdl7d41" Name="Dr. Disrespect by SirSchmidt" Type="single1" Visible="False">
+            <Size>30034447</Size>
+            <ZipFile>Sounds_Crew_Sounds_Dr_Disrespect_2019-07-21.zip</ZipFile>
+            <CRC>00c4f15cd81500ce0bbdaac0494e3d9e</CRC>
+            <Timestamp>132082301791347159</Timestamp>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_English_Julie" Enabled="True" InstallGroup="4" PatchGroup="4" UID="i98g7u0p37537pb1" Name="Julie Voice Pack [by {author}]" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Sounds_CrewVoices_English_Julie" Enabled="True" InstallGroup="4" PatchGroup="4" UID="i98g7u0p37537pb1" Name="Julie Voice Pack by niserius" Type="single1" Visible="True">
             <Size>855212</Size>
             <ZipFile>Sounds_Julie_Voice_Pack_1.1.0.zip</ZipFile>
             <CRC>3e6f728be539ef1f2901dfc7f680dbcd</CRC>
             <Timestamp>131803112589913544</Timestamp>
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/559722-</DevURL>
-            <Author>niserius</Author>
             <Description>\nJulie:\nMust have sound crew language set to "standard"</Description>
             <UpdateComment>\nJulie:\nupdated by niserius</UpdateComment>
             <Medias>
               <Media URL="https://www.youtube.com/watch?v=J0uWJ1XKOvg?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
             </Medias>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_English_LeviathanEvent2017" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cnpnzyq8yq7sjite" Name="Leviathan Event 2017 [by {author}]" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Sounds_CrewVoices_English_LeviathanEvent2017" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cnpnzyq8yq7sjite" Name="Leviathan Event 2017" Type="single1" Visible="True">
             <Size>4391124</Size>
             <ZipFile>Sounds_Crew_voices_LEVIATHAN_EVENT_2017_by_psyartax_v1.3_2019-01-12.zip</ZipFile>
             <CRC>a98526f93c4ecdac0896d1628d2af929</CRC>
             <Timestamp>131917960812089040</Timestamp>
             <DevURL>https://wgmods.net/2780/details</DevURL>
-            <Author>psyartax</Author>
             <Description>works for female crew\nDoesn’t work on Italian Tanks</Description>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_English_mightyJingles" Enabled="True" InstallGroup="4" PatchGroup="4" UID="019rn6wyeq3vguig" Name="The Mighty Jingles [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>19478898</Size>
-            <ZipFile>Sounds_mighty_jingles_Voice_Pack_1.1.0.zip</ZipFile>
-            <CRC>f346e22d46dd5a6952b3507ff77a83a8</CRC>
-            <Timestamp>131807564554552562</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/559722-</DevURL>
-            <Author>niserius</Author>
-          </Package>
-          <Package PackageName="Sounds_CrewVoices_English_Minions" Enabled="True" InstallGroup="4" PatchGroup="4" UID="isb13it8p90op0pw" Name="Minions" Type="single_dropdown1" Visible="True">
-            <Size>4435341</Size>
-            <Version>1.1.0</Version>
-            <ZipFile>Sounds_Minions_Voice_Pack_1.1.0.zip</ZipFile>
-            <CRC>3717c6875371c4371663acc18d6b19bb</CRC>
-            <Timestamp>131803112711823360</Timestamp>
-            <DevURL>http://wotsite.net/ozvuchka-dlya-world-of-tanks/12029-</DevURL>
-            <Author>Andre_V</Author>
-            <Description>Author: Mick42 and Andre_V; \nThis mod changes the standard voice acting crew sounds (screams, laughter, singing, dancing with a tambourine, etc.) minions film “Despicable Me” and “Despicable Me 2”. \n\nOld URL: http://worldof-tanks.com/8-10-minions-voicepack/</Description>
-            <UpdateComment>Updated: 2018-01-11 v0.9.21.0.3</UpdateComment>
+          <Package PackageName="Sounds_CrewVoices_English_TerrorbladeOfDota" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pcw27xw9xnzajt0e" Name="Terrorblade of Dota 2" Type="single1" Visible="True">
+            <Size>7823901</Size>
+            <ZipFile>Sounds_Crew_Voices_Terrorblade_of_Dota_1.3.0.1_2019-02-04.zip</ZipFile>
+            <CRC>d06e948e7fbdb1e8383d0496bc62df3d</CRC>
+            <Timestamp>131937175724507529</Timestamp>
+            <DevURL>https://wgmods.net/2752/details</DevURL>
+            <Description>Let´s give them hell!</Description>
             <Medias>
-              <Media URL="http://wotsite.net/images/2013/12/9/8.jpg" MediaType="Picture" />
-              <Media URL="https://youtu.be/_0M0zLdKU3U?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
-              <Media URL="https://youtu.be/7wKusFTzuy4?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
+              <Media URL="https://youtu.be/BurczXsbcM8" MediaType="Webpage" />
             </Medias>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_English_MontyPython" Enabled="True" InstallGroup="4" PatchGroup="4" UID="534muim7qd86poiw" Name="Monty Python [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>18509836</Size>
-            <Version>3</Version>
-            <ZipFile>Sounds_Monty_Python_1.1.0.1.zip</ZipFile>
-            <CRC>ce12dbd1440f08c98f20a678f2d1ac7b</CRC>
-            <Timestamp>131838649055814220</Timestamp>
-            <DevURL>https://wgmods.net/621/details</DevURL>
-            <Author>Andre_V</Author>
-          </Package>
-          <Package PackageName="Sounds_CrewVoices_English_MLGonlyAudio" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wgko71str2thuypr" Name="MLG Mod (v1 - English sound) [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>814</Size>
-            <ZipFile>Sounds_mlg_mod_voice_sound_only_patch.zip</ZipFile>
-            <CRC>c46a3d2c3701290363a0c7115ab63e37</CRC>
+          <Package PackageName="Sounds_CrewVoices_English_MLGbase" Enabled="False" InstallGroup="4" PatchGroup="4" UID="jrd9z1mss610umir" Name="MLG Mod by Aimdrol (English sound and text)" Type="single1" Visible="True">
+            <Size>26113309</Size>
+            <ZipFile>Sounds_mlg_mod_voice_1.7.1.0_2020-01-29.zip</ZipFile>
+            <CRC>0fa8fc8fe27c70bc966f480cde9cd8b1</CRC>
+            <Timestamp>132247631589781323</Timestamp>
             <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
-            <Author>Aimdrol </Author>
-            <Description>Must have sound crew language set to "standard"\nMLG EVERYWHERE</Description>
-            <Dependencies>
-              <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_MLG_englishLocalization" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_CrewVoices_English_MLG" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="Sounds_CrewVoices_English_MLGvisuals" Enabled="True" InstallGroup="4" PatchGroup="4" UID="95r3f0yurzmzu9xr" Name="MLG Mod (v2 - English sound and text) [by {author}]" Type="single_dropdown1" Visible="True">
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
-            <Author>Aimdrol </Author>
             <Description>Must have sound crew language set to "standard"\nMLG EVERYWHERE\nAlso includes awesome visuals.</Description>
             <Dependencies>
               <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_MLG_englishLocalization" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_CrewVoices_English_MLG" NotFlag="False" Logic="OR" />
             </Dependencies>
+            <Packages>
+              <Package PackageName="Sounds_crew_sounds_MLG_only_audio" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wgko71str2thuypr" Name="audio only, no visuals" Type="single_dropdown1" Visible="True">
+                <Size>814</Size>
+                <ZipFile>Sounds_mlg_mod_voice_sound_only_patch.zip</ZipFile>
+                <CRC>c46a3d2c3701290363a0c7115ab63e37</CRC>
+              </Package>
+              <Package PackageName="Sounds_crew_sounds_MLG_audio_and_visuals" Enabled="True" InstallGroup="4" PatchGroup="4" UID="95r3f0yurzmzu9xr" Name="audio and visuals" Type="single_dropdown1" Visible="True" />
+            </Packages>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_English_RelhaxCensored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nc3cf7qxfuaegjbg" Name="Relhax [censored]" Type="single_dropdown1" Visible="True">
-            <Size>23035297</Size>
-            <ZipFile>Sounds_Crew_Sounds_Relhax_Config_Censored_2019-07-21.zip</ZipFile>
-            <CRC>5d521283ea13fcac23b7a3d01fe1cc90</CRC>
-            <Timestamp>132082298431317625</Timestamp>
-            <DevURL>http://relicgaming.org/index.php?topic=697.0</DevURL>
-            <Description>Relhax:\nReplaces all crew sounds with hilarious out-of-context sound bytes from people of the RELIC gaming community</Description>
-            <Medias>
-              <Media URL="http://i.imgur.com/uWih1kD.jpg" MediaType="Picture" />
-              <Media URL="https://www.youtube.com/v/9kCic4vXYIE?version=3&amp;autoplay=1" MediaType="Webpage" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_CrewVoices_English_Relhax" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="Sounds_CrewVoices_English_RelhaxRegular" Enabled="True" InstallGroup="4" PatchGroup="4" UID="txl5n30ekb8o5qt3" Name="Relhax [regular]" Type="single_dropdown1" Visible="True">
-            <Size>26885296</Size>
-            <ZipFile>Sounds_Crew_Sounds_Relhax_Config_Regular_2019-07-21.zip</ZipFile>
-            <CRC>a3a6d1b96750852656959710fbdc645a</CRC>
-            <Timestamp>132082298508051632</Timestamp>
-            <DevURL>http://relicgaming.org/index.php?topic=697.0</DevURL>
-            <Description>Relhax:\nReplaces all crew sounds with hilarious out-of-context sound bytes from people of the RELIC gaming community</Description>
-            <Medias>
-              <Media URL="http://i.imgur.com/uWih1kD.jpg" MediaType="Picture" />
-              <Media URL="https://www.youtube.com/v/9kCic4vXYIE?version=3&amp;autoplay=1" MediaType="Webpage" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_CrewVoices_English_Relhax" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="Sounds_CrewVoices_English_RoadRashJailbreak" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3j8b74odliop52f4" Name="Road Rash: Jailbreak" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Sounds_CrewVoices_English_RoadRashJailbreak" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3j8b74odliop52f4" Name="Road Rash: Jailbreak" Type="single1" Visible="True">
             <Size>11668684</Size>
             <ZipFile>Sounds_Crew_Voices_Road_Rash_Jailbreak_1.3.0.1_2019-01-29.zip</ZipFile>
             <CRC>b6e8da25262537bb8a6a9cdf7523033b</CRC>
@@ -846,63 +730,166 @@
               <Media URL="https://youtu.be/uUScqfIlnfY" MediaType="Webpage" />
             </Medias>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_English_Sabaton" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vhigbhz9o5s6pcwv" Name="Sabaton [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>3793558</Size>
-            <ZipFile>Sounds_Sabaton_Crew_Voices_by_Andre_V_1.1.0_2018-08-31.zip</ZipFile>
-            <CRC>edad9c3775f51a1e507861b1fe08261d</CRC>
-            <Timestamp>131802423555074634</Timestamp>
-            <DevURL>http://wotsite.net/ozvuchka-dlya-world-of-tanks/12427-</DevURL>
-            <Author>Andre_V</Author>
-            <Description>Change the default voice of all crews to Sabaton Primo Victoria</Description>
-            <UpdateComment>Updated 1.10 2018-08-31</UpdateComment>
+          <Package PackageName="Sounds_CrewVoices_English_Relhax" Enabled="True" InstallGroup="4" PatchGroup="4" UID="g8fqf3ueleg65em4" Name="Relhax" Type="single1" Visible="True">
+            <Size>1127</Size>
+            <Version>24</Version>
+            <ZipFile>Sounds_Crew_Sounds_Relhax_Base_2019-08-03.zip</ZipFile>
+            <CRC>833c22c8e5824ec90bacfe5daa96e1e5</CRC>
+            <Timestamp>132093315025806866</Timestamp>
+            <DevURL>http://relicgaming.org/index.php?topic=697.0</DevURL>
+            <Description>Relhax:\nReplaces all crew sounds with hilarious out-of-context sound bytes from people of the RELIC gaming community</Description>
             <Medias>
-              <Media URL="https://youtu.be/iT8MCiY44DA?version=3&amp;autoplay=1" MediaType="Webpage" />
+              <Media URL="http://i.imgur.com/uWih1kD.jpg" MediaType="Picture" />
+              <Media URL="https://www.youtube.com/v/9kCic4vXYIE?version=3&amp;autoplay=1" MediaType="Webpage" />
             </Medias>
+            <Packages>
+              <Package PackageName="Sounds_CrewVoices_English_Relhax_Regular" Enabled="True" InstallGroup="4" PatchGroup="4" UID="txl5n30ekb8o5qt3" Name="standard" Type="single_dropdown1" Visible="True">
+                <Size>26885296</Size>
+                <ZipFile>Sounds_Crew_Sounds_Relhax_Config_Regular_2019-07-21.zip</ZipFile>
+                <CRC>a3a6d1b96750852656959710fbdc645a</CRC>
+                <Timestamp>132082298508051632</Timestamp>
+              </Package>
+              <Package PackageName="Sounds_CrewVoices_English_Relhax_Censored" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nc3cf7qxfuaegjbg" Name="censored" Type="single_dropdown1" Visible="True">
+                <Size>23035297</Size>
+                <ZipFile>Sounds_Crew_Sounds_Relhax_Config_Censored_2019-07-21.zip</ZipFile>
+                <CRC>5d521283ea13fcac23b7a3d01fe1cc90</CRC>
+                <Timestamp>132082298431317625</Timestamp>
+              </Package>
+            </Packages>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_English_StarTrek" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4mzt3b041ec93rb6" Name="Star Trek [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>2594110</Size>
-            <Version>v6.1</Version>
-            <ZipFile>Sound_Mods_Crew_Sounds_Star_Trek_by_The_Illusive_Man_v6.1_2019-10-08.zip</ZipFile>
-            <CRC>acbcfc19722d03a101fe1c4e497ff3ab</CRC>
-            <Timestamp>132150224087250086</Timestamp>
+          <Package PackageName="Sounds_CrewVoices_English_mightyJingles" Enabled="True" InstallGroup="4" PatchGroup="4" UID="019rn6wyeq3vguig" Name="The Mighty Jingles Voice Pack revived by niserius" Type="single1" Visible="True">
+            <Size>19478898</Size>
+            <ZipFile>Sounds_mighty_jingles_Voice_Pack_1.1.0.zip</ZipFile>
+            <CRC>f346e22d46dd5a6952b3507ff77a83a8</CRC>
+            <Timestamp>131807564554552562</Timestamp>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/559722-</DevURL>
+          </Package>
+          <Package PackageName="Sounds_CrewVoices_English_TheIllusiveMan" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ufryfamh994lrn0t" Name="English Crew Voices by The_Illusive_Man" Type="single1" Visible="True">
+            <Version>2018-10-02</Version>
+            <Timestamp>131931517940589771</Timestamp>
             <DevURL>http://forum.worldoftanks.com/index.php?/topic/587664-star-trek-sound-mod/</DevURL>
-            <Author>The_Illusive_Man</Author>
-            <Description>Currently has:\n- Scotty\n- Sulu\n- Chekov\n- Bashir\n- The Doctor\n- Generic Klingons\n- Sela\n-Quark\n-Cooper\n-Q\n\nhttps://wgmods.net/2246/</Description>
-            <UpdateComment>2019-01-05_v6:\nAdded:\nBvat_02 [vo_vehile_destroyed/male]\nBvat_03 [vo_vehile_destroyed/male]\nCooper_008 [vo_armor_not_pierced_by_player/male]\nCooper_007 [vo_dp_player_joined_platoon, vo_dp_player_joined]\nCooper_006 [vo_target_captured]\nCooper_10 [vo_dp_assistance_been_requested]\nCooper_11 [vo_dp_player_joined_platoon, vo_dp_player_joined]\nCooper_013 [vo_dp_left_platoon]\nQuark_162 [vo_enemy_fire_started_by_player]\n\nRemoved:\nScotty_27 [Not relevent to WOT]\nHolo_Leeta_Dabo3 from vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player/male [Its only supposed to be played when a female crew is used] \nRemoved extra sound files\n\nModified:\nReduced Q Death sound [Too loud]\nAdded some Spock sounds to events properly [wherent playing]</UpdateComment>
-            <Medias>
-              <Media URL="https://youtu.be/DqgGGayokfM" MediaType="Webpage" />
-            </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
             </Dependencies>
+            <Packages>
+              <Package PackageName="Sounds_CrewVoices_English_TheIllusiveMan_Combined" Enabled="True" InstallGroup="4" PatchGroup="4" UID="74xdn9si86x3rz7t" Name="Combined Crew Sounds (Read Description)" Type="single_dropdown1" Visible="True">
+                <Size>11618720</Size>
+                <Version>2020-02-27</Version>
+                <ZipFile>Sounds_Crew_Voices_The_Illusive_Man_Combined_1.7.1.2_2020-02-27.zip</ZipFile>
+                <CRC>358881f2c874af47205930bea7597ae9</CRC>
+                <Timestamp>132272849848981900</Timestamp>
+                <InternalNotes>This uses \gui\soundModes\main_sound_modes.xml. But does not patch it. This may be changed in the future.</InternalNotes>
+                <Author>The Illusion</Author>
+                <Description>This includes the following crew voice mods in one package:\r\n\r\n- Armored Warfare\r\n- Deadpool\r\n- Star Trek</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/sound_mods/Crew Sound Mods/The Illusion/shot_043.jpg" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="Sounds_CrewVoices_English_TheIllusiveMan_81" Enabled="True" InstallGroup="4" PatchGroup="4" UID="kt4sv9yj72pkrbet" Name="8.1 Crew Sounds" Type="single_dropdown1" Visible="True">
+                <Size>5874342</Size>
+                <ZipFile>Sound_Mods_Crew_Sounds_81CrewSounds_1.5.0.3_2019-05-22.zip</ZipFile>
+                <CRC>9c3b01ac0d03f2f8d5bf37d9d8971685</CRC>
+                <Timestamp>132030347594545646</Timestamp>
+                <Description>Brings back the 8.1 crew sounds</Description>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
+              <Package PackageName="Sounds_CrewVoices_English_TheIllusiveMan_AW" Enabled="True" InstallGroup="4" PatchGroup="4" UID="e8mzndo22lra34w6" Name="Armored Warfare" Type="single_dropdown1" Visible="True">
+                <Size>4272027</Size>
+                <ZipFile>Sound_Mods_Crew_Sounds_AW_by_Theillusion_1.5.1.1_2019-06-28.zip</ZipFile>
+                <CRC>73726ccddb3ef861d6386f69c3f091f5</CRC>
+                <Timestamp>132009438482404233</Timestamp>
+                <Description>Changes most crew sounds to that of Armored Warfare. Includes both Male, and Female sounds.</Description>
+                <UpdateComment>V2:\r\n- Added Female Crew Sounds\r\n- Complete Rework - Added over 200 sounds</UpdateComment>
+              </Package>
+              <Package PackageName="Sounds_CrewVoices_English_TheIllusiveMan_Deadpool" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rxsevcu31ijs3f46" Name="Deadpool v{version}" Type="single_dropdown1" Visible="True">
+                <Size>4465309</Size>
+                <Version>2.1</Version>
+                <ZipFile>Sound_Mods_Crew_Sounds_Deadpool_V2_1.5.0.4_2019-06-01.zip</ZipFile>
+                <CRC>27afdc78e1781f57a9e31ec964da0750</CRC>
+                <Timestamp>131841511508320234</Timestamp>
+                <DevURL>http://forum.worldoftanks.com/index.php?/topic/587664-star-trek-sound-mod/</DevURL>
+                <Description>Basically adds Deadpool sounds to the game. Chimichangas!\n\nPlease note that it does not currently replace all sounds.</Description>
+                <UpdateComment>- Updated to 1.5 wwise project\r\n- Added 80 new sounds\r\n- Fixed event posting\r\n- Fixed audio levels (When below 30, still happens below 20ish)</UpdateComment>
+              </Package>
+              <Package PackageName="Sounds_CrewVoices_English_TheIllusiveMan_StarTrek" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4mzt3b041ec93rb6" Name="Star Trek" Type="single_dropdown1" Visible="True">
+                <Size>2594110</Size>
+                <Version>v6.1</Version>
+                <ZipFile>Sound_Mods_Crew_Sounds_Star_Trek_by_The_Illusive_Man_v6.1_2019-10-08.zip</ZipFile>
+                <CRC>acbcfc19722d03a101fe1c4e497ff3ab</CRC>
+                <Timestamp>132150224087250086</Timestamp>
+                <DevURL>http://forum.worldoftanks.com/index.php?/topic/587664-star-trek-sound-mod/</DevURL>
+                <Description>Currently has:\n- Scotty\n- Sulu\n- Chekov\n- Bashir\n- The Doctor\n- Generic Klingons\n- Sela\n-Quark\n-Cooper\n-Q\n\nhttps://wgmods.net/2246/</Description>
+                <UpdateComment>2019-01-05_v6:\nAdded:\nBvat_02 [vo_vehile_destroyed/male]\nBvat_03 [vo_vehile_destroyed/male]\nCooper_008 [vo_armor_not_pierced_by_player/male]\nCooper_007 [vo_dp_player_joined_platoon, vo_dp_player_joined]\nCooper_006 [vo_target_captured]\nCooper_10 [vo_dp_assistance_been_requested]\nCooper_11 [vo_dp_player_joined_platoon, vo_dp_player_joined]\nCooper_013 [vo_dp_left_platoon]\nQuark_162 [vo_enemy_fire_started_by_player]\n\nRemoved:\nScotty_27 [Not relevent to WOT]\nHolo_Leeta_Dabo3 from vo_enemy_hp_damaged_by_explosion_at_direct_hit_by_player/male [Its only supposed to be played when a female crew is used] \nRemoved extra sound files\n\nModified:\nReduced Q Death sound [Too loud]\nAdded some Spock sounds to events properly [wherent playing]</UpdateComment>
+                <Medias>
+                  <Media URL="https://youtu.be/DqgGGayokfM" MediaType="Webpage" />
+                </Medias>
+              </Package>
+            </Packages>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_English_SteelFoxes" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pwzo2lpsjpuv05e8" Name="Steel Foxes (with Strategic Music) [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>24761023</Size>
-            <ZipFile>Sounds_crew_sounds_Steel_Foxes_by_Strategic_Music+Andre_V_english_1.1.0_2018-08-31.zip</ZipFile>
-            <CRC>13f6d2ab5f05ab7620acf8788f9e7fcc</CRC>
-            <Timestamp>131803109527255587</Timestamp>
-            <DevURL>http://wotsite.net/ozvuchka-dlya-world-of-tanks/10241-</DevURL>
-            <Author>Andre_V</Author>
-            <Description>Steel Foxes with Strategic Music &amp; Andre_V\nNote for youtube: Just wait ca. 20 seconds (russian language over)\n-provides alternative voice reactions from the tank crew. \n-More than 750 phrases for 45 different in-game situations.\n-gives you a new gaming experience\n-new emotions, atmosphere and some humor\n\nThe mod team:\nDmitry Kuzmenko – original idea, voice direction, script writing\nWill Bucknum – script writing, voice direction\nAaron Baca – script writing\nTechnical director – Serge Eybog\nSound design – Andrew Burmistrov, Stas Polesko, Petr Yakyamsev\nDouglas Pullar – commander\nJohn Bell – additional voice-over</Description>
-            <UpdateComment>Updated 1.10 2018-08-31\n\n\nRemoved ekspont_load.wotmod &amp; LobbyApi.wotmod</UpdateComment>
-            <Medias>
-              <Media URL="http://wotsite.net/images/2013/11/25/13.jpg" MediaType="Picture" />
-              <Media URL="https://youtu.be/565ek6lrqbo?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
-            </Dependencies>
+          <Package PackageName="Sounds_CrewVoices_English_AllFemale" Enabled="False" InstallGroup="4" PatchGroup="4" UID="y0g0vfqnwxezektj" Name="Elkano's All Female Voices (ElkAFV)" Type="single1" Visible="False">
+            <Size>1580</Size>
+            <ZipFile>Sounds_Elkanos_All_Female_Crew_Voices_(ElkAFV).zip</ZipFile>
+            <CRC>bf50b80e62b54ffadd5a643ed577a800</CRC>
+            <DevURL>https://mods.curse.com/wot-mods/worldoftanks/269045-elkafv</DevURL>
+            <Description>ElkAFV:  Very, very quiet, quiet as hell\nChange the default voice gender of all crews to female\n\nElkano: Very, very quiet, quiet as hell\nChange the default voice of all crews</Description>
+            <UpdateComment>\nElkano:\nElkASV:updated to 0.9.20.0\nElkAFV:\nv1.0 - updated to 0.9.19.0.1</UpdateComment>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_English_TerrorbladeOfDota" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pcw27xw9xnzajt0e" Name="Terrorblade of Dota 2" Type="single_dropdown1" Visible="True">
-            <Size>7823901</Size>
-            <ZipFile>Sounds_Crew_Voices_Terrorblade_of_Dota_1.3.0.1_2019-02-04.zip</ZipFile>
-            <CRC>d06e948e7fbdb1e8383d0496bc62df3d</CRC>
-            <Timestamp>131937175724507529</Timestamp>
-            <DevURL>https://wgmods.net/2752/details</DevURL>
-            <Description>Let´s give them hell!</Description>
-            <Medias>
-              <Media URL="https://youtu.be/BurczXsbcM8" MediaType="Webpage" />
-            </Medias>
+          <Package PackageName="Sounds_CrewVoices_English_AndreV" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bpnf3fwovu6hev0j" Name="English Crew Voices by Andre_V" Type="single1" Visible="True">
+            <Packages>
+              <Package PackageName="Sounds_CrewVoices_English_AndreV_MontyPython" Enabled="True" InstallGroup="4" PatchGroup="4" UID="534muim7qd86poiw" Name="Monty Python" Type="single_dropdown1" Visible="True">
+                <Size>18509836</Size>
+                <Version>3</Version>
+                <ZipFile>Sounds_Monty_Python_1.1.0.1.zip</ZipFile>
+                <CRC>ce12dbd1440f08c98f20a678f2d1ac7b</CRC>
+                <Timestamp>131838649055814220</Timestamp>
+                <DevURL>https://wgmods.net/621/details</DevURL>
+              </Package>
+              <Package PackageName="Sounds_CrewVoices_English_AndreV_Minions" Enabled="True" InstallGroup="4" PatchGroup="4" UID="isb13it8p90op0pw" Name="Minions Voice Pack" Type="single_dropdown1" Visible="True">
+                <Size>4435341</Size>
+                <Version>1.1.0</Version>
+                <ZipFile>Sounds_Minions_Voice_Pack_1.1.0.zip</ZipFile>
+                <CRC>3717c6875371c4371663acc18d6b19bb</CRC>
+                <Timestamp>131803112711823360</Timestamp>
+                <DevURL>http://wotsite.net/ozvuchka-dlya-world-of-tanks/12029-</DevURL>
+                <Description>Author: Mick42 and Andre_V; \nThis mod changes the standard voice acting crew sounds (screams, laughter, singing, dancing with a tambourine, etc.) minions film “Despicable Me” and “Despicable Me 2”. \n\nOld URL: http://worldof-tanks.com/8-10-minions-voicepack/</Description>
+                <UpdateComment>Updated: 2018-01-11 v0.9.21.0.3</UpdateComment>
+                <Medias>
+                  <Media URL="http://wotsite.net/images/2013/12/9/8.jpg" MediaType="Picture" />
+                  <Media URL="https://youtu.be/_0M0zLdKU3U?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
+                  <Media URL="https://youtu.be/7wKusFTzuy4?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
+                </Medias>
+              </Package>
+              <Package PackageName="Sounds_CrewVoices_English_AndreV_Sabaton" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vhigbhz9o5s6pcwv" Name="Sabaton Voices" Type="single_dropdown1" Visible="True">
+                <Size>3793558</Size>
+                <ZipFile>Sounds_Sabaton_Crew_Voices_by_Andre_V_1.1.0_2018-08-31.zip</ZipFile>
+                <CRC>edad9c3775f51a1e507861b1fe08261d</CRC>
+                <Timestamp>131802423555074634</Timestamp>
+                <DevURL>http://wotsite.net/ozvuchka-dlya-world-of-tanks/12427-</DevURL>
+                <Description>Change the default voice of all crews to Sabaton Primo Victoria</Description>
+                <UpdateComment>Updated 1.10 2018-08-31</UpdateComment>
+                <Medias>
+                  <Media URL="https://youtu.be/iT8MCiY44DA?version=3&amp;autoplay=1" MediaType="Webpage" />
+                </Medias>
+              </Package>
+              <Package PackageName="Sounds_CrewVoices_English_AndreV_SteelFoxes" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pwzo2lpsjpuv05e8" Name="Steel Foxes with Strategic Music" Type="single_dropdown1" Visible="True">
+                <Size>24761023</Size>
+                <ZipFile>Sounds_crew_sounds_Steel_Foxes_by_Strategic_Music+Andre_V_english_1.1.0_2018-08-31.zip</ZipFile>
+                <CRC>13f6d2ab5f05ab7620acf8788f9e7fcc</CRC>
+                <Timestamp>131803109527255587</Timestamp>
+                <DevURL>http://wotsite.net/ozvuchka-dlya-world-of-tanks/10241-</DevURL>
+                <Description>Steel Foxes with Strategic Music &amp; Andre_V\nNote for youtube: Just wait ca. 20 seconds (russian language over)\n-provides alternative voice reactions from the tank crew. \n-More than 750 phrases for 45 different in-game situations.\n-gives you a new gaming experience\n-new emotions, atmosphere and some humor\n\nThe mod team:\nDmitry Kuzmenko – original idea, voice direction, script writing\nWill Bucknum – script writing, voice direction\nAaron Baca – script writing\nTechnical director – Serge Eybog\nSound design – Andrew Burmistrov, Stas Polesko, Petr Yakyamsev\nDouglas Pullar – commander\nJohn Bell – additional voice-over</Description>
+                <UpdateComment>Updated 1.10 2018-08-31\n\n\nRemoved ekspont_load.wotmod &amp; LobbyApi.wotmod</UpdateComment>
+                <Medias>
+                  <Media URL="http://wotsite.net/images/2013/11/25/13.jpg" MediaType="Picture" />
+                  <Media URL="https://youtu.be/565ek6lrqbo?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
+                </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
+            </Packages>
           </Package>
         </Packages>
       </Package>
