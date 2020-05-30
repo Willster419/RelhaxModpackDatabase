@@ -609,12 +609,12 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Sounds_Engine" Enabled="True" InstallGroup="4" PatchGroup="4" UID="j1ezivwfk4sogzg5" Name="Engine" Type="multi" Visible="True">
+  <Package PackageName="Sounds_Engines" Enabled="True" InstallGroup="4" PatchGroup="4" UID="j1ezivwfk4sogzg5" Name="Engines" Type="multi" Visible="True">
     <Dependencies>
       <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="Sounds_AGQJ_Engines_SicFunzler" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dgv6azmyfnuersyj" Name="AGQJ Engines by SicFunzler v{version}" Type="single_dropdown1" Visible="True">
+      <Package PackageName="Sounds_Engines_AGQJ_SicFunzler" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dgv6azmyfnuersyj" Name="AGQJ Engines by SicFunzler v{version}" Type="single_dropdown1" Visible="True">
         <Size>8141</Size>
         <Version>234</Version>
         <ZipFile>Sounds_AGQJ_Engines_by_SicFunzler_Only_Scripts_v234_1.9.0.0_2020-04-23.zip</ZipFile>
@@ -629,7 +629,7 @@
           <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Sounds_AGQJ_Engines_Fedor_Saveliev" Enabled="True" InstallGroup="4" PatchGroup="4" UID="q52liyszekmvr45i" Name="AGQJ Engines by Fedor Saveliev" Type="single_dropdown1" Visible="True">
+      <Package PackageName="Sounds_Engines_AGQJ_FedorSaveliev" Enabled="True" InstallGroup="4" PatchGroup="4" UID="q52liyszekmvr45i" Name="AGQJ Engines by Fedor Saveliev" Type="single_dropdown1" Visible="True">
         <Size>22014</Size>
         <Version>1.9.0.0</Version>
         <ZipFile>Sounds_AGQJ_Engines_by_FedorSaveliev_Only_Scripts_Mister_bl_614_1.9.0.0_2020-04-23.zip</ZipFile>
@@ -644,7 +644,7 @@
           <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Sounds_Engines_by_Ed76na+Apa6ecka" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3u80qyy0dgfdrfci" Name="Engines by Ed76na &amp; Apa6ecka" Type="single_dropdown1" Visible="True">
+      <Package PackageName="Sounds_Engines_Ed76na+Apa6ecka" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3u80qyy0dgfdrfci" Name="Engines by Ed76na &amp; Apa6ecka" Type="single_dropdown1" Visible="True">
         <Size>21658356</Size>
         <Version>1.2.0.1</Version>
         <ZipFile>Sounds_Engines_GO_by_Ed76na+Apa6ecka_1.2.0.1_2018-10-18.zip</ZipFile>
@@ -683,16 +683,7 @@
           <Dependency PackageName="Dependency_Sounds_GnomeFathers_SoundBanks" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Sounds_AGQJ_Engines_with_Soundinjektor_NOTES" Enabled="False" InstallGroup="4" PatchGroup="4" UID="axwmq1uk8w9k2k1v" Name="NOTES: AGQJ Engines by Fedor Saveliev (SoundEventInjector)" Type="single_dropdown1" Visible="False">
-        <Size>83692900</Size>
-        <Version>1.2.0.0</Version>
-        <ZipFile>Sounds_AGQJ_Engines_by_Fedor_Saveliev_SoundEventInjector_PYmodsCore_1.2.0_2018-10-12.zip</ZipFile>
-        <CRC>f81a45d6cad2f9baa0d9eb0b4503681d</CRC>
-        <Timestamp>131774181890246272</Timestamp>
-        <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1778752-</DevURL>
-        <InternalNotes>0. Soundinjektor is a great tool for modding sounds - no Patches are needed - updating gets much easier\n1. Problem: Working alone as intended check replays\n2. Problem: Soundinjektor is incompatible with WWIIHWA (WOT-Circle -- restart-&gt;crash-&gt;restart-&gt;crash....)\n3. Dont have Ideas/ muse / moods  for fixing now -123gauss</InternalNotes>
-      </Package>
-      <Package PackageName="Sounds_AGQJ_Engines" Enabled="False" InstallGroup="4" PatchGroup="4" UID="4ceui5k32fbaedj8" Name="AGQJ Engines by Fedor Saveliev  v{version}" Type="single_dropdown1" Visible="False">
+      <Package PackageName="Sounds_Engines_AGQJ" Enabled="False" InstallGroup="4" PatchGroup="4" UID="4ceui5k32fbaedj8" Name="AGQJ Engines by Fedor Saveliev  v{version}" Type="single_dropdown1" Visible="False">
         <Size>83692297</Size>
         <Version>1.5.0.2</Version>
         <ZipFile>Sounds_AGQJ_Engines_by_Fedor_Saveliev_SoundEventInjector_PYmodsCore_1.5.0.2_2019-05-15.zip</ZipFile>
@@ -706,7 +697,16 @@
           <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Sounds_Engines_by_Ed76na+Apa6ecka_NOTES" Enabled="False" InstallGroup="4" PatchGroup="4" UID="h1k8q4q42b3sepq8" Name="NOTES: Engines by Ed76na &amp; Apa6ecka" Type="single_dropdown1" Visible="False">
+      <Package PackageName="Sounds_Engines_AGQJ_with_Soundinjektor_NOTES" Enabled="False" InstallGroup="4" PatchGroup="4" UID="axwmq1uk8w9k2k1v" Name="NOTES: AGQJ Engines by Fedor Saveliev (SoundEventInjector)" Type="single_dropdown1" Visible="False">
+        <Size>83692900</Size>
+        <Version>1.2.0.0</Version>
+        <ZipFile>Sounds_AGQJ_Engines_by_Fedor_Saveliev_SoundEventInjector_PYmodsCore_1.2.0_2018-10-12.zip</ZipFile>
+        <CRC>f81a45d6cad2f9baa0d9eb0b4503681d</CRC>
+        <Timestamp>131774181890246272</Timestamp>
+        <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1778752-</DevURL>
+        <InternalNotes>0. Soundinjektor is a great tool for modding sounds - no Patches are needed - updating gets much easier\n1. Problem: Working alone as intended check replays\n2. Problem: Soundinjektor is incompatible with WWIIHWA (WOT-Circle -- restart-&gt;crash-&gt;restart-&gt;crash....)\n3. Dont have Ideas/ muse / moods  for fixing now -123gauss</InternalNotes>
+      </Package>
+      <Package PackageName="Sounds_Engines_Ed76na+Apa6ecka_NOTES" Enabled="False" InstallGroup="4" PatchGroup="4" UID="h1k8q4q42b3sepq8" Name="NOTES: Engines by Ed76na &amp; Apa6ecka" Type="single_dropdown1" Visible="False">
         <Size>21654503</Size>
         <ZipFile>Sounds_Engines_GO_by_Ed76na+Apa6ecka_1.1.0_2018-08-31.zip</ZipFile>
         <CRC>dfb5e70f2e91630d08e92fc01ff0d1ea</CRC>
@@ -769,7 +769,7 @@
           <Media URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/sound_mods/extras/explorer_22JSs8tEKx.jpg" MediaType="Picture" />
         </Medias>
       </Package>
-      <Package PackageName="Sounds_WheeledTankLoaded" Enabled="False" InstallGroup="4" PatchGroup="4" UID="sjmim7ze2g2xhfe2" Name="Wheeled Tank Loading" Type="multi" Visible="False">
+      <Package PackageName="Sounds_Extras_WheeledTankLoaded" Enabled="False" InstallGroup="4" PatchGroup="4" UID="sjmim7ze2g2xhfe2" Name="Wheeled Tank Loading" Type="multi" Visible="False">
         <Size>124166</Size>
         <ZipFile>Sound_Mods_Wheeled_Joke_2019-04-27.zip</ZipFile>
         <CRC>933d133e6a49f947c5d9e2aeb34b531b</CRC>
@@ -865,7 +865,7 @@
           <Dependency PackageName="Dependency_Sounds_GnomeFathers_SoundBanks" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Sounds_AGQJ_Guns_by_Fedor_Saveliev" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5e5cdcwvibzvb1fa" Name="AGQJ Guns by Fedor Saveliev" Type="single_dropdown1" Visible="True">
+      <Package PackageName="Sounds_Gun_AGQJ_FedorSaveliev" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5e5cdcwvibzvb1fa" Name="AGQJ Guns by Fedor Saveliev" Type="single_dropdown1" Visible="True">
         <Size>13133</Size>
         <Version>1.9.0.0</Version>
         <ZipFile>Sounds_AGQJ_Guns_by_FedorSaveliev_Only_Scripts_Mister_bl#614_1.9.0.0_2020-04-23.zip</ZipFile>
@@ -880,7 +880,7 @@
           <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Sounds_AGQJ_Guns_SicFunzler" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zsmj5gmdcu1kmuxn" Name="AGQJ Guns by SicFunzler v{version}" Type="single_dropdown1" Visible="True">
+      <Package PackageName="Sounds_Gun_AGQJ_SicFunzler" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zsmj5gmdcu1kmuxn" Name="AGQJ Guns by SicFunzler v{version}" Type="single_dropdown1" Visible="True">
         <Size>15995</Size>
         <Version>234</Version>
         <ZipFile>Sounds_AGQJ_Guns_by_SicFunzler_Only_Scripts_v234_1.9.0.0_2020-04-23.zip</ZipFile>
@@ -959,7 +959,7 @@
           <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
         </Medias>
       </Package>
-      <Package PackageName="Sounds_WWIIHWA_Guns_by_KT+Budyx69" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qo57dmki0mhg9fjd" Name="WWIIHWA Gunsounds by Budyx69 &amp; KT " Type="single_dropdown1" Visible="True">
+      <Package PackageName="Sounds_Gun_WWIIHWA_by_KT+Budyx69" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qo57dmki0mhg9fjd" Name="WWIIHWA Gunsounds by Budyx69 &amp; KT " Type="single_dropdown1" Visible="True">
         <Size>15210784</Size>
         <Version>4.09</Version>
         <ZipFile>Sounds_WWIIHWA_Gunsounds_v4.09_1.7.1.0_2020-01-29.zip</ZipFile>
