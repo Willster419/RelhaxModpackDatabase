@@ -432,12 +432,13 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="GarageGraphics_Carousel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nploheff0ioru2lp" Name="Carousel graphics" Type="multi" Visible="True">
+  <Package PackageName="GarageGraphics_Carousel" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nploheff0ioru2lp" Name="Carousel" Type="multi" Visible="True">
     <DevURL>https://worldoftanks.curseforge.com/projects/hawgs-daily-xp-bonus</DevURL>
     <Packages>
-      <Package PackageName="GarageGraphics_Carousel_DailyXPBonusIcons" Enabled="True" InstallGroup="4" PatchGroup="4" UID="h43v9i5yv1ph5v32" Name="Carousel Daily XP Bonus Icons by HAWG" Type="multi" Visible="True">
+      <Package PackageName="GarageGraphics_Carousel_DailyXPBonusIcons" Enabled="True" InstallGroup="4" PatchGroup="4" UID="h43v9i5yv1ph5v32" Name="Daily XP Bonus Icons [by {author}]" Type="multi" Visible="True">
         <DevURL>https://worldoftanks.curseforge.com/projects/hawgs-daily-xp-bonus</DevURL>
         <InternalNotes>only pics</InternalNotes>
+        <Author>HAWG</Author>
         <Description>change the daily XP bonus icon (2x, 3x, 4x, 5x) on carousel</Description>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Tankcarousel/DailyXPBonusIcon/Garage_Graphics_Carousel_DailyXPBonusIcons_1.png" MediaType="Picture" />
@@ -971,53 +972,9 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="GarageGraphics_Carousel_CrewIncomplete" Enabled="True" InstallGroup="4" PatchGroup="4" UID="fb4l6q3wvbdzua90" Name="'Crew Incomplete' icon &amp; text-overlay removed [by {author}]" Type="multi" Visible="True">
-        <Size>1231068</Size>
-        <CRC>f</CRC>
-        <Timestamp>132327396422356116</Timestamp>
-        <InternalNotes>MODecompiler.exe is inside zip-file\r\n\_readme\MODecompiler.exe\r\n\r\nread:\r\n\_readme\How_To_Do_en.txt</InternalNotes>
-        <Author>krautjaeger</Author>
-        <Maintainers>Gauss</Maintainers>
-        <Description>This is a very simple mod that removes the ‘Crew Incomplete’ text and icon from the carousel overlay in garage.\r\n\r\nThis mod is not compatible with mods that edit ´menu.mo’.</Description>
-        <UpdateComment>Just take the ´menu.mo’, rest is default. \r\n</UpdateComment>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/Tankcarousel/Garage_Graphics_Carousel_Crew Incomplete.jpg" MediaType="Picture" />
-        </Medias>
-        <Packages>
-          <Package PackageName="GarageGraphics_Carousel_CrewIncomplete_EN" Enabled="True" InstallGroup="4" PatchGroup="4" UID="r0a0ep9xu86humh0" Name="'Crew Incomplete' icon &amp; text-overlay removed (english)" Type="single_dropdown1" Visible="True">
-            <Size>3461811</Size>
-            <ZipFile>GarageGraphics_Carousel_CrewIncomplete_EN_1.9.0.2_2020-05-07.zip</ZipFile>
-            <CRC>933a89a7069061bb383a44965d85f837</CRC>
-            <Timestamp>132333542230971676</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/626056-\r\nhttps://wgmods.net/643/</DevURL>
-            <Author>krautjaeger</Author>
-            <Maintainers>Gauss</Maintainers>
-          </Package>
-          <Package PackageName="GarageGraphics_Carousel_CrewIncomplete_DE" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4phfmpfyu4yyuyoz" Name="'Crew Incomplete' icon &amp; text-overlay removed (german)" Type="single_dropdown1" Visible="True">
-            <Size>3463812</Size>
-            <ZipFile>GarageGraphics_Carousel_CrewIncomplete_DE_1.9.0.2_2020-05-07.zip</ZipFile>
-            <CRC>ef94e1e412b878d705a85cd47c935d02</CRC>
-            <Timestamp>132333534760008200</Timestamp>
-            <Author>krautjaeger</Author>
-            <Maintainers>Gauss</Maintainers>
-          </Package>
-        </Packages>
-      </Package>
-      <Package PackageName="GarageGraphics_Carousel_ItemTypesDE" Enabled="True" InstallGroup="4" PatchGroup="4" UID="z3znet5hpn0o5r6d" Name="Item types in german [by {author}]" Type="single1" Visible="True">
-        <Size>3539665</Size>
-        <Version>1.9.0.2</Version>
-        <ZipFile>GarageGraphics_Carousel_Item_DE_1.9.0.2_2020-05-05.zip</ZipFile>
-        <CRC>e67ce6f6270e2518e2b4b0a6d9af6adb</CRC>
-        <Timestamp>132332665334712261</Timestamp>
-        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/449348-</DevURL>
-        <InternalNotes>https://www.dieschwarzenschafe.com/download/index.php?action=list&amp;dir=Item_types&amp;order=name&amp;srt=yes\r\n\r\nitem_types.mo\r\nartefacts.mo\r\ntooltips.mo</InternalNotes>
-        <Author>Budyx69</Author>
-        <Maintainers>Gauss</Maintainers>
-        <Description>item text - no picture</Description>
-      </Package>
     </Packages>
   </Package>
-  <Package PackageName="GarageGraphics_Crew" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bs52msbioks652dc" Name="Crew graphics" Type="multi" Visible="True">
+  <Package PackageName="GarageGraphics_Crew" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bs52msbioks652dc" Name="Crew" Type="multi" Visible="True">
     <Timestamp>131980028957772869</Timestamp>
     <Packages>
       <Package PackageName="GarageGraphics_Crew_Icons" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ohchurijngkn5ekc" Name="Crew Icons" Type="multi" Visible="True">
@@ -3723,7 +3680,7 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="GarageGraphics_LobbyHeader" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nsc4a17udnn8wq8x" Name="Lobby" Type="multi" Visible="True">
+  <Package PackageName="GarageGraphics_LobbyHeader" Enabled="True" InstallGroup="4" PatchGroup="4" UID="nsc4a17udnn8wq8x" Name="LobbyHeader" Type="multi" Visible="True">
     <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-personal-reserve-hangar-headers\r\nhttps://wgmods.net/2344/</DevURL>
     <Packages>
       <Package PackageName="GarageGraphics_LobbyHeader_PersonalReserve" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0hjji1dvdjgqw2fx" Name="Hawg's Personal Reserve [by {author}]" Type="multi" Visible="True">
@@ -4656,7 +4613,7 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="GarageGraphics_MedalsEffect" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6jjzu2hv174may3e" Name="Medals" Type="multi" Visible="True">
+  <Package PackageName="GarageGraphics_MedalsEffect" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6jjzu2hv174may3e" Name="Medals effect:" Type="multi" Visible="True">
     <Packages>
       <Package PackageName="GarageGraphics_MedalsEffect_Glass" Enabled="True" InstallGroup="4" PatchGroup="4" UID="j8qe21nv03w4aaae" Name="Glass Effect" Type="single_dropdown1" Visible="True">
         <Size>16943606</Size>
