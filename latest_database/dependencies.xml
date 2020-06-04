@@ -467,27 +467,6 @@
     <Timestamp>132328135594855923</Timestamp>
     <DevURL>https://wgmods.net/2601/\r\nhttps://wot.champi.de/</DevURL>
   </Dependency>
-  <Dependency PackageName="Dependency_mods_gui" Enabled="True" InstallGroup="2" PatchGroup="2" UID="s4cwcze9hdcj6u17">
-    <Size>98754</Size>
-    <ZipFile>Dependency_mods_gui_v2.24_1.8.0.1_2020-03-25.zip</ZipFile>
-    <CRC>d6d330e35e84605156d16be563a252c6</CRC>
-    <Timestamp>132296273932332642</Timestamp>
-    <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_mods_gui</DevURL>
-  </Dependency>
-  <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" Enabled="True" InstallGroup="2" PatchGroup="2" UID="5tjbkykag9506587">
-    <Size>45313</Size>
-    <Version>1.3.1</Version>
-    <ZipFile>Dependency_P0LIR0ID_modsListApi_v1.3.1_1.8.0.2_2020-04-09.zip</ZipFile>
-    <CRC>645de8eabf47c5c3d111f4c3ff0e5c83</CRC>
-    <Timestamp>132308862661945658</Timestamp>
-    <DevURL>https://bitbucket.org/P0LIR0ID/wot-modslist/downloads/</DevURL>
-  </Dependency>
-  <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" Enabled="True" InstallGroup="2" PatchGroup="2" UID="iipqsxqbf6xi6hg7">
-    <Size>138148</Size>
-    <ZipFile>Dependency_modsSettingsApi_IzeBerg_v1.3.0_1.7.1.1_2020-01-31.zip</ZipFile>
-    <CRC>1211284e17187459afe371f5c1b9b81f</CRC>
-    <Timestamp>132249843125472986</Timestamp>
-  </Dependency>
   <Dependency PackageName="Dependency_Gambiter_GUIflash" Enabled="True" InstallGroup="2" PatchGroup="2" UID="ypupkvormubtv1ju">
     <Size>27502</Size>
     <ZipFile>Dependency_gambiter_guiflash_v_0.3.1_2019-06-01.zip</ZipFile>
@@ -495,12 +474,33 @@
     <Timestamp>131987637582121883</Timestamp>
     <DevURL>https://github.com/GambitER/GUIFlash\r\nhttps://github.com/StranikS-Scan/GUIFlash</DevURL>
   </Dependency>
-  <Dependency PackageName="Dependency_playersPanelAPI_OldSkool" Enabled="True" InstallGroup="2" PatchGroup="2" UID="18t94tg5tlwmk9gi">
+  <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" Enabled="True" InstallGroup="2" PatchGroup="2" UID="iipqsxqbf6xi6hg7">
+    <Size>138148</Size>
+    <ZipFile>Dependency_IzeBerg_modsSettingsApi_v1.3.0_1.7.1.1_2020-01-31.zip</ZipFile>
+    <CRC>1211284e17187459afe371f5c1b9b81f</CRC>
+    <Timestamp>132249843125472986</Timestamp>
+  </Dependency>
+  <Dependency PackageName="Dependency_OldSkool_playersPanelAPI" Enabled="True" InstallGroup="2" PatchGroup="2" UID="18t94tg5tlwmk9gi">
     <Size>40688</Size>
-    <ZipFile>Dependency_playersPanelAPI_OldSkool_v1.0.7_1.9.0.0_2020-04-22.zip</ZipFile>
+    <ZipFile>Dependency_OldSkool_playersPanelAPI_v1.0.7_1.9.0.0_2020-04-22.zip</ZipFile>
     <CRC>f85af81a25bdf7038aa1c80be0e369b7</CRC>
     <Timestamp>132321019637371790</Timestamp>
     <InternalNotes>in friendsmarkers mod / promod / oldskool mods\r\n\r\nWe seem to have direct access to his mods without needing WGmods or his modpack installer.\r\n\r\nOne of his mirror download sites (https://promod.reidarty.de) allows https file browsing. For example, we can directly download from the following URL:\r\n\r\nhttps://promod.reidarty.de/promod/1.9.0.3/</InternalNotes>
+  </Dependency>
+  <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" Enabled="True" InstallGroup="2" PatchGroup="2" UID="5tjbkykag9506587">
+    <Size>45313</Size>
+    <Version>1.3.1</Version>
+    <ZipFile>Dependency_P0LIR0ID_modsListApi_v1.3.1_1.8.0.2_2020-04-09.zip</ZipFile>
+    <CRC>645de8eabf47c5c3d111f4c3ff0e5c83</CRC>
+    <Timestamp>132308862661945658</Timestamp>
+    <DevURL>https://bitbucket.org/P0LIR0ID/wot-modslist/downloads/</DevURL>
+  </Dependency>
+  <Dependency PackageName="Dependency_Spoter_modsGui" Enabled="True" InstallGroup="2" PatchGroup="2" UID="s4cwcze9hdcj6u17">
+    <Size>98754</Size>
+    <ZipFile>Dependency_Spoter_modsGui_v2.24_1.8.0.1_2020-03-25.zip</ZipFile>
+    <CRC>d6d330e35e84605156d16be563a252c6</CRC>
+    <Timestamp>132296273932332642</Timestamp>
+    <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_mods_gui</DevURL>
   </Dependency>
   <Dependency PackageName="--STANDARD--" Enabled="False" InstallGroup="2" PatchGroup="2" UID="xn47oncz7yn8xcns">
     <CRC>f</CRC>
@@ -533,6 +533,14 @@
     <CRC>27f7bc583ea7dc940205bfd6282d6e29</CRC>
     <Timestamp>132229425161909065</Timestamp>
   </Dependency>
+  <Dependency PackageName="Dependency_OldSkool_modsCore" Enabled="True" InstallGroup="2" PatchGroup="2" UID="cw7xk1guapz8hayk">
+    <Size>193648</Size>
+    <ZipFile>Dependency_OldSkool_modsCore_v1.1.8_1.9.0.3_2020-05-15.zip</ZipFile>
+    <CRC>3d11401a2756760ddbd8d3e3bdca5ae0</CRC>
+    <Timestamp>132340462965856579</Timestamp>
+    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/603810-</DevURL>
+    <InternalNotes>We seem to have direct access to his mods without needing WGmods or his modpack installer.\r\n\r\nOne of his mirror download sites (https://promod.reidarty.de) allows https file browsing. For example, we can directly download from the following URL:\r\n\r\nhttps://promod.reidarty.de/promod/1.9.0.3/</InternalNotes>
+  </Dependency>
   <Dependency PackageName="Dependency_PMOD" Enabled="True" InstallGroup="2" PatchGroup="2" UID="ex0ocsm6tio4kknh">
     <Size>2661567</Size>
     <Version>1.47</Version>
@@ -544,20 +552,20 @@
     <Author>P0LIR0ID</Author>
     <Maintainers>The Illusion</Maintainers>
   </Dependency>
-  <Dependency PackageName="Dependency_modsCore_Oldskool" Enabled="True" InstallGroup="2" PatchGroup="2" UID="cw7xk1guapz8hayk">
-    <Size>193648</Size>
-    <ZipFile>Dependency_modsCore_Oldskool_v1.1.8_1.9.0.3_2020-05-15.zip</ZipFile>
-    <CRC>3d11401a2756760ddbd8d3e3bdca5ae0</CRC>
-    <Timestamp>132340462965856579</Timestamp>
-    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/603810-</DevURL>
-    <InternalNotes>We seem to have direct access to his mods without needing WGmods or his modpack installer.\r\n\r\nOne of his mirror download sites (https://promod.reidarty.de) allows https file browsing. For example, we can directly download from the following URL:\r\n\r\nhttps://promod.reidarty.de/promod/1.9.0.3/</InternalNotes>
-  </Dependency>
-  <Dependency PackageName="Dependency_PYmodsCore" Enabled="True" InstallGroup="2" PatchGroup="2" UID="pldcs1mv9lrphm5k">
+  <Dependency PackageName="Dependency_PY_PYmodsCore" Enabled="True" InstallGroup="2" PatchGroup="2" UID="pldcs1mv9lrphm5k">
     <Size>33049</Size>
-    <ZipFile>Dependency_PYmodsCore_1.9.0.1_2020-04-29.zip</ZipFile>
+    <ZipFile>Dependency_PY_PYmodsCore_1.9.0.1_2020-04-29.zip</ZipFile>
     <CRC>3a45fdf43422d38aa93cf5beaca781aa</CRC>
     <Timestamp>132326422133516471</Timestamp>
     <DevURL>https://koreanrandom.com/forum/topic/20551-140005022019-звуковые-скрипты-для-танков-загрузчик-звуков-инъектор-событий-ut_announcer-гудки/\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1825657-\r\n</DevURL>
+  </Dependency>
+  <Dependency PackageName="Dependency_PY_RemodEnabler" Enabled="True" InstallGroup="8" PatchGroup="2" UID="nlkmzahkrs2tfbfm">
+    <Size>45747</Size>
+    <ZipFile>Dependency_PY_RemodEnabler_1.9.0.0_2020-04-22.zip</ZipFile>
+    <CRC>203a970944b4db00326c9de43ffdea77</CRC>
+    <Timestamp>132320376669453154</Timestamp>
+    <DevURL>https://koreanrandom.com/forum/topic/22800-</DevURL>
+    <InternalNotes>Make sure to update the Force mods when you update this.</InternalNotes>
   </Dependency>
   <Dependency PackageName="Dependency_RaJCel_Core" Enabled="True" InstallGroup="2" PatchGroup="2" UID="wp1zs4if31mxsqux">
     <Size>26098</Size>
@@ -597,19 +605,11 @@
     <DevURL>https://vk.com/shurabb_mods</DevURL>
     <Maintainers>The Illusion / elektro</Maintainers>
   </Dependency>
-  <Dependency PackageName="Dependency_RemodEnabler" Enabled="True" InstallGroup="8" PatchGroup="2" UID="nlkmzahkrs2tfbfm">
-    <Size>45747</Size>
-    <ZipFile>Dependency_RemodEnabler_1.9.0.0_2020-04-22.zip</ZipFile>
-    <CRC>203a970944b4db00326c9de43ffdea77</CRC>
-    <Timestamp>132320376669453154</Timestamp>
-    <DevURL>https://koreanrandom.com/forum/topic/22800-</DevURL>
-    <InternalNotes>Make sure to update the Force mods when you update this.</InternalNotes>
-  </Dependency>
-  <Dependency PackageName="--SIGHTS--" Enabled="False" InstallGroup="2" PatchGroup="2" UID="tbet6ikptugbv2jm">
+  <Dependency PackageName="--CROSSHAIRS--" Enabled="False" InstallGroup="2" PatchGroup="2" UID="tbet6ikptugbv2jm">
     <CRC>f</CRC>
     <Timestamp>132309366281564769</Timestamp>
   </Dependency>
-  <Dependency PackageName="Dependency_Sights_Protanki" Enabled="True" InstallGroup="5" PatchGroup="2" UID="7uc2cpqmy2ux8gy4">
+  <Dependency PackageName="Dependency_Crosshairs_Protanki" Enabled="True" InstallGroup="5" PatchGroup="2" UID="7uc2cpqmy2ux8gy4">
     <Size>59671</Size>
     <ZipFile>Dependency_Crosshair_Sight_1.9.0.0_2020-04-23.zip</ZipFile>
     <CRC>2204202bba822dfb500c2df9c4c06a5c</CRC>
@@ -619,9 +619,9 @@
     <CRC>f</CRC>
     <Timestamp>132309366281564769</Timestamp>
   </Dependency>
-  <Dependency PackageName="Dependency_SixthSense_Aimdrol" Enabled="True" InstallGroup="2" PatchGroup="2" UID="uo88zdd4l8w0qg5z">
+  <Dependency PackageName="Dependency_6thSense_Aimdrol" Enabled="True" InstallGroup="2" PatchGroup="2" UID="uo88zdd4l8w0qg5z">
     <Size>4811</Size>
-    <ZipFile>Dependency_SixthSense_Aimdrol_Base_1.7.0.2_2020-01-08.zip</ZipFile>
+    <ZipFile>Dependency_6thSense_Aimdrol_Base_1.7.0.2_2020-01-08.zip</ZipFile>
     <CRC>66f82e34e239598c0434bbf84611da41</CRC>
     <Timestamp>132229425027143926</Timestamp>
     <DevURL>https://github.com/Aimdrol/MLG-6th-Sense</DevURL>
@@ -630,13 +630,13 @@
     <CRC>f</CRC>
     <Timestamp>132309366281564769</Timestamp>
   </Dependency>
-  <Dependency PackageName="Dependency_XML_audioMods" Enabled="True" InstallGroup="2" PatchGroup="2" UID="k2l2fcp6j1h0q3jz">
+  <Dependency PackageName="Dependency_Sounds_XMLaudioMods" Enabled="True" InstallGroup="2" PatchGroup="2" UID="k2l2fcp6j1h0q3jz">
     <Size>913</Size>
     <ZipFile>Dependency_audio_mods_xml.zip</ZipFile>
     <CRC>588545f902e37095d8980903e48035aa</CRC>
     <Timestamp>132309336072566637</Timestamp>
   </Dependency>
-  <Dependency PackageName="Dependency_XML_mainSoundModes" Enabled="True" InstallGroup="2" PatchGroup="2" UID="eh397gfpekjp1w1c">
+  <Dependency PackageName="Dependency_Sounds_XMLmainSoundModes" Enabled="True" InstallGroup="2" PatchGroup="2" UID="eh397gfpekjp1w1c">
     <Size>725</Size>
     <ZipFile>Dependency_xml_main_sound_modes_creating.zip</ZipFile>
     <CRC>c24f785d491b9cec76da0683abf21351</CRC>
@@ -654,16 +654,16 @@
     <CRC>e262ac33f8bc4959a8142b10b95c3446</CRC>
     <Timestamp>132102553935222527</Timestamp>
   </Dependency>
-  <Dependency PackageName="Dependency_Sounds_GnomeFathers_SoundBanks" Enabled="True" InstallGroup="6" PatchGroup="2" UID="y9yafih97w6eccxp">
+  <Dependency PackageName="Dependency_Sounds_bnk_GnomeFathers" Enabled="True" InstallGroup="6" PatchGroup="2" UID="y9yafih97w6eccxp">
     <Size>143231251</Size>
     <ZipFile>Dependency_GnomeFathers_SoundBanks_v3.00_1.9.0.1_2020-04-27.zip</ZipFile>
     <CRC>5de476bea81b25a0dff60de82680c00d</CRC>
     <Timestamp>132325073038892680</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/596268-</DevURL>
   </Dependency>
-  <Dependency PackageName="Dependency_PYmods_SoundEventInjector" Enabled="True" InstallGroup="2" PatchGroup="2" UID="j0vkk5ce44tfsfnx">
+  <Dependency PackageName="Dependency_Sounds_SoundEventInjector" Enabled="True" InstallGroup="2" PatchGroup="2" UID="j0vkk5ce44tfsfnx">
     <Size>7538</Size>
-    <ZipFile>Dependency_PYmods_SoundEventInjector_1.8.0.0_2020-03-04.zip</ZipFile>
+    <ZipFile>Dependency_Sounds_SoundEventInjector_1.8.0.0_2020-03-04.zip</ZipFile>
     <CRC>00791065b115a7b456c5398714b8c325</CRC>
     <Timestamp>132278003201794313</Timestamp>
     <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1821136-\r\nhttps://koreanrandom.com/forum/topic/36164-</DevURL>

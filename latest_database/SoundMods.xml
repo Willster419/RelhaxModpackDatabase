@@ -2,7 +2,7 @@
 <Category Name="Sound Mods" OffsetInstallGroups="True">
   <Dependencies>
     <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_default" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
   </Dependencies>
   <Package PackageName="Sounds_CrewVoices" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3dblllqjziay9rqd" Name="Crew Voices" Type="multi" Visible="True">
     <Description>Change the crew sounds</Description>
@@ -15,7 +15,7 @@
         <DevURL>http://forum.worldoftanks.eu/index.php?/topic/381695-\r\nhttp://forum.worldoftanks.eu/index.php?/topic/563633-</DevURL>
         <Description>Change the default voice of all crews to selected language</Description>
         <Dependencies>
-          <Dependency PackageName="Dependency_XML_mainSoundModes" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_XMLmainSoundModes" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
           <Package PackageName="Sounds_CrewVoices_EasyCrewVoiceSelector_IT" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ahz8lpn3ty45kwfq" Name="Italian" Type="single_dropdown1" Visible="True">
@@ -199,7 +199,7 @@
               <Media URL="https://youtu.be/yOkMux-bswk?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
             </Medias>
             <Dependencies>
-              <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
           <Package PackageName="Sounds_CrewVoices_German_Cyborg" Enabled="True" InstallGroup="4" PatchGroup="4" UID="uvodkmuyn890acmz" Name="Cyborg [by {author}]" Type="single_dropdown1" Visible="True">
@@ -295,7 +295,7 @@
               <Media URL="https://youtu.be/HXfT-DRzIwk?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
             </Medias>
             <Dependencies>
-              <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
           <Package PackageName="Sounds_CrewVoices_German_SpencerHill" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qaya4hpt1k0moft9" Name="Bud Spencer &amp; Terence Hill [by {author}]" Type="single_dropdown1" Visible="True">
@@ -386,7 +386,7 @@
                   <Media URL="https://youtu.be/565ek6lrqbo?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
                 </Medias>
                 <Dependencies>
-                  <Dependency PackageName="Dependency_XML_audioMods" NotFlag="False" Logic="OR" />
+                  <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
                 </Dependencies>
               </Package>
               <Package PackageName="Sounds_CrewVoices_English_AllFemale" Enabled="False" InstallGroup="4" PatchGroup="4" UID="y0g0vfqnwxezektj" Name="Elkano's All Female Voices (ElkAFV)" Type="single_dropdown1" Visible="False">
@@ -632,8 +632,8 @@
             <Description>AGQJ_Engines_Fedor_Saveliev\ndirect link:Engines  (SoundEventInjector)\nhttps://yadi.sk/d/JyTOJmcq3S9bLf\r\n\r\nmaybe confict with WWIIHWA</Description>
             <Dependencies>
               <Dependency PackageName="Dependency_Sounds_AGQJ_Soundbanks_Engines" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
           <Package PackageName="Sounds_Engines_AGQJ_SicFunzler" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dgv6azmyfnuersyj" Name="[by {author}]" Type="single_dropdown1" Visible="True">
@@ -647,8 +647,8 @@
             <UpdateComment>T10 Fix"V-12-6": \r\n{                "wwsoundPC": "V_12P",\r\n                "wwsoundNPC": "V_12P_NPC"           },\r\n\r\nUpdate  G&amp;M  V230  ( 04.03.2020 )</UpdateComment>
             <Dependencies>
               <Dependency PackageName="Dependency_Sounds_AGQJ_Soundbanks_Engines" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
         </Packages>
@@ -668,8 +668,8 @@
           <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
         </Medias>
         <Dependencies>
-          <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
       <Package PackageName="Sounds_Engines_HRMOD" Enabled="True" InstallGroup="4" PatchGroup="4" UID="x8q7i2oj8zh328uv" Name="HRMOD v{version} [by {author}]" Type="single1" Visible="True">
@@ -688,10 +688,10 @@
           <Media URL="https://youtu.be/V7G2JDB07Lw?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
         </Medias>
         <Dependencies>
-          <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Sounds_GnomeFathers_SoundBanks" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_bnk_GnomeFathers" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
       <Package PackageName="Sounds_Engines_NOTES_AGQJ" Enabled="False" InstallGroup="4" PatchGroup="4" UID="axwmq1uk8w9k2k1v" Name="NOTES: AGQJ Engines by Fedor Saveliev (SoundEventInjector)" Type="none" Visible="False">
@@ -823,9 +823,9 @@
             <Author>Fedor Saveliev</Author>
             <UpdateComment>2019-12-11: added GO_reload.wotmod</UpdateComment>
             <Dependencies>
-              <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_Sounds_AGQJ_Soundbanks_Guns" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
           <Package PackageName="Sounds_Guns_AGQJ_SicFunzler" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zsmj5gmdcu1kmuxn" Name="[by {author}] " Type="single_dropdown1" Visible="True">
@@ -838,9 +838,9 @@
             <Author>SicFunzler</Author>
             <UpdateComment>Update  G&amp;M  V230  ( 04.03.2020 )\r\n\r\nV210 (2019-12-27): double barrel guns working (OBJEKT 703 VERSION II)\r\n\r\n2019-12-11: added GO_reload.wotmod</UpdateComment>
             <Dependencies>
-              <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_Sounds_AGQJ_Soundbanks_Guns" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
         </Packages>
@@ -860,8 +860,8 @@
           <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
         </Medias>
         <Dependencies>
-          <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
       <Package PackageName="Sounds_Guns_HRMOD" Enabled="True" InstallGroup="4" PatchGroup="4" UID="spyx5dquif6dbq8a" Name="HRMOD v{version} [by {author}]" Type="single1" Visible="True">
@@ -880,10 +880,10 @@
           <Media URL="&lt;html&gt;&lt;head&gt;&lt;meta http-equiv='X-UA-Compatible' content='IE=11' /&gt;&lt;body&gt;&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/V7G2JDB07Lw&quot; frameborder=&quot;0&quot; style=&quot;position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;&quot;&gt; Your browser doesn't support iFrames.&lt;/iframe&gt;&lt;/body&gt;&lt;/html&gt;" MediaType="HTML" />
         </Medias>
         <Dependencies>
-          <Dependency PackageName="Dependency_PYmods_SoundEventInjector" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Sounds_GnomeFathers_SoundBanks" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_bnk_GnomeFathers" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
       <Package PackageName="Sounds_Guns_ShimadaSamas" Enabled="True" InstallGroup="4" PatchGroup="4" UID="f0rixektjievbe1b" Name="[by {author}] v{version}" Type="single1" Visible="True">

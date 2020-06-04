@@ -100,9 +100,9 @@
           <Media URL="http://cdn-frm-eu.wargaming.net/wot/ru/uploads/monthly_11_2016/post-4260379-0-69467600-1478763424.jpg" MediaType="Picture" />
         </Medias>
         <Dependencies>
-          <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
       <Package PackageName="TankSkinsMisc_Camo_autoCamo" Enabled="True" InstallGroup="4" PatchGroup="4" UID="3i9g9jbg5aq4q3bj" Name="Camouflage Manager [by {author}]" Type="single_dropdown1" Visible="True">
@@ -114,8 +114,8 @@
         <Author>OldSkool</Author>
         <Description>OLDSKOOL'S CAMOUFLAGE MANAGER\r\n... IS AN EXTENSION TO MANAGE YOUR CAMOUFLAGES.</Description>
         <Dependencies>
-          <Dependency PackageName="Dependency_modsCore_Oldskool" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
       <Package PackageName="TankSkinsMisc_Camo_CustomizationManager" Enabled="False" InstallGroup="4" PatchGroup="4" UID="t0clgqsuyf857efb" Name="Customization Manager" Type="single_dropdown1" Visible="True">
@@ -510,7 +510,7 @@
       <UserFile Pattern="{appData}\Wargaming.net\WorldOfTanks\LimpidStickers\config.json" />
     </UserFiles>
     <Dependencies>
-      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
   <Package PackageName="TankSkinsMisc_Skinner" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2slu2w5f8p92u7bn" Name="Skinner (needs installed tank skins) [by {author}]" Type="multi" Visible="True">
@@ -527,9 +527,9 @@
       <Media URL="https://wgmods.net/media/shot_366.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
     </Medias>
     <Dependencies>
-      <Dependency PackageName="Dependency_modsListApi_P0LIR0ID" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_PYmodsCore" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_modsSettingsApi_IzeBerg" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
 </Category>
