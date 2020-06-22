@@ -279,32 +279,39 @@
     </UserFiles>
     <Dependencies>
       <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_Spoter_modsGui" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="GarageMods_CrewExtended_spoter" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vlftsi7qbv5keif6" Name="by spoter" Type="single_dropdown1" Visible="True">
+      <Package PackageName="GarageMods_CrewExtended_Spoter" Enabled="True" InstallGroup="4" PatchGroup="4" UID="vlftsi7qbv5keif6" Name="{author}" Type="single_dropdown1" Visible="True">
         <Size>11665</Size>
         <Version>6.01</Version>
         <ZipFile>Garage_mods_CrewExtended_v6.01_1.6.1.0_2019-10-11.zip</ZipFile>
         <CRC>b4f3132794c145d6c4298a513537d006</CRC>
         <Timestamp>132207059020730236</Timestamp>
         <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_crewExtended/zip</DevURL>
+        <Author>Spoter</Author>
         <UserFiles>
           <UserFile Pattern="\mods\configs\spoter\crewExtended\crewExtended.json" />
         </UserFiles>
+        <Dependencies>
+          <Dependency PackageName="Dependency_Spoter_modsGui" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
-      <Package PackageName="GarageMods_CrewExtended_WGMods" Enabled="True" InstallGroup="4" PatchGroup="4" UID="8am80idrarx2etm6" Name="by WGMods (iZeberg)" Type="single_dropdown1" Visible="True">
+      <Package PackageName="GarageMods_CrewExtended_IzeBerg_WGMods" Enabled="True" InstallGroup="4" PatchGroup="4" UID="8am80idrarx2etm6" Name="{author}" Type="single_dropdown1" Visible="True">
         <Size>12684</Size>
-        <ZipFile>GarageMods_CrewExtended_WGMods_1.8.0.1_2020-04-03.zip</ZipFile>
-        <CRC>6a54e79ee3c39edc18b14c2a2968c053</CRC>
-        <Timestamp>132304054360468499</Timestamp>
+        <ZipFile>GarageMods_CrewExtended_IzeBerg_WGMods_1.8.0.1_2020-06-22.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132373182513679956</Timestamp>
         <DevURL>https://wotsite.net/mody-dlya-world-of-tanks/12177-mod-ekipazh-rasshirennoe-lichnoe-delo-tankista-dlya-wot.html</DevURL>
-        <Description>just an alternative for spoter mods  - keep invisible or maintain it on each patchday</Description>
-        <ObfuscatedMod>True</ObfuscatedMod>
+        <InternalNotes>use the "Версия от WGMods" one for updating</InternalNotes>
+        <Author>IzeBerg</Author>
+        <Maintainers>The Illusion</Maintainers>
         <Medias>
           <Media URL="http://fs2.directupload.net/images/150630/r8khlrlx.jpg" MediaType="Picture" />
         </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
     </Packages>
   </Package>
