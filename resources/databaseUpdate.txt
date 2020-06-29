@@ -1,431 +1,201 @@
 Database Update!
 
-New version tag: 1.9.1.1_2020-06-20_1
+New version tag: 1.9.1.1_2020-06-29_1
 
-Number of Added packages: 23
-Number of Updated packages: 241
-Number of Disabled packages: 50
-Number of Removed packages: 14
-Number of Moved packages: 34
-Number of Renamed packages: 43
+Number of Added packages: 1
+Number of Updated packages: 49
+Number of Disabled packages: 24
+Number of Removed packages: 15
+Number of Moved packages: 25
+Number of Renamed packages: 61
 Number of Internally renamed packages: 0
 
 Added:
- - --GUI_API--
- - --CROSSHAIRS--
- - Ingame Info->Expected Values Calculator->Expected Vehicle Values [by Champi]->show in battle results
- - Ingame Misc->Minimap->Minimaps->Minimap->Tactical Minimap (DOTS) [by HAWG]
- - Ingame Misc->Minimap->Minimaps->Minimap->Tactical Minimap (SCOUT ONLY) [by HAWG]
- - Ingame Misc->Spy on You v1.01 [by Spoter]
- - Garage Graphics->Carousel->Daily XP Bonus Icons [by HAWG]->select pre-defined colors->dirty20067´s colorselection (taken from HAWG)
- - Garage Graphics->Hangar Manager "HangMan" v2.48 [by goofy67]->multiple hangar styles to choose ingame->Remembrance Day (Poppyfield) [by WGMods]
- - Garage Graphics->Hangar Manager "HangMan" v2.48 [by goofy67]->multiple hangar styles to choose ingame->Steel Hunter [by olix_vameshu]
- - Tank Skins & Remodels->China->Medium->59 patton
- - Tank Skins & Remodels->China->Medium->59 patton->Classics Dakka
- - Tank Skins & Remodels->China->Heavy->WZ 111-5A
- - Tank Skins & Remodels->China->Heavy->WZ 111-5A->Gold [by Wargaming.net/China]
- - Tank Skins & Remodels->Germany->Light->HWK-30
- - Tank Skins & Remodels->Germany->Light->HWK-30->Classics Dakka
- - Tank Skins & Remodels->Germany->Medium->Leopard PT A->Classics Dakka
- - Tank Skins & Remodels->Germany->Medium->E-50 M->Classics Dakka
- - Tank Skins & Remodels->Germany->Heavy->E75 TS
- - Tank Skins & Remodels->Germany->Heavy->E75 TS->Classics Dakka
- - Tank Skins & Remodels->Germany->Heavy->Löwe->Classics Dakka
- - Tank Skins & Remodels->Germany->Heavy->E75
- - Tank Skins & Remodels->Germany->Heavy->E75->Classics Dakka
- - Tank Skins & Remodels->Germany->Tank Destroyer->Jagdtiger->Classics Dakka
+ - Ingame Misc->Minimap->Minimaps->Minimap->Tactical Minimap DOTS  (Spg-TD-Scout - HVY- Med) [by HAWG]
 
 Updated:
  - LogicalDependency_XVM_Main_Stable
  - LogicalDependency_XVM_Main_Nightly
- - Dependency_XVM_PY_infoChargedShell
- - Dependency_XVM_PY_NDOscripts
- - Dependency_XVM_XC_years
- - Dependency_XVM_XC_hull
- - Dependency_XVM_XC_speed
- - Dependency_XVM_XC_vehiclenames
- - Dependency_Gambiter_GUIflash
- - Dependency_OldSkool_playersPanelAPI
- - Dependency_P0LIR0ID_modsListApi
- - Dependency_Spoter_modsGui
- - Dependency_MLG_englishLocalization
- - Dependency_MLG_Consumables
- - Dependency_OldSkool_modsCore
- - Dependency_PMOD
- - Dependency_PY_RemodEnabler
- - Dependency_RaJCel_Core
- - Dependency_RaJCeL_inBattleStatistics
+ - Dependency_XVM_PY_SWF_damageIndicator
+ - Dependency_CHAMPi_settingsGUI
  - Dependency_ShuraBB_SDK
- - Dependency_ShuraBB_Antitoxicity
- - Dependency_ShuraBB_Auxilium
- - Dependency_Crosshairs_Protanki
- - Dependency_Sounds_bnk_GnomeFathers
- - Dependency_MinimapAdvanced
- - Dependency_MinimapAdvanced_HDMaps
- - Dependency_MinimapAdvanced_HeatMaps
- - Dependency_MinimapAdvanced_TacticalMaps
  - Dependency_MinimapAdvanced_HAWGTactical
- - Dependency_MinimapAdvanced_WOTInspectorMaps
- - Dependency_MinimapAdvanced_WOTInspectorTechMaps
- - LogicalDependency_AtlasCreation_losslessBattleAtlasImages
- - LogicalDependency_MVI_BATTLE_noXVM
- - LogicalDependency_MVI_BATTLE_CLEAR_noXVM
- - LogicalDependency_MVI_HANGAR_showAll_noXVM
- - LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM
- - LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM
- - XVM prebuilt configs->2 - Relhax developers:->elektrosmoker v2020-06-05 [including crosshair mod]
- - XVM prebuilt configs->XVM prebuilt configurations by known Streamers/Modders->Oldskool (ProMod) v2020-06-05
- - Crosshairs->Gun Constraints for SPG and Artillery (Type set in garage)
- - Contour & Tank Icons->Contour Icons->APCR_NOOB->Standard
- - Contour & Tank Icons->Contour Icons->APCR_NOOB->mini V1
- - Contour & Tank Icons->Contour Icons->APCR_NOOB->mini V2
- - Contour & Tank Icons->Contour Icons->APCR_NOOB->mini V2.1
- - Contour & Tank Icons->Contour Icons->Aslain
- - Contour & Tank Icons->Contour Icons->Blackspy->Original Edition
- - Contour & Tank Icons->Contour Icons->Blackspy->Yasha Edition
- - Contour & Tank Icons->Contour Icons->CHAMPi
- - Contour & Tank Icons->Contour Icons->Darker A
- - Contour & Tank Icons->Contour Icons->DEbranded->Edition 2D
- - Contour & Tank Icons->Contour Icons->DEbranded->Edition 2D Vanilla
- - Contour & Tank Icons->Contour Icons->DEbranded->Edition 3D
- - Contour & Tank Icons->Contour Icons->DEbranded->Edition Budyx69
- - Contour & Tank Icons->Contour Icons->DEbranded->Edition Heliomalt
- - Contour & Tank Icons->Contour Icons->DEbranded->Edition SicFunzler
- - Contour & Tank Icons->Contour Icons->DEbranded->Edition Simple
- - Contour & Tank Icons->Contour Icons->DEbranded->Edition  WG
- - Contour & Tank Icons->Contour Icons->DEbranded->Edition xXFreeFunXx
- - Contour & Tank Icons->Contour Icons->DEbranded->Edition xXFreeFunXx vanilla
- - Contour & Tank Icons->Contour Icons->elektrosmoker
- - Contour & Tank Icons->Contour Icons->HARDicons->Original
- - Contour & Tank Icons->Contour Icons->HARDicons->Colored
- - Contour & Tank Icons->Contour Icons->LordFelix
- - Contour & Tank Icons->Contour Icons->The Illusion v1.9.1.0->Big
- - Contour & Tank Icons->Contour Icons->The Illusion v1.9.1.0->Small
- - Contour & Tank Icons->Contour Icons->Wizard->Arabic Tier Numbers
- - Contour & Tank Icons->Contour Icons->Wizard->Roman Tier Numbers
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->Aslain´s golden premium tanks V0
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->Aslain´s golden premium tanks V1
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->Debranded´s camouflaged premium tanks
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->Debranded´s dark-golden premium tanks
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->Debranded´s light-golden premium tanks
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->Debranded´s pre-colored tanks
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Camo->Androdizel
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Camo->Colored
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Camo->DEbranded
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Camo->Yaya
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Default->Androdizel
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Default->colored
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Default->DEbranded
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V1 Default->Yaya
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Camo->Androdizel
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Camo->colored
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Camo->DEbranded
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Camo->Yaya
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Dark->Androdizel
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Dark->colored
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Dark->DEBranded
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Dark->Yaya
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Light->Androdizel
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Light->colored
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Light->DEbranded
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V2 Premium Light->Yaya
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V3 Premium preColored->Androdizel
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V3 Premium preColored->colored
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V3 Premium preColored->DEBranded
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->DEBranded´s V3 Premium preColored->Yaya
- - Damage Logs & Panels->Damage Logs->GambitER
- - Ingame Aim->Autoloader Helper [by Poliroid]
- - Ingame Aim->Battle Assistant v2.2.9 [by wotinspector. / reven86]
- - Ingame Aim->Dispersion Indicator (aim time)->simple dispersion indicator [by P0LIR0ID]
- - Ingame Aim->SafeShot [by OldSkool]
- - Ingame Aim->Server Turret Extended v3.03 [by Spoter]
- - Ingame Aim->Projectile Flytime for SPG/Arty->Projectile Flytime for SPG/Arty [by OldSkool]
- - Ingame Aim->Projectile Flytime for SPG/Arty->Easy Flytime [by Budyx69]
- - Ingame Aim->Target Arrow [by HAWG]->Black
- - Ingame Aim->Target Arrow [by HAWG]->Blue
- - Ingame Aim->Target Arrow [by HAWG]->Green
- - Ingame Aim->Target Arrow [by HAWG]->Purple
- - Ingame Aim->Target Arrow [by HAWG]->Red
- - Ingame Aim->Target Arrow [by HAWG]->White
- - Ingame Aim->Target Arrow [by HAWG]->Yellow
- - Ingame Info->15m Spot Circle->15m Spot Circle (Type set in garage)
- - Ingame Info->Arty HitLog [by OldSkool]
- - Ingame Info->Danger Lights / Enemy Announcer [by Protanki]
- - Ingame Info->Final Shot (Last Hits) [by Poliroid]
- - Ingame Info->Flying damage without XVM [by Andre_V]->V1
- - Ingame Info->Flying damage without XVM [by Andre_V]->V2
- - Ingame Info->Players Panel Pro [by CHAMPi]
- - Ingame Info->Enemy spotted status->ESS  [by ]
- - Ingame Info->Tank Rating Colors [by CHAMPi]
- - Ingame Info->InBattle Rating->OldSkool
- - Ingame Info->Expected Values Calculator->Marks of Excellence Extended (formerly called "Marks on Gun Extended") [by spoter / OldSkool]->show in techtree
- - Ingame Info->Expected Values Calculator->Marks of Excellence Extended (formerly called "Marks on Gun Extended") [by spoter / OldSkool]->show in hangar
- - Ingame Info->Expected Values Calculator->Expected Vehicle Values [by Champi]
- - Ingame Info->RTAN - Real Time Achievements Notifications->RTAN [by PROtanki]
- - Ingame Info->Spotted Extended Light [by Spoter]
- - Ingame Info->Hidden parameters (Shell Info) [by RaJCeL]
- - Ingame Info->Tank Info Panel->OldSkool
- - Ingame Info->Tank Info Panel->PROTanki
- - Ingame Info->Wide Border of Maps->COMMAND Full
- - Ingame Info->Wide Border of Maps->EXTRAGRID Full
- - Ingame Info->Wide Border of Maps->GRID Full
- - Ingame Info->Wide Border of Maps->INTENSIVE Full
- - Ingame Info->Wide Border of Maps->SPG Full
- - Ingame Info->Wide Border of Maps->WIDE Full
- - Ingame Misc->better visible flat trainwagons
- - Ingame Misc->Chat-Mods (in-battle)->Friends Marker [by Oldskool]
- - Ingame Misc->Chat-Mods (in-battle)->Friends Notifier [by RaJCeL]
- - Ingame Misc->Chat-Mods (in-battle)->Radial Menu->Enhanced Customizable Radial Menu [by Polyacov_Yury]
- - Ingame Misc->Consumable Icons->Equipment and Consumable Icons->Aimdrol (with [english] text modifications)
- - Ingame Misc->Consumable Icons->Equipment and Consumable Icons->DEbranded
- - Ingame Misc->First person view [by Polyacov_Yury]
- - Ingame Misc->Minimap->Minimaps->Minimap->HD Minimap [by WOTInspector]
- - Ingame Misc->Minimap->Minimaps->Minimap->TECH Minimap [by WOTInspector]
- - Ingame Misc->Minimap->Minimaps->Minimap->Tactical Minimap [by HAWG]
- - Ingame Misc->Minimap->colored arrow on minimap [by HAWG]->Black
- - Ingame Misc->Minimap->colored arrow on minimap [by HAWG]->Blue
- - Ingame Misc->Minimap->colored arrow on minimap [by HAWG]->Green
- - Ingame Misc->Minimap->colored arrow on minimap [by HAWG]->Orange
- - Ingame Misc->Minimap->colored arrow on minimap [by HAWG]->Purple
- - Ingame Misc->Minimap->colored arrow on minimap [by HAWG]->Red
- - Ingame Misc->Minimap->colored arrow on minimap [by HAWG]->White
- - Ingame Misc->Minimap->colored arrow on minimap [by HAWG]->Yellow
- - Ingame Misc->Minimap->Minimap Ping Spam Protector->MSP [by CHAMPi]
- - Ingame Misc->No Ranked Badge [by Awfultanker]
- - Ingame Misc->Repair Mods->SmartRepair [by P0LIR0ID]
- - Ingame Misc->WoT Tweaker (max farplane) [by AtotIK]->Fog removal on all maps
- - Ingame Misc->Wargaming.FM Radio v3.4.8 [by poliriod]
- - Garage Mods->Annoying Features Remover [Hangar Addons]  [by NDO]
- - Garage Mods->Armor Inspector->Armor Inspector by protanki
- - Garage Mods->Armor Inspector->Armor Inspector by wotinspector.com (Online)
- - Garage Mods->Battle Hits Viewer in Hangar v1.5.1 [by P0LIR0ID]
- - Garage Mods->Crew auto-return->v1.1.0 [by Oldskool]
- - Garage Mods->Equipment->Auto-equip removeable equipment->v1.1.2 [by OldSkool]
- - Garage Mods->Equipment->smartAmmunition [by Poliroid]
- - Garage Mods->Hangar Mastery v1.5 [by Protanki]
- - Garage Mods->Little Helper Collection [by Champi] (READ DESCRIPTION + WARNING)
- - Garage Mods->Replays->Replay Manager [by WGMods]
- - Garage Mods->Simple Vehicle Stats [by RaJCeL]
- - Garage Mods->Carousel->Item types in german [by Budyx69]
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface-> show notifications counters in the window and on the button "Exterior"->disable
+ - XVM config builder->-----[HANGAR Settings]------>Garage Interface-> show notifications counters in the window and on the button "Exterior"->enable
+ - Contour & Tank Icons->Contour Icons->LordFelix v1.9.1.1
+ - Contour & Tank Icons->Contour Icons->Pogs v1.9.1.1 [by Pogs / DaMatz]->Clear->tier, name
+ - Contour & Tank Icons->Contour Icons->Pogs v1.9.1.1 [by Pogs / DaMatz]->Clear->tier, name, avg or gold penetration
+ - Contour & Tank Icons->Contour Icons->Pogs v1.9.1.1 [by Pogs / DaMatz]->Clear->tier, name, avg or gold penetration, armor numbers
+ - Contour & Tank Icons->Contour Icons->Pogs v1.9.1.1 [by Pogs / DaMatz]->Clear->tier, name, avg or gold penetration, armor numbers, view range
+ - Contour & Tank Icons->Contour Icons->Pogs v1.9.1.1 [by Pogs / DaMatz]->Clear->tier, name, avg or gold penetration, armor numbers, view range, reload time
+ - Contour & Tank Icons->Contour Icons->Pogs v1.9.1.1 [by Pogs / DaMatz]->Colored->DaMatz
+ - Contour & Tank Icons->Contour Icons->Pogs v1.9.1.1 [by Pogs / DaMatz]->Colored->tier, name
+ - Contour & Tank Icons->Contour Icons->Pogs v1.9.1.1 [by Pogs / DaMatz]->Colored->tier, name, avg or gold penetration
+ - Contour & Tank Icons->Contour Icons->Pogs v1.9.1.1 [by Pogs / DaMatz]->Colored->tier, name, avg or gold penetration, armour numbers
+ - Contour & Tank Icons->Contour Icons->Pogs v1.9.1.1 [by Pogs / DaMatz]->Colored->tier, name, avg or gold penetration, armour numbers, view range
+ - Contour & Tank Icons->Contour Icons->Pogs v1.9.1.1 [by Pogs / DaMatz]->Colored->tier, name, avg or gold penetration, armour numbers, view range, reload
+ - Contour & Tank Icons->Contour Icons->Real Time v1.9.1.1 [by HAWG]->Original
+ - Contour & Tank Icons->Contour Icons->Real Time v1.9.1.1 [by HAWG]->Original with Big Coordinates
+ - Contour & Tank Icons->Contour Icons->Real Time v1.9.1.1 [by HAWG]->Blue Heavy and Purple TD
+ - Contour & Tank Icons->Contour Icons->Real Time v1.9.1.1 [by HAWG]->Battle Observer Style 1
+ - Contour & Tank Icons->Contour Icons->Real Time v1.9.1.1 [by HAWG]->Battle Observer Style 2
+ - Contour & Tank Icons->Contour Icons->Risky Style v1.9.1.1 [by colt87 & Ragnarocek]
+ - Contour & Tank Icons->Tank Icons->Carousel Tankicons->Regular tank icons->Debranded´s camouflaged tank icons v1.9.1.1
+ - Contour & Tank Icons->Tank Icons->Carousel Tankicons->Regular tank icons->Debranded´s default ->  brighter tank icons v1.9.1.1
+ - Ingame Misc->Minimap->Minimaps->Minimap->Tactical Minimap (Spg-TD-Scout) [by HAWG]
+ - Ingame Misc->Minimap->Minimaps->Minimap->Tactical Minimap DOTS  (Spg-TD-Scout) [by HAWG]
+ - Ingame Misc->Minimap->Minimaps->Minimap->Tactical Minimap (SCOUT ONLY) [by HAWG]
+ - Garage Mods->Crew Extended (shows XP for leveling) [by Spoter]->IzeBerg
+ - Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed->german [by krautjaeger] v1.9.1.1
+ - Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed->english [by krautjaeger] v1.9.1.1
+ - Garage Mods->Carousel->Item types in german v1.9.1.1 [by Budyx69]
  - Garage Mods->Tooltips->Tooltips Count Items Limit Extend [by spoter]
- - Garage Graphics->Battle Results->Share Engame Results [by WGMods]
- - Garage Graphics->Battle Results->On battle results statistics (HEAVY MOD) [by RaJCeL]
- - Garage Graphics->Battle Results->Unanonymizer on battle results [by RaJCeL]
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Aqua
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Aqua Yellow
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Bengal Tiger
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Blue
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Blue Green
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Blue Red Stripes
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Candy Cane
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Caribbean
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Green
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Green Purple
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Green Purple Stripes
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->HE
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->KeyLimePie
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->LimeAid
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Orange
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Orange Black
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Pink
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->PYSCHO 1
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->PYSCHO 2
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->PYSCHO 3
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Purple
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Purple Yellow
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Red
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Red Blue
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Sabaton
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->USA
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->White
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->White-Black
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Yellow
- - Garage Graphics->Carousel->Carousel LED (different colors) [by HAWG]->Yellow Red
- - Garage Graphics->Hangar Manager "HangMan" v2.48 [by goofy67]
- - Garage Graphics->Loading graphics & exit screens->Loginscreen Background->Video->Old Memories [by DrWeb7_1]
- - Garage Graphics->Loading graphics & exit screens->Map Loading Screens->"Old Memories" - map loading screens [by DrWeb7_1]
- - Garage Graphics->User Interface->Blue Steel of GIRLS und PANZER UI ( Complete User Interface Conversion )
- - Statistics->Garage Session Statistics->Protanki Sessionlog [by Poliroid]
- - Statistics->Garage Session Statistics->Time Spent v3.99.01 [by ShuraBB]
- - Statistics->Garage Session Statistics->YasenKrasen v [by Dado_Ze / RajCel]
- - Statistics->Garage Session Statistics->YasenKrasen v [by Dado_Ze / RajCel]->Modules->Colored In-Game Messages -> !! sets client language to english !!
- - Statistics->Garage Session Statistics->YasenKrasen v [by Dado_Ze / RajCel]->Modules->Graphical Battle Messages
- - Statistics->Garage Session Statistics->YasenKrasen v [by Dado_Ze / RajCel]->Modules->Kill Skulls (alternative in-game battle messages)
- - Sound Mods->Crew Voices->English->Advanced->Relhax->standard
- - Sound Mods->Crew Voices->English->Advanced->Relhax->censored
- - Sound Mods->Engines->HRMOD v3.02 [by GnomeFather / Zorgane]
- - Sound Mods->GUI->Relhax by Willster419
- - Sound Mods->Guns->HRMOD v3.02 [by GnomeFather / Zorgane]
- - Sound Mods->Kill (UT Announcer)->UT Countdown [by Budyx69]
- - 6th Sense->Sixth Sense Timer [by CHAMPi]
- - Tank Skin Misc->Colored Crashed Tracks
- - Tank Skin Misc->Colored Dead Tanks
- - Tank Skin Misc->camouflage management->Camouflage Manager [by OldSkool]
- - Tank Skin Misc->Limpid Stickers v2.9 [by goofy67]
- - Tank Skin Misc->Skinner (needs installed tank skins) [by Polyacov_Yury]
- - Tank Skins & Remodels->China->Medium->Type T-34->Classics Dakka
- - Tank Skins & Remodels->China->Medium->Type 58->Classics Dakka
- - Tank Skins & Remodels->Czech->Medium->Skoda T-24->Classics Dakka
- - Tank Skins & Remodels->Czech->Medium->T-34/100->Classics Dakka
- - Tank Skins & Remodels->Czech->Medium->Skoda T-27->Classics Dakka
- - Tank Skins & Remodels->France->Light->AMX 40->Le Quack Classic
- - Tank Skins & Remodels->France->Light->Panhard EBR 105->Pedal to the Metal Event Edition
- - Tank Skins & Remodels->France->Medium->M4A1 Revalorise->M-51 Super Sherman [by Avalon]
- - Tank Skins & Remodels->France->Medium->Lorraine 40 t->Lorraine 40 t "Early Prototype" Remodel [by Classic]
- - Tank Skins & Remodels->Germany->Heavy->Löwe->Schwere Panzerabteilung 508
- - Tank Skins & Remodels->Germany->Tank Destroyer->E-25->with sideskirts by KptKosmiT91
- - Tank Skins & Remodels->Poland->Heavy->60TP->Brave_Monster_Hunter (The Witcher/Geralt)
- - Tank Skins & Remodels->GB->Medium->Comet->Comet Mk. 2 'Impertinent' by Avalon
- - Tank Skins & Remodels->GB->Medium->Centurion_Mk5-1->Talisman by Avalon
+ - Garage Graphics->Hangar Manager "HangMan" v2.48.1 [by goofy67]
+ - Sound Mods->Engines->AGQJ v252->[by Fedor Saveliev & Others]
+ - Sound Mods->Engines->AGQJ v252->[by SicFunzler]
+ - Sound Mods->Engines->HRMOD v3.03 [by GnomeFather / Zorgane]
+ - Sound Mods->Guns->AGQJ v252->[by SicFunzler] 
+ - Sound Mods->Guns->HRMOD v3.03 [by GnomeFather / Zorgane]
+ - Sound Mods->Guns->[by Shimada Samas] v5.42
+ - Sound Mods->WWIIHWA Ambiente v6.20 by Budyx69->WWIIHWA Ambiente Light
+ - Tank Skins & Remodels->Italy->Mediums->P.43 Bis->Dakka by Classic
+ - Tank Skins & Remodels->Italy->Mediums->P.43 Ter->Classic's Dakka
+ - Tank Skins & Remodels->Italy->Mediums->P.44 Pentera->Classic's Dakka
+ - Tank Skins & Remodels->Italy->Mediums->P.46 Progetto->Classics Dakka
+ - Tank Skins & Remodels->USSR->Light->LT-432->LT-432 "T-64 Lightweight"
 
 Renamed:
- - "elektrosmoker v2020-05-17 [including crosshair mod]" was renamed to "elektrosmoker v2020-06-05 [including crosshair mod]"
- - "Oldskool (ProMod) v2020-02-04" was renamed to "Oldskool (ProMod) v2020-06-05"
- - "Stable v8.5.3_0002" was renamed to "Stable v8.5.4_0051 (nightly)"
- - "Nightly v8.5.4_0004" was renamed to "Nightly v8.5.4_0051"
- - "The Illusion v1.9.0.0" was renamed to "The Illusion v1.9.1.0"
- - "Battle Assistant v2.2.8 [by wotinspector. / reven86]" was renamed to "Battle Assistant v2.2.9 [by wotinspector. / reven86]"
- - "Server Turret Extended v2.05 [by Spoter]" was renamed to "Server Turret Extended v3.03 [by Spoter]"
- - "MSP [by ]" was renamed to "MSP [by CHAMPi]"
- - "WoT Tweaker (max farplane)" was renamed to "WoT Tweaker (max farplane) [by AtotIK]"
- - "Wargaming.FM Radio v3.4.4 [by WGMods]" was renamed to "Wargaming.FM Radio v3.4.8 [by poliriod]"
- - "Battle Hits Viewer in Hangar v1.5.0 [by P0LIR0ID]" was renamed to "Battle Hits Viewer in Hangar v1.5.1 [by P0LIR0ID]"
- - "v1.0.9 [by Oldskool]" was renamed to "v1.1.0 [by Oldskool]"
- - "Hangar Mastery v1.4 [by Protanki]" was renamed to "Hangar Mastery v1.5 [by Protanki]"
- - "Tank Carousel" was renamed to "Carousel"
- - "'Crew Incomplete' icon & text-overlay removed [by krautjaeger]" was renamed to "'Crew Incomplete' icon & text-overlay removed"
- - "disable the No Crew Message" was renamed to "[by ShuraBB (Auxilium)]"
- - "'Crew Incomplete' icon & text-overlay removed (english)" was renamed to "english [by krautjaeger]"
- - "'Crew Incomplete' icon & text-overlay removed (german)" was renamed to "german [by krautjaeger]"
- - "Tooltips Count Items Limit Extend [by spoter / Rajcel]" was renamed to "Tooltips Count Items Limit Extend [by spoter]"
- - "Carousel graphics" was renamed to "Carousel"
- - "Carousel Daily XP Bonus Icons by HAWG" was renamed to "Daily XP Bonus Icons [by HAWG]"
- - "Crew graphics" was renamed to "Crew"
- - "Hangar Manager "HangMan" v2.47 [by goofy67]" was renamed to "Hangar Manager "HangMan" v2.48 [by goofy67]"
- - "Hangar V1 [by DrWeb7_1 [HJLO]]" was renamed to "Hangar V1 [by olix_vameshu]"
- - "Hangar Premium V1 [by DrWeb7_1 [HJLO]]" was renamed to "Hangar Premium V1 [by olix_vameshu]"
- - "Premium V2 [by goofy67]" was renamed to "Premium V2 [by olix_vameshu]"
- - "Lobby" was renamed to "LobbyHeader"
- - "Old Memories" was renamed to "Old Memories [by DrWeb7_1]"
- - ""Old Memories" - map loading screens by DrWeb7_1" was renamed to ""Old Memories" - map loading screens [by DrWeb7_1]"
- - "Medals" was renamed to "Medals effect:"
- - "HRMOD v3.00 [by GnomeFather / Zorgane]" was renamed to "HRMOD v3.02 [by GnomeFather / Zorgane]"
- - "HRMOD v3.00 [by GnomeFather / Zorgane]" was renamed to "HRMOD v3.02 [by GnomeFather / Zorgane]"
- - "UT Countdown" was renamed to "UT Countdown [by Budyx69]"
- - "WWIIHWA Ambiente v6.19 by Budyx69" was renamed to "WWIIHWA Ambiente v6.20 by Budyx69"
- - "Limpid Stickers v2.8.1 [by goofy67]" was renamed to "Limpid Stickers v2.9 [by goofy67]"
- - "T40 Black by YodaSchlumpf by " was renamed to "T40 Black [by YodaSchlumpf]"
- - "T40 MRF by YodaSchlumpf by " was renamed to "T40 MRF [by YodaSchlumpf ]"
- - "T40 WRC Motorsport by YodaSchlumpf by " was renamed to "T40 WRC Motorsport [by YodaSchlumpf]"
- - "Deh0mbreS RENEWED by Sgt_Krollnikow51" was renamed to "Deh0mbreS RENEWED [by Sgt_Krollnikow51, Deh0mbreS]"
- - "Avalon's M-51 Super Sherman" was renamed to "M-51 Super Sherman [by Avalon]"
- - "Classic's Lorraine 40 t "Early Prototype" Remodel" was renamed to "Lorraine 40 t "Early Prototype" Remodel [by Classic]"
- - "with sideskirts" was renamed to "with sideskirts by KptKosmiT91"
- - "Avalon's Comet Mk. 2 'Impertinent'" was renamed to "Comet Mk. 2 'Impertinent' by Avalon"
+ - "Stable v8.5.4_0051 (nightly)" was renamed to "Stable v8.5.4_0055"
+ - "Nightly v8.5.4_0051" was renamed to "Nightly v8.5.5_0001"
+ - "SE20 Banner" was renamed to " show notifications counters in the window and on the button "Exterior""
+ - "APCR_NOOB" was renamed to "APCR_NOOB v1.9.1.0 [by Mike]"
+ - "Aslain" was renamed to "Aslain v1.9.1.0"
+ - "Best Icons Ever" was renamed to "Best Icons Ever v1.6 [by Grandorf]"
+ - "Blackspy" was renamed to "Blackspy v1.9.1.0"
+ - "CHAMPi" was renamed to "CHAMPi v1.9.1.0"
+ - "corecroft27" was renamed to "corecroft27 v1.6.0.0"
+ - "Darker A" was renamed to "Darker A v1.9.1.0 [by Ress]"
+ - "Druid Reloaded" was renamed to "Druid Reloaded v1.6.0.8"
+ - "DEbranded" was renamed to "DEbranded v1.9.1.1"
+ - "elektrosmoker" was renamed to "elektrosmoker v1.9.1.0"
+ - "Ghostman101278" was renamed to "Ghostman101278 v1.9.0"
+ - "HARDicons" was renamed to "HARDicons v1.9.1.0"
+ - "by Dado_Ze v1.7.0.1 " was renamed to " v1.7.0.1 [by Dado_Ze]"
+ - "Grabaah Edition v1.9.0.1 " was renamed to " v1.9.0.1 [by Grabaah]"
+ - "LordFelix" was renamed to "LordFelix v1.9.1.1"
+ - "Man1aq" was renamed to "Man1aq v1.9.0.1"
+ - "Mirukii" was renamed to "Mirukii v1.6.1.3"
+ - "Pogs" was renamed to "Pogs v1.9.1.1 [by Pogs / DaMatz]"
+ - "Psycho Killer" was renamed to "Psycho Killer v1.7.1.2"
+ - "Real Time" was renamed to "Real Time v1.9.1.1 [by HAWG]"
+ - "Risky Style" was renamed to "Risky Style v1.9.1.1 [by colt87 & Ragnarocek]"
+ - "Wizard" was renamed to "Wizard v1.9.1.0 [by yaya070]"
+ - "Regular & premium tank icons" was renamed to "Regular & premium tank icons v1.9.0.0 [by Ghostman101278]"
+ - "LegionLost´s regular & premium tank icons" was renamed to "Regular & premium tank icons v1.20.0_1.9.00 [by LegionLost]"
+ - "Debranded´s camouflaged tank icons" was renamed to "Debranded´s camouflaged tank icons v1.9.1.1"
+ - "Debranded´s default ->  brighter tank icons" was renamed to "Debranded´s default ->  brighter tank icons v1.9.1.1"
+ - "Aslain´s golden premium tanks V0" was renamed to "golden premium tanks V0  v1.9.1.0 [by ]"
+ - "Aslain´s golden premium tanks V1" was renamed to "golden premium tanks V1  v1.9.1.0 [by Aslain]"
+ - "Debranded´s camouflaged premium tanks" was renamed to "camouflaged premium tanks  v1.9.1.1 [by DEBranded]"
+ - "Debranded´s dark-golden premium tanks" was renamed to "dark-golden premium tanks v1.9.1.1 [by DEBranded]"
+ - "Debranded´s light-golden premium tanks" was renamed to "light-golden premium tanks v1.9.1.1 [by DEBranded]"
+ - "Debranded´s pre-colored tanks" was renamed to "pre-colored tanks v1.9.1.1 [by DEBranded]"
+ - "Aslain´s" was renamed to "v1.9.0.0 [by Aslain]"
+ - "DEBranded´s V1 Camo" was renamed to "V1 Camo  v1.9.1.1 [by DEBranded]"
+ - "DEBranded´s V1 Default" was renamed to "V1 Default  v1.9.1.1 [by DEBranded]"
+ - "DEBranded´s V2 Premium Camo" was renamed to "V2 Premium Camo  v1.9.1.1 [by DEBranded]"
+ - "DEBranded´s V2 Premium Dark" was renamed to "V2 Premium Dark  v1.9.1.1 [by DEBranded]"
+ - "DEBranded´s V2 Premium Light" was renamed to "V2 Premium Light  v1.9.1.1 [by DEBranded]"
+ - "DEBranded´s V3 Premium preColored" was renamed to "V3 Premium preColored  v1.9.1.1 [by DEBranded]"
+ - "Ghostman101278" was renamed to "v1.9.0.0 [by Ghostman101278]"
+ - "Tactical Minimap [by HAWG]" was renamed to "Tactical Minimap (Spg-TD-Scout) [by HAWG]"
+ - "Tactical Minimap (DOTS) [by HAWG]" was renamed to "Tactical Minimap DOTS  (Spg-TD-Scout) [by HAWG]"
+ - "by spoter" was renamed to "Spoter"
+ - "by WGMods (iZeberg)" was renamed to "IzeBerg"
+ - "german [by krautjaeger]" was renamed to "german [by krautjaeger] v1.9.1.1"
+ - "english [by krautjaeger]" was renamed to "english [by krautjaeger] v1.9.1.1"
+ - "Item types in german [by Budyx69]" was renamed to "Item types in german v1.9.1.1 [by Budyx69]"
+ - "Hangar Manager "HangMan" v2.48 [by goofy67]" was renamed to "Hangar Manager "HangMan" v2.48.1 [by goofy67]"
+ - "AGQJ v234" was renamed to "AGQJ v252"
+ - "[by Fedor Saveliev]" was renamed to "[by Fedor Saveliev & Others]"
+ - "HRMOD v3.02 [by GnomeFather / Zorgane]" was renamed to "HRMOD v3.03 [by GnomeFather / Zorgane]"
+ - "AGQJ v234" was renamed to "AGQJ v252"
+ - "[by Fedor Saveliev]" was renamed to "[by Fedor Saveliev & Others]"
+ - "HRMOD v3.02 [by GnomeFather / Zorgane]" was renamed to "HRMOD v3.03 [by GnomeFather / Zorgane]"
+ - "[by Shimada Samas] v5.40" was renamed to "[by Shimada Samas] v5.42"
+ - "Bring the Heat" was renamed to "Bring the Heat by psyartax"
+ - "New Year Offensive (BC25t)" was renamed to "New Year Offensive"
+ - "Classics Dakka" was renamed to "Dakka by Classic"
 
 Moved:
- - "Garage Graphics->Carousel graphics->'Crew Incomplete' icon & text-overlay removed [by krautjaeger]" was moved to "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed"
- - "Garage Mods->Tank Carousel->disable the No Crew Message" was moved to "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed->[by ShuraBB (Auxilium)]"
- - "Garage Graphics->Carousel graphics->'Crew Incomplete' icon & text-overlay removed [by krautjaeger]->'Crew Incomplete' icon & text-overlay removed (english)" was moved to "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed->english [by krautjaeger]"
- - "Garage Graphics->Carousel graphics->'Crew Incomplete' icon & text-overlay removed [by krautjaeger]->'Crew Incomplete' icon & text-overlay removed (german)" was moved to "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed->german [by krautjaeger]"
- - "Garage Graphics->Carousel graphics->Item types in german [by Budyx69]" was moved to "Garage Mods->Carousel->Item types in german [by Budyx69]"
- - "Tank Skins & Remodels->Germany->Medium->VK 30.01 P" was moved to "Tank Skins & Remodels->Germany->Heavy->VK 30.01 P"
- - "Tank Skins & Remodels->Germany->Medium->VK 30.01 P->Mirukii Remodel" was moved to "Tank Skins & Remodels->Germany->Heavy->VK 30.01 P->Mirukii Remodel"
- - "Garage Mods->Tank Carousel" was moved to "Garage Mods->Carousel"
- - "Garage Mods->Tank Carousel->enable small carousell" was moved to "Garage Mods->Carousel->enable small carousell"
- - "Garage Mods->Tank Carousel->3 Rows" was moved to "Garage Mods->Carousel->3 Rows"
- - "Garage Mods->Tank Carousel->4 Rows" was moved to "Garage Mods->Carousel->4 Rows"
- - "Garage Mods->Tank Carousel->5 Rows" was moved to "Garage Mods->Carousel->5 Rows"
- - "Garage Graphics->Carousel graphics->'Crew Incomplete' icon & text-overlay removed [by krautjaeger]" was moved to "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed"
- - "Garage Mods->Tank Carousel->disable the No Crew Message" was moved to "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed->[by ShuraBB (Auxilium)]"
- - "Garage Graphics->Carousel graphics->'Crew Incomplete' icon & text-overlay removed [by krautjaeger]->'Crew Incomplete' icon & text-overlay removed (english)" was moved to "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed->english [by krautjaeger]"
- - "Garage Graphics->Carousel graphics->'Crew Incomplete' icon & text-overlay removed [by krautjaeger]->'Crew Incomplete' icon & text-overlay removed (german)" was moved to "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed->german [by krautjaeger]"
- - "Garage Graphics->Carousel graphics->Item types in german [by Budyx69]" was moved to "Garage Mods->Carousel->Item types in german [by Budyx69]"
- - "Tank Skins & Remodels->Czech->Medium->Skoda T40->T40 Black by YodaSchlumpf by " was moved to "Tank Skins & Remodels->Czech->Medium->Skoda T40->T40 Black [by YodaSchlumpf]"
- - "Tank Skins & Remodels->Czech->Medium->Skoda T40->T40 MRF by YodaSchlumpf by " was moved to "Tank Skins & Remodels->Czech->Medium->Skoda T40->T40 MRF [by YodaSchlumpf ]"
- - "Tank Skins & Remodels->Czech->Medium->Skoda T40->T40 WRC Motorsport by YodaSchlumpf by " was moved to "Tank Skins & Remodels->Czech->Medium->Skoda T40->T40 WRC Motorsport [by YodaSchlumpf]"
- - "Tank Skins & Remodels->Czech->Medium->Skoda TVP T50-51->Deh0mbreS RENEWED by Sgt_Krollnikow51" was moved to "Tank Skins & Remodels->Czech->Medium->Skoda TVP T50-51->Deh0mbreS RENEWED [by Sgt_Krollnikow51, Deh0mbreS]"
- - "Tank Skins & Remodels->France->Light->AMX 40->Le Quack Classic" was moved to "Tank Skins & Remodels->France->Light->AMX 40->Le Quack Classic"
- - "Tank Skins & Remodels->France->Medium->M4A1 Revalorise->Avalon's M-51 Super Sherman" was moved to "Tank Skins & Remodels->France->Medium->M4A1 Revalorise->M-51 Super Sherman [by Avalon]"
- - "Tank Skins & Remodels->France->Medium->Lorraine 40 t->Classic's Lorraine 40 t "Early Prototype" Remodel" was moved to "Tank Skins & Remodels->France->Medium->Lorraine 40 t->Lorraine 40 t "Early Prototype" Remodel [by Classic]"
- - "Tank Skins & Remodels->Germany->Medium->VK 30.01 P" was moved to "Tank Skins & Remodels->Germany->Heavy->VK 30.01 P"
- - "Tank Skins & Remodels->Germany->Medium->VK 30.01 P->Mirukii Remodel" was moved to "Tank Skins & Remodels->Germany->Heavy->VK 30.01 P->Mirukii Remodel"
- - "Tank Skins & Remodels->Germany->Heavy->Löwe->Schwere Panzerabteilung 508" was moved to "Tank Skins & Remodels->Germany->Heavy->Löwe->Schwere Panzerabteilung 508"
- - "Tank Skins & Remodels->Germany->Tank Destroyer->E-25->with sideskirts" was moved to "Tank Skins & Remodels->Germany->Tank Destroyer->E-25->with sideskirts by KptKosmiT91"
- - "Tank Skins & Remodels->Germany->Tank Destroyer->Jagdtiger" was moved to "Tank Skins & Remodels->Germany->Tank Destroyer->Jagdtiger"
- - "Tank Skins & Remodels->Germany->Tank Destroyer->Jagdtiger->Jagdtiger No. 201 O.Carius" was moved to "Tank Skins & Remodels->Germany->Tank Destroyer->Jagdtiger->Jagdtiger No. 201 O.Carius"
- - "Tank Skins & Remodels->Germany->Tank Destroyer->Jagdtiger->Veteran green" was moved to "Tank Skins & Remodels->Germany->Tank Destroyer->Jagdtiger->Veteran green"
- - "Tank Skins & Remodels->Poland->Heavy->60TP->Brave_Monster_Hunter (The Witcher/Geralt)" was moved to "Tank Skins & Remodels->Poland->Heavy->60TP->Brave_Monster_Hunter (The Witcher/Geralt)"
- - "Tank Skins & Remodels->GB->Medium->Comet->Avalon's Comet Mk. 2 'Impertinent'" was moved to "Tank Skins & Remodels->GB->Medium->Comet->Comet Mk. 2 'Impertinent' by Avalon"
- - "Tank Skins & Remodels->GB->Medium->Centurion_Mk5-1->Talisman by Avalon" was moved to "Tank Skins & Remodels->GB->Medium->Centurion_Mk5-1->Talisman by Avalon"
+ - "XVM config builder->-----[HANGAR Settings]------>Garage Interface->SE20 Banner" was moved to "XVM config builder->-----[HANGAR Settings]------>Garage Interface-> show notifications counters in the window and on the button "Exterior""
+ - "XVM config builder->-----[HANGAR Settings]------>Garage Interface->SE20 Banner->disable" was moved to "XVM config builder->-----[HANGAR Settings]------>Garage Interface-> show notifications counters in the window and on the button "Exterior"->disable"
+ - "XVM config builder->-----[HANGAR Settings]------>Garage Interface->SE20 Banner->enable" was moved to "XVM config builder->-----[HANGAR Settings]------>Garage Interface-> show notifications counters in the window and on the button "Exterior"->enable"
+ - "Garage Mods->Crew Extended (shows XP for leveling) [by Spoter]->by spoter" was moved to "Garage Mods->Crew Extended (shows XP for leveling) [by Spoter]->Spoter"
+ - "Garage Mods->Crew Extended (shows XP for leveling) [by Spoter]->by WGMods (iZeberg)" was moved to "Garage Mods->Crew Extended (shows XP for leveling) [by Spoter]->IzeBerg"
+ - "Tank Skins & Remodels->China->Medium->59 patton->Classics Dakka" was moved to "Tank Skins & Remodels->China->Medium->59 patton->Classics Dakka"
+ - "Tank Skins & Remodels->Czech->Medium->Skoda TVP VTU->Reskin by HG_Skins" was moved to "Tank Skins & Remodels->Czech->Medium->Skoda TVP VTU->Reskin by HG_Skins"
+ - "Tank Skins & Remodels->France->Light->AMX 13 90->Mirukii's AMX 13 90 Remodel" was moved to "Tank Skins & Remodels->France->Light->AMX 13 90->Mirukii's AMX 13 90 Remodel"
+ - "Tank Skins & Remodels->France->Light->Lynx 6x6->Modern Pattern" was moved to "Tank Skins & Remodels->France->Light->Lynx 6x6->Modern Pattern"
+ - "Tank Skins & Remodels->France->Light->Panhard AMD 178B->Reskin by HG_Skins" was moved to "Tank Skins & Remodels->France->Light->Panhard AMD 178B->Reskin by HG_Skins"
+ - "Tank Skins & Remodels->France->Light->Panhard EBR 75->Bring the Heat" was moved to "Tank Skins & Remodels->France->Light->Panhard EBR 75->Bring the Heat by psyartax"
+ - "Tank Skins & Remodels->France->Light->Panhard EBR 105->Pedal to the Metal Event Edition" was moved to "Tank Skins & Remodels->France->Light->Panhard EBR 105->Pedal to the Metal Event Edition"
+ - "Tank Skins & Remodels->France->Medium->Bat Chatillon25t->New Year Offensive (BC25t)" was moved to "Tank Skins & Remodels->France->Medium->Bat Chatillon25t->New Year Offensive"
+ - "Tank Skins & Remodels->USSR->Light->MT-25->MT-25 Remodeled by Penetratorx" was moved to "Tank Skins & Remodels->USSR->Light->MT-25->MT-25 Remodeled by Penetratorx"
+ - "Tank Skins & Remodels->USSR->Light->LTG->LTG "Nvidia-Style black" v1.2" was moved to "Tank Skins & Remodels->USSR->Light->LTG->LTG "Nvidia-Style black" v1.2"
+ - "Tank Skins & Remodels->USSR->Light->LT-432->LT-432 "T-64 Lightweight"" was moved to "Tank Skins & Remodels->USSR->Light->LT-432->LT-432 "T-64 Lightweight""
+ - "Tank Skins & Remodels->USSR->Medium->907->Obj 907 "Graphite" 3D Style" was moved to "Tank Skins & Remodels->USSR->Medium->907->Obj 907 "Graphite" 3D Style"
+ - "Tank Skins & Remodels->USSR->Medium->K-91->"Nvidia-Style white"" was moved to "Tank Skins & Remodels->USSR->Medium->K-91->"Nvidia-Style white""
+ - "Tank Skins & Remodels->USSR->Medium->Object 140->"NVIDIA-Style black"" was moved to "Tank Skins & Remodels->USSR->Medium->Object 140->"NVIDIA-Style black""
+ - "Tank Skins & Remodels->USSR->Medium->Object 416->"Nvidia-Style black"" was moved to "Tank Skins & Remodels->USSR->Medium->Object 416->"Nvidia-Style black""
+ - "Tank Skins & Remodels->USSR->Medium->Object 430U->"Nvidia-Style white"" was moved to "Tank Skins & Remodels->USSR->Medium->Object 430U->"Nvidia-Style white""
+ - "Tank Skins & Remodels->USSR->Medium->Object 430->Punisher Skull" was moved to "Tank Skins & Remodels->USSR->Medium->Object 430->Punisher Skull"
+ - "Tank Skins & Remodels->USSR->Medium->T44-100->"Granite" (Metallic) by PeNeTrAtOrX" was moved to "Tank Skins & Remodels->USSR->Medium->T44-100->"Granite" (Metallic) by PeNeTrAtOrX"
+ - "Tank Skins & Remodels->USSR->Heavy->Churchill III->8bits-Mammoth" was moved to "Tank Skins & Remodels->USSR->Heavy->Churchill III->8bits-Mammoth"
+ - "Tank Skins & Remodels->USSR->Heavy->Churchill III->LendLease_Heavy_Guards_Tank_Brigade_Poland_1944" was moved to "Tank Skins & Remodels->USSR->Heavy->Churchill III->LendLease_Heavy_Guards_Tank_Brigade_Poland_1944"
 
 Disabled:
- - LogicalDependency_MVI_HANGAR_showAll_XVM
- - LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM
- - LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM
- - Contour & Tank Icons->Contour Icons->Real Time
- - Ingame Info->Spot Marks [by Spoter]
- - Garage Mods->Annoying Features Remover [Hangar Addons]  [by NDO]->no "Road to Berlin" widget
- - Sound Mods->Engines
- - Sound Mods->Guns
- - Tank Skins & Remodels->China->Medium->T-34-3
- - Tank Skins & Remodels->China->Medium->Type 59
- - Tank Skins & Remodels->China->Medium->121
- - Tank Skins & Remodels->Czech->Medium->Skoda T40
- - Tank Skins & Remodels->France->Light->AMX ELC
- - Tank Skins & Remodels->France->Light->AMX 13 90
- - Tank Skins & Remodels->France->Light->Panhard EBR 75
- - Tank Skins & Remodels->France->Heavy->AMX M4 mle. 54
- - Tank Skins & Remodels->France->Heavy->AMX 50B
- - Tank Skins & Remodels->France->Heavy->AMX M4 mle. 49 as Liberté->LEF Liberté Égalité Fraternité for all
- - Tank Skins & Remodels->France->Heavy->FCM 50t
- - Tank Skins & Remodels->Germany->Light->PZ I C->Herbie by yodaschlumpf
- - Tank Skins & Remodels->Germany->Light->PZ I C->EvelKnievel by yodaschlumpf
- - Tank Skins & Remodels->Germany->Light->M41 90 GF
- - Tank Skins & Remodels->Germany->Light->Rhm. Panzerwagen
- - Tank Skins & Remodels->Germany->Medium->Panther I
- - Tank Skins & Remodels->Germany->Medium->Panther M10
- - Tank Skins & Remodels->Germany->Medium->T-55A
- - Tank Skins & Remodels->Germany->Medium->Leopard PT A->Mirukii Remodel
- - Tank Skins & Remodels->Germany->Medium->E-50
- - Tank Skins & Remodels->Germany->Medium->E-50 M->Mirukii Remodel
- - Tank Skins & Remodels->Germany->Medium->Leopard 1->Mirukii Remodel
- - Tank Skins & Remodels->Germany->Medium->Leopard 1->The Battle of the Undead
- - Tank Skins & Remodels->Germany->Heavy->TigerP
- - Tank Skins & Remodels->Germany->Heavy->Tiger II
- - Tank Skins & Remodels->Germany->Heavy->VK 30.01 P
- - Tank Skins & Remodels->Germany->Heavy->Löwe->Dark yellow Löwe
- - Tank Skins & Remodels->Germany->Heavy->Löwe->No.111
- - Tank Skins & Remodels->Germany->Heavy->PzVII
- - Tank Skins & Remodels->Germany->Heavy->E100
- - Tank Skins & Remodels->Germany->Heavy->Maus->Deh0mbreS tank grey (panzergrau)
- - Tank Skins & Remodels->Germany->Heavy->Maus->Deh0mbreS  dark yellow (dunkelgelb)
- - Tank Skins & Remodels->Germany->Heavy->Maus->Hier kommt die Maus by Yodaschlumpf
- - Tank Skins & Remodels->Germany->Tank Destroyer->Hetzer
- - Tank Skins & Remodels->Germany->Tank Destroyer->E-25->E-25 as F1-car
- - Tank Skins & Remodels->Germany->Tank Destroyer->Ferdinand Porsche
- - Tank Skins & Remodels->Germany->Tank Destroyer->Skorpion G->Deh0mbreS Rheinmetall "Skorpion"
- - Tank Skins & Remodels->Germany->Tank Destroyer->Skorpion G->Mirukii Black Remodel
- - Tank Skins & Remodels->Germany->Tank Destroyer->Jagdtiger->Jagdtiger No. 201 O.Carius
- - Tank Skins & Remodels->Germany->Tank Destroyer->Jagdtiger->Veteran green
- - Tank Skins & Remodels->Germany->Tank Destroyer->JAGDPANZER E-100
- - Tank Skins & Remodels->Germany->Tank Destroyer->Grille 15
+ - Garage Mods->Little Helper Collection [by Champi] (READ DESCRIPTION + WARNING)
+ - Statistics->Garage Session Statistics->Time Spent v3.99.01 [by ShuraBB]
+ - Sound Mods->Engines->[by Ed76na & Apa6ecka]
+ - Sound Mods->Guns->0.9.13 v1.0 [by Violence]
+ - Sound Mods->Guns->AGQJ v252->[by Fedor Saveliev & Others]
+ - Sound Mods->Guns->[by Ed76na & Apa6ecka]
+ - Sound Mods->Guns->Star Trek Phasers v6.2831 [by The Illusion]
+ - Sound Mods->Guns->Wrath Of The Gods v2.314 [by The Illusion]
+ - Tank Skins & Remodels->China->Medium->T-34-3->Mirukii Remodel
+ - Tank Skins & Remodels->China->Medium->Type 59->Mirukii Remodel
+ - Tank Skins & Remodels->China->Medium->121->Mirukii Remodel
+ - Tank Skins & Remodels->France->Heavy->AMX M4 mle. 49 as Liberté
+ - Tank Skins & Remodels->Italy->Mediums->P.43 Ter->Classic's "Comprovato" Remodel
+ - Tank Skins & Remodels->Sweden->Tank Destroyer->STRV S1->Mirukii Remodel
+ - Tank Skins & Remodels->USSR->Light->BT-42
+ - Tank Skins & Remodels->USSR->Light->MT-25
+ - Tank Skins & Remodels->USSR->Medium->907->Obj 907 "Graphite" 3D Style
+ - Tank Skins & Remodels->USSR->Medium->Object 140->Mirukii Remodel
+ - Tank Skins & Remodels->USSR->Medium->Object 430U->Mirukii's T90A
+ - Tank Skins & Remodels->USSR->Medium->Object 430->Mirukii Remodel
+ - Tank Skins & Remodels->USSR->Medium->Rudy->Mirukii Remodel
+ - Tank Skins & Remodels->USSR->Medium->T-54->Mirukii Remodel
+ - Tank Skins & Remodels->USSR->Medium->T-62A->Mirukii Remodel
+ - Tank Skins & Remodels->USSR->Heavy->KV-220-2->KV-1 KwK40 Mirukii
 
 Removed:
- - Dependency_XVM_PY_sight
- - Dependency_Fonts_AgencyFB
- - Dependency_Fonts_AgencyFB_Cyrillic
- - Dependency_Fonts_EuroStyle
- - Dependencs_Fonts_MIC
- - Dependency_Fonts_UniversCondensed
- - Dependency_Fonts_ZeroThrees
- - Contour & Tank Icons->Contour Icons->CHAMPi->Clear Style2
- - Contour & Tank Icons->Contour Icons->CHAMPi->Style 1
- - Contour & Tank Icons->Contour Icons->TORQue - Inspired by Witblitz
- - Garage Graphics->User Interface->____P_H_A_R_A_O_N____
- - Garage Graphics->User Interface->Old Store [by goofy67]
- - Sound Mods->Music->NOTES: Sounds Music by Andre_V
- - Tank Skins & Remodels->Germany->Tank Destroyer->Skorpion G->Skorpion G Removal
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->Toggle ON-OFF with NUMPAD1 (default F9)
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->Enabled by Default
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->Yellow
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->green
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->light green
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->violet
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->light violet
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->light & dark violet
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->light turquoise & green
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->turquoise
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->turquoise & pink
+ - Ingame Info->15m Spot Circle->15m Spot Circle in different colors->turquoise & violet & red
+ - Sound Mods->Engines->NOTES: AGQJ Engines by Fedor Saveliev (SoundEventInjector)
+ - Sound Mods->Guns->NOTES: AGQJ Gun Sounds by Fedor Saveliev (SoundEventInjector)
 
 Notes:
  - 
