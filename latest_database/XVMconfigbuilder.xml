@@ -1330,6 +1330,27 @@
             </Medias>
             <ConflictingPackages>Garage_mods_Auxilium_settings_auto_crew_return</ConflictingPackages>
             <Packages>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_FunctionState" Enabled="True" InstallGroup="4" PatchGroup="4" UID="s2pc876hi1gs1jdh" Name="Enable or Disable This Function" Type="single1" Visible="True">
+                <Packages>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_disable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ik1hnxp4zb7aa6wy" Name="Disabled" Type="single_dropdown1" Visible="True">
+                    <Size>1007</Size>
+                    <ZipFile>XVM_config_builder_garage_crew_auto_return_disable.zip</ZipFile>
+                    <CRC>871b1e7f845b5899c174f955601eee16</CRC>
+                  </Package>
+                  <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="v97wvxv5y7zrai3y" Name="Enabled" Type="single_dropdown1" Visible="True">
+                    <Size>1004</Size>
+                    <ZipFile>XVM_config_builder_garage_crew_auto_return_enable.zip</ZipFile>
+                    <CRC>03aee8b0bbb31323bcda32310b4a0732</CRC>
+                  </Package>
+                </Packages>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_Save" Enabled="True" InstallGroup="4" PatchGroup="4" UID="o6javtzl4s5kzdel" Name="Saves Crew Auto Return &amp; Tanks marked as Reserve" Type="multi" Visible="True">
+                <CRC>f</CRC>
+                <Timestamp>131998900214904592</Timestamp>
+                <UserFiles>
+                  <UserFile Pattern="{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\users\*" />
+                </UserFiles>
+              </Package>
               <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4dp9nrx0bgivoxi8" Name="return crew check box is selected by default" Type="multi" Visible="True">
                 <Packages>
                   <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_crewReturnByDefault_disable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ys6gfvnj6zklzq0l" Name="disable" Type="single_dropdown1" Visible="True">
@@ -1343,23 +1364,6 @@
                     <CRC>788bcdd0a57e367b702902c18ecc5838</CRC>
                   </Package>
                 </Packages>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_Save" Enabled="True" InstallGroup="4" PatchGroup="4" UID="o6javtzl4s5kzdel" Name="Saves Crew Auto Return &amp; Tanks marked as Reserve" Type="multi" Visible="True">
-                <CRC>f</CRC>
-                <Timestamp>131998900214904592</Timestamp>
-                <UserFiles>
-                  <UserFile Pattern="{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\users\*" />
-                </UserFiles>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_disable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ik1hnxp4zb7aa6wy" Name="Disabled" Type="single_dropdown1" Visible="True">
-                <Size>1007</Size>
-                <ZipFile>XVM_config_builder_garage_crew_auto_return_disable.zip</ZipFile>
-                <CRC>871b1e7f845b5899c174f955601eee16</CRC>
-              </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="v97wvxv5y7zrai3y" Name="Enabled" Type="single_dropdown1" Visible="True">
-                <Size>1004</Size>
-                <ZipFile>XVM_config_builder_garage_crew_auto_return_enable.zip</ZipFile>
-                <CRC>03aee8b0bbb31323bcda32310b4a0732</CRC>
               </Package>
             </Packages>
           </Package>
