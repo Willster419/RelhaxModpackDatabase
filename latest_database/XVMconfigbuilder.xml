@@ -17,7 +17,7 @@
         </Dependencies>
       </Package>
       <Package PackageName="XVMconfigBuilder_BuildSelector_Nightly" Enabled="True" InstallGroup="4" PatchGroup="4" UID="8rzkblqj805kg3lj" Name="Nightly v{version}" Type="single_dropdown1" Visible="True">
-        <Version>8.6.0_0076</Version>
+        <Version>8.6.0_0078</Version>
         <Dependencies>
           <Dependency PackageName="LogicalDependency_XVM_Main_Stable" NotFlag="True" Logic="AND" />
           <Dependency PackageName="LogicalDependency_XVM_Main_Nightly" NotFlag="False" Logic="AND" />
@@ -1584,7 +1584,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn" Enabled="False" InstallGroup="4" PatchGroup="4" UID="lqrx17s9449x9sam" Name="Removable equipment auto-return" Type="multi" Visible="True">
+          <Package PackageName="XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn" Enabled="True" InstallGroup="4" PatchGroup="4" UID="lqrx17s9449x9sam" Name="Removable equipment auto-return" Type="multi" Visible="True">
             <Description>automatically return removable equipment</Description>
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return_Equips.jpg" MediaType="Picture" />
@@ -1596,7 +1596,7 @@
                 <ZipFile>XVM_config_builder_garage_removable_equipment_auto_return_disable.zip</ZipFile>
                 <CRC>2ce78bd8b3c32c4ad9792c316d745c88</CRC>
               </Package>
-              <Package PackageName="XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_enable" Enabled="True" InstallGroup="4" PatchGroup="4" UID="sufj1aosyj44kxzz" Name="Enabled" Type="single_dropdown1" Visible="True">
+              <Package PackageName="XVMconfigBuilder_GarageInterface_RemovableEquipmentAutoReturn_enable" Enabled="False" InstallGroup="4" PatchGroup="4" UID="sufj1aosyj44kxzz" Name="Enabled" Type="single_dropdown1" Visible="False">
                 <Size>1003</Size>
                 <ZipFile>XVM_config_builder_garage_removable_equipment_auto_return_enable.zip</ZipFile>
                 <CRC>fbebff375b956394927076e86ee2ce35</CRC>
