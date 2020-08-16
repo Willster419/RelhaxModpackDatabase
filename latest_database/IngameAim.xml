@@ -609,10 +609,12 @@
           <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="IngameAim_DispersionIndicator_Chirimen" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9qdypkgu5g2xvmiz" Name="Extended Dispersion Info and Indicator [by {author}]" Type="single1" Visible="True">
+      <Package PackageName="IngameAim_DispersionIndicator_Chirimen" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9qdypkgu5g2xvmiz" Name="Extended Dispersion Info and Indicator v{version} [by {author}]" Type="single1" Visible="True">
         <Size>98509</Size>
+        <Version>0.5.0</Version>
+        <ZipFile>Ingame_Aim_DispersionIndicator_Chirimen_v0.5.0_1.10.0.0_2020-08-15.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132236701782245703</Timestamp>
+        <Timestamp>132420237173661462</Timestamp>
         <DevURL>https://wgmods.net/3271/\r\nhttps://github.com/chirimenmonster/wotmods-dispersionindicator</DevURL>
         <Author>Chirimen</Author>
         <Description>- show  convergence time of  of gun's dispersion\n- show angle of hull against  direction of view\n- could show many states of own vehicle by customize\r\n\r\nKNOWN BUGS:\r\nThe focus on the chat window is lost after the battle starts.  You need to click on the chat window to write a message.\r\n\r\nWORKAROUND: \r\nLeft click the mouse during the pre-battle countdown.</Description>
@@ -623,68 +625,45 @@
           <Media URL="https://wgmods.net/media/mod_files/shot_005_7l73QF5.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
         </Medias>
         <Packages>
-          <Package PackageName="IngameAim_DispersionIndicator_Chirimen_Version" Enabled="True" InstallGroup="4" PatchGroup="4" UID="mfjdxjmv5cufvypz" Name="Versions" Type="single1" Visible="True">
-            <CRC>f</CRC>
-            <Timestamp>132236701718411998</Timestamp>
-            <DevURL>https://wgmods.net/3271/</DevURL>
-            <Packages>
-              <Package PackageName="IngameAim_DispersionIndicator_Chirimen_Version_Release" Enabled="True" InstallGroup="4" PatchGroup="4" UID="z4qs5itw49mwv9xy" Name="Release Version {version}" Type="single_dropdown1" Visible="True">
-                <Size>99814</Size>
-                <Version>0.4.2</Version>
-                <ZipFile>Ingame_Aim_DispersionIndicator_Chirimen_v0.4.2_1.7.1.1_2020-01-31.zip</ZipFile>
-                <CRC>7e8167425d433ff441d65abe684c907d</CRC>
-                <Timestamp>132249845569307551</Timestamp>
-                <DevURL>https://wgmods.net/3271/</DevURL>
-              </Package>
-              <Package PackageName="IngameAim_DispersionIndicator_Chirimen_Version_Dev" Enabled="False" InstallGroup="4" PatchGroup="4" UID="ti8zxmjfzsom72fc" Name="Developer" Type="single_dropdown1" Visible="False">
-                <Size>99696</Size>
-                <Version>DEV 3</Version>
-                <ZipFile>Ingame_Aim_DispersionIndicator_Chirimen_v0.4.2_DEV3_1.7.0.2_2020-01-18.zip</ZipFile>
-                <CRC>9f21dbdbd7d82d3e90e1051cf0fe8f3b</CRC>
-                <Timestamp>132238518819452154</Timestamp>
-                <DevURL>https://wgmods.net/3271/</DevURL>
-              </Package>
-            </Packages>
-          </Package>
           <Package PackageName="IngameAim_DispersionIndicator_Chirimen_Config" Enabled="True" InstallGroup="4" PatchGroup="4" UID="67ee5mpgyog47emb" Name="Pre-Built Configs" Type="multi" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132236701429291781</Timestamp>
             <Packages>
               <Package PackageName="IngameAim_DispersionIndicator_Chirimen_DEFAULT" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0lwmxqfzt7iti74p" Name="Default" Type="single_dropdown1" Visible="True">
                 <Size>1873</Size>
-                <ZipFile>Ingame_Aim_Dispersion_Chirimen_DEFAULT_1.7.1.2_2020-02-08.zip</ZipFile>
-                <CRC>8b0dfea674bf2c37686ca5eb1fc624e4</CRC>
-                <Timestamp>132256854926429333</Timestamp>
+                <ZipFile>Ingame_Aim_Dispersion_Chirimen_DEFAULT_1.10.0.0_2020-08-15.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132420237216736245</Timestamp>
               </Package>
               <Package PackageName="IngameAim_DispersionIndicator_Chirimen_SIMPLE" Enabled="True" InstallGroup="4" PatchGroup="4" UID="da215pl0s4bbijbo" Name="Simple" Type="single_dropdown1" Visible="True">
                 <Size>1085</Size>
-                <ZipFile>Ingame_Aim_Dispersion_Chirimen_SIMPLE_1.7.1.2_2020-02-08.zip</ZipFile>
-                <CRC>707cb55e9eb78a33e327de2309aa1841</CRC>
-                <Timestamp>132256855025628305</Timestamp>
+                <ZipFile>Ingame_Aim_Dispersion_Chirimen_SIMPLE_1.10.0.0_2020-08-15.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132420237262265161</Timestamp>
               </Package>
               <Package PackageName="IngameAim_DispersionIndicator_Chirimen_INDICATOR" Enabled="True" InstallGroup="4" PatchGroup="4" UID="qz9gdor1r03tiuio" Name="Indicator" Type="single_dropdown1" Visible="True">
                 <Size>1217</Size>
-                <ZipFile>Ingame_Aim_Dispersion_Chirimen_INDICATOR_1.7.1.2_2020-02-08.zip</ZipFile>
-                <CRC>dbd81c314dd3b40c3327ab0939af4884</CRC>
-                <Timestamp>132256855082200164</Timestamp>
+                <ZipFile>Ingame_Aim_Dispersion_Chirimen_INDICATOR_1.10.0.0_2020-08-15.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132420237304597569</Timestamp>
               </Package>
               <Package PackageName="IngameAim_DispersionIndicator_Chirimen_FULL" Enabled="True" InstallGroup="4" PatchGroup="4" UID="keqn4shkmj5itn01" Name="Full" Type="single_dropdown1" Visible="True">
                 <Size>1606</Size>
-                <ZipFile>Ingame_Aim_Dispersion_Chirimen_FULL_1.7.1.2_2020-02-08.zip</ZipFile>
-                <CRC>0846acec8c80c895c5009bb796b388c5</CRC>
-                <Timestamp>132256855350498133</Timestamp>
+                <ZipFile>Ingame_Aim_Dispersion_Chirimen_FULL_1.10.0.0_2020-08-15.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132420237347771293</Timestamp>
               </Package>
               <Package PackageName="IngameAim_DispersionIndicator_Chirimen_LOGGER" Enabled="True" InstallGroup="4" PatchGroup="4" UID="x3x2csnllgx0tz71" Name="Logger" Type="single_dropdown1" Visible="True">
                 <Size>1132</Size>
-                <ZipFile>Ingame_Aim_Dispersion_Chirimen_LOGGER_1.7.1.2_2020-02-08.zip</ZipFile>
-                <CRC>409e2e81b046f999488f38143e788a82</CRC>
-                <Timestamp>132256855268816450</Timestamp>
+                <ZipFile>Ingame_Aim_Dispersion_Chirimen_LOGGER_1.10.0.0_2020-08-15.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132420237394228547</Timestamp>
               </Package>
               <Package PackageName="IngameAim_DispersionIndicator_Chirimen_WILLSTER419" Enabled="True" InstallGroup="4" PatchGroup="4" UID="as4hlrtmlcqitae1" Name="Willster419's Configuration" Type="single_dropdown1" Visible="True">
                 <Size>1183</Size>
-                <ZipFile>Ingame_Aim_Dispersion_Chirimen_WILLSTER419_1.7.1.2_2020-02-11.zip</ZipFile>
-                <CRC>47727010c90ff3490b385a0463a94337</CRC>
-                <Timestamp>132259466351079152</Timestamp>
+                <ZipFile>Ingame_Aim_Dispersion_Chirimen_WILLSTER419_1.10.0.0_2020-08-15.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132420237439529502</Timestamp>
               </Package>
             </Packages>
           </Package>
