@@ -1719,18 +1719,6 @@
   <Package PackageName="IngameInfo_RTAN" Enabled="True" InstallGroup="4" PatchGroup="4" UID="tpmroyt2owbb1t4q" Name="RTAN - Real Time Achievements Notifications" Type="multi" Visible="True">
     <Timestamp>131569088015621441</Timestamp>
     <Packages>
-      <Package PackageName="IngameInfo_RTAN_InsigniaMonitor" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5et6wxz3os3t14bq" Name="InsigniaMonitor [by {author}]" Type="single_dropdown1" Visible="True">
-        <Size>101096</Size>
-        <ZipFile>Ingame_Info_RTAN_InsigniaMonitor_Spoter_v1.01_1.6.1.0_2019-10-11.zip</ZipFile>
-        <CRC>12a371b6f1f609f5dd8b9d28c05d39d2</CRC>
-        <Timestamp>132153404143285396</Timestamp>
-        <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_insigniaMonitor</DevURL>
-        <Author>Spoter</Author>
-        <Dependencies>
-          <Dependency PackageName="Dependency_Spoter_modsGui" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
       <Package PackageName="IngameInfo_RTAN_Aimdrol" Enabled="True" InstallGroup="4" PatchGroup="4" UID="0sbdo1pmib5jcxt3" Name="RTAN [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>184343</Size>
         <ZipFile>Ingame_Info_RTAN_Aimdrol_1.7.0.2_2020-01-08.zip</ZipFile>
@@ -1771,28 +1759,6 @@
           <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
         </Dependencies>
-      </Package>
-    </Packages>
-  </Package>
-  <Package PackageName="IngameInfo_SpotMarks" Enabled="False" InstallGroup="4" PatchGroup="4" UID="kl5ew3s7cnr8neqg" Name="Spot Marks [by {author}]" Type="multi" Visible="False">
-    <Size>9791</Size>
-    <Version>1.12</Version>
-    <ZipFile>Ingame_Info_SpotMarks_v1.12_1.6.1.0_2019-10-11.zip</ZipFile>
-    <CRC>b351b6c9df9d9e1cc615138be343d3f4</CRC>
-    <Timestamp>132153405294613510</Timestamp>
-    <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_spotMarks/zip</DevURL>
-    <Author>Spoter</Author>
-    <Description>Marks on the Ground for the best spotting positions.\nMarker looks as follows: Circle on the ground and an arrow pointing at the circle to see it better at a distance.</Description>
-    <Dependencies>
-      <Dependency PackageName="Dependency_Spoter_modsGui" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
-    </Dependencies>
-    <Packages>
-      <Package PackageName="IngameInfo_SpotMarks_onlyLT" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wact43y8bjkpnpxf" Name="show only for light tanks" Type="multi" Visible="True">
-        <Size>490</Size>
-        <ZipFile>Ingame_Info_SpotMarks_onlyLT_patch.zip</ZipFile>
-        <CRC>f9c8d6829b280bae6db40b56d0022c69</CRC>
-        <Timestamp>132044922766716628</Timestamp>
       </Package>
     </Packages>
   </Package>
