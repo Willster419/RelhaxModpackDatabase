@@ -1050,6 +1050,10 @@
     <Author>ShuraBB (Auxilium)</Author>
     <Description>Enables Hstab on all tanks.</Description>
     <ObfuscatedMod>True</ObfuscatedMod>
+    <Dependencies>
+      <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+    </Dependencies>
   </Package>
   <Package PackageName="IngameAim_ZoomIn" Enabled="True" InstallGroup="4" PatchGroup="4" UID="z9nhr1qqq90nsllp" Name="Zoom In (PMOD)" Type="multi" Visible="True">
     <Author>PMOD</Author>
