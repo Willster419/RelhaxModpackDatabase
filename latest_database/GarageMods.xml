@@ -393,6 +393,7 @@
         <Timestamp>132207059020730236</Timestamp>
         <DevURL>https://github.com/spoter/spoter-mods/tree/master/mod_crewExtended/zip</DevURL>
         <Author>Spoter</Author>
+        <ObfuscatedMod>True</ObfuscatedMod>
         <UserFiles>
           <UserFile Pattern="\mods\configs\spoter\crewExtended\crewExtended.json" />
         </UserFiles>
@@ -415,6 +416,19 @@
         </Medias>
         <Dependencies>
           <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="GarageMods_CrewExtended_Protanki" Enabled="True" InstallGroup="4" PatchGroup="4" UID="v6z5w082j20ut74s" Name="{author}" Type="single_dropdown1" Visible="True">
+        <Version>1.9</Version>
+        <ZipFile>GarageMods_CrewExtended_protanki_1.10.0.0_2020-08-16.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132420868688465296</Timestamp>
+        <DevURL>https://wotsite.net/mody-dlya-world-of-tanks/12177-mod-ekipazh-rasshirennoe-lichnoe-delo-tankista-dlya-wot.html</DevURL>
+        <Author>PROtanki</Author>
+        <ObfuscatedMod>True</ObfuscatedMod>
+        <Dependencies>
+          <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
     </Packages>
