@@ -192,7 +192,7 @@
         </Dependencies>
       </Package>
       <Package PackageName="ContourIcons_DEbranded" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6gw2inlbnjztvci2" Name="DEbranded v{version}" Type="single1" Visible="True">
-        <Version>1.9.1.1</Version>
+        <Version>1.10.0.0</Version>
         <Timestamp>131794120527310147</Timestamp>
         <DevURL>https://www.debranded.de/DEbranded_de_ContourIcons.php\r\n</DevURL>
         <InternalNotes>https://www.debranded.de</InternalNotes>
@@ -498,7 +498,7 @@
           <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="ContourIcons_Man1aq" Enabled="True" InstallGroup="4" PatchGroup="4" UID="60zndaet9kuecnwx" Name="Man1aq v{version}" Type="single1" Visible="True">
+      <Package PackageName="ContourIcons_Man1aq" Enabled="False" InstallGroup="4" PatchGroup="4" UID="60zndaet9kuecnwx" Name="Man1aq v{version}" Type="single1" Visible="True">
         <Version>1.9.0.1</Version>
         <DevURL>http://man1aqcontourmod.one.pl/</DevURL>
         <InternalNotes>Contour Icons originally by Man1aq maintained by Relhax Modpack Team\r\nMain maintainer: dirty20067\r\n\r\nWot Forum:\nhttp://forum.worldoftanks.eu/index.php?/topic/619734-</InternalNotes>
@@ -720,7 +720,7 @@
         </Dependencies>
       </Package>
       <Package PackageName="ContourIcons_RealTime" Enabled="True" InstallGroup="4" PatchGroup="4" UID="c5l1gugtz3n9j6se" Name="Real Time v{version} [by {author}]" Type="single1" Visible="True">
-        <Version>1.9.1.1</Version>
+        <Version>1.10.0.0</Version>
         <Timestamp>131569088015621441</Timestamp>
         <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-real-time-contour-icons\r\nhttps://wgmods.net/1672/</DevURL>
         <Author>HAWG</Author>
@@ -887,42 +887,44 @@
           <Media URL="http://i.imgur.com/hTFvw4W.jpg" MediaType="Picture" />
         </Medias>
         <Packages>
-          <Package PackageName="TankIcons_Carousel_RegularNPremium_Ghostman101278" Enabled="True" InstallGroup="4" PatchGroup="4" UID="yicecbh9xauge8sj" Name="Regular &amp; premium tank icons v{version} [by {author}]" Type="multi" Visible="True">
-            <Size>19421157</Size>
-            <Version>1.10.0.0</Version>
-            <ZipFile>Tank_Icons_Carousel_Regular_N_Premium_Ghostman101278_1.10.0.0_2020-08-15.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132420183877569015</Timestamp>
-            <DevURL>http://www.mediafire.com/file/84oc1jad7oc8mll/Ghostman101278%2527s_Carousel_Icons.zip/file\r\nhttps://aslain.com/index.php?/topic/12286-1410-ghostman101278s-carousel-icons</DevURL>
-            <Author>Ghostman101278</Author>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Tankcarousel/Garage_Graphics_Carousel_Regular_N_Premium_Tank_Icons_Ghostman101278_01.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="TankIcons_Carousel_RegularNPremium_LegionLost" Enabled="True" InstallGroup="4" PatchGroup="4" UID="b7itkanaw6myekzj" Name="Regular &amp; premium tank icons v{version} [by {author}]" Type="multi" Visible="True">
-            <Size>27416938</Size>
-            <Version>1.20.0_1.9.00</Version>
-            <ZipFile>Tank_Icons_Carousel_Regular_N_Premium_LegionLost_v2.0.0_1.10.0.0_2020-08-15.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132420184054050642</Timestamp>
-            <DevURL>https://wgmods.net/2147/details</DevURL>
-            <Author>LegionLost</Author>
-            <Description>Picture 1 &amp; Picture 2:\n-highlighting the role of the tank and \n-highlighting the premium status divided by normal matchmaking (blue) and preferential (purple).\n\nPicture 3:\n-only icons, No XVM</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Garage_Graphics_Carousel_Regular_n_Premium_Tank_Icons_LegionLost_01.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Garage_Graphics_Carousel_Regular_n_Premium_Tank_Icons_LegionLost_03.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Garage_Graphics_Carousel_Regular_n_Premium_Tank_Icons_LegionLost_02.png" MediaType="Picture" />
-            </Medias>
+          <Package PackageName="TankIcons_Carousel_RegularNPremium" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bxy01456qzic7gyg" Name="Regular and premium tank icons" Type="multi" Visible="True">
+            <Packages>
+              <Package PackageName="TankIcons_Carousel_RegularNPremium_Ghostman101278" Enabled="True" InstallGroup="4" PatchGroup="4" UID="yicecbh9xauge8sj" Name="Regular &amp; premium tank icons v{version} [by {author}]" Type="single_dropdown1" Visible="True">
+                <Size>19421157</Size>
+                <Version>1.10.0.0</Version>
+                <ZipFile>Tank_Icons_Carousel_Regular_N_Premium_Ghostman101278_1.10.0.0_2020-08-15.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132420183877569015</Timestamp>
+                <DevURL>http://www.mediafire.com/file/84oc1jad7oc8mll/Ghostman101278%2527s_Carousel_Icons.zip/file\r\nhttps://aslain.com/index.php?/topic/12286-1410-ghostman101278s-carousel-icons</DevURL>
+                <Author>Ghostman101278</Author>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Tankcarousel/Garage_Graphics_Carousel_Regular_N_Premium_Tank_Icons_Ghostman101278_01.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="TankIcons_Carousel_RegularNPremium_LegionLost" Enabled="True" InstallGroup="4" PatchGroup="4" UID="b7itkanaw6myekzj" Name="Regular &amp; premium tank icons v{version} [by {author}]" Type="single_dropdown1" Visible="True">
+                <Size>27416938</Size>
+                <Version>1.20.0_1.9.00</Version>
+                <ZipFile>Tank_Icons_Carousel_Regular_N_Premium_LegionLost_v2.0.0_1.10.0.0_2020-08-15.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132420184054050642</Timestamp>
+                <DevURL>https://wgmods.net/2147/details</DevURL>
+                <Author>LegionLost</Author>
+                <Description>Picture 1 &amp; Picture 2:\n-highlighting the role of the tank and \n-highlighting the premium status divided by normal matchmaking (blue) and preferential (purple).\n\nPicture 3:\n-only icons, No XVM</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Garage_Graphics_Carousel_Regular_n_Premium_Tank_Icons_LegionLost_01.png" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Garage_Graphics_Carousel_Regular_n_Premium_Tank_Icons_LegionLost_03.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Garage_Graphics_Carousel_Regular_n_Premium_Tank_Icons_LegionLost_02.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+            </Packages>
           </Package>
           <Package PackageName="TankIcons_Carousel_Regular" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5m01cedsrponpdhw" Name="Regular tank icons" Type="multi" Visible="True">
-            <Version>3.11_1.9.1.1</Version>
-            <Author>Debranded</Author>
-            <Maintainers>Gauss</Maintainers>
+            <Maintainers>Gauss, Dirty</Maintainers>
             <Description>change the regular tanks to something different</Description>
             <Packages>
               <Package PackageName="TankIcons_Carousel_Regular_DEbrandedCamouflaged" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ib6gkejtqmg5pppw" Name="Debranded´s camouflaged tank icons v{version}" Type="single_dropdown1" Visible="True">
                 <Size>30055339</Size>
-                <Version>1.9.1.1</Version>
+                <Version>1.10.0.0</Version>
                 <ZipFile>Tank_Icons_Carousel_Regular_Debranded_Camouflaged_1.10.0.0_2020-08-09.zip</ZipFile>
                 <CRC>f</CRC>
                 <Timestamp>132414908238507905</Timestamp>
@@ -937,7 +939,7 @@
               </Package>
               <Package PackageName="TankIcons_Carousel_Regular_DEbrandedDefault" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cponbi9cl5iu0i79" Name="Debranded´s default -&gt;  brighter tank icons v{version}" Type="single_dropdown1" Visible="True">
                 <Size>30312377</Size>
-                <Version>1.9.1.1</Version>
+                <Version>1.10.0.0</Version>
                 <ZipFile>Tank_Icons_Carousel_Regular_Debranded_Default_1.10.0.0_2020-08-09.zip</ZipFile>
                 <CRC>f</CRC>
                 <Timestamp>132414908621092515</Timestamp>
