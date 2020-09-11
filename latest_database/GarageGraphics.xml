@@ -3975,30 +3975,22 @@
         <InternalNotes>contains:\r\nwaiting.swf\r\nwaitingTransition.swf\r\nlogos.swf\r\n\r\nexchanged infopics in logos.swf and waiting.swf with transparent ones\r\n\r\nGauss:\r\n    L = only logo = logos.swf\r\nWT = waitingTransition.swf\r\n   W =waiting .swf\r\n\r\nFrom Who?\r\nL = only logo = logos.swf\r\nL/A = logo AND waiting animation = logos.swf + waiting.swf + waitingTransition.swf\r\nA = only waiting animation = logos.swf (with default logos, but award/info slots are transparent) + waiting.swf + waitingTransition.swf\r\n\r\n\r\n\r\n\r\n</InternalNotes>
         <Description>This mod replaces the standard loading animation circle and/or the logo shown at start of the game.\r\nThis depends on the selected option.\r\n\r\nL = only logo\r\nL/A = logo AND waiting animation\r\nA = only waiting animation\r\n\r\n</Description>
         <Packages>
-          <Package PackageName="GarageGraphics_Loading_Wheel_Animation" Enabled="False" InstallGroup="4" PatchGroup="4" UID="ijbfnxfmsg6o5zua" Name="Loading Wheel Animation" Type="multi" Visible="False">
+          <Package PackageName="GarageGraphics_Loading_Wheel_Animation" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ijbfnxfmsg6o5zua" Name="Loading Wheel Animation" Type="multi" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132250424692950519</Timestamp>
             <DevURL>https://wgmods.net/2244/details</DevURL>
             <InternalNotes>NEW:\r\n   W =waiting .swf = Loading gear wheel in different colors\r\n\r\nWAITING.SWF picture with numbers SEE: https://wgmods.net/2244/details\r\nhttps://wgmods.net/2244/details\r\nCRC\r\nRED(1-Grim =2-Pin/PenUP=3-Skull=6-Skull2 = 7-RedCog) / 15-GhostBusters not found\r\nBLUE( 5-Fallensoldier = 8-BlueCog = CowGirl)\r\nGreen Or yellow Files are working BUT the date is february OR august\r\n\r\n1.idea\r\nred\t1,2,3,6,7,15\r\nblue\t5,8,16,\r\ngreen\t4,14,19 = yellow\t17,20\r\norg\t9,10-13\r\nyellow\t17,20\r\nswirl\t18 BORING\r\ngrey\t21 BORING</InternalNotes>
             <Author>HAWG</Author>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
+            </Dependencies>
             <Packages>
-              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_RelHax" Enabled="True" InstallGroup="4" PatchGroup="4" UID="1wcbqzoz46uzydo1" Name="RelHax_OnlyWaitingSWF" Type="single_dropdown1" Visible="True">
+              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_RelHax" Enabled="True" InstallGroup="4" PatchGroup="4" UID="1wcbqzoz46uzydo1" Name="RelHax_OnlyWaitingSWF" Type="single_dropdown2" Visible="True">
                 <CRC>f</CRC>
                 <Timestamp>132442439622727951</Timestamp>
                 <DevURL>https://wgmods.net/2244/details</DevURL>
               </Package>
-              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_Green" Enabled="True" InstallGroup="4" PatchGroup="4" UID="umtk6zpi29sz81n7" Name="Green Wheel" Type="single_dropdown1" Visible="True">
-                <ZipFile>GarageGraphics_Loading_Wheel_Animation_HAWG_Green_1.10.0.1_2020-09-10.zip</ZipFile>
-                <CRC>f</CRC>
-                <Timestamp>132442465664559745</Timestamp>
-                <DevURL>https://wgmods.net/2244/details</DevURL>
-                <Author>HAWG</Author>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Green_01.png" MediaType="Picture" />
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Green_02.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_Blue" Enabled="True" InstallGroup="4" PatchGroup="4" UID="87e8x83t6c82lu4w" Name="Blue Wheel" Type="single_dropdown1" Visible="True">
+              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_Blue" Enabled="True" InstallGroup="4" PatchGroup="4" UID="87e8x83t6c82lu4w" Name="Blue Wheel" Type="single_dropdown2" Visible="True">
                 <ZipFile>GarageGraphics_Loading_Wheel_Animation_HAWG_Blue_1.10.0.1_2020-09-10.zip</ZipFile>
                 <CRC>f</CRC>
                 <Timestamp>132442447177927271</Timestamp>
@@ -4009,7 +4001,18 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Blue_02.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_Red" Enabled="True" InstallGroup="4" PatchGroup="4" UID="41mz8jvqozsix6cp" Name="Red Wheel" Type="single_dropdown1" Visible="True">
+              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_Green" Enabled="True" InstallGroup="4" PatchGroup="4" UID="umtk6zpi29sz81n7" Name="Green Wheel" Type="single_dropdown2" Visible="True">
+                <ZipFile>GarageGraphics_Loading_Wheel_Animation_HAWG_Green_1.10.0.1_2020-09-10.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132442465664559745</Timestamp>
+                <DevURL>https://wgmods.net/2244/details</DevURL>
+                <Author>HAWG</Author>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Green_01.png" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Green_02.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_Red" Enabled="True" InstallGroup="4" PatchGroup="4" UID="41mz8jvqozsix6cp" Name="Red Wheel" Type="single_dropdown2" Visible="True">
                 <ZipFile>GarageGraphics_Loading_Wheel_Animation_HAWG_Red_1.10.0.1_2020-09-10.zip</ZipFile>
                 <CRC>f</CRC>
                 <Timestamp>132442443895191447</Timestamp>
@@ -4020,11 +4023,12 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Red_02.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_Yellow" Enabled="True" InstallGroup="4" PatchGroup="4" UID="br1q4j3qretx1mnw" Name="Yellow Wheel" Type="single_dropdown1" Visible="True">
-                <ZipFile>GarageGraphics_Loading_Wheel_Animation_HAWG_Red_1.10.0.1_2020-09-10.zip</ZipFile>
+              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_Yellow" Enabled="True" InstallGroup="4" PatchGroup="4" UID="br1q4j3qretx1mnw" Name="Yellow Wheel" Type="single_dropdown2" Visible="True">
+                <ZipFile>GarageGraphics_Loading_Wheel_Animation_HAWG_Yellow_1.10.0.1_2020-09-10_res_mods.zip</ZipFile>
                 <CRC>f</CRC>
-                <Timestamp>132442443895191447</Timestamp>
+                <Timestamp>132443223344607101</Timestamp>
                 <DevURL>https://wgmods.net/2244/details</DevURL>
+                <InternalNotes>wotmod-file: \r\nGarageGraphics_Loading_Wheel_Animation_HAWG_Yellow_1.10.0.1_2020-09-10.zip</InternalNotes>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_01.png" MediaType="Picture" />
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_02.png" MediaType="Picture" />
@@ -4254,6 +4258,10 @@
                 <UpdateComment>2018-08-31 Update 6.8 [1.1.0.0]: Versioning\r\n\r\ngui\flash\waiting.swf</UpdateComment>
               </Package>
             </Packages>
+          </Package>
+          <Package PackageName="GarageGraphics_Loading_LogoAnimation_defaultWG_0" Enabled="True" InstallGroup="4" PatchGroup="4" UID="m53fqh6lrgb0d7ax" Name="LogoAnimation_defaultWG_0FILES_EMPTY" Type="single_dropdown1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132443232322464950</Timestamp>
           </Package>
           <Package PackageName="GarageGraphics_Loading_LogoAnimation_defaultWG" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5o2po1mc0589xzii" Name="Default logo and animation by WG" Type="single_dropdown1" Visible="True">
             <Size>1050436</Size>
