@@ -3975,11 +3975,11 @@
         <InternalNotes>contains:\r\nwaiting.swf\r\nwaitingTransition.swf\r\nlogos.swf\r\n\r\nexchanged infopics in logos.swf and waiting.swf with transparent ones\r\n\r\nGauss:\r\n    L = only logo = logos.swf\r\nWT = waitingTransition.swf\r\n   W =waiting .swf\r\n\r\nFrom Who?\r\nL = only logo = logos.swf\r\nL/A = logo AND waiting animation = logos.swf + waiting.swf + waitingTransition.swf\r\nA = only waiting animation = logos.swf (with default logos, but award/info slots are transparent) + waiting.swf + waitingTransition.swf\r\n\r\n\r\n\r\n\r\n</InternalNotes>
         <Description>This mod replaces the standard loading animation circle and/or the logo shown at start of the game.\r\nThis depends on the selected option.\r\n\r\nL = only logo\r\nL/A = logo AND waiting animation\r\nA = only waiting animation\r\n\r\n</Description>
         <Packages>
-          <Package PackageName="GarageGraphics_Loading_Wheel_Animation" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ijbfnxfmsg6o5zua" Name="Loading Wheel Animation" Type="multi" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_Wheel_Animation" Enabled="False" InstallGroup="4" PatchGroup="4" UID="ijbfnxfmsg6o5zua" Name="Loading Wheel Animation" Type="multi" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132250424692950519</Timestamp>
             <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-loading-wheels\r\nhttps://wgmods.net/2244/details</DevURL>
-            <InternalNotes>NEW:\r\n   W =waiting .swf = Loading gear wheel in different colors\r\n\r\nWAITING.SWF picture with numbers SEE: https://wgmods.net/2244/details\r\nhttps://wgmods.net/2244/details\r\n\r\nCRC\r\nBLUE:     \t5-Fallensoldier =16-CowGirl = 8-Blue [ALL 3 ARE BLUE])\r\nGREEN:  \t14-Leviathan=19.  Green)\r\nRED:       \t1-Grim =2-Pin/PenUP=3-Skull=4.HAWG=6-Skull2 = 7-RedCog=5-GhostBusters)\r\nYELLOW: 20=Yellow = 17-Fire)\r\nWG: \t09-Original=10-Tanks=11-Rank=13-Swords \r\n\r\nswirl=18 BORING //  Grey=21 BORING</InternalNotes>
+            <InternalNotes>GarageGraphics_Loading_Wheel_Animation \r\n=waiting .swf = Loading gear Wheel In dfferent Colors\r\n\r\nWAITING.SWF picture with numbers SEE: https://wgmods.net/2244/details\r\nhttps://wgmods.net/2244/details\r\n\r\nCRC\r\nBLUE:     \t5-Fallensoldier =16-CowGirl = 8-Blue [ALL 3 ARE BLUE])\r\nGREEN:  \t14-Leviathan=19.  Green)\r\nRED:       \t1-Grim =2-Pin/PenUP=3-Skull=4.HAWG=6-Skull2 = 7-RedCog=5-GhostBusters)\r\nYELLOW: 20=Yellow = 17-Fire)\r\nWG: \t09-Original=10-Tanks=11-Rank=13-Swords \r\n\r\nswirl=18 BORING //  Grey=21 BORING</InternalNotes>
             <Author>HAWG</Author>
             <Dependencies>
               <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
@@ -4035,13 +4035,19 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_03.png" MediaType="Picture" />
                 </Medias>
               </Package>
+              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_Yellow_ResMods" Enabled="False" InstallGroup="4" PatchGroup="4" UID="hnfo4vdg7fzkls8p" Name="Yellow Wheel (res_mods)" Type="single_dropdown1" Visible="False">
+                <ZipFile>GarageGraphics_Loading_Wheel_Animation_HAWG_Yellow_1.10.0.1_2020-09-10_res_mods.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132446610915680932</Timestamp>
+                <DevURL>https://wgmods.net/2244/details</DevURL>
+              </Package>
             </Packages>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_Logo_Animation_REWORKING" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rg1l8iw7jdzwepsw" Name="Loading Logo (in front of wheel Animation)" Type="multi" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_LOGO_Animation_REWORKING" Enabled="False" InstallGroup="4" PatchGroup="4" UID="rg1l8iw7jdzwepsw" Name="Loading Logo (in front of Gear Wheel)" Type="multi" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132250424692950519</Timestamp>
             <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-loading-wheels\r\nhttps://wgmods.net/2244/details</DevURL>
-            <InternalNotes>Logo.swf picture with numbers SEE: https://wgmods.net/2244/details\r\nhttps://wgmods.net/2244/details\r\n\r\n\r\n\r\n\r\n\r\n</InternalNotes>
+            <InternalNotes>GarageGraphics_Loading_LOGO_Animation_REWORKING\r\n = Logo.swf = Loading Logo in front of Gear Wheel\r\n\r\nLogo.swf picture with numbers SEE: https://wgmods.net/2244/details\r\nhttps://wgmods.net/2244/details\r\n\r\n\r\n\r\n\r\n\r\n</InternalNotes>
             <Packages>
               <Package PackageName="GarageGraphics_Loading_LogoAnimation_Relhax_REWORKED" Enabled="True" InstallGroup="4" PatchGroup="4" UID="jy24qe5h5t9ak1oh" Name="Relhax Relic (L/A)" Type="single_dropdown1" Visible="True">
                 <CRC>f</CRC>
@@ -4049,6 +4055,23 @@
                 <InternalNotes>is DependencyGlobal_RelHax_LogoSWF</InternalNotes>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_with small_BG_by_Warranted.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="GarageGraphics_Loading_LogoAnimation_WWIIHWA" Enabled="False" InstallGroup="4" PatchGroup="4" UID="szvag2gb18fsxnbj" Name="Iron Cross WWIIHWA [by {author}]" Type="single_dropdown1" Visible="True">
+                <Size>21163</Size>
+                <Version>6.21.1</Version>
+                <ZipFile>GarageGraphics_Loading_LogoAnimation_WWIIHWA_6.21.1_1.10.0.1_2020-09-10.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132446705769630790</Timestamp>
+                <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ambiente+Rescue+Pack&amp;order=name&amp;srt=yes\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
+                <InternalNotes>GarageGraphics_loading_animation_WWIIHWA_Ambiente\r\n= gui\flash\waitingTransition.swf &amp; gui\flash\logos.swf\r\n\r\n\r\nGauss: 2020-09-15: \r\ngui\flash\waitingTransition.swf Removed\r\n</InternalNotes>
+                <Author>Budyx69</Author>
+                <Maintainers>Gauss</Maintainers>
+                <Description>Part of WWIIHWA_Ambiente_by_Budyx69 (Thx Budyx69)</Description>
+                <UpdateComment>2018-08-31 Update 6.8 [1.1.0.0]: Versioning\r\n\r\ngui\flash\waiting.swf</UpdateComment>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_WWIIHWA_Iron_Cross_01.png" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_WWIIHWA_Iron_Cross_02.png" MediaType="Picture" />
                 </Medias>
               </Package>
               <Package PackageName="GarageGraphics_Loading_LogoAnimation_0_NoLogo" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pwt26b0gbzl2m8in" Name="No Logo = transparent invisible Logo" Type="single_dropdown1" Visible="True">
@@ -4174,11 +4197,21 @@
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
-              <Package PackageName="GarageGraphics_Loading_LogoAnimation_Skull2_0" Enabled="False" InstallGroup="4" PatchGroup="4" UID="hfhsxbc5clf8zomq" Name="WRITE_NEW_NAME" Type="single_dropdown1" Visible="True">
+              <Package PackageName="GarageGraphics_Loading_LogoAnimation_Skull2_0" Enabled="False" InstallGroup="4" PatchGroup="4" UID="hfhsxbc5clf8zomq" Name="WRITE_NEW_NAME" Type="single_dropdown1" Visible="False">
                 <CRC>f</CRC>
                 <Timestamp>132445236897420210</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
+              </Package>
+              <Package PackageName="GarageGraphics_loading_animation_Tracks_NOT_WORKING" Enabled="False" InstallGroup="4" PatchGroup="4" UID="lw7ogykr7tlkmim6" Name="Tracks (Not working electro, work has sto bee done)" Type="single_dropdown1" Visible="False">
+                <Size>16354</Size>
+                <ZipFile>Garage_Graphics_loading_animation_Tracks_2019-04-05.zip</ZipFile>
+                <CRC>d277ad7a03720ec9cced418b84d18c97</CRC>
+                <Timestamp>131989299069189282</Timestamp>
+                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_Tracks.png" MediaType="Picture" />
+                </Medias>
               </Package>
             </Packages>
           </Package>
@@ -4201,7 +4234,7 @@
               <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
             </Dependencies>
             <Packages>
-              <Package PackageName="GarageGraphics_loading_animation_HARPOON" Enabled="False" InstallGroup="4" PatchGroup="4" UID="21fv5fbqhe07foip" Name="HARPOON by lenya69" Type="single_dropdown1" Visible="False">
+              <Package PackageName="GarageGraphics_loading_animation_HARPOON_NOT_WORKING_REMOVE" Enabled="False" InstallGroup="4" PatchGroup="4" UID="21fv5fbqhe07foip" Name="HARPOON by lenya69" Type="single_dropdown1" Visible="False">
                 <Size>151680</Size>
                 <ZipFile>Garage_Graphics_loading_animation_HARPOON_by_lenya69_2017-07-16.zip</ZipFile>
                 <CRC>0cbb29041992dbba817e10761b7209a2</CRC>
@@ -4211,34 +4244,14 @@
                 <Description>Part of Harpoon Crosshair by lenya69</Description>
                 <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
-              <Package PackageName="GarageGraphics_loading_animation_XMASGirl" Enabled="False" InstallGroup="4" PatchGroup="4" UID="fqmadfhrgaspf0po" Name="XMAS Girl by ZloyYurich" Type="single_dropdown1" Visible="False">
+              <Package PackageName="GarageGraphics_loading_animation_XMASGirl_NOT_WORKING_REMOVE" Enabled="False" InstallGroup="4" PatchGroup="4" UID="fqmadfhrgaspf0po" Name="XMAS Girl by ZloyYurich" Type="single_dropdown1" Visible="False">
                 <Size>140972</Size>
                 <ZipFile>Garage_Graphics_loading_animation_XMAS_Girl_by_ZloyYurich_2019-01-07.zip</ZipFile>
                 <CRC>10f914334e9976c08aa3cb8771b6c4ff</CRC>
                 <Timestamp>131941890948554024</Timestamp>
                 <DevURL>https://wgmods.net/2763/details</DevURL>
-                <InternalNotes>mods by ZloyYurich last update: wot 1.3.0.1 (2018-12)\r\n\r\ngui\flash\waiting.swf</InternalNotes>
+                <InternalNotes>mods by ZloyYurich last update: wot 1.3.0.1 (2018-12)\r\n\r\ngui\flash\waiting.swf\r\n\r\nGauss (2020-09-15): \r\nNo Answer till now =&gt; Will be removed after rework\r\nThe_Illusive_Man \r\n18.03 15:17\r\nWill this be updated? 1.7.0.0 changed this</InternalNotes>
                 <UpdateComment>mods by ZloyYurich last update: wot 1.3.0.1 (2018-12)\r\n\r\ngui\flash\waiting.swf</UpdateComment>
-              </Package>
-              <Package PackageName="GarageGraphics_loading_animation_Tracks" Enabled="False" InstallGroup="4" PatchGroup="4" UID="lw7ogykr7tlkmim6" Name="Tracks" Type="single_dropdown1" Visible="True">
-                <Size>16354</Size>
-                <ZipFile>Garage_Graphics_loading_animation_Tracks_2019-04-05.zip</ZipFile>
-                <CRC>d277ad7a03720ec9cced418b84d18c97</CRC>
-                <Timestamp>131989299069189282</Timestamp>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/loading_animation/Garage_Graphics_loading_animation_Tracks.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="GarageGraphics_loading_animation_WWIIHWA_Ambiente" Enabled="False" InstallGroup="4" PatchGroup="4" UID="szvag2gb18fsxnbj" Name="WWIIHWA Ambiente by Budyx69" Type="single_dropdown1" Visible="True">
-                <Size>21163</Size>
-                <Version>6.17</Version>
-                <ZipFile>Garage_Graphics_loading_animation_WWIIHWA_6.17_1.7.1.1_2020-02-01.zip</ZipFile>
-                <CRC>9f5597a179141d4753535244af3ace20</CRC>
-                <Timestamp>132250424819949103</Timestamp>
-                <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ambiente+Rescue+Pack&amp;order=name&amp;srt=yes\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
-                <Description>Part of WWIIHWA_Ambiente_by_Budyx69 (Thx Budyx69)</Description>
-                <UpdateComment>2018-08-31 Update 6.8 [1.1.0.0]: Versioning\r\n\r\ngui\flash\waiting.swf</UpdateComment>
               </Package>
             </Packages>
           </Package>
