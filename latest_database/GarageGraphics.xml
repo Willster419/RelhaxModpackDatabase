@@ -4024,6 +4024,18 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_RelHaxRelic_LogInNo_WaitingSWF_02.png" MediaType="Picture" />
                 </Medias>
               </Package>
+              <Package PackageName="GarageGraphics_Loading_Wheel_Animation_Borg" Enabled="True" InstallGroup="4" PatchGroup="4" UID="dx44gx5uldh6a68f" Name="Borg (A) [by {author}] (W)" Type="single_dropdown1" Visible="True">
+                <ZipFile>GarageGraphics_Loading_Wheel_Animation_Borg_2020-09-23_(2020-03-19).zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132453195937351533</Timestamp>
+                <DevURL>https://wgmods.net/2244/details</DevURL>
+                <Author>TheIllusion</Author>
+                <Description>Resistance is Futile!</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_Borg_OnlyWaiting_04.png" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Video/Garage Graphics/Loading Animation/Borg Animation.mkv" MediaType="MediaFile" />
+                </Medias>
+              </Package>
               <Package PackageName="GarageGraphics_Loading_Wheel_Animation_OMC" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5th9h2zaj4x01d5d" Name="OMC Odem Mortis Community (W)" Type="single_dropdown1" Visible="True">
                 <ZipFile>GarageGraphics_Loading_Wheel_Animation_OMC_1.10.0.2_2020-09-23.zip</ZipFile>
                 <CRC>f</CRC>
@@ -4138,9 +4150,16 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_with small_BG_by_Warranted.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="GarageGraphics_Loading_LogoAnimation_Relhax_REWORKED123" Enabled="False" InstallGroup="4" PatchGroup="4" UID="9rqcl94czcsuqvlq" Name="WRITE_NEW_NAME (L)" Type="single_dropdown1" Visible="False">
+              <Package PackageName="GarageGraphics_Loading_LogoAnimation_Borg_rew" Enabled="True" InstallGroup="4" PatchGroup="4" UID="9rqcl94czcsuqvlq" Name="Borg (A) [by {author}] (L)" Type="single_dropdown1" Visible="True">
+                <ZipFile>GarageGraphics_Loading_LogoAnimation_Borg_2020-09-23_(2020-03-19).zip</ZipFile>
                 <CRC>f</CRC>
-                <Timestamp>132445187943864425</Timestamp>
+                <Timestamp>132453195134951487</Timestamp>
+                <Author>TheIllusion</Author>
+                <Description>Resistance is Futile!</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_Borg_WaitingTransition_Waiting_Logos_02.png" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Video/Garage Graphics/Loading Animation/Borg Animation.mkv" MediaType="MediaFile" />
+                </Medias>
               </Package>
               <Package PackageName="GarageGraphics_Loading_LogoAnimation_WG" Enabled="True" InstallGroup="4" PatchGroup="4" UID="uyehyi4xsizssotw" Name="Animated by WG (L)" Type="single_dropdown1" Visible="True">
                 <Size>810648</Size>
@@ -4346,7 +4365,7 @@
             <Timestamp>132443232322464950</Timestamp>
             <InternalNotes>mode files: only pics \r\n\tgui\maps\login\__login_logo.png\r\n\r\nstill in res_mods\r\n\r\n</InternalNotes>
             <Packages>
-              <Package PackageName="GarageGraphics_Loading_Logo_LogInPic_Relhax" Enabled="False" InstallGroup="4" PatchGroup="4" UID="i9b24mzl85t5703y" Name="Relhax" Type="single_dropdown1" Visible="True">
+              <Package PackageName="GarageGraphics_Loading_Logo_LogInPic_Relhax" Enabled="True" InstallGroup="4" PatchGroup="4" UID="i9b24mzl85t5703y" Name="Relhax" Type="single_dropdown1" Visible="True">
                 <CRC>f</CRC>
                 <Timestamp>132448467367397094</Timestamp>
                 <Author>UNKNOWN / Warranted / Global Dependency</Author>
@@ -4381,17 +4400,18 @@
                 <ZipFile>GarageGraphics_Loading_Logo_LogInPic_HD_2020-09-23_resMods_(2020-03-19).zip</ZipFile>
                 <CRC>f</CRC>
                 <Timestamp>132453158884797338</Timestamp>
-                <InternalNotes>2020-08-28: this package was disabled and set invisible during the database purge.</InternalNotes>
+                <InternalNotes>2020-08-28: this package was disabled and set invisible during the database purge.\r\n\r\n2020-09-23: this package was enabled and set visible during the GarageGraphics_Loading_LogoAnimation rework</InternalNotes>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_hd1.png" MediaType="Picture" />
                 </Medias>
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_Wheel_WaitingTransition" Enabled="False" InstallGroup="4" PatchGroup="4" UID="z2jxg5cvvo9z8r0w" Name="WaitingTransitionSWF = file with no visible purpose" Type="single_dropdown1" Visible="False">
+          <Package PackageName="GarageGraphics_Loading_Wheel_WaitingTransition" Enabled="True" InstallGroup="4" PatchGroup="4" UID="z2jxg5cvvo9z8r0w" Name="Loading Wheel Turning Animation" Type="multi" Visible="True">
             <Size>1204755</Size>
             <CRC>f</CRC>
             <Timestamp>132448488070250335</Timestamp>
+            <InternalNotes>WaitingTransitionSWF = file with no visible purpose</InternalNotes>
             <Packages>
               <Package PackageName="GarageGraphics_Loading_Wheel_WaitingTransition_Relhax_Global" Enabled="True" InstallGroup="4" PatchGroup="4" UID="7zcn0dgqbaerv8w5" Name="current Relhax (L/A)  changes from time to time" Type="single_dropdown1" Visible="True">
                 <CRC>f</CRC>
@@ -4399,6 +4419,18 @@
                 <InternalNotes>waitingTransition.swf (CRC: b1dbbffa21b76e7f89ff97ab11eee346)\r\nfrom DependencyGlobal_RelHax_WaitingTransitionSWF\r\nis used in ALL LogoAnimation_Relhax versions\r\n\r\nwaitingTransition.swf\r\nGarage_Graphics_loading_logo_Relhax_by_Warranted\r\nGarageGraphics_LoadingLogoAnimation_Relhax_2020-03-18.zip\r\n</InternalNotes>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_by_Warranted.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="GarageGraphics_Loading_Wheel_WaitingTransition_Borg" Enabled="True" InstallGroup="4" PatchGroup="4" UID="zukuqxedx5vxwtge" Name="Borg (A) [by {author}]" Type="single_dropdown1" Visible="True">
+                <Size>1512012</Size>
+                <ZipFile>GarageGraphics_Loading_Wheel_WaitingTransition_Borg_2020-09-23_(2020-03-19).zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132453199686392710</Timestamp>
+                <Author>TheIllusion</Author>
+                <Description>Resistance is Futile!</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_Borg_WaitingTransition_Waiting_NoLogos_03.png" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Video/Garage Graphics/Loading Animation/Borg Animation.mkv" MediaType="MediaFile" />
                 </Medias>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Wheel_WaitingTransition_OMC" Enabled="True" InstallGroup="4" PatchGroup="4" UID="crqco4ivuk2h837v" Name="OMC Odem Mortis Community (WT)" Type="single_dropdown1" Visible="True">
@@ -4409,16 +4441,7 @@
                 <InternalNotes>waitingTransition.swf\r\nGarage_Graphics_loading_logo_Relhax_by_Warranted\r\nGarageGraphics_LoadingLogoAnimation_Relhax_2020-03-18.zip\r\n\r\n</InternalNotes>
                 <Author>UNKNOWN / Warranted / electro / ...</Author>
               </Package>
-              <Package PackageName="Reworked_IN_GarageGraphics_Loading_Wheel_WaitingTransition_Relhax_NoNGlobal" Enabled="False" InstallGroup="4" PatchGroup="4" UID="zukuqxedx5vxwtge" Name="Relhax (L/A) WRITE_NEW_NAMERelhax (L/A)" Type="single_dropdown1" Visible="False">
-                <Size>1512012</Size>
-                <ZipFile>GarageGraphics_LoadingLogoAnimation_Relhax_2020-03-18.zip</ZipFile>
-                <CRC>fc4863cac2c267fbc383e3b4a8daec3f</CRC>
-                <Timestamp>132291099234113105</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_by_Warranted.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="GarageGraphics_Loading_Wheel_WaitingTransition_IluminatiMVP" Enabled="False" InstallGroup="4" PatchGroup="4" UID="cm57zxjpjcal52xh" Name="Iluminati M.V.P  [by {author}]" Type="single_dropdown1" Visible="False">
+              <Package PackageName="GarageGraphics_Loading_Wheel_WaitingTransition_IluminatiMVP" Enabled="True" InstallGroup="4" PatchGroup="4" UID="cm57zxjpjcal52xh" Name="Iluminati M.V.P  [by {author}]" Type="single_dropdown1" Visible="True">
                 <Size>497950</Size>
                 <ZipFile>GarageGraphics_Loading_Wheel_WaitingTransition_IluminatiMVP_1.10.0.2_2020-09-23.zip</ZipFile>
                 <CRC>f</CRC>
@@ -4426,7 +4449,7 @@
                 <DevURL>https://github.com/Aimdrol\r\nhttps://github.com/Aimdrol/MLG-Main/tree/master/Main/res_mods\r\nhttp://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
                 <Author>Aimdrol</Author>
               </Package>
-              <Package PackageName="GarageGraphics_Loading_Wheel_WaitingTransition_NoLogo_UNKNOWN" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pmam5dpvnblbpb0n" Name="WaitingTransition_NoLogo_UNKNOWN_Author" Type="single_dropdown1" Visible="True">
+              <Package PackageName="GarageGraphics_Loading_Wheel_WaitingTransition_NoLogo_UNKNOWN" Enabled="True" InstallGroup="4" PatchGroup="4" UID="pmam5dpvnblbpb0n" Name="invisible no Logo" Type="single_dropdown1" Visible="True">
                 <Size>497950</Size>
                 <ZipFile>GarageGraphics_Loading_Wheel_WaitingTransition_NoLogo_UNKNOWN_2020-09-17_(2020-03-19).zip</ZipFile>
                 <CRC>e08ad512c1353e8c7c2319f5677968f2</CRC>
