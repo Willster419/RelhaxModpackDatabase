@@ -4003,7 +4003,7 @@
         <InternalNotes>contains:\r\nwaiting.swf\r\nwaitingTransition.swf\r\nlogos.swf\r\n\r\nexchanged infopics in logos.swf and waiting.swf with transparent ones\r\n\r\nGauss:\r\n    L = only logo = logos.swf\r\nWT = waitingTransition.swf\r\n   W =waiting .swf\r\n\r\nFrom Who?\r\nL = only logo = logos.swf\r\nL/A = logo AND waiting animation = logos.swf + waiting.swf + waitingTransition.swf\r\nA = only waiting animation = logos.swf (with default logos, but award/info slots are transparent) + waiting.swf + waitingTransition.swf\r\n\r\n\r\n\r\n\r\n</InternalNotes>
         <Description>This mod replaces the standard loading animation circle and/or the logo shown at start of the game.\r\nThis depends on the selected option.\r\n\r\nL = only logo\r\nL/A = logo AND waiting animation\r\nA = only waiting animation\r\n\r\n</Description>
         <Packages>
-          <Package PackageName="GarageGraphics_Loading_Wheel_Animation" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ijbfnxfmsg6o5zua" Name="Loading Wheel Animation" Type="multi" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_Wheel_Animation" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ijbfnxfmsg6o5zua" Name="Loading Wheel Animation (W)" Type="multi" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132250424692950519</Timestamp>
             <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-loading-wheels\r\nhttps://wgmods.net/2244/details</DevURL>
@@ -4132,7 +4132,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_LOGO_Animation_REWORKING" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rg1l8iw7jdzwepsw" Name="Loading Logo (in front of Gear Wheel)" Type="multi" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_LOGO_Animation_REWORKING" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rg1l8iw7jdzwepsw" Name="Loading Logo (in front of Gear Wheel) (L)" Type="multi" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132250424692950519</Timestamp>
             <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-loading-wheels\r\nhttps://wgmods.net/2244/details</DevURL>
@@ -4360,7 +4360,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_Logo_LogInPic" Enabled="True" InstallGroup="4" PatchGroup="4" UID="m53fqh6lrgb0d7ax" Name="Loading Logo Picture in Centre" Type="multi" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_Logo_LogInPic" Enabled="True" InstallGroup="4" PatchGroup="4" UID="m53fqh6lrgb0d7ax" Name="Loading Logo Picture in Centre (LL)" Type="multi" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132443232322464950</Timestamp>
             <InternalNotes>(LL) = Login Logo\r\n\r\n99% no update is required or any tests\r\nmode files: only pics \r\n\tgui\maps\login\__login_logo.png\r\nstill in res_mods\r\n\r\n\r\n</InternalNotes>
@@ -4437,7 +4437,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_Wheel_WaitingTransition" Enabled="True" InstallGroup="4" PatchGroup="4" UID="z2jxg5cvvo9z8r0w" Name="Loading Wheel Turning Animation" Type="multi" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_Wheel_WaitingTransition" Enabled="True" InstallGroup="4" PatchGroup="4" UID="z2jxg5cvvo9z8r0w" Name="Loading Wheel Turning Animation (WT)" Type="multi" Visible="True">
             <Size>1204755</Size>
             <CRC>f</CRC>
             <Timestamp>132448488070250335</Timestamp>
@@ -4498,11 +4498,11 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_LogoAnimation_Relhax_Default" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2mycb2djv6qld2tl" Name="DEFAULT by Relhax (changes from time to time)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_LogoAnimation_Relhax_Default" Enabled="True" InstallGroup="4" PatchGroup="4" UID="2mycb2djv6qld2tl" Name="DEFAULT by Relhax (changes from time to time) (L/W/WT)" Type="single_dropdown1" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132453142233398091</Timestamp>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_LogoAnimation_Relhax" Enabled="True" InstallGroup="4" PatchGroup="4" UID="crqco4ivuk2h837v" Name="Relhax (L/A)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_LogoAnimation_Relhax" Enabled="True" InstallGroup="4" PatchGroup="4" UID="crqco4ivuk2h837v" Name="Relhax (L/W/WT/LL)" Type="single_dropdown1" Visible="True">
             <Size>1512012</Size>
             <ZipFile>GarageGraphics_LoadingLogoAnimation_Relhax_2020-09-24_(2020-03-15).zip</ZipFile>
             <CRC>f</CRC>
@@ -4512,7 +4512,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_by_Warranted.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_LogoAnimation_RelhaxBG" Enabled="True" InstallGroup="4" PatchGroup="4" UID="667jg88ep346jwp9" Name="Relhax (with small background) (L/A)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_LogoAnimation_RelhaxBG" Enabled="True" InstallGroup="4" PatchGroup="4" UID="667jg88ep346jwp9" Name="Relhax (with small background) (L/W/WT/LL)" Type="single_dropdown1" Visible="True">
             <Size>1521227</Size>
             <ZipFile>GarageGraphics_LoadingLogoAnimation_RelhaxBG_2020-03-18.zip</ZipFile>
             <CRC>83ea167aadae3c1013ccde08cd5513a0</CRC>
@@ -4522,7 +4522,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_with small_BG_by_Warranted.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_LogoAnimation_Borg" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wkldw7kgnwo5jj38" Name="3 of 3 Borg (K/W/WT) [by {author}]" Type="single_dropdown1" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_LogoAnimation_Borg" Enabled="True" InstallGroup="4" PatchGroup="4" UID="wkldw7kgnwo5jj38" Name="3 of 3 Borg (L/W/WT) [by {author}]" Type="single_dropdown1" Visible="True">
             <Size>1037314</Size>
             <ZipFile>GarageGraphics_Loading_LogoAnimation_Borg_3Of3_2020-09-23_(2020-03-19).zip</ZipFile>
             <CRC>f</CRC>
@@ -4536,7 +4536,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_Borg_WaitingTransition_Waiting_Logos_02.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_LogoAnimation_SkullCross" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gcfe4am1h8buu00l" Name="SkullCross (Ritterkreuz) (L/A/LL)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_LogoAnimation_SkullCross" Enabled="True" InstallGroup="4" PatchGroup="4" UID="gcfe4am1h8buu00l" Name="SkullCross (Ritterkreuz) (L/W/WT/LL)" Type="single_dropdown1" Visible="True">
             <Size>1511837</Size>
             <ZipFile>GarageGraphics_LoadingLogoAnimation_SkullCross_2020-03-18.zip</ZipFile>
             <CRC>13061454cbcd8c14685ea46ec1358987</CRC>
@@ -4546,7 +4546,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_LoadingLogoAnimation_SkullCross.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_LogoAnimation_GTR" Enabled="False" InstallGroup="4" PatchGroup="4" UID="arxlwdckcrdk6tiy" Name="German Tank Racing (L)" Type="single_dropdown1" Visible="False">
+          <Package PackageName="GarageGraphics_Loading_LogoAnimation_GTR" Enabled="False" InstallGroup="4" PatchGroup="4" UID="arxlwdckcrdk6tiy" Name="German Tank Racing (L/LL)" Type="single_dropdown1" Visible="False">
             <Size>843076</Size>
             <ZipFile>GarageGraphics_LoadingLogoAnimation_GTR_2020-03-20.zip</ZipFile>
             <CRC>fa9e36e5525dbdc6edace28780dbebbf</CRC>
@@ -4557,7 +4557,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_GTR.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_LogoAnimation_8bit" Enabled="False" InstallGroup="4" PatchGroup="4" UID="ng304dilbo5264py" Name="8bit WoT-Logo (L) [by {author}]" Type="single_dropdown1" Visible="False">
+          <Package PackageName="GarageGraphics_Loading_LogoAnimation_8bit" Enabled="False" InstallGroup="4" PatchGroup="4" UID="ng304dilbo5264py" Name="8bit WoT-Logo [by {author}] (L/LL)" Type="single_dropdown1" Visible="False">
             <Size>371747</Size>
             <ZipFile>GarageGraphics_LoadingLogoAnimation_8bit_2020-03-20.zip</ZipFile>
             <CRC>a41188194ebc583b0a7d1cb668246dbd</CRC>
@@ -4568,7 +4568,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_8bit.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_LogoAnimation_SoAblack" Enabled="True" InstallGroup="4" PatchGroup="4" UID="hul7wh84677rhx7b" Name="Black Sons Of Anarchy Style WoT-Logo (L) [by {author}]" Type="single_dropdown1" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_LogoAnimation_SoAblack" Enabled="True" InstallGroup="4" PatchGroup="4" UID="hul7wh84677rhx7b" Name="Black Sons Of Anarchy Style WoT-Logo [by {author}] (L/LL)" Type="single_dropdown1" Visible="True">
             <Size>588925</Size>
             <ZipFile>GarageGraphics_LoadingLogoAnimation_SonsOfAnarchyStyle_black_2020-03-20.zip</ZipFile>
             <CRC>42b6dba902d1a4420b241555c72da112</CRC>
@@ -4578,7 +4578,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_SonsOfAnarchyStyle_black.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_LogoAnimation_white" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ujrm4ge553z9h9eb" Name="White WoT-Logo (L)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="GarageGraphics_Loading_LogoAnimation_white" Enabled="True" InstallGroup="4" PatchGroup="4" UID="ujrm4ge553z9h9eb" Name="White WoT-Logo (L/LL)" Type="single_dropdown1" Visible="True">
             <Size>566356</Size>
             <ZipFile>GarageGraphics_LoadingLogoAnimation_white_2020-03-20.zip</ZipFile>
             <CRC>1fa2acc954c05601ec64b9a907318af5</CRC>
@@ -4587,7 +4587,7 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_white.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="GarageGraphics_Loading_LogoAnimation_XFiles" Enabled="False" InstallGroup="4" PatchGroup="4" UID="fapw82aa2cnaxb4j" Name="X-Files [by {author}]" Type="single_dropdown1" Visible="False">
+          <Package PackageName="GarageGraphics_Loading_LogoAnimation_XFiles" Enabled="False" InstallGroup="4" PatchGroup="4" UID="fapw82aa2cnaxb4j" Name="X-Files [by {author}] (L/W/WT)" Type="single_dropdown1" Visible="False">
             <Size>1182255</Size>
             <ZipFile>GarageGraphics_Loading_LogoAnimation_XFiles_2020-05-17.zip</ZipFile>
             <CRC>4e80e5c050756842c62969ca8ab2d063</CRC>
