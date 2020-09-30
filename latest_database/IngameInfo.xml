@@ -702,9 +702,9 @@
       <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="IngameInfo_PlayersPanelPro" Enabled="True" InstallGroup="4" PatchGroup="4" UID="msak80oyaflkjz9l" Name="Players Panel Pro [by {author}]" Type="multi" Visible="True">
+  <Package PackageName="IngameInfo_PlayersPanelPro" Enabled="True" InstallGroup="4" PatchGroup="4" UID="msak80oyaflkjz9l" Name="Players Panel Pro [by {author}] [Conflicts with Friends Marker by Oldskool]" Type="multi" Visible="True">
     <Size>365235</Size>
-    <Version>1.42</Version>
+    <Version>1.43</Version>
     <ZipFile>IngameInfo_PlayersPanelPro_v1.43_1.10.0.4_2020-09-28.zip</ZipFile>
     <CRC>f</CRC>
     <Timestamp>132457939515408714</Timestamp>
@@ -720,6 +720,7 @@
     <UserFiles>
       <UserFile Pattern="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" />
     </UserFiles>
+    <ConflictingPackages>IngameInfo_EnemySpottedStatus</ConflictingPackages>
     <Dependencies>
       <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
@@ -990,7 +991,7 @@
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/show_team_hp_pool_text.png" MediaType="Picture" />
         </Medias>
       </Package>
-      <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rxwybkry1yefph53" Name="Enable enemy spotted status (conflicts with xvm and pmod spotted status)" Type="multi" Visible="True">
+      <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus" Enabled="True" InstallGroup="4" PatchGroup="4" UID="rxwybkry1yefph53" Name="Enable enemy spotted status (conflicts with xvm AND Enemy Spotted Status by PMOD &amp; Oldskool)" Type="multi" Visible="True">
         <Size>553</Size>
         <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Enable_1.9.0.2_2020-05-09.zip</ZipFile>
         <CRC>9d82161b40a36982649dac2bda8aa905</CRC>
@@ -999,6 +1000,7 @@
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/spotted_icon_styles.png" MediaType="Picture" />
         </Medias>
+        <ConflictingPackages>IngameInfo_EnemySpottedStatus,IngameInfo_EnemySpottedStatus,IngameInfo_EnemySpottedStatus</ConflictingPackages>
         <Packages>
           <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_EyeV1" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6wrz8nb7bwkubrx2" Name="Eye V1" Type="single_dropdown1" Visible="True">
             <Size>537</Size>
