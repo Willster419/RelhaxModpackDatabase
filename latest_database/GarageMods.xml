@@ -439,51 +439,6 @@
     <CRC>f</CRC>
     <Timestamp>132342596815110917</Timestamp>
     <Packages>
-      <Package PackageName="GarageMods_Equipment_autoEquip" Enabled="False" InstallGroup="4" PatchGroup="4" UID="b9h6pscmwhnalq5z" Name="Auto-equip removeable equipment" Type="multi" Visible="False">
-        <Size>30661</Size>
-        <CRC>f</CRC>
-        <Timestamp>132342596815110917</Timestamp>
-        <ObfuscatedMod>True</ObfuscatedMod>
-        <Packages>
-          <Package PackageName="GarageMods_Equipment_autoEquip_Auxilium" Enabled="True" InstallGroup="4" PatchGroup="4" UID="crn0gzyplgj78ncp" Name=" [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>1878</Size>
-            <ZipFile>GarageMods_autoEquipEquipment_Auxilium_2020-05-17.zip</ZipFile>
-            <CRC>034f5afc323f1c21c3b9c515e8a114d3</CRC>
-            <Timestamp>132342597881668257</Timestamp>
-            <DevURL>https://wgmods.net/41/details</DevURL>
-            <Author>ShuraBB (Auxilium)</Author>
-            <Description>The function “AutoEquip” - automatic installation of removable equipment for the selected tank;\n\n"Teach" this mod how he should work:\nwhich automatic installation of removable equipment you wanna have on the tank - just put it on the tank the mod saves it</Description>
-            <ObfuscatedMod>True</ObfuscatedMod>
-            <UserFiles>
-              <UserFile Pattern="\mods\configs\BBMods\Auxilium.dat" />
-            </UserFiles>
-            <Dependencies>
-              <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="GarageMods_Equipment_autoEquip_OldSkool" Enabled="True" InstallGroup="4" PatchGroup="4" UID="fg8jggomj04gougd" Name="v{version} [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>30336</Size>
-            <Version>1.1.2</Version>
-            <ZipFile>GarageMods_autoEquipEquipment_OldSkool_v1.1.2_1.9.1.0_2020-06-12.zip</ZipFile>
-            <CRC>1c8313f26caf53a1ec1a5815661ea6ce</CRC>
-            <Timestamp>132364312284625867</Timestamp>
-            <DevURL>https://wgmods.net/1022/details</DevURL>
-            <Author>OldSkool</Author>
-            <Description>Simple Mod to automatically mount and demount removable devices on vehicles.\r\n\r\nTeach this mod how it should work:\nEquipment from the previous vehicle will be mounted after battle on the next vehicle.\n(Binoculars, Toolbox and Camonet)\r\n\r\n by OldSkool</Description>
-            <ObfuscatedMod>True</ObfuscatedMod>
-            <Medias>
-              <Media URL="https://wgmods.net/media/autoequip_HycvqQW.png.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-            </Medias>
-            <UserFiles>
-              <UserFile Pattern="{app}\autoequip.json" />
-            </UserFiles>
-            <Dependencies>
-              <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-        </Packages>
-      </Package>
       <Package PackageName="GarageMods_Equipment_smartAmmunition" Enabled="True" InstallGroup="4" PatchGroup="4" UID="fvc7ngv4z3to3sno" Name="smartAmmunition [by {author}]" Type="multi" Visible="True">
         <Size>91835</Size>
         <ZipFile>GarageMods_Equipment_smartAmmunition_v1.20_1.10.0.4_2020-10-03.zip</ZipFile>
@@ -496,19 +451,6 @@
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_mods/GarageMods_Equipment_smartAmmunition.jpg" MediaType="Picture" />
         </Medias>
-      </Package>
-      <Package PackageName="GarageMods_Equipment_RemoveRemovable" Enabled="False" InstallGroup="4" PatchGroup="4" UID="zgbe0yv0x4i0zmu7" Name="Add L_CTRL+R keys to remove all removable equipment [by {author}]" Type="multi" Visible="True">
-        <Size>883</Size>
-        <ZipFile>GarageMods_Equipment_RemoveRemovable_2020-05-17.zip</ZipFile>
-        <CRC>7d4a49ec32085de169a82363d3432cd3</CRC>
-        <Timestamp>132342602414369196</Timestamp>
-        <DevURL>https://wgmods.net/41/details</DevURL>
-        <Author>ShuraBB (Auxilium)</Author>
-        <ObfuscatedMod>True</ObfuscatedMod>
-        <Dependencies>
-          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-        </Dependencies>
       </Package>
     </Packages>
   </Package>
@@ -782,12 +724,6 @@
     <Dependencies>
       <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
     </Dependencies>
-  </Package>
-  <Package PackageName="GarageMods_Tooltips" Enabled="False" InstallGroup="4" PatchGroup="4" UID="2p3fsl3a5azrpm4j" Name="Tooltips" Type="multi" Visible="False">
-    <Size>480</Size>
-    <CRC>f</CRC>
-    <Timestamp>132346152535200486</Timestamp>
-    <InternalNotes>\r\n\r\n</InternalNotes>
   </Package>
   <Package PackageName="GarageMods_VehicleXPextended" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5bq9b7evo17t6x4d" Name="VehicleXP Extended [by {author}]" Type="multi" Visible="True">
     <Size>16717</Size>
