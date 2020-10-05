@@ -4869,13 +4869,13 @@
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Garage_mods_Techtree/Garage_mods_Techtree_VT_Base_Pharaon.png" MediaType="Picture" />
         </Medias>
       </Package>
-      <Package PackageName="GarageGraphics_TechTree_ATT" Enabled="True" InstallGroup="4" PatchGroup="4" UID="i9n65itcx7vs5ohi" Name="Advanced Techtree [by {author}]" Type="single_dropdown1" Visible="True">
+      <Package PackageName="GarageGraphics_TechTree_ATT" Enabled="False" InstallGroup="4" PatchGroup="4" UID="i9n65itcx7vs5ohi" Name="Advanced Techtree [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>8327611</Size>
         <ZipFile>GarageGraphics_AdvancedTechTree_1.10.0.4_2020-10-04.zip</ZipFile>
         <CRC>f</CRC>
         <Timestamp>132463441900412235</Timestamp>
         <DevURL>http://forum.worldoftanks.ru/index.php?/topic/2096090-</DevURL>
-        <InternalNotes>old devURL:\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1419763--\r\n\r\nres\gui\flash\nodesLib.swf &amp; No pyc-files</InternalNotes>
+        <InternalNotes>old devURL:\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1419763--\r\n\r\nres\gui\flash\nodesLib.swf &amp; No pyc-files\r\n\r\n2020-10-04:\r\ndoes not work\r\n2020-10-04 22:41:32.330: ERROR: Traceback (most recent call last):\r\n2020-10-04 22:41:32.330: ERROR:   File "scripts/client/gui/Scaleform/daapi/view/lobby/techtree/techtree_page.py", line 100, in getNationTreeData\r\n2020-10-04 22:41:32.330: ERROR:   File "mod_techtree_extended", line 1, in &lt;lambda&gt;\r\n2020-10-04 22:41:32.330: ERROR:   File "mod_techtree_extended", line 1, in __hooked_NationTreeData_load\r\n2020-10-04 22:41:32.330: ERROR:   File "mod_techtree_extended", line 1, in &lt;lambda&gt;\r\n2020-10-04 22:41:32.331: ERROR:   File "mod_techtree_extended", line 1, in __hooked_NationTreeData_makeRealExposedNode\r\n2020-10-04 22:41:32.331: ERROR: ImportError: No module named ingame_shop</InternalNotes>
         <Author>JagerBaz</Author>
         <Description>The mod displays all tanks embedded in the game archives, with the ability to view models, characteristics and compare them.\r\n\r\nThe data source is the official game client and there is no access to other test data.\r\n\r\nEven if the price is displayed in gold- ONLY SUPERTESTERS IN THE SPECIAL CLIENT OF THE GAME CAN BUY THIS !!!</Description>
         <UpdateComment>UPD 2020-04-22 \r\nResearch tree AdvancedTechTree_1.9.0.0 # 267 (RU-Client)\r\nmoved to the base, workable, in finalization by minor changes.</UpdateComment>
