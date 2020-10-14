@@ -1182,51 +1182,6 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="IngameMisc_MinimapSpamProtector" Enabled="True" InstallGroup="4" PatchGroup="4" UID="8018fbwqcsw2pfv9" Name="Minimap Ping Spam Protector" Type="multi" Visible="True">
-        <Size>61479</Size>
-        <Timestamp>131970650282293324</Timestamp>
-        <Description>This mods allow you to control how many times a player can click on the minimap before the clicks will be ignored from your client.\n\nDifferent versions inside\n.</Description>
-        <Packages>
-          <Package PackageName="IngameMisc_MinimapSpamProtector_Champi" Enabled="True" InstallGroup="4" PatchGroup="4" UID="lp7nnb2rbopkpr28" Name="MSP [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>105161</Size>
-            <Version>1.38</Version>
-            <ZipFile>IngameMisc_MinimapSpamProtector_CHAMPi_1.39_1.10.0.4_2020-09-28.zip</ZipFile>
-            <CRC>7f0f20af825f56708d8d6d7d7e23af3f</CRC>
-            <Timestamp>132457941507776594</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/700504-1401-champis-minimap-spam-protector/\r\nhttps://wot.champi.de/</DevURL>
-            <Author>CHAMPi</Author>
-            <Maintainers>The Illusion</Maintainers>
-            <Description>This mod allows you to control how many times a player can click on the minimap before the clicks will be ignored from your client. \r\nYou can also control if a click sound is played.\n\r\nAll options are fully customizable in a settings dialog. \r\nYou can reach it by pressing ESC in the hangar. \n\n\n\nCredits:\n-spoter - for the permission to use his settings mod in my mod.\n-Elkano - this mod is based on his idea of a ping spam blocker.\n-spion_ve, Enesian - for help with the language files.\nFeel free to send me your feedback, suggestions and/or bug-reports via private message here on the forum.</Description>
-            <ObfuscatedMod>True</ObfuscatedMod>
-            <FromWGmods>True</FromWGmods>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_02.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_Minimap_Spam_Protector_CHAMPiS_01.jpg" MediaType="Picture" />
-            </Medias>
-            <UserFiles>
-              <UserFile Pattern="\mods\configs\CHAMPi\minimapSpamProtector\minimapSpamProtector.json" />
-            </UserFiles>
-            <Dependencies>
-              <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="IngameMisc_MinimapSpamProtector_Antitoxicity" Enabled="True" InstallGroup="4" PatchGroup="4" UID="6kqvifxwashkxg0h" Name="Antitoxicity - Block minimap spam click after 3 repeats [by {author}]" Type="single_dropdown1" Visible="True">
-            <Size>674</Size>
-            <ZipFile>Ingame_Info_Antitoxicity_block_minimap_spam_repeat_2018-07-05.zip</ZipFile>
-            <CRC>c93ec33abf290f3582ae3a34a1e73aaf</CRC>
-            <Timestamp>131752801765969869</Timestamp>
-            <Author>ShuraBB</Author>
-            <ObfuscatedMod>True</ObfuscatedMod>
-            <Dependencies>
-              <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_ShuraBB_Antitoxicity" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-        </Packages>
-      </Package>
     </Packages>
   </Package>
   <Package PackageName="IngameMisc_NoRankedBadge" Enabled="True" InstallGroup="4" PatchGroup="4" UID="5i2oud5c40b907yl" Name="No Ranked Badge [by {author}]" Type="multi" Visible="True">
