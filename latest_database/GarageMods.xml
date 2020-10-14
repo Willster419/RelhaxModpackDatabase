@@ -183,7 +183,7 @@
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/Tankcarousel/Garage_Graphics_Carousel_Crew Incomplete.jpg" MediaType="Picture" />
         </Medias>
         <Packages>
-          <Package PackageName="GarageMods_Carousel_AuxiliumDisableNoCrewMsg" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bxf6tq1k9jm6j27t" Name="[by {author}]" Type="single_dropdown1" Visible="True">
+          <Package PackageName="GarageMods_Carousel_AuxiliumDisableNoCrewMsg" Enabled="True" InstallGroup="4" PatchGroup="4" UID="bxf6tq1k9jm6j27t" Name="[by {author}]" Type="multi" Visible="True">
             <Size>552</Size>
             <ZipFile>GarageMods_TankCarousel_AuxiliumDisableNoCrewMsg_2020-05-17.zip</ZipFile>
             <CRC>a0e21a5c0db7ea841350d29c329ba277</CRC>
@@ -196,28 +196,6 @@
               <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
             </Dependencies>
-          </Package>
-          <Package PackageName="GarageMods_Carousel_CrewIncomplete_DE" Enabled="True" InstallGroup="4" PatchGroup="4" UID="4phfmpfyu4yyuyoz" Name="german [by {author}] v{version}" Type="single_dropdown1" Visible="True">
-            <Size>3467585</Size>
-            <Version>1.10.0.4</Version>
-            <ZipFile>GarageMods_Carousel_CrewIncomplete_DE_1.10.0.4_2020-09-28.zip</ZipFile>
-            <CRC>f4bd04cfdf7d5aeca79106ff2144b21b</CRC>
-            <Timestamp>132457966326047716</Timestamp>
-            <InternalNotes>moded \text\lc_messages\menu.mo</InternalNotes>
-            <Author>krautjaeger</Author>
-            <Maintainers>Gauss</Maintainers>
-          </Package>
-          <Package PackageName="GarageMods_Carousel_CrewIncomplete_EN" Enabled="True" InstallGroup="4" PatchGroup="4" UID="r0a0ep9xu86humh0" Name="english [by {author}] v{version}" Type="single_dropdown1" Visible="True">
-            <Size>3511787</Size>
-            <Version>1.10.0.4</Version>
-            <ZipFile>GarageMods_Carousel_CrewIncomplete_EN_1.10.0.4_2020-09-28.zip</ZipFile>
-            <CRC>44bf4481bd6cf2e9777e2ac01e575372</CRC>
-            <Timestamp>132457958854022903</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/626056-\r\nhttps://wgmods.net/643/</DevURL>
-            <InternalNotes>moded \text\lc_messages\menu.mo</InternalNotes>
-            <Author>krautjaeger</Author>
-            <Maintainers>Gauss</Maintainers>
-            <FromWGmods>True</FromWGmods>
           </Package>
         </Packages>
       </Package>
@@ -701,13 +679,6 @@
         <ZipFile>Garage_mods_ScriptloaderPro_1.29_PythonlogSpamfilter_patch.zip</ZipFile>
         <CRC>3f28042f0954a71df800d2db4b5802b7</CRC>
         <Timestamp>131777733560874209</Timestamp>
-      </Package>
-      <Package PackageName="GarageMods_ScriptloaderPro_DebugMode" Enabled="True" InstallGroup="4" PatchGroup="4" UID="v5ien6z9wx05vtt1" Name="Debug Mode" Type="multi" Visible="True">
-        <Size>577</Size>
-        <ZipFile>Garage_mods_ScriptloaderPro_1.34_DebugMode_ON_patch.zip</ZipFile>
-        <CRC>60a9a2f1052f41dbf98adbf11f28bcb3</CRC>
-        <Timestamp>132198735701346758</Timestamp>
-        <Description>Enables the debug mode. Only use if your testing mods/ looking for errors.</Description>
       </Package>
     </Packages>
   </Package>
