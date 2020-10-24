@@ -2432,11 +2432,10 @@
               <Dependency PackageName="Dependency_XVM_XC_hull" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_Speed" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1bn24lsrgvedmdxw" Name="Speed of current tank" Type="multi" Visible="True">
-            <Size>1783</Size>
-            <ZipFile>XVMConfigBuilder_BattleInterface_Speed_by_HAWG_2020-08-14.zip</ZipFile>
-            <CRC>b82b5598ae091af7d646e69ba18c3684</CRC>
-            <Timestamp>132419228705573921</Timestamp>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_Speed" Enabled="False" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="e0uhdlyrgr6vmo4w" Name="Speed of current tank" Type="multi" Visible="True">
+            <ZipFile>XVMConfigBuilder_BattleInterface_Speed_by_HAWG_2020-10-24.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132480263757796503</Timestamp>
             <DevURL>https://koreanrandom.com/forum/topic/47422-speedxc-tanks-top-speed/ \r\nhttps://discord.gg/grvGWMj</DevURL>
             <Author>HAWG</Author>
             <Description>This is Speed.xc the xc file will show your tanks top speed forward and reverse , above the damage panel.\r\n\r\nYou will always know what your tanks top speed  is .</Description>
@@ -2446,11 +2445,21 @@
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
             </Dependencies>
-          </Package>
-          <Package PackageName="Spacer_InfoAim" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="e0uhdlyrgr6vmo4w" Name="--AimInfo Labels--" Type="single1" Visible="True">
-            <CRC>f</CRC>
-            <Timestamp>132312511351952390</Timestamp>
-            <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
+            <Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_Speed_Default" Enabled="True" Tags="ConfigurationFileXC" InstallGroup="4" PatchGroup="4" UID="1bn24lsrgvedmdxw" Name="Default" Type="single_dropdown1" Visible="True">
+                <Size>1783</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_Speed_Default_by_HAWG_2020-10-24.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132480263998196591</Timestamp>
+                <Description>Default Setting for 24" - 30" Monitors</Description>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_Speed_32" Enabled="True" Tags="ConfigurationFileXC" InstallGroup="4" PatchGroup="4" UID="51u19ckxnfx78fa7" Name="32&quot;" Type="single_dropdown1" Visible="True">
+                <ZipFile>XVMConfigBuilder_BattleInterface_Speed_32_by_HAWG_2020-10-24.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132480264205603247</Timestamp>
+                <Description>modified Setting for 32" Monitors</Description>
+              </Package>
+            </Packages>
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qp0wlk4sfnycm0bv" Name="Piercing Chance (possible Penetration Indicator conflict!)" Type="multi" Visible="True">
             <Size>1769</Size>
