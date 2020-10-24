@@ -944,31 +944,31 @@
     <Timestamp>132414841963772355</Timestamp>
     <Maintainers>Willster419</Maintainers>
   </Dependency>
-  <Dependency PackageName="Dependency_MVI_disable_XVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="938oh9fsbznq6p4i">
+  <Dependency PackageName="Dependency_MVI_disable_XVM" Enabled="True" Tags="DependencyLink" InstallGroup="2" PatchGroup="2" UID="938oh9fsbznq6p4i">
     <Timestamp>131800987960603396</Timestamp>
     <Dependencies>
       <Dependency PackageName="LogicalDependency_MVI_BATTLE_disable_XVM" NotFlag="False" Logic="AND" />
     </Dependencies>
   </Dependency>
-  <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="mse3p9ltavf861bi">
+  <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" Enabled="True" Tags="DependencyLink" InstallGroup="2" PatchGroup="2" UID="mse3p9ltavf861bi">
     <Dependencies>
       <Dependency PackageName="LogicalDependency_MVI_BATTLE_remove_vehicelLevelIcon_XVM" NotFlag="False" Logic="AND" />
     </Dependencies>
   </Dependency>
-  <Dependency PackageName="Dependency_MVI_remove_all" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="zhlix8ru9s7p6cii">
+  <Dependency PackageName="Dependency_MVI_remove_all" Enabled="True" Tags="DependencyLink" InstallGroup="2" PatchGroup="2" UID="zhlix8ru9s7p6cii">
     <Dependencies>
       <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM" NotFlag="False" Logic="AND" />
       <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM" NotFlag="False" Logic="AND" />
       <Dependency PackageName="LogicalDependency_MVI_BATTLE_CLEAR_noXVM" NotFlag="False" Logic="AND" />
     </Dependencies>
   </Dependency>
-  <Dependency PackageName="Dependency_MVI_show_name" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="tw2ppchd4b9fh50v">
+  <Dependency PackageName="Dependency_MVI_show_name" Enabled="True" Tags="DependencyLink" InstallGroup="2" PatchGroup="2" UID="tw2ppchd4b9fh50v">
     <Dependencies>
       <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM" NotFlag="False" Logic="AND" />
       <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM" NotFlag="False" Logic="AND" />
     </Dependencies>
   </Dependency>
-  <Dependency PackageName="Dependency_MVI_show_tier_name" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="6l94xbne372xhh7v">
+  <Dependency PackageName="Dependency_MVI_show_tier_name" Enabled="True" Tags="DependencyLink" InstallGroup="2" PatchGroup="2" UID="6l94xbne372xhh7v">
     <Timestamp>131742588773209465</Timestamp>
     <Dependencies>
       <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_noXVM" NotFlag="False" Logic="AND" />
@@ -990,7 +990,7 @@
     <DevURL>https://github.com/AstaRom/wot_battleAtlas/releases</DevURL>
     <InternalNotes>we only care about the battleAtlas folder, because those are lossless. Other lossy ones, like in the "not_icons" folder, are from the atlatls itself, which we extract</InternalNotes>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_BATTLE_disable_XVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="qd455epzxjolsx47">
+  <Dependency PackageName="LogicalDependency_MVI_BATTLE_disable_XVM" Enabled="True" Tags="Patch,GuiFlash" InstallGroup="2" PatchGroup="2" UID="qd455epzxjolsx47">
     <Size>947</Size>
     <ZipFile>LogicalDependency_MVI_BATTLE_disable_XVM_patch_2020-04-08.zip</ZipFile>
     <CRC>999f161e07e9bb9b3c4e9c903124d390</CRC>
@@ -998,14 +998,14 @@
     <DevURL>https://koreanrandom.com/forum/topic/35159-/?tab=comments#comment-357523</DevURL>
     <InternalNotes>its a patch: nothing todo</InternalNotes>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_BATTLE_remove_vehicelLevelIcon_XVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="ksldwifir2qb4qlk">
+  <Dependency PackageName="LogicalDependency_MVI_BATTLE_remove_vehicelLevelIcon_XVM" Enabled="True" Tags="Patch,GuiFlash" InstallGroup="2" PatchGroup="2" UID="ksldwifir2qb4qlk">
     <Size>854</Size>
     <ZipFile>LogicalDependency_Contour_Icon_Mod_vehicelLevelIcon_remove_battle_XVM_patch_2019-02-19.zip</ZipFile>
     <CRC>a20240d3fdf0445ca4931d69afda6dde</CRC>
     <Timestamp>131950408011198343</Timestamp>
     <InternalNotes>its a patch: nothing to do</InternalNotes>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_BATTLE_noXVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="xhss5hljrzit42tk">
+  <Dependency PackageName="LogicalDependency_MVI_BATTLE_noXVM" Enabled="True" Tags="GuiFlash" InstallGroup="2" PatchGroup="2" UID="xhss5hljrzit42tk">
     <Size>2737431</Size>
     <ZipFile>LogicalDependency_MVI_BATTLE_noXVM_1.10.1.0_2020-10-23.zip</ZipFile>
     <CRC>f</CRC>
@@ -1013,7 +1013,7 @@
     <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
     <InternalNotes>download the old zip from our server and exchange the old  .wotmod file with the new one from [DevURL]:\r\n\r\nmvi_battle.zip -&gt; LogicalDependency_MVI_BATTLE_noXVM_[WOTVERSION]_[DATE].zip</InternalNotes>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_BATTLE_CLEAR_noXVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="a6y6dhrkqvba4d0k">
+  <Dependency PackageName="LogicalDependency_MVI_BATTLE_CLEAR_noXVM" Enabled="True" Tags="GuiFlash" InstallGroup="2" PatchGroup="2" UID="a6y6dhrkqvba4d0k">
     <Size>2737479</Size>
     <ZipFile>LogicalDependency_MVI_BATTLE_CLEAR_noXVM_1.10.1.0_2020-10-23.zip</ZipFile>
     <CRC>f</CRC>
@@ -1021,7 +1021,7 @@
     <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
     <InternalNotes>download the old zip from our server and exchange the old  .wotmod file with the new one from [DevURL]:\r\n\r\nmvi_battle_clear.zip -&gt; LogicalDependency_MVI_BATTLE_CLEAR_noXVM_[WOTVERSION]_[DATE].zip\r\n\r\nThere is now a .bat file to make these zips! https://drive.google.com/drive/folders/1HGm8CowfVc7VtDZeJLYgVpgZtxPzuah-</InternalNotes>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_noXVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="4kge4lh3led0f6ix">
+  <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_noXVM" Enabled="True" Tags="GuiFlash" InstallGroup="2" PatchGroup="2" UID="4kge4lh3led0f6ix">
     <Size>3395535</Size>
     <ZipFile>LogicalDependency_MVI_HANGAR_showAll_noXVM_1.10.1.0_2020-10-23.zip</ZipFile>
     <CRC>f</CRC>
@@ -1029,7 +1029,7 @@
     <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
     <InternalNotes>download the old zip from our server and exchange the old  .wotmod file with the new one from [DevURL]:\r\n\r\nmvi_hangar.zip -&gt; LogicalDependency_MVI_HANGAR_showAll_noXVM_[WOTVERSION]_[DATE].zip\r\n\r\nThere is now a .bat file to make these zips! https://drive.google.com/drive/folders/1HGm8CowfVc7VtDZeJLYgVpgZtxPzuah-</InternalNotes>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="h9mtckn4ka5ifipx">
+  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM" Enabled="True" Tags="GuiFlash" InstallGroup="2" PatchGroup="2" UID="h9mtckn4ka5ifipx">
     <Size>3395535</Size>
     <ZipFile>LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM_1.10.1.0_2020-10-23.zip</ZipFile>
     <CRC>f</CRC>
@@ -1037,7 +1037,7 @@
     <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
     <InternalNotes>download the old zip from our server and exchange the old  .wotmod file with the new one from [DevURL]:\r\n\r\nmvi_hangar_clear.zip -&gt;LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM_[WOTVERSION]_[DATE].zip\r\n\r\nThere is now a .bat file to make these zips! https://drive.google.com/drive/folders/1HGm8CowfVc7VtDZeJLYgVpgZtxPzuah-</InternalNotes>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="uyt8ljt5j7xzfuwx">
+  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM" Enabled="True" Tags="GuiFlash" InstallGroup="2" PatchGroup="2" UID="uyt8ljt5j7xzfuwx">
     <Size>3395552</Size>
     <ZipFile>LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM_1.10.1.0_2020-10-23.zip</ZipFile>
     <CRC>f</CRC>
@@ -1045,7 +1045,7 @@
     <DevURL>https://koreanrandom.com/forum/topic/35159-</DevURL>
     <InternalNotes>download the old zip from our server and exchange the old  .wotmod file with the new one from [DevURL]:\r\n\r\nmvi_hangar_clear-all.zip -&gt; LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM_[WOTVERSION]_[DATE].zip\r\n\r\nThere is now a .bat file to make these zips! https://drive.google.com/drive/folders/1HGm8CowfVc7VtDZeJLYgVpgZtxPzuah-</InternalNotes>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_XVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="odbfcnjoeqzpqnea">
+  <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_XVM" Enabled="True" Tags="GuiFlash" InstallGroup="2" PatchGroup="2" UID="odbfcnjoeqzpqnea">
     <Size>10809</Size>
     <ZipFile>LogicalDependency_MVI_HANGAR_showAll_XVM_1.10.0.4_2020-10-03.zip</ZipFile>
     <CRC>d749624a0275629c7f44348909f5ebc8</CRC>
@@ -1053,7 +1053,7 @@
     <DevURL>https://koreanrandom.com/forum/topic/35159-1101-отключение-зеркальности-иконок-без-xvm/?tab=comments#comment-357523</DevURL>
     <InternalNotes>UPDATING THIS MOD IS ONLY POSSIBLE WHEN THERE IS AN ACTUAL STABLE XVM\r\n\r\n1) download the old package from our server \r\n\r\n2) (if you dont have them anymore, re)download all non-xvm MVI_HANGAR mirror files\r\n\r\n2) download the “xvm-addons.zip” from [DevURL] and copy the file “lobby.swf”.\r\n\r\n3) Use the previously copied file to update the "lobby.swf" inside the “flash” directory of the LogicalDependency_MVI_HANGAR_showAll_XVM_[WOTVERSION]_[DATE].zip\r\n\r\n4) Extract the trainingRoom.swf from the .wotmod of the non-xvm-mirror-file (mvi_hangar.zip) and update the file from LogicalDependency_MVI_HANGAR_showAll_XVM_[WOTVERSION]_[DATE].zip\r\n\r\n(MVI_HANGAR_showAll_noXVM --&gt; MVI_HANGAR_showAll_XVM;\r\nMVI_HANGAR_CLEAR_tier_noXVM --&gt; MVI_HANGAR_CLEAR_tier_XVM;\r\nMVI_HANGAR_CLEAR_ALL_noXVM --&gt; MVI_HANGAR_CLEAR_ALL_XVM)\r\n\r\nSpecial Packages Document:\r\nhttps://docs.google.com/document/d/1DIYfQwfD46KWA3xLvqONjj_i54SlYy3F0YKZUc_U3JU/edit#\r\n\r\nWillster419 (1.10.0.1_2020-09-07)\r\nremoved lobby.swf (the one that would come from the addons zip), the trainingRoom ones seem to work fine)\r\n\r\nWillster419 (1.10.0.4_2020-10-03)\r\nremoved lobby.swf, was not ready, but trainingRoom was</InternalNotes>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="12huknppdms7qyla">
+  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM" Enabled="True" Tags="GuiFlash" InstallGroup="2" PatchGroup="2" UID="12huknppdms7qyla">
     <Size>10799</Size>
     <ZipFile>LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM_1.10.0.4_2020-10-03.zip</ZipFile>
     <CRC>d5b55d4459d26694d7ca901b3c6c5809</CRC>
@@ -1061,7 +1061,7 @@
     <DevURL>https://koreanrandom.com/forum/topic/35159-1101-отключение-зеркальности-иконок-без-xvm/?tab=comments#comment-357523</DevURL>
     <InternalNotes>UPDATING THIS MOD IS ONLY POSSIBLE WHEN THERE IS AN ACTUAL STABLE XVM\r\n\r\n1) download the old package from our server \r\n\r\n2) (if you dont have them anymore, re)download all non-xvm MVI_HANGAR mirror files\r\n\r\n2) download the “xvm-addons.zip” from [DevURL] and copy the file “lobby.swf”.\r\n\r\n3) Use the previously copied file to update the "lobby.swf" inside the “flash” directory of the LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM_[WOTVERSION]_[DATE].zip\r\n\r\n4) Extract the trainingRoom.swf from the .wotmod of the non-xvm-mirror-file (mvi_hangar_clear.zip) and update the file from LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM_[WOTVERSION]_[DATE].zip\r\n\r\n(MVI_HANGAR_showAll_noXVM --&gt; MVI_HANGAR_showAll_XVM;\r\nMVI_HANGAR_CLEAR_tier_noXVM --&gt; MVI_HANGAR_CLEAR_tier_XVM;\r\nMVI_HANGAR_CLEAR_ALL_noXVM --&gt; MVI_HANGAR_CLEAR_ALL_XVM)\r\n\r\nGauss (1.10.0.0_2020-08-05)\r\nedit: mvi_hangar.zip ==&gt; mvi_hangar_clear.zip\r\n\r\n\r\nSpecial Packages Document:\r\nhttps://docs.google.com/document/d/1DIYfQwfD46KWA3xLvqONjj_i54SlYy3F0YKZUc_U3JU/edit#\r\n\r\nWillster419 (1.10.0.1_2020-09-07)\r\nremoved lobby.swf (the one that would come from the addons zip), the trainingRoom ones seem to work fine)\r\n\r\nWillster419 (1.10.0.4_2020-10-03)\r\nremoved lobby.swf, was not ready, but trainingRoom was</InternalNotes>
   </Dependency>
-  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="vgz1cqf886tw1r3n">
+  <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM" Enabled="True" Tags="GuiFlash" InstallGroup="2" PatchGroup="2" UID="vgz1cqf886tw1r3n">
     <Size>10817</Size>
     <ZipFile>LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM_1.10.0.4_2020-10-03.zip</ZipFile>
     <CRC>cb63aba4fb33a96fd5056e5aff466392</CRC>
