@@ -531,19 +531,20 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="IngameInfo_Hitmarker" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="y7kl5b4iri4nxded" Name="Hitmarker [by {author}]" Type="multi" Visible="True">
+  <Package PackageName="IngameInfo_Hitmarker" Enabled="True" Tags="Patch,Script,ConfigurationFileXml,SoundBank" InstallGroup="4" PatchGroup="4" UID="y7kl5b4iri4nxded" Name="Hitmarker [by {author}]" Type="multi" Visible="True">
     <Size>4549</Size>
-    <ZipFile>Ingame_Misc_hitmarker_1.7.0.2_2020-01-08.zip</ZipFile>
-    <CRC>6efe260d7a32e022ce3e2494fc9c17c1</CRC>
-    <Timestamp>132229425441992938</Timestamp>
+    <ZipFile>Ingame_Misc_hitmarker_1.10.1.0_bootleg_2020-10-24.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132480695476170390</Timestamp>
     <DevURL>https://github.com/Aimdrol/MLG-Hitmarker\r\nhttp://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
+    <InternalNotes>The new bnk is from the RelhaxSoundMod repo</InternalNotes>
     <Author>Aimdrol</Author>
+    <Maintainers>Willster419</Maintainers>
     <Description>Shows a CoD style hitmarker whenever you penetrate ( ͡° ͜ʖ ͡°) an enemy tank.</Description>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc_hitmarker_by_aimdrol.jpg" MediaType="Picture" />
     </Medias>
     <Dependencies>
-      <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
@@ -1507,20 +1508,18 @@
   <Package PackageName="IngameInfo_RTAN" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tpmroyt2owbb1t4q" Name="RTAN - Real Time Achievements Notifications" Type="multi" Visible="True">
     <Timestamp>131569088015621441</Timestamp>
     <Packages>
-      <Package PackageName="IngameInfo_RTAN_Aimdrol" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0sbdo1pmib5jcxt3" Name="RTAN [by {author}]" Type="single_dropdown1" Visible="True">
+      <Package PackageName="IngameInfo_RTAN_Aimdrol" Enabled="True" Tags="Patch,Script,SoundBank,ConfigurationFileXml" InstallGroup="4" PatchGroup="4" UID="0sbdo1pmib5jcxt3" Name="RTAN [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>184343</Size>
-        <ZipFile>Ingame_Info_RTAN_Aimdrol_1.7.0.2_2020-01-08.zip</ZipFile>
-        <CRC>047c486dfcdbc30ed6c4f52b41c14adf</CRC>
-        <Timestamp>132229425369330638</Timestamp>
+        <ZipFile>Ingame_Info_RTAN_Aimdrol_1.10.1.0_bootleg_2020-10-24.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132480695072610388</Timestamp>
         <DevURL>https://github.com/Aimdrol/MLG-RTAN</DevURL>
+        <InternalNotes>the new bnk comes from the RelhaxSoundMod repo</InternalNotes>
         <Author>Aimdrol</Author>
-        <Description>INFO: Will change the 6th sense sound to version 1.</Description>
+        <Maintainers>Willster419</Maintainers>
         <Medias>
           <Media URL="http://i.imgur.com/LDKvk1n.png" MediaType="Picture" />
         </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
-        </Dependencies>
       </Package>
       <Package PackageName="IngameInfo_RTAN_Protanki" Enabled="True" Tags="ConfigurationFileJson,Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="chhsw0vni7x0c903" Name="RTAN [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>813141</Size>
