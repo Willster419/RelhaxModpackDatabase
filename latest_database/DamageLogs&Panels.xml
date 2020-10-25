@@ -6,11 +6,11 @@
       <Dependency PackageName="Dependency_XVM_damageLogDisable" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="DamageLogs_GambitER" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="49rw6qojor6hzrzx" Name="GambitER" Type="single1" Visible="True">
+      <Package PackageName="DamageLogs_GambitER" Enabled="True" Tags="ConfigurationFileJson,Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="49rw6qojor6hzrzx" Name="GambitER" Type="single1" Visible="True">
         <Size>179925</Size>
-        <ZipFile>DamageLogs_GambitER_1.10.0.0_2020-08-15.zip</ZipFile>
-        <CRC>f2b8b894308a98bba27452218321aa6b</CRC>
-        <Timestamp>132420193877312259</Timestamp>
+        <ZipFile>DamageLogs_GambitER_1.10.1.0_2020-10-24.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132480706819989735</Timestamp>
         <DevURL>http://wotsite.net/paneli-povrezhdenij/3109-</DevURL>
         <InternalNotes>only need the one from the "Толька лог урона" folder (translates to "damage log only")</InternalNotes>
         <UpdateComment>2020-08-26: No changes for 1.10.0.1, last was 1.10.0.0</UpdateComment>
@@ -93,7 +93,7 @@
         </Medias>
       </Package>
       <Package PackageName="DamagePanels_Bionick" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="t5htl5hctpxhj1vp" Name="Bionick" Type="single1" Visible="True">
-        <DevURL>http://wotsite.net/paneli-povrezhdenij/4281-novyj-mod-paneli-povrezhdenij-dlya-world-of-tanks.html</DevURL>
+        <DevURL>https://wotsite.net/paneli-povrezhdenij/10331-peredelannaya-panel-povrezhdenij-ot-bionick-dlya-world-of-tanks.html</DevURL>
         <Description>GambitER´s damage log should be installed for full functionality. \nIt also works without dmg log - only thing missing would be that the current received hit (red text) will not be shown inside the damage panel.</Description>
         <Packages>
           <Package PackageName="DamagePanels_Bionick_transparent" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6un8t4ndslqyjd2p" Name="Transparent" Type="single_dropdown1" Visible="True">
@@ -169,6 +169,9 @@
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_metall_0.jpg" MediaType="Picture" />
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_only_repair_rose_center.jpg" MediaType="Picture" />
         </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_Fonts_10_ZurichCond" NotFlag="False" Logic="OR" />
+        </Dependencies>
         <Packages>
           <Package PackageName="DamagePanels_Legacy_Metall" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1bvyhfpo31g9sug4" Name="Metall" Type="single_dropdown1" Visible="True">
             <Size>306374</Size>
@@ -200,24 +203,23 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_blue.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="DamagePanels_Legacy_centralRepair" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2s1r9nbrrzc5esnu" Name="Enable central repair rows" Type="multi" Visible="True">
+          <Package PackageName="DamagePanels_Legacy_centralRepair" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="2s1r9nbrrzc5esnu" Name="Enable central repair rows" Type="multi" Visible="False">
             <Size>141732</Size>
             <ZipFile>Damage_Panel_Legacy_central_repair_1.2.0.1_2018-12-12.zip</ZipFile>
             <CRC>dad285de74c018f0ba356893a5cd207d</CRC>
             <Timestamp>131891071498792206</Timestamp>
-            <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-panel-povrezhdenij-legacy-dlya-wot-0-9-20.html</DevURL>
           </Package>
         </Packages>
       </Package>
       <Package PackageName="DamagePanels_Zayaz" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6dquosfwenlj0ogk" Name="Zayaz" Type="single1" Visible="True">
-        <DevURL>https://wotsite.net/paneli-povrezhdenij/4523-novyj-boevoj-interfejs-dlya-world-of-tanks.html</DevURL>
+        <DevURL>https://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
         <InternalNotes>"Панель простая" -&gt; Simple panel\r\n"Панель простая + ремонт по центру" -&gt; Simple panel and center repair\r\n"Панель с УГН" -&gt; Panel with Angle Blocking Indicator\r\n"Панель с УГН + ремонт по центру" -&gt; Panel with Angle Blocking Indicator and center repair\r\n</InternalNotes>
         <Packages>
           <Package PackageName="DamagePanels_Zayaz_simple" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="j2x8wrmxdkd100nj" Name="Standard" Type="single_dropdown1" Visible="True">
             <Size>333266</Size>
-            <ZipFile>Damage_Panel_zayaz_simple_1.8.0.0_2020-08-15.zip</ZipFile>
-            <CRC>2c4178ecb11e3304a09eb15853262f39</CRC>
-            <Timestamp>132420214072189716</Timestamp>
+            <ZipFile>Damage_Panel_zayaz_simple_1.10.1.0_2020-10-24.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132480720651097635</Timestamp>
             <DevURL>http://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
             <UpdateComment>The panel is simple</UpdateComment>
             <Medias>
@@ -227,9 +229,9 @@
           </Package>
           <Package PackageName="DamagePanels_Zayaz_blockingAngleIndicator" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dhegovbg83frbt5w" Name="With blocking angle indicator" Type="single_dropdown1" Visible="True">
             <Size>348978</Size>
-            <ZipFile>Damage_Panel_zayaz_with_blocking_angle_indicator_1.8.0.0_2020-08-15.zip</ZipFile>
-            <CRC>109720272637161288894d4c233640c8</CRC>
-            <Timestamp>132420214128858520</Timestamp>
+            <ZipFile>Damage_Panel_zayaz_with_blocking_angle_indicator_1.10.1.0_2020-10-24.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132480720719845532</Timestamp>
             <DevURL>http://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
             <UpdateComment>Panel with UGN</UpdateComment>
             <Medias>
@@ -238,9 +240,9 @@
           </Package>
           <Package PackageName="DamagePanels_Zayaz_repairCenter" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="q6lvwuih7z78b5cw" Name="With repair center" Type="single_dropdown1" Visible="True">
             <Size>530579</Size>
-            <ZipFile>Damage_Panel_zayaz_with_repair_center_1.8.0.0_2020-08-15.zip</ZipFile>
-            <CRC>75761d635dad28671421f20cd1ccc4e8</CRC>
-            <Timestamp>132420214171017889</Timestamp>
+            <ZipFile>Damage_Panel_zayaz_with_repair_center_1.10.1.0_2020-10-24.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132480720754254994</Timestamp>
             <DevURL>http://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
             <UpdateComment>Panel simple + repair center</UpdateComment>
             <Medias>
@@ -251,9 +253,9 @@
           </Package>
           <Package PackageName="DamagePanels_Zayaz_repairCenterBlockingAngleIndicator" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="3vra4uoi7w0qbgkw" Name="With repair center and blocking angle indicator" Type="single_dropdown1" Visible="True">
             <Size>546785</Size>
-            <ZipFile>Damage_Panel_zayaz_with_repair_center_and_blocking_angle_indicator_1.8.0.0_2020-08-15.zip</ZipFile>
-            <CRC>5ebf197e03dd36ef0cff4e170f8b1c43</CRC>
-            <Timestamp>132420214207401698</Timestamp>
+            <ZipFile>Damage_Panel_zayaz_with_repair_center_and_blocking_angle_indicator_1.10.1.0_2020-10-24.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132480720796185144</Timestamp>
             <DevURL>http://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
             <UpdateComment>Panel with UGN + central repair</UpdateComment>
             <Medias>
