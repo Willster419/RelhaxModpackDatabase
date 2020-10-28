@@ -190,10 +190,10 @@
           </Package>
           <Package PackageName="Sounds_CrewVoices_German_WWIIHWA" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="h6hycnoxobhia0fz" Name="WWIIHWA [by {author}]" Type="single_dropdown1" Visible="True">
             <Size>6386489</Size>
-            <Version>2.15</Version>
-            <ZipFile>Sounds_Crew_Sounds_WWWIIHWA_by_Budyx69_(german)_2.15_1.1.0.0_2018-08-30.zip</ZipFile>
-            <CRC>70675629b537b4559828204c80cb7b61</CRC>
-            <Timestamp>131801005968484609</Timestamp>
+            <Version>2.16</Version>
+            <ZipFile>Sounds_Crew_Sounds_WWWIIHWA_by_Budyx69_(german)_2.16_1.10.1.1_2020-10-28.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132483737562270785</Timestamp>
             <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ingame+Voices&amp;order=name&amp;srt=yes\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
             <InternalNotes>Ask Filzi,Filzi, Doc73 and Budyx69 personal</InternalNotes>
             <Author>Filzi / Budyx69</Author>
@@ -696,14 +696,14 @@
           <Media URL="https://youtu.be/J3v3TZhLk4I" MediaType="Webpage" />
         </Medias>
       </Package>
-      <Package PackageName="Sounds_Guns_WWIIHWA" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qo57dmki0mhg9fjd" Name="WWIIHWA v{version} [by {author}]" Type="single1" Visible="True">
+      <Package PackageName="Sounds_Guns_WWIIHWA" Enabled="True" Tags="Patch,SoundBank" InstallGroup="4" PatchGroup="4" UID="qo57dmki0mhg9fjd" Name="WWIIHWA v{version} [by {author}]" Type="single1" Visible="True">
         <Size>15210784</Size>
-        <Version>4.09</Version>
-        <ZipFile>Sounds_WWIIHWA_Gunsounds_v4.09_1.7.1.0_2020-01-29.zip</ZipFile>
-        <CRC>f478eb4c26bb7bbfaa678102147d77fe</CRC>
-        <Timestamp>132248036037116996</Timestamp>
+        <Version>4.10</Version>
+        <ZipFile>Sounds_Guns_WWIIHWA_v4.10_1.10.1.1_2020-10-28.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132483722550936984</Timestamp>
         <DevURL>https://dieschwarzenschafe.com/download/index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+GunSounds&amp;order=name&amp;srt=yes\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
-        <InternalNotes>WG-Change scripts\item_defs\vehicles\common\gun_reload_effects.xml = Mod Broken\r\n(Single  xml file)</InternalNotes>
+        <InternalNotes>WG-Change: \r\nscripts\item_defs\vehicles\common\gun_reload_effects.xml\r\n = Mod Broken (Single  xml file)</InternalNotes>
         <Author>Budyx69 &amp; KT</Author>
         <Maintainers>Gauss</Maintainers>
         <UpdateComment>Update 4.07 [1.6.1.0]:  DualGunReload topic (maybe usefull for other gunssounds)\r\nscripts\item_defs\vehicles\common\gun_reload_effects.xml\dualgun_reload115_152\r\n\r\nUpdate 4.06 [1.1.0.0]: Soundbanks to Wwise 2017.2.5, Soundbanks (new):  4.06</UpdateComment>
@@ -840,20 +840,35 @@
     </Packages>
   </Package>
   <Package PackageName="Sounds_Music" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mx3pdbpwxz4nt8wg" Name="Music" Type="multi" Visible="True">
-    <InternalNotes>Maybe Trouble with Garage_Graphics_LoginBackground_Video: \r\n\taudioww\loginscreen.bnk</InternalNotes>
+    <InternalNotes>Maybe Trouble with Garage_Graphics_LoginBackground_Video: \r\n\taudioww\loginscreen.bnk\r\n\r\nNew WWISE version/liscence ===&gt; New Soundbanks</InternalNotes>
     <Description>Full music with orchestra, Big Bands, Rock Bands, Heavy Metall, PC Games music etc.</Description>
     <Dependencies>
       <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="Sounds_Music_EpicAnimeMusic" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jy8rp0q1b9eelcen" Name="Hiroyuki Sawano's Epic Anime Music" Type="single_dropdown1" Visible="True">
+      <Package PackageName="Sounds_Music_EpicIII" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="4rwipuyxneq0z2zx" Name="Epic Mega Music Collection [by {author}]" Type="single_dropdown1" Visible="True">
+        <Size>1273912566</Size>
+        <Version>1.10.0.1</Version>
+        <ZipFile>Sounds_Music_EpicIII_Jakis_Nick_Vrb6_1.10.1.1_2020-10-28.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132483682013030129</Timestamp>
+        <DevURL>https://mega.nz/file/PMxQgJob#6zmXrnAYC9gWPRVz31jZnR2x3KwwdZ9RUXhJc-wx_yQ\r\nhttp://forum.worldoftanks.eu/index.php?/topic/672517-\r\n</DevURL>
+        <InternalNotes>PATCH NEEDED: For res\audioww\Init.bnk \nNo Patches needed: music_interactive.pck &amp; loginscreen.bnk &amp; utility.bnk (original files as template\r\n\r\nremove GUI-folder, revents bugs with DependencyGlobal_RelHax_LoadingSplash\r\n\r\nNew WWISE version/liscence ===&gt; New Soundbanks</InternalNotes>
+        <Author>Andre_V / jakis_nick</Author>
+        <Description>EMMC:Epic Mega Music Collection by jakis_nick \n+ made with new project 1.2 from WG: There is a music on every map\n+ contains 559 (2019-12-10)  tracks of trailer music, such bands as:\n-Audiomachine, \n-Battle X Music, \n-Colossal Trailer Music, \n-Epic North, \n-Ninja Tracks.\n\nThe tracks were sorted so that they would not be repeated in different events.</Description>
+        <UpdateComment>Updated: _1.7.0.0_2019-12-10.\r\n + added one new album with 19 tracks:\r\n=&gt; loginscreen - 10 tracks\r\n=&gt; hangar - 9 tracks\r\n+ total tracks number (10.12.2019) is 559!   \r\n"Brand X Music - Deconstruct (2019)"\r\n\r\nUpdated: 2019-10-01 v1.6.0.8 \r\n+Changed playlist sorting \r\n\r\nUpdated: 2019-08-23 v1.6.0.2: \r\n+ added one new album with 12 tracks:\r\n=&gt; battle - 6 tracks\r\n=&gt; loginscreen - 2 tracks\r\n=&gt; hangar - 4 tracks\r\n+ total tracks number (23.08.2019) is 457!   \r\n"Ninja Tracks - Resist 2.5 (2019)"\r\n\n</UpdateComment>
+        <Medias>
+          <Media URL="https://i.imgur.com/CQ7N5z1.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="Sounds_Music_EpicAnimeMusic" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="jy8rp0q1b9eelcen" Name="Hiroyuki Sawano's Epic Anime Music" Type="single_dropdown1" Visible="True">
         <Size>328208245</Size>
         <Version>1.5.0.0</Version>
         <ZipFile>Sounds_music_Epic_Anime_Music_1.5.0.0_2019-05-04_G.zip</ZipFile>
         <CRC>e108eb7ab6be2ae0beedfb42de7bb863</CRC>
         <Timestamp>131931942291410023</Timestamp>
         <DevURL>https://wgmods.net/2474/details</DevURL>
-        <InternalNotes>res\audioww\music_interactive.bnk\nres\audioww\music_interactive.pck\n (original files by WG as template =&gt;No Patches needed)\n\n\n</InternalNotes>
+        <InternalNotes>res\audioww\music_interactive.bnk\nres\audioww\music_interactive.pck\n (original files by WG as template =&gt;No Patches needed)\n\r\nNew WWISE version/liscence ===&gt; New Soundbanks\n\n</InternalNotes>
         <Author>YoRHa_NO_9_Type_S</Author>
         <Description>Hiroyuki Sawano is a Japanese composer and musician best known for his work on many anime, TV series, and movies.\n\nIn this mod you will be able to enjoy his epic soundtracks while playing tanks !\nSoundtracks are chosen from famous animes such as Attack On Titan, Re:Creators, Mobile Suit Gundam Unicorn, Aldnoah.Zero, etc.\n\nMusic in following places will be replaced:\nHanger, Battle, Loading screen, Win/Lose/Draw screen\n\n============================================================\n\nSawano’s work has been made into wot mod since 2013 and I had a lot of good experiences while using it, but I’m so sad that the original mod maker is no longer active. So I decide to make this mod and bring those experiences back to players!\n\n============================================================</Description>
         <Medias>
@@ -863,28 +878,14 @@
           <Media URL="https://www.youtube.com/watch?v=BnaC0RgEPCw" MediaType="Webpage" />
         </Medias>
       </Package>
-      <Package PackageName="Sounds_Music_EpicIII" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="4rwipuyxneq0z2zx" Name="Epic Mega Music Collection [by {author}]" Type="single_dropdown1" Visible="True">
-        <Size>1273912566</Size>
-        <Version>1.10.0.1</Version>
-        <ZipFile>Sounds_Music_EpicIII_Jakis_Nick_Vrb6_1.10.0.1_2020-08-28B.zip</ZipFile>
-        <CRC>d5daf82fed13748064d7d0c3459e9a6f</CRC>
-        <Timestamp>132431128934377934</Timestamp>
-        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/672517-</DevURL>
-        <InternalNotes>PATCH NEEDED: For res\audioww\Init.bnk \nNo Patches needed: music_interactive.pck &amp; loginscreen.bnk &amp; utility.bnk (original files as template\r\n\r\nremove GUI-folder, revents bugs with DependencyGlobal_RelHax_LoadingSplash</InternalNotes>
-        <Author>Andre_V / jakis_nick</Author>
-        <Description>EMMC:Epic Mega Music Collection by jakis_nick \n+ made with new project 1.2 from WG: There is a music on every map\n+ contains 559 (2019-12-10)  tracks of trailer music, such bands as:\n-Audiomachine, \n-Battle X Music, \n-Colossal Trailer Music, \n-Epic North, \n-Ninja Tracks.\n\nThe tracks were sorted so that they would not be repeated in different events.</Description>
-        <UpdateComment>Updated: _1.7.0.0_2019-12-10.\r\n + added one new album with 19 tracks:\r\n=&gt; loginscreen - 10 tracks\r\n=&gt; hangar - 9 tracks\r\n+ total tracks number (10.12.2019) is 559!   \r\n"Brand X Music - Deconstruct (2019)"\r\n\r\nUpdated: 2019-10-01 v1.6.0.8 \r\n+Changed playlist sorting \r\n\r\nUpdated: 2019-08-23 v1.6.0.2: \r\n+ added one new album with 12 tracks:\r\n=&gt; battle - 6 tracks\r\n=&gt; loginscreen - 2 tracks\r\n=&gt; hangar - 4 tracks\r\n+ total tracks number (23.08.2019) is 457!   \r\n"Ninja Tracks - Resist 2.5 (2019)"\r\n\n</UpdateComment>
-        <Medias>
-          <Media URL="https://i.imgur.com/CQ7N5z1.png" MediaType="Picture" />
-        </Medias>
-      </Package>
       <Package PackageName="Sounds_Music_FastFurious" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="oh011por1uo4duz8" Name="Fast &amp; Furious [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>409957980</Size>
-        <Version>1.6.0.0</Version>
-        <ZipFile>Sounds_music_FastFurious_1.6.0.0_2019-08-08.zip</ZipFile>
-        <CRC>f1db697a72b3b2f2ba129f97e168db89</CRC>
-        <Timestamp>132097730745583278</Timestamp>
-        <DevURL>https://protanki.tv/mods/sound/muzyka-forsazh\r\nhttps://wotsite.net/ozvuchka-dlya-world-of-tanks/12454-</DevURL>
+        <Version>1.10.1.1</Version>
+        <ZipFile>Sounds_music_FastFurious_1.10.1.1_2020-10-28.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132483680914651967</Timestamp>
+        <DevURL>https://wotsite.net/ozvuchka-dlya-world-of-tanks/12454-\r\nhttps://protanki.tv/mods/sound/muzyka-forsazh\r\nhttps://wotsite.net/ozvuchka-dlya-world-of-tanks/12454-</DevURL>
+        <InternalNotes>New WWISE version/liscence ===&gt; New Soundbanks</InternalNotes>
         <Author>Andre_V</Author>
         <Description>music from the Fast &amp; Furious movies</Description>
         <Medias>
@@ -895,23 +896,23 @@
       </Package>
       <Package PackageName="Sounds_Music_GuP" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="okqjxw0igqcpajw9" Name="Girls und Panzer [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>214434463</Size>
-        <Version>1.4.6</Version>
-        <ZipFile>Sounds_music_GuP_ZTZ99_Zack_146_1.10.0.1_2020-08-28.zip</ZipFile>
-        <CRC>2a2dc7ae6bde3264895c59dc3b7850a0</CRC>
-        <Timestamp>132431091707293024</Timestamp>
+        <Version>1.4.9</Version>
+        <ZipFile>Sounds_music_GuP_ZTZ99_Zack_149_1.10.0.1_2020-08-28.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132483682965331986</Timestamp>
         <DevURL>https://wgmods.net/2478/details</DevURL>
-        <InternalNotes>res\audioww\music_interactive.bnk\nres\audioww\loginscreen.bnk\nres\audioww\utility.bnk\n (original files by WG as template =&gt;No Patches needed)</InternalNotes>
+        <InternalNotes>res\audioww\music_interactive.bnk\nres\audioww\loginscreen.bnk\nres\audioww\utility.bnk\n (original files by WG as template =&gt;No Patches needed)\r\n\r\n\r\nNew WWISE version/liscence ===&gt; New Soundbanks</InternalNotes>
         <Author>ZTZ99_Zack</Author>
         <Description>This MOD is released by Socialist music promotion committee\n\nThis mod includes\n- Login screen music\n- Battle music\n- Battle result music\nIncludes music from Girls und panzer der film too.\n\n-No Hangar music. Because of the technical shortage of technicians.\n-No demo, because I can’t record video.</Description>
       </Package>
       <Package PackageName="Sounds_Music_NewRock" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="nzu79i2ocvs7qxsh" Name="New Rock [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>492312219</Size>
-        <Version>1.6.0.0</Version>
-        <ZipFile>Sounds_Music_New_Rock_1.6.0.0_2019-08-08.zip</ZipFile>
-        <CRC>87facad5f94c470963f8cf7e5aa8f928</CRC>
-        <Timestamp>132097722683605357</Timestamp>
-        <DevURL>http://wotsite.net/ozvuchka-dlya-world-of-tanks/11394-</DevURL>
-        <InternalNotes>res\audioww\music_interactive.bnk\nres\audioww\music_interactive.pck\nres\audioww\utility.bnk\n (original files by WG as template =&gt;No Patches needed)\n\nres\scripts\client\gui\mods\mod_ext_menu_volume.pyc\n (no original files by WG as template)</InternalNotes>
+        <Version>1.10.1.1</Version>
+        <ZipFile>Sounds_Music_New_Rock_1.10.1.1_2020-10-28.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132483687022754372</Timestamp>
+        <DevURL>https://drive.google.com/open?id=1pndovXg70rlsf6FMbg9HNUCcQctt1fXk\r\nhttp://wotsite.net/ozvuchka-dlya-world-of-tanks/11394-</DevURL>
+        <InternalNotes>res\audioww\music_interactive.bnk\nres\audioww\music_interactive.pck\nres\audioww\utility.bnk\n (original files by WG as template =&gt;No Patches needed)\n\nres\scripts\client\gui\mods\mod_ext_menu_volume.pyc\n (no original files by WG as template)\r\n\r\nNew WWISE version/liscence ===&gt; New Soundbanks</InternalNotes>
         <Author>Andre_V</Author>
         <Description>Almost 120 rock tracks that will replace your standard music in the game. \nNow, during each fight, you will listen to your favorite songs that inspire you to win!\n\nplaylist: ca. 120 songs  check dev URL (english): http://wotsite.net/ozvuchka-dlya-world-of-tanks/11394-</Description>
         <Medias>
@@ -920,12 +921,12 @@
       </Package>
       <Package PackageName="Sounds_Music_StarWars" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="z6dphyogixrpavha" Name="Star Wars [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>317091243</Size>
-        <Version>1.6.0.0</Version>
-        <ZipFile>Sounds_music_StarWars_1.6.0.0_2019-08-08.zip</ZipFile>
-        <CRC>18b6edf950b0a3f004a6de48a06a403c</CRC>
-        <Timestamp>132097768036693701</Timestamp>
-        <DevURL>http://wotsite.net/ozvuchka-dlya-world-of-tanks/12402-</DevURL>
-        <InternalNotes>res\audioww\music_interactive.bnk\nres\audioww\music_interactive.pck\nres\audioww\utility.bnk\n (original files by WG as template =&gt;No Patches needed)\n\nres\scripts\client\gui\mods\mod_ext_menu_volume.pyc\n (no original files by WG as template)</InternalNotes>
+        <Version>1.10.1.1</Version>
+        <ZipFile>Sounds_music_StarWars_1.10.1.1_2020-10-28.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132483688008537228</Timestamp>
+        <DevURL>https://drive.google.com/open?id=1gx49byRxHQxohZP6KRYUlU5ic2ycJTST\r\nhttp://wotsite.net/ozvuchka-dlya-world-of-tanks/12402-</DevURL>
+        <InternalNotes>res\audioww\music_interactive.bnk\nres\audioww\music_interactive.pck\nres\audioww\utility.bnk\n (original files by WG as template =&gt;No Patches needed)\n\nres\scripts\client\gui\mods\mod_ext_menu_volume.pyc\n (no original files by WG as template)\r\n\r\nNew WWISE version/liscence ===&gt; New Soundbanks</InternalNotes>
         <Author>Andre_V</Author>
         <Description>Soundtrack from Star Wars \nComposed by John Williams</Description>
         <Medias>
@@ -948,12 +949,12 @@
       </Package>
       <Package PackageName="Sounds_Music_TSFH" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8au29sqcv6btoawk" Name="Two Steps From Hell (TSFH) [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>601371038</Size>
-        <Version>1.6.0.0</Version>
-        <ZipFile>Sounds_music_TSFH_1.6.0.0_2019-08-08.zip</ZipFile>
-        <CRC>e6869918b7bfea187e2c739a2a6d78ab</CRC>
-        <Timestamp>132097743684277361</Timestamp>
-        <DevURL>http://wotsite.net/ozvuchka-dlya-world-of-tanks/12411-</DevURL>
-        <InternalNotes>res\audioww\music_interactive.bnk\nres\audioww\music_interactive.pck\nres\audioww\utility.bnk\n (original files by WG as template =&gt;No Patches needed)\n\nres\scripts\client\gui\mods\mod_ext_menu_volume.pyc\n (no original files by WG as template)</InternalNotes>
+        <Version>1.10.1.1</Version>
+        <ZipFile>Sounds_music_TSFH_1.10.1.1_2020-10-28.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132483697098460852</Timestamp>
+        <DevURL>https://drive.google.com/file/d/1z_LtfNdA5ygDjz6kq9eXstE5hCGK86Wz/view\r\nhttp://wotsite.net/ozvuchka-dlya-world-of-tanks/12411-</DevURL>
+        <InternalNotes>res\audioww\music_interactive.bnk\nres\audioww\music_interactive.pck\nres\audioww\utility.bnk\n (original files by WG as template =&gt;No Patches needed)\n\nres\scripts\client\gui\mods\mod_ext_menu_volume.pyc\n (no original files by WG as template)\r\n\r\nNew WWISE version/liscence ===&gt; New Soundbanks</InternalNotes>
         <Author>Andre_V</Author>
         <Description>TSFH is a impressive band of classical, ethnic and rock musicians and singers, has written music for movies.</Description>
         <Medias>
@@ -993,7 +994,7 @@
         <CRC>f</CRC>
         <Timestamp>132483639565182057</Timestamp>
         <DevURL>https://dieschwarzenschafe.com/download/index.php?action=list&amp;dir=WWIIHWA&amp;order=name&amp;srt=yes</DevURL>
-        <InternalNotes>Sounds_WWIIHWA_AmbienteAndGUI_AudioBase_for_Full+Light_6.22_1.10.1.1_2020-10-28.zip\r\n\r\npatch:\r\n_patch\Sounds_WWIIHWA_AmbienteAndGUI_AudioBase_for_Full+Light_add_Soundbanks_patch.xml\r\n\r\nres_mods\versiondir\audioww:\r\n\twwiihwa_ambient.bnk, wwiihwa_ambient.pck, wwiihwa_gui.bnk\r\n\r\n</InternalNotes>
+        <InternalNotes>New WWISE version/liscence ===&gt; New Soundbanks\r\nOnly Soundbanks, BIG files, seldom changes\r\nSounds_WWIIHWA_AmbienteAndGUI_AudioBase_for_Full+Light_6.22_1.10.1.1_2020-10-28.zip\r\n\r\npatch:\r\n_patch\Sounds_WWIIHWA_AmbienteAndGUI_AudioBase_for_Full+Light_add_Soundbanks_patch.xml\r\n\r\nres_mods\versiondir\audioww:\r\n\twwiihwa_ambient.bnk, wwiihwa_ambient.pck, wwiihwa_gui.bnk\r\n\r\n</InternalNotes>
         <Author>Budyx69</Author>
         <Maintainers>Gauss</Maintainers>
         <Description>WWIIHWA Ambiente by Budyx69\nUse WWIIHWA-Configuration.exe for settings, located in your WOT directory\r\n\r\nHangar Sounds: Hangar Ambiente between Standard and Premium, \nBattle Ambiente: Sounds in Battleground, \nDifferent Sounds and Crew Voices for: \r\nGun reloaded, enemy sighted, 6. Sense, Battletimer Countdown in minutes, Cap Sirens (Own capping/ enemy capping) etc.</Description>
