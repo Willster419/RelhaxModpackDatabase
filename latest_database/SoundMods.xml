@@ -962,20 +962,22 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Sounds_WWIIHWA_Ambiente" Enabled="True" Tags="Patch,DependencyLink,OtherFiles" InstallGroup="4" PatchGroup="4" UID="2r2sw3sm5l13wsaz" Name="WWIIHWA Ambiente v{version} by Budyx69" Type="multi" Visible="True">
+  <Package PackageName="Sounds_WWIIHWA_Ambiente" Enabled="True" Tags="Patch,DependencyLink,OtherFiles,SoundBank" InstallGroup="4" PatchGroup="4" UID="2r2sw3sm5l13wsaz" Name="WWIIHWA Ambiente v{version} by Budyx69" Type="multi" Visible="True">
     <Size>2610</Size>
-    <Version>6.21.1</Version>
-    <ZipFile>WWIIHWA_Ambiente_6.Sinn_XVM-Out_Patch_2020-03-17.zip</ZipFile>
-    <CRC>d57d9d74718dff564e8bb40e74f729fe</CRC>
-    <Timestamp>132289060780381841</Timestamp>
+    <Version>6.22</Version>
+    <ZipFile>Sounds_WWIIHWA_Ambiente_Base_No_Soundbanks_w_XVMOut_Patch_6.22_1.10.1.1_2020-10-28.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132483638283998225</Timestamp>
     <DevURL>http://wwiihwa.blogspot.de/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
-    <InternalNotes>https://dieschwarzenschafe.com/download/index.php?action=list&amp;dir=WWIIHWA&amp;order=name&amp;srt=yes\r\n\r\ninstalled from relhax text file is used for the mod so our patched sound settings are not over-ridden on game startup</InternalNotes>
+    <InternalNotes>https://dieschwarzenschafe.com/download/index.php?action=list&amp;dir=WWIIHWA&amp;order=name&amp;srt=yes\r\ninstalled from relhax text file is used for the mod so our patched sound settings are not over-ridden on game startup\r\n\r\npatch: \r\n_patch\WWIIHWA_Ambiente_6.Sinn_XVM-Out_Patch.xml\r\n\r\nres_mods\versiondir\scripts\client\gui\mods:\r\n\t__init__.pyc, mod_WWIIHWA.pyc\r\n\r\nres_mods\versiondir\scripts\client\gui\mods\WWIIHWA: \r\ninstalled_from_relhax.txt, sixthsense.png, WWIIHWA.xml, WWIIHWA CustomMusic.xml\r\n\r\ndont remove: \r\nres_mods\versiondir\scripts\client\gui\mods\WWIIHWA\installed_from_relhax.txt\r\nbackup: \r\n_readme\installed_from_relhax.txt\r\n_readme\WWIIHWA_Ambiente_Base_(historical_music_ambient_gui)_addALL_patch.xml\r\n\r\n</InternalNotes>
     <Author>Budyx69</Author>
     <Maintainers>Gauss</Maintainers>
     <Description>WWIIHWA Ambiente by Budyx69 previous by Kriegstreiber\n\nUse WWIIHWA-Configuration.exe for settings, located in your WOT directory,</Description>
     <UpdateComment>1.1.0.0.1: New: Options for the new In battle communication 2.0</UpdateComment>
     <Medias>
       <Media URL="http://4.bp.blogspot.com/-oHguW5zMZbA/VHOCTNRTs3I/AAAAAAAABaM/v70vL_evqd8/s1600/WWIIHWA_Signature.png" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/WWIIHWA-Configuration.exe_FULL.jpg" MediaType="Picture" />
+      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/WWIIHWA-Configuration.exe_Light.jpg" MediaType="Picture" />
     </Medias>
     <UserFiles>
       <UserFile Pattern="\res_mods\versiondir\scripts\client\gui\mods\wwiihwa\WWIIHWA.xml" />
@@ -984,40 +986,25 @@
       <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="Sounds_WWIIHWA_Ambiente_Base" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fg9742yn4htlw4hz" Name="WWIIHWA Ambiente Light" Type="multi" Visible="True">
+      <Package PackageName="Sounds_WWIIHWA_Ambiente_Base" Enabled="True" Tags="Patch,SoundBank" InstallGroup="4" PatchGroup="4" UID="fg9742yn4htlw4hz" Name="WWIIHWA Ambiente Light" Type="multi" Visible="True">
         <Size>2027448</Size>
-        <Version>6.21.1</Version>
-        <ZipFile>WWIIHWA_Ambiente_Base_No_Soundbanks_w_Patch_6.21.1_NewCFG_1.10.0.1_2020-08-30.zip</ZipFile>
-        <CRC>bdb3e8b13003058c05d8196888ae1564</CRC>
-        <Timestamp>132432970580320849</Timestamp>
+        <Version>6.22_Sounds_WWise2019.2.3</Version>
+        <ZipFile>Sounds_WWIIHWA_AmbienteAndGUI_AudioBase_for_Full+Light_6.22_1.10.1.1_2020-10-28.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132483639565182057</Timestamp>
         <DevURL>https://dieschwarzenschafe.com/download/index.php?action=list&amp;dir=WWIIHWA&amp;order=name&amp;srt=yes</DevURL>
-        <InternalNotes>dont remove: \r\nres_mods\versiondir\scripts\client\gui\mods\WWIIHWA\installed_from_relhax.txt\r\nbackup: \r\n_readme\installed_from_relhax.txt</InternalNotes>
+        <InternalNotes>Sounds_WWIIHWA_AmbienteAndGUI_AudioBase_for_Full+Light_6.22_1.10.1.1_2020-10-28.zip\r\n\r\npatch:\r\n_patch\Sounds_WWIIHWA_AmbienteAndGUI_AudioBase_for_Full+Light_add_Soundbanks_patch.xml\r\n\r\nres_mods\versiondir\audioww:\r\n\twwiihwa_ambient.bnk, wwiihwa_ambient.pck, wwiihwa_gui.bnk\r\n\r\n</InternalNotes>
         <Author>Budyx69</Author>
         <Maintainers>Gauss</Maintainers>
-        <Description>Hangar Sounds: Hangar Ambiente between Standard and Premium, \nBattle Ambiente: Sounds in Battleground, \nDifferent Sounds and Crew Voices for: Gun reloaded, enemy sighted, 6. Sense, Battletimer Countdown in minutes, Cap Sirens (Own capping/ enemy capping) etc.</Description>
+        <Description>WWIIHWA Ambiente by Budyx69\nUse WWIIHWA-Configuration.exe for settings, located in your WOT directory\r\n\r\nHangar Sounds: Hangar Ambiente between Standard and Premium, \nBattle Ambiente: Sounds in Battleground, \nDifferent Sounds and Crew Voices for: \r\nGun reloaded, enemy sighted, 6. Sense, Battletimer Countdown in minutes, Cap Sirens (Own capping/ enemy capping) etc.</Description>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/WWIIHWA-Configuration.exe_Light.jpg" MediaType="Picture" />
         </Medias>
-        <Packages>
-          <Package PackageName="Sounds_WWIIHWA_Ambiente_ConfigurationEXE" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="auqew6o6z0vb8wzc" Name="WWIIHWA Configuration Program" Type="multi" Visible="True">
-            <Size>68181874</Size>
-            <Version>6.18.1</Version>
-            <ZipFile>WWIIHWA_Ambiente+GUI_Base_for_Full+Light_audioww_folder_6.21.1_1.10.0.1_2020-08-27.zip</ZipFile>
-            <CRC>29b0d2a928d43b6930a7f72cbea8387f</CRC>
-            <Timestamp>132430331951281175</Timestamp>
-            <Author>Budyx69</Author>
-            <Maintainers>Gauss</Maintainers>
-            <Description>WWIIHWA Ambiente by Budyx69\n\nUse WWIIHWA-Configuration.exe for settings, located in your WOT directory</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/WWIIHWA-Configuration.exe_Light.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/WWIIHWA-Configuration.exe_FULL.jpg" MediaType="Picture" />
-            </Medias>
-          </Package>
-        </Packages>
       </Package>
-      <Package PackageName="Sounds_WWIIHWA_MusicAndHistorical" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mjxt46u7yxns886c" Name="WWIIHWA Music and Historical  by Budyx69" Type="multi" Visible="True">
-        <Version>6.10</Version>
+      <Package PackageName="Sounds_WWIIHWA_MusicAndHistorical" Enabled="True" Tags="SoundBank,Patch" InstallGroup="4" PatchGroup="4" UID="mjxt46u7yxns886c" Name="WWIIHWA Music and Historical by Budyx69" Type="multi" Visible="True">
+        <Version>6.22_Sounds_WWise2019.2.3</Version>
         <DevURL>https://dieschwarzenschafe.com/download/index.php?action=list&amp;dir=WWIIHWA&amp;order=name&amp;srt=yes</DevURL>
+        <InternalNotes>New WWISE version/liscence ===&gt; New Soundbanks\r\nOnly Soundbanks, BIG files, seldom changes\r\n\r\nSounds_WWIIHWA_MusicAndHistorical_Historical_6.22_1.10.1.1_2020-10-28.zip\r\n\r\npatch:\r\n_patch\Sounds_WWIIHWA_MusicAndHistorical_Historical_add_SoundBank_patch.xml\r\n\r\nres_mods\versiondir\audioww: \r\n\twwiihwa_historical.bnk, wwiihwa_historical.pck\r\n\r\n\r\nSounds_WWIIHWA_MusicAndHistorical_Music_6.22_1.10.1.1_2020-10-28.zip\r\npatch: \r\npatch\Sounds_WWIIHWA_MusicAndHistorical_Music_add_SoundBank_patch.xml\r\n\r\nres_mods\versiondir\audioww: \r\n\twwiihwa_music.bnk, wwiihwa_music.pck\r\n\r\n\r\n</InternalNotes>
         <Author>Budyx69</Author>
         <Maintainers>Gauss</Maintainers>
         <Description>Play Music in Hangar, at battleloading, in Battle and at Battle result</Description>
@@ -1025,12 +1012,13 @@
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/WWIIHWA-Configuration.exe_FULL.jpg" MediaType="Picture" />
         </Medias>
         <Packages>
-          <Package PackageName="Sounds_WWIIHWA_MusicAndHistorical_Historical" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="z848c508xtfa8kdc" Name="Historical" Type="multi" Visible="True">
+          <Package PackageName="Sounds_WWIIHWA_MusicAndHistorical_Historical" Enabled="True" Tags="SoundBank,Patch" InstallGroup="4" PatchGroup="4" UID="z848c508xtfa8kdc" Name="Historical" Type="multi" Visible="True">
             <Size>498899531</Size>
-            <Version>6.10</Version>
-            <ZipFile>WWIIHWA_Ambiente_historical_6.8_1.1.0.0_2018-08-31.zip</ZipFile>
-            <CRC>d0746d4837561d359c94b0861ddd0ef0</CRC>
-            <Timestamp>131801811757136617</Timestamp>
+            <Version>6.22_Sounds_WWise2019.2.3</Version>
+            <ZipFile>Sounds_WWIIHWA_MusicAndHistorical_Historical_6.22_1.10.1.1_2020-10-28.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132483625363192204</Timestamp>
+            <InternalNotes>Sounds_WWIIHWA_MusicAndHistorical_Historical_6.22_1.10.1.1_2020-10-28.zip\r\n\r\npatch:\r\n_patch\Sounds_WWIIHWA_MusicAndHistorical_Historical_add_SoundBank_patch.xml\r\n\r\nres_mods\versiondir\audioww: \r\n\twwiihwa_historical.bnk, wwiihwa_historical.pck\r\n</InternalNotes>
             <Author>Budyx69</Author>
             <Maintainers>Gauss</Maintainers>
             <Description>WWIIHWA Historical music and speeches</Description>
@@ -1038,12 +1026,13 @@
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/WWIIHWA-Configuration.exe_FULL.jpg" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="Sounds_WWIIHWA_MusicAndHistorical_Music" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tnlf49qrsch0jdvp" Name="Ambiente Music" Type="multi" Visible="True">
+          <Package PackageName="Sounds_WWIIHWA_MusicAndHistorical_Music" Enabled="True" Tags="SoundBank,Patch" InstallGroup="4" PatchGroup="4" UID="tnlf49qrsch0jdvp" Name="Ambiente Music" Type="multi" Visible="True">
             <Size>876736335</Size>
-            <Version>6.10</Version>
-            <ZipFile>WWIIHWA_Ambiente_music_6.8_1.1.0.0_2018-08-31.zip</ZipFile>
-            <CRC>3802b908499ea1d13a9c2b4e6e23288f</CRC>
-            <Timestamp>131801812060220853</Timestamp>
+            <Version>6.22_Sounds_WWise2019.2.3</Version>
+            <ZipFile>Sounds_WWIIHWA_MusicAndHistorical_Music_6.22_1.10.1.1_2020-10-28.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132483627003396813</Timestamp>
+            <InternalNotes>Sounds_WWIIHWA_MusicAndHistorical_Music_6.22_1.10.1.1_2020-10-28.zip\r\npatch: \r\npatch\Sounds_WWIIHWA_MusicAndHistorical_Music_add_SoundBank_patch.xml\r\n\r\nres_mods\versiondir\audioww: \r\n\twwiihwa_music.bnk, wwiihwa_music.pck\r\n\r\n\r\n</InternalNotes>
             <Author>Budyx69</Author>
             <Maintainers>Gauss</Maintainers>
             <Medias>
