@@ -390,25 +390,27 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="Sounds_Engines" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="j1ezivwfk4sogzg5" Name="Engines" Type="multi" Visible="True">
+  <Package PackageName="Sounds_Engines" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="j1ezivwfk4sogzg5" Name="Engines" Type="multi" Visible="True">
     <Dependencies>
       <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="Sounds_Engines_AGQJ" Enabled="False" Tags="" InstallGroup="4" PatchGroup="2" UID="5dmxfmdt2b0lnhm2" Name="Ed76na v{version} WORK in Progress" Type="single1" Visible="True">
+      <Package PackageName="Sounds_Engines_Ed76na" Enabled="True" Tags="" InstallGroup="4" PatchGroup="2" UID="5dmxfmdt2b0lnhm2" Name="Ed76na (RU) &amp; SicFunzler (EU)" Type="single1" Visible="True">
         <Size>83686458</Size>
-        <Version>WWise2019.2.3</Version>
+        <Version>2020-10-23_WWise2019.2.3</Version>
+        <ZipFile>Sounds_Engines_Ed76na_SoundBankBase_1.10.1.1_2020-11-03.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132485376748354630</Timestamp>
-        <InternalNotes>NewName: Sounds_Engines_AGQJ_Base_SicFunzler\r\nSounds_Engines_AGQJ_Base_SicFunzler = Soundbanks by  SicFunzler\r\nVersions: V234 = V252\r\n\r\nmaybe confict with WWIIHWA</InternalNotes>
+        <Timestamp>132488622120068210</Timestamp>
+        <DevURL>https://mega.nz/file/bVpwlADC#U5fFIW8J4qAKgc_1v6ztwpXuComyHGw1jH8ohu1ZFoQ\r\nhttps://wgmods.net/533/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/432265-\r\n</DevURL>
+        <InternalNotes>Too Update: Use SicFunzler_Engines.wotmod \r\nCheck CRCs from *.bnk NOT *.wotmod (CRC failed with wotmod)\r\n\r\nGO_engines.wotmod OR SicFunzler_Engines.wotmod OR DzD_Engines.wotmod\r\nunzip XYZ.wotmod IF vehicles_GO.bnk (audioww\vehicles_GO.bnk) is inside\r\nCRC: 9f6d759a05e4487daf576796a47a680b\r\n = CRCValue vehicles_GO.bnk Ed76na (Post: #9560) &amp; Polyacov_Yury (PY) googleDrive/Yandex Files\r\naudioww\vehicles_GO.bnk\r\nCRC: 9f6d759a05e4487daf576796a47a680b\r\n\r\nNote: res_mods\audioww\*.bnk is working with Configs in mods\configs\r\n</InternalNotes>
         <Author>Ed76na (retired Apa6ecka) &amp; SicFunzler</Author>
         <Maintainers>Gauss</Maintainers>
-        <Description>maybe confict with WWIIHWA</Description>
+        <Description>Authors: Ed76na (RU) [with retired Apa6ecka] &amp; SicFunzler  (EU)  [since 2020]</Description>
         <Dependencies>
           <Dependency PackageName="Dependency_Sounds_Bank_Engine_Ed76na_SicFunzler" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Sounds_Engines_Ed76na+Apa6ecka" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="3u80qyy0dgfdrfci" Name="[by {author}]" Type="single1" Visible="True">
+          <Package PackageName="Sounds_Engines_Ed76na+Apa6ecka" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="3u80qyy0dgfdrfci" Name="[by {author}] &amp; Apa6ecka (retired)" Type="single_dropdown1" Visible="True">
             <Size>21662279</Size>
             <Version>1.10.1.1</Version>
             <ZipFile>Sounds_Engines_Ed76na_Ed76na_SCRIPTS_1.10.1.1_2020-10-29.zip</ZipFile>
@@ -416,7 +418,7 @@
             <Timestamp>132485389088328271</Timestamp>
             <DevURL>https://drive.google.com/drive/folders/1LNNJk0ZdVBMVjFHogH5OSIx3sJF_vjGk\r\nhttp://forum.worldoftanks.ru/index.php?/topic/842096-\r\nhttps://yadi.sk/d/Ioxb9Ypj3Mjzsc\r\nhttp://forum.worldoftanks.ru/index.php?/topic/842096-09200-%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BC%D0%BE%D0%B4-%D0%B3%D1%80%D0%BE%D0%BC%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BE%D1%80%D1%83%D0%B4%D0%B8%D1%8F-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F-301/page__st__7300__pid__47869382#entry47869382</DevURL>
             <InternalNotes> (no original files by WG as template)\r\n\r\nhttps://drive.google.com/file/d/1YTsaXDeI1Q-nj-ddDXI5r6JRt3WaHyhj/view?usp=sharing\r\ned76na (Post: #9560) (2020-10-23)\r\nGood afternoon, banks repackaged will they work or not???.\r\nhttps://drive.google.com/file/d/1YTsaXDeI1Q-nj-ddDXI5r6JRt3WaHyhj/view?usp=sharing\r\n\r\nmegarebus (Post: #9561)  (2020-10-23)\r\nThanks for the update. all sounds work\r\n</InternalNotes>
-            <Author>Ed76na &amp; Apa6ecka (retired)</Author>
+            <Author>Ed76na</Author>
             <Description>With Sound Event Injector; \n- great tool for modding sounds \n- no patches for the Events are needed \n\nNo PYmods_BanksLoader - only Patches to engine_config.xml\n\nUsable with WWIIHWA (no Bankloader - Patches used)\n- Sound Event Injector is compatible with WWIIHWA</Description>
             <UpdateComment>1.2.0 = 1.1.0; 1.1.0.0: Soundbanks to Wwise 2017.2.5, new Soundbanks</UpdateComment>
             <Medias>
@@ -427,15 +429,16 @@
               <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="Sounds_Engines_AGQJ_SicFunzler" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dgv6azmyfnuersyj" Name="[by {author}]" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Sounds_Engines_Ed76na_SicFunzler" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dgv6azmyfnuersyj" Name="[by {author}] v{version}" Type="single_dropdown1" Visible="True">
             <Size>8270</Size>
-            <Version>340</Version>
-            <ZipFile>Sounds_Engines_Ed76na_SicFunzler_SCRIPTS_v340_1.10.1.1_2020-10-29.zip</ZipFile>
+            <Version>400</Version>
+            <ZipFile>Sounds_Engines_Ed76na_SicFunzler_SCRIPTS_v400_1.10.1.1_2020-11-03.zip</ZipFile>
             <CRC>f</CRC>
-            <Timestamp>132485367349419171</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/432265-</DevURL>
-            <InternalNotes>&lt;!-- \r\nSounds_Engines_Vehicles_GObnk_SicFunzler_(AGQJ_&amp;_Ed76na+Apa6ecka) \r\nwith wwise 2019.2.3_2020-10-10 SicFunzler made Soundbanks with the naming standard for Ed76na+Apa6ecka\r\nAGQJ: Fedor Saveliev = Guderian1979 stopped modding so we use naming standard for Ed76na+Apa6ecka\r\n--&gt;\r\n\r\nunzip XYZ.wotmod IF vehicles_GO.bnk (audioww\vehicles_GO.bnk) is inside\r\nCRC: 9f6d759a05e4487daf576796a47a680b\r\n = CRCValue vehicles_GO.bnk Ed76na (Post: #9560) &amp; PY Zips </InternalNotes>
+            <Timestamp>132488628690375046</Timestamp>
+            <DevURL>https://mega.nz/file/bVpwlADC#U5fFIW8J4qAKgc_1v6ztwpXuComyHGw1jH8ohu1ZFoQ\r\nhttps://wgmods.net/533/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/432265-</DevURL>
+            <InternalNotes>\r\n\r\n\r\nunzip XYZ.wotmod IF vehicles_GO.bnk (audioww\vehicles_GO.bnk) is inside\r\nCRC: 9f6d759a05e4487daf576796a47a680b\r\n = CRCValue vehicles_GO.bnk Ed76na (Post: #9560) &amp; PY Zips </InternalNotes>
             <Author>SicFunzler</Author>
+            <Maintainers>Gauss</Maintainers>
             <UpdateComment>T10 Fix"V-12-6": \r\n{                "wwsoundPC": "V_12P",\r\n                "wwsoundNPC": "V_12P_NPC"           },\r\n\r\nUpdate  G&amp;M  V230  ( 04.03.2020 )</UpdateComment>
             <Dependencies>
               <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
@@ -448,7 +451,7 @@
             <CRC>4d24b6f05354e0f02f394192b47f6348</CRC>
             <Timestamp>132431067836050885</Timestamp>
             <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1778752-</DevURL>
-            <InternalNotes>Guderian__1979 = Fedor Saveliev\r\nGuderian__1979 (Apr 7, 2020 - 19:09) wrote: post 612 page 31\r\nThe topic is permanently closed\r\n\r\nWorking: Modder:  Mister_bl &amp; N_E_L_U_M_B_O\r\n\r\nBad news:  POST: 635 (google translate / shorten by Gauss)\r\n- Judging by the information about the test : "Switching to a new version of the Wwise sound engine. \r\nFeatures:\r\nSignificantly more potential for ... improving the sound of the game. \r\nMemory consumption will decrease .....\r\nPerformance will decrease slightly ... (up to 2.5%). "\r\n- Second and foremost. Now I have absolutely no time to play and maintain the mod in working order, so even with the release of a new injector in this damn 2020, I will not be able to do anything. \r\nIf anyone has a desire to keep the mod in working order, then I can tell right away - it's not so difficult. \r\nIf you have questions about how to add new sounds - write in a personal. I'll try to answer this next weekend.\r\n\r\n</InternalNotes>
+            <InternalNotes>Guderian__1979 = Fedor Saveliev\r\nGuderian__1979 (Apr 7, 2020 - 19:09) wrote: post 612 page 31\r\nThe topic is permanently closed\r\n\r\nWorking: Modder:  Mister_bl &amp; N_E_L_U_M_B_O\r\n\r\n\r\n\r\n</InternalNotes>
             <Author>Fedor Saveliev &amp; Others (retired)</Author>
             <Description>AGQJ Engines Sounds made by Guderian__1979 = Fedor Saveliev\r\nNow Working: Modders:  Mister_bl &amp; N_E_L_U_M_B_O\n</Description>
             <Dependencies>
@@ -485,9 +488,9 @@
         <ZipFile>Sounds_Engines_GO_by_Ed76na+Apa6ecka_1.1.0_2018-08-31.zip</ZipFile>
         <CRC>dfb5e70f2e91630d08e92fc01ff0d1ea</CRC>
         <Timestamp>131838128329867008</Timestamp>
-        <DevURL>http://forum.worldoftanks.ru/index.php?/topic/842096-</DevURL>
+        <DevURL>https://drive.google.com/file/d/1YTsaXDeI1Q-nj-ddDXI5r6JRt3WaHyhj/view?usp=sharing\r\ned76na (Post: #9560) (2020-10-23)\r\nhttp://forum.worldoftanks.ru/index.php?/topic/842096-</DevURL>
         <InternalNotes>Dont use PYmods_BanksLoader with WWIIHWA: \n- Sound Event Injector is incompatible with WWIIHWA\n- "WoT-Circle": Restart -&gt; Crash -&gt; Restart -&gt; Crash....)\nSound Event Injector : \n- great tool for modding sounds \n- no patches are needed \n- updating get much easier &amp; faster\r\n\r\n0. Soundinjektor is a great tool for modding sounds - no Patches are needed - updating gets much easier\n1. Problem: Working alone as intended check replays\n2. Problem: Soundinjektor is incompatible with WWIIHWA (WOT-Circle -- restart-&gt;crash-&gt;restart-&gt;crash....)\n3. Dont have Ideas/ muse / moods  for fixing now -123gauss\r\n\r\nReworking packeges: WE should saves this extra \r\nhttp://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_with small_BG_by_Warranted.png</InternalNotes>
-        <Description>Sound Event Injector : \n\nWillster: \nI dont know what we do with tthe Sound Event Injector Versions (script-file)\nBank-loader isnt used here &amp; In Relhax - not necessary \n- take audio.xml/engine.config.xml\n\n (no original files by WG as template)</Description>
+        <Description>With Sound Event Injector; \n- great tool for modding sounds \n- no patches for the Events are needed \n\nNo PYmods_BanksLoader - only Patches to engine_config.xml\n\nUsable with WWIIHWA (no Bankloader - Patches used)\n- Sound Event Injector is compatible with WWIIHWA\r\n\r\n\nWillster: \nI dont know what we do with tthe Sound Event Injector Versions (script-file)\nBank-loader isnt used here &amp; In Relhax - not necessary \n- take audio.xml/engine.config.xml\n\n (no original files by WG as template)</Description>
         <Medias>
           <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_with small_BG_by_Warranted.png" MediaType="Picture" />
@@ -583,37 +586,20 @@
       <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="Sounds_Guns_AGQJ" Enabled="False" Tags="" InstallGroup="4" PatchGroup="2" UID="by4pnina7sywco5o" Name="Ed76na v{version} WORK in Progress" Type="single1" Visible="True">
+      <Package PackageName="Sounds_Guns_AGQJ" Enabled="True" Tags="" InstallGroup="4" PatchGroup="2" UID="by4pnina7sywco5o" Name="Ed76na (RU) &amp; SicFunzler (EU)" Type="single1" Visible="True">
         <Size>96202544</Size>
-        <Version>340</Version>
+        <Version>2020-10-23_WWise2019.2.3</Version>
         <CRC>f</CRC>
         <Timestamp>132487086095518123</Timestamp>
-        <InternalNotes>NewName: Sounds_Guns_AGQJ_Base_SicFunzler\r\nSounds_Guns_AGQJ_Base_SicFunzler = Soundbanks by  SicFunzler\r\nVersions: V234 = V252\r\n\r\nmaybe confict with WWIIHWA</InternalNotes>
+        <InternalNotes>\r\n\r\n\r\n\r\nNote: res_mods\audioww\*.bnk is working with Configs in mods\configs\r\n</InternalNotes>
         <Author>Ed76na (retired Apa6ecka) &amp; SicFunzler</Author>
         <Maintainers>Gauss</Maintainers>
+        <Description>Authors: Ed76na (RU) [with retired Apa6ecka] &amp; SicFunzler  (EU)  [since 2020]</Description>
         <Dependencies>
           <Dependency PackageName="Dependency_Sounds_Bank_Guns_Ed76na_SicFunzler" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="Sounds_Guns_Ed76na+Apa6ecka" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jlhkdjoy66n9ybu0" Name="[by {author}]" Type="single1" Visible="True">
-            <Size>34292361</Size>
-            <ZipFile>Sounds_Guns_Ed76na_Ed76na_SCRIPTS_1.10.1.1_2020-10-29.zip</ZipFile>
-            <CRC>f</CRC>
-            <Timestamp>132487085669716849</Timestamp>
-            <DevURL>https://yadi.sk/d/Ioxb9Ypj3Mjzsc\r\nhttp://forum.worldoftanks.ru/index.php?/topic/842096-\r\nhttps://drive.google.com/drive/folders/1LNNJk0ZdVBMVjFHogH5OSIx3sJF_vjGk\r\nhttp://forum.worldoftanks.ru/index.php?/topic/842096-09200-%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BC%D0%BE%D0%B4-%D0%B3%D1%80%D0%BE%D0%BC%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BE%D1%80%D1%83%D0%B4%D0%B8%D1%8F-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F-301/page__st__7300__pid__47869382#entry47869382</DevURL>
-            <InternalNotes> (no original files by WG as template)\r\n\r\nv1.8.0.0 = v1.9.1.1</InternalNotes>
-            <Author>Ed76na &amp; Apa6ecka (retired)</Author>
-            <Description>With Sound Event Injector; \n- great tool for modding sounds \n- no patches for the Events are needed \n\nNo PYmods_BanksLoader - only Patches to engine_config.xml\n\nUsable with WWIIHWA (no Bankloader - Patches used)\n- Sound Event Injector is compatible with WWIIHWA</Description>
-            <UpdateComment>2019-04-16: added HWK30, TS-5\n1412=1.2.0 = 1.1.0; 1.1.0.0: Soundbanks to Wwise 2017.2.5, new Soundbanks</UpdateComment>
-            <Medias>
-              <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="Sounds_Guns_AGQJ_SicFunzler" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zsmj5gmdcu1kmuxn" Name="[by {author}]" Type="single_dropdown1" Visible="True">
+          <Package PackageName="Sounds_Guns_AGQJ_SicFunzler" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zsmj5gmdcu1kmuxn" Name="[by {author}] v{version}" Type="single1" Visible="True">
             <Size>14616</Size>
             <Version>340</Version>
             <ZipFile>Sounds_Guns_Ed76na_SicFunzler_SCRIPTS_v340_1.10.1.1_2020-10-29.zip</ZipFile>
@@ -626,6 +612,24 @@
             <Dependencies>
               <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
               <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
+            </Dependencies>
+          </Package>
+          <Package PackageName="Sounds_Guns_Ed76na+Apa6ecka" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jlhkdjoy66n9ybu0" Name="[by {author}] &amp; Apa6ecka (retired)" Type="single1" Visible="True">
+            <Size>34292361</Size>
+            <ZipFile>Sounds_Guns_Ed76na_Ed76na_SCRIPTS_1.10.1.1_2020-10-29.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132487085669716849</Timestamp>
+            <DevURL>https://yadi.sk/d/Ioxb9Ypj3Mjzsc\r\nhttp://forum.worldoftanks.ru/index.php?/topic/842096-\r\nhttps://drive.google.com/drive/folders/1LNNJk0ZdVBMVjFHogH5OSIx3sJF_vjGk\r\nhttp://forum.worldoftanks.ru/index.php?/topic/842096-09200-%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BC%D0%BE%D0%B4-%D0%B3%D1%80%D0%BE%D0%BC%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BE%D1%80%D1%83%D0%B4%D0%B8%D1%8F-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F-301/page__st__7300__pid__47869382#entry47869382</DevURL>
+            <InternalNotes> (no original files by WG as template)\r\n\r\nv1.8.0.0 = v1.9.1.1</InternalNotes>
+            <Author>Ed76na</Author>
+            <Description>With Sound Event Injector; \n- great tool for modding sounds \n- no patches for the Events are needed \n\nNo PYmods_BanksLoader - only Patches to engine_config.xml\n\nUsable with WWIIHWA (no Bankloader - Patches used)\n- Sound Event Injector is compatible with WWIIHWA</Description>
+            <UpdateComment>2019-04-16: added HWK30, TS-5\n1412=1.2.0 = 1.1.0; 1.1.0.0: Soundbanks to Wwise 2017.2.5, new Soundbanks</UpdateComment>
+            <Medias>
+              <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
+            </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
+              <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
           <Package PackageName="Sounds_Guns_AGQJ_FedorSaveliev" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="5e5cdcwvibzvb1fa" Name="[by {author}] (retired)" Type="single_dropdown1" Visible="False">
@@ -728,7 +732,7 @@
         <Timestamp>131701182641902565</Timestamp>
         <DevURL>http://forum.worldoftanks.ru/index.php?/topic/842096-</DevURL>
         <InternalNotes>Dont use this version(PYmods_BanksLoader) with WWIIHWA: \n- Sound Event Injector is incompatible with WWIIHWA\n- "WoT-Circle": Restart -&gt; Crash -&gt; Restart -&gt; Crash....)\nSound Event Injector : \n- great tool for modding sounds \n- no patches are needed \n- updating get much easier &amp; faster\r\n\r\n0. Soundinjektor is a great tool for modding sounds - no Patches are needed - updating gets much easier\n1. Problem: Working alone as intended check replays\n2. Problem: Soundinjektor is incompatible with WWIIHWA (WOT-Circle -- restart-&gt;crash-&gt;restart-&gt;crash....)\n3. Dont have Ideas/ muse / moods  for fixing now -123gauss</InternalNotes>
-        <Description>Sound Event Injector : \n\nWillster: \nI dont know what we do with tthe Sound Event Injector Versions (script-file)\nBank-loader isnt used here &amp; In Relhax - not necessary \n- take audio.xml/engine.config.xml\n\n (no original files by WG as template)</Description>
+        <Description>With Sound Event Injector; \n- great tool for modding sounds \n- no patches for the Events are needed \n\nNo PYmods_BanksLoader - only Patches to engine_config.xml\n\nUsable with WWIIHWA (no Bankloader - Patches used)\n- Sound Event Injector is compatible with WWIIHWA\nWillster: \nI dont know what we do with tthe Sound Event Injector Versions (script-file)\nBank-loader isnt used here &amp; In Relhax - not necessary \n- take audio.xml/engine.config.xml\n\n (no original files by WG as template)</Description>
         <Medias>
           <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
         </Medias>
