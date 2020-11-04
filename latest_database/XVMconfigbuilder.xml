@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="XVM config builder" OffsetInstallGroups="True">
-  <Maintainers>Elektro</Maintainers>
+  <Maintainers>elektrosmoker</Maintainers>
   <Dependencies>
     <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
     <Dependency PackageName="Dependency_XVM_XC_RelhaxLoginCredits" NotFlag="False" Logic="OR" />
@@ -9,6 +9,7 @@
     <Dependency PackageName="Dependency_XVM_FLAGS_missingPicsFix" NotFlag="False" Logic="OR" />
   </Dependencies>
   <Package PackageName="XVMconfigBuilder_BuildSelector" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1obybhuzekac5yw6" Name="-----[Build Selector]----- (choose between Stable and Nightly)" Type="single1" Visible="True">
+    <Author>elektrosmoker</Author>
     <Packages>
       <Package PackageName="XVMconfigBuilder_BuildSelector_Stable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w2s53lki94c2grej" Name="Stable v{version}" Type="single_dropdown1" Visible="True">
         <Version>8.6.5_0047</Version>
@@ -26,6 +27,7 @@
     </Packages>
   </Package>
   <Package PackageName="XVMconfigBuilder_GLOBAL" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="36gr3pg23j69rw3w" Name="-----[GLOBAL Settings]-----" Type="multi" Visible="True">
+    <Author>elektrosmoker</Author>
     <Packages>
       <Package PackageName="XVMconfigBuilder_Sound" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fvn6bom32fzrr7aw" Name="Sound (!Experts Only!)" Type="multi" Visible="True">
         <Description>Toggle the xvm sounds</Description>
@@ -140,6 +142,7 @@
     </Packages>
   </Package>
   <Package PackageName="XVMconfigBuilder_HANGAR" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="l09ke8p3tysmxq6d" Name="-----[HANGAR Settings]-----" Type="multi" Visible="True">
+    <Author>elektrosmoker</Author>
     <Packages>
       <Package PackageName="XVMConfigBuilder_BattleResults" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ypfzm7v4svk4x2dd" Name="Battle Results" Type="multi" Visible="True">
         <Description>Show the tier of the battle (max tier)\nalso change which results page is displayed first when you enter the garage from the battle\npage 1 is battle summary\npage 2 is teams score\npage 3 is your detailed battle stats</Description>
@@ -1941,6 +1944,7 @@
     </Packages>
   </Package>
   <Package PackageName="XVMconfigBuilder_IN-BATTLE" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bu41ybvnby38n2q7" Name="-----[IN-BATTLE Settings]-----" Type="multi" Visible="True">
+    <Author>elektrosmoker</Author>
     <Packages>
       <Package PackageName="XVMconfigBuilder_battleChat" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ojag6b1oavvpney7" Name="Battle Chat" Type="multi" Visible="True">
         <Size>5211</Size>
