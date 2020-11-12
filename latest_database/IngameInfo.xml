@@ -938,6 +938,15 @@
     <CRC>f</CRC>
     <Timestamp>132071743749522467</Timestamp>
     <Packages>
+      <Package PackageName="IngameInfo_HpPools_RaJCeL" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="icfmkjxbe1nmtkra" Name="RaJCeL" Type="single1" Visible="True">
+        <ZipFile>IngameInfo_HpPools_RaJCeL_2020-11-12.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132496581889355799</Timestamp>
+        <Dependencies>
+          <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
       <Package PackageName="IngameInfo_HpPools_PMOD" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="5486brj2pt2ucqks" Name="PMOD" Type="single1" Visible="True">
         <Size>478</Size>
         <ZipFile>Ingame_Info_HP_Pools_PMOD_Enable_2019-09-11.zip</ZipFile>
@@ -1307,7 +1316,7 @@
           <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="IngameInfo_InBattleRating_RaJCeL" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8aymq0m7um5hbcxh" Name="RaJCeL" Type="single_dropdown1" Visible="True">
+      <Package PackageName="IngameInfo_InBattleRating_RaJCeL" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="8aymq0m7um5hbcxh" Name="RaJCeL" Type="single_dropdown1" Visible="True">
         <Size>560</Size>
         <ZipFile>Ingame_Info_InBattle_Rating_RaJCeL_enable_patch_2019-10-10.zip</ZipFile>
         <CRC>31990daa0f216c5d64d139b0f6603870</CRC>
