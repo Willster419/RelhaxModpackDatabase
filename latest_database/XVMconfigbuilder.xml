@@ -2842,92 +2842,20 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="732kz0z18bqe7v3a" Name="Battle Hints" Type="multi" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_showBattleHint" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="732kz0z18bqe7v3a" Name="Battle Hints" Type="multi" Visible="True">
             <ConflictingPackages>Ingame_Misc_Arty_and_Siege_Filter</ConflictingPackages>
             <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideTrajectoryView" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ks9z7z6278iw77ba" Name="hide trajectory view" Type="multi" Visible="True">
-                <Description>hide the tips aiming mode changing in strategic mode</Description>
-                <Packages>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideTrajectoryView_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="e6q6z3vl2rkli0tn" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>633</Size>
-                    <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideTrajectoryView_disable.zip</ZipFile>
-                    <CRC>cfed19fb55e5bbd10b5225fc7b8c7e99</CRC>
-                    <Timestamp>132004325954791363</Timestamp>
-                  </Package>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideTrajectoryView_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rvxl732m1nc3ib0m" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>621</Size>
-                    <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideTrajectoryView_enable.zip</ZipFile>
-                    <CRC>413678859bc8ef9213559ac2c4e89b64</CRC>
-                    <Timestamp>132004325816959395</Timestamp>
-                  </Package>
-                </Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_showBattleHint_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="e6q6z3vl2rkli0tn" Name="disable" Type="single_dropdown1" Visible="True">
+                <Size>633</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_showBattleHint_disable.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132497719527235695</Timestamp>
               </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideSiegeIndicator" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="4k40f28n1k5lin7m" Name="hide siege indicator" Type="multi" Visible="True">
-                <Description>hide the tips about switching to siege mode and changing the driving mode (for wheeled vehicles)</Description>
-                <Packages>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideSiegeIndicator_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yyl766y6v37atgpz" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>632</Size>
-                    <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideSiegeIndicator_disable.zip</ZipFile>
-                    <CRC>cb7a8a5c70679344c14c644f43df2df9</CRC>
-                    <Timestamp>132004326347725030</Timestamp>
-                  </Package>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideSiegeIndicator_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bosme547vzzstswz" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>619</Size>
-                    <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideSiegeIndicator_enable.zip</ZipFile>
-                    <CRC>217b40e1de41c68d8a758335245b0e35</CRC>
-                    <Timestamp>132004326228527867</Timestamp>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideQuestProgress" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="529t69uqpi1i4lec" Name="hide quest progress" Type="multi" Visible="True">
-                <Description>hide the tips about switching to menu Personal Missions</Description>
-                <Packages>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideQuestProgress_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="irg8e90rpftz4wlc" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>628</Size>
-                    <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideQuestProgress_disable.zip</ZipFile>
-                    <CRC>c1738d15788177d2fe2fb4fbdca1b7b5</CRC>
-                    <Timestamp>132004326603293053</Timestamp>
-                  </Package>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideQuestProgress_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vgmnm86soblh48tc" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>616</Size>
-                    <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideQuestProgress_enable.zip</ZipFile>
-                    <CRC>0fd21b10ce1d4c938696278dd0bb0a37</CRC>
-                    <Timestamp>132004326499943914</Timestamp>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideHelpScreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pu4uecwajun7g1ap" Name="hide help screen" Type="multi" Visible="True">
-                <Description>hide the tips of the transition to the window of exploring the features of the machine (for wheeled vehicles)</Description>
-                <Packages>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideHelpScreen_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2ja9mb2birgogdip" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>620</Size>
-                    <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideHelpScreen_disable.zip</ZipFile>
-                    <CRC>8786b60954aa3f0a9ac04ff4d96a5707</CRC>
-                    <Timestamp>132004326858751653</Timestamp>
-                  </Package>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideHelpScreen_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="f8houb8chn86fopp" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>607</Size>
-                    <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideHelpScreen_enable.zip</ZipFile>
-                    <CRC>d21c7c88b6093083ef43f851d4f353cd</CRC>
-                    <Timestamp>132004326728763298</Timestamp>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideRadarHint" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9nywmfyvc6avrh72" Name="hide radar hint (&quot;Steel Hunter&quot; mode)" Type="multi" Visible="True">
-                <Packages>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideRadarHint_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mc5aue4wb22drte2" Name="disable" Type="single_dropdown1" Visible="True">
-                    <Size>616</Size>
-                    <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideRadarHint_disable.zip</ZipFile>
-                    <CRC>7f29ee7c84c05a7bb9642f0f96b9d566</CRC>
-                    <Timestamp>132110273330691487</Timestamp>
-                  </Package>
-                  <Package PackageName="XVMConfigBuilder_BattleInterface_battleHint_hideRadarHint_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="gqmimiuf6m432mwf" Name="enable" Type="single_dropdown1" Visible="True">
-                    <Size>614</Size>
-                    <ZipFile>XVMConfigBuilder_BattleInterface_battleHint_hideRadarHint_enable.zip</ZipFile>
-                    <CRC>e4c7816d960924b9a4c58056bd4c8649</CRC>
-                    <Timestamp>132110273282350739</Timestamp>
-                  </Package>
-                </Packages>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_showBattleHint_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rvxl732m1nc3ib0m" Name="enable" Type="single_dropdown1" Visible="True">
+                <Size>621</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_showBattleHint_enable.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132497719688661050</Timestamp>
               </Package>
             </Packages>
           </Package>
