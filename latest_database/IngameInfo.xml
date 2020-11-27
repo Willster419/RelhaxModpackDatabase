@@ -1,34 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Ingame Info" OffsetInstallGroups="True">
-  <Package PackageName="IngameInfo_15mCircle" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ah3r2xjyteyt7xhm" Name="15m Spot Circle" Type="multi" Visible="True">
-    <Timestamp>131762489009472686</Timestamp>
+  <Package PackageName="IngameInfo_15mCircle" Enabled="True" Tags="Script,DependencyLink,OtherFiles" InstallGroup="4" PatchGroup="4" UID="ah3r2xjyteyt7xhm" Name="15m Spot Circle" Type="multi" Visible="True">
+    <Version>1.10.1.0</Version>
+    <ZipFile>IngameInfo_15mCircle_1.10.1.0_2020-10-24.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132509539412961786</Timestamp>
     <DevURL>http://wotsite.net/mody-dlya-world-of-tanks/12048-</DevURL>
-    <Description>Shows a 15m Circle around your tank. \r\nIt shows the minimum distance behind bushes to stay hidden if you are shooting.\r\nThe Ring is not displayed in sniper view.</Description>
+    <Author>Jove</Author>
+    <Maintainers>Gauss</Maintainers>
+    <Description>Shows a 15m Circle around your tank. \r\nIt shows the minimum distance behind bushes to stay hidden if you are shooting.\r\nThe Ring is not displayed in sniper view.\r\ncolor =  green </Description>
+    <UpdateComment>updated to 1.0.1.0</UpdateComment>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/15m_Circle/Ingame_Info_15m_Circle_green.jpg" MediaType="Picture" />
     </Medias>
-    <Packages>
-      <Package PackageName="IngameInfo_15mCircle_Base" Enabled="True" Tags="Script,OtherFiles,DependencyLink" InstallGroup="4" PatchGroup="4" UID="pr6ixbntw5bsrvse" Name="15m Spot Circle (Type set in garage)" Type="single1" Visible="True">
-        <Size>57246</Size>
-        <Version>1.10.1.0</Version>
-        <ZipFile>Ingame_Info_15m_Circle_Base_wotmod_1.10.1.0_2020-10-24.zip</ZipFile>
-        <CRC>4b523cac1ddac797faff58005c6b9336</CRC>
-        <Timestamp>132480782595857974</Timestamp>
-        <DevURL>http://wotsite.net/mody-dlya-world-of-tanks/12048-</DevURL>
-        <Author>Jove</Author>
-        <Maintainers>Gauss</Maintainers>
-        <Description>Shows a green 15m Circle around your tank. Its the minimum distance behind bushes if you are shooting you stay hidden. In the sniper scope ring is not displayed</Description>
-        <UpdateComment>updated to 1.0.1.0</UpdateComment>
-        <ObfuscatedMod>True</ObfuscatedMod>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/15m_Circle/Ingame_Info_15m_Circle_green.jpg" MediaType="Picture" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-    </Packages>
+    <Dependencies>
+      <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+    </Dependencies>
   </Package>
   <Package PackageName="IngameInfo_Speedometer" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cpddhvg29xkjj7c0" Name="SpeedoMeter [by {author}]" Type="multi" Visible="True">
     <CRC>f</CRC>
@@ -110,9 +98,9 @@
   </Package>
   <Package PackageName="IngameInfo_ATAC" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wuu4xejdqk5020hr" Name="ATAC - enemy in 150m range [by {author}]" Type="multi" Visible="True">
     <Size>81824</Size>
-    <ZipFile>Ingame_Info_ATAC_1.10.1.1_2020-11-06.zip</ZipFile>
-    <CRC>28a5617a8398096c064185de74bc9289</CRC>
-    <Timestamp>132491651681855933</Timestamp>
+    <ZipFile>IngameInfo_ATAC_1.10.1.1_2020-11-06.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132509542566701378</Timestamp>
     <DevURL>https://wotsite.net/mody-dlya-world-of-tanks/12160-mod-atas-dlya-wot.html\r\nhttps://wotspeak.org/mody-world-of-tanks-wot/525-mod-atas-informaciya-o-blizhayshem-zasvechennom-tanke-vraga-dlya-world-of-tanks.html</DevURL>
     <InternalNotes>use the 150m one</InternalNotes>
     <Author>Makct</Author>
@@ -135,9 +123,9 @@
     <Packages>
       <Package PackageName="IngameInfo_Crew_CrewSkills" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="m87yddwfpdqz2nvr" Name="Crew skills in battle (press &quot;B&quot;) [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>536</Size>
-        <ZipFile>Ingame_Info_Crew_CrewSkills_RaJCeL_enable_patch_2019-11-17.zip</ZipFile>
-        <CRC>3a16cae00ab0d7039d4de67cc8204486</CRC>
-        <Timestamp>132184540916023845</Timestamp>
+        <ZipFile>IngameInfo_Crew_CrewSkills_2019-11-17.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509542873433056</Timestamp>
         <InternalNotes>its a patch: nothing todo</InternalNotes>
         <Author>RaJCeL</Author>
         <Description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing "B".</Description>
@@ -377,9 +365,9 @@
       </Package>
       <Package PackageName="IngameInfo_DebugPanel_theillusion" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="2zgi0ymdh3yv8id8" Name="YADP [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>3913</Size>
-        <ZipFile>Ingame_Info_DebugPanel_by_The_Illusion_2019-03-23.zip</ZipFile>
-        <CRC>96137ccfe935e9d4082ba95e7c397716</CRC>
-        <Timestamp>131978497357256251</Timestamp>
+        <ZipFile>IngameInfo_DebugPanel_theillusion_2019-03-23.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509543778836100</Timestamp>
         <InternalNotes>gui\flash\debugPanel.swf &amp; No pyc-files</InternalNotes>
         <Author>theIllusion</Author>
         <Medias>
@@ -414,32 +402,32 @@
         <Timestamp>132346388999328561</Timestamp>
         <DevURL>protanki.tv</DevURL>
         <Packages>
-          <Package PackageName="IngameInfo_DangerLights_customUIType1" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="mypkoll2ycwtydnl" Name="1 - large vertical" Type="single_dropdown1" Visible="True">
+          <Package PackageName="IngameInfo_DangerLights_enableCustomUI_1" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="mypkoll2ycwtydnl" Name="1 - large vertical" Type="single_dropdown1" Visible="True">
             <Size>472</Size>
-            <ZipFile>IngameInfo_DangerLights_customUIType1_2020-05-22.zip</ZipFile>
-            <CRC>d933925b0e7aac974ed643de96ac5e3e</CRC>
-            <Timestamp>132346389230657356</Timestamp>
+            <ZipFile>IngameInfo_DangerLights_enableCustomUI_1_2020-05-22.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509544491699408</Timestamp>
             <DevURL>protanki.tv</DevURL>
           </Package>
-          <Package PackageName="IngameInfo_DangerLights_customUIType2" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="hx5fc9tm6v09u84w" Name="2 - small vertical" Type="single_dropdown1" Visible="True">
+          <Package PackageName="IngameInfo_DangerLights_enableCustomUI_2" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="hx5fc9tm6v09u84w" Name="2 - small vertical" Type="single_dropdown1" Visible="True">
             <Size>472</Size>
-            <ZipFile>IngameInfo_DangerLights_customUIType2_2020-05-22.zip</ZipFile>
-            <CRC>a9ccbcc1be1694569ea7305033b53d4a</CRC>
-            <Timestamp>132346389406379474</Timestamp>
+            <ZipFile>IngameInfo_DangerLights_enableCustomUI_2_2020-05-22.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509544598890200</Timestamp>
             <DevURL>protanki.tv</DevURL>
           </Package>
-          <Package PackageName="IngameInfo_DangerLights_customUIType3" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6yvdlb3f7yoab9km" Name="3 - large horizontal" Type="single_dropdown1" Visible="True">
+          <Package PackageName="IngameInfo_DangerLights_enableCustomUI_3" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6yvdlb3f7yoab9km" Name="3 - large horizontal" Type="single_dropdown1" Visible="True">
             <Size>472</Size>
-            <ZipFile>IngameInfo_DangerLights_customUIType3_2020-05-22.zip</ZipFile>
-            <CRC>12a47cde6039fca48475ef6009c529dd</CRC>
-            <Timestamp>132346389351895828</Timestamp>
+            <ZipFile>IngameInfo_DangerLights_enableCustomUI_3_2020-05-22.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509544691375327</Timestamp>
             <DevURL>protanki.tv</DevURL>
           </Package>
-          <Package PackageName="IngameInfo_DangerLights_customUIType4" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="21hh2uhdoc601s2g" Name="4 - small horizontal" Type="single_dropdown1" Visible="True">
+          <Package PackageName="IngameInfo_DangerLights_enableCustomUI_4" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="21hh2uhdoc601s2g" Name="4 - small horizontal" Type="single_dropdown1" Visible="True">
             <Size>473</Size>
-            <ZipFile>IngameInfo_DangerLights_customUIType4_2020-05-22.zip</ZipFile>
-            <CRC>9054b10e2162752cc86c72e4b072789f</CRC>
-            <Timestamp>132346389311989104</Timestamp>
+            <ZipFile>IngameInfo_DangerLights_enableCustomUI_4_2020-05-22.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509544796201689</Timestamp>
             <DevURL>protanki.tv</DevURL>
           </Package>
         </Packages>
@@ -530,9 +518,9 @@
   </Package>
   <Package PackageName="IngameInfo_Hitmarker" Enabled="True" Tags="Patch,Script,ConfigurationFileXml,SoundBank" InstallGroup="4" PatchGroup="4" UID="y7kl5b4iri4nxded" Name="Hitmarker [by {author}]" Type="multi" Visible="True">
     <Size>9977</Size>
-    <ZipFile>Ingame_Misc_hitmarker_1.10.1.0_bootleg_2020-10-24.zip</ZipFile>
-    <CRC>8230c2210c84ddea36adeafc643d72fa</CRC>
-    <Timestamp>132480695476170390</Timestamp>
+    <ZipFile>IngameInfo_Hitmarker_1.10.1.0_2020-10-24.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132509545582737812</Timestamp>
     <DevURL>https://github.com/Aimdrol/MLG-Hitmarker\r\nhttp://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
     <InternalNotes>The new bnk is from the RelhaxSoundMod repo</InternalNotes>
     <Author>Aimdrol</Author>
@@ -547,15 +535,15 @@
     <Packages>
       <Package PackageName="IngameInfo_Hitmarker_default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tl1sxfu1m16d96wq" Name="Default" Type="single_dropdown1" Visible="True">
         <Size>8910</Size>
-        <ZipFile>Ingame_Misc_hitmarker_DEFAULT.zip</ZipFile>
-        <CRC>b3e8d1b34d0147bb4a819e661de0e12a</CRC>
-        <Timestamp>131977292754183685</Timestamp>
+        <ZipFile>IngameInfo_Hitmarker_default.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509545704201018</Timestamp>
       </Package>
       <Package PackageName="IngameInfo_Hitmarker_ComicsVersion" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6a875e02lxyu9i3q" Name="Comics Version" Type="single_dropdown1" Visible="True">
         <Size>81910</Size>
-        <ZipFile>Ingame_Misc_hitmarker_COMICS_VERSION_2019-03-22.zip</ZipFile>
-        <CRC>154255bd43fda02d56c7e3ee75525e6f</CRC>
-        <Timestamp>131977292754183685</Timestamp>
+        <ZipFile>IngameInfo_Hitmarker_ComicsVersion_2019-03-22.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509545809348325</Timestamp>
         <Author>elektrosmoker</Author>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Ingame_Misc_hitmarker_COMIC_VERSION.png" MediaType="Picture" />
@@ -563,23 +551,24 @@
       </Package>
       <Package PackageName="IngameInfo_Hitmarker_soundOff" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="izemde73kurc9tap" Name="don´t play hitmarker-sound on hitting enemies" Type="multi" Visible="True">
         <Size>590</Size>
-        <ZipFile>Ingame_Misc_hitmarker_by_aimdrol_playsound_off.zip</ZipFile>
-        <CRC>423f0fb0d696f609238b28359d702f4a</CRC>
-        <Timestamp>131859265903706299</Timestamp>
+        <ZipFile>IngameInfo_Hitmarker_soundOff.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509545924199085</Timestamp>
       </Package>
       <Package PackageName="IngameInfo_Hitmarker_Damage" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dewt5iwmfdt1kms3" Name="Damage Only" Type="single_dropdown2" Visible="True" />
       <Package PackageName="IngameInfo_Hitmarker_DamageRammingKamakazie" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p338dh3ne9ljkyz2" Name="Damage, Ramming, Kamakazie" Type="single_dropdown2" Visible="True">
         <Size>849</Size>
-        <ZipFile>Ingame_Misc_hitmarker_by_aimdrol_0.9.14.1_all_patch.zip</ZipFile>
-        <CRC>aa25010417d4442c9b406221bf3dde74</CRC>
+        <ZipFile>IngameInfo_Hitmarker_DamageRammingKamakazie.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509546332195623</Timestamp>
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="IngameInfo_HighCaliber" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="934501ixbjs2jn2l" Name="Show High Caliber info [by {author}]" Type="multi" Visible="True">
+  <Package PackageName="IngameInfo_HighCaliber" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="934501ixbjs2jn2l" Name="Show High Caliber info [by {author}]" Type="multi" Visible="True">
     <Size>541</Size>
-    <ZipFile>Ingame_Info_High_Caliber_RaJCeL_enable_patch_2019-10-10.zip</ZipFile>
-    <CRC>1406b4b49c50936e7da9797d0c069260</CRC>
-    <Timestamp>132151880668307055</Timestamp>
+    <ZipFile>IngameInfo_HighCaliber_2019-10-10.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132509546621791675</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel</DevURL>
     <InternalNotes>its a patch: nothing todo</InternalNotes>
     <Author>RaJCeL</Author>
@@ -622,9 +611,9 @@
         <Packages>
           <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_ClosertoPanels" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="4m3dkkxz0u6xptc2" Name="Move bars closer (~30px) to panels" Type="multi" Visible="True">
             <Size>691</Size>
-            <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_bars_closer_to_panels_1.8.0.0_2020-03-06.zip</ZipFile>
-            <CRC>494f101024f05797bace316b9cb31b41</CRC>
-            <Timestamp>132280014642258751</Timestamp>
+            <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_ClosertoPanels_1.8.0.0_2020-03-06.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509546815294367</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
             <InternalNotes>its a patch: nothing to do</InternalNotes>
             <ShowInSearchList>False</ShowInSearchList>
@@ -636,16 +625,16 @@
             <Packages>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Format_RemainingAndMaximum" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="krhtgainsmwnhoko" Name="Remaining and Maximum (Default)" Type="single_dropdown1" Visible="True">
                 <Size>620</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_Format_Remaining_and_Maximum_1.9.0.2_2020-05-09.zip</ZipFile>
-                <CRC>800e7be50f55e3c25304e305106cd446</CRC>
-                <Timestamp>132335600267912037</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Format_RemainingAndMaximum_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509547407392188</Timestamp>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
               </Package>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Format_RemainingStructurePoints" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="xgo8o9oorio5h0rn" Name="Remaining structure points (HP Remaining)" Type="single_dropdown1" Visible="True">
                 <Size>592</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_Format_Remaining_structure_points_1.9.0.2_2020-05-09.zip</ZipFile>
-                <CRC>cda9731619191ee7db04babb911c9c42</CRC>
-                <Timestamp>132335600411778373</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Format_RemainingStructurePoints_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509547158577797</Timestamp>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
               </Package>
             </Packages>
@@ -658,17 +647,17 @@
             <Packages>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_ToggleKey_alt" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="v6wbeujtw7kt8jkn" Name="Alt" Type="single_dropdown1" Visible="True">
                 <Size>835</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_toggleKey_alt_1.9.0.2_2020-05-09.zip</ZipFile>
-                <CRC>2840f8624bbcf3f193084740125c6cb4</CRC>
-                <Timestamp>132335617942260879</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_ToggleKey_alt_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509547606063889</Timestamp>
                 <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
               </Package>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_ToggleKey_ctrl" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="yhnsa7luaq8fmw4d" Name="Control" Type="single_dropdown1" Visible="True">
                 <Size>840</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_toggleKey_ctrl_1.9.0.2_2020-05-09.zip</ZipFile>
-                <CRC>3c0d4a9af9836046c30e9d90adc47f45</CRC>
-                <Timestamp>132335617995876817</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_ToggleKey_ctrl_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509547706228947</Timestamp>
                 <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
               </Package>
@@ -681,25 +670,25 @@
             <Packages>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_OnAlways" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6k5lg3qj4r79uf6y" Name="Always displayed (Default)" Type="single_dropdown1" Visible="True">
                 <Size>478</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_onAlways_1.9.0.2_2020-05-09.zip</ZipFile>
-                <CRC>bade83f0bf99eca56cc31a67add482ef</CRC>
-                <Timestamp>132335621641586808</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_OnAlways_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509547818097102</Timestamp>
                 <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
               </Package>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_Toggle" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="j9c0o2wk3n0rurdy" Name="Toggle (press to show/hide)" Type="single_dropdown1" Visible="True">
                 <Size>474</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_toggle_1.9.0.2_2020-05-09.zip</ZipFile>
-                <CRC>6d9a577b2a0cec68bcb21f9f595d3b32</CRC>
-                <Timestamp>132335621522372908</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_Toggle_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509547914984611</Timestamp>
                 <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
               </Package>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_Holding" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="dot7g6m3y71g6jvb" Name="Hotkey (hold to show)" Type="single_dropdown1" Visible="True">
                 <Size>476</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_holding_1.9.0.2_2020-05-09.zip</ZipFile>
-                <CRC>d042b7d438f094ec790e7c74608128fe</CRC>
-                <Timestamp>132335621239258502</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_Holding_2020-05-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509548044067030</Timestamp>
                 <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
               </Package>
@@ -716,65 +705,65 @@
             <Packages>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Shiny" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="4kcuock8lyics4g0" Name="Shiny" Type="single_dropdown1" Visible="True">
                 <Size>544</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Shiny_1.9.0.2_2020-05-10.zip</ZipFile>
-                <CRC>cdb1976f74fa568e748011f9b7feaa37</CRC>
-                <Timestamp>132336077287083242</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Shiny_2020-05-10.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509548175438530</Timestamp>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
                 <ShowInSearchList>False</ShowInSearchList>
               </Package>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Outfading" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="g9j9wcr9kubusgn0" Name="Outfading" Type="single_dropdown1" Visible="True">
                 <Size>551</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Outfading_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>e052b9f8685242d6565abf39e5993cb6</CRC>
-                <Timestamp>132269594746640810</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Outfading_2020-02-23.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509548279830989</Timestamp>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
                 <ShowInSearchList>False</ShowInSearchList>
               </Package>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_CylinderGradiantSmall" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="typo4bxakr3cssv0" Name="Cylinder gradiant small" Type="single_dropdown1" Visible="True">
                 <Size>579</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Cylinder_gradiant_small_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>558803a7bbfdcc7615e8bb0d31ea0ce6</CRC>
-                <Timestamp>132269595175636489</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_CylinderGradiantSmall_2020-02-23.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509548388268201</Timestamp>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
                 <ShowInSearchList>False</ShowInSearchList>
               </Package>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_CylinderGradiantBig" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="oc7vwfntea513ldd" Name="Cylinder gradiant big" Type="single_dropdown1" Visible="True">
                 <Size>575</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Cylinder_gradiant_big_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>be9372a5670151716e5289d96ba19bc8</CRC>
-                <Timestamp>132269595580693543</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_CylinderGradiantBig_2020-02-23.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509548489818796</Timestamp>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
                 <ShowInSearchList>False</ShowInSearchList>
               </Package>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Fusili1" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="01da4ette6xj3wkd" Name="Fusili #1" Type="single_dropdown1" Visible="True">
                 <Size>550</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Fusili_1_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>b3234e1cd23d7bd64db726af81072b8d</CRC>
-                <Timestamp>132269596124662686</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Fusili1_2020-02-23.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509548591234514</Timestamp>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
                 <ShowInSearchList>False</ShowInSearchList>
               </Package>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Powercell" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="vgvivijc8pz9ep2q" Name="Powercell" Type="single_dropdown1" Visible="True">
                 <Size>552</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Powercell_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>99c1446eb5ffc0ec054487050a274d2f</CRC>
-                <Timestamp>132269596518046623</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Powercell_2020-02-23.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509548685179981</Timestamp>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
                 <ShowInSearchList>False</ShowInSearchList>
               </Package>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Springs" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="751w4ipd8mrqe19q" Name="Springs (Fusili #2)" Type="single_dropdown1" Visible="True">
                 <Size>548</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Springs_1.7.1.2_2020-02-23.zip</ZipFile>
-                <CRC>d0f6ad95dad9218ac760701e08986b9f</CRC>
-                <Timestamp>132269596903917040</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Springs_2020-02-23.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509548919353088</Timestamp>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
                 <ShowInSearchList>False</ShowInSearchList>
               </Package>
               <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Quacksen" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="rq8x92civjg2r4fg" Name="Quacksen" Type="single_dropdown1" Visible="True">
                 <Size>551</Size>
-                <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Pools_Style_Quacksen_1.9.0.2_2020-05-10.zip</ZipFile>
-                <CRC>02b79f416417db835f7732b738ecd1e0</CRC>
-                <Timestamp>132336077396290298</Timestamp>
+                <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Quacksen_2020-05-10.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509548803251496</Timestamp>
                 <InternalNotes>its a patch: nothing to do</InternalNotes>
                 <ShowInSearchList>False</ShowInSearchList>
               </Package>
@@ -784,18 +773,18 @@
       </Package>
       <Package PackageName="IngameInfo_PlayersPanelPro_EnableClassColor" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="e8pj3llx21lyp5y3" Name="Enable HP bar color by vehicle class" Type="multi" Visible="True">
         <Size>503</Size>
-        <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_enable_class_color_1.9.0.2_2020-05-09.zip</ZipFile>
-        <CRC>822e9f2bd0f1ad07bfcf002a431099b5</CRC>
-        <Timestamp>132335625111617035</Timestamp>
+        <ZipFile>IngameInfo_PlayersPanelPro_EnableClassColor_2020-05-09.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509549044665480</Timestamp>
         <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
         <InternalNotes>its a patch: nothing to do</InternalNotes>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
       <Package PackageName="IngameInfo_PlayersPanelPro_EnableClassIcon" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ku8bchve7ik8edgq" Name="Enable display of class icon next to panels" Type="multi" Visible="True">
         <Size>505</Size>
-        <ZipFile>Ingame_Info_Players_Panel_Pro_HP_Bars_enable_class_icon_1.9.0.2_2020-05-09.zip</ZipFile>
-        <CRC>4260b3668681bc46ffa9c037da917e58</CRC>
-        <Timestamp>132335625182757918</Timestamp>
+        <ZipFile>IngameInfo_PlayersPanelPro_EnableClassIcon_2020-05-09.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509549144984544</Timestamp>
         <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
         <InternalNotes>its a patch: nothing to do</InternalNotes>
         <ShowInSearchList>False</ShowInSearchList>
@@ -805,9 +794,9 @@
       </Package>
       <Package PackageName="IngameInfo_PlayersPanelPro_HighlightPopular" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5etf1yfde04du5ju" Name="Highlight known streamers/modders with icon" Type="multi" Visible="True">
         <Size>502</Size>
-        <ZipFile>Ingame_Info_PlayersPanelPro_HighlightPopular_1.9.0.2_2020-05-10.zip</ZipFile>
-        <CRC>a4d4208f6b588a21089e28d56ee08cb2</CRC>
-        <Timestamp>132336060953278437</Timestamp>
+        <ZipFile>IngameInfo_PlayersPanelPro_HighlightPopular_2020-05-10.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509549245946085</Timestamp>
         <InternalNotes>its a patch: nothing to do</InternalNotes>
       </Package>
       <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2btfq4ljjl3pe56h" Name="Highlight friend with icon" Type="multi" Visible="True">
@@ -819,41 +808,41 @@
         <Packages>
           <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend_Cyan" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="vy0wvg8sx1oi1rn9" Name="Cyan" Type="single_dropdown1" Visible="True">
             <Size>505</Size>
-            <ZipFile>Ingame_Info_PlayersPanelPro_HightlightFriends_Color_Cyan_1.9.0.2_2020-05-10.zip</ZipFile>
-            <CRC>c93db14b3d8fbb836f965e0f8ed62c2d</CRC>
-            <Timestamp>132336065537931630</Timestamp>
+            <ZipFile>IngameInfo_PlayersPanelPro_HighlightFriend_Cyan_2020-05-10.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509549353904198</Timestamp>
             <InternalNotes>its a patch: nothing to do</InternalNotes>
             <ShowInSearchList>False</ShowInSearchList>
           </Package>
           <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend_Purple" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="kqvt2zcbpfmdwbvx" Name="Purple" Type="single_dropdown1" Visible="True">
             <Size>509</Size>
-            <ZipFile>Ingame_Info_PlayersPanelPro_HightlightFriends_Color_Purple_1.9.0.2_2020-05-10.zip</ZipFile>
-            <CRC>4360cf88b88a7fadcd8cb7e864b587ce</CRC>
-            <Timestamp>132336065715482659</Timestamp>
+            <ZipFile>IngameInfo_PlayersPanelPro_HighlightFriend_Purple_2020-05-10.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509549451854826</Timestamp>
             <InternalNotes>its a patch: nothing to do</InternalNotes>
             <ShowInSearchList>False</ShowInSearchList>
           </Package>
           <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend_LightBlue" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="g5q1o6ej9snadgxq" Name="Light Blue" Type="single_dropdown1" Visible="True">
             <Size>515</Size>
-            <ZipFile>Ingame_Info_PlayersPanelPro_HightlightFriends_Color_LightBlue_1.9.0.2_2020-05-10.zip</ZipFile>
-            <CRC>bf4cbd73695084f2da6d43da2ca010a5</CRC>
-            <Timestamp>132336065881632361</Timestamp>
+            <ZipFile>IngameInfo_PlayersPanelPro_HighlightFriend_LightBlue_1.9.0.2_2020-05-10.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509549554347690</Timestamp>
             <InternalNotes>its a patch: nothing to do</InternalNotes>
             <ShowInSearchList>False</ShowInSearchList>
           </Package>
           <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend_Orange" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5zwzj7ybnwq8j698" Name="Orange" Type="single_dropdown1" Visible="True">
             <Size>509</Size>
-            <ZipFile>Ingame_Info_PlayersPanelPro_HightlightFriends_Color_Orange_1.9.0.2_2020-05-10.zip</ZipFile>
-            <CRC>da5d15e8029c1364532b2b8d73eb1614</CRC>
-            <Timestamp>132336066094441423</Timestamp>
+            <ZipFile>IngameInfo_PlayersPanelPro_HighlightFriend_Orange_2020-05-10.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509549649385241</Timestamp>
             <InternalNotes>its a patch: nothing to do</InternalNotes>
             <ShowInSearchList>False</ShowInSearchList>
           </Package>
           <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend_Yellow" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5cn5uo0eszhd77su" Name="Yellow" Type="single_dropdown1" Visible="True">
             <Size>509</Size>
-            <ZipFile>Ingame_Info_PlayersPanelPro_HightlightFriends_Color_Yellow_1.9.0.2_2020-05-10.zip</ZipFile>
-            <CRC>066c75af1be05a76794a9db164065ff0</CRC>
-            <Timestamp>132336066242138748</Timestamp>
+            <ZipFile>IngameInfo_PlayersPanelPro_HighlightFriend_Yellow_2020-05-10.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509549743255651</Timestamp>
             <InternalNotes>its a patch: nothing to do</InternalNotes>
             <ShowInSearchList>False</ShowInSearchList>
           </Package>
@@ -861,9 +850,9 @@
       </Package>
       <Package PackageName="IngameInfo_PlayersPanelPro_TeamHPPoolBar" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="pjqu2h2dcutmw6dw" Name="Enable team HP pool bar" Type="multi" Visible="True">
         <Size>542</Size>
-        <ZipFile>Ingame_Info_PlayersPanelPro_EnableTeamHPPoolsBar_1.9.0.2_2020-05-10.zip</ZipFile>
-        <CRC>557b9ffd41971195600ef4612868eb7a</CRC>
-        <Timestamp>132336068392380605</Timestamp>
+        <ZipFile>IngameInfo_PlayersPanelPro_TeamHPPoolBar_2020-05-10.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509549834353344</Timestamp>
         <InternalNotes>its a patch: nothing to do</InternalNotes>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/show_team_hp_pool_bar.png" MediaType="Picture" />
@@ -871,9 +860,9 @@
       </Package>
       <Package PackageName="IngameInfo_PlayersPanelPro_TeamHPPoolText" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="g4ecqyqdqpuvnphw" Name="Enable team HP pool text" Type="multi" Visible="True">
         <Size>533</Size>
-        <ZipFile>Ingame_Info_PlayersPanelPro_EnableTeamHPPoolsText_1.9.0.2_2020-05-10.zip</ZipFile>
-        <CRC>31a100e1f9efcfb6f210f11db977e79b</CRC>
-        <Timestamp>132336069648930098</Timestamp>
+        <ZipFile>IngameInfo_PlayersPanelPro_TeamHPPoolText_2020-05-10.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509549931360680</Timestamp>
         <InternalNotes>its a patch: nothing to do</InternalNotes>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/show_team_hp_pool_text.png" MediaType="Picture" />
@@ -881,9 +870,9 @@
       </Package>
       <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="rxwybkry1yefph53" Name="Enable enemy spotted status (conflicts with XVM &amp; Enemy Spotted Status by PMOD or Oldskool)" Type="multi" Visible="True">
         <Size>553</Size>
-        <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Enable_1.9.0.2_2020-05-09.zip</ZipFile>
-        <CRC>9d82161b40a36982649dac2bda8aa905</CRC>
-        <Timestamp>132336078895784113</Timestamp>
+        <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_2020-05-09.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509550085082921</Timestamp>
         <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/spotted_icon_styles.png" MediaType="Picture" />
@@ -892,41 +881,41 @@
         <Packages>
           <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_EyeV1" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6wrz8nb7bwkubrx2" Name="Eye V1" Type="single_dropdown1" Visible="True">
             <Size>537</Size>
-            <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_EyeV1_1.9.0.2_2020-05-09.zip</ZipFile>
-            <CRC>6de16f080ada0e7199ef828087170fd1</CRC>
-            <Timestamp>132336087613111070</Timestamp>
+            <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_EyeV1_2020-05-09.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509550219196891</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
             <ShowInSearchList>False</ShowInSearchList>
           </Package>
           <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_EyeV2" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="u6ae7ppav2l9ji8n" Name="Eye V2" Type="single_dropdown1" Visible="True">
             <Size>537</Size>
-            <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_EyeV2_1.9.0.2_2020-05-09.zip</ZipFile>
-            <CRC>a45e3e1f6e5668b098d8effc630af3aa</CRC>
-            <Timestamp>132336087706268571</Timestamp>
+            <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_EyeV2_2020-05-09.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509550320291798</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
             <ShowInSearchList>False</ShowInSearchList>
           </Package>
           <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_Dot" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="nfdyi3vt7qh7we2w" Name="Dot" Type="single_dropdown1" Visible="True">
             <Size>533</Size>
-            <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Dot_1.9.0.2_2020-05-09.zip</ZipFile>
-            <CRC>285afc9582d9d49b95add771cdd620c7</CRC>
-            <Timestamp>132336087528549852</Timestamp>
+            <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_Dot_2020-05-09.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509550409040920</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
             <ShowInSearchList>False</ShowInSearchList>
           </Package>
           <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_Crosshair" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="7lz52nzh64v1vwjv" Name="Crosshair" Type="single_dropdown1" Visible="True">
             <Size>545</Size>
-            <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Crosshair_1.9.0.2_2020-05-09.zip</ZipFile>
-            <CRC>e3b65d81cde1cbe3688c250f74a5bfee</CRC>
-            <Timestamp>132336087455017680</Timestamp>
+            <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_Crosshair_2020-05-09.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509550501919312</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
             <ShowInSearchList>False</ShowInSearchList>
           </Package>
           <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_Lamp" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ye4be56evquh7u91" Name="Lamp" Type="single_dropdown1" Visible="True">
             <Size>535</Size>
-            <ZipFile>Ingame_Info_PlayersPanelPro_EnemySpottedStatus_Lamp_1.9.0.2_2020-05-09.zip</ZipFile>
-            <CRC>7a46e9f13512b7c041741274c4e8e372</CRC>
-            <Timestamp>132336087778599684</Timestamp>
+            <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_Lamp_2020-05-09.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509550649038537</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
             <ShowInSearchList>False</ShowInSearchList>
           </Package>
@@ -949,109 +938,109 @@
           <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="IngameInfo_HpPools_PMOD" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="5486brj2pt2ucqks" Name="PMOD" Type="single1" Visible="True">
+      <Package PackageName="IngameInfo_HpPools_PMOD" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5486brj2pt2ucqks" Name="PMOD" Type="single1" Visible="True">
         <Size>478</Size>
-        <ZipFile>Ingame_Info_HP_Pools_PMOD_Enable_2019-09-11.zip</ZipFile>
-        <CRC>a8795a57c71f78879519037906ca8e30</CRC>
-        <Timestamp>132126612805529396</Timestamp>
+        <ZipFile>IngameInfo_HpPools_PMOD_2019-09-11.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509550947412726</Timestamp>
         <ConflictingPackages>Ingame_Info_HpBars_Champi,XVMConfigBuilder_BattleInterface_HPpools</ConflictingPackages>
         <Dependencies>
           <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="IngameInfo_BattleGUI_PMOD_HighCaliber" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="itfljqp3opvcc2rs" Name="Enable High Caliber Display (Doesnt work on all skins)" Type="multi" Visible="True">
+          <Package PackageName="IngameInfo_HpPools_PMOD_HighCaliber" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="itfljqp3opvcc2rs" Name="Enable High Caliber Display (Doesnt work on all skins)" Type="multi" Visible="True">
             <Size>520</Size>
-            <ZipFile>Ingame_Info_HpPools_PMOD_Enable_HC_1.7.1.2_2020-02-18.zip</ZipFile>
-            <CRC>d2fa3ebfad2461a729299d3274686a3e</CRC>
-            <Timestamp>132265274133098132</Timestamp>
+            <ZipFile>IngameInfo_HpPools_PMOD_HighCaliber_2020-02-18.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509552717792564</Timestamp>
             <Packages>
-              <Package PackageName="IngameInfo_BattleGUI_PMOD_HighCaliber_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vil0rpv4omntceys" Name="For Default Skin" Type="single_dropdown1" Visible="True">
+              <Package PackageName="IngameInfo_HpPools_PMOD_HighCaliber_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vil0rpv4omntceys" Name="For Default Skin" Type="single_dropdown1" Visible="True">
                 <Size>860</Size>
-                <ZipFile>Ingame_Info_BattleGUI_PMOD_High_Caliber_Default_Skin_1.10.0.0_2020-08-09.zip</ZipFile>
-                <CRC>e3462389cdba2e1f56bd8a01e88c6639</CRC>
-                <Timestamp>132414881453819660</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_HighCaliber_Default_2020-08-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509552851070549</Timestamp>
               </Package>
-              <Package PackageName="IngameInfo_BattleGUI_PMOD_HighCaliber_Locastan" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pw37jtlnj5pjn7g5" Name="For Locastan Skin" Type="single_dropdown1" Visible="True">
+              <Package PackageName="IngameInfo_HpPools_PMOD_HighCaliber_Locastan" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pw37jtlnj5pjn7g5" Name="For Locastan Skin" Type="single_dropdown1" Visible="True">
                 <Size>614</Size>
-                <ZipFile>Ingame_Info_BattleGUI_PMOD_High_Caliber_Locastan_Skin_1.10.0.0_2020-08-09.zip</ZipFile>
-                <CRC>f702a47a395c65026e78e8974664dd10</CRC>
-                <Timestamp>132414913348310297</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_HighCaliber_Locastan_2020-08-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509552952327500</Timestamp>
               </Package>
-              <Package PackageName="IngameInfo_BattleGUI_PMOD_HighCaliber_Minimal" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2l9mrtroi1h0nin5" Name="For Minimal Skin" Type="single_dropdown1" Visible="True">
+              <Package PackageName="IngameInfo_HpPools_PMOD_HighCaliber_Minimal" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2l9mrtroi1h0nin5" Name="For Minimal Skin" Type="single_dropdown1" Visible="True">
                 <Size>686</Size>
-                <ZipFile>Ingame_Info_BattleGUI_PMOD_High_Caliber_Minimal_Skin_1.10.0.0_2020-08-09.zip</ZipFile>
-                <CRC>0be60310e39ec4fc4b906baa996ff203</CRC>
-                <Timestamp>132414920911504430</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_HighCaliber_Minimal_2020-08-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509553050761057</Timestamp>
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="IngameInfo_BattleGUI_PMOD_Damage" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fag1zsxphy9inuu5" Name="Enable Damage" Type="multi" Visible="True">
+          <Package PackageName="IngameInfo_HpPools_PMOD_Damage" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fag1zsxphy9inuu5" Name="Enable Damage" Type="multi" Visible="True">
             <Size>520</Size>
-            <ZipFile>Ingame_Info_HpPools_PMOD_Enable_HC_1.7.1.2_2020-02-18.zip</ZipFile>
-            <CRC>d2fa3ebfad2461a729299d3274686a3e</CRC>
-            <Timestamp>132265274133098132</Timestamp>
+            <ZipFile>IngameInfo_HpPools_PMOD_Damage_2020-02-18.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509553178262544</Timestamp>
             <Packages>
-              <Package PackageName="IngameInfo_BattleGUI_PMOD_Damage_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9py8rwn8chb8ynci" Name="For Default Skin" Type="single_dropdown1" Visible="True">
+              <Package PackageName="IngameInfo_HpPools_PMOD_Damage_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9py8rwn8chb8ynci" Name="For Default Skin" Type="single_dropdown1" Visible="True">
                 <Size>699</Size>
-                <ZipFile>Ingame_Info_BattleGUI_PMOD_Damage_Dealt_Default_Skin_1.7.1.2_2020-02-20.zip</ZipFile>
-                <CRC>3c5c8dc6658b50885b0ca3c7aba11b57</CRC>
-                <Timestamp>132266990577868859</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_Damage_Default_2020-02-20.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509553282666760</Timestamp>
                 <Description>Shows total damage done</Description>
               </Package>
-              <Package PackageName="IngameInfo_BattleGUI_PMOD_Damage_Locastan" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="me4nzvt9bd4pyzji" Name="For Locastan Skin" Type="single_dropdown1" Visible="True">
+              <Package PackageName="IngameInfo_HpPools_PMOD_Damage_Locastan" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="me4nzvt9bd4pyzji" Name="For Locastan Skin" Type="single_dropdown1" Visible="True">
                 <Size>592</Size>
-                <ZipFile>Ingame_Info_BattleGUI_PMOD_Damage_Locastan_Skin_1.7.1.2_2020-02-20.zip</ZipFile>
-                <CRC>14182a763850ac86ad5568ddf778d2d1</CRC>
-                <Timestamp>132267074058256642</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_Damage_Locastan_2020-02-20.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509553372952820</Timestamp>
                 <Description>Shows allies and enemies HP</Description>
               </Package>
-              <Package PackageName="IngameInfo_BattleGUI_PMOD_Damage_Minimal" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="gsmvrzjs6w5f9s1v" Name="For Minimal Skin" Type="single_dropdown1" Visible="False">
+              <Package PackageName="IngameInfo_HpPools_PMOD_Damage_Minimal" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="gsmvrzjs6w5f9s1v" Name="For Minimal Skin" Type="single_dropdown1" Visible="False">
                 <Size>520</Size>
-                <ZipFile>Ingame_Info_HpPools_PMOD_Enable_HC_1.7.1.2_2020-02-18.zip</ZipFile>
-                <CRC>d2fa3ebfad2461a729299d3274686a3e</CRC>
-                <Timestamp>132265274133098132</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_Damage_Minimal_2020-02-18.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509553471247184</Timestamp>
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="IngameInfo_BattleGUI_PMOD_PlayersPanelState" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="66zo7yvu4pqe9fgu" Name="Players Panel State" Type="multi" Visible="True">
+          <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="66zo7yvu4pqe9fgu" Name="Players Panel State" Type="multi" Visible="True">
             <Size>478</Size>
-            <ZipFile>Ingame_Info_HP_Pools_PMOD_Enable_2019-09-11.zip</ZipFile>
-            <CRC>a8795a57c71f78879519037906ca8e30</CRC>
-            <Timestamp>132126612805529396</Timestamp>
+            <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_2019-09-11.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509553624620944</Timestamp>
             <Packages>
-              <Package PackageName="IngameInfo_BattleGUI_PMOD_PlayersPanelState_None" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0lgwz2lcz8s4l8y7" Name="Hidden" Type="single_dropdown1" Visible="True">
+              <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState_None" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0lgwz2lcz8s4l8y7" Name="Hidden" Type="single_dropdown1" Visible="True">
                 <Size>539</Size>
-                <ZipFile>Ingame_Info_HpPools_PMOD_Players_Panel_State_NONE_1.10.0.1_2020-08-27.zip</ZipFile>
-                <CRC>e2267f8ef56b0c29197906bc10743365</CRC>
-                <Timestamp>132430249153923195</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_None_2020-08-27.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509553777938997</Timestamp>
               </Package>
-              <Package PackageName="IngameInfo_BattleGUI_PMOD_PlayersPanelState_Short" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="danb71rdy5kmkj57" Name="Short" Type="single_dropdown1" Visible="True">
+              <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState_Short" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="danb71rdy5kmkj57" Name="Short" Type="single_dropdown1" Visible="True">
                 <Size>541</Size>
-                <ZipFile>Ingame_Info_HpPools_PMOD_Players_Panel_State_SHORT_1.7.1.2_2020-02-19.zip</ZipFile>
-                <CRC>8b6332187b039b4c0b89958e62f96344</CRC>
-                <Timestamp>132265996011440901</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_Short_2020-02-19.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509553877636647</Timestamp>
               </Package>
-              <Package PackageName="IngameInfo_BattleGUI_PMOD_PlayersPanelState_Medium" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qzuqf1xey1d3kvc7" Name="Medium" Type="single_dropdown1" Visible="True">
+              <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState_Medium" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qzuqf1xey1d3kvc7" Name="Medium" Type="single_dropdown1" Visible="True">
                 <Size>545</Size>
-                <ZipFile>Ingame_Info_HpPools_PMOD_Players_Panel_State_MEDIUM_1.7.1.2_2020-02-19.zip</ZipFile>
-                <CRC>343237d89f9854f302758159e11b14a9</CRC>
-                <Timestamp>132265996198709453</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_Medium_2020-02-19.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509554008564228</Timestamp>
               </Package>
-              <Package PackageName="IngameInfo_BattleGUI_PMOD_PlayersPanelState_Medium2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kdbx75nxtkftwouk" Name="Medium 2" Type="single_dropdown1" Visible="True">
+              <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState_Medium2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kdbx75nxtkftwouk" Name="Medium 2" Type="single_dropdown1" Visible="True">
                 <Size>547</Size>
-                <ZipFile>Ingame_Info_HpPools_PMOD_Players_Panel_State_MEDIUM2_1.7.1.2_2020-02-19.zip</ZipFile>
-                <CRC>f732e2d8c2978f8df2b97450a4c34bab</CRC>
-                <Timestamp>132265996439131631</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_Medium2_2020-02-19.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509554117480831</Timestamp>
               </Package>
-              <Package PackageName="IngameInfo_BattleGUI_PMOD_PlayersPanelState_Large" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="x2icf4tysg7bw01k" Name="Large" Type="single_dropdown1" Visible="True">
+              <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState_Large" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="x2icf4tysg7bw01k" Name="Large" Type="single_dropdown1" Visible="True">
                 <Size>541</Size>
-                <ZipFile>Ingame_Info_HpPools_PMOD_Players_Panel_State_LARGE_1.7.1.2_2020-02-19.zip</ZipFile>
-                <CRC>11f48e44f80001a7927126f4530813b3</CRC>
-                <Timestamp>132265996597115469</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_Large_2020-02-19.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509554235937448</Timestamp>
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="IngameInfo_BattleGUI_PMOD_Skins" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rhzj78jhn0907tjx" Name="Skins" Type="single1" Visible="True">
+          <Package PackageName="IngameInfo_HpPools_PMOD_Skins" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rhzj78jhn0907tjx" Name="Skins" Type="single1" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132265269806039215</Timestamp>
             <Packages>
@@ -1062,66 +1051,66 @@
               </Package>
               <Package PackageName="IngameInfo_HpPools_PMOD_Skins_Locastan" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hvcdn7wjlst07gyx" Name="Locastan" Type="single_dropdown1" Visible="True">
                 <Size>477</Size>
-                <ZipFile>Ingame_Info_HP_Pools_PMOD_Locastan_1.5.1.1_2019-07-09.zip</ZipFile>
-                <CRC>ca224ec334dfdacf2e037c195120233e</CRC>
-                <Timestamp>132071744844542624</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_Skins_Locastan_2019-07-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509554388578508</Timestamp>
                 <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
               </Package>
               <Package PackageName="IngameInfo_HpPools_PMOD_Skins_Minimal" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="b9ukeam2gbvpi9ga" Name="Minimal" Type="single_dropdown1" Visible="True">
                 <Size>474</Size>
-                <ZipFile>Ingame_Info_HP_Pools_PMOD_Minimal_1.5.1.1_2019-07-09.zip</ZipFile>
-                <CRC>c855af22134cb9a088405575c25f5812</CRC>
-                <Timestamp>132071744404667544</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_Skins_Minimal_2019-07-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509554514908322</Timestamp>
                 <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
               </Package>
               <Package PackageName="IngameInfo_HpPools_PMOD_Skins_WGL" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="oy0znas3f8o7ilna" Name="WGL" Type="single_dropdown1" Visible="True">
                 <Size>464</Size>
-                <ZipFile>Ingame_Info_HP_Pools_PMOD_WGL_1.5.1.1_2019-07-09.zip</ZipFile>
-                <CRC>d62b5d17c137cb5ec897591d846f65d1</CRC>
-                <Timestamp>132071744844542624</Timestamp>
+                <ZipFile>IngameInfo_HpPools_PMOD_Skins_WGL_2019-07-09.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509554627644872</Timestamp>
                 <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
               </Package>
               <Package PackageName="IngameInfo_BattleGUI_PMOD_Skins_lebwa1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1n7ev9y4e4gpiwu9" Name="Lebwa Variant #1" Type="single_dropdown1" Visible="True">
                 <Size>527</Size>
-                <ZipFile>Ingame_Info_HpPools_PMOD_lebwa_1_1.7.1.2_2020-02-18.zip</ZipFile>
-                <CRC>af826f960679ca839721b3cfa4df04cb</CRC>
-                <Timestamp>132265263518655375</Timestamp>
+                <ZipFile>IngameInfo_BattleGUI_PMOD_Skins_lebwa1_2020-02-18.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509554725425216</Timestamp>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_1.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
               <Package PackageName="IngameInfo_BattleGUI_PMOD_Skins_lebwa3" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8rv0ucuo9kawt1jm" Name="Lebwa Variant #3" Type="single_dropdown1" Visible="True">
                 <Size>528</Size>
-                <ZipFile>Ingame_Info_HpPools_PMOD_lebwa_3_1.7.1.2_2020-02-18.zip</ZipFile>
-                <CRC>e4bfc4e821069a69e16082cc61e4168d</CRC>
-                <Timestamp>132265264197314486</Timestamp>
+                <ZipFile>IngameInfo_BattleGUI_PMOD_Skins_lebwa3_2020-02-18.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509554818009498</Timestamp>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_3.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
               <Package PackageName="IngameInfo_BattleGUI_PMOD_Skins_lebwa2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="v2olmdon9nietpcn" Name="Lebwa Variant #2" Type="single_dropdown1" Visible="True">
                 <Size>527</Size>
-                <ZipFile>Ingame_Info_HpPools_PMOD_lebwa_2_1.7.1.2_2020-02-18.zip</ZipFile>
-                <CRC>7e32d4a8b36bc851fb2032250a8e6eb3</CRC>
-                <Timestamp>132265263888106890</Timestamp>
+                <ZipFile>IngameInfo_BattleGUI_PMOD_Skins_lebwa2_2020-02-18.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509554907326961</Timestamp>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_2.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
               <Package PackageName="IngameInfo_BattleGUI_PMOD_Skins_lebwa4" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="25d8mgk733cl4u1z" Name="Lebwa Variant #4" Type="single_dropdown1" Visible="True">
                 <Size>528</Size>
-                <ZipFile>Ingame_Info_HpPools_PMOD_lebwa_4_1.7.1.2_2020-02-18.zip</ZipFile>
-                <CRC>b85ad4f0ce9ec22d58047f9881046c02</CRC>
-                <Timestamp>132265264474704967</Timestamp>
+                <ZipFile>IngameInfo_BattleGUI_PMOD_Skins_lebwa4_2020-02-18.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509555021688141</Timestamp>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_4.jpg" MediaType="Picture" />
                 </Medias>
               </Package>
               <Package PackageName="IngameInfo_BattleGUI_PMOD_Skins_lebwa5" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fujmugq83z43458z" Name="Lebwa Variant #5" Type="single_dropdown1" Visible="True">
                 <Size>529</Size>
-                <ZipFile>Ingame_Info_HpPools_PMOD_lebwa_5_1.7.1.2_2020-02-18.zip</ZipFile>
-                <CRC>d7deebe7b56a9b3c7b9936baac3a63ff</CRC>
-                <Timestamp>132265264729168184</Timestamp>
+                <ZipFile>IngameInfo_BattleGUI_PMOD_Skins_lebwa5_2020-02-18.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509555137954886</Timestamp>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_5.jpg" MediaType="Picture" />
                 </Medias>
@@ -1168,18 +1157,18 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="IngameInfo_EnemySpottedStatus_PMOD" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cck3aiyuv8jagxcc" Name="ESS  [by {author}]" Type="single1" Visible="True">
+      <Package PackageName="IngameInfo_EnemySpottedStatus_PMOD" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="cck3aiyuv8jagxcc" Name="ESS  [by {author}]" Type="single1" Visible="True">
         <Size>507</Size>
-        <ZipFile>Ingame_Info_Enemy_Spotted_Status_PMOD_Enable_2020-03-29.zip</ZipFile>
-        <CRC>54c33329cca0c0815cd985278473108f</CRC>
-        <Timestamp>132299629794641811</Timestamp>
+        <ZipFile>IngameInfo_EnemySpottedStatus_PMOD_2020-03-29.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509555539534653</Timestamp>
         <Author>poliroid</Author>
         <Packages>
-          <Package PackageName="IngameInfo_EnemySpottedStatus_PMOD_asterisk" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6q2a2mocqrlzrqup" Name="Use colored asterisk &quot;*&quot; from Willster419's xvm config" Type="multi" Visible="True">
+          <Package PackageName="IngameInfo_EnemySpottedStatus_PMOD_asterisk" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6q2a2mocqrlzrqup" Name="Use colored asterisk &quot;*&quot; from Willster419's xvm config" Type="multi" Visible="True">
             <Size>635</Size>
-            <ZipFile>Ingame_Info_Enemy_Spotted_Status_PMOD_asterisk_2019-12-25.zip</ZipFile>
-            <CRC>bc5d31622acaacf601a6bbb7da7ad6cf</CRC>
-            <Timestamp>132217294418291868</Timestamp>
+            <ZipFile>IngameInfo_EnemySpottedStatus_PMOD_asterisk_2019-12-25.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509555700187386</Timestamp>
           </Package>
         </Packages>
       </Package>
@@ -1320,9 +1309,9 @@
       </Package>
       <Package PackageName="IngameInfo_InBattleRating_RaJCeL" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="8aymq0m7um5hbcxh" Name="RaJCeL" Type="single_dropdown1" Visible="True">
         <Size>560</Size>
-        <ZipFile>Ingame_Info_InBattle_Rating_RaJCeL_enable_patch_2019-10-10.zip</ZipFile>
-        <CRC>31990daa0f216c5d64d139b0f6603870</CRC>
-        <Timestamp>132151877097756362</Timestamp>
+        <ZipFile>IngameInfo_InBattleRating_RaJCeL_2019-10-10.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509556332485546</Timestamp>
         <DevURL>https://wgmods.net/2559/details\r\nhttp://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel/</DevURL>
         <InternalNotes>its a patch: nothing todo</InternalNotes>
         <Description>Mod is showing some statistics in battle and replays. Mod doesn’t need XVM to work.\r\n\r\nNot working on NA server as of 1.5.1 (06-15-2019)</Description>
@@ -1382,29 +1371,29 @@
               <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_Circon" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cvno55qch9evx9q6" Name="#4 - Circon`s config  ( &lt;- our previous default one!)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_v4Circon" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cvno55qch9evx9q6" Name="#4 - Circon`s config  ( &lt;- our previous default one!)" Type="single_dropdown1" Visible="True">
             <Size>636</Size>
-            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v4_circon_xtnd.zip</ZipFile>
-            <CRC>8237b778e49aa37be290a4e7f7cd3c23</CRC>
-            <Timestamp>132302145542470445</Timestamp>
+            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v4Circon.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509556835778865</Timestamp>
           </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_extended" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pku3d5xdg67cxlx6" Name="#3 - Spoter´s extended config" Type="single_dropdown1" Visible="True">
+          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_v3spoter" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pku3d5xdg67cxlx6" Name="#3 - Spoter´s extended config" Type="single_dropdown1" Visible="True">
             <Size>636</Size>
-            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v3_spoter_xtnd.zip</ZipFile>
-            <CRC>096bfacfc24c7313f62ef78ca938f044</CRC>
-            <Timestamp>132302145391193948</Timestamp>
+            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v3spoter.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509557190616472</Timestamp>
           </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_myp" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="woipd8txal1k8pmj" Name="#2 - Myp´s config (SMALL)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_v2myp" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="woipd8txal1k8pmj" Name="#2 - Myp´s config (SMALL)" Type="single_dropdown1" Visible="True">
             <Size>636</Size>
-            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v2_Myp_small.zip</ZipFile>
-            <CRC>58aa8153abab072ef9665253ad6a4efc</CRC>
-            <Timestamp>132302145320283121</Timestamp>
+            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v2myp.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509557364669537</Timestamp>
           </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_skill4tu" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9dp4l7zy9it181uj" Name="#1 - Skill4tu´s config (SMALL)" Type="single_dropdown1" Visible="True">
+          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_v1skill4tu" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9dp4l7zy9it181uj" Name="#1 - Skill4tu´s config (SMALL)" Type="single_dropdown1" Visible="True">
             <Size>636</Size>
-            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v1_skill4tu_small.zip</ZipFile>
-            <CRC>fdb2264f17cbfdc843861338e29bc4a8</CRC>
-            <Timestamp>132302145157437283</Timestamp>
+            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v1skill4tu.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509557535920517</Timestamp>
           </Package>
         </Packages>
       </Package>
@@ -1438,9 +1427,8 @@
         <Packages>
           <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ggdqlbvi3xn9j5jw" Name="config:" Type="multi" Visible="True">
             <Size>683</Size>
-            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleHalfPercents.zip</ZipFile>
-            <CRC>c7213ffd52ed87f7a98efb8fd78a528b</CRC>
-            <Timestamp>132302170787272615</Timestamp>
+            <CRC>f</CRC>
+            <Timestamp>132509557814096645</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
             <Packages>
               <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="avuxdel1ygpyvy19" Name="default" Type="single_dropdown1" Visible="True">
@@ -1450,9 +1438,9 @@
               </Package>
               <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_elektrosmoker" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="nk1cler2ydigva89" Name="elektrosmoker" Type="single_dropdown1" Visible="True">
                 <Size>995</Size>
-                <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_elektrosmoker_PATCH_2020-05-04.zip</ZipFile>
-                <CRC>5e1a96c0372c9246f19f5763b464b102</CRC>
-                <Timestamp>132330581893700525</Timestamp>
+                <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_elektrosmoker_2020-05-04.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509558061674186</Timestamp>
                 <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
               </Package>
             </Packages>
@@ -1505,11 +1493,12 @@
   </Package>
   <Package PackageName="IngameInfo_playersPanelDamage" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="egk0tkp7l4ychvty" Name="Show dealt damage/tank in players panel" Type="multi" Visible="True">
     <Size>558</Size>
-    <ZipFile>Ingame_Info_playersPanelDamage_RaJCeL_enable_patch_2019-10-10.zip</ZipFile>
-    <CRC>6ca63c8cf65f448066af2ca24c702388</CRC>
-    <Timestamp>132151882298354398</Timestamp>
+    <ZipFile>IngameInfo_playersPanelDamage_2019-10-10.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132509558871055334</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel</DevURL>
-    <InternalNotes>its a patch: nothing todo</InternalNotes>
+    <InternalNotes>its a patch: nothing todo\r\nrajcel inbattletatistics</InternalNotes>
+    <Author>Rajcel</Author>
     <Dependencies>
       <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
@@ -1520,9 +1509,9 @@
     <Packages>
       <Package PackageName="IngameInfo_RTAN_Aimdrol" Enabled="True" Tags="Patch,Script,SoundBank,ConfigurationFileXml" InstallGroup="4" PatchGroup="4" UID="0sbdo1pmib5jcxt3" Name="RTAN [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>200733</Size>
-        <ZipFile>Ingame_Info_RTAN_Aimdrol_1.10.1.0_bootleg_2020-10-24.zip</ZipFile>
-        <CRC>0b72cbf5e246e47d01c31a482b88339e</CRC>
-        <Timestamp>132480695072610388</Timestamp>
+        <ZipFile>IngameInfo_RTAN_Aimdrol_1.10.1.0_2020-10-24.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509559136037449</Timestamp>
         <DevURL>https://github.com/Aimdrol/MLG-RTAN</DevURL>
         <InternalNotes>the new bnk comes from the RelhaxSoundMod repo</InternalNotes>
         <Author>Aimdrol</Author>
@@ -1571,13 +1560,15 @@
     <Packages>
       <Package PackageName="IngameInfo_SpotMessenger_activated" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="3d0f46us5zexyums" Name="Active at start, deactivate with F11" Type="single_dropdown1" Visible="True">
         <Size>485</Size>
-        <ZipFile>Ingame_Info_SpotMessenger_activated_2017-07-12.zip</ZipFile>
-        <CRC>3e1399abb0122f7b023c6f1473051809</CRC>
+        <ZipFile>IngameInfo_SpotMessenger_activated_2017-07-12.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509559460137226</Timestamp>
       </Package>
       <Package PackageName="IngameInfo_SpotMessenger_deactivated" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="g27uc50t4v6ey5ts" Name="Inactive at start, activate with F11" Type="single_dropdown1" Visible="True">
         <Size>489</Size>
-        <ZipFile>Ingame_Info_SpotMessenger_deactivated_2017-07-12.zip</ZipFile>
-        <CRC>059efcdef477fc82e90f8ff5514a3ce6</CRC>
+        <ZipFile>IngameInfo_SpotMessenger_deactivated_2017-07-12.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132509559569815760</Timestamp>
       </Package>
       <Package PackageName="IngameInfo_SpotMessenger_Battletypes" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="aho149qbze849yb5" Name="Battletypes" Type="multi" Visible="True">
         <Packages>
@@ -1585,13 +1576,15 @@
             <Packages>
               <Package PackageName="IngameInfo_SpotMessenger_Battletypes_Random_teammsg" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ikcn4dmvtu2bl30i" Name="With Message in Team chat" Type="single_dropdown1" Visible="True">
                 <Size>699</Size>
-                <ZipFile>Ingame_Info_SpotMessenger_Random_1_teammsg_patch.zip</ZipFile>
-                <CRC>0bc8ca81cae69a725a70a120d1b2ba22</CRC>
+                <ZipFile>IngameInfo_SpotMessenger_Battletypes_Random_teammsg.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509560441224386</Timestamp>
               </Package>
               <Package PackageName="IngameInfo_SpotMessenger_Battletypes_Random_squadmsg" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="u9j2ccswsqvtlf7i" Name="With Message in Platoon chat" Type="single_dropdown1" Visible="True">
                 <Size>704</Size>
-                <ZipFile>Ingame_Info_SpotMessenger_Random_2_squadmsg_patch.zip</ZipFile>
-                <CRC>297633c88a0861fe9206595a0dfd73d8</CRC>
+                <ZipFile>IngameInfo_SpotMessenger_Battletypes_Random_squadmsg.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509560557570254</Timestamp>
               </Package>
             </Packages>
           </Package>
@@ -1599,32 +1592,35 @@
             <Packages>
               <Package PackageName="IngameInfo_SpotMessenger_Battletypes_EpicRandom_teammsg" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="1d7pcfogm6p0wjxv" Name="With Message in Team chat" Type="single_dropdown1" Visible="True">
                 <Size>726</Size>
-                <ZipFile>Ingame_Info_SpotMessenger_EpicRandom_EpicBattle_1_teammsg_patch.zip</ZipFile>
-                <CRC>2f4a21dd5a817821f827bc9d7ed07fae</CRC>
-                <Timestamp>131698513108236118</Timestamp>
+                <ZipFile>IngameInfo_SpotMessenger_Battletypes_EpicRandom_teammsg.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509560663424193</Timestamp>
               </Package>
               <Package PackageName="IngameInfo_SpotMessenger_Battletypes_EpicRandom_squadmsg" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="e2d4kfuhm2hiwv4v" Name="With Message in Platoon chat" Type="single_dropdown1" Visible="True">
                 <Size>725</Size>
-                <ZipFile>Ingame_Info_SpotMessenger_EpicRandom_EpicBattle_2_squadmsg_patch.zip</ZipFile>
-                <CRC>4fad78923e4de492cdfd94c81bfa8d28</CRC>
-                <Timestamp>131698513238180156</Timestamp>
+                <ZipFile>IngameInfo_SpotMessenger_Battletypes_EpicRandom_squadmsg.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132509560810289938</Timestamp>
               </Package>
             </Packages>
           </Package>
           <Package PackageName="IngameInfo_SpotMessenger_Battletypes_Teambattle" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="rrkise0ilza0w7bu" Name="Teambattle" Type="multi" Visible="True">
             <Size>686</Size>
-            <ZipFile>Ingame_Info_SpotMessenger_Teambattle_patch.zip</ZipFile>
-            <CRC>5c584ec56e62f2ff36974f2bf8ce5efc</CRC>
+            <ZipFile>IngameInfo_SpotMessenger_Battletypes_Teambattle.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509560056704437</Timestamp>
           </Package>
           <Package PackageName="IngameInfo_SpotMessenger_Battletypes_Ranked" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="l51qkiq1gibp70t8" Name="Ranked Teambattle" Type="multi" Visible="True">
             <Size>677</Size>
-            <ZipFile>Ingame_Info_SpotMessenger_Ranked_patch.zip</ZipFile>
-            <CRC>b273c986940eac441159721eb8375f38</CRC>
+            <ZipFile>IngameInfo_SpotMessenger_Battletypes_Ranked.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509560160708119</Timestamp>
           </Package>
           <Package PackageName="IngameInfo_SpotMessenger_Battletypes_ClanBattle" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="yu85shw2fe477b07" Name="ClanBattle" Type="multi" Visible="True">
             <Size>713</Size>
-            <ZipFile>Ingame_Info_SpotMessenger_ClanBattle_patch.zip</ZipFile>
-            <CRC>a13a3f6408bb08b6fdbdf94f1ba1b448</CRC>
+            <ZipFile>IngameInfo_SpotMessenger_Battletypes_ClanBattle.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509560301146150</Timestamp>
             <Description>CW, Skirmish or Stronghold</Description>
           </Package>
         </Packages>
@@ -1633,29 +1629,34 @@
         <Packages>
           <Package PackageName="IngameInfo_SpotMessenger_VehicleTypes_lt" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="in360kyn8qqwirwk" Name="LT" Type="multi" Visible="True">
             <Size>616</Size>
-            <ZipFile>Ingame_Info_SpotMessenger_light_patch.zip</ZipFile>
-            <CRC>1cf0cefec0baa2f1a6425394e7f9c5f8</CRC>
+            <ZipFile>IngameInfo_SpotMessenger_VehicleTypes_lt.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509560964775471</Timestamp>
           </Package>
           <Package PackageName="IngameInfo_SpotMessenger_VehicleTypes_mt" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="c1kdroo639sltkex" Name="MT" Type="multi" Visible="True">
             <Size>612</Size>
-            <ZipFile>Ingame_Info_SpotMessenger_med_patch.zip</ZipFile>
-            <CRC>d15ade4597929f6ad07be8cec2bd6135</CRC>
+            <ZipFile>IngameInfo_SpotMessenger_VehicleTypes_mt.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509561061548804</Timestamp>
           </Package>
           <Package PackageName="IngameInfo_SpotMessenger_VehicleTypes_ht" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="pqrsznu726l3twmx" Name="HT" Type="multi" Visible="True">
             <Size>610</Size>
-            <ZipFile>Ingame_Info_SpotMessenger_ht_patch.zip</ZipFile>
-            <CRC>cbfbd6de2468173638bba6f5f653cf42</CRC>
+            <ZipFile>IngameInfo_SpotMessenger_VehicleTypes_ht.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509561172010819</Timestamp>
           </Package>
           <Package PackageName="IngameInfo_SpotMessenger_VehicleTypes_td" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="2fx77n0822dlt8tx" Name="TD" Type="multi" Visible="True">
             <Size>610</Size>
-            <ZipFile>Ingame_Info_SpotMessenger_td_patch.zip</ZipFile>
-            <CRC>8264f99f4a6b877b38b191d49022bb19</CRC>
+            <ZipFile>IngameInfo_SpotMessenger_VehicleTypes_td.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509561264276046</Timestamp>
             <Description>CW, Skirmish or Stronghold</Description>
           </Package>
           <Package PackageName="IngameInfo_SpotMessenger_VehicleTypes_spg" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="wtfezqqrxlfa51ba" Name="SPG" Type="multi" Visible="True">
             <Size>614</Size>
-            <ZipFile>Ingame_Info_SpotMessenger_spg_patch.zip</ZipFile>
-            <CRC>796320f3e212e5bbef277a9517cba47e</CRC>
+            <ZipFile>IngameInfo_SpotMessenger_VehicleTypes_spg.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132509561409570058</Timestamp>
           </Package>
         </Packages>
       </Package>
@@ -1677,9 +1678,9 @@
   </Package>
   <Package PackageName="IngameInfo_HiddenParameters" Enabled="True" Tags="Patch,ConfigurationFileJson,Script" InstallGroup="4" PatchGroup="4" UID="3x30zumbr19ig50n" Name="Hidden parameters (Shell Info) [by {author}]" Type="multi" Visible="True">
     <Size>15442</Size>
-    <ZipFile>IngameInfo_HiddenParameters_Rajcel_1.10.1.0_2020-10-24.zip</ZipFile>
-    <CRC>b449a1d3bb88a2b79f7112faec93f5b9</CRC>
-    <Timestamp>132480625070719065</Timestamp>
+    <ZipFile>IngameInfo_HiddenParameters_1.10.1.0_2020-10-24.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132509559800384053</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
     <Author>RaJCeL</Author>
     <Description>in battle this mod shows the shell´s speed in the consumables infopanel.\r\n\r\nby RaJCeL</Description>
