@@ -2340,7 +2340,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_HullInfo" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6x5vdi28mbcnakfj" Name="Hull-Info for current tank" Type="multi" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_HullInfo" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6x5vdi28mbcnakfj" Name="Hull  [Infofield]" Type="multi" Visible="True">
             <Size>1886</Size>
             <ZipFile>XVMConfigBuilder_BattleInterface_HullInfo_2020-08-14.zip</ZipFile>
             <CRC>4896989b6f1be6eadf8022f28072ac18</CRC>
@@ -2355,7 +2355,7 @@
               <Dependency PackageName="Dependency_XVM_XC_hull" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_ElevationInfo" Enabled="True" Tags="Patch,ConfigurationFileXC" InstallGroup="4" PatchGroup="4" UID="wtccju336klzmfqs" Name="Elevation-Info for current tank" Type="multi" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_ElevationInfo" Enabled="True" Tags="Patch,ConfigurationFileXC" InstallGroup="4" PatchGroup="4" UID="wtccju336klzmfqs" Name="Elevation angles  [Infofield]" Type="multi" Visible="True">
             <Size>1944</Size>
             <ZipFile>XVMConfigBuilder_BattleInterface_ElevationInfo_2020-11-05.zip</ZipFile>
             <CRC>dcbd023a18cbe42a3c4aadcf516425e0</CRC>
@@ -2365,7 +2365,19 @@
               <Dependency PackageName="Dependency_XVM_XC_elevation" NotFlag="False" Logic="OR" />
             </Dependencies>
           </Package>
-          <Package PackageName="XVMConfigBuilder_BattleInterface_Speed" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="1bn24lsrgvedmdxw" Name="Speed of current tank" Type="multi" Visible="True">
+          <Package PackageName="XVMConfigBuilder_BattleInterface_GunPen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8mz0jkkodt4gukd1" Name="Top penetration of your current gun [Infofield]" Type="multi" Visible="True">
+            <ZipFile>XVMConfigBuilder_BattleInterface_gunPen_2020-12-07.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132518209240746198</Timestamp>
+            <Description>This will display your gun´s top penetration in battle.</Description>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_GunDmg" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ve5pelfrmu72awyo" Name="Top damage of current gun [Infofield]" Type="multi" Visible="True">
+            <ZipFile>XVMConfigBuilder_BattleInterface_gunDmg_2020-12-07.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132518209287655071</Timestamp>
+            <Description>This will display your gun´s top damage in battle.</Description>
+          </Package>
+          <Package PackageName="XVMConfigBuilder_BattleInterface_Speed" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="1bn24lsrgvedmdxw" Name="Speed of current tank [Infofield]" Type="multi" Visible="True">
             <Size>573</Size>
             <ZipFile>XVMConfigBuilder_BattleInterface_Speed_2020-10-24.zip</ZipFile>
             <CRC>090fca478c3ac52ee266f62b32c06b02</CRC>
