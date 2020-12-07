@@ -2370,12 +2370,18 @@
             <CRC>f</CRC>
             <Timestamp>132518209240746198</Timestamp>
             <Description>This will display your gun´s top penetration in battle.</Description>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_XC_gunPen" NotFlag="False" Logic="OR" />
+            </Dependencies>
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_GunDmg" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ve5pelfrmu72awyo" Name="Top damage of current gun [Infofield]" Type="multi" Visible="True">
             <ZipFile>XVMConfigBuilder_BattleInterface_gunDmg_2020-12-07.zip</ZipFile>
             <CRC>f</CRC>
             <Timestamp>132518209287655071</Timestamp>
             <Description>This will display your gun´s top damage in battle.</Description>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XVM_XC_gunDmg" NotFlag="False" Logic="OR" />
+            </Dependencies>
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_Speed" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="1bn24lsrgvedmdxw" Name="Speed of current tank [Infofield]" Type="multi" Visible="True">
             <Size>573</Size>
