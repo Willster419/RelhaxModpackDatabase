@@ -3400,9 +3400,9 @@
       <Package PackageName="GarageGraphics_UI_GIRLSundPANZER" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="wgze5olfl2k7rxv8" Name="Blue Steel of GIRLS und PANZER UI ( Complete User Interface Conversion )" Type="single_dropdown1" Visible="True">
         <Size>168212579</Size>
         <Version>beta2.22</Version>
-        <ZipFile>GarageGraphics_UI_GIRLSundPANZER_Beta222_1.10.1.0_2020-10-23.zip</ZipFile>
-        <CRC>9b8b8c0083df3d5991204dfe48cf63d3</CRC>
-        <Timestamp>132479503533724072</Timestamp>
+        <ZipFile>GarageGraphics_UI_GIRLSundPANZER_Beta222_1.10.1.0_2020-12-07.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132518524198302454</Timestamp>
         <DevURL>https://github.com/SEA-group/GIRLS-und-PANZER-UI\r\nhttps://wgmods.net/1177/</DevURL>
         <InternalNotes>removed from original package:\n\nvehicle decals\ngui\flash\flagslib.swf\ngui\flash\logos.swf\ngui\flash\waiting.swf\ngui\maps\legal_brands.png\ngui\maps\loading_award.png\n\ncomplete login-folder (pictures still selectable as loadingsplash and/or loginbackground)\n[gui\maps\login\__login_bg.png\ngui\maps\login\__login_logo.png]</InternalNotes>
         <Description>This is a complete UI-Conversion.\nAuthor: Yuntian / SEA-Group\n\nNotice: It´s possible that some other graphical garrage mods wont work correct!\n\nThe following contents have been modified:\n\nDialog box background;\nMost of the interface buttons;\nMost of the interface background;\nHead up map;\nPlayer list in battle;\netc.\n\nLoadingLogo / LoginBackgrounds are separate selectable in modpack</Description>
@@ -3414,6 +3414,9 @@
           <Media URL="https://wgmods.net/media/002.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
           <Media URL="https://wgmods.net/media/shot_044_sscQIN1.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
         </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
     </Packages>
   </Package>
