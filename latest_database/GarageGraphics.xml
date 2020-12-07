@@ -3244,6 +3244,9 @@
     <InternalNotes>modified gui/flash/flagslib.swf \r\nUPDATE: \r\n- only with new tanks are added (Gauss: checks are required here)\r\n- a new fraction is added (Gauss: breaks every mod)\r\n</InternalNotes>
     <Maintainers>Gauss</Maintainers>
     <Description>Custom nation flags.\r\nGame Settings must be on &gt; Adaptive</Description>
+    <Dependencies>
+      <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
+    </Dependencies>
     <Packages>
       <Package PackageName="GarageGraphics_FlagsLib_WGDefault" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="ttft5e7eyb5dyfrn" Name="WG default" Type="single_dropdown1" Visible="True">
         <CRC>f</CRC>
@@ -3253,9 +3256,9 @@
       <Package PackageName="GarageGraphics_FlagsLib_DEbrandedMod" Enabled="True" Tags="GuiFlash,ImagePNG" InstallGroup="4" PatchGroup="4" UID="a481a7l0ovd0wvw3" Name="DEbranded´s Flags (better standard-flags version) [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>7248380</Size>
         <Version>2.36</Version>
-        <ZipFile>GarageGraphics_FlagsLib_DEbrandedMod_1.10.1.1_2020-10-27.zip</ZipFile>
-        <CRC>317f570e75923c412c54b60d84ab2edd</CRC>
-        <Timestamp>132509633199367647</Timestamp>
+        <ZipFile>GarageGraphics_FlagsLib_DEbrandedMod_1.10.1.1_2020-12-07.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132518533051680644</Timestamp>
         <DevURL>https://wgmods.net/585/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/618649-</DevURL>
         <InternalNotes>gui/flash/flagslib.swf\nmod created with debranded´s installer\r\nhttps://debranded.de/download/DEbrandedMod.exe\r\n\r\ngui/flash/flagslib.swf [surprise]\r\nNationflags in the garage left from carousel\r\ngui\maps\icons\filters/nations\*.png inside DATE 2018\r\ngui\maps\icons\filters/nationsMedium\*.png inside DATE 2018</InternalNotes>
         <Author>DEbranded</Author>
@@ -3272,9 +3275,9 @@
       <Package PackageName="GarageGraphics_FlagsLib_GuP" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="ntfgi7r1nr6iw633" Name="Girls und Panzer [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>9819633</Size>
         <Version>2.19</Version>
-        <ZipFile>GarageGraphics_FlagsLib_GuP_1.10.0.2_2020-09-22.zip</ZipFile>
-        <CRC>2f83906c25707476ed167ecffe67d424</CRC>
-        <Timestamp>132452339712899229</Timestamp>
+        <ZipFile>GarageGraphics_FlagsLib_GuP_1.10.0.2_2020-12-07.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132518534435381744</Timestamp>
         <DevURL>https://github.com/SEA-group/GIRLS-und-PANZER-UI/blob/master/gui/flash/FlagsLib.swf</DevURL>
         <Author>SEA-Group</Author>
         <Maintainers>Not Gauss (hate GuP)</Maintainers>
@@ -3289,9 +3292,9 @@
       </Package>
       <Package PackageName="GarageGraphics_FlagsLib_HAWGSmallBottom" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7laip9tmg3s77mzg" Name="1. Small Bottom [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>7548082</Size>
-        <ZipFile>GarageGraphics_FlagsLib_HAWG__SmallBottom_1.11.0.0_2020-12-06.zip</ZipFile>
+        <ZipFile>GarageGraphics_FlagsLib_HAWG__SmallBottom_1.11.0.0_2020-12-07.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132518475194752620</Timestamp>
+        <Timestamp>132518529218187755</Timestamp>
         <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-carousel-flags\r\nhttps://wgmods.net/2044/</DevURL>
         <Author>HAWG</Author>
         <FromWGmods>True</FromWGmods>
@@ -3301,9 +3304,9 @@
       </Package>
       <Package PackageName="GarageGraphics_FlagsLib_HAWGFull" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="12quc2y0ftniag5u" Name="2. Full  [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>7835359</Size>
-        <ZipFile>GarageGraphics_FlagsLib_HAWG__Full_1.11.0.0_2020-12-06.zip</ZipFile>
+        <ZipFile>GarageGraphics_FlagsLib_HAWG__Full_1.11.0.0_2020-12-07.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132518475324645254</Timestamp>
+        <Timestamp>132518529382344420</Timestamp>
         <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-carousel-flags\r\nhttps://wgmods.net/2044/\r\n</DevURL>
         <Author>HAWG</Author>
         <FromWGmods>True</FromWGmods>
@@ -3314,9 +3317,9 @@
       </Package>
       <Package PackageName="GarageGraphics_FlagsLib_HAWGBigTop" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="uw33hanlh70p7bsg" Name="3. Big Top [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>7652967</Size>
-        <ZipFile>GarageGraphics_FlagsLib_HAWG__BigTop_1.11.0.0_2020-12-06.zip</ZipFile>
+        <ZipFile>GarageGraphics_FlagsLib_HAWG__BigTop_1.11.0.0_2020-12-07.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132518475466024860</Timestamp>
+        <Timestamp>132518529524548296</Timestamp>
         <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-carousel-flags\r\nhttps://wgmods.net/2044/\r\n</DevURL>
         <Author>HAWG</Author>
         <FromWGmods>True</FromWGmods>
@@ -3326,9 +3329,9 @@
       </Package>
       <Package PackageName="GarageGraphics_FlagsLib_HAWGNoFlags" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="ndpdyx45ai9elqav" Name="Hawg No Flags" Type="single_dropdown1" Visible="True">
         <Size>7478542</Size>
-        <ZipFile>GarageGraphics_FlagsLib_HAWG__NoFlags_1.11.0.0_2020-12-06.zip</ZipFile>
+        <ZipFile>GarageGraphics_FlagsLib_HAWG__NoFlags_1.11.0.0_2020-12-07.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132518475658139258</Timestamp>
+        <Timestamp>132518529649237445</Timestamp>
         <DevURL>https://wgmods.net/2044/</DevURL>
         <InternalNotes>Use this to create things https://drive.google.com/file/d/1Z0K3576V2oFPuGvBSx3zbQ71M3syWFj5/view?usp=sharing</InternalNotes>
         <Author>HAWG</Author>
@@ -3337,9 +3340,9 @@
       </Package>
       <Package PackageName="GarageGraphics_FlagsLib_HAWGSmallEmblems" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="jvtvkufcmorkcdup" Name="5. Small Emblems [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>7523050</Size>
-        <ZipFile>GarageGraphics_FlagsLib_HAWG__SmallEmblems_1.11.0.0_2020-12-06.zip</ZipFile>
+        <ZipFile>GarageGraphics_FlagsLib_HAWG__SmallEmblems_1.11.0.0_2020-12-07.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132518475829600616</Timestamp>
+        <Timestamp>132518529797569432</Timestamp>
         <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-carousel-flags\r\nhttps://wgmods.net/2044/\r\n</DevURL>
         <FromWGmods>True</FromWGmods>
         <Medias>
@@ -3349,9 +3352,9 @@
       </Package>
       <Package PackageName="GarageGraphics_FlagsLib_HAWGFullEmblems" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="epsrjnjp168z9vsr" Name="6. Full Emblems [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>7678739</Size>
-        <ZipFile>GarageGraphics_FlagsLib_HAWG__FullEmblems_1.11.0.0_2020-12-06.zip</ZipFile>
+        <ZipFile>GarageGraphics_FlagsLib_HAWG__FullEmblems_1.11.0.0_2020-12-07.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132518476015815930</Timestamp>
+        <Timestamp>132518530437770795</Timestamp>
         <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-carousel-flags\r\nhttps://wgmods.net/2044/\r\n</DevURL>
         <FromWGmods>True</FromWGmods>
         <Medias>
@@ -3361,9 +3364,9 @@
       </Package>
       <Package PackageName="GarageGraphics_FlagsLib_HAWGWTE100" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jegg5da9j0fkd84j" Name="8. WTE100 Blue Thunder" Type="single_dropdown1" Visible="True">
         <Size>7853999</Size>
-        <ZipFile>GarageGraphics_FlagsLib_HAWG__WTE100Event_1.11.0.0_2020-12-06.zip</ZipFile>
+        <ZipFile>GarageGraphics_FlagsLib_HAWG__WTE100Event_1.11.0.0_2020-12-07.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132518476295037736</Timestamp>
+        <Timestamp>132518530559311221</Timestamp>
         <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-carousel-flags\r\nhttps://wgmods.net/2044/\r\n</DevURL>
         <FromWGmods>True</FromWGmods>
         <Medias>
@@ -3372,9 +3375,9 @@
       </Package>
       <Package PackageName="GarageGraphics_FlagsLib_HAWGSteelHunterEmblems" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="4b2wpcf6apz91k5s" Name="Hawg Steel Hunter Emblems" Type="single_dropdown1" Visible="True">
         <Size>7505621</Size>
-        <ZipFile>GarageGraphics_FlagsLib_HAWG__SteelHunterEmblems_1.11.0.0_2020-12-06.zip</ZipFile>
+        <ZipFile>GarageGraphics_FlagsLib_HAWG__SteelHunterEmblems_1.11.0.0_2020-12-07.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132518476444611460</Timestamp>
+        <Timestamp>132518530674263808</Timestamp>
         <DevURL>https://wgmods.net/2044/</DevURL>
         <InternalNotes>Use this to create things https://drive.google.com/file/d/1Z0K3576V2oFPuGvBSx3zbQ71M3syWFj5/view?usp=sharing</InternalNotes>
         <Author>HAWG</Author>
