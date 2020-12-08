@@ -126,7 +126,8 @@
       <Media URL="https://wgmods.net/media/clanlogo.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
     </Medias>
   </Package>
-  <Package PackageName="TankSkinsMisc_ColoredPenetration" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ds7mntuerrvuiuco" Name="Colored damage stickers (paintball mod)" Type="multi" Visible="True">
+  <Package PackageName="TankSkinsMisc_ColoredPenetration" Enabled="True" Tags="ImageDDS,Patch" InstallGroup="4" PatchGroup="4" UID="ds7mntuerrvuiuco" Name="Colored damage stickers (paintball mod)" Type="multi" Visible="True">
+    <InternalNotes>Mod contains a wotmod with DDS-images.\r\nThe files inside the wotmod are from around 2018.\r\nThere is also a patch for the load_order.xml.\r\n\r\n-&gt; Updates not necessary unless there is a change in penetration-handling by Wargaming.</InternalNotes>
     <Description>Allows you to see where to penetrate the enemy better, or see where the enemy is penetrating you</Description>
     <Packages>
       <Package PackageName="TankSkinsMisc_ColoredPenetration_HAWGreg" Enabled="True" Tags="ImageDDS" InstallGroup="4" PatchGroup="4" UID="qhd1ws0fqnnci6jo" Name="HAWG Regular" Type="single_dropdown1" Visible="True">
@@ -158,7 +159,8 @@
         <ZipFile>TankSkinsMisc_ColoredPenetration_webium_2019-06-29.zip</ZipFile>
         <CRC>2a73f3d11e991dd71fce2b49e6cbbd44</CRC>
         <Timestamp>132509623184668009</Timestamp>
-        <DevURL>https://modsworldoftanks.com/colored-hits-paintball/</DevURL>
+        <InternalNotes>This mod is "deprecated".\r\nAn update to this mod can be made with any image-manipulation-program (photoshop, gimp).\r\n\r\n-elektro- has already updated mods from tankSkinMisc_coloredPenetration /_MarksOfExcellence /_NationDecals before and said he could try it again if they break.</InternalNotes>
+        <Maintainers>elektrosmoker</Maintainers>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/webium/2018-05-04_21-59-17.png" MediaType="Picture" />
         </Medias>
