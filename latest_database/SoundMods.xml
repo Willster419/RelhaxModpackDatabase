@@ -486,10 +486,12 @@
         <Size>21654503</Size>
         <CRC>f</CRC>
         <Timestamp>132488682296460792</Timestamp>
+        <LogAtInstall>False</LogAtInstall>
         <DevURL>https://drive.google.com/file/d/1YTsaXDeI1Q-nj-ddDXI5r6JRt3WaHyhj/view?usp=sharing\r\ned76na (Post: #9560) (2020-10-23)\r\nhttp://forum.worldoftanks.ru/index.php?/topic/842096-\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1778752-\r\n</DevURL>
         <InternalNotes>Dont use PYmods_BanksLoader with WWIIHWA: \n- Sound Event Injector is incompatible with WWIIHWA\n- "WoT-Circle": Restart -&gt; Crash -&gt; Restart -&gt; Crash....)\nSound Event Injector : \n- great tool for modding sounds \n- no patches are needed \n- updating get much easier &amp; faster\r\n\r\n0. Soundinjektor is a great tool for modding sounds - no Patches are needed - updating gets much easier\n1. Problem: Working alone as intended check replays\n2. Problem: Soundinjektor is incompatible with WWIIHWA (WOT-Circle -- restart-&gt;crash-&gt;restart-&gt;crash....)\n3. Dont have Ideas/ muse / moods  for fixing now -123gauss\r\n\r\nReworking packeges: WE should saves this extra \r\nhttp://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_with small_BG_by_Warranted.png</InternalNotes>
         <Description>With Sound Event Injector; \n- great tool for modding sounds \n- no patches for the Events are needed \n\nNo PYmods_BanksLoader - only Patches to engine_config.xml\n\nUsable with WWIIHWA (no Bankloader - Patches used)\n- Sound Event Injector is compatible with WWIIHWA\r\n\r\n\nWillster: \nI dont know what we do with tthe Sound Event Injector Versions (script-file)\nBank-loader isnt used here &amp; In Relhax - not necessary \n- take audio.xml/engine.config.xml\n\n (no original files by WG as template)</Description>
         <UpdateComment>Fedor Saveliev retired) too much work for this tricky mod,to rework\r\nAGQJ: http://forum.worldoftanks.ru/index.php?/topic/1778752-</UpdateComment>
+        <ShowInSearchList>False</ShowInSearchList>
         <Medias>
           <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_with small_BG_by_Warranted.png" MediaType="Picture" />
@@ -636,7 +638,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="Sounds_Guns_HRMOD" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="spyx5dquif6dbq8a" Name="HRMOD v{version} [by {author}]" Type="single1" Visible="True">
+      <Package PackageName="Sounds_Guns_HRMOD" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="spyx5dquif6dbq8a" Name="HRMOD v{version} [by {author}]" Type="single1" Visible="True">
         <Size>15349</Size>
         <Version>3.06</Version>
         <ZipFile>Sounds_Guns_HRMOD_1.10.1.1_2020-10-31.zip</ZipFile>
@@ -658,7 +660,7 @@
           <Dependency PackageName="Dependency_Sounds_bnk_GnomeFathers" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Sounds_Guns_ShimadaSamas" Enabled="False" Tags="Patch,ConfigurationFileXml,SoundBank" InstallGroup="4" PatchGroup="4" UID="f0rixektjievbe1b" Name="[by {author}] v{version}" Type="single1" Visible="True">
+      <Package PackageName="Sounds_Guns_ShimadaSamas" Enabled="True" Tags="Patch,ConfigurationFileXml,SoundBank" InstallGroup="4" PatchGroup="4" UID="f0rixektjievbe1b" Name="[by {author}] v{version}" Type="single1" Visible="True">
         <Size>48156208</Size>
         <Version>5.50</Version>
         <ZipFile>Sounds_Guns_ShimadaSamas_5.50_1.10.1.1_2020-11-03.zip</ZipFile>
@@ -675,7 +677,7 @@
           <Media URL="https://youtu.be/kqOTdQ9OlIw?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
         </Medias>
       </Package>
-      <Package PackageName="Sounds_Guns_StarTrekPhaser" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="eimp66yqukiyphuk" Name="Star Trek Phasers v{version} [by {author}]" Type="single1" Visible="True">
+      <Package PackageName="Sounds_Guns_StarTrekPhaser" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="eimp66yqukiyphuk" Name="Star Trek Phasers v{version} [by {author}]" Type="single1" Visible="False">
         <Size>7744194</Size>
         <Version>6.2831</Version>
         <ZipFile>Sounds_Guns_StarTrekPhaser_2019-05-04.zip</ZipFile>
@@ -685,6 +687,7 @@
         <Author>The Illusion</Author>
         <Description>Changes all guns to be more phasery!</Description>
         <UpdateComment>V6.2831 - Added to "Effects" volume slider\nV3.1415 Updated all sounds to be better quality</UpdateComment>
+        <ShowInSearchList>False</ShowInSearchList>
       </Package>
       <Package PackageName="Sounds_Guns_WrathOfTheGods" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8x3wxao9p3ko09cy" Name="Wrath Of The Gods" Type="single1" Visible="True">
         <Size>3753397</Size>
@@ -718,10 +721,12 @@
       <Package PackageName="Sounds_Guns_NOTES_Ed76na+Apa6ecka" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="wanzliuz53grxm10" Name="NOTES: Gun Sounds by Ed76na &amp; Apa6ecka" Type="none" Visible="False">
         <Size>34224145</Size>
         <Timestamp>131701182641902565</Timestamp>
+        <LogAtInstall>False</LogAtInstall>
         <DevURL>http://forum.worldoftanks.ru/index.php?/topic/842096-\r\nAGQJ: http://forum.worldoftanks.ru/index.php?/topic/1778752-</DevURL>
         <InternalNotes>Dont use this version(PYmods_BanksLoader) with WWIIHWA: \n- Sound Event Injector is incompatible with WWIIHWA\n- "WoT-Circle": Restart -&gt; Crash -&gt; Restart -&gt; Crash....)\nSound Event Injector : \n- great tool for modding sounds \n- no patches are needed \n- updating get much easier &amp; faster\r\n\r\n0. Soundinjektor is a great tool for modding sounds - no Patches are needed - updating gets much easier\n1. Problem: Working alone as intended check replays\n2. Problem: Soundinjektor is incompatible with WWIIHWA (WOT-Circle -- restart-&gt;crash-&gt;restart-&gt;crash....)\n3. Dont have Ideas/ muse / moods  for fixing now -123gauss</InternalNotes>
         <Description>With Sound Event Injector; \n- great tool for modding sounds \n- no patches for the Events are needed \n\nNo PYmods_BanksLoader - only Patches to engine_config.xml\n\nUsable with WWIIHWA (no Bankloader - Patches used)\n- Sound Event Injector is compatible with WWIIHWA\nWillster: \nI dont know what we do with tthe Sound Event Injector Versions (script-file)\nBank-loader isnt used here &amp; In Relhax - not necessary \n- take audio.xml/engine.config.xml\n\n (no original files by WG as template)</Description>
         <UpdateComment>Fedor Saveliev retired) too much work for this tricky mod,to rework\r\nAGQJ: http://forum.worldoftanks.ru/index.php?/topic/1778752-</UpdateComment>
+        <ShowInSearchList>False</ShowInSearchList>
         <Medias>
           <Media URL="https://youtu.be/OLEcH5uEPRY?version=3&amp;autoplay=1" MediaType="Webpage" />
         </Medias>
