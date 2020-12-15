@@ -3004,7 +3004,7 @@
       </Package>
       <Package PackageName="GarageGraphics_Loading_LoginBG" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="78y1cfl640srhlla" Name="Loading Splashscreen Picture" Type="multi" Visible="True">
         <InternalNotes>This [LoginBG] is different to LoginBackground.\r\nIt is more like a splashscreen than an actual loading background and geets only showed for a very short period of time (depends on computers abilities).\r\n\r\n\r\nmode files: only pics \r\n\tgui\maps\login\__login_bg.png\r\n\r\n\r\noptional (but should be in LoginLogo archives!):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n</InternalNotes>
-        <Description>This is the background shown at the game´s beginning.</Description>
+        <Description>This is the background shown at the game´s beginning (splashcreen).</Description>
         <Packages>
           <Package PackageName="GarageGraphics_Loading_LoginBG_DefaultRelhax" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="1nf94jbpzjtgse3o" Name="DEFAULT by Relhax (changes from time to time)" Type="single_dropdown1" Visible="True">
             <Timestamp>131982542140511127</Timestamp>
@@ -3076,6 +3076,7 @@
             <Timestamp>132525007969050180</Timestamp>
             <DevURL>https://wgmods.net/2259/</DevURL>
             <Author>DrWeb7_1</Author>
+            <Description>World of Tanks "Old Memories" \n\nThis mod replaces login splashscreen from patches 0.7.x to 0.8.x.</Description>
           </Package>
           <Package PackageName="GarageGraphics_Loading_LoginBG_WWIIHWAambiente" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="9tudzuj08uc817p2" Name="WWIIHWA Ambiente" Type="single_dropdown1" Visible="True">
             <Size>2605396</Size>
@@ -3229,7 +3230,7 @@
             <ZipFile>GarageGraphics_Loading_LoginBackground_Video_1.11.0.0_2020-12-15.zip</ZipFile>
             <CRC>f</CRC>
             <Timestamp>132525048978519606</Timestamp>
-            <InternalNotes>this is a fix that prevents the background video to stop when change window mode or switch to another application with ALT-TAB.\r\n\r\nget and extract it from here: https://wgmods.net/2259/ (dr_web´s old memories mod)\r\nres_mods\versiondir\scripts\client\gui\Scaleform\daapi\view\login\login_modes\view_background.pyc \r\n</InternalNotes>
+            <InternalNotes>this is a fix by DrWeb7_1 that prevents the background video to stop when change window mode or switch to another application with ALT-TAB.\r\nas the author staited, this pyc-files do not need updates.\r\n\r\npyc from here: \r\nhttps://wgmods.net/2259/ (drweb7_1´s old memories mod)\r\n\r\nfiles:\r\nres_mods\versiondir\scripts\client\gui\Scaleform\daapi\view\login\login_modes\view_background.pyc \r\n\r\n</InternalNotes>
             <ShowInSearchList>False</ShowInSearchList>
             <Packages>
               <Package PackageName="GarageGraphics_Loading_LoginBackground_Video_GuP" Enabled="True" Tags="GuiLoginVideo" InstallGroup="4" PatchGroup="4" UID="199cvegz0hcm7eek" Name="Girls und Panzer" Type="single_dropdown1" Visible="True">
@@ -3249,9 +3250,9 @@
                 <CRC>f</CRC>
                 <Timestamp>132525006903585823</Timestamp>
                 <DevURL>https://wgmods.net/2259/</DevURL>
-                <InternalNotes>videofiles;\r\ndont need updates;\r\ndont delete or disable on patchdays\r\n\r\n\r\n\r\nupdate instructions:\r\nextract from wtomod and use res_mods. \r\nsome files go to other sections, we only need part of the files in there for this mod.\r\n\r\nvideofiles (should not need updates):\r\nres_mods\versiondir\gui\flash\videos\_login.usm\r\nres_mods\versiondir\gui\flash\videos\startup\logo_all.usm\r\n\r\n\r\nscriptfile (may need updates):\r\nres_mods\versiondir\scripts\client\gui\mods\mod_logo_all_helper.pyc\r\nthis script forces the logo_all.usm video to play, like it was before 0.9.15\r\n\r\n\r\nthe other script goes into the header archive [GarageGraphics_Loading_LoginBackground_Video]:\rres_mods\versiondir\scripts\client\gui\Scaleform\daapi\view\login\login_modes\view_background.pyc \r\nthis fix works with all other videos.</InternalNotes>
+                <InternalNotes>videofiles;\r\ndont need updates;\r\ndont delete or disable on patchdays\r\n\r\n\r\n\r\nupdate instructions:\r\nextract from wtomod and use res_mods. \r\nsome files go to other sections, we only need part of the files in there for this mod.\r\n\r\nvideofiles (should not need updates):\r\nres_mods\versiondir\gui\flash\videos\_login.usm\r\nres_mods\versiondir\gui\flash\videos\startup\logo_all.usm\r\n\r\n\r\nscriptfiles (as the author staited, this pyc-files do not need updates):\r\nres_mods\versiondir\scripts\client\gui\mods\mod_logo_all_helper.pyc\r\nthis script forces the logo_all.usm video to play, like it was before 0.9.15\r\n\r\n\r\nthe other script goes into the header archive [GarageGraphics_Loading_LoginBackground_Video]:\rres_mods\versiondir\scripts\client\gui\Scaleform\daapi\view\login\login_modes\view_background.pyc \r\nthis fix works with all other videos.</InternalNotes>
                 <Author>DrWeb7_1</Author>
-                <Description>World of Tanks "Old Memories" \n\nThis mod replaces login screen background video and music (if you choose "dynamic" background) and restores background music from patches from 0.7.x to 0.8.x.</Description>
+                <Description>World of Tanks "Old Memories" \n\nThis mod replaces login screen background video (if you choose "dynamic" background) from patches 0.7.x to 0.8.x.</Description>
                 <ShowInSearchList>False</ShowInSearchList>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoginBackground/video/Garage_Graphics_LoginBackground_Video_OldMemories_1.jpg" MediaType="Picture" />
@@ -3306,6 +3307,7 @@
                 <Timestamp>132524971162747925</Timestamp>
                 <DevURL>https://wgmods.net/2259/</DevURL>
                 <Author>DrWeb7_1</Author>
+                <Description>World of Tanks "Old Memories" \n\nThis mod replaces login screen background pictures from patches 0.7.x to 0.8.x.</Description>
                 <ShowInSearchList>False</ShowInSearchList>
               </Package>
               <Package PackageName="GarageGraphics_Loading_LoginBackground_Picture_SteelMaiden" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="3t5oiteu4cw3r0hc" Name="Steel Maiden (36 different pictures, varies every login)" Type="single_dropdown1" Visible="True">
