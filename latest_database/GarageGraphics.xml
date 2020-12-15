@@ -3226,7 +3226,10 @@
         <Description>change the style of the login screen. \nyou can either use a video that plays in background or a simple picture.\n\ndon´t forget to change that in the upper right corner of the login screen</Description>
         <Packages>
           <Package PackageName="GarageGraphics_Loading_LoginBackground_Video" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pk3xmf9y1kk4726k" Name="Video" Type="single1" Visible="True">
-            <InternalNotes>videofiles;\r\ndont need updates;\r\ndont delete or disable on patchdays\r\n</InternalNotes>
+            <ZipFile>GarageGraphics_Loading_LoginBackground_Video_1.11.0.0_2020-12-15.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132525048978519606</Timestamp>
+            <InternalNotes>this is a fix that prevents the background video to stop when change window mode or switch to another application with ALT-TAB.\r\n\r\nget and extract it from here: https://wgmods.net/2259/ (dr_web´s old memories mod)\r\nres_mods\versiondir\scripts\client\gui\Scaleform\daapi\view\login\login_modes\view_background.pyc \r\n</InternalNotes>
             <ShowInSearchList>False</ShowInSearchList>
             <Packages>
               <Package PackageName="GarageGraphics_Loading_LoginBackground_Video_GuP" Enabled="True" Tags="GuiLoginVideo" InstallGroup="4" PatchGroup="4" UID="199cvegz0hcm7eek" Name="Girls und Panzer" Type="single_dropdown1" Visible="True">
@@ -3234,7 +3237,7 @@
                 <ZipFile>GarageGraphics_Loading_LoginBackground_Video_GuP_0.9.16_2020-12-15.zip</ZipFile>
                 <CRC>f</CRC>
                 <Timestamp>132525007293490292</Timestamp>
-                <InternalNotes>gui\flash\video\_login.usm\r\n\r\n\r\nno updates needed</InternalNotes>
+                <InternalNotes>videofiles;\r\ndont need updates;\r\ndont delete or disable on patchdays\r\n\r\ngui\flash\video\_login.usm</InternalNotes>
                 <ShowInSearchList>False</ShowInSearchList>
                 <Medias>
                   <Media URL="https://www.youtube.com/watch?v=l2xHs5_4OZg" MediaType="Webpage" />
@@ -3246,7 +3249,7 @@
                 <CRC>f</CRC>
                 <Timestamp>132525006903585823</Timestamp>
                 <DevURL>https://wgmods.net/2259/</DevURL>
-                <InternalNotes>extract from wtomod and use res_mods. \r\nsome files go to other sections, we only need part of the files in there for this mod:\r\n\r\nvideofiles (should not need updates):\r\n\res_mods\versiondir\gui\flash\videos\_login.usm\r\nres_mods\versiondir\gui\flash\videos\startup\logo_all.usm\r\n\r\n\r\nscriptfiles (may need updates):\r\n\res_mods\versiondir\scripts\client\gui\mods\mod_logo_all_helper.pyc\r\n\ res_mods\versiondir\scripts\client\gui\Scaleform\daapi\view\login\login_modes\view_background.pyc</InternalNotes>
+                <InternalNotes>videofiles;\r\ndont need updates;\r\ndont delete or disable on patchdays\r\n\r\n\r\n\r\nupdate instructions:\r\nextract from wtomod and use res_mods. \r\nsome files go to other sections, we only need part of the files in there for this mod.\r\n\r\nvideofiles (should not need updates):\r\nres_mods\versiondir\gui\flash\videos\_login.usm\r\nres_mods\versiondir\gui\flash\videos\startup\logo_all.usm\r\n\r\n\r\nscriptfile (may need updates):\r\nres_mods\versiondir\scripts\client\gui\mods\mod_logo_all_helper.pyc\r\nthis script forces the logo_all.usm video to play, like it was before 0.9.15\r\n\r\n\r\nthe other script goes into the header archive [GarageGraphics_Loading_LoginBackground_Video]:\rres_mods\versiondir\scripts\client\gui\Scaleform\daapi\view\login\login_modes\view_background.pyc \r\nthis fix works with all other videos.</InternalNotes>
                 <Author>DrWeb7_1</Author>
                 <Description>World of Tanks "Old Memories" \n\nThis mod replaces login screen background video and music (if you choose "dynamic" background) and restores background music from patches from 0.7.x to 0.8.x.</Description>
                 <ShowInSearchList>False</ShowInSearchList>
