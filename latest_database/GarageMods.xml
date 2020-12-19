@@ -432,16 +432,19 @@
   </Package>
   <Package PackageName="GarageMods_littleHelperCollection" Enabled="True" Tags="Patch,Script,ConfigurationFileJson" InstallGroup="4" PatchGroup="4" UID="ksbf9er3h535v1vd" Name="Little Helper Collection [by {author}] (READ DESCRIPTION + WARNING)" Type="multi" Visible="True">
     <Size>99821</Size>
-    <Version>1.20</Version>
-    <ZipFile>GarageMods_littleHelperCollection_v1.20_1.11.0.0_2020-12-08.zip</ZipFile>
-    <CRC>4fca5bedd8f3461f81d942dbc6054f2d</CRC>
-    <Timestamp>132519361651266306</Timestamp>
+    <Version>1.22</Version>
+    <ZipFile>GarageMods_littleHelperCollection_v1.22_1.11.0.0_2020-12-19.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132528350097768047</Timestamp>
     <DevURL>https://wgmods.net/4457/\r\nhttps://wot.champi.de/</DevURL>
     <Author>Champi</Author>
     <Maintainers>The Illusion, Willster419</Maintainers>
     <Description>The mod collects some useful improvements that never made it to their own mod. \r\nNot because they're useless, but because they're too small for an own mod. But now I've combined them all in one mod and give the player control to turn them on and off\r\n\r\nFeatures: - hangarTooltip -&gt; Expands the list of tanks on which the equipment is installed (in hangar tips)\r\n- storageTooltip -&gt; Shows the full selling price of modules, consumables and ammunition (in stock)\r\n- contourIconMode -&gt; Disables the flipping of the tank contour icons in the tankman info tooltip. This is for using custom tank contour icons.\r\n- arenaBorderRecolor -&gt; Allows to set a new arena border color. It looks really good to see some fresh new colors there\r\n- disableHeroTank -&gt; Disables the promotion of a tank in the background of the hangar.\r\n\r\n\r\nWARNING:\r\nThis mod can conflict with XVM-, AnnoyingFeaturesRemover- and some other Garage-Settings.</Description>
     <ObfuscatedMod>True</ObfuscatedMod>
     <FromWGmods>True</FromWGmods>
+    <UserFiles>
+      <UserFile Pattern="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" />
+    </UserFiles>
     <ConflictingPackages>GarageMods_AnnoyingFeaturesRemover</ConflictingPackages>
     <Dependencies>
       <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
