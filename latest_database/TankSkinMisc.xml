@@ -330,18 +330,23 @@
               <Media URL="http://i.imgur.com/s4L4nVr.png" MediaType="Picture" />
             </Medias>
           </Package>
-          <Package PackageName="TankSkinsMisc_MarksOfExcellence_VA_French" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="s2adj7zaui7t2smg" Name="French by HG_Skins" Type="single_dropdown1" Visible="True">
+          <Package PackageName="TankSkinsMisc_MarksOfExcellence_VA_HG-Skins-French" Enabled="True" Tags="ConfigurationFileXml,ImageDDS" InstallGroup="4" PatchGroup="4" UID="s2adj7zaui7t2smg" Name="French by HG_Skins" Type="single_dropdown1" Visible="True">
             <Size>10693</Size>
-            <ZipFile>TankSkinsMisc_MarksOfExcellence_French_2019-04-05.zip</ZipFile>
-            <CRC>8cf586a9faf76ce4201c2573bd37bec6</CRC>
-            <Timestamp>132509623951209525</Timestamp>
-            <DevURL>https://wgmods.net/2370/details</DevURL>
+            <ZipFile>TankSkinsMisc_MarksOfExcellence_VA_HG-Skins-French_1.9.1.2_2020-12-22.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132531523995849998</Timestamp>
+            <DevURL>https://wgmods.net/2370</DevURL>
+            <InternalNotes>New version added for 1.9.1.2 changed how its done. Its a wotmod with xml files now. I added the load_order.xml patch just in case.</InternalNotes>
+            <Author>HG Skins</Author>
             <Description>this mod only changes the french gunmarks</Description>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
               <Media URL="https://wgmods.net/media/shot_004_mrP0ToQ.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
               <Media URL="https://wgmods.net/media/shot_003_piMSlut.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
             </Medias>
+            <Dependencies>
+              <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
+            </Dependencies>
           </Package>
           <Package PackageName="TankSkinsMisc_MarksOfExcellence_VA_Illuminati" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="5rgsr65btfzb23tf" Name="Illuminati by Aimdrol" Type="single_dropdown1" Visible="True">
             <Size>169416</Size>
