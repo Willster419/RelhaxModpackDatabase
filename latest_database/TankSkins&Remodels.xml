@@ -427,11 +427,14 @@
           </Package>
           <Package PackageName="TankSkinsRemodels_France_Light_AMX_ELC" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mqckwh5un0ai2zwq" Name="AMX ELC" Type="multi" Visible="True">
             <Size>32042</Size>
-            <ZipFile>TankSkinsRemodels_F62_ELC_AMX_XML_YodaSchlumpf_Remodel_1.11.0.0_2020-12-16.zip</ZipFile>
-            <CRC>0561052cf9c44be6fdd80e4e5ac067a5</CRC>
-            <Timestamp>132526251372225068</Timestamp>
+            <ZipFile>TankSkinsRemodels_F62_ELC_AMX_XML_patch_YodaSchlumpf_Remodel_1.11.0.0_2020-12-16.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132531127568888446</Timestamp>
             <InternalNotes>TankSkinsRemodels_France_Light_AMX_ELC \r\n\r\nTankSkinsRemodels_France_Light_AMX_ELC_General_Lee \r\nTankSkinsRemodels_France_Light_AMX_ELC_HelloKitty \r\nTankSkinsRemodels_France_Light_AMX_ELC_MONSTERenergy \r\nTankSkinsRemodels_France_Light_AMX_ELC_YodaSchlumpf \r\n\r\nEXTRACT FROM F62_ELC_AMX.xml\r\n  &lt;emblems&gt;\r\n    &lt;default&gt;\t15504\t&lt;/default&gt;\r\n    &lt;lodDist&gt;MEDIUM&lt;/lodDist&gt;\r\n&lt;!-- So tiny to make it invisible --&gt;\r\n    &lt;alpha&gt;0.01&lt;/alpha&gt;\r\n&lt;!-- WG:     &lt;alpha&gt;0.9&lt;/alpha&gt; --&gt;\r\n  &lt;/emblems&gt;\r\n\r\nCustom_Tank_Skins_F62_ELC_AMX_Skin_General_Lee_NoX_1.6.1.3_2019-11-26.zip\r\n= TankSkinsRemodels_F62_ELC_AMX_XML_YodaSchlumpf_ReMODEL_1.11.0.0_2020-12-16.zip\r\n+ TankSkinsRemodels_ELC_GeneralLee_ReSKIN_1.11.0.0_2020-12-16.zip\r\n{[ no changes with Yodaschlumpf_F62_ELC_AMX_Skin_GeneralLee_No_xml.wotmod (2019-11-27)]}\r\n\r\n  &lt;emblems&gt;\r\n    &lt;default&gt;\t15504\t&lt;/default&gt;\r\n    &lt;lodDist&gt;MEDIUM&lt;/lodDist&gt;\r\n&lt;!-- So tiny to make it invisible --&gt;\r\n    &lt;alpha&gt;0.01&lt;/alpha&gt;\r\n  &lt;/emblems&gt;</InternalNotes>
             <Author>YodaSchlumpf</Author>
+            <Dependencies>
+              <Dependency PackageName="Dependency_SCRIPTSXmlCreation" NotFlag="False" Logic="OR" />
+            </Dependencies>
             <Packages>
               <Package PackageName="TankSkinsRemodels_France_Light_AMX_ELC_General_Lee" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="g4trolvdikb7dre3" Name="Dukes of Hazard by YodaSchlumpf" Type="single_dropdown1" Visible="True">
                 <Size>2808872</Size>
@@ -445,6 +448,9 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Custom_Tank_Skins/Custom_Tank_Skins_F62_ELC_AMX_Racing-Skin_General_Lee_1.png" MediaType="Picture" />
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Custom_Tank_Skins/Custom_Tank_Skins_F62_ELC_AMX_Racing-Skin_General_Lee_2.png" MediaType="Picture" />
                 </Medias>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_SCRIPTSXmlCreation" NotFlag="False" Logic="OR" />
+                </Dependencies>
               </Package>
             </Packages>
           </Package>
