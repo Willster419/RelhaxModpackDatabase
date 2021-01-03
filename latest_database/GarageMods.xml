@@ -433,9 +433,9 @@
   <Package PackageName="GarageMods_LittleHelperCollection" Enabled="True" Tags="Patch,Script,ConfigurationFileJson" InstallGroup="4" PatchGroup="4" UID="ksbf9er3h535v1vd" Name="Little Helper Collection [by {author}] (READ DESCRIPTION + WARNING)" Type="multi" Visible="True">
     <Size>109379</Size>
     <Version>1.25</Version>
-    <ZipFile>GarageMods_littleHelperCollection_v1.25_1.11.0.0_2020-12-24.zip</ZipFile>
-    <CRC>4ef83a95a587cc72110270fa71b066bd</CRC>
-    <Timestamp>132533090113122323</Timestamp>
+    <ZipFile>GarageMods_littleHelperCollection_v1.25_1.11.0.0_2021-01-03.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132541749547179784</Timestamp>
     <DevURL>https://wgmods.net/4457/\r\nhttps://wot.champi.de/</DevURL>
     <Author>Champi</Author>
     <Maintainers>The Illusion, Willster419</Maintainers>
@@ -456,6 +456,7 @@
         <CRC>c4653c3714be99147f1b44f9f4ad91b3</CRC>
         <Timestamp>132528377464128162</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>If enabled the vehicle compare button on the lower right in the garage will not removed.&lt;br/&gt;Note: Changes only take effect after you re-entering the garage. (After a battle or reloading the game client) or after clearing the comparesation list. Credits are going to goofy67 for the code snippet.&lt;br/&gt;&lt;br/&gt;default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
       <Package PackageName="GarageMods_littleHelperCollection_arenaBorderRecolor" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="yufmepnjf7cxh4tv" Name="Enable arena border color change" Type="multi" Visible="True">
@@ -464,6 +465,7 @@
         <CRC>0fccd33641f08265c0a32b117e43351e</CRC>
         <Timestamp>132528377809765330</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>When enabled the arena border color will be changed to the defined color.</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
       <Package PackageName="GarageMods_littleHelperCollection_battleResultsRealname" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="t0qyrc0d6ttt4p52" Name="Show player real names in battle results" Type="multi" Visible="True">
@@ -472,6 +474,7 @@
         <CRC>c9a5c021d8f848202a1ff3375088676a</CRC>
         <Timestamp>132528378039799315</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>If activated, the player's real names are shown in the battleresult dialog.&lt;br/&gt;&lt;br/&gt;default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
       <Package PackageName="GarageMods_littleHelperCollection_disableBlinkingNotes" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="0qgjrkesmljx4adq" Name="Disable blinking notifications in the garage" Type="multi" Visible="True">
@@ -480,6 +483,7 @@
         <CRC>9618d81bbd02d1844e2352b554c04263</CRC>
         <Timestamp>132528378311291175</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>Disables the blinking button when new notifications available in the garage.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
       <Package PackageName="GarageMods_littleHelperCollection_disableDecalReward" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="2di38ui1zbioikj1" Name="Disable 'decal award recieved' window after battle" Type="multi" Visible="True">
@@ -490,52 +494,101 @@
         <Maintainers>Willster419</Maintainers>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
-      <Package PackageName="GarageMods_littleHelperCollection_disableHelpHint" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="70wcc1errqwd2pdm" Name="Disable help hint" Type="multi" Visible="True">
+      <Package PackageName="GarageMods_littleHelperCollection_disableHelpHint" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="70wcc1errqwd2pdm" Name="Disable help hint for dualgun tanks or wheeled vehicles at the beginning of the battle" Type="multi" Visible="True">
         <Size>549</Size>
         <ZipFile>GarageMods_littleHelperCollection_disableHelpHint_2020-1.zip</ZipFile>
         <CRC>77f447e4d8cba5e1a21181e15049555c</CRC>
         <Timestamp>132528379084218651</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>Disables the vehicle help hint for double barrel tanks or wheeled vehicles at the beginning of the battle.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
-      <Package PackageName="GarageMods_littleHelperCollection_disableHeroTank" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="u512rtoiq94xfjq9" Name="Disable hero tank" Type="multi" Visible="True">
+      <Package PackageName="GarageMods_littleHelperCollection_disableHeroTank" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="u512rtoiq94xfjq9" Name="Disable promotional tank display in the garage" Type="multi" Visible="True">
         <Size>552</Size>
         <ZipFile>GarageMods_littleHelperCollection_disableHeroTank_2020-12-19.zip</ZipFile>
         <CRC>1f21b0cccaa860c44beee31cceadfd5d</CRC>
         <Timestamp>132528379256816007</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>Disables the promotion of a tank in the background of the garage.&lt;br/&gt;Note: Changes only take effect after re-entering the garage. (After a battle or reloading the game client)&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
-      <Package PackageName="GarageMods_littleHelperCollection_disableQuestHint" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="hj0vcpnv08qpavlt" Name="Disable quest hint" Type="multi" Visible="True">
+      <Package PackageName="GarageMods_littleHelperCollection_disableQuestHint" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="hj0vcpnv08qpavlt" Name="Disable personal mission quest hint" Type="multi" Visible="True">
         <Size>554</Size>
         <ZipFile>GarageMods_littleHelperCollection_disableQuestHint_2020-12-19.zip</ZipFile>
         <CRC>995d32ccceaa37c1859d2a4f2eb67207</CRC>
         <Timestamp>132528379486749424</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>Disables the personal mission quest hint at the beginning of the battle.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
-      <Package PackageName="GarageMods_littleHelperCollection_disableTeaser" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ghcponvaugkednkx" Name="Disable teaser" Type="multi" Visible="True">
+      <Package PackageName="GarageMods_littleHelperCollection_disableTeaser" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ghcponvaugkednkx" Name="Disable teaser widget in garage" Type="multi" Visible="True">
         <Size>547</Size>
         <ZipFile>GarageMods_littleHelperCollection_disableTeaser_2020-12-19.zip</ZipFile>
         <CRC>fa24ac219b1db5f7a14ff378d9e562f1</CRC>
         <Timestamp>132528379622646079</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>Disables the teaser widget in the garage&lt;br/&gt;Note: Changes only take effect after you re-entering the garage. (After a battle or reloading the game client)&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
       <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="sr4rx37niigfsp7f" Name="Enable changing of 'Battle!' button text" Type="multi" Visible="True">
         <Size>570</Size>
-        <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_2020-12-19.zip</ZipFile>
-        <CRC>ab09a307f5ae103a689b82854f9b4cd4</CRC>
-        <Timestamp>132528380045164500</Timestamp>
+        <CRC>f</CRC>
+        <Timestamp>132541749013736615</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>Specify when the text for the fight button will be changed.&lt;br/&gt;&lt;br/&gt;Note:&lt;br/&gt;Disabled: The text will not be changed.&lt;br&gt;Only without platoon: The custom fight button text will be used if you're not inside a platoon.&lt;br/&gt;Always: What do you think that could mean? :)\r\n\r\nHere you can define your own fight button text.&lt;br/&gt;Note: Leave the text field blank to use the default text!&lt;br/&gt;&lt;br/&gt;Default: RNG!</Description>
         <ShowInSearchList>False</ShowInSearchList>
+        <Packages>
+          <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_Disabled" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qaxxxxlo03jxgjq8" Name="Disabled" Type="single_dropdown1" Visible="True">
+            <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_Disabled_2021-01-03.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132541758550246431</Timestamp>
+            <Maintainers>Willster419</Maintainers>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_OnlyWithoutPlatoon" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qjn7a5ifk030scqn" Name="Only in single random battle mode (not in a platoon)" Type="single_dropdown1" Visible="True">
+            <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_OnlyWithoutPlatoon_2021-01-03.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132541758657785238</Timestamp>
+            <Maintainers>Willster419</Maintainers>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_Always" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="27uduy8a4fkys138" Name="Always" Type="single_dropdown1" Visible="True">
+            <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_Always_2021-01-03.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132541758729853048</Timestamp>
+            <Maintainers>Willster419</Maintainers>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bs0ez6d9w0lim75a" Name="Default text: 'RNG!'" Type="single_dropdown2" Visible="True">
+            <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_Default_2021-01-03.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132541758817010192</Timestamp>
+            <Maintainers>Willster419</Maintainers>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_Willster419" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8b82tzos9xfsemoh" Name="Willster419: 'HATE SELF'" Type="single_dropdown2" Visible="True">
+            <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_Willster419_2021-01-03.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132541758925326704</Timestamp>
+            <Maintainers>Willster419</Maintainers>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+          <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_1SHOT" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="emcfkevyshvpkh28" Name="1SHOT_CFM: KILL ME" Type="single_dropdown2" Visible="True">
+            <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_1SHOT_2021-01-03.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132541758986508317</Timestamp>
+            <Maintainers>Willster419</Maintainers>
+            <ShowInSearchList>False</ShowInSearchList>
+          </Package>
+        </Packages>
       </Package>
-      <Package PackageName="GarageMods_littleHelperCollection_hangarTooltip" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="yu4kel0z6h6oeq0c" Name="Disable hanger tooltips" Type="multi" Visible="True">
+      <Package PackageName="GarageMods_littleHelperCollection_hangarTooltip" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="yu4kel0z6h6oeq0c" Name="Show equipment usage in tooltip" Type="multi" Visible="True">
         <Size>546</Size>
         <ZipFile>GarageMods_littleHelperCollection_hangarTooltip_2020-12-19.zip</ZipFile>
         <CRC>4b7c5cf4a815fe053d1593112bd9577e</CRC>
         <Timestamp>132528380493810704</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>When enabled, the tooltip in the garage for equipment items additionally shows every tank where the selected item is in use.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
       <Package PackageName="GarageMods_littleHelperCollection_rememberLastServer" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5f7nougtize95yci" Name="Remember last server" Type="multi" Visible="True">
@@ -544,6 +597,7 @@
         <CRC>8887af24fdb8c17c8b6b6d2d9e7d8aff</CRC>
         <Timestamp>132528380733589818</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>If enabled the mod stores the last used server and automatically pre-selects it on the login screen.&lt;br/&gt;&lt;br/&gt;Default: checked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
       <Package PackageName="GarageMods_littleHelperCollection_removeButtonGeneralChat" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="lmxwj3lmvn1vxjao" Name="Remove general chat button in garage" Type="multi" Visible="True">
@@ -552,30 +606,34 @@
         <CRC>861f9d5e41f571cc9943470c3c441e34</CRC>
         <Timestamp>132528381003530917</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>If enabled the general chat button in the garage will be removed.&lt;br/&gt;Note: Changes only take effect after you re-entering the garage. (After a battle or reloading the game client)&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
-      <Package PackageName="GarageMods_littleHelperCollection_removeDogTags" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="928gzzjroswfwkly" Name="Remove dog tags" Type="multi" Visible="True">
+      <Package PackageName="GarageMods_littleHelperCollection_removeDogTags" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="928gzzjroswfwkly" Name="Remove dog tags display in battle" Type="multi" Visible="True">
         <Size>548</Size>
         <ZipFile>GarageMods_littleHelperCollection_removeDogTags_2020-12-19.zip</ZipFile>
         <CRC>e276dc04d5f6e7325ac3898d3d09421e</CRC>
         <Timestamp>132528381227162572</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>If enabled, dog tags will not be displayed after your tank is destroyed.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
-      <Package PackageName="GarageMods_littleHelperCollection_removeSimpleParams" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6x02qitgm32rvd8x" Name="Enable simple vehicle params in garage" Type="multi" Visible="True">
+      <Package PackageName="GarageMods_littleHelperCollection_removeSimpleParams" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6x02qitgm32rvd8x" Name="Enable simple (legacy) tank parameters in garage" Type="multi" Visible="True">
         <Size>561</Size>
         <ZipFile>GarageMods_littleHelperCollection_removeSimpleParams_2020-12-19.zip</ZipFile>
         <CRC>865abe746f01bbb5f8b63310d79e773d</CRC>
         <Timestamp>132528381615046459</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>If enabled, vehicle parameters catagory headers in the garage will be removed and the simple (legacy style) parameters are displayed.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
-      <Package PackageName="GarageMods_littleHelperCollection_storageTooltip" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="p3xgriuvf1bn4rtg" Name="Disable storage tool tip" Type="multi" Visible="True">
+      <Package PackageName="GarageMods_littleHelperCollection_storageTooltip" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="p3xgriuvf1bn4rtg" Name="Remove simple storage tooltip headers (when selling vehicle)" Type="multi" Visible="True">
         <Size>548</Size>
         <ZipFile>GarageMods_littleHelperCollection_storageTooltip_2020-12-19.zip</ZipFile>
         <CRC>95676221c4c6248a7d8101dbab8729a3</CRC>
         <Timestamp>132528382025105915</Timestamp>
         <Maintainers>Willster419</Maintainers>
+        <Description>If this option is activated, the simple headers of the vehicle parameters tooltip when selling a tank are removed.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
     </Packages>
