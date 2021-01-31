@@ -522,9 +522,9 @@
   </Package>
   <Package PackageName="IngameInfo_Hitmarker" Enabled="True" Tags="Patch,Script,ConfigurationFileXml,SoundBank" InstallGroup="4" PatchGroup="4" UID="y7kl5b4iri4nxded" Name="Hitmarker [by {author}]" Type="multi" Visible="True">
     <Size>9999</Size>
-    <ZipFile>IngameInfo_Hitmarker_1.11.1.1_2021-01-29_aslain_temp.zip</ZipFile>
-    <CRC>715f045ef295a5e85a274463102b576c</CRC>
-    <Timestamp>132564430075162900</Timestamp>
+    <ZipFile>IngameInfo_Hitmarker_1.11.1.1_2021-01-31.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132565885604548645</Timestamp>
     <DevURL>https://github.com/Aimdrol/MLG-Hitmarker\r\nhttp://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
     <InternalNotes>The new bnk is from the RelhaxSoundMod repo</InternalNotes>
     <Author>Aimdrol</Author>
@@ -535,6 +535,8 @@
     </Medias>
     <Dependencies>
       <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_default" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
       <Package PackageName="IngameInfo_Hitmarker_default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tl1sxfu1m16d96wq" Name="Default" Type="single_dropdown1" Visible="True">
@@ -1514,9 +1516,9 @@
     <Packages>
       <Package PackageName="IngameInfo_RTAN_Aimdrol" Enabled="True" Tags="Patch,Script,SoundBank,ConfigurationFileXml" InstallGroup="4" PatchGroup="4" UID="0sbdo1pmib5jcxt3" Name="RTAN [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>200816</Size>
-        <ZipFile>IngameInfo_RTAN_Aimdrol_1.11.1.1_bootleg_2021-01-30.zip</ZipFile>
-        <CRC>ceb1642ec061b058244f1293e5288f1b</CRC>
-        <Timestamp>132565004259019364</Timestamp>
+        <ZipFile>IngameInfo_RTAN_Aimdrol_1.11.1.1_2021-01-31.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132565884183354029</Timestamp>
         <DevURL>https://github.com/Aimdrol/MLG-RTAN</DevURL>
         <InternalNotes>the new bnk comes from the RelhaxSoundMod repo</InternalNotes>
         <Author>Aimdrol</Author>
@@ -1524,6 +1526,10 @@
         <Medias>
           <Media URL="http://i.imgur.com/LDKvk1n.png" MediaType="Picture" />
         </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_default" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
       <Package PackageName="IngameInfo_RTAN_Protanki" Enabled="True" Tags="ConfigurationFileJson,Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="chhsw0vni7x0c903" Name="RTAN [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>811400</Size>
