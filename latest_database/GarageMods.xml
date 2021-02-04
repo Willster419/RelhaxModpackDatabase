@@ -212,31 +212,24 @@
           <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="GarageMods_Chat_Blacklist" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="y4edcgz4imqd3qcu" Name="Expand Friends- &amp; Blacklist" Type="multi" Visible="True">
+      <Package PackageName="GarageMods_Chat_BlacklistExpand" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="btkskg55hjiv31ju" Name="Antitoxicity´s expanded friends- and blacklist" Type="multi" Visible="True">
+        <Size>566</Size>
+        <ZipFile>GarageMods_Chat_BlacklistExpand_2018-07-05.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132001697966852106</Timestamp>
-        <Description>Expand your Friendslist and Blacklist</Description>
+        <Timestamp>132569503172314191</Timestamp>
+        <Description>Expand your Friendslist and Blacklist\n\n\nPart of Antitoxicity by ShuraBB</Description>
+        <ObfuscatedMod>True</ObfuscatedMod>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Antitoxicity" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
         <Packages>
-          <Package PackageName="GarageMods_Chat_Blacklist_AntitoxicityExpandFriendsBlacklist" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="btkskg55hjiv31ju" Name="Antitoxicity´s expanded friends- and blacklist" Type="single1" Visible="True">
-            <Size>566</Size>
-            <ZipFile>GarageMods_Chat_Blacklist_AntitoxicityExpandFriendsBlacklist_2018-07-05.zip</ZipFile>
-            <CRC>16128c6d18079fad9ba4ca36c3594df0</CRC>
-            <Timestamp>132509566004218829</Timestamp>
-            <Description>Expand your Friendslist and Blacklist\n\n\nPart of Antitoxicity by ShuraBB</Description>
-            <ObfuscatedMod>True</ObfuscatedMod>
-            <Dependencies>
-              <Dependency PackageName="Dependency_ShuraBB_Antitoxicity" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-            </Dependencies>
-            <Packages>
-              <Package PackageName="GarageMods_Chat_Blacklist_AntitoxicityExpandFriendsBlacklist_ClearBlacklist" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="oir7sfb6hfbd3dqt" Name="enable clearing of blacklist with F12 key" Type="multi" Visible="True">
-                <Size>543</Size>
-                <ZipFile>GarageMods_Chat_Blacklist_AntitoxicityExpandFriendsBlacklist_ClearBlacklist_2018-06-18.zip</ZipFile>
-                <CRC>c29bb86f280cd8524ffaf67564c85a25</CRC>
-                <Timestamp>132509567726540775</Timestamp>
-                <Description>By pressing F12  in the garage you can clear your blacklist\nby\nShuraBB</Description>
-              </Package>
-            </Packages>
+          <Package PackageName="GarageMods_Chat_BlacklistExpand_ClearBlacklist" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="oir7sfb6hfbd3dqt" Name="enable clearing of blacklist with F12 key" Type="multi" Visible="True">
+            <Size>543</Size>
+            <ZipFile>GarageMods_Chat_BlacklistExpand_ClearBlacklist_2018-06-18.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132569503765477314</Timestamp>
+            <Description>By pressing F12  in the garage you can clear your blacklist\nby\nShuraBB</Description>
           </Package>
         </Packages>
       </Package>
