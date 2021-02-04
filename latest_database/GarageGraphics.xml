@@ -1670,14 +1670,6 @@
       <UserFile Pattern="\mods\configs\HangMan\HangMan.xml" />
     </UserFiles>
     <Packages>
-      <Package PackageName="GarageGraphics_Hangar_DOFtrue" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5ehq3v6b267a8lql" Name="Depth Of Field (default: 1.00) in hangar" Type="multi" Visible="True">
-        <Size>459</Size>
-        <ZipFile>GarageGraphics_Hangar_DOFtrue.zip</ZipFile>
-        <CRC>61d1a8b2c02cec35ab1034fb6f5b1200</CRC>
-        <Timestamp>132509635981389515</Timestamp>
-        <DevURL>http://www.goofy67-wot.de/hangar-freecam.html</DevURL>
-        <ShowInSearchList>False</ShowInSearchList>
-      </Package>
       <Package PackageName="GarageGraphics_Hangar_Freecam" Enabled="True" Tags="Script,ImagePNG" InstallGroup="4" PatchGroup="4" UID="i3n5bucc12zs8wyl" Name="FreeCam v{version}" Type="multi" Visible="True">
         <Size>14676</Size>
         <Version>2.11</Version>
@@ -1694,11 +1686,26 @@
           <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
+      <Package PackageName="GarageGraphics_Hangar_modeNormal" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="t70i76acsgfp63h9" Name="&quot;normal&quot; hangar selection (no changes after battle)" Type="multi" Visible="True">
+        <ZipFile>GarageGraphics_Hangar_modeNormal_2021-02-04.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132569141963817467</Timestamp>
+        <Description> This will set the way the manager selects a hangars to display to "normal".\r\nThat´s the usual manner and will display the previously selected hangar.</Description>
+      </Package>
       <Package PackageName="GarageGraphics_Hangar_fadeonmousemove" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vsukjuid0yr9885l" Name="GUI fadeout on mousemove (while holding down left mouse)" Type="multi" Visible="True">
         <Size>495</Size>
         <ZipFile>GarageGraphics_Hangar_fadeonmousemove.zip</ZipFile>
         <CRC>61cad3fee541825c3782753b36e64bd0</CRC>
         <Timestamp>132509636251143620</Timestamp>
+        <Description>fades GUI in lobby while dragging mouse</Description>
+        <ShowInSearchList>False</ShowInSearchList>
+      </Package>
+      <Package PackageName="GarageGraphics_Hangar_DOFtrue" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5ehq3v6b267a8lql" Name="Depth Of Field (default: 1.00) in hangar" Type="multi" Visible="True">
+        <Size>459</Size>
+        <ZipFile>GarageGraphics_Hangar_DOFtrue.zip</ZipFile>
+        <CRC>61d1a8b2c02cec35ab1034fb6f5b1200</CRC>
+        <Timestamp>132509635981389515</Timestamp>
+        <DevURL>http://www.goofy67-wot.de/hangar-freecam.html</DevURL>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
       <Package PackageName="GarageGraphics_Hangar_showPremTankFALSE" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p7crbx8vvitzj1ny" Name="Remove premium tank in background" Type="multi" Visible="True">
@@ -1712,6 +1719,11 @@
         <ZipFile>GarageGraphics_Hangar_showTeaserFALSE.zip</ZipFile>
         <CRC>5138ac630cd57c2b55cd7da971a902ab</CRC>
         <Timestamp>132509636481576547</Timestamp>
+      </Package>
+      <Package PackageName="GarageGraphics_Hangar_musicInLobbyFALSE" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rxuy69oo58wevzgi" Name="disable music in  hangar/lobby" Type="multi" Visible="True">
+        <ZipFile>GarageGraphics_Hangar_musicInLobbyFALSE_2021-02-04.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132569141853129448</Timestamp>
       </Package>
       <Package PackageName="GarageGraphics_Hangar_Design" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="flplrwkxuaeyjo1x" Name="multiple hangar styles to choose ingame" Type="multi" Visible="True">
         <CRC>f</CRC>
