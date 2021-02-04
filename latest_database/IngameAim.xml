@@ -697,7 +697,7 @@
     <Timestamp>131542992576669791</Timestamp>
     <Description>Shows wether or not you can penetrate an enemy, in the form of showing the number</Description>
     <Packages>
-      <Package PackageName="IngameAim_PenetrationIndicator_PMOD" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hvs3kup6fskp4f4e" Name="PMOD" Type="single1" Visible="True">
+      <Package PackageName="IngameAim_PenetrationIndicator_PMOD" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hvs3kup6fskp4f4e" Name="PMOD PenIndicator" Type="single1" Visible="True">
         <Size>912</Size>
         <ZipFile>IngameAim_PenetrationIndicator_PMOD_1.7.1.2_2020-02-15.zip</ZipFile>
         <CRC>420be81a4efc6c6a5e0fbf7ff50e859b</CRC>
@@ -707,29 +707,27 @@
           <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="IngameAim_PenetrationIndicator_PMOD_Font" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ba9acyfpabmef8mr" Name="Font" Type="multi" Visible="True">
+          <Package PackageName="IngameAim_PenetrationIndicator_PMOD_Font" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="ba9acyfpabmef8mr" Name="--- Font size---" Type="single_dropdown1" Visible="True">
             <CRC>f</CRC>
             <Timestamp>132119925462710593</Timestamp>
-            <Packages>
-              <Package PackageName="IngameAim_PenetrationIndicator_PMOD_Font_small" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ozgpkxlq97ewfktr" Name="font size small (18)" Type="single_dropdown1" Visible="True">
-                <Size>926</Size>
-                <ZipFile>IngameAim_PenetrationIndicator_PMOD_Font_small_1.7.1.2_2020-02-15.zip</ZipFile>
-                <CRC>aa94d6c7d8772c9c3a71be18388a1bcb</CRC>
-                <Timestamp>132509484594505475</Timestamp>
-              </Package>
-              <Package PackageName="IngameAim_PenetrationIndicator_PMOD_Font_medium" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1om4sxrr846efv0q" Name="font size medium (24)" Type="single_dropdown1" Visible="True">
-                <Size>928</Size>
-                <ZipFile>IngameAim_PenetrationIndicator_PMOD_Font_medium_1.7.1.2_2020-02-15.zip</ZipFile>
-                <CRC>e38586aab089bd72786109f915073255</CRC>
-                <Timestamp>132509484682008191</Timestamp>
-              </Package>
-              <Package PackageName="IngameAim_PenetrationIndicator_PMOD_Font_large" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="v24bk1ha3n83roi4" Name="font size large (30)" Type="single_dropdown1" Visible="True">
-                <Size>958</Size>
-                <ZipFile>IngameAim_PenetrationIndicator_PMOD_Font_large_2020-02-15.zip</ZipFile>
-                <CRC>0d8e4c1473710702b7e7f083dcb2c956</CRC>
-                <Timestamp>132509484783892348</Timestamp>
-              </Package>
-            </Packages>
+          </Package>
+          <Package PackageName="IngameAim_PenetrationIndicator_PMOD_FontLarge" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="v24bk1ha3n83roi4" Name="large (30)" Type="single_dropdown1" Visible="True">
+            <Size>958</Size>
+            <ZipFile>IngameAim_PenetrationIndicator_PMOD_FontLarge_2020-02-15.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132569477225230641</Timestamp>
+          </Package>
+          <Package PackageName="IngameAim_PenetrationIndicator_PMOD_FontMedium" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1om4sxrr846efv0q" Name="medium (24)" Type="single_dropdown1" Visible="True">
+            <Size>928</Size>
+            <ZipFile>IngameAim_PenetrationIndicator_PMOD_FontMedium_2020-02-15.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132569477138049467</Timestamp>
+          </Package>
+          <Package PackageName="IngameAim_PenetrationIndicator_PMOD_FontSmall" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ozgpkxlq97ewfktr" Name="small (18)" Type="single_dropdown1" Visible="True">
+            <Size>926</Size>
+            <ZipFile>IngameAim_PenetrationIndicator_PMOD_FontSmall_2020-02-15.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132569477059331852</Timestamp>
           </Package>
           <Package PackageName="IngameAim_PenetrationIndicator_PMOD_DynamicColour" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8raqs0nb2j0lq0p3" Name="Coloured" Type="multi" Visible="True">
             <Size>609</Size>
