@@ -1,75 +1,65 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Category Name="Damage Logs &amp; Panels" OffsetInstallGroups="True">
-  <Package PackageName="DamageLogs" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rkkhyqiipudzzfrx" Name="Damage Logs" Type="multi" Visible="True">
-    <Description>Damage Logs create a list of taken damage. \nIn the list you find detailed information about who was shooting at you and how much HP these shots have taken from you.\n\nWe provide you some fine configurations with different layouts and colors, but you have to figure out yourself which one fits best to the rest of your installed modifications.</Description>
+  <Package PackageName="DamageLogs" Enabled="True" Tags="ConfigurationFileJson,Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="49rw6qojor6hzrzx" Name="GambitER" Type="multi" Visible="True">
+    <Size>180016</Size>
+    <ZipFile>DamageLogs_1.11.1.0_2021-01-27.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132569453955390959</Timestamp>
+    <DevURL>http://wotsite.net/paneli-povrezhdenij/3109-</DevURL>
+    <InternalNotes>only need the one from the "Толька лог урона" folder (translated: "damage log only")\r\n\r\nhttps://dwn.wotsite.net/DamagePanel-Standart-3V.rar</InternalNotes>
+    <Description>Damage Logs create a list of taken damage. \nIn the list there is detailed information about who was shooting you and how much HP these shots have taken from you.\n\nWe provide you some configurations with different layouts and colors, but you have to figure out yourself which one fits best to the rest of your installed modifications.</Description>
+    <Medias>
+      <Media URL="http://wotsite.net/images/2014/1/21/1.jpg" MediaType="Picture" />
+      <Media URL="http://wotsite.net/images/2014/2/18/1.gif" MediaType="Picture" />
+      <Media URL="http://s017.radikal.ru/i443/1505/e0/ed51e309393c.gif" MediaType="Picture" />
+      <Media URL="https://youtu.be/zoNNtMH_V_U?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
+    </Medias>
     <Dependencies>
+      <Dependency PackageName="Dependency_Fonts_10_ZurichCond" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_Fonts_DamageLog" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_Fonts_Gunplay" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_XVM_damageLogDisable" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="DamageLogs_GambitER" Enabled="True" Tags="ConfigurationFileJson,Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="49rw6qojor6hzrzx" Name="GambitER" Type="single1" Visible="True">
-        <Size>180016</Size>
-        <ZipFile>DamageLogs_GambitER_1.11.1.0_2021-01-27.zip</ZipFile>
-        <CRC>e8c10da61e00810b2984fdcaacd6d679</CRC>
-        <Timestamp>132562232149127230</Timestamp>
-        <DevURL>http://wotsite.net/paneli-povrezhdenij/3109-</DevURL>
-        <InternalNotes>only need the one from the "Толька лог урона" folder (translated: "damage log only")\r\n\r\nhttps://dwn.wotsite.net/DamagePanel-Standart-3V.rar</InternalNotes>
+      <Package PackageName="DamageLogs_OMC" Enabled="True" Tags="ConfigurationFileOther" InstallGroup="4" PatchGroup="4" UID="yo84yue2ja76akha" Name="OMC" Type="single_dropdown1" Visible="True">
+        <Size>11398</Size>
+        <ZipFile>DamageLogs_OMC_2019-11-19.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132569454138111974</Timestamp>
+        <Description>press right alt to see the player name</Description>
+      </Package>
+      <Package PackageName="DamageLogs_KornetWA" Enabled="True" Tags="ConfigurationFileOther" InstallGroup="4" PatchGroup="4" UID="bdfj6tl3i60oawoa" Name="Kornet_WA" Type="single_dropdown1" Visible="True">
+        <Size>26654</Size>
+        <ZipFile>DamageLogs_KornetWA_2019-11-19.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132569454308807514</Timestamp>
+        <DevURL>http://wotsite.net/paneli-povrezhdenij/3109-panel-povrezhdenij-damage-panel-dlya-071.html</DevURL>
         <Medias>
-          <Media URL="http://wotsite.net/images/2014/1/21/1.jpg" MediaType="Picture" />
-          <Media URL="http://wotsite.net/images/2014/2/18/1.gif" MediaType="Picture" />
-          <Media URL="http://s017.radikal.ru/i443/1505/e0/ed51e309393c.gif" MediaType="Picture" />
-          <Media URL="https://youtu.be/zoNNtMH_V_U?version=3&amp;amp;autoplay=1" MediaType="Webpage" />
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Logs/Damage_Logs_GambitER_Damage_Log_Kornet.jpg" MediaType="Picture" />
         </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_Fonts_10_ZurichCond" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_DamageLog" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_Gunplay" NotFlag="False" Logic="OR" />
-        </Dependencies>
-        <Packages>
-          <Package PackageName="DamageLogs_GambitER_OMC" Enabled="True" Tags="ConfigurationFileOther" InstallGroup="4" PatchGroup="4" UID="yo84yue2ja76akha" Name="OMC" Type="single_dropdown1" Visible="True">
-            <Size>11398</Size>
-            <ZipFile>DamageLogs_GambitER_OMC_2019-11-19.zip</ZipFile>
-            <CRC>3abd5ed6e5edcdc2cb2de91f2d8b3f6a</CRC>
-            <Timestamp>132508926990390954</Timestamp>
-            <Description>press right alt to see the player name</Description>
-          </Package>
-          <Package PackageName="DamageLogs_GambitER_KornetWA" Enabled="True" Tags="ConfigurationFileOther" InstallGroup="4" PatchGroup="4" UID="bdfj6tl3i60oawoa" Name="Kornet_WA" Type="single_dropdown1" Visible="True">
-            <Size>26654</Size>
-            <ZipFile>DamageLogs_GambitER_KornetWA_2019-11-19.zip</ZipFile>
-            <CRC>80fe5d6bf41c7fad9660f1f663f8cbfe</CRC>
-            <Timestamp>132508927111892664</Timestamp>
-            <DevURL>http://wotsite.net/paneli-povrezhdenij/3109-panel-povrezhdenij-damage-panel-dlya-071.html</DevURL>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Logs/Damage_Logs_GambitER_Damage_Log_Kornet.jpg" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="DamageLogs_GambitER_XFT" Enabled="True" Tags="ConfigurationFileXC,ConfigurationFileOther" InstallGroup="4" PatchGroup="4" UID="ig356whndmuvl0dn" Name="XFT" Type="single_dropdown1" Visible="True">
-            <Size>15406</Size>
-            <ZipFile>DamageLogs_GambitER_XFT_2019-11-19.zip</ZipFile>
-            <CRC>253fe56611b8daf18a91875a4733c354</CRC>
-            <Timestamp>132508927240384910</Timestamp>
-            <Description>Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</Description>
-          </Package>
-          <Package PackageName="DamageLogs_GambitER_XFTIntegrated" Enabled="True" Tags="ConfigurationFileXC,ConfigurationFileOther" InstallGroup="4" PatchGroup="4" UID="pkrr50d771o3x520" Name="config from XFT with integrated hitlog (xvm needed for hitlog)" Type="single_dropdown1" Visible="True">
-            <Size>14146</Size>
-            <ZipFile>DamageLogs_GambitER_XFTIntegrated_2017-08-30.zip</ZipFile>
-            <CRC>4f50c4cc68b5d61c8d4e343e089b9eb2</CRC>
-            <Timestamp>132508927397357858</Timestamp>
-            <Description>Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</Description>
-            <Medias>
-              <Media URL="http://i.imgur.com/pjkRzWn.jpg" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="DamageLogs_GambitER_messages" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="29y6ezj86yhkwg90" Name="damage messages" Type="multi" Visible="True">
-            <Packages>
-              <Package PackageName="DamageLogs_GambitER_messages_center" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="fy4lmyp95u92wshz" Name="move damage messages to center" Type="multi" Visible="True">
-                <Size>3474</Size>
-                <ZipFile>DamageLogs_GambitER_messages_center_2018-05-05.zip</ZipFile>
-                <CRC>a096f913b37fb1c5ed2bd0e42b4222b7</CRC>
-                <Timestamp>132508927765054108</Timestamp>
-              </Package>
-            </Packages>
-          </Package>
-        </Packages>
+      </Package>
+      <Package PackageName="DamageLogs_XFT" Enabled="True" Tags="ConfigurationFileXC,ConfigurationFileOther" InstallGroup="4" PatchGroup="4" UID="ig356whndmuvl0dn" Name="XFT" Type="single_dropdown1" Visible="True">
+        <Size>15406</Size>
+        <ZipFile>DamageLogs_XFT_2019-11-19.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132569454492697315</Timestamp>
+        <Description>Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</Description>
+      </Package>
+      <Package PackageName="DamageLogs_XFTIntegrated" Enabled="True" Tags="ConfigurationFileXC,ConfigurationFileOther" InstallGroup="4" PatchGroup="4" UID="pkrr50d771o3x520" Name="config from XFT with integrated hitlog (xvm needed for hitlog)" Type="single_dropdown1" Visible="True">
+        <Size>14146</Size>
+        <ZipFile>DamageLogs_XFTIntegrated_2017-08-30.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132569454616843595</Timestamp>
+        <Description>Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</Description>
+        <Medias>
+          <Media URL="http://i.imgur.com/pjkRzWn.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="DamageLogs_messagesCenter" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="fy4lmyp95u92wshz" Name="move damage messages to center" Type="multi" Visible="True">
+        <Size>3474</Size>
+        <ZipFile>DamageLogs_messagesCenter_2018-05-05.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132569454937232719</Timestamp>
       </Package>
     </Packages>
   </Package>
