@@ -178,32 +178,23 @@
           <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="GarageMods_Carousel_CrewIncomplete" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fb4l6q3wvbdzua90" Name="'Crew Incomplete' icon &amp; text-overlay removed" Type="multi" Visible="True">
-        <Size>1231068</Size>
+      <Package PackageName="GarageMods_Carousel_CrewIncompleteMsgDisable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bxf6tq1k9jm6j27t" Name="'Crew Incomplete' icon &amp; text-overlay removed [by {author}]" Type="multi" Visible="True">
+        <Size>552</Size>
+        <ZipFile>GarageMods_Carousel_CrewIncompleteMsgDisable_2020-05-17.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132327396422356116</Timestamp>
-        <InternalNotes>Just take the ´menu.mo’, rest is default. \r\n</InternalNotes>
+        <Timestamp>132569501858646461</Timestamp>
+        <InternalNotes>its a patch: nothing to do</InternalNotes>
+        <Author>ShuraBB (Auxilium)</Author>
         <Maintainers>Gauss</Maintainers>
         <Description>This is a very simple mod that removes the ‘Crew Incomplete’ text and icon from the carousel overlay in garage.</Description>
+        <ObfuscatedMod>True</ObfuscatedMod>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/Tankcarousel/Garage_Graphics_Carousel_Crew Incomplete.jpg" MediaType="Picture" />
         </Medias>
-        <Packages>
-          <Package PackageName="GarageMods_Carousel_CrewIncomplete_AuxiliumDisableNoCrewMsg" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bxf6tq1k9jm6j27t" Name="[by {author}]" Type="multi" Visible="True">
-            <Size>552</Size>
-            <ZipFile>GarageMods_Carousel_CrewIncomplete_AuxiliumDisableNoCrewMsg_2020-05-17.zip</ZipFile>
-            <CRC>a0e21a5c0db7ea841350d29c329ba277</CRC>
-            <Timestamp>132509567131627589</Timestamp>
-            <InternalNotes>its a patch: nothing to do</InternalNotes>
-            <Author>ShuraBB (Auxilium)</Author>
-            <Maintainers>Gauss</Maintainers>
-            <ObfuscatedMod>True</ObfuscatedMod>
-            <Dependencies>
-              <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-        </Packages>
+        <Dependencies>
+          <Dependency PackageName="Dependency_ShuraBB_Auxilium" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_ShuraBB_SDK" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
     </Packages>
   </Package>
