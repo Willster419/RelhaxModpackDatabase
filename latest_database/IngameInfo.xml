@@ -1426,25 +1426,23 @@
           <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
         </Dependencies>
         <Packages>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ggdqlbvi3xn9j5jw" Name="config:" Type="multi" Visible="True">
+          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_Header" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="ggdqlbvi3xn9j5jw" Name="--- choose config: ---" Type="single_dropdown1" Visible="True">
             <Size>683</Size>
             <CRC>f</CRC>
             <Timestamp>132509557814096645</Timestamp>
             <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-            <Packages>
-              <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="avuxdel1ygpyvy19" Name="default" Type="single_dropdown1" Visible="True">
-                <CRC>f</CRC>
-                <Timestamp>132330582315930164</Timestamp>
-                <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-              </Package>
-              <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_elektrosmoker" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="nk1cler2ydigva89" Name="elektrosmoker" Type="single_dropdown1" Visible="True">
-                <Size>995</Size>
-                <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_elektrosmoker_2020-05-04.zip</ZipFile>
-                <CRC>5e1a96c0372c9246f19f5763b464b102</CRC>
-                <Timestamp>132509558061674186</Timestamp>
-                <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-              </Package>
-            </Packages>
+          </Package>
+          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="avuxdel1ygpyvy19" Name="default" Type="single_dropdown1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132330582315930164</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+          </Package>
+          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_elektrosmoker" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="nk1cler2ydigva89" Name="elektrosmoker" Type="single_dropdown1" Visible="True">
+            <Size>995</Size>
+            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_elektrosmoker_2020-05-04.zip</ZipFile>
+            <CRC>5e1a96c0372c9246f19f5763b464b102</CRC>
+            <Timestamp>132509558061674186</Timestamp>
+            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
           </Package>
           <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_enableMoEDisplay" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="098rtdx3x9ayumf8" Name="enable MoE Display" Type="multi" Visible="True">
             <Size>666</Size>
