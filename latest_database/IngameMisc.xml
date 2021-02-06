@@ -554,116 +554,112 @@
     <InternalNotes>1. disable on every patch\r\n2.  check for updates\r\nOR training room will crash to desktop in 0,0000001 sec= 10^-6 sec (record)</InternalNotes>
     <Description>These modify the equipment and consumables section:</Description>
     <Packages>
-      <Package PackageName="IngameMisc_Consumables_EquipmentIcons" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="26fjul4dd8uv5aw6" Name="Equipment and Consumable Icons" Type="multi" Visible="True">
+      <Package PackageName="IngameMisc_Consumables_EquipmentIcons_Header" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="26fjul4dd8uv5aw6" Name="--- Equipment and Consumable Icons ---" Type="single_dropdown1" Visible="True">
         <Timestamp>131980039524252268</Timestamp>
         <InternalNotes>modified from gui.pkg:\n\rres_mods\versiondir\gui\flash\guiControlsLobbyBattle.swf\n\nneeds updates every patchday - urgent!</InternalNotes>
-        <Packages>
-          <Package PackageName="IngameMisc_Consumables_EquipmentIcons_Aimdrol_text" Enabled="True" Tags="ImagePNG,OtherFiles" InstallGroup="4" PatchGroup="4" UID="wkxrmpuw8rwlg3ej" Name="Aimdrol (with [english] text modifications)" Type="single_dropdown1" Visible="True">
-            <Size>99886</Size>
-            <ZipFile>IngameMisc_Consumables_EquipmentIcons_Aimdrol_text_1.11.1.1_2021-01-31.zip</ZipFile>
-            <CRC>d07a7327c7e4e1aacd97a756d8333b3d</CRC>
-            <Timestamp>132565879766440730</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-\r\nhttps://github.com/Aimdrol/MLG-Main</DevURL>
-            <InternalNotes>2020-11-06: removed guiControlsLobbyBattle.swf from list of files to update. not sure what it does at this point</InternalNotes>
-            <Author>Aimdrol</Author>
-            <Medias>
-              <Media URL="http://i.imgur.com/6mneJsK.png" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_MLG_Consumables" NotFlag="False" Logic="OR" />
-              <Dependency PackageName="Dependency_MLG_englishLocalization" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="IngameMisc_Consumables_EquipmentIcons_Aimdrol_noText" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="9946up0x7np3gelj" Name="Aimdrol (without text modifications)" Type="single_dropdown1" Visible="True">
-            <Size>2665260</Size>
-            <CRC>f</CRC>
-            <Timestamp>132100271306124125</Timestamp>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
-            <Author>Aimdrol</Author>
-            <Medias>
-              <Media URL="http://i.imgur.com/6mneJsK.png" MediaType="Picture" />
-            </Medias>
-            <Dependencies>
-              <Dependency PackageName="Dependency_MLG_Consumables" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="IngameMisc_Consumables_EquipmentIcons_ArmoredWarfare" Enabled="False" Tags="ImagePNG,GuiFlash" InstallGroup="4" PatchGroup="4" UID="myal2o6y6khkgqti" Name="Armored Warfare" Type="single_dropdown1" Visible="False">
-            <Size>898379</Size>
-            <Version>1.2.2</Version>
-            <ZipFile>IngameMisc_Consumables_EquipmentIcons_ArmoredWarfare_1.9.0.1_2020-04-29.zip</ZipFile>
-            <CRC>656ccdc76087ee672d0d450bb077c103</CRC>
-            <Timestamp>132509511552792105</Timestamp>
-            <InternalNotes>IngameMisc_Consumables_EquipmentIcons_ArmoredWarfare broken\r\n&lt;=&gt; \r\nIngameMisc_Consumables_EquipmentIcons_LegionLost broken</InternalNotes>
-            <Description>Changes the consumables to that of Armored Warfare.</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Consumables/TheIllusion_AW_Consumables.jpg" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="IngameMisc_Consumables_EquipmentIcons_LegionLost" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="t2y72r2i0zbsrviv" Name="LegionLost" Type="single_dropdown1" Visible="True">
-            <Size>355050</Size>
-            <Version>6.2.0</Version>
-            <ZipFile>IngameMisc_Consumables_EquipmentIcons_LegionLost_v6.2.0_1.11.1.0_2021-01-28.zip</ZipFile>
-            <CRC>e1d8d139327341501dd9d9126ab29381</CRC>
-            <Timestamp>132563126292530883</Timestamp>
-            <DevURL>https://aslain.com/index.php?/topic/12131-1610-legionlost-damage-panel-consumable-v420/\r\nhttps://wgmods.net/2159/</DevURL>
-            <InternalNotes>1. disable on every patch\r\n2.  check for updates\r\nOR training room will crash to desktop in 0,0000001 sec= 10^-6 sec (record)\r\n\r\n\r\nIngameMisc_Consumables_EquipmentIcons_ArmoredWarfare broken\r\n&lt;=&gt; \r\nIngameMisc_Consumables_EquipmentIcons_LegionLost broken</InternalNotes>
-            <Description>Direct Customization of the original Battle Interface to change the base colors from green to blue according to the LegionLost Crosshair style.\r\n\r\nNOTE: THIS IS JUST CONSUMABLES</Description>
-            <FromWGmods>True</FromWGmods>
-            <Medias>
-              <Media URL="https://wgmods.net/media/consumable.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-            </Medias>
-          </Package>
-        </Packages>
       </Package>
-      <Package PackageName="IngameMisc_Consumables_ShellIcons" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6r5mar8jzv49r6pv" Name="Shell icons" Type="multi" Visible="True">
+      <Package PackageName="IngameMisc_Consumables_EquipmentIcons_AimdrolText" Enabled="True" Tags="ImagePNG,OtherFiles" InstallGroup="4" PatchGroup="4" UID="wkxrmpuw8rwlg3ej" Name="Aimdrol (with [english] text modifications)" Type="single_dropdown1" Visible="True">
+        <Size>99886</Size>
+        <ZipFile>IngameMisc_Consumables_EquipmentIcons_AimdrolText_1.11.1.1_2021-01-31.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132570898321647039</Timestamp>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-\r\nhttps://github.com/Aimdrol/MLG-Main</DevURL>
+        <InternalNotes>2020-11-06: removed guiControlsLobbyBattle.swf from list of files to update. not sure what it does at this point</InternalNotes>
+        <Author>Aimdrol</Author>
+        <Medias>
+          <Media URL="http://i.imgur.com/6mneJsK.png" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_MLG_Consumables" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_MLG_englishLocalization" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="IngameMisc_Consumables_EquipmentIcons_AimdrolNoText" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="9946up0x7np3gelj" Name="Aimdrol (without text modifications)" Type="single_dropdown1" Visible="True">
+        <Size>2665260</Size>
+        <CRC>f</CRC>
+        <Timestamp>132100271306124125</Timestamp>
+        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
+        <Author>Aimdrol</Author>
+        <Medias>
+          <Media URL="http://i.imgur.com/6mneJsK.png" MediaType="Picture" />
+        </Medias>
+        <Dependencies>
+          <Dependency PackageName="Dependency_MLG_Consumables" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="IngameMisc_Consumables_EquipmentIcons_ArmoredWarfare" Enabled="False" Tags="ImagePNG,GuiFlash" InstallGroup="4" PatchGroup="4" UID="myal2o6y6khkgqti" Name="Armored Warfare" Type="single_dropdown1" Visible="False">
+        <Size>898379</Size>
+        <Version>1.2.2</Version>
+        <ZipFile>IngameMisc_Consumables_EquipmentIcons_ArmoredWarfare_1.9.0.1_2020-04-29.zip</ZipFile>
+        <CRC>656ccdc76087ee672d0d450bb077c103</CRC>
+        <Timestamp>132509511552792105</Timestamp>
+        <InternalNotes>IngameMisc_Consumables_EquipmentIcons_ArmoredWarfare broken\r\n&lt;=&gt; \r\nIngameMisc_Consumables_EquipmentIcons_LegionLost broken</InternalNotes>
+        <Description>Changes the consumables to that of Armored Warfare.</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Consumables/TheIllusion_AW_Consumables.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="IngameMisc_Consumables_EquipmentIcons_LegionLost" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="t2y72r2i0zbsrviv" Name="LegionLost" Type="single_dropdown1" Visible="True">
+        <Size>355050</Size>
+        <Version>6.2.0</Version>
+        <ZipFile>IngameMisc_Consumables_EquipmentIcons_LegionLost_v6.2.0_1.11.1.0_2021-01-28.zip</ZipFile>
+        <CRC>e1d8d139327341501dd9d9126ab29381</CRC>
+        <Timestamp>132563126292530883</Timestamp>
+        <DevURL>https://aslain.com/index.php?/topic/12131-1610-legionlost-damage-panel-consumable-v420/\r\nhttps://wgmods.net/2159/</DevURL>
+        <InternalNotes>1. disable on every patch\r\n2.  check for updates\r\nOR training room will crash to desktop in 0,0000001 sec= 10^-6 sec (record)\r\n\r\n\r\nIngameMisc_Consumables_EquipmentIcons_ArmoredWarfare broken\r\n&lt;=&gt; \r\nIngameMisc_Consumables_EquipmentIcons_LegionLost broken</InternalNotes>
+        <Description>Direct Customization of the original Battle Interface to change the base colors from green to blue according to the LegionLost Crosshair style.\r\n\r\nNOTE: THIS IS JUST CONSUMABLES</Description>
+        <FromWGmods>True</FromWGmods>
+        <Medias>
+          <Media URL="https://wgmods.net/media/consumable.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="IngameMisc_Consumables_ShellIcons_Header" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="6r5mar8jzv49r6pv" Name="--- Shell icons ---" Type="single_dropdown2" Visible="True">
         <Size>389473</Size>
         <CRC>f</CRC>
         <Timestamp>132031253001741975</Timestamp>
         <InternalNotes>No guiControlsLobbyBattle.swf (!)\n\nonly pictures\nres\gui\maps\icons\ammopanel\ammo\ only pictures\nres\gui\maps\icons\ammopanel\battle_ammo\ only pictures\nres\gui\maps\icons\shell\ only pictures\n\nkeep it that way, if possible</InternalNotes>
-        <Packages>
-          <Package PackageName="IngameMisc_Consumables_ShellIcons_AW" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dut8au43ubyg2be8" Name="Armored Warfare" Type="single_dropdown1" Visible="True">
-            <Size>65760</Size>
-            <ZipFile>IngameMisc_Consumables_ShellIcons_AW_1.5.0.2_2019-05-16.zip</ZipFile>
-            <CRC>a9dbbdf79ad5668bc8d75b0a63f45015</CRC>
-            <Timestamp>132509511787937807</Timestamp>
-            <Author> The Illusion</Author>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Consumables/Ingame_Misc_Ammo_AW_TheIllusion_1.5.0.2_2019-05-16.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="IngameMisc_Consumables_ShellIcons_LegionLost" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ofg1ideiu1ewn1da" Name="Letter Shell Icons LegionLost" Type="single_dropdown1" Visible="True">
-            <Size>259615</Size>
-            <Version>6.1.0</Version>
-            <ZipFile>IngameMisc_Consumables_ShellIcons_LegionLost_v6.1.0_1.11.0.0_2020-12-10.zip</ZipFile>
-            <CRC>f7fec9de9497cb1d81848c156f6bbbf7</CRC>
-            <Timestamp>132520950438760905</Timestamp>
-            <DevURL>https://aslain.com/index.php?/topic/12131-1610-legionlost-damage-panel-consumable-v420/\r\nhttps://wgmods.net/2159/</DevURL>
-          </Package>
-          <Package PackageName="IngameMisc_Consumables_ShellIcons_vvooj" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="kxhuax0norsoef3l" Name="Letter Shell Icons" Type="single_dropdown1" Visible="True">
-            <Size>15555</Size>
-            <ZipFile>IngameMisc_Consumables_ShellIcons_vvooj_2020-11-01.zip</ZipFile>
-            <CRC>70f9904e53af07fdeaa27986ffedda78</CRC>
-            <Timestamp>132487498992381907</Timestamp>
-            <DevURL>https://wgmods.net/645/\r\nhttps://mods.curse.com/wot-mods/worldoftanks/letter-shell-icons</DevURL>
-            <Author>vvooj</Author>
-            <Description>shows shell icons in a simplified way - only text with big letters\r\n\r\nBy Wojtus11r2</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Consumables/shellicons/Ingame_Misc_Consumables_ShellIcons_vvooj.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="IngameMisc_Consumables_ShellIcons_WarThunder" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="xmo9ix6onnk5erbl" Name="WarThunder" Type="single_dropdown1" Visible="True">
-            <Size>314457</Size>
-            <ZipFile>IngameMisc_Consumables_ShellIcons_WarThunder_2020-11-01.zip</ZipFile>
-            <CRC>4aa3327f887bc14d2b8786da7b074ccb</CRC>
-            <Timestamp>132509512104358725</Timestamp>
-            <DevURL>https://wgmods.net/1771/</DevURL>
-            <Author>alda_bravo</Author>
-            <Description>WarThunder icons\n\nchange the ammo types icons in the garage and in the battle and show the effect of the type of ammunition when it hits the armor.</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Consumables/shellicons/Ingame_Misc_Consumables_ShellIcons_WarThunder_by_alda_bravo.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-        </Packages>
+      </Package>
+      <Package PackageName="IngameMisc_Consumables_ShellIcons_AW" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dut8au43ubyg2be8" Name="Armored Warfare" Type="single_dropdown2" Visible="True">
+        <Size>65760</Size>
+        <ZipFile>IngameMisc_Consumables_ShellIcons_AW_1.5.0.2_2019-05-16.zip</ZipFile>
+        <CRC>a9dbbdf79ad5668bc8d75b0a63f45015</CRC>
+        <Timestamp>132509511787937807</Timestamp>
+        <Author> The Illusion</Author>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Consumables/Ingame_Misc_Ammo_AW_TheIllusion_1.5.0.2_2019-05-16.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="IngameMisc_Consumables_ShellIcons_LegionLost" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ofg1ideiu1ewn1da" Name="Letter Shell Icons LegionLost" Type="single_dropdown2" Visible="True">
+        <Size>259615</Size>
+        <Version>6.1.0</Version>
+        <ZipFile>IngameMisc_Consumables_ShellIcons_LegionLost_v6.1.0_1.11.0.0_2020-12-10.zip</ZipFile>
+        <CRC>f7fec9de9497cb1d81848c156f6bbbf7</CRC>
+        <Timestamp>132520950438760905</Timestamp>
+        <DevURL>https://aslain.com/index.php?/topic/12131-1610-legionlost-damage-panel-consumable-v420/\r\nhttps://wgmods.net/2159/</DevURL>
+      </Package>
+      <Package PackageName="IngameMisc_Consumables_ShellIcons_vvooj" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="kxhuax0norsoef3l" Name="Letter Shell Icons" Type="single_dropdown2" Visible="True">
+        <Size>15555</Size>
+        <ZipFile>IngameMisc_Consumables_ShellIcons_vvooj_2020-11-01.zip</ZipFile>
+        <CRC>70f9904e53af07fdeaa27986ffedda78</CRC>
+        <Timestamp>132487498992381907</Timestamp>
+        <DevURL>https://wgmods.net/645/\r\nhttps://mods.curse.com/wot-mods/worldoftanks/letter-shell-icons</DevURL>
+        <Author>vvooj</Author>
+        <Description>shows shell icons in a simplified way - only text with big letters\r\n\r\nBy Wojtus11r2</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Consumables/shellicons/Ingame_Misc_Consumables_ShellIcons_vvooj.png" MediaType="Picture" />
+        </Medias>
+      </Package>
+      <Package PackageName="IngameMisc_Consumables_ShellIcons_WarThunder" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="xmo9ix6onnk5erbl" Name="WarThunder" Type="single_dropdown2" Visible="True">
+        <Size>314457</Size>
+        <ZipFile>IngameMisc_Consumables_ShellIcons_WarThunder_2020-11-01.zip</ZipFile>
+        <CRC>4aa3327f887bc14d2b8786da7b074ccb</CRC>
+        <Timestamp>132509512104358725</Timestamp>
+        <DevURL>https://wgmods.net/1771/</DevURL>
+        <Author>alda_bravo</Author>
+        <Description>WarThunder icons\n\nchange the ammo types icons in the garage and in the battle and show the effect of the type of ammunition when it hits the armor.</Description>
+        <Medias>
+          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Consumables/shellicons/Ingame_Misc_Consumables_ShellIcons_WarThunder_by_alda_bravo.png" MediaType="Picture" />
+        </Medias>
       </Package>
     </Packages>
   </Package>
