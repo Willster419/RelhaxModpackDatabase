@@ -1176,7 +1176,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="IngameMisc_Minimap_Type_Advanced" Enabled="True" Tags="GuiFlash,Script" InstallGroup="0" PatchGroup="4" UID="v8omg15n5sefqhwk" Name="Advanced (HD) Minimap (conflicts with xvm minimap) [by {author}]" Type="single1" Visible="True">
+          <Package PackageName="IngameMisc_Minimap_Type_Advanced" Enabled="False" Tags="GuiFlash,Script" InstallGroup="0" PatchGroup="4" UID="v8omg15n5sefqhwk" Name="Advanced (HD) Minimap (conflicts with xvm minimap) [by {author}]" Type="single1" Visible="True">
             <Size>71481613</Size>
             <Version>G2.17</Version>
             <ZipFile>IngameMisc_Minimap_Type_Advanced_G2.17_1.11.0.0_2020-12-14.zip</ZipFile>
@@ -1199,90 +1199,70 @@
                 <DevURL>https://wgmods.net/39/details/\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1651746-</DevURL>
                 <Description>This will disable the minimap display of destroyed tanks.</Description>
               </Package>
-              <Package PackageName="IngameMisc_Minimap_Type_Advanced_Main" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pm6u85v60bg41aex" Name="Minimap" Type="single_dropdown1" Visible="True">
+              <Package PackageName="IngameMisc_Minimap_Type_Advanced_Main" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pm6u85v60bg41aex" Name="--- select main map ---" Type="single_dropdown1" Visible="True">
                 <CRC>f</CRC>
                 <Timestamp>132220295752515017</Timestamp>
                 <DevURL>https://wgmods.net/39/details/\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1651746-</DevURL>
-                <Packages>
-                  <Package PackageName="IngameMisc_Minimap_Type_Advanced_Main_HDMaps" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="2bc9g417z78m1llx" Name="HD Maps (as default map)" Type="single_dropdown1" Visible="True">
-                    <Size>670</Size>
-                    <ZipFile>IngameMisc_Minimap_Type_Advanced_Main_HDMaps_1.7.0.2_2019-12-28.zip</ZipFile>
-                    <CRC>d64cbeda53add7d957cb3f35d1ccfcaf</CRC>
-                    <Timestamp>132509522220091360</Timestamp>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB2_malinovka_colored1.jpg" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Lakeville_colored2.jpg" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Wall_of_China_colored3.jpg" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Steppes_colored5.jpg" MediaType="Picture" />
-                      <Media URL="https://youtu.be/J7aUoDftn2w" MediaType="Webpage" />
                     </Medias>
-                  </Package>
-                  <Package PackageName="IngameMisc_Minimap_Type_Advanced_Main_TacticalMaps" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="f0joo378z4141xsw" Name="Tactical Maps (as default map)" Type="single_dropdown1" Visible="True">
-                    <Size>687</Size>
-                    <ZipFile>IngameMisc_Minimap_Type_Advanced_Main_TacticalMaps_1.7.0.2_2019-12-28.zip</ZipFile>
-                    <CRC>32e599fc278915bd165e926471e91bfa</CRC>
-                    <Timestamp>132509521946671138</Timestamp>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_01.png" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_02.png" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_03.png" MediaType="Picture" />
-                    </Medias>
-                  </Package>
-                  <Package PackageName="IngameMisc_Minimap_Type_Advanced_Main_HeatMaps" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="9f0vg7xrtn3tcqaa" Name="Heat Maps (as default map)" Type="single_dropdown1" Visible="True">
-                    <Size>675</Size>
-                    <ZipFile>IngameMisc_Minimap_Type_Advanced_Main_HeatMaps_1.7.0.2_2019-12-28.zip</ZipFile>
-                    <CRC>edf76d015f4c41bdc748a1cb74a6a657</CRC>
-                    <Timestamp>132509521842971705</Timestamp>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_35_steppes.png" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_07_lakeville.png" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_02_malinovka.png" MediaType="Picture" />
-                    </Medias>
-                  </Package>
-                </Packages>
               </Package>
-              <Package PackageName="IngameMisc_Minimap_Type_Advanced_Alt" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="d0qxwd1wgbc7zm3z" Name="When holding ALT" Type="multi" Visible="True">
+              <Package PackageName="IngameMisc_Minimap_Type_Advanced_Main_HD" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="2bc9g417z78m1llx" Name="HD Maps (as default map)" Type="single_dropdown1" Visible="True">
+                <Size>670</Size>
+                <ZipFile>IngameMisc_Minimap_Type_Advanced_Main_HD_1.7.0.2_2019-12-28.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132574245819351103</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB2_malinovka_colored1.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Lakeville_colored2.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Wall_of_China_colored3.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Steppes_colored5.jpg" MediaType="Picture" />
+                  <Media URL="https://youtu.be/J7aUoDftn2w" MediaType="Webpage" />
+                </Medias>
+              </Package>
+              <Package PackageName="IngameMisc_Minimap_Type_Advanced_Main_Tactical" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="f0joo378z4141xsw" Name="Tactical Maps (as default map)" Type="single_dropdown1" Visible="True">
+                <Size>687</Size>
+                <ZipFile>IngameMisc_Minimap_Type_Advanced_Main_Tactical_1.7.0.2_2019-12-28.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132574245758242938</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_01.png" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_02.png" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_03.png" MediaType="Picture" />
+                <Size>675</Size>
+                <ZipFile>IngameMisc_Minimap_Type_Advanced_Main_Heat_1.7.0.2_2019-12-28.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132574245701767057</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_35_steppes.png" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_07_lakeville.png" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_02_malinovka.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="IngameMisc_Minimap_Type_Advanced_Alt" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="d0qxwd1wgbc7zm3z" Name="--- select map to show when holding down the ALT button ---" Type="single_dropdown2" Visible="True">
                 <CRC>f</CRC>
                 <Timestamp>132220294549229462</Timestamp>
                 <DevURL>https://wgmods.net/39/details/\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1651746-</DevURL>
-                <Packages>
-                  <Package PackageName="IngameMisc_Minimap_Type_Advanced_Alt_HD" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="qpwc4c8xf74pzyaz" Name="HD Maps (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="True">
-                    <Size>676</Size>
-                    <ZipFile>IngameMisc_Minimap_Type_Advanced_Alt_HD_1.7.0.2_2019-12-28.zip</ZipFile>
-                    <CRC>01c897a3d2e114cd99e8a62916d6830d</CRC>
-                    <Timestamp>132509521719504459</Timestamp>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB2_malinovka_colored1.jpg" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Lakeville_colored2.jpg" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Wall_of_China_colored3.jpg" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Steppes_colored5.jpg" MediaType="Picture" />
-                      <Media URL="https://youtu.be/J7aUoDftn2w" MediaType="Webpage" />
-                    </Medias>
-                  </Package>
-                  <Package PackageName="IngameMisc_Minimap_Type_Advanced_Alt_Tactical" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="k3ejwgxgaq6earsc" Name="Tactical Maps  (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="True">
-                    <Size>693</Size>
-                    <ZipFile>IngameMisc_Minimap_Type_Advanced_Alt_Tactical_1.7.0.2_2019-12-28.zip</ZipFile>
-                    <CRC>39d40781a7d0f890a2c62f287177d3be</CRC>
-                    <Timestamp>132509521618731626</Timestamp>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_01.png" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_02.png" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_03.png" MediaType="Picture" />
-                    </Medias>
-                  </Package>
-                  <Package PackageName="IngameMisc_Minimap_Type_Advanced_Alt_Heat" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="xsky4f4h9nywa3zc" Name="Heat Maps (press &quot;Alt&quot;)" Type="single_dropdown2" Visible="True">
-                    <Size>682</Size>
-                    <ZipFile>IngameMisc_Minimap_Type_Advanced_Alt_Heat_1.7.0.2_2019-12-28.zip</ZipFile>
-                    <CRC>f793d41da5f0bedaced1b1d89d00da50</CRC>
-                    <Timestamp>132509521467716229</Timestamp>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_35_steppes.png" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_07_lakeville.png" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_HeatMaps_02_malinovka.png" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Mines_colored4.jpg" MediaType="Picture" />
-                    </Medias>
-                  </Package>
-                </Packages>
+              </Package>
+              <Package PackageName="IngameMisc_Minimap_Type_Advanced_Alt_HD" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="qpwc4c8xf74pzyaz" Name="HD Maps (while holding down &quot;ALT&quot;)" Type="single_dropdown2" Visible="True">
+                <Size>676</Size>
+                <ZipFile>IngameMisc_Minimap_Type_Advanced_Alt_HD_1.7.0.2_2019-12-28.zip</ZipFile>
+                <CRC>01c897a3d2e114cd99e8a62916d6830d</CRC>
+                <Timestamp>132509521719504459</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB2_malinovka_colored1.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Lakeville_colored2.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Wall_of_China_colored3.jpg" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_minimap_ShuraBB_Steppes_colored5.jpg" MediaType="Picture" />
+                  <Media URL="https://youtu.be/J7aUoDftn2w" MediaType="Webpage" />
+                </Medias>
+              </Package>
+              <Package PackageName="IngameMisc_Minimap_Type_Advanced_Alt_Tactical" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="k3ejwgxgaq6earsc" Name="Tactical Maps (while holding down &quot;ALT&quot;)" Type="single_dropdown2" Visible="True">
+                <Size>693</Size>
+                <ZipFile>IngameMisc_Minimap_Type_Advanced_Alt_Tactical_1.7.0.2_2019-12-28.zip</ZipFile>
+                <CRC>39d40781a7d0f890a2c62f287177d3be</CRC>
+                <Timestamp>132509521618731626</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_01.png" MediaType="Picture" />
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/HD_Minimap/Ingame_Misc_HD_Minimap_TacticalMaps_02.png" MediaType="Picture" />
               </Package>
             </Packages>
           </Package>
