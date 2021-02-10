@@ -416,11 +416,12 @@
   </Package>
   <Package PackageName="GarageMods_LittleHelperCollection" Enabled="True" Tags="Patch,Script,ConfigurationFileJson" InstallGroup="4" PatchGroup="4" UID="ksbf9er3h535v1vd" Name="Little Helper Collection [by {author}] (READ DESCRIPTION + WARNING)" Type="multi" Visible="True">
     <Size>108956</Size>
-    <Version>1.26</Version>
-    <ZipFile>GarageMods_littleHelperCollection_v1.26_1.11.1.0_2021-01-26.zip</ZipFile>
-    <CRC>a8fbd82c2ce5424cc85ecc0d99f6e33f</CRC>
-    <Timestamp>132561614152322584</Timestamp>
+    <Version>1.27</Version>
+    <ZipFile>GarageMods_littleHelperCollection_v1.27_1.11.1.3_2021-02-09.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132574059812656021</Timestamp>
     <DevURL>https://wgmods.net/4457/\r\nhttps://wot.champi.de/</DevURL>
+    <InternalNotes>2020-02-09: We don't need to have a 'disable all' option for this mod anymore because CHAMPi has stated that all options in this mod are off by default.</InternalNotes>
     <Author>Champi</Author>
     <Maintainers>The Illusion, Willster419</Maintainers>
     <Description>The mod collects some useful improvements that never made it to their own mod. \r\nNot because they're useless, but because they're too small for an own mod. But now I've combined them all in one mod and give the player control to turn them on and off\r\n\r\nFeatures: - hangarTooltip -&gt; Expands the list of tanks on which the equipment is installed (in hangar tips)\r\n- storageTooltip -&gt; Shows the full selling price of modules, consumables and ammunition (in stock)\r\n- contourIconMode -&gt; Disables the flipping of the tank contour icons in the tankman info tooltip. This is for using custom tank contour icons.\r\n- arenaBorderRecolor -&gt; Allows to set a new arena border color. It looks really good to see some fresh new colors there\r\n- disableHeroTank -&gt; Disables the promotion of a tank in the background of the hangar.\r\n\r\n\r\nWARNING:\r\nThis mod can conflict with XVM-, AnnoyingFeaturesRemover- and some other Garage-Settings.</Description>
@@ -475,6 +476,13 @@
         <ZipFile>GarageMods_littleHelperCollection_disableDecalReward_2020-12-19.zip</ZipFile>
         <CRC>0b13625b2f7e03b722d03deff34d8483</CRC>
         <Timestamp>132528378674931863</Timestamp>
+        <Maintainers>Willster419</Maintainers>
+        <ShowInSearchList>False</ShowInSearchList>
+      </Package>
+      <Package PackageName="GarageMods_littleHelperCollection_disableEventBanner" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2lo7t7z8awia66hh" Name="Remove event widgets on the lower right side in the garage" Type="multi" Visible="True">
+        <ZipFile>GarageMods_littleHelperCollection_disableEventBanner_2021-02-09.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132574061114683095</Timestamp>
         <Maintainers>Willster419</Maintainers>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
@@ -609,15 +617,6 @@
         <Description>When enabled, the tooltip in the garage for equipment items additionally shows every tank where the selected item is in use.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
-      <Package PackageName="GarageMods_littleHelperCollection_rememberLastServer" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5f7nougtize95yci" Name="Remember last server" Type="multi" Visible="True">
-        <Size>561</Size>
-        <ZipFile>GarageMods_littleHelperCollection_rememberLastServer_2020-12-19.zip</ZipFile>
-        <CRC>8887af24fdb8c17c8b6b6d2d9e7d8aff</CRC>
-        <Timestamp>132528380733589818</Timestamp>
-        <Maintainers>Willster419</Maintainers>
-        <Description>If enabled the mod stores the last used server and automatically pre-selects it on the login screen.&lt;br/&gt;&lt;br/&gt;Default: checked</Description>
-        <ShowInSearchList>False</ShowInSearchList>
-      </Package>
       <Package PackageName="GarageMods_littleHelperCollection_removeButtonGeneralChat" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="lmxwj3lmvn1vxjao" Name="Remove general chat button in garage" Type="multi" Visible="True">
         <Size>574</Size>
         <ZipFile>GarageMods_littleHelperCollection_removeButtonGeneralChat_2020-12-19.zip</ZipFile>
@@ -643,6 +642,13 @@
         <Timestamp>132528381615046459</Timestamp>
         <Maintainers>Willster419</Maintainers>
         <Description>If enabled, vehicle parameters catagory headers in the garage will be removed and the simple (legacy style) parameters are displayed.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
+        <ShowInSearchList>False</ShowInSearchList>
+      </Package>
+      <Package PackageName="GarageMods_littleHelperCollection_removeUnreadNotes" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="y0kege2gu9j7mbja" Name="Remove unread notifications counter in the menu received from 'Combat Intelligence'" Type="multi" Visible="True">
+        <ZipFile>GarageMods_littleHelperCollection_removeUnreadNotes_2020-12-19.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132574060993497982</Timestamp>
+        <Maintainers>Willster419</Maintainers>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
       <Package PackageName="GarageMods_littleHelperCollection_storageTooltip" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="p3xgriuvf1bn4rtg" Name="Remove simple storage tooltip headers (when selling vehicle)" Type="multi" Visible="True">
