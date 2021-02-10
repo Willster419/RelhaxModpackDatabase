@@ -86,6 +86,7 @@
       <Package PackageName="IngameMisc_BaseCap_Circles" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="uhdj1bw6ct88c43d" Name="BaseCap Circles" Type="multi" Visible="True">
         <Description>Change the style of the circle base to one of these from the list</Description>
         <Packages>
+          <Package PackageName="IngameMisc_BaseCap_Circles_selectStyle" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="c3o4awayb6fi8wjr" Name="--- select style ---" Type="single_dropdown1" Visible="True" />
           <Package PackageName="IngameMisc_BaseCap_Circles_LordFelix" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="76ky9a27bq0pcgad" Name="--- --- --- LordFelix --- --- ---" Type="single_dropdown1" Visible="True">
             <Description>Change the color of the circle base to one of these from the list\n\nby LordFelix\n\nhttps://wgmods.net/search/?owner=127544</Description>
           </Package>
@@ -275,6 +276,10 @@
         <DevURL>https://wgmods.net/search/?owner=237525</DevURL>
         <Description>This mod will change the stock cap flag to a customize cap flag , You have 101 cap flags to pick from.</Description>
         <Packages>
+          <Package PackageName="IngameMisc_BaseCap_Flags_selectStyle" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6ik7kinnm9ltk8tg" Name="--- select style ---" Type="single_dropdown1" Visible="True">
+            <CRC>f</CRC>
+            <Timestamp>132574241716937361</Timestamp>
+          </Package>
           <Package PackageName="IngameMisc_BaseCap_Flags_HAWG001" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7bgovt00xqeg8ry4" Name="(1)  Ace of Spades [by {author}]" Type="single_dropdown1" Visible="True">
             <Size>66813</Size>
             <ZipFile>IngameMisc_BaseCap_Flags_HAWG001.zip</ZipFile>
@@ -1194,7 +1199,7 @@
                 <DevURL>https://wgmods.net/39/details/\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1651746-</DevURL>
                 <Description>This will disable the minimap display of destroyed tanks.</Description>
               </Package>
-              <Package PackageName="IngameMisc_Minimap_Type_Advanced_Main" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pm6u85v60bg41aex" Name="Minimap" Type="multi" Visible="True">
+              <Package PackageName="IngameMisc_Minimap_Type_Advanced_Main" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pm6u85v60bg41aex" Name="Minimap" Type="single_dropdown1" Visible="True">
                 <CRC>f</CRC>
                 <Timestamp>132220295752515017</Timestamp>
                 <DevURL>https://wgmods.net/39/details/\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1651746-</DevURL>
