@@ -2426,26 +2426,37 @@
             <DevURL>https://koreanrandom.com/forum/topic/47422-speedxc-tanks-top-speed/ \r\nhttps://discord.gg/grvGWMj</DevURL>
             <Author>HAWG</Author>
             <Description>This is Speed.xc the xc file will show your tanks top speed forward and reverse , above the damage panel.\r\n\r\nYou will always know what your tanks top speed  is .</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Speed.png" MediaType="Picture" />
-            </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
             </Dependencies>
             <Packages>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_Speed_Default" Enabled="True" Tags="ConfigurationFileXC" InstallGroup="4" PatchGroup="4" UID="e0uhdlyrgr6vmo4w" Name="Default" Type="single_dropdown1" Visible="True">
-                <Size>1105</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_Speed_Default_2020-10-24.zip</ZipFile>
-                <CRC>3214353f4338c2aad01993f82c9f2848</CRC>
-                <Timestamp>132492384878705221</Timestamp>
-                <Description>Default Setting for 24" - 30" Monitors</Description>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_Speed_insideDamagePanel" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ps2xpzxxmd740u6c" Name="inside damage panel" Type="single_dropdown1" Visible="True">
+                <ZipFile>XVMConfigBuilder_BattleInterface_Speed_insideDamagePanel_2021-02-16.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132579575296202847</Timestamp>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Speed_insideDamagePanel.png" MediaType="Picture" />
+                </Medias>
               </Package>
-              <Package PackageName="XVMConfigBuilder_BattleInterface_Speed_32" Enabled="True" Tags="ConfigurationFileXC" InstallGroup="4" PatchGroup="4" UID="51u19ckxnfx78fa7" Name="32&quot;" Type="single_dropdown1" Visible="True">
+              <Package PackageName="XVMConfigBuilder_BattleInterface_Speed_aboveDamagePanel" Enabled="True" Tags="ConfigurationFileXC" InstallGroup="4" PatchGroup="4" UID="e0uhdlyrgr6vmo4w" Name="above damage panel" Type="single_dropdown1" Visible="True">
                 <Size>1105</Size>
-                <ZipFile>XVMConfigBuilder_BattleInterface_Speed_32_2020-10-24.zip</ZipFile>
-                <CRC>2cf0929e7f9215890dc023bc7e0ebb3d</CRC>
-                <Timestamp>132492384741678442</Timestamp>
+                <ZipFile>XVMConfigBuilder_BattleInterface_Speed_aboveDamagePanel_2021-02-16.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132579574702759120</Timestamp>
+                <Description>Default Setting for 24" - 30" Monitors</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Speed_aboveDamagePanel.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="XVMConfigBuilder_BattleInterface_Speed_dirty20067Cfg" Enabled="True" Tags="ConfigurationFileXC" InstallGroup="4" PatchGroup="4" UID="51u19ckxnfx78fa7" Name="dirty20067´s config" Type="single_dropdown1" Visible="True">
+                <Size>1105</Size>
+                <ZipFile>XVMConfigBuilder_BattleInterface_Speed_dirty20067Config_2021-02-16.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132579574403236296</Timestamp>
                 <Description>modified Setting for 32" Monitors</Description>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Speed_dirty20067Cfg.png" MediaType="Picture" />
+                </Medias>
               </Package>
             </Packages>
           </Package>
