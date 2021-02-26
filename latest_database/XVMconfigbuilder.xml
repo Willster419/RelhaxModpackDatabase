@@ -3630,6 +3630,14 @@
                   </Package>
                 </Packages>
               </Package>
+              <Package PackageName="XVMconfigBuilder_OTM_enablePlayerMarker" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wqxzo3yuo1vlpshl" Name="show marker over own tank (press ALT ingame to disable/enable)" Type="multi" Visible="True">
+                <ZipFile>XVMconfigBuilder_OTM_enablePlayerMarker_2021-02-26.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132588374253391761</Timestamp>
+                <Dependencies>
+                  <Dependency PackageName="Dependency_XVM_PY_playerMarker" NotFlag="False" Logic="OR" />
+                </Dependencies>
+              </Package>
               <Package PackageName="XVMconfigBuilder_OTM_enablePlayerPosition" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0w8p52y350hx13ce" Name="Player's position in the beginning of battle (for CW) [doesnt work with all marker styles]" Type="multi" Visible="True">
                 <Size>955</Size>
                 <ZipFile>XVMconfigBuilder_Marker_enablePlayerPosition.zip</ZipFile>
