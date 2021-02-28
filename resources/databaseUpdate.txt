@@ -1,375 +1,53 @@
 Database Update!
 
-New version tag: 1.11.1.3_2021-02-12_1
+New version tag: 1.11.1.3_2021-02-28_1
 
-Number of Added packages: 10
-Number of Updated packages: 94
-Number of Disabled packages: 4
-Number of Removed packages: 20
-Number of Moved packages: 156
-Number of Renamed packages: 65
+Number of Added packages: 7
+Number of Updated packages: 9
+Number of Disabled packages: 0
+Number of Removed packages: 3
+Number of Moved packages: 4
+Number of Renamed packages: 4
 Number of Internally renamed packages: 0
 
 Added:
- - Damage Logs & Panels->Damage Log [by GambiteR]->--- choose config: ---
- - Damage Logs & Panels->Damage Log [by GambiteR]->default
- - Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->--- Pre-built configurations --- ---
- - Ingame Info->Enemy Spotted Status->ESS  [by OldSkool]->Eye icon style
- - Ingame Misc->BaseCap->BaseCap Circles->--- select style ---
- - Ingame Misc->BaseCap->BaseCap Flags->--- select style ---
- - Ingame Misc->Chat-Mods (in-battle)->Radial Menu [by HAWG]
- - Garage Mods->Little Helper Collection [by Champi] (READ DESCRIPTION + WARNING)->Remove event widgets on the lower right side in the garage
- - Garage Mods->Little Helper Collection [by Champi] (READ DESCRIPTION + WARNING)->Remove unread notifications counter in the menu received from 'Combat Intelligence'
- - Garage Mods->ScriptloaderPro v1.40->--- SystemMessage ---
+ - Dependency_XVM_PY_playerMarker
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Speed of current tank [Infofield]->inside damage panel
+ - XVM config builder->-----[IN-BATTLE Settings]------>Over-Taget-Marker [OTM]->Enabled (Use XVM markers)->show marker over own tank (press ALT ingame to disable/enable)
+ - Ingame Misc->Chat-Mods (in-battle)->Radial Menu->blue  [by HAWG]
+ - Ingame Misc->Chat-Mods (in-battle)->Radial Menu->green  [by HAWG]
+ - Ingame Misc->Chat-Mods (in-battle)->Radial Menu->purple  [by HAWG]
+ - Ingame Misc->Chat-Mods (in-battle)->Radial Menu->yellow  [by HAWG]
 
 Updated:
- - LogicalDependency_XVM_Main_Stable
- - LogicalDependency_XVM_Main_Nightly
- - Dependency_XVM_PY_infoPanel
- - Dependency_CHAMPi_settingsGUI
- - Dependency_OldSkool_modsCore
- - Dependency_PMOD
- - LogicalDependency_AtlasCreation_losslessBattleAtlasImages
- - LogicalDependency_MVI_BATTLE_CLEAR_noXVM
- - LogicalDependency_MVI_BATTLE_noXVM
- - LogicalDependency_MVI_HANGAR_showAll_noXVM
- - LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM
- - LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 (Bar) v1.11.0.0 [by Aslain]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 (Circle) v1.11.0.0 [by Aslain]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Androdizel  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Colored  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo DEbranded  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Yaya  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default Androdizel  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default colored  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default DEbranded  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default Yaya  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo Androdizel  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo colored  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo DEbranded  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo Yaya  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light Androdizel  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light colored  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light DEbranded  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light Yaya  v1.11.1.1 [by DEBranded]
- - Damage Logs & Panels->Damage Log [by GambiteR]
- - Damage Logs & Panels->Damage Log [by GambiteR]->OMC
- - Damage Logs & Panels->Damage Log [by GambiteR]->Kornet_WA
- - Damage Logs & Panels->Damage Log [by GambiteR]->XFT
- - Damage Logs & Panels->Damage Log [by GambiteR]->config from XFT with integrated hitlog (xvm needed for hitlog)
- - Damage Logs & Panels->Damage Log [by GambiteR]->move damage messages to center
- - Damage Logs & Panels->Damage Panels->"Bionick" transparent
+ - XVM prebuilt configs->2 - Relhax developers:->elektrosmoker v2021-02-25 [including crosshair mod]
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Speed of current tank [Infofield]->above damage panel
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Speed of current tank [Infofield]->dirty20067´s config
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Squadmember Color Change->Purple
  - Damage Logs & Panels->Damage Panels->"Glass" [by HAWG]
  - Damage Logs & Panels->Damage Panels->"Glass" with angle indicator (outer) [by HAWG]
  - Damage Logs & Panels->Damage Panels->"Glass" with angle indicator (inner full) [by HAWG]
  - Damage Logs & Panels->Damage Panels->"Glass" with angle indicator (inner lite) [by HAWG]
- - Damage Logs & Panels->Damage Panels->"Legacy" blue 
- - Damage Logs & Panels->Damage Panels->"Legacy" dark 
- - Damage Logs & Panels->Damage Panels->"Legacy" metallic 
- - Damage Logs & Panels->Damage Panels->"Zayaz" 
- - Damage Logs & Panels->Damage Panels->"Zayaz" with blocking angle indicator
- - Damage Logs & Panels->Damage Panels->"Zayaz" with repair center
- - Damage Logs & Panels->Damage Panels->"Zayaz" with repair center and blocking angle indicator
- - Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD PenIndicator->large (30)
- - Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD PenIndicator->medium (24)
- - Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD PenIndicator->small (18)
- - Ingame Aim->Safeshot Mods->SafeShot [by OldSkool]
- - Ingame Aim->Projectile Flytime for SPG/Arty->Projectile Flytime for SPG/Arty [by OldSkool]
- - Ingame Info->Arty HitLog [by OldSkool]
- - Ingame Info->DebugPanel->DebugPanel [by OldSkool]
- - Ingame Info->HP Pools->PMOD->Locastan
- - Ingame Info->HP Pools->PMOD->Minimal
- - Ingame Info->HP Pools->PMOD->WGL
- - Ingame Info->HP Pools->PMOD->Lebwa Variant #1
- - Ingame Info->HP Pools->PMOD->Lebwa Variant #2
- - Ingame Info->HP Pools->PMOD->Lebwa Variant #3
- - Ingame Info->HP Pools->PMOD->Lebwa Variant #4
- - Ingame Info->HP Pools->PMOD->Lebwa Variant #5
- - Ingame Info->Enemy Spotted Status->ESS  [by OldSkool]
- - Ingame Info->Tank Rating Colors [by CHAMPi]->WGR
- - Ingame Info->Tank Rating Colors [by CHAMPi]->Winrate
- - Ingame Info->InBattle Rating->OldSkool
- - Ingame Info->Expected Values Calculator->Marks of Excellence Extended (formerly called "Marks on Gun Extended") v8.10 [by spoter / OldSkool]->Show in techtree
- - Ingame Info->Expected Values Calculator->Marks of Excellence Extended (formerly called "Marks on Gun Extended") v8.10 [by spoter / OldSkool]->Show in hangar
- - Ingame Info->Tank Info Panel->OldSkool
- - Ingame Misc->Better visible flat trainwagons
- - Ingame Misc->Consumable Icons->Aimdrol (with [english] text modifications)
- - Ingame Misc->Interface Scaling->Interface Scaling v1.0.8  [by OldSkool]
- - Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->HD Maps (as default map)
- - Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Tactical Maps (as default map)
- - Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Heat Maps (as default map)
- - Ingame Misc->German Tank Racing [by Josch]
- - Garage Mods->Annoying Features Remover [Hangar Addons]  [by NDO]
- - Garage Mods->Battle Hits Viewer in Hangar v1.6.3 [by P0LIR0ID]
- - Garage Mods->Carousel->2
- - Garage Mods->Carousel->3
- - Garage Mods->Carousel->4
- - Garage Mods->Carousel->5
- - Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed [by ShuraBB (Auxilium)]
- - Garage Mods->Chat & System-Messages (in Garage)->Antitoxicity´s expanded friends- and blacklist
- - Garage Mods->Chat & System-Messages (in Garage)->Antitoxicity´s expanded friends- and blacklist->enable clearing of blacklist with F12 key
- - Garage Mods->Crew auto-return->v1.1.3 [by Oldskool]
- - Garage Mods->Little Helper Collection [by Champi] (READ DESCRIPTION + WARNING)
- - Garage Graphics->Battle Results->Custom Battle Results Window->Sexy Design [by OldSkool]
- - Statistics->Garage Session Statistics->Awfultanker
- - Statistics->Garage Session Statistics->YasenKrasen v1.11.1.0 [by Dado_Ze / RajCel]->Modules->Colored In-Game Messages -> !! sets client language to english !!
- - Statistics->Garage Session Statistics->YasenKrasen v1.11.1.0 [by Dado_Ze / RajCel]->Modules->Kill Skulls (alternative in-game battle messages)
- - Tank Skin Misc->Colored Crashed Tracks
- - Tank Skin Misc->Colored Dead Tanks
+ - Ingame Aim->Battle Assistant v2.3.4 [by wotinspector. / reven86]
 
 Renamed:
- - "Stable v8.7.5_0012 (nightly)" was renamed to "Stable v8.7.6_0005"
- - "Nightly v8.7.5_0012" was renamed to "Nightly v8.7.6_0005"
- - "Regular tank icons v1.11.1.1 [by DEBranded]" was renamed to "--- Regular tank icons ---"
- - "Debranded´s camouflaged tank icons v" was renamed to "Debranded´s camouflaged tank icons v1.11.1.1 [by DEBranded]"
- - "Debranded´s default ->  brighter tank icons v" was renamed to "Debranded´s default ->  brighter tank icons v1.11.1.1 [by DEBranded]"
- - "Premium tank icons" was renamed to "--- Premium tank icons ---"
- - "V1 (Bar)" was renamed to "V1 (Bar) v1.11.0.0 [by Aslain]"
- - "V2 (Circle)" was renamed to "V2 (Circle) v1.11.0.0 [by Aslain]"
- - "Androdizel" was renamed to "V1 Camo Androdizel  v1.11.1.1 [by DEBranded]"
- - "Colored" was renamed to "V1 Camo Colored  v1.11.1.1 [by DEBranded]"
- - "DEbranded" was renamed to "V1 Camo DEbranded  v1.11.1.1 [by DEBranded]"
- - "Yaya" was renamed to "V1 Camo Yaya  v1.11.1.1 [by DEBranded]"
- - "Androdizel" was renamed to "V1 Default Androdizel  v1.11.1.1 [by DEBranded]"
- - "colored" was renamed to "V1 Default colored  v1.11.1.1 [by DEBranded]"
- - "DEbranded" was renamed to "V1 Default DEbranded  v1.11.1.1 [by DEBranded]"
- - "Yaya" was renamed to "V1 Default Yaya  v1.11.1.1 [by DEBranded]"
- - "Androdizel" was renamed to "V2 Premium Camo Androdizel  v1.11.1.1 [by DEBranded]"
- - "colored" was renamed to "V2 Premium Camo colored  v1.11.1.1 [by DEBranded]"
- - "DEbranded" was renamed to "V2 Premium Camo DEbranded  v1.11.1.1 [by DEBranded]"
- - "Yaya" was renamed to "V2 Premium Camo Yaya  v1.11.1.1 [by DEBranded]"
- - "Androdizel" was renamed to "V2 Premium Light Androdizel  v1.11.1.1 [by DEBranded]"
- - "colored" was renamed to "V2 Premium Light colored  v1.11.1.1 [by DEBranded]"
- - "DEbranded" was renamed to "V2 Premium Light DEbranded  v1.11.1.1 [by DEBranded]"
- - "Yaya" was renamed to "V2 Premium Light Yaya  v1.11.1.1 [by DEBranded]"
- - "GambitER" was renamed to "Damage Log [by GambiteR]"
- - "Bionick" was renamed to ""Bionick" transparent"
- - "Original" was renamed to ""Glass" [by HAWG]"
- - "With angle indicator (outer)" was renamed to ""Glass" with angle indicator (outer) [by HAWG]"
- - "With angle indicator (inner full)" was renamed to ""Glass" with angle indicator (inner full) [by HAWG]"
- - "With angle indicator (inner lite)" was renamed to ""Glass" with angle indicator (inner lite) [by HAWG]"
- - "Blue" was renamed to ""Legacy" blue "
- - "Dark" was renamed to ""Legacy" dark "
- - "Metall" was renamed to ""Legacy" metallic "
- - "Standard" was renamed to ""Zayaz" "
- - "With blocking angle indicator" was renamed to ""Zayaz" with blocking angle indicator"
- - "With repair center" was renamed to ""Zayaz" with repair center"
- - "With repair center and blocking angle indicator" was renamed to ""Zayaz" with repair center and blocking angle indicator"
- - "PMOD" was renamed to "PMOD PenIndicator"
- - "Font" was renamed to "--- Font size---"
- - "font size large (30)" was renamed to "large (30)"
- - "font size medium (24)" was renamed to "medium (24)"
- - "font size small (18)" was renamed to "small (18)"
- - "Comics Version" was renamed to "Comics Version [by elektrosmoker]"
- - "Skins" was renamed to "--- Skins / Configs ---"
- - "Ball" was renamed to "Ball icon style"
- - "Recolor tanks by" was renamed to "--- Recolor tanks by ---"
- - "config:" was renamed to "--- choose config: ---"
- - "Equipment and Consumable Icons" was renamed to "--- Equipment and Consumable Icons ---"
- - "Shell icons" was renamed to "--- Shell icons ---"
- - "Minimap" was renamed to "--- select main map ---"
- - "When holding ALT" was renamed to "--- select map to show when holding down the ALT button ---"
- - "HD Maps (press "Alt")" was renamed to "HD Maps (while holding down "ALT")"
- - "Tactical Maps  (press "Alt")" was renamed to "Tactical Maps (while holding down "ALT")"
- - "Heat Maps (press "Alt")" was renamed to "Heat Maps (while holding down "ALT")"
- - "Battle Hits Viewer in Hangar v1.6.2 [by P0LIR0ID]" was renamed to "Battle Hits Viewer in Hangar v1.6.3 [by P0LIR0ID]"
- - "Select Cell size (tank slot size)" was renamed to "--- carousel rows ---"
- - "enable small carousell (2 Rows)" was renamed to "2"
- - "3 Rows" was renamed to "3"
- - "4 Rows" was renamed to "4"
- - "5 Rows" was renamed to "5"
- - "[by ShuraBB (Auxilium)]" was renamed to "'Crew Incomplete' icon & text-overlay removed [by ShuraBB (Auxilium)]"
- - "SystemMessage OFF" was renamed to "OFF"
- - "SystemMessage Full" was renamed to "Full"
- - "SystemMessage Minimal" was renamed to "Minimal"
- - "Sexy Design [by OldSchool]" was renamed to "Sexy Design [by OldSkool]"
+ - "elektrosmoker v2021-02-01 [including crosshair mod]" was renamed to "elektrosmoker v2021-02-25 [including crosshair mod]"
+ - "Default" was renamed to "above damage panel"
+ - "32"" was renamed to "dirty20067´s config"
+ - "Radial Menu [by HAWG]" was renamed to "Radial Menu"
 
 Moved:
- - "Contour & Tank Icons->Tank Icons->Carousel Tankicons->Regular tank icons v1.11.1.1 [by DEBranded]->Debranded´s camouflaged tank icons v" was moved to "Contour & Tank Icons->Tank Icons->Carousel Tankicons->Debranded´s camouflaged tank icons v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Carousel Tankicons->Regular tank icons v1.11.1.1 [by DEBranded]->Debranded´s default ->  brighter tank icons v" was moved to "Contour & Tank Icons->Tank Icons->Carousel Tankicons->Debranded´s default ->  brighter tank icons v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->golden premium tanks V1  v1.11.1.0 [by dirty20067]" was moved to "Contour & Tank Icons->Tank Icons->Carousel Tankicons->golden premium tanks V1  v1.11.1.0 [by dirty20067]"
- - "Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->golden premium tanks V0  v1.11.1.0 [by dirty20067]" was moved to "Contour & Tank Icons->Tank Icons->Carousel Tankicons->golden premium tanks V0  v1.11.1.0 [by dirty20067]"
- - "Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->camouflaged premium tanks  v1.11.1.1 [by DEBranded]" was moved to "Contour & Tank Icons->Tank Icons->Carousel Tankicons->camouflaged premium tanks  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->light-golden premium tanks v1.11.1.1 [by DEBranded]" was moved to "Contour & Tank Icons->Tank Icons->Carousel Tankicons->light-golden premium tanks v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons->colored [by elektrosmoker]  (golden premium /  purple special / blue collectors tanks)" was moved to "Contour & Tank Icons->Tank Icons->Carousel Tankicons->colored [by elektrosmoker]  (golden premium /  purple special / blue collectors tanks)"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->v1.11.0.0 [by Aslain]->V1 (Bar)" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 (Bar) v1.11.0.0 [by Aslain]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->v1.11.0.0 [by Aslain]->V2 (Circle)" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 (Circle) v1.11.0.0 [by Aslain]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo  v1.11.1.1 [by DEBranded]->Androdizel" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Androdizel  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo  v1.11.1.1 [by DEBranded]->Colored" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Colored  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo  v1.11.1.1 [by DEBranded]->DEbranded" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo DEbranded  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo  v1.11.1.1 [by DEBranded]->Yaya" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Yaya  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default  v1.11.1.1 [by DEBranded]->Androdizel" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default Androdizel  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default  v1.11.1.1 [by DEBranded]->colored" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default colored  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default  v1.11.1.1 [by DEBranded]->DEbranded" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default DEbranded  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default  v1.11.1.1 [by DEBranded]->Yaya" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default Yaya  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo  v1.11.1.1 [by DEBranded]->Androdizel" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo Androdizel  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo  v1.11.1.1 [by DEBranded]->colored" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo colored  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo  v1.11.1.1 [by DEBranded]->DEbranded" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo DEbranded  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo  v1.11.1.1 [by DEBranded]->Yaya" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo Yaya  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light  v1.11.1.1 [by DEBranded]->Androdizel" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light Androdizel  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light  v1.11.1.1 [by DEBranded]->colored" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light colored  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light  v1.11.1.1 [by DEBranded]->DEbranded" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light DEbranded  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light  v1.11.1.1 [by DEBranded]->Yaya" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light Yaya  v1.11.1.1 [by DEBranded]"
- - "Damage Logs & Panels->Damage Logs->GambitER" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]"
- - "Damage Logs & Panels->Damage Logs->GambitER->OMC" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]->OMC"
- - "Damage Logs & Panels->Damage Logs->GambitER->Kornet_WA" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]->Kornet_WA"
- - "Damage Logs & Panels->Damage Logs->GambitER->XFT" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]->XFT"
- - "Damage Logs & Panels->Damage Logs->GambitER->config from XFT with integrated hitlog (xvm needed for hitlog)" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]->config from XFT with integrated hitlog (xvm needed for hitlog)"
- - "Damage Logs & Panels->Damage Logs->GambitER->damage messages->move damage messages to center" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]->move damage messages to center"
- - "Damage Logs & Panels->Damage Panels->Glass [by HAWG]->Original" was moved to "Damage Logs & Panels->Damage Panels->"Glass" [by HAWG]"
- - "Damage Logs & Panels->Damage Panels->Glass [by HAWG]->With angle indicator (outer)" was moved to "Damage Logs & Panels->Damage Panels->"Glass" with angle indicator (outer) [by HAWG]"
- - "Damage Logs & Panels->Damage Panels->Glass [by HAWG]->With angle indicator (inner full)" was moved to "Damage Logs & Panels->Damage Panels->"Glass" with angle indicator (inner full) [by HAWG]"
- - "Damage Logs & Panels->Damage Panels->Glass [by HAWG]->With angle indicator (inner lite)" was moved to "Damage Logs & Panels->Damage Panels->"Glass" with angle indicator (inner lite) [by HAWG]"
- - "Damage Logs & Panels->Damage Panels->Legacy->Blue" was moved to "Damage Logs & Panels->Damage Panels->"Legacy" blue "
- - "Damage Logs & Panels->Damage Panels->Legacy->Dark" was moved to "Damage Logs & Panels->Damage Panels->"Legacy" dark "
- - "Damage Logs & Panels->Damage Panels->Legacy->Metall" was moved to "Damage Logs & Panels->Damage Panels->"Legacy" metallic "
- - "Damage Logs & Panels->Damage Panels->Zayaz->Standard" was moved to "Damage Logs & Panels->Damage Panels->"Zayaz" "
- - "Damage Logs & Panels->Damage Panels->Zayaz->With blocking angle indicator" was moved to "Damage Logs & Panels->Damage Panels->"Zayaz" with blocking angle indicator"
- - "Damage Logs & Panels->Damage Panels->Zayaz->With repair center" was moved to "Damage Logs & Panels->Damage Panels->"Zayaz" with repair center"
- - "Damage Logs & Panels->Damage Panels->Zayaz->With repair center and blocking angle indicator" was moved to "Damage Logs & Panels->Damage Panels->"Zayaz" with repair center and blocking angle indicator"
- - "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Pre-Built Configs->Default" was moved to "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Default"
- - "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Pre-Built Configs->Simple" was moved to "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Simple"
- - "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Pre-Built Configs->Indicator" was moved to "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Indicator"
- - "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Pre-Built Configs->Full" was moved to "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Full"
- - "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Pre-Built Configs->Logger" was moved to "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Logger"
- - "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Pre-Built Configs->Willster419's Configuration" was moved to "Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Willster419's Configuration"
- - "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD->Font->font size large (30)" was moved to "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD PenIndicator->large (30)"
- - "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD->Font->font size medium (24)" was moved to "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD PenIndicator->medium (24)"
- - "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD->Font->font size small (18)" was moved to "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD PenIndicator->small (18)"
- - "Ingame Info->HP Pools->PMOD->Skins->Default" was moved to "Ingame Info->HP Pools->PMOD->Default"
- - "Ingame Info->HP Pools->PMOD->Skins->Locastan" was moved to "Ingame Info->HP Pools->PMOD->Locastan"
- - "Ingame Info->HP Pools->PMOD->Skins->Minimal" was moved to "Ingame Info->HP Pools->PMOD->Minimal"
- - "Ingame Info->HP Pools->PMOD->Skins->WGL" was moved to "Ingame Info->HP Pools->PMOD->WGL"
- - "Ingame Info->HP Pools->PMOD->Skins->Lebwa Variant #1" was moved to "Ingame Info->HP Pools->PMOD->Lebwa Variant #1"
- - "Ingame Info->HP Pools->PMOD->Skins->Lebwa Variant #2" was moved to "Ingame Info->HP Pools->PMOD->Lebwa Variant #2"
- - "Ingame Info->HP Pools->PMOD->Skins->Lebwa Variant #3" was moved to "Ingame Info->HP Pools->PMOD->Lebwa Variant #3"
- - "Ingame Info->HP Pools->PMOD->Skins->Lebwa Variant #4" was moved to "Ingame Info->HP Pools->PMOD->Lebwa Variant #4"
- - "Ingame Info->HP Pools->PMOD->Skins->Lebwa Variant #5" was moved to "Ingame Info->HP Pools->PMOD->Lebwa Variant #5"
- - "Ingame Info->Tank Rating Colors [by CHAMPi]->Recolor tanks by->WGR" was moved to "Ingame Info->Tank Rating Colors [by CHAMPi]->WGR"
- - "Ingame Info->Tank Rating Colors [by CHAMPi]->Recolor tanks by->Winrate" was moved to "Ingame Info->Tank Rating Colors [by CHAMPi]->Winrate"
- - "Ingame Info->Expected Values Calculator->Expected Vehicle Values [by Champi]->config:->default" was moved to "Ingame Info->Expected Values Calculator->Expected Vehicle Values [by Champi]->default"
- - "Ingame Info->Expected Values Calculator->Expected Vehicle Values [by Champi]->config:->elektrosmoker" was moved to "Ingame Info->Expected Values Calculator->Expected Vehicle Values [by Champi]->elektrosmoker"
- - "Ingame Misc->Consumable Icons->Equipment and Consumable Icons->Aimdrol (with [english] text modifications)" was moved to "Ingame Misc->Consumable Icons->Aimdrol (with [english] text modifications)"
- - "Ingame Misc->Consumable Icons->Equipment and Consumable Icons->Aimdrol (without text modifications)" was moved to "Ingame Misc->Consumable Icons->Aimdrol (without text modifications)"
- - "Ingame Misc->Consumable Icons->Equipment and Consumable Icons->Armored Warfare" was moved to "Ingame Misc->Consumable Icons->Armored Warfare"
- - "Ingame Misc->Consumable Icons->Equipment and Consumable Icons->LegionLost" was moved to "Ingame Misc->Consumable Icons->LegionLost"
- - "Ingame Misc->Consumable Icons->Shell icons->Armored Warfare" was moved to "Ingame Misc->Consumable Icons->Armored Warfare"
- - "Ingame Misc->Consumable Icons->Shell icons->Letter Shell Icons LegionLost" was moved to "Ingame Misc->Consumable Icons->Letter Shell Icons LegionLost"
- - "Ingame Misc->Consumable Icons->Shell icons->Letter Shell Icons" was moved to "Ingame Misc->Consumable Icons->Letter Shell Icons"
- - "Ingame Misc->Consumable Icons->Shell icons->WarThunder" was moved to "Ingame Misc->Consumable Icons->WarThunder"
- - "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Minimap->HD Maps (as default map)" was moved to "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->HD Maps (as default map)"
- - "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Minimap->Tactical Maps (as default map)" was moved to "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Tactical Maps (as default map)"
- - "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Minimap->Heat Maps (as default map)" was moved to "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Heat Maps (as default map)"
- - "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->When holding ALT->HD Maps (press "Alt")" was moved to "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->HD Maps (while holding down "ALT")"
- - "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->When holding ALT->Tactical Maps  (press "Alt")" was moved to "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Tactical Maps (while holding down "ALT")"
- - "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->When holding ALT->Heat Maps (press "Alt")" was moved to "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Heat Maps (while holding down "ALT")"
- - "Garage Mods->Carousel->Select Cell size (tank slot size)->enable small carousell (2 Rows)" was moved to "Garage Mods->Carousel->2"
- - "Garage Mods->Carousel->Select Cell size (tank slot size)->3 Rows" was moved to "Garage Mods->Carousel->3"
- - "Garage Mods->Carousel->Select Cell size (tank slot size)->4 Rows" was moved to "Garage Mods->Carousel->4"
- - "Garage Mods->Carousel->Select Cell size (tank slot size)->5 Rows" was moved to "Garage Mods->Carousel->5"
- - "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed->[by ShuraBB (Auxilium)]" was moved to "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed [by ShuraBB (Auxilium)]"
- - "Garage Mods->Chat & System-Messages (in Garage)->Expand Friends- & Blacklist->Antitoxicity´s expanded friends- and blacklist" was moved to "Garage Mods->Chat & System-Messages (in Garage)->Antitoxicity´s expanded friends- and blacklist"
- - "Garage Mods->Chat & System-Messages (in Garage)->Expand Friends- & Blacklist->Antitoxicity´s expanded friends- and blacklist->enable clearing of blacklist with F12 key" was moved to "Garage Mods->Chat & System-Messages (in Garage)->Antitoxicity´s expanded friends- and blacklist->enable clearing of blacklist with F12 key"
- - "Contour & Tank Icons->Tank Icons->Carousel Tankicons->Regular tank icons v1.11.1.1 [by DEBranded]" was moved to "Contour & Tank Icons->Tank Icons->Carousel Tankicons->--- Regular tank icons ---"
- - "Contour & Tank Icons->Tank Icons->Carousel Tankicons->Premium tank icons" was moved to "Contour & Tank Icons->Tank Icons->Carousel Tankicons->--- Premium tank icons ---"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->v1.11.0.0 [by Aslain]->V1 (Bar)" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 (Bar) v1.11.0.0 [by Aslain]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->v1.11.0.0 [by Aslain]->V2 (Circle)" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 (Circle) v1.11.0.0 [by Aslain]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo  v1.11.1.1 [by DEBranded]->Androdizel" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Androdizel  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo  v1.11.1.1 [by DEBranded]->Colored" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Colored  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo  v1.11.1.1 [by DEBranded]->DEbranded" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo DEbranded  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo  v1.11.1.1 [by DEBranded]->Yaya" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Yaya  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default  v1.11.1.1 [by DEBranded]->Androdizel" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default Androdizel  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default  v1.11.1.1 [by DEBranded]->colored" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default colored  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default  v1.11.1.1 [by DEBranded]->DEbranded" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default DEbranded  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default  v1.11.1.1 [by DEBranded]->Yaya" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default Yaya  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo  v1.11.1.1 [by DEBranded]->Androdizel" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo Androdizel  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo  v1.11.1.1 [by DEBranded]->colored" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo colored  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo  v1.11.1.1 [by DEBranded]->DEbranded" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo DEbranded  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo  v1.11.1.1 [by DEBranded]->Yaya" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo Yaya  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light  v1.11.1.1 [by DEBranded]->Androdizel" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light Androdizel  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light  v1.11.1.1 [by DEBranded]->colored" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light colored  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light  v1.11.1.1 [by DEBranded]->DEbranded" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light DEbranded  v1.11.1.1 [by DEBranded]"
- - "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light  v1.11.1.1 [by DEBranded]->Yaya" was moved to "Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light Yaya  v1.11.1.1 [by DEBranded]"
- - "Damage Logs & Panels->Damage Logs->GambitER" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]"
- - "Damage Logs & Panels->Damage Logs->GambitER->OMC" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]->OMC"
- - "Damage Logs & Panels->Damage Logs->GambitER->Kornet_WA" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]->Kornet_WA"
- - "Damage Logs & Panels->Damage Logs->GambitER->XFT" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]->XFT"
- - "Damage Logs & Panels->Damage Logs->GambitER->config from XFT with integrated hitlog (xvm needed for hitlog)" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]->config from XFT with integrated hitlog (xvm needed for hitlog)"
- - "Damage Logs & Panels->Damage Logs->GambitER->damage messages->move damage messages to center" was moved to "Damage Logs & Panels->Damage Log [by GambiteR]->move damage messages to center"
- - "Damage Logs & Panels->Damage Panels->Bionick" was moved to "Damage Logs & Panels->Damage Panels->"Bionick" transparent"
- - "Damage Logs & Panels->Damage Panels->Glass [by HAWG]->Original" was moved to "Damage Logs & Panels->Damage Panels->"Glass" [by HAWG]"
- - "Damage Logs & Panels->Damage Panels->Glass [by HAWG]->With angle indicator (outer)" was moved to "Damage Logs & Panels->Damage Panels->"Glass" with angle indicator (outer) [by HAWG]"
- - "Damage Logs & Panels->Damage Panels->Glass [by HAWG]->With angle indicator (inner full)" was moved to "Damage Logs & Panels->Damage Panels->"Glass" with angle indicator (inner full) [by HAWG]"
- - "Damage Logs & Panels->Damage Panels->Glass [by HAWG]->With angle indicator (inner lite)" was moved to "Damage Logs & Panels->Damage Panels->"Glass" with angle indicator (inner lite) [by HAWG]"
- - "Damage Logs & Panels->Damage Panels->Legacy->Blue" was moved to "Damage Logs & Panels->Damage Panels->"Legacy" blue "
- - "Damage Logs & Panels->Damage Panels->Legacy->Dark" was moved to "Damage Logs & Panels->Damage Panels->"Legacy" dark "
- - "Damage Logs & Panels->Damage Panels->Legacy->Metall" was moved to "Damage Logs & Panels->Damage Panels->"Legacy" metallic "
- - "Damage Logs & Panels->Damage Panels->Zayaz->Standard" was moved to "Damage Logs & Panels->Damage Panels->"Zayaz" "
- - "Damage Logs & Panels->Damage Panels->Zayaz->With blocking angle indicator" was moved to "Damage Logs & Panels->Damage Panels->"Zayaz" with blocking angle indicator"
- - "Damage Logs & Panels->Damage Panels->Zayaz->With repair center" was moved to "Damage Logs & Panels->Damage Panels->"Zayaz" with repair center"
- - "Damage Logs & Panels->Damage Panels->Zayaz->With repair center and blocking angle indicator" was moved to "Damage Logs & Panels->Damage Panels->"Zayaz" with repair center and blocking angle indicator"
- - "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD->Font" was moved to "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD PenIndicator->--- Font size---"
- - "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD->Font->font size large (30)" was moved to "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD PenIndicator->large (30)"
- - "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD->Font->font size medium (24)" was moved to "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD PenIndicator->medium (24)"
- - "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD->Font->font size small (18)" was moved to "Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD PenIndicator->small (18)"
- - "Ingame Info->HP Pools->PMOD->Skins" was moved to "Ingame Info->HP Pools->PMOD->--- Skins / Configs ---"
- - "Ingame Info->HP Pools->PMOD->Skins->Default" was moved to "Ingame Info->HP Pools->PMOD->Default"
- - "Ingame Info->HP Pools->PMOD->Skins->Locastan" was moved to "Ingame Info->HP Pools->PMOD->Locastan"
- - "Ingame Info->HP Pools->PMOD->Skins->Minimal" was moved to "Ingame Info->HP Pools->PMOD->Minimal"
- - "Ingame Info->HP Pools->PMOD->Skins->WGL" was moved to "Ingame Info->HP Pools->PMOD->WGL"
- - "Ingame Info->HP Pools->PMOD->Skins->Lebwa Variant #1" was moved to "Ingame Info->HP Pools->PMOD->Lebwa Variant #1"
- - "Ingame Info->HP Pools->PMOD->Skins->Lebwa Variant #2" was moved to "Ingame Info->HP Pools->PMOD->Lebwa Variant #2"
- - "Ingame Info->HP Pools->PMOD->Skins->Lebwa Variant #3" was moved to "Ingame Info->HP Pools->PMOD->Lebwa Variant #3"
- - "Ingame Info->HP Pools->PMOD->Skins->Lebwa Variant #4" was moved to "Ingame Info->HP Pools->PMOD->Lebwa Variant #4"
- - "Ingame Info->HP Pools->PMOD->Skins->Lebwa Variant #5" was moved to "Ingame Info->HP Pools->PMOD->Lebwa Variant #5"
- - "Ingame Info->Tank Rating Colors [by CHAMPi]->Recolor tanks by" was moved to "Ingame Info->Tank Rating Colors [by CHAMPi]->--- Recolor tanks by ---"
- - "Ingame Info->Tank Rating Colors [by CHAMPi]->Recolor tanks by->WGR" was moved to "Ingame Info->Tank Rating Colors [by CHAMPi]->WGR"
- - "Ingame Info->Tank Rating Colors [by CHAMPi]->Recolor tanks by->Winrate" was moved to "Ingame Info->Tank Rating Colors [by CHAMPi]->Winrate"
- - "Ingame Info->Expected Values Calculator->Expected Vehicle Values [by Champi]->config:" was moved to "Ingame Info->Expected Values Calculator->Expected Vehicle Values [by Champi]->--- choose config: ---"
- - "Ingame Misc->Consumable Icons->Equipment and Consumable Icons" was moved to "Ingame Misc->Consumable Icons->--- Equipment and Consumable Icons ---"
- - "Ingame Misc->Consumable Icons->Equipment and Consumable Icons->Aimdrol (with [english] text modifications)" was moved to "Ingame Misc->Consumable Icons->Aimdrol (with [english] text modifications)"
- - "Ingame Misc->Consumable Icons->Equipment and Consumable Icons->Aimdrol (without text modifications)" was moved to "Ingame Misc->Consumable Icons->Aimdrol (without text modifications)"
- - "Ingame Misc->Consumable Icons->Shell icons" was moved to "Ingame Misc->Consumable Icons->--- Shell icons ---"
- - "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Minimap->HD Maps (as default map)" was moved to "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->HD Maps (as default map)"
- - "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Minimap->Tactical Maps (as default map)" was moved to "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Tactical Maps (as default map)"
- - "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Minimap->Heat Maps (as default map)" was moved to "Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]->Heat Maps (as default map)"
- - "Garage Mods->Carousel->Select Cell size (tank slot size)" was moved to "Garage Mods->Carousel->--- carousel rows ---"
- - "Garage Mods->Carousel->Select Cell size (tank slot size)->enable small carousell (2 Rows)" was moved to "Garage Mods->Carousel->2"
- - "Garage Mods->Carousel->Select Cell size (tank slot size)->3 Rows" was moved to "Garage Mods->Carousel->3"
- - "Garage Mods->Carousel->Select Cell size (tank slot size)->4 Rows" was moved to "Garage Mods->Carousel->4"
- - "Garage Mods->Carousel->Select Cell size (tank slot size)->5 Rows" was moved to "Garage Mods->Carousel->5"
- - "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed->[by ShuraBB (Auxilium)]" was moved to "Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed [by ShuraBB (Auxilium)]"
- - "Garage Mods->Chat & System-Messages (in Garage)->Expand Friends- & Blacklist->Antitoxicity´s expanded friends- and blacklist" was moved to "Garage Mods->Chat & System-Messages (in Garage)->Antitoxicity´s expanded friends- and blacklist"
- - "Garage Mods->Chat & System-Messages (in Garage)->Expand Friends- & Blacklist->Antitoxicity´s expanded friends- and blacklist->enable clearing of blacklist with F12 key" was moved to "Garage Mods->Chat & System-Messages (in Garage)->Antitoxicity´s expanded friends- and blacklist->enable clearing of blacklist with F12 key"
+ - "XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Speed of current tank [Infofield]->Default" was moved to "XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Speed of current tank [Infofield]->above damage panel"
+ - "XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Speed of current tank [Infofield]->32"" was moved to "XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Speed of current tank [Infofield]->dirty20067´s config"
+ - "XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Squadmember Color Change" was moved to "XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Squadmember Color Change"
+ - "XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Squadmember Color Change->Purple" was moved to "XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Squadmember Color Change->Purple"
 
 Disabled:
- - Ingame Aim->Penetration ( ͡° ͜ʖ ͡°) Indicators->PMOD PenIndicator->--- Font size---
- - Ingame Info->Expected Values Calculator->Expected Vehicle Values [by Champi]->--- choose config: ---
- - Ingame Misc->Chat-Mods (in-battle)->Friends Marker [by Oldskool]
- - Ingame Misc->Minimap->Minimaps->Advanced (HD) Minimap (conflicts with xvm minimap) [by ShuraBB]
 
 Removed:
- - Dependency_OldSkool_playersPanelAPI
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->v1.11.0.0 [by Aslain]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Camo  v1.11.1.1 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 Premium Light  v1.11.1.1 [by DEBranded]
- - Damage Logs & Panels->Damage Logs
- - Damage Logs & Panels->Damage Logs->GambitER->damage messages
- - Damage Logs & Panels->Damage Panels->elektrosmoker (with angle indicator [outer])
- - Damage Logs & Panels->Damage Panels->Glass [by HAWG]
- - Damage Logs & Panels->Damage Panels->Legacy
- - Damage Logs & Panels->Damage Panels->Zayaz
- - Ingame Aim->Dispersion Indicator (aim time)->Extended Dispersion Info and Indicator v0.5.7 [by Chirimen]->Pre-Built Configs
- - Ingame Misc->"You Died" [by budyx]
- - Ingame Misc->"You Died" [by budyx]->without sound
- - Ingame Misc->"You Died" [by budyx]->with sound
- - Garage Mods->Carousel->'Crew Incomplete' icon & text-overlay removed
- - Garage Mods->Chat & System-Messages (in Garage)->Expand Friends- & Blacklist
- - Garage Mods->Little Helper Collection [by Champi] (READ DESCRIPTION + WARNING)->Remember last server
- - Garage Mods->Login->Save last server [by ShuraBB (Auxilium)]
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Damage Panel Repair Timers
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Damage Panel Repair Timers->Enable
+ - XVM config builder->-----[IN-BATTLE Settings]------>Battle Interface->Damage Panel Repair Timers->Disable
 
 Notes:
  - 
