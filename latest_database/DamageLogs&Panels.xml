@@ -91,11 +91,14 @@
       </Package>
       <Package PackageName="DamagePanels_BionickTransparent" Enabled="False" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="t5htl5hctpxhj1vp" Name="&quot;Bionick&quot; transparent" Type="single_dropdown1" Visible="True">
         <Size>263867</Size>
-        <ZipFile>DamagePanels_BionickTransparent_1.6_2018-08-09.zip</ZipFile>
-        <CRC>e3a34d5a7e5178e8e6ddef39ae8952c7</CRC>
-        <Timestamp>132569467493605739</Timestamp>
+        <ZipFile>DamagePanels_BionickTransparent_1.12.0.0_2021-03-02.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132591886238632412</Timestamp>
         <DevURL>http://wotsite.net/paneli-povrezhdenij/10331-peredelannaya-panel-povrezhdenij-ot-bionick-dlya-world-of-tanks.html</DevURL>
         <Description>GambitER´s damage log should be installed for full functionality. \nIt also works without dmg log - only thing missing would be that the current received hit (red text) will not be shown inside the damage panel.</Description>
+        <Dependencies>
+          <Dependency PackageName="Dependency_Fonts_DamageLog" NotFlag="False" Logic="OR" />
+        </Dependencies>
       </Package>
       <Package PackageName="DamagePanels_HawgGlass" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="dxbut7jxn1k6uir2" Name="&quot;Glass&quot; [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>216555</Size>
