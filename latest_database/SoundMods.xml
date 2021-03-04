@@ -745,10 +745,16 @@
           <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Sounds_GUI_DisableKilledSoundNotifications" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="lcae3ovd84z54wyr" Name="disable annoying sound notification when enemy/allied tanks are destroyed" Type="multi" Visible="True">
-        <ZipFile>Sounds_GUI_DisableKilledSoundNotifications_2021-03-04.zip</ZipFile>
+      <Package PackageName="Sounds_GUI_DisableKilledAllySoundNotification" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="lcae3ovd84z54wyr" Name="disable sound notification when allied tanks are destroyed" Type="multi" Visible="True">
+        <ZipFile>Sounds_GUI_DisableKilledAllySoundNotification_2021-03-04.zip</ZipFile>
         <CRC>f</CRC>
-        <Timestamp>132593529677934391</Timestamp>
+        <Timestamp>132593544665988201</Timestamp>
+        <Author>elektrosmoker</Author>
+      </Package>
+      <Package PackageName="Sounds_GUI_DisableKilledEnemySoundNotification" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="0opknhgd0ceqkfn7" Name="disable sound notification when enemy tanks are destroyed" Type="multi" Visible="True">
+        <ZipFile>Sounds_GUI_DisableKilledEnemyySoundNotification_2021-03-04.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132593544729168149</Timestamp>
         <Author>elektrosmoker</Author>
       </Package>
     </Packages>
