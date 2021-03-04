@@ -733,7 +733,7 @@
   </Package>
   <Package PackageName="Sounds_GUI" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="uqrny4w518w9e0y8" Name="GUI" Type="multi" Visible="True">
     <Packages>
-      <Package PackageName="Sounds_GUI_Relhax" Enabled="True" Tags="Patch,SoundBank,DependencyLink" InstallGroup="4" PatchGroup="4" UID="o49vq8mowrxzptgl" Name="Relhax by Willster419" Type="single_dropdown1" Visible="True">
+      <Package PackageName="Sounds_GUI_Relhax" Enabled="True" Tags="Patch,SoundBank,DependencyLink" InstallGroup="4" PatchGroup="4" UID="o49vq8mowrxzptgl" Name="Relhax by Willster419" Type="multi" Visible="True">
         <Size>33854331</Size>
         <ZipFile>Sounds_GUI_Relhax_2020-10-24.zip</ZipFile>
         <CRC>b3bdee1e2340bd35a452bda60dcd1937</CRC>
@@ -744,6 +744,18 @@
         <Dependencies>
           <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
         </Dependencies>
+      </Package>
+      <Package PackageName="Sounds_GUI_DisableKilledAllySoundNotification" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="lcae3ovd84z54wyr" Name="disable sound notification when allied tanks are destroyed" Type="multi" Visible="True">
+        <ZipFile>Sounds_GUI_DisableKilledAllySoundNotification_2021-03-04.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132593544665988201</Timestamp>
+        <Author>elektrosmoker</Author>
+      </Package>
+      <Package PackageName="Sounds_GUI_DisableKilledEnemySoundNotification" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="0opknhgd0ceqkfn7" Name="disable sound notification when enemy tanks are destroyed" Type="multi" Visible="True">
+        <ZipFile>Sounds_GUI_DisableKilledEnemyySoundNotification_2021-03-04.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132593544729168149</Timestamp>
+        <Author>elektrosmoker</Author>
       </Package>
     </Packages>
   </Package>
