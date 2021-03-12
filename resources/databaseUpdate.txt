@@ -1,299 +1,47 @@
-!!DISCLAIMER!!
-
-We are using a developer version of XVM. Several team members have been playing with it and there have been no crashes. It is our evaluation that it is stable for public use.
-
-IF YOU RUN INTO AN ISSUE AND ARE USING XVM, we will not provide support until XVM is officially published.
-
 Database Update!
 
-New version tag: 1.12.0.0_2021-03-10_1
+New version tag: 1.12.0.0_2021-03-12_1
 
-Number of Added packages: 3
-Number of Updated packages: 183
-Number of Disabled packages: 15
-Number of Removed packages: 4
-Number of Moved packages: 2
-Number of Renamed packages: 60
+Number of Added packages: 0
+Number of Updated packages: 19
+Number of Disabled packages: 0
+Number of Removed packages: 0
+Number of Moved packages: 0
+Number of Renamed packages: 2
 Number of Internally renamed packages: 0
 
 Added:
- - Garage Mods->Little Helper Collection [by Champi] (READ DESCRIPTION + WARNING)->Remove the "peep" sound after a tank is destroyed (new 1.12 feature)
- - Sound Mods->GUI->disable sound notification when allied tanks are destroyed
- - Sound Mods->GUI->disable sound notification when enemy tanks are destroyed
 
 Updated:
+ - DependencyGlobal_ScriptLoaderPro
  - LogicalDependency_XVM_Main_Stable
  - LogicalDependency_XVM_Main_Nightly
- - Dependency_XVM_PY_anglesAiming
- - Dependency_XVM_PY_NDOscripts
- - Dependency_XVM_XC_elevation
- - Dependency_XVM_XC_years
- - Dependency_XVM_XC_hull
- - Dependency_XVM_XC_speed
- - Dependency_XVM_XC_gunDmg
- - Dependency_XVM_XC_gunPen
- - Dependency_XVM_XC_vehiclenames
- - Dependency_CHAMPi_settingsGUI
  - Dependency_MLG_englishLocalization
- - Dependency_OldSkool_modsCore
- - Dependency_PMOD
- - Dependency_PY_PYmodsCore
- - Dependency_RaJCel_Core
- - Dependency_RaJCeL_inBattleStatistics
- - Dependency_Crosshairs_Protanki
  - LogicalDependency_AtlasCreation_losslessBattleAtlasImages
  - LogicalDependency_MVI_BATTLE_CLEAR_noXVM
  - LogicalDependency_MVI_BATTLE_noXVM
  - LogicalDependency_MVI_HANGAR_showAll_noXVM
  - LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM
  - LogicalDependency_MVI_HANGAR_CLEAR_ALL_noXVM
- - XVM prebuilt configs->2 - Relhax developers:->123gauss (colorblind) v2021-03-05
- - XVM prebuilt configs->2 - Relhax developers:->dirty20067 v2021-03-05
- - XVM prebuilt configs->2 - Relhax developers:->elektrosmoker v2021-03-05 [including crosshair mod]
- - XVM prebuilt configs->2 - Relhax developers:->The Illusion v2021-03-05
- - XVM prebuilt configs->2 - Relhax developers:->Willster419 v2021-03-05
- - XVM prebuilt configs->3 - OMC v2021-03-05
- - XVM prebuilt configs->4 - PURE - only stats/colors v2021-03-05
- - XVM prebuilt configs->XVM prebuilt configurations by known Streamers/Modders->Aslain v2021-03-05
- - XVM prebuilt configs->XVM prebuilt configurations by known Streamers/Modders->Bones v2021-03-05
- - XVM prebuilt configs->XVM prebuilt configurations by known Streamers/Modders->Druid v2021-03-05
- - XVM prebuilt configs->XVM prebuilt configurations by known Streamers/Modders->J1mB0 v2021-03-05
- - XVM prebuilt configs->XVM prebuilt configurations by known Streamers/Modders->NDO / night_dragon_on v2021-03-03
- - XVM prebuilt configs->XVM prebuilt configurations by known Streamers/Modders->Oldskool (ProMod) v2021-03-05
- - XVM prebuilt configs->XVM prebuilt configurations by known Streamers/Modders->QuickyBaby v2021-03-05
- - Crosshairs->Gun Constraints for SPG and Artillery (Type set in garage)
- - Contour & Tank Icons->Contour Icons->APCR_NOOB v1.12.0.0->Standard
- - Contour & Tank Icons->Contour Icons->APCR_NOOB v1.12.0.0->mini V2
- - Contour & Tank Icons->Contour Icons->Aslain v1.12.0.0
- - Contour & Tank Icons->Contour Icons->Blackspy v1.12.0.0->Original Edition
- - Contour & Tank Icons->Contour Icons->Blackspy v1.12.0.0->Yasha Edition
- - Contour & Tank Icons->Contour Icons->DEbranded v1.12.0.0->Edition 2D
- - Contour & Tank Icons->Contour Icons->DEbranded v1.12.0.0->Edition 2D Vanilla
- - Contour & Tank Icons->Contour Icons->DEbranded v1.12.0.0->Edition 3D
- - Contour & Tank Icons->Contour Icons->DEbranded v1.12.0.0->Edition Budyx69
- - Contour & Tank Icons->Contour Icons->DEbranded v1.12.0.0->Edition Heliomalt
- - Contour & Tank Icons->Contour Icons->DEbranded v1.12.0.0->Edition SicFunzler v
- - Contour & Tank Icons->Contour Icons->DEbranded v1.12.0.0->Edition Simple
- - Contour & Tank Icons->Contour Icons->DEbranded v1.12.0.0->Edition  WG
- - Contour & Tank Icons->Contour Icons->DEbranded v1.12.0.0->Edition xXFreeFunXx
- - Contour & Tank Icons->Contour Icons->DEbranded v1.12.0.0->Edition xXFreeFunXx vanilla
- - Contour & Tank Icons->Contour Icons->elektrosmoker v1.12.0.0
- - Contour & Tank Icons->Contour Icons->Ghostman101278 v1.11.0.0
- - Contour & Tank Icons->Contour Icons->HARDicons [by Andrey_Hard] v1.12.0.0
- - Contour & Tank Icons->Contour Icons->J1mB0->ReWorked Original Colors v1.12.0.0 [by J1mB0 / elektrosmoker]
- - Contour & Tank Icons->Contour Icons->J1mB0-> v1.12.0.0 [by Grabaah]
- - Contour & Tank Icons->Contour Icons->Pogs v1.12.0.0 [by Pogs / DaMatz]->Clear->tier, name
- - Contour & Tank Icons->Contour Icons->Pogs v1.12.0.0 [by Pogs / DaMatz]->Clear->tier, name, avg or gold penetration
- - Contour & Tank Icons->Contour Icons->Pogs v1.12.0.0 [by Pogs / DaMatz]->Clear->tier, name, avg or gold penetration, armor numbers
- - Contour & Tank Icons->Contour Icons->Pogs v1.12.0.0 [by Pogs / DaMatz]->Clear->tier, name, avg or gold penetration, armor numbers, view range
- - Contour & Tank Icons->Contour Icons->Pogs v1.12.0.0 [by Pogs / DaMatz]->Clear->tier, name, avg or gold penetration, armor numbers, view range, reload time
- - Contour & Tank Icons->Contour Icons->Pogs v1.12.0.0 [by Pogs / DaMatz]->DaMatz
- - Contour & Tank Icons->Contour Icons->Risky Style v1.12.0.0 [by colt87 & Ragnarocek]
- - Contour & Tank Icons->Contour Icons->The Illusion v1.12.0.0->Big
- - Contour & Tank Icons->Contour Icons->The Illusion v1.12.0.0->Small
- - Contour & Tank Icons->Contour Icons->Wizard v1.12.0.0 [by dirty20067, yaya070]->Roman->[by dirty20067]
- - Contour & Tank Icons->Contour Icons->Wizard v1.12.0.0 [by dirty20067, yaya070]->Roman->[by yaya070]
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->Debranded´s camouflaged tank icons v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->Debranded´s default ->  brighter tank icons v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->golden premium tanks V1  v1.12.0.0 [by dirty20067]
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->golden premium tanks V0  v1.12.0.0 [by dirty20067]
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->camouflaged premium tanks  v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->light-golden premium tanks v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Carousel Tankicons->colored [by elektrosmoker]  (golden premium /  purple special / blue collectors tanks)
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 (Bar) v1.12.0.0 [by Aslain]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V2 (Circle) v1.12.0.0 [by Aslain]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Androdizel  v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Colored  v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo DEbranded  v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Camo Yaya  v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default Androdizel  v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default colored  v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default DEbranded  v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->V1 Default Yaya  v1.12.0.0 [by DEBranded]
- - Contour & Tank Icons->Tank Icons->Techtree and Vehicle List Tankicons->colored techtree icons [by elektrosmoker]
- - Damage Logs & Panels->Damage Log [by GambiteR]
- - Ingame Aim->Autoloader Helper [by Poliroid]
- - Ingame Aim->Dispersion Indicator (aim time)->simple dispersion indicator [by P0LIR0ID]
- - Ingame Aim->Safeshot Mods->SafeShot [by OldSkool]
- - Ingame Aim->Safeshot Mods->SafeShot [by Champi]
- - Ingame Aim->Projectile Flytime for SPG/Arty->Projectile Flytime for SPG/Arty [by OldSkool]
- - Ingame Info->Arty HitLog [by OldSkool]
- - Ingame Info->Damage Indicator->Apache Colorblind [by HAWG] 
- - Ingame Info->Damage Indicator->Apache [by HAWG] 
- - Ingame Info->Damage Indicator->Arrow Colorblind [by HAWG] 
- - Ingame Info->Damage Indicator->Arrow [by HAWG] 
- - Ingame Info->Damage Indicator->Cherokee Colorblind [by HAWG] 
- - Ingame Info->Damage Indicator->Cherokee [by HAWG] 
- - Ingame Info->Damage Indicator->DamageIndicator v1 [by HAWG] 
- - Ingame Info->Damage Indicator->DamageIndicator v2 [by HAWG] 
- - Ingame Info->Damage Indicator->Dart v1 Colorblind  [by HAWG] 
- - Ingame Info->Damage Indicator->Dart v1 [by HAWG] 
- - Ingame Info->Damage Indicator->Dart v2 Colorblind [by HAWG] 
- - Ingame Info->Damage Indicator->Dart v2 [by HAWG] 
- - Ingame Info->Damage Indicator->Needle v1 Colorblind [by HAWG] 
- - Ingame Info->Damage Indicator->Needle v2 [by HAWG] 
- - Ingame Info->Damage Indicator->Robin Hood Colorblind [by HAWG] 
- - Ingame Info->Damage Indicator->Robin Hood [by HAWG] 
- - Ingame Info->DebugPanel->DebugPanel [by OldSkool]
- - Ingame Info->Danger Lights / Enemy Announcer [by Protanki]
- - Ingame Info->Final Shot (Last Hits) [by Poliroid]
- - Ingame Info->Flying damage without XVM [by Andre_V]->V1
- - Ingame Info->Flying damage without XVM [by Andre_V]->V2
- - Ingame Info->Hitmarker [by Aimdrol]->Default
- - Ingame Info->Hitmarker [by Aimdrol]->Comics Version [by elektrosmoker]
- - Ingame Info->Hitmarker [by Aimdrol]->Damage, Fire, Kill
- - Ingame Info->Players Panel Pro [by CHAMPi] [Conflicts with Friends Marker by Oldskool]
- - Ingame Info->Enemy Spotted Status->ESS  [by OldSkool]
- - Ingame Info->Tank Rating Colors [by CHAMPi]
- - Ingame Info->InBattle Rating->OldSkool
- - Ingame Info->InBattle Rating->PROTanki
- - Ingame Info->Expected Values Calculator->Marks of Excellence Extended (formerly called "Marks on Gun Extended") v8.10 [by spoter / OldSkool]
- - Ingame Info->Expected Values Calculator->Marks of Excellence Extended (formerly called "Marks on Gun Extended") v8.10 [by spoter / OldSkool]->Show in techtree
- - Ingame Info->Expected Values Calculator->Expected Vehicle Values [by Champi]
- - Ingame Info->RTAN - Real Time Achievements Notifications->RTAN [by PROtanki]
- - Ingame Info->Tank Info Panel->OldSkool
- - Ingame Info->Tank Info Panel->PROTanki
- - Ingame Misc->Better visible flat trainwagons
- - Ingame Misc->Chat-Mods (in-battle)->Elkano's Received Damage Announcer (ElkRDA)
- - Ingame Misc->Chat-Mods (in-battle)->Friends Marker [by Oldskool]
- - Ingame Misc->Chat-Mods (in-battle)->Friends Notifier [by RaJCeL]
- - Ingame Misc->Interface Scaling->UI Scale v1.1  [by goofy67]
- - Ingame Misc->Interface Scaling->Interface Scaling v1.0.8  [by OldSkool]
- - Ingame Misc->LightMod [by Polyacov_Yury]
- - Ingame Misc->LightMod [by Polyacov_Yury]->Evening lighting
- - Ingame Misc->Minimap->CHAMPi's Minimap Spam Protector
- - Ingame Misc->Repair Mods->SmartRepair [by P0LIR0ID, Protanki]
- - Ingame Misc->Underwater Timer->V1
- - Ingame Misc->Underwater Timer->V2
- - Ingame Misc->Underwater Timer->V3
- - Ingame Misc->Underwater Timer->V7
- - Ingame Misc->Underwater Timer->V10
- - Ingame Misc->German Tank Racing [by Josch]
- - Garage Mods->Annoying Features Remover [Hangar Addons]  [by NDO]
- - Garage Mods->Armor Inspector->Armor Inspector by protanki
- - Garage Mods->Armor Inspector->Armor Inspector by wotinspector.com (Online)
- - Garage Mods->Battle Hits Viewer in Hangar v1.6.4 [by P0LIR0ID]
- - Garage Mods->Crew auto-return->v1.1.3 [by Oldskool]
- - Garage Mods->Crew Extended (shows XP for leveling)->IzeBerg
- - Garage Mods->Hangar Mastery v1.9 [by Protanki]
- - Garage Mods->Little Helper Collection [by Champi] (READ DESCRIPTION + WARNING)
- - Garage Mods->Replay Manager [by WGMods]
- - Garage Mods->Simple Vehicle Stats [by RaJCeL]
- - Garage Graphics->Battle Results->Custom Battle Results Window->Darth Vader [by HAWG]
- - Garage Graphics->Battle Results->Custom Battle Results Window->Grim [by HAWG]
- - Garage Graphics->Battle Results->Custom Battle Results Window->PinUps [ADULT CONTENT] [by HAWG]
- - Garage Graphics->Battle Results->Custom Battle Results Window->Cobra [by HAWG]
- - Garage Graphics->Battle Results->Custom Battle Results Window->Tanks [by HAWG]
- - Garage Graphics->Battle Results->Custom Battle Results Window->Skulls [by HAWG]
- - Garage Graphics->Battle Results->Custom Battle Results Window->[by Ragnarocek]
- - Garage Graphics->Battle Results->Battle Results Tank Icon [by HAWG]->Nation emblem by HAWG
- - Garage Graphics->Battle Results->Battle Results Tank Icon [by HAWG]->Beach Party [ADULT CONTENT]
- - Garage Graphics->Battle Results->Battle Results Tank Icon [by HAWG]->Nation flag (!huge size!)
- - Garage Graphics->Battle Results->On battle results statistics (HEAVY MOD) [by RaJCeL]
- - Garage Graphics->Battle Results->Unanonymizer on battle results [by RaJCeL]
- - Garage Graphics->LobbyHeader->Hawg's Personal Reserve->Aqua
- - Garage Graphics->LobbyHeader->Hawg's Personal Reserve->Blue
- - Garage Graphics->LobbyHeader->Hawg's Personal Reserve->Yellow
- - Garage Graphics->User Interface->Blue Steel of GIRLS und PANZER UI ( Complete User Interface Conversion )
- - Statistics->Garage Session Statistics->YasenKrasen v1.12.0.0 [by Dado_Ze / RajCel]
- - Statistics->Garage Session Statistics->YasenKrasen v1.12.0.0 [by Dado_Ze / RajCel]->Modules->Colored In-Game Messages -> !! sets client language to english !!
- - Statistics->Garage Session Statistics->YasenKrasen v1.12.0.0 [by Dado_Ze / RajCel]->Modules->Graphical Battle Messages
- - Statistics->Garage Session Statistics->YasenKrasen v1.12.0.0 [by Dado_Ze / RajCel]->Modules->Kill Skulls (alternative in-game battle messages)
- - Sound Mods->Guns->Ed76na (RU) & SicFunzler (EU)->[by SicFunzler] v580
- - Sound Mods->Guns->War Guns v [by JohnTankPL]
- - 6th Sense->Sixth Sense Timer [by CHAMPi]
- - Tank Skin Misc->Colored Crashed Tracks
- - Tank Skin Misc->Colored Dead Tanks
- - Tank Skin Misc->Skinner (needs installed tank skins) [by Polyacov_Yury]
-
-Renamed:
- - "123gauss (colorblind) v2021-02-01" was renamed to "123gauss (colorblind) v2021-03-05"
- - "dirty20067 v2021-02-01" was renamed to "dirty20067 v2021-03-05"
- - "elektrosmoker v2021-02-25 [including crosshair mod]" was renamed to "elektrosmoker v2021-03-05 [including crosshair mod]"
- - "The Illusion v2021-02-01" was renamed to "The Illusion v2021-03-05"
- - "Willster419 v2021-02-01" was renamed to "Willster419 v2021-03-05"
- - "3 - OMC v2021-02-01" was renamed to "3 - OMC v2021-03-05"
- - "4 - PURE - only stats/colors v2021-02-01" was renamed to "4 - PURE - only stats/colors v2021-03-05"
- - "Aslain v2021-02-01" was renamed to "Aslain v2021-03-05"
- - "Bones v2021-02-01" was renamed to "Bones v2021-03-05"
- - "Druid v2021-02-01" was renamed to "Druid v2021-03-05"
- - "J1mB0 v2021-02-01" was renamed to "J1mB0 v2021-03-05"
- - "NDO / night_dragon_on v2021-02-01" was renamed to "NDO / night_dragon_on v2021-03-03"
- - "Oldskool (ProMod) v2021-02-01" was renamed to "Oldskool (ProMod) v2021-03-05"
- - "QuickyBaby v2021-02-01" was renamed to "QuickyBaby v2021-03-05"
- - "Stable v8.7.6_0005" was renamed to "Stable v8.7.7_0051 (nightly)"
- - "Nightly v8.7.6_0005" was renamed to "Nightly v8.7.7_0051"
- - "APCR_NOOB v1.11.1.0" was renamed to "APCR_NOOB v1.12.0.0"
- - "Aslain v1.11.1.0" was renamed to "Aslain v1.12.0.0"
- - "Blackspy v1.11.1.0" was renamed to "Blackspy v1.12.0.0"
- - "DEbranded v1.11.1.1" was renamed to "DEbranded v1.12.0.0"
- - "elektrosmoker v1.11.1.0" was renamed to "elektrosmoker v1.12.0.0"
- - "Ghostman101278 v1.10.0.4" was renamed to "Ghostman101278 v1.11.0.0"
- - "HARDicons [by Andrey_Hard] v1.11.1.0" was renamed to "HARDicons [by Andrey_Hard] v1.12.0.0"
- - "ReWorked Original Colors v1.11.1.0 [by J1mB0 / elektrosmoker]" was renamed to "ReWorked Original Colors v1.12.0.0 [by J1mB0 / elektrosmoker]"
- - " v1.11.1.0 [by Grabaah]" was renamed to " v1.12.0.0 [by Grabaah]"
- - "Pogs v1.11.0.0 [by Pogs / DaMatz]" was renamed to "Pogs v1.12.0.0 [by Pogs / DaMatz]"
- - "Risky Style v1.11.1.0 [by colt87 & Ragnarocek]" was renamed to "Risky Style v1.12.0.0 [by colt87 & Ragnarocek]"
- - "The Illusion v1.11.1.0" was renamed to "The Illusion v1.12.0.0"
- - "Wizard v1.11.1.0 [by dirty20067, yaya070]" was renamed to "Wizard v1.12.0.0 [by dirty20067, yaya070]"
- - "Debranded´s camouflaged tank icons v1.11.1.1 [by DEBranded]" was renamed to "Debranded´s camouflaged tank icons v1.12.0.0 [by DEBranded]"
- - "Debranded´s default ->  brighter tank icons v1.11.1.1 [by DEBranded]" was renamed to "Debranded´s default ->  brighter tank icons v1.12.0.0 [by DEBranded]"
- - "golden premium tanks V1  v1.11.1.0 [by dirty20067]" was renamed to "golden premium tanks V1  v1.12.0.0 [by dirty20067]"
- - "golden premium tanks V0  v1.11.1.0 [by dirty20067]" was renamed to "golden premium tanks V0  v1.12.0.0 [by dirty20067]"
- - "camouflaged premium tanks  v1.11.1.1 [by DEBranded]" was renamed to "camouflaged premium tanks  v1.12.0.0 [by DEBranded]"
- - "light-golden premium tanks v1.11.1.1 [by DEBranded]" was renamed to "light-golden premium tanks v1.12.0.0 [by DEBranded]"
- - "V1 (Bar) v1.11.0.0 [by Aslain]" was renamed to "V1 (Bar) v1.12.0.0 [by Aslain]"
- - "V2 (Circle) v1.11.0.0 [by Aslain]" was renamed to "V2 (Circle) v1.12.0.0 [by Aslain]"
- - "V1 Camo Androdizel  v1.11.1.1 [by DEBranded]" was renamed to "V1 Camo Androdizel  v1.12.0.0 [by DEBranded]"
- - "V1 Camo Colored  v1.11.1.1 [by DEBranded]" was renamed to "V1 Camo Colored  v1.12.0.0 [by DEBranded]"
- - "V1 Camo DEbranded  v1.11.1.1 [by DEBranded]" was renamed to "V1 Camo DEbranded  v1.12.0.0 [by DEBranded]"
- - "V1 Camo Yaya  v1.11.1.1 [by DEBranded]" was renamed to "V1 Camo Yaya  v1.12.0.0 [by DEBranded]"
- - "V1 Default Androdizel  v1.11.1.1 [by DEBranded]" was renamed to "V1 Default Androdizel  v1.12.0.0 [by DEBranded]"
- - "V1 Default colored  v1.11.1.1 [by DEBranded]" was renamed to "V1 Default colored  v1.12.0.0 [by DEBranded]"
- - "V1 Default DEbranded  v1.11.1.1 [by DEBranded]" was renamed to "V1 Default DEbranded  v1.12.0.0 [by DEBranded]"
- - "V1 Default Yaya  v1.11.1.1 [by DEBranded]" was renamed to "V1 Default Yaya  v1.12.0.0 [by DEBranded]"
- - "V2 Premium Camo Androdizel  v1.11.1.1 [by DEBranded]" was renamed to "V2 Premium Camo Androdizel  v1.12.0.0 [by DEBranded]"
- - "V2 Premium Camo colored  v1.11.1.1 [by DEBranded]" was renamed to "V2 Premium Camo colored  v1.12.0.0 [by DEBranded]"
- - "V2 Premium Camo DEbranded  v1.11.1.1 [by DEBranded]" was renamed to "V2 Premium Camo DEbranded  v1.12.0.0 [by DEBranded]"
- - "V2 Premium Camo Yaya  v1.11.1.1 [by DEBranded]" was renamed to "V2 Premium Camo Yaya  v1.12.0.0 [by DEBranded]"
- - "V2 Premium Light Androdizel  v1.11.1.1 [by DEBranded]" was renamed to "V2 Premium Light Androdizel  v1.12.0.0 [by DEBranded]"
- - "V2 Premium Light colored  v1.11.1.1 [by DEBranded]" was renamed to "V2 Premium Light colored  v1.12.0.0 [by DEBranded]"
- - "V2 Premium Light DEbranded  v1.11.1.1 [by DEBranded]" was renamed to "V2 Premium Light DEbranded  v1.12.0.0 [by DEBranded]"
- - "V2 Premium Light Yaya  v1.11.1.1 [by DEBranded]" was renamed to "V2 Premium Light Yaya  v1.12.0.0 [by DEBranded]"
- - "Damage, Ramming, Kamakazie" was renamed to "Damage, Fire, Kill"
- - "UI Scale v1.0  [by goofy67]" was renamed to "UI Scale v1.1  [by goofy67]"
- - "Battle Hits Viewer in Hangar v1.6.3 [by P0LIR0ID]" was renamed to "Battle Hits Viewer in Hangar v1.6.4 [by P0LIR0ID]"
- - "Hangar Mastery v1.8 [by Protanki]" was renamed to "Hangar Mastery v1.9 [by Protanki]"
- - "YasenKrasen v1.11.1.0 [by Dado_Ze / RajCel]" was renamed to "YasenKrasen v1.12.0.0 [by Dado_Ze / RajCel]"
- - "[by SicFunzler] v505" was renamed to "[by SicFunzler] v580"
- - "War Guns v1.01 [by JohnTankPL]" was renamed to "War Guns v [by JohnTankPL]"
-
-Moved:
- - "Ingame Info->Hitmarker [by Aimdrol]->Damage Only" was moved to "Ingame Info->Hitmarker [by Aimdrol]->Damage Only"
- - "Ingame Info->Hitmarker [by Aimdrol]->Damage, Ramming, Kamakazie" was moved to "Ingame Info->Hitmarker [by Aimdrol]->Damage, Fire, Kill"
-
-Disabled:
  - LogicalDependency_MVI_HANGAR_showAll_XVM
  - LogicalDependency_MVI_HANGAR_CLEAR_tier_XVM
  - LogicalDependency_MVI_HANGAR_CLEAR_ALL_XVM
- - XVM prebuilt configs->XVM prebuilt configurations by known Streamers/Modders->REBIRTH v2021-01-31 [by HAWG]
- - XVM config builder->-----[IN-BATTLE Settings]------>Camera->enable (not compatible to PMOD zoom options)->Zoom Options (xvm)->starting zoom (sniper mode)
- - Damage Logs & Panels->Damage Panels->"Bionick" transparent
- - Ingame Aim->Zoom In (PMOD)->Modify Starting zoom
- - Ingame Info->RTAN - Real Time Achievements Notifications->RTAN [by Aimdrol]
- - Ingame Misc->Consumable Icons->Aimdrol (with [english] text modifications)
- - Statistics->Garage Session Statistics->Time Spent v3.99.01 [by ShuraBB]
- - Sound Mods->Engines->Historical Realism Mod (HRMOD) v3.06 [by GnomeFather / Zorgane]
- - Sound Mods->Guns->Historical Realism Mod (HRMOD) v3.06 [by GnomeFather / Zorgane]
- - Sound Mods->Guns->Wrath Of The Gods
- - Sound Mods->Guns->WWIIHWA v4.10 [by Budyx69 & KT]
- - Sound Mods->WWIIHWA Ambiente v6.24 by Budyx69
+ - Ingame Misc->Better visible flat trainwagons
+ - Garage Mods->Armor Inspector->Armor Inspector by wotinspector.com (Online)
+ - Statistics->Garage Session Statistics->YasenKrasen v1.12.0.0 [by Dado_Ze / RajCel]->Modules->Colored In-Game Messages -> !! sets client language to english !!
+ - Statistics->Garage Session Statistics->YasenKrasen v1.12.0.0 [by Dado_Ze / RajCel]->Modules->Kill Skulls (alternative in-game battle messages)
+ - Tank Skin Misc->Colored Crashed Tracks
+ - Tank Skin Misc->Colored Dead Tanks
+
+Renamed:
+ - "Stable v8.7.7_0051 (nightly)" was renamed to "Stable v8.7.7_0053"
+ - "Nightly v8.7.7_0051" was renamed to "Nightly v8.7.7_0053"
+
+Moved:
+
+Disabled:
 
 Removed:
- - Dependency_Sounds_Guns_WarMod_bnk
- - Dependency_Sounds_Guns_WarMod_bnk_NoGun&SoundBnk
- - Sound Mods->Engines->NOTES: Engines by Ed76na & Apa6ecka
- - Sound Mods->Guns->NOTES: Gun Sounds by Ed76na & Apa6ecka
 
 Notes:
  - 
