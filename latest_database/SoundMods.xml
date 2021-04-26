@@ -662,39 +662,6 @@
   <Package PackageName="Sounds_Extras" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="d9jrqtvizoqyyi3b" Name="Extra" Type="multi" Visible="True">
     <Timestamp>131910777168272821</Timestamp>
     <Packages>
-      <Package PackageName="Sounds_Extras_IVM" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="qyq6ys1jyligytba" Name="IVM Sounds" Type="multi" Visible="False">
-        <Size>640</Size>
-        <ZipFile>Sounds_Extras_IVM_1.8.0.2_2020-04-08.zip</ZipFile>
-        <CRC>d9cb76ad66006728bfac9a5715fbf86f</CRC>
-        <Timestamp>132308324533020802</Timestamp>
-        <Author>The Illusion</Author>
-        <Dependencies>
-          <Dependency PackageName="Dependency_IVM_Main" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
-        </Dependencies>
-        <Packages>
-          <Package PackageName="Sounds_Extras_IVM_StunDeadPool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kd7dqwr2t4k59mto" Name="Stun Sound DeadPool" Type="multi" Visible="True">
-            <Size>517</Size>
-            <ZipFile>Sounds_Extras_IVM_StunDeadPool_1.9.0.0_2020-04-22.zip</ZipFile>
-            <CRC>b26f361df3fe8843e889c47ce39053f0</CRC>
-            <Timestamp>132508727863305770</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Audio/Sound_Mods/stun.wav" MediaType="MediaFile" />
-            </Medias>
-          </Package>
-          <Package PackageName="Sounds_Extras_IVM_FireDeadpool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="x2esywx3s0cn9y0n" Name="Fire Sound DeadPool" Type="multi" Visible="True">
-            <Size>517</Size>
-            <ZipFile>Sounds_Extras_IVM_FireDeadpool_1.9.0.0_2020-04-22.zip</ZipFile>
-            <CRC>f2be53dd9df5b54b868d7f98508fd75c</CRC>
-            <Timestamp>132508727974777692</Timestamp>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Audio/Sound_Mods/fire.wav" MediaType="MediaFile" />
-            </Medias>
-          </Package>
-        </Packages>
-      </Package>
       <Package PackageName="Sounds_Extras_BetterTimer" Enabled="True" Tags="Patch,SoundBank" InstallGroup="4" PatchGroup="4" UID="452eyztnmg7uk2p0" Name="Better Timer" Type="multi" Visible="True">
         <Size>23649</Size>
         <Version>1.5</Version>
@@ -716,14 +683,6 @@
         <Medias>
           <Media URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/sound_mods/extras/explorer_22JSs8tEKx.jpg" MediaType="Picture" />
         </Medias>
-      </Package>
-      <Package PackageName="Sounds_Extras_WheeledTankLoaded" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="sjmim7ze2g2xhfe2" Name="Wheeled Tank Loading" Type="multi" Visible="False">
-        <Size>124166</Size>
-        <ZipFile>Sounds_Extras_WheeledTankLoaded_2019-04-27.zip</ZipFile>
-        <CRC>933d133e6a49f947c5d9e2aeb34b531b</CRC>
-        <Timestamp>132508728471898358</Timestamp>
-        <Author>The Illusion</Author>
-        <Description>Will add WEEEE sound when loading into a battle in a wheeled tank.</Description>
       </Package>
     </Packages>
   </Package>
@@ -834,18 +793,6 @@
           <Dependency PackageName="Dependency_Sounds_bnk_GnomeFathers" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="Sounds_Guns_StarTrekPhaser" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="eimp66yqukiyphuk" Name="Star Trek Phasers v{version} [by {author}]" Type="single1" Visible="False">
-        <Size>7744194</Size>
-        <Version>6.2831</Version>
-        <ZipFile>Sounds_Guns_StarTrekPhaser_2019-05-04.zip</ZipFile>
-        <CRC>f588548e2b9dac3f8138cedd7c3607d5</CRC>
-        <Timestamp>132508726702368981</Timestamp>
-        <DevURL>http://forum.worldoftanks.com/index.php?/topic/602970-1412-phaser-gun-sounds/</DevURL>
-        <Author>The Illusion</Author>
-        <Description>Changes all guns to be more phasery!</Description>
-        <UpdateComment>V6.2831 - Added to "Effects" volume slider\nV3.1415 Updated all sounds to be better quality</UpdateComment>
-        <ShowInSearchList>False</ShowInSearchList>
-      </Package>
       <Package PackageName="Sounds_Guns_WarMod" Enabled="True" Tags="DependencyLink,Script" InstallGroup="4" PatchGroup="4" UID="tq4dhn2b8t8k80pc" Name="War Guns v{version} [by {author}]" Type="single1" Visible="True">
         <Size>778644714</Size>
         <ZipFile>Sounds_Guns_WarMod_1.12.0.0_2021-03-12.zip</ZipFile>
@@ -953,18 +900,6 @@
   </Package>
   <Package PackageName="Sounds_Modules" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jkbzuvt2sv15nbaa" Name="Modules" Type="multi" Visible="True">
     <Packages>
-      <Package PackageName="Sounds_Modules_AmmoRackImproved" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="rgvzq0nmnjedkri0" Name="Ammo Explosions v{version} [by {author}]" Type="multi" Visible="False">
-        <Size>3425701</Size>
-        <Version>ALPHA</Version>
-        <ZipFile>Sounds_Modules_AmmoRackImproved_1.5.0.4_2019-06-08.zip</ZipFile>
-        <CRC>c5734d2ced7991e2e343423fc1f7e55b</CRC>
-        <Timestamp>132508733948783806</Timestamp>
-        <Author>The Illusion</Author>
-        <Description>This will make ammo explosions sound much better.\n\nIncludes:\nAmmo detonation (Both you, and other players)\nAmmo cook offs (Those big nasty ones you sometimes get, with the jets).</Description>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Audio/Sound_Mods/Modules/ammo_rack_explode_interior_01.wav" MediaType="MediaFile" />
-        </Medias>
-      </Package>
       <Package PackageName="Sounds_Modules_CamoNet" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hu8t6yzomczckew0" Name="CamoNet sounds [by {author}]" Type="multi" Visible="True">
         <Author>The Illusion</Author>
         <Packages>
@@ -1048,22 +983,6 @@
         <UpdateComment>Updated: _1.7.0.0_2019-12-10.\r\n + added one new album with 19 tracks:\r\n=&gt; loginscreen - 10 tracks\r\n=&gt; hangar - 9 tracks\r\n+ total tracks number (10.12.2019) is 559!   \r\n"Brand X Music - Deconstruct (2019)"\r\n\r\nUpdated: 2019-10-01 v1.6.0.8 \r\n+Changed playlist sorting \r\n\r\nUpdated: 2019-08-23 v1.6.0.2: \r\n+ added one new album with 12 tracks:\r\n=&gt; battle - 6 tracks\r\n=&gt; loginscreen - 2 tracks\r\n=&gt; hangar - 4 tracks\r\n+ total tracks number (23.08.2019) is 457!   \r\n"Ninja Tracks - Resist 2.5 (2019)"\r\n\n</UpdateComment>
         <Medias>
           <Media URL="https://i.imgur.com/CQ7N5z1.png" MediaType="Picture" />
-        </Medias>
-      </Package>
-      <Package PackageName="Sounds_Music_EpicAnimeMusic" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="jy8rp0q1b9eelcen" Name="Hiroyuki Sawano's Epic Anime Music" Type="single_dropdown1" Visible="True">
-        <Size>328208245</Size>
-        <ZipFile>Sounds_Music_EpicAnimeMusic_1.5.0.0_2019-05-04.zip</ZipFile>
-        <CRC>e108eb7ab6be2ae0beedfb42de7bb863</CRC>
-        <Timestamp>132508732512048432</Timestamp>
-        <DevURL>https://wgmods.net/2474/details</DevURL>
-        <InternalNotes>res\audioww\music_interactive.bnk\nres\audioww\music_interactive.pck\n (original files by WG as template =&gt;No Patches needed)\n\r\nNew WWISE version/liscence ===&gt; New Soundbanks\n\n</InternalNotes>
-        <Author>YoRHa_NO_9_Type_S</Author>
-        <Description>Hiroyuki Sawano is a Japanese composer and musician best known for his work on many anime, TV series, and movies.\n\nIn this mod you will be able to enjoy his epic soundtracks while playing tanks !\nSoundtracks are chosen from famous animes such as Attack On Titan, Re:Creators, Mobile Suit Gundam Unicorn, Aldnoah.Zero, etc.\n\nMusic in following places will be replaced:\nHanger, Battle, Loading screen, Win/Lose/Draw screen\n\n============================================================\n\nSawano’s work has been made into wot mod since 2013 and I had a lot of good experiences while using it, but I’m so sad that the original mod maker is no longer active. So I decide to make this mod and bring those experiences back to players!\n\n============================================================</Description>
-        <Medias>
-          <Media URL="https://www.youtube.com/watch?v=b5GQ2B0yd3M" MediaType="Webpage" />
-          <Media URL="https://www.youtube.com/watch?v=2y1wCOxhn3A&amp;t=70s" MediaType="Webpage" />
-          <Media URL="https://www.youtube.com/watch?v=jz64SL8Ccw8" MediaType="Webpage" />
-          <Media URL="https://www.youtube.com/watch?v=BnaC0RgEPCw" MediaType="Webpage" />
         </Medias>
       </Package>
       <Package PackageName="Sounds_Music_FastFurious" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="oh011por1uo4duz8" Name="Fast &amp; Furious [by {author}]" Type="single_dropdown1" Visible="True">
