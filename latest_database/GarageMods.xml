@@ -685,7 +685,7 @@
     <Timestamp>132342612930843497</Timestamp>
     <PopularMod>True</PopularMod>
     <Packages>
-      <Package PackageName="GarageMods_Login_RegionChanger" Enabled="True" Tags="Patch,ConfigurationFileXml" InstallGroup="4" PatchGroup="4" UID="tlm2zr1es2gnb7q9" Name="RegionChanger [by {author}]" Type="multi" Visible="True">
+      <Package PackageName="GarageMods_Login_RegionChanger" Enabled="False" Tags="Patch,ConfigurationFileXml" InstallGroup="4" PatchGroup="4" UID="tlm2zr1es2gnb7q9" Name="RegionChanger [by {author}]" Type="multi" Visible="True">
         <Size>2336</Size>
         <ZipFile>GarageMods_Login_RegionChanger_1.10.0.4_2020-11-01.zip</ZipFile>
         <CRC>089956a01f76ecc202e0bd25b168c086</CRC>
@@ -727,30 +727,6 @@
         </Dependencies>
       </Package>
     </Packages>
-  </Package>
-  <Package PackageName="GarageMods_IVM" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="1qbyoha4eih0zmdt" Name="Improved Visuals and Sounds [IVM] {version}" Type="multi" Visible="False">
-    <Size>280585</Size>
-    <Version>0.06B</Version>
-    <ZipFile>GarageMods_IVM_v0.06B_1.10.0.4_2020-10-05.zip</ZipFile>
-    <CRC>2f697ac03a42768ae0035b28dff860b9</CRC>
-    <Timestamp>132509565021108882</Timestamp>
-    <DevURL>https://wgmods.net/4437/\r\nhttp://forum.worldoftanks.com/index.php?/topic/631577-\r\nhttps://github.com/Arkhorse/IVM/releases</DevURL>
-    <InternalNotes>This mod is script heavy. Most likely to break on updates.</InternalNotes>
-    <Author>The Illusion</Author>
-    <Maintainers>The Illusion</Maintainers>
-    <Description>Massive W.I.P mod that does many things. See preview.</Description>
-    <UpdateComment>v 0.06\r\n- Add option to disable hint for new Battle Comms\r\n- Add option to disable Progression Badges Window\r\nv 0.05a\r\n- Hotfix for annoyingFeatures not saving settings\r\nv 0.05\r\n- The Fly Swatter Update\r\n- Adds the entire annoying features removal options</UpdateComment>
-    <PopularMod>True</PopularMod>
-    <FromWGmods>True</FromWGmods>
-    <Medias>
-      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_mods/005 Top Config.jpg" MediaType="Picture" />
-      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_mods/005 Bottom Config.jpg" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-    </Dependencies>
   </Package>
   <Package PackageName="GarageMods_ModpackButton" Enabled="True" Tags="Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="feau0l9b47r9pycj" Name="ModPack Support Button v{version} [by {author}]" Type="multi" Visible="True">
     <Size>51889</Size>
