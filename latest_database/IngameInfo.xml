@@ -470,7 +470,7 @@
       <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="IngameInfo_FlyingDamage" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="bt0ih3ysbi9k00pb" Name="Flying damage without XVM [by {author}]" Type="multi" Visible="True">
+  <Package PackageName="IngameInfo_FlyingDamage" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bt0ih3ysbi9k00pb" Name="Flying damage without XVM [by {author}]" Type="multi" Visible="True">
     <Size>228307</Size>
     <ZipFile>IngameInfo_FlyingDamage_ALL_1.12.1.0_2021-04-25.zip</ZipFile>
     <CRC>d7fa606835355022c7dc119583765a9e</CRC>
@@ -478,12 +478,13 @@
     <DevURL>https://protanki.tv/mods/otletaiushchii-uron-bez-xvm</DevURL>
     <InternalNotes>tv.protanki.vehicle-markers-2.zip\r\nadvancedVehicleMarkers.wotmod\r\n\r\nhttps://api.protanki.tv/v2/mod_updates/f40a39af-8447-4ea0-a578-c42c6f38f02d.json</InternalNotes>
     <Author>Andre_V</Author>
-    <Description>When enemies got hit, this mod shows a floating textfield with dealt damage over them.</Description>
+    <Description>When enemies got hit, this mod shows a floating textfield with dealt damage over them.\r\nNOT COMPATIBLE WITH ANY PART OF XVM!</Description>
     <ObfuscatedMod>True</ObfuscatedMod>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Ingame_Misc_Flying_Damage_2.jpg" MediaType="Picture" />
       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Ingame_Misc_Flying_Damage_1.jpg" MediaType="Picture" />
     </Medias>
+    <ConflictingPackages>XVMconfigBuilder_IN-BATTLE,XVMconfigBuilder_HANGAR,XVMconfigBuilder_GLOBAL,XVMconfigBuilder_BuildSelector,LogicalDependency_XVM_Main_Nightly,LogicalDependency_XVM_Main_Stable,Dependency_XVM_Main_Files</ConflictingPackages>
     <Packages>
       <Package PackageName="IngameInfo_FlyingDamage_V1" Enabled="True" Tags="Script,GuiFlash,ConfigurationFileJson" InstallGroup="4" PatchGroup="4" UID="oi6wq34tae120cwa" Name="V1" Type="single_dropdown1" Visible="True">
         <Size>932</Size>
