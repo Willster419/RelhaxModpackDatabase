@@ -220,6 +220,7 @@
         <DevURL>https://worldoftanks.curseforge.com/projects/hawgs-daily-xp-bonus</DevURL>
         <InternalNotes>only pics</InternalNotes>
         <Author>HAWG</Author>
+        <Maintainers>Dirty</Maintainers>
         <Description>change the daily XP bonus icon (2x, 3x, 4x, 5x) on carousel</Description>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Tankcarousel/DailyXPBonusIcon/Garage_Graphics_Carousel_DailyXPBonusIcons_1.png" MediaType="Picture" />
@@ -616,6 +617,7 @@
         <DevURL>https://wgmods.net/1798/details\r\nhttps://www.curseforge.com/worldoftanks/wot-mods/tank-carousel-led-lights</DevURL>
         <InternalNotes>modified from gui.pkg:\n\res_mods\versiondir\gui\flash\TankCarousel.swf\n\nneeds updates on patchdays</InternalNotes>
         <Author>HAWG</Author>
+        <Maintainers>Dirty</Maintainers>
         <Description>This mod will add a glowing LED look to your carousel that is very noticeable around the tank that you select.</Description>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Garage_graphics_LED_carousel.jpg" MediaType="Picture" />
@@ -770,7 +772,7 @@
           </Package>
           <Package PackageName="GarageGraphics_Crew_Icons_LordFelix_TintedFemales" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9rcbu1675r393sof" Name="LordFelix´ tinted female crew icons" Type="single1" Visible="True">
             <Timestamp>131849469746964692</Timestamp>
-            <DevURL>https://wgmods.net/search/?owner=127544</DevURL>
+            <DevURL>https://wgmods.net/2180/</DevURL>
             <Description>Modifies the garage pictures of the female crew members to a more visible *  hue\n\nby LordFelix</Description>
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/Crew_Icons/Garage_Graphics_Crew_Icons_LordFelix_Tinted_Females_Header.jpg" MediaType="Picture" />
@@ -2202,8 +2204,11 @@
       <Package PackageName="GarageGraphics_Loading_Animation" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="i9kuxd95n2di48mc" Name="Loading Logo/Animation" Type="multi" Visible="True">
         <CRC>f</CRC>
         <Timestamp>132250424692950519</Timestamp>
-        <InternalNotes>contains:\r\nwaiting.swf\r\nwaitingTransition.swf\r\nlogos.swf\r\n\r\nexchanged infopics in logos.swf and waiting.swf with transparent ones\r\n\r\nGauss:\r\n    L = only logo = logos.swf\r\nWT = waitingTransition.swf\r\n   W =waiting .swf\r\n\r\nFrom Who?\r\nL = only logo = logos.swf\r\nL/A = logo AND waiting animation = logos.swf + waiting.swf + waitingTransition.swf\r\nA = only waiting animation = logos.swf (with default logos, but award/info slots are transparent) + waiting.swf + waitingTransition.swf\r\n\r\n\r\n\r\n\r\n</InternalNotes>
+        <InternalNotes>contains:\r\nwaiting.swf\r\nwaitingTransition.swf\r\nlogos.swf\r\n\r\nexchanged infopics in logos.swf and waiting.swf with transparent ones\r\n\r\nGauss:\r\n    L = only logo = logos.swf\r\nWT = waitingTransition.swf\r\n   W =waiting .swf\r\n\r\nFrom Who?\r\nL = only logo = logos.swf\r\nL/A = logo AND waiting animation = logos.swf + waiting.swf + waitingTransition.swf\r\nA = only waiting animation = logos.swf (with default logos, but award/info slots are transparent) + waiting.swf + waitingTransition.swf\r\n\r\n\r\n2021-05-02: Conversation with Elektro and Willster:\r\n- These mods use the same files as the global dependencies (SWF packages), so if they don't work, then these don't work and can be disabled\r\n\r\n\r\n\r\n</InternalNotes>
         <Description>This mod replaces the standard loading animation circle and/or the logo shown at start of the game.\r\nThis depends on the selected option.\r\n\r\nL = only logo\r\nL/A = logo AND waiting animation\r\nA = only waiting animation\r\n\r\n</Description>
+        <Dependencies>
+          <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
+        </Dependencies>
         <Packages>
           <Package PackageName="GarageGraphics_Loading_Animation_Waiting" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="ijbfnxfmsg6o5zua" Name="Loading Wheel Animation (W)" Type="multi" Visible="True">
             <CRC>f</CRC>
@@ -2211,9 +2216,6 @@
             <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-loading-wheels\r\nhttps://wgmods.net/2244/details</DevURL>
             <InternalNotes>= WHEEL\r\n=waiting .swf = Loading gear Wheel In dfferent Colors\r\n\r\nWAITING.SWF picture with numbers SEE: https://wgmods.net/2244/details\r\nhttps://wgmods.net/2244/details\r\n\r\nCRC\r\nBLUE:     \t5-Fallensoldier =16-CowGirl = 8-Blue [ALL 3 ARE BLUE])\r\nGREEN:  \t14-Leviathan=19.  Green)\r\nRED:       \t1-Grim =2-Pin/PenUP=3-Skull=4.HAWG=6-Skull2 = 7-RedCog=5-GhostBusters)\r\nYELLOW: 20=Yellow = 17-Fire)\r\nWG: \t09-Original=10-Tanks=11-Rank=13-Swords \r\n\r\nswirl=18 BORING //  Grey=21 BORING</InternalNotes>
             <ShowInSearchList>False</ShowInSearchList>
-            <Dependencies>
-              <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
-            </Dependencies>
             <Packages>
               <Package PackageName="GarageGraphics_Loading_Animation_Waiting_RelHax" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="1wcbqzoz46uzydo1" Name="RelHax Wheel (W)" Type="single_dropdown1" Visible="True">
                 <CRC>f</CRC>
@@ -2628,7 +2630,7 @@
       <Package PackageName="GarageGraphics_Loading_LoginLogo" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="m53fqh6lrgb0d7ax" Name="Loading Logo Picture in Centre at Login (LL)" Type="multi" Visible="True">
         <CRC>f</CRC>
         <Timestamp>132443232322464950</Timestamp>
-        <InternalNotes>(LL) = Login Logo\r\n\r\n\r\nthis mod uses the res_mods folder.\r\nfiles: \r\n\tgui\maps\login\__login_logo.png\r\n\r\noptional (eg to make it transparent):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n\r\n\r\n\r\n</InternalNotes>
+        <InternalNotes>(LL) = Login Logo\r\n\r\n\r\nthis mod uses the res_mods folder.\r\nfiles: \r\n\tgui\maps\login\__login_logo.png\r\n\r\noptional (eg to make it transparent):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n\r\n\r\n2021-05-02: Conversation with Elektro and Willster:\r\n- These mods use the same files as the global dependencies (SWF packages), so if they don't work, then these don't work and can be disabled\r\n</InternalNotes>
         <ShowInSearchList>False</ShowInSearchList>
         <Packages>
           <Package PackageName="GarageGraphics_Loading_Logo_LogInPic_Relhax" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="i9b24mzl85t5703y" Name="Relhax (LL)" Type="single_dropdown1" Visible="True">
@@ -2713,7 +2715,7 @@
         </Packages>
       </Package>
       <Package PackageName="GarageGraphics_Loading_LoginBG" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="78y1cfl640srhlla" Name="Loading Splashscreen Picture" Type="multi" Visible="True">
-        <InternalNotes>This [LoginBG] is different to LoginBackground.\r\nIt is more like a splashscreen than an actual loading background and geets only showed for a very short period of time (depends on computers abilities).\r\n\r\n\r\nmode files: only pics \r\n\tgui\maps\login\__login_bg.png\r\n\r\n\r\noptional (but should be in LoginLogo archives!):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n</InternalNotes>
+        <InternalNotes>This [LoginBG] is different to LoginBackground.\r\nIt is more like a splashscreen than an actual loading background and geets only showed for a very short period of time (depends on computers abilities).\r\n\r\n\r\nmode files: only pics \r\n\tgui\maps\login\__login_bg.png\r\n\r\n\r\noptional (but should be in LoginLogo archives!):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n\r\n2021-05-02: Conversation with Elektro and Willster:\r\n- These mods use the same files as the global dependencies (SWF packages), so if they don't work, then these don't work and can be disabled\r\n\r\n</InternalNotes>
         <Description>This is the background shown at the game´s beginning (splashcreen).</Description>
         <Packages>
           <Package PackageName="GarageGraphics_Loading_LoginBG_DefaultRelhax" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="1nf94jbpzjtgse3o" Name="DEFAULT by Relhax (changes from time to time)" Type="single_dropdown1" Visible="True">
@@ -2959,7 +2961,7 @@
         </Packages>
       </Package>
       <Package PackageName="GarageGraphics_Loading_LoginBackground" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="u5lqvbjf61ifw9o7" Name="Loginscreen Background" Type="multi" Visible="True">
-        <InternalNotes>only pics or videofiles which are shown during the user is on the loginscreen</InternalNotes>
+        <InternalNotes>only pics or videofiles which are shown during the user is on the loginscreen\r\n</InternalNotes>
         <Description>change the style of the login screen. \nyou can either use a video that plays in background or a simple picture.\n\ndon´t forget to change that in the upper right corner of the login screen</Description>
         <Packages>
           <Package PackageName="GarageGraphics_Loading_LoginBackground_Video" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pk3xmf9y1kk4726k" Name="Video" Type="single1" Visible="True">
