@@ -1321,163 +1321,90 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="IngameInfo_ExpectedValues" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yobg6zy9teqgb0cg" Name="Expected Values Calculator" Type="multi" Visible="True">
-    <Size>337513</Size>
+  <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues" Enabled="True" Tags="Patch,ConfigurationFileJson,DependencyLink,OtherFiles" InstallGroup="4" PatchGroup="4" UID="3r6bdbph41vrjucw" Name="Expected Vehicle Values [by {author}]" Type="single1" Visible="True">
+    <Size>226670</Size>
+    <Version>1.21</Version>
+    <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_v1.21_1.12.1.1_2021-05-02.zip</ZipFile>
     <CRC>f</CRC>
-    <Timestamp>132302369083957219</Timestamp>
+    <Timestamp>132644224293172922</Timestamp>
+    <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+    <InternalNotes>with prePatch to disable options first</InternalNotes>
+    <Author>Champi</Author>
+    <Maintainers>The Illusion, Willster419</Maintainers>
+    <Description>Shows expected vehicle damage, marks of excellence percentage and many more infos in real time during the battle. Highly customizable!</Description>
     <PopularMod>True</PopularMod>
+    <ObfuscatedMod>True</ObfuscatedMod>
+    <FromWGmods>True</FromWGmods>
+    <UserFiles>
+      <UserFile Pattern="\mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" />
+      <UserFile Pattern="\mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues_stats.json" />
+    </UserFiles>
+    <Dependencies>
+      <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+      <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+    </Dependencies>
     <Packages>
-      <Package PackageName="IngameInfo_ExpectedValues_MoE" Enabled="False" Tags="Patch,Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="s3tnx3osnys6mtuu" Name="Marks of Excellence Extended (formerly called &quot;Marks on Gun Extended&quot;) v{version} [by {author}]" Type="single1" Visible="False">
-        <Size>239861</Size>
-        <Version>8.10</Version>
-        <ZipFile>IngameInfo_ExpectedValues_MoE_v8.10_1.12.0.0_2021-03-09.zip</ZipFile>
-        <CRC>8934dc83781d15463a86d305407cfa6e</CRC>
-        <Timestamp>132597975893894085</Timestamp>
-        <DevURL>https://github.com/deadhat/marksOnGunExtended\r\nhttps://promod.reidarty.de/promod/\r\nhttps://wotspeak.org/mods/756-procent-otmetki-orudie-wot.html\r\nhttps://github.com/spoter/spoter-mods/tree/master/mod_marksOnGunExtended</DevURL>
-        <InternalNotes>download from https://promod.reidarty.de/promod - zip file gunmark.zip\r\n\r\nFiles inside wotmods:\r\n\r\n- oldskool\oldskool.marksInTechtree_1.0.1.wotmod\r\n\tres\gui\flash\marksInTechtree.swf \r\n\tres\scripts\client\gui\mods\mod_marksInTechtree.pyc\r\n\r\n-oldskool\oldskool.marksInHangar_1.0.7.wotmod\r\n\tres\gui\flash\marksInHangar.swf\r\n\tonly pictures res\gui\maps\icons\marksInHangar\vehicleTypes\\r\n\r\n\r\nhttps://github.com/deadhat/wotmods-public.git\r\nhttps://promod.reidarty.de/promod/\r\nhttps://wotspeak.org/mods/756-procent-otmetki-orudie-wot.html\r\n\r\n</InternalNotes>
-        <Author>spoter / OldSkool</Author>
-        <Description>Real time MoE (Marks of Excellence) progress on current tank in battle.\n\nSwitch between configurations with ALT+NUM9\r\n\r\nOriginally created by Spoter, now maintained by Oldskool.</Description>
-        <PopularMod>True</PopularMod>
-        <ObfuscatedMod>True</ObfuscatedMod>
-        <Dependencies>
-          <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Spoter_modsGui" NotFlag="False" Logic="OR" />
-        </Dependencies>
-        <Packages>
-          <Package PackageName="IngameInfo_ExpectedValues_MoE_showInTechtree" Enabled="True" Tags="Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="5sz252utnukom41t" Name="Show in techtree" Type="multi" Visible="True">
-            <Size>33642</Size>
-            <Version>1.0.6</Version>
-            <ZipFile>IngameInfo_ExpectedValues_MoE_showInTechtree_v1.0.6_1.12.0.0_2021-03-09.zip</ZipFile>
-            <CRC>5f3b4095fd2cd2b29b3af19e62c5a091</CRC>
-            <Timestamp>132597976893850879</Timestamp>
-            <ObfuscatedMod>True</ObfuscatedMod>
-            <Dependencies>
-              <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_MoE_showInHangar" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="z6h9x6kbidmdxxj7" Name="Show in hangar" Type="multi" Visible="True">
-            <Size>98914</Size>
-            <Version>1.1.5</Version>
-            <ZipFile>IngameInfo_ExpectedValues_MoE_showInHangar_v1.1.5_1.11.1.3_2021-03-01.zip</ZipFile>
-            <CRC>21db39fb6eccd6b469229634dd073bd2</CRC>
-            <Timestamp>132590815758947791</Timestamp>
-            <ObfuscatedMod>True</ObfuscatedMod>
-            <Dependencies>
-              <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
-            </Dependencies>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_v4Circon" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cvno55qch9evx9q6" Name="#4 - Circon`s config  ( &lt;- our previous default one!)" Type="single_dropdown1" Visible="True">
-            <Size>636</Size>
-            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v4Circon.zip</ZipFile>
-            <CRC>8237b778e49aa37be290a4e7f7cd3c23</CRC>
-            <Timestamp>132509556835778865</Timestamp>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_v3spoter" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pku3d5xdg67cxlx6" Name="#3 - Spoter´s extended config" Type="single_dropdown1" Visible="True">
-            <Size>636</Size>
-            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v3spoter.zip</ZipFile>
-            <CRC>096bfacfc24c7313f62ef78ca938f044</CRC>
-            <Timestamp>132509557190616472</Timestamp>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_v2myp" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="woipd8txal1k8pmj" Name="#2 - Myp´s config (SMALL)" Type="single_dropdown1" Visible="True">
-            <Size>636</Size>
-            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v2myp.zip</ZipFile>
-            <CRC>58aa8153abab072ef9665253ad6a4efc</CRC>
-            <Timestamp>132509557364669537</Timestamp>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_MoE_cfg_v1skill4tu" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9dp4l7zy9it181uj" Name="#1 - Skill4tu´s config (SMALL)" Type="single_dropdown1" Visible="True">
-            <Size>636</Size>
-            <ZipFile>IngameInfo_ExpectedValues_MoE_cfg_v1skill4tu.zip</ZipFile>
-            <CRC>fdb2264f17cbfdc843861338e29bc4a8</CRC>
-            <Timestamp>132509557535920517</Timestamp>
-          </Package>
-        </Packages>
-      </Package>
-      <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues" Enabled="True" Tags="Patch,ConfigurationFileJson,DependencyLink,OtherFiles" InstallGroup="4" PatchGroup="4" UID="3r6bdbph41vrjucw" Name="Expected Vehicle Values [by {author}]" Type="single1" Visible="True">
-        <Size>226670</Size>
-        <Version>1.21</Version>
-        <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_v1.21_1.12.1.1_2021-05-02.zip</ZipFile>
+      <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_Header" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="ggdqlbvi3xn9j5jw" Name="--- choose config: ---" Type="single_dropdown1" Visible="True">
+        <Size>683</Size>
         <CRC>f</CRC>
-        <Timestamp>132644224293172922</Timestamp>
+        <Timestamp>132509557814096645</Timestamp>
         <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-        <InternalNotes>with prePatch to disable options first</InternalNotes>
-        <Author>Champi</Author>
-        <Maintainers>The Illusion, Willster419</Maintainers>
-        <Description>Shows expected vehicle damage, marks of excellence percentage and many more infos in real time during the battle. Highly customizable!</Description>
-        <PopularMod>True</PopularMod>
-        <ObfuscatedMod>True</ObfuscatedMod>
-        <FromWGmods>True</FromWGmods>
-        <UserFiles>
-          <UserFile Pattern="\mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" />
-          <UserFile Pattern="\mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues_stats.json" />
-        </UserFiles>
-        <Dependencies>
-          <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-        </Dependencies>
-        <Packages>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_Header" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="ggdqlbvi3xn9j5jw" Name="--- choose config: ---" Type="single_dropdown1" Visible="True">
-            <Size>683</Size>
-            <CRC>f</CRC>
-            <Timestamp>132509557814096645</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="avuxdel1ygpyvy19" Name="default" Type="single_dropdown1" Visible="True">
-            <CRC>f</CRC>
-            <Timestamp>132330582315930164</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_elektrosmoker" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="nk1cler2ydigva89" Name="elektrosmoker" Type="single_dropdown1" Visible="True">
-            <Size>995</Size>
-            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_elektrosmoker_2020-05-04.zip</ZipFile>
-            <CRC>5e1a96c0372c9246f19f5763b464b102</CRC>
-            <Timestamp>132509558061674186</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_enableMoEDisplay" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="098rtdx3x9ayumf8" Name="enable MoE Display" Type="multi" Visible="True">
-            <Size>666</Size>
-            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_enableMoEDisplay.zip</ZipFile>
-            <CRC>083031dbf68e2dca245d5119ab5371d4</CRC>
-            <Timestamp>132302170716930671</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInStatistic" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="unpzlhnmsscn6fxm" Name="show in statistics" Type="multi" Visible="True">
-            <Size>669</Size>
-            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInStatistic.zip</ZipFile>
-            <CRC>9bd3171c855f6b9aecc88251d9a6534c</CRC>
-            <Timestamp>132302170850533480</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInTechTree" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="7cwetgtnrp456q4l" Name="show in techtree" Type="multi" Visible="True">
-            <Size>663</Size>
-            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInTechtree.zip</ZipFile>
-            <CRC>271edb46c84c45c67a45ba3ee8b5f8d4</CRC>
-            <Timestamp>132302170946397188</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInTechTreeMastery" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="gtllbsl57dql93mm" Name="show moe in techtree" Type="multi" Visible="True">
-            <Size>681</Size>
-            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInTechTreeMastery.zip</ZipFile>
-            <CRC>4acfb37fda087ed8151534709b5975bc</CRC>
-            <Timestamp>132480348202810153</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleResults" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="iube11qwt5135l7o" Name="show in battle results" Type="multi" Visible="True">
-            <Size>677</Size>
-            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleResults.zip</ZipFile>
-            <CRC>9ec651d85e5c6c7eab7f3aabf2977e15</CRC>
-            <Timestamp>132360042495738903</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-          </Package>
-          <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleHalfPercents" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="k12t1gzoqlwn62bl" Name="show half percents in battle" Type="multi" Visible="True">
-            <Size>683</Size>
-            <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleHalfPercents.zip</ZipFile>
-            <CRC>c7213ffd52ed87f7a98efb8fd78a528b</CRC>
-            <Timestamp>132302170787272615</Timestamp>
-            <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
-          </Package>
-        </Packages>
+      </Package>
+      <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="avuxdel1ygpyvy19" Name="default" Type="single_dropdown1" Visible="True">
+        <CRC>f</CRC>
+        <Timestamp>132330582315930164</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+      </Package>
+      <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_elektrosmoker" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="nk1cler2ydigva89" Name="elektrosmoker" Type="single_dropdown1" Visible="True">
+        <Size>995</Size>
+        <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_CFG_elektrosmoker_2020-05-04.zip</ZipFile>
+        <CRC>5e1a96c0372c9246f19f5763b464b102</CRC>
+        <Timestamp>132509558061674186</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+      </Package>
+      <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_enableMoEDisplay" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="098rtdx3x9ayumf8" Name="enable MoE Display" Type="multi" Visible="True">
+        <Size>666</Size>
+        <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_enableMoEDisplay.zip</ZipFile>
+        <CRC>083031dbf68e2dca245d5119ab5371d4</CRC>
+        <Timestamp>132302170716930671</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+      </Package>
+      <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInStatistic" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="unpzlhnmsscn6fxm" Name="show in statistics" Type="multi" Visible="True">
+        <Size>669</Size>
+        <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInStatistic.zip</ZipFile>
+        <CRC>9bd3171c855f6b9aecc88251d9a6534c</CRC>
+        <Timestamp>132302170850533480</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+      </Package>
+      <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInTechTree" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="7cwetgtnrp456q4l" Name="show in techtree" Type="multi" Visible="True">
+        <Size>663</Size>
+        <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInTechtree.zip</ZipFile>
+        <CRC>271edb46c84c45c67a45ba3ee8b5f8d4</CRC>
+        <Timestamp>132302170946397188</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+      </Package>
+      <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInTechTreeMastery" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="gtllbsl57dql93mm" Name="show moe in techtree" Type="multi" Visible="True">
+        <Size>681</Size>
+        <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInTechTreeMastery.zip</ZipFile>
+        <CRC>4acfb37fda087ed8151534709b5975bc</CRC>
+        <Timestamp>132480348202810153</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+      </Package>
+      <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleResults" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="iube11qwt5135l7o" Name="show in battle results" Type="multi" Visible="True">
+        <Size>677</Size>
+        <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleResults.zip</ZipFile>
+        <CRC>9ec651d85e5c6c7eab7f3aabf2977e15</CRC>
+        <Timestamp>132360042495738903</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+      </Package>
+      <Package PackageName="IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleHalfPercents" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="k12t1gzoqlwn62bl" Name="show half percents in battle" Type="multi" Visible="True">
+        <Size>683</Size>
+        <ZipFile>IngameInfo_ExpectedValues_ExpectedVehicleValues_showInBattleHalfPercents.zip</ZipFile>
+        <CRC>c7213ffd52ed87f7a98efb8fd78a528b</CRC>
+        <Timestamp>132302170787272615</Timestamp>
+        <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
       </Package>
     </Packages>
   </Package>
@@ -1654,20 +1581,6 @@
         </Packages>
       </Package>
     </Packages>
-  </Package>
-  <Package PackageName="IngameInfo_SpottedExtendedLight" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="9imt7qwswi7s4cia" Name="Spotted Extended Light [by {author}]" Type="multi" Visible="False">
-    <Size>8894</Size>
-    <Version>4.09</Version>
-    <ZipFile>IngameInfo_SpottedExtendedLight_v4.09_1.11.1_2021-01-26.zip</ZipFile>
-    <CRC>745b658a144d42d8577c3c10ca02a6a5</CRC>
-    <Timestamp>132561465861670357</Timestamp>
-    <DevURL>https://koreanrandom.com/forum/topic/28020-\r\nhttps://github.com/spoter/spoter-mods/tree/master/mod_spotted_extended_light</DevURL>
-    <Author>Spoter</Author>
-    <Description>The mod will show who are you spotting, assisted spotting, damage done to tracked tanks, kills from your spotting.\r\n\r\nby Spoter</Description>
-    <Dependencies>
-      <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_Spoter_modsGui" NotFlag="False" Logic="OR" />
-    </Dependencies>
   </Package>
   <Package PackageName="IngameInfo_HiddenParameters" Enabled="True" Tags="Patch,ConfigurationFileJson,Script" InstallGroup="4" PatchGroup="4" UID="3x30zumbr19ig50n" Name="Hidden parameters (Shell Info) [by {author}]" Type="multi" Visible="True">
     <Size>15796</Size>
