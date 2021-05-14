@@ -12,13 +12,13 @@
     <Author>elektrosmoker</Author>
     <Packages>
       <Package PackageName="XVMconfigBuilder_BuildSelector_Stable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w2s53lki94c2grej" Name="Stable v{version}" Type="single_dropdown1" Visible="True">
-        <Version>8.7.9_0008 (nightly)</Version>
+        <Version>8.7.9_0011 (nightly)</Version>
         <Dependencies>
           <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
       <Package PackageName="XVMconfigBuilder_BuildSelector_Nightly" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8rzkblqj805kg3lj" Name="Nightly v{version}" Type="single_dropdown1" Visible="True">
-        <Version>8.7.9_0008</Version>
+        <Version>8.7.9_0011</Version>
         <Dependencies>
           <Dependency PackageName="LogicalDependency_XVM_Main_Stable" NotFlag="True" Logic="AND" />
           <Dependency PackageName="LogicalDependency_XVM_Main_Nightly" NotFlag="False" Logic="AND" />
