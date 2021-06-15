@@ -3719,6 +3719,22 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_Minimap_Health.jpg" MediaType="Picture" />
                 </Medias>
                 <Packages>
+                  <Package PackageName="XVMconfigBuilder_Minimap_HP_vehicleHitpoints" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kxv6f1q10g084mjb" Name="standard vehicle hitpoints (numbers)" Type="multi" Visible="True">
+                    <CRC>f</CRC>
+                    <Timestamp>132682419620824712</Timestamp>
+                    <Packages>
+                      <Package PackageName="XVMconfigBuilder_Minimap_HP_vehicleHitpoints_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ry1tpvhpmf3pptkb" Name="disable" Type="single1" Visible="True">
+                        <ZipFile>XVMconfigBuilder_Minimap_HP_vehicleHitpoints_disable.zip</ZipFile>
+                        <CRC>f</CRC>
+                        <Timestamp>132682422196552686</Timestamp>
+                      </Package>
+                      <Package PackageName="XVMconfigBuilder_Minimap_HP_vehicleHitpoints_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="3hjdkm2ikqv83acy" Name="enable" Type="single1" Visible="True">
+                        <ZipFile>XVMconfigBuilder_Minimap_HP_vehicleHitpoints_enable.zip</ZipFile>
+                        <CRC>f</CRC>
+                        <Timestamp>132682422232740497</Timestamp>
+                      </Package>
+                    </Packages>
+                  </Package>
                   <Package PackageName="XVMconfigBuilder_Minimap_HP_Circles" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="m0xy6g7q5bzemgpy" Name="HP-Circles" Type="single1" Visible="True">
                     <Size>1958</Size>
                     <ZipFile>XVMconfigBuilder_Minimap_HP_Circles_2020-05-24.zip</ZipFile>
@@ -4397,11 +4413,16 @@
                   </Package>
                 </Packages>
               </Package>
-              <Package PackageName="XVMconfigBuilder_PlayersPanel_removePanelsModeSwitcher" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w7xq2yf9iasoikli" Name="remove Panels Mode Switcher" Type="multi" Visible="True">
+              <Package PackageName="XVMconfigBuilder_PlayersPanel_removePanelsModeSwitcher" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w7xq2yf9iasoikli" Name="remove Panels Mode Switcher (buttons above playerspanel)" Type="multi" Visible="True">
                 <Size>1111</Size>
-                <ZipFile>XVMconfigBuilder_PlayersPanel_removePanelsModeSwitcher.zip</ZipFile>
-                <CRC>e2f15b6da43a4cff4d41970d25dbefa1</CRC>
-                <Timestamp>132309099264128612</Timestamp>
+                <ZipFile>XVMconfigBuilder_PlayersPanel_removePanelsModeSwitcher_2021-06-15.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132682414169950893</Timestamp>
+              </Package>
+              <Package PackageName="XVMconfigBuilder_PlayersPanel_removeHealthPoints" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="y916oj5zftpfm34m" Name="remove Health Points" Type="multi" Visible="True">
+                <ZipFile>XVMconfigBuilder_PlayersPanel_removeHealthPoints.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132682414238611051</Timestamp>
               </Package>
               <Package PackageName="XVMconfigBuilder_PlayersPanel_snowflakeIndicator" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qmfxt25sctudud3v" Name="Snowflake Indicator" Type="multi" Visible="True">
                 <Size>13437</Size>
