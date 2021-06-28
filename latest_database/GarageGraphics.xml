@@ -1711,6 +1711,7 @@
         <CRC>f</CRC>
         <Timestamp>132250424692950519</Timestamp>
         <InternalNotes>contains:\r\nwaiting.swf\r\nwaitingTransition.swf\r\nlogos.swf\r\n\r\nexchanged infopics in logos.swf and waiting.swf with transparent ones\r\n\r\nGauss:\r\n    L = only logo = logos.swf\r\nWT = waitingTransition.swf\r\n   W =waiting .swf\r\n\r\nFrom Who?\r\nL = only logo = logos.swf\r\nL/A = logo AND waiting animation = logos.swf + waiting.swf + waitingTransition.swf\r\nA = only waiting animation = logos.swf (with default logos, but award/info slots are transparent) + waiting.swf + waitingTransition.swf\r\n\r\n\r\n2021-05-02: Conversation with Elektro and Willster:\r\n- These mods use the same files as the global dependencies (SWF packages), so if they don't work, then these don't work and can be disabled\r\n\r\n\r\n\r\n</InternalNotes>
+        <Author>elektrosmoker</Author>
         <Description>This mod replaces the standard loading animation circle and/or the logo shown at start of the game.\r\nThis depends on the selected option.\r\n\r\nL = only logo\r\nL/A = logo AND waiting animation\r\nA = only waiting animation\r\n\r\n</Description>
         <Dependencies>
           <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
@@ -1753,6 +1754,7 @@
                 <CRC>9bbfc19d5b24f19bc6247d3fc370b90d</CRC>
                 <Timestamp>132453118305843118</Timestamp>
                 <DevURL>https://github.com/Aimdrol\r\nhttps://github.com/Aimdrol/MLG-Main/tree/master/Main/res_mods\r\nhttp://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
+                <Author>elektrosmoker</Author>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_OMC_01.png" MediaType="Picture" />
                 </Medias>
@@ -1820,26 +1822,28 @@
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_03.png" MediaType="Picture" />
                 </Medias>
               </Package>
-              <Package PackageName="GarageGraphics_Loading_Animation_Waiting_WG" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="gyk29bi44c6yaaww" Name="WG Wheel (W)" Type="single_dropdown1" Visible="True">
-                <Size>64481</Size>
-                <ZipFile>GarageGraphics_Loading_Wheel_Animation_WG_1.10.0.2_2020-09-17.zip</ZipFile>
-                <CRC>bfb1291c3f0d22fa3a178688d838c35a</CRC>
-                <Timestamp>132448411864392429</Timestamp>
-                <DevURL>https://wgmods.net/2244/details</DevURL>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_WG_01.png" MediaType="Picture" />
-                </Medias>
-              </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_Waiting_YelloWheel" Enabled="False" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="hnfo4vdg7fzkls8p" Name="Yellow Wheel (res_mods)" Type="single_dropdown1" Visible="False">
                 <Size>23822</Size>
                 <ZipFile>GarageGraphics_Loading_Wheel_Animation_HAWG_Yellow_1.10.0.1_2020-09-10_res_mods.zip</ZipFile>
                 <CRC>d27c0a6dc275b48da2c1ba7a6d5842e4</CRC>
                 <Timestamp>132446610915680932</Timestamp>
                 <DevURL>https://wgmods.net/2244/details</DevURL>
+                <Author>HAWG</Author>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_01.png" MediaType="Picture" />
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_02.png" MediaType="Picture" />
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_03.png" MediaType="Picture" />
+                </Medias>
+              </Package>
+              <Package PackageName="GarageGraphics_Loading_Animation_Waiting_WG" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="gyk29bi44c6yaaww" Name="WG Wheel (W)" Type="single_dropdown1" Visible="True">
+                <Size>64481</Size>
+                <ZipFile>GarageGraphics_Loading_Wheel_Animation_WG_1.10.0.2_2020-09-17.zip</ZipFile>
+                <CRC>bfb1291c3f0d22fa3a178688d838c35a</CRC>
+                <Timestamp>132448411864392429</Timestamp>
+                <DevURL>https://wgmods.net/2244/details</DevURL>
+                <Author>wargaming</Author>
+                <Medias>
+                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_WG_01.png" MediaType="Picture" />
                 </Medias>
               </Package>
             </Packages>
@@ -1881,7 +1885,6 @@
                 <DevURL>https://dieschwarzenschafe.com/download/index.php?action=list&amp;dir=WWIIHWA/WWIIHWA+Ambiente+Rescue+Pack&amp;order=name&amp;srt=yes</DevURL>
                 <InternalNotes>use WWIIHWA Ambiente Rescue Pack to check for updates\r\nhttp://wwiihwa.blogspot.com\r\n</InternalNotes>
                 <Author>Budyx69</Author>
-                <Maintainers>Gauss</Maintainers>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_WaitingTransition_OMC" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="jw2fwjf4jdperg6u" Name="OMC Odem Mortis Community (WT)" Type="single_dropdown1" Visible="True">
                 <Size>892519</Size>
@@ -1889,7 +1892,7 @@
                 <CRC>491b7c616c72e700ac1df86deaaf3b8f</CRC>
                 <Timestamp>132453131434369693</Timestamp>
                 <InternalNotes>waitingTransition.swf\r\nGarage_Graphics_loading_logo_Relhax_by_Warranted\r\nGarageGraphics_LoadingLogoAnimation_Relhax_2020-03-18.zip\r\n\r\n</InternalNotes>
-                <Author>UNKNOWN / Warranted / electro / ...</Author>
+                <Author>UNKNOWN / elektrosmoker</Author>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_WaitingTransition_IluminatiMVP" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="cm57zxjpjcal52xh" Name="Iluminati M.V.P  [by {author}]" Type="single_dropdown1" Visible="True">
                 <Size>1122412</Size>
@@ -1959,7 +1962,6 @@
                 <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ambiente+Rescue+Pack&amp;order=name&amp;srt=yes\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
                 <InternalNotes>GarageGraphics_loading_animation_WWIIHWA_Ambiente\r\n= gui\flash\waitingTransition.swf &amp; gui\flash\logos.swf\r\n\r\n\r\nGauss: 2020-09-15: \r\ngui\flash\waitingTransition.swf Removed\r\n</InternalNotes>
                 <Author>Budyx69</Author>
-                <Maintainers>Gauss</Maintainers>
                 <Description>Part of WWIIHWA_Ambiente_by_Budyx69 (Thx Budyx69)</Description>
                 <UpdateComment>2018-08-31 Update 6.8 [1.1.0.0]: Versioning\r\n\r\ngui\flash\waiting.swf</UpdateComment>
                 <Medias>
@@ -2137,6 +2139,7 @@
         <CRC>f</CRC>
         <Timestamp>132443232322464950</Timestamp>
         <InternalNotes>(LL) = Login Logo\r\n\r\n\r\nthis mod uses the res_mods folder.\r\nfiles: \r\n\tgui\maps\login\__login_logo.png\r\n\r\noptional (eg to make it transparent):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n\r\n\r\n2021-05-02: Conversation with Elektro and Willster:\r\n- These mods use the same files as the global dependencies (SWF packages), so if they don't work, then these don't work and can be disabled\r\n</InternalNotes>
+        <Author>elektrosmoker</Author>
         <ShowInSearchList>False</ShowInSearchList>
         <Packages>
           <Package PackageName="GarageGraphics_Loading_Logo_LogInPic_Relhax" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="i9b24mzl85t5703y" Name="Relhax (LL)" Type="single_dropdown1" Visible="True">
@@ -2190,6 +2193,7 @@
             <CRC>ee1cf1a622d9aa6aa51034579b5ca4f0</CRC>
             <Timestamp>132453138142168847</Timestamp>
             <InternalNotes>GarageGraphics_LoadingLogoAnimation_OMC_2020-03-19.zip</InternalNotes>
+            <Author>elektrosmoker</Author>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
               <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_LoadingLogoAnimation_OMC.png" MediaType="Picture" />
@@ -2222,6 +2226,7 @@
       </Package>
       <Package PackageName="GarageGraphics_Loading_SplashBG" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="78y1cfl640srhlla" Name="Loading Splashscreen Picture (background image at game start)" Type="multi" Visible="True">
         <InternalNotes>This [LoginBG] is different to LoginBackground.\r\nIt is more like a splashscreen than an actual loading background and geets only showed for a very short period of time (depends on computers abilities).\r\n\r\n\r\nmode files: only pics \r\n\tgui\maps\login\__login_bg.png\r\n\r\n\r\noptional (but should be in LoginLogo archives!):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n\r\n2021-05-02: Conversation with Elektro and Willster:\r\n- These mods use the same files as the global dependencies (SWF packages), so if they don't work, then these don't work and can be disabled\r\n\r\n</InternalNotes>
+        <Author>elektrosmoker</Author>
         <Description>This is the background shown at the game´s beginning (splashcreen).</Description>
         <Packages>
           <Package PackageName="GarageGraphics_Loading_SplashBG_DefaultRelhax" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="1nf94jbpzjtgse3o" Name="DEFAULT by Relhax (changes from time to time)" Type="single_dropdown1" Visible="True">
@@ -2701,8 +2706,7 @@
     </Packages>
   </Package>
   <Package PackageName="GarageGraphics_FlagsLib" Enabled="True" Tags="GuiFlash,ImagePNG" InstallGroup="4" PatchGroup="4" UID="gprui3vhtcbbl2eq" Name="Nationflags (FlagsLib)" Type="multi" Visible="True">
-    <InternalNotes>modified gui/flash/flagslib.swf \r\nUPDATE: \r\n- only with new tanks are added (Gauss: checks are required here)\r\n- a new fraction is added (Gauss: breaks every mod)\r\n</InternalNotes>
-    <Maintainers>Gauss</Maintainers>
+    <InternalNotes>modified gui/flash/flagslib.swf \r\n\r\nUPDATE needed only: \r\n- new tanks are added\r\n- a new fraction is added\r\n\r\nPS: WE KEEP THIS MOD AS res_mods VERSION - NO WOTMODS!\r\n</InternalNotes>
     <Description>Custom nation flags.\r\nGame Settings must be on &gt; Adaptive</Description>
     <Packages>
       <Package PackageName="GarageGraphics_FlagsLib_GuP" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="ntfgi7r1nr6iw633" Name="Girls und Panzer [by {author}]" Type="single_dropdown1" Visible="True">
@@ -2770,7 +2774,6 @@
         <DevURL>https://wgmods.net/2044/</DevURL>
         <InternalNotes>Use this to create things https://drive.google.com/file/d/1Z0K3576V2oFPuGvBSx3zbQ71M3syWFj5/view?usp=sharing</InternalNotes>
         <Author>HAWG</Author>
-        <Maintainers>The Illusion</Maintainers>
         <FromWGmods>True</FromWGmods>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
@@ -2820,7 +2823,6 @@
         <DevURL>https://wgmods.net/2044/</DevURL>
         <InternalNotes>Use this to create things https://drive.google.com/file/d/1Z0K3576V2oFPuGvBSx3zbQ71M3syWFj5/view?usp=sharing</InternalNotes>
         <Author>HAWG</Author>
-        <Maintainers>The Illusion</Maintainers>
         <FromWGmods>True</FromWGmods>
         <ShowInSearchList>False</ShowInSearchList>
       </Package>
