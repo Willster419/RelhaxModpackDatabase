@@ -1309,13 +1309,6 @@
       <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="IngameMisc_StarrySky" Enabled="True" Tags="ImageDDS,ConfigurationFileXml" InstallGroup="4" PatchGroup="4" UID="4k0gyubs13axvl5q" Name="Starry Sky (Conflicts with WoT Tweaker)" Type="multi" Visible="True">
-    <Size>430241</Size>
-    <ZipFile>IngameMisc_StarrySky_1.11.0.0_2020-12-18.zip</ZipFile>
-    <CRC>743f7da054d0b3ee63b906279420f01f</CRC>
-    <Timestamp>132528320232489544</Timestamp>
-    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/695349-15хх-starry-sky/page__p__16505072#entry16505072</DevURL>
-  </Package>
   <Package PackageName="IngameMisc_UnderwaterTimer" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pgvnti6ioltcjbgk" Name="Underwater Timer" Type="multi" Visible="True">
     <Version>12.0.0</Version>
     <CRC>f</CRC>
@@ -1366,80 +1359,95 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="IngameMisc_WOTtweaker" Enabled="False" Tags="ImagePNG,ImageDDS" InstallGroup="4" PatchGroup="4" UID="yyhnqy1bwncn6en3" Name="WoT Tweaker (max farplane) [by {author}]" Type="multi" Visible="True">
+  <Package PackageName="IngameMisc_WOTtweaker" Enabled="True" Tags="ImagePNG,ImageDDS" InstallGroup="4" PatchGroup="4" UID="yyhnqy1bwncn6en3" Name="WoT Graphics Modifications (Fog removal/Sky changes/Environment changes)" Type="multi" Visible="True">
     <DevURL>http://forum.worldoftanks.ru/index.php?/topic/1125299-</DevURL>
     <InternalNotes>https://yadi.sk/d/0fPfI1jdmEWbS</InternalNotes>
-    <Author>AtotIK</Author>
     <Description>Settings to disable effects and increase framerate for those still playing on Windows 95.\nAlso can be used to increase visibility.</Description>
-    <ObfuscatedMod>True</ObfuscatedMod>
     <Medias>
       <Media URL="http://s019.radikal.ru/i641/1312/dc/f65367de5257.jpg" MediaType="Picture" />
     </Medias>
     <Packages>
-      <Package PackageName="IngameMisc_WOTtweaker_disableFog" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bno2yx7cvj446qv2" Name="Fog removal on all maps" Type="multi" Visible="True">
+      <Package PackageName="IngameMisc_WOTtweaker_SkyBoxes" Enabled="True" Tags="ImageDDS" InstallGroup="4" PatchGroup="4" UID="bno2yx7cvj446qv2" Name="Modify Sky Textures" Type="multi" Visible="True">
         <Size>41047</Size>
-        <ZipFile>IngameMisc_WotTweaker_disableFog_1.10.0.0_2020-08-16.zip</ZipFile>
-        <CRC>289bb0a5538a1d7da8925cf2a9732813</CRC>
-        <Timestamp>132420836626365675</Timestamp>
+        <CRC>f</CRC>
+        <Timestamp>132694160387462157</Timestamp>
         <Description>legal info here:\nhttp://forum.worldoftanks.eu/index.php?/topic/649133-pomoc-max-farplane-delete/page__pid__14955533#entry14955533</Description>
+        <Packages>
+          <Package PackageName="IngameMisc_WOTtweaker_SkyBoxes_ClearSky" Enabled="True" Tags="ImageDDS" InstallGroup="4" PatchGroup="4" UID="515aq1xuq26uhjdg" Name="Disable clouds (Clear Sky) [by {author}]" Type="single_dropdown1" Visible="True">
+            <Size>4197</Size>
+            <ZipFile>IngameMisc_WOTtweaker_SkyBoxes_ClearSky_1.13.0.0_2021-06-28.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132694178156139937</Timestamp>
+            <DevURL>https://wgmods.net/3095/</DevURL>
+            <InternalNotes>Option 5: no clouds</InternalNotes>
+            <Author>HAWG</Author>
+            <Description>Disable clouds</Description>
+            <FromWGmods>True</FromWGmods>
+          </Package>
+          <Package PackageName="IngameMisc_WOTtweaker_SkyBoxes_BlueSky" Enabled="True" Tags="ImageDDS" InstallGroup="4" PatchGroup="4" UID="vntcs9j60a5gyrrl" Name="Blue Sky [by {author}]" Type="single_dropdown1" Visible="True">
+            <ZipFile>IngameMisc_WOTtweaker_SkyBoxes_BlueSky_1.13.0.0_2021-06-28.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132694178215671335</Timestamp>
+            <InternalNotes>Option 4: blue sky</InternalNotes>
+            <Author>HAWG</Author>
+            <FromWGmods>True</FromWGmods>
+          </Package>
+          <Package PackageName="IngameMisc_WOTtweaker_SkyBoxes_NightfallSky" Enabled="True" Tags="ImageDDS" InstallGroup="4" PatchGroup="4" UID="kj1bdhpt8d6fggo1" Name="Nightfall Sky [by {author}]" Type="single_dropdown1" Visible="True">
+            <ZipFile>IngameMisc_WOTtweaker_SkyBoxes_NightfallSky_1.13.0.0_2021-06-28.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132694178258985554</Timestamp>
+            <InternalNotes>option 3: nightfall sky</InternalNotes>
+            <Author>HAWG</Author>
+            <FromWGmods>True</FromWGmods>
+          </Package>
+        </Packages>
       </Package>
-      <Package PackageName="IngameMisc_WOTtweaker_disableClouds" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="515aq1xuq26uhjdg" Name="Disable clouds (blue sky only)" Type="multi" Visible="True">
-        <Size>4197</Size>
-        <ZipFile>IngameMisc_WotTweaker_disableClouds_1.10.0.0_2020-08-16.zip</ZipFile>
-        <CRC>eb01f4b02dd2114d59d5211c1be4ff7c</CRC>
-        <Timestamp>132420836688013791</Timestamp>
-        <Description>Disable clouds</Description>
+      <Package PackageName="IngameMisc_WOTtweaker_Environment" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wtn06t0jlj5m5ph2" Name="Modify Environment Space (fog removmer) (some overwrite sky textures)" Type="multi" Visible="True">
+        <CRC>f</CRC>
+        <Timestamp>132694160387462157</Timestamp>
+        <Packages>
+          <Package PackageName="IngameMisc_WOTtweaker_Environment_FogRemover" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ecfavcf10g7c46bg" Name="Fog Remover (Fog, sun glare, map edge fog) [by {author}]" Type="single_dropdown1" Visible="True">
+            <ZipFile>IngameMisc_WOTtweaker_Environment_FogRemover_1.13.0.0_2021-06-28.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132694179288883329</Timestamp>
+            <DevURL>https://wgmods.net/3095/</DevURL>
+            <InternalNotes>option 2: fog remover, "full" option (4 -&gt; fog + sun glare + fog edges)</InternalNotes>
+            <Author>HAWG</Author>
+            <FromWGmods>True</FromWGmods>
+          </Package>
+          <Package PackageName="IngameMisc_WOTtweaker_Environment_BlackSky" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2c8773kpadcaeihv" Name="Black Sky (Complete environment) [by {author}]" Type="single_dropdown1" Visible="True">
+            <ZipFile>IngameMisc_WOTtweaker_Environment_BlackSky_1.13.0.0_2021-06-28.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132694178348442624</Timestamp>
+            <DevURL>https://wgmods.net/3095/</DevURL>
+            <InternalNotes>option 6: black sky, then option 1: black sky only</InternalNotes>
+            <Author>HAWG</Author>
+            <FromWGmods>True</FromWGmods>
+          </Package>
+          <Package PackageName="IngameMisc_WOTtweaker_Environment_BlackSkyFogRemover" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w1m2b13fv3r3mayc" Name="Fog Remover and Black Sky [by {author}]" Type="single_dropdown1" Visible="True">
+            <ZipFile>IngameMisc_WOTtweaker_Environment_BlackSkyFogRemover_1.13.0.0_2021-06-28.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132694178397127641</Timestamp>
+            <DevURL>https://wgmods.net/3095/</DevURL>
+            <InternalNotes>option 6: black sky, then option 5: black sky, fog, sun glare, fog edges</InternalNotes>
+            <Author>HAWG</Author>
+            <FromWGmods>True</FromWGmods>
+          </Package>
+          <Package PackageName="IngameMisc_WOTtweaker_Environment_StarrySky" Enabled="True" Tags="ImageDDS,ConfigurationFileXml,ConfigurationFileOther" InstallGroup="4" PatchGroup="4" UID="4k0gyubs13axvl5q" Name="Starry Sky [by {author}]" Type="single_dropdown1" Visible="True">
+            <Size>430241</Size>
+            <ZipFile>IngameMisc_StarrySky_1.11.0.0_2020-12-18.zip</ZipFile>
+            <CRC>743f7da054d0b3ee63b906279420f01f</CRC>
+            <Timestamp>132528320232489544</Timestamp>
+            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/695349-15хх-starry-sky/page__p__16505072#entry16505072</DevURL>
+            <Author>____P_H_A_R_A_O_N____</Author>
+          </Package>
+        </Packages>
       </Package>
-      <Package PackageName="IngameMisc_WOTtweaker_disableExhaustSmoke" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="iqcpy03vpyzchukf" Name="Disable smoke from the exhaust pipes of the tanks" Type="multi" Visible="True">
-        <Size>1983</Size>
-        <ZipFile>IngameMisc_WotTweaker_disableExhaustSmoke_1.9.0.1_2020-04-24.zip</ZipFile>
-        <CRC>1af0e23420838ebb10c06a015c3a6778</CRC>
-        <Timestamp>132322227805574454</Timestamp>
-        <Description>Disable the smoke from the exhaust pipes of the tanks</Description>
+      <Package PackageName="IngameMisc_WOTtweaker_disableDirt" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tv323tdpmnyze2az" Name="Disable dirt effects [by {author}]" Type="multi" Visible="True">
+        <ZipFile>IngameMisc_WOTtweaker_disableDirt_1.13.0.0_2021-06-28.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132694146616659757</Timestamp>
       </Package>
-      <Package PackageName="IngameMisc_WOTtweaker_disableFlameShots" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ufi4609wovrth6rf" Name="Disable effects of smoke and flame from shots" Type="multi" Visible="True">
-        <Size>1739</Size>
-        <ZipFile>IngameMisc_WotTweaker_disableFlameShots_1.9.0.1_2020-04-24.zip</ZipFile>
-        <CRC>519b9a4345eee14ae80c70ea0e9df9fe</CRC>
-        <Timestamp>132322227874556903</Timestamp>
-        <Description>Disable smoke and flame from shots</Description>
-      </Package>
-      <Package PackageName="IngameMisc_WOTtweaker_disableShellImpactEffects" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pu0bx4zfjetjtz9s" Name="Disable effect of exploding shells and getting into objects" Type="multi" Visible="True">
-        <Size>1953</Size>
-        <ZipFile>IngameMisc_WotTweaker_disableShellImpactEffects_1.9.0.1_2020-04-24.zip</ZipFile>
-        <CRC>c65849a72e2b40b4724dbc64f6d95915</CRC>
-        <Timestamp>132322228342573374</Timestamp>
-        <Description>Disable the effect of exploding shells and getting into objects</Description>
-      </Package>
-      <Package PackageName="IngameMisc_WOTtweaker_disableTankDeadEffects" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2j6q635gial1tbgs" Name="Disable effects of destroying tanks" Type="multi" Visible="True">
-        <Size>1383</Size>
-        <ZipFile>IngameMisc_WotTweaker_disableTankDeadEffects_1.9.0.1_2020-04-24.zip</ZipFile>
-        <CRC>d298348ac1d498aaec5e84b3cbb11e63</CRC>
-        <Timestamp>132322228412054169</Timestamp>
-        <Description>Disable the effects of destroying tanks</Description>
-      </Package>
-      <Package PackageName="IngameMisc_WOTtweaker_disableTankDeadSmoke" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="e8d5e2bhi7eitmns" Name="Disable smoke from the destroyed tanks" Type="multi" Visible="True">
-        <Size>1109</Size>
-        <ZipFile>IngameMisc_WotTweaker_disableTankDeadSmoke_1.9.0.1_2020-04-24.zip</ZipFile>
-        <CRC>8691f40d4bc8db1461f7cfa14e3af966</CRC>
-        <Timestamp>132322228477375520</Timestamp>
-        <Description>Disable the smoke from the destroyed tanks</Description>
-      </Package>
-      <Package PackageName="IngameMisc_WOTtweaker_disableTankHitEffects" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9mvc5610cqf84f55" Name="Disable effects of hitting the tanks" Type="multi" Visible="True">
-        <Size>1205</Size>
-        <ZipFile>IngameMisc_WotTweaker_disableTankHitEffects_1.9.0.1_2020-04-24.zip</ZipFile>
-        <CRC>387583d90d891eed8740606573e02def</CRC>
-        <Timestamp>132322228539246003</Timestamp>
-      </Package>
-      <Package PackageName="IngameMisc_WOTtweaker_disableTreeEffects" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lb1rd671cm8p4rc5" Name="Disable effect of tree movement" Type="multi" Visible="True">
-        <Size>787</Size>
-        <ZipFile>IngameMisc_WotTweaker_disableTreeEffects_1.9.0.1_2020-04-24.zip</ZipFile>
-        <CRC>46b6a495dfe9915dc438dda406b72bb7</CRC>
-        <Timestamp>132322228652521305</Timestamp>
-        <Description>Disable the effect of tree movement</Description>
-      </Package>
-      <Package PackageName="IngameMisc_WOTtweaker_disableBadMatchmaking" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sfpdd94l622xfw2i" Name="Disable bad matchmaking" Type="multi" Visible="True" />
-      <Package PackageName="IngameMisc_WOTtweaker_disableAlliedNoobs" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="54wsl8am5yuef79i" Name="Disable noobs on allied team" Type="multi" Visible="True" />
     </Packages>
   </Package>
   <Package PackageName="IngameMisc_WGradio" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0idzdc050hw4q0rv" Name="Wargaming.FM Radio v{version} [by {author}]" Type="multi" Visible="True">
