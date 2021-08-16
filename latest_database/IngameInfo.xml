@@ -369,16 +369,17 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="IngameInfo_DangerLights" Enabled="False" Tags="Patch,Script,GuiFlash,ConfigurationFileJson" InstallGroup="4" PatchGroup="4" UID="hxsbz0o3ni6eae4h" Name="Danger Lights / Enemy Announcer [by {author}]" Type="multi" Visible="True">
+  <Package PackageName="IngameInfo_DangerLights" Enabled="True" Tags="Patch,Script,GuiFlash,ConfigurationFileJson" InstallGroup="4" PatchGroup="4" UID="hxsbz0o3ni6eae4h" Name="Danger Lights / Enemy Announcer [by {author}]" Type="multi" Visible="True">
     <Size>155054</Size>
     <Version>2.8</Version>
-    <ZipFile>IngameInfo_DangerLights_v2.8_1.13.0.1_2021-07-10.zip</ZipFile>
+    <ZipFile>IngameInfo_DangerLights_v2.8_1.14.0.0_2021-08-15.zip</ZipFile>
     <CRC>f</CRC>
-    <Timestamp>132730695854235069</Timestamp>
+    <Timestamp>132735401682152367</Timestamp>
     <DevURL>https://protanki.tv/mods/opasnyi-svetofor</DevURL>
     <InternalNotes>+ disable patch\r\n\r\nhttps://api.protanki.tv/v2/mod_updates/eec1c4e7-f039-4c9a-90d7-db5bde616702.json</InternalNotes>
     <Author>Protanki</Author>
     <Description>This mod shows colored lights to indicate if your vehicle is visible.\r\nIt can also play a sound if you are in the line of sight of an enemy outside the screen. </Description>
+    <PopularMod>True</PopularMod>
     <ObfuscatedMod>True</ObfuscatedMod>
     <Medias>
       <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/IngameInfo_DangerLights.jpg" MediaType="Picture" />
@@ -455,13 +456,14 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="IngameInfo_FinalShot" Enabled="False" Tags="Patch,Script,GuiFlash,ConfigurationFileJson,OtherFiles,DependencyLink" InstallGroup="4" PatchGroup="4" UID="4qcvi028h2edpw0y" Name="Final Shot (Last Hits) [by {author}]" Type="multi" Visible="True">
+  <Package PackageName="IngameInfo_FinalShot" Enabled="True" Tags="Patch,Script,GuiFlash,ConfigurationFileJson,OtherFiles,DependencyLink" InstallGroup="4" PatchGroup="4" UID="4qcvi028h2edpw0y" Name="Final Shot (Last Hits) [by {author}]" Type="multi" Visible="True">
     <Size>614394</Size>
     <Version>3.1</Version>
-    <ZipFile>IngameInfo_FinalShot_v3.1_1.13.0.0_2021-06-28.zip</ZipFile>
-    <CRC>999890ac9db6f39b3e2197d10855e2e9</CRC>
-    <Timestamp>132693534970282044</Timestamp>
+    <ZipFile>IngameInfo_FinalShot_v3.1_1.14.0.0_2021-08-15.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132735403842093375</Timestamp>
     <DevURL>https://protanki.tv/</DevURL>
+    <InternalNotes>use lastHits,2.json for the config option, from the inno decompiler</InternalNotes>
     <Author>Poliroid</Author>
     <Description>This shows you where you got hit the last time (ingame, immediately after death).</Description>
     <ObfuscatedMod>True</ObfuscatedMod>
@@ -475,11 +477,11 @@
       <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="IngameInfo_FlyingDamage" Enabled="False" Tags="Script" InstallGroup="4" PatchGroup="4" UID="bt0ih3ysbi9k00pb" Name="Flying damage without XVM [by {author}]" Type="multi" Visible="True">
+  <Package PackageName="IngameInfo_FlyingDamage" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="bt0ih3ysbi9k00pb" Name="Flying damage without XVM [by {author}]" Type="multi" Visible="True">
     <Size>229441</Size>
-    <ZipFile>IngameInfo_FlyingDamage_1.13.0.0_2021-06-28.zip</ZipFile>
-    <CRC>ad4feb8441dbdf8969c611ad78e1141c</CRC>
-    <Timestamp>132693536554594015</Timestamp>
+    <ZipFile>IngameInfo_FlyingDamage_1.14.0.0_2021-08-15.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132735405211666241</Timestamp>
     <DevURL>https://protanki.tv/mods/otletaiushchii-uron-bez-xvm</DevURL>
     <InternalNotes>tv.protanki.vehicle-markers-2.zip\r\nadvancedVehicleMarkers.wotmod\r\n\r\nhttps://api.protanki.tv/v2/mod_updates/f40a39af-8447-4ea0-a578-c42c6f38f02d.json</InternalNotes>
     <Author>Andre_V</Author>
@@ -1292,16 +1294,19 @@
           <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="IngameInfo_InBattleRating_Protanki" Enabled="False" Tags="Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="ewheywwoz33rzjf4" Name="PROTanki" Type="single_dropdown1" Visible="True">
+      <Package PackageName="IngameInfo_InBattleRating_Protanki" Enabled="True" Tags="Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="ewheywwoz33rzjf4" Name="PROTanki" Type="single_dropdown1" Visible="True">
         <Size>130588</Size>
         <Version>2.8</Version>
-        <ZipFile>IngameInfo_InBattleRating_Protanki_v2.8_1.13.0.0_2021-06-28.zip</ZipFile>
-        <CRC>d664dba406cf7ced568a33bd16641b10</CRC>
-        <Timestamp>132693543012784408</Timestamp>
+        <ZipFile>IngameInfo_InBattleRating_Protanki_v2.8_1.14.0.0_2021-08-15.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132735408847174065</Timestamp>
         <DevURL>https://protanki.tv/mods/kalkuliator-boevoi-effektivnosti</DevURL>
-        <InternalNotes>https://api.protanki.tv/v2/mod_updates/71fa0bd3-e3ae-4b72-9615-6da1546bd473.json</InternalNotes>
+        <InternalNotes>use efficiency,1.json from the unpacker</InternalNotes>
         <Description>Combat efficiency calculator for World of Tanks.\n\nMaud calculates the expected damage for each tank right during the battle.\n\nThe negative value of the damage shows how much you need to fill the damage so that its value is above average.\n\nHe considers the costs of silver spent in combat.</Description>
         <ObfuscatedMod>True</ObfuscatedMod>
+        <Medias>
+          <Media URL="https://s3.protanki.tv/static/cke/9.jpg" MediaType="Picture" />
+        </Medias>
         <Dependencies>
           <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
@@ -1445,12 +1450,12 @@
           <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="IngameInfo_RTAN_Protanki" Enabled="False" Tags="ConfigurationFileJson,Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="chhsw0vni7x0c903" Name="RTAN [by {author}]" Type="single_dropdown1" Visible="True">
+      <Package PackageName="IngameInfo_RTAN_Protanki" Enabled="True" Tags="ConfigurationFileJson,Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="chhsw0vni7x0c903" Name="RTAN [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>813324</Size>
         <Version>2.7</Version>
-        <ZipFile>IngameInfo_RTAN_Protanki_v2.7_1.13.0.0_2021-06-28.zip</ZipFile>
-        <CRC>0dc686c427a2f1c5a1a5f494d06f1825</CRC>
-        <Timestamp>132693545944611626</Timestamp>
+        <ZipFile>IngameInfo_RTAN_Protanki_v2.7_1.14.0.0_2021-08-15.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132735410260865839</Timestamp>
         <DevURL>https://protanki.tv/mods/mod-dostizheniia-v-boiu</DevURL>
         <InternalNotes>https://api.protanki.tv/v2/mod_updates/bc69647b-5b04-4897-9291-c4fb73366e19.json</InternalNotes>
         <Author>PROtanki</Author>
@@ -1589,9 +1594,9 @@
   </Package>
   <Package PackageName="IngameInfo_HiddenParameters" Enabled="True" Tags="Patch,ConfigurationFileJson,Script" InstallGroup="4" PatchGroup="4" UID="3x30zumbr19ig50n" Name="Hidden parameters (Shell Info) [by {author}]" Type="multi" Visible="True">
     <Size>16053</Size>
-    <ZipFile>IngameInfo_HiddenParameters_1.13.0.0_2021-06-23.zip</ZipFile>
-    <CRC>9f635de93371a11af22fc5ea6e5730c8</CRC>
-    <Timestamp>132689297589896283</Timestamp>
+    <ZipFile>IngameInfo_HiddenParameters_1.14.0.0_2021-08-15.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132735411803785587</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
     <Author>RaJCeL</Author>
     <Description>in battle this mod shows the shell´s speed in the consumables infopanel.\r\n\r\nby RaJCeL</Description>
@@ -1672,11 +1677,11 @@
           <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="IngameInfo_TankInfoPanel_protanki" Enabled="False" Tags="Script,ConfigurationFileXml,GuiFlash" InstallGroup="4" PatchGroup="4" UID="ran4n2t1715ldipp" Name="PROTanki" Type="single_dropdown1" Visible="True">
+      <Package PackageName="IngameInfo_TankInfoPanel_protanki" Enabled="True" Tags="Script,ConfigurationFileXml,GuiFlash" InstallGroup="4" PatchGroup="4" UID="ran4n2t1715ldipp" Name="PROTanki" Type="single_dropdown1" Visible="True">
         <Size>112042</Size>
-        <ZipFile>IngameInfo_TankInfoPanel_protanki_1.13.0.0_2020-06-28.zip</ZipFile>
-        <CRC>f5a75319a2d0c62f8212d1409041d951</CRC>
-        <Timestamp>132693540256739767</Timestamp>
+        <ZipFile>IngameInfo_TankInfoPanel_protanki_1.14.0.0_2020-08-15.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132735413106040826</Timestamp>
         <InternalNotes>last version extracted from protanki modpack</InternalNotes>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/tank_info_panel/Ingame_Info_Tank_Info_Panel_protanki_1.jpg" MediaType="Picture" />
