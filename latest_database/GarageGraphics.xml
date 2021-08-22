@@ -1708,11 +1708,12 @@
   </Package>
   <Package PackageName="GarageGraphics_Loading" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ou3n59jmtjbttf4z" Name="Loading graphics &amp; exit screens" Type="multi" Visible="True">
     <Packages>
-      <Package PackageName="GarageGraphics_Loading_Animation" Enabled="False" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="i9kuxd95n2di48mc" Name="Loading Animation (wheel)" Type="multi" Visible="True">
+      <Package PackageName="GarageGraphics_Loading_Animation" Enabled="False" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="i9kuxd95n2di48mc" Name="Loading Animation (wheel)" Type="multi" Visible="False">
         <CRC>f</CRC>
         <Timestamp>132250424692950519</Timestamp>
         <InternalNotes>contains:\r\nwaiting.swf\r\nwaitingTransition.swf\r\nlogos.swf\r\n\r\nexchanged infopics in logos.swf and waiting.swf with transparent ones\r\n\r\nGauss:\r\n    L = only logo = logos.swf\r\nWT = waitingTransition.swf\r\n   W =waiting .swf\r\n\r\nFrom Who?\r\nL = only logo = logos.swf\r\nL/A = logo AND waiting animation = logos.swf + waiting.swf + waitingTransition.swf\r\nA = only waiting animation = logos.swf (with default logos, but award/info slots are transparent) + waiting.swf + waitingTransition.swf\r\n\r\n\r\n2021-05-02: Conversation with Elektro and Willster:\r\n- These mods use the same files as the global dependencies (SWF packages), so if they don't work, then these don't work and can be disabled\r\n\r\n\r\n\r\n</InternalNotes>
         <Author>elektrosmoker</Author>
+        <Deprecated>True</Deprecated>
         <Description>This mod replaces the standard loading animation circle and/or the logo shown at start of the game.\r\nThis depends on the selected option.\r\n\r\nL = only logo\r\nL/A = logo AND waiting animation\r\nA = only waiting animation\r\n\r\n</Description>
         <Dependencies>
           <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
@@ -1722,14 +1723,13 @@
             <CRC>f</CRC>
             <Timestamp>132250424692950519</Timestamp>
             <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-loading-wheels\r\nhttps://wgmods.net/2244/details</DevURL>
-            <InternalNotes>= WHEEL\r\n=waiting .swf = Loading gear Wheel In dfferent Colors\r\n\r\nWAITING.SWF picture with numbers SEE: https://wgmods.net/2244/details\r\nhttps://wgmods.net/2244/details\r\n\r\nCRC\r\nBLUE:     \t5-Fallensoldier =16-CowGirl = 8-Blue [ALL 3 ARE BLUE])\r\nGREEN:  \t14-Leviathan=19.  Green)\r\nRED:       \t1-Grim =2-Pin/PenUP=3-Skull=4.HAWG=6-Skull2 = 7-RedCog=5-GhostBusters)\r\nYELLOW: 20=Yellow = 17-Fire)\r\nWG: \t09-Original=10-Tanks=11-Rank=13-Swords \r\n\r\nswirl=18 BORING //  Grey=21 BORING</InternalNotes>
             <ShowInSearchList>False</ShowInSearchList>
             <Packages>
               <Package PackageName="GarageGraphics_Loading_Animation_Waiting_RelHax" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="1wcbqzoz46uzydo1" Name="RelHax Wheel (W)" Type="single_dropdown1" Visible="True">
                 <CRC>f</CRC>
                 <Timestamp>132442439622727951</Timestamp>
                 <DevURL>https://wgmods.net/2244/details</DevURL>
-                <InternalNotes>WaitingSWF (DependencyGlobal_RelHax_WaitingSWF is different) \r\nDependencyGlobal_RelHax_WaitingSWF_2020-09-10_(2020-03-15)\\r\n693bd762035cda8d025a0018412e1f64\r\n=/=\r\nGarageGraphics_LoadingLogoAnimation_Relhax_2020-03-18\\r\n===3a194eef24d1baba20ec36c862228db2===\r\nGarageGraphics_LoadingLogoAnimation_RelhaxBG_2020-03-18\\r\n===3a194eef24d1baba20ec36c862228db2===\r\n\r\n\r\n\r\n</InternalNotes>
+                <InternalNotes>\r\n\r\n\r\n\r\n</InternalNotes>
                 <Author>UNKNOWN / Warranted / Global Dependency</Author>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_RelHaxRelic_LogInNo_WaitingSWF_01.png" MediaType="Picture" />
@@ -1766,7 +1766,7 @@
                 <CRC>dd5a2a0a84247c13b03c571158bcee69</CRC>
                 <Timestamp>132453064044147192</Timestamp>
                 <DevURL>https://github.com/Aimdrol\r\nhttps://github.com/Aimdrol/MLG-Main/tree/master/Main/res_mods\r\nhttp://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
-                <InternalNotes>Iluminati M.V.P  [by {author}]\r\n- use with any No logo\r\n-removed  WaitingTransition.swf\r\n\r\ndevURL=?\r\n\r\nGarageGraphics_LoadingLogoAnimation_illuminati_by_Aimdrol_2020-08-15.zip\r\nGarageGraphics_Loading_Wheel_Animation_IlluminatiAimdrol_2020-09-17_(2020-08-15).zip</InternalNotes>
+                <InternalNotes>Iluminati M.V.P  [by {author}]\r\n- use with any No logo\r\n-removed  WaitingTransition.swf</InternalNotes>
                 <Author>Aimdrol</Author>
                 <Description>Iluminati M.V.P  [by {author}]\r\ntransparent Loading Logo (in front of Gear Wheel) \r\nNOT  included use BELOW one\r\n</Description>
                 <Medias>
@@ -1816,7 +1816,6 @@
                 <CRC>bd92df209a1078f6e551d225b923df72</CRC>
                 <Timestamp>132445239913034180</Timestamp>
                 <DevURL>https://wgmods.net/2244/details</DevURL>
-                <InternalNotes>wotmod-file: \r\nGarageGraphics_Loading_Wheel_Animation_HAWG_Yellow_1.10.0.1_2020-09-10.zip\r\n\r\nres_mods.\r\nGarageGraphics_Loading_Wheel_Animation_HAWG_Yellow_1.10.0.1_2020-09-10_res_mods.zip</InternalNotes>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_01.png" MediaType="Picture" />
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_02.png" MediaType="Picture" />
@@ -1860,7 +1859,7 @@
               <Package PackageName="GarageGraphics_Loading_Animation_WaitingTransition_RelhaxDef" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="7zcn0dgqbaerv8w5" Name="current Relhax (L/A)  changes from time to time" Type="single_dropdown1" Visible="True">
                 <CRC>f</CRC>
                 <Timestamp>132448620087908531</Timestamp>
-                <InternalNotes>WaitingTransitionSWF (ALL 3 are equal)\r\nDependencyGlobal_RelHax_WaitingTransitionSWF_2020-09-10_(2020-03-15)\\r\n===b1dbbffa21b76e7f89ff97ab11eee346===\r\nGarageGraphics_LoadingLogoAnimation_Relhax_2020-03-18\\r\n===b1dbbffa21b76e7f89ff97ab11eee346===\r\nGarageGraphics_LoadingLogoAnimation_RelhaxBG_2020-03-18\\r\n===b1dbbffa21b76e7f89ff97ab11eee346===\r\n</InternalNotes>
+                <InternalNotes>\r\n</InternalNotes>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_by_Warranted.png" MediaType="Picture" />
                 </Medias>
@@ -1884,7 +1883,7 @@
                 <CRC>308ee8752d2b7b61940a30627ddd3d4b</CRC>
                 <Timestamp>132454898744578282</Timestamp>
                 <DevURL>https://dieschwarzenschafe.com/download/index.php?action=list&amp;dir=WWIIHWA/WWIIHWA+Ambiente+Rescue+Pack&amp;order=name&amp;srt=yes</DevURL>
-                <InternalNotes>use WWIIHWA Ambiente Rescue Pack to check for updates\r\nhttp://wwiihwa.blogspot.com\r\n</InternalNotes>
+                <InternalNotes>\r\n</InternalNotes>
                 <Author>Budyx69</Author>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_WaitingTransition_OMC" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="jw2fwjf4jdperg6u" Name="OMC Odem Mortis Community (WT)" Type="single_dropdown1" Visible="True">
@@ -1892,7 +1891,7 @@
                 <ZipFile>GarageGraphics_Loading_Wheel_WaitingTransition_OMC_1.10.0.2_2020-09-23.zip</ZipFile>
                 <CRC>491b7c616c72e700ac1df86deaaf3b8f</CRC>
                 <Timestamp>132453131434369693</Timestamp>
-                <InternalNotes>waitingTransition.swf\r\nGarage_Graphics_loading_logo_Relhax_by_Warranted\r\nGarageGraphics_LoadingLogoAnimation_Relhax_2020-03-18.zip\r\n\r\n</InternalNotes>
+                <InternalNotes>\r\n\r\n</InternalNotes>
                 <Author>UNKNOWN / elektrosmoker</Author>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_WaitingTransition_IluminatiMVP" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="cm57zxjpjcal52xh" Name="Iluminati M.V.P  [by {author}]" Type="single_dropdown1" Visible="True">
@@ -1908,7 +1907,6 @@
                 <ZipFile>GarageGraphics_Loading_Wheel_WaitingTransition_NoLogo_UNKNOWN_2020-09-17_(2020-03-19).zip</ZipFile>
                 <CRC>fb21857011c295fd464ddd1e4a2790c4</CRC>
                 <Timestamp>132448594963408795</Timestamp>
-                <InternalNotes>GarageGraphics_LoadingLogoAnimation_NoLogo_2020-03-19.zip\r\n</InternalNotes>
                 <Author>UNKNOWN</Author>
               </Package>
             </Packages>
@@ -1917,13 +1915,12 @@
             <CRC>f</CRC>
             <Timestamp>132250424692950519</Timestamp>
             <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/hawgs-loading-wheels\r\nhttps://wgmods.net/2244/details</DevURL>
-            <InternalNotes>= LOGO\r\n = Logo.swf = Loading Logo in front of Gear Wheel\r\n\r\nLogo.swf picture with numbers SEE: https://wgmods.net/2244/details\r\nhttps://wgmods.net/2244/details\r\n\r\n\r\n\r\n\r\n\r\n</InternalNotes>
+            <InternalNotes>= LOGO\r\n = Logo.swf = Loading Logo in front of Gear Wheel\r\n\r\n\r\n\r\n</InternalNotes>
             <ShowInSearchList>False</ShowInSearchList>
             <Packages>
               <Package PackageName="GarageGraphics_Loading_Animation_Logo_RelhaxDef" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="jy24qe5h5t9ak1oh" Name="Relhax Relic (L)" Type="single_dropdown1" Visible="True">
                 <CRC>f</CRC>
                 <Timestamp>132445187943864425</Timestamp>
-                <InternalNotes>logos.swf (ALL 3 are different)\r\nDependencyGlobal_RelHax_LogoSWF_2020-09-10_(2020-03-15)\\r\n0a74b759f53ecf24c109df2fa77a2eeb\r\n=/=\r\nGarageGraphics_LoadingLogoAnimation_Relhax_2020-03-18\\r\n4720a191285a10bf8bb109547f3494d2\r\n=/=\r\nGarageGraphics_LoadingLogoAnimation_RelhaxBG_2020-03-18\\r\nef2122db4f6cdd00ff36d6728ad2606d\r\n\r\n\r\n\r\n\r\n</InternalNotes>
                 <Author>UNKNOWN / Warranted / Global Dependency</Author>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_Relhax_01.png" MediaType="Picture" />
@@ -1961,10 +1958,9 @@
                 <CRC>347aba6702c473a2babc73825769b69d</CRC>
                 <Timestamp>132520326575310904</Timestamp>
                 <DevURL>https://dieschwarzenschafe.com/download/Index.php?action=list&amp;dir=WWIIHWA%2FWWIIHWA+Ambiente+Rescue+Pack&amp;order=name&amp;srt=yes\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
-                <InternalNotes>GarageGraphics_loading_animation_WWIIHWA_Ambiente\r\n= gui\flash\waitingTransition.swf &amp; gui\flash\logos.swf\r\n\r\n\r\nGauss: 2020-09-15: \r\ngui\flash\waitingTransition.swf Removed\r\n</InternalNotes>
+                <InternalNotes>\r\n</InternalNotes>
                 <Author>Budyx69</Author>
                 <Description>Part of WWIIHWA_Ambiente_by_Budyx69 (Thx Budyx69)</Description>
-                <UpdateComment>2018-08-31 Update 6.8 [1.1.0.0]: Versioning\r\n\r\ngui\flash\waiting.swf</UpdateComment>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_WWIIHWA_Iron_Cross_01.png" MediaType="Picture" />
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_WWIIHWA_Iron_Cross_02.png" MediaType="Picture" />
@@ -1988,7 +1984,6 @@
                 <CRC>e387b87f03bc9d0d760b65e99a00a370</CRC>
                 <Timestamp>132445254894024716</Timestamp>
                 <DevURL>https://wgmods.net/2244/details</DevURL>
-                <InternalNotes>No Logo = transparent invisible Logo\r\n\r\n07-Red=08-Blue=09-Orignal=18-HypnotizeSwirls=19-Green=20-Yellow=21-Grey </InternalNotes>
                 <Author>HAWG</Author>
                 <Description>good use with an  dominante Logo in front of the wheel\r\nex.\r\n-Iluminati M.V.P by {Aimdrol\r\n\r\n</Description>
               </Package>
@@ -1999,7 +1994,6 @@
                 <Timestamp>132445258416023709</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_Logo_2PinUpGirl" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="4mb7tuakl9kpzamh" Name="Pin Up Girl (L)" Type="single_dropdown1" Visible="True">
                 <Size>812130</Size>
@@ -2008,7 +2002,6 @@
                 <Timestamp>132445259393188675</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_2_PinUpGirl_01.png" MediaType="Picture" />
                 </Medias>
@@ -2031,7 +2024,6 @@
                 <Timestamp>132445261887056879</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_Logo_5FallenSoldier" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="a2i47fx2ujbkc10t" Name="Fallen SoldierV" Type="single_dropdown1" Visible="True">
                 <Size>796734</Size>
@@ -2056,7 +2048,6 @@
                 <Timestamp>132445263929750599</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_Logo_11Rank" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="hbim1tglk5c6zmtg" Name="Rank (L)" Type="single_dropdown1" Visible="True">
                 <Size>815480</Size>
@@ -2065,7 +2056,6 @@
                 <Timestamp>132445265284697089</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_Logo_12Clan" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="muawdidbaqmwr4f1" Name="Clan (L)" Type="single_dropdown1" Visible="True">
                 <Size>814004</Size>
@@ -2074,7 +2064,6 @@
                 <Timestamp>132445267587630497</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_Logo_13Swords" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="viuu008p800lmv76" Name="Swords (L)" Type="single_dropdown1" Visible="True">
                 <Size>816195</Size>
@@ -2083,7 +2072,6 @@
                 <Timestamp>132445267743530432</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_Logo_14LeviathanGhost" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="xinltqe0rtpho5x4" Name="Leviathan Ghost (L)" Type="single_dropdown1" Visible="True">
                 <Size>807727</Size>
@@ -2092,7 +2080,6 @@
                 <Timestamp>132445268942897191</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_Logo_15GhostBusters" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="jbbctkmw3y132wie" Name="Ghostbusters (L)" Type="single_dropdown1" Visible="True">
                 <Size>808732</Size>
@@ -2101,7 +2088,6 @@
                 <Timestamp>132445270298817782</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_Logo_16CowGirl" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="zjgblhkc9meergm1" Name="Cowgirl (L)" Type="single_dropdown1" Visible="True">
                 <Size>816656</Size>
@@ -2110,7 +2096,6 @@
                 <Timestamp>132445272051147033</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_Logo_17FireBall" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="6m4xllgv329l2lbe" Name="Fire Ball (L)" Type="single_dropdown1" Visible="True">
                 <Size>808621</Size>
@@ -2119,14 +2104,12 @@
                 <Timestamp>132445273079939373</Timestamp>
                 <DevURL>https://wgmods.net/2244/details/</DevURL>
                 <Author>HAWG</Author>
-                <UpdateComment>gui\flash\waiting.swf</UpdateComment>
               </Package>
               <Package PackageName="GarageGraphics_Loading_Animation_Logo_HD" Enabled="False" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="ozql918zoz20mnxd" Name="HD (L)" Type="single_dropdown1" Visible="False">
                 <Size>603071</Size>
                 <ZipFile>GarageGraphics_Loading_LogoAnimation_HD_2020-09-23_(2020-03-19).zip</ZipFile>
                 <CRC>bbde46a8ef4303dc1efeab8f3047d602</CRC>
                 <Timestamp>132453157169796670</Timestamp>
-                <InternalNotes>2020-09-23: this package was enabled and set visible during the GarageGraphics_Loading_LogoAnimation rework\r\n\r\n</InternalNotes>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loadinglogo_hd1.png" MediaType="Picture" />
                   <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_HD_01.png" MediaType="Picture" />
