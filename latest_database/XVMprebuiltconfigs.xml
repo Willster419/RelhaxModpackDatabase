@@ -23,52 +23,6 @@
       <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
     </Dependencies>
     <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_123gauss" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="f9t2kths1hglc70z" Name="123gauss (colorblind) v{version}" Type="single_dropdown1" Visible="True">
-        <Size>4520752</Size>
-        <Version>2021-03-24</Version>
-        <ZipFile>XVMPrebuiltConfigs_123gauss_2021-08-11.zip</ZipFile>
-        <CRC>9d02ba6e8ce9f587d67634657f0de027</CRC>
-        <Timestamp>132731674754234295</Timestamp>
-        <Description>SafeShot; \nZoom Modifications;\nCrew Skills;\nTankinfoPanel;\nBaseCap Circle Germany;\nFriendsMarker;\nConsumables - Shells by vooj;\n\n\nbased on elektrosmoker´s xvm config</Description>
-        <UpdateComment>2020-08-27: Removed AutoEquipReturn from Hangar.xc (useless with Equipment2.0)\r\n2020-02-14: imported snowflake indicator from cfgbuilder selection\r\n2019-11-17: changed limMMtanknames to Dodger blue \r\n                     fixed carouselnormal.xc\r\n2019-10-30: added UserData: Izeberg_modsettings.API\r\n{appData}\Roaming\Wargaming.net\WorldOfTanks\modsettings.dat\r\n\r\n2019-1029: upd carouselNormal.xc (// VEHICLE LEVEL)\r\n\r\n2019-10-18: upd . BoosterInfo, SessionInfo, TankStatistics,  TankHistoryInformer \r\n2019-10-17: added separator\r\n2019-10-16D: upd "hullText" New coordinates x=-533, y=760\r\n\r\n2019-10-14E: added battleLabelsSpeed (battleLabelsSpeed.xc) to battleLabels.xc\r\n2019-10-14D: added battleLabelsHull (battleLabelsHull.xc) to battleLabels.xc\r\n2019-10-14C: added battleLabelsDamageIndicator (battleLabelsDamageIndicator.xc) \r\n\t     to battleLabels.xc &amp; pics in shared_resources/xvm/res)\r\n2019-10-14B: added battleEfficiency (battleLabelsBattleEfficiency.xc &amp; battleEfficiency.xc) \t      to battleLabels.xc &amp; xvm.xc\r\n2019-10-14A: added Shell Speed size='20' to battleLabelsAimInfo.xc \r\n\r\n2019-10-13: added carousel.xc by DivingDuck\r\n                     https://aslain.com/index.php?/topic/14687-maxdata-carousel/\r\n2019-10-12: added own Player- &amp; Clan-Icons\r\n2019-10-06: carouselNormal.xc - changed scale for info/infoImg (1.0 =&gt; 0.9)\r\n2019-09-22: added userdata: \\mods\\configs\\wotstat\\HangMan\\HangMan.xml\r\n2019-08-25 upd battle.xc ("showPostmortemDogtag": true,  "hideRadarHint": true)\r\n2019-07-17: changed battleLabelsPiercingChance.xc size='22' from ='20' \r\n2019-07-07: brighter colors for hpbars (no transparency / no shades / just color)\r\n2019-07-06: colored hpbars\r\n2019-06-25: added dependecies for py-files\r\n2019-06-20: added Dependency_Fonts_Visitor_TT1_BRK in zip\r\n2019-05-17: fixed hitlog FL\r\n2019-04-17: fixed infopanel\n2019-04-15: Saves: Crew-Auto-Return &amp; Equipment-Auto-Return \n2019-04-08: fixed damage stickers (colorblind)\n2019-04-07: update infopanel (py)\n2019-04-02: fixed pics for insignias</UpdateComment>
-        <UserFiles>
-          <UserFile Pattern="{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\users\*" />
-          <UserFile Pattern="{appData}\Roaming\Wargaming.net\WorldOfTanks\xvm\auto_equip\*" />
-          <UserFile Pattern="\res_mods\versiondir\scripts\client\gui\mods\wwiihwa\WWIIHWA.xml" />
-          <UserFile Pattern="{appData}\Roaming\Wargaming.net\WorldOfTanks\modsettings.dat" />
-        </UserFiles>
-        <Dependencies>
-          <Dependency PackageName="Dependency_XVM_PY_debugPanel" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_beginBattle" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_years" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_hull" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_modWN8Chance" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_modChatColor" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_infoPanel" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_borderColor" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_safeShot" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_NDOscripts" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_battleTimer" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_Calligraph" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_KAPb14" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_NDO" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_Gunplay" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_Visitor_TT1_BRK" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_sphere" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_displayingItems" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_Book_Antiqua" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_aiming" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_markerPosition" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_infoChargedShell" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
       <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_dirty20067" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sy0hssnt1e83cj7z" Name="dirty20067 v{version}" Type="single_dropdown1" Visible="True">
         <Size>385780</Size>
         <Version>2021-03-24</Version>
@@ -159,17 +113,6 @@
           <Dependency PackageName="Dependency_XVM_XC_turret" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_XVM_PY_hideBattleChat" NotFlag="False" Logic="OR" />
           <Dependency PackageName="Dependency_XVM_PY_quicklyLeave" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_theIllusion" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="z1o3swjdvt2aoowc" Name="The Illusion v{version}" Type="single_dropdown1" Visible="True">
-        <Size>1835115</Size>
-        <Version>2021-03-24</Version>
-        <ZipFile>XVMPrebuiltConfigs_The_Illusion_2021-08-11.zip</ZipFile>
-        <CRC>fc89d1fcfd6ea2606ead5974f0c8f96b</CRC>
-        <Timestamp>132731674946664316</Timestamp>
-        <Description>including XVMConfigBuilder_ClanIcons_fullNA (~45MB)</Description>
-        <Dependencies>
-          <Dependency PackageName="Dependency_Fonts_Book_Antiqua" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_Willster419" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cqvi0vpeuqvsnz3c" Name="Willster419 v{version}" Type="single_dropdown1" Visible="True">
@@ -318,6 +261,7 @@
         <CRC>92702af74a818d938385b9df6ec86bb7</CRC>
         <Timestamp>132731675256489485</Timestamp>
         <DevURL>http://forum.worldoftanks.com/index.php?/topic/390563-</DevURL>
+        <Deprecated>True</Deprecated>
         <UpdateComment>2019-03-23:hit/dmg-log\n2019-03-13: removed vehiclenames.xc\n2019-01-06: renewed markersalivenormal.xc\n                    fixed overlapping totalefficiency/hitlog\n2018-09-01: Updated to xvm template stnadard</UpdateComment>
         <Medias>
           <Media URL="http://i.imgur.com/9akX8VH.jpg" MediaType="Picture" />
@@ -338,23 +282,6 @@
           <Media URL="http://i.imgur.com/mytpRoG.png" MediaType="Picture" />
           <Media URL="http://i.imgur.com/ar2TFi3.png" MediaType="Picture" />
         </Medias>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_VA_NDO" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="56aivfmdlcw6u6su" Name="NDO / night_dragon_on v{version}" Type="single_dropdown1" Visible="True">
-        <Size>82439</Size>
-        <Version>2021-03-03</Version>
-        <ZipFile>XVMPrebuiltConfigs_NDO_2021-03-03.zip</ZipFile>
-        <CRC>9a0e4912ee6b20e10caf2e74a889d436</CRC>
-        <Timestamp>132592400261089169</Timestamp>
-        <DevURL>https://github.com/AstaRom/xvm_config\r\nhttps://koreanrandom.com/forum/topic/7378-781-120219-night_dragon_on-config-addons/</DevURL>
-        <InternalNotes>These can be found in xvm_config_ndo.zip from his website:\r\nhttps://github.com/AstaRom/xvm_config/releases/latest\r\n\r\nDirect drop-in of the xc boot and NDO folder should do it.</InternalNotes>
-        <UpdateComment>2019-03-13: removed vehiclenames.xc</UpdateComment>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_NDO.png" MediaType="Picture" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_XVM_PY_NDOscripts" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_NDO" NotFlag="False" Logic="OR" />
-        </Dependencies>
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_VA_Oldskool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hvgw3fsel8onuizt" Name="Oldskool (ProMod) v{version}" Type="single_dropdown1" Visible="True">
         <Size>84812</Size>
