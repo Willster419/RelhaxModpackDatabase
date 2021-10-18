@@ -459,7 +459,7 @@
           <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="IngameMisc_Chatmods_SorryMessenger" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="baxwmg69pgezipbg" Name="&quot;Sorry&quot; message when you hit an ally [by {author}]" Type="multi" Visible="True">
+      <Package PackageName="IngameMisc_Chatmods_SorryMessenger" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="baxwmg69pgezipbg" Name="&quot;Sorry&quot; message when you hit an ally [by {author}]" Type="multi" Visible="True">
         <Size>4653</Size>
         <ZipFile>IngameMisc_Chatmods_SorryMessenger_1.5.0_2019-05-08.zip</ZipFile>
         <CRC>80a42575e0917773608b31fc0cadcd2e</CRC>
@@ -467,8 +467,10 @@
         <DevURL>https://wgmods.net/3044/</DevURL>
         <InternalNotes>db-manager: dont overwrite cfg when updating</InternalNotes>
         <Author>Chirimen</Author>
+        <Deprecated>True</Deprecated>
         <Description>send a chatmessage when you hit an allied tank</Description>
         <ObfuscatedMod>True</ObfuscatedMod>
+        <FromWGmods>True</FromWGmods>
         <Medias>
           <Media URL="https://wgmods.net/media/mod_files/D0gAuynUwAIr_yV.png_large.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
         </Medias>
