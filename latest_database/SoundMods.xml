@@ -306,6 +306,7 @@
             <InternalNotes>Ask Filzi,Filzi, Doc73 and Budyx69 personal</InternalNotes>
             <Author>Filzi / Budyx69</Author>
             <Maintainers>Gauss</Maintainers>
+            <Deprecated>True</Deprecated>
             <Description>\nBudyx69: voices from WWIIHWA\nanother dev URL:\nhttp://forum.worldoftanks.eu/index.php?/topic/449348-</Description>
           </Package>
         </Packages>
@@ -441,32 +442,7 @@
               </Package>
             </Packages>
           </Package>
-          <Package PackageName="Sounds_CrewVoices_ENG_Advanced" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="isfopklgm7kttpte" Name="Advanced" Type="single1" Visible="True">
-            <Packages>
-              <Package PackageName="Sounds_CrewVoices_ENG_Advanced_MLG" Enabled="True" Tags="Patch,ConfigurationFileXml,SoundBank,Script" InstallGroup="4" PatchGroup="4" UID="jrd9z1mss610umir" Name="MLG Mod [by {author}]" Type="single1" Visible="True">
-                <Size>26095402</Size>
-                <ZipFile>Sounds_CrewVoices_ENG_Advanced_MLG_1.11.1.1_2021-01-31.zip</ZipFile>
-                <CRC>92e8ed38391df4767680da36ea92e827</CRC>
-                <Timestamp>132565880743406433</Timestamp>
-                <DevURL>http://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
-                <InternalNotes>2020-10-10:\r\nRemoved the text folder</InternalNotes>
-                <Author>Aimdrol</Author>
-                <Description>Must have sound crew language set to "standard"\nMLG EVERYWHERE\nAlso includes awesome visuals.</Description>
-                <Dependencies>
-                  <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
-                </Dependencies>
-                <Packages>
-                  <Package PackageName="Sounds_CrewVoices_ENG_Advanced_MLG_audioOnly" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="wgko71str2thuypr" Name="audio only, no visuals" Type="single_dropdown1" Visible="True">
-                    <Size>814</Size>
-                    <ZipFile>Sounds_CrewVoices_ENG_Advanced_MLG_audioOnly.zip</ZipFile>
-                    <CRC>c46a3d2c3701290363a0c7115ab63e37</CRC>
-                    <Timestamp>132508737669249623</Timestamp>
-                  </Package>
-                  <Package PackageName="Sounds_CrewVoices_ENG_Advanced_MLG_audioAndVisuals" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="95r3f0yurzmzu9xr" Name="audio and visuals" Type="single_dropdown1" Visible="True" />
-                </Packages>
-              </Package>
-            </Packages>
-          </Package>
+          <Package PackageName="Sounds_CrewVoices_ENG_Advanced" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="isfopklgm7kttpte" Name="Advanced" Type="single1" Visible="True" />
         </Packages>
       </Package>
       <Package PackageName="Sounds_CrewVoices_ITA" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qcogj8uzj6odkprz" Name="Italian" Type="single1" Visible="True">
@@ -664,6 +640,7 @@
         <InternalNotes>WG-Change: \r\nscripts\item_defs\vehicles\common\gun_reload_effects.xml\r\n = Mod Broken (Single  xml file)</InternalNotes>
         <Author>Budyx69 &amp; KT</Author>
         <Maintainers>Gauss</Maintainers>
+        <Deprecated>True</Deprecated>
         <UpdateComment>Update 4.07 [1.6.1.0]:  DualGunReload topic (maybe usefull for other gunssounds)\r\nscripts\item_defs\vehicles\common\gun_reload_effects.xml\dualgun_reload115_152\r\n\r\nUpdate 4.06 [1.1.0.0]: Soundbanks to Wwise 2017.2.5, Soundbanks (new):  4.06</UpdateComment>
         <FromWGmods>True</FromWGmods>
         <Medias>
@@ -692,40 +669,6 @@
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/557716-</DevURL>
     <Description>UT Countdown:\nPlays certain sounds for when you get a certain number of kills in the game.</Description>
     <Packages>
-      <Package PackageName="Sounds_Kill_UTAnnouncer" Enabled="True" Tags="Patch,Script,ConfigurationFileXml" InstallGroup="4" PatchGroup="4" UID="gsibarnw6gbrmq0y" Name="UT Announcer [by {author}]" Type="single1" Visible="True">
-        <Size>1645452</Size>
-        <ZipFile>Sounds_Kill_UTAnnouncer_1.12.1.1_2021-05-08.zip</ZipFile>
-        <CRC>63b5219c886654718b4b7122738e1a90</CRC>
-        <Timestamp>132650029158302889</Timestamp>
-        <DevURL>http://dieschwarzenschafe.com/download/</DevURL>
-        <InternalNotes>https://dieschwarzenschafe.com/download/index.php?action=list&amp;dir=UTAnnouncer&amp;order=name&amp;srt=yes</InternalNotes>
-        <Author>Budyx69</Author>
-        <Maintainers>Gauss</Maintainers>
-        <PopularMod>True</PopularMod>
-        <ObfuscatedMod>True</ObfuscatedMod>
-        <Packages>
-          <Package PackageName="Sounds_Kill_UTAnnouncer_Locastan" Enabled="True" Tags="Patch,Script" InstallGroup="4" PatchGroup="4" UID="thoqiqtx6c39m17y" Name="Locastan original config" Type="single_dropdown1" Visible="True">
-            <Size>3060</Size>
-            <ZipFile>Sounds_Kill_UTAnnouncer_Locastan_2019-06-26.zip</ZipFile>
-            <CRC>14d579b0c661de36a1d4d72e33bf5243</CRC>
-            <Timestamp>132508724999656874</Timestamp>
-            <Description>Locastan´s full UT config:\r\n\r\n- textmessages ( firsttext / kamikazetext / ramkilltext / biatext / crucialtext / paybacktext / paybackowntext / deniedtext )\r\n\r\n- battletimer\r\n\r\n- ut announcements for killcount ( firstblood / doublekill / triplekill / ultrakill / multikill / monsterkill / killingspree / rampage / unstoppable / godlike / megakill / topgun / massacre / flakmaster / unreal)\r\n\r\n- first kill announcement for any player\r\n\r\n- extrasounds ( kamikaze / eradication / extermination / ramkill / payback / denied )</Description>
-          </Package>
-          <Package PackageName="Sounds_Kill_UTAnnouncer_Only3minWarning" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="66v5qqzy59wrmdey" Name="Only 3 min warning config" Type="single_dropdown1" Visible="True">
-            <Size>2420</Size>
-            <ZipFile>Sounds_Kill_UTAnnouncer_Only3minWarning_2019-06-26.zip</ZipFile>
-            <CRC>48405042a14b5649e7ef63c1fbfdfab6</CRC>
-            <Timestamp>132508724833461294</Timestamp>
-          </Package>
-          <Package PackageName="Sounds_Kill_UTAnnouncer_Webium" Enabled="True" Tags="Patch,Script" InstallGroup="4" PatchGroup="4" UID="0kcciuph0sygy6wb" Name="Webium config" Type="single_dropdown1" Visible="True">
-            <Size>3040</Size>
-            <ZipFile>Sounds_Kill_UTAnnouncer_Webium_2019-06-26.zip</ZipFile>
-            <CRC>5750fa9c055a5837fc949fa21a672d8b</CRC>
-            <Timestamp>132508724695350610</Timestamp>
-            <Description>Webiium´s UT config:\r\n\r\n- no textmessages\r\n\r\n- battletimer\r\n\r\n- ut announcements for killcount ( one / two / three / four / five / six / seven / eight / nine / ten / eleven / twelve / thirteen / fourteen / fifteen )\r\n\r\n- first kill announcement for USER only\r\n\r\n- extrasounds ( kamikaze / eradication / extermination / ramkill / payback / denied )</Description>
-          </Package>
-        </Packages>
-      </Package>
       <Package PackageName="Sounds_Kill_DisableKilledEnemySoundNotification" Enabled="False" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="0opknhgd0ceqkfn7" Name="disable sound notification when enemy tanks are destroyed" Type="multi" Visible="False">
         <Size>537</Size>
         <ZipFile>Sounds_Kill_DisableKilledEnemyySoundNotification_2021-03-04.zip</ZipFile>
