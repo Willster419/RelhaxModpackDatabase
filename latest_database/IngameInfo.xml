@@ -60,21 +60,6 @@
           <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="IngameInfo_Crew_CrewSkillInformer" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="gnp55hmyjwsodgd4" Name="Crew Skill Informer v{version} [by {author}]" Type="single_dropdown1" Visible="True">
-        <Size>187170</Size>
-        <Version>1.2.4B</Version>
-        <ZipFile>IngameInfo_Crew_CrewSkillInformer_v1.2.4B_RaJCeL_1.10.0.1_2020-09-04.zip</ZipFile>
-        <CRC>51f2691fc5b7b8828331945c00672cd3</CRC>
-        <Timestamp>132437258762764683</Timestamp>
-        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/481984-</DevURL>
-        <InternalNotes>URL for official last posted mod from the dev\r\n\r\nhttp://www.mediafire.com/file/52exewkcvq72xrt/1.5.0.0_Crew+Skill+Informer.zip\r\n\r\nRaJCeL seems to have taken over the development of the mod:\r\nhttp://forum.worldoftanks.eu/index.php?/topic/481984-1700-crewskillinformer-crews-skills-and-perks-in-battle-window-update-10122019-v124/page__st__140__pid__18031391#entry18031391\r\n\r\nlook there, or further down...</InternalNotes>
-        <Author>voytello, RaJCeL</Author>
-        <Deprecated>True</Deprecated>
-        <Description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing backspace.\r\n\r\nby Voytello and Dumadidak</Description>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_Crew_CrewSkillInformer_Voytello_01.png" MediaType="Picture" />
-        </Medias>
-      </Package>
     </Packages>
   </Package>
   <Package PackageName="IngameInfo_DamageIndicator" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tcvkdgszjtk6dsk3" Name="Damage Indicator" Type="multi" Visible="True">
@@ -395,55 +380,6 @@
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Ingame_Misc_Flying_Damage_V2.jpg" MediaType="Picture" />
         </Medias>
-      </Package>
-    </Packages>
-  </Package>
-  <Package PackageName="IngameInfo_Hitmarker" Enabled="False" Tags="Patch,Script,ConfigurationFileXml,SoundBank" InstallGroup="4" PatchGroup="4" UID="y7kl5b4iri4nxded" Name="Hitmarker [by {author}]" Type="multi" Visible="False">
-    <Size>4634</Size>
-    <ZipFile>IngameInfo_Hitmarker_1.11.1.1_2021-01-31.zip</ZipFile>
-    <CRC>28b14499b8eafc30413a07c6e78e4234</CRC>
-    <Timestamp>132565885604548645</Timestamp>
-    <DevURL>https://github.com/Aimdrol/MLG-Hitmarker\r\nhttp://forum.worldoftanks.eu/index.php?/topic/476721-</DevURL>
-    <InternalNotes>The new bnk is from the RelhaxSoundMod repo</InternalNotes>
-    <Author>Aimdrol</Author>
-    <Maintainers>Willster419</Maintainers>
-    <Deprecated>True</Deprecated>
-    <Description>Shows a CoD style hitmarker whenever you penetrate ( ͡° ͜ʖ ͡°) an enemy tank.</Description>
-    <Medias>
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc_hitmarker_by_aimdrol.jpg" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
-    </Dependencies>
-    <Packages>
-      <Package PackageName="IngameInfo_Hitmarker_default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tl1sxfu1m16d96wq" Name="Default" Type="single_dropdown1" Visible="True">
-        <Size>8848</Size>
-        <ZipFile>IngameInfo_Hitmarker_default_2021-03-08.zip</ZipFile>
-        <CRC>01a3555dc4f9334e26e97526c015be49</CRC>
-        <Timestamp>132596790662818010</Timestamp>
-      </Package>
-      <Package PackageName="IngameInfo_Hitmarker_ComicsVersion" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="6a875e02lxyu9i3q" Name="Comics Version [by {author}]" Type="single_dropdown1" Visible="True">
-        <Size>81788</Size>
-        <ZipFile>IngameInfo_Hitmarker_ComicsVersion_2021-03-08.zip</ZipFile>
-        <CRC>897356dead06c8ce3510ba14e7f2f690</CRC>
-        <Timestamp>132596790577488301</Timestamp>
-        <Author>elektrosmoker</Author>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Ingame_Misc_hitmarker_COMIC_VERSION.png" MediaType="Picture" />
-        </Medias>
-      </Package>
-      <Package PackageName="IngameInfo_Hitmarker_soundOff" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="izemde73kurc9tap" Name="don´t play hitmarker-sound on hitting enemies" Type="multi" Visible="True">
-        <Size>590</Size>
-        <ZipFile>IngameInfo_Hitmarker_soundOff.zip</ZipFile>
-        <CRC>423f0fb0d696f609238b28359d702f4a</CRC>
-        <Timestamp>132509545924199085</Timestamp>
-      </Package>
-      <Package PackageName="IngameInfo_Hitmarker_DamageOnly" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dewt5iwmfdt1kms3" Name="Damage Only" Type="single_dropdown2" Visible="True" />
-      <Package PackageName="IngameInfo_Hitmarker_DamageFireKill" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p338dh3ne9ljkyz2" Name="Damage, Fire, Kill" Type="single_dropdown2" Visible="True">
-        <Size>849</Size>
-        <ZipFile>IngameInfo_Hitmarker_DamageFireKill.zip</ZipFile>
-        <CRC>aa25010417d4442c9b406221bf3dde74</CRC>
-        <Timestamp>132596790368268276</Timestamp>
       </Package>
     </Packages>
   </Package>
@@ -1308,23 +1244,6 @@
   <Package PackageName="IngameInfo_RTAN" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tpmroyt2owbb1t4q" Name="RTAN - Real Time Achievements Notifications" Type="multi" Visible="True">
     <Timestamp>131569088015621441</Timestamp>
     <Packages>
-      <Package PackageName="IngameInfo_RTAN_Aimdrol" Enabled="False" Tags="Patch,Script,SoundBank,ConfigurationFileXml" InstallGroup="4" PatchGroup="4" UID="0sbdo1pmib5jcxt3" Name="RTAN [by {author}]" Type="single_dropdown1" Visible="False">
-        <Size>188871</Size>
-        <ZipFile>IngameInfo_RTAN_Aimdrol_1.11.1.1_2021-03-12.zip</ZipFile>
-        <CRC>21409526c423fbca55c8e2f153e0734e</CRC>
-        <Timestamp>132600803715401644</Timestamp>
-        <DevURL>https://github.com/Aimdrol/MLG-RTAN</DevURL>
-        <InternalNotes>the new bnk comes from the RelhaxSoundMod repo</InternalNotes>
-        <Author>Aimdrol</Author>
-        <Maintainers>Willster419</Maintainers>
-        <Deprecated>True</Deprecated>
-        <Medias>
-          <Media URL="http://i.imgur.com/LDKvk1n.png" MediaType="Picture" />
-        </Medias>
-        <Dependencies>
-          <Dependency PackageName="Dependency_MLG_bnk" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
       <Package PackageName="IngameInfo_RTAN_Protanki" Enabled="True" Tags="ConfigurationFileJson,Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="chhsw0vni7x0c903" Name="RTAN [by {author}]" Type="single_dropdown1" Visible="True">
         <Size>813540</Size>
         <Version>2.9</Version>
