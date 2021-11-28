@@ -101,15 +101,15 @@
           </Package>
           <Package PackageName="SessionStatistics_YK_EditionVanilla" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="nb0yjw1z6utz62q9" Name="Vanilla Edition" Type="single_dropdown1" Visible="True">
             <Size>3455</Size>
-            <ZipFile>SessionStatistics_YK_EditionVanilla_1.13.0.0_2021-06-23.zip</ZipFile>
-            <CRC>3f1cccc42cc72e1996337ff9f1281114</CRC>
-            <Timestamp>132689298268881638</Timestamp>
+            <ZipFile>SessionStatistics_YK_EditionVanilla_1.14.1.4_2021-11-28.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132826170623000132</Timestamp>
           </Package>
           <Package PackageName="SessionStatistics_YK_EditionCore" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mmfd0e4arrbdpet5" Name="Core Edition" Type="single_dropdown1" Visible="True">
             <Size>3874</Size>
-            <ZipFile>SessionStatistics_YK_EditionCore_1.13.0.0_2021-06-23.zip</ZipFile>
-            <CRC>afefbe99964ca9dcde4d38094d0f6427</CRC>
-            <Timestamp>132689298306475472</Timestamp>
+            <ZipFile>SessionStatistics_YK_EditionCore_1.14.1.4_2021-11-28.zip</ZipFile>
+            <CRC>f</CRC>
+            <Timestamp>132826170523999356</Timestamp>
           </Package>
           <Package PackageName="SessionStatistics_YK_Configuration" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="m09x76vb6uixnwyy" Name="Configurations" Type="multi" Visible="True">
             <Timestamp>131542717093817752</Timestamp>
@@ -214,24 +214,42 @@
             <CRC>f</CRC>
             <Timestamp>132731568409359538</Timestamp>
             <Packages>
-              <Package PackageName="SessionStatistics_YK_Module_ColoredMessages" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vouwunpp45xljmr3" Name="Colored In-Game Messages -&gt; !! sets client language to english !!" Type="multi" Visible="True">
-                <Size>152680</Size>
-                <ZipFile>SessionStatistics_YK_Module_ColoredMessages_1.14.1.3_2021-11-14.zip</ZipFile>
-                <CRC>280dc2aa41aee88f17de388ecc15a84e</CRC>
-                <Timestamp>132814154238308699</Timestamp>
-                <InternalNotes>take from CORE (5,5MB), not Vanilla\r\n\r\ndisable  Session_Statistics_YK_Module_ColoredMessages \r\n- this WILL break EVERY micropatch\r\n- &amp; WG is releasing a lot of them</InternalNotes>
+              <Package PackageName="SessionStatistics_YK_Module_ColoredMessages" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yb8h71by2lo7kfpf" Name="Colored In-Game Messages" Type="multi" Visible="True">
+                <CRC>f</CRC>
+                <Timestamp>132826168213977945</Timestamp>
                 <Author>Quaksen</Author>
-                <Description>NOTE: this mod sets client language to english</Description>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
-                </Medias>
+                <Packages>
+                  <Package PackageName="SessionStatistics_YK_Module_ColoredMessages_Core" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vouwunpp45xljmr3" Name="Colored In-Game Messages (Core) -&gt; !! sets client language to english !!" Type="single_dropdown1" Visible="True">
+                    <Size>152680</Size>
+                    <ZipFile>SessionStatistics_YK_Module_ColoredMessages_Core_1.14.1.4_2021-11-28.zip</ZipFile>
+                    <CRC>f</CRC>
+                    <Timestamp>132826170188454135</Timestamp>
+                    <InternalNotes>take from CORE (5,5MB), not Vanilla\r\n\r\ndisable  Session_Statistics_YK_Module_ColoredMessages \r\n- this WILL break EVERY micropatch\r\n- &amp; WG is releasing a lot of them</InternalNotes>
+                    <Author>Quaksen</Author>
+                    <Description>NOTE: this mod sets client language to english</Description>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                  <Package PackageName="SessionStatistics_YK_Module_ColoredMessages_Vanilla" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ofdmb1681gqukobr" Name="Colored In-Game Messages (Vanilla) -&gt; !! sets client language to english !!" Type="single_dropdown1" Visible="True">
+                    <ZipFile>SessionStatistics_YK_Module_ColoredMessages_Vanilla_1.14.1.4_2021-11-28.zip</ZipFile>
+                    <CRC>f</CRC>
+                    <Timestamp>132826170091452188</Timestamp>
+                    <Author>Quaksen</Author>
+                    <Description>NOTE: this mod sets client language to english</Description>
+                    <Medias>
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
+                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
+                    </Medias>
+                  </Package>
+                </Packages>
               </Package>
               <Package PackageName="SessionStatistics_YK_Module_GraphicalBattleMessages" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8d0a2nwq31p3jyy3" Name="Graphical Battle Messages" Type="multi" Visible="True">
                 <Size>8747</Size>
-                <ZipFile>SessionStatistics_YK_Module_GraphicalBattleMessages_1.12.1.0_2021-04-22.zip</ZipFile>
-                <CRC>31919bd44ea25dc6cf4bddd6b4a6a39c</CRC>
-                <Timestamp>132635673862946494</Timestamp>
+                <ZipFile>SessionStatistics_YK_Module_GraphicalBattleMessages_1.14.1.4_2021-11-28.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132826170297484635</Timestamp>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
@@ -239,9 +257,9 @@
               </Package>
               <Package PackageName="SessionStatistics_YK_Module_Skulls" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2riiurl9ykrturgg" Name="Kill Skulls (alternative in-game battle messages)" Type="multi" Visible="True">
                 <Size>23490</Size>
-                <ZipFile>SessionStatistics_YK_Module_Skulls_1.14.1.3_2021-11-14.zip</ZipFile>
-                <CRC>f0730b321d4c6f0f44e146dee14fc330</CRC>
-                <Timestamp>132814154010707552</Timestamp>
+                <ZipFile>SessionStatistics_YK_Module_Skulls_1.14.1.4_2021-11-28.zip</ZipFile>
+                <CRC>f</CRC>
+                <Timestamp>132826170394183497</Timestamp>
                 <InternalNotes>- this WILL break EVERY micropatch</InternalNotes>
                 <Medias>
                   <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_3.jpg" MediaType="Picture" />
