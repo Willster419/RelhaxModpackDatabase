@@ -545,9 +545,9 @@
     <Maintainers>elektrosmoker; Willster419</Maintainers>
   </Dependency>
   <Dependency PackageName="Dependency_XVM_XC_vehiclenames" Enabled="True" Tags="ConfigurationFileXC" InstallGroup="6" PatchGroup="2" UID="fv2w9cfqwfpgp6gd">
-    <Size>8231</Size>
+    <Size>8280</Size>
     <ZipFile>Dependency_XVM_XC_vehiclenames_1.14.1.4_2021-12-04.zip</ZipFile>
-    <CRC>f</CRC>
+    <CRC>3f98e066db27931cb1728f26fe3e1e85</CRC>
     <Timestamp>132830560171232496</Timestamp>
     <DevURL>https://nightly.modxvm.com/download/master/xvm_latest.zip</DevURL>
     <InternalNotes>This dependency is set to every prebuilt in the database (except the default one) to maintain that the file is always up to date. \r\nPlease use the latest xvm archive to update the vehicleNames.xc every time a new tank was added to the game.\r\n</InternalNotes>
@@ -688,10 +688,10 @@
     <InternalNotes>We seem to have direct access to his mods without needing WGmods or his modpack installer.\r\n\r\nOne of his mirror download sites (https://promod.reidarty.de) allows https file browsing. For example, we can directly download from the following URL:\r\n\r\nhttps://promod.reidarty.de/promod/1.9.0.3/\r\n\r\nFor this one in particular, you can get it from "promod.zip"</InternalNotes>
   </Dependency>
   <Dependency PackageName="Dependency_PMOD" Enabled="True" Tags="Script" InstallGroup="2" PatchGroup="2" UID="ex0ocsm6tio4kknh">
-    <Size>2659242</Size>
+    <Size>2733972</Size>
     <Version>1.55.1</Version>
     <ZipFile>Dependency_PMOD_v1.55.1_1.14.1.4_2021-12-04_1.zip</ZipFile>
-    <CRC>f</CRC>
+    <CRC>6225911b42d5e11b7724e6e42a568529</CRC>
     <Timestamp>132831329508799712</Timestamp>
     <DevURL>https://wgmods.net/50/details/</DevURL>
     <InternalNotes>AS OF 2021-05-08, no longer have to manually modify the configuration! A patch exists to disable the small effects that are enabled by default.\r\n\r\n\r\n--- OLD INSTRUCTIONS ---\r\nhttps://docs.google.com/document/d/1DIYfQwfD46KWA3xLvqONjj_i54SlYy3F0YKZUc_U3JU/edit#heading=h.x2kg0opxs8h0\r\n\r\nDependency_PMOD\r\nThis mod is a series of smaller modifications that improve the player’s game, mostly by aiming. It also has a statistics feature. The special instructions for this mod is to manually disable all features in the configs when the mod is downloaded. The config is JSON. for each json file (except single.json and multiple.json), there is an “enable” at the top, to enable the module. Each one should be disabled. (Set enabled to false)\r\n\r\nIf using Notepad++, open all json files but "single.json", and search for "// true - enable the module." for each result in each file, make sure enable is false.\r\n\r\nCurrently (2021-02-09), only zoomDistance.json and onStartDeadDistance.json are ever to be true\r\n\r\n\r\n1.46.1\r\nrem improveIngameStatistic</InternalNotes>
