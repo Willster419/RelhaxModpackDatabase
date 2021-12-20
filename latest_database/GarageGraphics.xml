@@ -1703,7 +1703,7 @@
   </Package>
   <Package PackageName="GarageGraphics_Loading" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ou3n59jmtjbttf4z" Name="Loading graphics" Type="multi" Visible="True">
     <Packages>
-      <Package PackageName="GarageGraphics_Loading_Animation" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="i9kuxd95n2di48mc" Name="Loading Animation (wheel)" Type="multi" Visible="True">
+      <Package PackageName="GarageGraphics_Loading_Animation" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="i9kuxd95n2di48mc" Name="Loading Animation (gear/wheel)" Type="multi" Visible="True">
         <CRC>f</CRC>
         <Timestamp>132250424692950519</Timestamp>
         <InternalNotes>contains:\r\nwaiting.swf\r\nwaitingTransition.swf\r\nlogos.swf\r\n\r\nexchanged infopics in logos.swf and waiting.swf with transparent ones\r\n\r\nGauss:\r\n    L = only logo = logos.swf\r\nWT = waitingTransition.swf\r\n   W =waiting .swf\r\n\r\nFrom Who?\r\nL = only logo = logos.swf\r\nL/A = logo AND waiting animation = logos.swf + waiting.swf + waitingTransition.swf\r\nA = only waiting animation = logos.swf (with default logos, but award/info slots are transparent) + waiting.swf + waitingTransition.swf\r\n\r\n\r\n2021-05-02: Conversation with Elektro and Willster:\r\n- These mods use the same files as the global dependencies (SWF packages), so if they don't work, then these don't work and can be disabled\r\n\r\n\r\n\r\n</InternalNotes>
@@ -1924,7 +1924,7 @@
           </Package>
         </Packages>
       </Package>
-      <Package PackageName="GarageGraphics_Loading_LoginLogo" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="m53fqh6lrgb0d7ax" Name="Loading Logo (picture) at centre off login screen" Type="multi" Visible="True">
+      <Package PackageName="GarageGraphics_Loading_LoginLogo" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="m53fqh6lrgb0d7ax" Name="Loading Logo (picture) at center of login screen" Type="multi" Visible="True">
         <CRC>f</CRC>
         <Timestamp>132443232322464950</Timestamp>
         <InternalNotes>(LL) = Login Logo\r\n\r\n\r\nthis mod uses the res_mods folder.\r\nfiles: \r\n\tgui\maps\login\__login_logo.png\r\n\r\noptional (eg to make it transparent):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n</InternalNotes>
