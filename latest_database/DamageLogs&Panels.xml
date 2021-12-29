@@ -65,12 +65,13 @@
   <Package PackageName="DamagePanels" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="m1s7l2ltza398x6c" Name="Damage Panels" Type="multi" Visible="True">
     <InternalNotes>res\gui\flash\damagePanel.swf\r\n\r\nIf a package includes DAMAGE LOG config files, then include them here.\r\n\r\nIf the user installs damagelogs, then they will be used.</InternalNotes>
     <Packages>
-      <Package PackageName="DamagePanels_BionickTransparent" Enabled="True" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="t5htl5hctpxhj1vp" Name="&quot;Bionick&quot; transparent" Type="single_dropdown1" Visible="True">
+      <Package PackageName="DamagePanels_BionickTransparent" Enabled="False" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="t5htl5hctpxhj1vp" Name="&quot;Bionick&quot; transparent" Type="single_dropdown1" Visible="True">
         <Size>255599</Size>
         <ZipFile>DamagePanels_BionickTransparent_1.13.0.0_2021-06-28.zip</ZipFile>
         <CRC>c7e0302dc774b22d4217867dbc44fb11</CRC>
         <Timestamp>132693399313997554</Timestamp>
         <DevURL>http://wotsite.net/paneli-povrezhdenij/10331-peredelannaya-panel-povrezhdenij-ot-bionick-dlya-world-of-tanks.html</DevURL>
+        <Deprecated>True</Deprecated>
         <LastUpdateCheck>132852323013156802</LastUpdateCheck>
         <Description>GambitER´s damage log should be installed for full functionality. \nIt also works without dmg log - only thing missing would be that the current received hit (red text) will not be shown inside the damage panel.</Description>
         <Dependencies>
@@ -132,13 +133,14 @@
           <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Damage_Panel/Damage_Panel_Hawg_Glass_AngleIndicator_InnerLite.png" MediaType="Picture" />
         </Medias>
       </Package>
-      <Package PackageName="DamagePanels_LegacyBlue" Enabled="True" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="8ejkhjl8xgag3z5h" Name="&quot;Legacy&quot; blue " Type="single_dropdown1" Visible="True">
+      <Package PackageName="DamagePanels_LegacyBlue" Enabled="False" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="8ejkhjl8xgag3z5h" Name="&quot;Legacy&quot; blue " Type="single_dropdown1" Visible="True">
         <Size>285563</Size>
         <ZipFile>DamagePanels_LegacyBlue_1.13.0.0_2021-06-28.zip</ZipFile>
         <CRC>fa3583e3ce94bf20a2e2975546ff48c2</CRC>
         <Timestamp>132693405475636063</Timestamp>
         <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-</DevURL>
         <InternalNotes>"Синяя панель" - Blue Panel</InternalNotes>
+        <Deprecated>True</Deprecated>
         <LastUpdateCheck>132852323050008918</LastUpdateCheck>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_blue.jpg" MediaType="Picture" />
@@ -147,13 +149,14 @@
           <Dependency PackageName="Dependency_Fonts_10_ZurichCond" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="DamagePanels_LegacyDark" Enabled="True" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="vpd59jf7xkhy3nyh" Name="&quot;Legacy&quot; dark " Type="single_dropdown1" Visible="True">
+      <Package PackageName="DamagePanels_LegacyDark" Enabled="False" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="vpd59jf7xkhy3nyh" Name="&quot;Legacy&quot; dark " Type="single_dropdown1" Visible="True">
         <Size>289984</Size>
         <ZipFile>DamagePanels_LegacyDark_1.14.0.5_2021-10-09.zip</ZipFile>
         <CRC>3c0aff924df6135815f7479d3a80ab61</CRC>
         <Timestamp>132782946497243175</Timestamp>
         <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-</DevURL>
         <InternalNotes>"Темная панель" - Dark panel</InternalNotes>
+        <Deprecated>True</Deprecated>
         <LastUpdateCheck>132852323082926066</LastUpdateCheck>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_dark.jpg" MediaType="Picture" />
@@ -163,13 +166,14 @@
           <Dependency PackageName="Dependency_Fonts_10_ZurichCond" NotFlag="False" Logic="OR" />
         </Dependencies>
       </Package>
-      <Package PackageName="DamagePanels_LegacyMetall" Enabled="True" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="1bvyhfpo31g9sug4" Name="&quot;Legacy&quot; metallic " Type="single_dropdown1" Visible="True">
+      <Package PackageName="DamagePanels_LegacyMetall" Enabled="False" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="1bvyhfpo31g9sug4" Name="&quot;Legacy&quot; metallic " Type="single_dropdown1" Visible="True">
         <Size>335613</Size>
         <ZipFile>DamagePanels_LegacyMetall_1.14.0.5_2021-10-09_2.zip</ZipFile>
         <CRC>4bd6e9c1c8dc1879a086fdad28b2d772</CRC>
         <Timestamp>132782946294424606</Timestamp>
         <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-</DevURL>
         <InternalNotes>"Металлик панель" - Metalic Panel</InternalNotes>
+        <Deprecated>True</Deprecated>
         <LastUpdateCheck>132852323114625764</LastUpdateCheck>
         <Medias>
           <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_metall_0.jpg" MediaType="Picture" />
