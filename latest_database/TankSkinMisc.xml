@@ -100,29 +100,6 @@
       </Package>
     </Packages>
   </Package>
-  <Package PackageName="TankSkinPacks_HitZone" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w621u0vy28bs50t0" Name="_Hitzone SkinPacks_" Type="multi" Visible="True">
-    <Size>247850495</Size>
-    <CRC>f</CRC>
-    <Timestamp>132278238248417027</Timestamp>
-    <DevURL>https://koreanrandom.com/forum/topic/1400-\r\nhttp://hjundaj.com/mods/skins/contoured-hitzone-skins-by-korean-random</DevURL>
-    <InternalNotes>Note: On some maps and game types conflict with some  skins made by Deh0mbreS RENEWED by Sgt_Krollnikow51</InternalNotes>
-    <GreyAreaMod>True</GreyAreaMod>
-    <Dependencies>
-      <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
-    </Dependencies>
-    <Packages>
-      <Package PackageName="TankSkinPacks_HitZone_Colored" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="to3ha24kvgqzhswc" Name="Colored Contour Skins [by {author}]" Type="single1" Visible="True">
-        <Size>358073682</Size>
-        <Version>1.11.1.0</Version>
-        <ZipFile>TankSkinPacks_HitZoneSkins_Colored_SY+PY_1.11.1.1_2021-01-30.zip</ZipFile>
-        <CRC>2e8608024dace7370270265ad4123240</CRC>
-        <Timestamp>132565046230165061</Timestamp>
-        <DevURL>http://wotsite.net/zony-probitij/2114-shkurki-esteta-ot-sergeya-emets-dlya-world-of-tanks.html</DevURL>
-        <InternalNotes>How to update\r\n1.) Unzip "vehicles_Estet.wotmod"\r\n2.) Drag the folder "vehicles" from vehicles_Estet:\rsource: res\vehicles\skins\_textures\vehicles_Estet\vehicles\r\ndestination: res\vehicles\ \r\n3.) pack with 7zip (Save uncompress mode) to HitZone_Skins_Colored_SY+PY.wotmod\r\n4.) put *.wotmod to a new zip-file\r\n\r\n2020-01-30:\r\n2021-01-30 11:53:59.471: CRITICAL: [Exception] [Compound] Failed to load model vehicles/american/A83_T110E4/_skins/NY_3Dst/normal/lod0/Chassis.model! Compound building failed!</InternalNotes>
-        <Author>Sergey Yemets &amp; Polyacov_Yury</Author>
-      </Package>
-    </Packages>
-  </Package>
   <Package PackageName="TankSkinsMisc_Camo" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mwozgnwa30eyv9qy" Name="Camouflage management" Type="multi" Visible="True">
     <CRC>f</CRC>
     <Timestamp>132096939128029782</Timestamp>
@@ -500,26 +477,47 @@
       <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
     </Dependencies>
   </Package>
-  <Package PackageName="TankSkinsMisc_Skinner" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2slu2w5f8p92u7bn" Name="Skinner (needs installed tank skins) [by {author}]" Type="multi" Visible="True">
+  <Package PackageName="TankSkinsMisc_Skinner" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2slu2w5f8p92u7bn" Name="Tank Skin Management (Skinner) (Hitzone skins)" Type="multi" Visible="True">
     <Size>45634</Size>
-    <Version>1.2.1 (19.10)</Version>
-    <ZipFile>TankSkinsMisc_Skinner_1.2.1-19.10_1.14.1.2_2021-10-31.zip</ZipFile>
-    <CRC>e7bacdfae1e72730af55cb9e636cb790</CRC>
-    <Timestamp>132801979936710305</Timestamp>
-    <DevURL>https://wgmods.net/2823/</DevURL>
-    <InternalNotes>https://yadi.sk/d/CzrP8LIplUDWSg</InternalNotes>
-    <Author>Polyacov_Yury</Author>
-    <Description>WARNING - Possible issues when using gun sound mods!\r\n&gt;\r\nThis mod dynamically edits vehicle model paths, which enables it to selectively apply weakspot skins only on your vehicle, allies and/or enemies. Also it can add so-called “dynamic” skins - the ones that only appear on a vehicle you are looking at. Vehicles affected by RemodEnabler are not processed. All configuration can be made in hangar.\r\n&gt;\r\nHotkeys (hangar only):\r\nCtrl+F1 - enables a dynamic skin on current vehicle if it is present. (You need to switch to ally or enemy preview mode, because the player can never have a dynamic skin applied.)\r\nCtrl+F2 - cycles between vehicle preview modes (Player -&gt; Ally -&gt; Enemy -&gt; Player…).</Description>
-    <FromWGmods>True</FromWGmods>
-    <Medias>
-      <Media URL="https://wgmods.net/media/shot_364.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/shot_367.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/shot_366.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-    </Medias>
+    <CRC>f</CRC>
+    <Timestamp>132852158480756188</Timestamp>
+    <Description>To date, the game World of Tanks has more than 360 types of various vehicles and we meet all these tanks in battles. Most of them have penetration zones, which are located in different places depending on the type and model of the tank. To make it easier for you to navigate in all this, modders have created aesthete skins. Thanks to them, you can forget about constant non-penetrations and ricochets.\r\n\r\nUnlike other penetration zones , the penetration zones of esthete tanks do not take up so much space on the tank and, due to this, do not spoil its appearance. After all, a lot of tankers refused to put penetration skins just because their tanks turned into painted boxes, which they really didn’t like. With these skins of penetration, all vulnerable areas will only be outlined with colored outlines and the appearance of the tank will not suffer.\r\n\r\nFor greater convenience, icons have been added to the contours of the penetration zones, which will indicate the locations of the crew members. Therefore, by installing these skins of penetration, you can not only successfully hit the enemy tanks, but in addition, concussion any crew member without any problems. In our opinion, this is one of the most optimal breakout zones for WOT. The archive contains skins of vulnerable spots for tanks from 4 to 10 levels. This is one of the largest packs of skins with zones of penetration. \r\n\r\nDescription of the color of the outlines of vulnerabilities:\r\n\r\n    Red is the most penetrable place;\r\n    Purple - the outline of the ammo rack.\r\n    Green - engine outlines.\r\n    Blue - the contours of the fuel tank.\r\n</Description>
     <Dependencies>
       <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
       <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
     </Dependencies>
+    <Packages>
+      <Package PackageName="TankSkinsMisc_Skinner_Polyacov_Yury" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ocfj3vu3n0rffhj5" Name="By {Author}" Type="multi" Visible="True">
+        <Version>1.2.1 (19.10)</Version>
+        <ZipFile>TankSkinsMisc_Skinner_Polyacov_Yury_1.2.1 (19.10)_1.15.0.0_2021-12-28.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132852215470308142</Timestamp>
+        <DevURL>https://wgmods.net/2823/\r\nhttps://wotsite.net/zony-probitij/2114-</DevURL>
+        <InternalNotes>another source:\r\nhttps://yadi.sk/d/CzrP8LIplUDWSg</InternalNotes>
+        <Author>Polyacov_Yury</Author>
+        <Description>WARNING - Possible issues when using gun sound mods!\r\n&gt;\r\nThis mod dynamically edits vehicle model paths, which enables it to selectively apply weakspot skins only on your vehicle, allies and/or enemies. Also it can add so-called “dynamic” skins - the ones that only appear on a vehicle you are looking at. Vehicles affected by RemodEnabler are not processed. All configuration can be made in hangar.\r\n&gt;\r\nHotkeys (hangar only):\r\nCtrl+F1 - enables a dynamic skin on current vehicle if it is present. (You need to switch to ally or enemy preview mode, because the player can never have a dynamic skin applied.)\r\nCtrl+F2 - cycles between vehicle preview modes (Player -&gt; Ally -&gt; Enemy -&gt; Player…).</Description>
+        <ObfuscatedMod>True</ObfuscatedMod>
+        <FromWGmods>True</FromWGmods>
+        <Dependencies>
+          <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+      <Package PackageName="TankSkinsMisc_Skinner_protanki" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rk4cmmnlr3vel93a" Name="By {Author}" Type="multi" Visible="True">
+        <Version>2.8</Version>
+        <ZipFile>TankSkinsMisc_Skinner_protanki_1.15.0.0_2021-12-28.zip</ZipFile>
+        <CRC>f</CRC>
+        <Timestamp>132852253046815909</Timestamp>
+        <DevURL>https://wotsite.net/zony-probitij/2114-</DevURL>
+        <Author>PROtanki</Author>
+        <ObfuscatedMod>True</ObfuscatedMod>
+        <Dependencies>
+          <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+          <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+        </Dependencies>
+      </Package>
+    </Packages>
   </Package>
 </Category>
