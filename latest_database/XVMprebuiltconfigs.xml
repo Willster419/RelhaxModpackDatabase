@@ -1,12 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Category Name="XVM prebuilt configs" OffsetInstallGroups="True">
-  <Maintainers>elektrosmoker, Willster419</Maintainers>
-  <Dependencies>
-    <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_PROFICIENCY_missingPicsFix" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_FLAGS_missingPicsFix" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missingPicsFix" NotFlag="False" Logic="OR" />
-  </Dependencies>
+<Maintainers>elektrosmoker, Willster419</Maintainers>
+<Dependencies>
+  <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
+  <Dependency PackageName="Dependency_XVM_PROFICIENCY_missingPicsFix" NotFlag="False" Logic="OR" />
+  <Dependency PackageName="Dependency_XVM_FLAGS_missingPicsFix" NotFlag="False" Logic="OR" />
+  <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missingPicsFix" NotFlag="False" Logic="OR" />
+</Dependencies>
+<Packages>
   <Package PackageName="XVMPrebuiltConfigs_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="855gkql972me13bn" Name="1 - XVM Default" Type="single1" Visible="True">
     <Size>1101</Size>
     <ZipFile>XVM_Prebuilt_Configs_Default_2017_03-24.zip</ZipFile>
@@ -48,13 +49,13 @@
         <DevURL>https://github.com/elektrosmoker/XVMPrebuiltOwn</DevURL>
         <Description>One of the biggest XVM prebuilts around, \nincluding most of the options provided in the xvm config builder section\n----------------------------------------------------------------------------------------------------------------\nNOT fully compatible to XVM_Config_Builder (only partially)\n\nKudos go out to:\n\nOMC (Grumpelumpf), \nnight_dragon_on, \nktulho,  \nDiclovit, \nOldSkool, \nSolo,\nRess, \nAslain, \nJ1mb0, \nHeliomalt, \nSmashPuppet, \nKornet_WA, \nMIAPAK, \nKotyarko_O, \nTornado_Odan_Rot,</Description>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_02.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_03.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_04.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_05.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_06.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_07.jpg" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_02.jpg" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_03.jpg" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_04.jpg" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_05.jpg" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_06.jpg" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_07.jpg" />
         </Medias>
         <ConflictingPackages>XVMconfigBuilder_GLOBAL</ConflictingPackages>
         <Dependencies>
@@ -127,12 +128,12 @@
         <Description>Config by Willster419. Originaly based on stock xvm config.\nIncludes an hp pool and minimap hp circles</Description>
         <UpdateComment>2020-08-14: re-synced config options with xvm template\r\n2019-11-10: finally fixed the issue with the level icons\n2019-03-23: updated dmg/hitlog.xc\n2019-03-13: removed vehiclenames.xc\n2019-02-27: fix [ "w"-&gt; "width" ]\n2019-02-09: repairTimeTracks -&gt; repairTimeComplex\n2018-12-16: re-synced config options iwth xvm template. Fixed alignment of players panel, statistic form (tab), battle loading screen\n2018-09-01: re-synced config options with xvm template. Used refs for markers of player and squadman rather than having multiple definitions of the same thing.\n2018-07-04: added new vehicle names\n2018-06-23: re-synced config options with xvm template\n2018-03-23: re-synced config options with xvm template\n2017-11-15: moved hp cirlces from always on to on when left alt pressed (fps issues)\n2017-10-01: fixed hp circles to actually by hp circles\n2017-09-06: fixed capture bar issues\n2017-06-03: changed clock from 24 hour to 12 hour format with am/pm marker. Disabled blocking of stock WoT damage log. Disabled xvm eff in battle.</UpdateComment>
         <Medias>
-          <Media URL="http://fs5.directupload.net/images/user/160816/y76dgx3v.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/160816/igjoy9er.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/160816/ecpzcljv.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/170105/hqdrzc8g.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/170105/57effbeu.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/170105/iy78ukly.jpg" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/160816/y76dgx3v.jpg" />
+          <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/160816/igjoy9er.jpg" />
+          <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/160816/ecpzcljv.jpg" />
+          <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/170105/hqdrzc8g.jpg" />
+          <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/170105/57effbeu.jpg" />
+          <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/170105/iy78ukly.jpg" />
         </Medias>
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_disableXVMGunSights" Enabled="False" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="64cqszfxp9xhzslp" Name="disable elektrosmoker´s xvm gunsights" Type="multi" Visible="True">
@@ -155,8 +156,8 @@
     <Description>OMC XVM Config. Offers many of the options that were first in the OMC config. Maintained by Relhax Modpack Team</Description>
     <UpdateComment>2019-08-29: fixed issues with markers, hitlog\r\n2019-05-17: fixed total eff (FL)\r\n2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc\n2018-09-01: Rebuilt entire config to match xvm template standards</UpdateComment>
     <Medias>
-      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_OMC_2.jpg" MediaType="Picture" />
-      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_OMC_1.png" MediaType="Picture" />
+      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_OMC_2.jpg" />
+      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_OMC_1.png" />
     </Medias>
     <Dependencies>
       <Dependency PackageName="Dependency_Fonts_Inconsolata" NotFlag="False" Logic="OR" />
@@ -248,12 +249,12 @@
         <Description>Bones's Config\n\nwith HP on minimap</Description>
         <UpdateComment>2019-05-17: hitlog; total ef\r\n2019-03-23:hit/dmf-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
         <Medias>
-          <Media URL="http://fs1.directupload.net/images/user/150113/qpgv6v4f.jpg" MediaType="Picture" />
-          <Media URL="http://fs2.directupload.net/images/user/150113/xcwnuz54.jpg" MediaType="Picture" />
-          <Media URL="http://fs2.directupload.net/images/user/150113/s5blk6vz.jpg" MediaType="Picture" />
-          <Media URL="http://fs2.directupload.net/images/user/150113/3aeri5pj.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/160816/pupyyjmp.jpg" MediaType="Picture" />
-          <Media URL="http://i.imgur.com/4kAPdZQ.jpg" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://fs1.directupload.net/images/user/150113/qpgv6v4f.jpg" />
+          <Media MediaType="Picture" URL="http://fs2.directupload.net/images/user/150113/xcwnuz54.jpg" />
+          <Media MediaType="Picture" URL="http://fs2.directupload.net/images/user/150113/s5blk6vz.jpg" />
+          <Media MediaType="Picture" URL="http://fs2.directupload.net/images/user/150113/3aeri5pj.jpg" />
+          <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/160816/pupyyjmp.jpg" />
+          <Media MediaType="Picture" URL="http://i.imgur.com/4kAPdZQ.jpg" />
         </Medias>
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_VA_Druid" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1lkffai8zoms7az4" Name="Druid v{version}" Type="single_dropdown1" Visible="True">
@@ -266,8 +267,8 @@
         <Deprecated>True</Deprecated>
         <UpdateComment>2019-03-23:hit/dmg-log\n2019-03-13: removed vehiclenames.xc\n2019-01-06: renewed markersalivenormal.xc\n                    fixed overlapping totalefficiency/hitlog\n2018-09-01: Updated to xvm template stnadard</UpdateComment>
         <Medias>
-          <Media URL="http://i.imgur.com/9akX8VH.jpg" MediaType="Picture" />
-          <Media URL="http://i.imgur.com/e4WkGAf.jpg" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://i.imgur.com/9akX8VH.jpg" />
+          <Media MediaType="Picture" URL="http://i.imgur.com/e4WkGAf.jpg" />
         </Medias>
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_VA_J1mB0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sh33nggcmg3ouvlu" Name="J1mB0 v{version}" Type="single_dropdown1" Visible="True">
@@ -279,10 +280,10 @@
         <Description>J1mB0's Config, updated for modern xvm configuration standards by the Relhax Modpack team.</Description>
         <UpdateComment>2019-03-23: hit7dm,g-log\n2019-03-13: removed vehiclenames.xc\n2018-09-01: Updated for new xvm config templage standards</UpdateComment>
         <Medias>
-          <Media URL="http://i.imgur.com/2bm1H04.png" MediaType="Picture" />
-          <Media URL="http://i.imgur.com/r1BsiSL.png" MediaType="Picture" />
-          <Media URL="http://i.imgur.com/mytpRoG.png" MediaType="Picture" />
-          <Media URL="http://i.imgur.com/ar2TFi3.png" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://i.imgur.com/2bm1H04.png" />
+          <Media MediaType="Picture" URL="http://i.imgur.com/r1BsiSL.png" />
+          <Media MediaType="Picture" URL="http://i.imgur.com/mytpRoG.png" />
+          <Media MediaType="Picture" URL="http://i.imgur.com/ar2TFi3.png" />
         </Medias>
       </Package>
       <Package PackageName="XVMPrebuiltConfigs_VA_Oldskool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hvgw3fsel8onuizt" Name="Oldskool (ProMod) v{version}" Type="single_dropdown1" Visible="True">
@@ -307,14 +308,15 @@
         <Description>Want to play as good as Quickybaby? Install his XVM config and get in the game!</Description>
         <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_6.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_1.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_2.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_3.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_4.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_5.png" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_6.png" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_1.png" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_2.png" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_3.png" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_4.png" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_5.png" />
         </Medias>
       </Package>
     </Packages>
   </Package>
+</Packages>
 </Category>

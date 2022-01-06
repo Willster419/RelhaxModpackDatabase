@@ -1,13 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Category Name="XVM config builder" OffsetInstallGroups="True">
-  <Maintainers>elektrosmoker</Maintainers>
-  <Dependencies>
-    <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_XC_RelhaxLoginCredits" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missingPicsFix" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_PROFICIENCY_missingPicsFix" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_FLAGS_missingPicsFix" NotFlag="False" Logic="OR" />
-  </Dependencies>
+<Maintainers>elektrosmoker</Maintainers>
+<Dependencies>
+  <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
+  <Dependency PackageName="Dependency_XVM_XC_RelhaxLoginCredits" NotFlag="False" Logic="OR" />
+  <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missingPicsFix" NotFlag="False" Logic="OR" />
+  <Dependency PackageName="Dependency_XVM_PROFICIENCY_missingPicsFix" NotFlag="False" Logic="OR" />
+  <Dependency PackageName="Dependency_XVM_FLAGS_missingPicsFix" NotFlag="False" Logic="OR" />
+</Dependencies>
+<Packages>
   <Package PackageName="XVMconfigBuilder_BuildSelector" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1obybhuzekac5yw6" Name="-----[Build Selector]----- (choose between Stable and Nightly)" Type="single1" Visible="True">
     <Author>elektrosmoker</Author>
     <Packages>
@@ -156,7 +157,7 @@
                 <CRC>574f7748d99880880b47cb6a663eab0f</CRC>
                 <Description>Show the first tab in the results page. (Game summary)</Description>
                 <Medias>
-                  <Media URL="https://puu.sh/z83ft/896b242937.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="https://puu.sh/z83ft/896b242937.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMconfigBuilder_BattleResults_BattleResultsPage_2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="z7lteeh7htg1kzk3" Name="init page 2" Type="single_dropdown1" Visible="True">
@@ -270,7 +271,7 @@
             <Timestamp>132182358168098756</Timestamp>
             <Description>Disable the XVM carousel</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/disable_xvm_cells_header.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/disable_xvm_cells_header.png" />
             </Medias>
           </Package>
           <Package PackageName="XVMconfigBuilder_Carousel_enable" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5c67hyj78c9wqihl" Name="enable XVM tank slot information" Type="single1" Visible="True">
@@ -280,7 +281,7 @@
             <Timestamp>132182358993212187</Timestamp>
             <Description>Enable the XVM carousel</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/enable_xvm_cells_header_message.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/enable_xvm_cells_header_message.png" />
             </Medias>
             <ConflictingPackages>Garage_Mods_Auxilium_Carousel</ConflictingPackages>
             <Packages>
@@ -290,7 +291,7 @@
                   <Package PackageName="XVMconfigBuilder_Carousel_Slots_default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vqk1xxw965uwq5vk" Name="modify default slots" Type="single1" Visible="True">
                     <Description>Use the carousel cell settings from the xvm config you selected in the XVM prebuilt configs tab</Description>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/enable_xvm_cells_header_message.png" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/enable_xvm_cells_header_message.png" />
                     </Medias>
                     <Packages>
                       <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p418p1mr1owl1ydx" Name="normal sized" Type="single1" Visible="True">
@@ -299,13 +300,13 @@
                         <CRC>252b23d71f048ce55f353edfbf05a6f5</CRC>
                         <Timestamp>132182346362099620</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" />
                         </Medias>
                         <Packages>
                           <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_Scale_1.0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2t8nx0ss0ko31akx" Name="1.0 Scale" Type="single_dropdown1" Visible="True">
                             <Description>Normal size of the carousel</Description>
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" />
                             </Medias>
                           </Package>
                           <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_Scale_0.8" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w8pup4ibv3qsc32a" Name="0.8 scale" Type="single_dropdown1" Visible="True">
@@ -315,7 +316,7 @@
                             <Timestamp>132182347730583646</Timestamp>
                             <Description>Reduce the size of the carousel overall by a factor of 0.8</Description>
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" />
                             </Medias>
                           </Package>
                           <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_Scale_0.6" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9xw9x3ocv0jace9a" Name="0.6 scale" Type="single_dropdown1" Visible="True">
@@ -325,12 +326,12 @@
                             <Timestamp>132182349571981298</Timestamp>
                             <Description>Reduce the size of the carousel overall by a factor of 0.6</Description>
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" />
                             </Medias>
                           </Package>
                           <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_AverageDamage" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mm2o53uduwbscqga" Name="Average Damage" Type="multi" Visible="True">
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/average_damage_header.png" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/average_damage_header.png" />
                             </Medias>
                             <Packages>
                               <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_AverageDamage_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="g0kvx6kwpfdhojyn" Name="Enable" Type="single_dropdown1" Visible="True">
@@ -339,7 +340,7 @@
                                 <CRC>d7a71e4b129eeceabed995a0fd41da12</CRC>
                                 <Timestamp>132182345178183767</Timestamp>
                                 <Medias>
-                                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/average_damage_header.png" MediaType="Picture" />
+                                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/average_damage_header.png" />
                                 </Medias>
                               </Package>
                               <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_AverageDamage_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tpqa56qxoc5zov6n" Name="Disable" Type="single_dropdown1" Visible="True">
@@ -348,14 +349,14 @@
                                 <CRC>77c52119bef66102e525e31d05242e2a</CRC>
                                 <Timestamp>132182345218447144</Timestamp>
                                 <Medias>
-                                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/average_damage_header.png" MediaType="Picture" />
+                                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/average_damage_header.png" />
                                 </Medias>
                               </Package>
                             </Packages>
                           </Package>
                           <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_BattlesCount" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6expd5wyn8xho6dm" Name="Battles Count" Type="multi" Visible="True">
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/battles_count_header.png" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/battles_count_header.png" />
                             </Medias>
                             <Packages>
                               <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_BattlesCount_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0tew59mhirz6zzv0" Name="Enable" Type="single_dropdown1" Visible="True">
@@ -364,7 +365,7 @@
                                 <CRC>98a9e81c273679ac3f6a5ed93d57004e</CRC>
                                 <Timestamp>132182345281664158</Timestamp>
                                 <Medias>
-                                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/battles_count_header.png" MediaType="Picture" />
+                                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/battles_count_header.png" />
                                 </Medias>
                               </Package>
                               <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_BattlesCount_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dilbd8sihosozb2z" Name="Disable" Type="single_dropdown1" Visible="True">
@@ -373,14 +374,14 @@
                                 <CRC>d2252e3f9b8ad6848649a0b995728ed3</CRC>
                                 <Timestamp>132182345316666366</Timestamp>
                                 <Medias>
-                                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/battles_count_header.png" MediaType="Picture" />
+                                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/battles_count_header.png" />
                                 </Medias>
                               </Package>
                             </Packages>
                           </Package>
                           <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_WinRate" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7w3j5ci1c7uea4kd" Name="Win Rate" Type="multi" Visible="True">
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/win_rate_header.png" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/win_rate_header.png" />
                             </Medias>
                             <Packages>
                               <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_WinRate_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kl9xdco2b3mvafrc" Name="Enable" Type="single_dropdown1" Visible="True">
@@ -389,7 +390,7 @@
                                 <CRC>59681ab568bc86b32a6b26ac16cb046f</CRC>
                                 <Timestamp>132182345353837767</Timestamp>
                                 <Medias>
-                                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/win_rate_header.png" MediaType="Picture" />
+                                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/win_rate_header.png" />
                                 </Medias>
                               </Package>
                               <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_WinRate_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="xagclbu3b0edaryc" Name="Disable" Type="single_dropdown1" Visible="True">
@@ -398,7 +399,7 @@
                                 <CRC>55a79ec9661dfe0b2c75a70823086e27</CRC>
                                 <Timestamp>132182345428115029</Timestamp>
                                 <Medias>
-                                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/win_rate_header.png" MediaType="Picture" />
+                                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/win_rate_header.png" />
                                 </Medias>
                               </Package>
                             </Packages>
@@ -418,12 +419,12 @@
                         <CRC>d0076f4d2df014a9ea3515fca63e0145</CRC>
                         <Timestamp>132182345488744148</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" />
                         </Medias>
                         <Packages>
                           <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Small_WinRate" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="4e4zleqn5f8klwop" Name="Win Rate" Type="multi" Visible="True">
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/small_cells_wr.png" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/small_cells_wr.png" />
                             </Medias>
                             <Packages>
                               <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Small_WinRate_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="h3aetewo4b12l7vp" Name="Enable" Type="single_dropdown1" Visible="True">
@@ -432,7 +433,7 @@
                                 <CRC>31861d173f9fd93130182dcf84222ea4</CRC>
                                 <Timestamp>132182345549218343</Timestamp>
                                 <Medias>
-                                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/small_cells_wr.png" MediaType="Picture" />
+                                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/small_cells_wr.png" />
                                 </Medias>
                               </Package>
                               <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Small_WinRate_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bhsllim7zv3sw0d2" Name="Disable" Type="single_dropdown1" Visible="True">
@@ -441,7 +442,7 @@
                                 <CRC>d503586bac8f0d892b6c27348b4456c0</CRC>
                                 <Timestamp>132182345585676601</Timestamp>
                                 <Medias>
-                                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/small_cells_wr.png" MediaType="Picture" />
+                                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/small_cells_wr.png" />
                                 </Medias>
                               </Package>
                             </Packages>
@@ -455,7 +456,7 @@
                         <Timestamp>132179041052680399</Timestamp>
                         <Description>Shows the tankname in the tankcarousel with limited Matchmaking in different colors</Description>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/tank_carousel/XVM_config_builder_TankCarousel_Tanks_with_limited_MM_Green.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/tank_carousel/XVM_config_builder_TankCarousel_Tanks_with_limited_MM_Green.png" />
                         </Medias>
                         <Packages>
                           <Package PackageName="XVMConfigBuilder_Carousel_Slots_default_coloredTanksLimitedMM_Dodger_Blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ilg7kliqtaxz852f" Name="Dodger blue" Type="single_dropdown1" Visible="True">
@@ -499,7 +500,7 @@
                         <Timestamp>132157074841036121</Timestamp>
                         <Description>Use the carousel cell settings donated to us from CaronteShinigami</Description>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_carousel_CaronteShinigami.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_carousel_CaronteShinigami.png" />
                         </Medias>
                         <Packages>
                           <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_CaronteShinigami_1.0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="m6590qmwfy6du2v4" Name="1.0 Scale" Type="single_dropdown1" Visible="True">
@@ -509,7 +510,7 @@
                             <Timestamp>132157078676514366</Timestamp>
                             <Description>Normal carousell cell size</Description>
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_carousel_CaronteShinigami.png" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_carousel_CaronteShinigami.png" />
                             </Medias>
                           </Package>
                           <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_CaronteShinigami_0.8" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zvco8qsxfuyuud24" Name="0.8 Scale" Type="single_dropdown1" Visible="True">
@@ -519,7 +520,7 @@
                             <Timestamp>132157078459940900</Timestamp>
                             <Description>Reduce the size of the carousel overall by a factor of 0.8</Description>
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_carousel_CaronteShinigami.png" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_carousel_CaronteShinigami.png" />
                             </Medias>
                           </Package>
                           <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_CaronteShinigami_coloredTanksLimitedMM" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="t9tw0tig9d0k56kh" Name="colorize names for tanks with limited matchmaking" Type="multi" Visible="True">
@@ -564,7 +565,7 @@
                         <DevURL>https://aslain.com/index.php?/topic/14687-maxdata-carousel/</DevURL>
                         <Description>1. chevron indicates players overall WN8 rating\r\n2. chevron indicates average damage for this tank\r\n3. chevron indicates efficiency for this tank\r\n\r\n The green square indicates 1MoE, the two grey squares indicate that 2MoE are still missing. ;)\r\n\r\nThe 3 icons in the lower right show which camo is installed.</Description>
                         <Medias>
-                          <Media URL="https://aslain.com/uploads/monthly_2019_09/DD_Carousel_001.png.e5ae49adffcd5fe8a4ec20ccc5d0d6f9.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="https://aslain.com/uploads/monthly_2019_09/DD_Carousel_001.png.e5ae49adffcd5fe8a4ec20ccc5d0d6f9.png" />
                         </Medias>
                         <Dependencies>
                           <Dependency PackageName="Dependency_XVM_Images_Maxdata" NotFlag="False" Logic="OR" />
@@ -653,7 +654,7 @@
                         <Timestamp>132516392048611543</Timestamp>
                         <Description>1. chevron indicates players overall WN8 rating\r\n2. chevron indicates average damage for this tank\r\n3. chevron indicates efficiency for this tank\r\n\r\n The green square indicates 1MoE, the two grey squares indicate that 2MoE are still missing. ;)\r\n\r\nThe 3 icons in the lower right show which camo is installed.</Description>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_Carousel_Slots_Maxdata_elektro.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_Carousel_Slots_Maxdata_elektro.png" />
                         </Medias>
                         <Dependencies>
                           <Dependency PackageName="Dependency_XVM_Images_Maxdata" NotFlag="False" Logic="OR" />
@@ -699,7 +700,7 @@
                     <CRC>19f0f3bee4ea7260932301f9869e4434</CRC>
                     <Timestamp>132182351352477940</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" />
                     </Medias>
                     <Packages>
                       <Package PackageName="XVMconfigBuilder_Carousel_Slots_buyTank_hide_totalSlots_hide" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zh6szkx8gsh09dc0" Name="Hide cell" Type="single_dropdown1" Visible="True">
@@ -708,7 +709,7 @@
                         <CRC>fe05310a2cba162ade94b0e9d1f38df1</CRC>
                         <Timestamp>132182352357537714</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" />
                         </Medias>
                       </Package>
                       <Package PackageName="XVMconfigBuilder_Carousel_Slots_buyTank_show_totalSlots_hide" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tvnzronrabjqk6ue" Name="Show cell, hide total slots" Type="single_dropdown1" Visible="True">
@@ -717,7 +718,7 @@
                         <CRC>c4ceca7bbbd947f4b80a7d054ce61535</CRC>
                         <Timestamp>132182352503339803</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" />
                         </Medias>
                       </Package>
                       <Package PackageName="XVMconfigBuilder_Carousel_Slots_buyTank_show_totalSlots_show" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6kuezotra8b7ki1d" Name="Show cell, show total slots" Type="single_dropdown1" Visible="True">
@@ -726,7 +727,7 @@
                         <CRC>174d589c3ede98fb1137cb10cd30dc71</CRC>
                         <Timestamp>132182353467358982</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" />
                         </Medias>
                       </Package>
                     </Packages>
@@ -737,7 +738,7 @@
                     <CRC>119c5e8b5e868a84d80c32abf2b7faef</CRC>
                     <Timestamp>132182354239153642</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" />
                     </Medias>
                     <Packages>
                       <Package PackageName="XVMconfigBuilder_Carousel_Slots_buySlot_hide_usedSlots_hide" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="doi0zrqb4n6fvmqq" Name="Hide cell" Type="single_dropdown1" Visible="True">
@@ -746,7 +747,7 @@
                         <CRC>ba9f29c2fb15b7a774ca16b69de0139a</CRC>
                         <Timestamp>132182354817133188</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" />
                         </Medias>
                       </Package>
                       <Package PackageName="XVMconfigBuilder_Carousel_Slots_buySlot_show_usedSlots_hide" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qdof7qwc3kywvyyq" Name="Show cell, hide total used slots" Type="single_dropdown1" Visible="True">
@@ -755,7 +756,7 @@
                         <CRC>3e860659b7e787810fee5b44e0982f3f</CRC>
                         <Timestamp>132182354893295799</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" />
                         </Medias>
                       </Package>
                       <Package PackageName="XVMconfigBuilder_Carousel_Slots_buySlot_show_usedSlots_show" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kr6nzumvy30m6rg3" Name="Show cell, show total used slots" Type="single_dropdown1" Visible="True">
@@ -764,7 +765,7 @@
                         <CRC>98829f0e4fa6b7a0254587dd4a92be0e</CRC>
                         <Timestamp>132182356074010075</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" />
                         </Medias>
                       </Package>
                     </Packages>
@@ -854,7 +855,7 @@
                         <ZipFile>XVM_config_builder_clock_12_hour_9-28-2017_1.zip</ZipFile>
                         <CRC>ba32f370e54c6b782fcda9fb42644f70</CRC>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_12.jpg" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_12.jpg" />
                         </Medias>
                       </Package>
                       <Package PackageName="XVMconfigBuilder_GarageInterface_Clock_TimeFormat_24hour" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="cpfs27wr0r53q0xv" Name="24 hour" Type="single_dropdown1" Visible="True">
@@ -863,7 +864,7 @@
                         <CRC>5d73bec0807096505102d547b0a8cbe0</CRC>
                         <Timestamp>132464911735535984</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_24.jpg" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_24.jpg" />
                         </Medias>
                       </Package>
                     </Packages>
@@ -874,7 +875,7 @@
                     <CRC>e360b8c116929c59b5c8bd8992a5dc4a</CRC>
                     <Description>Changes the color of the clock to Blue.</Description>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_Blue.jpg" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Clock_Blue.jpg" />
                     </Medias>
                   </Package>
                 </Packages>
@@ -889,8 +890,8 @@
           </Package>
           <Package PackageName="XVMconfigBuilder_GarageInterface_userInfo" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wiauaaycu2rs1hu7" Name="Userinfo (Service Record)" Type="multi" Visible="True">
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_UserInfo_01.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_UserInfo_02.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_UserInfo_01.png" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_UserInfo_02.png" />
             </Medias>
             <Packages>
               <Package PackageName="XVMconfigBuilder_GarageInterface_userInfo_contactsStartPage" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qwr12eovomthdacl" Name="initial page for other players service records" Type="multi" Visible="True">
@@ -1016,11 +1017,11 @@
             <Timestamp>132183687800149769</Timestamp>
             <Description>shows more detailed info about active reserves</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo_01.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo_02.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo_03.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo_04.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo_01.png" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo_02.png" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo_03.png" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo_04.png" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo.jpg" />
             </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
@@ -1032,13 +1033,13 @@
             <LogAtInstall>False</LogAtInstall>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_ServerPingInfo_01.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_ServerPingInfo_01.png" />
             </Medias>
           </Package>
           <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPing" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="u1kod7lkxbxggii5" Name="Server Ping" Type="multi" Visible="True">
             <Description>Shows the ping delay (in ms) of the server(s)</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_ServerPingInfo_01.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_ServerPingInfo_01.png" />
             </Medias>
             <Packages>
               <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPing_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7qq3l6rlw8pygtq4" Name="Disabled" Type="single_dropdown1" Visible="True">
@@ -1059,7 +1060,7 @@
             <CRC>3283d6da32ed0d7f82970811ffdf6a06</CRC>
             <Description>Display number of people on the server</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_ServerPingInfo_01.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_ServerPingInfo_01.png" />
             </Medias>
             <Packages>
               <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPopulations_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ril5t9t6pkcnsamh" Name="Disabled" Type="single_dropdown1" Visible="True">
@@ -1261,7 +1262,7 @@
           <Package PackageName="XVMconfigBuilder_GarageInterface_FreeXPLocker" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cff3jem48sde4n0g" Name="Free XP Locker" Type="multi" Visible="True">
             <Description>Prevent you from using free xp in your garage</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_XP_locker.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_XP_locker.jpg" />
             </Medias>
             <ConflictingPackages>Garage_mods_Auxilium_settings_FreeXP_Locker</ConflictingPackages>
             <Packages>
@@ -1280,7 +1281,7 @@
           <Package PackageName="XVMconfigBuilder_GarageInterface_GoldLocker" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w7a4rgop2403f4wt" Name="Gold Locker" Type="multi" Visible="True">
             <Description>Prevents you from using gold in your garage</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Gold_Locker.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Gold_Locker.jpg" />
             </Medias>
             <ConflictingPackages>Garage_mods_Auxilium_settings_Gold_Locker</ConflictingPackages>
             <Packages>
@@ -1344,7 +1345,7 @@
           <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="roiufrrzcjqdola8" Name="Crew Auto-return" Type="multi" Visible="True">
             <Description>Automatically return your crew between tanks</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return.jpg" />
             </Medias>
             <ConflictingPackages>Garage_mods_Auxilium_settings_auto_crew_return</ConflictingPackages>
             <Packages>
@@ -1439,7 +1440,7 @@
             <Timestamp>132071364078180269</Timestamp>
             <Description>this show your current session´s time, win count and win percent.\r\nthis also disables the text for the battle type selector button for better placement.</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_SessionInfo.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_SessionInfo.png" />
             </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
@@ -1448,7 +1449,7 @@
           <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="xt38ibtz32j9u46q" Name="Garage Statistics" Type="multi" Visible="True">
             <Description>Toggle a text field in the middle-right of the screen showing stasticts of your current win rate, and how many more wins to X percent.</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Garage_Stats.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Garage_Stats.jpg" />
             </Medias>
             <Packages>
               <Package PackageName="XVMconfigBuilder_GarageInterface_Statistics_Disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="aianqaz02ybrufep" Name="Disabled" Type="single1" Visible="True">
@@ -1474,7 +1475,7 @@
                     <Timestamp>132071336559526526</Timestamp>
                     <Description>this will move the xvm statistics widget in the garage to the "menubar" on top.\r\nthis also disables the text for the create squad button for better placement.</Description>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_Statistics_alternativePosition.png" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_Statistics_alternativePosition.png" />
                     </Medias>
                   </Package>
                 </Packages>
@@ -1487,7 +1488,7 @@
             <CRC>ca04b670c007f31a677cd997531a468d</CRC>
             <Timestamp>132071353713677107</Timestamp>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_TankStatistics.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_TankStatistics.png" />
             </Medias>
           </Package>
           <Package PackageName="Spacer_Barracks" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="1etaygy5pqsng0zf" Name="--Barracks--" Type="single1" Visible="True">
@@ -1600,7 +1601,7 @@
                 <ZipFile>XVM_config_builder_garage_block_vehicle_ammo_20.zip</ZipFile>
                 <CRC>df3008ce247e3e3ad714b182859ab557</CRC>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg" />
                 </Medias>
               </Package>
               <Package PackageName="XVMconfigBuilder_GarageInterface_BlockVehicleIfAmmoLow_50" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rc9p932q9l87yzs9" Name="50%" Type="single_dropdown1" Visible="True">
@@ -1608,7 +1609,7 @@
                 <ZipFile>XVM_config_builder_garage_block_vehicle_ammo_50.zip</ZipFile>
                 <CRC>3c17b5d2d6f8a793302532e9c6e37fb4</CRC>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_block_low%20ammo.jpg" />
                 </Medias>
               </Package>
             </Packages>
@@ -1621,8 +1622,8 @@
             <DevURL>https://koreanrandom.com/forum/topic/47493-yearsxc-tank-history-informer/  \r\nhttps://discord.gg/D7bVw95</DevURL>
             <Description>This is  a Tank History Informer.\r\nNow you can see what year your tank was developed in and you also can see if your tank is real or never was built.\r\n\r\nYellow years represents real working  tanks that the tank blueprints was developed in .\r\nThe Purple  years represents that the tank was never made , just blueprints of tank or prototype was never complete .\r\n\r\nYellow Year = R﻿eal\r\nPurple  Year = Not Real\r\n\r\nIn battle you also can see History informer for your tank</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_GarageInterface_TankHistoryInformer.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_GarageInterface_TankHistoryInformer_inbattle.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_GarageInterface_TankHistoryInformer.png" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_GarageInterface_TankHistoryInformer_inbattle.png" />
             </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_XC_years" NotFlag="False" Logic="OR" />
@@ -1902,7 +1903,7 @@
                 <Timestamp>132271983067911159</Timestamp>
                 <Author>LordFelix \ elektrosmoker</Author>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/login/XVMconfigBuilder_Login_Clock_onlyTime.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/login/XVMconfigBuilder_Login_Clock_onlyTime.png" />
                 </Medias>
                 <Dependencies>
                   <Dependency PackageName="Dependency_Fonts_Dinpro" NotFlag="False" Logic="OR" />
@@ -1965,8 +1966,8 @@
           <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2qmo6htryqk49ncx" Name="Damage Log" Type="multi" Visible="True">
             <Description>Toggle the xvm damage log. The damage log shows how much damage you have taken for the duration of the battle.</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/damage_log_(XVM)_lower_left_web.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/damage_log_(XVM)_lower_left_web.jpg" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" />
             </Medias>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fft3ehzsxmcm9zjx" Name="Enable" Type="single_dropdown1" Visible="True">
@@ -1975,7 +1976,7 @@
                 <CRC>9527bb8cf27cc347fd77a9f107c4befb</CRC>
                 <Timestamp>132060081070552386</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="s40img5txi539aqw" Name="Disable" Type="single_dropdown1" Visible="True">
@@ -1984,7 +1985,7 @@
                 <CRC>3bbdd3dd07842090f2d6418937fa6137</CRC>
                 <Timestamp>132060081301674390</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/damage_log_enable.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_MoveInBattle" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mihqekvcr16tk38a" Name="move DamageLog in Battle (CTRL+Mouse)" Type="multi" Visible="True">
@@ -2001,7 +2002,7 @@
                 <Timestamp>132060081916709854</Timestamp>
                 <Description>Enabling this will allow you to configure the ingame damagelog and hitlog settings from the client settings window.</Description>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/allow_toggle_ingame_damage_log.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/allow_toggle_ingame_damage_log.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_altModeHotkey" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fi4yoq67b3dzyses" Name="set hotkey for alternate mode:" Type="multi" Visible="True">
@@ -2035,7 +2036,7 @@
           <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tm5cenrwlh10w8yn" Name="Hitlog" Type="multi" Visible="True">
             <Description>Toggle the xvm hitlog (Shows a log of total damage you have caused for the duration of the game)</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" />
             </Medias>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6bcrmnxxldtiwk5m" Name="Enable" Type="single_dropdown1" Visible="True">
@@ -2044,7 +2045,7 @@
                 <CRC>60682cd788d8201d70179f01750741c1</CRC>
                 <Timestamp>131979163191293358</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="j0i6um3ykal0vvcm" Name="Disable" Type="single_dropdown1" Visible="True">
@@ -2053,7 +2054,7 @@
                 <CRC>f20b47c310e7e7535c733ce0a26030e9</CRC>
                 <Timestamp>131979163291236079</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hitlog_header.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_Hitlog_MoveInBattle" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="de0dmqthftnp7ouz" Name="move in battle" Type="multi" Visible="True">
@@ -2098,7 +2099,7 @@
             <DevURL>https://koreanrandom.com/forum/topic/47047-assistlog-py_macro/?tab=comments#comment-442863</DevURL>
             <Description>shows a log for dealt damage with your assistance</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_AssistLog.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_AssistLog.png" />
             </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_PY_AssistLog" NotFlag="False" Logic="OR" />
@@ -2114,7 +2115,7 @@
           <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="x7ueutv285aei5qc" Name="Total Efficiency" Type="multi" Visible="True">
             <Description>Shows spotting damage, assistance damage, stun damage, etc.</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" />
             </Medias>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="aw1t2s13712wigxc" Name="Enable" Type="single_dropdown1" Visible="True">
@@ -2122,7 +2123,7 @@
                 <ZipFile>XVM_config_builder_total_eff_enable.zip</ZipFile>
                 <CRC>7c2db2e5ddcabed916a626650e02438f</CRC>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="4aj0twrm2k4lt9fp" Name="Disable" Type="single_dropdown1" Visible="True">
@@ -2130,7 +2131,7 @@
                 <ZipFile>XVM_config_builder_total_eff_disable.zip</ZipFile>
                 <CRC>f64aaeb342ba7f758f115202e2ad083d</CRC>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/total_effencicy.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_move" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hzpf1vxn1hw3tlnp" Name="move the total efficiency label" Type="multi" Visible="True">
@@ -2144,7 +2145,7 @@
                     <Timestamp>131930933307981260</Timestamp>
                     <Description>this moves the Total Efficiency to the space between chat and damage panel</Description>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TotalEfficiency_underchat.png" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TotalEfficiency_underchat.png" />
                     </Medias>
                   </Package>
                   <Package PackageName="XVMConfigBuilder_BattleInterface_TotalEfficiency_abovedamagelog" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="o3d11yt7vwqa4pc2" Name="above damagelog" Type="single_dropdown1" Visible="True">
@@ -2154,7 +2155,7 @@
                     <Timestamp>131930931932550202</Timestamp>
                     <Description>this moves the Total Efficiency to the bottom above the xvm damage log</Description>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TotalEfficiency_abovedamagelog.jpg" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TotalEfficiency_abovedamagelog.jpg" />
                     </Medias>
                   </Package>
                 </Packages>
@@ -2167,7 +2168,7 @@
             <CRC>1d1e6ddf34e35bf40a97b0c26adcb550</CRC>
             <Timestamp>132532799697180247</Timestamp>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_battleEfficiency.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_battleEfficiency.png" />
             </Medias>
             <ConflictingPackages>Ingame_Info_InBattle_Rating</ConflictingPackages>
             <Dependencies>
@@ -2193,7 +2194,7 @@
           <Package PackageName="XVMConfigBuilder_BattleInterface_HighCaliber" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fzwp94rbjo77raxr" Name="High Caliber Tracker" Type="multi" Visible="True">
             <Description>Shows how much damage you need to do to get high caliber</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" />
             </Medias>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_HighCaliber_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="so34h4xcikzorm4r" Name="Enable" Type="single_dropdown1" Visible="True">
@@ -2201,7 +2202,7 @@
                 <ZipFile>XVM_config_builder_high_caliber_enable.zip</ZipFile>
                 <CRC>1f4580100062508213ed9d802628a97d</CRC>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" />
                 </Medias>
                 <ConflictingPackages>Ingame_Info_HighCaliber</ConflictingPackages>
               </Package>
@@ -2210,7 +2211,7 @@
                 <ZipFile>XVM_config_builder_high_caliber_disable.zip</ZipFile>
                 <CRC>25e29658adf2188da358111c716cc897</CRC>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" />
                 </Medias>
               </Package>
             </Packages>
@@ -2223,19 +2224,19 @@
             <Author>MarsOne</Author>
             <Description>This label positioned under the left PlayersPanel shows you many informations you need for missions or for your daily games too. \nExamples for that are your damage, damage of your platoon members, damage of you and your platoon members together, number of enemys you spotted, number of critical hits you made, number of enemys your complete platoon killed, damage through reconnaissance and chain destruction, damage through spotting only, damage through chain destruction only, damage you got, hits you got and damage you blocked. \n\nInformation Label for Missions by MarsOne: http://forum.worldoftanks.eu/index.php?/topic/340002-09151-omc-modpack-installer-mit-bild-video-vorschau-letztes-update-siehe-wwwodemmortiscom/page__st__4980__pid__13912513#entry13912513</Description>
             <Medias>
-              <Media URL="http://fs5.directupload.net/images/170301/iepa9zdy.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/32rpylxt.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/ax9qxb7t.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/reiaain2.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/nftgewby.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/avvxrq8b.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/7e2xelc7.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/9bahnmgt.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/3ty5gpoa.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/wmqvtr3e.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/k5alp63d.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/juo3kcsb.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170301/zbukbbfp.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/iepa9zdy.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/32rpylxt.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/ax9qxb7t.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/reiaain2.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/nftgewby.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/avvxrq8b.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/7e2xelc7.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/9bahnmgt.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/3ty5gpoa.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/wmqvtr3e.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/k5alp63d.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/juo3kcsb.png" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170301/zbukbbfp.png" />
             </Medias>
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_TheGadget" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="5w3xo1xcs8epzvrw" Name="The Gadget [by {author}]" Type="multi" Visible="True">
@@ -2245,7 +2246,7 @@
             <Timestamp>132419249444281033</Timestamp>
             <Author>coyob</Author>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TheGadget.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TheGadget.jpg" />
             </Medias>
           </Package>
           <Package PackageName="Spacer_Info" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="cgx5p60xbwmd2214" Name="--Info Labels--" Type="single1" Visible="True">
@@ -2270,7 +2271,7 @@
                 <CRC>0e6adfc375d474b3daf3ff94c7a6ae1f</CRC>
                 <Timestamp>132133076834607388</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v1.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v1.jpg" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w8s6x92i5892djxg" Name="v2" Type="single_dropdown1" Visible="True">
@@ -2279,7 +2280,7 @@
                 <CRC>91ca6b838f7ccc9f8c878134d043b0e3</CRC>
                 <Timestamp>132133076791074481</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v2.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v2.jpg" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v3byRess" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qn9dpds10rasobfu" Name="v3 by Ress" Type="single_dropdown1" Visible="True">
@@ -2289,8 +2290,8 @@
                 <Timestamp>132133076710142177</Timestamp>
                 <Description>Show FPS / Ping / Clock in upper left corner.\nby Ress\n\nNot compatible to some XVM PreBuiltConfigs</Description>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel_fps_ping_clock.jpg" MediaType="Picture" />
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v3.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel_fps_ping_clock.jpg" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v3.jpg" />
                 </Medias>
                 <Dependencies>
                   <Dependency PackageName="Dependency_Fonts_Visitor_TT1_BRK" NotFlag="False" Logic="OR" />
@@ -2302,7 +2303,7 @@
                 <CRC>72ba6219a891d87a7b58d5659a351a5a</CRC>
                 <Timestamp>132133076625918718</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v4.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v4.jpg" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v5" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="g1n75c43ykvrozut" Name="v5" Type="single_dropdown1" Visible="True">
@@ -2311,7 +2312,7 @@
                 <CRC>5a7562343176bd5b5ac4ab4e7e922c83</CRC>
                 <Timestamp>132133076563895545</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v5.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v5.jpg" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v6" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="af4exgumt3xhzsc6" Name="v6" Type="single_dropdown1" Visible="True">
@@ -2320,7 +2321,7 @@
                 <CRC>83d4afdbf852d4a97e51d3e55cb45c29</CRC>
                 <Timestamp>132133076493415116</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v6.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v6.jpg" />
                 </Medias>
                 <Dependencies>
                   <Dependency PackageName="Dependency_Fonts_Micrac" NotFlag="False" Logic="OR" />
@@ -2332,7 +2333,7 @@
                 <CRC>b2f29a4c04787d8b7bb531c4022a2eef</CRC>
                 <Timestamp>132133076414816524</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v7.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v7.jpg" />
                 </Medias>
                 <Dependencies>
                   <Dependency PackageName="Dependency_Fonts_Cuprum" NotFlag="False" Logic="OR" />
@@ -2344,7 +2345,7 @@
                 <CRC>7b7ef2afc44e8ec927f5bccd96d41b3c</CRC>
                 <Timestamp>132133076330443470</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v8.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v8.jpg" />
                 </Medias>
                 <Dependencies>
                   <Dependency PackageName="Dependency_Fonts_Harpoon" NotFlag="False" Logic="OR" />
@@ -2356,7 +2357,7 @@
                 <CRC>1273bff45b769f39672738a8943cd79f</CRC>
                 <Timestamp>132133076262017524</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v9.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v9.jpg" />
                 </Medias>
               </Package>
             </Packages>
@@ -2370,7 +2371,7 @@
             <Author>HAWG</Author>
             <Description>This will display your hull armor in battle .</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Hull.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Hull.png" />
             </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_XC_hull" NotFlag="False" Logic="OR" />
@@ -2384,7 +2385,7 @@
             <DevURL>https://koreanrandom.com/forum/topic/47599-hullxc-hull-armor-informer/  \r\nhttps://discord.gg/a6s5EfB</DevURL>
             <Description>This will display your turret armor in battle.</Description>
             <Medias>
-              <Media URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TurretInfo.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TurretInfo.jpg" />
             </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_XC_turret" NotFlag="False" Logic="OR" />
@@ -2438,7 +2439,7 @@
                 <CRC>722f64e36ced7d161d5d89475b405afc</CRC>
                 <Timestamp>132579575296202847</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Speed_insideDamagePanel.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Speed_insideDamagePanel.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_Speed_aboveDamagePanel" Enabled="True" Tags="ConfigurationFileXC" InstallGroup="4" PatchGroup="4" UID="e0uhdlyrgr6vmo4w" Name="above damage panel" Type="single_dropdown1" Visible="True">
@@ -2448,7 +2449,7 @@
                 <Timestamp>132579574702759120</Timestamp>
                 <Description>Default Setting for 24" - 30" Monitors</Description>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Speed_aboveDamagePanel.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Speed_aboveDamagePanel.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_Speed_dirty20067Cfg" Enabled="True" Tags="ConfigurationFileXC" InstallGroup="4" PatchGroup="4" UID="51u19ckxnfx78fa7" Name="dirty20067´s config" Type="single_dropdown1" Visible="True">
@@ -2467,7 +2468,7 @@
             <DevURL>https://koreanrandom.com/forum/topic/37259-</DevURL>
             <Description>This mod shows if you have a chance to penetrate the enemy.\n\n\n\ncolors:\ngreen = chance to pierce\nred = no chance to pierce</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png" />
             </Medias>
             <ConflictingPackages>Ingame_Aim_Penetration</ConflictingPackages>
             <Dependencies>
@@ -2504,7 +2505,7 @@
             <Timestamp>132248802272813268</Timestamp>
             <Description>Shows aim info during the battle:\nDistance, Shell travel time, Aim Time</Description>
             <Medias>
-              <Media URL="https://puu.sh/ApLEG/c48ffd73ad.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="https://puu.sh/ApLEG/c48ffd73ad.png" />
             </Medias>
             <ConflictingPackages>Ingame_Aim_SPG_Flytime</ConflictingPackages>
             <Dependencies>
@@ -2521,7 +2522,7 @@
             <Timestamp>131771258549087414</Timestamp>
             <Description>shows the current targets reloadtime (no countdown, only standard reloadtime without perks)</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_targetinfo.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_targetinfo.png" />
             </Medias>
           </Package>
           <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="c00qkusgxyhyjefy" Name="InfoPanel" Type="multi" Visible="True">
@@ -2541,7 +2542,7 @@
                 <DevURL>https://koreanrandom.com/forum/topic/36811-infopanel-средствами-xvm/\r\nhttps://aslain.com/index.php?/topic/12034-xvm-infopanel-configs-for-infopanelpy/\r\n</DevURL>
                 <Description>shows a tankinfopanel like the oldskool one in IngameInfo</Description>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/infopanel/XVM_Config_builder_InfoPanel_masheenestyle.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/infopanel/XVM_Config_builder_InfoPanel_masheenestyle.png" />
                 </Medias>
               </Package>
             </Packages>
@@ -2561,8 +2562,8 @@
             <DevURL>https://koreanrandom.com/forum/topic/36620-damageindicator-средствами-xvm/#comments</DevURL>
             <Description>shows a highlighted image when you get shot and are looking directly into that direction where the shot came from</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_2.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_1.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_2.jpg" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_1.jpg" />
             </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
@@ -2571,7 +2572,7 @@
           <Package PackageName="XVMConfigBuilder_BattleInterface_LastHitAnnouncer" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8h260w02q6w5u6ib" Name="Last Hit Announcer" Type="multi" Visible="True">
             <Description>Will display a message of who just shot you and for how much. Similar to the damage announce part of the popular "Damagelog by GambitER".</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" />
             </Medias>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_LastHitAnnouncer_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="l68l8v63p3onuhqa" Name="Enable" Type="single_dropdown1" Visible="True">
@@ -2579,7 +2580,7 @@
                 <ZipFile>XVM_config_builder_last_hit_enable.zip</ZipFile>
                 <CRC>f2d03701b4ec3647978bf46479d3dfea</CRC>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_LastHitAnnouncer_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="flqt0zwmkmqc6a8o" Name="Disable" Type="single_dropdown1" Visible="True">
@@ -2587,7 +2588,7 @@
                 <ZipFile>XVM_config_builder_last_hit_disable.zip</ZipFile>
                 <CRC>da4cfd27482f5712ebebd3264c510d4c</CRC>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/last_hit_announce.png" />
                 </Medias>
               </Package>
             </Packages>
@@ -2622,8 +2623,8 @@
             <DevURL>https://koreanrandom.com/forum/topic/36840-repaircontrol-средствами-xvm/</DevURL>
             <Description>shows a centered repair rose</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_repairControl_2.jpg" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_repairControl_1.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_repairControl_2.jpg" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_repairControl_1.jpg" />
             </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_PY_repairControl" NotFlag="False" Logic="OR" />
@@ -2661,7 +2662,7 @@
           <Package PackageName="XVMConfigBuilder_BattleInterface_Scoreboard" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="uutjvd1hnd2bp8if" Name="Scoreboard" Type="multi" Visible="True">
             <Description>Configure the scoreboard (the topmost interface component showing both teams alive or dead tanks)</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_header.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_header.jpg" />
             </Medias>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_Scoreboard_ShowAlive" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7jzy4c7im9vtpkpf" Name="Show Alive" Type="single_dropdown1" Visible="True">
@@ -2670,7 +2671,7 @@
                 <CRC>c3b97655d27e51a6af02ba01a7c311eb</CRC>
                 <Description>Show the number of tanks alive.</Description>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_show_alive.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_show_alive.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_Scoreboard_ShowKills" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1xh6vgx1htxj1d7s" Name="Show Kills" Type="single_dropdown1" Visible="True">
@@ -2679,7 +2680,7 @@
                 <CRC>d49cc9faf4f419b190f8db337d91ab07</CRC>
                 <Description>Show the number of tanks killed.</Description>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_show_kills.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/scoreboard_show_kills.png" />
                 </Medias>
               </Package>
             </Packages>
@@ -2687,7 +2688,7 @@
           <Package PackageName="XVMConfigBuilder_BattleInterface_TotalHP" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="emnk3g32gpp01ofs" Name="Total HP" Type="multi" Visible="True">
             <Description>Shows the total combined hp of each team. Commonly under the scoreboard, in the format "our hp &gt; their hp".</Description>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" />
             </Medias>
             <Packages>
               <Package PackageName="XVMConfigBuilder_BattleInterface_TotalHP_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="815svktlb8rqchx5" Name="Enable total HP" Type="single_dropdown1" Visible="True">
@@ -2695,7 +2696,7 @@
                 <ZipFile>XVM_config_builder_total_hp_enable.zip</ZipFile>
                 <CRC>d2db01060ed492f7c4f887c6d56e1c6c</CRC>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_TotalHP_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lqb73jzma4j8ct45" Name="Disable total HP" Type="single_dropdown1" Visible="True">
@@ -2703,7 +2704,7 @@
                 <ZipFile>XVM_config_builder_total_hp_disable.zip</ZipFile>
                 <CRC>bb6a042d49c79a2bf4d22fc97de5640c</CRC>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/hp_pools_header.png" />
                 </Medias>
               </Package>
             </Packages>
@@ -2721,7 +2722,7 @@
                 <CRC>e9c84e2669e8a6800bcfcf7dd39bd329</CRC>
                 <Timestamp>132130694867878804</Timestamp>
                 <Medias>
-                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-35674400-1500132133.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-35674400-1500132133.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_WGLold" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="5i68bm174g6xn90i" Name="WGL_old" Type="single_dropdown1" Visible="True">
@@ -2730,7 +2731,7 @@
                 <CRC>1ecd9eec462b1d329601034222b417a2</CRC>
                 <Timestamp>132130704251659640</Timestamp>
                 <Medias>
-                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-04949600-1500132082.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-04949600-1500132082.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_Fallout" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="i7dnjl783dyenl7i" Name="Fallout" Type="single_dropdown1" Visible="True">
@@ -2739,7 +2740,7 @@
                 <CRC>f3f8648b28f1d2f352a079382650d371</CRC>
                 <Timestamp>132130704371528357</Timestamp>
                 <Medias>
-                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-45312000-1500132178.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-45312000-1500132178.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_Straight" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cmuubpxryw04yepv" Name="Straight" Type="single_dropdown1" Visible="True">
@@ -2748,7 +2749,7 @@
                 <CRC>4117b22cfa82485f951a09c5e8140a41</CRC>
                 <Timestamp>132130704461101606</Timestamp>
                 <Medias>
-                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-89713500-1501414244.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="https://koreanrandom.com/forum/uploads/monthly_07_2017/post-10592-0-89713500-1501414244.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_MIAPAK" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pb19jo3sxssmypwu" Name="MIAPAK" Type="single_dropdown1" Visible="True">
@@ -2758,7 +2759,7 @@
                 <Timestamp>132130704554548636</Timestamp>
                 <Description>disable following with xvm config builder:\r\n totalHP\r\n\r\n\r\nnote: not right implemented yet - little alpha/shadow/color bug</Description>
                 <Medias>
-                  <Media URL="https://koreanrandom.com/forum/uploads/monthly_2017_12/5a2efb3ead8e2_1515.png.3335c8a3358c52b5d0fa1807c73dee31.png.c4f6ae911c57fe536b957318662dd828.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="https://koreanrandom.com/forum/uploads/monthly_2017_12/5a2efb3ead8e2_1515.png.3335c8a3358c52b5d0fa1807c73dee31.png.c4f6ae911c57fe536b957318662dd828.png" />
                 </Medias>
                 <Dependencies>
                   <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar" NotFlag="False" Logic="OR" />
@@ -2777,7 +2778,7 @@
             <DevURL>https://koreanrandom.com/forum/topic/39885-%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B8%D0%BA-py_macro/?tab=comments#hitpoints</DevURL>
             <Description>shows a health bar at the bottom under the consumables</Description>
             <Medias>
-              <Media URL="https://koreanrandom.com/forum/uploads/monthly_08_2017/post-17624-0-43658800-1502559240_thumb.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="https://koreanrandom.com/forum/uploads/monthly_08_2017/post-17624-0-43658800-1502559240_thumb.jpg" />
             </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
@@ -2815,7 +2816,7 @@
                 <Timestamp>132265247433358106</Timestamp>
                 <Description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</Description>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_WN8Comparison_standard.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_WN8Comparison_standard.png" />
                 </Medias>
               </Package>
               <Package PackageName="XVMConfigBuilder_BattleInterface_WN8Comparison_Slava7572" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="twqbzu7xkg1zkmpk" Name="WN8 Comparison by Slava7572" Type="single_dropdown1" Visible="True">
@@ -2825,7 +2826,7 @@
                 <Timestamp>132265242776511796</Timestamp>
                 <Description>Shows the total WN8 values of each team\nby Slava7572</Description>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_Slava7572.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterfaceModifications_WN8Comparison_Slava7572.jpg" />
                 </Medias>
               </Package>
             </Packages>
@@ -2851,8 +2852,8 @@
                 <Timestamp>131812515942949463</Timestamp>
                 <Description>disables PreBattleBackground (shadow), \nPreBattleMessages \nand \nQuestProgressHint\n\nleaves Timer and BattleWinConditions!</Description>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_1.jpg" MediaType="Picture" />
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_2.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_1.jpg" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/PreBattleMessages/XVM_config_builder_PreBattleMessages_timer_and_conditions_2.jpg" />
                 </Medias>
               </Package>
             </Packages>
@@ -3310,7 +3311,7 @@
         <Timestamp>131807308177083741</Timestamp>
         <Description>change the color of map borders</Description>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/border/xvm_config_builder_bordercolor.JPG" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/border/xvm_config_builder_bordercolor.JPG" />
         </Medias>
         <Dependencies>
           <Dependency PackageName="Dependency_XVM_PY_borderColor" NotFlag="False" Logic="OR" />
@@ -3358,7 +3359,7 @@
             <CRC>5757071ed1d2f33b5068f07c6889d143</CRC>
             <Timestamp>131807317221140073</Timestamp>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/border/xvm_config_builder_bordercolor.JPG" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/border/xvm_config_builder_bordercolor.JPG" />
             </Medias>
           </Package>
         </Packages>
@@ -3419,7 +3420,7 @@
                     <CRC>1081d1bc584c791364bea7aaeef1abb8</CRC>
                     <Timestamp>132300325448559560</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_Automatyk.jpg" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_Automatyk.jpg" />
                     </Medias>
                   </Package>
                   <Package PackageName="XVMconfigBuilder_OTM_Style_demon2597" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="nnzp2fzjk2uujgrk" Name="demon2597" Type="single_dropdown1" Visible="True">
@@ -3428,7 +3429,7 @@
                     <CRC>ed3050825cdf34dcb2612c25e9687bb1</CRC>
                     <Timestamp>132300337745429122</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_demon2597.jpg" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_demon2597.jpg" />
                     </Medias>
                   </Package>
                   <Package PackageName="XVMconfigBuilder_OTM_Style_J1mB0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0c54ae5kjymcjsyj" Name="J1mb0" Type="single_dropdown1" Visible="True">
@@ -3442,7 +3443,7 @@
                     <CRC>b3057b9a357059656974ab77f948d14e</CRC>
                     <Timestamp>132300400345189121</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_KAP_KAPb14.jpg" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_KAP_KAPb14.jpg" />
                     </Medias>
                   </Package>
                   <Package PackageName="XVMconfigBuilder_OTM_Style_LuckyCrusky" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7gtqai14dehjvwnw" Name="LuckyCrusky" Type="single_dropdown1" Visible="True">
@@ -3451,7 +3452,7 @@
                     <CRC>6db1a4945d481883e3abcc06ea15a1be</CRC>
                     <Timestamp>132300343671151669</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_LuckyCrusky.jpg" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_LuckyCrusky.jpg" />
                     </Medias>
                   </Package>
                   <Package PackageName="XVMconfigBuilder_OTM_Style_NDO" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="k505ih75da91v8uw" Name="NDO [night_dragon_on]" Type="single_dropdown1" Visible="True">
@@ -3461,7 +3462,7 @@
                     <Timestamp>132431999462035923</Timestamp>
                     <InternalNotes>copy marker files from the prebuilt config</InternalNotes>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_night_dragon_on.jpg" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_night_dragon_on.jpg" />
                     </Medias>
                   </Package>
                   <Package PackageName="XVMconfigBuilder_OTM_Style_Solo" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ejhcalxo8ubr61c9" Name="Solo" Type="single_dropdown1" Visible="True">
@@ -3482,7 +3483,7 @@
                     <CRC>23b7ca3479e4e84edfbdcf2b62238c46</CRC>
                     <Timestamp>132300346920698283</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_Tornado_Odan_Rot.jpg" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_Tornado_Odan_Rot.jpg" />
                     </Medias>
                   </Package>
                   <Package PackageName="XVMconfigBuilder_OTM_Style_vlad" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yccdinz915xghh9m" Name="vlad_cs_sr" Type="single_dropdown1" Visible="True">
@@ -3491,7 +3492,7 @@
                     <CRC>8f901bc17084bdd8bd1b330771a49a34</CRC>
                     <Timestamp>132300341999285602</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_vlad_cs_sr.jpg" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_vlad_cs_sr.jpg" />
                     </Medias>
                   </Package>
                   <Package PackageName="XVMconfigBuilder_OTM_Style_Webium" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="b1jsqn5a02qxhtgm" Name="Webium" Type="single_dropdown1" Visible="True">
@@ -3500,7 +3501,7 @@
                     <CRC>8ba84357c9b9dcd6709c80778e1507ca</CRC>
                     <Timestamp>132300395188695464</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_Webium.jpg" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/markers/XVMconfigBuilder_OTM_Style_Webium.jpg" />
                     </Medias>
                   </Package>
                 </Packages>
@@ -3572,8 +3573,8 @@
                     <Timestamp>132432036637771074</Timestamp>
                     <Description>Shows ANGELWINGS on over-target-markers when allies get killed.\nShows RED OMC SKULL on over-target-marker when enemies getkilled.\nShows NUKE on over-target-marker when enemies get ammo-racked.\n\nNOT COMPATIBLE TO gravestone VARIANT</Description>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/xvm_config_builder_markers_otmkillsymbols.JPG" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/xvm_config_builder_markers_dead_skull_redeyes.png" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/xvm_config_builder_markers_otmkillsymbols.JPG" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/xvm_config_builder_markers_dead_skull_redeyes.png" />
                     </Medias>
                   </Package>
                   <Package PackageName="XVMconfigBuilder_OTM_KillSymbols_gravestone" Enabled="True" Tags="" InstallGroup="6" PatchGroup="4" UID="6iridy8kahf7qau1" Name="GRAVESTONE (on enemies)" Type="single_dropdown1" Visible="True">
@@ -3584,7 +3585,7 @@
                     <Author>BoingPlatsch</Author>
                     <Description>Shows a gravestone kill symbol on enemies</Description>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/markers/XVM_config_builder_Markers_enemy_GRAVESTONE_by_BoingPlatsch.png" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/markers/XVM_config_builder_Markers_enemy_GRAVESTONE_by_BoingPlatsch.png" />
                     </Medias>
                   </Package>
                 </Packages>
@@ -3681,7 +3682,7 @@
                     <ZipFile>XVM_config_builder_minimap_zoom_center.zip</ZipFile>
                     <CRC>7ac2d3c3804fb3df0a86e3527624ae2d</CRC>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_Minimap_Center.jpg" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_Minimap_Center.jpg" />
                     </Medias>
                   </Package>
                 </Packages>
@@ -3717,7 +3718,7 @@
                 <CRC>f</CRC>
                 <Timestamp>132346203669246986</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_Minimap_Health.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_Minimap_Health.jpg" />
                 </Medias>
                 <Packages>
                   <Package PackageName="XVMconfigBuilder_Minimap_HP_vehicleHealthpoints" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kxv6f1q10g084mjb" Name="Vehicle Healthpoints" Type="multi" Visible="True">
@@ -3744,7 +3745,7 @@
                     <CRC>278f9472f6f01788be617b600d213ef2</CRC>
                     <Timestamp>132347952845446604</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/Minimap/XVMconfigBuilder_Minimap_HP_Circles.png" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/Minimap/XVMconfigBuilder_Minimap_HP_Circles.png" />
                     </Medias>
                     <Packages>
                       <Package PackageName="XVMconfigBuilder_Minimap_HP_Circles_permanent" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ywue3huc8n0fyy2y" Name="show permanent" Type="single_dropdown1" Visible="True">
@@ -3785,7 +3786,7 @@
               </Package>
               <Package PackageName="XVMconfigBuilder_Minimap_labels" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kru99ccfe8s7985s" Name="Labels" Type="multi" Visible="True">
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_labels.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_labels.jpg" />
                 </Medias>
                 <Packages>
                   <Package PackageName="XVMconfigBuilder_Minimap_labels_disabled" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="e5bg1g2y8suwl1n6" Name="stock WoT labels" Type="single_dropdown1" Visible="True">
@@ -3805,7 +3806,7 @@
               <Package PackageName="XVMconfigBuilder_Minimap_lines" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="l9z21jyi27o3w5cj" Name="Lines" Type="multi" Visible="True">
                 <Timestamp>131566451718998193</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_Minimap_Lines.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_Minimap_Lines.jpg" />
                 </Medias>
                 <Packages>
                   <Package PackageName="XVMconfigBuilder_Minimap_lines_disabled" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yy6h9i4j23glwhji" Name="stock WoT lines" Type="single_dropdown1" Visible="True">
@@ -3852,7 +3853,7 @@
                             <CRC>6e9dccd05b1fff03b43f8f5d578aafce</CRC>
                             <Timestamp>132220023819862203</Timestamp>
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_50meter_Detection.jpg" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_50meter_Detection.jpg" />
                             </Medias>
                           </Package>
                           <Package PackageName="XVMconfigBuilder_Minimap_circles_445" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9mj6or59i7k6ti1l" Name="445m maximum spotting range" Type="multi" Visible="True">
@@ -3861,7 +3862,7 @@
                             <CRC>8af3d083cb8eada2e3ca042749b35acc</CRC>
                             <Timestamp>132220023878760975</Timestamp>
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_vehicle_view_range.jpg" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_vehicle_view_range.jpg" />
                             </Medias>
                           </Package>
                           <Package PackageName="XVMconfigBuilder_Minimap_circles_564" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mbqkwqbai3cotu8k" Name="564m maximum vehicle render/draw range" Type="multi" Visible="True">
@@ -3870,7 +3871,7 @@
                             <CRC>1855ab3c07ebfaa3f4dfb332c310f214</CRC>
                             <Timestamp>132220023981104758</Timestamp>
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_max_render_range.jpg" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_max_render_range.jpg" />
                             </Medias>
                           </Package>
                           <Package PackageName="XVMconfigBuilder_Minimap_circles_viewRange" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="gq7sou1scmee5nqy" Name="vehicle view range" Type="multi" Visible="True">
@@ -3879,7 +3880,7 @@
                             <CRC>d9e8ae8bab42d3eacb2fa3e0143b83cb</CRC>
                             <Timestamp>132220023671591203</Timestamp>
                             <Medias>
-                              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_max_view_range.jpg" MediaType="Picture" />
+                              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/Minimap/XVM_minimap_max_view_range.jpg" />
                             </Medias>
                           </Package>
                           <Package PackageName="XVMconfigBuilder_Minimap_circles_arty_range" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tfe7wu7tcj6v5yxx" Name="artillery gun range" Type="multi" Visible="True">
@@ -3896,8 +3897,8 @@
               </Package>
               <Package PackageName="XVMconfigBuilder_Minimap_AimIcon" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="64km4tdubfyd5a4x" Name="Minimap Aim Icon" Type="multi" Visible="True">
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/Minimap/XVMconfigBuilder_Minimap_AimIcon_bones.png" MediaType="Picture" />
-                  <Media URL="https://wgmods.net/media/3_f4BUoOr.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/Minimap/XVMconfigBuilder_Minimap_AimIcon_bones.png" />
+                  <Media MediaType="Picture" URL="https://wgmods.net/media/3_f4BUoOr.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
                 </Medias>
                 <Packages>
                   <Package PackageName="XVMconfigBuilder_Minimap_AimIcon_bones" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0i2twx3d6y03g3ma" Name="Bones´ minimap aim icon (green)" Type="single_dropdown1" Visible="True">
@@ -3906,7 +3907,7 @@
                     <CRC>42d1327f68f04648e6a855a0970a66e5</CRC>
                     <Timestamp>131568225610900242</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/Minimap/XVMconfigBuilder_Minimap_AimIcon_bones.png" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/Minimap/XVMconfigBuilder_Minimap_AimIcon_bones.png" />
                     </Medias>
                   </Package>
                   <Package PackageName="XVMconfigBuilder_Minimap_AimIcon_blue3" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="d7884w9e5vtkgfua" Name="blue3" Type="single_dropdown1" Visible="True">
@@ -4254,7 +4255,7 @@
                         <CRC>c477a88ebb4eb3a191156dd33f6684ef</CRC>
                         <Timestamp>132133073925182899</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg" />
                         </Medias>
                       </Package>
                       <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="r2ccyec9rrztc2p1" Name="BIG COLORED by vehicle type" Type="single_dropdown1" Visible="True">
@@ -4263,7 +4264,7 @@
                         <CRC>d150970ccc30809e5a2ee804d3d8a05c</CRC>
                         <Timestamp>132133074007491508</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_HpBars_inside_BIG_ColoredByVType.png" />
                         </Medias>
                       </Package>
                       <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_inside_SMALL" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lgtjqi2sma1inv7e" Name="SMALL" Type="single_dropdown1" Visible="True">
@@ -4294,7 +4295,7 @@
                         <Timestamp>132068818354200448</Timestamp>
                         <Description>LT = GREEN\r\nMT = ORANGE\r\nHT= GRAY\r\nTD = BLUE\r\nSPG = RED</Description>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_HpBars_outside_ColoredByVType_elektro.png" />
                         </Medias>
                       </Package>
                       <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_outside_OMCStyle" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ccc7yo1w91heagt4" Name="OMC style" Type="single_dropdown1" Visible="True">
@@ -4310,7 +4311,7 @@
                         <CRC>1154a056df631091055b02750b9e7394</CRC>
                         <Timestamp>132344591894495498</Timestamp>
                         <Medias>
-                          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/playerspanel/XVMconfigBuilder_PlayersPanel_HpBars_outside_OldSkoolStyle.png" MediaType="Picture" />
+                          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/playerspanel/XVMconfigBuilder_PlayersPanel_HpBars_outside_OldSkoolStyle.png" />
                         </Medias>
                       </Package>
                       <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_outside_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p1jl6n7x8yawar03" Name="Disabled" Type="single_dropdown1" Visible="True">
@@ -4350,7 +4351,7 @@
                     <CRC>532d057024bd32d05154db2eb4295bf2</CRC>
                     <Timestamp>132133074366560782</Timestamp>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_Language_Flag.png" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_Language_Flag.png" />
                     </Medias>
                     <Packages>
                       <Package PackageName="XVMconfigBuilder_PlayersPanel_Language_Flag_XVM_left" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sm8omsb3vmjawott" Name="change the flag´s position (&lt;-)" Type="multi" Visible="True">
@@ -4379,7 +4380,7 @@
                     <Timestamp>132133073617410729</Timestamp>
                     <Description>marks blacklisted tankers in allied/enemy playerspanel with a red dot</Description>
                     <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_ignoredicon.png" MediaType="Picture" />
+                      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_ignoredicon.png" />
                     </Medias>
                   </Package>
                   <Package PackageName="XVMconfigBuilder_PlayersPanel_friendignored_move_x120" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cf3puvdooy5z74p5" Name="change markers position (-&gt;) (if tankicons are overlapping)" Type="multi" Visible="True">
@@ -4398,7 +4399,7 @@
                 <Timestamp>132419228003433413</Timestamp>
                 <Description>shows a little orange "x" near to player-/tanknames when they are using xvm</Description>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_enable_xvmUserMarker.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_enable_xvmUserMarker.png" />
                 </Medias>
                 <Packages>
                   <Package PackageName="XVMconfigBuilder_PlayersPanel_xvmUserMarker_right" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jirbty98id06i9ei" Name="change position of &quot;x&quot; (-&gt;)" Type="multi" Visible="True">
@@ -4429,7 +4430,7 @@
                 <Timestamp>132419218174994367</Timestamp>
                 <Description>This mod shows a snowflake image for users with activated anonymizer or less than 100 battles.</Description>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_snowflakeIndicator.png" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/players_panel/XVMconfigBuilder_PlayersPanel_snowflakeIndicator.png" />
                 </Medias>
               </Package>
             </Packages>
@@ -4445,7 +4446,7 @@
                 <CRC>e73ad020b07b46d3b6e965109c81d1c8</CRC>
                 <Timestamp>132300329178764993</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/playerspanel/XVMconfigBuilder_PlayersPanel_preBuilt_Automatyk.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/playerspanel/XVMconfigBuilder_PlayersPanel_preBuilt_Automatyk.jpg" />
                 </Medias>
               </Package>
               <Package PackageName="XVMconfigBuilder_PlayersPanel_preBuilt_demon2597" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="aeay147c65g25u08" Name="demon2597" Type="single_dropdown1" Visible="True">
@@ -4460,7 +4461,7 @@
                 <CRC>75b6d35642ac70e9b2db573f9f3ea5e7</CRC>
                 <Timestamp>132300334770644547</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/playerspanel/XVMconfigBuilder_PlayersPanel_preBuilt_NDO.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/playerspanel/XVMconfigBuilder_PlayersPanel_preBuilt_NDO.jpg" />
                 </Medias>
               </Package>
               <Package PackageName="XVMconfigBuilder_PlayersPanel_preBuilt_OldSkool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="o1qrajl3ornltld3" Name="OldSkool" Type="single_dropdown1" Visible="True">
@@ -4475,7 +4476,7 @@
                 <CRC>2324dba7cd202ad87c007849b81954de</CRC>
                 <Timestamp>132300395893785056</Timestamp>
                 <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/playerspanel/XVMconfigBuilder_PlayersPanel_preBuilt_Webium.jpg" MediaType="Picture" />
+                  <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/playerspanel/XVMconfigBuilder_PlayersPanel_preBuilt_Webium.jpg" />
                 </Medias>
               </Package>
             </Packages>
@@ -4525,4 +4526,5 @@
       </Package>
     </Packages>
   </Package>
+</Packages>
 </Category>

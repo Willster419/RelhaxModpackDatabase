@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Category Name="Ingame Aim" OffsetInstallGroups="True">
+<Packages>
   <Package PackageName="IngameAim_ArtyImpactRadius" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="z2gl9ctm77nw3ftb" Name="Arty Impact Radius (Port of Arty Splash Sphere) [by {author}]" Type="multi" Visible="True">
     <Size>55987</Size>
     <Version>0.92</Version>
@@ -13,8 +14,8 @@
     <GreyAreaMod>True</GreyAreaMod>
     <ObfuscatedMod>True</ObfuscatedMod>
     <Medias>
-      <Media URL="http://hjundaj.com/wp-content/uploads/2017/05/ArtySplashBySpoter_1.jpg" MediaType="Picture" />
-      <Media URL="http://hjundaj.com/wp-content/uploads/2017/11/art_sp_1.jpg" MediaType="Picture" />
+      <Media MediaType="Picture" URL="http://hjundaj.com/wp-content/uploads/2017/05/ArtySplashBySpoter_1.jpg" />
+      <Media MediaType="Picture" URL="http://hjundaj.com/wp-content/uploads/2017/11/art_sp_1.jpg" />
     </Medias>
     <Dependencies>
       <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
@@ -33,7 +34,7 @@
     <PopularMod>True</PopularMod>
     <GreyAreaMod>True</GreyAreaMod>
     <Medias>
-      <Media URL="http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_10_2014/post-506947255-0-02175200-1414274138.jpg" MediaType="Picture" />
+      <Media MediaType="Picture" URL="http://cdn-frm-eu.wargaming.net/wot/eu/uploads/monthly_10_2014/post-506947255-0-02175200-1414274138.jpg" />
     </Medias>
     <Packages>
       <Package PackageName="IngameAim_AutoAimIndicator_2sec" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="o5s444c6p6ic9unz" Name="2 sec autoaim search" Type="single_dropdown1" Visible="True">
@@ -115,9 +116,9 @@
     <ObfuscatedMod>True</ObfuscatedMod>
     <FromWGmods>True</FromWGmods>
     <Medias>
-      <Media URL="http://cdn-frm-eu.wargaming.net/wot/ru/uploads/monthly_08_2014/post-6420121-0-91975400-1408203215.jpg" MediaType="Picture" />
-      <Media URL="http://cdn-frm-eu.wargaming.net/wot/ru/uploads/monthly_08_2014/post-6420121-0-54067300-1408203191.jpg" MediaType="Picture" />
-      <Media URL="http://cdn-frm-eu.wargaming.net/wot/ru/uploads/monthly_08_2014/post-6420121-0-73875800-1408203179.jpg" MediaType="Picture" />
+      <Media MediaType="Picture" URL="http://cdn-frm-eu.wargaming.net/wot/ru/uploads/monthly_08_2014/post-6420121-0-91975400-1408203215.jpg" />
+      <Media MediaType="Picture" URL="http://cdn-frm-eu.wargaming.net/wot/ru/uploads/monthly_08_2014/post-6420121-0-54067300-1408203191.jpg" />
+      <Media MediaType="Picture" URL="http://cdn-frm-eu.wargaming.net/wot/ru/uploads/monthly_08_2014/post-6420121-0-73875800-1408203179.jpg" />
     </Medias>
     <UserFiles>
       <UserFile Pattern="mods\configs\battle_assistant\mod_battle_assistant.txt" />
@@ -164,7 +165,7 @@
     <InternalNotes>patches for -&gt; scripts_config.xml\r\n\r\nGauss´ notice:\r\nYou want a Color? \r\nFind the RGB-Code, divide each value by 255. \r\n 1. number is Red, 2. number is Green, 3. number is Blue\r\nThe 4. number: 1 or 0 -  En-/Disable Silhouette\r\n\r\nThis could be changed to the actual linked mod, rather than a patch for scripts_config.xml. This file can be changed alot by WG, whereas a config of a mod wont be.</InternalNotes>
     <Description>This mod changes the silhouette color of tanks when you aim at them in battle.\r\nYou can select different colors for enemies and allies.</Description>
     <Medias>
-      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/ingame_aim/Ingame_Aim_Outline_Enemy_Allies.jpg" MediaType="Picture" />
+      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/ingame_aim/Ingame_Aim_Outline_Enemy_Allies.jpg" />
     </Medias>
     <Packages>
       <Package PackageName="IngameAim_SilhouetteColors_Default" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="0wwbfjonl69i4k13" Name="colors" Type="multi" Visible="True">
@@ -637,8 +638,8 @@
         <Description>SafeShot prevents the loss of ammunition to allied tanks.\r\n(formerly preventing team damage)</Description>
         <ObfuscatedMod>True</ObfuscatedMod>
         <Medias>
-          <Media URL="https://wgmods.net/media/safeshot1.png.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-          <Media URL="https://wgmods.net/media/safeshot3.png.412x218_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media MediaType="Picture" URL="https://wgmods.net/media/safeshot1.png.412x218_q85_crop_detail_replace_alpha-white.jpg" />
+          <Media MediaType="Picture" URL="https://wgmods.net/media/safeshot3.png.412x218_q85_crop_detail_replace_alpha-white.jpg" />
         </Medias>
         <Dependencies>
           <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
@@ -783,8 +784,8 @@
         <DevURL>https://awfultanker.torvox.eu/servermarker.html\r\nhttp://forum.worldoftanks.eu/index.php?/topic/583501-</DevURL>
         <Description>Shows where the server thinks you are aiming. Server crosshair must be enabled in game settings.</Description>
         <Medias>
-          <Media URL="https://awfultanker.torvox.eu/images/server_marker.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/server_marker_bottom.png" MediaType="Picture" />
+          <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/server_marker.png" />
+          <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/server_marker_bottom.png" />
         </Medias>
         <Packages>
           <Package PackageName="IngameAim_ServerReticle_Awfultanker_PentagonBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="xn0n8ff47hslaalw" Name="Pentagon blue" Type="single_dropdown1" Visible="True">
@@ -832,7 +833,7 @@
         <Timestamp>132509486611603373</Timestamp>
         <Description>Shows where the server thinks you are aiming. Server crosshair must be enabled in game settings.</Description>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/pmod_server_reticle_blue_patch.jpg" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/pmod_server_reticle_blue_patch.jpg" />
         </Medias>
         <Dependencies>
           <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
@@ -875,8 +876,8 @@
     <Description>This mod replaces the standard attack marker arrows. \r\nIt will help you to see the focus fire request by teammates.</Description>
     <FromWGmods>True</FromWGmods>
     <Medias>
-      <Media URL="https://wgmods.net/media/target_2.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/m_images/58cfe01b-bae8-4eff-92fe-8d7458bed0ee.png" MediaType="Picture" />
+      <Media MediaType="Picture" URL="https://wgmods.net/media/target_2.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
+      <Media MediaType="Picture" URL="https://wgmods.net/media/m_images/58cfe01b-bae8-4eff-92fe-8d7458bed0ee.png" />
     </Medias>
     <Packages>
       <Package PackageName="IngameAim_TargetArrow_Blue" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="voxfbwmk4lr95os0" Name="Blue" Type="single_dropdown1" Visible="True">
@@ -1012,7 +1013,7 @@
     <Version>1</Version>
     <Description>Zoom-Out Options for use without XVM.\r\n\r\nIf you are using XVM, we recommend using the xvm camera options instead.\nYou can find the settings in the xvm config builder section.</Description>
     <Medias>
-      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Zoom_out_200.jpg" MediaType="Picture" />
+      <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Zoom_out_200.jpg" />
     </Medias>
     <Packages>
       <Package PackageName="IngameAim_ZoomOut_Arcade" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lmeumir5of7tnnlu" Name="Arcade Zoom" Type="multi" Visible="True">
@@ -1087,4 +1088,5 @@
       </Package>
     </Packages>
   </Package>
+</Packages>
 </Category>

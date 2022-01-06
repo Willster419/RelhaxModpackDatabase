@@ -1,8 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Category Name="Tank Skin Misc" OffsetInstallGroups="True">
-  <Dependencies>
-    <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
-  </Dependencies>
+<Dependencies>
+  <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
+</Dependencies>
+<Packages>
   <Package PackageName="TankSkinsMisc_crashedTracks" Enabled="True" Tags="ImageDDS" InstallGroup="4" PatchGroup="4" UID="rgg9scuztkonnscj" Name="Colored Crashed Tracks" Type="multi" Visible="True">
     <Size>846015</Size>
     <ZipFile>TankSkinsMisc_crashedTracks_1.15.0.0_2021-12-13.zip</ZipFile>
@@ -113,7 +114,7 @@
         <Author>MTC</Author>
         <Description>Makes camo more transparent</Description>
         <Medias>
-          <Media URL="https://wgmods.net/media/camo_dQTRYUU.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+          <Media MediaType="Picture" URL="https://wgmods.net/media/camo_dQTRYUU.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
         </Medias>
       </Package>
     </Packages>
@@ -128,7 +129,7 @@
     <Author>StanikS_Scan</Author>
     <Description>This mod will make the clan logos transparent for all tanks (in battle, not in hangar view). See no more inappropriate clan icons on other tanks in battle.</Description>
     <Medias>
-      <Media URL="https://wgmods.net/media/clanlogo.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+      <Media MediaType="Picture" URL="https://wgmods.net/media/clanlogo.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
     </Medias>
   </Package>
   <Package PackageName="TankSkinsMisc_ColoredPenetration" Enabled="True" Tags="ImageDDS,Patch" InstallGroup="4" PatchGroup="4" UID="ds7mntuerrvuiuco" Name="Colored damage stickers (paintball mod)" Type="multi" Visible="True">
@@ -144,7 +145,7 @@
         <InternalNotes>use folder "(1) Red- No Pen,-Green Pen"\r\nold folder "(1) No HE Yellow With Red No Pen"</InternalNotes>
         <ShowInSearchList>False</ShowInSearchList>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/hawg/2018-05-04_21-56-56.png" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/hawg/2018-05-04_21-56-56.png" />
         </Medias>
       </Package>
       <Package PackageName="TankSkinsMisc_ColoredPenetration_HAWGcolorblind" Enabled="True" Tags="ImageDDS" InstallGroup="4" PatchGroup="4" UID="36kg4s6gpkftihqn" Name="HAWG Colorblind" Type="single_dropdown1" Visible="True">
@@ -156,9 +157,9 @@
         <InternalNotes>use folder "(1) No HE Orange With No Pen Red"</InternalNotes>
         <ShowInSearchList>False</ShowInSearchList>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/hawg_colorblind/1.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/hawg_colorblind/2.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/hawg_colorblind/2018-05-04_21-57-56.png" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/hawg_colorblind/1.png" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/hawg_colorblind/2.png" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/hawg_colorblind/2018-05-04_21-57-56.png" />
         </Medias>
       </Package>
       <Package PackageName="TankSkinsMisc_ColoredPenetration_webium" Enabled="True" Tags="ImageDDS" InstallGroup="4" PatchGroup="4" UID="aa833v20jz91tmf0" Name="webium" Type="single_dropdown1" Visible="True">
@@ -171,7 +172,7 @@
         <Deprecated>True</Deprecated>
         <ShowInSearchList>False</ShowInSearchList>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/webium/2018-05-04_21-59-17.png" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/webium/2018-05-04_21-59-17.png" />
         </Medias>
       </Package>
       <Package PackageName="TankSkinsMisc_ColoredPenetration_protanki" Enabled="True" Tags="ImageDDS" InstallGroup="4" PatchGroup="4" UID="4oqavzsjeibq4fxe" Name="Protanki" Type="single_dropdown1" Visible="True">
@@ -182,7 +183,7 @@
         <DevURL>https://protanki.tv/mods/tsvetnye-otmetki-popadanii</DevURL>
         <ShowInSearchList>False</ShowInSearchList>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/protanki/2018-05-04_21-58-15.png" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/Paintball_mod/protanki/2018-05-04_21-58-15.png" />
         </Medias>
       </Package>
     </Packages>
@@ -206,8 +207,8 @@
             <Description>Makes all tanks have the new KV-2(R) MOE</Description>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/MoE/Tank_Skins_Misc_marks_of_excellence_KV2R_For_All_Icon.png" MediaType="Picture" />
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/MoE/Tank_Skins_Misc_marks_of_excellence_KV2R_For_All_2.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/MoE/Tank_Skins_Misc_marks_of_excellence_KV2R_For_All_Icon.png" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/MoE/Tank_Skins_Misc_marks_of_excellence_KV2R_For_All_2.jpg" />
             </Medias>
           </Package>
           <Package PackageName="TankSkinsMisc_MarksOfExcellence_Nations_Chuck_Norris" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vdce7c2asm1gjmpx" Name="Chuck Norris" Type="single_dropdown1" Visible="True">
@@ -310,7 +311,7 @@
             <Timestamp>132509623441382252</Timestamp>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/MoE/Tank_Skin_Misc_marks_of_excellence_relic.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/MoE/Tank_Skin_Misc_marks_of_excellence_relic.png" />
             </Medias>
           </Package>
           <Package PackageName="TankSkinsMisc_MarksOfExcellence_VA_3rdguard" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="evx5j0766njefi8q" Name="3rdguards by Willster419" Type="single_dropdown1" Visible="True">
@@ -320,7 +321,7 @@
             <Timestamp>132509623542643320</Timestamp>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/MoE/Tank_Skin_Misc_marks_of_excellence_3rdguards.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Tank_Skin_Misc/MoE/Tank_Skin_Misc_marks_of_excellence_3rdguards.png" />
             </Medias>
           </Package>
           <Package PackageName="TankSkinsMisc_MarksOfExcellence_VA_4head" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="89fcb4xp16k4qbq3" Name="Glorious 4Head by Willster419" Type="single_dropdown1" Visible="True">
@@ -330,7 +331,7 @@
             <Timestamp>132509623652198039</Timestamp>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
-              <Media URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/Tank_Skin_Misc/MoE/Tank_Skin_Misc_marks_of_excellence_4head.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/Tank_Skin_Misc/MoE/Tank_Skin_Misc_marks_of_excellence_4head.png" />
             </Medias>
           </Package>
           <Package PackageName="TankSkinsMisc_MarksOfExcellence_VA_Aimdrol" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lymrj33q03dmqnx3" Name="Ace Tanker by Aimdrol" Type="single_dropdown1" Visible="True">
@@ -340,7 +341,7 @@
             <Timestamp>132509623809979174</Timestamp>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
-              <Media URL="http://i.imgur.com/s4L4nVr.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://i.imgur.com/s4L4nVr.png" />
             </Medias>
           </Package>
           <Package PackageName="TankSkinsMisc_MarksOfExcellence_VA_Illuminati" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="5rgsr65btfzb23tf" Name="Illuminati by Aimdrol" Type="single_dropdown1" Visible="True">
@@ -350,7 +351,7 @@
             <Timestamp>132509624053418791</Timestamp>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
-              <Media URL="http://i.imgur.com/DsAezWr.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://i.imgur.com/DsAezWr.png" />
             </Medias>
           </Package>
           <Package PackageName="TankSkinsMisc_MarksOfExcellence_VA_MVP" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wnzgzc3fh6g7oof5" Name="xXx_MVP_xXx by Aimdrol" Type="single_dropdown1" Visible="True">
@@ -360,7 +361,7 @@
             <Timestamp>132509624261387230</Timestamp>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
-              <Media URL="http://i.imgur.com/ZtlPVDN.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://i.imgur.com/ZtlPVDN.png" />
             </Medias>
           </Package>
           <Package PackageName="TankSkinsMisc_MarksOfExcellence_VA_QuickeyBaby" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="q1gnrgtycpixzhxi" Name="QuickeyBaby by Aimdrol" Type="single_dropdown1" Visible="True">
@@ -381,8 +382,8 @@
             <Description>this mod only changes the french gunmarks</Description>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
-              <Media URL="https://wgmods.net/media/shot_004_mrP0ToQ.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
-              <Media URL="https://wgmods.net/media/shot_003_piMSlut.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+              <Media MediaType="Picture" URL="https://wgmods.net/media/shot_004_mrP0ToQ.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
+              <Media MediaType="Picture" URL="https://wgmods.net/media/shot_003_piMSlut.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
             </Medias>
             <Dependencies>
               <Dependency PackageName="Dependency_XML_loadOrder" NotFlag="False" Logic="OR" />
@@ -395,7 +396,7 @@
             <Timestamp>132509624523730634</Timestamp>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
-              <Media URL="http://fs5.directupload.net/images/user/160425/nga9lmm7.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/160425/nga9lmm7.png" />
             </Medias>
           </Package>
           <Package PackageName="TankSkinsMisc_MarksOfExcellence_VA_VoPV2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="um6p6lx4ydrameq8" Name="V2 by VoPV" Type="single_dropdown1" Visible="True">
@@ -405,7 +406,7 @@
             <Timestamp>132509625130849414</Timestamp>
             <ShowInSearchList>False</ShowInSearchList>
             <Medias>
-              <Media URL="http://fs5.directupload.net/images/user/160425/jfhnc4by.png" MediaType="Picture" />
+              <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/160425/jfhnc4by.png" />
             </Medias>
           </Package>
         </Packages>
@@ -428,7 +429,7 @@
         <Description>Good news everyone!</Description>
         <ShowInSearchList>False</ShowInSearchList>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Tank_Skin_Misc/shot_033.jpg" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Tank_Skin_Misc/shot_033.jpg" />
         </Medias>
       </Package>
       <Package PackageName="TankSkinsMisc_NationDecals_GuP" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bw26uq7bkxs68mpx" Name="Girls und Panzer" Type="single_dropdown1" Visible="True">
@@ -439,7 +440,7 @@
         <Deprecated>True</Deprecated>
         <ShowInSearchList>False</ShowInSearchList>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/VehicleNationDecals/Garage_Graphics_VehicleNationDecals_GuP.png" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/VehicleNationDecals/Garage_Graphics_VehicleNationDecals_GuP.png" />
         </Medias>
       </Package>
       <Package PackageName="TankSkinsMisc_NationDecals_Kountryball" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="izqtut3vedndjrfa" Name="Kountryball by Kaptain Prio" Type="single_dropdown1" Visible="True">
@@ -451,7 +452,7 @@
         <Deprecated>True</Deprecated>
         <ShowInSearchList>False</ShowInSearchList>
         <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/VehicleNationDecals/Garage_Graphics_VehicleDecals_Kountryball_by_Kaptain_Prio_2019-04-02.png" MediaType="Picture" />
+          <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/VehicleNationDecals/Garage_Graphics_VehicleDecals_Kountryball_by_Kaptain_Prio_2019-04-02.png" />
         </Medias>
       </Package>
     </Packages>
@@ -466,9 +467,9 @@
     <Author>goofy67</Author>
     <Description>Makes decals, inscriptions, camouflages and/or clan-logos invisible, configurable for any tank separately.\n\nOpen configuration-window via Modifications-List-Button (lower-right corner in hangar)</Description>
     <Medias>
-      <Media URL="http://www.goofy67-wot.de/media/images/how_to_open.jpg" MediaType="Picture" />
-      <Media URL="http://www.goofy67-wot.de/media/images/tooltip.jpg" MediaType="Picture" />
-      <Media URL="https://wgmods.net/media/cover_FIIWSNQ.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" MediaType="Picture" />
+      <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/how_to_open.jpg" />
+      <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/tooltip.jpg" />
+      <Media MediaType="Picture" URL="https://wgmods.net/media/cover_FIIWSNQ.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
     </Medias>
     <UserFiles>
       <UserFile Pattern="{appData}\Wargaming.net\WorldOfTanks\LimpidStickers\config.json" />
@@ -522,4 +523,5 @@
       </Package>
     </Packages>
   </Package>
+</Packages>
 </Category>
