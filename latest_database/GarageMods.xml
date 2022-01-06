@@ -73,11 +73,12 @@
         <Package PackageName="GarageMods_CrewAutoReturn_Oldskool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7hjfw49664u06l3a" Name="v{version} [by {author}]" Type="single_dropdown1" Visible="True">
           <Size>47163</Size>
           <Version>1.1.4</Version>
-          <ZipFile>GarageMods_CrewAutoReturn_Oldskool_v1.1.4_1.15.0.0_2021-12-13.zip</ZipFile>
-          <CRC>3492530ec9a986450c675e45271cecd0</CRC>
-          <Timestamp>132838387272180102</Timestamp>
+          <ZipFile>GarageMods_CrewAutoReturn_Oldskool_v1.1.4_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859227201638680</Timestamp>
           <DevURL>https://github.com/deadhat/wotmods-public.git\r\nhttps://promod.reidarty.de/promod/\r\nhttps://wgmods.net/3668/\r\n</DevURL>
           <Author>Oldskool</Author>
+          <LastUpdateCheck>132859227201638680</LastUpdateCheck>
           <Description>OLDSKOOL'S AUTO RETURN CREW MOD\r\n... IS AN EXTENSION TO AUTOSWITCH YOUR CREWS BETWEEN TANKS.\r\n\r\nSettingS: ENabled By Default\r\n\r\nFEATURES:\r\n• Autoswitch your crews between tanks.\r\n• Easy enable or disable it for each of your tanks.\r\n• Over 10 languages aresupported for now.\r\n• Save configuration to safe file location to prevent issues.</Description>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Dependencies>
@@ -176,105 +177,129 @@
       <Packages>
         <Package PackageName="GarageMods_littleHelperCollection_alwaysShowCompareButton" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="dt0gwwsulr1i11a0" Name="Always show vehicle compare button in the garage" Type="multi" Visible="True">
           <Size>607</Size>
-          <ZipFile>GarageMods_littleHelperCollection_alwaysShowCompareButton_2020-12-19.zip</ZipFile>
-          <CRC>c4653c3714be99147f1b44f9f4ad91b3</CRC>
-          <Timestamp>132528377464128162</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>If enabled the vehicle compare button on the lower right in the garage will not removed.&lt;br/&gt;Note: Changes only take effect after you re-entering the garage. (After a battle or reloading the game client) or after clearing the comparesation list. Credits are going to goofy67 for the code snippet.&lt;br/&gt;&lt;br/&gt;default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.alwaysShowCompareButton</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_arenaBorderRecolor" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="yufmepnjf7cxh4tv" Name="Enable arena border color change" Type="multi" Visible="True">
           <Size>559</Size>
-          <ZipFile>GarageMods_littleHelperCollection_arenaBorderRecolor_2020-12-19.zip</ZipFile>
-          <CRC>0fccd33641f08265c0a32b117e43351e</CRC>
-          <Timestamp>132528377809765330</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>When enabled the arena border color will be changed to the defined color.</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.arenaBorderRecolor</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_autoLogin" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="xqomr9ivussuzr5o" Name="Automatically log into the game from the last played server" Type="multi" Visible="True">
           <Size>536</Size>
-          <ZipFile>GarageMods_littleHelperCollection_autoLogin_2021-05-08.zip</ZipFile>
-          <CRC>3c9f6e3cbf9f8457316a290e7bdc376a</CRC>
-          <Timestamp>132650038362415983</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.autoLogin</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_battleResultsRealname" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="t0qyrc0d6ttt4p52" Name="Show player real names in battle results" Type="multi" Visible="True">
           <Size>567</Size>
-          <ZipFile>GarageMods_littleHelperCollection_battleResultsRealname_2020-12-19.zip</ZipFile>
-          <CRC>c9a5c021d8f848202a1ff3375088676a</CRC>
-          <Timestamp>132528378039799315</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>If activated, the player's real names are shown in the battleresult dialog.&lt;br/&gt;&lt;br/&gt;default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.battleResultsRealname</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_battleResultsRemoveBadges" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cujl002c2tkuk0y5" Name="Remove player badges in battle results" Type="multi" Visible="True">
           <Size>567</Size>
-          <ZipFile>GarageMods_littleHelperCollection_battleResultsRealname_2020-12-19.zip</ZipFile>
-          <CRC>c9a5c021d8f848202a1ff3375088676a</CRC>
-          <Timestamp>132528378039799315</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.battleResultsRealname</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_disableAutoLoaderReloadSound" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jfvwdh2zblwhbuba" Name="Disable auto laoder reload sound" Type="multi" Visible="True">
           <Size>588</Size>
-          <ZipFile>GarageMods_littleHelperCollection_disableAutoLoaderReloadSound_2021-05-08.zip</ZipFile>
-          <CRC>9d0580791ad899337d0a4d1f14a6abaf</CRC>
-          <Timestamp>132650038967179907</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.disableAutoLoaderReloadSound</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_disableBCHint" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vokmert6pia9qh2m" Name="Disable the battle communication hint at the beginning of the battle" Type="multi" Visible="True">
           <Size>547</Size>
-          <ZipFile>GarageMods_littleHelperCollection_disableBCHint_2021-05-08.zip</ZipFile>
-          <CRC>25f7d7dd681eed12320b57ec5f22d328</CRC>
-          <Timestamp>132650040148351474</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.disableBCHint</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_disableBlinkingNotes" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="0qgjrkesmljx4adq" Name="Disable blinking notifications in the garage" Type="multi" Visible="True">
           <Size>565</Size>
-          <ZipFile>GarageMods_littleHelperCollection_disableBlinkingNotes_2020-12-19.zip</ZipFile>
-          <CRC>9618d81bbd02d1844e2352b554c04263</CRC>
-          <Timestamp>132528378311291175</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>Disables the blinking button when new notifications available in the garage.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.disableBlinkingNotes</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_disableDecalReward" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="2di38ui1zbioikj1" Name="Disable 'decal award recieved' window after battle" Type="multi" Visible="True">
           <Size>561</Size>
-          <ZipFile>GarageMods_littleHelperCollection_disableDecalReward_2020-12-19.zip</ZipFile>
-          <CRC>0b13625b2f7e03b722d03deff34d8483</CRC>
-          <Timestamp>132528378674931863</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.disableDecalReward</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_disableEventBanner" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2lo7t7z8awia66hh" Name="Remove event widgets on the lower right side in the garage" Type="multi" Visible="True">
           <Size>561</Size>
-          <ZipFile>GarageMods_littleHelperCollection_disableEventBanner_2021-02-09.zip</ZipFile>
-          <CRC>61940128b1e404d035394c2cc9ae99a9</CRC>
-          <Timestamp>132574061114683095</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.disableEventBanner</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_disableHelpHint" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="70wcc1errqwd2pdm" Name="Disable help hint for dualgun tanks or wheeled vehicles at the beginning of the battle" Type="multi" Visible="True">
           <Size>549</Size>
-          <ZipFile>GarageMods_littleHelperCollection_disableHelpHint_2020-1.zip</ZipFile>
-          <CRC>77f447e4d8cba5e1a21181e15049555c</CRC>
-          <Timestamp>132528379084218651</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>Disables the vehicle help hint for double barrel tanks or wheeled vehicles at the beginning of the battle.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.disableHelpHint</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_disableHeroTank" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="u512rtoiq94xfjq9" Name="Disable promotional tank display in the garage" Type="multi" Visible="True">
           <Size>552</Size>
-          <ZipFile>GarageMods_littleHelperCollection_disableHeroTank_2020-12-19.zip</ZipFile>
-          <CRC>1f21b0cccaa860c44beee31cceadfd5d</CRC>
-          <Timestamp>132528379256816007</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>Disables the promotion of a tank in the background of the garage.&lt;br/&gt;Note: Changes only take effect after re-entering the garage. (After a battle or reloading the game client)&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.disableHeroTank</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_disableKillPeepMode" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pas1hyu84ijxjfev" Name="Remove the &quot;peep&quot; sound after a tank is destroyed (new 1.12 feature)" Type="multi" Visible="True">
           <Size>618</Size>
@@ -285,47 +310,57 @@
           <Packages>
             <Package PackageName="GarageMods_littleHelperCollection_disableKillPeepMode1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="iqg600upysdokrcg" Name="Disable for allied tanks" Type="single_dropdown1" Visible="True">
               <Size>638</Size>
-              <ZipFile>GarageMods_littleHelperCollection_disableKillPeepMode1_2021-05-09.zip</ZipFile>
-              <CRC>c3639ae1e04e59353dce84a9ccad4a92</CRC>
-              <Timestamp>132650693247247347</Timestamp>
               <Maintainers>Willster419</Maintainers>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="1">
+                  <Path>$.disableKillPeepMode</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageMods_littleHelperCollection_disableKillPeepMode2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="30dvczspuiswl967" Name="Disable for enemy tanks" Type="single_dropdown1" Visible="True">
               <Size>638</Size>
-              <ZipFile>GarageMods_littleHelperCollection_disableKillPeepMode2_2021-05-09.zip</ZipFile>
-              <CRC>9ab379df2a7c044cb73d68c5ecc2ee51</CRC>
-              <Timestamp>132650693286927269</Timestamp>
               <Maintainers>Willster419</Maintainers>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="2">
+                  <Path>$.disableKillPeepMode</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageMods_littleHelperCollection_disableKillPeepMode3" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="nz4dxhffjigy6fkk" Name="Disable for all tanks" Type="single_dropdown1" Visible="True">
               <Size>637</Size>
-              <ZipFile>GarageMods_littleHelperCollection_disableKillPeepMode3_2021-05-09.zip</ZipFile>
-              <CRC>2818148c4087e85de0f1b43153e3799e</CRC>
-              <Timestamp>132650693323259207</Timestamp>
               <Maintainers>Willster419</Maintainers>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="3">
+                  <Path>$.disableKillPeepMode</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_disableQuestHint" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="hj0vcpnv08qpavlt" Name="Disable personal mission quest hint" Type="multi" Visible="True">
           <Size>554</Size>
-          <ZipFile>GarageMods_littleHelperCollection_disableQuestHint_2020-12-19.zip</ZipFile>
-          <CRC>995d32ccceaa37c1859d2a4f2eb67207</CRC>
-          <Timestamp>132528379486749424</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>Disables the personal mission quest hint at the beginning of the battle.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.disableQuestHint</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_disableTeaser" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ghcponvaugkednkx" Name="Disable teaser widget in garage" Type="multi" Visible="True">
           <Size>547</Size>
-          <ZipFile>GarageMods_littleHelperCollection_disableTeaser_2020-12-19.zip</ZipFile>
-          <CRC>fa24ac219b1db5f7a14ff378d9e562f1</CRC>
-          <Timestamp>132528379622646079</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>Disables the teaser widget in the garage&lt;br/&gt;Note: Changes only take effect after you re-entering the garage. (After a battle or reloading the game client)&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.disableTeaser</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="sr4rx37niigfsp7f" Name="Enable changing of 'Battle!' button text" Type="multi" Visible="True">
           <Size>570</Size>
@@ -337,142 +372,172 @@
           <Packages>
             <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_Disabled" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qaxxxxlo03jxgjq8" Name="Disabled" Type="single_dropdown1" Visible="True">
               <Size>584</Size>
-              <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_Disabled_2021-01-03.zip</ZipFile>
-              <CRC>4256ac4b64cc7c6e93d650db9273009a</CRC>
-              <Timestamp>132541758550246431</Timestamp>
               <Maintainers>Willster419</Maintainers>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="0">
+                  <Path>$.fightButtonTextMode</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_OnlyWithoutPlatoon" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qjn7a5ifk030scqn" Name="Only in single random battle mode (not in a platoon)" Type="single_dropdown1" Visible="True">
               <Size>604</Size>
-              <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_OnlyWithoutPlatoon_2021-01-03.zip</ZipFile>
-              <CRC>258b4fc0fd1f8f7585207ccf1673a765</CRC>
-              <Timestamp>132541758657785238</Timestamp>
               <Maintainers>Willster419</Maintainers>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="1">
+                  <Path>$.fightButtonTextMode</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_Always" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="27uduy8a4fkys138" Name="Always" Type="single_dropdown1" Visible="True">
               <Size>580</Size>
-              <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_Always_2021-01-03.zip</ZipFile>
-              <CRC>c0d80296b3974c97126faafd13b6757c</CRC>
-              <Timestamp>132541758729853048</Timestamp>
               <Maintainers>Willster419</Maintainers>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="2">
+                  <Path>$.fightButtonTextMode</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bs0ez6d9w0lim75a" Name="Default text: 'RNG!'" Type="single_dropdown2" Visible="True">
               <Size>583</Size>
-              <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_Default_2021-01-03.zip</ZipFile>
-              <CRC>468c158c60519ef350fa40f16be40fbe</CRC>
-              <Timestamp>132541758817010192</Timestamp>
               <Maintainers>Willster419</Maintainers>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="RNG!">
+                  <Path>$.fightButtonText</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_Willster419" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8b82tzos9xfsemoh" Name="Willster419: 'HATE SELF'" Type="single_dropdown2" Visible="True">
               <Size>612</Size>
-              <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_Willster419_2021-01-03.zip</ZipFile>
-              <CRC>0d36313396d49f3c8be3f0436516891b</CRC>
-              <Timestamp>132541758925326704</Timestamp>
               <Maintainers>Willster419</Maintainers>
               <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="https://i.imgur.com/bNZVxaL.png" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="HATE SELF">
+                  <Path>$.fightButtonText</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_1SHOT" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="emcfkevyshvpkh28" Name="1SHOT_CFM: 'KILL ME'" Type="single_dropdown2" Visible="True">
               <Size>582</Size>
-              <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_1SHOT_2021-01-03.zip</ZipFile>
-              <CRC>a02d975317be05b592e17d6253529b1d</CRC>
-              <Timestamp>132541758986508317</Timestamp>
               <Maintainers>Willster419</Maintainers>
               <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="https://i.imgur.com/PLEudEe.png" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="KILL ME">
+                  <Path>$.fightButtonText</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_EldelBario" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="c03i7ba9r2pnvapq" Name="EldelBario: 'SUFFER MORE'" Type="single_dropdown2" Visible="True">
               <Size>596</Size>
-              <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_EldelBario_2021-01-03.zip</ZipFile>
-              <CRC>ad2cd8165d30a363b8a5b33d1587432f</CRC>
-              <Timestamp>132541834248533312</Timestamp>
               <Maintainers>Willster419</Maintainers>
               <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="https://i.imgur.com/qp60x9G.png" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="SUFFER MORE">
+                  <Path>$.fightButtonText</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageMods_littleHelperCollection_enableFightButtonText_Willster419_2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ijf3mcfcnn9opt5u" Name="Willster419: 'REEEEEEEEEEE'" Type="single_dropdown2" Visible="True">
               <Size>594</Size>
-              <ZipFile>GarageMods_littleHelperCollection_enableFightButtonText_Willster419_2_2021-01-03.zip</ZipFile>
-              <CRC>4b2b7669fd89448d5406cd194245ab1b</CRC>
-              <Timestamp>132541834161078567</Timestamp>
               <Maintainers>Willster419</Maintainers>
               <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="https://i.imgur.com/bx3afND.png" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="REEEEEEEEEEE">
+                  <Path>$.fightButtonText</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_hangarTooltip" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="yu4kel0z6h6oeq0c" Name="Show equipment usage in tooltip" Type="multi" Visible="True">
           <Size>546</Size>
-          <ZipFile>GarageMods_littleHelperCollection_hangarTooltip_2020-12-19.zip</ZipFile>
-          <CRC>4b7c5cf4a815fe053d1593112bd9577e</CRC>
-          <Timestamp>132528380493810704</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>When enabled, the tooltip in the garage for equipment items additionally shows every tank where the selected item is in use.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.hangarTooltip</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_removeButtonGeneralChat" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="lmxwj3lmvn1vxjao" Name="Remove general chat button in garage" Type="multi" Visible="True">
           <Size>574</Size>
-          <ZipFile>GarageMods_littleHelperCollection_removeButtonGeneralChat_2020-12-19.zip</ZipFile>
-          <CRC>861f9d5e41f571cc9943470c3c441e34</CRC>
-          <Timestamp>132528381003530917</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>If enabled the general chat button in the garage will be removed.&lt;br/&gt;Note: Changes only take effect after you re-entering the garage. (After a battle or reloading the game client)&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.removeButtonGeneralChat</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_removeDogTags" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="928gzzjroswfwkly" Name="Remove dog tags display in battle" Type="multi" Visible="True">
           <Size>548</Size>
-          <ZipFile>GarageMods_littleHelperCollection_removeDogTags_2020-12-19.zip</ZipFile>
-          <CRC>e276dc04d5f6e7325ac3898d3d09421e</CRC>
-          <Timestamp>132528381227162572</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>If enabled, dog tags will not be displayed after your tank is destroyed.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.removeDogTags</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_removeMaxBoosterDisplayLimit" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="11qh83q6vfm6ufos" Name="Remove the booster display limit" Type="multi" Visible="True">
           <Size>588</Size>
-          <ZipFile>GarageMods_littleHelperCollection_removeMaxBoosterDisplayLimit_2021-03-15.zip</ZipFile>
-          <CRC>be71531cad4db65e8694ee73877a3b0b</CRC>
-          <Timestamp>132603298702499625</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.removeMaxBoosterDisplayLimit</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_removeSimpleParams" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6x02qitgm32rvd8x" Name="Enable simple (legacy) tank parameters in garage" Type="multi" Visible="True">
           <Size>561</Size>
-          <ZipFile>GarageMods_littleHelperCollection_removeSimpleParams_2020-12-19.zip</ZipFile>
-          <CRC>865abe746f01bbb5f8b63310d79e773d</CRC>
-          <Timestamp>132528381615046459</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>If enabled, vehicle parameters catagory headers in the garage will be removed and the simple (legacy style) parameters are displayed.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.removeSimpleParams</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_removeUnreadNotes" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="y0kege2gu9j7mbja" Name="Remove unread notifications counter in the menu received from 'Combat Intelligence'" Type="multi" Visible="True">
           <Size>558</Size>
-          <ZipFile>GarageMods_littleHelperCollection_removeUnreadNotes_2020-12-19.zip</ZipFile>
-          <CRC>d2521ffb4d8a92142e99f5a2d39ed320</CRC>
-          <Timestamp>132574060993497982</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.removeUnreadNotes</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageMods_littleHelperCollection_storageTooltip" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="p3xgriuvf1bn4rtg" Name="Remove simple storage tooltip headers (when selling vehicle)" Type="multi" Visible="True">
           <Size>548</Size>
-          <ZipFile>GarageMods_littleHelperCollection_storageTooltip_2020-12-19.zip</ZipFile>
-          <CRC>95676221c4c6248a7d8101dbab8729a3</CRC>
-          <Timestamp>132528382025105915</Timestamp>
           <Maintainers>Willster419</Maintainers>
           <Description>If this option is activated, the simple headers of the vehicle parameters tooltip when selling a tank are removed.&lt;br/&gt;&lt;br/&gt;Default: unchecked</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\littleHelperCollection\littleHelperCollection.json" Version="1" Search=".*" Replace="true">
+              <Path>$.storageTooltip</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>

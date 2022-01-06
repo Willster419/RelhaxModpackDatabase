@@ -352,16 +352,22 @@
     </Package>
     <Package PackageName="IngameMisc_BetterVisibleFlatTrainWagons" Enabled="True" Tags="ImageDDS" InstallGroup="4" PatchGroup="4" UID="px6jrz5us97tnnbb" Name="Better visible flat trainwagons" Type="multi" Visible="True">
       <Size>24431</Size>
-      <ZipFile>IngameMisc_BetterVisibleFlatTrainWagons_1.15.0.0_2021-12-13.zip</ZipFile>
-      <CRC>b42cc6c5af56874144793599bbba566f</CRC>
-      <Timestamp>132838370581864952</Timestamp>
+      <ZipFile>IngameMisc_BetterVisibleFlatTrainWagons_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+      <CRC>f</CRC>
+      <Timestamp>132859224605403668</Timestamp>
       <InternalNotes>--MEDIA PICTURE FOR REFERENCE ONLY. USE TEXT SETTINGS HERE IF CONFLICT--\r\n\r\nThese can be created using the MCT gui application:\r\nhttps://github.com/Relhax-Modpack-Team/RelhaxMCT/tree/master/MCTCreator\r\n\r\nIt is easy to update, just edit and run the mct2_railway.bat here:\r\nhttps://github.com/Relhax-Modpack-Team/RelhaxMCT/blob/master/MCTCreator/mct2_railway.bat\r\n\r\n\r\nLink to the Special Packages Document:\r\nhttps://docs.google.com/document/d/1DIYfQwfD46KWA3xLvqONjj_i54SlYy3F0YKZUc_U3JU/edit#heading=h.z7mbufem15s5\r\n\r\n11010010101011101010010101010111011101010001010101010100101111101010010100010\r\n\r\n\r\nFor doing it manually, set the following settings in the GUI:\r\n- WOT: Your wot installation to the exe.\r\n- Destination folder: Optional. Set to any folder. The mods will be created here. If not set, it defaults to the WoT install folder\r\n\r\n- In the advanced options (wrench icon):\r\n- "Don't download new configs" should be unchecked\r\n- "Full path to the configs folder" -&gt; If the *.cfg files are not in the same folder as the application, specify the folder where the cfg files exist.\r\n- "Don't create wotmod packages" should be unchecked\r\n- "Packed in one wotmod file" should be unchecked\r\n- "Save mods to a separate subfolder" should be checked. Puts mods in a "MCTCreator" inside mods folder\r\n- "Don't include HD textures" should be unchecked\r\n- "Split packages into 2GB parts" should be unchecked\r\n- The rest of the advanced settings are optional\r\n\r\n- For IngameMisc_BetterVisibleFlatTrainWagons:\r\n- Check "Carriages and trains on the maps" -&gt; DD7744 color setting.\r\n- Also make sure "Process space.bin" is checked.\r\n\r\n\r\nClick Create mods and update the "railway" wotmod files in the package zip\r\n\r\n</InternalNotes>
+      <LastUpdateCheck>132859224605403668</LastUpdateCheck>
       <Description>Better visible flat trainwagons</Description>
       <Medias>
         <Media MediaType="Picture" URL="https://wgmods.net/media/3_f4RG5pl.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
         <Media MediaType="Picture" URL="https://wgmods.net/media/2_mkwWObb.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/RailwayHowTo.png" />
       </Medias>
+      <Patches>
+        <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/railway.wotmod">
+          <Path>//root/Collection</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="IngameMisc_Chatmods" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0lj8775j9daelote" Name="Chat-Mods (in-battle)" Type="multi" Visible="True">
       <Timestamp>131826383659795290</Timestamp>
@@ -386,11 +392,12 @@
         <Package PackageName="IngameMisc_Chatmods_elkrda" Enabled="True" Tags="Script,ConfigurationFileJson,OtherFiles" InstallGroup="4" PatchGroup="4" UID="7p7u7a133s5lwsir" Name="Elkano's Received Damage Announcer (ElkRDA)" Type="multi" Visible="True">
           <Size>11697</Size>
           <Version>1.12</Version>
-          <ZipFile>IngameMisc_Chatmods_elkrda_1.14.0.0_2021-08-18.zip</ZipFile>
-          <CRC>a59c4e707c6210e652e0492bd9312423</CRC>
-          <Timestamp>132737758558516886</Timestamp>
+          <ZipFile>IngameMisc_Chatmods_elkrda_1.14.0.0_2021-08-18_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859224634113668</Timestamp>
           <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/elkrda\r\nhttp://forum.worldoftanks.eu/index.php?/topic/505319-</DevURL>
           <Author>Elkano</Author>
+          <LastUpdateCheck>132859224634113668</LastUpdateCheck>
           <Description>Shows received hits in chat area in customizable form.</Description>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_chatmods_ElkRDA.PNG" />
@@ -398,38 +405,68 @@
           <Packages>
             <Package PackageName="IngameMisc_Chatmods_elkrda_receivedDMGannouncer" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="kee9fa742px3w4pq" Name="Received damage announcer" Type="multi" Visible="True">
               <Size>503</Size>
-              <ZipFile>IngameMisc_Chatmods_elkrda_receivedDMGannouncer.zip</ZipFile>
-              <CRC>61a3ab1f2b7087dad70fd7d3025d1797</CRC>
-              <Timestamp>132509513001914078</Timestamp>
               <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/elkrda</DevURL>
               <Description>shows received damage</Description>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\ElkRDA.json" Version="1" Search="" Replace="true">
+                  <Path>$.incoming.enabled</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\ElkRDA.json" Version="1" Search="" Replace="true">
+                  <Path>$.incoming_nodamage.enabled</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\ElkRDA.json" Version="1" Search="" Replace="true">
+                  <Path>$.burst_compression.enabled</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameMisc_Chatmods_elkrda_announceTeamdamage" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="esvg6exnx8zs7x74" Name="Announce team damage" Type="multi" Visible="True">
               <Size>485</Size>
-              <ZipFile>IngameMisc_Chatmods_elkrda_announceTeamdamage.zip</ZipFile>
-              <CRC>b54f307ee0ea1a7f8e6acb680353984f</CRC>
-              <Timestamp>132509513119980931</Timestamp>
               <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/elkrda</DevURL>
               <Description>if hit by an ally, this mod will send a message to him (or her)</Description>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\ElkRDA.json" Version="1" Search="" Replace="true">
+                  <Path>$.announce_teamdamage.enabled</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameMisc_Chatmods_elkrda_announceSPG" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="rh2ved3ow4ra79e3" Name="Announce SPG" Type="multi" Visible="True">
               <Size>466</Size>
-              <ZipFile>IngameMisc_Chatmods_elkrda_announceSPG.zip</ZipFile>
-              <CRC>147c87ed80f4dda7db9486899d4136c7</CRC>
-              <Timestamp>132509513233260508</Timestamp>
               <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/elkrda</DevURL>
               <Description>if hit by a spg, this mod will show a message in chat with hitinfo and reload time</Description>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\ElkRDA.json" Version="1" Search="" Replace="true">
+                  <Path>$.announce_spg.enabled</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
+              <Path>$.incoming.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
+              <Path>$.incoming_nodamage.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
+              <Path>$.burst_compression.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
+              <Path>$.announce_teamdamage.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
+              <Path>$.announce_spg.enabled</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameMisc_Chatmods_FriendsMarker" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="lwj26ht7rnt0j1wh" Name="Friends Marker [by {author}]" Type="multi" Visible="True">
           <Size>28971</Size>
           <Version>1.1.3</Version>
-          <ZipFile>IngameMisc_Chatmods_FriendsMarker_v1.1.3_1.15.0.0_2021-12-13.zip</ZipFile>
-          <CRC>22522bd73ce8212e82ea3bd2041e4dc3</CRC>
-          <Timestamp>132838370607967610</Timestamp>
+          <ZipFile>IngameMisc_Chatmods_FriendsMarker_v1.1.3_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859224695913671</Timestamp>
           <DevURL>https://github.com/deadhat/wotmods-public\r\nhttps://promod.reidarty.de/promod</DevURL>
           <Author>Oldskool</Author>
+          <LastUpdateCheck>132859224695913671</LastUpdateCheck>
           <Description>Recognize people from your friendlist in the battle!</Description>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Medias>
@@ -441,12 +478,13 @@
         </Package>
         <Package PackageName="IngameMisc_Chatmods_FriendsNotifier" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="ylqhegz8qklhjd4g" Name="Friends Notifier [by {author}]" Type="multi" Visible="True">
           <Size>33107</Size>
-          <ZipFile>IngameMisc_Chatmods_FriendsNotifier_1.15.0.0_2021-12-18.zip</ZipFile>
-          <CRC>4a6cd334c576e6ada5abd94fff09d50e</CRC>
-          <Timestamp>132843464158312211</Timestamp>
+          <ZipFile>IngameMisc_Chatmods_FriendsNotifier_1.15.0.0_2021-12-18_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859224713968679</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691876-12022018-12-05-friends-and-clan-members-status-change-notifier-by-rajcel/\r\nhttps://wgmods.net/2590/</DevURL>
           <InternalNotes>https://drive.google.com/uc?export=download&amp;id=179o-FxfpiFAhX-S2wye7C0huj9XhdmTK\r\nAlways replace configs folder\r\nOnly bring in friendsNotifier wotmod, not the core</InternalNotes>
           <Author>RaJCeL</Author>
+          <LastUpdateCheck>132859224713968679</LastUpdateCheck>
           <Description>Mod is showing information along to below rules:\n\n- on game launch inform about online players,\n\n- in hangar and battle informs about status change online &lt;-&gt; offline (message from battle is repeated in hangar),\n\n- in battle informs about meeting with someone (platoonmates excluded).</Description>
           <ObfuscatedMod>True</ObfuscatedMod>
           <FromWGmods>True</FromWGmods>
@@ -459,6 +497,11 @@
           <Dependencies>
             <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/rajcel.friendsNotifier.wotmod">
+              <Path>//root/Collection</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameMisc_Chatmods_RadialMenu" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="v2rxui8ujs0ou57t" Name="Radial Menu" Type="multi" Visible="True">
           <Size>1877856</Size>
@@ -612,40 +655,50 @@
       <Packages>
         <Package PackageName="IngameMisc_FPSlimiter_30" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="8b1yx56d4qorbssn" Name="30 fps" Type="single_dropdown1" Visible="True">
           <Size>471</Size>
-          <ZipFile>IngameMisc_FPSlimiter_30_1.6.0.6_2019-09-17.zip</ZipFile>
-          <CRC>72dff0674a971e66e7a16498c3b71538</CRC>
-          <Timestamp>132509510790129315</Timestamp>
           <DevURL>https://protanki.tv/</DevURL>
           <Description>LOL imagine limiting your game to 30 FPS</Description>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="2" Search="" Replace="30">
+              <Path>//renderer/maxFrameRate</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameMisc_FPSlimiter_60" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="2pi5p9wwy9pgmla0" Name="60 fps" Type="single_dropdown1" Visible="True">
           <Size>472</Size>
-          <ZipFile>IngameMisc_FPSlimiter_60_1.6.0.6_2019-09-17.zip</ZipFile>
-          <CRC>07937dc7cc4ee7d4b80bc0e92a2a3c1f</CRC>
-          <Timestamp>132509510890752142</Timestamp>
           <DevURL>https://protanki.tv/</DevURL>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="2" Search="" Replace="60">
+              <Path>//renderer/maxFrameRate</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameMisc_FPSlimiter_72" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="fepkx82xy6iymxi0" Name="72 fps" Type="single_dropdown1" Visible="True">
           <Size>474</Size>
-          <ZipFile>IngameMisc_FPSlimiter_72_1.7.1.2_2020-02-09.zip</ZipFile>
-          <CRC>fcc3df25277c4db29bc8b6c7b6fee86d</CRC>
-          <Timestamp>132509510996695827</Timestamp>
           <DevURL>https://protanki.tv/</DevURL>
           <Description>LordFelix wanted this, so here it is...</Description>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="2" Search="" Replace="72">
+              <Path>//renderer/maxFrameRate</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameMisc_FPSlimiter_120" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="r3wz588yx2agm9p0" Name="120 fps" Type="single_dropdown1" Visible="True">
           <Size>474</Size>
-          <ZipFile>IngameMisc_FPSlimiter_120_1.6.0.6_2019-09-17.zip</ZipFile>
-          <CRC>1a43fe217deb6d5d9a55feb8229c9dc8</CRC>
-          <Timestamp>132509511099668085</Timestamp>
           <DevURL>https://protanki.tv/</DevURL>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="2" Search="" Replace="120">
+              <Path>//renderer/maxFrameRate</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameMisc_FPSlimiter_144" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="mid6xcyhslc5x17d" Name="144 fps" Type="single_dropdown1" Visible="True">
           <Size>474</Size>
-          <ZipFile>IngameMisc_FPSlimiter_144_1.6.0.6_2019-09-17.zip</ZipFile>
-          <CRC>24783550e344a8ac5af28f7f0e5e1fbb</CRC>
-          <Timestamp>132509511207017695</Timestamp>
           <DevURL>https://protanki.tv/</DevURL>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="2" Search="" Replace="144">
+              <Path>//renderer/maxFrameRate</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -1055,9 +1108,6 @@
     </Package>
     <Package PackageName="IngameMisc_ReplayFreeCam" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="rvt1qu5r27ifv9yq" Name="Replay FreeCamera (PMOD) [by {author}]" Type="multi" Visible="True">
       <Size>616</Size>
-      <ZipFile>IngameMisc_ReplayFreeCam_2018-04-30.zip</ZipFile>
-      <CRC>bfead09c9203bbcbded5df7921683d65</CRC>
-      <Timestamp>132509507916389889</Timestamp>
       <DevURL>https://wgmods.net/50/details</DevURL>
       <InternalNotes>PMOD patch</InternalNotes>
       <Author>Poliroid</Author>
@@ -1066,6 +1116,11 @@
       <Dependencies>
         <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\\mods\\configs\\pmod\\videomode.json" Version="1" Search="" Replace="true">
+          <Path>$.enable</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="IngameMisc_SteelHunterHelper" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="f5d9lazukukbg0rp" Name="Steel Hunter Helper [by {author}]" Type="multi" Visible="False">
       <Size>66125</Size>

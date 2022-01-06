@@ -9,19 +9,41 @@
   </GlobalDependency>
   <GlobalDependency PackageName="DependencyGlobal_WotXmlCreation" Enabled="True" Tags="" InstallGroup="0" PatchGroup="0" UID="0g3grfd16ozq8xhu">
     <Size>719</Size>
-    <ZipFile>DependencyGlobal_WotXmlCreation_2020-08-09.zip</ZipFile>
-    <CRC>39a26cee75de1a3ebbd0139cc12351b6</CRC>
-    <Timestamp>132414840703600399</Timestamp>
     <InternalNotes>A zip file that has instructions for xml unpacking. \r\nXml files are copied from the game directory to the res_mods folder. \r\n\r\nTo verify: \r\nmake sure all declared xml files are located properly</InternalNotes>
     <Maintainers>Willster419</Maintainers>
+    <XmlUnpacks>
+      <XmlUnpack FileName="scripts_config.xml" ExtractDirectory="{app}\res_mods\{versiondir}\" NewFileName="">
+        <DirectoryInArchive>{app}\res</DirectoryInArchive>
+      </XmlUnpack>
+      <XmlUnpack FileName="engine_config.xml" ExtractDirectory="{app}\res_mods\{versiondir}\" NewFileName="">
+        <DirectoryInArchive>{app}\res</DirectoryInArchive>
+      </XmlUnpack>
+      <XmlUnpack FileName="avatar_input_handler.xml" ExtractDirectory="{app}\res_mods\{versiondir}\gui" NewFileName="">
+        <Pkg>{app}\res\packages\gui-part2.pkg</Pkg>
+        <DirectoryInArchive>gui</DirectoryInArchive>
+      </XmlUnpack>
+      <XmlUnpack FileName="gui_sounds.xml" ExtractDirectory="{app}\res_mods\{versiondir}\gui" NewFileName="">
+        <Pkg>{app}\res\packages\gui-part1.pkg</Pkg>
+        <DirectoryInArchive>gui</DirectoryInArchive>
+      </XmlUnpack>
+      <XmlUnpack FileName="music_events.xml" ExtractDirectory="{app}\res_mods\{versiondir}\gui" NewFileName="">
+        <Pkg>{app}\res\packages\gui-part2.pkg</Pkg>
+        <DirectoryInArchive>gui</DirectoryInArchive>
+      </XmlUnpack>
+      <XmlUnpack FileName="sound_notifications.xml" ExtractDirectory="{app}\res_mods\{versiondir}\gui" NewFileName="">
+        <Pkg>{app}\res\packages\gui-part2.pkg</Pkg>
+        <DirectoryInArchive>gui</DirectoryInArchive>
+      </XmlUnpack>
+    </XmlUnpacks>
   </GlobalDependency>
   <GlobalDependency PackageName="DependencyGlobal_WoTShortcuts" Enabled="True" Tags="" InstallGroup="0" PatchGroup="0" UID="d59vzfk25kr889ou">
     <Size>453</Size>
-    <ZipFile>Dependency_global_WoT_shortcuts.zip</ZipFile>
-    <CRC>3f3511785099b6741fc77472118dcb28</CRC>
-    <Timestamp>131593804867158547</Timestamp>
     <InternalNotes>A zip file that has instructions to create shortcuts. \r\nThey are made based on instructions from the xml file that are parsed into the installer. \r\nThey are created to be on the desktop. \r\n\r\nTo verify: \r\n- Enable the setting create shortcuts, and run a test install. \r\n- Make sure both shortcuts are created. One for WoT and one for WoT launcher.</InternalNotes>
     <Maintainers>Willster419</Maintainers>
+    <Shortcuts>
+      <Shortcut Path="{app}/WorldOfTanks.exe" Name="World of Tanks" Enabled="True" />
+      <Shortcut Path="{app}/WoTLauncher.exe" Name="World of Tanks Launcher" Enabled="True" />
+    </Shortcuts>
   </GlobalDependency>
   <GlobalDependency PackageName="DependencyGlobal_Fonts" Enabled="True" Tags="" InstallGroup="0" PatchGroup="0" UID="7kr2rj9l03tyk267">
     <Size>164606</Size>
@@ -55,23 +77,41 @@
   </GlobalDependency>
   <GlobalDependency PackageName="DependencyGlobal_RelHax_WaitingSWF" Enabled="True" Tags="GuiFlash" InstallGroup="0" PatchGroup="0" UID="hqzxfko8s80mv6hj">
     <Size>78747</Size>
-    <ZipFile>DependencyGlobal_RelHax_WaitingSWF_2020-08-11.zip</ZipFile>
-    <CRC>4010b07f4b22784d2c03f35170d610d4</CRC>
-    <Timestamp>132731593406716353</Timestamp>
+    <ZipFile>DependencyGlobal_RelHax_WaitingSWF_2020-08-11_converted.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132859203946742637</Timestamp>
     <MinimalistModeExclude>True</MinimalistModeExclude>
+    <LastUpdateCheck>132859203946742637</LastUpdateCheck>
+    <Patches>
+      <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+        <Path>//root/Collection</Path>
+      </Patch>
+    </Patches>
   </GlobalDependency>
   <GlobalDependency PackageName="DependencyGlobal_RelHax_WaitingTransitionSWF" Enabled="True" Tags="GuiFlash" InstallGroup="0" PatchGroup="0" UID="qw019evlqd6qmotg">
     <Size>1784049</Size>
-    <ZipFile>DependencyGlobal_RelHax_WaitingTransitionSWF_2020-08-11.zip</ZipFile>
-    <CRC>636e6b0f3cad9e0ad6f3b8679887859d</CRC>
-    <Timestamp>132731593397996345</Timestamp>
+    <ZipFile>DependencyGlobal_RelHax_WaitingTransitionSWF_2020-08-11_converted.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132859203980748061</Timestamp>
     <MinimalistModeExclude>True</MinimalistModeExclude>
+    <LastUpdateCheck>132859203980748061</LastUpdateCheck>
+    <Patches>
+      <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingTransitionSWF.wotmod">
+        <Path>//root/Collection</Path>
+      </Patch>
+    </Patches>
   </GlobalDependency>
   <GlobalDependency PackageName="DependencyGlobal_RelHax_LogosSWF" Enabled="True" Tags="GuiFlash" InstallGroup="0" PatchGroup="0" UID="kblk9n5bu1qpyw6z">
     <Size>512357</Size>
-    <ZipFile>DependencyGlobal_RelHax_LogosSWF_2020-08-11.zip</ZipFile>
-    <CRC>c4be0c2cf3ab07c1e403a07fa7b31f7d</CRC>
-    <Timestamp>132731596456767417</Timestamp>
+    <ZipFile>DependencyGlobal_RelHax_LogosSWF_2020-08-11_converted.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132859204007732683</Timestamp>
     <MinimalistModeExclude>True</MinimalistModeExclude>
+    <LastUpdateCheck>132859204007732683</LastUpdateCheck>
+    <Patches>
+      <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogosSWF.wotmod">
+        <Path>//root/Collection</Path>
+      </Patch>
+    </Patches>
   </GlobalDependency>
 </GlobalDependencies>

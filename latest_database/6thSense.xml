@@ -3,9 +3,6 @@
   <Packages>
     <Package PackageName="6thSense_Audio" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6csuc8wsr9ahjo3p" Name="Audio [by {author}]" Type="multi" Visible="True">
       <Size>616</Size>
-      <ZipFile>6thSense_Audio_2017-11-16.zip</ZipFile>
-      <CRC>1791f2d38f04199165d517c902b0a5d0</CRC>
-      <Timestamp>132509595439586306</Timestamp>
       <InternalNotes>this is a patch that resets the xvm sound mapping</InternalNotes>
       <Author>Aimdrol</Author>
       <Dependencies>
@@ -15,213 +12,638 @@
       <Packages>
         <Package PackageName="6thSense_Audio_Relhax" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="j1y9k82tq52zj0ao" Name="RelHax by Willster419" Type="single_dropdown1" Visible="True">
           <Size>362073</Size>
-          <ZipFile>6thSense_Audio_Relhax_2021-03-12.zip</ZipFile>
-          <CRC>47da34c4ef6ad884cbe5e6c2258ea0f5</CRC>
-          <Timestamp>132600857708908267</Timestamp>
+          <ZipFile>6thSense_Audio_Relhax_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276576037997</Timestamp>
+          <LastUpdateCheck>132859276576037997</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/relhax_spotted_4.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_relhax.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_relhax.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_relhax">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_relhax">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_OMC" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="dfggcbsclo4puts2" Name="OMC signal (8 sec)" Type="single_dropdown1" Visible="True">
           <Size>380725</Size>
-          <ZipFile>6thSense_Audio_OMC_2021-03-12.zip</ZipFile>
-          <CRC>6a1a6f7174fecea007a94df352c890c6</CRC>
-          <Timestamp>132600857801248654</Timestamp>
+          <ZipFile>6thSense_Audio_OMC_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276598327987</Timestamp>
+          <LastUpdateCheck>132859276598327987</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/timer_8_sec_loud.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_timer_8_sec_loud.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_timer_8_sec_loud.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_timer_8_sec_loud">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_timer_8_sec_loud">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_OMCless10db" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="q4mvkbzdllw6u5z1" Name="OMC signal (8 sec) 10db softer" Type="single_dropdown1" Visible="True">
           <Size>55513</Size>
-          <ZipFile>6thSense_Audio_OMCless10db_2021-03-12.zip</ZipFile>
-          <CRC>9255d22a165272fde46d1fac86a3d6a2</CRC>
-          <Timestamp>132600857903108340</Timestamp>
+          <ZipFile>6thSense_Audio_OMCless10db_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276618522957</Timestamp>
+          <LastUpdateCheck>132859276618522957</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/timer_8_sec_soft.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_timer_8_sec_soft.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_timer_8_sec_soft.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_timer_8_sec_soft">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_timer_8_sec_soft">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_Casino" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="kj42cfovf4yw5yhf" Name="Casino" Type="single_dropdown1" Visible="True">
           <Size>72493</Size>
-          <ZipFile>6thSense_Audio_Casino_2021-03-12.zip</ZipFile>
-          <CRC>08057eaa7b24c9a9e6b5ec60ad840bc5</CRC>
-          <Timestamp>132600857966320602</Timestamp>
+          <ZipFile>6thSense_Audio_Casino_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276638062967</Timestamp>
+          <LastUpdateCheck>132859276638062967</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/Casino%20Peek%20a%20Boo.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_casino.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_casino.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_casino">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_casino">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_Cyborg" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="x8ahkevwf0qe59oe" Name="Cyborg by APCR-NOOB" Type="single_dropdown1" Visible="True">
           <Size>1027129</Size>
-          <ZipFile>6thSense_Audio_Cyborg_2021-03-12.zip</ZipFile>
-          <CRC>5d59dd5c68d9554ce0acc47c6fc43d82</CRC>
-          <Timestamp>132600858032533822</Timestamp>
+          <ZipFile>6thSense_Audio_Cyborg_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276661082975</Timestamp>
+          <LastUpdateCheck>132859276661082975</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/countdown_10_sec.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_countdown_10_sec.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_countdown_10_sec.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_countdown_10_sec">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_countdown_10_sec">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_Deadpool" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="axhwsd1xexjv5lve" Name="Deadpool" Type="single_dropdown1" Visible="True">
           <Size>34480</Size>
-          <ZipFile>6thSense_Audio_Deadpool_2021-03-12.zip</ZipFile>
-          <CRC>051dff9e20c8a3f07ee3883762b27d8f</CRC>
-          <Timestamp>132600858131127611</Timestamp>
+          <ZipFile>6thSense_Audio_Deadpool_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276682517965</Timestamp>
+          <LastUpdateCheck>132859276682517965</LastUpdateCheck>
           <Description>"Shh, my common sense is tingling".</Description>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_deadpool.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_deadpool.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_Deadpool">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_Deadpool">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_DieZwei" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="h05jshxh8cd3gqlr" Name="German Die Zwei" Type="single_dropdown1" Visible="True">
           <Size>124737</Size>
-          <ZipFile>6thSense_Audio_DieZwei_2021-03-12.zip</ZipFile>
-          <CRC>dc75c97192c372bc7f9890d664f0c7be</CRC>
-          <Timestamp>132600858306596856</Timestamp>
+          <ZipFile>6thSense_Audio_DieZwei_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276702107962</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/567880-</DevURL>
+          <LastUpdateCheck>132859276702107962</LastUpdateCheck>
           <Description>Curties or Moore: "Hier steht der bildschöne Bengel, zu Diensten Durchleucht."</Description>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/sixthSense_Die_Zwei.mp3" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_die_zwei.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_die_zwei.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_die_zwei">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_die_zwei">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_GENERALACKBAR" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="4bz4khrg9gllgedr" Name="Admiral Ackbar" Type="single_dropdown1" Visible="True">
           <Size>17310</Size>
-          <ZipFile>6thSense_Audio_GENERALACKBAR_2021-03-12.zip</ZipFile>
-          <CRC>b584c7bfaf12519cb46c4c4c0a6f7eb5</CRC>
-          <Timestamp>132600858217194196</Timestamp>
+          <ZipFile>6thSense_Audio_GENERALACKBAR_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276721677971</Timestamp>
+          <LastUpdateCheck>132859276721677971</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/admiral_akbar_1.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_admiral_akbar.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_admiral_akbar.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_admiral_akbar">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_admiral_akbar">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_GeneralLee" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="upcx0g3i785kg1sr" Name="General Lee" Type="single_dropdown1" Visible="True">
           <Size>1418</Size>
-          <ZipFile>6thSense_Audio_GeneralLee_2021-03-12.zip</ZipFile>
-          <CRC>b5d98304435054a5675de0e33f980c3d</CRC>
-          <Timestamp>132600858377590597</Timestamp>
+          <ZipFile>6thSense_Audio_GeneralLee_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276739292969</Timestamp>
+          <LastUpdateCheck>132859276739292969</LastUpdateCheck>
           <Description>Changes the 6th sense to that of the Dukes of Hazard General Lee's horn.</Description>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/dukes of hazzard - general lee's dixie horn.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_General_Lee.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_General_Lee.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_General_Lee">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_General_Lee">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_GermanSoldier" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="o3t5skt12s7asua4" Name="German Soldier" Type="single_dropdown1" Visible="True">
           <Size>199924</Size>
-          <ZipFile>6thSense_Audio_GermanSoldier_2021-03-12.zip</ZipFile>
-          <CRC>d989d1218f42be7ec365e4e9763a6fdd</CRC>
-          <Timestamp>132600858453498861</Timestamp>
+          <ZipFile>6thSense_Audio_GermanSoldier_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276759753384</Timestamp>
+          <LastUpdateCheck>132859276759753384</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/german_1.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_german.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_german.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_german">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_german">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_HomerDoh" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="1s0k0jz21ozrr6h4" Name="Homer D'oh" Type="single_dropdown1" Visible="True">
           <Size>30140</Size>
-          <ZipFile>6thSense_Audio_HomerDoh_2021-03-12.zip</ZipFile>
-          <CRC>3e412825129af516211e2a9740098fe5</CRC>
-          <Timestamp>132600858518920361</Timestamp>
+          <ZipFile>6thSense_Audio_HomerDoh_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276778892979</Timestamp>
+          <LastUpdateCheck>132859276778892979</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/homer_doh.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_homer_doh.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_homer_doh.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_homer_doh">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_homer_doh">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_IamGroot" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="v7hrsnplw71h3zzh" Name="&quot;I am Groot&quot; by HAWG" Type="single_dropdown1" Visible="True">
           <Size>214794</Size>
-          <ZipFile>6thSense_Audio_IamGroot_2021-03-12.zip</ZipFile>
-          <CRC>54503232a59f1a2a13deb0147135fc40</CRC>
-          <Timestamp>132600858583309878</Timestamp>
+          <ZipFile>6thSense_Audio_IamGroot_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276798727986</Timestamp>
           <DevURL>https://wgmods.net/2053/details</DevURL>
+          <LastUpdateCheck>132859276798727986</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/i_am_groot.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_i_am_groot.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_i_am_groot.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_i_am_groot">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_i_am_groot">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_Illumanati" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="8wo60nvmv4uz3a6h" Name="Illuminati by Aimdrol" Type="single_dropdown1" Visible="True">
           <Size>115164</Size>
-          <ZipFile>6thSense_Audio_Illumanati_2021-03-12.zip</ZipFile>
-          <CRC>0e81f8e45682f64fa8e740b14497fb13</CRC>
-          <Timestamp>132600632563507820</Timestamp>
+          <ZipFile>6thSense_Audio_Illumanati_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276819057961</Timestamp>
+          <LastUpdateCheck>132859276819057961</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/Illuminati_short.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_illuminati.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_illuminati.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_illuminati">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_illuminati">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_Jingles" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="llvl8m1nv0mg3mdg" Name="Jingles" Type="single_dropdown1" Visible="True">
           <Size>31454</Size>
-          <ZipFile>6thSense_Audio_Jingles_2021-03-12.zip</ZipFile>
-          <CRC>ccb4c7123163af138c37691a3b0203c1</CRC>
-          <Timestamp>132600858685774512</Timestamp>
+          <ZipFile>6thSense_Audio_Jingles_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276837952965</Timestamp>
           <DevURL>https://wgmods.net/727/details</DevURL>
+          <LastUpdateCheck>132859276837952965</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/jingles.mp3" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_jingles.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_jingles.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_jingles">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_jingles">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_MetalGearSolid" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="fzcs0qr6pjo6efvu" Name="Metal Gear Solid" Type="single_dropdown1" Visible="True">
           <Size>64267</Size>
-          <ZipFile>6thSense_Audio_MetalGearSolid_2021-03-12.zip</ZipFile>
-          <CRC>2ad59fa39cb984899781b734309ce527</CRC>
-          <Timestamp>132600858745656006</Timestamp>
+          <ZipFile>6thSense_Audio_MetalGearSolid_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276856577975</Timestamp>
+          <LastUpdateCheck>132859276856577975</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/suprise_sound_1.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_suprise.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_suprise.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_suprise">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_suprise">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_Minions" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="soj78px7pfgoer2t" Name="Minions" Type="single_dropdown1" Visible="True">
           <Size>200837</Size>
-          <ZipFile>6thSense_Audio_Minions_2021-03-12.zip</ZipFile>
-          <CRC>5d4e2073ef5bf5f5e68ab1082caa2202</CRC>
-          <Timestamp>132600858814193082</Timestamp>
+          <ZipFile>6thSense_Audio_Minions_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276876702954</Timestamp>
+          <LastUpdateCheck>132859276876702954</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_minions.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_minions.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_minions">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_minions">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_miqtsSheep" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="5dpmgp38oc95e2at" Name="Miqt's Sheep" Type="single_dropdown1" Visible="True">
           <Size>44775</Size>
-          <ZipFile>6thSense_Audio_miqtsSheep_2021-03-12.zip</ZipFile>
-          <CRC>e2282b3083207897af2f1544aab123a7</CRC>
-          <Timestamp>132600858873978827</Timestamp>
+          <ZipFile>6thSense_Audio_miqtsSheep_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276897867967</Timestamp>
+          <LastUpdateCheck>132859276897867967</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/miqts_sheep.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_miqts_sheep.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_miqts_sheep.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_miqts_sheep">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_miqts_sheep">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_MontyPython" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="zs7t7ttrjvavpvs6" Name="Monty Python" Type="single_dropdown1" Visible="True">
           <Size>130282</Size>
-          <ZipFile>6thSense_Audio_MontyPython_2021-03-12.zip</ZipFile>
-          <CRC>61880f5f74219b607e2fdfd2290aa3f9</CRC>
-          <Timestamp>132600858947609693</Timestamp>
+          <ZipFile>6thSense_Audio_MontyPython_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276917592959</Timestamp>
           <DevURL>https://wgmods.net/756/details</DevURL>
+          <LastUpdateCheck>132859276917592959</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/monty_python.mp3" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_monty_python.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_monty_python.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_monty_python">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_monty_python">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_Sauron" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="chd8gszsir3dp7z6" Name="Sauron signal" Type="single_dropdown1" Visible="True">
           <Size>392441</Size>
-          <ZipFile>6thSense_Audio_Sauron_2021-03-12.zip</ZipFile>
-          <CRC>4a79130c50697189eff06d96b9379724</CRC>
-          <Timestamp>132600859011856752</Timestamp>
+          <ZipFile>6thSense_Audio_Sauron_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276938742967</Timestamp>
+          <LastUpdateCheck>132859276938742967</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/sauron_1.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_sauron.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_sauron.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_sauron">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_sauron">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_StarTrek" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="6vvf7wpbda5200hj" Name="Star Trek by The Illusive Man" Type="single_dropdown1" Visible="True">
           <Size>135904</Size>
-          <ZipFile>6thSense_Audio_StarTrek_2021-03-12.zip</ZipFile>
-          <CRC>c5b2450723d0269ad8ca97482aa58f7b</CRC>
-          <Timestamp>132600859076318289</Timestamp>
+          <ZipFile>6thSense_Audio_StarTrek_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276960642943</Timestamp>
+          <LastUpdateCheck>132859276960642943</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_star_trek.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_star_trek.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_star_trek">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_star_trek">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_SupriseNot" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="jk1ufvvcc7xk0coj" Name="&quot;Suprise...NOT&quot;" Type="single_dropdown1" Visible="True">
           <Size>79892</Size>
-          <ZipFile>6thSense_Audio_SupriseNot_2021-03-12.zip</ZipFile>
-          <CRC>a73dad99e1840e7a66701163d6df2a7f</CRC>
-          <Timestamp>132600859137796681</Timestamp>
+          <ZipFile>6thSense_Audio_SupriseNot_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276980577961</Timestamp>
+          <LastUpdateCheck>132859276980577961</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/sixth_sense_suprise_not.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_surprise_not.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_surprise_not.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_surprise_not">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_surprise_not">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_Szarik" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="w989nv1db3p20nvj" Name="Szarik" Type="single_dropdown1" Visible="True">
           <Size>26286</Size>
-          <ZipFile>6thSense_Audio_Szarik_2021-03-12.zip</ZipFile>
-          <CRC>35c5446308239b9d4eb1949e63b9f71b</CRC>
-          <Timestamp>132600859244689109</Timestamp>
+          <ZipFile>6thSense_Audio_Szarik_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859276999952974</Timestamp>
+          <LastUpdateCheck>132859276999952974</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_szarik.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_szarik.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_szarik">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_szarik">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Audio_Timer10sec" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="qophfyrw6mrrbgdw" Name="Standard signal (10 sec)" Type="single_dropdown1" Visible="True">
           <Size>96242</Size>
-          <ZipFile>6thSense_Audio_Timer10sec_2021-03-12.zip</ZipFile>
-          <CRC>bf90a8c35de8cf3e499448fe88e6818d</CRC>
-          <Timestamp>132600859316155492</Timestamp>
+          <ZipFile>6thSense_Audio_Timer10sec_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277018522965</Timestamp>
+          <LastUpdateCheck>132859277018522965</LastUpdateCheck>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/6th_Sense/timer_10_sec.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/sixthsense_timer_10_sec.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="priority/100">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "sixthsense_timer_10_sec.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="lightbulb_timer_10_sec">
+              <Path>//sixthSense.xml/soundPath</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/lightbulb">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/lightbulb_timer_10_sec">
+              <Path>/audio_mods.xml/events/event[name = "lightbulb"]</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="lightbulb">
+          <Path>$.sounds.soundMapping.lightbulb</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="lightbulb_02">
+          <Path>$.sounds.soundMapping.lightbulb_02</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="sixthSense">
+          <Path>$.sounds.soundMapping.sixthSense</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="">
+          <Path>$.sounds.soundMapping.xvm_sixthSense</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="6thSense_Icon" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="3dwwnyxw5jj9bskw" Name="Icon &amp; Durationtime [by {author}]" Type="multi" Visible="True">
       <Size>1049</Size>
-      <ZipFile>6thSense_Icon_2020-08-28.zip</ZipFile>
-      <CRC>e1f0c998a5b4c614385fa89114062d97</CRC>
-      <Timestamp>132509599969423314</Timestamp>
       <InternalNotes>this patch disables the default icon</InternalNotes>
       <Author>Aimdrol</Author>
       <Description>Change your 6th sense icon to one of these from the list</Description>
@@ -231,619 +653,1328 @@
       <Packages>
         <Package PackageName="6thSense_Icon_RELICsmall" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="agkin1tgzyegnw99" Name="Relic" Type="single_dropdown1" Visible="True">
           <Size>39659</Size>
-          <ZipFile>6thSense_Icon_RELICsmall.zip</ZipFile>
-          <CRC>85f13e33043efa986ae302d214318f0a</CRC>
-          <Timestamp>132509614180624170</Timestamp>
+          <ZipFile>6thSense_Icon_RELICsmall_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277053052980</Timestamp>
+          <LastUpdateCheck>132859277053052980</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Relic.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="160">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="185">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_OMC" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="n5rxv0zhzv6yn8h8" Name="OMC" Type="single_dropdown1" Visible="True">
           <Size>47018</Size>
-          <ZipFile>6thSense_Icon_OMC.zip</ZipFile>
-          <CRC>5c0e5d6c1b578a60fba33fae1436bfc0</CRC>
-          <Timestamp>132509613574666463</Timestamp>
+          <ZipFile>6thSense_Icon_OMC_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277071962959</Timestamp>
+          <LastUpdateCheck>132859277071962959</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="115">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="115">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_OMNI" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hk84n4p0ue8oy1zm" Name="OMNI Logo" Type="single_dropdown1" Visible="True">
           <Size>49718</Size>
-          <ZipFile>6thSense_Icon_OMNI.zip</ZipFile>
-          <CRC>c5eb1e196dca3e213e54ce875fb9e259</CRC>
-          <Timestamp>132509613742326427</Timestamp>
+          <ZipFile>6thSense_Icon_OMNI_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277091182969</Timestamp>
+          <LastUpdateCheck>132859277091182969</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="115">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="115">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Armagomen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="u9fjv4v1ta05yd6l" Name="Armagomen" Type="single_dropdown1" Visible="True">
           <Size>42239</Size>
-          <ZipFile>6thSense_Icon_Armagomen.zip</ZipFile>
-          <CRC>b3d0c41b0f07abf6b77c60ebf5c11267</CRC>
-          <Timestamp>132509606436852725</Timestamp>
+          <ZipFile>6thSense_Icon_Armagomen_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277109452966</Timestamp>
+          <LastUpdateCheck>132859277109452966</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Armagomen.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="180">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="180">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Aslain" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7yly3312s7tnyodl" Name="Aslain" Type="single_dropdown1" Visible="True">
           <Size>71290</Size>
-          <ZipFile>6thSense_Icon_Aslain.zip</ZipFile>
-          <CRC>bb9010ff6e022eaf533062ef3ae9a230</CRC>
-          <Timestamp>132509606573644617</Timestamp>
+          <ZipFile>6thSense_Icon_Aslain_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277128967974</Timestamp>
+          <LastUpdateCheck>132859277128967974</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="277">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="260">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_blueLED" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1c35v7rlnquc9hvy" Name="blue LED" Type="single_dropdown1" Visible="True">
           <Size>36246</Size>
-          <ZipFile>6thSense_Icon_blueLED.zip</ZipFile>
-          <CRC>1bd525812366c3694a683ee0d3c9bc3f</CRC>
-          <Timestamp>132509606700608298</Timestamp>
+          <ZipFile>6thSense_Icon_blueLED_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277147752969</Timestamp>
+          <LastUpdateCheck>132859277147752969</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_blueLightning" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="e1ak36xmmmnu9t2y" Name="blue Lightning" Type="single_dropdown1" Visible="True">
           <Size>337467</Size>
-          <ZipFile>6thSense_Icon_blueLightning.zip</ZipFile>
-          <CRC>0c978f8a496243c02b24da577e12e83f</CRC>
-          <Timestamp>132509607238401813</Timestamp>
+          <ZipFile>6thSense_Icon_blueLightning_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277169547946</Timestamp>
+          <LastUpdateCheck>132859277169547946</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://fs1.directupload.net/images/user/150723/bpk7kpug.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="1200">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="400">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Boobs" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rqgzb64nljfc959y" Name="Boobs" Type="single_dropdown1" Visible="True">
           <Size>73377</Size>
-          <ZipFile>6thSense_Icon_Boobs.zip</ZipFile>
-          <CRC>3705ffc769a56c479c67be6d4383af96</CRC>
-          <Timestamp>132509607389729942</Timestamp>
+          <ZipFile>6thSense_Icon_Boobs_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277190717992</Timestamp>
+          <LastUpdateCheck>132859277190717992</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="119">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="119">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_CaptainAmerica" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="l5y63at6g2h1kyrb" Name="Captain America" Type="single_dropdown1" Visible="True">
           <Size>44346</Size>
-          <ZipFile>6thSense_Icon_CaptainAmerica.zip</ZipFile>
-          <CRC>60eccf8e23a294c19cf659e1eace81b8</CRC>
-          <Timestamp>132509607510908250</Timestamp>
+          <ZipFile>6thSense_Icon_CaptainAmerica_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277213252973</Timestamp>
+          <LastUpdateCheck>132859277213252973</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Captain_America.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_DarthVader" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yu4lb907fy9jk9yb" Name="Darth Vader" Type="single_dropdown1" Visible="True">
           <Size>53416</Size>
-          <ZipFile>6thSense_Icon_DarthVader.zip</ZipFile>
-          <CRC>c812ff0b865a9fdebe344797a5b062d6</CRC>
-          <Timestamp>132509607638608736</Timestamp>
+          <ZipFile>6thSense_Icon_DarthVader_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277232547980</Timestamp>
+          <LastUpdateCheck>132859277232547980</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_DarthVader.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_EiKarrRamba" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="s8ms3dpqahb9v2go" Name="EiKarrRamba" Type="single_dropdown1" Visible="True">
           <Size>56588</Size>
-          <ZipFile>6thSense_Icon_EiKarrRamba.zip</ZipFile>
-          <CRC>3435f5f560672e5f781a7bc3eb597703</CRC>
-          <Timestamp>132509607771531333</Timestamp>
+          <ZipFile>6thSense_Icon_EiKarrRamba_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277251578005</Timestamp>
+          <LastUpdateCheck>132859277251578005</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="115">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="115">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Eyeball" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="5xs7bcwrae4qveoo" Name="Eyeball" Type="single_dropdown1" Visible="True">
           <Size>66054</Size>
-          <ZipFile>6thSense_Icon_Eyeball.zip</ZipFile>
-          <CRC>08193fb55c41ff90fd6dc89ce0f8d9db</CRC>
-          <Timestamp>132509607883423942</Timestamp>
+          <ZipFile>6thSense_Icon_Eyeball_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277270887991</Timestamp>
+          <LastUpdateCheck>132859277270887991</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Eyeball.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_F4CE" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="imzmjc2s9aw8vqvn" Name="F4CE" Type="single_dropdown1" Visible="True">
           <Size>47398</Size>
-          <ZipFile>6thSense_Icon_F4CE.zip</ZipFile>
-          <CRC>b46b71a20cc23700c1b16a8e1141be03</CRC>
-          <Timestamp>132509607994364607</Timestamp>
+          <ZipFile>6thSense_Icon_F4CE_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277290387962</Timestamp>
+          <LastUpdateCheck>132859277290387962</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="120">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="120">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_FreakyIcecubes" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="c1gubgsb4tyy6id1" Name="Freaky Icecubes" Type="single_dropdown1" Visible="True">
           <Size>124515</Size>
-          <ZipFile>6thSense_Icon_FreakyIcecubes.zip</ZipFile>
-          <CRC>c257db14c93f3115ed298764d9690f5f</CRC>
-          <Timestamp>132509608090125054</Timestamp>
+          <ZipFile>6thSense_Icon_FreakyIcecubes_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277310513412</Timestamp>
+          <LastUpdateCheck>132859277310513412</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/151101/oz9ymq42.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="130">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="114">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Fry" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pqn8jfyc3qqf6uk0" Name="Fry" Type="single_dropdown1" Visible="True">
           <Size>46678</Size>
-          <ZipFile>6thSense_Icon_Fry.zip</ZipFile>
-          <CRC>dacc03513d117992cfe9029b7e22128a</CRC>
-          <Timestamp>132509608218579202</Timestamp>
+          <ZipFile>6thSense_Icon_Fry_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277330292992</Timestamp>
+          <LastUpdateCheck>132859277330292992</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_FS" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2funre4d2mix66r0" Name="FS" Type="single_dropdown1" Visible="True">
           <Size>37182</Size>
-          <ZipFile>6thSense_Icon_FS.zip</ZipFile>
-          <CRC>a0327b62bcf5ef28e05bfcad3d6cdedd</CRC>
-          <Timestamp>132509608305593549</Timestamp>
+          <ZipFile>6thSense_Icon_FS_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277349458049</Timestamp>
+          <LastUpdateCheck>132859277349458049</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="139">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="140">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_generalAkbar" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wtbvjiuwx5kniz9d" Name="General Ackbar" Type="single_dropdown1" Visible="True">
           <Size>41191</Size>
-          <ZipFile>6thSense_Icon_generalAkbar.zip</ZipFile>
-          <CRC>97b0277058a6455bfe1b21021d388308</CRC>
-          <Timestamp>132509608405448558</Timestamp>
+          <ZipFile>6thSense_Icon_generalAkbar_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277367622975</Timestamp>
+          <LastUpdateCheck>132859277367622975</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Granate" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9iiari0ww2d4iagd" Name="Granate" Type="single_dropdown1" Visible="True">
           <Size>51686</Size>
-          <ZipFile>6thSense_Icon_Granate.zip</ZipFile>
-          <CRC>d641bf43f42e37b04963d100ae44cd0b</CRC>
-          <Timestamp>132509608510295237</Timestamp>
+          <ZipFile>6thSense_Icon_Granate_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277386393010</Timestamp>
+          <LastUpdateCheck>132859277386393010</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="120">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="120">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_gRuMM3l" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="3wzhilqfrleut3yq" Name="gRuMM3l" Type="single_dropdown1" Visible="True">
           <Size>72692</Size>
-          <ZipFile>6thSense_Icon_gRuMM3l.zip</ZipFile>
-          <CRC>f0a109f5d19d21382a250d1248e1fbd8</CRC>
-          <Timestamp>132509608657165698</Timestamp>
+          <ZipFile>6thSense_Icon_gRuMM3l_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277407232970</Timestamp>
+          <LastUpdateCheck>132859277407232970</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://fs1.directupload.net/images/150213/txtord5x.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="200">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="200">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_gRuMM3lin3" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="gl6wqlwgqh7ctf6q" Name="gRuMM3lin3" Type="single_dropdown1" Visible="True">
           <Size>75148</Size>
-          <ZipFile>6thSense_Icon_gRuMM3lin3.zip</ZipFile>
-          <CRC>94a9d41d14da0d9b3a46fd24234a3144</CRC>
-          <Timestamp>132509608789045802</Timestamp>
+          <ZipFile>6thSense_Icon_gRuMM3lin3_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277426547979</Timestamp>
+          <LastUpdateCheck>132859277426547979</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://fs2.directupload.net/images/user/150604/hys73j93.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="148">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="150">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_GuP" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tacbyk2hqdzttrdq" Name="GuP" Type="single_dropdown1" Visible="True">
           <Size>52126</Size>
-          <ZipFile>6thSense_Icon_GuP.zip</ZipFile>
-          <CRC>9bb709cc596818651d7ee7fd176023d7</CRC>
-          <Timestamp>132509608877391290</Timestamp>
+          <ZipFile>6thSense_Icon_GuP_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277446252967</Timestamp>
+          <LastUpdateCheck>132859277446252967</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_GuP.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_HomerDoh" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="npuiqos0kx1j4kv3" Name="Homer D'oh" Type="single_dropdown1" Visible="True">
           <Size>50061</Size>
-          <ZipFile>6thSense_Icon_HomerDoh.zip</ZipFile>
-          <CRC>906e71fce5d1df995afc476a316a19df</CRC>
-          <Timestamp>132509608981061048</Timestamp>
+          <ZipFile>6thSense_Icon_HomerDoh_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277465982990</Timestamp>
+          <LastUpdateCheck>132859277465982990</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_HomerDoh.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="179">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_IamGroot" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0e0xyny1ktt14v23" Name="&quot;I am Groot&quot;" Type="single_dropdown1" Visible="True">
           <Size>52706</Size>
-          <ZipFile>6thSense_Icon_IamGroot.zip</ZipFile>
-          <CRC>e43fb5df34f8b3ccc47bbae7056768d2</CRC>
-          <Timestamp>132509609075450135</Timestamp>
+          <ZipFile>6thSense_Icon_IamGroot_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277485042964</Timestamp>
           <DevURL>https://wgmods.net/2053/details</DevURL>
+          <LastUpdateCheck>132859277485042964</LastUpdateCheck>
           <Description>by _HawgJaws_</Description>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Icon_I_am_Groot_1.jpg" />
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Icon_I_am_Groot_2.jpg" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="2560">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="800">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Jeff" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="d37c6n42jpmi4792" Name="Jeff" Type="single_dropdown1" Visible="True">
           <Size>14814</Size>
-          <ZipFile>6thSense_Icon_Jeff.zip</ZipFile>
-          <CRC>b4d72efbcf9cd2ee80ee451d01884b14</CRC>
-          <Timestamp>132509609179045430</Timestamp>
+          <ZipFile>6thSense_Icon_Jeff_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277503052961</Timestamp>
+          <LastUpdateCheck>132859277503052961</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://fs2.directupload.net/images/user/150602/sd6enrg4.jpg" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="130">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="130">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_J1mB0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7hojyrule8o8f0rg" Name="J1mB0" Type="single_dropdown1" Visible="True">
           <Size>49348</Size>
-          <ZipFile>6thSense_Icon_J1mB0.zip</ZipFile>
-          <CRC>5ba8c9302f0e65ec621b18b9eeca399e</CRC>
-          <Timestamp>132509609284041879</Timestamp>
+          <ZipFile>6thSense_Icon_J1mB0_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277521712978</Timestamp>
+          <LastUpdateCheck>132859277521712978</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Jingles" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="k6vy6q0md5gqfcyf" Name="Jingles" Type="single_dropdown1" Visible="True">
           <Size>88571</Size>
           <Version>1.1</Version>
-          <ZipFile>6thSense_Icon_Jingles.zip</ZipFile>
-          <CRC>6b2dda51a386d0edcae420766e5445f8</CRC>
-          <Timestamp>132509609478262633</Timestamp>
+          <ZipFile>6thSense_Icon_Jingles_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277544982966</Timestamp>
           <DevURL>https://wgmods.net/727/details</DevURL>
+          <LastUpdateCheck>132859277544982966</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/jingles.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_JUMBO" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="eld5yuq58oifq5gt" Name="JUMBO" Type="single_dropdown1" Visible="True">
           <Size>24322</Size>
-          <ZipFile>6thSense_Icon_JUMBO.zip</ZipFile>
-          <CRC>a625e648b984f285678157e0114d111c</CRC>
-          <Timestamp>132509609384655331</Timestamp>
+          <ZipFile>6thSense_Icon_JUMBO_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277564032986</Timestamp>
+          <LastUpdateCheck>132859277564032986</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_JUST" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rajk6tw67kaxqgns" Name="JUST" Type="single_dropdown1" Visible="True">
           <Size>54287</Size>
-          <ZipFile>6thSense_Icon_JUST.zip</ZipFile>
-          <CRC>2a208dd47489ef76a46e13e9e3f085d3</CRC>
-          <Timestamp>132509609602008904</Timestamp>
+          <ZipFile>6thSense_Icon_JUST_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277582607975</Timestamp>
+          <LastUpdateCheck>132859277582607975</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://fs2.directupload.net/images/user/150524/q2tdamwz.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="109">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="110">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_KHAAAN" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="4zqzet276h2fqsvs" Name="KHAAAN" Type="single_dropdown1" Visible="True">
           <Size>82016</Size>
-          <ZipFile>6thSense_Icon_KHAAAN.zip</ZipFile>
-          <CRC>f81dbe2d9d110984104283f588c9ab1c</CRC>
-          <Timestamp>132509609716235938</Timestamp>
+          <ZipFile>6thSense_Icon_KHAAAN_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277601582980</Timestamp>
           <DevURL>https://wgmods.net/3104/</DevURL>
+          <LastUpdateCheck>132859277601582980</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_KHAAAN.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="171">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Kirk" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yd776xsq10442ld5" Name="Kirk" Type="single_dropdown1" Visible="True">
           <Size>80783</Size>
-          <ZipFile>6thSense_Icon_Kirk.zip</ZipFile>
-          <CRC>c4a13dede42b12a255a944ead70b83ee</CRC>
-          <Timestamp>132509609819033257</Timestamp>
+          <ZipFile>6thSense_Icon_Kirk_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277621092965</Timestamp>
+          <LastUpdateCheck>132859277621092965</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Kirk.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="180">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="242">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Kriegstreiber" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="b2elewyr0wxm1wk5" Name="Kriegstreiber" Type="single_dropdown1" Visible="True">
           <Size>76114</Size>
-          <ZipFile>6thSense_Icon_Kriegstreiber.zip</ZipFile>
-          <CRC>5d78a46edff58e574e8df8a8c4f7a2f1</CRC>
-          <Timestamp>132509609915920853</Timestamp>
+          <ZipFile>6thSense_Icon_Kriegstreiber_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277640583026</Timestamp>
+          <LastUpdateCheck>132859277640583026</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Laser" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ork0mv4s0tp418r5" Name="Laser" Type="single_dropdown1" Visible="True">
           <Size>49559</Size>
-          <ZipFile>6thSense_Icon_Laser.zip</ZipFile>
-          <CRC>14fa2a1d0e542336173489c0a0369812</CRC>
-          <Timestamp>132509610145436842</Timestamp>
+          <ZipFile>6thSense_Icon_Laser_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277660403030</Timestamp>
+          <LastUpdateCheck>132859277660403030</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Arty_Lasers_2019-04-02.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="227">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_LEOTM" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="i628ezubucrtd19i" Name="LEOTM" Type="single_dropdown1" Visible="True">
           <Size>36292</Size>
-          <ZipFile>6thSense_Icon_LEOTM.zip</ZipFile>
-          <CRC>639aeaa3489b4a04c9fe021984f739b7</CRC>
-          <Timestamp>132509610240280284</Timestamp>
+          <ZipFile>6thSense_Icon_LEOTM_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277679672964</Timestamp>
+          <LastUpdateCheck>132859277679672964</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170513/turz4p9s.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="220">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="220">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_lightBulb" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vv9nmz0cu8jbddgi" Name="Light-bulb" Type="single_dropdown1" Visible="True">
           <Size>61545</Size>
-          <ZipFile>6thSense_Icon_lightBulb.zip</ZipFile>
-          <CRC>d35185fd5da9a058eaa7ebcb6816da75</CRC>
-          <Timestamp>132509610343102322</Timestamp>
+          <ZipFile>6thSense_Icon_lightBulb_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277698852989</Timestamp>
+          <LastUpdateCheck>132859277698852989</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/lightbulb icon.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Mandalorian" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p9que3qvorl0o6yv" Name="Mandalorian" Type="single_dropdown1" Visible="True">
           <Size>175996</Size>
-          <ZipFile>6thSense_Icon_Mandalorian.zip</ZipFile>
-          <CRC>2cdddf975453ba2cfec5e08079687e0d</CRC>
-          <Timestamp>132509610491632810</Timestamp>
+          <ZipFile>6thSense_Icon_Mandalorian_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277719167956</Timestamp>
+          <LastUpdateCheck>132859277719167956</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Mandalorian.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Minions" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2yx9m2wwoodioh5v" Name="Minions" Type="single_dropdown1" Visible="True">
           <Size>93439</Size>
-          <ZipFile>6thSense_Icon_Minions.zip</ZipFile>
-          <CRC>496efb836222930f6f543f2beb8eff43</CRC>
-          <Timestamp>132509610598035296</Timestamp>
+          <ZipFile>6thSense_Icon_Minions_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277739767974</Timestamp>
+          <LastUpdateCheck>132859277739767974</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_miqtsSheep" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fn3ou12wnk60otcu" Name="Miqt's Sheep" Type="single_dropdown1" Visible="True">
           <Size>68663</Size>
-          <ZipFile>6thSense_Icon_miqtsSheep.zip</ZipFile>
-          <CRC>f8cb8714914c9735b4c736fefdbdf0f6</CRC>
-          <Timestamp>132509610759418134</Timestamp>
+          <ZipFile>6thSense_Icon_miqtsSheep_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277759362978</Timestamp>
+          <LastUpdateCheck>132859277759362978</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/miqts_sheep.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="200">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="200">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_MontyPython" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="92lvm5sfi38pzmu8" Name="Monty Python" Type="single_dropdown1" Visible="True">
           <Size>54936</Size>
           <Version>1.0</Version>
-          <ZipFile>6thSense_Icon_MontyPython.zip</ZipFile>
-          <CRC>8ad041c7a4b8f8ee54205611ac4ac778</CRC>
-          <Timestamp>132509610868408161</Timestamp>
+          <ZipFile>6thSense_Icon_MontyPython_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277779432988</Timestamp>
           <DevURL>https://wgmods.net/756/details</DevURL>
+          <LastUpdateCheck>132859277779432988</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/monty_python.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Mootality" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mrrau5ygh007zy27" Name="Mootality" Type="single_dropdown1" Visible="True">
           <Size>36255</Size>
-          <ZipFile>6thSense_Icon_Mootality.zip</ZipFile>
-          <CRC>a1a71563554a462dbc12aaaf1ea3604e</CRC>
-          <Timestamp>132509610980914020</Timestamp>
+          <ZipFile>6thSense_Icon_Mootality_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277798742992</Timestamp>
+          <LastUpdateCheck>132859277798742992</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="115">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="114">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_PedoBear" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zgyp245hgwspz997" Name="PedoBear" Type="single_dropdown1" Visible="True">
           <Size>49502</Size>
-          <ZipFile>6thSense_Icon_PedoBear.zip</ZipFile>
-          <CRC>a1cc43b1e0ef7ed67d67088250a48009</CRC>
-          <Timestamp>132509611097155604</Timestamp>
+          <ZipFile>6thSense_Icon_PedoBear_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277817603408</Timestamp>
+          <LastUpdateCheck>132859277817603408</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_PedoBear.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Predator" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tufwu8u0bfuea2rk" Name="Predator" Type="single_dropdown1" Visible="True">
           <Size>67701</Size>
-          <ZipFile>6thSense_Icon_Predator.zip</ZipFile>
-          <CRC>8d68008f934cedee0311b12857fa7f92</CRC>
-          <Timestamp>132509611209658732</Timestamp>
+          <ZipFile>6thSense_Icon_Predator_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277837172979</Timestamp>
+          <LastUpdateCheck>132859277837172979</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Predator.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_PZK" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6jmb2711acmwaeyk" Name="PZK" Type="single_dropdown1" Visible="True">
           <Size>19054</Size>
-          <ZipFile>6thSense_Icon_PZK.zip</ZipFile>
-          <CRC>72a229f839c43143f02e052112144d86</CRC>
-          <Timestamp>132509611333121598</Timestamp>
+          <ZipFile>6thSense_Icon_PZK_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277856082985</Timestamp>
+          <LastUpdateCheck>132859277856082985</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="115">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="115">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Rageface" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0y3itbrk5voml7gx" Name="Rage face" Type="single_dropdown1" Visible="True">
           <Size>26576</Size>
-          <ZipFile>6thSense_Icon_Rageface.zip</ZipFile>
-          <CRC>ddc7b7e96c5682959553a4f92e764275</CRC>
-          <Timestamp>132509611460300063</Timestamp>
+          <ZipFile>6thSense_Icon_Rageface_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277874622964</Timestamp>
+          <LastUpdateCheck>132859277874622964</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://fs1.directupload.net/images/user/150601/qsqs5dqx.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="100">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="114">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_RatzFatz" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dnax2axl4rh3linx" Name="Ratz Fatz" Type="single_dropdown1" Visible="True">
           <Size>46837</Size>
-          <ZipFile>6thSense_Icon_RatzFatz.zip</ZipFile>
-          <CRC>aed7a66b24d2fa37df919350d237a60b</CRC>
-          <Timestamp>132509611565137035</Timestamp>
+          <ZipFile>6thSense_Icon_RatzFatz_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277893092993</Timestamp>
+          <LastUpdateCheck>132859277893092993</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://fs1.directupload.net/images/user/150215/ygrg569a.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="150">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="150">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_reaper" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qchcaa3m4o9lluux" Name="Reaper_by_elektrosmoker" Type="single_dropdown1" Visible="True">
           <Size>114818</Size>
-          <ZipFile>6thSense_Icon_reaper.zip</ZipFile>
-          <CRC>d498d16f9ffa964b3e8da062c4ccd69e</CRC>
-          <Timestamp>132509611695762882</Timestamp>
+          <ZipFile>6thSense_Icon_reaper_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277913562960</Timestamp>
+          <LastUpdateCheck>132859277913562960</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Reaper_by_elektrosmoker.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="153">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="209">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_redBulb" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kqyk1et5z7bbxnca" Name="Red Bulb" Type="single_dropdown1" Visible="True">
           <Size>39910</Size>
-          <ZipFile>6thSense_Icon_redBulb.zip</ZipFile>
-          <CRC>0e35c3113acb088e0548caaf4383407a</CRC>
-          <Timestamp>132509611924196508</Timestamp>
+          <ZipFile>6thSense_Icon_redBulb_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277932877977</Timestamp>
+          <LastUpdateCheck>132859277932877977</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://fs1.directupload.net/images/150215/i44dikgm.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="114">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="160">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_redHand" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="xf5y9dz6y33sxzja" Name="Red Hand" Type="single_dropdown1" Visible="True">
           <Size>127195</Size>
-          <ZipFile>6thSense_Icon_redHand.zip</ZipFile>
-          <CRC>176bc5d9cccc47945fcfdfeff3cd8bb7</CRC>
-          <Timestamp>132509612040298581</Timestamp>
+          <ZipFile>6thSense_Icon_redHand_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277952677974</Timestamp>
+          <LastUpdateCheck>132859277952677974</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Red_Hand.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="207">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_redWarningSign" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="a4bdhc57x0waxar9" Name="Red warning Sign" Type="single_dropdown1" Visible="True">
           <Size>40554</Size>
-          <ZipFile>6thSense_Icon_redWarningSign.zip</ZipFile>
-          <CRC>d14571f0127a5941b68b2348373d61d6</CRC>
-          <Timestamp>132509612142009030</Timestamp>
+          <ZipFile>6thSense_Icon_redWarningSign_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277974657953</Timestamp>
+          <LastUpdateCheck>132859277974657953</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_ResistanceIsFutileV1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="4jtl9gvqsjx0839n" Name="Resistance is futile v1 (transparent)" Type="single_dropdown1" Visible="True">
           <Size>101884</Size>
-          <ZipFile>6thSense_Icon_ResistanceIsFutileV1.zip</ZipFile>
-          <CRC>1e67e912a832da01b02ae5f1ff3223ba</CRC>
-          <Timestamp>132509612249030026</Timestamp>
+          <ZipFile>6thSense_Icon_ResistanceIsFutileV1_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859277994512966</Timestamp>
           <DevURL>https://wgmods.net/3148/</DevURL>
+          <LastUpdateCheck>132859277994512966</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Resistance_is_futile_v1.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="127">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_ResistanceIsFutileV2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="h8z0hg1rrfqh8fgm" Name="Resistance_is_futile_v2" Type="single_dropdown1" Visible="True">
           <Size>87210</Size>
-          <ZipFile>6thSense_Icon_ResistanceIsFutileV2.zip</ZipFile>
-          <CRC>e517a33b2cd44a394526d6ee3a075c4a</CRC>
-          <Timestamp>132509612389542158</Timestamp>
+          <ZipFile>6thSense_Icon_ResistanceIsFutileV2_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278014692965</Timestamp>
+          <LastUpdateCheck>132859278014692965</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Resistance_is_futile_v2.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="127">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Riokat" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bmh79kramys7j8y0" Name="Riokat" Type="single_dropdown1" Visible="True">
           <Size>64544</Size>
-          <ZipFile>6thSense_Icon_Riokat.zip</ZipFile>
-          <CRC>b7b272848c29dd89fdbf56c99058cf9d</CRC>
-          <Timestamp>132509612504976107</Timestamp>
+          <ZipFile>6thSense_Icon_Riokat_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278034903001</Timestamp>
+          <LastUpdateCheck>132859278034903001</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Sauron" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="obnmhjxblvkojk5z" Name="Sauron" Type="single_dropdown1" Visible="True">
           <Size>138446</Size>
-          <ZipFile>6thSense_Icon_Sauron.zip</ZipFile>
-          <CRC>544b2706cdc27dc12438475b2f6267d0</CRC>
-          <Timestamp>132509612645283397</Timestamp>
+          <ZipFile>6thSense_Icon_Sauron_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278055077962</Timestamp>
+          <LastUpdateCheck>132859278055077962</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Serb" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="00u1pi3ckrc6jvcz" Name="Serb" Type="single_dropdown1" Visible="True">
           <Size>54886</Size>
-          <ZipFile>6thSense_Icon_Serb.zip</ZipFile>
-          <CRC>68d2ecbb97a9bcf3b49605f866b4a894</CRC>
-          <Timestamp>132509612770600276</Timestamp>
+          <ZipFile>6thSense_Icon_Serb_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278074987979</Timestamp>
           <DevURL>https://wgmods.net/3106/</DevURL>
+          <LastUpdateCheck>132859278074987979</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Serb.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Shaggy" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vec8hmtvfaewuouc" Name="Shaggy" Type="single_dropdown1" Visible="True">
           <Size>75944</Size>
-          <ZipFile>6thSense_Icon_Shaggy.zip</ZipFile>
-          <CRC>be2af74bd73ad1590501302e1eb77a9a</CRC>
-          <Timestamp>132509606323124320</Timestamp>
+          <ZipFile>6thSense_Icon_Shaggy_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278094217975</Timestamp>
+          <LastUpdateCheck>132859278094217975</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Shaggy.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="284">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="177">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Shark" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="83inpmzwe67du01c" Name="Shark" Type="single_dropdown1" Visible="True">
           <Size>58073</Size>
-          <ZipFile>6thSense_Icon_Shark.zip</ZipFile>
-          <CRC>a7d0b86e19c54a0444e7944b9bb958d5</CRC>
-          <Timestamp>132509606005871378</Timestamp>
+          <ZipFile>6thSense_Icon_Shark_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278114122970</Timestamp>
+          <LastUpdateCheck>132859278114122970</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Slimer" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ksp2xl5xe3zvuc9c" Name="Slimer" Type="single_dropdown1" Visible="True">
           <Size>168166</Size>
-          <ZipFile>6thSense_Icon_Slimer.zip</ZipFile>
-          <CRC>c0bba09a4f19ffb9191c6e6f89d3d3ed</CRC>
-          <Timestamp>132509605815072990</Timestamp>
+          <ZipFile>6thSense_Icon_Slimer_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278135227966</Timestamp>
+          <LastUpdateCheck>132859278135227966</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Slimer.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="220">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="253">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Socke" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="f769ppvf9m1l54rp" Name="Socke" Type="single_dropdown1" Visible="True">
           <Size>59015</Size>
-          <ZipFile>6thSense_Icon_Socke.zip</ZipFile>
-          <CRC>419a5e272cb5c638a546cfc81f75e33b</CRC>
-          <Timestamp>132509605692662810</Timestamp>
+          <ZipFile>6thSense_Icon_Socke_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278155222969</Timestamp>
+          <LastUpdateCheck>132859278155222969</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Socke.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="180">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="180">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_SpockPerplexed" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rwdoxo1g8it25gyp" Name="Spock (perplexed)" Type="single_dropdown1" Visible="True">
           <Size>53186</Size>
-          <ZipFile>6thSense_Icon_SpockPerplexed.zip</ZipFile>
-          <CRC>e73fd96a6218d47f4315dcb1d3ad40a8</CRC>
-          <Timestamp>132509605558623465</Timestamp>
+          <ZipFile>6thSense_Icon_SpockPerplexed_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278174792968</Timestamp>
           <DevURL>https://wgmods.net/3105/</DevURL>
+          <LastUpdateCheck>132859278174792968</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Spock.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Superman" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mauvpsrz32vsg9g2" Name="Superman" Type="single_dropdown1" Visible="True">
           <Size>45237</Size>
-          <ZipFile>6thSense_Icon_Superman.zip</ZipFile>
-          <CRC>792c48583a55a4309af6fc7d5766c7fb</CRC>
-          <Timestamp>132509605420305667</Timestamp>
+          <ZipFile>6thSense_Icon_Superman_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278194487971</Timestamp>
+          <LastUpdateCheck>132859278194487971</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://fs1.directupload.net/images/user/150215/onydnh3o.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="109">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="109">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_SWFa" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yz1axsx02ynagln2" Name="SWF-A" Type="single_dropdown1" Visible="True">
           <Size>30152</Size>
-          <ZipFile>6thSense_Icon_SWFa.zip</ZipFile>
-          <CRC>a07d23f5a9cc811b70f643cce23affb5</CRC>
-          <Timestamp>132509604872015982</Timestamp>
+          <ZipFile>6thSense_Icon_SWFa_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278212932987</Timestamp>
+          <LastUpdateCheck>132859278212932987</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="https://eu.wargaming.net/clans/media/clans/emblems/cl_106/500031106/emblem_195x195.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="115">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="115">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Szarik" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bo8p5r311ugrgwu1" Name="Szarik" Type="single_dropdown1" Visible="True">
           <Size>51637</Size>
-          <ZipFile>6thSense_Icon_Szarik.zip</ZipFile>
-          <CRC>c23160380bd26f3ea5217216d4be8bb0</CRC>
-          <Timestamp>132509604547182687</Timestamp>
+          <ZipFile>6thSense_Icon_Szarik_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278231847989</Timestamp>
+          <LastUpdateCheck>132859278231847989</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Szarik.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="150">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="150">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_TheMask" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="63pxxvtkwdhhspcf" Name="The Mask" Type="single_dropdown1" Visible="True">
           <Size>86241</Size>
-          <ZipFile>6thSense_Icon_TheMask.zip</ZipFile>
-          <CRC>faff7405884a101d7d852f66429a609f</CRC>
-          <Timestamp>132509604275359417</Timestamp>
+          <ZipFile>6thSense_Icon_TheMask_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278250692969</Timestamp>
+          <LastUpdateCheck>132859278250692969</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_The_Mask.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="170">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_WoTDog" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="iswb5uzlvaazs1je" Name="WoT-Dog" Type="single_dropdown1" Visible="True">
           <Size>62157</Size>
-          <ZipFile>6thSense_Icon_WoTDog.zip</ZipFile>
-          <CRC>237c4f8306c50be655c80f4161e30571</CRC>
-          <Timestamp>132509604097316730</Timestamp>
+          <ZipFile>6thSense_Icon_WoTDog_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278269638010</Timestamp>
+          <LastUpdateCheck>132859278269638010</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_WoTDog.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="111">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="130">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Yamate" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vh2qdu5mu62gsdqe" Name="YAMATE!!" Type="single_dropdown1" Visible="True">
           <Size>53463</Size>
-          <ZipFile>6thSense_Icon_Yamate.zip</ZipFile>
-          <CRC>1640df5c496718a4c7cbfd5b802a6ab1</CRC>
-          <Timestamp>132509603970922030</Timestamp>
+          <ZipFile>6thSense_Icon_Yamate_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278289203070</Timestamp>
+          <LastUpdateCheck>132859278289203070</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Yamete.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="128">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Yoda" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pvky5xv5pp46368r" Name="Yoda smokes by elektrosmoker" Type="single_dropdown1" Visible="True">
           <Size>387030</Size>
-          <ZipFile>6thSense_Icon_Yoda.zip</ZipFile>
-          <CRC>52d2a612f5c6b9177c03f7be3fffb31a</CRC>
-          <Timestamp>132509603841380978</Timestamp>
+          <ZipFile>6thSense_Icon_Yoda_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278312272957</Timestamp>
+          <LastUpdateCheck>132859278312272957</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/6th_sense/Sixth_Sense_Icon_Yoda-by_elektro.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="217">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="256">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_YellowWarningSign" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2kqddx16pmwo3hgr" Name="Yellow Warning Sign" Type="single_dropdown1" Visible="True">
           <Size>49729</Size>
-          <ZipFile>6thSense_Icon_YellowWarningSign.zip</ZipFile>
-          <CRC>00c23b866084f96b08212cb1c5ee82ea</CRC>
-          <Timestamp>132509603660142072</Timestamp>
+          <ZipFile>6thSense_Icon_YellowWarningSign_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278333717970</Timestamp>
+          <LastUpdateCheck>132859278333717970</LastUpdateCheck>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Quickybaby" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wz8k51rpj5ydeay4" Name="Quickybaby Sixth Sense" Type="single_dropdown1" Visible="True">
           <Size>52374</Size>
-          <ZipFile>6thSense_Icon_Quickybaby.zip</ZipFile>
-          <CRC>f1cbf77698a09aec75f2f12e07788a76</CRC>
-          <Timestamp>132509603513735567</Timestamp>
+          <ZipFile>6thSense_Icon_Quickybaby_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278353647991</Timestamp>
+          <LastUpdateCheck>132859278353647991</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Sixth_Sense_Icon_Quickybaby.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="194">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="210">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Animation_Illuminati" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9oezd0xqj1rvem54" Name="Animated Illuminati pyramid by Aimdrol" Type="single_dropdown1" Visible="True">
           <Size>567083</Size>
-          <ZipFile>6thSense_Icon_Animation_Illuminati_2017-04-02.zip</ZipFile>
-          <CRC>93a9a62b458ded5264da043c8b1fc725</CRC>
-          <Timestamp>132509603186224739</Timestamp>
+          <ZipFile>6thSense_Icon_Animation_Illuminati_2017-04-02_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278378142960</Timestamp>
+          <LastUpdateCheck>132859278378142960</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://i.imgur.com/39C5zrz.gif" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="170">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="170">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="Illuminati_">
+              <Path>//sixthSense.xml/fileName</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="True" Replace="False">
+              <Path>//sixthSense.xml/showDefaultIcon</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="True" Replace="False">
+              <Path>//sixthSense.xml/oneFrame</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="124">
+              <Path>//sixthSense.xml/animLength</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="102">
+              <Path>//sixthSense.xml/pauseFrame</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="25">
+              <Path>//sixthSense.xml/speed</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Animation_lightBulb" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mdlelz3riyjdeyc4" Name="Animated light bulb by Aimdrol" Type="single_dropdown1" Visible="True">
           <Size>1190262</Size>
-          <ZipFile>6thSense_Icon_Animation_lightBulb.zip</ZipFile>
-          <CRC>6f5893392eb96fdeb288aa3d49ac6243</CRC>
-          <Timestamp>132509603156673077</Timestamp>
+          <ZipFile>6thSense_Icon_Animation_lightBulb_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278409782964</Timestamp>
+          <LastUpdateCheck>132859278409782964</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://i.imgur.com/KIBZR4P.gif" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="170">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="170">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="SixthSense" Replace="LampComp_">
+              <Path>//sixthSense.xml/fileName</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="True" Replace="False">
+              <Path>//sixthSense.xml/showDefaultIcon</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="True" Replace="False">
+              <Path>//sixthSense.xml/oneFrame</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="224" Replace="224">
+              <Path>//sixthSense.xml/animLength</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Animation_TrollFace" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="gr2lc3tadhl2pruh" Name="Animated &quot;Troll Face&quot; by The Illusion" Type="single_dropdown1" Visible="True">
           <Size>591392</Size>
-          <ZipFile>6thSense_Icon_Animation_TrollFace_2019-04-02.zip</ZipFile>
-          <CRC>33145563fe53c40732f06193a806b686</CRC>
-          <Timestamp>132509603279815964</Timestamp>
+          <ZipFile>6thSense_Icon_Animation_TrollFace_2019-04-02_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278437812965</Timestamp>
+          <LastUpdateCheck>132859278437812965</LastUpdateCheck>
           <UpdateComment>Fixed patch.xml (recreated patch file)</UpdateComment>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/6th_sense/Sixth_Sense_Trollface.gif" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="170">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="170">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".dds" Replace=".png">
+              <Path>//sixthSense.xml/fileFormat</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="SixthSense" Replace="SpinningTrollface">
+              <Path>//sixthSense.xml/fileName</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="True" Replace="False">
+              <Path>//sixthSense.xml/showDefaultIcon</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="True" Replace="False">
+              <Path>//sixthSense.xml/oneFrame</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="224" Replace="50">
+              <Path>//sixthSense.xml/animLength</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Animation_WileECoyote" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tg90k3zbcddkp21h" Name="Animated &quot;Wile E. Coyote&quot; by The Illusion" Type="single_dropdown1" Visible="True">
           <Size>12370158</Size>
-          <ZipFile>6thSense_Icon_Animation_WileECoyote_2019-03-22.zip</ZipFile>
-          <CRC>dd970428656f82ab3ad09e89cc7406da</CRC>
-          <Timestamp>132509603381222082</Timestamp>
+          <ZipFile>6thSense_Icon_Animation_WileECoyote_2019-03-22_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859278495652963</Timestamp>
+          <LastUpdateCheck>132859278495652963</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="https://media.giphy.com/media/29qL7o7va7a8yqZgDw/giphy.gif" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="170">
+              <Path>//sixthSense.xml/sizeX</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="170" Replace="170">
+              <Path>//sixthSense.xml/sizeY</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="SixthSense" Replace="WileECoyote">
+              <Path>//sixthSense.xml/fileName</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="True" Replace="False">
+              <Path>//sixthSense.xml/showDefaultIcon</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="True" Replace="False">
+              <Path>//sixthSense.xml/oneFrame</Path>
+            </Patch>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search="224" Replace="44">
+              <Path>//sixthSense.xml/animLength</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="6thSense_Icon_Duration" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="65gft26cba52pe8g" Name="Sixth Sense icon time duration" Type="multi" Visible="True">
           <Description>Specify how long you want the sixth sense icon active for</Description>
           <Packages>
             <Package PackageName="6thSense_Icon_Duration_5" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="0kxmk6wv6t7r07qu" Name="5 Seconds" Type="single_dropdown1" Visible="True">
               <Size>458</Size>
-              <ZipFile>6thSense_Icon_Duration_5_2017-09-01.zip</ZipFile>
-              <CRC>d7936a3662c3d507b386aad6055c4af5</CRC>
-              <Timestamp>132509614486701892</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="5.0">
+                  <Path>//sixthSense.xml/stayTime</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="6thSense_Icon_Duration_7" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="d941s52w5p090ixt" Name="7 Seconds" Type="single_dropdown1" Visible="True">
               <Size>458</Size>
-              <ZipFile>6thSense_Icon_Duration_7_2017-09-01.zip</ZipFile>
-              <CRC>67ec3340a5bf45ba99dc5d7941d004e2</CRC>
-              <Timestamp>132509614582158669</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="7.0">
+                  <Path>//sixthSense.xml/stayTime</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="6thSense_Icon_Duration_10" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="7nl8k9se081ycbf7" Name="10 Seconds" Type="single_dropdown1" Visible="True">
               <Size>460</Size>
-              <ZipFile>6thSense_Icon_Duration_10_2017-09-01.zip</ZipFile>
-              <CRC>3dcbea4d2f7eade71872cf6c94f5b80b</CRC>
-              <Timestamp>132509614714980784</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="10.0">
+                  <Path>//sixthSense.xml/stayTime</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="6thSense_Icon_Duration_12" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="kcsns9yfz5ugcnn6" Name="12 Seconds" Type="single_dropdown1" Visible="True">
               <Size>460</Size>
-              <ZipFile>6thSense_Icon_Duration_12_2017-09-01.zip</ZipFile>
-              <CRC>a3368cac819886a9de67c27cb0d606c4</CRC>
-              <Timestamp>132509614849049767</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\sixthSense.xml" Version="1" Search=".*" Replace="12.0">
+                  <Path>//sixthSense.xml/stayTime</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
       </Packages>
+      <Patches>
+        <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search="True" Replace="False">
+          <Path>/sixthSense.xml/showDefaultIcon</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\battle.xc" Version="1" Search=".*" Replace="0">
+          <Path>$.battle.sixthSenseDuration</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\battle.xc" Version="1" Search=".*" Replace="">
+          <Path>$.battle.sixthSenseIcon</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="6thSense_Timer" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="x1y2084gz1mybzu6" Name="Sixth Sense Timer [by {author}]" Type="multi" Visible="True">
       <Size>65232</Size>

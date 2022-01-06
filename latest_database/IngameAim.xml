@@ -39,23 +39,29 @@
       <Packages>
         <Package PackageName="IngameAim_AutoAimIndicator_2sec" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="o5s444c6p6ic9unz" Name="2 sec autoaim search" Type="single_dropdown1" Visible="True">
           <Size>1137</Size>
-          <ZipFile>IngameAim_AutoAimIndicator_2sec.zip</ZipFile>
-          <CRC>0aa0b9bd268176b63880c248b69563f0</CRC>
-          <Timestamp>132509472641498843</Timestamp>
           <Description>Search allows the player to right click and for 2 seconds it will snap on the first highlighted enemy.</Description>
+          <Patches>
+            <Patch Type="json" Mode="" PatchPath="" File="\\res_mods\\versiondir\\scripts\\client\\gui\\mods\\mod_autoaim_indicator.json" Version="1" Search="" Replace="2">
+              <Path>$.time_snapping.seconds</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_AutoAimIndicator_5sec" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1uyjc3i7o3at96uz" Name="5 sec autoaim search" Type="single_dropdown1" Visible="True">
           <Size>1137</Size>
-          <ZipFile>IngameAim_AutoAimIndicator_5sec.zip</ZipFile>
-          <CRC>78c2bcf6b1d4a22e6f6bf3afeb8b9501</CRC>
-          <Timestamp>132509472770760333</Timestamp>
           <Description>Search allows the player to right click and for 5 seconds it will snap on the first highlighted enemy.</Description>
+          <Patches>
+            <Patch Type="json" Mode="" PatchPath="" File="\\res_mods\\versiondir\\scripts\\client\\gui\\mods\\mod_autoaim_indicator.json" Version="1" Search="" Replace="5">
+              <Path>$.time_snapping.seconds</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_AutoAimIndicator_repairWithT" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lntkk6kshexikmrb" Name="Repair with T add-on" Type="multi" Visible="True">
           <Size>1176</Size>
-          <ZipFile>IngameAim_AutoAimIndicator_repairWithT_2020-08-27.zip</ZipFile>
-          <CRC>ab8246961106652df2b8746a36760845</CRC>
-          <Timestamp>132509473202628146</Timestamp>
+          <Patches>
+            <Patch Type="json" Mode="" PatchPath="" File="\res_mods\versiondir\scripts\client\gui\mods\mod_autoaim_indicator.json" Version="1" Search=".*" Replace="true">
+              <Path>$.addon-repair_with_hotkey.enabled</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -85,21 +91,27 @@
       <Packages>
         <Package PackageName="IngameAim_BalCalcMod_E" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="zu5tkccv6alx7v51" Name="E key" Type="single_dropdown1" Visible="True">
           <Size>713</Size>
-          <ZipFile>IngameAim_BalCalcMod_E_2019-02-23.zip</ZipFile>
-          <CRC>0145d50c17745bffb2138144989e7021</CRC>
-          <Timestamp>132509473720037159</Timestamp>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\scripts\\client\\gui\\mods\\BalCalc.xml" Version="1" Search=".*" Replace="18">
+              <Path>//BalCalc.xml/BalCalcKey</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_BalCalcMod_F" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="cjc8sbiw56ef67c1" Name="F key" Type="single_dropdown1" Visible="True">
           <Size>734</Size>
-          <ZipFile>IngameAim_BalCalcMod_F_0.9.18_2017-05-02.zip</ZipFile>
-          <CRC>3c344f9f12dbedc153bf543e7c99d89c</CRC>
-          <Timestamp>132509473832639236</Timestamp>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\scripts\\client\\gui\\mods\\BalCalc.xml" Version="1" Search=".*" Replace="33">
+              <Path>//BalCalc.xml/BalCalcKey</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_BalCalcMod_Q" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="p8in0box426w6jj1" Name="Q key" Type="single_dropdown1" Visible="True">
           <Size>713</Size>
-          <ZipFile>IngameAim_BalCalcMod_Q_0.9.18_2017-05-02.zip</ZipFile>
-          <CRC>2ef42eb6e6b184b65dba9b44130a0597</CRC>
-          <Timestamp>132509473965701438</Timestamp>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\scripts\\client\\gui\\mods\\BalCalc.xml" Version="1" Search=".*" Replace="16">
+              <Path>//BalCalc.xml/BalCalcKey</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -129,15 +141,15 @@
       <Packages>
         <Package PackageName="IngameAim_BattleAssistant_G" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="wb690ekhyi04in9e" Name="G" Type="single_dropdown1" Visible="True">
           <Size>600</Size>
-          <ZipFile>IngameAim_BattleAssistant_G_2018-06-17.zip</ZipFile>
-          <CRC>b1a356611aa448ca7d6438476c524129</CRC>
-          <Timestamp>132509474131705900</Timestamp>
+          <Patches>
+            <Patch Type="regx" Mode="" PatchPath="" File="\mods\configs\battle_assistant\mod_battle_assistant.txt" Version="1" Search="Keys.KEY_MOUSE2" Replace="Keys.KEY_G" />
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_BattleAssistant_J" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="90do8dqixetlizgd" Name="J" Type="single_dropdown1" Visible="True">
           <Size>600</Size>
-          <ZipFile>IngameAim_BattleAssistant_J_2018-06-17.zip</ZipFile>
-          <CRC>1f0ac2948817ec0f418f532208016af0</CRC>
-          <Timestamp>132509474240446860</Timestamp>
+          <Patches>
+            <Patch Type="regx" Mode="" PatchPath="" File="\mods\configs\battle_assistant\mod_battle_assistant.txt" Version="1" Search="Keys.KEY_MOUSE2" Replace="Keys.KEY_J" />
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_BattleAssistant_MiddleMouse" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="3fvvzhg1sxvbtsyr" Name="Middle Mouse" Type="single_dropdown1" Visible="True">
           <Size>2009</Size>
@@ -145,17 +157,17 @@
         </Package>
         <Package PackageName="IngameAim_BattleAssistant_IncreasedSmoothTime" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="g41a8hm2suntt45q" Name="Increased Smooth Time (0,5)" Type="multi" Visible="True">
           <Size>633</Size>
-          <ZipFile>IngameAim_BattleAssistant_IncreasedSmoothTime_2019-12-17.zip</ZipFile>
-          <CRC>642a459c62ce53064faae6edcfb574e1</CRC>
-          <Timestamp>132509474405144873</Timestamp>
           <Description>smoothes the mouse movement</Description>
+          <Patches>
+            <Patch Type="regx" Mode="" PatchPath="" File="\mods\configs\battle_assistant\mod_battle_assistant.txt" Version="1" Search="smoothTime: 0.0" Replace="smoothTime: 0.5" />
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_BattleAssistant_IncreasedZoomSpeed" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="aijhzlclmdpi4xn4" Name="Increased Zoom Speed" Type="multi" Visible="True">
           <Size>688</Size>
-          <ZipFile>IngameAim_BattleAssistant_IncreasedZoomSpeed_2018-07-03.zip</ZipFile>
-          <CRC>9b0fbbcb83f23ef95a0c6dd814b116fa</CRC>
-          <Timestamp>132509474543093187</Timestamp>
           <Description>patch-file</Description>
+          <Patches>
+            <Patch Type="regx" Mode="" PatchPath="" File="\mods\configs\battle_assistant\mod_battle_assistant.txt" Version="1" Search="zoomSpeed: 3" Replace="zoomSpeed: 5" />
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -178,89 +190,117 @@
               <Packages>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_Black" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7zkxfnk7fl4pfoqg" Name="Black RGB(0,0,0)" Type="single_dropdown1" Visible="True">
                   <Size>610</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_Black.zip</ZipFile>
-                  <CRC>f5c6739ed070afd31a950a493da19520</CRC>
-                  <Timestamp>132509477134586458</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.5 0.5 0.5 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_Grey" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jorcnmr8eiw7f0yg" Name="Grey RGB(128,128,128)" Type="single_dropdown1" Visible="True">
                   <Size>608</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_Grey.zip</ZipFile>
-                  <CRC>8f0c792d48b0ca3ddde334f1cd6a236e</CRC>
-                  <Timestamp>132509477373732399</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.5 0.5 0.5 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_White" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="e38kfqgr91ywqtgt" Name="White RGB(255,255,255)" Type="single_dropdown1" Visible="True">
                   <Size>607</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_White.zip</ZipFile>
-                  <CRC>d69b4a2c88eeb81da7c43131a0db0b27</CRC>
-                  <Timestamp>132509477988717308</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 1.0 1.0 1 ">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_LightBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rsfynpns8xqeq5nt" Name="LightBlue RGB (10,120,255)" Type="single_dropdown1" Visible="True">
                   <Size>627</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_LightBlue.zip</ZipFile>
-                  <CRC>2abc5216154f8c70ef64c032ab6e14e6</CRC>
-                  <Timestamp>132509477449197651</Timestamp>
                   <Description>Allied (yellow) &amp; Enemy (blue) \r\ncan be combined to get the same result\r\n\r\nergo: remove for release</Description>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.039 0.471 1.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_Blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="l6w6ftda3gs32y56" Name="Blue RGB (0,0,255)" Type="single_dropdown1" Visible="True">
                   <Size>608</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_Blue.zip</ZipFile>
-                  <CRC>b215ae226897b249ac0a50e7309d3269</CRC>
-                  <Timestamp>132509477204984816</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.0 0.0 1.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_WGBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yv3lntjb2dkl29c6" Name="WG Blue RGB (130,120,255)" Type="single_dropdown1" Visible="True">
                   <Size>626</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_WGBlue.zip</ZipFile>
-                  <CRC>b7c5459791b8d6adab489b4d4dbd45e1</CRC>
-                  <Timestamp>132509477815806151</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.511 0.472 0.992 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_DarkBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ak90vspc29d32lj5" Name="DarkBlue Navy RGB (0,0,130)" Type="single_dropdown1" Visible="True">
                   <Size>620</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_DarkBlue.zip</ZipFile>
-                  <CRC>d0dd31a140081bd10aed39b915cdf95a</CRC>
-                  <Timestamp>132509477285870371</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.0 0.0 0.510 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_OliveGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="5zr7nwfvwsfsde1j" Name="OliveGreen RGB (105,200,125)" Type="single_dropdown1" Visible="True">
                   <Size>634</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_OliveGreen.zip</ZipFile>
-                  <CRC>db6cd8d81377d252718e209820892a58</CRC>
-                  <Timestamp>132509477596068271</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.412 0.784 0.490 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_LimeGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hoxmvvlwwp7adq8i" Name="LimeGreen RGB (50,205,50)" Type="single_dropdown1" Visible="True">
                   <Size>628</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_LimeGreen.zip</ZipFile>
-                  <CRC>bfcb782008c767b2722c7eeaab499631</CRC>
-                  <Timestamp>132509477525929179</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.200 0.804 0.200 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_WGLawnGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ud413vrxvlzsd1fi" Name="LawnGreen RGB (125,210,10)" Type="single_dropdown1" Visible="True">
                   <Size>822</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_WGLawnGreen.zip</ZipFile>
-                  <CRC>ea8c805a0149b7d8a9511e3708b6e742</CRC>
-                  <Timestamp>132509477892008796</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.488 0.839 0.023 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_Yellow" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="prl8vyhgq41houxv" Name="Yellow RGB(255,255,0)" Type="single_dropdown1" Visible="True">
                   <Size>611</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_Yellow.zip</ZipFile>
-                  <CRC>f8a6e17d4a329ed51dbeb3ae6bdd4c0a</CRC>
-                  <Timestamp>132509478031065064</Timestamp>
                   <Description>Ingame_Aim_Outline_Friend_Blue_v1_colorBlind.xml\r\n\r\nOLD: Ingame_Aim_Outline_Enemy_Allies_Colorblind_blue_v1.zip\r\nNEW: Ingame_Aim_Outline_Enemy_Allies_Colorblind_Allies_Yellow.zip</Description>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 1.0 0.0 1 ">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_OrangeRed" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1gsn3ynhp1tzo65v" Name="Orange RGB (255,70,0)" Type="single_dropdown1" Visible="True">
                   <Size>628</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_OrangeRed.zip</ZipFile>
-                  <CRC>e182e57b78c677ada87af81fa76482ab</CRC>
-                  <Timestamp>132509477659330925</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 0.278 0.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_Red" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wv9uv2d0kkvpzzn8" Name="Red RGB (255,20,10)" Type="single_dropdown1" Visible="True">
                   <Size>615</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Allies_Red.zip</ZipFile>
-                  <CRC>fe5c00a8cbe3d28dc630855f18290438</CRC>
-                  <Timestamp>132509477743094007</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 0.070 0.027 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Allies_Magenta" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8kg931j1jgo6zau8" Name="Magenta RGB (200,20,130)" Type="single_dropdown1" Visible="True">
                   <Size>820</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_Magenta.zip</ZipFile>
-                  <CRC>4d9d3b2718fa7048c2d416fe53576251</CRC>
-                  <Timestamp>132509477065608937</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.784 0.078 0.510 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -270,87 +310,115 @@
               <Packages>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_Black" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fn4v34fldwieafjl" Name="Black RGB(0,0,0)" Type="single_dropdown1" Visible="True">
                   <Size>610</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_Black.zip</ZipFile>
-                  <CRC>84a7533b1982324dda42648e24db17ff</CRC>
-                  <Timestamp>132509482448626602</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.0 0.0 0.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_Grey" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="scbab4lmcsavarql" Name="Grey RGB(128,128,128)" Type="single_dropdown1" Visible="True">
                   <Size>609</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_Grey.zip</ZipFile>
-                  <CRC>a3548025f3caa868956ce7789849d52e</CRC>
-                  <Timestamp>132509482389812939</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.5 0.5 0.5 1 ">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_White" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="51hpj3rnco3da2xk" Name="White RGB(255,255,255)" Type="single_dropdown1" Visible="True">
                   <Size>609</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_White.zip</ZipFile>
-                  <CRC>7622dab7f0badf3eeef5cde75997909c</CRC>
-                  <Timestamp>132509482347799367</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 1.0 1.0 1 ">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_LightBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zgzwb7h66843lvfy" Name="LightBlue RGB (10,120,255)" Type="single_dropdown1" Visible="True">
                   <Size>628</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_LightBlue.zip</ZipFile>
-                  <CRC>c01598cc29b77b38a11e090f920c8918</CRC>
-                  <Timestamp>132509482319813247</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.039 0.471 1.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_Blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="c55bj6n764xkl7nx" Name="Blue RGB (0,0,255)" Type="single_dropdown1" Visible="True">
                   <Size>609</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_Blue.zip</ZipFile>
-                  <CRC>e981c82020927d2f1938c40e23b445ed</CRC>
-                  <Timestamp>132509482277949283</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.0 0.0 1.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_WGBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6jnjaadq0nzax05b" Name="WG Blue RGB (130,120,255)" Type="single_dropdown1" Visible="True">
                   <Size>627</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_WGBlue.zip</ZipFile>
-                  <CRC>a6e0c9931d9789c599ebd54b5362db40</CRC>
-                  <Timestamp>132509482226076441</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.511 0.472 0.992 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_DarkBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="j8uyiajr0jrsxcca" Name="DarkBlue Navy RGB (0,0,130)" Type="single_dropdown1" Visible="True">
                   <Size>622</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_DarkBlue.zip</ZipFile>
-                  <CRC>67137141b173f65a82432f01c5e5ba1a</CRC>
-                  <Timestamp>132509482194201011</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.0 0.0 0.510 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_OliveGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wx0dr9pszgj9xnja" Name="OliveGreen RGB (105,200,125)" Type="single_dropdown1" Visible="True">
                   <Size>635</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_OliveGreen.zip</ZipFile>
-                  <CRC>f389733cab1d6cb78b65812caeead72c</CRC>
-                  <Timestamp>132509482152641155</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.412 0.784 0.490 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_LimeGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qcikidfauzlz8g1n" Name="LimeGreen RGB (50,205,50)" Type="single_dropdown1" Visible="True">
                   <Size>629</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_LimeGreen.zip</ZipFile>
-                  <CRC>0a8d13412222ef59bbe89a68528914f2</CRC>
-                  <Timestamp>132509482106852667</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.200 0.804 0.200 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_WGLawnGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="31ozqclbtvdh8s8n" Name="LawnGreen RGB (125,210,10)" Type="single_dropdown1" Visible="True">
                   <Size>639</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_WGLawnGreen.zip</ZipFile>
-                  <CRC>60e85dcd856f51721ff9148e0a02e061</CRC>
-                  <Timestamp>132509482076388032</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.488 0.839 0.023 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_Yellow" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="gqveycrcss6y84fn" Name="Yellow RGB(255,255,0)" Type="single_dropdown1" Visible="True">
                   <Size>613</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_Yellow.zip</ZipFile>
-                  <CRC>4a4621b6eb9114215d4ae921adbbd3bd</CRC>
-                  <Timestamp>132509482039664556</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 1.0 0.0 1 ">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_OrangeRed" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="a4clqghvnb8ojwx0" Name="Orange RGB (255,70,0)" Type="single_dropdown1" Visible="True">
                   <Size>629</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_OrangeRed.zip</ZipFile>
-                  <CRC>721eddade5533ea881e3a865976fb8f4</CRC>
-                  <Timestamp>132509481950325579</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 0.278 0.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_Red" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ntj0yfnwm706j840" Name="Red RGB (255,20,10)" Type="single_dropdown1" Visible="True">
                   <Size>616</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_Red.zip</ZipFile>
-                  <CRC>b6f7a2ec01b37fa840939c6f56392d72</CRC>
-                  <Timestamp>132509481900452832</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 0.070 0.027 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Default_Enemies_Magenta" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="h807qjdfhq2vu1md" Name="Magenta RGB (200,20,130)" Type="single_dropdown1" Visible="True">
                   <Size>629</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Default_Enemies_Magenta.zip</ZipFile>
-                  <CRC>37a74f806f4924182aafe8bd13b20dae</CRC>
-                  <Timestamp>132509481866388267</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.784 0.078 0.510 1">
+                      <Path>//scripts_config.xml/silhouetteColors/common/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -366,89 +434,117 @@
               <Packages>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_Black" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="10v8ylf0b2ok5hjq" Name="Black RGB(0,0,0)" Type="single_dropdown1" Visible="True">
                   <Size>801</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_Black.zip</ZipFile>
-                  <CRC>2105441aaf994c37fe270b84eb7457d1</CRC>
-                  <Timestamp>132509481805449883</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.0 0.0 0.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_Grey" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ep2n6ll1azh25tqp" Name="Grey RGB(128,128,128)" Type="single_dropdown1" Visible="True">
                   <Size>801</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_Grey.zip</ZipFile>
-                  <CRC>f9f8715afa702baadff066c6bf9e105c</CRC>
-                  <Timestamp>132509481757312434</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.5 0.5 0.5 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_White" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="re82eks29v9j55xp" Name="White RGB(255,255,255)" Type="single_dropdown1" Visible="True">
                   <Size>799</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_White.zip</ZipFile>
-                  <CRC>7827e1ce6f6da9e52a6c8ed1a5755bc0</CRC>
-                  <Timestamp>132509481726389067</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 1.0 1.0 1 ">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_LightBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lsq96ohl4eb9hyf2" Name="LightBlue RGB (10,120,255)" Type="single_dropdown1" Visible="True">
                   <Size>820</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_LightBlue.zip</ZipFile>
-                  <CRC>e8eba7f157bb9e9fa87aa2887600976c</CRC>
-                  <Timestamp>132509481681542477</Timestamp>
                   <Description>Allied (yellow) &amp; Enemy (blue) \r\ncan be combined to get the same result\r\n\r\nergo: remove for release</Description>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.039 0.471 1.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_Blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yhwoenom3b3rg9m2" Name="Blue RGB (0,0,255)" Type="single_dropdown1" Visible="True">
                   <Size>800</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_Blue.zip</ZipFile>
-                  <CRC>1dfd1740063b0abbb1fd3c475354db78</CRC>
-                  <Timestamp>132509481644505238</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.0 0.0 1.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_WGBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="swew6re5yu5gs24f" Name="WG Blue RGB (130,120,255)" Type="single_dropdown1" Visible="True">
                   <Size>817</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_WGBlue.zip</ZipFile>
-                  <CRC>5d097c6f8fa40e5c74ace7adfbaf924c</CRC>
-                  <Timestamp>132509481607473346</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.511 0.472 0.992 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_DarkBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="5lkberk6xqxysebf" Name="DarkBlue Navy RGB (0,0,130)" Type="single_dropdown1" Visible="True">
                   <Size>813</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_DarkBlue.zip</ZipFile>
-                  <CRC>0328d22d3964efba74fad83fee09b6a3</CRC>
-                  <Timestamp>132509481548104992</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.0 0.0 0.510 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_OliveGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="iarqmqq7wnqgsqjf" Name="OliveGreen RGB (105,200,125)" Type="single_dropdown1" Visible="True">
                   <Size>827</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_OliveGreen.zip</ZipFile>
-                  <CRC>7ca3266634d4aab4c6ea42da9d688a88</CRC>
-                  <Timestamp>132509481505148960</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.412 0.784 0.490 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_LimeGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="co8xeugqr6s53j1s" Name="LimeGreen RGB (50,205,50)" Type="single_dropdown1" Visible="True">
                   <Size>823</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_LimeGreen.zip</ZipFile>
-                  <CRC>d98b2a292a3c30bd29b2468f7eb0e3c9</CRC>
-                  <Timestamp>132509481468101896</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.200 0.804 0.200 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_WGLawnGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pdfcmtmrr2kn3u8s" Name="LawnGreen RGB (125,210,10)" Type="single_dropdown1" Visible="True">
                   <Size>832</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_WGLawnGreen.zip</ZipFile>
-                  <CRC>ed49985077a27b8bb17275bdf3aa37b7</CRC>
-                  <Timestamp>132509481433563441</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.488 0.839 0.023 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_Yellow" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="22mrutssqzc536fr" Name="Yellow RGB(255,255,0)" Type="single_dropdown1" Visible="True">
                   <Size>803</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_Yellow.zip</ZipFile>
-                  <CRC>e65369b6a56f8c83f5207cc8d3922099</CRC>
-                  <Timestamp>132509481395290231</Timestamp>
                   <Description>Ingame_Aim_Outline_Friend_Blue_v1_colorBlind.xml\r\n\r\nOLD: Ingame_Aim_Outline_Enemy_Allies_Colorblind_blue_v1.zip\r\nNEW: Ingame_Aim_Outline_Enemy_Allies_Colorblind_Allies_Yellow.zip</Description>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 1.0 0.0 1 ">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_Orange" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wh3ymxiblieuezx5" Name="Orange RGB (255,70,0)" Type="single_dropdown1" Visible="True">
                   <Size>820</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_OrangeRed.zip</ZipFile>
-                  <CRC>b28a3489ba6515e2ca0907505db4e3ae</CRC>
-                  <Timestamp>132509481364207605</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 0.278 0.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_Red" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="96aduwobke7cea44" Name="Red RGB (255,20,10)" Type="single_dropdown1" Visible="True">
                   <Size>807</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_Red.zip</ZipFile>
-                  <CRC>fd8e4b4970749f2ffce6c84fde430d25</CRC>
-                  <Timestamp>132509481327794045</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 0.070 0.027 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Allies_Magenta" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="3krkl0eufx82p3mi" Name="Magenta RGB (200,20,130)" Type="single_dropdown1" Visible="True">
                   <Size>820</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Allies_Magenta.zip</ZipFile>
-                  <CRC>4d9d3b2718fa7048c2d416fe53576251</CRC>
-                  <Timestamp>132509476959515670</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.784 0.078 0.510 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/friend</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -458,87 +554,115 @@
               <Packages>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_Black" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ty4e2zqwdqt1pr1h" Name="Black RGB(0,0,0)" Type="single_dropdown1" Visible="True">
                   <Size>619</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_Black.zip</ZipFile>
-                  <CRC>f51f02e00e0316655237eea704279540</CRC>
-                  <Timestamp>132509480635295523</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.0 0.0 0.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_Grey" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ndmlt3gf89vq0kiu" Name="Grey RGB(128,128,128)" Type="single_dropdown1" Visible="True">
                   <Size>617</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_Grey.zip</ZipFile>
-                  <CRC>23cb69557652203f538e6e9febacc199</CRC>
-                  <Timestamp>132509480684205738</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.5 0.5 0.5 1 ">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_White" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="02t012mg76n80vqu" Name="White RGB(255,255,255)" Type="single_dropdown1" Visible="True">
                   <Size>617</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_White.zip</ZipFile>
-                  <CRC>fa59375013cf0824695d2fefe911fe14</CRC>
-                  <Timestamp>132509480738726164</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 1.0 1.0 1 ">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_LightBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="drzf91sh72gq07xu" Name="LightBlue RGB (10,120,255)" Type="single_dropdown1" Visible="True">
                   <Size>638</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_LightBlue.zip</ZipFile>
-                  <CRC>4661547ece55f31de3375c908aac93dd</CRC>
-                  <Timestamp>132509480784775447</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.039 0.471 1.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_Blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="75hm15i01lifc0f7" Name="Blue RGB (0,0,255)" Type="single_dropdown1" Visible="True">
                   <Size>618</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_Blue.zip</ZipFile>
-                  <CRC>e9a5d9a07b54d6316b14d3d7f97badc5</CRC>
-                  <Timestamp>132509480831692665</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.0 0.0 1.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_WGBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kun195o11haxccm7" Name="WG Blue RGB (130,120,255)" Type="single_dropdown1" Visible="True">
                   <Size>635</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_WGBlue.zip</ZipFile>
-                  <CRC>4049f3ba594efb4f0bc97c698e7bdd8a</CRC>
-                  <Timestamp>132509480581427854</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.511 0.472 0.992 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_DarkBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="e95918ekv1cnn54k" Name="DarkBlue Navy RGB (0,0,130)" Type="single_dropdown1" Visible="True">
                   <Size>630</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_DarkBlue.zip</ZipFile>
-                  <CRC>77b92d434671cb20f13a17103c0b447f</CRC>
-                  <Timestamp>132509480915136714</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.0 0.0 0.510 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_OliveGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rybo98klvx44ngbk" Name="OliveGreen RGB (105,200,125)" Type="single_dropdown1" Visible="True">
                   <Size>644</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_OliveGreen.zip</ZipFile>
-                  <CRC>c76874da4f6cd7fefb1c97db96222a49</CRC>
-                  <Timestamp>132509480968400883</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.412 0.784 0.490 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_LimeGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="4ni3h7qmutwmnsij" Name="LimeGreen RGB (50,205,50)" Type="single_dropdown1" Visible="True">
                   <Size>638</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_LimeGreen.zip</ZipFile>
-                  <CRC>1bb0046ea07c2cdca0e96f7c73a16afb</CRC>
-                  <Timestamp>132509481009666462</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.200 0.804 0.200 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_WGLawnGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="y1za9bg5pdycyl0x" Name="LawnGreen RGB (125,210,10)" Type="single_dropdown1" Visible="True">
                   <Size>648</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_WGLawnGreen.zip</ZipFile>
-                  <CRC>fc9aae9ab5af5c3fbfae8eebda2bec1c</CRC>
-                  <Timestamp>132509481040439988</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.488 0.839 0.023 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_Yellow" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bq6pham6o9rtyw8w" Name="Yellow RGB(255,255,0)" Type="single_dropdown1" Visible="True">
                   <Size>621</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_Yellow.zip</ZipFile>
-                  <CRC>7fc21e15818b1ab206b50ceff9af2c8e</CRC>
-                  <Timestamp>132509481075297830</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 1.0 0.0 1 ">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_Orange" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ofd4pas7n5jby8fw" Name="Orange RGB (255,70,0)" Type="single_dropdown1" Visible="True">
                   <Size>638</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_OrangeRed.zip</ZipFile>
-                  <CRC>0e9d067e523e1acc1d2422006402fea3</CRC>
-                  <Timestamp>132509481109816529</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 0.278 0.0 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_Red" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="iuubheiqiol191x9" Name="Red RGB (255,20,10)" Type="single_dropdown1" Visible="True">
                   <Size>625</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_Red.zip</ZipFile>
-                  <CRC>cf5b7b1378ac2f4aea30cb2fc848118f</CRC>
-                  <Timestamp>132509481208270601</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="1.0 0.070 0.027 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameAim_SilhouetteColors_Colorblind_Enemies_Magenta" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vj1qpdorhldi9d49" Name="Magenta RGB (200,20,130)" Type="single_dropdown1" Visible="True">
                   <Size>637</Size>
-                  <ZipFile>IngameAim_SilhouetteColors_Colorblind_Enemies_Magenta.zip</ZipFile>
-                  <CRC>fa9b18ae89a411be9c052e62eeeb5282</CRC>
-                  <Timestamp>132509481158881528</Timestamp>
+                  <Patches>
+                    <Patch Type="xml" Mode="edit" PatchPath="app" File="\\res_mods\\versiondir\\scripts_config.xml" Version="1" Search="" Replace="0.784 0.078 0.510 1">
+                      <Path>//scripts_config.xml/silhouetteColors/colorBlind/enemy</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -548,13 +672,15 @@
     </Package>
     <Package PackageName="IngameAim_PMODdisableScopeShadow" Enabled="True" Tags="Patch,DependencyLink" InstallGroup="4" PatchGroup="4" UID="pxixhheac4f8k6mm" Name="Disable sniper scope shadow/green effect (PMOD)" Type="multi" Visible="True">
       <Size>914</Size>
-      <ZipFile>IngameAim_PMODdisableScopeShadow_2017-09-24.zip</ZipFile>
-      <CRC>f0ed1a727e535230756cef61701d3203</CRC>
-      <Timestamp>132509482877018093</Timestamp>
       <Description>Removes the shadow and green effect from the scope\n\r\nATTENTION:\nIf you are a user of xvm, we recommend to use the xvm camera options instead of PMOD.\nYou can find the settings in the xvm config builder section.</Description>
       <Dependencies>
         <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\noBinoculars.json" Version="1" Search="" Replace="true">
+          <Path>$.enable</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="IngameAim_DispersionIndicator" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2mpcpgkbb07qkhtm" Name="Dispersion Indicator (aim time)" Type="multi" Visible="True">
       <CRC>f</CRC>
@@ -583,9 +709,6 @@
       <Packages>
         <Package PackageName="IngameAim_PenetrationIndicator_PMOD" Enabled="True" Tags="Patch,DependencyLink" InstallGroup="4" PatchGroup="4" UID="hvs3kup6fskp4f4e" Name="PMOD PenIndicator" Type="single1" Visible="True">
           <Size>912</Size>
-          <ZipFile>IngameAim_PenetrationIndicator_PMOD_1.7.1.2_2020-02-15.zip</ZipFile>
-          <CRC>420be81a4efc6c6a5e0fbf7ff50e859b</CRC>
-          <Timestamp>132509484420911453</Timestamp>
           <Description>Shows wether or not you can penetrate an enemy, factoring in armor angles and normalization, in the form\n avg_gun_penetration/enemy_effective_armor\r\n\r\nNOTE: Will alter zoom settings. Use the zoom config at the bottom of this section to alter.</Description>
           <Dependencies>
             <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
@@ -597,30 +720,46 @@
             </Package>
             <Package PackageName="IngameAim_PenetrationIndicator_PMOD_FontLarge" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="v24bk1ha3n83roi4" Name="large (30)" Type="single_dropdown1" Visible="True">
               <Size>958</Size>
-              <ZipFile>IngameAim_PenetrationIndicator_PMOD_FontLarge_2020-02-15.zip</ZipFile>
-              <CRC>0d8e4c1473710702b7e7f083dcb2c956</CRC>
-              <Timestamp>132569477225230641</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\reducedArmor.json" Version="1" Search="" Replace="30">
+                  <Path>$.textFormat.size</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_PenetrationIndicator_PMOD_FontMedium" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1om4sxrr846efv0q" Name="medium (24)" Type="single_dropdown1" Visible="True">
               <Size>928</Size>
-              <ZipFile>IngameAim_PenetrationIndicator_PMOD_FontMedium_2020-02-15.zip</ZipFile>
-              <CRC>e38586aab089bd72786109f915073255</CRC>
-              <Timestamp>132569477138049467</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\reducedArmor.json" Version="1" Search="" Replace="24">
+                  <Path>$.textFormat.size</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_PenetrationIndicator_PMOD_FontSmall" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ozgpkxlq97ewfktr" Name="small (18)" Type="single_dropdown1" Visible="True">
               <Size>926</Size>
-              <ZipFile>IngameAim_PenetrationIndicator_PMOD_FontSmall_2020-02-15.zip</ZipFile>
-              <CRC>aa94d6c7d8772c9c3a71be18388a1bcb</CRC>
-              <Timestamp>132569477059331852</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\reducedArmor.json" Version="1" Search="" Replace="18">
+                  <Path>$.textFormat.size</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_PenetrationIndicator_PMOD_DynamicColour" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8raqs0nb2j0lq0p3" Name="Coloured" Type="multi" Visible="True">
               <Size>609</Size>
-              <ZipFile>IngameAim_PenetrationIndicator_PMOD_DynamicColour_1.7.1.2_2020-02-15.zip</ZipFile>
-              <CRC>86e52c62067175385f6c7aec692114c2</CRC>
-              <Timestamp>132509484942481177</Timestamp>
               <Description>Changes the colour based on the change to pen.\r\n\r\nRed: "No Chance": Color Hex "E90000" = RGB(233,0,0)\r\nYellow: "Might Pen": Color Hex  "FFAD00" =RGB(255,173,)\r\nGreen: "Should Pen": Color Hex  "6BF40D" =RGB(107,244,13)</Description>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\reducedArmor.json" Version="2" Search="" Replace="&lt;font color='{{dynamicColor}}'&gt;{{calcedPiercingPower}}/{{calcedArmor}}">
+                  <Path>$.pattern</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\reducedArmor.json" Version="2" Search="" Replace="true">
+                  <Path>$.textFormat.html</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\reducedArmor.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -629,12 +768,13 @@
         <Package PackageName="IngameAim_SafeShot_OldSkool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lgh50ztb1ft3qcw3" Name="SafeShot [by {author}]" Type="single1" Visible="True">
           <Size>49589</Size>
           <Version>1.3.2</Version>
-          <ZipFile>IngameAim_SafeShot_OldSkool_v1.3.2_1.15.0.0_2021-12-13.zip</ZipFile>
-          <CRC>2911958a864b417c8fe5cd2c45ca237e</CRC>
-          <Timestamp>132838364900436108</Timestamp>
+          <ZipFile>IngameAim_SafeShot_OldSkool_v1.3.2_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859221424498642</Timestamp>
           <DevURL>https://github.com/deadhat/wotmods-public.git</DevURL>
           <InternalNotes>We seem to have direct access to his mods without needing WGmods or his modpack installer.\r\n\r\nOne of his mirror download sites (https://promod.reidarty.de) allows https file browsing. For example, we can directly download from the following URL:\r\n\r\nhttps://promod.reidarty.de/promod/1.9.0.3/</InternalNotes>
           <Author>OldSkool</Author>
+          <LastUpdateCheck>132859221424498642</LastUpdateCheck>
           <Description>SafeShot prevents the loss of ammunition to allied tanks.\r\n(formerly preventing team damage)</Description>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Medias>
@@ -647,62 +787,99 @@
           <Packages>
             <Package PackageName="IngameAim_SafeShot_OldSkool_timeout1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fvycs3juwzvs25eg" Name="1 second timeout" Type="single_dropdown1" Visible="True">
               <Size>938</Size>
-              <ZipFile>IngameAim_SafeShot_OldSkool_timeout1.zip</ZipFile>
-              <CRC>82bcd3e1fb629db2a7394697956168df</CRC>
-              <Timestamp>132509485261539910</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\oldskool\safeshot.json" Version="1" Search=".*" Replace="1">
+                  <Path>$.blockDeadShotsTimeout</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_OldSkool_timeout3" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sk5r03pvvvna2gmg" Name="3 second timeout" Type="single_dropdown1" Visible="True">
               <Size>939</Size>
-              <ZipFile>IngameAim_SafeShot_OldSkool_timeout3.zip</ZipFile>
-              <CRC>7f4a7c88bf40a2c39ef0f4c6ff4afc6f</CRC>
-              <Timestamp>132509485378270397</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\oldskool\safeshot.json" Version="1" Search=".*" Replace="3">
+                  <Path>$.blockDeadShotsTimeout</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_OldSkool_timeout5" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mymzs7feqep0d94t" Name="5 second timeout" Type="single_dropdown1" Visible="True">
               <Size>939</Size>
-              <ZipFile>IngameAim_SafeShot_OldSkool_timeout5.zip</ZipFile>
-              <CRC>65d5c774bbe5bee7fc35eb0f5982f501</CRC>
-              <Timestamp>132509485473732346</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\oldskool\safeshot.json" Version="1" Search=".*" Replace="5">
+                  <Path>$.blockDeadShotsTimeout</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_OldSkool_blockDead" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="znte06lfqbhhdlbt" Name="Block shots to dead tanks" Type="multi" Visible="True">
               <Size>938</Size>
-              <ZipFile>IngameAim_SafeShot_OldSkool_blockDead.zip</ZipFile>
-              <CRC>55629b4d91009e7f8cec6ef14f0cd077</CRC>
-              <Timestamp>132509485632626055</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\oldskool\safeshot.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.blockDeadShots</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_OldSkool_blockAlly" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cc0t85rgp7azdwit" Name="Block shots to allies" Type="multi" Visible="True">
               <Size>939</Size>
-              <ZipFile>IngameAim_SafeShot_OldSkool_blockAlly.zip</ZipFile>
-              <CRC>4a50f58ea9ebcc51e40db56d8d40f680</CRC>
-              <Timestamp>132509485747635918</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\oldskool\safeshot.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.blockShotsOnTeam</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_OldSkool_blockTK" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6rh009hzkqbpop06" Name="Block shots to teamkillers" Type="multi" Visible="True">
               <Size>939</Size>
-              <ZipFile>IngameAim_SafeShot_OldSkool_blockTK.zip</ZipFile>
-              <CRC>8905d1b1f1bb96cf23870a774fdde8dc</CRC>
-              <Timestamp>132509485858411284</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\oldskool\safeshot.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.blockShotsOnTeamkiller</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_OldSkool_sendChatMessage" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jgof89n0jm46o176" Name="Send message in chat" Type="multi" Visible="True">
               <Size>949</Size>
-              <ZipFile>IngameAim_SafeShot_OldSkool_sendChatMessage.zip</ZipFile>
-              <CRC>c98843457108ae5f35fb33a3ced31619</CRC>
-              <Timestamp>132509485979829298</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\oldskool\safeshot.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.enableMessage</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_OldSkool_showNotification" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w5uug8t1ijwoode5" Name="Show notification about blocked shots" Type="multi" Visible="True">
               <Size>947</Size>
-              <ZipFile>IngameAim_SafeShot_OldSkool_showNotification.zip</ZipFile>
-              <CRC>96318d9aa9a7b8a6061dfef89322dd5e</CRC>
-              <Timestamp>132509486080920875</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\oldskool\safeshot.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.notification</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockShotsOnTeamkiller</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockDeadShots</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockShotsOnTeam</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockWastedShots</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockDeadShots</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.enableMessage</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_SafeShot_Champi" Enabled="True" Tags="Script,ConfigurationFileJson,Patch" InstallGroup="4" PatchGroup="4" UID="au1did8dq1mvem8q" Name="SafeShot [by {author}]" Type="single1" Visible="True">
           <Size>76216</Size>
           <Version>1.09</Version>
-          <ZipFile>IngameAim_SafeShot_Champi_v1.09_1.14.1.1_2021-10-28.zip</ZipFile>
-          <CRC>9bfb5c055befd3bf2bc9e30617b74968</CRC>
-          <Timestamp>132799258033588153</Timestamp>
+          <ZipFile>IngameAim_SafeShot_Champi_v1.09_1.14.1.1_2021-10-28_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859221568223674</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3130/</DevURL>
           <Author>Champi</Author>
+          <LastUpdateCheck>132859221568223674</LastUpdateCheck>
           <ObfuscatedMod>True</ObfuscatedMod>
           <FromWGmods>True</FromWGmods>
           <UserFiles>
@@ -717,59 +894,103 @@
           <Packages>
             <Package PackageName="IngameAim_SafeShot_Champi_timeout0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fw9zf72dutr94898" Name="no timeout" Type="single_dropdown1" Visible="True">
               <Size>942</Size>
-              <ZipFile>IngameAim_SafeShot_Champi_timeout0_2021-04-04.zip</ZipFile>
-              <CRC>7ba9726d2703913da10859a608397887</CRC>
-              <Timestamp>132620554449751675</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="0">
+                  <Path>$.timeDeadShotBlock</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_Champi_timeout1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lf6frnk0qo25z7ot" Name="1 second timeout" Type="single_dropdown1" Visible="True">
               <Size>942</Size>
-              <ZipFile>IngameAim_SafeShot_Champi_timeout1_2021-04-04.zip</ZipFile>
-              <CRC>0166273d7a61a3cfa1090d173421c4fa</CRC>
-              <Timestamp>132620554527491007</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="1">
+                  <Path>$.timeDeadShotBlock</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_Champi_timeout3" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lowxeytfzxymymuy" Name="3 second timeout" Type="single_dropdown1" Visible="True">
               <Size>943</Size>
-              <ZipFile>IngameAim_SafeShot_Champi_timeout3_2021-04-04.zip</ZipFile>
-              <CRC>4cc4ee85fb599065a9815d4c2dcc4ecf</CRC>
-              <Timestamp>132620554593783520</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="3">
+                  <Path>$.timeDeadShotBlock</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_Champi_timeout5" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wvxhr7t18363g0ke" Name="5 second timeout" Type="single_dropdown1" Visible="True">
               <Size>943</Size>
-              <ZipFile>IngameAim_SafeShot_Champi_timeout5_2021-04-04.zip</ZipFile>
-              <CRC>5ec0805c969671b21a105afb1f359429</CRC>
-              <Timestamp>132620554653513325</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="5">
+                  <Path>$.timeDeadShotBlock</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_Champi_blockDead" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="mj3cqgrqbaaizfpu" Name="Block shots to dead tanks" Type="multi" Visible="True">
               <Size>943</Size>
-              <ZipFile>IngameAim_SafeShot_Champi_blockDead_2020-11-08.zip</ZipFile>
-              <CRC>5a3b0e0ce694bfac1e88e44cc99627c0</CRC>
-              <Timestamp>132493384298815033</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.blockDeadShot</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_Champi_blockAlly" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="aw8qg04uxafwzs8f" Name="Block shots to allies" Type="multi" Visible="True">
               <Size>942</Size>
-              <ZipFile>IngameAim_SafeShot_Champi_blockAlly.zip</ZipFile>
-              <CRC>248584c595a65260a99ec7d9e043b730</CRC>
-              <Timestamp>132420252967324478</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.blockTeamShot</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_Champi_blockTK" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="dzsx1e2lu8493rjl" Name="Block shots to teamkillers" Type="multi" Visible="True">
               <Size>943</Size>
-              <ZipFile>IngameAim_SafeShot_Champi_blockTK.zip</ZipFile>
-              <CRC>f2d9a8ca53ef73d6bf79337ff080d1a1</CRC>
-              <Timestamp>132420253011399240</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.blockTeamKillerShot</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_Champi_sendChatMessage" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="4uvubx73n0ugsdzt" Name="Send message in chat" Type="multi" Visible="True">
               <Size>958</Size>
-              <ZipFile>IngameAim_SafeShot_Champi_sendChatMessage.zip</ZipFile>
-              <CRC>64a1810dc66653fbb2ec2646fd29c404</CRC>
-              <Timestamp>132420253048669781</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.sendTeamMessage</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_SafeShot_Champi_welcome" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vsq5tv6ylubylht5" Name="Show welcome message when entering battle" Type="multi" Visible="True">
               <Size>941</Size>
-              <ZipFile>IngameAim_SafeShot_Champi_welcome_2021-04-04.zip</ZipFile>
-              <CRC>9e5842f280e85d0cda15569185fd2355</CRC>
-              <Timestamp>132620554339280679</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.showWelcomeMessage</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockedShotMessage</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockDeadShot</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockTeamKillerShot</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockTeamShot</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockWasteShot</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.sendTeamMessage</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.showWelcomeMessage</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="0">
+              <Path>$.timeDeadShotBlock</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -790,47 +1011,56 @@
           <Packages>
             <Package PackageName="IngameAim_ServerReticle_Awfultanker_PentagonBlue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="xn0n8ff47hslaalw" Name="Pentagon blue" Type="single_dropdown1" Visible="True">
               <Size>547</Size>
-              <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_blue_patch_2019-04-18.zip</ZipFile>
-              <CRC>791009ce7173d329498d3a7a83400dce</CRC>
-              <Timestamp>132000569718417719</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\versiondir\scripts\client\gui\mods\at_servermarker\AT_ServerMarker_config.json" Version="1" Search="" Replace="pentagon_blue64.dds">
+                  <Path>$.texture</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ServerReticle_Awfultanker_PentagonRed" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ac72gfl56el3amtv" Name="Pentagon red" Type="single_dropdown1" Visible="True">
               <Size>544</Size>
-              <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_red_patch_2019-04-18.zip</ZipFile>
-              <CRC>baf5d5a9e0765166ef987eee37a8a63a</CRC>
-              <Timestamp>132000569895903161</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\versiondir\scripts\client\gui\mods\at_servermarker\AT_ServerMarker_config.json" Version="1" Search="" Replace="pentagon_red64.dds">
+                  <Path>$.texture</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ServerReticle_Awfultanker_PentagonGreen" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="n1dhoer66adkay0v" Name="Pentagon green" Type="single_dropdown1" Visible="True">
               <Size>549</Size>
-              <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_pentagon_green_patch_2019-04-18.zip</ZipFile>
-              <CRC>c9e495533b6d8d864d227b1829ba23c2</CRC>
-              <Timestamp>132000569808646476</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\versiondir\scripts\client\gui\mods\at_servermarker\AT_ServerMarker_config.json" Version="1" Search="" Replace="pentagon_green64.dds">
+                  <Path>$.texture</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ServerReticle_Awfultanker_Blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hfvofihp0tfamri8" Name="blue" Type="single_dropdown1" Visible="True">
               <Size>531</Size>
-              <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_blue_patch_2019-04-18.zip</ZipFile>
-              <CRC>8ab3c6c429d73665d59fda7974bcdb86</CRC>
-              <Timestamp>132000569509745661</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\versiondir\scripts\client\gui\mods\at_servermarker\AT_ServerMarker_config.json" Version="1" Search="" Replace="standard_blue64.dds">
+                  <Path>$.texture</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ServerReticle_Awfultanker_Red" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="u413ohoq0q7rm2p8" Name="red" Type="single_dropdown1" Visible="True">
               <Size>525</Size>
-              <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_red_patch_2019-04-18.zip</ZipFile>
-              <CRC>7bfb4770d144350c68268c54cb67c997</CRC>
-              <Timestamp>132000569998937673</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\versiondir\scripts\client\gui\mods\at_servermarker\AT_ServerMarker_config.json" Version="1" Search="" Replace="standard_red64.dds">
+                  <Path>$.texture</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ServerReticle_Awfultanker_Green" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6t8iwhurzmz9mew8" Name="green" Type="single_dropdown1" Visible="True">
               <Size>530</Size>
-              <ZipFile>Ingame_Aim_Crosshair_serverside_Awfultanker_green_patch_2019-04-18.zip</ZipFile>
-              <CRC>6e9a7231120723597cab94b3f2341d2e</CRC>
-              <Timestamp>132000569610376593</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\versiondir\scripts\client\gui\mods\at_servermarker\AT_ServerMarker_config.json" Version="1" Search="" Replace="standard_green64.dds">
+                  <Path>$.texture</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
         <Package PackageName="IngameAim_ServerReticle_PMOD" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="18ppnkkau51zx7el" Name="PMOD" Type="single1" Visible="True">
           <Size>918</Size>
-          <ZipFile>IngameAim_ServerReticle_PMOD.zip</ZipFile>
-          <CRC>a13a5f37cff8555b81d75be7ef6ad4af</CRC>
-          <Timestamp>132509486611603373</Timestamp>
           <Description>Shows where the server thinks you are aiming. Server crosshair must be enabled in game settings.</Description>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/pmod_server_reticle_blue_patch.jpg" />
@@ -841,28 +1071,58 @@
           <Packages>
             <Package PackageName="IngameAim_ServerReticle_PMOD_Blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dxw4vkqbt2ugxjll" Name="blue" Type="single_dropdown1" Visible="True">
               <Size>986</Size>
-              <ZipFile>IngameAim_ServerReticle_PMOD_Blue.zip</ZipFile>
-              <CRC>efd4d1f4c56ca39a2e589c7b1498545a</CRC>
-              <Timestamp>132509486734985752</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="{{config}}gunMarkers/standart.dds">
+                  <Path>$.arcade.textureSettings.path</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="{{config}}gunMarkers/standart.dds">
+                  <Path>$.sniper.textureSettings.path</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ServerReticle_PMOD_Green" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8bdcnogtolv68b3y" Name="green" Type="single_dropdown1" Visible="True">
               <Size>986</Size>
-              <ZipFile>pmod_server_reticle_green_patch.zip</ZipFile>
-              <CRC>f56c23d4ad87129922c4fe271f980905</CRC>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="{{config}}gunMarkers/green.dds">
+                  <Path>$.arcade.textureSettings.path</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="{{config}}gunMarkers/green.dds">
+                  <Path>$.sniper.textureSettings.path</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ServerReticle_PMOD_BlackWhite" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="l0krvnmunhoo8nay" Name="black and white" Type="single_dropdown1" Visible="True">
               <Size>1007</Size>
-              <ZipFile>IngameAim_ServerReticle_PMOD_BlackWhite.zip</ZipFile>
-              <CRC>a94f6798ac3a8c3e835ced7045b8c930</CRC>
-              <Timestamp>132509487062476308</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="{{config}}gunMarkers/crakker.dds">
+                  <Path>$.arcade.textureSettings.path</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="{{config}}gunMarkers/crakker.dds">
+                  <Path>$.sniper.textureSettings.path</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ServerReticle_PMOD_meltyMaps" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="xpr63msvmeg58zix" Name="meltymaps mathmod" Type="single_dropdown1" Visible="True">
               <Size>2599</Size>
-              <ZipFile>IngameAim_ServerReticle_PMOD_meltyMaps.zip</ZipFile>
-              <CRC>2c1753c4cb62bf2c8e579e4499c961f2</CRC>
-              <Timestamp>132509486941747139</Timestamp>
+              <ZipFile>IngameAim_ServerReticle_PMOD_meltyMaps_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859221884608717</Timestamp>
+              <LastUpdateCheck>132859221884608717</LastUpdateCheck>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="{{config}}gunMarkers/blue.dds">
+                  <Path>$.arcade.textureSettings.path</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="{{config}}gunMarkers/blue.dds">
+                  <Path>$.sniper.textureSettings.path</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -954,33 +1214,175 @@
       <Packages>
         <Package PackageName="IngameAim_ZoomIn_1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="to4pj5g9ls2c3e33" Name="2, 4, 8, 12" Type="single_dropdown1" Visible="True">
           <Size>690</Size>
-          <ZipFile>IngameAim_ZoomIn_1_2019-02-19.zip</ZipFile>
-          <CRC>f834f143ca80cd9a44f430534aa4d6ee</CRC>
-          <Timestamp>132509498531691553</Timestamp>
+          <Patches>
+            <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="2[index=0]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="4[index=1]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="8[index=2]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="12[index=3]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\zoomX.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_ZoomIn_2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6db4r4makouu3pa2" Name="2, 4, 8, 16, 25 (client default)" Type="single_dropdown1" Visible="True">
           <Size>698</Size>
-          <ZipFile>IngameAim_ZoomIn_2_2019-02-19.zip</ZipFile>
-          <CRC>a852f6b255e00e857ca0d1b75cdf9cb8</CRC>
-          <Timestamp>132509498677314537</Timestamp>
+          <Patches>
+            <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="2[index=0]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="4[index=1]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="8[index=2]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="16[index=3]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="25[index=4]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\zoomX.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_ZoomIn_3" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="j2iiz4sbkknc31h2" Name="2, 4, 8, 12, 16, 20, 26, 32" Type="single_dropdown1" Visible="True">
           <Size>735</Size>
-          <ZipFile>IngameAim_ZoomIn_3_2019-02-19.zip</ZipFile>
-          <CRC>40fa68455ae49095181962820f901869</CRC>
-          <Timestamp>132509498784036313</Timestamp>
+          <Patches>
+            <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="2[index=0]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="4[index=1]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="8[index=2]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="12[index=3]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="16[index=4]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="20[index=5]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="26[index=6]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="32[index=7]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\zoomX.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_ZoomIn_4" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dgzqr7itf4p1euzf" Name="2, 4, 8, 12, 16, 20, 26, 32, 40, 48" Type="single_dropdown1" Visible="True">
           <Size>749</Size>
-          <ZipFile>IngameAim_ZoomIn_4_2019-02-19.zip</ZipFile>
-          <CRC>e520cde7aa46d7d77d080f8fadd56fee</CRC>
-          <Timestamp>132509498906616243</Timestamp>
+          <Patches>
+            <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="2[index=0]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="4[index=1]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="8[index=2]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="12[index=3]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="16[index=4]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="20[index=5]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="26[index=6]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="32[index=7]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="40[index=8]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="48[index=9]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\zoomX.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_ZoomIn_5" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="q565z7oue0hje67f" Name="2, 4, 8, 12, 16, 20, 26, 32, 40, 48, 52, 56" Type="single_dropdown1" Visible="True">
           <Size>761</Size>
-          <ZipFile>IngameAim_ZoomIn_5_2019-02-19.zip</ZipFile>
-          <CRC>a291c7093b03329510e3d591428e20ca</CRC>
-          <Timestamp>132509499023107398</Timestamp>
+          <Patches>
+            <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="2[index=0]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="4[index=1]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="8[index=2]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="12[index=3]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="16[index=4]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="20[index=5]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="26[index=6]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="32[index=7]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="40[index=8]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="48[index=9]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="52[index=9]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\mods\configs\pmod\zoomX.json" Version="1" Search="" Replace="56[index=10]">
+              <Path>$.zoomXSteps</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\zoomX.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameAim_ZoomIn_tdBrake" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="3uck76uvdw91ehef" Name="Modify TD Brake" Type="multi" Visible="True">
           <Timestamp>131558453417276234</Timestamp>
@@ -988,24 +1390,36 @@
           <Packages>
             <Package PackageName="IngameAim_ZoomIn_tdBrake_on" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="x9uryake8fbqpaws" Name="on" Type="single_dropdown1" Visible="True">
               <Size>933</Size>
-              <ZipFile>IngameAim_ZoomIn_tdBrake_on_2017-05-01.zip</ZipFile>
-              <CRC>00ca229c0c5992665d3530b0028e91da</CRC>
-              <Timestamp>132509499156846889</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\tdBrakeRemover.json" Version="1" Search="" Replace="true">
+                  <Path>$.enable</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\tdBrakeRemover.json" Version="1" Search="" Replace="custom">
+                  <Path>$.TDSniperMovementMode</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ZoomIn_tdBrake_off" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ay0679qf7c38pm3s" Name="off" Type="single_dropdown1" Visible="True">
               <Size>947</Size>
-              <ZipFile>IngameAim_ZoomIn_tdBrake_off_2017-05-01.zip</ZipFile>
-              <CRC>a8ad683c18c4fe2aec4fdf8e003bcf97</CRC>
-              <Timestamp>132509499257325732</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\tdBrakeRemover.json" Version="1" Search="" Replace="true">
+                  <Path>$.enable</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\tdBrakeRemover.json" Version="1" Search="" Replace="full">
+                  <Path>$.TDSniperMovementMode</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
         <Package PackageName="IngameAim_ZoomIn_enableZoomIndicator" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ejq8mfvlu0dmciwh" Name="Enable pmod zoom indicator" Type="multi" Visible="True">
           <Size>917</Size>
-          <ZipFile>IngameAim_ZoomIn_enableZoomIndicator_2017-05-01.zip</ZipFile>
-          <CRC>94874e344024b246057b0ca6e24e38bd</CRC>
-          <Timestamp>132509499857902227</Timestamp>
           <Description>Show zoom indicator (1x, 2x, ....16x,32x...) in combat interface with activated sniper view.</Description>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\zoomIndicator.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -1021,21 +1435,27 @@
           <Packages>
             <Package PackageName="IngameAim_ZoomOut_Arcade_100" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="f0v2emhojy9jyg37" Name="100m" Type="single_dropdown1" Visible="True">
               <Size>495</Size>
-              <ZipFile>IngameAim_ZoomOut_Arcade_100.zip</ZipFile>
-              <CRC>6802ca0f7d310ebd7a2062dedda2ba8f</CRC>
-              <Timestamp>132509500018885117</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\avatar_input_handler.xml" Version="1" Search=".*" Replace="2 100">
+                  <Path>//avatar_input_handler.xml/arcadeMode/camera/distRange</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ZoomOut_Arcade_200" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sq2hmlnpiv11ysa7" Name="200m" Type="single_dropdown1" Visible="True">
               <Size>495</Size>
-              <ZipFile>IngameAim_ZoomOut_Arcade_200.zip</ZipFile>
-              <CRC>738e0b825485836c292ff0803d09dad3</CRC>
-              <Timestamp>132509500123412303</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\avatar_input_handler.xml" Version="1" Search=".*" Replace="2 200">
+                  <Path>//avatar_input_handler.xml/arcadeMode/camera/distRange</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ZoomOut_Arcade_500" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="5f8vultqhrtiy3h7" Name="500m" Type="single_dropdown1" Visible="True">
               <Size>496</Size>
-              <ZipFile>IngameAim_ZoomOut_Arcade_500.zip</ZipFile>
-              <CRC>9e735cb0d6fa3ea83b137fb2595f066d</CRC>
-              <Timestamp>132509500252928786</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\avatar_input_handler.xml" Version="1" Search=".*" Replace="2 500">
+                  <Path>//avatar_input_handler.xml/arcadeMode/camera/distRange</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
@@ -1044,21 +1464,27 @@
           <Packages>
             <Package PackageName="IngameAim_ZoomOut_PostMortem_100" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ciwiuopab7nq986k" Name="100m" Type="single_dropdown1" Visible="True">
               <Size>506</Size>
-              <ZipFile>IngameAim_ZoomOut_PostMortem_100.zip</ZipFile>
-              <CRC>f65d9f488a62a9cc05682ac3fe7a796e</CRC>
-              <Timestamp>132509500369968518</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\avatar_input_handler.xml" Version="1" Search=".*" Replace="2 100">
+                  <Path>//avatar_input_handler.xml/postMortemMode/camera/distRange</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ZoomOut_PostMortem_200" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p73x2nvba3g79kdj" Name="200m" Type="single_dropdown1" Visible="True">
               <Size>506</Size>
-              <ZipFile>IngameAim_ZoomOut_PostMortem_200.zip</ZipFile>
-              <CRC>212ca3600505737bc77fccb0129df0b6</CRC>
-              <Timestamp>132509500472312050</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\avatar_input_handler.xml" Version="1" Search=".*" Replace="2 200">
+                  <Path>//avatar_input_handler.xml/postMortemMode/camera/distRange</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ZoomOut_PostMortem_500" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jll4urlt5mixkdvx" Name="500m" Type="single_dropdown1" Visible="True">
               <Size>507</Size>
-              <ZipFile>IngameAim_ZoomOut_PostMortem_500.zip</ZipFile>
-              <CRC>6c7eba92a209e858c39e257c63214640</CRC>
-              <Timestamp>132509500591378815</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\avatar_input_handler.xml" Version="1" Search=".*" Replace="2 500">
+                  <Path>//avatar_input_handler.xml/postMortemMode/camera/distRange</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
@@ -1067,24 +1493,36 @@
           <Packages>
             <Package PackageName="IngameAim_ZoomOut_Stragetic_200" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qp9quuhdz2c4whla" Name="200m" Type="single_dropdown1" Visible="True">
               <Size>521</Size>
-              <ZipFile>IngameAim_ZoomOut_Stragetic_200.zip</ZipFile>
-              <CRC>b67d89d7f7e7fb079490980244cbc58e</CRC>
-              <Timestamp>132509500720906281</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\avatar_input_handler.xml" Version="1" Search=".*" Replace="40 200">
+                  <Path>//avatar_input_handler.xml/strategicMode/camera/distRange</Path>
+                </Patch>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\avatar_input_handler.xml" Version="1" Search=".*" Replace="25 200">
+                  <Path>//avatar_input_handler.xml/artyMode/camera/distRange</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameAim_ZoomOut_Stragetic_500" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="3ef52unezy4mwts9" Name="500m" Type="single_dropdown1" Visible="True">
               <Size>521</Size>
-              <ZipFile>IngameAim_ZoomOut_Stragetic_500.zip</ZipFile>
-              <CRC>cc5d2296c2d36df8b9924711149a6618</CRC>
-              <Timestamp>132509500841066929</Timestamp>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\avatar_input_handler.xml" Version="1" Search=".*" Replace="40 500">
+                  <Path>//avatar_input_handler.xml/strategicMode/camera/distRange</Path>
+                </Patch>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\avatar_input_handler.xml" Version="1" Search=".*" Replace="25 500">
+                  <Path>//avatar_input_handler.xml/artyMode/camera/distRange</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
         <Package PackageName="IngameAim_ZoomOut_IncreaseScrollSpeed" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="g3mkattfyvx3w5z9" Name="Increase Scroll Speed" Type="multi" Visible="True">
           <Size>632</Size>
-          <ZipFile>IngameAim_ZoomOut_IncreaseScrollSpeed.zip</ZipFile>
-          <CRC>fbc9bcfbea22a0312b14a0098515c75b</CRC>
-          <Timestamp>132509500986765431</Timestamp>
           <Description>Your mouse wheel will be faster to scroll</Description>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\avatar_input_handler.xml" Version="1" Search=".*" Replace="8">
+              <Path>//avatar_input_handler.xml/arcadeMode/camera/scrollSensitivity</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>

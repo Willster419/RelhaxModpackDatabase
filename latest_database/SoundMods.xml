@@ -201,12 +201,13 @@
           <Packages>
             <Package PackageName="Sounds_CrewVoices_GER_CompanyOfHeroes" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="eojespwjhjwplsic" Name="Company of Heroes [by {author}]" Type="single_dropdown1" Visible="True">
               <Size>6116879</Size>
-              <ZipFile>Sounds_CrewVoices_GER_CompanyOfHeroes_1.10.1.1_2020-10-28.zip</ZipFile>
-              <CRC>1affb003bfd4a8bc08f488d914ba0ace</CRC>
-              <Timestamp>132508741118503722</Timestamp>
+              <ZipFile>Sounds_CrewVoices_GER_CompanyOfHeroes_1.10.1.1_2020-10-28_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859238777135055</Timestamp>
               <DevURL>http://dwn.wotsite.net/nemetskaya-ozvuchka-iz-company-of-heroes-dlya-wot-v1.rar\r\nhttp://wotsite.net/ozvuchka-dlya-world-of-tanks/5957-</DevURL>
               <InternalNotes>2020-10-28: From Ekspoint there are no mods more\r\n\r\nRemoved Ekspoint_load.wotmod &amp; LobbyApi.wotmod</InternalNotes>
               <Author>Andre_V</Author>
+              <LastUpdateCheck>132859238777135055</LastUpdateCheck>
               <Description>Siegfried by Strategic_Music+Andre_V_german\nNote for youtube: Just wait ca. 20 seconds (russian language over)\nCrew Sound Steel Foxes by Strategic Music and Andre_V\n-provides alternative voice reactions from the tank crew. \n-More than 750 phrases for 45 different in-game situations.\n-gives you a new gaming experience\n-new emotions, atmosphere and some humor\n\nThe mod team:\nDmitry Kuzmenko – original idea, voice direction, script writing\nSergey Eybog - Technical director - Sergey Eybog\nErich Muff, Manuel Haefele - german Voice\nAndrew Burmistrov, Savva Dudin, Stan Polesko, Ekaterina Kuzmenko - Sound editors\nOlga Nigmatulina - Artist</Description>
               <Medias>
                 <Media MediaType="Picture" URL="http://wotsite.net/images/2015/4/14/8.jpg" />
@@ -215,19 +216,33 @@
               <Dependencies>
                 <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
               </Dependencies>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/enemy_sighted_for_team">
+                  <Path>/audio_mods.xml/events</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/enemy_sighted_for_team_andre">
+                  <Path>/audio_mods.xml/events/event[name = "enemy_sighted_for_team"]</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="Sounds_CrewVoices_GER_dieZwei" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="6i49wen878exczxx" Name="Die Zwei [by {author}]" Type="single_dropdown1" Visible="True">
               <Size>15113132</Size>
-              <ZipFile>Sounds_CrewVoices_GER_dieZwei_1.11.1.1_2021-02-02.zip</ZipFile>
-              <CRC>5c06c8dfba4c5a1065fd1325b4ca36b3</CRC>
-              <Timestamp>132567299967899218</Timestamp>
+              <ZipFile>Sounds_CrewVoices_GER_dieZwei_1.11.1.1_2021-02-02_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859238876425091</Timestamp>
               <DevURL>http://forum.worldoftanks.eu/index.php?/topic/567880-</DevURL>
               <InternalNotes>Die Zwei: without 6. sense sounds\n</InternalNotes>
               <Author>Dr_Nuadu</Author>
+              <LastUpdateCheck>132859238876425091</LastUpdateCheck>
               <Description>german TV-Serie/ The Persuaders! from 1970-71 with Tony Curtis and Roger Moore</Description>
               <Medias>
                 <Media MediaType="Webpage" URL="https://youtu.be/Ls6bCtJkzsU?version=3&amp;autoplay=1" />
               </Medias>
+              <Patches>
+                <Patch Type="xml" Mode="edit" PatchPath="" File="\\res_mods\\versiondir\\gui\\sound_notifications.xml" Version="1" Search=".*" Replace="vo_gesichtet">
+                  <Path>//sound_notifications.xml/enemy_sighted_for_team/fx/wwsound</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="Sounds_CrewVoices_GER_DukeNukem" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="xenx4kldvzvtzkim" Name="Duke Nukem (Bruce Willis) [by {author}]" Type="single_dropdown1" Visible="True">
               <Size>17447304</Size>
@@ -243,12 +258,13 @@
             </Package>
             <Package PackageName="Sounds_CrewVoices_GER_Siegfried" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="820ljtm2b3yfwl0p" Name="Siegfried (with Strategic Music) [by {author}]" Type="single_dropdown1" Visible="True">
               <Size>10628631</Size>
-              <ZipFile>Sounds_CrewVoices_GER_Siegfried_1.10.1.1_2020-10-28.zip</ZipFile>
-              <CRC>26f11558b9d4dc0a7e37e9c5c05d1f73</CRC>
-              <Timestamp>132508740284523110</Timestamp>
+              <ZipFile>Sounds_CrewVoices_GER_Siegfried_1.10.1.1_2020-10-28_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859239065650060</Timestamp>
               <DevURL>http://dwn.wotsite.net/nemeckaja-ozvuchka-zigfrid.rar\r\nhttp://wotsite.net/ozvuchka-dlya-world-of-tanks/11903-</DevURL>
               <InternalNotes>2020-10-28: From Ekspoint there are no mods more\r\n\r\nRemoved Ekspoint_load.wotmod &amp; LobbyApi.wotmod\r\n</InternalNotes>
               <Author>Andre_V</Author>
+              <LastUpdateCheck>132859239065650060</LastUpdateCheck>
               <Description>Siegfried by Strategic_Music &amp; Andre_V_german\nNote for youtube: Just wait ca. 20 seconds (russian language over)\nCrew Sound Steel Foxes by Strategic Music and Andre_V\n-provides alternative voice reactions from the tank crew. \n-More than 750 phrases for 45 different in-game situations.\n-gives you a new gaming experience\n-new emotions, atmosphere and some humor\n\nThe mod team:\nDmitry Kuzmenko – original idea, voice direction, script writing\nSergey Eybog - Technical director - Sergey Eybog\nErich Muff, Manuel Haefele - german Voice\nAndrew Burmistrov, Savva Dudin, Stan Polesko, Ekaterina Kuzmenko - Sound editors\nOlga Nigmatulina - Artist</Description>
               <Medias>
                 <Media MediaType="Picture" URL="http://wotsite.net/images/2013/10/14/15.jpg" />
@@ -257,6 +273,14 @@
               <Dependencies>
                 <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
               </Dependencies>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/enemy_sighted_for_team">
+                  <Path>/audio_mods.xml/events</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/enemy_sighted_for_team_andre">
+                  <Path>/audio_mods.xml/events/event[name = "enemy_sighted_for_team"]</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="Sounds_CrewVoices_GER_SpencerHill" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="qaya4hpt1k0moft9" Name="Bud Spencer &amp; Terence Hill [by {author}]" Type="single_dropdown1" Visible="True">
               <Size>39031104</Size>
@@ -312,12 +336,13 @@
                 </Package>
                 <Package PackageName="Sounds_CrewVoices_ENG_Basic_SteelFoxes" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="pwzo2lpsjpuv05e8" Name="Steel Foxes with Strategic Music [by {author}]" Type="single_dropdown1" Visible="True">
                   <Size>35782333</Size>
-                  <ZipFile>Sounds_CrewVoices_ENG_Basic_SteelFoxes_1.10.1.1_2020-10-28.zip</ZipFile>
-                  <CRC>751cab86ea67927d0ae64172a24e5821</CRC>
-                  <Timestamp>132508738464418720</Timestamp>
+                  <ZipFile>Sounds_CrewVoices_ENG_Basic_SteelFoxes_1.10.1.1_2020-10-28_converted.zip</ZipFile>
+                  <CRC>f</CRC>
+                  <Timestamp>132859239436740059</Timestamp>
                   <DevURL>http://wotsite.net/ozvuchka-dlya-world-of-tanks/10241-</DevURL>
                   <InternalNotes>Removed ekspont_load.wotmod &amp; LobbyApi.wotmod</InternalNotes>
                   <Author>AndreV</Author>
+                  <LastUpdateCheck>132859239436740059</LastUpdateCheck>
                   <Description>Steel Foxes with Strategic Music &amp; Andre_V\nNote for youtube: Just wait ca. 20 seconds (russian language over)\n-provides alternative voice reactions from the tank crew. \n-More than 750 phrases for 45 different in-game situations.\n-gives you a new gaming experience\n-new emotions, atmosphere and some humor\n\nThe mod team:\nDmitry Kuzmenko – original idea, voice direction, script writing\nWill Bucknum – script writing, voice direction\nAaron Baca – script writing\nTechnical director – Serge Eybog\nSound design – Andrew Burmistrov, Stas Polesko, Petr Yakyamsev\nDouglas Pullar – commander\nJohn Bell – additional voice-over</Description>
                   <Medias>
                     <Media MediaType="Picture" URL="http://wotsite.net/images/2013/11/25/13.jpg" />
@@ -326,6 +351,14 @@
                   <Dependencies>
                     <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
                   </Dependencies>
+                  <Patches>
+                    <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/enemy_sighted_for_team">
+                      <Path>/audio_mods.xml/events</Path>
+                    </Patch>
+                    <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/enemy_sighted_for_team_andre">
+                      <Path>/audio_mods.xml/events/event[name = "enemy_sighted_for_team"]</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="Sounds_CrewVoices_ENG_Basic_Chuck" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="h0mztmlcnz7a2c4u" Name="Chuck Norris (Xmas event 2021) [by {author}]" Type="single_dropdown1" Visible="True">
                   <Size>9681116</Size>
@@ -446,13 +479,14 @@
         <Package PackageName="Sounds_Engines_Ed76na" Enabled="True" Tags="Patch,SoundBank,DependencyLink" InstallGroup="4" PatchGroup="2" UID="5dmxfmdt2b0lnhm2" Name="Ed76na (RU) &amp; SicFunzler (EU)" Type="single1" Visible="True">
           <Size>21779697</Size>
           <Version>800</Version>
-          <ZipFile>Sounds_Engines_Ed76na_1.14.0.0_2021-08-15.zip</ZipFile>
-          <CRC>bdc7185af378bc893602291a117444f6</CRC>
-          <Timestamp>132735440352311921</Timestamp>
+          <ZipFile>Sounds_Engines_Ed76na_1.14.0.0_2021-08-15_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859240223785064</Timestamp>
           <DevURL>https://wgmods.net/533/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/432265-</DevURL>
           <InternalNotes>2021-06-28: can use GO_engines.zip or SicFunzler_Engines.zip -&gt; GO_engines.wotmod OR SicFunzler_Engines.wotmod\r\n\r\n2020-10-23_WWise2019.2.3\r\n\r\nOld gauss notes -------------------------------------------------------------------\r\nCheck CRCs from *.bnk NOT *.wotmod (CRC failed with wotmod)\r\n\r\nGO_engines.wotmod OR SicFunzler_Engines.wotmod\r\nunzip XYZ.wotmod IF vehicles_GO.bnk (audioww\vehicles_GO.bnk) is inside\r\n\r\nNote: res_mods\audioww\*.bnk is working with Configs in mods\configs\r\n\nSound Event Injector : \n- great tool for modding sounds \n- no patches are needed \n- updating get much easier &amp; faster\r\n\r\n0. Soundinjektor is a great tool for modding sounds - no Patches are needed - updating gets much easier\n1. Problem: Working alone as intended check replays\n2. Problem: Soundinjektor is incompatible with WWIIHWA (WOT-Circle -- restart-&gt;crash-&gt;restart-&gt;crash....)\n3. Dont have Ideas/ muse / moods  for fixing now -123gauss\r\n\nNo PYmods_BanksLoader - only Patches to engine_config.xml\n\nUsable with WWIIHWA (no Bankloader - Patches used)\n- Sound Event Injector is compatible with WWIIHWA\r\n\nOld Willster notes: -------------------------------------------------------------------\nI dont know what we do with the Sound Event Injector Versions (script-file)\nBank-loader isnt used here &amp; In Relhax - not necessary \n- take audio.xml/engine.config.xml\r\n\r\nOLD NOTES: -------------------------------------------------------------------\r\nFedor Saveliev retired) too much work for this tricky mod,to rework\r\nAGQJ: http://forum.worldoftanks.ru/index.php?/topic/1778752-</InternalNotes>
           <Author>Ed76na (retired Apa6ecka) &amp; SicFunzler</Author>
           <Maintainers>Gauss</Maintainers>
+          <LastUpdateCheck>132859240223785064</LastUpdateCheck>
           <Description>Authors: Ed76na (RU) [with retired Apa6ecka] &amp; SicFunzler  (EU)  [since 2020]</Description>
           <Dependencies>
             <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
@@ -473,20 +507,37 @@
               <FromWGmods>True</FromWGmods>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/vehicles_GO.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/vehicles_GO.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="Sounds_Engines_WarMod" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lc9q6q6m1kl6dukc" Name="War Engines (War Mod) v{version} [by {author}]" Type="single1" Visible="True">
           <Size>877207089</Size>
-          <ZipFile>Sounds_Engines_WarMod_1.15.0.0_2021-12-13.zip</ZipFile>
-          <CRC>fc9e077dfb5ee863933f9e9bda526992</CRC>
-          <Timestamp>132838431432771171</Timestamp>
+          <ZipFile>Sounds_Engines_WarMod_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859241321870056</Timestamp>
           <DevURL>https://wgmods.net/5178/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/603317-</DevURL>
           <InternalNotes>we can also get it from mediafire directly\r\nhttps://www.mediafire.com/file/fnx8xghaz59ovqg/War_Mod_Full_mod.rar/file</InternalNotes>
           <Author>JohnTankPL</Author>
           <Maintainers>Willster419</Maintainers>
+          <LastUpdateCheck>132859241321870056</LastUpdateCheck>
           <Dependencies>
             <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
             <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/Engines_WM.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/Engines_WM.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -496,24 +547,35 @@
         <Package PackageName="Sounds_Extras_BetterTimer" Enabled="True" Tags="Patch,SoundBank" InstallGroup="4" PatchGroup="4" UID="452eyztnmg7uk2p0" Name="Better Timer" Type="multi" Visible="True">
           <Size>23649</Size>
           <Version>1.5</Version>
-          <ZipFile>Sounds_Extras_BetterTimer_1.10.1.1_2021-03-12.zip</ZipFile>
-          <CRC>0b2f8ad60fceafb7664d77748369e717</CRC>
-          <Timestamp>132600838670482347</Timestamp>
+          <ZipFile>Sounds_Extras_BetterTimer_1.10.1.1_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859250372670858</Timestamp>
           <DevURL>https://wgmods.net/3690/</DevURL>
           <InternalNotes>Maintained by The Illusion (my mod)</InternalNotes>
           <Author>The Illusion</Author>
           <Maintainers>The Illusion</Maintainers>
+          <LastUpdateCheck>132859250372670858</LastUpdateCheck>
           <UpdateComment>1.3\r\n- Fixed silent timer issue</UpdateComment>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/AW_Timer.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "AW_Timer.bnk"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="Sounds_Extras_EnableWwiseCommunication" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="v1l265rsa7nr6naq" Name="Enable Wwise Communication with the WoT Client (For audio modders)" Type="multi" Visible="True">
           <Size>561</Size>
-          <ZipFile>Sounds_Extras_EnableWwiseCommunication_2019-06-22.zip</ZipFile>
-          <CRC>974dee940b292f869531f144d7239d19</CRC>
-          <Timestamp>132508728310150888</Timestamp>
           <Description>This is a patch to enable communication with the WWISE audio program</Description>
           <Medias>
             <Media MediaType="Picture" URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/sound_mods/extras/explorer_22JSs8tEKx.jpg" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="1" Search=".*" Replace="true">
+              <Path>//engine_config.xml/soundMgr/communication</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -521,15 +583,72 @@
       <Packages>
         <Package PackageName="Sounds_GUI_Relhax" Enabled="True" Tags="Patch,SoundBank,DependencyLink" InstallGroup="4" PatchGroup="4" UID="o49vq8mowrxzptgl" Name="Relhax by Willster419" Type="single_dropdown1" Visible="True">
           <Size>33854392</Size>
-          <ZipFile>Sounds_GUI_Relhax_2021-03-12.zip</ZipFile>
-          <CRC>38fcfcb8a0a0535f7a6367c2e953eca8</CRC>
-          <Timestamp>132600633073385616</Timestamp>
+          <ZipFile>Sounds_GUI_Relhax_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859250471660858</Timestamp>
+          <LastUpdateCheck>132859250471660858</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://i.imgur.com/uWih1kD.jpg" />
           </Medias>
           <Dependencies>
             <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/RelHaxGui.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/RelHaxGui.pck">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "RelHaxGui.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "RelHaxGui.pck"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/base_capture_1">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_base_capture_1">
+              <Path>/audio_mods.xml/events/event[name = "base_capture_1"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/enemy_sighted_for_team">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_enemy_sighted_for_team">
+              <Path>/audio_mods.xml/events/event[name = "enemy_sighted_for_team"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/time_buzzer_01">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_time_buzzer_01">
+              <Path>/audio_mods.xml/events/event[name = "time_buzzer_01"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/timer">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_timer">
+              <Path>/audio_mods.xml/events/event[name = "timer"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/music_victory">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_music_victory">
+              <Path>/audio_mods.xml/events/event[name = "music_victory"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/music_defeat">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_music_defeat">
+              <Path>/audio_mods.xml/events/event[name = "music_defeat"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/music_drawn_game">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_music_drawn_game">
+              <Path>/audio_mods.xml/events/event[name = "music_drawn_game"]</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -541,13 +660,14 @@
         <Package PackageName="Sounds_Guns_Ed76na" Enabled="True" Tags="Patch,SoundBank,DependencyLink" InstallGroup="4" PatchGroup="2" UID="by4pnina7sywco5o" Name="Ed76na (RU) &amp; SicFunzler (EU)" Type="single1" Visible="True">
           <Size>31609631</Size>
           <Version>800</Version>
-          <ZipFile>Sounds_Guns_Ed76na_1.14.0.0_2021-08-18.zip</ZipFile>
-          <CRC>b22f72c9885569da22abc2281902842c</CRC>
-          <Timestamp>132738151354149425</Timestamp>
+          <ZipFile>Sounds_Guns_Ed76na_1.14.0.0_2021-08-18_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859250860080862</Timestamp>
           <DevURL>https://wgmods.net/533/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/432265-</DevURL>
           <InternalNotes>2020-10-23_WWise2019.2.3\r\n\r\nToo Update: \r\nUse SicFunzler-Sound\*.wotmod \r\nCheck CRCs from *.bnk NOT *.wotmod (CRC failed with wotmod)\r\nUse Ed76na: for tracer_GO.bnk\r\ntracer_GO.bnk Does NOT Exist by SicFunzler\r\nGO_engines.wotmod OR SicFunzler_Engines.wotmod OR DzD_Engines.wotmod\r\nunzip XYZ.wotmod IF vehicles_GO.bnk (audioww\vehicles_GO.bnk) is inside\r\n\r\nEd76na: \t\t\t\t\t\t---- SicFunzler: \r\ngun_GO.bnk\t22.321.063\t23.10.2020 17:33\t---- gun_GO.bnk\t 22.321.063\t23.10.2020 15:33 \r\nhits_GO.bnk\t9.170.750\t23.10.2020 17:08\t---- hits_GO.bnk \t9.170.750\t23.10.2020 15:08 \r\nreload_GO.bnk\t362.803 \t\t23.10.2020 17:35\t---- reload_GO.bnk 362.803 \t23.10.2020 15:35 \r\ntracer_GO.bnk\t2.926.452\t23.10.2020 17:33\t---- Does NOT Exist\r\n\r\n_SicFunzler: audioww\gun_GO.bnk\r\n815263f77348af9d71b1eac4d8f91fe3\r\n815263f77348af9d71b1eac4d8f91fe3\r\n815263f77348af9d71b1eac4d8f91fe3\r\n_Ed76na: audioww\gun_GO.bnk\r\n815263f77348af9d71b1eac4d8f91fe3\r\n\r\n_SicFunzler: audioww\hits_GO.bnk\r\nc9ecf5287b61490b90a3c01b89a9d51b\r\nc9ecf5287b61490b90a3c01b89a9d51b\r\nc9ecf5287b61490b90a3c01b89a9d51b\r\n_Ed76na: audioww\hits_GO.bnk\r\nc9ecf5287b61490b90a3c01b89a9d51b\r\n\r\n_SicFunzler: audioww\r reload_GO.bnk\r\n7020bb03156426bbf28cfeacd29a9b70\r\n\r\n_Ed76na: audioww\r reload_GO.bnk\r\n7020bb03156426bbf28cfeacd29a9b70\r\n\r\n_SicFunzler: audioww \ tracer_GO.bnk\r\nDoes NOT Exists\r\n_Ed76na: audioww \ tracer_GO.bnk\r\n9763726bda23589c8c503ed95758d102\r\n\r\nNote: res_mods\audioww\*.bnk is working with Configs in mods\configs\r\n\r\n\r\nOLD NOTES:\r\n\r\nFedor Saveliev retired) too much work for this tricky mod,to rework\r\nAGQJ: http://forum.worldoftanks.ru/index.php?/topic/1778752-\r\n\r\nDont use this version(PYmods_BanksLoader) with WWIIHWA: \n- Sound Event Injector is incompatible with WWIIHWA\n- "WoT-Circle": Restart -&gt; Crash -&gt; Restart -&gt; Crash....)\nSound Event Injector : \n- great tool for modding sounds \n- no patches are needed \n- updating get much easier &amp; faster\r\n\r\n0. Soundinjektor is a great tool for modding sounds - no Patches are needed - updating gets much easier\n1. Problem: Working alone as intended check replays\n2. Problem: Soundinjektor is incompatible with WWIIHWA (WOT-Circle -- restart-&gt;crash-&gt;restart-&gt;crash....)\n3. Dont have Ideas/ muse / moods  for fixing now -123gauss\r\n</InternalNotes>
           <Author>Ed76na (retired Apa6ecka) &amp; SicFunzler</Author>
           <Maintainers>Gauss</Maintainers>
+          <LastUpdateCheck>132859250860080862</LastUpdateCheck>
           <Description>Authors: Ed76na (RU) [with retired Apa6ecka] &amp; SicFunzler  (EU)  [since 2020]</Description>
           <Dependencies>
             <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
@@ -567,16 +687,37 @@
               <FromWGmods>True</FromWGmods>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/gun_GO.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hits_GO.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/reload_GO.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/gun_GO.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hits_GO.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/reload_GO.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="Sounds_Guns_WarMod" Enabled="True" Tags="DependencyLink,Script" InstallGroup="4" PatchGroup="4" UID="tq4dhn2b8t8k80pc" Name="War Guns (War Mod) v{version} [by {author}]" Type="single1" Visible="True">
           <Size>965805057</Size>
-          <ZipFile>Sounds_Guns_WarMod_1.15.0.0_2021-12-13.zip</ZipFile>
-          <CRC>0c9e998a6907374c95bad6a24ae5c171</CRC>
-          <Timestamp>132838453771576970</Timestamp>
+          <ZipFile>Sounds_Guns_WarMod_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859258273031658</Timestamp>
           <DevURL>https://wgmods.net/5178/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/603317-</DevURL>
           <InternalNotes>we can also get it from mediafire directly\r\nhttps://www.mediafire.com/file/fnx8xghaz59ovqg/War_Mod_Full_mod.rar/file</InternalNotes>
           <Author>JohnTankPL</Author>
           <Maintainers>Willster419</Maintainers>
+          <LastUpdateCheck>132859258273031658</LastUpdateCheck>
           <Description>Sounds for \r\nGuns, Hits, Tracer, Reloading, Surface Hits , Equipments\r\n\r\nNotes:\r\n- The mod is not finished yet, \r\n- There are no sounds for most tanks of the nation USSR and artillery in general \r\n</Description>
           <UpdateComment>Version 1.01-1.11.1.1B\r\n- War Mod all sounds of falling shells can now be controlled with the Effects slider\r\n- Fury Tank School USMC added some new sounds\r\n\r\n- new sounds for completing campaign missions, tank repair, ricochet and penetration\r\n- brand new sounds for binoculars and reticle.\r\n\r\n- Fixes issue whereby the sound of the cartridge shell falling to the ground could be heard from allies in artillery.\r\n- Changed the volume on falling shells, now adjustable in the audio options on the slider: Effects Volume.\r\n\r\n- Gunshot sounds have been added for tanks:  Pz.Sfl. IC, M4a1 fl 10, GSOR 1008\r\n\r\n- New gunfire sounds for Soviet tanks: \r\nKV-2, T-150, KV-3, KV-4, STI, IS4, Object705, Object705A, BT-7, T-34, T-34-85, T-43, T-44, T-54, Object 140, T 62A, Object 430, Object 430U, A-43, A-44, IS-M, Object 416, Object 430 Version II, K-91, T 60,T 70, SU 76M, SU-85, SU-100, SU-152, ISU-152, Object 704, Object 268, SU-100M1, SU-101, Object 263, Object 268 Version 4, IS-6, IS-6B, Churchill III, KV-220-2 , KV-2 ®, Object 244, KV-85, KV-122, IS-2, IS-2M, IS-2 shielded, IS-3A, KV-4 Kreslavskiy, KV-5, IS-5, Object 252U Defender, Object 252U, Object 777 Version II, Object 260, Object 279 early, SU-76I, SU-85I, ISU-122S, SU-122-44, ISU-152K\r\n\r\n\r\nVersion 1.00-1.11.1\r\n- New sound of falling shells : UDES 03, STRV 103, STRV 103B, STRV S1. \r\n\r\n- Gunshot sounds for tanks : M24E2 Super Chaffee, CS 52 Lis, Lansen C . \r\n\r\n- Brand new gunshot sounds for tanks : Pz.Kpfw. II J, Krupp-Steyr Waffenträger, Panther 8.8, E 50, E 50M, TVP 50/51\r\n\r\n- Fixed an issue with the gunfire sound not working for allies and enemies on the gun 113 \r\n\r\n- Gunshot sounds for Soviet tanks : NS-1, BT-2, BT-5, T 28, KV 1, KV 1 S, IS, IS 3, Object 257, IS-7, T 10, Object 277</UpdateComment>
           <FromWGmods>True</FromWGmods>
@@ -587,37 +728,357 @@
             <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
             <Dependency PackageName="Dependency_Sounds_SoundEventInjector" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/battle_equipment_763">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_battle_equipment_763">
+              <Path>/audio_mods.xml/events/event[name = "battle_equipment_763"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/battle_equipment_1019">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_battle_equipment_1019">
+              <Path>/audio_mods.xml/events/event[name = "battle_equipment_1019"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/battle_equipment_1275">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_battle_equipment_1275">
+              <Path>/audio_mods.xml/events/event[name = "battle_equipment_1275"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/battle_equipment_1531">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_battle_equipment_1531">
+              <Path>/audio_mods.xml/events/event[name = "battle_equipment_1531"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/sight_convergence">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_sight_convergence">
+              <Path>/audio_mods.xml/events/event[name = "sight_convergence"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/pm_progress_condition_status_done">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_pm_progress_condition_status_done">
+              <Path>/audio_mods.xml/events/event[name = "pm_progress_condition_status_done"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/camo_net_start">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_camo_net_start">
+              <Path>/audio_mods.xml/events/event[name = "camo_net_start"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/camo_net_stop">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_camo_net_stop">
+              <Path>/audio_mods.xml/events/event[name = "camo_net_stop"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/stereo_trumpet_start">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_stereo_trumpet_start">
+              <Path>/audio_mods.xml/events/event[name = "stereo_trumpet_start"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/stereo_trumpet_stop">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_stereo_trumpet_stop">
+              <Path>/audio_mods.xml/events/event[name = "stereo_trumpet_stop"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/gun_rld_automat_reloading_long_start">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_gun_rld_automat_reloading_long_start">
+              <Path>/audio_mods.xml/events/event[name = "gun_rld_automat_reloading_long_start"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/gun_rld_automat_reloading_long_oneshell_last">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_gun_rld_automat_reloading_long_oneshell_last">
+              <Path>/audio_mods.xml/events/event[name = "gun_rld_automat_reloading_long_oneshell_last"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/gun_rld_dual_charge_start">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_gun_rld_dual_charge_start">
+              <Path>/audio_mods.xml/events/event[name = "gun_rld_dual_charge_start"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/gun_rld_dual_charge_cancel">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_gun_rld_dual_charge_cancel">
+              <Path>/audio_mods.xml/events/event[name = "gun_rld_dual_charge_cancel"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/gun_rld_dual_reloading_oneshell">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_gun_rld_dual_reloading_oneshell">
+              <Path>/audio_mods.xml/events/event[name = "gun_rld_dual_reloading_oneshell"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/gun_rld_dual_reloading_oneshell_last">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_gun_rld_dual_reloading_oneshell_last">
+              <Path>/audio_mods.xml/events/event[name = "gun_rld_dual_reloading_oneshell_last"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/gun_rld_autoloader_short_oneshell">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_gun_rld_autoloader_short_oneshell">
+              <Path>/audio_mods.xml/events/event[name = "gun_rld_autoloader_short_oneshell"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/gun_rld_autoloader_full_complete">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_gun_rld_autoloader_full_complete">
+              <Path>/audio_mods.xml/events/event[name = "gun_rld_autoloader_full_complete"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/gun_rld_autoloader_long_oneshell">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_gun_rld_autoloader_long_oneshell">
+              <Path>/audio_mods.xml/events/event[name = "gun_rld_autoloader_long_oneshell"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/start_to_siege_mode_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_start_to_siege_mode_PC">
+              <Path>/audio_mods.xml/events/event[name = "start_to_siege_mode_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/start_to_base_mode_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/atk_start_to_base_mode_PC">
+              <Path>/audio_mods.xml/events/event[name = "start_to_base_mode_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hits.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/reload.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/surface_hits.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/tracer.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hits.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/reload.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/surface_hits.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/tracer.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/Sound.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/guns.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/Sound.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/guns.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="Sounds_Guns_WrathOfTheGods" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8x3wxao9p3ko09cy" Name="Wrath Of The Gods" Type="single1" Visible="True">
           <Size>3753478</Size>
           <Version>3.14</Version>
-          <ZipFile>Sounds_Guns_WrathOfTheGods_V3.14_1.10.1.0_2021-03-12.zip</ZipFile>
-          <CRC>dea1ea461bb64c9397e2f6817a80e997</CRC>
-          <Timestamp>132600840709579442</Timestamp>
+          <ZipFile>Sounds_Guns_WrathOfTheGods_V3.14_1.10.1.0_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859267273596630</Timestamp>
           <DevURL>http://forum.worldoftanks.com/index.php?/topic/604225-</DevURL>
           <Author>The Illusion</Author>
+          <LastUpdateCheck>132859267273596630</LastUpdateCheck>
           <Description>This will make guns sound real. And scary....</Description>
           <UpdateComment>V2.0 - Changed "NPC" Sounds to sound different, Changed 139mm+ guns sounds (Now will make you jump the first time....)</UpdateComment>
           <Medias>
             <Media MediaType="Webpage" URL="https://youtu.be/J3v3TZhLk4I" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/AW_Weapons.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/AW_Gun_Reload.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "AW_Weapons.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "AW_Gun_Reload.bnk"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="Sounds_Guns_WWIIHWA" Enabled="True" Tags="Patch,SoundBank" InstallGroup="4" PatchGroup="4" UID="qo57dmki0mhg9fjd" Name="WWIIHWA v{version} [by {author}]" Type="single1" Visible="True">
           <Size>15212396</Size>
           <Version>4.12</Version>
-          <ZipFile>Sounds_Guns_WWIIHWA_v4.12_1.12.1.1_2021-05-08.zip</ZipFile>
-          <CRC>250f566c4994a79b2434a51544541e6b</CRC>
-          <Timestamp>132649961711100412</Timestamp>
+          <ZipFile>Sounds_Guns_WWIIHWA_v4.12_1.12.1.1_2021-05-08_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859267347736660</Timestamp>
           <DevURL>https://wgmods.net/1338/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/502495-\r\nhttp://wwiihwa.blogspot.de/</DevURL>
           <InternalNotes>WG-Change: \r\nscripts\item_defs\vehicles\common\gun_reload_effects.xml\r\n = Mod Broken (Single  xml file)</InternalNotes>
           <Author>Budyx69 &amp; KT</Author>
           <Maintainers>Gauss</Maintainers>
           <Deprecated>True</Deprecated>
+          <LastUpdateCheck>132859267347736660</LastUpdateCheck>
           <UpdateComment>Update 4.07 [1.6.1.0]:  DualGunReload topic (maybe usefull for other gunssounds)\r\nscripts\item_defs\vehicles\common\gun_reload_effects.xml\dualgun_reload115_152\r\n\r\nUpdate 4.06 [1.1.0.0]: Soundbanks to Wwise 2017.2.5, Soundbanks (new):  4.06</UpdateComment>
           <FromWGmods>True</FromWGmods>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Sounds_WWIIHWA_Guns_by_KT+Budyx69_Mod.png" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/wwiihwa_gun_reload.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/wwiihwa_gun.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/wwiihwa_gun.pck">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "wwiihwa_gun_reload.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "wwiihwa_gun.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "wwiihwa_gun.pck"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/psb_auto_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/psb_auto_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "psb_auto_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/psb_small_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/psb_small_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "psb_small_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/psb_main_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/psb_main_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "psb_main_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/psb_large_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/psb_large_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "psb_large_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_automatic_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_automatic_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_automatic_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_automatic_NPC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_automatic_NPC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_automatic_NPC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_small_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_small_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_small_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_small_NPC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_small_NPC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_small_NPC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_meduim_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_meduim_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_meduim_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_meduim_NPC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_meduim_NPC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_meduim_NPC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_main_NPC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_main_NPC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_main_NPC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_main_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_main_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_main_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_main_extra_NPC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_main_extra_NPC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_main_extra_NPC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_main_extra_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_main_extra_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_main_extra_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_large_NPC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_large_NPC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_large_NPC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_large_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_large_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_large_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_large_extra_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_large_extra_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_large_extra_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_large_extra_NPC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_large_extra_NPC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_large_extra_NPC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_huge_PC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_huge_PC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_huge_PC"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/wpn_huge_NPC">
+              <Path>//audio_mods.xml/events</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/wpn_huge_NPC_mod">
+              <Path>/audio_mods.xml/events/event[name = "wpn_huge_NPC"]</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -643,17 +1104,21 @@
       <Packages>
         <Package PackageName="Sounds_Kill_DisableKilledEnemySoundNotification" Enabled="False" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="0opknhgd0ceqkfn7" Name="disable sound notification when enemy tanks are destroyed" Type="multi" Visible="False">
           <Size>537</Size>
-          <ZipFile>Sounds_Kill_DisableKilledEnemyySoundNotification_2021-03-04.zip</ZipFile>
-          <CRC>ddeaefdf37697598357746bef1acf470</CRC>
-          <Timestamp>132662425555898626</Timestamp>
           <Author>elektrosmoker</Author>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\gui\sound_notifications.xml" Version="1" Search=".*" Replace="">
+              <Path>//sound_notifications.xml/enemy_killed_by_ally/fx/wwsound</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="Sounds_Kill_DisableKilledAllySoundNotification" Enabled="False" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="lcae3ovd84z54wyr" Name="disable sound notification when allied tanks are destroyed" Type="multi" Visible="False">
           <Size>535</Size>
-          <ZipFile>Sounds_Kill_DisableKilledAllySoundNotification_2021-03-04.zip</ZipFile>
-          <CRC>02b0c6176358953c844ea70caf138eab</CRC>
-          <Timestamp>132662425510523537</Timestamp>
           <Author>elektrosmoker</Author>
+          <Patches>
+            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\gui\sound_notifications.xml" Version="1" Search=".*" Replace="">
+              <Path>//sound_notifications.xml/ally_killed_by_enemy/fx/wwsound</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -680,10 +1145,11 @@
           <Packages>
             <Package PackageName="Sounds_Modules_Consumables_AW" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1n3ve119fom1vusd" Name="Armored Warfare" Type="single_dropdown1" Visible="True">
               <Size>640472</Size>
-              <ZipFile>Sounds_Modules_Consumables_AW_1.10.1.0_2021-03-12.zip</ZipFile>
-              <CRC>1cd435ebb26a93720447ac3634ef150a</CRC>
-              <Timestamp>132600842956070644</Timestamp>
+              <ZipFile>Sounds_Modules_Consumables_AW_1.10.1.0_2021-03-12_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859267775636658</Timestamp>
               <Author>The Illusion</Author>
+              <LastUpdateCheck>132859267775636658</LastUpdateCheck>
               <Description>Changes the consumable sounds (When used) to that of those in Armored Warfare.</Description>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/Sound_Mods/Modules/Consumables/AW/ui_consumable_auto_fire_ext.wav" />
@@ -691,6 +1157,14 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/Sound_Mods/Modules/Consumables/AW/ui_consumable_first_aid.wav" />
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Audio/Sound_Mods/Modules/Consumables/AW/ui_consumable_repair.wav" />
               </Medias>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/AW_battle_equipment.bnk">
+                  <Path>//audio_mods.xml/loadBanks</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
+                  <Path>/audio_mods.xml/loadBanks/bank[name = "AW_battle_equipment.bnk"]</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
@@ -703,21 +1177,43 @@
           <Packages>
             <Package PackageName="SoundsModules_EnemySpotted_AW_Sound" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="259o68nc4niyis03" Name="Armored Warfare (sound)" Type="single_dropdown1" Visible="True">
               <Size>643</Size>
-              <ZipFile>Sounds_Modules_EnemySpotted_AW_Sound_1.10.1.0-2021-03-23.zip</ZipFile>
-              <CRC>52e496ee072c990023cf31f1596e1a98</CRC>
-              <Timestamp>132609995661199996</Timestamp>
               <Medias>
                 <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Audio/Sound_Mods/Modules/Enemy Spotted/ui_glb_enemy_spotted.wav" />
               </Medias>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/AW_enemy_spotted.bnk">
+                  <Path>//audio_mods.xml/loadBanks</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/75">
+                  <Path>/audio_mods.xml/loadBanks/bank[name = "AW_enemy_spotted.bnk"]</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/enemy_sighted_for_team">
+                  <Path>//audio_mods.xml/events</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/AW_enemy_sighted">
+                  <Path>//audio_mods.xml/events/event[name = "enemy_sighted_for_team"]</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="SoundsModules_EnemySpotted_AW_Voice" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fuf3e7td3jafh473" Name="Armored Warfare (voice)" Type="single_dropdown1" Visible="True">
               <Size>647</Size>
-              <ZipFile>SoundsModules_EnemySpotted_AW_Voice_1.10.1.0_2021-03-23.zip</ZipFile>
-              <CRC>367273b19c620920337b91f9c7b6f15f</CRC>
-              <Timestamp>132609997785532959</Timestamp>
               <Medias>
                 <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Audio/Sound_Mods/Modules/Enemy Spotted/AW_enemy_spotted.wav" />
               </Medias>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/AW_enemy_spotted.bnk">
+                  <Path>//audio_mods.xml/loadBanks</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/75">
+                  <Path>/audio_mods.xml/loadBanks/bank[name = "AW_enemy_spotted.bnk"]</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="event/name/enemy_sighted_for_team">
+                  <Path>//audio_mods.xml/events</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="mod/AW_enemy_sighted_voice">
+                  <Path>//audio_mods.xml/events/event[name = "enemy_sighted_for_team"]</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
@@ -804,15 +1300,30 @@
         <Package PackageName="Sounds_Music_TheIllusion" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6qyqldrhqbrc4oss" Name="Star Trek Hanger Music v{version} [by {author}]" Type="single_dropdown1" Visible="True">
           <Size>52537945</Size>
           <Version>0.4</Version>
-          <ZipFile>Sounds_Music_TheIllusion_V0.4_1.10.1.0_2021-03-12.zip</ZipFile>
-          <CRC>0856d16c0c4356665c154e5cc3a3ffd4</CRC>
-          <Timestamp>132600844769844391</Timestamp>
+          <ZipFile>Sounds_Music_TheIllusion_V0.4_1.10.1.0_2021-03-12_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859275234672966</Timestamp>
           <Author>The Illusion</Author>
+          <LastUpdateCheck>132859275234672966</LastUpdateCheck>
           <Description>Currently has:\n\nTOS\nTNG\nVOY\nENT\n\nWorks only in the garage.</Description>
           <UpdateComment>V0.3\n- Added to que and results screen (Will reset)\n- Leveled all sounds to equal each other</UpdateComment>
           <Medias>
             <Media MediaType="MediaFile" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Audio/ST_HM_Preview_2019-05-20.wav" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/Star_Trek_Hanger_Music.bnk">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/Star_Trek_Hanger_Music.pck">
+              <Path>//audio_mods.xml/loadBanks</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "Star_Trek_Hanger_Music.bnk"]</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
+              <Path>/audio_mods.xml/loadBanks/bank[name = "Star_Trek_Hanger_Music.pck"]</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="Sounds_Music_TSFH" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8au29sqcv6btoawk" Name="Two Steps From Hell (TSFH) [by {author}]" Type="single_dropdown1" Visible="True">
           <Size>602213411</Size>

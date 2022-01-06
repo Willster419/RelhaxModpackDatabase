@@ -29,9 +29,6 @@
         </Package>
         <Package PackageName="SessionStatistics_PMOD" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="01phluql8ptldtox" Name="PMOD Statistics [by {author}]" Type="single1" Visible="True">
           <Size>997</Size>
-          <ZipFile>SessionStatistics_PMOD.zip</ZipFile>
-          <CRC>2e2bb02acc0cbfb586ef9e08334b1e9e</CRC>
-          <Timestamp>132509587547506394</Timestamp>
           <Author>P0LIR0ID</Author>
           <Description>activate PMOD´s session statistics</Description>
           <Dependencies>
@@ -67,6 +64,20 @@
               </Medias>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\battleChat.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\battleChat.json" Version="1" Search="" Replace="true">
+              <Path>$.resultInformer.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\systemMessages.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\sessionStatistic.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="SessionStatistics_ProtankiSessionlog" Enabled="True" Tags="Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="7alete96ch8yvut2" Name="Protanki Sessionlog v{version} [by {author}]" Type="single1" Visible="True">
           <Size>185073</Size>
@@ -82,12 +93,13 @@
         <Package PackageName="SessionStatistics_YK" Enabled="True" Tags="Patch,Script" InstallGroup="4" PatchGroup="4" UID="9b3jz6pa7yqfnkrz" Name="YasenKrasen v{version} [by {author}]" Type="single1" Visible="True">
           <Size>2801857</Size>
           <Version>1.15.0.0</Version>
-          <ZipFile>SessionStatistics_YK_1.15.0.0_2021-12-18.zip</ZipFile>
-          <CRC>97ec04fd3a1e8dd04faceedab28e1a79</CRC>
-          <Timestamp>132843437691217104</Timestamp>
+          <ZipFile>SessionStatistics_YK_1.15.0.0_2021-12-18_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859237706435058</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/583433-</DevURL>
           <InternalNotes>see the following document (old):\r\nhttps://docs.google.com/document/d/1DIYfQwfD46KWA3xLvqONjj_i54SlYy3F0YKZUc_U3JU/edit#heading=h.xagf3j34mhlk\r\n\r\nrajcel updated versions directory:\r\ndrive.google.com/drive/folders/15C99G7EfgA7R3RNb9_pGwydq4bRXSjDS?usp=sharing\r\n\r\nThe original developer seems to have stopped, now maintained by RajCeL. Check the bottom of the post for latest mod\r\n\r\nThe file yk_statistics.wotmod is the main mod and is used in all versions of the mod (base, vanilla, core). Backgrounds will also be the same, color_msg will be different.\r\n\r\nAlso, the files in the configs directory should also all be the same between the versions except for the file messenger.json</InternalNotes>
           <Author>Dado_Ze / RajCel</Author>
+          <LastUpdateCheck>132859237706435058</LastUpdateCheck>
           <Description>Shows your statistics for your tanks session in the notifications area of your garage</Description>
           <PopularMod>True</PopularMod>
           <ObfuscatedMod>True</ObfuscatedMod>
@@ -137,15 +149,14 @@
             </Package>
             <Package PackageName="SessionStatistics_YK_DailyReset" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="07l67cneup7ba5co" Name="Daily Reset" Type="multi" Visible="True">
               <Size>467</Size>
-              <ZipFile>SessionStatistics_YK_DailyReset_2020-04-08.zip</ZipFile>
-              <CRC>3220728fc98caf60afaf75ca02a4e523</CRC>
-              <Timestamp>132308367885238604</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="" PatchPath="" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                  <Path>$.dailyAutoReset</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="SessionStatistics_YK_useParametersPanel" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="dwslfctftmztahko" Name="Statistics Panels" Type="multi" Visible="True">
               <Size>493</Size>
-              <ZipFile>SessionStatistics_YK_useParametersPanel_2019-08-24.zip</ZipFile>
-              <CRC>03059831218e72c78bf87f64c026fc7d</CRC>
-              <Timestamp>132509590709662561</Timestamp>
               <Description>This option shows you  panels for an overview of the current vehicle´s stats, your account stats, and session stats on the parameters panel (right side of screen in garage).</Description>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/Statistic_Session_YK_useParametersPanel.png" />
@@ -153,45 +164,55 @@
               <Packages>
                 <Package PackageName="SessionStatistics_YK_useParametersPanel_panelParameters" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="7aas7fjyo51il921" Name="vehicle parameters" Type="multi" Visible="True">
                   <Size>507</Size>
-                  <ZipFile>SessionStatistics_YK_useParametersPanel_panelParameters_2019-07-01.zip</ZipFile>
-                  <CRC>90f1d91b25dddfe34fd5191c466478ae</CRC>
-                  <Timestamp>132509590885142009</Timestamp>
                   <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
                   <Medias>
                     <Media MediaType="Picture" URL="https://i.imgur.com/rs9Oloh.png" />
                   </Medias>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                      <Path>$.panelParameters.enable</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="SessionStatistics_YK_useParametersPanel_panelStatistics" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="kzg7ffpzn1t0ll91" Name="account statistics" Type="multi" Visible="True">
                   <Size>508</Size>
-                  <ZipFile>SessionStatistics_YK_useParametersPanel_panelStatistics_2019-07-01.zip</ZipFile>
-                  <CRC>1d384ecb4edc4faae0c1078cae757a14</CRC>
-                  <Timestamp>132509591001861848</Timestamp>
                   <Medias>
                     <Media MediaType="Picture" URL="https://i.imgur.com/JAWLcYo.png" />
                   </Medias>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                      <Path>$.panelStatistics.enable</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="SessionStatistics_YK_useParametersPanel_panelByTank" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="xonmnev0nymilxg1" Name="panel by tank" Type="multi" Visible="True">
                   <Size>500</Size>
-                  <ZipFile>SessionStatistics_YK_useParametersPanel_panelByTank_2019-07-01.zip</ZipFile>
-                  <CRC>6db31873da46f1ff6aa475b7abaeb449</CRC>
-                  <Timestamp>132509591096216284</Timestamp>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                      <Path>$.panelByTank.enable</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="SessionStatistics_YK_useParametersPanel_panelCurrentVehicle" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="r34teiljhho7wqye" Name="vehicle statistics" Type="multi" Visible="True">
                   <Size>521</Size>
-                  <ZipFile>SessionStatistics_YK_useParametersPanel_panelCurrentVehicle_2019-07-01.zip</ZipFile>
-                  <CRC>1acd66f3317d1c3a1d06cd69cc664592</CRC>
-                  <Timestamp>132509591195777032</Timestamp>
                   <Medias>
                     <Media MediaType="Picture" URL="https://i.imgur.com/JAWLcYo.png" />
                     <Media MediaType="Picture" URL="https://i.imgur.com/rs9Oloh.png" />
                   </Medias>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                      <Path>$.panelCurrentVehicle.enable</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="SessionStatistics_YK_researchWatchdog" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="4sb8nhrkhdgpw15e" Name="&quot;Research Watchdog&quot;" Type="multi" Visible="True">
                   <Size>510</Size>
-                  <ZipFile>SessionStatistics_YK_researchWatchdog_2019-07-01.zip</ZipFile>
-                  <CRC>8067a6d39085d51e5be1b3bd9d7a54cb</CRC>
-                  <Timestamp>132509591288561444</Timestamp>
                   <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                      <Path>$.researchWatchdog.enable</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="SessionStatistics_YK_panelsStatus" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hhhnvhxlg987wdcd" Name="set all panels to" Type="multi" Visible="True">
                   <CRC>f</CRC>
@@ -199,19 +220,52 @@
                   <Packages>
                     <Package PackageName="SessionStatistics_YK_panelsCollapsed" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="bvzumln4btaw76ur" Name="collapsed" Type="single_dropdown1" Visible="True">
                       <Size>531</Size>
-                      <ZipFile>SessionStatistics_YK_panelsCollapsed_2019-07-01.zip</ZipFile>
-                      <CRC>254c48543bcb060b52845bd74bdb6e60</CRC>
-                      <Timestamp>132509591415240230</Timestamp>
+                      <Patches>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+                          <Path>$.panelStatistics.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+                          <Path>$.panelParameters.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+                          <Path>$.panelCurrentVehicle.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+                          <Path>$.panelByTank.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+                          <Path>$.researchWatchdog.expand</Path>
+                        </Patch>
+                      </Patches>
                     </Package>
                     <Package PackageName="SessionStatistics_YK_panelsExpanded" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ok59ukt5ap2e7i2q" Name="expanded" Type="single_dropdown1" Visible="True">
                       <Size>527</Size>
-                      <ZipFile>SessionStatistics_YK_panelsExpanded_2019-07-01.zip</ZipFile>
-                      <CRC>a50b9b347c1edce7024ed46f9e14297e</CRC>
-                      <Timestamp>132509591513419078</Timestamp>
+                      <Patches>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                          <Path>$.panelStatistics.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                          <Path>$.panelParameters.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                          <Path>$.panelCurrentVehicle.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                          <Path>$.panelByTank.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                          <Path>$.researchWatchdog.expand</Path>
+                        </Patch>
+                      </Patches>
                     </Package>
                   </Packages>
                 </Package>
               </Packages>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                  <Path>$.useParametersPanel</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="SessionStatistics_YK_Module" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="iznhmojo5844jbk4" Name="Modules" Type="multi" Visible="True">
               <CRC>f</CRC>
@@ -323,6 +377,47 @@
               </Packages>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.useParametersPanel</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelParameters.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelParameters.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelStatistics.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelStatistics.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelByTank.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelByTank.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.researchWatchdog.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.researchWatchdog.expand</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>

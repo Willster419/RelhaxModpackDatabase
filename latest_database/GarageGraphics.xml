@@ -162,12 +162,13 @@
         </Package>
         <Package PackageName="GarageGraphics_BattleResults_OnBattleResults" Enabled="True" Tags="Script,DependencyLink" InstallGroup="4" PatchGroup="4" UID="3xrm9bdv6612jmpc" Name="On battle results statistics (HEAVY MOD) [by {author}]" Type="multi" Visible="True">
           <Size>52702</Size>
-          <ZipFile>GarageGraphics_BattleResults_OnBattleResults_1.15.0.0_2021-12-18.zip</ZipFile>
-          <CRC>52009f999237a50202c4d805520b3974</CRC>
-          <Timestamp>132843468125437659</Timestamp>
+          <ZipFile>GarageGraphics_BattleResults_OnBattleResults_1.15.0.0_2021-12-18_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859228313028667</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/711864-\r\nhttps://wgmods.net/3551</DevURL>
           <InternalNotes>https://drive.google.com/uc?export=download&amp;id=1fbWBoB6JOB8Mc4voBKFQX9z3qTS_HvgI</InternalNotes>
           <Author>RaJCeL</Author>
+          <LastUpdateCheck>132859228313028667</LastUpdateCheck>
           <Description>This mod adds an WN8 indicator for all players to the battle results window.\r\n\r\nWARNING - This mod  is downloading data from WG API while battle is loading/on countdown, so depending on bandwidth there can occur micro freezes.</Description>
           <Medias>
             <Media MediaType="Picture" URL="https://wgmods.net/media/mod_files/Preview_1.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
@@ -175,6 +176,11 @@
           <Dependencies>
             <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/rajcel.onBattleResultsStatistics.wotmod">
+              <Path>//root/Collection</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageGraphics_BattleResults_Unanonymizer" Enabled="True" Tags="Script,DependencyLink" InstallGroup="4" PatchGroup="4" UID="xb8u1f3d1p3suf7p" Name="Unanonymizer on battle results [by {author}]" Type="multi" Visible="True">
           <Size>6438</Size>
@@ -191,10 +197,12 @@
           <Packages>
             <Package PackageName="GarageGraphics_BattleResults_Unanonymizer_RemoveBadges" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="a0f99f9e1mvaurep" Name="Remove Badges" Type="multi" Visible="True">
               <Size>563</Size>
-              <ZipFile>GarageGraphics_BattleResults_Unanonymizer_RemoveBadges_2019-12-23.zip</ZipFile>
-              <CRC>15224df445575c7299d119ad3c9e2d95</CRC>
-              <Timestamp>132509646637323370</Timestamp>
               <InternalNotes>its a patch: nothing todo</InternalNotes>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\\mods\\configs\\rajcel\\unanonymizer\\unanonymizer.json" Version="2" Search="false" Replace="true">
+                  <Path>$.removeBadges</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
@@ -1511,44 +1519,56 @@
         </Package>
         <Package PackageName="GarageGraphics_Hangar_modeNormal" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="t70i76acsgfp63h9" Name="&quot;normal&quot; hangar selection (no changes after battle)" Type="multi" Visible="True">
           <Size>502</Size>
-          <ZipFile>GarageGraphics_Hangar_modeNormal_2021-02-04.zip</ZipFile>
-          <CRC>ac3a0d1358d035eca2a40bfbac7c4e2d</CRC>
-          <Timestamp>132569141963817467</Timestamp>
           <Description> This will set the way the manager selects a hangars to display to "normal".\r\nThat´s the usual manner and will display the previously selected hangar.</Description>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="" Replace="normal">
+              <Path>$.mode</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageGraphics_Hangar_fadeonmousemove" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="vsukjuid0yr9885l" Name="GUI fadeout on mousemove (while holding down left mouse)" Type="multi" Visible="True">
           <Size>495</Size>
-          <ZipFile>GarageGraphics_Hangar_fadeonmousemove.zip</ZipFile>
-          <CRC>61cad3fee541825c3782753b36e64bd0</CRC>
-          <Timestamp>132509636251143620</Timestamp>
           <Description>fades GUI in lobby while dragging mouse</Description>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="false" Replace="true">
+              <Path>$.fadeOnMouseMove</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageGraphics_Hangar_DOFtrue" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5ehq3v6b267a8lql" Name="Depth Of Field (default: 1.00) in hangar" Type="multi" Visible="True">
           <Size>459</Size>
-          <ZipFile>GarageGraphics_Hangar_DOFtrue.zip</ZipFile>
-          <CRC>61d1a8b2c02cec35ab1034fb6f5b1200</CRC>
-          <Timestamp>132509635981389515</Timestamp>
           <DevURL>http://www.goofy67-wot.de/hangar-freecam.html</DevURL>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="false" Replace="true">
+              <Path>$.enableDOF</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageGraphics_Hangar_showPremTankFALSE" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="p7crbx8vvitzj1ny" Name="Remove premium tank in background" Type="multi" Visible="True">
           <Size>520</Size>
-          <ZipFile>GarageGraphics_Hangar_showPremTankFALSE.zip</ZipFile>
-          <CRC>5188872d692ef9cbe5ce1a3e1ee8db5f</CRC>
-          <Timestamp>132509636357630913</Timestamp>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="true" Replace="false">
+              <Path>$.showPremTank</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageGraphics_Hangar_showTeaserFALSE" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="2wi6jxewuemhjdux" Name="Remove combat-intelligence popup window" Type="multi" Visible="True">
           <Size>521</Size>
-          <ZipFile>GarageGraphics_Hangar_showTeaserFALSE.zip</ZipFile>
-          <CRC>5138ac630cd57c2b55cd7da971a902ab</CRC>
-          <Timestamp>132509636481576547</Timestamp>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="true" Replace="false">
+              <Path>$.showTeaser</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageGraphics_Hangar_musicInLobbyFALSE" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="rxuy69oo58wevzgi" Name="disable music in  hangar/lobby" Type="multi" Visible="True">
           <Size>528</Size>
-          <ZipFile>GarageGraphics_Hangar_musicInLobbyFALSE_2021-02-04.zip</ZipFile>
-          <CRC>f3e357de14e124891af7d4f4fead3f9b</CRC>
-          <Timestamp>132569141853129448</Timestamp>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="true" Replace="false">
+              <Path>$.musicInLobby</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="GarageGraphics_Hangar_Design" Enabled="True" Tags="Script,GuiFlash,OtherFiles" InstallGroup="4" PatchGroup="4" UID="flplrwkxuaeyjo1x" Name="Hangar Styles" Type="multi" Visible="True">
           <CRC>f</CRC>
@@ -1641,19 +1661,37 @@
               <Packages>
                 <Package PackageName="GarageGraphics_HangarDesign_PremiumV2" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="g2uej360i9av5m8n" Name="Premium V2 [by {author}]" Type="multi" Visible="True">
                   <Size>78522828</Size>
-                  <ZipFile>GarageGraphics_HangarDesign_PremiumV2_1.12.1.1_2021-05-08.zip</ZipFile>
-                  <CRC>83f2a7c89f6a1979019a1db70d3813d4</CRC>
-                  <Timestamp>132649896178814359</Timestamp>
+                  <ZipFile>GarageGraphics_HangarDesign_PremiumV2_1.12.1.1_2021-05-08_converted.zip</ZipFile>
+                  <CRC>f</CRC>
+                  <Timestamp>132859230978389385</Timestamp>
                   <DevURL>http://forum.worldoftanks.eu/index.php?/topic/735729-olixs-retro-hangars/\r\nhttps://wgmods.net/3909/</DevURL>
                   <InternalNotes>edit LOADORDER !!!</InternalNotes>
                   <Author>olix_vameshu</Author>
                   <Deprecated>True</Deprecated>
+                  <LastUpdateCheck>132859230978389385</LastUpdateCheck>
                   <Description>This hangar was used in World of Tanks in versions 0.9.x as premium-hangar.</Description>
                   <FromWGmods>True</FromWGmods>
                   <Medias>
                     <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/shot_002.jpg" />
                     <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/shot_003.jpg" />
                   </Medias>
+                  <Patches>
+                    <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="Olixs_Hangar_Premium_V2_space.wotmod">
+                      <Path>//root/Collection</Path>
+                    </Patch>
+                    <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.bnk">
+                      <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_hangar</Path>
+                    </Patch>
+                    <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.bnk">
+                      <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_hangar</Path>
+                    </Patch>
+                    <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.pck">
+                      <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_hangar</Path>
+                    </Patch>
+                    <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.pck">
+                      <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_hangar</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -1720,211 +1758,394 @@
           <Packages>
             <Package PackageName="GarageGraphics_Loading_Animation_RelhaxDef" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="jy24qe5h5t9ak1oh" Name="Relhax Relic (L)" Type="single_dropdown1" Visible="True">
               <Size>1427258</Size>
-              <ZipFile>GarageGraphics_Loading_Animation_Relhax_2020-08-11.zip</ZipFile>
-              <CRC>a9e46bfc6021cece3bc41331354ec63a</CRC>
-              <Timestamp>132741224578203027</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_Relhax_2020-08-11_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859231773085055</Timestamp>
               <Author>UNKNOWN / Warranted / Global Dependency</Author>
+              <LastUpdateCheck>132859231773085055</LastUpdateCheck>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_Relhax_01.png" />
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_Relhax_02.png" />
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_Relhax_03.png" />
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingLogo/Garage_Graphics_loading_logo_Relhax_with small_BG_by_Warranted.png" />
               </Medias>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogosSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingTransitionSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_Red" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="41mz8jvqozsix6cp" Name="Red Wheel (W)" Type="single_dropdown1" Visible="True">
               <Size>620999</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_Red_1.14.1.4_2021-11-29_2.zip</ZipFile>
-              <CRC>3624d1b35bbc7f673ba1b0a3b0482861</CRC>
-              <Timestamp>132826193308643659</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_Red_1.14.1.4_2021-11-29_2_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859231800915054</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859231800915054</LastUpdateCheck>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Red_01.png" />
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Red_02.png" />
               </Medias>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_Blue" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="87e8x83t6c82lu4w" Name="Blue Wheel (W)" Type="single_dropdown1" Visible="True">
               <Size>620646</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_Blue_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>4a93c02518b7a7ab64d886d7c44204dd</CRC>
-              <Timestamp>132826193784633249</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_Blue_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859231830475059</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859231830475059</LastUpdateCheck>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Blue_01.png" />
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Blue_02.png" />
               </Medias>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_Green" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="umtk6zpi29sz81n7" Name="Green Wheel (W)" Type="single_dropdown1" Visible="True">
               <Size>620567</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_Green_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>5db0e7822530e7ef33ebd85408030e12</CRC>
-              <Timestamp>132826194013423539</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_Green_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859231857800058</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859231857800058</LastUpdateCheck>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Green_01.png" />
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Green_02.png" />
               </Medias>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_Yellow" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="br1q4j3qretx1mnw" Name="Yellow Wheel (W)" Type="single_dropdown1" Visible="True">
               <Size>620870</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_Yellow_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>f88e7d2407dc87d757649b553fcda87b</CRC>
-              <Timestamp>132826194259503211</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_Yellow_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859231883015069</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
+              <LastUpdateCheck>132859231883015069</LastUpdateCheck>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_01.png" />
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_02.png" />
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_Wheel_Animation_Yellow_03.png" />
               </Medias>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_0NoLogo" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="pwt26b0gbzl2m8in" Name="No Loading Logo (in front of Gear Wheel) (L)" Type="single_dropdown1" Visible="True">
               <Size>622746</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_0NoLogo_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>d1edb3c5333eb44c7653d773093a1493</CRC>
-              <Timestamp>132826194520114619</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_0NoLogo_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859231909445069</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <InternalNotes>09.  Orignal Cog</InternalNotes>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859231909445069</LastUpdateCheck>
               <Description>good use with an  dominante Logo in front of the wheel\r\nex.\r\n-Iluminati M.V.P by {Aimdrol\r\n\r\n</Description>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_1Grim" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="qfzztnigxevad17r" Name="Grim (L)" Type="single_dropdown1" Visible="True">
               <Size>639709</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_1Grim_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>480e7d54d1a86a12e884a175c09ce8f3</CRC>
-              <Timestamp>132826194756104532</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_1Grim_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859231935215061</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859231935215061</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_2PinUpGirl" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="4mb7tuakl9kpzamh" Name="Pin Up Girl (L)" Type="single_dropdown1" Visible="True">
               <Size>640816</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_2PinUpGirl_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>b016c2d4bf923066ed426acc16952e72</CRC>
-              <Timestamp>132826194997758081</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_2PinUpGirl_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859231961315070</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859231961315070</LastUpdateCheck>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_2_PinUpGirl_01.png" />
               </Medias>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_3Skull1" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="lq1h8nkq9hojmnhy" Name="White Skull (L)" Type="single_dropdown1" Visible="True">
               <Size>627656</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_3Skull1_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>1505d10dfc804ed1b0a37d6e768052bc</CRC>
-              <Timestamp>132826195229028503</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_3Skull1_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859231986950066</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859231986950066</LastUpdateCheck>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingLogoAnimation/GarageGraphics_Loading_LogoAnimation_3_Skull1_White.png" />
               </Medias>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_4HAWG" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="dqsklocfxh3sdp0r" Name="HAWG (L)" Type="single_dropdown1" Visible="True">
               <Size>634159</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_4HAWG_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>10d3161fbdb752c7900e42cea0f7c65c</CRC>
-              <Timestamp>132826195471921237</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_4HAWG_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859232015430077</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859232015430077</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_5FallenSoldier" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="a2i47fx2ujbkc10t" Name="Fallen SoldierV" Type="single_dropdown1" Visible="True">
               <Size>624976</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_5FallenSoldier_1.14.1.4_2021-11-29_2.zip</ZipFile>
-              <CRC>2b227a5da0691eb36bed89580d92d232</CRC>
-              <Timestamp>132826195706978981</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_5FallenSoldier_1.14.1.4_2021-11-29_2_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859232041275066</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859232041275066</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_6Skull2" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="6ggcf8s6yg7xzg9f" Name="Black Skull (L)" Type="single_dropdown1" Visible="True">
               <Size>634945</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_6Skull2_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>1fbc40fb861d02a4d16a38222a230226</CRC>
-              <Timestamp>132826195952315585</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_6Skull2_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859232069005069</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859232069005069</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_10Tank" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="87098zeq7wt3m7e6" Name="Tank (L)" Type="single_dropdown1" Visible="True">
               <Size>645527</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_10Tank_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>0ae8010f61f219885295120d62c26e83</CRC>
-              <Timestamp>132826196190879723</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_10Tank_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859232096500085</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859232096500085</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_11Rank" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="hbim1tglk5c6zmtg" Name="Rank (L)" Type="single_dropdown1" Visible="True">
               <Size>645905</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_11Rank_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>36fe1f1e6089bb1cd1df61881d0bad37</CRC>
-              <Timestamp>132826196429221985</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_11Rank_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859232122665071</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859232122665071</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_12Clan" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="muawdidbaqmwr4f1" Name="Clan (L)" Type="single_dropdown1" Visible="True">
               <Size>644400</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_12Clan_1.14.1.4_2021-11-29_2.zip</ZipFile>
-              <CRC>fb7db6667c7ae00e3d8cdeab940144f9</CRC>
-              <Timestamp>132826196678123127</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_12Clan_1.14.1.4_2021-11-29_2_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859232150165105</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859232150165105</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_13Swords" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="viuu008p800lmv76" Name="Swords (L)" Type="single_dropdown1" Visible="True">
               <Size>646636</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_13Swords_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>7604a6a0f0d6742e3a757ecbb434d178</CRC>
-              <Timestamp>132826196916094629</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_13Swords_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859232179915056</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859232179915056</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_14LeviathanGhost" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="xinltqe0rtpho5x4" Name="Leviathan Ghost (L)" Type="single_dropdown1" Visible="True">
               <Size>635662</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_14LeviathanGhost_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>3c1356fca1452dffc123d7c8bb38fcd9</CRC>
-              <Timestamp>132826197146221598</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_14LeviathanGhost_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859232208095058</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859232208095058</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_15GhostBusters" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="jbbctkmw3y132wie" Name="Ghostbusters (L)" Type="single_dropdown1" Visible="True">
               <Size>637109</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_15GhostBusters_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>3b405708e43441175e2f9d430a914eb8</CRC>
-              <Timestamp>132826197376990945</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_15GhostBusters_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859232234515071</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859232234515071</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_16CowGirl" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="zjgblhkc9meergm1" Name="Cowgirl (L)" Type="single_dropdown1" Visible="True">
               <Size>644943</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_16CowGirl_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>7d7a06da901eea9fc219319f265bc5a6</CRC>
-              <Timestamp>132826197620597213</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_16CowGirl_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859232262995053</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859232262995053</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="GarageGraphics_Loading_Animation_17FireBall" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="6m4xllgv329l2lbe" Name="Fire Ball (L)" Type="single_dropdown1" Visible="True">
               <Size>636874</Size>
               <Version>14.14</Version>
-              <ZipFile>GarageGraphics_Loading_Animation_17FireBall_1.14.1.4_2021-11-29_1.zip</ZipFile>
-              <CRC>e46234a1eaaed19baac96d4175968bf9</CRC>
-              <Timestamp>132826197900543884</Timestamp>
+              <ZipFile>GarageGraphics_Loading_Animation_17FireBall_1.14.1.4_2021-11-29_1_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859232289690091</Timestamp>
               <DevURL>https://wgmods.net/2244/details/</DevURL>
               <Author>HAWG</Author>
+              <LastUpdateCheck>132859232289690091</LastUpdateCheck>
+              <Patches>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/LogoSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/WaitingSWF.wotmod">
+                  <Path>//root/Collection</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>

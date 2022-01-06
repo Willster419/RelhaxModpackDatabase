@@ -50,10 +50,19 @@
         </Package>
         <Package PackageName="DamageLogs_XFT" Enabled="True" Tags="ConfigurationFileXC,ConfigurationFileOther" InstallGroup="4" PatchGroup="4" UID="ig356whndmuvl0dn" Name="XFT" Type="single_dropdown1" Visible="True">
           <Size>15406</Size>
-          <ZipFile>DamageLogs_XFT_2019-11-19.zip</ZipFile>
-          <CRC>253fe56611b8daf18a91875a4733c354</CRC>
-          <Timestamp>132569454492697315</Timestamp>
+          <ZipFile>DamageLogs_XFT_2019-11-19_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859220054923675</Timestamp>
+          <LastUpdateCheck>132859220054923675</LastUpdateCheck>
           <Description>Config Website:\nhttp://forum.worldoftanks.eu/index.php?/topic/338561-0915-xft-integrated-damagelogs-v022a-30-05-2016/</Description>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\default\\battleLabelsTemplates.xc" Version="1" Search="" Replace="false">
+              <Path>$.def.damageLog.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\default\\battleLabelsTemplates.xc" Version="1" Search="" Replace="false">
+              <Path>$.def.lastHit.enabled</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="DamageLogs_messagesCenter" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="fy4lmyp95u92wshz" Name="move damage messages to center" Type="multi" Visible="True">
           <Size>3474</Size>

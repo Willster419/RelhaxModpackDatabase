@@ -48,9 +48,6 @@
       <Packages>
         <Package PackageName="IngameInfo_Crew_CrewSkills" Enabled="True" Tags="Patch,DependencyLink" InstallGroup="4" PatchGroup="4" UID="m87yddwfpdqz2nvr" Name="Crew skills in battle (press &quot;B&quot;) [by {author}]" Type="single_dropdown1" Visible="True">
           <Size>536</Size>
-          <ZipFile>IngameInfo_Crew_CrewSkills_2019-11-17.zip</ZipFile>
-          <CRC>3a16cae00ab0d7039d4de67cc8204486</CRC>
-          <Timestamp>132509542873433056</Timestamp>
           <InternalNotes>its a patch: nothing todo</InternalNotes>
           <Author>RaJCeL</Author>
           <Description>This mod visualizes crews skills and perks during the battle. \r\nActivate it by pressing "B".</Description>
@@ -61,6 +58,11 @@
             <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
             <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\crewSkills.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -236,12 +238,13 @@
         <Package PackageName="IngameInfo_DebugPanel_oldskool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8lyb8uwumkw5xpvv" Name="DebugPanel [by {author}]" Type="single_dropdown1" Visible="True">
           <Size>47543</Size>
           <Version>1.1.7</Version>
-          <ZipFile>IngameInfo_DebugPanel_oldskool_v1.1.7_1.15.0.0_2021-12-13.zip</ZipFile>
-          <CRC>dccd533fc5b8ee35aec8cbfef1594d5e</CRC>
-          <Timestamp>132838367607118522</Timestamp>
+          <ZipFile>IngameInfo_DebugPanel_oldskool_v1.1.7_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859222626323673</Timestamp>
           <DevURL>https://promod.reidarty.de/promod</DevURL>
           <InternalNotes>get it from https://promod.reidarty.de/promod/ in zip promod.zip\r\n\r\nres\scripts\client\gui\mods\mod_debugpanel.pyc &amp; No swf-filesx</InternalNotes>
           <Author>OldSkool</Author>
+          <LastUpdateCheck>132859222626323673</LastUpdateCheck>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Dependencies>
             <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
@@ -253,12 +256,13 @@
     <Package PackageName="IngameInfo_DangerLights" Enabled="True" Tags="Patch,Script,GuiFlash,ConfigurationFileJson" InstallGroup="4" PatchGroup="4" UID="hxsbz0o3ni6eae4h" Name="Danger Lights / Enemy Announcer [by {author}]" Type="multi" Visible="True">
       <Size>337922</Size>
       <Version>3.1</Version>
-      <ZipFile>IngameInfo_DangerLights_v3.1_1.15.0.0_2021-12-13.zip</ZipFile>
-      <CRC>e878f5515ca33f0de8880ba2ac40bf8f</CRC>
-      <Timestamp>132838366757782977</Timestamp>
+      <ZipFile>IngameInfo_DangerLights_v3.1_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+      <CRC>f</CRC>
+      <Timestamp>132859222648498655</Timestamp>
       <DevURL>https://protanki.tv/mods/opasnyi-svetofor</DevURL>
       <InternalNotes>+ disable patch\r\n\r\nhttps://api.protanki.tv/v2/mod_updates/eec1c4e7-f039-4c9a-90d7-db5bde616702.json</InternalNotes>
       <Author>Protanki</Author>
+      <LastUpdateCheck>132859222648498655</LastUpdateCheck>
       <Description>This mod shows colored lights to indicate if your vehicle is visible.\r\nIt can also play a sound if you are in the line of sight of an enemy outside the screen. </Description>
       <PopularMod>True</PopularMod>
       <ObfuscatedMod>True</ObfuscatedMod>
@@ -272,80 +276,119 @@
       <Packages>
         <Package PackageName="IngameInfo_DangerLights_enableCustomUI" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="p035x9zrcs8qxgj8" Name="Enable and choose custom UI type:" Type="multi" Visible="True">
           <Size>479</Size>
-          <ZipFile>IngameInfo_DangerLights_enableCustomUI_2020-05-22.zip</ZipFile>
-          <CRC>8bfbef388635e4fd949c52bb2c485ed6</CRC>
-          <Timestamp>132346388999328561</Timestamp>
           <DevURL>protanki.tv</DevURL>
           <Packages>
             <Package PackageName="IngameInfo_DangerLights_enableCustomUI_1" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="mypkoll2ycwtydnl" Name="1 - large vertical" Type="single_dropdown1" Visible="True">
               <Size>472</Size>
-              <ZipFile>IngameInfo_DangerLights_enableCustomUI_1_2020-05-22.zip</ZipFile>
-              <CRC>d933925b0e7aac974ed643de96ac5e3e</CRC>
-              <Timestamp>132509544491699408</Timestamp>
               <DevURL>protanki.tv</DevURL>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="1">
+                  <Path>$.customUIType</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_DangerLights_enableCustomUI_2" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="hx5fc9tm6v09u84w" Name="2 - small vertical" Type="single_dropdown1" Visible="True">
               <Size>472</Size>
-              <ZipFile>IngameInfo_DangerLights_enableCustomUI_2_2020-05-22.zip</ZipFile>
-              <CRC>a9ccbcc1be1694569ea7305033b53d4a</CRC>
-              <Timestamp>132509544598890200</Timestamp>
               <DevURL>protanki.tv</DevURL>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="2">
+                  <Path>$.customUIType</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_DangerLights_enableCustomUI_3" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6yvdlb3f7yoab9km" Name="3 - large horizontal" Type="single_dropdown1" Visible="True">
               <Size>472</Size>
-              <ZipFile>IngameInfo_DangerLights_enableCustomUI_3_2020-05-22.zip</ZipFile>
-              <CRC>12a47cde6039fca48475ef6009c529dd</CRC>
-              <Timestamp>132509544691375327</Timestamp>
               <DevURL>protanki.tv</DevURL>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="3">
+                  <Path>$.customUIType</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_DangerLights_enableCustomUI_4" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="21hh2uhdoc601s2g" Name="4 - small horizontal" Type="single_dropdown1" Visible="True">
               <Size>473</Size>
-              <ZipFile>IngameInfo_DangerLights_enableCustomUI_4_2020-05-22.zip</ZipFile>
-              <CRC>9054b10e2162752cc86c72e4b072789f</CRC>
-              <Timestamp>132509544796201689</Timestamp>
               <DevURL>protanki.tv</DevURL>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="4">
+                  <Path>$.customUIType</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="true">
+              <Path>$.enableCustomUI</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_DangerLights_enableSoundCanShot" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="pellgrxgj9bwjj5h" Name="Play a warning sound once the enemy started to go out of sight" Type="multi" Visible="True">
           <Size>489</Size>
-          <ZipFile>IngameInfo_DangerLights_enableSoundCanShot_2020-05-22.zip</ZipFile>
-          <CRC>1e4ef553d7de5693d6d244319a47ebaa</CRC>
-          <Timestamp>132346385721529755</Timestamp>
           <DevURL>protanki.tv</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="true">
+              <Path>$.enableSoundCanShot</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_DangerLights_enableSoundSighted" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="w8oeej6j1aj19tor" Name="Continous notification sound for out-of-screen enemies you are in direct line of sight" Type="multi" Visible="True">
           <Size>488</Size>
-          <ZipFile>IngameInfo_DangerLights_enableSoundSighted_2020-05-22.zip</ZipFile>
-          <CRC>5e49a06955ee7479bd0c805a919cf355</CRC>
-          <Timestamp>132346384533663370</Timestamp>
           <DevURL>protanki.tv</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="true">
+              <Path>$.enableSoundSighted</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_DangerLights_enableMinimap" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="hy190im36p7yeb8g" Name="Highlight spotted enemies on the minimap for which you are in direct visibility." Type="multi" Visible="True">
           <Size>475</Size>
-          <ZipFile>IngameInfo_DangerLights_enableMinimap_2020-05-22.zip</ZipFile>
-          <CRC>a1ae3e16ca27b7a92b77e4efe54b8593</CRC>
-          <Timestamp>132346388047830997</Timestamp>
           <DevURL>protanki.tv</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="true">
+              <Path>$.enableMinimap</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_DangerLights_enableSightedLogic" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="2srgpsnddsrm010x" Name="Try to process all enemies" Type="multi" Visible="True">
           <Size>489</Size>
-          <ZipFile>IngameInfo_DangerLights_enableSightedLogic_2020-05-22.zip</ZipFile>
-          <CRC>b7ce2fd26673678a59fc225797fd7ea4</CRC>
-          <Timestamp>132346387038832391</Timestamp>
           <DevURL>protanki.tv</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="true">
+              <Path>$.enableSightedLogic</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="true">
+          <Path>$.enable</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
+          <Path>$.enableCustomUI</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
+          <Path>$.enableMinimap</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
+          <Path>$.enableSightedLogic</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
+          <Path>$.enableSoundCanShot</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
+          <Path>$.enableSoundSighted</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="IngameInfo_FinalShot" Enabled="True" Tags="Patch,Script,GuiFlash,ConfigurationFileJson,OtherFiles,DependencyLink" InstallGroup="4" PatchGroup="4" UID="4qcvi028h2edpw0y" Name="Final Shot (Last Hits) [by {author}]" Type="multi" Visible="True">
       <Size>593675</Size>
       <Version>3.1</Version>
-      <ZipFile>IngameInfo_FinalShot_v3.1_1.15.0.0_2021-12-13.zip</ZipFile>
-      <CRC>dfb9f3e1fb56a96327d471a9aa13a831</CRC>
-      <Timestamp>132838366936936620</Timestamp>
+      <ZipFile>IngameInfo_FinalShot_v3.1_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+      <CRC>f</CRC>
+      <Timestamp>132859222807108712</Timestamp>
       <DevURL>https://protanki.tv/</DevURL>
       <InternalNotes>use lastHits,2.json for the config option, from the inno decompiler</InternalNotes>
       <Author>Poliroid</Author>
+      <LastUpdateCheck>132859222807108712</LastUpdateCheck>
       <Description>This shows you where you got hit the last time (ingame, immediately after death).</Description>
       <ObfuscatedMod>True</ObfuscatedMod>
       <Medias>
@@ -357,6 +400,11 @@
         <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
         <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\lastHits.json" Version="2" Search=".*" Replace="false">
+          <Path>$.hideTag</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="IngameInfo_FlyingDamage" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="bt0ih3ysbi9k00pb" Name="Flying damage without XVM [by {author}]" Type="multi" Visible="True">
       <Size>229951</Size>
@@ -405,9 +453,6 @@
     </Package>
     <Package PackageName="IngameInfo_HighCaliber" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="934501ixbjs2jn2l" Name="Show High Caliber info [by {author}]" Type="multi" Visible="True">
       <Size>541</Size>
-      <ZipFile>IngameInfo_HighCaliber_2019-10-10.zip</ZipFile>
-      <CRC>1406b4b49c50936e7da9797d0c069260</CRC>
-      <Timestamp>132509546621791675</Timestamp>
       <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel</DevURL>
       <InternalNotes>its a patch: nothing todo</InternalNotes>
       <Author>RaJCeL</Author>
@@ -416,17 +461,23 @@
         <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
         <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\rajcel\inBattleStatistics\highCaliber.json" Version="1" Search="" Replace="true">
+          <Path>$.enable</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="IngameInfo_PlayersPanelPro" Enabled="True" Tags="Patch,Script,DependencyLink,GuiFlash" InstallGroup="4" PatchGroup="4" UID="msak80oyaflkjz9l" Name="Players Panel Pro [by {author}] [Conflicts with Friends Marker by Oldskool]" Type="multi" Visible="True">
       <Size>365819</Size>
       <Version>1.62</Version>
-      <ZipFile>IngameInfo_PlayersPanelPro_v1.62_1.14.1.1_2021-10-28.zip</ZipFile>
-      <CRC>9e44c78b0618bbbf61f29e6400e5b7ba</CRC>
-      <Timestamp>132799257218533689</Timestamp>
+      <ZipFile>IngameInfo_PlayersPanelPro_v1.62_1.14.1.1_2021-10-28_converted.zip</ZipFile>
+      <CRC>f</CRC>
+      <Timestamp>132859222883113672</Timestamp>
       <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
       <InternalNotes>standard file level compare and update</InternalNotes>
       <Author>CHAMPi</Author>
       <Maintainers>Willster419</Maintainers>
+      <LastUpdateCheck>132859222883113672</LastUpdateCheck>
       <ObfuscatedMod>True</ObfuscatedMod>
       <FromWGmods>True</FromWGmods>
       <Medias>
@@ -444,16 +495,24 @@
           <Packages>
             <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_CustomWillster419" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9qdq6k499op2pqh1" Name="Use Willster419's custom config (custom bar and spotted icons and locations)" Type="multi" Visible="True">
               <Size>26018</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_CustomWillster419_2021-01-03.zip</ZipFile>
-              <CRC>8c4287d29c9aa7cdc44c666af8a27326</CRC>
-              <Timestamp>132541802306101343</Timestamp>
+              <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_CustomWillster419_2021-01-03_converted.zip</ZipFile>
+              <CRC>f</CRC>
+              <Timestamp>132859222904608676</Timestamp>
+              <LastUpdateCheck>132859222904608676</LastUpdateCheck>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.customCfg</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_HideIfPlayerDead" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p503q5ik5o70ch3e" Name="Hide HP bar if the player is dead" Type="multi" Visible="True">
               <Size>615</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_TeamHPPoolBar_HideIfPlayerDead_2020-12-18.zip</ZipFile>
-              <CRC>53893cafba00b618f3eb49ab3e2a275e</CRC>
-              <Timestamp>132528334177437108</Timestamp>
               <Description>When a player is dead (enemy or ally), the HP bar for that tank will be hidden</Description>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="true">
+                  <Path>$.hideIfDead</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Format" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qd0mo6s4x3uy6v2b" Name="Change Text Format" Type="multi" Visible="True">
               <CRC>f</CRC>
@@ -462,17 +521,21 @@
               <Packages>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Format_RemainingAndMaximum" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="krhtgainsmwnhoko" Name="Remaining and Maximum (Default)" Type="single_dropdown1" Visible="True">
                   <Size>620</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Format_RemainingAndMaximum_2020-05-09.zip</ZipFile>
-                  <CRC>800e7be50f55e3c25304e305106cd446</CRC>
-                  <Timestamp>132509547407392188</Timestamp>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="2" Search=".*" Replace="0">
+                      <Path>$.barFormat</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Format_RemainingStructurePoints" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="xgo8o9oorio5h0rn" Name="Remaining structure points (HP Remaining)" Type="single_dropdown1" Visible="True">
                   <Size>592</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Format_RemainingStructurePoints_2020-05-09.zip</ZipFile>
-                  <CRC>cda9731619191ee7db04babb911c9c42</CRC>
-                  <Timestamp>132509547158577797</Timestamp>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="2" Search=".*" Replace="1">
+                      <Path>$.barFormat</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -484,19 +547,25 @@
               <Packages>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_ToggleKey_alt" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="v6wbeujtw7kt8jkn" Name="Alt" Type="single_dropdown1" Visible="True">
                   <Size>835</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_ToggleKey_alt_2020-05-09.zip</ZipFile>
-                  <CRC>2840f8624bbcf3f193084740125c6cb4</CRC>
-                  <Timestamp>132509547606063889</Timestamp>
                   <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
+                  <Patches>
+                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="">
+                      <Path>$.hotKeyHealthBar</Path>
+                    </Patch>
+                    <Patch Type="regex" Mode="" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search="&quot;hotKeyHealthBar&quot;\s*:\s*\[\s*\]," Replace="&quot;hotKeyHealthBar&quot;: [[&quot;KEY_LALT&quot;, &quot;KEY_RALT&quot;]]," />
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_ToggleKey_ctrl" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="yhnsa7luaq8fmw4d" Name="Control" Type="single_dropdown1" Visible="True">
                   <Size>840</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_ToggleKey_ctrl_2020-05-09.zip</ZipFile>
-                  <CRC>3c0d4a9af9836046c30e9d90adc47f45</CRC>
-                  <Timestamp>132509547706228947</Timestamp>
                   <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
+                  <Patches>
+                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="">
+                      <Path>$.hotKeyHealthBar</Path>
+                    </Patch>
+                    <Patch Type="regex" Mode="" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search="&quot;hotKeyHealthBar&quot;\s*:\s*\[\s*\]," Replace="&quot;hotKeyHealthBar&quot;: [[&quot;KEY_LCONTROL&quot;, &quot;KEY_RCONTROL&quot;]]," />
+                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -507,27 +576,33 @@
               <Packages>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_OnAlways" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6k5lg3qj4r79uf6y" Name="Always displayed (Default)" Type="single_dropdown1" Visible="True">
                   <Size>478</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_OnAlways_2020-05-09.zip</ZipFile>
-                  <CRC>bade83f0bf99eca56cc31a67add482ef</CRC>
-                  <Timestamp>132509547818097102</Timestamp>
                   <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+                      <Path>$.mode</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_Toggle" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="j9c0o2wk3n0rurdy" Name="Toggle (press to show/hide)" Type="single_dropdown1" Visible="True">
                   <Size>474</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_Toggle_2020-05-09.zip</ZipFile>
-                  <CRC>6d9a577b2a0cec68bcb21f9f595d3b32</CRC>
-                  <Timestamp>132509547914984611</Timestamp>
                   <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="1">
+                      <Path>$.mode</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_Holding" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="dot7g6m3y71g6jvb" Name="Hotkey (hold to show)" Type="single_dropdown1" Visible="True">
                   <Size>476</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_KeyMode_Holding_2020-05-09.zip</ZipFile>
-                  <CRC>d042b7d438f094ec790e7c74608128fe</CRC>
-                  <Timestamp>132509548044067030</Timestamp>
                   <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="2">
+                      <Path>$.mode</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -542,67 +617,83 @@
               <Packages>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Shiny" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="4kcuock8lyics4g0" Name="Shiny" Type="single_dropdown1" Visible="True">
                   <Size>544</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Shiny_2020-05-10.zip</ZipFile>
-                  <CRC>cdb1976f74fa568e748011f9b7feaa37</CRC>
-                  <Timestamp>132509548175438530</Timestamp>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
                   <ShowInSearchList>False</ShowInSearchList>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="2" Search="" Replace="0">
+                      <Path>$.barStyle</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Outfading" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="g9j9wcr9kubusgn0" Name="Outfading" Type="single_dropdown1" Visible="True">
                   <Size>551</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Outfading_2020-02-23.zip</ZipFile>
-                  <CRC>e052b9f8685242d6565abf39e5993cb6</CRC>
-                  <Timestamp>132509548279830989</Timestamp>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
                   <ShowInSearchList>False</ShowInSearchList>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="2" Search="" Replace="1">
+                      <Path>$.barStyle</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_CylinderGradiantSmall" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="typo4bxakr3cssv0" Name="Cylinder gradiant small" Type="single_dropdown1" Visible="True">
                   <Size>579</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_CylinderGradiantSmall_2020-02-23.zip</ZipFile>
-                  <CRC>558803a7bbfdcc7615e8bb0d31ea0ce6</CRC>
-                  <Timestamp>132509548388268201</Timestamp>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
                   <ShowInSearchList>False</ShowInSearchList>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="2" Search="" Replace="2">
+                      <Path>$.barStyle</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_CylinderGradiantBig" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="oc7vwfntea513ldd" Name="Cylinder gradiant big" Type="single_dropdown1" Visible="True">
                   <Size>575</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_CylinderGradiantBig_2020-02-23.zip</ZipFile>
-                  <CRC>be9372a5670151716e5289d96ba19bc8</CRC>
-                  <Timestamp>132509548489818796</Timestamp>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
                   <ShowInSearchList>False</ShowInSearchList>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="2" Search="" Replace="3">
+                      <Path>$.barStyle</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Fusili1" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="01da4ette6xj3wkd" Name="Fusili #1" Type="single_dropdown1" Visible="True">
                   <Size>550</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Fusili1_2020-02-23.zip</ZipFile>
-                  <CRC>b3234e1cd23d7bd64db726af81072b8d</CRC>
-                  <Timestamp>132509548591234514</Timestamp>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
                   <ShowInSearchList>False</ShowInSearchList>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="2" Search="" Replace="4">
+                      <Path>$.barStyle</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Powercell" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="vgvivijc8pz9ep2q" Name="Powercell" Type="single_dropdown1" Visible="True">
                   <Size>552</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Powercell_2020-02-23.zip</ZipFile>
-                  <CRC>99c1446eb5ffc0ec054487050a274d2f</CRC>
-                  <Timestamp>132509548685179981</Timestamp>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
                   <ShowInSearchList>False</ShowInSearchList>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="2" Search="" Replace="5">
+                      <Path>$.barStyle</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Springs" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="751w4ipd8mrqe19q" Name="Springs (Fusili #2)" Type="single_dropdown1" Visible="True">
                   <Size>548</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Springs_2020-02-23.zip</ZipFile>
-                  <CRC>d0f6ad95dad9218ac760701e08986b9f</CRC>
-                  <Timestamp>132509548919353088</Timestamp>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
                   <ShowInSearchList>False</ShowInSearchList>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="2" Search="" Replace="6">
+                      <Path>$.barStyle</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars_Style_Quacksen" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="rq8x92civjg2r4fg" Name="Quacksen" Type="single_dropdown1" Visible="True">
                   <Size>551</Size>
-                  <ZipFile>IngameInfo_PlayersPanelPro_TankHPBars_Style_Quacksen_2020-05-10.zip</ZipFile>
-                  <CRC>02b79f416417db835f7732b738ecd1e0</CRC>
-                  <Timestamp>132509548803251496</Timestamp>
                   <InternalNotes>its a patch: nothing to do</InternalNotes>
                   <ShowInSearchList>False</ShowInSearchList>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="2" Search="" Replace="7">
+                      <Path>$.barStyle</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -610,31 +701,37 @@
         </Package>
         <Package PackageName="IngameInfo_PlayersPanelPro_EnableClassColor" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="e8pj3llx21lyp5y3" Name="Enable HP bar color by vehicle class" Type="multi" Visible="True">
           <Size>503</Size>
-          <ZipFile>IngameInfo_PlayersPanelPro_EnableClassColor_2020-05-09.zip</ZipFile>
-          <CRC>822e9f2bd0f1ad07bfcf002a431099b5</CRC>
-          <Timestamp>132509549044665480</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
           <ShowInSearchList>False</ShowInSearchList>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="true">
+              <Path>$.classColor</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_PlayersPanelPro_EnableClassIcon" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ku8bchve7ik8edgq" Name="Enable display of class icon next to panels" Type="multi" Visible="True">
           <Size>505</Size>
-          <ZipFile>IngameInfo_PlayersPanelPro_EnableClassIcon_2020-05-09.zip</ZipFile>
-          <CRC>4260b3668681bc46ffa9c037da917e58</CRC>
-          <Timestamp>132509549144984544</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
           <ShowInSearchList>False</ShowInSearchList>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/show_class_icon.png" />
           </Medias>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showClassIcon</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_PlayersPanelPro_HighlightPopular" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5etf1yfde04du5ju" Name="Highlight known streamers/modders with icon" Type="multi" Visible="True">
           <Size>502</Size>
-          <ZipFile>IngameInfo_PlayersPanelPro_HighlightPopular_2020-05-10.zip</ZipFile>
-          <CRC>a4d4208f6b588a21089e28d56ee08cb2</CRC>
-          <Timestamp>132509549245946085</Timestamp>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showKnownPlayers</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2btfq4ljjl3pe56h" Name="Highlight friend with icon" Type="multi" Visible="True">
           <CRC>f</CRC>
@@ -645,71 +742,82 @@
           <Packages>
             <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend_Cyan" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="vy0wvg8sx1oi1rn9" Name="Cyan" Type="single_dropdown1" Visible="True">
               <Size>505</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_HighlightFriend_Cyan_2020-05-10.zip</ZipFile>
-              <CRC>c93db14b3d8fbb836f965e0f8ed62c2d</CRC>
-              <Timestamp>132509549353904198</Timestamp>
               <InternalNotes>its a patch: nothing to do</InternalNotes>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="1">
+                  <Path>$.friendIcon</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend_Purple" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="kqvt2zcbpfmdwbvx" Name="Purple" Type="single_dropdown1" Visible="True">
               <Size>509</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_HighlightFriend_Purple_2020-05-10.zip</ZipFile>
-              <CRC>4360cf88b88a7fadcd8cb7e864b587ce</CRC>
-              <Timestamp>132509549451854826</Timestamp>
               <InternalNotes>its a patch: nothing to do</InternalNotes>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="2">
+                  <Path>$.friendIcon</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend_LightBlue" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="g5q1o6ej9snadgxq" Name="Light Blue" Type="single_dropdown1" Visible="True">
               <Size>515</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_HighlightFriend_LightBlue_1.9.0.2_2020-05-10.zip</ZipFile>
-              <CRC>bf4cbd73695084f2da6d43da2ca010a5</CRC>
-              <Timestamp>132509549554347690</Timestamp>
               <InternalNotes>its a patch: nothing to do</InternalNotes>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="3">
+                  <Path>$.friendIcon</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend_Orange" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5zwzj7ybnwq8j698" Name="Orange" Type="single_dropdown1" Visible="True">
               <Size>509</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_HighlightFriend_Orange_2020-05-10.zip</ZipFile>
-              <CRC>da5d15e8029c1364532b2b8d73eb1614</CRC>
-              <Timestamp>132509549649385241</Timestamp>
               <InternalNotes>its a patch: nothing to do</InternalNotes>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="4">
+                  <Path>$.friendIcon</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_PlayersPanelPro_HighlightFriend_Yellow" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5cn5uo0eszhd77su" Name="Yellow" Type="single_dropdown1" Visible="True">
               <Size>509</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_HighlightFriend_Yellow_2020-05-10.zip</ZipFile>
-              <CRC>066c75af1be05a76794a9db164065ff0</CRC>
-              <Timestamp>132509549743255651</Timestamp>
               <InternalNotes>its a patch: nothing to do</InternalNotes>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="5">
+                  <Path>$.friendIcon</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
         <Package PackageName="IngameInfo_PlayersPanelPro_TeamHPPoolBar" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="pjqu2h2dcutmw6dw" Name="Enable team HP pool bar" Type="multi" Visible="True">
           <Size>542</Size>
-          <ZipFile>IngameInfo_PlayersPanelPro_TeamHPPoolBar_2020-05-10.zip</ZipFile>
-          <CRC>557b9ffd41971195600ef4612868eb7a</CRC>
-          <Timestamp>132509549834353344</Timestamp>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/show_team_hp_pool_bar.png" />
           </Medias>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showHealthPoolBars</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_PlayersPanelPro_TeamHPPoolText" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="g4ecqyqdqpuvnphw" Name="Enable team HP pool text" Type="multi" Visible="True">
           <Size>533</Size>
-          <ZipFile>IngameInfo_PlayersPanelPro_TeamHPPoolText_2020-05-10.zip</ZipFile>
-          <CRC>31a100e1f9efcfb6f210f11db977e79b</CRC>
-          <Timestamp>132509549931360680</Timestamp>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/show_team_hp_pool_text.png" />
           </Medias>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showTeamHealth</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="rxwybkry1yefph53" Name="Enable enemy spotted status (conflicts with XVM &amp; Enemy Spotted Status by PMOD or Oldskool)" Type="multi" Visible="True">
           <Size>553</Size>
-          <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_2020-05-09.zip</ZipFile>
-          <CRC>9d82161b40a36982649dac2bda8aa905</CRC>
-          <Timestamp>132509550085082921</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/spotted_icon_styles.png" />
@@ -718,47 +826,109 @@
           <Packages>
             <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_EyeV1" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6wrz8nb7bwkubrx2" Name="Eye V1" Type="single_dropdown1" Visible="True">
               <Size>537</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_EyeV1_2020-05-09.zip</ZipFile>
-              <CRC>6de16f080ada0e7199ef828087170fd1</CRC>
-              <Timestamp>132509550219196891</Timestamp>
               <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+                  <Path>$.icon</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_EyeV2" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="u6ae7ppav2l9ji8n" Name="Eye V2" Type="single_dropdown1" Visible="True">
               <Size>537</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_EyeV2_2020-05-09.zip</ZipFile>
-              <CRC>a45e3e1f6e5668b098d8effc630af3aa</CRC>
-              <Timestamp>132509550320291798</Timestamp>
               <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="1">
+                  <Path>$.icon</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_Dot" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="nfdyi3vt7qh7we2w" Name="Dot" Type="single_dropdown1" Visible="True">
               <Size>533</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_Dot_2020-05-09.zip</ZipFile>
-              <CRC>285afc9582d9d49b95add771cdd620c7</CRC>
-              <Timestamp>132509550409040920</Timestamp>
               <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="2">
+                  <Path>$.icon</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_Crosshair" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="7lz52nzh64v1vwjv" Name="Crosshair" Type="single_dropdown1" Visible="True">
               <Size>545</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_Crosshair_2020-05-09.zip</ZipFile>
-              <CRC>e3b65d81cde1cbe3688c250f74a5bfee</CRC>
-              <Timestamp>132509550501919312</Timestamp>
               <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="3">
+                  <Path>$.icon</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_Lamp" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ye4be56evquh7u91" Name="Lamp" Type="single_dropdown1" Visible="True">
               <Size>535</Size>
-              <ZipFile>IngameInfo_PlayersPanelPro_EnemySpottedStatus_Lamp_2020-05-09.zip</ZipFile>
-              <CRC>7a46e9f13512b7c041741274c4e8e372</CRC>
-              <Timestamp>132509550649038537</Timestamp>
               <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
               <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="4">
+                  <Path>$.icon</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showSpottedIcon</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.barFormat</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.barStyle</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.classColor</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.contourIconMode</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.customCfg</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.friendIcon</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.hideIfDead</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.icon</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.mode</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.removeBadges</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showClassIcon</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showHealthPoolBars</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.showHighCaliber</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showKnownPlayers</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showTeamHealth</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="IngameInfo_HpPools" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bqrzjntjua041x2f" Name="HP Pools" Type="multi" Visible="True">
       <CRC>f</CRC>
@@ -767,19 +937,18 @@
       <Packages>
         <Package PackageName="IngameInfo_HpPools_RaJCeL" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="icfmkjxbe1nmtkra" Name="RaJCeL" Type="single1" Visible="True">
           <Size>530</Size>
-          <ZipFile>IngameInfo_HpPools_RaJCeL_2020-11-12.zip</ZipFile>
-          <CRC>6c852e6006d4be5ca6ac0ba8f716c0c9</CRC>
-          <Timestamp>132496581889355799</Timestamp>
           <Dependencies>
             <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
             <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\teamHP.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_HpPools_PMOD" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5486brj2pt2ucqks" Name="PMOD" Type="single1" Visible="True">
           <Size>478</Size>
-          <ZipFile>IngameInfo_HpPools_PMOD_2019-09-11.zip</ZipFile>
-          <CRC>a8795a57c71f78879519037906ca8e30</CRC>
-          <Timestamp>132509550947412726</Timestamp>
           <ConflictingPackages>Ingame_Info_HpBars_Champi,XVMConfigBuilder_BattleInterface_HPpools</ConflictingPackages>
           <Dependencies>
             <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
@@ -796,157 +965,237 @@
             </Package>
             <Package PackageName="IngameInfo_HpPools_PMOD_SkinLocastan" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hvcdn7wjlst07gyx" Name="Locastan" Type="single_dropdown1" Visible="True">
               <Size>477</Size>
-              <ZipFile>IngameInfo_HpPools_PMOD_SkinLocastan_2019-07-09.zip</ZipFile>
-              <CRC>ca224ec334dfdacf2e037c195120233e</CRC>
-              <Timestamp>132569489669573315</Timestamp>
               <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="Locastan">
+                  <Path>$.teamHealth.skin</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_HpPools_PMOD_SkinMinimal" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="b9ukeam2gbvpi9ga" Name="Minimal" Type="single_dropdown1" Visible="True">
               <Size>474</Size>
-              <ZipFile>IngameInfo_HpPools_PMOD_SkinMinimal_2019-07-09.zip</ZipFile>
-              <CRC>c855af22134cb9a088405575c25f5812</CRC>
-              <Timestamp>132569489757532232</Timestamp>
               <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="Minimal">
+                  <Path>$.teamHealth.skin</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_HpPools_PMOD_SkinWGL" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="oy0znas3f8o7ilna" Name="WGL" Type="single_dropdown1" Visible="True">
               <Size>464</Size>
-              <ZipFile>IngameInfo_HpPools_PMOD_SkinWGL_2019-07-09.zip</ZipFile>
-              <CRC>d62b5d17c137cb5ec897591d846f65d1</CRC>
-              <Timestamp>132569489853592083</Timestamp>
               <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3411/\r\n</DevURL>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="wgl">
+                  <Path>$.teamHealth.skin</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_BattleGUI_PMOD_SkinLebwa1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1n7ev9y4e4gpiwu9" Name="Lebwa Variant #1" Type="single_dropdown1" Visible="True">
               <Size>527</Size>
-              <ZipFile>IngameInfo_BattleGUI_PMOD_SkinLebwa1_2020-02-18.zip</ZipFile>
-              <CRC>af826f960679ca839721b3cfa4df04cb</CRC>
-              <Timestamp>132569489927451978</Timestamp>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_1.jpg" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="lebwa_varian_1">
+                  <Path>$.teamHealth.skin</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_BattleGUI_PMOD_SkinLebwa2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="v2olmdon9nietpcn" Name="Lebwa Variant #2" Type="single_dropdown1" Visible="True">
               <Size>527</Size>
-              <ZipFile>IngameInfo_BattleGUI_PMOD_SkinLebwa2_2020-02-18.zip</ZipFile>
-              <CRC>7e32d4a8b36bc851fb2032250a8e6eb3</CRC>
-              <Timestamp>132569490117026708</Timestamp>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_2.jpg" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="lebwa_varian_2">
+                  <Path>$.teamHealth.skin</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_BattleGUI_PMOD_SkinLebwa3" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8rv0ucuo9kawt1jm" Name="Lebwa Variant #3" Type="single_dropdown1" Visible="True">
               <Size>528</Size>
-              <ZipFile>IngameInfo_BattleGUI_PMOD_SkinLebwa3_2020-02-18.zip</ZipFile>
-              <CRC>e4bfc4e821069a69e16082cc61e4168d</CRC>
-              <Timestamp>132569490013091857</Timestamp>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_3.jpg" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="lebwa_varian_3">
+                  <Path>$.teamHealth.skin</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_BattleGUI_PMOD_SkinLebwa4" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="25d8mgk733cl4u1z" Name="Lebwa Variant #4" Type="single_dropdown1" Visible="True">
               <Size>528</Size>
-              <ZipFile>IngameInfo_BattleGUI_PMOD_SkinLebwa4_2020-02-18.zip</ZipFile>
-              <CRC>b85ad4f0ce9ec22d58047f9881046c02</CRC>
-              <Timestamp>132569490171931647</Timestamp>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_4.jpg" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="lebwa_varian_4">
+                  <Path>$.teamHealth.skin</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_BattleGUI_PMOD_SkinLebwa5" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fujmugq83z43458z" Name="Lebwa Variant #5" Type="single_dropdown1" Visible="True">
               <Size>529</Size>
-              <ZipFile>IngameInfo_BattleGUI_PMOD_SkinLebwa5_2020-02-18.zip</ZipFile>
-              <CRC>d7deebe7b56a9b3c7b9936baac3a63ff</CRC>
-              <Timestamp>132569490292097340</Timestamp>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_HpPools_PMOD_lebwa_varian_5.jpg" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="lebwa_varian_5">
+                  <Path>$.teamHealth.skin</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_HpPools_PMOD_HighCaliber" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="itfljqp3opvcc2rs" Name="Enable High Caliber Display (Doesnt work on all skins)" Type="multi" Visible="True">
               <Size>520</Size>
-              <ZipFile>IngameInfo_HpPools_PMOD_HighCaliber_2020-02-18.zip</ZipFile>
-              <CRC>d2fa3ebfad2461a729299d3274686a3e</CRC>
-              <Timestamp>132509552717792564</Timestamp>
               <Packages>
                 <Package PackageName="IngameInfo_HpPools_PMOD_HighCaliber_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vil0rpv4omntceys" Name="For Default Skin" Type="single_dropdown1" Visible="True">
                   <Size>860</Size>
-                  <ZipFile>IngameInfo_HpPools_PMOD_HighCaliber_Default_2020-08-09.zip</ZipFile>
-                  <CRC>e3462389cdba2e1f56bd8a01e88c6639</CRC>
-                  <Timestamp>132509552851070549</Timestamp>
+                  <Patches>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="damageDealt/&lt;font color='#E0E0E0' size='16'&gt;({{piercedHits}}) &lt;font color='#E0E06D'&gt;{{damageDealt}}&lt;[sl]font&gt;&lt;[sl]font&gt; &lt;img src='img:[sl][sl]gui[sl]maps[sl]icons[sl]library[sl]dossier[sl]avgDamage40x32.png' width='30' height='23' vspace='-7'&gt;">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="mainGunProcess/&lt;img src='img:[sl][sl]gui[sl]maps[sl]icons[sl]achievement[sl]32x32[sl]mainGun.png' width='23' height='23' vspace='-7'&gt; &lt;font color='#E0E0E0' size='16'&gt;High Caliber: &lt;font color='#E0E06D'&gt;{{mainGun}}&lt;[sl]font&gt;&lt;[sl]font&gt;">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="mainGunFailed/&lt;img src='img:[sl][sl]gui[sl]maps[sl]icons[sl]achievement[sl]32x32[sl]mainGun.png' width='23' height='23' vspace='-7'&gt; &lt;font color='#FFB0B0'&gt;Failed&lt;[sl]font&gt;">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="mainGunAchived/&lt;img src='img:[sl][sl]gui[sl]maps[sl]icons[sl]achievement[sl]32x32[sl]mainGun.png' width='23' height='23' vspace='-7'&gt; &lt;img src='img:[sl][sl]gui[sl]maps[sl]icons[sl]library[sl]done.png' width='23' height='23' vspace='-7'&gt;">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_HpPools_PMOD_HighCaliber_Locastan" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pw37jtlnj5pjn7g5" Name="For Locastan Skin" Type="single_dropdown1" Visible="True">
                   <Size>614</Size>
-                  <ZipFile>IngameInfo_HpPools_PMOD_HighCaliber_Locastan_2020-08-09.zip</ZipFile>
-                  <CRC>f702a47a395c65026e78e8974664dd10</CRC>
-                  <Timestamp>132509552952327500</Timestamp>
+                  <Patches>
+                    <Patch Type="json" Mode="add" PatchPath="{app}" File="\mods\configs\pmod\battleGui.json" Version="2" Search=".*" Replace="mainGun/High Caliber ({{mainGun}})">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="{app}" File="\mods\configs\pmod\battleGui.json" Version="2" Search=".*" Replace="allysHP/Allies ({{allysHP}})">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="{app}" File="\mods\configs\pmod\battleGui.json" Version="2" Search=".*" Replace="enemysHP/({{enemysHP}}) Enemy">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_HpPools_PMOD_HighCaliber_Minimal" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2l9mrtroi1h0nin5" Name="For Minimal Skin" Type="single_dropdown1" Visible="True">
                   <Size>686</Size>
-                  <ZipFile>IngameInfo_HpPools_PMOD_HighCaliber_Minimal_2020-08-09.zip</ZipFile>
-                  <CRC>0be60310e39ec4fc4b906baa996ff203</CRC>
-                  <Timestamp>132509553050761057</Timestamp>
+                  <Patches>
+                    <Patch Type="json" Mode="add" PatchPath="{app}" File="mods\configs\pmod\battleGui.json" Version="2" Search=".*" Replace="averageDamageBad/Average damage: {{averageDamage}}">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="{app}" File="mods\configs\pmod\battleGui.json" Version="2" Search=".*" Replace="averageDamageGood/Average damage: &lt;font color='#A9FD00'&gt;+{{averageDamage}}&lt;[sl]font&gt;">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="{app}" File="mods\configs\pmod\battleGui.json" Version="2" Search=".*" Replace="mainGunProcess/High Caliber: {{mainGun}}">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="{app}" File="mods\configs\pmod\battleGui.json" Version="2" Search=".*" Replace="mainGunAchived/High Caliber Finished: &lt;font color='#A9FD00'&gt;+{{mainGun}}&lt;[sl]font&gt;">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
               </Packages>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="false" Replace="true">
+                  <Path>$.teamHealth.displayMainGun</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_HpPools_PMOD_Damage" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fag1zsxphy9inuu5" Name="Enable Damage" Type="multi" Visible="True">
               <Size>520</Size>
-              <ZipFile>IngameInfo_HpPools_PMOD_Damage_2020-02-18.zip</ZipFile>
-              <CRC>d2fa3ebfad2461a729299d3274686a3e</CRC>
-              <Timestamp>132509553178262544</Timestamp>
               <Packages>
                 <Package PackageName="IngameInfo_HpPools_PMOD_Damage_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9py8rwn8chb8ynci" Name="For Default Skin" Type="single_dropdown1" Visible="True">
                   <Size>699</Size>
-                  <ZipFile>IngameInfo_HpPools_PMOD_Damage_Default_2020-02-20.zip</ZipFile>
-                  <CRC>3c5c8dc6658b50885b0ca3c7aba11b57</CRC>
-                  <Timestamp>132509553282666760</Timestamp>
                   <Description>Shows total damage done</Description>
+                  <Patches>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="damageDealt/&lt;font color='#E0E0E0' size='16'&gt;({{piercedHits}}) &lt;font color='#E0E06D'&gt;{{damageDealt}}&lt;[sl]font&gt;&lt;[sl]font&gt; &lt;img src='img:[sl][sl]gui[sl]maps[sl]icons[sl]library[sl]dossier[sl]avgDamage40x32.png' width='30' height='23' vspace='-7'&gt;">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_HpPools_PMOD_Damage_Locastan" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="me4nzvt9bd4pyzji" Name="For Locastan Skin" Type="single_dropdown1" Visible="True">
                   <Size>592</Size>
-                  <ZipFile>IngameInfo_HpPools_PMOD_Damage_Locastan_2020-02-20.zip</ZipFile>
-                  <CRC>14182a763850ac86ad5568ddf778d2d1</CRC>
-                  <Timestamp>132509553372952820</Timestamp>
                   <Description>Shows allies and enemies HP</Description>
+                  <Patches>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="allysHP/Allies ({{allysHP}})">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="enemysHP/({{enemysHP}}) Enemies">
+                      <Path>$.teamHealth.texts</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
               </Packages>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="false" Replace="true">
+                  <Path>$.teamHealth.displayMainGun</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="66zo7yvu4pqe9fgu" Name="Players Panel State" Type="multi" Visible="True">
               <Size>478</Size>
-              <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_2019-09-11.zip</ZipFile>
-              <CRC>a8795a57c71f78879519037906ca8e30</CRC>
-              <Timestamp>132509553624620944</Timestamp>
               <Packages>
                 <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState_None" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0lgwz2lcz8s4l8y7" Name="Hidden" Type="single_dropdown1" Visible="True">
                   <Size>539</Size>
-                  <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_None_2020-08-27.zip</ZipFile>
-                  <CRC>e2267f8ef56b0c29197906bc10743365</CRC>
-                  <Timestamp>132509553777938997</Timestamp>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="hidden">
+                      <Path>$.playersPanelState</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState_Short" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="danb71rdy5kmkj57" Name="Short" Type="single_dropdown1" Visible="True">
                   <Size>541</Size>
-                  <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_Short_2020-02-19.zip</ZipFile>
-                  <CRC>8b6332187b039b4c0b89958e62f96344</CRC>
-                  <Timestamp>132509553877636647</Timestamp>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="short">
+                      <Path>$.playersPanelState</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState_Medium" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qzuqf1xey1d3kvc7" Name="Medium" Type="single_dropdown1" Visible="True">
                   <Size>545</Size>
-                  <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_Medium_2020-02-19.zip</ZipFile>
-                  <CRC>343237d89f9854f302758159e11b14a9</CRC>
-                  <Timestamp>132509554008564228</Timestamp>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="medium">
+                      <Path>$.playersPanelState</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState_Medium2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kdbx75nxtkftwouk" Name="Medium 2" Type="single_dropdown1" Visible="True">
                   <Size>547</Size>
-                  <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_Medium2_2020-02-19.zip</ZipFile>
-                  <CRC>f732e2d8c2978f8df2b97450a4c34bab</CRC>
-                  <Timestamp>132509554117480831</Timestamp>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="medium2">
+                      <Path>$.playersPanelState</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
                 <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState_Large" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="x2icf4tysg7bw01k" Name="Large" Type="single_dropdown1" Visible="True">
                   <Size>541</Size>
-                  <ZipFile>IngameInfo_HpPools_PMOD_PlayersPanelState_Large_2020-02-19.zip</ZipFile>
-                  <CRC>11f48e44f80001a7927126f4530813b3</CRC>
-                  <Timestamp>132509554235937448</Timestamp>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="large">
+                      <Path>$.playersPanelState</Path>
+                    </Patch>
+                  </Patches>
                 </Package>
               </Packages>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
+                  <Path>$.teamHealth.enable</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
+                  <Path>$.enable</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
+              <Path>$.teamHealth.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -962,11 +1211,12 @@
         <Package PackageName="IngameInfo_EnemySpottedStatus_OldSkool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="my79ujmsxfzagayc" Name="ESS  [by {author}]" Type="single1" Visible="True">
           <Size>53343</Size>
           <Version>1.2.2</Version>
-          <ZipFile>IngameInfo_EnemySpottedStatus_OldSkool_v1.2.2_1.15.0.0_2021-12-13.zip</ZipFile>
-          <CRC>591aafbe05b590edc73e87e01935c9fa</CRC>
-          <Timestamp>132838367633339695</Timestamp>
+          <ZipFile>IngameInfo_EnemySpottedStatus_OldSkool_v1.2.2_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859223753208657</Timestamp>
           <DevURL>https://github.com/deadhat/wotmods-public.git\r\nhttps://promod.reidarty.de/promod/</DevURL>
           <Author>OldSkool</Author>
+          <LastUpdateCheck>132859223753208657</LastUpdateCheck>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Dependencies>
             <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
@@ -975,28 +1225,29 @@
           <Packages>
             <Package PackageName="IngameInfo_EnemySpottedStatus_OldSkool_Style0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2eo0pb6qtqepkgj0" Name="Eye icon style" Type="single_dropdown1" Visible="True">
               <Size>570</Size>
-              <ZipFile>IngameInfo_EnemySpottedStatus_OldSkool_Style0_2021-02-12.zip</ZipFile>
-              <CRC>c90ceffbe5ac3062ddbaef5df319e78b</CRC>
-              <Timestamp>132576300789033440</Timestamp>
               <DevURL>https://promod.reidarty.de/promod/</DevURL>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\oldskool\spottedStatus.json" Version="1" Search=".*" Replace="0">
+                  <Path>style</Path>
+                </Patch>
+              </Patches>
             </Package>
             <Package PackageName="IngameInfo_EnemySpottedStatus_OldSkool_Style1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zneo2istwbrsgm5c" Name="Ball icon style" Type="single_dropdown1" Visible="True">
               <Size>570</Size>
-              <ZipFile>IngameInfo_EnemySpottedStatus_OldSkool_Style1_2019-05-15.zip</ZipFile>
-              <CRC>baf96c04808484e1a52bdf5781ebff6e</CRC>
-              <Timestamp>132340159577884753</Timestamp>
               <DevURL>https://promod.reidarty.de/promod/</DevURL>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/Oldschool_Enemy_Spotted_Status_Style_1.png" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\oldskool\spottedStatus.json" Version="1" Search="0" Replace="1">
+                  <Path>style</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
         </Package>
         <Package PackageName="IngameInfo_EnemySpottedStatus_PMOD" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="cck3aiyuv8jagxcc" Name="ESS  [by {author}]" Type="single1" Visible="True">
           <Size>507</Size>
-          <ZipFile>IngameInfo_EnemySpottedStatus_PMOD_2020-03-29.zip</ZipFile>
-          <CRC>54c33329cca0c0815cd985278473108f</CRC>
-          <Timestamp>132509555539534653</Timestamp>
           <Author>poliroid</Author>
           <Dependencies>
             <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
@@ -1004,24 +1255,56 @@
           <Packages>
             <Package PackageName="IngameInfo_EnemySpottedStatus_PMOD_asterisk" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6q2a2mocqrlzrqup" Name="Use colored asterisk &quot;*&quot; from Willster419's xvm config" Type="multi" Visible="True">
               <Size>635</Size>
-              <ZipFile>IngameInfo_EnemySpottedStatus_PMOD_asterisk_2019-12-25.zip</ZipFile>
-              <CRC>bc5d31622acaacf601a6bbb7da7ad6cf</CRC>
-              <Timestamp>132509555700187386</Timestamp>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="&lt;font face='Arial' size='24' color='#DDDDDD'&gt; &lt;/font&gt;">
+                  <Path>$.detectionState.texts.notDetected</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="&lt;font face='Arial' size='24' color='#DDDDDD'&gt;*&lt;/font&gt;">
+                  <Path>$.detectionState.texts.missing</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="&lt;font face='Arial' size='24' color='#FF0000'&gt;*&lt;/font&gt;">
+                  <Path>$.detectionState.texts.detected</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="&lt;font face='Arial' size='24' color='#006000'&gt;*&lt;/font&gt;">
+                  <Path>$.detectionState.texts.dead</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="&lt;font face='Arial' size='24' color='#DDDDDD'&gt;*&lt;/font&gt;">
+                  <Path>$.detectionState.texts.notDetectedArty</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="&lt;font face='Arial' size='24' color='#DDDDDD'&gt;*&lt;/font&gt;">
+                  <Path>$.detectionState.texts.missingArty</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="&lt;font face='Arial' size='24' color='#FF0000'&gt;*&lt;/font&gt;">
+                  <Path>$.detectionState.texts.detectedArty</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="&lt;font face='Arial' size='24' color='#006000'&gt;*&lt;/font&gt;">
+                  <Path>$.detectionState.texts.deadArty</Path>
+                </Patch>
+              </Patches>
             </Package>
           </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="true">
+              <Path>$.detectionState.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
     <Package PackageName="IngameInfo_TankRatingColors" Enabled="True" Tags="Script,Patch,ConfigurationFileJson" InstallGroup="4" PatchGroup="4" UID="jf9paludpndhr21p" Name="Tank Rating Colors [by {author}]" Type="multi" Visible="True">
       <Size>72476</Size>
       <Version>1.23</Version>
-      <ZipFile>IngameInfo_TankRatingColors_v1.23_1.14.1.1_2021-10-28.zip</ZipFile>
-      <CRC>aecd5168ae556b19e37fbd3dd4dfbca4</CRC>
-      <Timestamp>132799257472704254</Timestamp>
+      <ZipFile>IngameInfo_TankRatingColors_v1.23_1.14.1.1_2021-10-28_converted.zip</ZipFile>
+      <CRC>f</CRC>
+      <Timestamp>132859223834953668</Timestamp>
       <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4045/\r\nhttp://forum.worldoftanks.eu/index.php?/topic/731680-1702-champis-tank-rating-colors</DevURL>
       <InternalNotes>Maybe conflict with "Contour skins with areas of penetration" or just hard to see</InternalNotes>
       <Author>CHAMPi</Author>
       <Maintainers>Willster419</Maintainers>
+      <LastUpdateCheck>132859223834953668</LastUpdateCheck>
       <Description>Repaints tanks based on winrate or WGR value without any textures!\r\nuse ESC in the hangar and then click on MOD Settings\r\n\r\nfeatures:\r\n - you can decide which tank parts are painted (hull, chassis, turret, gun)\r\n - you can choose which tanks are painted (enemy tanks, ally tanks and/or your own tank)\r\n - you can control if camouflages are removed before the tanks are painted (not all are currently removed - in work!)\r\n - you can set the gloss and metallic effect for the color.\r\n - graphical user interface to control the most important settings</Description>
       <ObfuscatedMod>True</ObfuscatedMod>
       <FromWGmods>True</FromWGmods>
@@ -1050,61 +1333,113 @@
         </Package>
         <Package PackageName="IngameInfo_TankRatingColors_RecolorWGR" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="383qiowyjz062ix1" Name="WGR" Type="single_dropdown1" Visible="True">
           <Size>476</Size>
-          <ZipFile>IngameInfo_TankRatingColors_RecolorWGR_2020-03-04.zip</ZipFile>
-          <CRC>e9b89996bd5843c9d4f2c07b49d8b8ac</CRC>
-          <Timestamp>132569491948609918</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/731680-1702-champis-tank-rating-colors\r\nhttps://wot.champi.de/\r\nhttps://wgmods.net/4045/</DevURL>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="0">
+              <Path>$.recolorByRating</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_TankRatingColors_RecolorWinrate" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="qixbaoqxj38o27q2" Name="Winrate" Type="single_dropdown1" Visible="True">
           <Size>482</Size>
-          <ZipFile>IngameInfo_TankRatingColors_RecolorWinrate_2020-03-04.zip</ZipFile>
-          <CRC>01306f12da668d6f6eeab044772b880e</CRC>
-          <Timestamp>132569492048209780</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/731680-1702-champis-tank-rating-colors\r\nhttps://wot.champi.de/\r\nhttps://wgmods.net/4045/</DevURL>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="1">
+              <Path>$.recolorByRating</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_TankRatingColors_removeCamouflages" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="xmlxasmhdi2wdbff" Name="Remove camouflages" Type="multi" Visible="True">
           <Size>485</Size>
-          <ZipFile>IngameInfo_TankRatingColors_removeCamouflages_2020-03-04.zip</ZipFile>
-          <CRC>5b970cf44fb2d35b036d13c35b587881</CRC>
-          <Timestamp>132278263247035447</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/731680-1702-champis-tank-rating-colors\r\nhttps://wot.champi.de/\r\nhttps://wgmods.net/4045/</DevURL>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+              <Path>$.removeCamouflages</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_TankRatingColors_ignorePresentPaints" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="abrcirsidfuddnne" Name="Ignore present paints" Type="multi" Visible="True">
           <Size>492</Size>
-          <ZipFile>IngameInfo_TankRatingColors_ignorePresentPaints_2020-03-04.zip</ZipFile>
-          <CRC>0b4fa2a9df6bcaafcc1f9260c4e8d8cc</CRC>
-          <Timestamp>132278263215948597</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/731680-1702-champis-tank-rating-colors\r\nhttps://wot.champi.de/\r\nhttps://wgmods.net/4045/</DevURL>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+              <Path>$.ignorePresentPaints</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_TankRatingColors_notPaintPlayersTank" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="n0yrqqyjcbnvdzue" Name="Not paint player´s tank" Type="multi" Visible="True">
           <Size>536</Size>
-          <ZipFile>IngameInfo_TankRatingColors_notPaintPlayersTank_2020-03-04.zip</ZipFile>
-          <CRC>5dbe817637e614e25d754e2d5cb2869d</CRC>
-          <Timestamp>132278263187035936</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/731680-1702-champis-tank-rating-colors\r\nhttps://wot.champi.de/\r\nhttps://wgmods.net/4045/</DevURL>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="false">
+              <Path>$.paint_player_chassis</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="false">
+              <Path>$.paint_player_gun</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="false">
+              <Path>$.paint_player_hull</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="false">
+              <Path>$.paint_player_turret</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_TankRatingColors_paintWholeAlliedTanks" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="hefyiuo27uoloscr" Name="Paint whole allied tanks (rather then just turret)" Type="multi" Visible="True">
           <Size>538</Size>
-          <ZipFile>IngameInfo_TankRatingColors_paintWholeAlliedTanks_2020-03-04.zip</ZipFile>
-          <CRC>a1da100dafb04faa6be82bb776934ddc</CRC>
-          <Timestamp>132278263156397876</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/731680-1702-champis-tank-rating-colors\r\nhttps://wot.champi.de/\r\nhttps://wgmods.net/4045/</DevURL>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+              <Path>$.paint_ally_chassis</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+              <Path>$.paint_ally_gun</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+              <Path>$.paint_ally_hull</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+              <Path>$.paint_ally_turret</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_TankRatingColors_paintWholeEnemyTanks" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="u3mdquu36rh2o3jr" Name="Paint whole enemy tanks (rather then just turret)" Type="multi" Visible="True">
           <Size>532</Size>
-          <ZipFile>IngameInfo_TankRatingColors_paintWholeEnemyTanks_2020-03-04.zip</ZipFile>
-          <CRC>7bd78b36d57f26d2f1da63e2f772e8ab</CRC>
-          <Timestamp>132278263121251887</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/731680-1702-champis-tank-rating-colors\r\nhttps://wot.champi.de/\r\nhttps://wgmods.net/4045/</DevURL>
           <InternalNotes>its a patch: nothing to do</InternalNotes>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+              <Path>$.paint_enemy_chassis</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+              <Path>$.paint_enemy_gun</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+              <Path>$.paint_enemy_hull</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+              <Path>$.paint_enemy_turret</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+          <Path>$.enabled</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="false">
+          <Path>$.debugMode</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="false">
+          <Path>$.checkUpdate</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="IngameInfo_InBattleRating" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="oi3lixkm1ajszw14" Name="InBattle Rating" Type="multi" Visible="True">
       <Timestamp>131712253302348201</Timestamp>
@@ -1112,11 +1447,12 @@
         <Package PackageName="IngameInfo_InBattleRating_OldSkool" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="17azqxqn06baz884" Name="OldSkool" Type="single_dropdown1" Visible="True">
           <Size>54040</Size>
           <Version>1.3.2</Version>
-          <ZipFile>IngameInfo_InBattleRating_OldSkool_v1.3.2_1.15.0.0_2021-12-13.zip</ZipFile>
-          <CRC>1cb78ff306590e04bde265a3f9090127</CRC>
-          <Timestamp>132838367655298756</Timestamp>
+          <ZipFile>IngameInfo_InBattleRating_OldSkool_v1.3.2_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859223959353662</Timestamp>
           <DevURL>https://github.com/deadhat/wotmods-public\r\nhttps://promod.reidarty.de/promod</DevURL>
           <InternalNotes>https://promod.reidarty.de/promod\r\nfile brc.zip</InternalNotes>
+          <LastUpdateCheck>132859223959353662</LastUpdateCheck>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Dependencies>
             <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
@@ -1144,9 +1480,6 @@
         </Package>
         <Package PackageName="IngameInfo_InBattleRating_RaJCeL" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="8aymq0m7um5hbcxh" Name="RaJCeL" Type="single_dropdown1" Visible="True">
           <Size>560</Size>
-          <ZipFile>IngameInfo_InBattleRating_RaJCeL_2019-10-10.zip</ZipFile>
-          <CRC>31990daa0f216c5d64d139b0f6603870</CRC>
-          <Timestamp>132509556332485546</Timestamp>
           <DevURL>https://wgmods.net/2559/details\r\nhttp://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel/</DevURL>
           <InternalNotes>its a patch: nothing todo</InternalNotes>
           <Description>Mod is showing some statistics in battle and replays. Mod doesn’t need XVM to work.\r\n\r\nNot working on NA server as of 1.5.1 (06-15-2019)</Description>
@@ -1158,19 +1491,25 @@
             <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
             <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\rajcel\inBattleStatistics\statisticsCalculator.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
     <Package PackageName="IngameInfo_ExpectedVehicleValues" Enabled="True" Tags="Patch,ConfigurationFileJson,DependencyLink,OtherFiles" InstallGroup="4" PatchGroup="4" UID="3r6bdbph41vrjucw" Name="Expected Vehicle Values (MOE mod) [by {author}]" Type="multi" Visible="True">
       <Size>231851</Size>
       <Version>1.34</Version>
-      <ZipFile>IngameInfo_ExpectedVehicleValues_v1.34_1.14.1.1_2021-10-28.zip</ZipFile>
-      <CRC>f4647ee59786aeff6dc70f9e520e783d</CRC>
-      <Timestamp>132799257619571264</Timestamp>
+      <ZipFile>IngameInfo_ExpectedVehicleValues_v1.34_1.14.1.1_2021-10-28_converted.zip</ZipFile>
+      <CRC>f</CRC>
+      <Timestamp>132859224007938664</Timestamp>
       <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
       <InternalNotes>with prePatch to disable options first</InternalNotes>
       <Author>Champi</Author>
       <Maintainers>The Illusion, Willster419</Maintainers>
+      <LastUpdateCheck>132859224007938664</LastUpdateCheck>
       <Description>Shows expected vehicle damage, marks of excellence percentage and many more infos in real time during the battle. Highly customizable!</Description>
       <PopularMod>True</PopularMod>
       <ObfuscatedMod>True</ObfuscatedMod>
@@ -1199,60 +1538,118 @@
         </Package>
         <Package PackageName="IngameInfo_ExpectedVehicleValues_CFG_elektrosmoker" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="nk1cler2ydigva89" Name="elektrosmoker" Type="single_dropdown1" Visible="True">
           <Size>1004</Size>
-          <ZipFile>IngameInfo_ExpectedVehicleValues_CFG_elektrosmoker_2021-08-20.zip</ZipFile>
-          <CRC>41ea28c6c005f6efe1379211186fb0c4</CRC>
-          <Timestamp>132745437109182696</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="true">
+              <Path>$.enableMoEDisplay</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showInStatistic</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showInTechTree</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="ff0000">
+              <Path>$.colorDown</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="008bfc">
+              <Path>$.colorUnknown</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="00ff00">
+              <Path>$.colorUp</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="311">
+              <Path>$.expectedValuePanel.x</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="21">
+              <Path>$.expectedValuePanel.y</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="{icondmg}{curdmg}/{expdmg}">
+              <Path>$.messageFormat</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="999966">
+              <Path>$.c</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_ExpectedVehicleValues_enableMoEDisplay" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="098rtdx3x9ayumf8" Name="enable MoE Display" Type="multi" Visible="True">
           <Size>666</Size>
-          <ZipFile>IngameInfo_ExpectedVehicleValues_enableMoEDisplay.zip</ZipFile>
-          <CRC>083031dbf68e2dca245d5119ab5371d4</CRC>
-          <Timestamp>132645201088306018</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="true">
+              <Path>$.enableMoEDisplay</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_ExpectedVehicleValues_showInStatistic" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="unpzlhnmsscn6fxm" Name="show in statistics" Type="multi" Visible="True">
           <Size>669</Size>
-          <ZipFile>IngameInfo_ExpectedVehicleValues_showInStatistic.zip</ZipFile>
-          <CRC>9bd3171c855f6b9aecc88251d9a6534c</CRC>
-          <Timestamp>132645201139665019</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showInStatistic</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_ExpectedVehicleValues_showInTechTree" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="7cwetgtnrp456q4l" Name="show in techtree" Type="multi" Visible="True">
           <Size>663</Size>
-          <ZipFile>IngameInfo_ExpectedVehicleValues_showInTechtree.zip</ZipFile>
-          <CRC>271edb46c84c45c67a45ba3ee8b5f8d4</CRC>
-          <Timestamp>132645201180702623</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showInTechTree</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_ExpectedVehicleValues_showInTechTreeMastery" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="gtllbsl57dql93mm" Name="show moe in techtree" Type="multi" Visible="True">
           <Size>681</Size>
-          <ZipFile>IngameInfo_ExpectedVehicleValues_showInTechTreeMastery.zip</ZipFile>
-          <CRC>4acfb37fda087ed8151534709b5975bc</CRC>
-          <Timestamp>132645201219946684</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showInTechTreeMastery</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_ExpectedVehicleValues_showInBattleResults" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="iube11qwt5135l7o" Name="show in battle results" Type="multi" Visible="True">
           <Size>677</Size>
-          <ZipFile>IngameInfo_ExpectedVehicleValues_showInBattleResults.zip</ZipFile>
-          <CRC>9ec651d85e5c6c7eab7f3aabf2977e15</CRC>
-          <Timestamp>132645201263281090</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showInBattleResults</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_ExpectedVehicleValues_showInBattleHalfPercents" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="k12t1gzoqlwn62bl" Name="show half percents in battle" Type="multi" Visible="True">
           <Size>683</Size>
-          <ZipFile>IngameInfo_ExpectedVehicleValues_showInBattleHalfPercents.zip</ZipFile>
-          <CRC>c7213ffd52ed87f7a98efb8fd78a528b</CRC>
-          <Timestamp>132645201300925066</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search="" Replace="true">
+              <Path>$.showInBattleHalfPercents</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showInTechTree</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showInStatistic</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showInBattleHalfPercents</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showInBattleResults</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.enableMoEDisplay</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showInTechTreeMastery</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="IngameInfo_playersPanelDamage" Enabled="True" Tags="Patch,DependencyLink" InstallGroup="4" PatchGroup="4" UID="egk0tkp7l4ychvty" Name="Show dealt damage/tank in players panel" Type="multi" Visible="True">
       <Size>558</Size>
-      <ZipFile>IngameInfo_playersPanelDamage_2019-10-10.zip</ZipFile>
-      <CRC>6ca63c8cf65f448066af2ca24c702388</CRC>
-      <Timestamp>132509558871055334</Timestamp>
       <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-15132019-07-25-in-battle-statistics-by-rajcel</DevURL>
       <InternalNotes>its a patch: nothing todo\r\nrajcel inbattletatistics</InternalNotes>
       <Author>Rajcel</Author>
@@ -1260,6 +1657,11 @@
         <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
         <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\rajcel\inBattleStatistics\playersPanelDamage.json" Version="1" Search="" Replace="true">
+          <Path>$.enable</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="IngameInfo_RTAN" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="tpmroyt2owbb1t4q" Name="RTAN - Real Time Achievements Notifications" Type="multi" Visible="True">
       <Timestamp>131569088015621441</Timestamp>
@@ -1294,12 +1696,12 @@
     </Package>
     <Package PackageName="IngameInfo_HiddenParameters" Enabled="True" Tags="Patch,ConfigurationFileJson,Script" InstallGroup="4" PatchGroup="4" UID="3x30zumbr19ig50n" Name="Hidden parameters (Shell Info) [by {author}]" Type="multi" Visible="True">
       <Size>15668</Size>
-      <ZipFile>IngameInfo_HiddenParameters_1.15.0.0_2021-12-23.zip</ZipFile>
-      <CRC>72800b49deecea2bf376867bd8b36df2</CRC>
-      <Timestamp>132846990683064557</Timestamp>
+      <ZipFile>IngameInfo_HiddenParameters_1.15.0.0_2021-12-23_converted.zip</ZipFile>
+      <CRC>f</CRC>
+      <Timestamp>132859224166528660</Timestamp>
       <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
       <Author>RaJCeL</Author>
-      <LastUpdateCheck>132846990683119522</LastUpdateCheck>
+      <LastUpdateCheck>132859224166528660</LastUpdateCheck>
       <Description>in battle this mod shows the shell´s speed in the consumables infopanel.\r\n\r\nby RaJCeL</Description>
       <FromWGmods>True</FromWGmods>
       <Medias>
@@ -1311,59 +1713,92 @@
       <Packages>
         <Package PackageName="IngameInfo_HiddenParameters_Speed" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="gmaf7tsbqx1zgh7n" Name="Enable Shell Speed" Type="multi" Visible="True">
           <Size>527</Size>
-          <ZipFile>Ingame_Info_Hidden_Parameters_Shell_Speed_PATCH_1.8.0.0_2020-03-06.zip</ZipFile>
-          <CRC>7d5eb5affaabba993cdb4c6e343eb04d</CRC>
-          <Timestamp>132280127548446135</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
           <Description>Shows the shell speed for any shell</Description>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="false" Replace="true">
+              <Path>$.shellInfo.enableSpeed</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_HiddenParameters_DamageSpread" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="tbgufsycpuuhgtem" Name="Enable Damage Spread" Type="multi" Visible="True">
           <Size>550</Size>
-          <ZipFile>Ingame_Info_Hidden_Parameters_Damage_Spread_PATCH_1.8.0.0-2020-03-06.zip</ZipFile>
-          <CRC>1f69ca7d18733429c1f2677f4e644be6</CRC>
-          <Timestamp>132280127656096148</Timestamp>
           <Description>Shows the spread of damage for any shell</Description>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="false" Replace="true">
+              <Path>$.shellInfo.enableMinMaxDamage</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_HiddenParameters_PenSpread" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="npy27wovkdv7rmw0" Name="Enable Penetration Spread" Type="multi" Visible="True">
           <Size>546</Size>
-          <ZipFile>Ingame_Info_Hidden_Parameters_Pen_Spread_PATCH_1.8.0.0-2020-03-06.zip</ZipFile>
-          <CRC>5ceb745464b9ef492e251baf76c4e20e</CRC>
-          <Timestamp>132280127755016754</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
           <Description>Shows the spread of penetration for any shell</Description>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="false" Replace="true">
+              <Path>$.shellInfo.enableMinMaxPiercingPower</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_HiddenParameters_Explosion" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="0e4hfwuwj9oorx4z" Name="Enable Explosion Radius" Type="multi" Visible="True">
           <Size>542</Size>
-          <ZipFile>Ingame_Info_Hidden_Parameters_Explosion_Radius_PATCH_1.8.0.0-2020-03-06.zip</ZipFile>
-          <CRC>134eb641e4821fd1a9a148220cdb4653</CRC>
-          <Timestamp>132280127840308402</Timestamp>
           <Description>Shows the explosion radius for any shell</Description>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="false" Replace="true">
+              <Path>$.shellInfo.enableExplosionRadius</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_HiddenParameters_TerrainResistance" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="d3bvnv0xi5g6r9bz" Name="Enable Terrain Resistance" Type="multi" Visible="True">
           <Size>561</Size>
-          <ZipFile>Ingame_Info_Hidden_Parameters_Terrain_Resistance_PATCH_1.8.0.0-2020-03-06.zip</ZipFile>
-          <CRC>630f72030a0c936c316f3a5b8e098fbe</CRC>
-          <Timestamp>132280128552037205</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/702680-14022019-03-14-shell-speed-by-rajcel/\r\nhttps://wgmods.net/3080</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="false" Replace="true">
+              <Path>$.chassisInfo.enableTerrainResistance</Path>
+            </Patch>
+          </Patches>
         </Package>
         <Package PackageName="IngameInfo_HiddenParameters_Debug" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="7is3fzqgdpiw22tc" Name="Enable Debug" Type="multi" Visible="True">
           <Size>516</Size>
-          <ZipFile>Ingame_Info_Hidden_Parameters_Debug_PATCH_1.8.0.0-2020-03-06.zip</ZipFile>
-          <CRC>84ce80b8322abd44e90b8fd08418d95a</CRC>
-          <Timestamp>132280128079224449</Timestamp>
           <Description>Turn this on only if asked to</Description>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="false" Replace="true">
+              <Path>$.debug</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.debug</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.shellInfo.enableMinMaxDamage</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.shellInfo.enableMinMaxPiercingPower</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.shellInfo.enableSpeed</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.shellInfo.enableExplosionRadius</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.chassisInfo.enableTerrainResistance</Path>
+        </Patch>
+      </Patches>
     </Package>
     <Package PackageName="IngameInfo_TankInfoPanel" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="k7zinyxhdlad2e0c" Name="Tank Info Panel" Type="multi" Visible="True">
       <Packages>
         <Package PackageName="IngameInfo_TankInfoPanel_OldSkool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="elgpf2m074c3d6ip" Name="OldSkool" Type="single_dropdown1" Visible="True">
           <Size>118477</Size>
           <Version>1.3.1</Version>
-          <ZipFile>IngameInfo_TankInfoPanel_OldSkool_v1.3.1_1.15.0.0_2021-12-13.zip</ZipFile>
-          <CRC>a84dd8c583f8576914af4a4b0f6d505f</CRC>
-          <Timestamp>132838367679253289</Timestamp>
+          <ZipFile>IngameInfo_TankInfoPanel_OldSkool_v1.3.1_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859224276653680</Timestamp>
           <DevURL>https://github.com/deadhat/wotmods-public.git\r\nhttp://forum.worldoftanks.eu/index.php?/topic/603810-\r\nhttps://promod.reidarty.de/promod/</DevURL>
+          <LastUpdateCheck>132859224276653680</LastUpdateCheck>
           <Description>features:\n- Default layout of masheene (THX!)\n- Display of the basic values ​​of vehicles Ingame\n- By ALT button, the ability to view your own vehicle\n- Ingame configurator</Description>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Medias>
