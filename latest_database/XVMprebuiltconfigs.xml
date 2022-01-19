@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Category Name="XVM prebuilt configs" OffsetInstallGroups="True">
   <Maintainers>elektrosmoker, Willster419</Maintainers>
   <Dependencies>
@@ -7,314 +7,424 @@
     <Dependency PackageName="Dependency_XVM_FLAGS_missingPicsFix" NotFlag="False" Logic="OR" />
     <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missingPicsFix" NotFlag="False" Logic="OR" />
   </Dependencies>
-  <Package PackageName="XVMPrebuiltConfigs_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="855gkql972me13bn" Name="1 - XVM Default" Type="single1" Visible="True">
-    <Size>1101</Size>
-    <ZipFile>XVM_Prebuilt_Configs_Default_2017_03-24.zip</ZipFile>
-    <CRC>7bb0408f6500065a9eb85818c46a1680</CRC>
-    <DevURL>http://www.modxvm.com/en/</DevURL>
-    <Maintainers>elektrosmoker, Willster419</Maintainers>
-    <Description>The Default Config that comes with XVM</Description>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lucvspr97yew1fim" Name="2 - Relhax developers:" Type="single1" Visible="True">
-    <CRC>b56db18e93b2f3eb9fa0ce862d8f5641</CRC>
-    <Timestamp>131980179882351364</Timestamp>
-    <Maintainers>elektrosmoker, Willster419; VA</Maintainers>
-    <Dependencies>
-      <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
-    </Dependencies>
-    <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_dirty20067" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sy0hssnt1e83cj7z" Name="dirty20067 v{version}" Type="single_dropdown1" Visible="True">
-        <Size>385780</Size>
-        <Version>2021-03-24</Version>
-        <ZipFile>XVMPrebuiltConfigs_dirty20067_2021-08-11.zip</ZipFile>
-        <CRC>d7334495fafc5ddaad51af586354d46e</CRC>
-        <Timestamp>132731674722194322</Timestamp>
-        <Description>made with xvm cfg builder</Description>
-        <Dependencies>
-          <Dependency PackageName="Dependency_XVM_PY_modChatColor" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_elektrosmoker" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="5n7w0stu0a1lcvez" Name="elektrosmoker v{version} [including crosshair mod]" Type="single_dropdown1" Visible="True">
-        <Size>24924483</Size>
-        <Version>2021-08-28</Version>
-        <ZipFile>XVMPrebuiltConfigs_elektrosmoker_2021-08-28.zip</ZipFile>
-        <CRC>bd23ced122da189fb6ca059158882d58</CRC>
-        <Timestamp>132746480090695307</Timestamp>
-        <DevURL>https://github.com/elektrosmoker/XVMPrebuiltOwn</DevURL>
-        <Description>One of the biggest XVM prebuilts around, \nincluding most of the options provided in the xvm config builder section\n----------------------------------------------------------------------------------------------------------------\nNOT fully compatible to XVM_Config_Builder (only partially)\n\nKudos go out to:\n\nOMC (Grumpelumpf), \nnight_dragon_on, \nktulho,  \nDiclovit, \nOldSkool, \nSolo,\nRess, \nAslain, \nJ1mb0, \nHeliomalt, \nSmashPuppet, \nKornet_WA, \nMIAPAK, \nKotyarko_O, \nTornado_Odan_Rot,</Description>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_02.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_03.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_04.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_05.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_06.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_07.jpg" MediaType="Picture" />
-        </Medias>
-        <ConflictingPackages>XVMconfigBuilder_GLOBAL</ConflictingPackages>
-        <Dependencies>
-          <Dependency PackageName="Dependency_XVM_PY_debugPanel" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_beginBattle" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_years" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_hull" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_modWN8Chance" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_borderColor" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_infoPanel" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_modChatColor" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_safeShot" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_NDOscripts" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_battleMessages" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_infoAutoAim" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_battleTimer" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_AssistLog" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_Visitor_TT1_BRK" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_NDO" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_KAPb14" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_Gunplay" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_Calligraph" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_Book_Antiqua" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_sphere" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_displayingItems" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_repairControl" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_colorMacros" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_modesVehicle" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_quantityShells" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_infoChargedShell" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_targetInfo" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_anglesAiming" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_reloading" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_IsAnonym" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_aiming" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_markerPosition" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_crosshair" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Fonts_Dinpro" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_RelhaxLoginCredits" NotFlag="True" Logic="AND" />
-          <Dependency PackageName="Dependency_Sounds_XMLmainSoundModes" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_elevation" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_playerMarker" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_sixthSense" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_maps" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_rewindRepeat" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_turret" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_hideBattleChat" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_PY_quicklyLeave" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_gunDmg" NotFlag="False" Logic="OR" />
-          <Dependency PackageName="Dependency_XVM_XC_gunPen" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_Willster419" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cqvi0vpeuqvsnz3c" Name="Willster419 v{version}" Type="single_dropdown1" Visible="True">
-        <Size>102467</Size>
-        <Version>2021-03-24</Version>
-        <ZipFile>XVMPrebuiltConfigs_Willster419_2021-08-11.zip</ZipFile>
-        <CRC>1463bccbdb0fb6e9ffe4ea0c00baf735</CRC>
-        <Timestamp>132731674996024307</Timestamp>
-        <DevURL>https://github.com/Willster419/xvmConfig</DevURL>
-        <Description>Config by Willster419. Originaly based on stock xvm config.\nIncludes an hp pool and minimap hp circles</Description>
-        <UpdateComment>2020-08-14: re-synced config options with xvm template\r\n2019-11-10: finally fixed the issue with the level icons\n2019-03-23: updated dmg/hitlog.xc\n2019-03-13: removed vehiclenames.xc\n2019-02-27: fix [ "w"-&gt; "width" ]\n2019-02-09: repairTimeTracks -&gt; repairTimeComplex\n2018-12-16: re-synced config options iwth xvm template. Fixed alignment of players panel, statistic form (tab), battle loading screen\n2018-09-01: re-synced config options with xvm template. Used refs for markers of player and squadman rather than having multiple definitions of the same thing.\n2018-07-04: added new vehicle names\n2018-06-23: re-synced config options with xvm template\n2018-03-23: re-synced config options with xvm template\n2017-11-15: moved hp cirlces from always on to on when left alt pressed (fps issues)\n2017-10-01: fixed hp circles to actually by hp circles\n2017-09-06: fixed capture bar issues\n2017-06-03: changed clock from 24 hour to 12 hour format with am/pm marker. Disabled blocking of stock WoT damage log. Disabled xvm eff in battle.</UpdateComment>
-        <Medias>
-          <Media URL="http://fs5.directupload.net/images/user/160816/y76dgx3v.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/160816/igjoy9er.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/160816/ecpzcljv.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/170105/hqdrzc8g.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/170105/57effbeu.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/170105/iy78ukly.jpg" MediaType="Picture" />
-        </Medias>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_disableXVMGunSights" Enabled="False" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="64cqszfxp9xhzslp" Name="disable elektrosmoker´s xvm gunsights" Type="multi" Visible="True">
-        <Size>861</Size>
-        <ZipFile>XVMPrebuiltConfigs_RelhaxDevs_disableXVMGunSights_2020-02-23.zip</ZipFile>
-        <CRC>24ea6b7a5278a6850fd95bc810c0197e</CRC>
-        <Timestamp>132269618092560009</Timestamp>
-        <Description>This disables the gunsights in xvm prebuilts to let you choose a different one at the crosshair tab. \r\n\r\nPrebuilts that currently use a modified crosshair are:\r\n- elektrosmoker</Description>
-      </Package>
-    </Packages>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_OMC" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jtj50ylyo5pzz4sp" Name="3 - OMC v{version}" Type="single1" Visible="True">
-    <Size>1094004</Size>
-    <Version>2021-03-24</Version>
-    <ZipFile>XVMPrebuiltConfigs_OMC_REBUILT_2021-08-11.zip</ZipFile>
-    <CRC>c8b7f3f1aff9d8dad6ce4a4e1cbbc64e</CRC>
-    <Timestamp>132731675080254312</Timestamp>
-    <DevURL>https://relhaxmodpack.com/</DevURL>
-    <Maintainers>elektrosmoker, Willster419</Maintainers>
-    <Description>OMC XVM Config. Offers many of the options that were first in the OMC config. Maintained by Relhax Modpack Team</Description>
-    <UpdateComment>2019-08-29: fixed issues with markers, hitlog\r\n2019-05-17: fixed total eff (FL)\r\n2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc\n2018-09-01: Rebuilt entire config to match xvm template standards</UpdateComment>
-    <Medias>
-      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_OMC_2.jpg" MediaType="Picture" />
-      <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_OMC_1.png" MediaType="Picture" />
-    </Medias>
-    <Dependencies>
-      <Dependency PackageName="Dependency_Fonts_Inconsolata" NotFlag="False" Logic="OR" />
-      <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
-    </Dependencies>
-    <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_OMC_enableFocusShield" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="wipj8yszn2hhzg0p" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
-        <Size>495</Size>
-        <CRC>f</CRC>
-        <Timestamp>132066329239611191</Timestamp>
-        <Dependencies>
-          <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableFocusShield" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMC_enableDamageImages" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="qx7r02hiilj6a9i2" Name="Enable Damage Images" Type="multi" Visible="True">
-        <Size>495</Size>
-        <CRC>f</CRC>
-        <Timestamp>132066329264125587</Timestamp>
-        <Dependencies>
-          <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableDamageImages" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMC_enableTurretMarkers" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="3md681ojhhcoakp2" Name="Enable Turret Markers" Type="multi" Visible="True">
-        <Size>510</Size>
-        <CRC>f</CRC>
-        <Timestamp>132066329286346123</Timestamp>
-        <Dependencies>
-          <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableTurretMarkers" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMC_enableXMQP" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="gbklg0ukhe46aww1" Name="Enable XMQP in markers" Type="multi" Visible="True">
-        <Size>480</Size>
-        <CRC>f</CRC>
-        <Timestamp>132066329311219562</Timestamp>
-        <Dependencies>
-          <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableXMQP" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_OMC_enableQuickStats" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ap1s84k3bx6vlpef" Name="Enable Quick Color Marker (QuickStats)" Type="multi" Visible="True">
-        <Size>490</Size>
-        <CRC>f</CRC>
-        <Timestamp>132066329487577626</Timestamp>
-        <Description>from left to right: WN8, EFF, global winrate, winrate on the current tank</Description>
-        <Dependencies>
-          <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableQuikstat" NotFlag="False" Logic="OR" />
-        </Dependencies>
-      </Package>
-    </Packages>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_PURE" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ne87g4q4btydl1le" Name="4 - PURE - only stats/colors v{version}" Type="single1" Visible="True">
-    <Size>89567</Size>
-    <Version>2021-03-24</Version>
-    <ZipFile>XVMPrebuiltConfigs_PURE_2021-08-11.zip</ZipFile>
-    <CRC>bed0a45e238bec9581a0443e269c2508</CRC>
-    <Timestamp>132731675089054299</Timestamp>
-    <DevURL>https://wgmods.net/3802/</DevURL>
-    <InternalNotes>Use the xvmPrebuiltConfigs repo to determine if updates https://github.com/Relhax-Modpack-Team/xvmPrebuiltConfigs</InternalNotes>
-    <Maintainers>elektrosmoker, Willster419</Maintainers>
-    <Description>looks like vanilla - but with statistics</Description>
-    <Dependencies>
-      <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
-    </Dependencies>
-  </Package>
-  <Package PackageName="XVMPrebuiltConfigs_VA" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="htpe88gn6c03wt3r" Name="XVM prebuilt configurations by known Streamers/Modders" Type="single1" Visible="True">
-    <CRC>f</CRC>
-    <Timestamp>132161401405627541</Timestamp>
-    <Maintainers>elektrosmoker, Willster419</Maintainers>
-    <Dependencies>
-      <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
-    </Dependencies>
-    <Packages>
-      <Package PackageName="XVMPrebuiltConfigs_VA_Aslain" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="uiwtg7mo59skw5ar" Name="Aslain v{version}" Type="single_dropdown1" Visible="True">
-        <Size>285119</Size>
-        <Version>2021-03-24</Version>
-        <ZipFile>XVMPrebuiltConfigs_Aslain_2021-08-11.zip</ZipFile>
-        <CRC>d7309ff77ea6563c482d6d843e948090</CRC>
-        <Timestamp>132731675152224304</Timestamp>
-        <DevURL>http://aslain.com/index.php?/topic/13-aslains-xvm-mod-modpack-installer-wpicture-sound-preview/\r\nhttps://wgmods.net/46/</DevURL>
-        <InternalNotes>Direct export from his installer. Selected "XVM config by aslain" from the combobox at the top</InternalNotes>
-        <Description>Aslain´s Config</Description>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_VA_Bones" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7738o6sp45l2whhr" Name="Bones v{version}" Type="single_dropdown1" Visible="True">
-        <Size>94185</Size>
-        <Version>2021-03-24</Version>
-        <ZipFile>XVMPrebuiltConfigs_Bones_2021-08-11.zip</ZipFile>
-        <CRC>0270d530c149fd41cc8747859f2320e1</CRC>
-        <Timestamp>132731675203684303</Timestamp>
-        <DevURL>http://forum.worldoftanks.com/index.php?/topic/316189-</DevURL>
-        <Description>Bones's Config\n\nwith HP on minimap</Description>
-        <UpdateComment>2019-05-17: hitlog; total ef\r\n2019-03-23:hit/dmf-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
-        <Medias>
-          <Media URL="http://fs1.directupload.net/images/user/150113/qpgv6v4f.jpg" MediaType="Picture" />
-          <Media URL="http://fs2.directupload.net/images/user/150113/xcwnuz54.jpg" MediaType="Picture" />
-          <Media URL="http://fs2.directupload.net/images/user/150113/s5blk6vz.jpg" MediaType="Picture" />
-          <Media URL="http://fs2.directupload.net/images/user/150113/3aeri5pj.jpg" MediaType="Picture" />
-          <Media URL="http://fs5.directupload.net/images/user/160816/pupyyjmp.jpg" MediaType="Picture" />
-          <Media URL="http://i.imgur.com/4kAPdZQ.jpg" MediaType="Picture" />
-        </Medias>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_VA_Druid" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1lkffai8zoms7az4" Name="Druid v{version}" Type="single_dropdown1" Visible="True">
-        <Size>101392</Size>
-        <Version>2021-03-24</Version>
-        <ZipFile>XVMPrebuiltConfigs_Druid_2021-08-11.zip</ZipFile>
-        <CRC>92702af74a818d938385b9df6ec86bb7</CRC>
-        <Timestamp>132731675256489485</Timestamp>
-        <DevURL>http://forum.worldoftanks.com/index.php?/topic/390563-</DevURL>
-        <Deprecated>True</Deprecated>
-        <UpdateComment>2019-03-23:hit/dmg-log\n2019-03-13: removed vehiclenames.xc\n2019-01-06: renewed markersalivenormal.xc\n                    fixed overlapping totalefficiency/hitlog\n2018-09-01: Updated to xvm template stnadard</UpdateComment>
-        <Medias>
-          <Media URL="http://i.imgur.com/9akX8VH.jpg" MediaType="Picture" />
-          <Media URL="http://i.imgur.com/e4WkGAf.jpg" MediaType="Picture" />
-        </Medias>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_VA_J1mB0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sh33nggcmg3ouvlu" Name="J1mB0 v{version}" Type="single_dropdown1" Visible="True">
-        <Size>161449</Size>
-        <Version>2021-03-24</Version>
-        <ZipFile>XVMPrebuiltConfigs_J1mB0_2021-08-11.zip</ZipFile>
-        <CRC>a1a83e0801533bebaac5fe384d5206e0</CRC>
-        <Timestamp>132731675304134646</Timestamp>
-        <Description>J1mB0's Config, updated for modern xvm configuration standards by the Relhax Modpack team.</Description>
-        <UpdateComment>2019-03-23: hit7dm,g-log\n2019-03-13: removed vehiclenames.xc\n2018-09-01: Updated for new xvm config templage standards</UpdateComment>
-        <Medias>
-          <Media URL="http://i.imgur.com/2bm1H04.png" MediaType="Picture" />
-          <Media URL="http://i.imgur.com/r1BsiSL.png" MediaType="Picture" />
-          <Media URL="http://i.imgur.com/mytpRoG.png" MediaType="Picture" />
-          <Media URL="http://i.imgur.com/ar2TFi3.png" MediaType="Picture" />
-        </Medias>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_VA_Oldskool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hvgw3fsel8onuizt" Name="Oldskool (ProMod) v{version}" Type="single_dropdown1" Visible="True">
-        <Size>84812</Size>
-        <Version>2021-03-24</Version>
-        <ZipFile>XVMPrebuiltConfigs_OldSkool_2021-08-11.zip</ZipFile>
-        <CRC>8ba088ba53f32c030cc1ec06f0ec6d90</CRC>
-        <Timestamp>132731675437434648</Timestamp>
-        <DevURL>https://www.oldskool.vip/\r\nhttps://wgmods.net/532/</DevURL>
-        <InternalNotes>in friendsmarkers mod / promod / oldskool mods\r\n\r\nWe seem to have direct access to his mods without needing WGmods or his modpack installer.\r\n\r\nOne of his mirror download sites (https://promod.reidarty.de) allows https file browsing. For example, we can directly download from the following URL:\r\n\r\nhttps://promod.reidarty.de/promod/1.9.0.3/\r\n\r\nfor this mod, I used xvmpromod.zip and xvm.zip to compare with elektro's xvm prebuild configs repo</InternalNotes>
-        <Description>Oldskool´s XVM Config extracted from his ProMod-Modpack.</Description>
-        <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
-      </Package>
-      <Package PackageName="XVMPrebuiltConfigs_VA_quickybaby" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cay4vjixgsqd5bh7" Name="QuickyBaby v{version}" Type="single_dropdown1" Visible="True">
-        <Size>118315</Size>
-        <Version>2021-03-24</Version>
-        <ZipFile>XVMPrebuiltConfigs_QuickyBaby_2021-08-11.zip</ZipFile>
-        <CRC>65529451dfebbc6e1311ac9861b4c7db</CRC>
-        <Timestamp>132731675489619828</Timestamp>
-        <DevURL>http://soloviyko.com/solos-modpack/</DevURL>
-        <InternalNotes>exported from solo's modpack</InternalNotes>
-        <Description>Want to play as good as Quickybaby? Install his XVM config and get in the game!</Description>
-        <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_6.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_1.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_2.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_3.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_4.png" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_5.png" MediaType="Picture" />
-        </Medias>
-      </Package>
-    </Packages>
-  </Package>
+  <Packages>
+    <Package PackageName="XVMPrebuiltConfigs_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="855gkql972me13bn" Name="1 - XVM Default" Type="single1" Visible="True">
+      <Size>1101</Size>
+      <ZipFile>XVM_Prebuilt_Configs_Default_2017_03-24.zip</ZipFile>
+      <CRC>7bb0408f6500065a9eb85818c46a1680</CRC>
+      <DevURL>http://www.modxvm.com/en/</DevURL>
+      <Maintainers>elektrosmoker, Willster419</Maintainers>
+      <Description>The Default Config that comes with XVM</Description>
+    </Package>
+    <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lucvspr97yew1fim" Name="2 - Relhax developers:" Type="single1" Visible="True">
+      <CRC>b56db18e93b2f3eb9fa0ce862d8f5641</CRC>
+      <Timestamp>131980179882351364</Timestamp>
+      <Maintainers>elektrosmoker, Willster419; VA</Maintainers>
+      <Dependencies>
+        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
+      </Dependencies>
+      <Packages>
+        <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_dirty20067" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sy0hssnt1e83cj7z" Name="dirty20067 v{version}" Type="single_dropdown1" Visible="True">
+          <Size>385780</Size>
+          <Version>2021-03-24</Version>
+          <ZipFile>XVMPrebuiltConfigs_dirty20067_2021-08-11.zip</ZipFile>
+          <CRC>d7334495fafc5ddaad51af586354d46e</CRC>
+          <Timestamp>132731674722194322</Timestamp>
+          <Description>made with xvm cfg builder</Description>
+          <Dependencies>
+            <Dependency PackageName="Dependency_XVM_PY_modChatColor" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
+          </Dependencies>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_elektrosmoker" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="5n7w0stu0a1lcvez" Name="elektrosmoker v{version} [including crosshair mod]" Type="single_dropdown1" Visible="True">
+          <Size>24924483</Size>
+          <Version>2021-08-28</Version>
+          <ZipFile>XVMPrebuiltConfigs_elektrosmoker_2021-08-28.zip</ZipFile>
+          <CRC>bd23ced122da189fb6ca059158882d58</CRC>
+          <Timestamp>132746480090695307</Timestamp>
+          <DevURL>https://github.com/elektrosmoker/XVMPrebuiltOwn</DevURL>
+          <Description>One of the biggest XVM prebuilts around, \nincluding most of the options provided in the xvm config builder section\n----------------------------------------------------------------------------------------------------------------\nNOT fully compatible to XVM_Config_Builder (only partially)\n\nKudos go out to:\n\nOMC (Grumpelumpf), \nnight_dragon_on, \nktulho,  \nDiclovit, \nOldSkool, \nSolo,\nRess, \nAslain, \nJ1mb0, \nHeliomalt, \nSmashPuppet, \nKornet_WA, \nMIAPAK, \nKotyarko_O, \nTornado_Odan_Rot,</Description>
+          <Medias>
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_01.jpg" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_02.jpg" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_03.jpg" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_04.jpg" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_05.jpg" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_06.jpg" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_elektrosmoker/XVM_Prebuilt_Configs_elektrosmoker_07.jpg" />
+          </Medias>
+          <ConflictingPackages>XVMconfigBuilder_GLOBAL</ConflictingPackages>
+          <Dependencies>
+            <Dependency PackageName="Dependency_XVM_PY_debugPanel" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_beginBattle" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_XC_years" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_XC_hull" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_modWN8Chance" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_borderColor" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_infoPanel" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_modChatColor" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_safeShot" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_NDOscripts" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_battleMessages" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_infoAutoAim" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_battleTimer" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_AssistLog" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Fonts_Visitor_TT1_BRK" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Fonts_NDO" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Fonts_KAPb14" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Fonts_Gunplay" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Fonts_Calligraph" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Fonts_Book_Antiqua" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_sphere" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_displayingItems" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_repairControl" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_colorMacros" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_modesVehicle" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_quantityShells" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_infoChargedShell" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_targetInfo" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_anglesAiming" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_reloading" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_IsAnonym" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_aiming" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_markerPosition" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_crosshair" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Fonts_Dinpro" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_XC_RelhaxLoginCredits" NotFlag="True" Logic="AND" />
+            <Dependency PackageName="Dependency_Sounds_XMLmainSoundModes" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_XC_elevation" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_playerMarker" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_sixthSense" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_maps" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_rewindRepeat" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_XC_turret" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_hideBattleChat" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_quicklyLeave" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_XC_gunDmg" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_XC_gunPen" NotFlag="False" Logic="OR" />
+          </Dependencies>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_Willster419" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cqvi0vpeuqvsnz3c" Name="Willster419 v{version}" Type="single_dropdown1" Visible="True">
+          <Size>102467</Size>
+          <Version>2021-03-24</Version>
+          <ZipFile>XVMPrebuiltConfigs_Willster419_2021-08-11_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859205705233668</Timestamp>
+          <DevURL>https://github.com/Willster419/xvmConfig</DevURL>
+          <LastUpdateCheck>132859205705233668</LastUpdateCheck>
+          <Description>Config by Willster419. Originaly based on stock xvm config.\nIncludes an hp pool and minimap hp circles</Description>
+          <UpdateComment>2020-08-14: re-synced config options with xvm template\r\n2019-11-10: finally fixed the issue with the level icons\n2019-03-23: updated dmg/hitlog.xc\n2019-03-13: removed vehiclenames.xc\n2019-02-27: fix [ "w"-&gt; "width" ]\n2019-02-09: repairTimeTracks -&gt; repairTimeComplex\n2018-12-16: re-synced config options iwth xvm template. Fixed alignment of players panel, statistic form (tab), battle loading screen\n2018-09-01: re-synced config options with xvm template. Used refs for markers of player and squadman rather than having multiple definitions of the same thing.\n2018-07-04: added new vehicle names\n2018-06-23: re-synced config options with xvm template\n2018-03-23: re-synced config options with xvm template\n2017-11-15: moved hp cirlces from always on to on when left alt pressed (fps issues)\n2017-10-01: fixed hp circles to actually by hp circles\n2017-09-06: fixed capture bar issues\n2017-06-03: changed clock from 24 hour to 12 hour format with am/pm marker. Disabled blocking of stock WoT damage log. Disabled xvm eff in battle.</UpdateComment>
+          <Medias>
+            <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/160816/y76dgx3v.jpg" />
+            <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/160816/igjoy9er.jpg" />
+            <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/160816/ecpzcljv.jpg" />
+            <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/170105/hqdrzc8g.jpg" />
+            <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/170105/57effbeu.jpg" />
+            <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/170105/iy78ukly.jpg" />
+          </Medias>
+          <Patches>
+            <Patch Type="regx" Mode="" PatchPath="app" File="\res_mods\configs\xvm\py_macro\xvm\total_hp.py" Version="1" Search="\&quot;&lt;font color='#%s'&gt;&amp;nbsp;%6s %s %-6s&amp;nbsp;&lt;\/font&gt;\&quot; % \(color\(\), ally\(\), sign\(\), enemy\(\)\)" Replace="panel.teams_totalhp[0]-panel.teams_totalhp[1]" />
+          </Patches>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_disableXVMGunSights" Enabled="False" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="64cqszfxp9xhzslp" Name="disable elektrosmoker´s xvm gunsights" Type="multi" Visible="True">
+          <Size>861</Size>
+          <Description>This disables the gunsights in xvm prebuilts to let you choose a different one at the crosshair tab. \r\n\r\nPrebuilts that currently use a modified crosshair are:\r\n- elektrosmoker</Description>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.cameraMode.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.element.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.name.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.infoTank.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.infoTTX.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.visionTTX.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.shells.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.shells_types.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.shells_speed.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.reloadBar_line.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.reload_percent.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.distances.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.timeReloadClip.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.baseTimeReload.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.timeReload.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.piercingActual_arty.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.timeAIM_arty.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.distances_arty.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.timeFlight_arty.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.reloadBar_arty.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.angleAimingLeft.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.angleAimingRight.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.angleAimingBottom.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\battleLabelSight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.def.angleAimingTop.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\sight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.sight.sphereDispersion.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\sight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.sight.hideSightAfterDeath</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\sight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.sight.removeIndicator</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\sight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.sight.removeCentralMarker</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\sight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.sight.removeLoad</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\sight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.sight.removeCondition</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\sight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.sight.removeContainers</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\sight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.sight.removeLoadingTimer</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\sight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.sight.removeZoomIndicator</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\sight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.sight.removeDistance</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\elektrosmoker\sight.xc" Version="1" Search="true" Replace="false">
+              <Path>$.sight.removeQuantityShells</Path>
+            </Patch>
+          </Patches>
+        </Package>
+      </Packages>
+    </Package>
+    <Package PackageName="XVMPrebuiltConfigs_OMC" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jtj50ylyo5pzz4sp" Name="3 - OMC v{version}" Type="single1" Visible="True">
+      <Size>1094004</Size>
+      <Version>2021-03-24</Version>
+      <ZipFile>XVMPrebuiltConfigs_OMC_REBUILT_2021-08-11.zip</ZipFile>
+      <CRC>c8b7f3f1aff9d8dad6ce4a4e1cbbc64e</CRC>
+      <Timestamp>132731675080254312</Timestamp>
+      <DevURL>https://relhaxmodpack.com/</DevURL>
+      <Maintainers>elektrosmoker, Willster419</Maintainers>
+      <Description>OMC XVM Config. Offers many of the options that were first in the OMC config. Maintained by Relhax Modpack Team</Description>
+      <UpdateComment>2019-08-29: fixed issues with markers, hitlog\r\n2019-05-17: fixed total eff (FL)\r\n2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc\n2018-09-01: Rebuilt entire config to match xvm template standards</UpdateComment>
+      <Medias>
+        <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_OMC_2.jpg" />
+        <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_OMC_1.png" />
+      </Medias>
+      <Dependencies>
+        <Dependency PackageName="Dependency_Fonts_Inconsolata" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
+      </Dependencies>
+      <Packages>
+        <Package PackageName="XVMPrebuiltConfigs_OMC_enableFocusShield" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="wipj8yszn2hhzg0p" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
+          <Size>495</Size>
+          <CRC>f</CRC>
+          <Timestamp>132066329239611191</Timestamp>
+          <Dependencies>
+            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableFocusShield" NotFlag="False" Logic="OR" />
+          </Dependencies>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_OMC_enableDamageImages" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="qx7r02hiilj6a9i2" Name="Enable Damage Images" Type="multi" Visible="True">
+          <Size>495</Size>
+          <CRC>f</CRC>
+          <Timestamp>132066329264125587</Timestamp>
+          <Dependencies>
+            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableDamageImages" NotFlag="False" Logic="OR" />
+          </Dependencies>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_OMC_enableTurretMarkers" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="3md681ojhhcoakp2" Name="Enable Turret Markers" Type="multi" Visible="True">
+          <Size>510</Size>
+          <CRC>f</CRC>
+          <Timestamp>132066329286346123</Timestamp>
+          <Dependencies>
+            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableTurretMarkers" NotFlag="False" Logic="OR" />
+          </Dependencies>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_OMC_enableXMQP" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="gbklg0ukhe46aww1" Name="Enable XMQP in markers" Type="multi" Visible="True">
+          <Size>480</Size>
+          <CRC>f</CRC>
+          <Timestamp>132066329311219562</Timestamp>
+          <Dependencies>
+            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableXMQP" NotFlag="False" Logic="OR" />
+          </Dependencies>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_OMC_enableQuickStats" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ap1s84k3bx6vlpef" Name="Enable Quick Color Marker (QuickStats)" Type="multi" Visible="True">
+          <Size>490</Size>
+          <CRC>f</CRC>
+          <Timestamp>132066329487577626</Timestamp>
+          <Description>from left to right: WN8, EFF, global winrate, winrate on the current tank</Description>
+          <Dependencies>
+            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableQuikstat" NotFlag="False" Logic="OR" />
+          </Dependencies>
+        </Package>
+      </Packages>
+    </Package>
+    <Package PackageName="XVMPrebuiltConfigs_PURE" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ne87g4q4btydl1le" Name="4 - PURE - only stats/colors v{version}" Type="single1" Visible="True">
+      <Size>89567</Size>
+      <Version>2021-03-24</Version>
+      <ZipFile>XVMPrebuiltConfigs_PURE_2021-08-11.zip</ZipFile>
+      <CRC>bed0a45e238bec9581a0443e269c2508</CRC>
+      <Timestamp>132731675089054299</Timestamp>
+      <DevURL>https://wgmods.net/3802/</DevURL>
+      <InternalNotes>Use the xvmPrebuiltConfigs repo to determine if updates https://github.com/Relhax-Modpack-Team/xvmPrebuiltConfigs</InternalNotes>
+      <Maintainers>elektrosmoker, Willster419</Maintainers>
+      <Description>looks like vanilla - but with statistics</Description>
+      <Dependencies>
+        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
+      </Dependencies>
+    </Package>
+    <Package PackageName="XVMPrebuiltConfigs_VA" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="htpe88gn6c03wt3r" Name="XVM prebuilt configurations by known Streamers/Modders" Type="single1" Visible="True">
+      <CRC>f</CRC>
+      <Timestamp>132161401405627541</Timestamp>
+      <Maintainers>elektrosmoker, Willster419</Maintainers>
+      <Dependencies>
+        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
+      </Dependencies>
+      <Packages>
+        <Package PackageName="XVMPrebuiltConfigs_VA_Aslain" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="uiwtg7mo59skw5ar" Name="Aslain v{version}" Type="single_dropdown1" Visible="True">
+          <Size>285119</Size>
+          <Version>2021-03-24</Version>
+          <ZipFile>XVMPrebuiltConfigs_Aslain_2021-08-11.zip</ZipFile>
+          <CRC>d7309ff77ea6563c482d6d843e948090</CRC>
+          <Timestamp>132731675152224304</Timestamp>
+          <DevURL>http://aslain.com/index.php?/topic/13-aslains-xvm-mod-modpack-installer-wpicture-sound-preview/\r\nhttps://wgmods.net/46/</DevURL>
+          <InternalNotes>Direct export from his installer. Selected "XVM config by aslain" from the combobox at the top</InternalNotes>
+          <Description>Aslain´s Config</Description>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_VA_Bones" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7738o6sp45l2whhr" Name="Bones v{version}" Type="single_dropdown1" Visible="True">
+          <Size>94185</Size>
+          <Version>2021-03-24</Version>
+          <ZipFile>XVMPrebuiltConfigs_Bones_2021-08-11.zip</ZipFile>
+          <CRC>0270d530c149fd41cc8747859f2320e1</CRC>
+          <Timestamp>132731675203684303</Timestamp>
+          <DevURL>http://forum.worldoftanks.com/index.php?/topic/316189-</DevURL>
+          <Description>Bones's Config\n\nwith HP on minimap</Description>
+          <UpdateComment>2019-05-17: hitlog; total ef\r\n2019-03-23:hit/dmf-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
+          <Medias>
+            <Media MediaType="Picture" URL="http://fs1.directupload.net/images/user/150113/qpgv6v4f.jpg" />
+            <Media MediaType="Picture" URL="http://fs2.directupload.net/images/user/150113/xcwnuz54.jpg" />
+            <Media MediaType="Picture" URL="http://fs2.directupload.net/images/user/150113/s5blk6vz.jpg" />
+            <Media MediaType="Picture" URL="http://fs2.directupload.net/images/user/150113/3aeri5pj.jpg" />
+            <Media MediaType="Picture" URL="http://fs5.directupload.net/images/user/160816/pupyyjmp.jpg" />
+            <Media MediaType="Picture" URL="http://i.imgur.com/4kAPdZQ.jpg" />
+          </Medias>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_VA_Druid" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1lkffai8zoms7az4" Name="Druid v{version}" Type="single_dropdown1" Visible="True">
+          <Size>101392</Size>
+          <Version>2021-03-24</Version>
+          <ZipFile>XVMPrebuiltConfigs_Druid_2021-08-11.zip</ZipFile>
+          <CRC>92702af74a818d938385b9df6ec86bb7</CRC>
+          <Timestamp>132731675256489485</Timestamp>
+          <DevURL>http://forum.worldoftanks.com/index.php?/topic/390563-</DevURL>
+          <Deprecated>True</Deprecated>
+          <UpdateComment>2019-03-23:hit/dmg-log\n2019-03-13: removed vehiclenames.xc\n2019-01-06: renewed markersalivenormal.xc\n                    fixed overlapping totalefficiency/hitlog\n2018-09-01: Updated to xvm template stnadard</UpdateComment>
+          <Medias>
+            <Media MediaType="Picture" URL="http://i.imgur.com/9akX8VH.jpg" />
+            <Media MediaType="Picture" URL="http://i.imgur.com/e4WkGAf.jpg" />
+          </Medias>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_VA_J1mB0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sh33nggcmg3ouvlu" Name="J1mB0 v{version}" Type="single_dropdown1" Visible="True">
+          <Size>161449</Size>
+          <Version>2021-03-24</Version>
+          <ZipFile>XVMPrebuiltConfigs_J1mB0_2021-08-11.zip</ZipFile>
+          <CRC>a1a83e0801533bebaac5fe384d5206e0</CRC>
+          <Timestamp>132731675304134646</Timestamp>
+          <Description>J1mB0's Config, updated for modern xvm configuration standards by the Relhax Modpack team.</Description>
+          <UpdateComment>2019-03-23: hit7dm,g-log\n2019-03-13: removed vehiclenames.xc\n2018-09-01: Updated for new xvm config templage standards</UpdateComment>
+          <Medias>
+            <Media MediaType="Picture" URL="http://i.imgur.com/2bm1H04.png" />
+            <Media MediaType="Picture" URL="http://i.imgur.com/r1BsiSL.png" />
+            <Media MediaType="Picture" URL="http://i.imgur.com/mytpRoG.png" />
+            <Media MediaType="Picture" URL="http://i.imgur.com/ar2TFi3.png" />
+          </Medias>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_VA_Oldskool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hvgw3fsel8onuizt" Name="Oldskool (ProMod) v{version}" Type="single_dropdown1" Visible="True">
+          <Size>84812</Size>
+          <Version>2021-03-24</Version>
+          <ZipFile>XVMPrebuiltConfigs_OldSkool_2021-08-11.zip</ZipFile>
+          <CRC>8ba088ba53f32c030cc1ec06f0ec6d90</CRC>
+          <Timestamp>132731675437434648</Timestamp>
+          <DevURL>https://www.oldskool.vip/\r\nhttps://wgmods.net/532/</DevURL>
+          <InternalNotes>in friendsmarkers mod / promod / oldskool mods\r\n\r\nWe seem to have direct access to his mods without needing WGmods or his modpack installer.\r\n\r\nOne of his mirror download sites (https://promod.reidarty.de) allows https file browsing. For example, we can directly download from the following URL:\r\n\r\nhttps://promod.reidarty.de/promod/1.9.0.3/\r\n\r\nfor this mod, I used xvmpromod.zip and xvm.zip to compare with elektro's xvm prebuild configs repo</InternalNotes>
+          <Description>Oldskool´s XVM Config extracted from his ProMod-Modpack.</Description>
+          <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
+        </Package>
+        <Package PackageName="XVMPrebuiltConfigs_VA_quickybaby" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cay4vjixgsqd5bh7" Name="QuickyBaby v{version}" Type="single_dropdown1" Visible="True">
+          <Size>118315</Size>
+          <Version>2021-03-24</Version>
+          <ZipFile>XVMPrebuiltConfigs_QuickyBaby_2021-08-11.zip</ZipFile>
+          <CRC>65529451dfebbc6e1311ac9861b4c7db</CRC>
+          <Timestamp>132731675489619828</Timestamp>
+          <DevURL>http://soloviyko.com/solos-modpack/</DevURL>
+          <InternalNotes>exported from solo's modpack</InternalNotes>
+          <Description>Want to play as good as Quickybaby? Install his XVM config and get in the game!</Description>
+          <UpdateComment>2019-03-23: hit/dmg-log\n2019-03-13: removed vehiclenames.xc</UpdateComment>
+          <Medias>
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_6.png" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_1.png" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_2.png" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_3.png" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_4.png" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVMPrebuiltConfigs/quickybaby/XVM_Prebuilt_Configs_QuickyBaby_5.png" />
+          </Medias>
+        </Package>
+      </Packages>
+    </Package>
+  </Packages>
 </Category>

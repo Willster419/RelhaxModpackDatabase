@@ -1,328 +1,425 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Category Name="Statistics" OffsetInstallGroups="True">
-  <Package PackageName="SessionStatistics" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="g9ugdrn0ed6w2dsl" Name="Garage Session Statistics" Type="multi" Visible="True">
-    <Packages>
-      <Package PackageName="SessionStatistics_Awfultanker" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="nci2dujk8t13eihy" Name="Awfultanker" Type="single1" Visible="True">
-        <Size>857093</Size>
-        <ZipFile>SessionStatistics_Awfultanker_1.15.0.0_2021-12-13.zip</ZipFile>
-        <CRC>af93f29c9d76aaa177a5c459359119fb</CRC>
-        <Timestamp>132838403834470405</Timestamp>
-        <DevURL>https://awfultanker.torvox.eu/sessionstats.html</DevURL>
-        <Description>Awfultanker Session Stats - based on Locastans Minimal Session Stats (no CW).\r\nSettings can be changed in garage.</Description>
-        <Medias>
-          <Media URL="https://awfultanker.torvox.eu/images/notification_button_clock.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/notification_button_wn8.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/game_ended.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/battle_result_custom_kv1s.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/battle_result_custom_skoda_t25.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/battle_result_default.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/session_custom_minimal.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/session_classic_english.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/session_default_english.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/tank_main_wn8.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/tank_main_credits.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/tank_selected_default.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/tank_selected_custom1.png" MediaType="Picture" />
-          <Media URL="https://awfultanker.torvox.eu/images/session_setup.png" MediaType="Picture" />
-        </Medias>
-      </Package>
-      <Package PackageName="SessionStatistics_PMOD" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="01phluql8ptldtox" Name="PMOD Statistics [by {author}]" Type="single1" Visible="True">
-        <Size>997</Size>
-        <ZipFile>SessionStatistics_PMOD.zip</ZipFile>
-        <CRC>2e2bb02acc0cbfb586ef9e08334b1e9e</CRC>
-        <Timestamp>132509587547506394</Timestamp>
-        <Author>P0LIR0ID</Author>
-        <Description>activate PMOD´s session statistics</Description>
-        <Dependencies>
-          <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
-        </Dependencies>
-        <Packages>
-          <Package PackageName="SessionStatistics_PMOD_defaultEnglish" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dqvwttwm7ml2d5vx" Name="default" Type="single_dropdown1" Visible="True">
-            <Size>77321</Size>
-            <ZipFile>pmod_session_stat_default_english.zip</ZipFile>
-            <CRC>714ca37a2ef7b0dd2f98ea246e62bf00</CRC>
-          </Package>
-          <Package PackageName="SessionStatistics_PMOD_WorstUnicumEU" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="75d3lxm525nspyda" Name="Session Statistics by WorstUnicumEU" Type="single_dropdown1" Visible="True">
-            <Size>397968</Size>
-            <ZipFile>pmod_session_stat_WorstUnicumEU.zip</ZipFile>
-            <CRC>688fa9da5f461cf6f58e6385c2f7acd4</CRC>
-            <DevURL>http://forum.worldoftanks.eu/index.php?/topic/591220-</DevURL>
-            <Deprecated>True</Deprecated>
-            <Medias>
-              <Media URL="http://i.imgur.com/oEMO7BZ.png" MediaType="Picture" />
-              <Media URL="http://i.imgur.com/hhF6e0A.png" MediaType="Picture" />
-              <Media URL="http://i.imgur.com/qDxGpCX.png" MediaType="Picture" />
-              <Media URL="http://i.imgur.com/1zJTcVH.png" MediaType="Picture" />
-            </Medias>
-          </Package>
-          <Package PackageName="SessionStatistics_PMOD_PapaDigi_german" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kujitws611f9paka" Name="Session Statistics by PapaDigi (german)" Type="single_dropdown1" Visible="True">
-            <Size>1511313</Size>
-            <ZipFile>pmod_session_stat_PapaDigi_german.zip</ZipFile>
-            <CRC>36db79eec17c7c80df1113bc59a77ebe</CRC>
-            <Deprecated>True</Deprecated>
-            <Medias>
-              <Media URL="http://fs1.directupload.net/images/150530/4za5yvuv.png" MediaType="Picture" />
-              <Media URL="http://fs5.directupload.net/images/170713/9j6mc8n2.jpg" MediaType="Picture" />
-            </Medias>
-          </Package>
-        </Packages>
-      </Package>
-      <Package PackageName="SessionStatistics_ProtankiSessionlog" Enabled="True" Tags="Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="7alete96ch8yvut2" Name="Protanki Sessionlog v{version} [by {author}]" Type="single1" Visible="True">
-        <Size>185073</Size>
-        <Version>2.8</Version>
-        <ZipFile>SessionStatistics_ProtankiSessionlog_v2.8_1.15.0.0_2021-12-13.zip</ZipFile>
-        <CRC>2760f2e44654a96e490e8f9d1ee2e5d8</CRC>
-        <Timestamp>132838404002565612</Timestamp>
-        <DevURL>protanki.tv</DevURL>
-        <InternalNotes>this mod needs to be updated by either running or extracting the protanki modpack installer (i tried on extended, it may be in a smaller one)</InternalNotes>
-        <Author>Poliroid</Author>
-        <ObfuscatedMod>True</ObfuscatedMod>
-      </Package>
-      <Package PackageName="SessionStatistics_YK" Enabled="True" Tags="Patch,Script" InstallGroup="4" PatchGroup="4" UID="9b3jz6pa7yqfnkrz" Name="YasenKrasen v{version} [by {author}]" Type="single1" Visible="True">
-        <Size>2801857</Size>
-        <Version>1.15.0.0</Version>
-        <ZipFile>SessionStatistics_YK_1.15.0.0_2021-12-18.zip</ZipFile>
-        <CRC>97ec04fd3a1e8dd04faceedab28e1a79</CRC>
-        <Timestamp>132843437691217104</Timestamp>
-        <DevURL>http://forum.worldoftanks.eu/index.php?/topic/583433-</DevURL>
-        <InternalNotes>see the following document (old):\r\nhttps://docs.google.com/document/d/1DIYfQwfD46KWA3xLvqONjj_i54SlYy3F0YKZUc_U3JU/edit#heading=h.xagf3j34mhlk\r\n\r\nrajcel updated versions directory:\r\ndrive.google.com/drive/folders/15C99G7EfgA7R3RNb9_pGwydq4bRXSjDS?usp=sharing\r\n\r\nThe original developer seems to have stopped, now maintained by RajCeL. Check the bottom of the post for latest mod\r\n\r\nThe file yk_statistics.wotmod is the main mod and is used in all versions of the mod (base, vanilla, core). Backgrounds will also be the same, color_msg will be different.\r\n\r\nAlso, the files in the configs directory should also all be the same between the versions except for the file messenger.json</InternalNotes>
-        <Author>Dado_Ze / RajCel</Author>
-        <Description>Shows your statistics for your tanks session in the notifications area of your garage</Description>
-        <PopularMod>True</PopularMod>
-        <ObfuscatedMod>True</ObfuscatedMod>
-        <Medias>
-          <Media URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/statistics/Session_Statistics_YK.jpg" MediaType="Picture" />
-          <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_eng.jpg" MediaType="Picture" />
-        </Medias>
-        <UserFiles>
-          <UserFile Pattern="\mods\configs\yk-stats\cache.json" />
-        </UserFiles>
-        <Packages>
-          <Package PackageName="SessionStatistics_YK_EditionBase" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6m536intuhmue6r3" Name="Base Edition (Minimal)" Type="single_dropdown1" Visible="True">
-            <Timestamp>132644914888865258</Timestamp>
-          </Package>
-          <Package PackageName="SessionStatistics_YK_EditionVanilla" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="nb0yjw1z6utz62q9" Name="Vanilla Edition" Type="single_dropdown1" Visible="True">
-            <Size>3463</Size>
-            <ZipFile>SessionStatistics_YK_EditionVanilla_1.14.1.4_2021-11-28.zip</ZipFile>
-            <CRC>bdbec0721f60e8f29ed84b31555f29c9</CRC>
-            <Timestamp>132826170623000132</Timestamp>
-          </Package>
-          <Package PackageName="SessionStatistics_YK_EditionCore" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mmfd0e4arrbdpet5" Name="Core Edition" Type="single_dropdown1" Visible="True">
-            <Size>3875</Size>
-            <ZipFile>SessionStatistics_YK_EditionCore_1.14.1.4_2021-11-28.zip</ZipFile>
-            <CRC>501023ef10dae52227fea24db5d0ca96</CRC>
-            <Timestamp>132826170523999356</Timestamp>
-          </Package>
-          <Package PackageName="SessionStatistics_YK_Configuration" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="m09x76vb6uixnwyy" Name="Configurations" Type="multi" Visible="True">
-            <Timestamp>131542717093817752</Timestamp>
-            <Packages>
-              <Package PackageName="SessionStatistics_YK_Configuration_default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="gfr5zalu1dkmzpgc" Name="Default" Type="single_dropdown2" Visible="True">
-                <Size>3603</Size>
-                <Timestamp>131542717093817752</Timestamp>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_Configuration_TankSchmidtEnglish" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="t4xk79rv0ad4z0nb" Name="TankSchmidt DaStats (English)" Type="single_dropdown2" Visible="True">
-                <Size>5519</Size>
-                <ZipFile>SessionStatistics_YK_Configuration_TankSchmidtEnglish_2021-05-02_bootleg.zip</ZipFile>
-                <CRC>23c5ea876429dabfef0c25c63b4148ae</CRC>
-                <Timestamp>132644917289958224</Timestamp>
-                <DevURL>http://forum.worldoftanks.eu/index.php?/topic/583433-091902-yasenkrasen-colored-messages-session-statistics-eng-08062017/page__st__140__pid__13500665#entry13500665</DevURL>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats1-3.png" MediaType="Picture" />
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats2-3.png" MediaType="Picture" />
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats3-3.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="SessionStatistics_YK_DailyReset" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="07l67cneup7ba5co" Name="Daily Reset" Type="multi" Visible="True">
-            <Size>467</Size>
-            <ZipFile>SessionStatistics_YK_DailyReset_2020-04-08.zip</ZipFile>
-            <CRC>3220728fc98caf60afaf75ca02a4e523</CRC>
-            <Timestamp>132308367885238604</Timestamp>
-          </Package>
-          <Package PackageName="SessionStatistics_YK_useParametersPanel" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="dwslfctftmztahko" Name="Statistics Panels" Type="multi" Visible="True">
-            <Size>493</Size>
-            <ZipFile>SessionStatistics_YK_useParametersPanel_2019-08-24.zip</ZipFile>
-            <CRC>03059831218e72c78bf87f64c026fc7d</CRC>
-            <Timestamp>132509590709662561</Timestamp>
-            <Description>This option shows you  panels for an overview of the current vehicle´s stats, your account stats, and session stats on the parameters panel (right side of screen in garage).</Description>
-            <Medias>
-              <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/Statistic_Session_YK_useParametersPanel.png" MediaType="Picture" />
-            </Medias>
-            <Packages>
-              <Package PackageName="SessionStatistics_YK_useParametersPanel_panelParameters" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="7aas7fjyo51il921" Name="vehicle parameters" Type="multi" Visible="True">
-                <Size>507</Size>
-                <ZipFile>SessionStatistics_YK_useParametersPanel_panelParameters_2019-07-01.zip</ZipFile>
-                <CRC>90f1d91b25dddfe34fd5191c466478ae</CRC>
-                <Timestamp>132509590885142009</Timestamp>
-                <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
-                <Medias>
-                  <Media URL="https://i.imgur.com/rs9Oloh.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_useParametersPanel_panelStatistics" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="kzg7ffpzn1t0ll91" Name="account statistics" Type="multi" Visible="True">
-                <Size>508</Size>
-                <ZipFile>SessionStatistics_YK_useParametersPanel_panelStatistics_2019-07-01.zip</ZipFile>
-                <CRC>1d384ecb4edc4faae0c1078cae757a14</CRC>
-                <Timestamp>132509591001861848</Timestamp>
-                <Medias>
-                  <Media URL="https://i.imgur.com/JAWLcYo.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_useParametersPanel_panelByTank" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="xonmnev0nymilxg1" Name="panel by tank" Type="multi" Visible="True">
-                <Size>500</Size>
-                <ZipFile>SessionStatistics_YK_useParametersPanel_panelByTank_2019-07-01.zip</ZipFile>
-                <CRC>6db31873da46f1ff6aa475b7abaeb449</CRC>
-                <Timestamp>132509591096216284</Timestamp>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_useParametersPanel_panelCurrentVehicle" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="r34teiljhho7wqye" Name="vehicle statistics" Type="multi" Visible="True">
-                <Size>521</Size>
-                <ZipFile>SessionStatistics_YK_useParametersPanel_panelCurrentVehicle_2019-07-01.zip</ZipFile>
-                <CRC>1acd66f3317d1c3a1d06cd69cc664592</CRC>
-                <Timestamp>132509591195777032</Timestamp>
-                <Medias>
-                  <Media URL="https://i.imgur.com/JAWLcYo.png" MediaType="Picture" />
-                  <Media URL="https://i.imgur.com/rs9Oloh.png" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_researchWatchdog" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="4sb8nhrkhdgpw15e" Name="&quot;Research Watchdog&quot;" Type="multi" Visible="True">
-                <Size>510</Size>
-                <ZipFile>SessionStatistics_YK_researchWatchdog_2019-07-01.zip</ZipFile>
-                <CRC>8067a6d39085d51e5be1b3bd9d7a54cb</CRC>
-                <Timestamp>132509591288561444</Timestamp>
-                <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_panelsStatus" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hhhnvhxlg987wdcd" Name="set all panels to" Type="multi" Visible="True">
-                <CRC>f</CRC>
-                <Timestamp>132064703050157585</Timestamp>
-                <Packages>
-                  <Package PackageName="SessionStatistics_YK_panelsCollapsed" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="bvzumln4btaw76ur" Name="collapsed" Type="single_dropdown1" Visible="True">
-                    <Size>531</Size>
-                    <ZipFile>SessionStatistics_YK_panelsCollapsed_2019-07-01.zip</ZipFile>
-                    <CRC>254c48543bcb060b52845bd74bdb6e60</CRC>
-                    <Timestamp>132509591415240230</Timestamp>
-                  </Package>
-                  <Package PackageName="SessionStatistics_YK_panelsExpanded" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ok59ukt5ap2e7i2q" Name="expanded" Type="single_dropdown1" Visible="True">
-                    <Size>527</Size>
-                    <ZipFile>SessionStatistics_YK_panelsExpanded_2019-07-01.zip</ZipFile>
-                    <CRC>a50b9b347c1edce7024ed46f9e14297e</CRC>
-                    <Timestamp>132509591513419078</Timestamp>
-                  </Package>
-                </Packages>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="SessionStatistics_YK_Module" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="iznhmojo5844jbk4" Name="Modules" Type="multi" Visible="True">
-            <CRC>f</CRC>
-            <Timestamp>132731568409359538</Timestamp>
-            <Packages>
-              <Package PackageName="SessionStatistics_YK_Module_ColoredMessages" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yb8h71by2lo7kfpf" Name="Colored In-Game Messages" Type="multi" Visible="True">
-                <CRC>f</CRC>
-                <Timestamp>132826168213977945</Timestamp>
-                <Author>Quaksen</Author>
-                <Packages>
-                  <Package PackageName="SessionStatistics_YK_Module_ColoredMessages_Core" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vouwunpp45xljmr3" Name="Colored In-Game Messages (Core) -&gt; !! sets client language to english !!" Type="single_dropdown1" Visible="True">
-                    <Size>150164</Size>
-                    <ZipFile>SessionStatistics_YK_Module_ColoredMessages_Core_1.15.0.0_2021-12-18.zip</ZipFile>
-                    <CRC>589a0161ce89ba31dd9008bbe79ca694</CRC>
-                    <Timestamp>132843441260039817</Timestamp>
-                    <InternalNotes>take from CORE (5,5MB), not Vanilla\r\n\r\ndisable  Session_Statistics_YK_Module_ColoredMessages \r\n- this WILL break EVERY micropatch\r\n- &amp; WG is releasing a lot of them</InternalNotes>
-                    <Author>Quaksen</Author>
-                    <Description>NOTE: this mod sets client language to english</Description>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
-                    </Medias>
-                  </Package>
-                  <Package PackageName="SessionStatistics_YK_Module_ColoredMessages_Vanilla" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ofdmb1681gqukobr" Name="Colored In-Game Messages (Vanilla) -&gt; !! sets client language to english !!" Type="single_dropdown1" Visible="True">
-                    <Size>73468</Size>
-                    <ZipFile>SessionStatistics_YK_Module_ColoredMessages_Vanilla_1.15.0.0_2021-12-18.zip</ZipFile>
-                    <CRC>508397319d9c5ea70514a706010f863b</CRC>
-                    <Timestamp>132843441351483638</Timestamp>
-                    <Author>Quaksen</Author>
-                    <Description>NOTE: this mod sets client language to english</Description>
-                    <Medias>
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
-                      <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
-                    </Medias>
-                  </Package>
-                </Packages>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_Module_GraphicalBattleMessages" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8d0a2nwq31p3jyy3" Name="Graphical Battle Messages" Type="multi" Visible="True">
-                <Size>8747</Size>
-                <ZipFile>SessionStatistics_YK_Module_GraphicalBattleMessages_1.14.1.4_2021-11-28.zip</ZipFile>
-                <CRC>18d88922f5a9a1157135a6099ea8a999</CRC>
-                <Timestamp>132826170297484635</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" MediaType="Picture" />
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_Module_Skulls" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2riiurl9ykrturgg" Name="Kill Skulls (alternative in-game battle messages)" Type="multi" Visible="True">
-                <Size>22778</Size>
-                <ZipFile>SessionStatistics_YK_Module_Skulls_1.15.0.0_2021-12-18.zip</ZipFile>
-                <CRC>ff9778be8b6fa883c8f59f4c4644d549</CRC>
-                <Timestamp>132843441114449506</Timestamp>
-                <InternalNotes>- this WILL break EVERY micropatch</InternalNotes>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_3.jpg" MediaType="Picture" />
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_4.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-          <Package PackageName="SessionStatistics_YK_background" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fgox2qsaxgjau3ng" Name="Background" Type="multi" Visible="True">
-            <Version>2018-12-15</Version>
-            <Packages>
-              <Package PackageName="SessionStatistics_YK_background_v1" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="s5vcapybxdcsueug" Name="V1" Type="single_dropdown1" Visible="True">
-                <Size>405178</Size>
-                <ZipFile>SessionStatistics_YK_background_v1_2019-03-24.zip</ZipFile>
-                <CRC>cdf78369db743f1168973c09fe923645</CRC>
-                <Timestamp>132509592314509035</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V1_eng.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_background_v2" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="mkcj2touswdi57ct" Name="V2" Type="single_dropdown1" Visible="True">
-                <Size>515634</Size>
-                <ZipFile>SessionStatistics_YK_background_v2_2019-03-24.zip</ZipFile>
-                <CRC>6481fa9c7b552951c058194d8d10dfa9</CRC>
-                <Timestamp>132509592551299634</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V2_eng.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_background_v3" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="z9jyatuvrs6z5jjt" Name="V3" Type="single_dropdown1" Visible="True">
-                <Size>381358</Size>
-                <ZipFile>SessionStatistics_YK_background_v3_2019-03-24.zip</ZipFile>
-                <CRC>57913616ab8615362ec35e6af8469ff8</CRC>
-                <Timestamp>132509592653054910</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V3_eng.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_background_v4" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="tn052wkdmc8pgc16" Name="V4" Type="single_dropdown1" Visible="True">
-                <Size>1388153</Size>
-                <ZipFile>SessionStatistics_YK_background_v4_2019-03-24.zip</ZipFile>
-                <CRC>5ae971940643d8e7cee7cc60d12a5a60</CRC>
-                <Timestamp>132509592750241713</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V4_eng.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-              <Package PackageName="SessionStatistics_YK_background_v5" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="6c7kawqel806gn96" Name="V5" Type="single_dropdown1" Visible="True">
-                <Size>1904606</Size>
-                <ZipFile>SessionStatistics_YK_background_v5_2019-03-24.zip</ZipFile>
-                <CRC>b4491fda8e2e5477ca696f7c36e2431a</CRC>
-                <Timestamp>132509593236466102</Timestamp>
-                <Medias>
-                  <Media URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V5_eng.jpg" MediaType="Picture" />
-                </Medias>
-              </Package>
-            </Packages>
-          </Package>
-        </Packages>
-      </Package>
-    </Packages>
-  </Package>
+  <Packages>
+    <Package PackageName="SessionStatistics" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="g9ugdrn0ed6w2dsl" Name="Garage Session Statistics" Type="multi" Visible="True">
+      <Packages>
+        <Package PackageName="SessionStatistics_Awfultanker" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="nci2dujk8t13eihy" Name="Awfultanker" Type="single1" Visible="True">
+          <Size>857093</Size>
+          <ZipFile>SessionStatistics_Awfultanker_1.15.0.0_2021-12-13.zip</ZipFile>
+          <CRC>af93f29c9d76aaa177a5c459359119fb</CRC>
+          <Timestamp>132838403834470405</Timestamp>
+          <DevURL>https://awfultanker.torvox.eu/sessionstats.html</DevURL>
+          <Description>Awfultanker Session Stats - based on Locastans Minimal Session Stats (no CW).\r\nSettings can be changed in garage.</Description>
+          <Medias>
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/notification_button_clock.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/notification_button_wn8.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/game_ended.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/battle_result_custom_kv1s.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/battle_result_custom_skoda_t25.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/battle_result_default.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/session_custom_minimal.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/session_classic_english.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/session_default_english.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/tank_main_wn8.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/tank_main_credits.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/tank_selected_default.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/tank_selected_custom1.png" />
+            <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/session_setup.png" />
+          </Medias>
+        </Package>
+        <Package PackageName="SessionStatistics_PMOD" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="01phluql8ptldtox" Name="PMOD Statistics [by {author}]" Type="single1" Visible="True">
+          <Size>997</Size>
+          <Author>P0LIR0ID</Author>
+          <Description>activate PMOD´s session statistics</Description>
+          <Dependencies>
+            <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
+          </Dependencies>
+          <Packages>
+            <Package PackageName="SessionStatistics_PMOD_defaultEnglish" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dqvwttwm7ml2d5vx" Name="default" Type="single_dropdown1" Visible="True">
+              <Size>77321</Size>
+              <ZipFile>pmod_session_stat_default_english.zip</ZipFile>
+              <CRC>714ca37a2ef7b0dd2f98ea246e62bf00</CRC>
+            </Package>
+            <Package PackageName="SessionStatistics_PMOD_WorstUnicumEU" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="75d3lxm525nspyda" Name="Session Statistics by WorstUnicumEU" Type="single_dropdown1" Visible="True">
+              <Size>397968</Size>
+              <ZipFile>pmod_session_stat_WorstUnicumEU.zip</ZipFile>
+              <CRC>688fa9da5f461cf6f58e6385c2f7acd4</CRC>
+              <DevURL>http://forum.worldoftanks.eu/index.php?/topic/591220-</DevURL>
+              <Deprecated>True</Deprecated>
+              <Medias>
+                <Media MediaType="Picture" URL="http://i.imgur.com/oEMO7BZ.png" />
+                <Media MediaType="Picture" URL="http://i.imgur.com/hhF6e0A.png" />
+                <Media MediaType="Picture" URL="http://i.imgur.com/qDxGpCX.png" />
+                <Media MediaType="Picture" URL="http://i.imgur.com/1zJTcVH.png" />
+              </Medias>
+            </Package>
+            <Package PackageName="SessionStatistics_PMOD_PapaDigi_german" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kujitws611f9paka" Name="Session Statistics by PapaDigi (german)" Type="single_dropdown1" Visible="True">
+              <Size>1511313</Size>
+              <ZipFile>pmod_session_stat_PapaDigi_german.zip</ZipFile>
+              <CRC>36db79eec17c7c80df1113bc59a77ebe</CRC>
+              <Deprecated>True</Deprecated>
+              <Medias>
+                <Media MediaType="Picture" URL="http://fs1.directupload.net/images/150530/4za5yvuv.png" />
+                <Media MediaType="Picture" URL="http://fs5.directupload.net/images/170713/9j6mc8n2.jpg" />
+              </Medias>
+            </Package>
+          </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\battleChat.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\battleChat.json" Version="1" Search="" Replace="true">
+              <Path>$.resultInformer.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\systemMessages.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\sessionStatistic.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
+        </Package>
+        <Package PackageName="SessionStatistics_ProtankiSessionlog" Enabled="True" Tags="Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="7alete96ch8yvut2" Name="Protanki Sessionlog v{version} [by {author}]" Type="single1" Visible="True">
+          <Size>185073</Size>
+          <Version>2.8</Version>
+          <ZipFile>SessionStatistics_ProtankiSessionlog_v2.8_1.15.0.0_2021-12-13.zip</ZipFile>
+          <CRC>2760f2e44654a96e490e8f9d1ee2e5d8</CRC>
+          <Timestamp>132838404002565612</Timestamp>
+          <DevURL>protanki.tv</DevURL>
+          <InternalNotes>this mod needs to be updated by either running or extracting the protanki modpack installer (i tried on extended, it may be in a smaller one)</InternalNotes>
+          <Author>Poliroid</Author>
+          <ObfuscatedMod>True</ObfuscatedMod>
+        </Package>
+        <Package PackageName="SessionStatistics_YK" Enabled="True" Tags="Patch,Script" InstallGroup="4" PatchGroup="4" UID="9b3jz6pa7yqfnkrz" Name="YasenKrasen v{version} [by {author}]" Type="single1" Visible="True">
+          <Size>2801857</Size>
+          <Version>1.15.0.0</Version>
+          <ZipFile>SessionStatistics_YK_1.15.0.0_2021-12-18_converted.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132859237706435058</Timestamp>
+          <DevURL>http://forum.worldoftanks.eu/index.php?/topic/583433-</DevURL>
+          <InternalNotes>see the following document (old):\r\nhttps://docs.google.com/document/d/1DIYfQwfD46KWA3xLvqONjj_i54SlYy3F0YKZUc_U3JU/edit#heading=h.xagf3j34mhlk\r\n\r\nrajcel updated versions directory:\r\ndrive.google.com/drive/folders/15C99G7EfgA7R3RNb9_pGwydq4bRXSjDS?usp=sharing\r\n\r\nThe original developer seems to have stopped, now maintained by RajCeL. Check the bottom of the post for latest mod\r\n\r\nThe file yk_statistics.wotmod is the main mod and is used in all versions of the mod (base, vanilla, core). Backgrounds will also be the same, color_msg will be different.\r\n\r\nAlso, the files in the configs directory should also all be the same between the versions except for the file messenger.json</InternalNotes>
+          <Author>Dado_Ze / RajCel</Author>
+          <LastUpdateCheck>132859237706435058</LastUpdateCheck>
+          <Description>Shows your statistics for your tanks session in the notifications area of your garage</Description>
+          <PopularMod>True</PopularMod>
+          <ObfuscatedMod>True</ObfuscatedMod>
+          <Medias>
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/statistics/Session_Statistics_YK.jpg" />
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_eng.jpg" />
+          </Medias>
+          <UserFiles>
+            <UserFile Pattern="\mods\configs\yk-stats\cache.json" />
+          </UserFiles>
+          <Packages>
+            <Package PackageName="SessionStatistics_YK_EditionBase" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6m536intuhmue6r3" Name="Base Edition (Minimal)" Type="single_dropdown1" Visible="True">
+              <Timestamp>132644914888865258</Timestamp>
+            </Package>
+            <Package PackageName="SessionStatistics_YK_EditionVanilla" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="nb0yjw1z6utz62q9" Name="Vanilla Edition" Type="single_dropdown1" Visible="True">
+              <Size>3463</Size>
+              <ZipFile>SessionStatistics_YK_EditionVanilla_1.14.1.4_2021-11-28.zip</ZipFile>
+              <CRC>bdbec0721f60e8f29ed84b31555f29c9</CRC>
+              <Timestamp>132826170623000132</Timestamp>
+            </Package>
+            <Package PackageName="SessionStatistics_YK_EditionCore" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mmfd0e4arrbdpet5" Name="Core Edition" Type="single_dropdown1" Visible="True">
+              <Size>3875</Size>
+              <ZipFile>SessionStatistics_YK_EditionCore_1.14.1.4_2021-11-28.zip</ZipFile>
+              <CRC>501023ef10dae52227fea24db5d0ca96</CRC>
+              <Timestamp>132826170523999356</Timestamp>
+            </Package>
+            <Package PackageName="SessionStatistics_YK_Configuration" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="m09x76vb6uixnwyy" Name="Configurations" Type="multi" Visible="True">
+              <Timestamp>131542717093817752</Timestamp>
+              <Packages>
+                <Package PackageName="SessionStatistics_YK_Configuration_default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="gfr5zalu1dkmzpgc" Name="Default" Type="single_dropdown2" Visible="True">
+                  <Size>3603</Size>
+                  <Timestamp>131542717093817752</Timestamp>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_Configuration_TankSchmidtEnglish" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="t4xk79rv0ad4z0nb" Name="TankSchmidt DaStats (English)" Type="single_dropdown2" Visible="True">
+                  <Size>5519</Size>
+                  <ZipFile>SessionStatistics_YK_Configuration_TankSchmidtEnglish_2021-05-02_bootleg.zip</ZipFile>
+                  <CRC>23c5ea876429dabfef0c25c63b4148ae</CRC>
+                  <Timestamp>132644917289958224</Timestamp>
+                  <DevURL>http://forum.worldoftanks.eu/index.php?/topic/583433-091902-yasenkrasen-colored-messages-session-statistics-eng-08062017/page__st__140__pid__13500665#entry13500665</DevURL>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats1-3.png" />
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats2-3.png" />
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_TankSchmidt_DaStats3-3.png" />
+                  </Medias>
+                </Package>
+              </Packages>
+            </Package>
+            <Package PackageName="SessionStatistics_YK_DailyReset" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="07l67cneup7ba5co" Name="Daily Reset" Type="multi" Visible="True">
+              <Size>467</Size>
+              <Patches>
+                <Patch Type="json" Mode="" PatchPath="" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                  <Path>$.dailyAutoReset</Path>
+                </Patch>
+              </Patches>
+            </Package>
+            <Package PackageName="SessionStatistics_YK_useParametersPanel" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="dwslfctftmztahko" Name="Statistics Panels" Type="multi" Visible="True">
+              <Size>493</Size>
+              <Description>This option shows you  panels for an overview of the current vehicle´s stats, your account stats, and session stats on the parameters panel (right side of screen in garage).</Description>
+              <Medias>
+                <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/Statistic_Session_YK_useParametersPanel.png" />
+              </Medias>
+              <Packages>
+                <Package PackageName="SessionStatistics_YK_useParametersPanel_panelParameters" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="7aas7fjyo51il921" Name="vehicle parameters" Type="multi" Visible="True">
+                  <Size>507</Size>
+                  <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
+                  <Medias>
+                    <Media MediaType="Picture" URL="https://i.imgur.com/rs9Oloh.png" />
+                  </Medias>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                      <Path>$.panelParameters.enable</Path>
+                    </Patch>
+                  </Patches>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_useParametersPanel_panelStatistics" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="kzg7ffpzn1t0ll91" Name="account statistics" Type="multi" Visible="True">
+                  <Size>508</Size>
+                  <Medias>
+                    <Media MediaType="Picture" URL="https://i.imgur.com/JAWLcYo.png" />
+                  </Medias>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                      <Path>$.panelStatistics.enable</Path>
+                    </Patch>
+                  </Patches>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_useParametersPanel_panelByTank" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="xonmnev0nymilxg1" Name="panel by tank" Type="multi" Visible="True">
+                  <Size>500</Size>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                      <Path>$.panelByTank.enable</Path>
+                    </Patch>
+                  </Patches>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_useParametersPanel_panelCurrentVehicle" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="r34teiljhho7wqye" Name="vehicle statistics" Type="multi" Visible="True">
+                  <Size>521</Size>
+                  <Medias>
+                    <Media MediaType="Picture" URL="https://i.imgur.com/JAWLcYo.png" />
+                    <Media MediaType="Picture" URL="https://i.imgur.com/rs9Oloh.png" />
+                  </Medias>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                      <Path>$.panelCurrentVehicle.enable</Path>
+                    </Patch>
+                  </Patches>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_researchWatchdog" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="4sb8nhrkhdgpw15e" Name="&quot;Research Watchdog&quot;" Type="multi" Visible="True">
+                  <Size>510</Size>
+                  <Description>Will show the tank stats, account stats, and session stats on the Vehicles Panel.</Description>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                      <Path>$.researchWatchdog.enable</Path>
+                    </Patch>
+                  </Patches>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_panelsStatus" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="hhhnvhxlg987wdcd" Name="set all panels to" Type="multi" Visible="True">
+                  <CRC>f</CRC>
+                  <Timestamp>132064703050157585</Timestamp>
+                  <Packages>
+                    <Package PackageName="SessionStatistics_YK_panelsCollapsed" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="bvzumln4btaw76ur" Name="collapsed" Type="single_dropdown1" Visible="True">
+                      <Size>531</Size>
+                      <Patches>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+                          <Path>$.panelStatistics.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+                          <Path>$.panelParameters.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+                          <Path>$.panelCurrentVehicle.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+                          <Path>$.panelByTank.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+                          <Path>$.researchWatchdog.expand</Path>
+                        </Patch>
+                      </Patches>
+                    </Package>
+                    <Package PackageName="SessionStatistics_YK_panelsExpanded" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ok59ukt5ap2e7i2q" Name="expanded" Type="single_dropdown1" Visible="True">
+                      <Size>527</Size>
+                      <Patches>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                          <Path>$.panelStatistics.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                          <Path>$.panelParameters.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                          <Path>$.panelCurrentVehicle.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                          <Path>$.panelByTank.expand</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                          <Path>$.researchWatchdog.expand</Path>
+                        </Patch>
+                      </Patches>
+                    </Package>
+                  </Packages>
+                </Package>
+              </Packages>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                  <Path>$.useParametersPanel</Path>
+                </Patch>
+              </Patches>
+            </Package>
+            <Package PackageName="SessionStatistics_YK_Module" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="iznhmojo5844jbk4" Name="Modules" Type="multi" Visible="True">
+              <CRC>f</CRC>
+              <Timestamp>132731568409359538</Timestamp>
+              <Packages>
+                <Package PackageName="SessionStatistics_YK_Module_ColoredMessages" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yb8h71by2lo7kfpf" Name="Colored In-Game Messages" Type="multi" Visible="True">
+                  <CRC>f</CRC>
+                  <Timestamp>132826168213977945</Timestamp>
+                  <Author>Quaksen</Author>
+                  <Packages>
+                    <Package PackageName="SessionStatistics_YK_Module_ColoredMessages_Core" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vouwunpp45xljmr3" Name="Colored In-Game Messages (Core) -&gt; !! sets client language to english !!" Type="single_dropdown1" Visible="True">
+                      <Size>150164</Size>
+                      <ZipFile>SessionStatistics_YK_Module_ColoredMessages_Core_1.15.0.0_2021-12-18.zip</ZipFile>
+                      <CRC>589a0161ce89ba31dd9008bbe79ca694</CRC>
+                      <Timestamp>132843441260039817</Timestamp>
+                      <InternalNotes>take from CORE (5,5MB), not Vanilla\r\n\r\ndisable  Session_Statistics_YK_Module_ColoredMessages \r\n- this WILL break EVERY micropatch\r\n- &amp; WG is releasing a lot of them</InternalNotes>
+                      <Author>Quaksen</Author>
+                      <Description>NOTE: this mod sets client language to english</Description>
+                      <Medias>
+                        <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" />
+                        <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" />
+                      </Medias>
+                    </Package>
+                    <Package PackageName="SessionStatistics_YK_Module_ColoredMessages_Vanilla" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ofdmb1681gqukobr" Name="Colored In-Game Messages (Vanilla) -&gt; !! sets client language to english !!" Type="single_dropdown1" Visible="True">
+                      <Size>73468</Size>
+                      <ZipFile>SessionStatistics_YK_Module_ColoredMessages_Vanilla_1.15.0.0_2021-12-18.zip</ZipFile>
+                      <CRC>508397319d9c5ea70514a706010f863b</CRC>
+                      <Timestamp>132843441351483638</Timestamp>
+                      <Author>Quaksen</Author>
+                      <Description>NOTE: this mod sets client language to english</Description>
+                      <Medias>
+                        <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" />
+                        <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" />
+                      </Medias>
+                    </Package>
+                  </Packages>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_Module_GraphicalBattleMessages" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8d0a2nwq31p3jyy3" Name="Graphical Battle Messages" Type="multi" Visible="True">
+                  <Size>8747</Size>
+                  <ZipFile>SessionStatistics_YK_Module_GraphicalBattleMessages_1.14.1.4_2021-11-28.zip</ZipFile>
+                  <CRC>18d88922f5a9a1157135a6099ea8a999</CRC>
+                  <Timestamp>132826170297484635</Timestamp>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_2.jpg" />
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_1.jpg" />
+                  </Medias>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_Module_Skulls" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2riiurl9ykrturgg" Name="Kill Skulls (alternative in-game battle messages)" Type="multi" Visible="True">
+                  <Size>22778</Size>
+                  <ZipFile>SessionStatistics_YK_Module_Skulls_1.15.0.0_2021-12-18.zip</ZipFile>
+                  <CRC>ff9778be8b6fa883c8f59f4c4644d549</CRC>
+                  <Timestamp>132843441114449506</Timestamp>
+                  <InternalNotes>- this WILL break EVERY micropatch</InternalNotes>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_3.jpg" />
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Colored_Chat_Preview_4.jpg" />
+                  </Medias>
+                </Package>
+              </Packages>
+            </Package>
+            <Package PackageName="SessionStatistics_YK_background" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fgox2qsaxgjau3ng" Name="Background" Type="multi" Visible="True">
+              <Version>2018-12-15</Version>
+              <Packages>
+                <Package PackageName="SessionStatistics_YK_background_v1" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="s5vcapybxdcsueug" Name="V1" Type="single_dropdown1" Visible="True">
+                  <Size>405178</Size>
+                  <ZipFile>SessionStatistics_YK_background_v1_2019-03-24.zip</ZipFile>
+                  <CRC>cdf78369db743f1168973c09fe923645</CRC>
+                  <Timestamp>132509592314509035</Timestamp>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V1_eng.jpg" />
+                  </Medias>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_background_v2" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="mkcj2touswdi57ct" Name="V2" Type="single_dropdown1" Visible="True">
+                  <Size>515634</Size>
+                  <ZipFile>SessionStatistics_YK_background_v2_2019-03-24.zip</ZipFile>
+                  <CRC>6481fa9c7b552951c058194d8d10dfa9</CRC>
+                  <Timestamp>132509592551299634</Timestamp>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V2_eng.jpg" />
+                  </Medias>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_background_v3" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="z9jyatuvrs6z5jjt" Name="V3" Type="single_dropdown1" Visible="True">
+                  <Size>381358</Size>
+                  <ZipFile>SessionStatistics_YK_background_v3_2019-03-24.zip</ZipFile>
+                  <CRC>57913616ab8615362ec35e6af8469ff8</CRC>
+                  <Timestamp>132509592653054910</Timestamp>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V3_eng.jpg" />
+                  </Medias>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_background_v4" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="tn052wkdmc8pgc16" Name="V4" Type="single_dropdown1" Visible="True">
+                  <Size>1388153</Size>
+                  <ZipFile>SessionStatistics_YK_background_v4_2019-03-24.zip</ZipFile>
+                  <CRC>5ae971940643d8e7cee7cc60d12a5a60</CRC>
+                  <Timestamp>132509592750241713</Timestamp>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V4_eng.jpg" />
+                  </Medias>
+                </Package>
+                <Package PackageName="SessionStatistics_YK_background_v5" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="6c7kawqel806gn96" Name="V5" Type="single_dropdown1" Visible="True">
+                  <Size>1904606</Size>
+                  <ZipFile>SessionStatistics_YK_background_v5_2019-03-24.zip</ZipFile>
+                  <CRC>b4491fda8e2e5477ca696f7c36e2431a</CRC>
+                  <Timestamp>132509593236466102</Timestamp>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Session_Stats_YasenKrasen_Backgrounds_V5_eng.jpg" />
+                  </Medias>
+                </Package>
+              </Packages>
+            </Package>
+          </Packages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.useParametersPanel</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelParameters.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelParameters.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelStatistics.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelStatistics.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelByTank.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelByTank.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.researchWatchdog.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.researchWatchdog.expand</Path>
+            </Patch>
+          </Patches>
+        </Package>
+      </Packages>
+    </Package>
+  </Packages>
 </Category>

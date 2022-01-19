@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Dependencies>
   <Dependency PackageName="--XVM--" Enabled="False" Tags="" InstallGroup="2" PatchGroup="2" UID="b5g57oeqnr2b6yzx">
     <CRC>f</CRC>
@@ -10,12 +10,36 @@
   </Dependency>
   <Dependency PackageName="Dependency_XVM_Main_Files" Enabled="True" Tags="ConfigurationFileXC,Patch" InstallGroup="2" PatchGroup="2" UID="ounjfnkrmnut6a6w">
     <Size>1666</Size>
-    <ZipFile>Dependency_XVM_Main_Files_2021-07-22.zip</ZipFile>
-    <CRC>82ec9e4aaea4e3ad9035aa414504f8c4</CRC>
-    <Timestamp>132714327489848371</Timestamp>
+    <ZipFile>Dependency_XVM_Main_Files_2021-07-22_converted.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132859204028047626</Timestamp>
     <DevURL>https://modxvm.com/en/download-xvm/</DevURL>
     <InternalNotes>this pkg includes 2 files:\r\n1) \res_mods\configs\xvm\xvm.xc\r\n2) \_patch\fix_xvm_force_dumb_color_scale_patch.xml\r\n\r\nfor more basic xvm files go to: \r\nLogicalDependency_XVM_Main_Stable\r\nand\r\nLogicalDependency_XVM_Main_Nightly</InternalNotes>
     <Maintainers>elektrosmoker; Willster419</Maintainers>
+    <LastUpdateCheck>132859204028047626</LastUpdateCheck>
+    <Patches>
+      <Patch Type="regex" Mode="" PatchPath="{app}" File="res_mods\configs\xvm\xvmConfigFolderName\battleLoading.xc" Version="2" Search="c:xr" Replace="c:r">
+        <Line>-1</Line>
+      </Patch>
+      <Patch Type="regex" Mode="" PatchPath="{app}" File="res_mods\configs\xvm\xvmConfigFolderName\battleLoadingTips.xc" Version="2" Search="c:xr" Replace="c:r">
+        <Line>-1</Line>
+      </Patch>
+      <Patch Type="regex" Mode="" PatchPath="{app}" File="res_mods\configs\xvm\xvmConfigFolderName\markersAliveExtended.xc" Version="2" Search="c:xr" Replace="c:r">
+        <Line>-1</Line>
+      </Patch>
+      <Patch Type="regex" Mode="" PatchPath="{app}" File="res_mods\configs\xvm\xvmConfigFolderName\markersAliveNormal.xc" Version="2" Search="c:xr" Replace="c:r">
+        <Line>-1</Line>
+      </Patch>
+      <Patch Type="regex" Mode="" PatchPath="{app}" File="res_mods\configs\xvm\xvmConfigFolderName\playersPanel.xc" Version="2" Search="c:xr" Replace="c:r">
+        <Line>-1</Line>
+      </Patch>
+      <Patch Type="regex" Mode="" PatchPath="{app}" File="res_mods\configs\xvm\xvmConfigFolderName\statisticForm.xc" Version="2" Search="c:xr" Replace="c:r">
+        <Line>-1</Line>
+      </Patch>
+      <Patch Type="regex" Mode="" PatchPath="{app}" File="res_mods\configs\xvm\xvmConfigFolderName\xmqp.xc" Version="2" Search="c:xr" Replace="c:r">
+        <Line>-1</Line>
+      </Patch>
+    </Patches>
     <Dependencies>
       <Dependency PackageName="LogicalDependency_MVI_HANGAR_CLEAR_tier_noXVM" NotFlag="True" Logic="AND" />
       <Dependency PackageName="LogicalDependency_MVI_HANGAR_showAll_noXVM" NotFlag="True" Logic="AND" />
@@ -49,7 +73,7 @@
     <DevURL>https://nightly.modxvm.com/download/master/xvm_latest.zip</DevURL>
     <InternalNotes>including:\r\n\_patch\fix_xvm_force_dumb_color_scale_patch.xml\r\n\r\n\r\n\r\n- Download the previous (referenced here as ‘old’) xvm zip file and the new one. It is recommended to put them side by side\r\n- (old file) go inside the mods\versiondir folder and delete the folder called “com.modxvm.xfw”\r\n- Copy the folder “com.modxvm.xfw” (this includes the wotmod files) from the new file into the old file\r\n- (old file) go inside res_mods and delete the mods folder.\r\n- Copy the mods folder from the new file in res_mods to the old file\r\n- (old file) go inside res_mods\configs\xvm and delete the folders default, default_backup and py_macro.\r\n- Copy the folders default and py_macro to the old file\r\n- Rename default to default_backup\r\n- Again copy the default folder from the new file to the old file\r\n - When renaming, the version info for the zip file name comes from a file in the root of the xvm download archive\r\n- Done!\r\n\r\n</InternalNotes>
     <Maintainers>elektrosmoker; Willster419</Maintainers>
-    <LastUpdateCheck>132857826241570826</LastUpdateCheck>
+    <LastUpdateCheck>132867486464642107</LastUpdateCheck>
   </Dependency>
   <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missingPicsFix" Enabled="True" Tags="ImagePNG" InstallGroup="2" PatchGroup="2" UID="8mhlnqmcfzhihq29">
     <Size>8718</Size>
@@ -400,12 +424,30 @@
   </Dependency>
   <Dependency PackageName="Dependency_XVM_XC_RelhaxLoginCredits" Enabled="True" Tags="ConfigurationFileXC,ImagePNG" InstallGroup="6" PatchGroup="2" UID="1oqo95nm8k112x2n">
     <Size>40812</Size>
-    <ZipFile>Dependency_XVM_XC_RelhaxLoginCredits_2020-10-05.zip</ZipFile>
-    <CRC>53b562087bb47f08be43088245c0a3eb</CRC>
-    <Timestamp>132464180707872384</Timestamp>
+    <ZipFile>Dependency_XVM_XC_RelhaxLoginCredits_2020-10-05_converted.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132859204578853697</Timestamp>
     <Author>elektrosmoker</Author>
     <Maintainers>elektrosmoker; Willster419</Maintainers>
     <MinimalistModeExclude>True</MinimalistModeExclude>
+    <LastUpdateCheck>132859204578853697</LastUpdateCheck>
+    <Patches>
+      <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\widgets.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]widgetsRelhaxLoginCredits.xc[quote][colon][quote]OM_Logo[quote][rbracket][index=0]">
+        <Path>$.widgets.login</Path>
+      </Patch>
+      <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\widgets.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]widgetsRelhaxLoginCredits.xc[quote][colon][quote]Relhax_Logo[quote][rbracket][index=0]">
+        <Path>$.widgets.login</Path>
+      </Patch>
+      <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\widgets.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]widgetsRelhaxLoginCredits.xc[quote][colon][quote]Relhax_Modpack[quote][rbracket][index=0]">
+        <Path>$.widgets.login</Path>
+      </Patch>
+      <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\widgets.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]widgetsRelhaxLoginCredits.xc[quote][colon][quote]Credits_Devs[quote][rbracket][index=0]">
+        <Path>$.widgets.login</Path>
+      </Patch>
+      <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\widgets.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]widgetsRelhaxLoginCredits.xc[quote][colon][quote]Credits_Translators[quote][rbracket][index=0]">
+        <Path>$.widgets.login</Path>
+      </Patch>
+    </Patches>
     <Dependencies>
       <Dependency PackageName="Dependency_Fonts_Dinpro" NotFlag="False" Logic="OR" />
     </Dependencies>
@@ -492,59 +534,75 @@
   </Dependency>
   <Dependency PackageName="Dependency_XVM_elementsXCprepatch" Enabled="True" Tags="Patch" InstallGroup="2" PatchGroup="2" UID="mzqi9fc9qujn0b5q">
     <Size>489</Size>
-    <ZipFile>Dependency_xvm_config_builder_elementsXC_temp_prepatch.zip</ZipFile>
-    <CRC>aaffcc5a9b5db43dfeb4474f10d71ffe</CRC>
-    <Timestamp>131812495175590650</Timestamp>
     <InternalNotes>"i am using this logical dep for patches inside elements xc till i know hoiw to patch right" -elektro 2018\r\n\r\nthis is a legacy patch from the v1 days, where package install grouping did not exist. this should be updated.</InternalNotes>
     <Author>elektrosmoker</Author>
     <Maintainers>elektrosmoker</Maintainers>
+    <Patches>
+      <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\elements.xc" Version="1" Search="&quot;elements&quot;:[ [\t]*" Replace="&quot;elements&quot;:[&#xA;  {}" />
+    </Patches>
   </Dependency>
   <Dependency PackageName="Dependency_XVM_damageLogDisable" Enabled="True" Tags="Patch" InstallGroup="2" PatchGroup="2" UID="zoxxheiaprc50ncq">
     <Size>955</Size>
-    <ZipFile>XVM_config_builder_damage_log_disable.zip</ZipFile>
-    <CRC>dfec641432b91ab67a33247c95ff7758</CRC>
     <Author>elektrosmoker</Author>
     <Maintainers>elektrosmoker; Willster419</Maintainers>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\battleLabelsTemplates.xc" Version="1" Search="" Replace="false">
+        <Path>$.def.damageLog.enabled</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableDamageImages" Enabled="True" Tags="Patch" InstallGroup="2" PatchGroup="2" UID="cd4cpeobon4n0ykp">
     <Size>496</Size>
-    <ZipFile>Dependency_XVM_OTM_OMC_Enable_Damage_Images_2019-07-03.zip</ZipFile>
-    <CRC>944185f220593d8e5fc81e38448f5ebf</CRC>
-    <Timestamp>132066325329569270</Timestamp>
     <Author>Grumpelumpf</Author>
     <Maintainers>elektrosmoker; Willster419</Maintainers>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\markersTemplates.xc" Version="1" Search="false" Replace="true">
+        <Path>$.def.enableDamageImages</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableFocusShield" Enabled="True" Tags="Patch" InstallGroup="2" PatchGroup="2" UID="6rljgieuj66cbr13">
     <Size>495</Size>
-    <ZipFile>Dependency_XVM_OTM_OMC_Enable_Focus_Shield_2019-07-03.zip</ZipFile>
-    <CRC>28e96407386e9f87e09e66148896d35c</CRC>
-    <Timestamp>132066327114253450</Timestamp>
     <Author>Grumpelumpf</Author>
     <Maintainers>elektrosmoker; Willster419</Maintainers>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\markersTemplates.xc" Version="1" Search="false" Replace="true">
+        <Path>$.def.enableFocusShieldMarker</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableQuikstat" Enabled="True" Tags="Patch" InstallGroup="2" PatchGroup="2" UID="jgsyphkvi3yub392">
     <Size>490</Size>
-    <ZipFile>Dependency_XVM_OTM_OMC_Enable_Quikstat_2019-07-03.zip</ZipFile>
-    <CRC>88e6b95280e4cd25c793802cf51aa3ec</CRC>
-    <Timestamp>132066325148483862</Timestamp>
     <Author>Grumpelumpf</Author>
     <Maintainers>elektrosmoker; Willster419</Maintainers>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\markersTemplates.xc" Version="1" Search="false" Replace="true">
+        <Path>$.def.enableQuickColorMarker</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableTurretMarkers" Enabled="True" Tags="Patch" InstallGroup="2" PatchGroup="2" UID="w5ydxgqwizrcbfg2">
     <Size>511</Size>
-    <ZipFile>Dependency_XVM_OTM_OMC_Enable_Turret_Markers_2019-07-03.zip</ZipFile>
-    <CRC>f1cc060335a562874eb36c39e6766f4d</CRC>
-    <Timestamp>132066325084614771</Timestamp>
     <Author>Grumpelumpf</Author>
     <Maintainers>elektrosmoker; Willster419</Maintainers>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\markersTemplates.xc" Version="1" Search="false" Replace="true">
+        <Path>$.def.enableTurretMarker</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\markersTemplates.xc" Version="1" Search="false" Replace="true">
+        <Path>$.def.enableEnhancedTurretMarker</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableXMQP" Enabled="True" Tags="Patch" InstallGroup="2" PatchGroup="2" UID="qkgkokgfdis1m8yf">
     <Size>501</Size>
-    <ZipFile>Dependency_XVM_OTM_OMC_Enable_XMQP_2019-07-03.zip</ZipFile>
-    <CRC>1e5aab2ff9abb5a8f1b5b8e87b246c0a</CRC>
-    <Timestamp>132066325025044182</Timestamp>
     <Author>Grumpelumpf</Author>
     <Maintainers>elektrosmoker; Willster419</Maintainers>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\markersTemplates.xc" Version="1" Search="{{.playersPanel.Templates.enableXmqpServiceMarker}}" Replace="true">
+        <Path>$.def.enableXmqpServiceMarker</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="--ORDER_MATTERS--" Enabled="False" Tags="" InstallGroup="2" PatchGroup="2" UID="39mzwkmgceljmj5f">
     <CRC>f</CRC>
@@ -617,14 +675,28 @@
   <Dependency PackageName="Dependency_PMOD" Enabled="True" Tags="Script" InstallGroup="2" PatchGroup="2" UID="ex0ocsm6tio4kknh">
     <Size>2738607</Size>
     <Version>1.56.0</Version>
-    <ZipFile>Dependency_PMOD_v1.56.0_1.15.0.0_2021-12-13.zip</ZipFile>
-    <CRC>e60f62fa015a3e0e8b07f62bec9f9ef3</CRC>
-    <Timestamp>132838352461866630</Timestamp>
+    <ZipFile>Dependency_PMOD_v1.56.0_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132859204902753677</Timestamp>
     <DevURL>https://wgmods.net/50/details/</DevURL>
     <InternalNotes>AS OF 2021-05-08, no longer have to manually modify the configuration! A patch exists to disable the small effects that are enabled by default.\r\n\r\n\r\n--- OLD INSTRUCTIONS ---\r\nhttps://docs.google.com/document/d/1DIYfQwfD46KWA3xLvqONjj_i54SlYy3F0YKZUc_U3JU/edit#heading=h.x2kg0opxs8h0\r\n\r\nDependency_PMOD\r\nThis mod is a series of smaller modifications that improve the player’s game, mostly by aiming. It also has a statistics feature. The special instructions for this mod is to manually disable all features in the configs when the mod is downloaded. The config is JSON. for each json file (except single.json and multiple.json), there is an “enable” at the top, to enable the module. Each one should be disabled. (Set enabled to false)\r\n\r\nIf using Notepad++, open all json files but "single.json", and search for "// true - enable the module." for each result in each file, make sure enable is false.\r\n\r\nCurrently (2021-02-09), only zoomDistance.json and onStartDeadDistance.json are ever to be true\r\n\r\n\r\n1.46.1\r\nrem improveIngameStatistic</InternalNotes>
     <Author>P0LIR0ID</Author>
     <Maintainers>Willster419</Maintainers>
-    <LastUpdateCheck>132852355085704688</LastUpdateCheck>
+    <LastUpdateCheck>132859204902753677</LastUpdateCheck>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\zoomDistance.json" Version="1" Search=".*" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\onStartDeadDistance.json" Version="1" Search=".*" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\_single.json" Version="1" Search=".*" Replace="false">
+        <Path>$.zoomDistance.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\_single.json" Version="1" Search=".*" Replace="false">
+        <Path>$.onStartDeadDistance.enable</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="Dependency_PY_PYmodsCore" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="pldcs1mv9lrphm5k">
     <Size>24330</Size>
@@ -643,10 +715,43 @@
   </Dependency>
   <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" Enabled="True" Tags="Script,Patch" InstallGroup="2" PatchGroup="2" UID="9e8e03og3xees21w">
     <Size>137844</Size>
-    <ZipFile>Dependency_RaJCeL_inBattleStatistics_1.15.0.0_2021-12-18.zip</ZipFile>
-    <CRC>b2ebbff74c60c89ee58e8dcc872fac11</CRC>
-    <Timestamp>132843459968767542</Timestamp>
+    <ZipFile>Dependency_RaJCeL_inBattleStatistics_1.15.0.0_2021-12-18_converted.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132859204963153684</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-\r\nhttps://wgmods.net/2559/details</DevURL>
+    <LastUpdateCheck>132859204963153684</LastUpdateCheck>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\crewSkills.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\dateTime.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\highCaliber.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\playersPanelDamage.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\playersPanelSpotted.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\statisticsCalculator.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\teamHP.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\statisticsCalculator.json" Version="1" Search="" Replace="true">
+        <Path>$.moveInBattle</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\highCaliber.json" Version="1" Search="" Replace="true">
+        <Path>$.moveInBattle</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\crewSkills.json" Version="1" Search="" Replace="true">
+        <Path>$.moveInBattle</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="--CROSSHAIRS--" Enabled="False" Tags="" InstallGroup="2" PatchGroup="2" UID="tbet6ikptugbv2jm">
     <CRC>f</CRC>
@@ -690,24 +795,49 @@
   </Dependency>
   <Dependency PackageName="Dependency_Sounds_XMLmainSoundModes" Enabled="True" Tags="XmlUnpack" InstallGroup="2" PatchGroup="2" UID="eh397gfpekjp1w1c">
     <Size>638</Size>
-    <ZipFile>Dependency_Sounds_XMLmainSoundModes_2020-08-09.zip</ZipFile>
-    <CRC>abe08fadeb6037fa1e6df17b2af0b147</CRC>
-    <Timestamp>132414841286848736</Timestamp>
     <InternalNotes>This xml file controls all the national languages inside the game. \r\nThis may be modified by some sound mods. \r\nIt’s the same as xml_creation package above. \r\n\r\nTo verify: \r\n- Make an installation with Easy Crew Voice selector or Relhax sound mod\r\n- Verify that \res_mods\{versiondir}\gui\soundModes\main_sound_mods.xml is created\r\n</InternalNotes>
+    <XmlUnpacks>
+      <XmlUnpack FileName="main_sound_modes.xml" ExtractDirectory="{app}\res_mods\{versiondir}\gui\soundModes" NewFileName="">
+        <Pkg>{app}\res\packages\gui-part2.pkg</Pkg>
+        <DirectoryInArchive>gui/soundModes</DirectoryInArchive>
+      </XmlUnpack>
+    </XmlUnpacks>
   </Dependency>
   <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_default" Enabled="True" Tags="Patch" InstallGroup="2" PatchGroup="2" UID="r69offlqdgb7188c">
     <Size>986</Size>
-    <ZipFile>Dependency_Sounds_IncreaseSoundMemory_default_2020-11-05.zip</ZipFile>
-    <CRC>d2663504f17573e5235bb76b24103223</CRC>
-    <Timestamp>132490852078125855</Timestamp>
     <InternalNotes>sets the following properties:\r\nmemoryLimit - 250mb\r\nmax_voices - 130\r\ndefaultPool - 36mb\r\nlowEnginePool - 16mb\r\nStreamingPool - 4mb\r\nIOPoolSize - 8mb</InternalNotes>
+    <Patches>
+      <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="1" Search=".*" Replace="250">
+        <Path>//engine_config.xml/soundMgr/memoryLimit[text()&lt;=250]</Path>
+      </Patch>
+      <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="1" Search=".*" Replace="130">
+        <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/soundRender/max_voices[text()&lt;=130]</Path>
+      </Patch>
+      <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="1" Search=".*" Replace="8">
+        <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/memoryManager/IOPoolSize[text()&lt;=8]</Path>
+      </Patch>
+      <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="1" Search=".*" Replace="8">
+        <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/memoryManager_64bit/IOPoolSize[text()&lt;=8]</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" Enabled="True" Tags="Patch" InstallGroup="2" PatchGroup="2" UID="4vg3nerrdc4o1jfb">
     <Size>1006</Size>
-    <ZipFile>Dependency_Sounds_IncreaseSoundMemory_large_2020-11-05.zip</ZipFile>
-    <CRC>51379d2d4443438065c0374e5188ae0e</CRC>
-    <Timestamp>132490852180440745</Timestamp>
     <InternalNotes>sets the following properties:\r\nmemoryLimit - 250mb\r\nmax_voices - 130\r\ndefaultPool - 36mb\r\nlowEnginePool - 16mb\r\nStreamingPool - 24mb\r\nIOPoolSize -32mb</InternalNotes>
+    <Patches>
+      <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="1" Search=".*" Replace="250">
+        <Path>//engine_config.xml/soundMgr/memoryLimit[text()&lt;=250]</Path>
+      </Patch>
+      <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="1" Search=".*" Replace="130">
+        <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/soundRender/max_voices[text()&lt;=130]</Path>
+      </Patch>
+      <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="1" Search=".*" Replace="32">
+        <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/memoryManager/IOPoolSize[text()&lt;=32]</Path>
+      </Patch>
+      <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\engine_config.xml" Version="1" Search=".*" Replace="32">
+        <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/memoryManager_64bit/IOPoolSize[text()&lt;=32]</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="Dependency_Sounds_SoundEventInjector" Enabled="True" Tags="Script,ConfigurationFileXml" InstallGroup="2" PatchGroup="2" UID="j0vkk5ce44tfsfnx">
     <Size>7794</Size>
@@ -993,17 +1123,27 @@
   </Dependency>
   <Dependency PackageName="Dependency_AtlasCreation_battleAtlas" Enabled="True" Tags="AtlasBuilder,Atlas" InstallGroup="2" PatchGroup="2" UID="20k2h6j8hjtjvke5">
     <Size>762</Size>
-    <ZipFile>Dependency_AtlasCreation_battleAtlas_2020-08-09.zip</ZipFile>
-    <CRC>59202738bfbca94a3c58a960a6ff665e</CRC>
-    <Timestamp>132414841658195197</Timestamp>
     <Maintainers>Willster419</Maintainers>
+    <Atlases>
+      <Atlas Pkg="{app}\res\packages\gui-part1.pkg" DirectoryInArchive="gui\flash\atlases\" AtlasFile="battleAtlas.dds" MapFile="" PowOf2="True" Square="False" AtlasWidth="0" AtlasHeight="0" FastImagePacker="True" Padding="1" AtlasSaveDirectory="{app}\res_mods\{versiondir}\gui\flash\atlases">
+        <ImageFolders>
+          <String>{app}\_atlases</String>
+          <String>{app}\res_mods\{versiondir}\gui\maps\icons\vehicle\contour</String>
+        </ImageFolders>
+      </Atlas>
+    </Atlases>
   </Dependency>
   <Dependency PackageName="Dependency_AtlasCreation_vehicleMarkerAtlas" Enabled="True" Tags="AtlasBuilder,Atlas" InstallGroup="2" PatchGroup="2" UID="fpqhp5p9ggl0vwm5">
     <Size>778</Size>
-    <ZipFile>Dependency_AtlasCreation_vehicleMarkerAtlas_2020-08-09.zip</ZipFile>
-    <CRC>b47244d086a995b47df12a67d1684fc2</CRC>
-    <Timestamp>132414841963772355</Timestamp>
     <Maintainers>Willster419</Maintainers>
+    <Atlases>
+      <Atlas Pkg="{app}\res\packages\gui-part1.pkg" DirectoryInArchive="gui\flash\atlases\" AtlasFile="vehicleMarkerAtlas.dds" MapFile="" PowOf2="True" Square="False" AtlasWidth="0" AtlasHeight="0" FastImagePacker="True" Padding="1" AtlasSaveDirectory="{app}\res_mods\{versiondir}\gui\flash\atlases">
+        <ImageFolders>
+          <String>{app}\_atlases</String>
+          <String>{app}\res_mods\{versiondir}\gui\maps\icons\vehicle\contour</String>
+        </ImageFolders>
+      </Atlas>
+    </Atlases>
   </Dependency>
   <Dependency PackageName="Dependency_MVI_disable_XVM" Enabled="True" Tags="DependencyLink" InstallGroup="2" PatchGroup="2" UID="938oh9fsbznq6p4i">
     <Timestamp>131800987960603396</Timestamp>
@@ -1045,20 +1185,49 @@
   </Dependency>
   <Dependency PackageName="LogicalDependency_MVI_BATTLE_disable_XVM" Enabled="True" Tags="Patch" InstallGroup="2" PatchGroup="2" UID="qd455epzxjolsx47">
     <Size>947</Size>
-    <ZipFile>LogicalDependency_MVI_BATTLE_disable_XVM_patch_2020-04-08.zip</ZipFile>
-    <CRC>999f161e07e9bb9b3c4e9c903124d390</CRC>
-    <Timestamp>132308175356420508</Timestamp>
     <DevURL>https://koreanrandom.com/forum/topic/35159-/?tab=comments#comment-357523</DevURL>
     <InternalNotes>its a patch: nothing todo\r\n\r\nand plz, DO NOT DISABLE THIS ON PATCHDAYS</InternalNotes>
     <Author>DO NOT DISABLE THIS ON PATCHDAYS</Author>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\battle.xc" Version="1" Search=".*" Replace="false">
+        <Path>$.battle.mirroredVehicleIcons</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="LogicalDependency_MVI_BATTLE_remove_vehicelLevelIcon_XVM" Enabled="True" Tags="Patch" InstallGroup="2" PatchGroup="2" UID="ksldwifir2qb4qlk">
     <Size>854</Size>
-    <ZipFile>LogicalDependency_MVI_BATTLE_remove_vehicelLevelIcon_XVM_patch_2019-02-19.zip</ZipFile>
-    <CRC>a20240d3fdf0445ca4931d69afda6dde</CRC>
-    <Timestamp>132483479388534916</Timestamp>
     <InternalNotes>its a patch: nothing to do\r\n\r\nand plz, DO NOT DISABLE THIS ON PATCHDAYS</InternalNotes>
     <Author>DO NOT DISABLE THIS ON PATCHDAYS</Author>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\playersPanel.xc" Version="1" Search="" Replace="0">
+        <Path>$.playersPanel.short.vehicleLevelAlpha</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\playersPanel.xc" Version="1" Search="" Replace="0">
+        <Path>$.playersPanel.medium.vehicleLevelAlpha</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\playersPanel.xc" Version="1" Search="" Replace="0">
+        <Path>$.playersPanel.medium2.vehicleLevelAlpha</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\playersPanel.xc" Version="1" Search="" Replace="0">
+        <Path>$.playersPanel.large.vehicleLevelAlpha</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLoadingTips.xc" Version="1" Search="" Replace="true">
+        <Path>$.battleLoadingTips.removeVehicleLevel</Path>
+      </Patch>
+      <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\statisticForm.xc" Version="1" Search="&quot;removeVehicleLevel&quot;: false," Replace="&quot;removeVehicleLevel&quot;: true," />
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLoading.xc" Version="1" Search="" Replace="0">
+        <Path>$.statisticForm.vehicleIconAlpha</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLoading.xc" Version="1" Search="" Replace="true">
+        <Path>$.statisticForm.removeVehicleLevel</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLoading.xc" Version="1" Search="" Replace="0">
+        <Path>$.battleLoading.vehicleIconAlpha</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLoading.xc" Version="1" Search="" Replace="true">
+        <Path>$.battleLoading.removeVehicleLevel</Path>
+      </Patch>
+    </Patches>
   </Dependency>
   <Dependency PackageName="LogicalDependency_MVI_BATTLE_noXVM" Enabled="True" Tags="GuiFlash" InstallGroup="2" PatchGroup="2" UID="xhss5hljrzit42tk">
     <Size>66641</Size>
