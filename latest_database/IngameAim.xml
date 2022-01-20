@@ -3,13 +3,14 @@
   <Packages>
     <Package PackageName="IngameAim_ArtyImpactRadius" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="z2gl9ctm77nw3ftb" Name="Arty Impact Radius (Port of Arty Splash Sphere) [by {author}]" Type="multi" Visible="True">
       <Size>55987</Size>
-      <Version>0.92</Version>
-      <ZipFile>IngameAim_ArtyImpactRadius_v0.90_1.14.1.2_2021_11_09.zip</ZipFile>
-      <CRC>43113f9799796554bc3d02a149761318</CRC>
-      <Timestamp>132809735225058825</Timestamp>
+      <Version>0.91</Version>
+      <ZipFile>IngameAim_ArtyImpactRadius_v0.91_1.15.0.1_2022-01-20.zip</ZipFile>
+      <CRC>f</CRC>
+      <Timestamp>132871128261538690</Timestamp>
       <InternalNotes>This mod is not hosted on his site, we must get it directly from him</InternalNotes>
       <Author>Champi</Author>
       <Maintainers>Willster419</Maintainers>
+      <LastUpdateCheck>132871128261563598</LastUpdateCheck>
       <Description>This mod will draw a sphere marking the stun area.\r\n\r\nOriginal mod by Spoter, ported to Champi's settings GUI</Description>
       <GreyAreaMod>True</GreyAreaMod>
       <ObfuscatedMod>True</ObfuscatedMod>
@@ -65,7 +66,7 @@
         </Package>
       </Packages>
     </Package>
-    <Package PackageName="IngameAim_autoloaderHelper" Enabled="True" Tags="Script,DependencyLink" InstallGroup="4" PatchGroup="4" UID="5ys1yd14xd9nenj0" Name="Autoloader Helper [by {author}]" Type="multi" Visible="True">
+    <Package PackageName="IngameAim_autoloaderHelper" Enabled="False" Tags="Script,DependencyLink" InstallGroup="4" PatchGroup="4" UID="5ys1yd14xd9nenj0" Name="Autoloader Helper [by {author}]" Type="multi" Visible="True">
       <Size>37052</Size>
       <Version>3.0</Version>
       <ZipFile>IngameAim_autoloaderHelper_v3.0_1.15.0.0_2021-12-13.zip</ZipFile>
@@ -695,6 +696,7 @@
           <Timestamp>132838364844530979</Timestamp>
           <InternalNotes>extract from the inno setup unpacker\r\n\r\nuse reductionInfo,1.json for the config</InternalNotes>
           <Author>P0LIR0ID</Author>
+          <LastUpdateCheck>132871128204034425</LastUpdateCheck>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Dependencies>
             <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
@@ -768,13 +770,13 @@
         <Package PackageName="IngameAim_SafeShot_OldSkool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lgh50ztb1ft3qcw3" Name="SafeShot [by {author}]" Type="single1" Visible="True">
           <Size>49589</Size>
           <Version>1.3.2</Version>
-          <ZipFile>IngameAim_SafeShot_OldSkool_v1.3.2_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+          <ZipFile>IngameAim_SafeShot_OldSkool_v1.3.2_1.15.0.1_2022-01-20.zip</ZipFile>
           <CRC>f</CRC>
-          <Timestamp>132859221424498642</Timestamp>
+          <Timestamp>132871128292676799</Timestamp>
           <DevURL>https://github.com/deadhat/wotmods-public.git</DevURL>
           <InternalNotes>We seem to have direct access to his mods without needing WGmods or his modpack installer.\r\n\r\nOne of his mirror download sites (https://promod.reidarty.de) allows https file browsing. For example, we can directly download from the following URL:\r\n\r\nhttps://promod.reidarty.de/promod/1.9.0.3/</InternalNotes>
           <Author>OldSkool</Author>
-          <LastUpdateCheck>132859221424498642</LastUpdateCheck>
+          <LastUpdateCheck>132871128292686802</LastUpdateCheck>
           <Description>SafeShot prevents the loss of ammunition to allied tanks.\r\n(formerly preventing team damage)</Description>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Medias>
@@ -873,13 +875,13 @@
         </Package>
         <Package PackageName="IngameAim_SafeShot_Champi" Enabled="True" Tags="Script,ConfigurationFileJson,Patch" InstallGroup="4" PatchGroup="4" UID="au1did8dq1mvem8q" Name="SafeShot [by {author}]" Type="single1" Visible="True">
           <Size>76216</Size>
-          <Version>1.09</Version>
-          <ZipFile>IngameAim_SafeShot_Champi_v1.09_1.14.1.1_2021-10-28_converted.zip</ZipFile>
+          <Version>1.10</Version>
+          <ZipFile>IngameAim_SafeShot_Champi_v1.10_1.15.0.1_2022-01-20.zip</ZipFile>
           <CRC>f</CRC>
-          <Timestamp>132859221568223674</Timestamp>
+          <Timestamp>132871128334380741</Timestamp>
           <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/3130/</DevURL>
           <Author>Champi</Author>
-          <LastUpdateCheck>132859221568223674</LastUpdateCheck>
+          <LastUpdateCheck>132871128334390769</LastUpdateCheck>
           <ObfuscatedMod>True</ObfuscatedMod>
           <FromWGmods>True</FromWGmods>
           <UserFiles>
@@ -1003,6 +1005,7 @@
           <CRC>6b7b9d9b459358789bf5d0e36761f1c4</CRC>
           <Timestamp>132509486476616694</Timestamp>
           <DevURL>https://awfultanker.torvox.eu/servermarker.html\r\nhttp://forum.worldoftanks.eu/index.php?/topic/583501-</DevURL>
+          <LastUpdateCheck>132871128225665104</LastUpdateCheck>
           <Description>Shows where the server thinks you are aiming. Server crosshair must be enabled in game settings.</Description>
           <Medias>
             <Media MediaType="Picture" URL="https://awfultanker.torvox.eu/images/server_marker.png" />
