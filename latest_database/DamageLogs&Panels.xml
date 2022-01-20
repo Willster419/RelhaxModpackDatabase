@@ -9,6 +9,7 @@
       <DevURL>http://wotsite.net/paneli-povrezhdenij/3109-</DevURL>
       <InternalNotes>only need the one from the "Толька лог урона" folder (translated: "damage log only")\r\n\r\nthe damage log wotmod in "Лог урона +ремонт по центру" is the same as above, no difference which one you get\r\n</InternalNotes>
       <Author>GambiteR</Author>
+      <LastUpdateCheck>132871123140303056</LastUpdateCheck>
       <Description>Damage Logs create a list of taken damage. \nIn the list there is detailed information about who was shooting you and how much HP these shots have taken from you.\n\nWe provide you some configurations with different layouts and colors, but you have to figure out yourself which one fits best to the rest of your installed modifications.</Description>
       <Medias>
         <Media MediaType="Picture" URL="http://wotsite.net/images/2014/1/21/1.jpg" />
@@ -75,14 +76,14 @@
     <Package PackageName="DamagePanels" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="m1s7l2ltza398x6c" Name="Damage Panels" Type="multi" Visible="True">
       <InternalNotes>res\gui\flash\damagePanel.swf\r\n\r\nIf a package includes DAMAGE LOG config files, then include them here.\r\n\r\nIf the user installs damagelogs, then they will be used.</InternalNotes>
       <Packages>
-        <Package PackageName="DamagePanels_BionickTransparent" Enabled="False" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="t5htl5hctpxhj1vp" Name="&quot;Bionick&quot; transparent" Type="single_dropdown1" Visible="True">
+        <Package PackageName="DamagePanels_BionickTransparent" Enabled="True" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="t5htl5hctpxhj1vp" Name="&quot;Bionick&quot; transparent" Type="single_dropdown1" Visible="True">
           <Size>255599</Size>
-          <ZipFile>DamagePanels_BionickTransparent_1.13.0.0_2021-06-28.zip</ZipFile>
-          <CRC>c7e0302dc774b22d4217867dbc44fb11</CRC>
-          <Timestamp>132693399313997554</Timestamp>
+          <ZipFile>DamagePanels_BionickTransparent_1.15.0.1_2022-01-20.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132871124369052530</Timestamp>
           <DevURL>http://wotsite.net/paneli-povrezhdenij/10331-peredelannaya-panel-povrezhdenij-ot-bionick-dlya-world-of-tanks.html</DevURL>
           <Deprecated>True</Deprecated>
-          <LastUpdateCheck>132852323013156802</LastUpdateCheck>
+          <LastUpdateCheck>132871124369102505</LastUpdateCheck>
           <Description>GambitER´s damage log should be installed for full functionality. \nIt also works without dmg log - only thing missing would be that the current received hit (red text) will not be shown inside the damage panel.</Description>
           <Dependencies>
             <Dependency PackageName="Dependency_Fonts_DamageLog" NotFlag="False" Logic="OR" />
@@ -96,7 +97,7 @@
           <DevURL>https://wgmods.net/2087/\r\nhttps://discord.gg/6Kye2zx</DevURL>
           <InternalNotes>In folder "DamagePanel_\Type_1\01. Glass-Original\"</InternalNotes>
           <Author>HAWG</Author>
-          <LastUpdateCheck>132852322612666372</LastUpdateCheck>
+          <LastUpdateCheck>132871124005509891</LastUpdateCheck>
           <FromWGmods>True</FromWGmods>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Damage_Panel/Damage_Panel_Hawg_Glass_Original.jpg" />
@@ -111,7 +112,7 @@
           <Timestamp>132852321863322296</Timestamp>
           <InternalNotes>in folder "DamagePanel_\Type_1\03. Glass-Angle-Indicator-Outer-V1\"</InternalNotes>
           <Author>HAWG</Author>
-          <LastUpdateCheck>132852322682342331</LastUpdateCheck>
+          <LastUpdateCheck>132871124115907584</LastUpdateCheck>
           <FromWGmods>True</FromWGmods>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Damage_Panel/Damage_Panel_Hawg_Glass_AngleIndicator_Outer.png" />
@@ -124,7 +125,7 @@
           <Timestamp>132852322760319538</Timestamp>
           <InternalNotes>in folder "DamagePanel_\Type_1\05. Glass-Angle-Indicator-Inner-Full-V1\"</InternalNotes>
           <Author>HAWG</Author>
-          <LastUpdateCheck>132852322760404455</LastUpdateCheck>
+          <LastUpdateCheck>132871124216962434</LastUpdateCheck>
           <FromWGmods>True</FromWGmods>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Damage_Panel/Damage_Panel_Hawg_Glass_AngleIndicator_InnerFull.png" />
@@ -137,21 +138,21 @@
           <Timestamp>132852322839402812</Timestamp>
           <InternalNotes>in folder "DamagePanel_\Type_1\07. Glass-Angle-Indicator-Inner-Lite\"</InternalNotes>
           <Author>HAWG</Author>
-          <LastUpdateCheck>132852322839462761</LastUpdateCheck>
+          <LastUpdateCheck>132871124318923709</LastUpdateCheck>
           <FromWGmods>True</FromWGmods>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Damage_Panel/Damage_Panel_Hawg_Glass_AngleIndicator_InnerLite.png" />
           </Medias>
         </Package>
-        <Package PackageName="DamagePanels_LegacyBlue" Enabled="False" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="8ejkhjl8xgag3z5h" Name="&quot;Legacy&quot; blue " Type="single_dropdown1" Visible="True">
+        <Package PackageName="DamagePanels_LegacyBlue" Enabled="True" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="8ejkhjl8xgag3z5h" Name="&quot;Legacy&quot; blue " Type="single_dropdown1" Visible="True">
           <Size>285563</Size>
-          <ZipFile>DamagePanels_LegacyBlue_1.13.0.0_2021-06-28.zip</ZipFile>
-          <CRC>fa3583e3ce94bf20a2e2975546ff48c2</CRC>
-          <Timestamp>132693405475636063</Timestamp>
+          <ZipFile>DamagePanels_LegacyBlue_1.15.0.1_2022-01-20.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132871124416894837</Timestamp>
           <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-</DevURL>
           <InternalNotes>"Синяя панель" - Blue Panel</InternalNotes>
           <Deprecated>True</Deprecated>
-          <LastUpdateCheck>132852323050008918</LastUpdateCheck>
+          <LastUpdateCheck>132871124416944847</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_blue.jpg" />
           </Medias>
@@ -159,15 +160,15 @@
             <Dependency PackageName="Dependency_Fonts_10_ZurichCond" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
-        <Package PackageName="DamagePanels_LegacyDark" Enabled="False" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="vpd59jf7xkhy3nyh" Name="&quot;Legacy&quot; dark " Type="single_dropdown1" Visible="True">
+        <Package PackageName="DamagePanels_LegacyDark" Enabled="True" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="vpd59jf7xkhy3nyh" Name="&quot;Legacy&quot; dark " Type="single_dropdown1" Visible="True">
           <Size>289984</Size>
-          <ZipFile>DamagePanels_LegacyDark_1.14.0.5_2021-10-09.zip</ZipFile>
-          <CRC>3c0aff924df6135815f7479d3a80ab61</CRC>
-          <Timestamp>132782946497243175</Timestamp>
+          <ZipFile>DamagePanels_LegacyDark_1.15.0.1_2022-01-20.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132871124462362219</Timestamp>
           <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-</DevURL>
           <InternalNotes>"Темная панель" - Dark panel</InternalNotes>
           <Deprecated>True</Deprecated>
-          <LastUpdateCheck>132852323082926066</LastUpdateCheck>
+          <LastUpdateCheck>132871124462367792</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_dark.jpg" />
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_dark.jpg" />
@@ -176,15 +177,15 @@
             <Dependency PackageName="Dependency_Fonts_10_ZurichCond" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
-        <Package PackageName="DamagePanels_LegacyMetall" Enabled="False" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="1bvyhfpo31g9sug4" Name="&quot;Legacy&quot; metallic " Type="single_dropdown1" Visible="True">
+        <Package PackageName="DamagePanels_LegacyMetall" Enabled="True" Tags="GuiFlash" InstallGroup="5" PatchGroup="4" UID="1bvyhfpo31g9sug4" Name="&quot;Legacy&quot; metallic " Type="single_dropdown1" Visible="True">
           <Size>335613</Size>
-          <ZipFile>DamagePanels_LegacyMetall_1.14.0.5_2021-10-09_2.zip</ZipFile>
-          <CRC>4bd6e9c1c8dc1879a086fdad28b2d772</CRC>
-          <Timestamp>132782946294424606</Timestamp>
+          <ZipFile>DamagePanels_LegacyMetall_1.15.0.1_2022-01-20.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132871124508088513</Timestamp>
           <DevURL>http://wotsite.net/paneli-povrezhdenij/12429-</DevURL>
           <InternalNotes>"Металлик панель" - Metalic Panel</InternalNotes>
           <Deprecated>True</Deprecated>
-          <LastUpdateCheck>132852323114625764</LastUpdateCheck>
+          <LastUpdateCheck>132871124508093496</LastUpdateCheck>
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Damage_Panel/Damage_Panel_Legacy_metall_0.jpg" />
           </Medias>
@@ -199,7 +200,7 @@
           <Timestamp>132838362550481178</Timestamp>
           <DevURL>https://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
           <InternalNotes>"Панель простая" -&gt; Simple panel</InternalNotes>
-          <LastUpdateCheck>132852323142849613</LastUpdateCheck>
+          <LastUpdateCheck>132871124540395528</LastUpdateCheck>
           <UpdateComment>The panel is simple</UpdateComment>
           <Medias>
             <Media MediaType="Picture" URL="http://wotsite.net/images/2015/9/10/shot_012.jpg" />
@@ -213,7 +214,7 @@
           <Timestamp>132838362595317149</Timestamp>
           <DevURL>https://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
           <InternalNotes>"Панель с УГН" -&gt; Panel with Angle Blocking Indicator</InternalNotes>
-          <LastUpdateCheck>132852323170793942</LastUpdateCheck>
+          <LastUpdateCheck>132871124572598590</LastUpdateCheck>
           <UpdateComment>Panel with UGN</UpdateComment>
           <Medias>
             <Media MediaType="Picture" URL="http://i.imgur.com/8MIDTue.jpg" />
@@ -226,7 +227,7 @@
           <Timestamp>132838362644617588</Timestamp>
           <DevURL>https://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
           <InternalNotes>"Панель простая + ремонт по центру" -&gt; Simple panel and center repair</InternalNotes>
-          <LastUpdateCheck>132852323198550963</LastUpdateCheck>
+          <LastUpdateCheck>132871124605495963</LastUpdateCheck>
           <UpdateComment>Panel simple + repair center</UpdateComment>
           <Medias>
             <Media MediaType="Picture" URL="http://i.imgur.com/WvBhJZL.jpg" />
@@ -241,7 +242,7 @@
           <Timestamp>132838362697171195</Timestamp>
           <DevURL>https://wotsite.net/paneli-povrezhdenij/4523-</DevURL>
           <InternalNotes>"Панель с УГН + ремонт по центру" -&gt; Panel with Angle Blocking Indicator and center repair</InternalNotes>
-          <LastUpdateCheck>132852323228346527</LastUpdateCheck>
+          <LastUpdateCheck>132871124639873456</LastUpdateCheck>
           <UpdateComment>Panel with UGN + central repair</UpdateComment>
           <Medias>
             <Media MediaType="Picture" URL="http://i.imgur.com/WvBhJZL.jpg" />
@@ -256,7 +257,7 @@
           <Timestamp>132843461395079229</Timestamp>
           <DevURL>http://forum.worldoftanks.eu/index.php?/topic/746274-\r\nhttps://wgmods.net/4709/</DevURL>
           <Author>RaJCeL</Author>
-          <LastUpdateCheck>132852323304064107</LastUpdateCheck>
+          <LastUpdateCheck>132871124722272198</LastUpdateCheck>
           <Description>Central repair of modules, crew, stun and fire.\r\nNo need to hover a mouse to consumables panel or hotkeys usage.\r\nEverything is now close to middle of the screen.</Description>
           <FromWGmods>True</FromWGmods>
           <Medias>
