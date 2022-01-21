@@ -628,6 +628,9 @@
         </Package>
       </Packages>
       <Patches>
+        <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search=".*" Replace="True">
+          <Path>/sixthSense.xml/playSound</Path>
+        </Patch>
         <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="lightbulb">
           <Path>$.sounds.soundMapping.lightbulb</Path>
         </Patch>
