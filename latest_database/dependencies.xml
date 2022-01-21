@@ -791,14 +791,14 @@
   </Dependency>
   <Dependency PackageName="Dependency_6thSense_Aimdrol" Enabled="True" Tags="Script,ConfigurationFileXml" InstallGroup="2" PatchGroup="2" UID="uo88zdd4l8w0qg5z">
     <Size>4811</Size>
-    <ZipFile>Dependency_6thSense_Aimdrol_Base_1.7.0.2_2020-01-08.zip</ZipFile>
-    <CRC>66f82e34e239598c0434bbf84611da41</CRC>
-    <Timestamp>132229425027143926</Timestamp>
+    <ZipFile>Dependency_6thSense_Aimdrol_Base_1.15.0.1_2021-01-21.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132872650013567945</Timestamp>
     <DevURL>https://github.com/Aimdrol/MLG-6th-Sense</DevURL>
     <Maintainers>Willster419</Maintainers>
     <Patches>
-      <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search=".*" Replace="False">
-        <Path>/sixthSense.xml/playSound</Path>
+      <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\sixthSense.xml" Version="1" Search=".*" Replace="">
+        <Path>/sixthSense.xml/soundPath</Path>
       </Patch>
     </Patches>
   </Dependency>
