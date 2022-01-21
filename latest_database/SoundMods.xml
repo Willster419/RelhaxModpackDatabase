@@ -459,19 +459,6 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/sound_mods/Crew Sound Mods/The Illusion/shot_043.jpg" />
                   </Medias>
                 </Package>
-                <Package PackageName="Sounds_CrewVoices_ENG_Basic_Relhax" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="g8fqf3ueleg65em4" Name="Relhax [by {author}]" Type="single_dropdown1" Visible="True">
-                  <Size>22808457</Size>
-                  <ZipFile>Sounds_CrewVoices_ENG_Basic_Relhax_1.12.0.0_2021-03-12.zip</ZipFile>
-                  <CRC>7b4b5dcd48daa0362fa92d3110e635b3</CRC>
-                  <Timestamp>132600796708268800</Timestamp>
-                  <DevURL>http://relicgaming.org/index.php?topic=697.0</DevURL>
-                  <Author>Willster419</Author>
-                  <Description>Relhax:\nReplaces all crew sounds with hilarious out-of-context sound bytes from people of the RELIC gaming community</Description>
-                  <Medias>
-                    <Media MediaType="Picture" URL="http://i.imgur.com/uWih1kD.jpg" />
-                    <Media MediaType="Webpage" URL="https://www.youtube.com/v/9kCic4vXYIE?version=3&amp;autoplay=1" />
-                  </Medias>
-                </Package>
               </Packages>
             </Package>
           </Packages>
@@ -605,79 +592,7 @@
         </Package>
       </Packages>
     </Package>
-    <Package PackageName="Sounds_GUI" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="uqrny4w518w9e0y8" Name="GUI" Type="multi" Visible="True">
-      <Packages>
-        <Package PackageName="Sounds_GUI_Relhax" Enabled="True" Tags="Patch,SoundBank,DependencyLink" InstallGroup="4" PatchGroup="4" UID="o49vq8mowrxzptgl" Name="Relhax by Willster419" Type="single_dropdown1" Visible="True">
-          <Size>33854392</Size>
-          <ZipFile>Sounds_GUI_Relhax_2021-03-12_converted.zip</ZipFile>
-          <CRC>f</CRC>
-          <Timestamp>132859250471660858</Timestamp>
-          <LastUpdateCheck>132859250471660858</LastUpdateCheck>
-          <Medias>
-            <Media MediaType="Picture" URL="http://i.imgur.com/uWih1kD.jpg" />
-          </Medias>
-          <Dependencies>
-            <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
-          </Dependencies>
-          <Patches>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/RelHaxGui.bnk">
-              <Path>//audio_mods.xml/loadBanks</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="bank/name/RelHaxGui.pck">
-              <Path>//audio_mods.xml/loadBanks</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
-              <Path>/audio_mods.xml/loadBanks/bank[name = "RelHaxGui.bnk"]</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
-              <Path>/audio_mods.xml/loadBanks/bank[name = "RelHaxGui.pck"]</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/base_capture_1">
-              <Path>//audio_mods.xml/events</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_base_capture_1">
-              <Path>/audio_mods.xml/events/event[name = "base_capture_1"]</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/enemy_sighted_for_team">
-              <Path>//audio_mods.xml/events</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_enemy_sighted_for_team">
-              <Path>/audio_mods.xml/events/event[name = "enemy_sighted_for_team"]</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/time_buzzer_01">
-              <Path>//audio_mods.xml/events</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_time_buzzer_01">
-              <Path>/audio_mods.xml/events/event[name = "time_buzzer_01"]</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/timer">
-              <Path>//audio_mods.xml/events</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_timer">
-              <Path>/audio_mods.xml/events/event[name = "timer"]</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/music_victory">
-              <Path>//audio_mods.xml/events</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_music_victory">
-              <Path>/audio_mods.xml/events/event[name = "music_victory"]</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/music_defeat">
-              <Path>//audio_mods.xml/events</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_music_defeat">
-              <Path>/audio_mods.xml/events/event[name = "music_defeat"]</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="event/name/music_drawn_game">
-              <Path>//audio_mods.xml/events</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="mod/mod_music_drawn_game">
-              <Path>/audio_mods.xml/events/event[name = "music_drawn_game"]</Path>
-            </Patch>
-          </Patches>
-        </Package>
-      </Packages>
-    </Package>
+    <Package PackageName="Sounds_GUI" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="uqrny4w518w9e0y8" Name="GUI" Type="multi" Visible="True" />
     <Package PackageName="Sounds_Guns" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1tfay7spvnqhp5nl" Name="Guns" Type="multi" Visible="True">
       <Dependencies>
         <Dependency PackageName="Dependency_Sounds_IncreaseSoundMemory_large" NotFlag="False" Logic="OR" />
