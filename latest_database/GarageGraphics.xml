@@ -947,207 +947,211 @@
         </Package>
       </Packages>
     </Package>
-    <Package PackageName="GarageGraphics_Hangar" Enabled="True" Tags="Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="b0zjbrgs7m5kxs88" Name="Hangar Manager &quot;HangMan&quot; v{version} [by {author}]" Type="multi" Visible="True">
-      <Size>589230</Size>
-      <Version>2.58</Version>
-      <ZipFile>GarageGraphics_Hangar_HangMan_v2.58_1.15.0.0_2021-12-18.zip</ZipFile>
-      <CRC>2833841b4e790aa38a2b9b0f1216be69</CRC>
-      <Timestamp>132843421700536026</Timestamp>
-      <DevURL>http://www.goofy67-wot.de/hangman-english.php\r\nhttp://forum.worldoftanks.eu/index.php?/topic/439322-</DevURL>
-      <Author>goofy67</Author>
-      <Deprecated>True</Deprecated>
-      <LastUpdateCheck>132872169867542420</LastUpdateCheck>
-      <Description>Customize your hangar with HangMan!\r\n\r\nFeatures:\n\nCreating your own hangar during a battle by saving the map and tank position\nPossibility to make separate sound settings for each hangar\nChange the hangar by:\r\nselector-window or by pressing keys on keyboard \nrandom (on login and after battle)\ndepending on nation of selected vehicle\nlast known position on map of last battle  \nAutomatic reading of all installed hangars (with exclusion list)\nsettings-window for keyboard-settings\npreview-images installabe</Description>
-      <UserFiles>
-        <UserFile Pattern="\mods\configs\HangMan\HangMan.xml" />
-      </UserFiles>
+    <Package PackageName="GarageGraphics_Hangar" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kcqnl3fgklh5mvtf" Name="Hangar modifications" Type="multi" Visible="True">
       <Packages>
-        <Package PackageName="GarageGraphics_Hangar_Freecam" Enabled="True" Tags="Script,ImagePNG" InstallGroup="4" PatchGroup="4" UID="i3n5bucc12zs8wyl" Name="FreeCam v{version}" Type="multi" Visible="True">
-          <Size>14676</Size>
-          <Version>2.11</Version>
-          <ZipFile>GarageGraphics_Hangar_Freecam_v2.11_1.6.1.0_2019-10-08.zip</ZipFile>
-          <CRC>784c76bab30d8c70efd1a88c91ada3c7</CRC>
-          <Timestamp>132509636139195652</Timestamp>
-          <DevURL>http://www.goofy67-wot.de/hangar-freecam.html</DevURL>
-          <Description>usefull for screenshots, as the GUI gets completely disabled\n\nLeft-Shift + F3: enabe/disable freecam\nW, A, S, D: Move Camera\nE, Q: Move camera up and down\nP: smooth camera movements (inertia)\nand much more, see included XML-file.\r\n\r\n\r\nby Goofy67</Description>
-          <Medias>
-            <Media MediaType="Picture" URL="https://abload.de/img/hangarmanager04pwo.png" />
-            <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/cover2.jpg" />
-          </Medias>
-          <Dependencies>
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-          </Dependencies>
-        </Package>
-        <Package PackageName="GarageGraphics_Hangar_modeNormal" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="t70i76acsgfp63h9" Name="&quot;normal&quot; hangar selection (no changes after battle)" Type="multi" Visible="True">
-          <Size>502</Size>
-          <Description> This will set the way the manager selects a hangars to display to "normal".\r\nThat´s the usual manner and will display the previously selected hangar.</Description>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="" Replace="normal">
-              <Path>$.mode</Path>
-            </Patch>
-          </Patches>
-        </Package>
-        <Package PackageName="GarageGraphics_Hangar_fadeonmousemove" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="vsukjuid0yr9885l" Name="GUI fadeout on mousemove (while holding down left mouse)" Type="multi" Visible="True">
-          <Size>495</Size>
-          <Description>fades GUI in lobby while dragging mouse</Description>
-          <ShowInSearchList>False</ShowInSearchList>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="false" Replace="true">
-              <Path>$.fadeOnMouseMove</Path>
-            </Patch>
-          </Patches>
-        </Package>
-        <Package PackageName="GarageGraphics_Hangar_DOFtrue" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5ehq3v6b267a8lql" Name="Depth Of Field (default: 1.00) in hangar" Type="multi" Visible="True">
-          <Size>459</Size>
-          <DevURL>http://www.goofy67-wot.de/hangar-freecam.html</DevURL>
-          <ShowInSearchList>False</ShowInSearchList>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="false" Replace="true">
-              <Path>$.enableDOF</Path>
-            </Patch>
-          </Patches>
-        </Package>
-        <Package PackageName="GarageGraphics_Hangar_showPremTankFALSE" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="p7crbx8vvitzj1ny" Name="Remove premium tank in background" Type="multi" Visible="True">
-          <Size>520</Size>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="true" Replace="false">
-              <Path>$.showPremTank</Path>
-            </Patch>
-          </Patches>
-        </Package>
-        <Package PackageName="GarageGraphics_Hangar_showTeaserFALSE" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="2wi6jxewuemhjdux" Name="Remove combat-intelligence popup window" Type="multi" Visible="True">
-          <Size>521</Size>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="true" Replace="false">
-              <Path>$.showTeaser</Path>
-            </Patch>
-          </Patches>
-        </Package>
-        <Package PackageName="GarageGraphics_Hangar_musicInLobbyFALSE" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="rxuy69oo58wevzgi" Name="disable music in  hangar/lobby" Type="multi" Visible="True">
-          <Size>528</Size>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="true" Replace="false">
-              <Path>$.musicInLobby</Path>
-            </Patch>
-          </Patches>
-        </Package>
-        <Package PackageName="GarageGraphics_HangarDesign" Enabled="True" Tags="Script,GuiFlash,OtherFiles" InstallGroup="4" PatchGroup="4" UID="flplrwkxuaeyjo1x" Name="Custom Hangars" Type="multi" Visible="True">
-          <CRC>f</CRC>
-          <Timestamp>132183772363031200</Timestamp>
+        <Package PackageName="GarageGraphics_Hangar_HangMan" Enabled="True" Tags="Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="b0zjbrgs7m5kxs88" Name="Hangar Manager &quot;HangMan&quot; v{version} [by {author}]" Type="multi" Visible="True">
+          <Size>589230</Size>
+          <Version>2.58</Version>
+          <ZipFile>GarageGraphics_Hangar_HangMan_v2.58_1.15.0.0_2021-12-18.zip</ZipFile>
+          <CRC>2833841b4e790aa38a2b9b0f1216be69</CRC>
+          <Timestamp>132843421700536026</Timestamp>
+          <DevURL>http://www.goofy67-wot.de/hangman-english.php\r\nhttp://forum.worldoftanks.eu/index.php?/topic/439322-</DevURL>
+          <Author>goofy67</Author>
+          <Deprecated>True</Deprecated>
+          <LastUpdateCheck>132872169867542420</LastUpdateCheck>
+          <Description>Customize your hangar with HangMan!\r\n\r\nFeatures:\n\nCreating your own hangar during a battle by saving the map and tank position\nPossibility to make separate sound settings for each hangar\nChange the hangar by:\r\nselector-window or by pressing keys on keyboard \nrandom (on login and after battle)\ndepending on nation of selected vehicle\nlast known position on map of last battle  \nAutomatic reading of all installed hangars (with exclusion list)\nsettings-window for keyboard-settings\npreview-images installabe</Description>
+          <UserFiles>
+            <UserFile Pattern="\mods\configs\HangMan\HangMan.xml" />
+          </UserFiles>
           <Packages>
-            <Package PackageName="GarageGraphics_HangarDesign_CustomizationHangar" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6h88z2i2h2vv59nn" Name="Customization Hangar [by {author}]" Type="multi" Visible="True">
-              <Size>3232609</Size>
-              <ZipFile>GarageGraphics_Hangar_Design_CustomizationHangar_1.15.0.0_2021-12-18.zip</ZipFile>
-              <CRC>52f6bd321a5a4f4f2371813a2eb74660</CRC>
-              <Timestamp>132843422950430354</Timestamp>
-              <DevURL>http://goofy67-wot.de/customization-hangar.html</DevURL>
-              <Author>goofy67</Author>
-              <Medias>
-                <Media MediaType="Picture" URL="http://goofy67-wot.de/media/images/shot_001.jpg" />
-              </Medias>
-            </Package>
-            <Package PackageName="GarageGraphics_HangarDesign_HellingerMinimal" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0vpgr68lclxkh250" Name="HMHM - Hellinger Minimal Hangar Mod v{version}" Type="multi" Visible="True">
-              <Version>2.997</Version>
-              <DevURL>https://wgmods.net/996/details/\r\nhttp://forum.worldoftanks.ru/index.php?/topic/745873-</DevURL>
-              <InternalNotes>1.10.0.1_2020-08-29:  \r\nDELETE: (we got Hangman)\r\nmods\configs\hangar_replace.json\r\n</InternalNotes>
-              <Author>Hellinger</Author>
-              <FromWGmods>True</FromWGmods>
-              <Packages>
-                <Package PackageName="GarageGraphics_Hangar_Design_HellingerMinimal_100bright" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p92975knaehkhpj0" Name="normal floor, bright light (100%, bright)" Type="single_dropdown1" Visible="True">
-                  <Size>1718031</Size>
-                  <ZipFile>GarageGraphics_Hangar_Design_HellingerMinimal_100_bright_2.997_1.15.0.0_2022-01-20.zip</ZipFile>
-                  <CRC>a0d6c6880088f61ceee6e43476626ae6</CRC>
-                  <Timestamp>132872180682721754</Timestamp>
-                  <DevURL>http://forum.worldoftanks.ru/index.php?/topic/745873-</DevURL>
-                  <FromWGmods>True</FromWGmods>
-                  <Medias>
-                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/minimal_hangar/bright_normal.jpg" />
-                  </Medias>
-                </Package>
-                <Package PackageName="GarageGraphics_Hangar_Design_HellingerMinimal_100norm" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dkwvz5embhp2hec0" Name="normal floor, normal light (100%, norm)" Type="single_dropdown1" Visible="True">
-                  <Size>1718469</Size>
-                  <ZipFile>GarageGraphics_Hangar_Design_HellingerMinimal_100_norm_2.997_1.15.0.0_2022-01-20.zip</ZipFile>
-                  <CRC>7a000ca20473fcf73ac6fc8307ac17aa</CRC>
-                  <Timestamp>132872180706037039</Timestamp>
-                  <DevURL>http://forum.worldoftanks.ru/index.php?/topic/745873-</DevURL>
-                  <FromWGmods>True</FromWGmods>
-                  <Medias>
-                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/minimal_hangar/normal_normal.jpg" />
-                  </Medias>
-                </Package>
-                <Package PackageName="GarageGraphics_Hangar_Design_HellingerMinimal_200bright" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="xcqw78g74tbrsu8d" Name="large floor, bright light (200%, bright)" Type="single_dropdown1" Visible="True">
-                  <Size>1718035</Size>
-                  <ZipFile>GarageGraphics_Hangar_Design_HellingerMinimal_200_bright_2.997_1.15.0.0_2022-01-20.zip</ZipFile>
-                  <CRC>c8897e1ed0659876850b56f0a3e2358b</CRC>
-                  <Timestamp>132872180724706754</Timestamp>
-                  <DevURL>http://forum.worldoftanks.ru/index.php?/topic/745873-</DevURL>
-                  <FromWGmods>True</FromWGmods>
-                  <Medias>
-                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/minimal_hangar/bright_large.jpg" />
-                  </Medias>
-                </Package>
-                <Package PackageName="GarageGraphics_Hangar_Design_HellingerMinimal_200norm" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="knkhz9a65xj9si1d" Name="large floor, normal light (200%, norm)" Type="single_dropdown1" Visible="True">
-                  <Size>1718040</Size>
-                  <ZipFile>GarageGraphics_Hangar_Design_HellingerMinimal_200_norm_2.997_1.15.0.0_2022-01-20.zip</ZipFile>
-                  <CRC>76225c46742fa0eb0c40cd18fbc02eae</CRC>
-                  <Timestamp>132872180750146757</Timestamp>
-                  <DevURL>http://forum.worldoftanks.ru/index.php?/topic/745873-</DevURL>
-                  <FromWGmods>True</FromWGmods>
-                  <Medias>
-                    <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/minimal_hangar/normal_large.jpg" />
-                  </Medias>
-                </Package>
-              </Packages>
-            </Package>
-            <Package PackageName="GarageGraphics_HangarDesign_MikuV1Rework" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wm4tgukwggsbfcme" Name="Miku v1 ReWork [by {author}] (overwrites hangar_v3, the default hangar)" Type="multi" Visible="True">
-              <Size>109717662</Size>
-              <ZipFile>GarageGraphics_Hangar_Design_MikuV1Rework_1.15.0.0_2022-01-20.zip</ZipFile>
-              <CRC>8abbd5cab6c1fc4adb2d20fc245a8c0e</CRC>
-              <Timestamp>132872180647053345</Timestamp>
-              <DevURL>https://vk.com/talliepo</DevURL>
-              <Author>TaLLIePO</Author>
-              <Medias>
-                <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/GarageGraphics_Hangar_Design_MikuV1Talliepo.jpg" />
-              </Medias>
-            </Package>
-            <Package PackageName="GarageGraphics_HangarDesign_PremiumV2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="g2uej360i9av5m8n" Name="Premium V2 [by {author}]" Type="multi" Visible="True">
-              <Size>174011761</Size>
-              <ZipFile>GarageGraphics_HangarDesign_PremiumV2_1.13.0.0_2022-01-20.zip</ZipFile>
-              <CRC>f35cd8572d5deb27e0f00c03c4f54c18</CRC>
-              <Timestamp>132872180989256767</Timestamp>
-              <DevURL>http://forum.worldoftanks.eu/index.php?/topic/735729-olixs-retro-hangars/\r\nhttps://wgmods.net/3909/</DevURL>
-              <InternalNotes>edit LOADORDER !!!</InternalNotes>
-              <Author>olix_vameshu</Author>
-              <Deprecated>True</Deprecated>
-              <LastUpdateCheck>132872178116810857</LastUpdateCheck>
-              <Description>This hangar was used in World of Tanks in versions 0.9.x as premium-hangar.</Description>
-              <FromWGmods>True</FromWGmods>
-              <Medias>
-                <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/shot_002.jpg" />
-                <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/shot_003.jpg" />
-              </Medias>
+            <Package PackageName="GarageGraphics_Hangar_modeNormal" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="t70i76acsgfp63h9" Name="&quot;normal&quot; hangar selection (no changes after battle)" Type="multi" Visible="True">
+              <Size>502</Size>
+              <Description> This will set the way the manager selects a hangars to display to "normal".\r\nThat´s the usual manner and will display the previously selected hangar.</Description>
               <Patches>
-                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="Olixs_Hangar_Premium_V2_space.wotmod">
-                  <Path>//root/Collection</Path>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="" Replace="normal">
+                  <Path>$.mode</Path>
                 </Patch>
-                <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="Olix's_Hangar_Premium_V2_resources.wotmod">
-                  <Path>//root/Collection</Path>
+              </Patches>
+            </Package>
+            <Package PackageName="GarageGraphics_Hangar_fadeonmousemove" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="vsukjuid0yr9885l" Name="GUI fadeout on mousemove (while holding down left mouse)" Type="multi" Visible="True">
+              <Size>495</Size>
+              <Description>fades GUI in lobby while dragging mouse</Description>
+              <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="false" Replace="true">
+                  <Path>$.fadeOnMouseMove</Path>
                 </Patch>
-                <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.bnk">
-                  <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_hangar</Path>
+              </Patches>
+            </Package>
+            <Package PackageName="GarageGraphics_Hangar_DOFtrue" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5ehq3v6b267a8lql" Name="Depth Of Field (default: 1.00) in hangar" Type="multi" Visible="True">
+              <Size>459</Size>
+              <DevURL>http://www.goofy67-wot.de/hangar-freecam.html</DevURL>
+              <ShowInSearchList>False</ShowInSearchList>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="false" Replace="true">
+                  <Path>$.enableDOF</Path>
                 </Patch>
-                <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.bnk">
-                  <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_hangar</Path>
+              </Patches>
+            </Package>
+            <Package PackageName="GarageGraphics_Hangar_showPremTankFALSE" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="p7crbx8vvitzj1ny" Name="Remove premium tank in background" Type="multi" Visible="True">
+              <Size>520</Size>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="true" Replace="false">
+                  <Path>$.showPremTank</Path>
                 </Patch>
-                <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.pck">
-                  <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_hangar</Path>
+              </Patches>
+            </Package>
+            <Package PackageName="GarageGraphics_Hangar_showTeaserFALSE" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="2wi6jxewuemhjdux" Name="Remove combat-intelligence popup window" Type="multi" Visible="True">
+              <Size>521</Size>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="true" Replace="false">
+                  <Path>$.showTeaser</Path>
                 </Patch>
-                <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.pck">
-                  <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_hangar</Path>
+              </Patches>
+            </Package>
+            <Package PackageName="GarageGraphics_Hangar_musicInLobbyFALSE" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="rxuy69oo58wevzgi" Name="disable music in  hangar/lobby" Type="multi" Visible="True">
+              <Size>528</Size>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\HangMan\HangMan.json" Version="1" Search="true" Replace="false">
+                  <Path>$.musicInLobby</Path>
                 </Patch>
               </Patches>
             </Package>
           </Packages>
+        </Package>
+      </Packages>
+    </Package>
+    <Package PackageName="GarageGraphics_Hangar_Freecam" Enabled="True" Tags="Script,ImagePNG" InstallGroup="4" PatchGroup="4" UID="i3n5bucc12zs8wyl" Name="FreeCam v{version}" Type="multi" Visible="True">
+      <Size>14676</Size>
+      <Version>2.11</Version>
+      <ZipFile>GarageGraphics_Hangar_Freecam_v2.11_1.6.1.0_2019-10-08.zip</ZipFile>
+      <CRC>784c76bab30d8c70efd1a88c91ada3c7</CRC>
+      <Timestamp>132509636139195652</Timestamp>
+      <DevURL>http://www.goofy67-wot.de/hangar-freecam.html</DevURL>
+      <Description>usefull for screenshots, as the GUI gets completely disabled\n\nLeft-Shift + F3: enabe/disable freecam\nW, A, S, D: Move Camera\nE, Q: Move camera up and down\nP: smooth camera movements (inertia)\nand much more, see included XML-file.\r\n\r\n\r\nby Goofy67</Description>
+      <Medias>
+        <Media MediaType="Picture" URL="https://abload.de/img/hangarmanager04pwo.png" />
+        <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/cover2.jpg" />
+      </Medias>
+      <Dependencies>
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+      </Dependencies>
+    </Package>
+    <Package PackageName="GarageGraphics_HangarDesign" Enabled="True" Tags="Script,GuiFlash,OtherFiles" InstallGroup="4" PatchGroup="4" UID="flplrwkxuaeyjo1x" Name="Custom Hangars" Type="multi" Visible="True">
+      <CRC>f</CRC>
+      <Timestamp>132183772363031200</Timestamp>
+      <Packages>
+        <Package PackageName="GarageGraphics_HangarDesign_CustomizationHangar" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6h88z2i2h2vv59nn" Name="Customization Hangar [by {author}]" Type="multi" Visible="True">
+          <Size>3232609</Size>
+          <ZipFile>GarageGraphics_Hangar_Design_CustomizationHangar_1.15.0.0_2021-12-18.zip</ZipFile>
+          <CRC>52f6bd321a5a4f4f2371813a2eb74660</CRC>
+          <Timestamp>132843422950430354</Timestamp>
+          <DevURL>http://goofy67-wot.de/customization-hangar.html</DevURL>
+          <Author>goofy67</Author>
+          <Medias>
+            <Media MediaType="Picture" URL="http://goofy67-wot.de/media/images/shot_001.jpg" />
+          </Medias>
+        </Package>
+        <Package PackageName="GarageGraphics_HangarDesign_HellingerMinimal" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0vpgr68lclxkh250" Name="HMHM - Hellinger Minimal Hangar Mod v{version}" Type="multi" Visible="True">
+          <Version>2.997</Version>
+          <DevURL>https://wgmods.net/996/details/\r\nhttp://forum.worldoftanks.ru/index.php?/topic/745873-</DevURL>
+          <InternalNotes>1.10.0.1_2020-08-29:  \r\nDELETE: (we got Hangman)\r\nmods\configs\hangar_replace.json\r\n</InternalNotes>
+          <Author>Hellinger</Author>
+          <FromWGmods>True</FromWGmods>
+          <Packages>
+            <Package PackageName="GarageGraphics_Hangar_Design_HellingerMinimal_100bright" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p92975knaehkhpj0" Name="normal floor, bright light (100%, bright)" Type="single_dropdown1" Visible="True">
+              <Size>1718031</Size>
+              <ZipFile>GarageGraphics_Hangar_Design_HellingerMinimal_100_bright_2.997_1.15.0.0_2022-01-20.zip</ZipFile>
+              <CRC>a0d6c6880088f61ceee6e43476626ae6</CRC>
+              <Timestamp>132872180682721754</Timestamp>
+              <DevURL>http://forum.worldoftanks.ru/index.php?/topic/745873-</DevURL>
+              <FromWGmods>True</FromWGmods>
+              <Medias>
+                <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/minimal_hangar/bright_normal.jpg" />
+              </Medias>
+            </Package>
+            <Package PackageName="GarageGraphics_Hangar_Design_HellingerMinimal_100norm" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dkwvz5embhp2hec0" Name="normal floor, normal light (100%, norm)" Type="single_dropdown1" Visible="True">
+              <Size>1718469</Size>
+              <ZipFile>GarageGraphics_Hangar_Design_HellingerMinimal_100_norm_2.997_1.15.0.0_2022-01-20.zip</ZipFile>
+              <CRC>7a000ca20473fcf73ac6fc8307ac17aa</CRC>
+              <Timestamp>132872180706037039</Timestamp>
+              <DevURL>http://forum.worldoftanks.ru/index.php?/topic/745873-</DevURL>
+              <FromWGmods>True</FromWGmods>
+              <Medias>
+                <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/minimal_hangar/normal_normal.jpg" />
+              </Medias>
+            </Package>
+            <Package PackageName="GarageGraphics_Hangar_Design_HellingerMinimal_200bright" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="xcqw78g74tbrsu8d" Name="large floor, bright light (200%, bright)" Type="single_dropdown1" Visible="True">
+              <Size>1718035</Size>
+              <ZipFile>GarageGraphics_Hangar_Design_HellingerMinimal_200_bright_2.997_1.15.0.0_2022-01-20.zip</ZipFile>
+              <CRC>c8897e1ed0659876850b56f0a3e2358b</CRC>
+              <Timestamp>132872180724706754</Timestamp>
+              <DevURL>http://forum.worldoftanks.ru/index.php?/topic/745873-</DevURL>
+              <FromWGmods>True</FromWGmods>
+              <Medias>
+                <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/minimal_hangar/bright_large.jpg" />
+              </Medias>
+            </Package>
+            <Package PackageName="GarageGraphics_Hangar_Design_HellingerMinimal_200norm" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="knkhz9a65xj9si1d" Name="large floor, normal light (200%, norm)" Type="single_dropdown1" Visible="True">
+              <Size>1718040</Size>
+              <ZipFile>GarageGraphics_Hangar_Design_HellingerMinimal_200_norm_2.997_1.15.0.0_2022-01-20.zip</ZipFile>
+              <CRC>76225c46742fa0eb0c40cd18fbc02eae</CRC>
+              <Timestamp>132872180750146757</Timestamp>
+              <DevURL>http://forum.worldoftanks.ru/index.php?/topic/745873-</DevURL>
+              <FromWGmods>True</FromWGmods>
+              <Medias>
+                <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/minimal_hangar/normal_large.jpg" />
+              </Medias>
+            </Package>
+          </Packages>
+        </Package>
+        <Package PackageName="GarageGraphics_HangarDesign_MikuV1Rework" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wm4tgukwggsbfcme" Name="Miku v1 ReWork [by {author}] (overwrites hangar_v3, the default hangar)" Type="multi" Visible="True">
+          <Size>109717662</Size>
+          <ZipFile>GarageGraphics_Hangar_Design_MikuV1Rework_1.15.0.0_2022-01-20.zip</ZipFile>
+          <CRC>8abbd5cab6c1fc4adb2d20fc245a8c0e</CRC>
+          <Timestamp>132872180647053345</Timestamp>
+          <DevURL>https://vk.com/talliepo</DevURL>
+          <Author>TaLLIePO</Author>
+          <Medias>
+            <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/hangar/GarageGraphics_Hangar_Design_MikuV1Talliepo.jpg" />
+          </Medias>
+        </Package>
+        <Package PackageName="GarageGraphics_HangarDesign_PremiumV2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="g2uej360i9av5m8n" Name="Premium V2 [by {author}]" Type="multi" Visible="True">
+          <Size>174011761</Size>
+          <ZipFile>GarageGraphics_HangarDesign_PremiumV2_1.13.0.0_2022-01-20.zip</ZipFile>
+          <CRC>f35cd8572d5deb27e0f00c03c4f54c18</CRC>
+          <Timestamp>132872180989256767</Timestamp>
+          <DevURL>http://forum.worldoftanks.eu/index.php?/topic/735729-olixs-retro-hangars/\r\nhttps://wgmods.net/3909/</DevURL>
+          <InternalNotes>edit LOADORDER !!!</InternalNotes>
+          <Author>olix_vameshu</Author>
+          <Deprecated>True</Deprecated>
+          <LastUpdateCheck>132872178116810857</LastUpdateCheck>
+          <Description>This hangar was used in World of Tanks in versions 0.9.x as premium-hangar.</Description>
+          <FromWGmods>True</FromWGmods>
+          <Medias>
+            <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/shot_002.jpg" />
+            <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/shot_003.jpg" />
+          </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="Olixs_Hangar_Premium_V2_space.wotmod">
+              <Path>//root/Collection</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="Olix's_Hangar_Premium_V2_resources.wotmod">
+              <Path>//root/Collection</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_hangar</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_hangar</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.pck">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_hangar</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.pck">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_hangar</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -1601,7 +1605,7 @@
         <Package PackageName="GarageGraphics_Loading_LoginLogo" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="m53fqh6lrgb0d7ax" Name="Loading Logo (picture) at center of login screen" Type="multi" Visible="True">
           <CRC>f</CRC>
           <Timestamp>132443232322464950</Timestamp>
-          <InternalNotes>(LL) = Login Logo\r\n\r\n\r\nthis mod uses the res_mods folder.\r\nfiles: \r\n\tgui\maps\login\__login_logo.png\r\n\r\noptional (eg to make it transparent):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n</InternalNotes>
+          <InternalNotes>(LL) = Login Logo\r\n\r\n\r\nthis mod uses the res_mods folder.\r\nfiles: \r\n\tgui\maps\login\__login_logo.png\r\n\r\noptional (eg to make it transparent):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n\r\nNOTE 2022-01-25: if/when WG changes the system, those marked as deprecated will get removed</InternalNotes>
           <Author>elektrosmoker</Author>
           <ShowInSearchList>False</ShowInSearchList>
           <Packages>
@@ -1676,12 +1680,13 @@
           </Packages>
         </Package>
         <Package PackageName="GarageGraphics_Loading_SplashBG" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="78y1cfl640srhlla" Name="Loading Splashscreen Picture (background image at game start)" Type="multi" Visible="True">
-          <InternalNotes>This [LoginBG] is different to LoginBackground.\r\nIt is more like a splashscreen than an actual loading background and geets only showed for a very short period of time (depends on computers abilities).\r\n\r\n\r\nmode files: only pics \r\n\tgui\maps\login\__login_bg.png\r\n\r\n\r\noptional (but should be in LoginLogo archives!):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n\r\n</InternalNotes>
+          <InternalNotes>This [LoginBG] is different to LoginBackground.\r\nIt is more like a splashscreen than an actual loading background and geets only showed for a very short period of time (depends on computers abilities).\r\n\r\n\r\nmode files: only pics \r\n\tgui\maps\login\__login_bg.png\r\n\r\n\r\noptional (but should be in LoginLogo archives!):\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n\r\nNOTE 2022-01-25: if/when WG changes the system, those marked as deprecated will get removed</InternalNotes>
           <Author>elektrosmoker</Author>
           <Description>This is the background shown at the game´s beginning (splashcreen).</Description>
           <Packages>
             <Package PackageName="GarageGraphics_Loading_SplashBG_DefaultRelhax" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="1nf94jbpzjtgse3o" Name="DEFAULT by Relhax (changes from time to time)" Type="single_dropdown1" Visible="True">
               <Timestamp>131982542140511127</Timestamp>
+              <ShowInSearchList>False</ShowInSearchList>
             </Package>
             <Package PackageName="GarageGraphics_Loading_SplashBG_ChristmasDay" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="lfaacmdasvg53u00" Name="Christmas Day" Type="single_dropdown1" Visible="True">
               <Size>2296609</Size>
@@ -1689,6 +1694,8 @@
               <CRC>e5dec7c6ff1708f82608b4434d597367</CRC>
               <Timestamp>132187460426219581</Timestamp>
               <Author>elektrosmoker</Author>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_ChristmasDay.png" />
               </Medias>
@@ -1699,6 +1706,8 @@
               <CRC>28981a3465cacc5ae0de731d03aac65d</CRC>
               <Timestamp>132187460008597289</Timestamp>
               <Author>elektrosmoker</Author>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_ChristmasEve.png" />
               </Medias>
@@ -1709,6 +1718,8 @@
               <CRC>ba0205f53c791c81a1d499e2a037546f</CRC>
               <Timestamp>132550039528071278</Timestamp>
               <Author>elektrosmoker</Author>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoginBackground/GarageGraphics_Loading_LoginBG_ChristmasOps2021.png" />
               </Medias>
@@ -1718,6 +1729,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_HolidayOps_2021-12-05.zip</ZipFile>
               <CRC>beb506993c55b813e2e179a7fa5e5c25</CRC>
               <Timestamp>132844320400054724</Timestamp>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
             </Package>
             <Package PackageName="GarageGraphics_Loading_SplashBG_elektrosmoker1819" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="sjywbp9umaadeypd" Name="New Year 2018 / 2019 by elektrosmoker" Type="single_dropdown1" Visible="True">
               <Size>3236302</Size>
@@ -1725,6 +1738,8 @@
               <CRC>37e40b16251fa926f6427f775b161ed3</CRC>
               <Timestamp>131910155624255913</Timestamp>
               <Author>elektrosmoker</Author>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_elektrosmoker_1819.png" />
               </Medias>
@@ -1734,6 +1749,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_GuP_main_crew_2019-01-19.zip</ZipFile>
               <CRC>262bdf884d7226b52fe206994004e793</CRC>
               <Timestamp>131924080401777340</Timestamp>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_GuP_main_crew.png" />
               </Medias>
@@ -1743,6 +1760,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_HaloMCC_Reach_4K_1.7.0.2_2021-10-01.zip</ZipFile>
               <CRC>54ec601f208b7f1119d1efe4e08bab87</CRC>
               <Timestamp>132775486272986763</Timestamp>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_HaloMCC_Reach_4K_1.7.0.2_2019-12-20.png" />
               </Medias>
@@ -1753,6 +1772,8 @@
               <CRC>48cab288ec8bd3269b0f47169a8fbe6c</CRC>
               <Timestamp>132550047685815838</Timestamp>
               <Author>elektrosmoker</Author>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoginBackground/__login_bg.png" />
               </Medias>
@@ -1763,6 +1784,8 @@
               <CRC>38110360112d137e0de0b6fa8ff39d9c</CRC>
               <Timestamp>132187461215726123</Timestamp>
               <Author>elektrosmoker</Author>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_NewYear.png" />
               </Medias>
@@ -1773,6 +1796,8 @@
               <CRC>bcc64893d6493fec0f508056b3cb57f2</CRC>
               <Timestamp>132736565000538089</Timestamp>
               <Author>elektrosmoker</Author>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingSplash/GarageGraphics_Loading_SplashBG_czechHeavy.png" />
               </Medias>
@@ -1784,6 +1809,8 @@
               <Timestamp>131942030784936537</Timestamp>
               <DevURL>http://forum.worldoftanks.eu/index.php?/topic/502495-</DevURL>
               <InternalNotes>moded files: WWIIHWA_Ambiente\r\n\tgui\maps\login\__login_bg.png\r\n\tgui\maps\login\__login_logo.png\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png^\r\n\tgui\maps\bg.png\r\n\tgui\maps\Budyx69_Messenger.png\r\n\tgui\maps\KT_Messenger_img.png\r\n\tgui\maps\legal_brands.png\r\n\tgui\maps\loading_award.png\r\n\tgui\maps\promo_bg.png</InternalNotes>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_WWIIHWA_Ambiente_login_bg.png" />
               </Medias>
@@ -1793,7 +1820,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_Ritterkreuz_v5.2_2019-08-13.zip</ZipFile>
               <CRC>a7e3fd5b4dde33cd0630af2502652139</CRC>
               <Timestamp>132101908988345031</Timestamp>
-              <DevURL>https://www.curseforge.com/worldoftanks/wot-mods/ritterkreuz/files\r\nhttps://wgmods.net/5129/</DevURL>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_Ritterkreuz.jpg" />
               </Medias>
@@ -1803,6 +1831,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_weed420_2020-05-01.zip</ZipFile>
               <CRC>354473517a7d803d79f64391ad9585a8</CRC>
               <Timestamp>132328187930493668</Timestamp>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_weed420.png" />
               </Medias>
@@ -1812,6 +1842,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_StuG_FanArt_VICTORIA_by_Nikita_Bolyakov_2019-01-19.zip</ZipFile>
               <CRC>e66129e1aaf9376ef519af7f02143e62</CRC>
               <Timestamp>131924589004958358</Timestamp>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_StuG_FanArt_VICTORIA_by_Nikita_Bolyakov.png" />
               </Medias>
@@ -1822,6 +1854,8 @@
               <CRC>ae9a9bfd2bb30e8055a0e9a6b8a68a12</CRC>
               <Timestamp>132187462197008631</Timestamp>
               <Author>elektrosmoker</Author>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_ThanksGiving.png" />
               </Medias>
@@ -1831,7 +1865,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_TheIllusion_Borg_2019-03-25.zip</ZipFile>
               <CRC>235d58cba8433f79b95bea4cc856c2ef</CRC>
               <Timestamp>131979910825589259</Timestamp>
-              <DevURL>https://wgmods.net/3134</DevURL>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_TheIllusion_Borg.png" />
               </Medias>
@@ -1841,7 +1876,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_TheIllusion_Romulan_2019-03-25.zip</ZipFile>
               <CRC>580caceb69ab39065d6574e345deb558</CRC>
               <Timestamp>131979911439637044</Timestamp>
-              <DevURL>https://wgmods.net/3136</DevURL>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_TheIllusion_Romulan.png" />
               </Medias>
@@ -1851,7 +1887,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_TheIllusion_Klingon_2019-03-25.zip</ZipFile>
               <CRC>4d2400a2acd827735043f4e75535ce78</CRC>
               <Timestamp>131979911910024083</Timestamp>
-              <DevURL>https://wgmods.net/3135</DevURL>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_TheIllusion_Klingon.png" />
               </Medias>
@@ -1861,6 +1898,7 @@
               <ZipFile>GarageGraphics_Loading_LoginBackground_Picture_GTR_2021-02-02.zip</ZipFile>
               <CRC>219bc5b28cfec1524b236cd7f9908072</CRC>
               <Timestamp>132567315086174240</Timestamp>
+              <Deprecated>True</Deprecated>
               <ShowInSearchList>False</ShowInSearchList>
             </Package>
             <Package PackageName="GarageGraphics_Loading_SplashBG_TheIllusionLCARS" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="jh82f2jqpyfty875" Name="Star Trek - Lcars" Type="single_dropdown1" Visible="True">
@@ -1868,6 +1906,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_Lcars_2019-04-14.zip</ZipFile>
               <CRC>89c0b1fccf3419fc8d83acd43efbcb6e</CRC>
               <Timestamp>131997700636227793</Timestamp>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_Lcars_2019-04-14.jpg" />
               </Medias>
@@ -1878,6 +1918,8 @@
               <CRC>812acc32c0bf57965657959d9ff7f1b1</CRC>
               <Timestamp>132775486323983370</Timestamp>
               <Author>The Illusion</Author>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoginBackground/picture/DAH_Crypto_LoadingScreen.jpg" />
               </Medias>
@@ -1887,7 +1929,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_TheIllusion_UFP_2019-03-25.zip</ZipFile>
               <CRC>91e83f9a42ef518b37f971697e3f9afe</CRC>
               <Timestamp>131979909427488374</Timestamp>
-              <DevURL>https://wgmods.net/3137</DevURL>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_TheIllusion_UFP.png" />
               </Medias>
@@ -1897,6 +1940,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_Warranted_Nr1.zip</ZipFile>
               <CRC>ce0143da8f0094684b27b87610edbedb</CRC>
               <Timestamp>131910154279685296</Timestamp>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_Warranted_NR1.png" />
               </Medias>
@@ -1906,6 +1951,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_Warranted_T49_2019-01-18.zip</ZipFile>
               <CRC>cac29ece5e8d086b6bc8f595a7633c8e</CRC>
               <Timestamp>131923177216719394</Timestamp>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_Warranted_T49.png" />
               </Medias>
@@ -1915,6 +1962,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_Warranted_XMAS_2018.zip</ZipFile>
               <CRC>8be709580efd345efd1a2a9a846f37bc</CRC>
               <Timestamp>131910156022617294</Timestamp>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_Warranted_XMAS18.png" />
               </Medias>
@@ -1924,6 +1973,8 @@
               <ZipFile>Garage_Graphics_LoadingSplash_Winnie_2019-01-20.zip</ZipFile>
               <CRC>b82c7e9572b3279b45507bda0406e85f</CRC>
               <Timestamp>131924591467921442</Timestamp>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_Winnie.jpg" />
               </Medias>
@@ -1934,6 +1985,8 @@
               <CRC>882ab2c4fece13bee4c40896e2767b49</CRC>
               <Timestamp>131934291417982550</Timestamp>
               <Author>elektrosmoker</Author>
+              <Deprecated>True</Deprecated>
+              <ShowInSearchList>False</ShowInSearchList>
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/garage_graphics/LoadingSplash/Garage_Graphics_LoadingSplash_XFiles.png" />
               </Medias>
