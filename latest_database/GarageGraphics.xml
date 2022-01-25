@@ -1953,13 +1953,13 @@
           <InternalNotes>only pics or videofiles which are shown during the user is on the loginscreen\r\n</InternalNotes>
           <Description>change the style of the login screen. \nyou can either use a video that plays in background or a simple picture.\n\ndon´t forget to change that in the upper right corner of the login screen</Description>
           <Packages>
-            <Package PackageName="GarageGraphics_Loading_LoginBackground_Video" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pk3xmf9y1kk4726k" Name="Video" Type="single1" Visible="True">
+            <Package PackageName="GarageGraphics_Loading_LoginBackground_Video" Enabled="True" Tags="GuiLoginVideo" InstallGroup="4" PatchGroup="4" UID="pk3xmf9y1kk4726k" Name="Login Video" Type="single1" Visible="True">
               <Size>9032</Size>
               <ZipFile>GarageGraphics_Loading_LoginBackground_Video_1.11.0.0_2020-12-15.zip</ZipFile>
               <CRC>c10fa3eb502b88a211f07fd5d8f85467</CRC>
               <Timestamp>132525048978519606</Timestamp>
-              <InternalNotes>this is a fix by DrWeb7_1 that prevents the background video to stop when change window mode or switch to another application with ALT-TAB.\r\nas the author staited, this pyc-files do not need updates.\r\n\r\npyc from here: \r\nhttps://wgmods.net/2259/ (drweb7_1´s old memories mod)\r\n\r\nfiles:\r\nres_mods\versiondir\scripts\client\gui\Scaleform\daapi\view\login\login_modes\view_background.pyc \r\n\r\n</InternalNotes>
-              <ShowInSearchList>False</ShowInSearchList>
+              <InternalNotes>this is a fix by DrWeb7_1 that prevents the background video to stop when change window mode or switch to another application with ALT-TAB.\r\nas the author staited, this pyc-files do not need updates.\r\n\r\npyc from here: \r\nhttps://wgmods.net/2259/ (drweb7_1´s old memories mod)\r\n\r\nfiles:\r\nres_mods\versiondir\scripts\client\gui\Scaleform\daapi\view\login\login_modes\view_background.pyc \r\n\r\nNOTE 2022-01-25: Brought back some old ones, if/when WG changes the system, these will get removed</InternalNotes>
+              <Deprecated>True</Deprecated>
               <Packages>
                 <Package PackageName="GarageGraphics_Loading_LoginBackground_Video_GuP" Enabled="True" Tags="GuiLoginVideo" InstallGroup="4" PatchGroup="4" UID="199cvegz0hcm7eek" Name="Girls und Panzer" Type="single_dropdown1" Visible="True">
                   <Size>231244724</Size>
@@ -1967,9 +1967,89 @@
                   <CRC>53c602245ac3b9cc9a20de03d16b2276</CRC>
                   <Timestamp>132525007293490292</Timestamp>
                   <InternalNotes>videofiles;\r\ndont need updates;\r\ndont delete or disable on patchdays\r\n\r\ngui\flash\video\_login.usm</InternalNotes>
+                  <Deprecated>True</Deprecated>
                   <ShowInSearchList>False</ShowInSearchList>
                   <Medias>
-                    <Media MediaType="Webpage" URL="https://www.youtube.com/watch?v=l2xHs5_4OZg" />
+                    <Media MediaType="HTML" URL="&lt;html&gt;&#xD;&#xA;  &lt;head&gt;&#xD;&#xA;  &lt;meta http-equiv='X-UA-Compatible' content='IE=11' /&gt;&#xD;&#xA;  &lt;!-- https://stackoverflow.com/a/47072885/3128017 --&gt;&#xD;&#xA;  &lt;!-- https://stackoverflow.com/a/14738668/3128017 --&gt;&#xD;&#xA;  &lt;body&gt;&#xD;&#xA;    &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/l2xHs5_4OZg&quot; frameborder=&quot;0&quot;&#xD;&#xA;            style=&quot;position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;&quot;&gt;&#xD;&#xA;      Your browser doesn't support iFrames.&#xD;&#xA;    &lt;/iframe&gt;&#xD;&#xA;  &lt;/body&gt;&#xD;&#xA;&lt;/html&gt;" />
+                  </Medias>
+                </Package>
+                <Package PackageName="GarageGraphics_Loading_LoginBackground_Video_SereneHazeSilgi" Enabled="True" Tags="GuiLoginVideo" InstallGroup="4" PatchGroup="4" UID="eygr3em0zd547plk" Name="Serene Haze Loginscreen by Silgi" Type="single_dropdown1" Visible="True">
+                  <Size>161327972</Size>
+                  <Version>2.9.1</Version>
+                  <ZipFile>Garage_Graphics_LoginBackground_Video_Serene Haze_by_Silgi_1.3.0.1_2019-01-29.zip</ZipFile>
+                  <CRC>e93a5ed4786160a3f80f9b3167d796a2</CRC>
+                  <Timestamp>131933155196627123</Timestamp>
+                  <DevURL>https://wgmods.net/850/details</DevURL>
+                  <InternalNotes>Video: gui\flash\videos\_login.usm\nDelete: audioww\loginscreen.bnk (silent,silence)</InternalNotes>
+                  <Deprecated>True</Deprecated>
+                  <Description>Hi, Guys.It’s a Serene Haze later appears as Strayed’s operator in Armored Core: \n\nWe took the advance file with loginscreen video, we downloaded it here by google share. [v2.9.1, 579mb]\n\nhttps://drive.google.com/file/d/15jV-l0GyU2_3m0BESnTpmifr0LtiVshN/view?usp=sharing\n\nHope enjoy :)</Description>
+                  <FromWGmods>True</FromWGmods>
+                  <ShowInSearchList>False</ShowInSearchList>
+                </Package>
+                <Package PackageName="GarageGraphics_Loading_LoginBackground_Video_Alex77vid" Enabled="True" Tags="GuiLoginVideo" InstallGroup="4" PatchGroup="4" UID="8cxyuicjuw7tii3x" Name="Loginscreen Video by Alex77" Type="single_dropdown1" Visible="True">
+                  <Size>175850679</Size>
+                  <ZipFile>Garage_Graphics_LoginBackground_Video_Alex77_Video_v1.0.0.1_2018-03-31.zip</ZipFile>
+                  <CRC>a1f6460a993c04c30ebed2aa3fe04e9e</CRC>
+                  <Timestamp>131933154278985604</Timestamp>
+                  <DevURL>http://forum.worldoftanks.eu/index.php?/topic/667416-</DevURL>
+                  <InternalNotes>gui\flash\video\_login.usm</InternalNotes>
+                  <Deprecated>True</Deprecated>
+                  <ShowInSearchList>False</ShowInSearchList>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://fs1.directupload.net/images/180328/nnn4k2o3.jpg" />
+                    <Media MediaType="Picture" URL="http://fs1.directupload.net/images/180328/l4rmeiz9.jpg" />
+                    <Media MediaType="Picture" URL="http://fs1.directupload.net/images/180328/9cd4vomo.jpg" />
+                    <Media MediaType="Picture" URL="http://fs1.directupload.net/images/180328/x3fsmjni.jpg" />
+                  </Medias>
+                </Package>
+                <Package PackageName="GarageGraphics_Loading_LoginBackground_Video_MLG" Enabled="True" Tags="GuiLoginVideo" InstallGroup="4" PatchGroup="4" UID="yqasbgolsprti5hw" Name="MLG" Type="single_dropdown1" Visible="True">
+                  <Size>29919061</Size>
+                  <ZipFile>Garage_Graphics_LoginBackground_MLG_Video_1.0.2.3_2018-07-29.zip</ZipFile>
+                  <CRC>7046a6d540ab8e68f355b930c33efbb4</CRC>
+                  <Timestamp>131933154140725369</Timestamp>
+                  <Deprecated>True</Deprecated>
+                  <ShowInSearchList>False</ShowInSearchList>
+                  <Medias>
+                    <Media MediaType="HTML" URL="&lt;html&gt;&#xD;&#xA;  &lt;head&gt;&#xD;&#xA;  &lt;meta http-equiv='X-UA-Compatible' content='IE=11' /&gt;&#xD;&#xA;  &lt;!-- https://stackoverflow.com/a/47072885/3128017 --&gt;&#xD;&#xA;  &lt;!-- https://stackoverflow.com/a/14738668/3128017 --&gt;&#xD;&#xA;  &lt;body&gt;&#xD;&#xA;    &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/u_wxcbdqxl0&quot; frameborder=&quot;0&quot;&#xD;&#xA;            style=&quot;position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;&quot;&gt;&#xD;&#xA;      Your browser doesn't support iFrames.&#xD;&#xA;    &lt;/iframe&gt;&#xD;&#xA;  &lt;/body&gt;&#xD;&#xA;&lt;/html&gt;" />
+                  </Medias>
+                </Package>
+                <Package PackageName="GarageGraphics_Loading_LoginBackground_Video_Alex77pic1" Enabled="True" Tags="GuiLoginVideo" InstallGroup="4" PatchGroup="4" UID="s5s02ke4n8tityza" Name="Still image video - Picture 1 by Alex77" Type="single_dropdown1" Visible="True">
+                  <Size>1754213</Size>
+                  <ZipFile>Garage_Graphics_LoginBackground_Video_Alex77_pic1_v1.0.0.1_2018-03-31.zip</ZipFile>
+                  <CRC>9cf9567eb729287ad4a6b687f525be38</CRC>
+                  <Timestamp>131933150365182415</Timestamp>
+                  <DevURL>http://forum.worldoftanks.eu/index.php?/topic/667416-</DevURL>
+                  <InternalNotes>gui\flash\video\_login.usm</InternalNotes>
+                  <Deprecated>True</Deprecated>
+                  <ShowInSearchList>False</ShowInSearchList>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://fs1.directupload.net/images/180328/923nfnsr.jpg" />
+                  </Medias>
+                </Package>
+                <Package PackageName="GarageGraphics_Loading_LoginBackground_Video_Alex77pic2" Enabled="True" Tags="GuiLoginVideo" InstallGroup="4" PatchGroup="4" UID="5uzfakk5n5m0ta69" Name="Still image video - Picture 2 by Alex77" Type="single_dropdown1" Visible="True">
+                  <Size>966733</Size>
+                  <ZipFile>Garage_Graphics_LoginBackground_Video_Alex77_pic2_v1.0.0.1_2018-03-31.zip</ZipFile>
+                  <CRC>41bae6d863efba4d4bd0be83e88de7a8</CRC>
+                  <Timestamp>131933150441268925</Timestamp>
+                  <DevURL>http://forum.worldoftanks.eu/index.php?/topic/667416-</DevURL>
+                  <InternalNotes>gui\flash\video\_login.usm</InternalNotes>
+                  <Deprecated>True</Deprecated>
+                  <ShowInSearchList>False</ShowInSearchList>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://fs1.directupload.net/images/180328/rzz2fy7u.jpg" />
+                  </Medias>
+                </Package>
+                <Package PackageName="GarageGraphics_Loading_LoginBackground_Video_Alex77pic3" Enabled="True" Tags="GuiLoginVideo" InstallGroup="4" PatchGroup="4" UID="z8gm2naohonp43on" Name="Still image video - Picture 3 by Alex77" Type="single_dropdown1" Visible="True">
+                  <Size>3613867</Size>
+                  <ZipFile>Garage_Graphics_LoginBackground_Video_Alex77_pic3_v1.0.0.1_2018-03-31.zip</ZipFile>
+                  <CRC>fbea6a594c1337bc213711cfbc4f6ba0</CRC>
+                  <Timestamp>131933150276589347</Timestamp>
+                  <DevURL>http://forum.worldoftanks.eu/index.php?/topic/667416-</DevURL>
+                  <InternalNotes>gui\flash\video\_login.usm</InternalNotes>
+                  <Deprecated>True</Deprecated>
+                  <ShowInSearchList>False</ShowInSearchList>
+                  <Medias>
+                    <Media MediaType="Picture" URL="http://fs1.directupload.net/images/180328/hmqqv9l8.jpg" />
                   </Medias>
                 </Package>
               </Packages>
@@ -2132,6 +2212,7 @@
           <Timestamp>132509634919694461</Timestamp>
           <DevURL>https://wotsite.net/mody-dlya-world-of-tanks/12317-</DevURL>
           <Author>BadBoy78\ZloyYurich</Author>
+          <LastUpdateCheck>132876225697412840</LastUpdateCheck>
           <Description>Medals are under glass\n\nOutdated - some medals are not under glass!</Description>
           <ShowInSearchList>False</ShowInSearchList>
           <Medias>
@@ -2157,6 +2238,7 @@
           <CRC>bbc4be76351a5becee0e0ce687e63af0</CRC>
           <Timestamp>132509635163230270</Timestamp>
           <DevURL>https://wotsite.net/mody-dlya-world-of-tanks/12317-</DevURL>
+          <LastUpdateCheck>132876226032292847</LastUpdateCheck>
           <Description>Medals are under a vulkan glass</Description>
           <ShowInSearchList>False</ShowInSearchList>
           <Medias>
