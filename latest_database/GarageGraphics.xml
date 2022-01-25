@@ -2305,15 +2305,15 @@
     <Package PackageName="GarageGraphics_UI" Enabled="True" Tags="GuiFlash" InstallGroup="4" PatchGroup="4" UID="pdbs5lpvrmqzgs6v" Name="User Interface" Type="multi" Visible="True">
       <Timestamp>131793446586313858</Timestamp>
       <Packages>
-        <Package PackageName="GarageGraphics_UI_GIRLSundPANZER" Enabled="True" Tags="GuiFlash" InstallGroup="2" PatchGroup="2" UID="wgze5olfl2k7rxv8" Name="Blue Steel of GIRLS und PANZER UI ( Complete User Interface Conversion )" Type="single_dropdown1" Visible="True">
+        <Package PackageName="GarageGraphics_UI_GIRLSundPANZER" Enabled="True" Tags="GuiFlash" InstallGroup="2" PatchGroup="2" UID="wgze5olfl2k7rxv8" Name="GIRLS und PANZER UI (Complete User Interface Conversion)" Type="single_dropdown1" Visible="True">
           <Size>90038589</Size>
-          <Version>beta3.37</Version>
-          <ZipFile>GarageGraphics_UI_GIRLSundPANZER_1.15.0.0_2021-12-13.zip.zip</ZipFile>
-          <CRC>aa17b840e3766789219df99b74f37e08</CRC>
-          <Timestamp>132838399509681704</Timestamp>
-          <DevURL>https://github.com/SEA-group/GIRLS-und-PANZER-UI\r\nhttps://wgmods.net/1177/</DevURL>
-          <InternalNotes>removed from original package:\n\nvehicle decals\ngui\flash\flagslib.swf\ngui\flash\logos.swf\ngui\flash\waiting.swf\ngui\flash\waitingTransition.swf\r\n\r\ngui\maps\legal_brands.png\ncomplete login-folder (pictures still selectable as loadingsplash and/or loginbackground)\n[gui\maps\loading_award.png\r\ngui\maps\login\__login_bg.png\ngui\maps\login\__login_logo.png]</InternalNotes>
-          <LastUpdateCheck>132871245006827912</LastUpdateCheck>
+          <Version>beta3.370</Version>
+          <ZipFile>GarageGraphics_UI_GIRLSundPANZER_1.15.0.0_2022-01-25.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132876166792590343</Timestamp>
+          <DevURL>https://wgmods.net/1177/</DevURL>
+          <InternalNotes>removed from original package:\n\nvehicle decals\ngui\flash\flagslib.swf\ngui\flash\logos.swf\ngui\flash\waiting.swf\ngui\flash\waitingTransition.swf\r\n\r\ngui\maps\legal_brands.png\ncomplete login-folder (pictures still selectable as loadingsplash and/or loginbackground)\n[gui\maps\loading_award.png\r\ngui\maps\login\__login_bg.png\ngui\maps\login\__login_logo.png]\r\n\r\nhttps://github.com/SEA-group/GIRLS-und-PANZER-UI</InternalNotes>
+          <LastUpdateCheck>132876182845663949</LastUpdateCheck>
           <Description>This is a complete UI-Conversion.\nAuthor: Yuntian / SEA-Group\n\nNotice: It´s possible that some other graphical garrage mods wont work correct!\n\nThe following contents have been modified:\n\nDialog box background;\nMost of the interface buttons;\nMost of the interface background;\nHead up map;\nPlayer list in battle;\netc.\n\nLoadingLogo / LoginBackgrounds are separate selectable in modpack</Description>
           <FromWGmods>True</FromWGmods>
           <Medias>
@@ -2323,6 +2323,33 @@
             <Media MediaType="Picture" URL="https://wgmods.net/media/002.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
             <Media MediaType="Picture" URL="https://wgmods.net/media/shot_044_sscQIN1.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
           </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\mods\versiondir\load_order.xml" Version="1" Search="" Replace="pkg/GarageGraphics_UI.wotmod">
+              <Path>/root/Collection</Path>
+            </Patch>
+          </Patches>
+        </Package>
+        <Package PackageName="GarageGraphics_UI_Genshin" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="k2zbtoi5lmyhghq5" Name="Genshin UI (Complete User Interface Conversion)" Type="single_dropdown1" Visible="True">
+          <Version>1.15.0.1</Version>
+          <ZipFile>GarageGraphics_UI_Genshin_1.15.0.0_2022-01-25.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132876166565902033</Timestamp>
+          <DevURL>https://wgmods.net/5658/</DevURL>
+          <LastUpdateCheck>132876184156106284</LastUpdateCheck>
+          <Description>This is a complete UI-Conversion.\nAuthor: Yuntian / SEA-Group\n\nNotice: It´s possible that some other graphical garrage mods wont work correct!\n\nThe following contents have been modified:\n\nDialog box background;\nMost of the interface buttons;\nMost of the interface background;\nHead up map;\nPlayer list in battle;\netc.\n\nLoadingLogo / LoginBackgrounds are separate selectable in modpack</Description>
+          <FromWGmods>True</FromWGmods>
+          <Medias>
+            <Media MediaType="Picture" URL="https://wgmods.net/media/mod_files/729153601.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
+            <Media MediaType="Picture" URL="https://wgmods.net/media/mod_files/729153501.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
+            <Media MediaType="Picture" URL="https://wgmods.net/media/mod_files/0729153626.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
+            <Media MediaType="Picture" URL="https://wgmods.net/media/mod_files/0729154020.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
+            <Media MediaType="Picture" URL="https://wgmods.net/media/mod_files/729155622.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
+          </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\mods\versiondir\load_order.xml" Version="1" Search="" Replace="pkg/GarageGraphics_UI.wotmod">
+              <Path>/root/Collection</Path>
+            </Patch>
+          </Patches>
         </Package>
       </Packages>
     </Package>
