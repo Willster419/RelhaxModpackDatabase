@@ -1125,19 +1125,20 @@
         </Package>
         <Package PackageName="GarageGraphics_HangarDesign_PremiumV2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="g2uej360i9av5m8n" Name="Premium V2 [by {author}]" Type="multi" Visible="True">
           <Size>174011761</Size>
+          <Version>1.2</Version>
           <ZipFile>GarageGraphics_HangarDesign_PremiumV2_1.13.0.0_2022-01-20.zip</ZipFile>
           <CRC>f35cd8572d5deb27e0f00c03c4f54c18</CRC>
           <Timestamp>132872180989256767</Timestamp>
-          <DevURL>http://forum.worldoftanks.eu/index.php?/topic/735729-olixs-retro-hangars/\r\nhttps://wgmods.net/3909/</DevURL>
+          <DevURL>https://forum.worldoftanks.eu/index.php?/topic/735729-olixs-retro-hangars/\r\nhttps://wgmods.net/3909/</DevURL>
           <InternalNotes>edit LOADORDER !!!</InternalNotes>
           <Author>olix_vameshu</Author>
-          <Deprecated>True</Deprecated>
           <LastUpdateCheck>132872178116810857</LastUpdateCheck>
           <Description>This hangar was used in World of Tanks in versions 0.9.x as premium-hangar.</Description>
           <FromWGmods>True</FromWGmods>
           <Medias>
             <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/shot_002.jpg" />
             <Media MediaType="Picture" URL="http://www.goofy67-wot.de/media/images/shot_003.jpg" />
+            <Media MediaType="Picture" URL="https://wgmods.net/media/mod_files/shot_008_Tu34njn.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
           </Medias>
           <Patches>
             <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="Olixs_Hangar_Premium_V2_space.wotmod">
@@ -1156,6 +1157,36 @@
               <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_hangar</Path>
             </Patch>
             <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.pck">
+              <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_hangar</Path>
+            </Patch>
+          </Patches>
+        </Package>
+        <Package PackageName="GarageGraphics_HangarDesign_V2" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="4tlut6n6t6b2sxac" Name="V2 [by {author}]" Type="multi" Visible="True">
+          <Version>1.0</Version>
+          <ZipFile>GarageGraphics_HangarDesign_V2_1.13.0.0_2022-01-25.zip</ZipFile>
+          <CRC>f</CRC>
+          <Timestamp>132876499883455582</Timestamp>
+          <DevURL>https://forum.worldoftanks.eu/index.php?/topic/735729-olixs-retro-hangars/\r\nhttps://wgmods.net/4255/</DevURL>
+          <Author>olix_vameshu</Author>
+          <LastUpdateCheck>132872178116810857</LastUpdateCheck>
+          <FromWGmods>True</FromWGmods>
+          <Medias>
+            <Media MediaType="Picture" URL="https://wgmods.net/media/mod_files/shot_080_oHpp9kB.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
+            <Media MediaType="Picture" URL="https://wgmods.net/media/mod_files/shot_084_7pGSgzr.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
+            <Media MediaType="Picture" URL="https://wgmods.net/media/mod_files/shot_085_612VZYo.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
+            <Media MediaType="Picture" URL="https://wgmods.net/media/mod_files/Hangar_v2_sw4xc5y.png.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
+          </Medias>
+          <Patches>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="Olix's_Hangar_V2_space.wotmod">
+              <Path>//root/Collection</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="Olix's_Hangar_V2_resources.wotmod">
+              <Path>//root/Collection</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.bnk">
+              <Path>//engine_config.xml/soundMgr/WWISE_adv_profile/SFX_soundbanks_hangar</Path>
+            </Patch>
+            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/hangar_v2.bnk">
               <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_hangar</Path>
             </Patch>
           </Patches>
