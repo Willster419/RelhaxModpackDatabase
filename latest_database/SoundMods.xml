@@ -1185,21 +1185,21 @@
       <DevURL>http://forum.worldoftanks.eu/index.php?/topic/557716-</DevURL>
       <Description>UT Countdown:\nPlays certain sounds for when you get a certain number of kills in the game.</Description>
       <Packages>
-        <Package PackageName="Sounds_Kill_DisableKilledEnemySoundNotification" Enabled="False" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="0opknhgd0ceqkfn7" Name="disable sound notification when enemy tanks are destroyed" Type="multi" Visible="False">
+        <Package PackageName="Sounds_Kill_DisableKilledEnemySoundNotification" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="0opknhgd0ceqkfn7" Name="disable sound notification when enemy tanks are destroyed" Type="multi" Visible="False">
           <Size>537</Size>
           <Author>elektrosmoker</Author>
           <Patches>
-            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\gui\sound_notifications.xml" Version="1" Search=".*" Replace="">
-              <Path>//sound_notifications.xml/enemy_killed_by_ally/fx/wwsound</Path>
+            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\gui\sound_notifications.xml" Version="1" Search=".*" Replace="some_dumb_sound_event">
+              <Path>/sound_notifications.xml/event[name = "enemy_killed_by_ally"]/fxEvent</Path>
             </Patch>
           </Patches>
         </Package>
-        <Package PackageName="Sounds_Kill_DisableKilledAllySoundNotification" Enabled="False" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="lcae3ovd84z54wyr" Name="disable sound notification when allied tanks are destroyed" Type="multi" Visible="False">
+        <Package PackageName="Sounds_Kill_DisableKilledAllySoundNotification" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="lcae3ovd84z54wyr" Name="disable sound notification when allied tanks are destroyed" Type="multi" Visible="False">
           <Size>535</Size>
           <Author>elektrosmoker</Author>
           <Patches>
-            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\gui\sound_notifications.xml" Version="1" Search=".*" Replace="">
-              <Path>//sound_notifications.xml/ally_killed_by_enemy/fx/wwsound</Path>
+            <Patch Type="xml" Mode="edit" PatchPath="app" File="\res_mods\versiondir\gui\sound_notifications.xml" Version="1" Search=".*" Replace="some_dumb_sound_event">
+              <Path>/sound_notifications.xml/event[name = "ally_killed_by_enemy"]/fxEvent</Path>
             </Patch>
           </Patches>
         </Package>
