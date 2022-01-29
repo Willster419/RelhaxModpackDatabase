@@ -56,14 +56,14 @@
   </Dependency>
   <Dependency PackageName="LogicalDependency_XVM_Main_Stable" Enabled="True" Tags="DependencyLink,Script,ConfigurationFileXC,OtherFiles" InstallGroup="2" PatchGroup="2" UID="i84r7raah7wjh3oa">
     <Size>9221025</Size>
-    <Version>8.9.6_0000</Version>
-    <ZipFile>LogicalDependency_XVM_Main_Stable_v8.9.6_0000_1.15.0.1_2022-01-19.zip</ZipFile>
-    <CRC>28e3dc86648e8298ef14160b5075e317</CRC>
-    <Timestamp>132871077573156853</Timestamp>
+    <Version>8.9.7_0011</Version>
+    <ZipFile>LogicalDependency_XVM_Main_Stable_v8.9.7_0011N_1.15.0.2_2022-01-29.zip</ZipFile>
+    <CRC>f</CRC>
+    <Timestamp>132879718431329610</Timestamp>
     <DevURL>https://modxvm.com/en/download-xvm/\r\nhttps://nightly.modxvm.com/download/master/xvm_latest.zip</DevURL>
     <InternalNotes>including:\r\n\_patch\fix_xvm_force_dumb_color_scale_patch.xml\r\n\r\n\r\n\r\n- Download the previous (referenced here as ‘old’) xvm zip file and the new one. It is recommended to put them side by side\r\n- (old file) go inside the mods\versiondir folder and delete the folder called “com.modxvm.xfw”\r\n- Copy the folder “com.modxvm.xfw” (this includes the wotmod files) from the new file into the old file\r\n- (old file) go inside res_mods and delete the mods folder.\r\n- Copy the mods folder from the new file in res_mods to the old file\r\n- (old file) go inside res_mods\configs\xvm and delete the folders default, default_backup and py_macro.\r\n- Copy the folders default and py_macro to the old file\r\n- Rename default to default_backup\r\n- Again copy the default folder from the new file to the old file\r\n - When renaming, the version info for the zip file name comes from a file in the root of the xvm download archive\r\n- Done!\r\n</InternalNotes>
     <Maintainers>elektrosmoker; Willster419</Maintainers>
-    <LastUpdateCheck>132871077573171776</LastUpdateCheck>
+    <LastUpdateCheck>132879718431439617</LastUpdateCheck>
   </Dependency>
   <Dependency PackageName="LogicalDependency_XVM_Main_Nightly" Enabled="True" Tags="DependencyLink,Script,ConfigurationFileXC,OtherFiles" InstallGroup="2" PatchGroup="2" UID="vxb6fqgbg3p0hfv9">
     <Size>9221281</Size>
@@ -695,7 +695,7 @@
     <InternalNotes>AS OF 2021-05-08, no longer have to manually modify the configuration! A patch exists to disable the small effects that are enabled by default.\r\n\r\n\r\n--- OLD INSTRUCTIONS ---\r\nhttps://docs.google.com/document/d/1DIYfQwfD46KWA3xLvqONjj_i54SlYy3F0YKZUc_U3JU/edit#heading=h.x2kg0opxs8h0\r\n\r\nDependency_PMOD\r\nThis mod is a series of smaller modifications that improve the player’s game, mostly by aiming. It also has a statistics feature. The special instructions for this mod is to manually disable all features in the configs when the mod is downloaded. The config is JSON. for each json file (except single.json and multiple.json), there is an “enable” at the top, to enable the module. Each one should be disabled. (Set enabled to false)\r\n\r\nIf using Notepad++, open all json files but "single.json", and search for "// true - enable the module." for each result in each file, make sure enable is false.\r\n\r\nCurrently (2021-02-09), only zoomDistance.json and onStartDeadDistance.json are ever to be true\r\n\r\n\r\n1.46.1\r\nrem improveIngameStatistic</InternalNotes>
     <Author>P0LIR0ID</Author>
     <Maintainers>Willster419</Maintainers>
-    <LastUpdateCheck>132877155162197698</LastUpdateCheck>
+    <LastUpdateCheck>132879719298095503</LastUpdateCheck>
     <Patches>
       <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\zoomDistance.json" Version="1" Search=".*" Replace="false">
         <Path>$.enable</Path>
@@ -726,7 +726,7 @@
     <CRC>519077de0835040487de15559587ca92</CRC>
     <Timestamp>132843452214315980</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-\r\nhttps://wgmods.net/2559/details</DevURL>
-    <LastUpdateCheck>132877155264509081</LastUpdateCheck>
+    <LastUpdateCheck>132879719495518784</LastUpdateCheck>
   </Dependency>
   <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" Enabled="True" Tags="Script,Patch" InstallGroup="2" PatchGroup="2" UID="9e8e03og3xees21w">
     <Size>136838</Size>
@@ -734,7 +734,7 @@
     <CRC>a0fabb1e47dc4d1551269b803d3ab85a</CRC>
     <Timestamp>132859204963153684</Timestamp>
     <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-\r\nhttps://wgmods.net/2559/details</DevURL>
-    <LastUpdateCheck>132877155332519040</LastUpdateCheck>
+    <LastUpdateCheck>132879719593771341</LastUpdateCheck>
     <Patches>
       <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\crewSkills.json" Version="1" Search="" Replace="false">
         <Path>$.enable</Path>
