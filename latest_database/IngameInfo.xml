@@ -292,10 +292,35 @@
         <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
         <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="true">
+          <Path>$.enable</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
+          <Path>$.enableCustomUI</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
+          <Path>$.enableMinimap</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
+          <Path>$.enableSightedLogic</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
+          <Path>$.enableSoundCanShot</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
+          <Path>$.enableSoundSighted</Path>
+        </Patch>
+      </Patches>
       <Packages>
         <Package PackageName="IngameInfo_DangerLights_enableCustomUI" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="p035x9zrcs8qxgj8" Name="Enable and choose custom UI type:" Type="multi" Visible="True">
           <Size>479</Size>
           <DevURL>protanki.tv</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="true">
+              <Path>$.enableCustomUI</Path>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="IngameInfo_DangerLights_enableCustomUI_1" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="mypkoll2ycwtydnl" Name="1 - large vertical" Type="single_dropdown1" Visible="True">
               <Size>472</Size>
@@ -334,11 +359,6 @@
               </Patches>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="true">
-              <Path>$.enableCustomUI</Path>
-            </Patch>
-          </Patches>
         </Package>
         <Package PackageName="IngameInfo_DangerLights_enableSoundCanShot" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="pellgrxgj9bwjj5h" Name="Play a warning sound once the enemy started to go out of sight" Type="multi" Visible="True">
           <Size>489</Size>
@@ -377,26 +397,6 @@
           </Patches>
         </Package>
       </Packages>
-      <Patches>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="true">
-          <Path>$.enable</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
-          <Path>$.enableCustomUI</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
-          <Path>$.enableMinimap</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
-          <Path>$.enableSightedLogic</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
-          <Path>$.enableSoundCanShot</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="false">
-          <Path>$.enableSoundSighted</Path>
-        </Patch>
-      </Patches>
     </Package>
     <Package PackageName="IngameInfo_FinalShot" Enabled="True" Tags="Patch,Script,GuiFlash,ConfigurationFileJson,OtherFiles,DependencyLink" InstallGroup="4" PatchGroup="4" UID="4qcvi028h2edpw0y" Name="Final Shot (Last Hits) [by {author}]" Type="multi" Visible="True">
       <Size>593181</Size>
@@ -509,6 +509,53 @@
         <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
         <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.barFormat</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.barStyle</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.classColor</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.contourIconMode</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.customCfg</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.friendIcon</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.hideIfDead</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.icon</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.mode</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.removeBadges</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showClassIcon</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showHealthPoolBars</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
+          <Path>$.showHighCaliber</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showKnownPlayers</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showTeamHealth</Path>
+        </Patch>
+      </Patches>
       <Packages>
         <Package PackageName="IngameInfo_PlayersPanelPro_TankHPBars" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jv5txkvsb801sg8e" Name="Individual Tank HP Bars" Type="single1" Visible="True">
           <Packages>
@@ -842,6 +889,11 @@
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/spotted_icon_styles.png" />
           </Medias>
           <ConflictingPackages>IngameInfo_EnemySpottedStatus,IngameInfo_EnemySpottedStatus,IngameInfo_EnemySpottedStatus</ConflictingPackages>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="true">
+              <Path>$.showSpottedIcon</Path>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus_EyeV1" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6wrz8nb7bwkubrx2" Name="Eye V1" Type="single_dropdown1" Visible="True">
               <Size>537</Size>
@@ -894,60 +946,8 @@
               </Patches>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="true">
-              <Path>$.showSpottedIcon</Path>
-            </Patch>
-          </Patches>
         </Package>
       </Packages>
-      <Patches>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
-          <Path>$.barFormat</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
-          <Path>$.barStyle</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
-          <Path>$.classColor</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
-          <Path>$.contourIconMode</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
-          <Path>$.customCfg</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
-          <Path>$.friendIcon</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
-          <Path>$.hideIfDead</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
-          <Path>$.icon</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
-          <Path>$.mode</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
-          <Path>$.removeBadges</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
-          <Path>$.showClassIcon</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
-          <Path>$.showHealthPoolBars</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
-          <Path>$.showHighCaliber</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
-          <Path>$.showKnownPlayers</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="false">
-          <Path>$.showTeamHealth</Path>
-        </Patch>
-      </Patches>
     </Package>
     <Package PackageName="IngameInfo_HpPools" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bqrzjntjua041x2f" Name="HP Pools" Type="multi" Visible="True">
       <CRC>f</CRC>
@@ -972,6 +972,14 @@
           <Dependencies>
             <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
+              <Path>$.teamHealth.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="IngameInfo_HpPools_PMOD_SkinHeader" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rhzj78jhn0907tjx" Name="--- Skins / Configs ---" Type="single_dropdown1" Visible="True">
               <CRC>f</CRC>
@@ -1066,6 +1074,11 @@
             </Package>
             <Package PackageName="IngameInfo_HpPools_PMOD_HighCaliber" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="itfljqp3opvcc2rs" Name="Enable High Caliber Display (Doesnt work on all skins)" Type="multi" Visible="True">
               <Size>520</Size>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="false" Replace="true">
+                  <Path>$.teamHealth.displayMainGun</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="IngameInfo_HpPools_PMOD_HighCaliber_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vil0rpv4omntceys" Name="For Default Skin" Type="single_dropdown1" Visible="True">
                   <Size>860</Size>
@@ -1116,14 +1129,14 @@
                   </Patches>
                 </Package>
               </Packages>
+            </Package>
+            <Package PackageName="IngameInfo_HpPools_PMOD_Damage" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fag1zsxphy9inuu5" Name="Enable Damage" Type="multi" Visible="True">
+              <Size>520</Size>
               <Patches>
                 <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="false" Replace="true">
                   <Path>$.teamHealth.displayMainGun</Path>
                 </Patch>
               </Patches>
-            </Package>
-            <Package PackageName="IngameInfo_HpPools_PMOD_Damage" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fag1zsxphy9inuu5" Name="Enable Damage" Type="multi" Visible="True">
-              <Size>520</Size>
               <Packages>
                 <Package PackageName="IngameInfo_HpPools_PMOD_Damage_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9py8rwn8chb8ynci" Name="For Default Skin" Type="single_dropdown1" Visible="True">
                   <Size>699</Size>
@@ -1147,14 +1160,17 @@
                   </Patches>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="false" Replace="true">
-                  <Path>$.teamHealth.displayMainGun</Path>
-                </Patch>
-              </Patches>
             </Package>
             <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="66zo7yvu4pqe9fgu" Name="Players Panel State" Type="multi" Visible="True">
               <Size>478</Size>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
+                  <Path>$.teamHealth.enable</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
+                  <Path>$.enable</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="IngameInfo_HpPools_PMOD_PlayersPanelState_None" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0lgwz2lcz8s4l8y7" Name="Hidden" Type="single_dropdown1" Visible="True">
                   <Size>539</Size>
@@ -1197,24 +1213,8 @@
                   </Patches>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
-                  <Path>$.teamHealth.enable</Path>
-                </Patch>
-                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
-                  <Path>$.enable</Path>
-                </Patch>
-              </Patches>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
-              <Path>$.teamHealth.enable</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
-              <Path>$.enable</Path>
-            </Patch>
-          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -1271,6 +1271,14 @@
           <Dependencies>
             <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="true">
+              <Path>$.detectionState.enable</Path>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="IngameInfo_EnemySpottedStatus_PMOD_asterisk" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="6q2a2mocqrlzrqup" Name="Use colored asterisk &quot;*&quot; from Willster419's xvm config" Type="multi" Visible="True">
               <Size>635</Size>
@@ -1302,14 +1310,6 @@
               </Patches>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="true">
-              <Path>$.enable</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="true">
-              <Path>$.detectionState.enable</Path>
-            </Patch>
-          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -1343,6 +1343,17 @@
         <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
         <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
+          <Path>$.enabled</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="false">
+          <Path>$.debugMode</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="false">
+          <Path>$.checkUpdate</Path>
+        </Patch>
+      </Patches>
       <Packages>
         <Package PackageName="IngameInfo_TankRatingColors_RecolorHeader" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dtqw2pkwk6f72vj2" Name="--- Recolor tanks by ---" Type="single_dropdown1" Visible="True">
           <CRC>f</CRC>
@@ -1448,17 +1459,6 @@
           </Patches>
         </Package>
       </Packages>
-      <Patches>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
-          <Path>$.enabled</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="false">
-          <Path>$.debugMode</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="false">
-          <Path>$.checkUpdate</Path>
-        </Patch>
-      </Patches>
     </Package>
     <Package PackageName="IngameInfo_InBattleRating" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="oi3lixkm1ajszw14" Name="InBattle Rating" Type="multi" Visible="True">
       <Timestamp>131712253302348201</Timestamp>
@@ -1544,6 +1544,26 @@
         <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
         <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showInTechTree</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showInStatistic</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showInBattleHalfPercents</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showInBattleResults</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.enableMoEDisplay</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
+          <Path>$.showInTechTreeMastery</Path>
+        </Patch>
+      </Patches>
       <Packages>
         <Package PackageName="IngameInfo_ExpectedVehicleValues_CFG_Header" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="ggdqlbvi3xn9j5jw" Name="--- choose config: ---" Type="single_dropdown1" Visible="True">
           <Size>683</Size>
@@ -1647,26 +1667,6 @@
           </Patches>
         </Package>
       </Packages>
-      <Patches>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
-          <Path>$.showInTechTree</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
-          <Path>$.showInStatistic</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
-          <Path>$.showInBattleHalfPercents</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
-          <Path>$.showInBattleResults</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
-          <Path>$.enableMoEDisplay</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
-          <Path>$.showInTechTreeMastery</Path>
-        </Patch>
-      </Patches>
     </Package>
     <Package PackageName="IngameInfo_playersPanelDamage" Enabled="True" Tags="Patch,DependencyLink" InstallGroup="4" PatchGroup="4" UID="egk0tkp7l4ychvty" Name="Show dealt damage/tank in players panel" Type="multi" Visible="True">
       <Size>558</Size>
@@ -1731,6 +1731,26 @@
       <Dependencies>
         <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.debug</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.shellInfo.enableMinMaxDamage</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.shellInfo.enableMinMaxPiercingPower</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.shellInfo.enableSpeed</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.shellInfo.enableExplosionRadius</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
+          <Path>$.chassisInfo.enableTerrainResistance</Path>
+        </Patch>
+      </Patches>
       <Packages>
         <Package PackageName="IngameInfo_HiddenParameters_Speed" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="gmaf7tsbqx1zgh7n" Name="Enable Shell Speed" Type="multi" Visible="True">
           <Size>527</Size>
@@ -1789,26 +1809,6 @@
           </Patches>
         </Package>
       </Packages>
-      <Patches>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
-          <Path>$.debug</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
-          <Path>$.shellInfo.enableMinMaxDamage</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
-          <Path>$.shellInfo.enableMinMaxPiercingPower</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
-          <Path>$.shellInfo.enableSpeed</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
-          <Path>$.shellInfo.enableExplosionRadius</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
-          <Path>$.chassisInfo.enableTerrainResistance</Path>
-        </Patch>
-      </Patches>
     </Package>
     <Package PackageName="IngameInfo_TankInfoPanel" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="k7zinyxhdlad2e0c" Name="Tank Info Panel" Type="multi" Visible="True">
       <Packages>

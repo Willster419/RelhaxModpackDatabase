@@ -43,6 +43,11 @@
             </Package>
             <Package PackageName="XVMconfigBuilder_Sound_enabled" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mybsbrinwvty2cz9" Name="Enabled" Type="single1" Visible="True">
               <Size>927</Size>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search="" Replace="true">
+                  <Path>$.sounds.enabled</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_Sound_remote_communication" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zni7jroowrlg2o69" Name="remote communication between WoT client and WWISE Authoring Tools" Type="multi" Visible="True">
                   <CRC>292c233257c62f923fbaea79570b22fd</CRC>
@@ -87,11 +92,6 @@
                   </Packages>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search="" Replace="true">
-                  <Path>$.sounds.enabled</Path>
-                </Patch>
-              </Patches>
             </Package>
           </Packages>
         </Package>
@@ -495,6 +495,11 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/enable_xvm_cells_header_message.png" />
               </Medias>
               <ConflictingPackages>Garage_Mods_Auxilium_Carousel</ConflictingPackages>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="true">
+                  <Path>$.carousel.enabled</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_Carousel_Slots" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="i1dmpxq8782eqtok" Name="Slot content" Type="multi" Visible="True">
                   <Description>Change the content inside the tank cells</Description>
@@ -510,6 +515,11 @@
                           <Medias>
                             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" />
                           </Medias>
+                          <Patches>
+                            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="normal">
+                              <Path>$.carousel.cellType</Path>
+                            </Patch>
+                          </Patches>
                           <Packages>
                             <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Normal_Scale_1.0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2t8nx0ss0ko31akx" Name="1.0 Scale" Type="single_dropdown1" Visible="True">
                               <Description>Normal size of the carousel</Description>
@@ -716,17 +726,17 @@
                               </Patches>
                             </Package>
                           </Packages>
-                          <Patches>
-                            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="normal">
-                              <Path>$.carousel.cellType</Path>
-                            </Patch>
-                          </Patches>
                         </Package>
                         <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Small" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="rpxkdfkm5jg3lkgp" Name="small sized" Type="single1" Visible="True">
                           <Size>923</Size>
                           <Medias>
                             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/cell_scale_comparison.png" />
                           </Medias>
+                          <Patches>
+                            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="small">
+                              <Path>$.carousel.cellType</Path>
+                            </Patch>
+                          </Patches>
                           <Packages>
                             <Package PackageName="XVMconfigBuilder_Carousel_Slots_default_Small_WinRate" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="4e4zleqn5f8klwop" Name="Win Rate" Type="multi" Visible="True">
                               <Medias>
@@ -770,11 +780,6 @@
                               </Packages>
                             </Package>
                           </Packages>
-                          <Patches>
-                            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="small">
-                              <Path>$.carousel.cellType</Path>
-                            </Patch>
-                          </Patches>
                         </Package>
                         <Package PackageName="XVMConfigBuilder_Carousel_Slots_default_coloredTanksLimitedMM" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="o6z0ths8yrv9wck2" Name="colorize names for tanks with limited matchmaking" Type="multi" Visible="True">
                           <Size>1079</Size>
@@ -782,6 +787,20 @@
                           <Medias>
                             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/tank_carousel/XVM_config_builder_TankCarousel_Tanks_with_limited_MM_Green.png" />
                           </Medias>
+                          <Patches>
+                            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="" Replace="false">
+                              <Path>$.normal.fields.tankName.enabled</Path>
+                            </Patch>
+                            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselSmall.xc" Version="1" Search="" Replace="false">
+                              <Path>$.small.fields.tankName.enabled</Path>
+                            </Patch>
+                            <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="&quot;extraFields&quot;:[ \t]*\[" Replace="&quot;extraFields&quot;: [&#xA;      {&#xA;        &quot;id&quot;: &quot;ColoredTanknamesLimMM&quot;,&#xA;        &quot;x&quot;: 159,&#xA;        &quot;y&quot;: 79,&#xA;        &quot;align&quot;: &quot;right&quot;,&#xA;        &quot;format&quot;: &quot;&lt;font face='$FieldFont' size='15' color='{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'&gt;{{v.fullname}}&lt;/font&gt;&quot;, &#xA;        &quot;shadow&quot;: ${ &quot;def.textFieldShadow&quot; },&#xA;        &quot;color&quot;: &quot;{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}&quot;,&#xA;        &quot;alpha&quot;: &quot;{{v.premium?85|35}}&quot;,&#xA;        &quot;blur&quot;: &quot;{{v.premium?9|8}}&quot;&#xA;      },">
+                              <Line>-1</Line>
+                            </Patch>
+                            <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselSmall.xc" Version="1" Search="&quot;extraFields&quot;:[ \t]*\[" Replace="&quot;extraFields&quot;: [&#xA;      {&#xA;        &quot;id&quot;: &quot;ColoredTanknamesLimMM&quot;,&#xA;        &quot;x&quot;: 159,&#xA;        &quot;y&quot;: 14,&#xA;        &quot;align&quot;: &quot;right&quot;,&#xA;        &quot;format&quot;: &quot;&lt;font face='$FieldFont' size='15' color='{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'&gt;{{v.fullname}}&lt;/font&gt;&quot;,&#xA;        &quot;shadow&quot;: ${ &quot;def.textFieldShadow&quot; },&#xA;        &quot;color&quot;: &quot;{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}&quot;,&#xA;        &quot;alpha&quot;: &quot;{{v.premium?85|35}}&quot;,&#xA;        &quot;blur&quot;: &quot;{{v.premium?9|8}}&quot;&#xA;      },">
+                              <Line>-1</Line>
+                            </Patch>
+                          </Patches>
                           <Packages>
                             <Package PackageName="XVMConfigBuilder_Carousel_Slots_default_coloredTanksLimitedMM_Dodger_Blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ilg7kliqtaxz852f" Name="Dodger blue" Type="single_dropdown1" Visible="True">
                               <Size>653</Size>
@@ -816,20 +835,6 @@
                               </Patches>
                             </Package>
                           </Packages>
-                          <Patches>
-                            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="" Replace="false">
-                              <Path>$.normal.fields.tankName.enabled</Path>
-                            </Patch>
-                            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselSmall.xc" Version="1" Search="" Replace="false">
-                              <Path>$.small.fields.tankName.enabled</Path>
-                            </Patch>
-                            <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="&quot;extraFields&quot;:[ \t]*\[" Replace="&quot;extraFields&quot;: [&#xA;      {&#xA;        &quot;id&quot;: &quot;ColoredTanknamesLimMM&quot;,&#xA;        &quot;x&quot;: 159,&#xA;        &quot;y&quot;: 79,&#xA;        &quot;align&quot;: &quot;right&quot;,&#xA;        &quot;format&quot;: &quot;&lt;font face='$FieldFont' size='15' color='{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'&gt;{{v.fullname}}&lt;/font&gt;&quot;, &#xA;        &quot;shadow&quot;: ${ &quot;def.textFieldShadow&quot; },&#xA;        &quot;color&quot;: &quot;{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}&quot;,&#xA;        &quot;alpha&quot;: &quot;{{v.premium?85|35}}&quot;,&#xA;        &quot;blur&quot;: &quot;{{v.premium?9|8}}&quot;&#xA;      },">
-                              <Line>-1</Line>
-                            </Patch>
-                            <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselSmall.xc" Version="1" Search="&quot;extraFields&quot;:[ \t]*\[" Replace="&quot;extraFields&quot;: [&#xA;      {&#xA;        &quot;id&quot;: &quot;ColoredTanknamesLimMM&quot;,&#xA;        &quot;x&quot;: 159,&#xA;        &quot;y&quot;: 14,&#xA;        &quot;align&quot;: &quot;right&quot;,&#xA;        &quot;format&quot;: &quot;&lt;font face='$FieldFont' size='15' color='{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'&gt;{{v.fullname}}&lt;/font&gt;&quot;,&#xA;        &quot;shadow&quot;: ${ &quot;def.textFieldShadow&quot; },&#xA;        &quot;color&quot;: &quot;{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}&quot;,&#xA;        &quot;alpha&quot;: &quot;{{v.premium?85|35}}&quot;,&#xA;        &quot;blur&quot;: &quot;{{v.premium?9|8}}&quot;&#xA;      },">
-                              <Line>-1</Line>
-                            </Patch>
-                          </Patches>
                         </Package>
                       </Packages>
                     </Package>
@@ -841,6 +846,11 @@
                           <Medias>
                             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_config_builder_carousel_CaronteShinigami.png" />
                           </Medias>
+                          <Patches>
+                            <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\carousel.xc" Version="1" Search="" Replace="normal">
+                              <Path>$.carousel.cellType</Path>
+                            </Patch>
+                          </Patches>
                           <Packages>
                             <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_CaronteShinigami_1.0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="m6590qmwfy6du2v4" Name="1.0 Scale" Type="single_dropdown1" Visible="True">
                               <Size>2877</Size>
@@ -864,6 +874,20 @@
                             </Package>
                             <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_CaronteShinigami_coloredTanksLimitedMM" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="t9tw0tig9d0k56kh" Name="colorize names for tanks with limited matchmaking" Type="multi" Visible="True">
                               <Size>1079</Size>
+                              <Patches>
+                                <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="" Replace="false">
+                                  <Path>$.normal.fields.tankName.enabled</Path>
+                                </Patch>
+                                <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselSmall.xc" Version="1" Search="" Replace="false">
+                                  <Path>$.small.fields.tankName.enabled</Path>
+                                </Patch>
+                                <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="&quot;extraFields&quot;:[ \t]*\[" Replace="&quot;extraFields&quot;: [&#xA;      {&#xA;        &quot;id&quot;: &quot;ColoredTanknamesLimMM&quot;,&#xA;        &quot;x&quot;: 159,&#xA;        &quot;y&quot;: 79,&#xA;        &quot;align&quot;: &quot;right&quot;,&#xA;        &quot;format&quot;: &quot;&lt;font face='$FieldFont' size='15' color='{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'&gt;{{v.fullname}}&lt;/font&gt;&quot;, &#xA;        &quot;shadow&quot;: ${ &quot;def.textFieldShadow&quot; },&#xA;        &quot;color&quot;: &quot;{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}&quot;,&#xA;        &quot;alpha&quot;: &quot;{{v.premium?85|35}}&quot;,&#xA;        &quot;blur&quot;: &quot;{{v.premium?9|8}}&quot;&#xA;      },">
+                                  <Line>-1</Line>
+                                </Patch>
+                                <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselSmall.xc" Version="1" Search="&quot;extraFields&quot;:[ \t]*\[" Replace="&quot;extraFields&quot;: [&#xA;      {&#xA;        &quot;id&quot;: &quot;ColoredTanknamesLimMM&quot;,&#xA;        &quot;x&quot;: 159,&#xA;        &quot;y&quot;: 14,&#xA;        &quot;align&quot;: &quot;right&quot;,&#xA;        &quot;format&quot;: &quot;&lt;font face='$FieldFont' size='15' color='{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'&gt;{{v.fullname}}&lt;/font&gt;&quot;,&#xA;        &quot;shadow&quot;: ${ &quot;def.textFieldShadow&quot; },&#xA;        &quot;color&quot;: &quot;{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}&quot;,&#xA;        &quot;alpha&quot;: &quot;{{v.premium?85|35}}&quot;,&#xA;        &quot;blur&quot;: &quot;{{v.premium?9|8}}&quot;&#xA;      },">
+                                  <Line>-1</Line>
+                                </Patch>
+                              </Patches>
                               <Packages>
                                 <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_CaronteShinigami_coloredTanksLimitedMM_Dodger_Blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6y0a8toh9as25irh" Name="Dodger blue" Type="single_dropdown1" Visible="True">
                                   <Size>653</Size>
@@ -894,27 +918,8 @@
                                   </Patches>
                                 </Package>
                               </Packages>
-                              <Patches>
-                                <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="" Replace="false">
-                                  <Path>$.normal.fields.tankName.enabled</Path>
-                                </Patch>
-                                <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselSmall.xc" Version="1" Search="" Replace="false">
-                                  <Path>$.small.fields.tankName.enabled</Path>
-                                </Patch>
-                                <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="&quot;extraFields&quot;:[ \t]*\[" Replace="&quot;extraFields&quot;: [&#xA;      {&#xA;        &quot;id&quot;: &quot;ColoredTanknamesLimMM&quot;,&#xA;        &quot;x&quot;: 159,&#xA;        &quot;y&quot;: 79,&#xA;        &quot;align&quot;: &quot;right&quot;,&#xA;        &quot;format&quot;: &quot;&lt;font face='$FieldFont' size='15' color='{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'&gt;{{v.fullname}}&lt;/font&gt;&quot;, &#xA;        &quot;shadow&quot;: ${ &quot;def.textFieldShadow&quot; },&#xA;        &quot;color&quot;: &quot;{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}&quot;,&#xA;        &quot;alpha&quot;: &quot;{{v.premium?85|35}}&quot;,&#xA;        &quot;blur&quot;: &quot;{{v.premium?9|8}}&quot;&#xA;      },">
-                                  <Line>-1</Line>
-                                </Patch>
-                                <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselSmall.xc" Version="1" Search="&quot;extraFields&quot;:[ \t]*\[" Replace="&quot;extraFields&quot;: [&#xA;      {&#xA;        &quot;id&quot;: &quot;ColoredTanknamesLimMM&quot;,&#xA;        &quot;x&quot;: 159,&#xA;        &quot;y&quot;: 14,&#xA;        &quot;align&quot;: &quot;right&quot;,&#xA;        &quot;format&quot;: &quot;&lt;font face='$FieldFont' size='15' color='{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'&gt;{{v.fullname}}&lt;/font&gt;&quot;,&#xA;        &quot;shadow&quot;: ${ &quot;def.textFieldShadow&quot; },&#xA;        &quot;color&quot;: &quot;{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}&quot;,&#xA;        &quot;alpha&quot;: &quot;{{v.premium?85|35}}&quot;,&#xA;        &quot;blur&quot;: &quot;{{v.premium?9|8}}&quot;&#xA;      },">
-                                  <Line>-1</Line>
-                                </Patch>
-                              </Patches>
                             </Package>
                           </Packages>
-                          <Patches>
-                            <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\carousel.xc" Version="1" Search="" Replace="normal">
-                              <Path>$.carousel.cellType</Path>
-                            </Patch>
-                          </Patches>
                         </Package>
                         <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_Maxdata" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="3g1rovx31i78gaut" Name="&quot;MaxData&quot; by DivingDuck" Type="single1" Visible="True">
                           <Size>1059</Size>
@@ -926,6 +931,11 @@
                           <Dependencies>
                             <Dependency PackageName="Dependency_XVM_Images_Maxdata" NotFlag="False" Logic="OR" />
                           </Dependencies>
+                          <Patches>
+                            <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\carousel.xc" Version="1" Search="" Replace="normal">
+                              <Path>$.carousel.cellType</Path>
+                            </Patch>
+                          </Patches>
                           <Packages>
                             <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_Maxdata_0.8" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="xujygznmw19yr3c7" Name="0.8 Scale" Type="single_dropdown1" Visible="True">
                               <Size>3146</Size>
@@ -964,6 +974,14 @@
                             </Package>
                             <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_Maxdata_coloredTanksLimitedMM" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="oq2lo5lrktqueoyw" Name="colorize names for tanks with limited matchmaking" Type="multi" Visible="True">
                               <Size>1070</Size>
+                              <Patches>
+                                <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="" Replace="false">
+                                  <Path>$.normal.fields.tankName.enabled</Path>
+                                </Patch>
+                                <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="&quot;format&quot;: &quot;{{v.fullname}}&quot;" Replace="&#xA;        &quot;format&quot;: &quot;&lt;font face='$FieldFont' color='{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'&gt;{{v.fullname}}&lt;/font&gt;&quot;, &#xA;        &quot;shadow&quot;: ${ &quot;def.textFieldShadow&quot; },&#xA;        &quot;color&quot;: &quot;{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}&quot;,&#xA;        &quot;alpha&quot;: &quot;{{v.premium?85|35}}&quot;,&#xA;        &quot;blur&quot;: &quot;{{v.premium?9|8}}&quot;&#xA;      ">
+                                  <Line>-1</Line>
+                                </Patch>
+                              </Patches>
                               <Packages>
                                 <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_Maxdata_coloredTanksLimitedMM_Dodger_Blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sbrn4apw6hz80krm" Name="Dodger Blue" Type="single_dropdown1" Visible="True">
                                   <Size>653</Size>
@@ -994,14 +1012,6 @@
                                   </Patches>
                                 </Package>
                               </Packages>
-                              <Patches>
-                                <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="" Replace="false">
-                                  <Path>$.normal.fields.tankName.enabled</Path>
-                                </Patch>
-                                <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carouselNormal.xc" Version="1" Search="&quot;format&quot;: &quot;{{v.fullname}}&quot;" Replace="&#xA;        &quot;format&quot;: &quot;&lt;font face='$FieldFont' color='{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}'&gt;{{v.fullname}}&lt;/font&gt;&quot;, &#xA;        &quot;shadow&quot;: ${ &quot;def.textFieldShadow&quot; },&#xA;        &quot;color&quot;: &quot;{{v.vehId=52241?#ColorNumber|{{v.level=4?{{v.type={{l10n:HT}}?#ColorNumber|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}|{{v.level=10?{{v.premium?#FFA759|#C8C8B5}}|{{v.level&lt;4?{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;1?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}|{{py:sub({{v.battletiermax}}, {{v.battletiermin}})&lt;2?#ColorNumber|{{v.premium?#FFA759|#C8C8B5}}}}}}}}}}}}}}&quot;,&#xA;        &quot;alpha&quot;: &quot;{{v.premium?85|35}}&quot;,&#xA;        &quot;blur&quot;: &quot;{{v.premium?9|8}}&quot;&#xA;      ">
-                                  <Line>-1</Line>
-                                </Patch>
-                              </Patches>
                             </Package>
                             <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_Maxdata_smallerGap" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="oss4jcxizpefbcuy" Name="smaller gap" Type="multi" Visible="True">
                               <Size>658</Size>
@@ -1013,11 +1023,6 @@
                               </Patches>
                             </Package>
                           </Packages>
-                          <Patches>
-                            <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\carousel.xc" Version="1" Search="" Replace="normal">
-                              <Path>$.carousel.cellType</Path>
-                            </Patch>
-                          </Patches>
                         </Package>
                         <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_Maxdata_RelhaxDevCfg" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="i7abbgn1u8g4m5cb" Name="Relhax developers configs of the MaxData carousel (thx@DivingDuck)" Type="single1" Visible="True">
                           <Size>1059</Size>
@@ -1028,6 +1033,11 @@
                           <Dependencies>
                             <Dependency PackageName="Dependency_XVM_Images_Maxdata" NotFlag="False" Logic="OR" />
                           </Dependencies>
+                          <Patches>
+                            <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\carousel.xc" Version="1" Search="" Replace="normal">
+                              <Path>$.carousel.cellType</Path>
+                            </Patch>
+                          </Patches>
                           <Packages>
                             <Package PackageName="XVMconfigBuilder_Carousel_Slots_prebuilt_Maxdata_RelhaxDevCfg_dirty20067" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vwgqjft2t48mmhjb" Name="dirty20067´s &quot;MaxData&quot; version with different features - 0.8 Scale" Type="single_dropdown1" Visible="True">
                               <Size>719004</Size>
@@ -1043,11 +1053,6 @@
                               <Timestamp>132516397977270652</Timestamp>
                             </Package>
                           </Packages>
-                          <Patches>
-                            <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\carousel.xc" Version="1" Search="" Replace="normal">
-                              <Path>$.carousel.cellType</Path>
-                            </Patch>
-                          </Patches>
                         </Package>
                       </Packages>
                     </Package>
@@ -1077,6 +1082,14 @@
                       <Medias>
                         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_tank_cell_header.png" />
                       </Medias>
+                      <Patches>
+                        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="false">
+                          <Path>$.carousel.showTotalSlots</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="true">
+                          <Path>$.carousel.hideBuyTank</Path>
+                        </Patch>
+                      </Patches>
                       <Packages>
                         <Package PackageName="XVMconfigBuilder_Carousel_Slots_buyTank_hide_totalSlots_hide" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zh6szkx8gsh09dc0" Name="Hide cell" Type="single_dropdown1" Visible="True">
                           <Size>1012</Size>
@@ -1121,20 +1134,20 @@
                           </Patches>
                         </Package>
                       </Packages>
-                      <Patches>
-                        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="false">
-                          <Path>$.carousel.showTotalSlots</Path>
-                        </Patch>
-                        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="true">
-                          <Path>$.carousel.hideBuyTank</Path>
-                        </Patch>
-                      </Patches>
                     </Package>
                     <Package PackageName="XVMconfigBuilder_Carousel_Slots_buySlot_usedSlots" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0zblrsja4rdxvbjr" Name="&quot;Buy Slot&quot; cell" Type="multi" Visible="True">
                       <Size>1008</Size>
                       <Medias>
                         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/buy_slot_cell_header.png" />
                       </Medias>
+                      <Patches>
+                        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="true">
+                          <Path>$.carousel.hideBuySlot</Path>
+                        </Patch>
+                        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="false">
+                          <Path>$.carousel.showUsedSlots</Path>
+                        </Patch>
+                      </Patches>
                       <Packages>
                         <Package PackageName="XVMconfigBuilder_Carousel_Slots_buySlot_hide_usedSlots_hide" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="doi0zrqb4n6fvmqq" Name="Hide cell" Type="single_dropdown1" Visible="True">
                           <Size>1009</Size>
@@ -1179,14 +1192,6 @@
                           </Patches>
                         </Package>
                       </Packages>
-                      <Patches>
-                        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="true">
-                          <Path>$.carousel.hideBuySlot</Path>
-                        </Patch>
-                        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="false">
-                          <Path>$.carousel.showUsedSlots</Path>
-                        </Patch>
-                      </Patches>
                     </Package>
                   </Packages>
                 </Package>
@@ -1251,11 +1256,6 @@
                   </UserFiles>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="true">
-                  <Path>$.carousel.enabled</Path>
-                </Patch>
-              </Patches>
             </Package>
           </Packages>
         </Package>
@@ -1282,6 +1282,11 @@
                 </Package>
                 <Package PackageName="XVMconfigBuilder_GarageInterface_Clock_enable" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="sxlru5u77fiefk1i" Name="Enable" Type="single1" Visible="True">
                   <Size>931</Size>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\widgetsTemplates.xc" Version="1" Search="" Replace="true">
+                      <Path>$.clock.enabled</Path>
+                    </Patch>
+                  </Patches>
                   <Packages>
                     <Package PackageName="XVMconfigBuilder_GarageInterface_Clock_TimeFormat" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mb2ym9kq2yk3qdjv" Name="Time Format" Type="single1" Visible="True">
                       <Description>change the time format</Description>
@@ -1326,11 +1331,6 @@
                       </Patches>
                     </Package>
                   </Packages>
-                  <Patches>
-                    <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\widgetsTemplates.xc" Version="1" Search="" Replace="true">
-                      <Path>$.clock.enabled</Path>
-                    </Patch>
-                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -1584,6 +1584,14 @@
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_ServerPingInfo_01.png" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\hangar.xc" Version="1" Search="" Replace="240">
+                  <Path>$.hangar.onlineServers.x</Path>
+                </Patch>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\hangar.xc" Version="1" Search="" Replace="&quot;left&quot;">
+                  <Path>$.hangar.onlineServers.hAlign</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_GarageInterface_ServerPopulations_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ril5t9t6pkcnsamh" Name="Disabled" Type="single_dropdown1" Visible="True">
                   <Size>961</Size>
@@ -1602,14 +1610,6 @@
                   </Patches>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\hangar.xc" Version="1" Search="" Replace="240">
-                  <Path>$.hangar.onlineServers.x</Path>
-                </Patch>
-                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\hangar.xc" Version="1" Search="" Replace="&quot;left&quot;">
-                  <Path>$.hangar.onlineServers.hAlign</Path>
-                </Patch>
-              </Patches>
             </Package>
             <Package PackageName="Spacer_Notifications" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="ym9rtcpqjz6u3ebu" Name="--Notifications--" Type="single1" Visible="True">
               <CRC>f</CRC>
@@ -2247,6 +2247,11 @@
                 </Package>
                 <Package PackageName="XVMconfigBuilder_GarageInterface_Squad_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="j6ulesue09pfp66u" Name="enable" Type="single1" Visible="True">
                   <Size>604</Size>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\squad.xc" Version="1" Search="" Replace="true">
+                      <Path>$.squad.enabled</Path>
+                    </Patch>
+                  </Patches>
                   <Packages>
                     <Package PackageName="XVMconfigBuilder_GarageInterface_squad_showClan" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wv10ms0fz5ixpidu" Name="show players clan" Type="multi" Visible="True">
                       <Packages>
@@ -2297,11 +2302,6 @@
                       </Packages>
                     </Package>
                   </Packages>
-                  <Patches>
-                    <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\squad.xc" Version="1" Search="" Replace="true">
-                      <Path>$.squad.enabled</Path>
-                    </Patch>
-                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -2889,6 +2889,11 @@
                 </Package>
                 <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_altModeHotkey" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fi4yoq67b3dzyses" Name="set hotkey for alternate mode:" Type="multi" Visible="True">
                   <Size>983</Size>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="2" Search="/*" Replace="true">
+                      <Path>$.hotkeys.damageLogAltMode.enabled</Path>
+                    </Patch>
+                  </Patches>
                   <Packages>
                     <Package PackageName="XVMConfigBuilder_BattleInterface_DamageLog_altModeHotkey_leftALT" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7p1a696bevwng06i" Name="left ALT" Type="single_dropdown1" Visible="True">
                       <Size>987</Size>
@@ -2915,11 +2920,6 @@
                       </Patches>
                     </Package>
                   </Packages>
-                  <Patches>
-                    <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="2" Search="/*" Replace="true">
-                      <Path>$.hotkeys.damageLogAltMode.enabled</Path>
-                    </Patch>
-                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -2973,6 +2973,11 @@
                 </Package>
                 <Package PackageName="XVMConfigBuilder_BattleInterface_HitLog_altModeHotkey" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="t3eqcix0f6bcppk6" Name="set hotkey for alternate mode:" Type="multi" Visible="True">
                   <Size>975</Size>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="2" Search="/*" Replace="true">
+                      <Path>$.hotkeys.hitLogAltMode.enabled</Path>
+                    </Patch>
+                  </Patches>
                   <Packages>
                     <Package PackageName="XVMConfigBuilder_BattleInterface_HitLog_altModeHotkey_leftALT" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="t08n3im6tvbyyl4i" Name="left ALT" Type="single_dropdown1" Visible="True">
                       <Size>979</Size>
@@ -2999,11 +3004,6 @@
                       </Patches>
                     </Package>
                   </Packages>
-                  <Patches>
-                    <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="2" Search="/*" Replace="true">
-                      <Path>$.hotkeys.hitLogAltMode.enabled</Path>
-                    </Patch>
-                  </Patches>
                 </Package>
               </Packages>
             </Package>
@@ -3607,6 +3607,12 @@
               <Dependencies>
                 <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
               </Dependencies>
+              <Patches>
+                <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsSpeed.xc[quote][colon][quote]speed[quote][rbracket][index=0]">
+                  <Path>$.labels.formats</Path>
+                </Patch>
+                <Patch Type="json" Mode="add" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\@xvm.xc" Version="1" Search="" Replace="speed/[dollar][lbracket][quote]speed.xc[quote][colon][quote]speed[quote][rbracket]" />
+              </Patches>
               <Packages>
                 <Package PackageName="XVMConfigBuilder_BattleInterface_Speed_insideDamagePanel" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ps2xpzxxmd740u6c" Name="inside damage panel" Type="single_dropdown1" Visible="True">
                   <Size>1113</Size>
@@ -3635,12 +3641,6 @@
                   <Description>modified Setting for 32" Monitors</Description>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsSpeed.xc[quote][colon][quote]speed[quote][rbracket][index=0]">
-                  <Path>$.labels.formats</Path>
-                </Patch>
-                <Patch Type="json" Mode="add" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\@xvm.xc" Version="1" Search="" Replace="speed/[dollar][lbracket][quote]speed.xc[quote][colon][quote]speed[quote][rbracket]" />
-              </Patches>
             </Package>
             <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qp0wlk4sfnycm0bv" Name="Piercing Chance (possible Penetration Indicator conflict!)" Type="multi" Visible="True">
               <Size>1769</Size>
@@ -4348,6 +4348,18 @@
                 <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
                 <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
               </Dependencies>
+              <Patches>
+                <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\elements.xc" Version="1" Search="{}" Replace="&#xA;    {&#xA;&quot;consumablesPanel&quot;: { &quot;$delay&quot;: 3000, &quot;y&quot;: &quot;{{py:xvm.YFromBottom(80)}}&quot;}&#xA;},&#xA;{}" />
+                <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsHealthBar.xc[quote][colon][quote]hpBar[quote][rbracket][index=0]">
+                  <Path>$.labels.formats</Path>
+                </Patch>
+                <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsHealthBar.xc[quote][colon][quote]hpBar_Background[quote][rbracket][index=0]">
+                  <Path>$.labels.formats</Path>
+                </Patch>
+                <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsHealthBar.xc[quote][colon][quote]hpBar_text[quote][rbracket][index=0]">
+                  <Path>$.labels.formats</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="XVMConfigBuilder_BattleInterface_hpBar_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wepvjszbr8nt9um7" Name="Default" Type="single_dropdown1" Visible="True">
                   <CRC>f</CRC>
@@ -4372,18 +4384,6 @@
                   </Patches>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\elements.xc" Version="1" Search="{}" Replace="&#xA;    {&#xA;&quot;consumablesPanel&quot;: { &quot;$delay&quot;: 3000, &quot;y&quot;: &quot;{{py:xvm.YFromBottom(80)}}&quot;}&#xA;},&#xA;{}" />
-                <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsHealthBar.xc[quote][colon][quote]hpBar[quote][rbracket][index=0]">
-                  <Path>$.labels.formats</Path>
-                </Patch>
-                <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsHealthBar.xc[quote][colon][quote]hpBar_Background[quote][rbracket][index=0]">
-                  <Path>$.labels.formats</Path>
-                </Patch>
-                <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsHealthBar.xc[quote][colon][quote]hpBar_text[quote][rbracket][index=0]">
-                  <Path>$.labels.formats</Path>
-                </Patch>
-              </Patches>
             </Package>
             <Package PackageName="XVMConfigBuilder_BattleInterface_WN8Comparison" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="3idhjvvvlnh0kzbk" Name="WN8 Comparison" Type="multi" Visible="True">
               <Timestamp>131804760989657652</Timestamp>
@@ -4621,6 +4621,11 @@
               <Size>595</Size>
               <Description>if you are using xvm, we recommend using this camera options instead of PMOD.\ndont use pmod zoomoptions and xvm zoom options at the same time!</Description>
               <ConflictingPackages>Ingame_Aim_ZoomIn,Ingame_Aim_ZoomOut</ConflictingPackages>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\camera.xc" Version="1" Search="" Replace="true">
+                  <Path>$.camera.enabled</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="XVMConfigBuilder_Camera_Zoom" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zlfbx13gw1pg8gzw" Name="Zoom Options (xvm)" Type="multi" Visible="True">
                   <Packages>
@@ -5248,17 +5253,32 @@
                   </Packages>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\camera.xc" Version="1" Search="" Replace="true">
-                  <Path>$.camera.enabled</Path>
-                </Patch>
-              </Patches>
             </Package>
           </Packages>
         </Package>
         <Package PackageName="XVMConfigBuilder_ClanIcons" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zqb0jj0aj0364son" Name="Clan Icons" Type="multi" Visible="True">
           <Size>847</Size>
           <DevURL>https://github.com/Willster419/WoTTools/blob/master/ClanIconDownloader/WG%20Clan%20Icon%20Downloader.zip</DevURL>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\default\playersPanel.xc" Version="1" Search="" Replace="112">
+              <Path>$.def.clanIcon.x</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\default\statisticForm.xc" Version="1" Search="" Replace="92">
+              <Path>$.templates.clanIcon.x</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\default\battleLoadingTips.xc" Version="1" Search="" Replace="92">
+              <Path>$.templates.clanIcon.x</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\default\battleLabelsTemplates.xc" Version="1" Search="" Replace="{{pp.mode=0?5|{{py:math.sum({{pp.widthLeft}},80)}}}}">
+              <Path>$.def.hitLogHeader.x</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\default\battleLabelsTemplates.xc" Version="1" Search="" Replace="{{pp.mode=0?5|{{py:math.sum({{pp.widthLeft}},80)}}}}">
+              <Path>$.def.hitLogBody.x</Path>
+            </Patch>
+            <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\default\playersPanel.xc" Version="1" Search="\&quot;clanIcon\&quot; *: *\{" Replace="&quot;clanIcon&quot;: {newline      &quot;hotKeyCode&quot;: 56,newline      &quot;onHold&quot;: &quot;true&quot;,newline      &quot;visibleOnHotKey&quot;: false,">
+              <Line>-1</Line>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="XVMConfigBuilder_ClanIcons_Last_Installed" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="cfifrj6aixwo43vn" Name="use the same Clan Icons that were last installed" Type="single_dropdown1" Visible="True">
               <Description>To save time with your installation of clan icons, you could check this option to recycle/move the last installed icons to the new installation. \r\n\r\nTHIS MEANS: \r\nIT´S ONLY WORKING IF YOU HAVE INSTALLED CLAN ICONS BEFORE AND HAVE NOT UNINSTALLED THEM!</Description>
@@ -5390,26 +5410,6 @@
               </Patches>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\default\playersPanel.xc" Version="1" Search="" Replace="112">
-              <Path>$.def.clanIcon.x</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\default\statisticForm.xc" Version="1" Search="" Replace="92">
-              <Path>$.templates.clanIcon.x</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\default\battleLoadingTips.xc" Version="1" Search="" Replace="92">
-              <Path>$.templates.clanIcon.x</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\default\battleLabelsTemplates.xc" Version="1" Search="" Replace="{{pp.mode=0?5|{{py:math.sum({{pp.widthLeft}},80)}}}}">
-              <Path>$.def.hitLogHeader.x</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\default\battleLabelsTemplates.xc" Version="1" Search="" Replace="{{pp.mode=0?5|{{py:math.sum({{pp.widthLeft}},80)}}}}">
-              <Path>$.def.hitLogBody.x</Path>
-            </Patch>
-            <Patch Type="regex" Mode="" PatchPath="" File="\res_mods\configs\xvm\default\playersPanel.xc" Version="1" Search="\&quot;clanIcon\&quot; *: *\{" Replace="&quot;clanIcon&quot;: {newline      &quot;hotKeyCode&quot;: 56,newline      &quot;onHold&quot;: &quot;true&quot;,newline      &quot;visibleOnHotKey&quot;: false,">
-              <Line>-1</Line>
-            </Patch>
-          </Patches>
         </Package>
         <Package PackageName="XVMConfigBuilder_Colorblind" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="afpozs0zz47s2t6p" Name="Colorblind options" Type="multi" Visible="True">
           <Timestamp>131858291921666972</Timestamp>
@@ -5440,6 +5440,9 @@
           <Dependencies>
             <Dependency PackageName="Dependency_XVM_PY_borderColor" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battle.xc" Version="1" Search="  &quot;battle&quot;: {" Replace="  &quot;battle&quot;: {newline    &quot;borderColor&quot;: {newline      &quot;color&quot;: &quot;0x00ff00&quot;,newline      &quot;alpha&quot;: 100newline    }," />
+          </Patches>
           <Packages>
             <Package PackageName="XVMConfigBuilder_MapBorderColor_blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="u7kq7v3ktgthd922" Name="blue" Type="single_dropdown1" Visible="True">
               <Size>494</Size>
@@ -5487,9 +5490,6 @@
               </Patches>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battle.xc" Version="1" Search="  &quot;battle&quot;: {" Replace="  &quot;battle&quot;: {newline    &quot;borderColor&quot;: {newline      &quot;color&quot;: &quot;0x00ff00&quot;,newline      &quot;alpha&quot;: 100newline    }," />
-          </Patches>
         </Package>
         <Package PackageName="XVMconfigBuilder_OTM" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="s7qzf4x9an4kbyd5" Name="Over-Taget-Marker [OTM]" Type="multi" Visible="True">
           <Description>Toggle the xvm markers in the game. Disabling them will enable the configurations in the game</Description>
@@ -5506,6 +5506,11 @@
             <Package PackageName="XVMconfigBuilder_OTM_enabled" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="il4tv29a9gpkbmr4" Name="Enabled (Use XVM markers)" Type="single1" Visible="True">
               <Size>930</Size>
               <ConflictingPackages>Ingame_Misc_Flying_Damage</ConflictingPackages>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\markers.xc" Version="1" Search="" Replace="true">
+                  <Path>$.markers.enabled</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_OTM_Style" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="czl0m6zt3zr9mf9h" Name="OTM-Style:" Type="single1" Visible="True">
                   <Packages>
@@ -5766,6 +5771,11 @@
                 </Package>
                 <Package PackageName="XVMconfigBuilder_OTM_altModeHotkey" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mpk7k4rwmnhl05rw" Name="set hotkey for alternate mode:" Type="multi" Visible="True">
                   <Size>977</Size>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="2" Search="/*" Replace="true">
+                      <Path>$.hotkeys.markersAltMode.enabled</Path>
+                    </Patch>
+                  </Patches>
                   <Packages>
                     <Package PackageName="XVMconfigBuilder_OTM_altModeHotkey_leftALT" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zfrzl135ygzdqnrh" Name="left ALT" Type="single_dropdown1" Visible="True">
                       <Size>981</Size>
@@ -5792,18 +5802,8 @@
                       </Patches>
                     </Package>
                   </Packages>
-                  <Patches>
-                    <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="2" Search="/*" Replace="true">
-                      <Path>$.hotkeys.markersAltMode.enabled</Path>
-                    </Patch>
-                  </Patches>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\markers.xc" Version="1" Search="" Replace="true">
-                  <Path>$.markers.enabled</Path>
-                </Patch>
-              </Patches>
             </Package>
           </Packages>
         </Package>
@@ -5820,10 +5820,20 @@
             </Package>
             <Package PackageName="XVMconfigBuilder_Minimap_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="kp3qd50oyc4mcj8r" Name="XVM Minimap" Type="single1" Visible="True">
               <Size>927</Size>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\minimap.xc" Version="1" Search="" Replace="true">
+                  <Path>$.minimap.enabled</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_Minimap_Zoom" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="we95l46py9w4cvgq" Name="Zoom" Type="multi" Visible="True">
                   <Size>948</Size>
                   <Description>Change the key that shows minimap zoom</Description>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\hotkeys.xc" Version="1" Search="" Replace="true">
+                      <Path>$.hotkeys.minimapZoom.enabled</Path>
+                    </Patch>
+                  </Patches>
                   <Packages>
                     <Package PackageName="XVMconfigBuilder_Minimap_Zoom_LeftCtrl" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="93gkt3cqx5plc7nq" Name="hotkey - Left CTRL (default)" Type="single_dropdown1" Visible="True">
                       <Size>955</Size>
@@ -5869,14 +5879,14 @@
                       </Patches>
                     </Package>
                   </Packages>
-                  <Patches>
-                    <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\hotkeys.xc" Version="1" Search="" Replace="true">
-                      <Path>$.hotkeys.minimapZoom.enabled</Path>
-                    </Patch>
-                  </Patches>
                 </Package>
                 <Package PackageName="XVMconfigBuilder_Minimap_altModeHotkey" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1gpyz41vuu62sn98" Name="set hotkey for alternate mode:" Type="multi" Visible="True">
                   <Size>977</Size>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="2" Search="/*" Replace="true">
+                      <Path>$.hotkeys.minimapAltMode.enabled</Path>
+                    </Patch>
+                  </Patches>
                   <Packages>
                     <Package PackageName="XVMconfigBuilder_Minimap_altModeHotkey_leftALT" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="twbkvvyrgj9tmp1d" Name="left ALT" Type="single_dropdown1" Visible="True">
                       <Size>981</Size>
@@ -5903,11 +5913,6 @@
                       </Patches>
                     </Package>
                   </Packages>
-                  <Patches>
-                    <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="2" Search="/*" Replace="true">
-                      <Path>$.hotkeys.minimapAltMode.enabled</Path>
-                    </Patch>
-                  </Patches>
                 </Package>
                 <Package PackageName="XVMconfigBuilder_Minimap_HP" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0yz719aukw5iys8g" Name="HP on minimap" Type="multi" Visible="True">
                   <Size>1381</Size>
@@ -6351,6 +6356,11 @@
                     </Package>
                     <Package PackageName="XVMconfigBuilder_Minimap_circles_enabled" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vf7xpkc5ucvs79nv" Name="XVM circles" Type="single1" Visible="True">
                       <Size>520</Size>
+                      <Patches>
+                        <Patch Type="json" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\minimap.xc" Version="1" Search=".*" Replace="true">
+                          <Path>$.minimap.circlesEnabled</Path>
+                        </Patch>
+                      </Patches>
                       <Packages>
                         <Package PackageName="XVMconfigBuilder_Minimap_circles_enabled_default_prebuilt" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="puo4go2opvxhi258" Name="Use Circles defined in default/prebuilt selection" Type="single1" Visible="True">
                           <CRC>f</CRC>
@@ -6358,6 +6368,14 @@
                         </Package>
                         <Package PackageName="XVMconfigBuilder_Minimap_circles_enabled_custom" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2jvjpo9porpziec8" Name="Use the following circles" Type="single1" Visible="True">
                           <Size>603</Size>
+                          <Patches>
+                            <Patch Type="json" Mode="arrayClear" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\minimapCircles.xc" Version="1" Search=".*" Replace="">
+                              <Path>$.circles.view</Path>
+                            </Patch>
+                            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\minimapCircles.xc" Version="1" Search=".*" Replace="false">
+                              <Path>$.circles.artillery.enabled</Path>
+                            </Patch>
+                          </Patches>
                           <Packages>
                             <Package PackageName="XVMconfigBuilder_Minimap_circles_50" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wxcrgsy8jarpt6ul" Name="50m auto detect" Type="multi" Visible="True">
                               <Size>636</Size>
@@ -6472,21 +6490,8 @@
                               </Patches>
                             </Package>
                           </Packages>
-                          <Patches>
-                            <Patch Type="json" Mode="arrayClear" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\minimapCircles.xc" Version="1" Search=".*" Replace="">
-                              <Path>$.circles.view</Path>
-                            </Patch>
-                            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\minimapCircles.xc" Version="1" Search=".*" Replace="false">
-                              <Path>$.circles.artillery.enabled</Path>
-                            </Patch>
-                          </Patches>
                         </Package>
                       </Packages>
-                      <Patches>
-                        <Patch Type="json" Mode="" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\minimap.xc" Version="1" Search=".*" Replace="true">
-                          <Path>$.minimap.circlesEnabled</Path>
-                        </Patch>
-                      </Patches>
                     </Package>
                   </Packages>
                 </Package>
@@ -6760,11 +6765,6 @@
                   </Packages>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\minimap.xc" Version="1" Search="" Replace="true">
-                  <Path>$.minimap.enabled</Path>
-                </Patch>
-              </Patches>
             </Package>
             <Package PackageName="XVMconfigBuilder_Minimap_preBuilt" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qnxfod0t6zlv881a" Name="choose pre-built Minimap settings:" Type="single1" Visible="True">
               <CRC>f</CRC>
@@ -6794,6 +6794,11 @@
             <Package PackageName="XVMconfigBuilder_PlayersPanel_Enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pig0b0eenwfbsgm9" Name="Enable" Type="single1" Visible="True">
               <Size>929</Size>
               <Description>Use the XVM players panel</Description>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="true">
+                  <Path>$.playersPanel.enabled</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_PlayersPanel_StartingPosition" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jwx7334xhfh1394m" Name="Starting Position" Type="multi" Visible="True">
                   <Description>Choose with which Players Panel position with which the game will start.</Description>
@@ -7362,17 +7367,6 @@
                       <Medias>
                         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_playerspanel_Language_Flag.png" />
                       </Medias>
-                      <Packages>
-                        <Package PackageName="XVMconfigBuilder_PlayersPanel_Language_Flag_XVM_left" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sm8omsb3vmjawott" Name="change the flag´s position (&lt;-)" Type="multi" Visible="True">
-                          <Size>603</Size>
-                          <Description>move flag to the panel inside.\nuseful for some prebuilt configs (eg Jimbo´s)\n\n\n\nAttention with simultaneous use of both language-flags!</Description>
-                          <Patches>
-                            <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="140" Replace="0">
-                              <Path>$.def.FlagIcon.x</Path>
-                            </Patch>
-                          </Patches>
-                        </Package>
-                      </Packages>
                       <Patches>
                         <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/flagIcon/enabled/true">
                           <Path>$</Path>
@@ -7447,6 +7441,17 @@
                           <Path>$.playersPanel.large.extraFieldsRight</Path>
                         </Patch>
                       </Patches>
+                      <Packages>
+                        <Package PackageName="XVMconfigBuilder_PlayersPanel_Language_Flag_XVM_left" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sm8omsb3vmjawott" Name="change the flag´s position (&lt;-)" Type="multi" Visible="True">
+                          <Size>603</Size>
+                          <Description>move flag to the panel inside.\nuseful for some prebuilt configs (eg Jimbo´s)\n\n\n\nAttention with simultaneous use of both language-flags!</Description>
+                          <Patches>
+                            <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="140" Replace="0">
+                              <Path>$.def.FlagIcon.x</Path>
+                            </Patch>
+                          </Patches>
+                        </Package>
+                      </Packages>
                     </Package>
                   </Packages>
                 </Package>
@@ -7458,6 +7463,86 @@
                   <LastUpdateCheck>132859217871703676</LastUpdateCheck>
                   <Description>marks friends in allied/enemy playerspanel with a green dot,\n\nit´s also possible to mark blacklisted tankers in allied/enemy playerspanel with a red dot.\n\nif the tanksymbol is overlapping there´s an option to move the icon left/right</Description>
                   <ConflictingPackages>Ingame_Misc_Chatmods_FriendsMarker_Oldskool</ConflictingPackages>
+                  <Patches>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/enabled/true">
+                      <Path>$</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/bindToIcon/true">
+                      <Path>$</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/x/30">
+                      <Path>$</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/y/5">
+                      <Path>$</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/width/10">
+                      <Path>$</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/height/10">
+                      <Path>$</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/align/center">
+                      <Path>$</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/alpha/100">
+                      <Path>$</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/src/hallo">
+                      <Path>$</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="hallo" Replace="xvm[colon]//res/icons/[lbracket][lbracket]friend?friend}}.png">
+                      <Path>$.def.friendIcon.src</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
+                      <Path>$.playersPanel.short.extraFieldsLeft</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
+                      <Path>$.playersPanel.short.extraFieldsRight</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
+                      <Path>$.playersPanel.medium.extraFieldsLeft</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
+                      <Path>$.playersPanel.medium.extraFieldsRight</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
+                      <Path>$.playersPanel.medium2.extraFieldsLeft</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
+                      <Path>$.playersPanel.medium2.extraFieldsRight</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
+                      <Path>$.playersPanel.large.extraFieldsLeft</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
+                      <Path>$.playersPanel.large.extraFieldsRight</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
+                      <Path>$.playersPanel.short.extraFieldsLeft</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
+                      <Path>$.playersPanel.short.extraFieldsRight</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
+                      <Path>$.playersPanel.medium.extraFieldsLeft</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
+                      <Path>$.playersPanel.medium.extraFieldsRight</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
+                      <Path>$.playersPanel.medium2.extraFieldsLeft</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
+                      <Path>$.playersPanel.medium2.extraFieldsRight</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
+                      <Path>$.playersPanel.large.extraFieldsLeft</Path>
+                    </Patch>
+                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
+                      <Path>$.playersPanel.large.extraFieldsRight</Path>
+                    </Patch>
+                  </Patches>
                   <Packages>
                     <Package PackageName="XVMconfigBuilder_PlayersPanel_ignoredIcon" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="zqwamw7np1dh7si6" Name="Blacklisted-Marker" Type="multi" Visible="True">
                       <Size>3669</Size>
@@ -7563,86 +7648,6 @@
                       </Patches>
                     </Package>
                   </Packages>
-                  <Patches>
-                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/enabled/true">
-                      <Path>$</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/bindToIcon/true">
-                      <Path>$</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/x/30">
-                      <Path>$</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/y/5">
-                      <Path>$</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/width/10">
-                      <Path>$</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/height/10">
-                      <Path>$</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/align/center">
-                      <Path>$</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/alpha/100">
-                      <Path>$</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/src/hallo">
-                      <Path>$</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="edit" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="hallo" Replace="xvm[colon]//res/icons/[lbracket][lbracket]friend?friend}}.png">
-                      <Path>$.def.friendIcon.src</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
-                      <Path>$.playersPanel.short.extraFieldsLeft</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
-                      <Path>$.playersPanel.short.extraFieldsRight</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
-                      <Path>$.playersPanel.medium.extraFieldsLeft</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
-                      <Path>$.playersPanel.medium.extraFieldsRight</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
-                      <Path>$.playersPanel.medium2.extraFieldsLeft</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
-                      <Path>$.playersPanel.medium2.extraFieldsRight</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
-                      <Path>$.playersPanel.large.extraFieldsLeft</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayClear" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="def.friendIcon" Replace="">
-                      <Path>$.playersPanel.large.extraFieldsRight</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
-                      <Path>$.playersPanel.short.extraFieldsLeft</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
-                      <Path>$.playersPanel.short.extraFieldsRight</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
-                      <Path>$.playersPanel.medium.extraFieldsLeft</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
-                      <Path>$.playersPanel.medium.extraFieldsRight</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
-                      <Path>$.playersPanel.medium2.extraFieldsLeft</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
-                      <Path>$.playersPanel.medium2.extraFieldsRight</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
-                      <Path>$.playersPanel.large.extraFieldsLeft</Path>
-                    </Patch>
-                    <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]def.friendIcon[quote][rbracket][index=0]">
-                      <Path>$.playersPanel.large.extraFieldsRight</Path>
-                    </Patch>
-                  </Patches>
                 </Package>
                 <Package PackageName="XVMconfigBuilder_PlayersPanel_enable_xvmUserMarker" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7tkwlz37jh7pix7j" Name="Show who´s using XVM (xvmUserMarker)" Type="multi" Visible="True">
                   <Size>538</Size>
@@ -7650,6 +7655,11 @@
                   <Medias>
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/players_panel/XVM_config_builder_enable_xvmUserMarker.png" />
                   </Medias>
+                  <Patches>
+                    <Patch Type="json" Mode="edit" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="false" Replace="true">
+                      <Path>$.def.xvmUserMarker.enabled</Path>
+                    </Patch>
+                  </Patches>
                   <Packages>
                     <Package PackageName="XVMconfigBuilder_PlayersPanel_xvmUserMarker_right" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jirbty98id06i9ei" Name="change position of &quot;x&quot; (-&gt;)" Type="multi" Visible="True">
                       <Size>506</Size>
@@ -7661,11 +7671,6 @@
                       </Patches>
                     </Package>
                   </Packages>
-                  <Patches>
-                    <Patch Type="json" Mode="edit" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="false" Replace="true">
-                      <Path>$.def.xvmUserMarker.enabled</Path>
-                    </Patch>
-                  </Patches>
                 </Package>
                 <Package PackageName="XVMconfigBuilder_PlayersPanel_removePanelsModeSwitcher" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w7xq2yf9iasoikli" Name="remove Panels Mode Switcher (buttons above playerspanel)" Type="multi" Visible="True">
                   <Size>1096</Size>
@@ -7702,14 +7707,14 @@
                   </Patches>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="true">
-                  <Path>$.playersPanel.enabled</Path>
-                </Patch>
-              </Patches>
             </Package>
             <Package PackageName="XVMconfigBuilder_PlayersPanel_preBuilt" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="3bmc11bscpmvupav" Name="choose pre-built PlayersPanel settings:" Type="single1" Visible="True">
               <Size>931</Size>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="false">
+                  <Path>$.playersPanel.enabled</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_PlayersPanel_preBuilt_Automatyk" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="xp3kt51b68ol5is8" Name="Automatyk" Type="single_dropdown1" Visible="True">
                   <Size>5224</Size>
@@ -7751,14 +7756,14 @@
                   </Medias>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="false">
-                  <Path>$.playersPanel.enabled</Path>
-                </Patch>
-              </Patches>
             </Package>
             <Package PackageName="XVMconfigBuilder_PlayersPanel_altModeHotkey" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6r7egkqkk7uwysxn" Name="set hotkey for alternate mode:" Type="multi" Visible="True">
               <Size>991</Size>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="2" Search="/*" Replace="true">
+                  <Path>$.hotkeys.playersPanelAltMode.enabled</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_PlayersPanel_altModeHotkey_leftALT" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="z0v8ua3g2v05dqlf" Name="left ALT" Type="single_dropdown1" Visible="True">
                   <Size>995</Size>
@@ -7785,11 +7790,6 @@
                   </Patches>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="2" Search="/*" Replace="true">
-                  <Path>$.hotkeys.playersPanelAltMode.enabled</Path>
-                </Patch>
-              </Patches>
             </Package>
           </Packages>
         </Package>

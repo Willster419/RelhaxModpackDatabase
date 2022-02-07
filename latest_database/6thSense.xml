@@ -9,6 +9,20 @@
         <Dependency PackageName="Dependency_6thSense_Aimdrol" NotFlag="False" Logic="OR" />
         <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="lightbulb">
+          <Path>$.sounds.soundMapping.lightbulb</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="lightbulb_02">
+          <Path>$.sounds.soundMapping.lightbulb_02</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="sixthSense">
+          <Path>$.sounds.soundMapping.sixthSense</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="">
+          <Path>$.sounds.soundMapping.xvm_sixthSense</Path>
+        </Patch>
+      </Patches>
       <Packages>
         <Package PackageName="6thSense_Audio_Relhax" Enabled="True" Tags="SoundBank" InstallGroup="4" PatchGroup="4" UID="j1y9k82tq52zj0ao" Name="RelHax by Willster419" Type="single_dropdown1" Visible="True">
           <Size>361388</Size>
@@ -627,20 +641,6 @@
           </Patches>
         </Package>
       </Packages>
-      <Patches>
-        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="lightbulb">
-          <Path>$.sounds.soundMapping.lightbulb</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="lightbulb_02">
-          <Path>$.sounds.soundMapping.lightbulb_02</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="sixthSense">
-          <Path>$.sounds.soundMapping.sixthSense</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="">
-          <Path>$.sounds.soundMapping.xvm_sixthSense</Path>
-        </Patch>
-      </Patches>
     </Package>
     <Package PackageName="6thSense_Icon" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="3dwwnyxw5jj9bskw" Name="Icon &amp; Durationtime [by {author}]" Type="multi" Visible="True">
       <Size>1049</Size>
@@ -650,6 +650,17 @@
       <Dependencies>
         <Dependency PackageName="Dependency_6thSense_Aimdrol" NotFlag="False" Logic="OR" />
       </Dependencies>
+      <Patches>
+        <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search="True" Replace="False">
+          <Path>/sixthSense.xml/showDefaultIcon</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\battle.xc" Version="1" Search=".*" Replace="0">
+          <Path>$.battle.sixthSenseDuration</Path>
+        </Patch>
+        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\battle.xc" Version="1" Search=".*" Replace="">
+          <Path>$.battle.sixthSenseIcon</Path>
+        </Patch>
+      </Patches>
       <Packages>
         <Package PackageName="6thSense_Icon_RELICsmall" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="agkin1tgzyegnw99" Name="Relic" Type="single_dropdown1" Visible="True">
           <Size>39083</Size>
@@ -1964,17 +1975,6 @@
           </Packages>
         </Package>
       </Packages>
-      <Patches>
-        <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search="True" Replace="False">
-          <Path>/sixthSense.xml/showDefaultIcon</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\battle.xc" Version="1" Search=".*" Replace="0">
-          <Path>$.battle.sixthSenseDuration</Path>
-        </Patch>
-        <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\battle.xc" Version="1" Search=".*" Replace="">
-          <Path>$.battle.sixthSenseIcon</Path>
-        </Patch>
-      </Patches>
     </Package>
     <Package PackageName="6thSense_Timer" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="x1y2084gz1mybzu6" Name="Sixth Sense Timer [by {author}]" Type="multi" Visible="True">
       <Size>64901</Size>

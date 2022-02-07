@@ -35,6 +35,20 @@
           <Dependencies>
             <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\battleChat.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\battleChat.json" Version="1" Search="" Replace="true">
+              <Path>$.resultInformer.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\systemMessages.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\sessionStatistic.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="SessionStatistics_PMOD_defaultEnglish" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dqvwttwm7ml2d5vx" Name="default" Type="single_dropdown1" Visible="True">
               <Size>77321</Size>
@@ -65,20 +79,6 @@
               </Medias>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\battleChat.json" Version="1" Search="" Replace="true">
-              <Path>$.enable</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\battleChat.json" Version="1" Search="" Replace="true">
-              <Path>$.resultInformer.enable</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\systemMessages.json" Version="1" Search="" Replace="true">
-              <Path>$.enable</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\sessionStatistic.json" Version="1" Search="" Replace="true">
-              <Path>$.enable</Path>
-            </Patch>
-          </Patches>
         </Package>
         <Package PackageName="SessionStatistics_ProtankiSessionlog" Enabled="True" Tags="Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="7alete96ch8yvut2" Name="Protanki Sessionlog v{version} [by {author}]" Type="single1" Visible="True">
           <Size>185073</Size>
@@ -112,6 +112,47 @@
           <UserFiles>
             <UserFile Pattern="\mods\configs\yk-stats\cache.json" />
           </UserFiles>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.useParametersPanel</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelParameters.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelParameters.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelStatistics.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelStatistics.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelByTank.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelByTank.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.panelCurrentVehicle.expand</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.researchWatchdog.enable</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
+              <Path>$.researchWatchdog.expand</Path>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="SessionStatistics_YK_EditionBase" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="6m536intuhmue6r3" Name="Base Edition (Minimal)" Type="single_dropdown1" Visible="True">
               <Timestamp>132644914888865258</Timestamp>
@@ -163,6 +204,11 @@
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/statistics/Statistic_Session_YK_useParametersPanel.png" />
               </Medias>
+              <Patches>
+                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
+                  <Path>$.useParametersPanel</Path>
+                </Patch>
+              </Patches>
               <Packages>
                 <Package PackageName="SessionStatistics_YK_useParametersPanel_panelParameters" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="7aas7fjyo51il921" Name="vehicle parameters" Type="multi" Visible="True">
                   <Size>507</Size>
@@ -263,11 +309,6 @@
                   </Packages>
                 </Package>
               </Packages>
-              <Patches>
-                <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="false" Replace="true">
-                  <Path>$.useParametersPanel</Path>
-                </Patch>
-              </Patches>
             </Package>
             <Package PackageName="SessionStatistics_YK_Module" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="iznhmojo5844jbk4" Name="Modules" Type="multi" Visible="True">
               <CRC>f</CRC>
@@ -379,47 +420,6 @@
               </Packages>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.useParametersPanel</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.panelParameters.enable</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.panelParameters.expand</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.panelStatistics.enable</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.panelStatistics.expand</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.panelByTank.enable</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.panelByTank.expand</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.panelCurrentVehicle.enable</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.panelCurrentVehicle.expand</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.panelCurrentVehicle.enable</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.panelCurrentVehicle.expand</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.researchWatchdog.enable</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\yk-stats\config.json" Version="1" Search="true" Replace="false">
-              <Path>$.researchWatchdog.expand</Path>
-            </Patch>
-          </Patches>
         </Package>
       </Packages>
     </Package>

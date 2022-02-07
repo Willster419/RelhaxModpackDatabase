@@ -391,6 +391,23 @@
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_chatmods_ElkRDA.PNG" />
           </Medias>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
+              <Path>$.incoming.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
+              <Path>$.incoming_nodamage.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
+              <Path>$.burst_compression.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
+              <Path>$.announce_teamdamage.enabled</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
+              <Path>$.announce_spg.enabled</Path>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="IngameMisc_Chatmods_elkrda_receivedDMGannouncer" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="kee9fa742px3w4pq" Name="Received damage announcer" Type="multi" Visible="True">
               <Size>503</Size>
@@ -429,23 +446,6 @@
               </Patches>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
-              <Path>$.incoming.enabled</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
-              <Path>$.incoming_nodamage.enabled</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
-              <Path>$.burst_compression.enabled</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
-              <Path>$.announce_teamdamage.enabled</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\ElkRDA.json" Version="1" Search="" Replace="false">
-              <Path>$.announce_spg.enabled</Path>
-            </Patch>
-          </Patches>
         </Package>
         <Package PackageName="IngameMisc_Chatmods_FriendsMarker" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="lwj26ht7rnt0j1wh" Name="Friends Marker [by {author}]" Type="multi" Visible="True">
           <Size>28919</Size>

@@ -717,6 +717,11 @@
           <Dependencies>
             <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\reducedArmor.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="IngameAim_PenetrationIndicator_PMOD_FontHeader" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="ba9acyfpabmef8mr" Name="--- Font size---" Type="single_dropdown1" Visible="True">
               <CRC>f</CRC>
@@ -759,11 +764,6 @@
               </Patches>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\reducedArmor.json" Version="1" Search="" Replace="true">
-              <Path>$.enable</Path>
-            </Patch>
-          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -788,6 +788,26 @@
           <Dependencies>
             <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockShotsOnTeamkiller</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockDeadShots</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockShotsOnTeam</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockWastedShots</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockDeadShots</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
+              <Path>$.enableMessage</Path>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="IngameAim_SafeShot_OldSkool_timeout1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fvycs3juwzvs25eg" Name="1 second timeout" Type="single_dropdown1" Visible="True">
               <Size>938</Size>
@@ -854,26 +874,6 @@
               </Patches>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
-              <Path>$.blockShotsOnTeamkiller</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
-              <Path>$.blockDeadShots</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
-              <Path>$.blockShotsOnTeam</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
-              <Path>$.blockWastedShots</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
-              <Path>$.blockDeadShots</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
-              <Path>$.enableMessage</Path>
-            </Patch>
-          </Patches>
         </Package>
         <Package PackageName="IngameAim_SafeShot_Champi" Enabled="True" Tags="Script,ConfigurationFileJson,Patch" InstallGroup="4" PatchGroup="4" UID="au1did8dq1mvem8q" Name="SafeShot [by {author}]" Type="single1" Visible="True">
           <Size>75269</Size>
@@ -895,6 +895,32 @@
             <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
             <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockedShotMessage</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockDeadShot</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockTeamKillerShot</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockTeamShot</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.blockWasteShot</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.sendTeamMessage</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
+              <Path>$.showWelcomeMessage</Path>
+            </Patch>
+            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="0">
+              <Path>$.timeDeadShotBlock</Path>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="IngameAim_SafeShot_Champi_timeout0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fw9zf72dutr94898" Name="no timeout" Type="single_dropdown1" Visible="True">
               <Size>942</Size>
@@ -969,32 +995,6 @@
               </Patches>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
-              <Path>$.blockedShotMessage</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
-              <Path>$.blockDeadShot</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
-              <Path>$.blockTeamKillerShot</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
-              <Path>$.blockTeamShot</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
-              <Path>$.blockWasteShot</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
-              <Path>$.sendTeamMessage</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
-              <Path>$.showWelcomeMessage</Path>
-            </Patch>
-            <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="0">
-              <Path>$.timeDeadShotBlock</Path>
-            </Patch>
-          </Patches>
         </Package>
       </Packages>
     </Package>
@@ -1073,6 +1073,11 @@
           <Dependencies>
             <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
           </Dependencies>
+          <Patches>
+            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="true">
+              <Path>$.enable</Path>
+            </Patch>
+          </Patches>
           <Packages>
             <Package PackageName="IngameAim_ServerReticle_PMOD_Blue" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dxw4vkqbt2ugxjll" Name="blue" Type="single_dropdown1" Visible="True">
               <Size>986</Size>
@@ -1123,11 +1128,6 @@
               </Patches>
             </Package>
           </Packages>
-          <Patches>
-            <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="true">
-              <Path>$.enable</Path>
-            </Patch>
-          </Patches>
         </Package>
       </Packages>
     </Package>
