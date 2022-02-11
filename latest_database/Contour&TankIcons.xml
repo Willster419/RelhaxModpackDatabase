@@ -7,9 +7,9 @@
       <DevURL>https://ci.appveyor.com/project/rstarkov/tankiconmaker/build/artifacts</DevURL>
       <InternalNotes>https://github.com/Relhax-Modpack-Team/RelhaxTIM/tree/master/TankIconMaker-PORTABLE\r\n\r\n\r\nINFO:\r\nthis mod contains only files from:\rres_mods\versiondir\gui\maps\icons\vehicle\contour\r\n\r\nif there are files or folders in \r\nres_mods\versiondir\gui\maps\icons\vehicle other than the "contour" one,\r\n remove them!</InternalNotes>
       <Dependencies>
-        <Dependency PackageName="Dependency_MVI_disable_XVM" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_AtlasCreation_battleAtlas" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_AtlasCreation_vehicleMarkerAtlas" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_MVI_disable_XVM" PackageUID="938oh9fsbznq6p4i" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_AtlasCreation_battleAtlas" PackageUID="20k2h6j8hjtjvke5" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_AtlasCreation_vehicleMarkerAtlas" PackageUID="fpqhp5p9ggl0vwm5" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Packages>
         <Package PackageName="ContourIcons_APCRNOOB" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="k45pn6lvpcsn0ajy" Name="APCR_NOOB v{version}" Type="single1" Visible="True">
@@ -36,8 +36,8 @@
                 <Media MediaType="Picture" URL="http://fs1.directupload.net/images/user/150722/ei448scw.png" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
               </Dependencies>
             </Package>
             <Package PackageName="ContourIcons_APCRNOOB_miniV2" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="mmbied7yebokm7qo" Name="mini V2" Type="single_dropdown1" Visible="True">
@@ -56,8 +56,8 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icons/Contour_Icons_APCR_NOOB_Contour_Icon_Mod_mini_V2.0.png" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
               </Dependencies>
             </Package>
           </Packages>
@@ -73,8 +73,8 @@
           <LastUpdateCheck>132876670103864830</LastUpdateCheck>
           <Description>\nHT - red, \nMT - yellow, \nLT -green, \nTD -blue, \nSPG -purple, \nYellow star -premium vehide, \nRed star - special vehide\r\n\r\nContour Icons originally by Aslain maintained by Relhax Modpack Team</Description>
           <Dependencies>
-            <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="ContourIcons_Blackspy" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="i3cyuffk7j3qyzt0" Name="Blackspy v{version}" Type="single1" Visible="True">
@@ -96,8 +96,8 @@
               <LastUpdateCheck>132876669973363032</LastUpdateCheck>
               <Description>BlackSpy Contour Icons maintained by Relhax Modpack Team</Description>
               <Dependencies>
-                <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
               </Dependencies>
             </Package>
             <Package PackageName="ContourIcons_Blackspy_Yasha" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="p60luib41yxx94id" Name="Yasha Edition" Type="single_dropdown1" Visible="True">
@@ -115,8 +115,8 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icons_BlackSpy_Yasha_Edition.jpg" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
               </Dependencies>
             </Package>
           </Packages>
@@ -136,8 +136,8 @@
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Contour_Icons/Contour_Icons_elektrosmoker.png" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="ContourIcons_HARDicons" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="81se51k5rejbfymu" Name="HARDicons [by {author}] v{version}" Type="single1" Visible="True">
@@ -156,8 +156,8 @@
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icon_HARDicons_Normal_1.jpg" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="ContourIcons_J1mB0_ReWorked" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1p5n7f095xe97ugx" Name="ReWorked Original Colors v{version} [by {author}]" Type="single1" Visible="True">
@@ -170,8 +170,8 @@
           <Author>J1mB0 / elektrosmoker</Author>
           <Maintainers>dirty20067</Maintainers>
           <Dependencies>
-            <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="ContourIcons_Pogs" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="3i03tcmf1t9lof09" Name="Pogs v{version} [by {author}]" Type="single1" Visible="True">
@@ -199,8 +199,8 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Pogs_Contour_CLEARCOLOR_SIMPLE.jpg" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
-                    <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
                   </Dependencies>
                 </Package>
                 <Package PackageName="ContourIcons_Pogs_Clear_MAX" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="4z6xlj8iqr5iad70" Name="tier, name, avg or gold penetration" Type="single_dropdown1" Visible="True">
@@ -216,8 +216,8 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info_Pogs_Contour_Icon_CLEARCOLOR_MAX.png" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
-                    <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
                   </Dependencies>
                 </Package>
                 <Package PackageName="ContourIcons_Pogs_Clear_MAXFsr" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="hodctjejpoxzapez" Name="tier, name, avg or gold penetration, armor numbers" Type="single_dropdown1" Visible="True">
@@ -233,8 +233,8 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Pogs_Contour_Icon_CLEARCOLOR_MAX_FSR.jpg" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
-                    <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
                   </Dependencies>
                 </Package>
                 <Package PackageName="ContourIcons_Pogs_Clear_MaxFsrVr" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="udjr1ikkpkqha0lz" Name="tier, name, avg or gold penetration, armor numbers, view range" Type="single_dropdown1" Visible="True">
@@ -250,8 +250,8 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Pogs_Contour_Icon_CLEARCOLOR_MAX_FSR_VR.jpg" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
-                    <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
                   </Dependencies>
                 </Package>
                 <Package PackageName="ContourIcons_Pogs_Clear_MaxFsrVrRld" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="os1ytma3j3r7lt3c" Name="tier, name, avg or gold penetration, armor numbers, view range, reload time" Type="single_dropdown1" Visible="True">
@@ -268,8 +268,8 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Pogs_Contour_Icon_CLEARCOLOR_MAX_FSR_HP_RLD.jpg" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
-                    <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
                   </Dependencies>
                 </Package>
               </Packages>
@@ -288,8 +288,8 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Contour_Icons/Contour_Icons_Pogs_Contour_Icon_COLOR_DaMatz-G16_PzVIB_Tiger_II.png" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
               </Dependencies>
             </Package>
           </Packages>
@@ -319,8 +319,8 @@
               <Maintainers>dirty20067</Maintainers>
               <LastUpdateCheck>132876669734135689</LastUpdateCheck>
               <Dependencies>
-                <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
               </Dependencies>
             </Package>
             <Package PackageName="ContourIcons_TheIllusion_SMALL" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="0j5542nkf3jcgjig" Name="Small" Type="single_dropdown1" Visible="True">
@@ -335,8 +335,8 @@
               <Maintainers>dirty20067</Maintainers>
               <LastUpdateCheck>132876669762059814</LastUpdateCheck>
               <Dependencies>
-                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
               </Dependencies>
             </Package>
           </Packages>
@@ -376,8 +376,8 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Contour_Icons/Contour_Icons_Wizard_Roman_Tier_by_dirty20067_0.png" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
-                    <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
                   </Dependencies>
                 </Package>
                 <Package PackageName="ContourIcons_Wizard_Roman_yaya070" Enabled="True" Tags="ImagePNG" InstallGroup="4" PatchGroup="4" UID="rv1zbb3l0oswtzr2" Name="[by {author}]" Type="single_dropdown1" Visible="True">
@@ -391,8 +391,8 @@
                   <Maintainers>dirty20067</Maintainers>
                   <LastUpdateCheck>132876669674055230</LastUpdateCheck>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_MVI_remove_all" NotFlag="False" Logic="OR" />
-                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_all" PackageUID="zhlix8ru9s7p6cii" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_MVI_remove_vehicleLevelIcon_XVM" PackageUID="mse3p9ltavf861bi" NotFlag="False" Logic="OR" />
                   </Dependencies>
                 </Package>
               </Packages>

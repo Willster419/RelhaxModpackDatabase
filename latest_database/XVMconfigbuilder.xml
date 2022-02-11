@@ -2,11 +2,11 @@
 <Category Name="XVM config builder" OffsetInstallGroups="True">
   <Maintainers>elektrosmoker</Maintainers>
   <Dependencies>
-    <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_XC_RelhaxLoginCredits" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missingPicsFix" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_PROFICIENCY_missingPicsFix" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_FLAGS_missingPicsFix" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_Main_Files" PackageUID="ounjfnkrmnut6a6w" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_XC_RelhaxLoginCredits" PackageUID="1oqo95nm8k112x2n" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missingPicsFix" PackageUID="8mhlnqmcfzhihq29" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_PROFICIENCY_missingPicsFix" PackageUID="20zsfucvaij8sjkm" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_FLAGS_missingPicsFix" PackageUID="fp67ntiw9fbpsvsm" NotFlag="False" Logic="OR" />
   </Dependencies>
   <Packages>
     <Package PackageName="XVMconfigBuilder_BuildSelector" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1obybhuzekac5yw6" Name="-----[Build Selector]----- (choose between Stable and Nightly)" Type="single1" Visible="True">
@@ -15,14 +15,14 @@
         <Package PackageName="XVMconfigBuilder_BuildSelector_Stable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w2s53lki94c2grej" Name="Stable v{version}" Type="single_dropdown1" Visible="True">
           <Version>8.9.7_0000</Version>
           <Dependencies>
-            <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_Main_Files" PackageUID="ounjfnkrmnut6a6w" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="XVMconfigBuilder_BuildSelector_Nightly" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8rzkblqj805kg3lj" Name="Nightly v{version}" Type="single_dropdown1" Visible="True">
-          <Version>8.9.7_0013</Version>
+          <Version>8.9.8_0002</Version>
           <Dependencies>
-            <Dependency PackageName="LogicalDependency_XVM_Main_Stable" NotFlag="True" Logic="AND" />
-            <Dependency PackageName="LogicalDependency_XVM_Main_Nightly" NotFlag="False" Logic="AND" />
+            <Dependency PackageName="LogicalDependency_XVM_Main_Stable" PackageUID="i84r7raah7wjh3oa" NotFlag="True" Logic="AND" />
+            <Dependency PackageName="LogicalDependency_XVM_Main_Nightly" PackageUID="vxb6fqgbg3p0hfv9" NotFlag="False" Logic="AND" />
           </Dependencies>
         </Package>
       </Packages>
@@ -494,7 +494,9 @@
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/tank_carousel/enable_xvm_cells_header_message.png" />
               </Medias>
-              <ConflictingPackages>Garage_Mods_Auxilium_Carousel</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Garage_Mods_Auxilium_Carousel" PackageUID="" />
+              </ConflictingPackages>
               <Patches>
                 <Patch Type="json" Mode="edit" PatchPath="" File="\res_mods\configs\xvm\xvmConfigFolderName\carousel.xc" Version="1" Search="" Replace="true">
                   <Path>$.carousel.enabled</Path>
@@ -929,7 +931,7 @@
                             <Media MediaType="Picture" URL="https://aslain.com/uploads/monthly_2019_09/DD_Carousel_001.png.e5ae49adffcd5fe8a4ec20ccc5d0d6f9.png" />
                           </Medias>
                           <Dependencies>
-                            <Dependency PackageName="Dependency_XVM_Images_Maxdata" NotFlag="False" Logic="OR" />
+                            <Dependency PackageName="Dependency_XVM_Images_Maxdata" PackageUID="sk9bhbmrvbhypind" NotFlag="False" Logic="OR" />
                           </Dependencies>
                           <Patches>
                             <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\carousel.xc" Version="1" Search="" Replace="normal">
@@ -1031,7 +1033,7 @@
                             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_Carousel_Slots_Maxdata_elektro.png" />
                           </Medias>
                           <Dependencies>
-                            <Dependency PackageName="Dependency_XVM_Images_Maxdata" NotFlag="False" Logic="OR" />
+                            <Dependency PackageName="Dependency_XVM_Images_Maxdata" PackageUID="sk9bhbmrvbhypind" NotFlag="False" Logic="OR" />
                           </Dependencies>
                           <Patches>
                             <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\carousel.xc" Version="1" Search="" Replace="normal">
@@ -1531,7 +1533,7 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_BoosterInfo.jpg" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_boosters" PackageUID="xh7i25e6ky9i11z1" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\widgets.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]widgetsBoosters.xc[quote][colon][quote]boosters[quote][rbracket][index=0]">
@@ -1703,7 +1705,9 @@
             </Package>
             <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dvcioqulnqitncmm" Name="&quot;Combat Intelligence&quot; - notifications in the main window and counters in the menu" Type="multi" Visible="True">
               <Description>currently we do not offer the option for disabling combat intelligence notifications in the main window.\nbut disabling the counter for unread messages is possible.</Description>
-              <ConflictingPackages>Garage_Mods_Annoying_Features_Remover</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Garage_Mods_Annoying_Features_Remover" PackageUID="" />
+              </ConflictingPackages>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_GarageInterface_combatIntelligence_showPopUpMessages" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="qkjwwp0mmnbbnotm" Name="display pop-up messages in the hangar" Type="multi" Visible="True">
                   <Packages>
@@ -1862,7 +1866,9 @@
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_XP_locker.jpg" />
               </Medias>
-              <ConflictingPackages>Garage_mods_Auxilium_settings_FreeXP_Locker</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Garage_mods_Auxilium_settings_FreeXP_Locker" PackageUID="" />
+              </ConflictingPackages>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_GarageInterface_FreeXPLocker_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p4mirds58p6w4z7g" Name="Disabled" Type="single_dropdown1" Visible="True">
                   <Size>963</Size>
@@ -1887,7 +1893,9 @@
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Gold_Locker.jpg" />
               </Medias>
-              <ConflictingPackages>Garage_mods_Auxilium_settings_Gold_Locker</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Garage_mods_Auxilium_settings_Gold_Locker" PackageUID="" />
+              </ConflictingPackages>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_GarageInterface_GoldLocker_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="9wgjzguq11slff3t" Name="Disabled" Type="single_dropdown1" Visible="True">
                   <Size>957</Size>
@@ -1936,7 +1944,9 @@
             </Package>
             <Package PackageName="XVMconfigBuilder_GarageInterface_MasteryMarkTechTree" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dh6lflzvoo1z1cwi" Name="Mastery Mark in Tech Tree" Type="multi" Visible="True">
               <Description>Show the mastery icons for each tank in the tech tree</Description>
-              <ConflictingPackages>Ingame_Info_MoG_Extended_show_in_techtree</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Ingame_Info_MoG_Extended_show_in_techtree" PackageUID="" />
+              </ConflictingPackages>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7wnt7ppei73od5ev" Name="Disable" Type="single_dropdown1" Visible="True">
                   <Size>969</Size>
@@ -1967,7 +1977,9 @@
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/XVM_Auto_Return.jpg" />
               </Medias>
-              <ConflictingPackages>Garage_mods_Auxilium_settings_auto_crew_return</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Garage_mods_Auxilium_settings_auto_crew_return" PackageUID="" />
+              </ConflictingPackages>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_GarageInterface_CrewAutoReturn_FunctionState" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="s2pc876hi1gs1jdh" Name="Enable or Disable This Function" Type="single1" Visible="True">
                   <Packages>
@@ -2089,7 +2101,7 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/garage/XVMconfigBuilder_GarageInterface_SessionInfo.png" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_statistics" PackageUID="as701zphksk5gcgx" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\hangar.xc" Version="1" Search="true" Replace="false">
@@ -2364,7 +2376,7 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMconfigBuilder_GarageInterface_TankHistoryInformer_inbattle.png" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_XC_years" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_XC_years" PackageUID="v38v19d5333rdqk0" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\widgets.xc" Version="1" Search=".*" Replace="[dollar][lbracket][quote]widgetsYears.xc[quote][colon][quote]years[quote][rbracket][index=0]">
@@ -2751,7 +2763,7 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/login/XVMconfigBuilder_Login_Clock_onlyTime.png" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_Fonts_Dinpro" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_Fonts_Dinpro" PackageUID="l6lzyegj9xw2r10l" NotFlag="False" Logic="OR" />
                   </Dependencies>
                   <Patches>
                     <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\widgets.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]widgetsClockLogin.xc[quote][colon][quote]LF_Clock_Login[quote][rbracket][index=0]">
@@ -2767,7 +2779,7 @@
                   <Author>LordFelix \ elektrosmoker</Author>
                   <LastUpdateCheck>132859209167388660</LastUpdateCheck>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_Fonts_Dinpro" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_Fonts_Dinpro" PackageUID="l6lzyegj9xw2r10l" NotFlag="False" Logic="OR" />
                   </Dependencies>
                   <Patches>
                     <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\widgets.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]widgetsClockLogin.xc[quote][colon][quote]LF_Clock_Login[quote][rbracket][index=0]">
@@ -2797,7 +2809,7 @@
               <LastUpdateCheck>132859209185228657</LastUpdateCheck>
               <Description>the writer´s name is colored in his wn8color</Description>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_modChatColor" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_modChatColor" PackageUID="vj596llmh186wf66" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="add" PatchPath="{app}" File="res_mods\configs\xvm\xvmConfigFolderName\@xvm.xc" Version="1" Search=".*" Replace="chat/[dollar][lbracket][quote]chat.xc[quote][colon][quote]chat[quote][rbracket]" />
@@ -2806,7 +2818,7 @@
             <Package PackageName="XVMconfigBuilder_battleChat_hide" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bm9uodyyywle9k1y" Name="press &quot;H&quot; to hide inbattle-chat " Type="multi" Visible="True">
               <Size>538</Size>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_hideBattleChat" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_hideBattleChat" PackageUID="43foy6edbdr4ltii" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="add" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="1" Search="" Replace="hotkeys/hideBattleChat/enabled/true">
@@ -3019,7 +3031,7 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_AssistLog.png" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_AssistLog" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_AssistLog" PackageUID="twifm0a0ya04f46c" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="1" Search="&quot;hotkeys&quot;: {" Replace="&quot;hotkeys&quot;: {&#xA;    &#xA;        &quot;assistLogAltMode&quot;: { &quot;enabled&quot;: true, &quot;keyCode&quot;: 56, &quot;onHold&quot;: true },&#xA;        " />
@@ -3132,9 +3144,11 @@
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_battleEfficiency.png" />
               </Medias>
-              <ConflictingPackages>Ingame_Info_InBattle_Rating</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Ingame_Info_InBattle_Rating" PackageUID="" />
+              </ConflictingPackages>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" PackageUID="6louvzg1x6smfgdc" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsBattleEfficiency.xc[quote][colon][quote]battleEfficiency[quote][rbracket][index=0]">
@@ -3174,7 +3188,9 @@
                   <Medias>
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" />
                   </Medias>
-                  <ConflictingPackages>Ingame_Info_HighCaliber</ConflictingPackages>
+                  <ConflictingPackages>
+                    <ConflictingPackage PackageName="Ingame_Info_HighCaliber" PackageUID="" />
+                  </ConflictingPackages>
                   <Patches>
                     <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\battleLabelsTemplates.xc" Version="1" Search="" Replace="true">
                       <Path>$.def.mainGun.enabled</Path>
@@ -3270,10 +3286,12 @@
             <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p54kx66ybsev2e83" Name="DebugPanel (FPS &amp; Ping)" Type="multi" Visible="True">
               <Timestamp>131812488048625094</Timestamp>
               <Description>Show FPS / Ping / Clock in upper left corner.</Description>
-              <ConflictingPackages>Ingame_Info_DebugPanel</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Ingame_Info_DebugPanel" PackageUID="" />
+              </ConflictingPackages>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_XVM_PY_debugPanel" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_elementsXCprepatch" PackageUID="mzqi9fc9qujn0b5q" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_debugPanel" PackageUID="dr3zqapc6iaen9yq" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Packages>
                 <Package PackageName="XVMConfigBuilder_BattleInterface_DebugPanel_v1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="jjlrpawh6cgld7qh" Name="v1" Type="single_dropdown1" Visible="True">
@@ -3338,7 +3356,7 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v3.jpg" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_Fonts_Visitor_TT1_BRK" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_Fonts_Visitor_TT1_BRK" PackageUID="rb6d1yij0gpxxjx3" NotFlag="False" Logic="OR" />
                   </Dependencies>
                   <Patches>
                     <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\elements.xc" Version="1" Search="{}" Replace="&#xA;    {&#xA;&quot;debugPanel&quot;:   { &#xA;                        &quot;$delay&quot;: 100, &quot;alpha&quot;: 0 &#xA;                       }&#xA;},&#xA;{}" />
@@ -3407,7 +3425,7 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v6.jpg" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_Fonts_Micrac" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_Fonts_Micrac" PackageUID="m9biulsaotknppxn" NotFlag="False" Logic="OR" />
                   </Dependencies>
                   <Patches>
                     <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\elements.xc" Version="1" Search="{}" Replace="&#xA;    {&#xA;&quot;debugPanel&quot;:   { &#xA;                        &quot;$delay&quot;: 100, &quot;alpha&quot;: 0 &#xA;                       }&#xA;},&#xA;{}" />
@@ -3432,7 +3450,7 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v7.jpg" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_Fonts_Cuprum" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_Fonts_Cuprum" PackageUID="e3xdybkzfi2vgwb8" NotFlag="False" Logic="OR" />
                   </Dependencies>
                   <Patches>
                     <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\elements.xc" Version="1" Search="{}" Replace="&#xA;    {&#xA;&quot;debugPanel&quot;:   { &#xA;                        &quot;$delay&quot;: 100, &quot;alpha&quot;: 0 &#xA;                       }&#xA;},&#xA;{}" />
@@ -3457,7 +3475,7 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/debugpanel/XVMConfigBuilder_BattleInterface_DebugPanel_v8.jpg" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_Fonts_Harpoon" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_Fonts_Harpoon" PackageUID="c23n6keowpdyelmb" NotFlag="False" Logic="OR" />
                   </Dependencies>
                   <Patches>
                     <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\elements.xc" Version="1" Search="{}" Replace="&#xA;    {&#xA;&quot;debugPanel&quot;:   { &#xA;                        &quot;$delay&quot;: 100, &quot;alpha&quot;: 0 &#xA;                       }&#xA;},&#xA;{}" />
@@ -3512,7 +3530,7 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_Hull.png" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_XC_hull" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_XC_hull" PackageUID="8sea98j62zv9d2r0" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsHull.xc[quote][colon][quote]hull[quote][rbracket][index=0]">
@@ -3536,7 +3554,7 @@
                 <Media MediaType="Picture" URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_TurretInfo.jpg" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_XC_turret" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_XC_turret" PackageUID="rt6o27llclgwgd8d" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsTurret.xc[quote][colon][quote]turret[quote][rbracket][index=0]">
@@ -3553,7 +3571,7 @@
               <LastUpdateCheck>132859209836343657</LastUpdateCheck>
               <Description>This will display your elevation angles in battle.</Description>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_XC_elevation" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_XC_elevation" PackageUID="4a7xos55e5uzv2o2" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsElevation.xc[quote][colon][quote]elevation[quote][rbracket][index=0]">
@@ -3573,7 +3591,7 @@
               <LastUpdateCheck>132859209852918680</LastUpdateCheck>
               <Description>This will display your gun´s top penetration in battle.</Description>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_XC_gunPen" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_XC_gunPen" PackageUID="q18no0oyqapvgiz4" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsGunPen.xc[quote][colon][quote]gunPen[quote][rbracket][index=0]">
@@ -3590,7 +3608,7 @@
               <LastUpdateCheck>132859209869623676</LastUpdateCheck>
               <Description>This will display your gun´s top damage in battle.</Description>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_XC_gunDmg" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_XC_gunDmg" PackageUID="fq7emmwolanq9jv7" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsGunDmg.xc[quote][colon][quote]gunDmg[quote][rbracket][index=0]">
@@ -3605,7 +3623,7 @@
               <Author>HAWG</Author>
               <Description>This is Speed.xc the xc file will show your tanks top speed forward and reverse , above the damage panel.\r\n\r\nYou will always know what your tanks top speed  is .</Description>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_XC_speed" PackageUID="lhlph8q71wnqdey0" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsSpeed.xc[quote][colon][quote]speed[quote][rbracket][index=0]">
@@ -3651,9 +3669,11 @@
               <Medias>
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png" />
               </Medias>
-              <ConflictingPackages>Ingame_Aim_Penetration</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Ingame_Aim_Penetration" PackageUID="" />
+              </ConflictingPackages>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_chancePenetration" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_chancePenetration" PackageUID="96ewa4k7ju101c61" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Packages>
                 <Package PackageName="XVMConfigBuilder_BattleInterface_PiercingChance_v1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="l4i3couba602xtt9" Name="penetration / target armor" Type="single_dropdown1" Visible="True">
@@ -3707,12 +3727,14 @@
               <Medias>
                 <Media MediaType="Picture" URL="https://puu.sh/ApLEG/c48ffd73ad.png" />
               </Medias>
-              <ConflictingPackages>Ingame_Aim_SPG_Flytime</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Ingame_Aim_SPG_Flytime" PackageUID="" />
+              </ConflictingPackages>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_beginBattle" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_XVM_PY_displayingItems" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_XVM_PY_aiming" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_XVM_PY_markerPosition" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_beginBattle" PackageUID="pejv22imqiebqw9o" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_displayingItems" PackageUID="ndq5abca8ppenmkr" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_aiming" PackageUID="rfcmvsox9b47s7zm" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_markerPosition" PackageUID="bra8yjj1oplhly9t" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsAimInfo.xc[quote][colon][quote]aimInfo[quote][rbracket][index=0]">
@@ -3739,10 +3761,12 @@
             <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="c00qkusgxyhyjefy" Name="InfoPanel" Type="multi" Visible="True">
               <Timestamp>131826011602311721</Timestamp>
               <Description>shows a tankinfopanel like the ones chooseable in IngameInfo</Description>
-              <ConflictingPackages>Ingame_Info_Tank_Info_Panel</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Ingame_Info_Tank_Info_Panel" PackageUID="" />
+              </ConflictingPackages>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_infoPanel" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_XVM_PY_aimingSystem" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_infoPanel" PackageUID="ryf7qghgudzsaidg" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_aimingSystem" PackageUID="mtutnweg3u5x30hz" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Packages>
                 <Package PackageName="XVMConfigBuilder_BattleInterface_InfoPanel_masheene" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="op75styhwu9gjpmy" Name="InfoPanel masheene" Type="single_dropdown1" Visible="True">
@@ -3788,7 +3812,7 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_damageIndicator_1.jpg" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" PackageUID="02wkiaib7miwnxrr" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsDamageIndicator.xc[quote][colon][quote]damageIndicator[quote][rbracket][index=0]">
@@ -3867,7 +3891,7 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_repairControl_1.jpg" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_repairControl" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_repairControl" PackageUID="z4ucmrpr4phkibyv" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="json" Mode="arrayAdd" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battleLabels.xc" Version="1" Search="" Replace="[dollar][lbracket][quote]battleLabelsRepairControl.xc[quote][colon][quote]repairCtrlEngine[quote][rbracket][index=0]">
@@ -4010,9 +4034,11 @@
             </Package>
             <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yfimbi5na1cpc5b5" Name="HP Pools / Frag Correlation Bar" Type="multi" Visible="True">
               <DevURL>https://koreanrandom.com/forum/topic/40350-конфигурации-totalhp-средствами-xvm/</DevURL>
-              <ConflictingPackages>Ingame_Info_HpPools</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Ingame_Info_HpPools" PackageUID="" />
+              </ConflictingPackages>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_elementsXCprepatch" PackageUID="mzqi9fc9qujn0b5q" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Packages>
                 <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools_Arm" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="stzt3mv65kdfnxti" Name="Arm" Type="single_dropdown1" Visible="True">
@@ -4264,10 +4290,10 @@
                     <Media MediaType="Picture" URL="https://koreanrandom.com/forum/uploads/monthly_2017_12/5a2efb3ead8e2_1515.png.3335c8a3358c52b5d0fa1807c73dee31.png.c4f6ae911c57fe536b957318662dd828.png" />
                   </Medias>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar" NotFlag="False" Logic="OR" />
-                    <Dependency PackageName="Dependency_Fonts_KAPb14" NotFlag="False" Logic="OR" />
-                    <Dependency PackageName="Dependency_Fonts_Gunplay" NotFlag="False" Logic="OR" />
-                    <Dependency PackageName="Dependency_Fonts_Calligraph" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_XVM_PY_fragCorrelationBar" PackageUID="76l6idev11c3y2g4" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_Fonts_KAPb14" PackageUID="2ghhmiqqvhyyd90b" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_Fonts_Gunplay" PackageUID="iomfego526b92s4y" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_Fonts_Calligraph" PackageUID="1eqyqbeygladgk49" NotFlag="False" Logic="OR" />
                   </Dependencies>
                   <Patches>
                     <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\elements.xc" Version="1" Search="{}" Replace="&#xA;    {&quot;$delay&quot;: 100,&#xA;    &quot;fragCorrelationBar&quot;: { &quot;visible&quot;: false, &quot;alpha&quot;: 0 },&#xA;    &quot;epicRandomScorePanel&quot;: { &quot;visible&quot;: false, &quot;alpha&quot;: 0 }},&#xA;    {}" />
@@ -4345,8 +4371,8 @@
                 <Media MediaType="Picture" URL="https://koreanrandom.com/forum/uploads/monthly_08_2017/post-17624-0-43658800-1502559240_thumb.jpg" />
               </Medias>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
-                <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_myHP" PackageUID="2ntw6ph6bg2d7jvj" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_elementsXCprepatch" PackageUID="mzqi9fc9qujn0b5q" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Patches>
                 <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\elements.xc" Version="1" Search="{}" Replace="&#xA;    {&#xA;&quot;consumablesPanel&quot;: { &quot;$delay&quot;: 3000, &quot;y&quot;: &quot;{{py:xvm.YFromBottom(80)}}&quot;}&#xA;},&#xA;{}" />
@@ -4390,7 +4416,7 @@
               <Description>Shows the total WN8 values of each team. In the similar format of "Total HP" (the setting above).</Description>
               <UpdateComment>keep this above damagepanel in db!!</UpdateComment>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_PY_modWN8Chance" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_PY_modWN8Chance" PackageUID="pymhypb5ck9w78oj" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Packages>
                 <Package PackageName="XVMConfigBuilder_BattleInterface_WN8Comparison_standard" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="g7jwru1wlk9ikaik" Name="WN8 Comparison (Standard)" Type="single_dropdown1" Visible="True">
@@ -4441,7 +4467,7 @@
               <Timestamp>131812516048427337</Timestamp>
               <Description>modify the look of the pre-battle timer and messages</Description>
               <Dependencies>
-                <Dependency PackageName="Dependency_XVM_elementsXCprepatch" NotFlag="False" Logic="OR" />
+                <Dependency PackageName="Dependency_XVM_elementsXCprepatch" PackageUID="mzqi9fc9qujn0b5q" NotFlag="False" Logic="OR" />
               </Dependencies>
               <Packages>
                 <Package PackageName="XVMConfigBuilder_BattleInterface_PreBattleMessages_timer_and_conditions" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="uew5r1t09fxw7kwa" Name="only timer &amp; conditions" Type="single_dropdown1" Visible="True">
@@ -4458,7 +4484,9 @@
               </Packages>
             </Package>
             <Package PackageName="XVMConfigBuilder_BattleInterface_showBattleHint" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="732kz0z18bqe7v3a" Name="Battle Hints" Type="multi" Visible="True">
-              <ConflictingPackages>Ingame_Misc_Arty_and_Siege_Filter</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Ingame_Misc_Arty_and_Siege_Filter" PackageUID="" />
+              </ConflictingPackages>
               <Packages>
                 <Package PackageName="XVMConfigBuilder_BattleInterface_showBattleHint_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="e6q6z3vl2rkli0tn" Name="disable" Type="single_dropdown1" Visible="True">
                   <Size>612</Size>
@@ -4620,7 +4648,10 @@
             <Package PackageName="XVMConfigBuilder_Camera_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="mw8wp1xfx4xy84sw" Name="enable (not compatible to PMOD zoom options)" Type="single1" Visible="True">
               <Size>595</Size>
               <Description>if you are using xvm, we recommend using this camera options instead of PMOD.\ndont use pmod zoomoptions and xvm zoom options at the same time!</Description>
-              <ConflictingPackages>Ingame_Aim_ZoomIn,Ingame_Aim_ZoomOut</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Ingame_Aim_ZoomIn" PackageUID="" />
+                <ConflictingPackage PackageName="Ingame_Aim_ZoomOut" PackageUID="" />
+              </ConflictingPackages>
               <Patches>
                 <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\camera.xc" Version="1" Search="" Replace="true">
                   <Path>$.camera.enabled</Path>
@@ -5438,7 +5469,7 @@
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/border/xvm_config_builder_bordercolor.JPG" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_XVM_PY_borderColor" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_borderColor" PackageUID="23qaa1onpf7sq8ho" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="regex" Mode="" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\battle.xc" Version="1" Search="  &quot;battle&quot;: {" Replace="  &quot;battle&quot;: {newline    &quot;borderColor&quot;: {newline      &quot;color&quot;: &quot;0x00ff00&quot;,newline      &quot;alpha&quot;: 100newline    }," />
@@ -5505,7 +5536,9 @@
             </Package>
             <Package PackageName="XVMconfigBuilder_OTM_enabled" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="il4tv29a9gpkbmr4" Name="Enabled (Use XVM markers)" Type="single1" Visible="True">
               <Size>930</Size>
-              <ConflictingPackages>Ingame_Misc_Flying_Damage</ConflictingPackages>
+              <ConflictingPackages>
+                <ConflictingPackage PackageName="Ingame_Misc_Flying_Damage" PackageUID="" />
+              </ConflictingPackages>
               <Patches>
                 <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\markers.xc" Version="1" Search="" Replace="true">
                   <Path>$.markers.enabled</Path>
@@ -5653,7 +5686,7 @@
                           <CRC>f</CRC>
                           <Timestamp>132066330349486395</Timestamp>
                           <Dependencies>
-                            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableFocusShield" NotFlag="False" Logic="OR" />
+                            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableFocusShield" PackageUID="6rljgieuj66cbr13" NotFlag="False" Logic="OR" />
                           </Dependencies>
                         </Package>
                         <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_enableDamageImages" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="p8v1qtxdoxec32uc" Name="Enable Damage Images" Type="multi" Visible="True">
@@ -5661,7 +5694,7 @@
                           <CRC>f</CRC>
                           <Timestamp>132066330376214867</Timestamp>
                           <Dependencies>
-                            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableDamageImages" NotFlag="False" Logic="OR" />
+                            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableDamageImages" PackageUID="cd4cpeobon4n0ykp" NotFlag="False" Logic="OR" />
                           </Dependencies>
                         </Package>
                         <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_enableTurretMarkers" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2x1gyt4eot6t3e1b" Name="Enable Turret Markers" Type="multi" Visible="True">
@@ -5669,7 +5702,7 @@
                           <CRC>f</CRC>
                           <Timestamp>132066330403063019</Timestamp>
                           <Dependencies>
-                            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableTurretMarkers" NotFlag="False" Logic="OR" />
+                            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableTurretMarkers" PackageUID="w5ydxgqwizrcbfg2" NotFlag="False" Logic="OR" />
                           </Dependencies>
                         </Package>
                         <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_enableXMQP" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fm8u6safnqzb3p9b" Name="Enable XMQP in markers" Type="multi" Visible="True">
@@ -5677,7 +5710,7 @@
                           <CRC>f</CRC>
                           <Timestamp>132066330429053470</Timestamp>
                           <Dependencies>
-                            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableXMQP" NotFlag="False" Logic="OR" />
+                            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableXMQP" PackageUID="qkgkokgfdis1m8yf" NotFlag="False" Logic="OR" />
                           </Dependencies>
                         </Package>
                         <Package PackageName="XVMconfigBuilder_OTM_StyleDetailed_OMC_enableQuikstat" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="90p2xw0yi911eiro" Name="Enable Quick Color Marker (Quickstat)" Type="multi" Visible="True">
@@ -5686,7 +5719,7 @@
                           <Timestamp>132066330503643863</Timestamp>
                           <Description>from left to right: WN8, EFF, global winrate, winrate on the current tank</Description>
                           <Dependencies>
-                            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableQuikstat" NotFlag="False" Logic="OR" />
+                            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableQuikstat" PackageUID="jgsyphkvi3yub392" NotFlag="False" Logic="OR" />
                           </Dependencies>
                         </Package>
                       </Packages>
@@ -5747,7 +5780,7 @@
                 <Package PackageName="XVMconfigBuilder_OTM_enablePlayerMarker" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wqxzo3yuo1vlpshl" Name="show marker over own tank (press ALT ingame to disable/enable)" Type="multi" Visible="True">
                   <Size>684</Size>
                   <Dependencies>
-                    <Dependency PackageName="Dependency_XVM_PY_playerMarker" NotFlag="False" Logic="OR" />
+                    <Dependency PackageName="Dependency_XVM_PY_playerMarker" PackageUID="4v0czh09s71bq7nv" NotFlag="False" Logic="OR" />
                   </Dependencies>
                   <Patches>
                     <Patch Type="json" Mode="add" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\markers.xc" Version="1" Search="" Replace="def/playerMarkers/enabled/true">
@@ -6857,7 +6890,9 @@
                 <Package PackageName="XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="nhmai98343qfq5xb" Name="Enemy Spotted Marker" Type="multi" Visible="True">
                   <Timestamp>131910190208253101</Timestamp>
                   <Description>This is a Spotted Status Indicator for the enemy team.</Description>
-                  <ConflictingPackages>Ingame_Info_Enemy_Spotted_Status</ConflictingPackages>
+                  <ConflictingPackages>
+                    <ConflictingPackage PackageName="Ingame_Info_Enemy_Spotted_Status" PackageUID="" />
+                  </ConflictingPackages>
                   <Packages>
                     <Package PackageName="XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="06tpq8e43ziwqh4b" Name="enable" Type="single_dropdown1" Visible="True">
                       <Size>509</Size>
@@ -6878,7 +6913,9 @@
                   </Packages>
                 </Package>
                 <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="79hbqbaoxfc41mto" Name="HP Bars" Type="multi" Visible="True">
-                  <ConflictingPackages>Ingame_Info_HpBars</ConflictingPackages>
+                  <ConflictingPackages>
+                    <ConflictingPackage PackageName="Ingame_Info_HpBars" PackageUID="" />
+                  </ConflictingPackages>
                   <Packages>
                     <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_inside" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1oziif07syetcfb1" Name="inside PlayersPanel" Type="multi" Visible="True">
                       <Packages>
@@ -7462,7 +7499,9 @@
                   <Timestamp>132859217871703676</Timestamp>
                   <LastUpdateCheck>132859217871703676</LastUpdateCheck>
                   <Description>marks friends in allied/enemy playerspanel with a green dot,\n\nit´s also possible to mark blacklisted tankers in allied/enemy playerspanel with a red dot.\n\nif the tanksymbol is overlapping there´s an option to move the icon left/right</Description>
-                  <ConflictingPackages>Ingame_Misc_Chatmods_FriendsMarker_Oldskool</ConflictingPackages>
+                  <ConflictingPackages>
+                    <ConflictingPackage PackageName="Ingame_Misc_Chatmods_FriendsMarker_Oldskool" PackageUID="" />
+                  </ConflictingPackages>
                   <Patches>
                     <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/enabled/true">
                       <Path>$</Path>
@@ -7813,7 +7852,7 @@
         <Package PackageName="XVMconfigBuilder_quicklyLeave" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="b6lyaqytgstghtjn" Name="press &quot;F4&quot; to quickly leave a battle (without deserting)" Type="multi" Visible="True">
           <Size>538</Size>
           <Dependencies>
-            <Dependency PackageName="Dependency_XVM_PY_quicklyLeave" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_quicklyLeave" PackageUID="sxpin06c9h25izg8" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="json" Mode="add" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\hotkeys.xc" Version="1" Search="" Replace="hotkeys/quicklyLeave/enabled/true">

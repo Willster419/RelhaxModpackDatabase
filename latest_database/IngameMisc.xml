@@ -22,8 +22,8 @@
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_Show_Personal_Missions_in_detail_02.jpg" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
       </Packages>
@@ -373,9 +373,9 @@
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_misc_buttonreplacer.JPG" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_PY_PYmodsCore" PackageUID="pldcs1mv9lrphm5k" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="IngameMisc_Chatmods_elkrda" Enabled="True" Tags="Script,ConfigurationFileJson,OtherFiles" InstallGroup="4" PatchGroup="4" UID="7p7u7a133s5lwsir" Name="Elkano's Received Damage Announcer (ElkRDA)" Type="multi" Visible="True">
@@ -462,7 +462,7 @@
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Friends_Marker/Ingame_Misc_chatmods_Friendsmarker_oldskool.jpg" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_OldSkool_modsCore" PackageUID="cw7xk1guapz8hayk" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="IngameMisc_Chatmods_FriendsNotifier" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="ylqhegz8qklhjd4g" Name="Friends Notifier [by {author}]" Type="multi" Visible="True">
@@ -484,7 +484,7 @@
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/FriendsNotifier/Ingame_Misc_chatmnods_FriendsNotifier_Rajcel_4.jpg" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_RaJCel_Core" PackageUID="wp1zs4if31mxsqux" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="xml" Mode="add" PatchPath="app" File="\\mods\\versiondir\\load_order.xml" Version="1" Search="" Replace="pkg/rajcel.friendsNotifier.wotmod">
@@ -643,9 +643,9 @@
         <Media MediaType="Webpage" URL="https://youtu.be/hVx43oCrth0" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_PY_PYmodsCore" PackageUID="pldcs1mv9lrphm5k" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
     <Package PackageName="IngameMisc_FPSlimiter" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="vmujp60c4uv9bhln" Name="FPS Limiter" Type="multi" Visible="True">
@@ -739,8 +739,8 @@
         <Media MediaType="Picture" URL="http://i.imgur.com/VNTgFwt.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_PY_PYmodsCore" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_PY_PYmodsCore" PackageUID="pldcs1mv9lrphm5k" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Packages>
         <Package PackageName="IngameMisc_LightMod_LampLights" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="4afhdovr349y67es" Name="Headlights" Type="multi" Visible="True">
@@ -791,9 +791,9 @@
               </Medias>
             </Package>
             <Package PackageName="IngameMisc_LightMod_LampLights_TargetLight" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="0rgxtq3cvdo4hzh5" Name="Spotlight on highlighted tank" Type="multi" Visible="True">
-              <Size>7318</Size>
+              <Size>7402</Size>
               <ZipFile>IngameMisc_LightMod_LampLights_TargetLight_1.15.0.0_2022-02-04.zip</ZipFile>
-              <CRC>f</CRC>
+              <CRC>48bcc00ab8ed9d23ab6c0569a008c453</CRC>
               <Timestamp>132884836867333251</Timestamp>
               <LastUpdateCheck>132884837136825796</LastUpdateCheck>
               <Medias>
@@ -1027,10 +1027,10 @@
             <UserFile Pattern="\mods\configs\CHAMPi\minimapSpamProtector\minimapSpamProtector.json" />
           </UserFiles>
           <Dependencies>
-            <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_CHAMPi_settingsGUI" PackageUID="8bhv4wcpn1quvd5v" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Gambiter_GUIflash" PackageUID="ypupkvormubtv1ju" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
       </Packages>
@@ -1126,7 +1126,7 @@
       <Description>Activate in replay with Left Click, the hit 'F3'\n\nHotkeys for different manipulations with the camera:\nBind To Vehicle: B\nShow Vehicle Markers: H\nSet Default Roll: R\nCinematic Camera: P\nMaintain Elevation: L\nAnchor Point: C\nSwitch To Default FOV: F</Description>
       <ObfuscatedMod>True</ObfuscatedMod>
       <Dependencies>
-        <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_PMOD" PackageUID="ex0ocsm6tio4kknh" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="json" Mode="edit" PatchPath="app" File="\\mods\\configs\\pmod\\videomode.json" Version="1" Search="" Replace="true">
@@ -1154,10 +1154,10 @@
         <Media MediaType="Picture" URL="https://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/SteelHunterHelper/IngameMisc_SteelHunterHelper_4.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" PackageUID="8bhv4wcpn1quvd5v" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_Gambiter_GUIflash" PackageUID="ypupkvormubtv1ju" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
     <Package PackageName="IngameMisc_smartRepair" Enabled="True" Tags="Script,GuiFlash,ImagePNG" InstallGroup="4" PatchGroup="4" UID="ocfhqnv3chhb5k9x" Name="SmartRepair [by {author}]" Type="multi" Visible="True">
@@ -1176,8 +1176,8 @@
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/IngameMisc_Repair_smartRepair.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
     <Package PackageName="IngameMisc_UnderwaterTimer" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="pgvnti6ioltcjbgk" Name="Underwater Timer" Type="multi" Visible="True">
@@ -1394,7 +1394,7 @@
         <Media MediaType="Picture" URL="http://static-ptl-ru.gcdn.co/dcont/fb/image/newmodradio2.png" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
   </Packages>

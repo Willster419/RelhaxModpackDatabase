@@ -2,10 +2,10 @@
 <Category Name="XVM prebuilt configs" OffsetInstallGroups="True">
   <Maintainers>elektrosmoker, Willster419</Maintainers>
   <Dependencies>
-    <Dependency PackageName="Dependency_XVM_Main_Files" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_PROFICIENCY_missingPicsFix" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_FLAGS_missingPicsFix" NotFlag="False" Logic="OR" />
-    <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missingPicsFix" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_Main_Files" PackageUID="ounjfnkrmnut6a6w" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_PROFICIENCY_missingPicsFix" PackageUID="20zsfucvaij8sjkm" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_FLAGS_missingPicsFix" PackageUID="fp67ntiw9fbpsvsm" NotFlag="False" Logic="OR" />
+    <Dependency PackageName="Dependency_XVM_ACHIEVEMENT_missingPicsFix" PackageUID="8mhlnqmcfzhihq29" NotFlag="False" Logic="OR" />
   </Dependencies>
   <Packages>
     <Package PackageName="XVMPrebuiltConfigs_Default" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="855gkql972me13bn" Name="1 - XVM Default" Type="single1" Visible="True">
@@ -21,7 +21,7 @@
       <Timestamp>131980179882351364</Timestamp>
       <Maintainers>elektrosmoker, Willster419; VA</Maintainers>
       <Dependencies>
-        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" PackageUID="fv2w9cfqwfpgp6gd" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Packages>
         <Package PackageName="XVMPrebuiltConfigs_RelhaxDevs_dirty20067" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="sy0hssnt1e83cj7z" Name="dirty20067 v{version}" Type="single_dropdown1" Visible="True">
@@ -33,12 +33,12 @@
           <Deprecated>True</Deprecated>
           <Description>made with xvm cfg builder</Description>
           <Dependencies>
-            <Dependency PackageName="Dependency_XVM_PY_modChatColor" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_XVM_PY_myHP" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_XVM_XC_speed" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_XVM_PY_statistics" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_XVM_PY_boosters" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_modChatColor" PackageUID="vj596llmh186wf66" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_myHP" PackageUID="2ntw6ph6bg2d7jvj" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_XC_speed" PackageUID="lhlph8q71wnqdey0" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_SWF_damageIndicator" PackageUID="02wkiaib7miwnxrr" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_statistics" PackageUID="as701zphksk5gcgx" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_PY_boosters" PackageUID="xh7i25e6ky9i11z1" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
       </Packages>
@@ -59,8 +59,8 @@
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/XVMPrebuiltConfigs/XVMPrebuiltConfigs_OMC_1.png" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_Fonts_Inconsolata" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_Fonts_Inconsolata" PackageUID="pra2ejkpwl5gextb" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" PackageUID="fv2w9cfqwfpgp6gd" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Packages>
         <Package PackageName="XVMPrebuiltConfigs_OMC_enableFocusShield" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="wipj8yszn2hhzg0p" Name="Enable Focus Shield Marker" Type="multi" Visible="True">
@@ -68,7 +68,7 @@
           <CRC>f</CRC>
           <Timestamp>132066329239611191</Timestamp>
           <Dependencies>
-            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableFocusShield" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableFocusShield" PackageUID="6rljgieuj66cbr13" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="XVMPrebuiltConfigs_OMC_enableDamageImages" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="qx7r02hiilj6a9i2" Name="Enable Damage Images" Type="multi" Visible="True">
@@ -76,7 +76,7 @@
           <CRC>f</CRC>
           <Timestamp>132066329264125587</Timestamp>
           <Dependencies>
-            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableDamageImages" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableDamageImages" PackageUID="cd4cpeobon4n0ykp" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="XVMPrebuiltConfigs_OMC_enableTurretMarkers" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="3md681ojhhcoakp2" Name="Enable Turret Markers" Type="multi" Visible="True">
@@ -84,7 +84,7 @@
           <CRC>f</CRC>
           <Timestamp>132066329286346123</Timestamp>
           <Dependencies>
-            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableTurretMarkers" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableTurretMarkers" PackageUID="w5ydxgqwizrcbfg2" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="XVMPrebuiltConfigs_OMC_enableXMQP" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="gbklg0ukhe46aww1" Name="Enable XMQP in markers" Type="multi" Visible="True">
@@ -92,7 +92,7 @@
           <CRC>f</CRC>
           <Timestamp>132066329311219562</Timestamp>
           <Dependencies>
-            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableXMQP" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableXMQP" PackageUID="qkgkokgfdis1m8yf" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="XVMPrebuiltConfigs_OMC_enableQuickStats" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="ap1s84k3bx6vlpef" Name="Enable Quick Color Marker (QuickStats)" Type="multi" Visible="True">
@@ -101,7 +101,7 @@
           <Timestamp>132066329487577626</Timestamp>
           <Description>from left to right: WN8, EFF, global winrate, winrate on the current tank</Description>
           <Dependencies>
-            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableQuikstat" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_XVM_OTM_OMC_EnableQuikstat" PackageUID="jgsyphkvi3yub392" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
       </Packages>
@@ -118,7 +118,7 @@
       <Deprecated>True</Deprecated>
       <Description>looks like vanilla - but with statistics</Description>
       <Dependencies>
-        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" PackageUID="fv2w9cfqwfpgp6gd" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
     <Package PackageName="XVMPrebuiltConfigs_VA" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="htpe88gn6c03wt3r" Name="XVM prebuilt configurations by known Streamers/Modders" Type="single1" Visible="True">
@@ -126,7 +126,7 @@
       <Timestamp>132161401405627541</Timestamp>
       <Maintainers>elektrosmoker, Willster419</Maintainers>
       <Dependencies>
-        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_XVM_XC_vehiclenames" PackageUID="fv2w9cfqwfpgp6gd" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Packages>
         <Package PackageName="XVMPrebuiltConfigs_VA_Aslain" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="uiwtg7mo59skw5ar" Name="Aslain v{version}" Type="single_dropdown1" Visible="True">

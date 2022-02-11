@@ -19,9 +19,9 @@
         <Media MediaType="Picture" URL="http://hjundaj.com/wp-content/uploads/2017/11/art_sp_1.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" PackageUID="8bhv4wcpn1quvd5v" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
     <Package PackageName="IngameAim_AutoAimIndicator" Enabled="True" Tags="Script,ImageDDS,ConfigurationFileJson" InstallGroup="4" PatchGroup="4" UID="uraxc0mnungmy15m" Name="Auto-aim indicator (press Right-ALT to en-/disable) (doesn't work in Brawl Mode)" Type="multi" Visible="True">
@@ -78,8 +78,8 @@
       <Description>This little mod prevents you from shooting if you're below a specific time (default: 0.5s) from loading in a new shell with the autoloading mechanism.</Description>
       <ObfuscatedMod>True</ObfuscatedMod>
       <Dependencies>
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
     <Package PackageName="IngameAim_BalCalcMod" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="5fols8mcbqk7v2no" Name="BalCalcMod" Type="multi" Visible="True">
@@ -139,7 +139,7 @@
         <UserFile Pattern="mods\configs\battle_assistant\mod_battle_assistant.txt" />
       </UserFiles>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Packages>
         <Package PackageName="IngameAim_BattleAssistant_G" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="wb690ekhyi04in9e" Name="G" Type="single_dropdown1" Visible="True">
@@ -677,7 +677,7 @@
       <Size>914</Size>
       <Description>Removes the shadow and green effect from the scope\n\r\nATTENTION:\nIf you are a user of xvm, we recommend to use the xvm camera options instead of PMOD.\nYou can find the settings in the xvm config builder section.</Description>
       <Dependencies>
-        <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_PMOD" PackageUID="ex0ocsm6tio4kknh" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\noBinoculars.json" Version="1" Search="" Replace="true">
@@ -701,8 +701,8 @@
           <LastUpdateCheck>132885811107774311</LastUpdateCheck>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Dependencies>
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
       </Packages>
@@ -715,7 +715,7 @@
           <Size>912</Size>
           <Description>Shows wether or not you can penetrate an enemy, factoring in armor angles and normalization, in the form\n avg_gun_penetration/enemy_effective_armor\r\n\r\nNOTE: Will alter zoom settings. Use the zoom config at the bottom of this section to alter.</Description>
           <Dependencies>
-            <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_PMOD" PackageUID="ex0ocsm6tio4kknh" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\reducedArmor.json" Version="1" Search="" Replace="true">
@@ -786,7 +786,7 @@
             <Media MediaType="Picture" URL="https://wgmods.net/media/safeshot3.png.412x218_q85_crop_detail_replace_alpha-white.jpg" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_OldSkool_modsCore" PackageUID="cw7xk1guapz8hayk" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\promod\safeshot.json" Version="1" Search=".*" Replace="false">
@@ -890,10 +890,10 @@
             <UserFile Pattern="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" />
           </UserFiles>
           <Dependencies>
-            <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_CHAMPi_settingsGUI" PackageUID="8bhv4wcpn1quvd5v" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Gambiter_GUIflash" PackageUID="ypupkvormubtv1ju" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\safeShotPro\safeShotPro.json" Version="1" Search=".*" Replace="false">
@@ -1071,7 +1071,7 @@
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/pmod_server_reticle_blue_patch.jpg" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_PMOD" PackageUID="ex0ocsm6tio4kknh" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="json" Mode="edit" PatchPath="" File="\\mods\\configs\\pmod\\serverDispersionCircle.json" Version="1" Search="" Replace="true">
@@ -1223,7 +1223,7 @@
       <Author>PMOD</Author>
       <Description>Zoom-In Options for use without XVM.\r\n\nIf you are using xvm, we recommend using the xvm camera options instead of PMOD.\nYou can find the settings in the xvm config builder section.</Description>
       <Dependencies>
-        <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_PMOD" PackageUID="ex0ocsm6tio4kknh" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Packages>
         <Package PackageName="IngameAim_ZoomIn_1" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="to4pj5g9ls2c3e33" Name="2, 4, 8, 12" Type="single_dropdown1" Visible="True">

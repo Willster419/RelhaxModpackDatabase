@@ -6,8 +6,8 @@
       <InternalNotes>this is a patch that resets the xvm sound mapping</InternalNotes>
       <Author>Aimdrol</Author>
       <Dependencies>
-        <Dependency PackageName="Dependency_6thSense_Aimdrol" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_Sounds_XMLaudioMods" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_6thSense_Aimdrol" PackageUID="uo88zdd4l8w0qg5z" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_Sounds_XMLaudioMods" PackageUID="k2l2fcp6j1h0q3jz" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\sounds.xc" Version="1" Search=".*" Replace="lightbulb">
@@ -648,7 +648,7 @@
       <Author>Aimdrol</Author>
       <Description>Change your 6th sense icon to one of these from the list</Description>
       <Dependencies>
-        <Dependency PackageName="Dependency_6thSense_Aimdrol" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_6thSense_Aimdrol" PackageUID="uo88zdd4l8w0qg5z" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="xml" Mode="edit" PatchPath="" File="\res_mods\sixthSense.xml" Version="1" Search="True" Replace="False">
@@ -1997,10 +1997,10 @@
         <UserFile Pattern="\mods\configs\CHAMPi\sixthSenseTimer\sixthSenseTimer.json" />
       </UserFiles>
       <Dependencies>
-        <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_Gambiter_GUIflash" PackageUID="ypupkvormubtv1ju" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" PackageUID="8bhv4wcpn1quvd5v" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
   </Packages>

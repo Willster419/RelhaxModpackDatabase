@@ -18,8 +18,8 @@
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/15m_Circle/Ingame_Info_15m_Circle_green.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
     <Package PackageName="IngameInfo_ATAC" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="wuu4xejdqk5020hr" Name="ATAC - enemy in 150m range [by {author}]" Type="multi" Visible="True">
@@ -57,8 +57,8 @@
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/Ingame_Info_Crew_CrewSkills.png" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_RaJCel_Core" PackageUID="wp1zs4if31mxsqux" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" PackageUID="9e8e03og3xees21w" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\crewSkills.json" Version="1" Search="" Replace="true">
@@ -252,7 +252,9 @@
       <Size>101325</Size>
       <Timestamp>131978494867364883</Timestamp>
       <Description>this changes the Fps/Ping-Bar in the upper left corner.</Description>
-      <ConflictingPackages>XVMConfigBuilder_BattleInterface_DebugPanel</ConflictingPackages>
+      <ConflictingPackages>
+        <ConflictingPackage PackageName="XVMConfigBuilder_BattleInterface_DebugPanel" PackageUID="" />
+      </ConflictingPackages>
       <Packages>
         <Package PackageName="IngameInfo_DebugPanel_oldskool" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8lyb8uwumkw5xpvv" Name="DebugPanel [by {author}]" Type="single_dropdown1" Visible="True">
           <Size>47097</Size>
@@ -266,8 +268,8 @@
           <LastUpdateCheck>132877164354282446</LastUpdateCheck>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Dependencies>
-            <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_OldSkool_modsCore" PackageUID="cw7xk1guapz8hayk" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
       </Packages>
@@ -289,8 +291,8 @@
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/IngameInfo_DangerLights.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\enemyAnnouncer.json" Version="2" Search="/*" Replace="true">
@@ -416,8 +418,8 @@
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Misc/Ingame_Misc_Final_Shot_by_POLIROID_03.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\protanki\lastHits.json" Version="2" Search=".*" Replace="false">
@@ -440,7 +442,15 @@
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Ingame_Misc_Flying_Damage_2.jpg" />
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Misc/Ingame_Misc_Flying_Damage_1.jpg" />
       </Medias>
-      <ConflictingPackages>XVMconfigBuilder_IN-BATTLE,XVMconfigBuilder_HANGAR,XVMconfigBuilder_GLOBAL,XVMconfigBuilder_BuildSelector,LogicalDependency_XVM_Main_Nightly,LogicalDependency_XVM_Main_Stable,Dependency_XVM_Main_Files</ConflictingPackages>
+      <ConflictingPackages>
+        <ConflictingPackage PackageName="XVMconfigBuilder_IN-BATTLE" PackageUID="" />
+        <ConflictingPackage PackageName="XVMconfigBuilder_HANGAR" PackageUID="" />
+        <ConflictingPackage PackageName="XVMconfigBuilder_GLOBAL" PackageUID="" />
+        <ConflictingPackage PackageName="XVMconfigBuilder_BuildSelector" PackageUID="" />
+        <ConflictingPackage PackageName="LogicalDependency_XVM_Main_Nightly" PackageUID="" />
+        <ConflictingPackage PackageName="LogicalDependency_XVM_Main_Stable" PackageUID="" />
+        <ConflictingPackage PackageName="Dependency_XVM_Main_Files" PackageUID="" />
+      </ConflictingPackages>
       <Packages>
         <Package PackageName="IngameInfo_FlyingDamage_V1" Enabled="True" Tags="ConfigurationFileJson" InstallGroup="4" PatchGroup="4" UID="oi6wq34tae120cwa" Name="V1" Type="single_dropdown1" Visible="True">
           <Size>932</Size>
@@ -477,8 +487,8 @@
       <Author>RaJCeL</Author>
       <ObfuscatedMod>True</ObfuscatedMod>
       <Dependencies>
-        <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_RaJCel_Core" PackageUID="wp1zs4if31mxsqux" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" PackageUID="9e8e03og3xees21w" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\rajcel\inBattleStatistics\highCaliber.json" Version="1" Search="" Replace="true">
@@ -502,12 +512,14 @@
       <Medias>
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/playersPanelPro.jpg" />
       </Medias>
-      <ConflictingPackages>IngameInfo_EnemySpottedStatus</ConflictingPackages>
+      <ConflictingPackages>
+        <ConflictingPackage PackageName="IngameInfo_EnemySpottedStatus" PackageUID="" />
+      </ConflictingPackages>
       <Dependencies>
-        <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_Gambiter_GUIflash" PackageUID="ypupkvormubtv1ju" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" PackageUID="8bhv4wcpn1quvd5v" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="0">
@@ -888,7 +900,11 @@
           <Medias>
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/Ingame_Info/PlayersPanelPro/spotted_icon_styles.png" />
           </Medias>
-          <ConflictingPackages>IngameInfo_EnemySpottedStatus,IngameInfo_EnemySpottedStatus,IngameInfo_EnemySpottedStatus</ConflictingPackages>
+          <ConflictingPackages>
+            <ConflictingPackage PackageName="IngameInfo_EnemySpottedStatus" PackageUID="" />
+            <ConflictingPackage PackageName="IngameInfo_EnemySpottedStatus" PackageUID="" />
+            <ConflictingPackage PackageName="IngameInfo_EnemySpottedStatus" PackageUID="" />
+          </ConflictingPackages>
           <Patches>
             <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CHAMPi\playerPanelPro\playerPanelPro.json" Version="1" Search=".*" Replace="true">
               <Path>$.showSpottedIcon</Path>
@@ -952,13 +968,15 @@
     <Package PackageName="IngameInfo_HpPools" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bqrzjntjua041x2f" Name="HP Pools" Type="multi" Visible="True">
       <CRC>f</CRC>
       <Timestamp>132071743749522467</Timestamp>
-      <ConflictingPackages>XVMConfigBuilder_BattleInterface_HPpools</ConflictingPackages>
+      <ConflictingPackages>
+        <ConflictingPackage PackageName="XVMConfigBuilder_BattleInterface_HPpools" PackageUID="" />
+      </ConflictingPackages>
       <Packages>
         <Package PackageName="IngameInfo_HpPools_RaJCeL" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="icfmkjxbe1nmtkra" Name="RaJCeL" Type="single1" Visible="True">
           <Size>530</Size>
           <Dependencies>
-            <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_RaJCel_Core" PackageUID="wp1zs4if31mxsqux" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" PackageUID="9e8e03og3xees21w" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\teamHP.json" Version="1" Search="" Replace="true">
@@ -968,9 +986,12 @@
         </Package>
         <Package PackageName="IngameInfo_HpPools_PMOD" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="5486brj2pt2ucqks" Name="PMOD" Type="single1" Visible="True">
           <Size>478</Size>
-          <ConflictingPackages>Ingame_Info_HpBars_Champi,XVMConfigBuilder_BattleInterface_HPpools</ConflictingPackages>
+          <ConflictingPackages>
+            <ConflictingPackage PackageName="Ingame_Info_HpBars_Champi" PackageUID="" />
+            <ConflictingPackage PackageName="XVMConfigBuilder_BattleInterface_HPpools" PackageUID="" />
+          </ConflictingPackages>
           <Dependencies>
-            <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_PMOD" PackageUID="ex0ocsm6tio4kknh" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="2" Search="" Replace="true">
@@ -1238,8 +1259,8 @@
           <LastUpdateCheck>132877164806476154</LastUpdateCheck>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Dependencies>
-            <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_OldSkool_modsCore" PackageUID="cw7xk1guapz8hayk" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Packages>
             <Package PackageName="IngameInfo_EnemySpottedStatus_OldSkool_Style0" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="2eo0pb6qtqepkgj0" Name="Eye icon style" Type="single_dropdown1" Visible="True">
@@ -1269,7 +1290,7 @@
           <Size>507</Size>
           <Author>poliroid</Author>
           <Dependencies>
-            <Dependency PackageName="Dependency_PMOD" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_PMOD" PackageUID="ex0ocsm6tio4kknh" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\pmod\battleGui.json" Version="1" Search=".*" Replace="true">
@@ -1337,11 +1358,23 @@
       <UserFiles>
         <UserFile Pattern="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" />
       </UserFiles>
-      <ConflictingPackages>Custom_Tank_Skins_China,Custom_Tank_Skins_Czech,Custom_Tank_Skins_France,Custom_Tank_Skins_Germany,Custom_Tank_Skins_Italy,Custom_Tank_Skins_Japan,Custom_Tank_Skins_Poland,Custom_Tank_Skins_Sweden,Custom_Tank_Skins_GB,Custom_Tank_Skins_USA,Custom_Tank_Skins_USSR</ConflictingPackages>
+      <ConflictingPackages>
+        <ConflictingPackage PackageName="Custom_Tank_Skins_China" PackageUID="" />
+        <ConflictingPackage PackageName="Custom_Tank_Skins_Czech" PackageUID="" />
+        <ConflictingPackage PackageName="Custom_Tank_Skins_France" PackageUID="" />
+        <ConflictingPackage PackageName="Custom_Tank_Skins_Germany" PackageUID="" />
+        <ConflictingPackage PackageName="Custom_Tank_Skins_Italy" PackageUID="" />
+        <ConflictingPackage PackageName="Custom_Tank_Skins_Japan" PackageUID="" />
+        <ConflictingPackage PackageName="Custom_Tank_Skins_Poland" PackageUID="" />
+        <ConflictingPackage PackageName="Custom_Tank_Skins_Sweden" PackageUID="" />
+        <ConflictingPackage PackageName="Custom_Tank_Skins_GB" PackageUID="" />
+        <ConflictingPackage PackageName="Custom_Tank_Skins_USA" PackageUID="" />
+        <ConflictingPackage PackageName="Custom_Tank_Skins_USSR" PackageUID="" />
+      </ConflictingPackages>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" PackageUID="8bhv4wcpn1quvd5v" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\CH4MPi\tankRatingColors\tankRatingColors.json" Version="1" Search="" Replace="true">
@@ -1474,9 +1507,9 @@
           <LastUpdateCheck>132877164854480062</LastUpdateCheck>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Dependencies>
-            <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_OldSkool_modsCore" PackageUID="cw7xk1guapz8hayk" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Gambiter_GUIflash" PackageUID="ypupkvormubtv1ju" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="IngameInfo_InBattleRating_Protanki" Enabled="True" Tags="Script,GuiFlash" InstallGroup="4" PatchGroup="4" UID="ewheywwoz33rzjf4" Name="PROTanki" Type="single_dropdown1" Visible="True">
@@ -1494,8 +1527,8 @@
             <Media MediaType="Picture" URL="https://s3.protanki.tv/static/cke/9.jpg" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="IngameInfo_InBattleRating_RaJCeL" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="8aymq0m7um5hbcxh" Name="RaJCeL" Type="single_dropdown1" Visible="True">
@@ -1508,8 +1541,8 @@
             <Media MediaType="Picture" URL="https://wgmods.net/media/inBattleFontSize.jpg.1600x0_q85_crop_detail_replace_alpha-white.jpg" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_RaJCel_Core" PackageUID="wp1zs4if31mxsqux" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" PackageUID="9e8e03og3xees21w" NotFlag="False" Logic="OR" />
           </Dependencies>
           <Patches>
             <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\rajcel\inBattleStatistics\statisticsCalculator.json" Version="1" Search="" Replace="true">
@@ -1520,10 +1553,10 @@
       </Packages>
     </Package>
     <Package PackageName="IngameInfo_ExpectedVehicleValues" Enabled="True" Tags="Patch,ConfigurationFileJson,DependencyLink,OtherFiles" InstallGroup="4" PatchGroup="4" UID="3r6bdbph41vrjucw" Name="Expected Vehicle Values (MOE mod) [by {author}]" Type="multi" Visible="True">
-      <Size>228403</Size>
+      <Size>225266</Size>
       <Version>1.35</Version>
       <ZipFile>IngameInfo_ExpectedVehicleValues_v1.35_1.15.0.2_2022-02-01.zip</ZipFile>
-      <CRC>f</CRC>
+      <CRC>8dea167b05c554d6c411e6db287f7582</CRC>
       <Timestamp>132882161561705100</Timestamp>
       <DevURL>https://wot.champi.de/\r\nhttps://wgmods.net/4322/</DevURL>
       <InternalNotes>with prePatch to disable options first</InternalNotes>
@@ -1539,10 +1572,10 @@
         <UserFile Pattern="\mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues_stats.json" />
       </UserFiles>
       <Dependencies>
-        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" PackageUID="8bhv4wcpn1quvd5v" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_Gambiter_GUIflash" PackageUID="ypupkvormubtv1ju" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\CHAMPi\expectedVehicleValues\expectedVehicleValues.json" Version="1" Search=".*" Replace="false">
@@ -1674,8 +1707,8 @@
       <InternalNotes>its a patch: nothing todo\r\nrajcel inbattletatistics</InternalNotes>
       <Author>Rajcel</Author>
       <Dependencies>
-        <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_RaJCel_Core" PackageUID="wp1zs4if31mxsqux" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" PackageUID="9e8e03og3xees21w" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="json" Mode="edit" PatchPath="app" File="mods\configs\rajcel\inBattleStatistics\playersPanelDamage.json" Version="1" Search="" Replace="true">
@@ -1709,8 +1742,8 @@
             <Media MediaType="Picture" URL="https://mod-wot.com/_ld/1/s78137414.jpg" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
       </Packages>
@@ -1729,7 +1762,7 @@
         <Media MediaType="Picture" URL="https://i.imgur.com/oRwESiT.png" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_RaJCel_Core" PackageUID="wp1zs4if31mxsqux" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Patches>
         <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\hiddenParameters\hiddenParameters.json" Version="2" Search="" Replace="false">
@@ -1829,9 +1862,9 @@
             <UserFile Pattern="\mods\configs\oldskool\tankpanel.json" />
           </UserFiles>
           <Dependencies>
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_OldSkool_modsCore" PackageUID="cw7xk1guapz8hayk" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_Gambiter_GUIflash" PackageUID="ypupkvormubtv1ju" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="IngameInfo_TankInfoPanel_protanki" Enabled="True" Tags="Script,ConfigurationFileXml,GuiFlash" InstallGroup="4" PatchGroup="4" UID="ran4n2t1715ldipp" Name="PROTanki" Type="single_dropdown1" Visible="True">
@@ -1845,8 +1878,8 @@
             <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Ingame_Info/tank_info_panel/Ingame_Info_Tank_Info_Panel_protanki_1.jpg" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
       </Packages>

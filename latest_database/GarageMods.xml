@@ -5,8 +5,8 @@
       <Size>98505</Size>
       <Timestamp>131864323986780175</Timestamp>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Packages>
         <Package PackageName="GarageMods_ArmorInspector_protanki" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lv4c9t0kxo3al2qz" Name="Armor Inspector by protanki" Type="multi" Visible="True">
@@ -62,8 +62,8 @@
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_mods/Garage_mods_Battle_Hits_Viewer_PICS/Garage_mods_Battle_Hits_Viewer_04.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
     <Package PackageName="GarageMods_CrewAutoReturn" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="5ozdgw25r0pzwjnc" Name="Crew auto-return" Type="multi" Visible="True">
@@ -85,7 +85,7 @@
           <Description>OLDSKOOL'S AUTO RETURN CREW MOD\r\n... IS AN EXTENSION TO AUTOSWITCH YOUR CREWS BETWEEN TANKS.\r\n\r\nSettingS: ENabled By Default\r\n\r\nFEATURES:\r\n• Autoswitch your crews between tanks.\r\n• Easy enable or disable it for each of your tanks.\r\n• Over 10 languages aresupported for now.\r\n• Save configuration to safe file location to prevent issues.</Description>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Dependencies>
-            <Dependency PackageName="Dependency_OldSkool_modsCore" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_OldSkool_modsCore" PackageUID="cw7xk1guapz8hayk" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
       </Packages>
@@ -102,7 +102,7 @@
         <UserFile Pattern="\mods\configs\crewExtended\crewExtended.json" />
       </UserFiles>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Packages>
         <Package PackageName="GarageMods_CrewExtended_IzeBerg" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8am80idrarx2etm6" Name="{author}" Type="single_dropdown1" Visible="True">
@@ -119,7 +119,7 @@
             <Media MediaType="Picture" URL="http://fs2.directupload.net/images/150630/r8khlrlx.jpg" />
           </Medias>
           <Dependencies>
-            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
         <Package PackageName="GarageMods_CrewExtended_Protanki" Enabled="True" Tags="Script,ConfigurationFileJson,GuiFlash" InstallGroup="4" PatchGroup="4" UID="v6z5w082j20ut74s" Name="{author}" Type="single_dropdown1" Visible="True">
@@ -134,8 +134,8 @@
           <LastUpdateCheck>132877191092562701</LastUpdateCheck>
           <ObfuscatedMod>True</ObfuscatedMod>
           <Dependencies>
-            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
+            <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
           </Dependencies>
         </Package>
       </Packages>
@@ -155,8 +155,8 @@
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/garage_mods/GarageMods_HangarMastery.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
     <Package PackageName="GarageMods_LittleHelperCollection" Enabled="True" Tags="Patch,Script,ConfigurationFileJson" InstallGroup="4" PatchGroup="4" UID="ksbf9er3h535v1vd" Name="Little Helper Collection [by {author}] (READ DESCRIPTION)" Type="multi" Visible="True">
@@ -173,12 +173,14 @@
       <Description>The mod collects some useful improvements that never made it to their own mod. \r\nNot because they're useless, but because they're too small for an own mod. But now I've combined them all in one mod and give the player control to turn them on and off\r\n\r\nFeatures: - hangarTooltip -&gt; Expands the list of tanks on which the equipment is installed (in hangar tips)\r\n- storageTooltip -&gt; Shows the full selling price of modules, consumables and ammunition (in stock)\r\n- contourIconMode -&gt; Disables the flipping of the tank contour icons in the tankman info tooltip. This is for using custom tank contour icons.\r\n- arenaBorderRecolor -&gt; Allows to set a new arena border color. It looks really good to see some fresh new colors there\r\n- disableHeroTank -&gt; Disables the promotion of a tank in the background of the hangar.\r\n\r\n\r\nWARNING:\r\nThis mod can conflict with XVM-, AnnoyingFeaturesRemover- and some other Garage-Settings.</Description>
       <ObfuscatedMod>True</ObfuscatedMod>
       <FromWGmods>True</FromWGmods>
-      <ConflictingPackages>GarageMods_AnnoyingFeaturesRemover</ConflictingPackages>
+      <ConflictingPackages>
+        <ConflictingPackage PackageName="GarageMods_AnnoyingFeaturesRemover" PackageUID="" />
+      </ConflictingPackages>
       <Dependencies>
-        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_CHAMPi_settingsGUI" PackageUID="8bhv4wcpn1quvd5v" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_Gambiter_GUIflash" PackageUID="ypupkvormubtv1ju" NotFlag="False" Logic="OR" />
       </Dependencies>
       <Packages>
         <Package PackageName="GarageMods_littleHelperCollection_alwaysShowCompareButton" Enabled="True" Tags="Patch" InstallGroup="4" PatchGroup="4" UID="dt0gwwsulr1i11a0" Name="Always show vehicle compare button in the garage" Type="multi" Visible="True">
@@ -567,7 +569,7 @@
         <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/Garage_Mods_Replay_Manager_3-3.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
     <Package PackageName="GarageMods_Seller" Enabled="True" Tags="Script" InstallGroup="4" PatchGroup="4" UID="x6b5fx5kfqp1y4jy" Name="Seller [by {author}]" Type="multi" Visible="True">
@@ -596,7 +598,7 @@
         <Media MediaType="Picture" URL="https://i.imgur.com/qJP67pz.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_RaJCel_Core" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_RaJCel_Core" PackageUID="wp1zs4if31mxsqux" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
     <Package PackageName="GarageMods_VehicleXPextended" Enabled="False" Tags="Script,DependencyLink" InstallGroup="4" PatchGroup="4" UID="5bq9b7evo17t6x4d" Name="VehicleXP Extended [by {author}]" Type="multi" Visible="True">
@@ -616,8 +618,8 @@
         <Media MediaType="Picture" URL="http://wotsite.net/images/2014/12/30/1.jpg" />
       </Medias>
       <Dependencies>
-        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" NotFlag="False" Logic="OR" />
-        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_P0LIR0ID_modsListApi" PackageUID="5tjbkykag9506587" NotFlag="False" Logic="OR" />
+        <Dependency PackageName="Dependency_IzeBerg_modsSettingsApi" PackageUID="iipqsxqbf6xi6hg7" NotFlag="False" Logic="OR" />
       </Dependencies>
     </Package>
   </Packages>
