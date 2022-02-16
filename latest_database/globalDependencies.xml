@@ -38,6 +38,7 @@
   </GlobalDependency>
   <GlobalDependency PackageName="DependencyGlobal_WoTShortcuts" Enabled="True" Tags="" InstallGroup="0" PatchGroup="0" UID="d59vzfk25kr889ou">
     <Size>453</Size>
+    <Triggers>create_shortcuts</Triggers>
     <InternalNotes>A zip file that has instructions to create shortcuts. \r\nThey are made based on instructions from the xml file that are parsed into the installer. \r\nThey are created to be on the desktop. \r\n\r\nTo verify: \r\n- Enable the setting create shortcuts, and run a test install. \r\n- Make sure both shortcuts are created. One for WoT and one for WoT launcher.</InternalNotes>
     <Maintainers>Willster419</Maintainers>
     <Shortcuts>
@@ -64,6 +65,7 @@
     <ZipFile>Dependency_global_fontreg_2019-06-23.zip</ZipFile>
     <CRC>7493a3e91386a444394d24985324890d</CRC>
     <Timestamp>132058112386414821</Timestamp>
+    <Triggers>install_fonts</Triggers>
     <InternalNotes>FontReg exe for registering fonts into the users's PC\r\nshould not need to be updated. ever.</InternalNotes>
     <Maintainers>Willster419</Maintainers>
   </GlobalDependency>
