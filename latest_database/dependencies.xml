@@ -495,6 +495,108 @@
     <LogAtInstall>False</LogAtInstall>
     <Author>elektrosmoker</Author>
   </Dependency>
+  <Dependency PackageName="--STANDARD--" Enabled="False" Tags="" InstallGroup="2" PatchGroup="2" UID="xn47oncz7yn8xcns">
+    <CRC>f</CRC>
+    <Timestamp>132309366281564769</Timestamp>
+    <LogAtInstall>False</LogAtInstall>
+    <Author>elektrosmoker</Author>
+  </Dependency>
+  <Dependency PackageName="Dependency_RaJCel_Core" Enabled="True" Tags="Script" InstallGroup="2" PatchGroup="2" UID="wp1zs4if31mxsqux">
+    <Size>34676</Size>
+    <ZipFile>Dependency_RaJCel_Core_1.15.0.0_2021-12-18.zip</ZipFile>
+    <CRC>519077de0835040487de15559587ca92</CRC>
+    <Timestamp>132843452214315980</Timestamp>
+    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-\r\nhttps://wgmods.net/2559/details</DevURL>
+    <LastUpdateCheck>132890899765162980</LastUpdateCheck>
+    <Dependencies>
+      <Dependency PackageName="Dependency_Gambiter_GUIflash" NotFlag="False" Logic="OR" />
+    </Dependencies>
+  </Dependency>
+  <Dependency PackageName="Dependency_OldSkool_modsCore" Enabled="True" Tags="Script,GuiFlash" InstallGroup="2" PatchGroup="2" UID="cw7xk1guapz8hayk">
+    <Size>255387</Size>
+    <Version>1.2.3</Version>
+    <ZipFile>Dependency_OldSkool_modsCore_v1.2.3_1.14.1.2_2021-10-30.zip</ZipFile>
+    <CRC>4f9a62ad23a1ef9f8e67d102bdbd2b3e</CRC>
+    <Timestamp>132800265721027412</Timestamp>
+    <DevURL>https://github.com/deadhat/wotmods-public.git\r\nhttp://forum.worldoftanks.eu/index.php?/topic/603810-\r\nhttps://promod.reidarty.de/promod/</DevURL>
+    <InternalNotes>We seem to have direct access to his mods without needing WGmods or his modpack installer.\r\n\r\nOne of his mirror download sites (https://promod.reidarty.de) allows https file browsing. For example, we can directly download from the following URL:\r\n\r\nhttps://promod.reidarty.de/promod/1.9.0.3/\r\n\r\nFor this one in particular, you can get it from "promod.zip"</InternalNotes>
+    <LastUpdateCheck>132890899372221418</LastUpdateCheck>
+  </Dependency>
+  <Dependency PackageName="Dependency_PMOD" Enabled="True" Tags="Script" InstallGroup="2" PatchGroup="2" UID="ex0ocsm6tio4kknh">
+    <Size>2737988</Size>
+    <Version>1.56.0</Version>
+    <ZipFile>Dependency_PMOD_v1.56.0_1.15.0.0_2021-12-13_converted.zip</ZipFile>
+    <CRC>1f892694ec7daf4d2b2e1243c6edb0e1</CRC>
+    <Timestamp>132859204902753677</Timestamp>
+    <DevURL>https://wgmods.net/50/details/</DevURL>
+    <InternalNotes>AS OF 2021-05-08, no longer have to manually modify the configuration! A patch exists to disable the small effects that are enabled by default.\r\n\r\n\r\n--- OLD INSTRUCTIONS ---\r\nhttps://docs.google.com/document/d/1DIYfQwfD46KWA3xLvqONjj_i54SlYy3F0YKZUc_U3JU/edit#heading=h.x2kg0opxs8h0\r\n\r\nDependency_PMOD\r\nThis mod is a series of smaller modifications that improve the player’s game, mostly by aiming. It also has a statistics feature. The special instructions for this mod is to manually disable all features in the configs when the mod is downloaded. The config is JSON. for each json file (except single.json and multiple.json), there is an “enable” at the top, to enable the module. Each one should be disabled. (Set enabled to false)\r\n\r\nIf using Notepad++, open all json files but "single.json", and search for "// true - enable the module." for each result in each file, make sure enable is false.\r\n\r\nCurrently (2021-02-09), only zoomDistance.json and onStartDeadDistance.json are ever to be true\r\n\r\n\r\n1.46.1\r\nrem improveIngameStatistic</InternalNotes>
+    <Author>P0LIR0ID</Author>
+    <Maintainers>Willster419</Maintainers>
+    <LastUpdateCheck>132890899572808069</LastUpdateCheck>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\zoomDistance.json" Version="1" Search=".*" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\onStartDeadDistance.json" Version="1" Search=".*" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\_single.json" Version="1" Search=".*" Replace="false">
+        <Path>$.zoomDistance.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\_single.json" Version="1" Search=".*" Replace="false">
+        <Path>$.onStartDeadDistance.enable</Path>
+      </Patch>
+    </Patches>
+  </Dependency>
+  <Dependency PackageName="Dependency_PY_PYmodsCore" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="pldcs1mv9lrphm5k">
+    <Size>24330</Size>
+    <ZipFile>Dependency_PY_OpenModsCore_1.14.1.0_2021-10-16.zip</ZipFile>
+    <CRC>a2659e0e3e0c3df34e5254a5c3ead1be</CRC>
+    <Timestamp>132788479674041955</Timestamp>
+    <DevURL>https://koreanrandom.com/forum/topic/20551-\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1825657-\r\nhttps://github.com/PolyacovYury/PYmods\r\n</DevURL>
+    <InternalNotes>https://yadi.sk/d/b-fqQA923Mqvwk</InternalNotes>
+    <LastUpdateCheck>132890899659599556</LastUpdateCheck>
+  </Dependency>
+  <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" Enabled="True" Tags="Script,Patch" InstallGroup="2" PatchGroup="2" UID="9e8e03og3xees21w">
+    <Size>136838</Size>
+    <ZipFile>Dependency_RaJCeL_inBattleStatistics_1.15.0.0_2021-12-18_converted.zip</ZipFile>
+    <CRC>a0fabb1e47dc4d1551269b803d3ab85a</CRC>
+    <Timestamp>132859204963153684</Timestamp>
+    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-\r\nhttps://wgmods.net/2559/details</DevURL>
+    <LastUpdateCheck>132890899875089759</LastUpdateCheck>
+    <Patches>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\crewSkills.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\dateTime.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\highCaliber.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\playersPanelDamage.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\playersPanelSpotted.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\statisticsCalculator.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\teamHP.json" Version="1" Search="" Replace="false">
+        <Path>$.enable</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\statisticsCalculator.json" Version="1" Search="" Replace="true">
+        <Path>$.moveInBattle</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\highCaliber.json" Version="1" Search="" Replace="true">
+        <Path>$.moveInBattle</Path>
+      </Patch>
+      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\crewSkills.json" Version="1" Search="" Replace="true">
+        <Path>$.moveInBattle</Path>
+      </Patch>
+    </Patches>
+  </Dependency>
   <Dependency PackageName="--GUI_API--" Enabled="False" Tags="" InstallGroup="2" PatchGroup="2" UID="gi21ndz30ajrtky2">
     <CRC>f</CRC>
     <Timestamp>132309366281564769</Timestamp>
@@ -545,105 +647,6 @@
     <InternalNotes>This package can be found in any package that uses this mod, from that developer's site</InternalNotes>
     <Author>P0LIR0ID</Author>
     <LastUpdateCheck>132890899340321436</LastUpdateCheck>
-  </Dependency>
-  <Dependency PackageName="--STANDARD--" Enabled="False" Tags="" InstallGroup="2" PatchGroup="2" UID="xn47oncz7yn8xcns">
-    <CRC>f</CRC>
-    <Timestamp>132309366281564769</Timestamp>
-    <LogAtInstall>False</LogAtInstall>
-    <Author>elektrosmoker</Author>
-  </Dependency>
-  <Dependency PackageName="Dependency_OldSkool_modsCore" Enabled="True" Tags="Script,GuiFlash" InstallGroup="2" PatchGroup="2" UID="cw7xk1guapz8hayk">
-    <Size>255387</Size>
-    <Version>1.2.3</Version>
-    <ZipFile>Dependency_OldSkool_modsCore_v1.2.3_1.14.1.2_2021-10-30.zip</ZipFile>
-    <CRC>4f9a62ad23a1ef9f8e67d102bdbd2b3e</CRC>
-    <Timestamp>132800265721027412</Timestamp>
-    <DevURL>https://github.com/deadhat/wotmods-public.git\r\nhttp://forum.worldoftanks.eu/index.php?/topic/603810-\r\nhttps://promod.reidarty.de/promod/</DevURL>
-    <InternalNotes>We seem to have direct access to his mods without needing WGmods or his modpack installer.\r\n\r\nOne of his mirror download sites (https://promod.reidarty.de) allows https file browsing. For example, we can directly download from the following URL:\r\n\r\nhttps://promod.reidarty.de/promod/1.9.0.3/\r\n\r\nFor this one in particular, you can get it from "promod.zip"</InternalNotes>
-    <LastUpdateCheck>132890899372221418</LastUpdateCheck>
-  </Dependency>
-  <Dependency PackageName="Dependency_PMOD" Enabled="True" Tags="Script" InstallGroup="2" PatchGroup="2" UID="ex0ocsm6tio4kknh">
-    <Size>2737988</Size>
-    <Version>1.56.0</Version>
-    <ZipFile>Dependency_PMOD_v1.56.0_1.15.0.0_2021-12-13_converted.zip</ZipFile>
-    <CRC>1f892694ec7daf4d2b2e1243c6edb0e1</CRC>
-    <Timestamp>132859204902753677</Timestamp>
-    <DevURL>https://wgmods.net/50/details/</DevURL>
-    <InternalNotes>AS OF 2021-05-08, no longer have to manually modify the configuration! A patch exists to disable the small effects that are enabled by default.\r\n\r\n\r\n--- OLD INSTRUCTIONS ---\r\nhttps://docs.google.com/document/d/1DIYfQwfD46KWA3xLvqONjj_i54SlYy3F0YKZUc_U3JU/edit#heading=h.x2kg0opxs8h0\r\n\r\nDependency_PMOD\r\nThis mod is a series of smaller modifications that improve the player’s game, mostly by aiming. It also has a statistics feature. The special instructions for this mod is to manually disable all features in the configs when the mod is downloaded. The config is JSON. for each json file (except single.json and multiple.json), there is an “enable” at the top, to enable the module. Each one should be disabled. (Set enabled to false)\r\n\r\nIf using Notepad++, open all json files but "single.json", and search for "// true - enable the module." for each result in each file, make sure enable is false.\r\n\r\nCurrently (2021-02-09), only zoomDistance.json and onStartDeadDistance.json are ever to be true\r\n\r\n\r\n1.46.1\r\nrem improveIngameStatistic</InternalNotes>
-    <Author>P0LIR0ID</Author>
-    <Maintainers>Willster419</Maintainers>
-    <LastUpdateCheck>132890899572808069</LastUpdateCheck>
-    <Patches>
-      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\zoomDistance.json" Version="1" Search=".*" Replace="false">
-        <Path>$.enable</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\onStartDeadDistance.json" Version="1" Search=".*" Replace="false">
-        <Path>$.enable</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\_single.json" Version="1" Search=".*" Replace="false">
-        <Path>$.zoomDistance.enable</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="" File="\mods\configs\pmod\_single.json" Version="1" Search=".*" Replace="false">
-        <Path>$.onStartDeadDistance.enable</Path>
-      </Patch>
-    </Patches>
-  </Dependency>
-  <Dependency PackageName="Dependency_PY_PYmodsCore" Enabled="True" Tags="" InstallGroup="2" PatchGroup="2" UID="pldcs1mv9lrphm5k">
-    <Size>24330</Size>
-    <ZipFile>Dependency_PY_OpenModsCore_1.14.1.0_2021-10-16.zip</ZipFile>
-    <CRC>a2659e0e3e0c3df34e5254a5c3ead1be</CRC>
-    <Timestamp>132788479674041955</Timestamp>
-    <DevURL>https://koreanrandom.com/forum/topic/20551-\r\nhttp://forum.worldoftanks.ru/index.php?/topic/1825657-\r\nhttps://github.com/PolyacovYury/PYmods\r\n</DevURL>
-    <InternalNotes>https://yadi.sk/d/b-fqQA923Mqvwk</InternalNotes>
-    <LastUpdateCheck>132890899659599556</LastUpdateCheck>
-  </Dependency>
-  <Dependency PackageName="Dependency_RaJCel_Core" Enabled="True" Tags="Script" InstallGroup="2" PatchGroup="2" UID="wp1zs4if31mxsqux">
-    <Size>34676</Size>
-    <ZipFile>Dependency_RaJCel_Core_1.15.0.0_2021-12-18.zip</ZipFile>
-    <CRC>519077de0835040487de15559587ca92</CRC>
-    <Timestamp>132843452214315980</Timestamp>
-    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-\r\nhttps://wgmods.net/2559/details</DevURL>
-    <LastUpdateCheck>132890899765162980</LastUpdateCheck>
-  </Dependency>
-  <Dependency PackageName="Dependency_RaJCeL_inBattleStatistics" Enabled="True" Tags="Script,Patch" InstallGroup="2" PatchGroup="2" UID="9e8e03og3xees21w">
-    <Size>136838</Size>
-    <ZipFile>Dependency_RaJCeL_inBattleStatistics_1.15.0.0_2021-12-18_converted.zip</ZipFile>
-    <CRC>a0fabb1e47dc4d1551269b803d3ab85a</CRC>
-    <Timestamp>132859204963153684</Timestamp>
-    <DevURL>http://forum.worldoftanks.eu/index.php?/topic/691120-\r\nhttps://wgmods.net/2559/details</DevURL>
-    <LastUpdateCheck>132890899875089759</LastUpdateCheck>
-    <Patches>
-      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\crewSkills.json" Version="1" Search="" Replace="false">
-        <Path>$.enable</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\dateTime.json" Version="1" Search="" Replace="false">
-        <Path>$.enable</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\highCaliber.json" Version="1" Search="" Replace="false">
-        <Path>$.enable</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\playersPanelDamage.json" Version="1" Search="" Replace="false">
-        <Path>$.enable</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\playersPanelSpotted.json" Version="1" Search="" Replace="false">
-        <Path>$.enable</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\statisticsCalculator.json" Version="1" Search="" Replace="false">
-        <Path>$.enable</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\teamHP.json" Version="1" Search="" Replace="false">
-        <Path>$.enable</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\statisticsCalculator.json" Version="1" Search="" Replace="true">
-        <Path>$.moveInBattle</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\highCaliber.json" Version="1" Search="" Replace="true">
-        <Path>$.moveInBattle</Path>
-      </Patch>
-      <Patch Type="json" Mode="edit" PatchPath="app" File="\mods\configs\rajcel\inBattleStatistics\crewSkills.json" Version="1" Search="" Replace="true">
-        <Path>$.moveInBattle</Path>
-      </Patch>
-    </Patches>
   </Dependency>
   <Dependency PackageName="--CROSSHAIRS--" Enabled="False" Tags="" InstallGroup="2" PatchGroup="2" UID="tbet6ikptugbv2jm">
     <CRC>f</CRC>
