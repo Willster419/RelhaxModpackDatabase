@@ -12,7 +12,7 @@
     <Package PackageName="XVMconfigBuilder_BuildSelector" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1obybhuzekac5yw6" Name="-----[Build Selector]----- (choose between Stable and Nightly)" Type="single1" Visible="True">
       <Author>elektrosmoker</Author>
       <ConflictingPackages>
-        <ConflictingPackage PackageName="IngameInfo_FlyingDamage" PackageUID="bt0ih3ysbi9k00pb" />
+        <ConflictingPackage ConflictingPackageName="IngameInfo_FlyingDamage" ConflictingPackageUID="bt0ih3ysbi9k00pb" />
       </ConflictingPackages>
       <Packages>
         <Package PackageName="XVMconfigBuilder_BuildSelector_Stable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="w2s53lki94c2grej" Name="Stable v{version}" Type="single_dropdown1" Visible="True">
@@ -33,7 +33,7 @@
     <Package PackageName="XVMconfigBuilder_GLOBAL" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="36gr3pg23j69rw3w" Name="-----[GLOBAL Settings]-----" Type="multi" Visible="True">
       <Author>elektrosmoker</Author>
       <ConflictingPackages>
-        <ConflictingPackage PackageName="IngameInfo_FlyingDamage" PackageUID="bt0ih3ysbi9k00pb" />
+        <ConflictingPackage ConflictingPackageName="IngameInfo_FlyingDamage" ConflictingPackageUID="bt0ih3ysbi9k00pb" />
       </ConflictingPackages>
       <Packages>
         <Package PackageName="XVMconfigBuilder_Sound" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="fvn6bom32fzrr7aw" Name="Sound (!Experts Only!)" Type="multi" Visible="True">
@@ -334,7 +334,7 @@
     <Package PackageName="XVMconfigBuilder_HANGAR" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="l09ke8p3tysmxq6d" Name="-----[HANGAR Settings]-----" Type="multi" Visible="True">
       <Author>elektrosmoker</Author>
       <ConflictingPackages>
-        <ConflictingPackage PackageName="IngameInfo_FlyingDamage" PackageUID="bt0ih3ysbi9k00pb" />
+        <ConflictingPackage ConflictingPackageName="IngameInfo_FlyingDamage" ConflictingPackageUID="bt0ih3ysbi9k00pb" />
       </ConflictingPackages>
       <Packages>
         <Package PackageName="XVMConfigBuilder_BattleResults" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ypfzm7v4svk4x2dd" Name="Battle Results" Type="multi" Visible="True">
@@ -1939,8 +1939,8 @@
             <Package PackageName="XVMconfigBuilder_GarageInterface_MasteryMarkTechTree" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="dh6lflzvoo1z1cwi" Name="Mastery Mark in Tech Tree" Type="multi" Visible="True">
               <Description>Show the mastery icons for each tank in the tech tree</Description>
               <ConflictingPackages>
-                <ConflictingPackage PackageName="IngameInfo_ExpectedVehicleValues_showInTechTree" PackageUID="7cwetgtnrp456q4l" />
-                <ConflictingPackage PackageName="IngameInfo_ExpectedVehicleValues_showInTechTreeMastery" PackageUID="gtllbsl57dql93mm" />
+                <ConflictingPackage ConflictingPackageName="IngameInfo_ExpectedVehicleValues_showInTechTree" ConflictingPackageUID="7cwetgtnrp456q4l" />
+                <ConflictingPackage ConflictingPackageName="IngameInfo_ExpectedVehicleValues_showInTechTreeMastery" ConflictingPackageUID="gtllbsl57dql93mm" />
               </ConflictingPackages>
               <Packages>
                 <Package PackageName="XVMconfigBuilder_GarageInterface_MasteryMarkTechTree_disable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="7wnt7ppei73od5ev" Name="Disable" Type="single_dropdown1" Visible="True">
@@ -2788,7 +2788,7 @@
     <Package PackageName="XVMconfigBuilder_IN-BATTLE" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="bu41ybvnby38n2q7" Name="-----[IN-BATTLE Settings]-----" Type="multi" Visible="True">
       <Author>elektrosmoker</Author>
       <ConflictingPackages>
-        <ConflictingPackage PackageName="IngameInfo_FlyingDamage" PackageUID="bt0ih3ysbi9k00pb" />
+        <ConflictingPackage ConflictingPackageName="IngameInfo_FlyingDamage" ConflictingPackageUID="bt0ih3ysbi9k00pb" />
       </ConflictingPackages>
       <Packages>
         <Package PackageName="XVMconfigBuilder_battleChat" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="ojag6b1oavvpney7" Name="Battle Chat" Type="multi" Visible="True">
@@ -3140,7 +3140,7 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/Medias/Pictures/xvm_config_builder/battle_interface/XVMConfigBuilder_BattleInterface_battleEfficiency.png" />
               </Medias>
               <ConflictingPackages>
-                <ConflictingPackage PackageName="IngameInfo_InBattleRating" PackageUID="oi3lixkm1ajszw14" />
+                <ConflictingPackage ConflictingPackageName="IngameInfo_InBattleRating" ConflictingPackageUID="oi3lixkm1ajszw14" />
               </ConflictingPackages>
               <Dependencies>
                 <Dependency PackageName="Dependency_XVM_PY_battleEfficiency" PackageUID="6louvzg1x6smfgdc" NotFlag="False" Logic="OR" />
@@ -3184,7 +3184,7 @@
                     <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/high_caliber.png" />
                   </Medias>
                   <ConflictingPackages>
-                    <ConflictingPackage PackageName="IngameInfo_HighCaliber" PackageUID="934501ixbjs2jn2l" />
+                    <ConflictingPackage ConflictingPackageName="IngameInfo_HighCaliber" ConflictingPackageUID="934501ixbjs2jn2l" />
                   </ConflictingPackages>
                   <Patches>
                     <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\battleLabelsTemplates.xc" Version="1" Search="" Replace="true">
@@ -3282,7 +3282,7 @@
               <Timestamp>131812488048625094</Timestamp>
               <Description>Show FPS / Ping / Clock in upper left corner.</Description>
               <ConflictingPackages>
-                <ConflictingPackage PackageName="IngameInfo_DebugPanel" PackageUID="vwsw0vqtno4oxeov" />
+                <ConflictingPackage ConflictingPackageName="IngameInfo_DebugPanel" ConflictingPackageUID="vwsw0vqtno4oxeov" />
               </ConflictingPackages>
               <Dependencies>
                 <Dependency PackageName="Dependency_XVM_elementsXCprepatch" PackageUID="mzqi9fc9qujn0b5q" NotFlag="False" Logic="OR" />
@@ -3665,7 +3665,7 @@
                 <Media MediaType="Picture" URL="http://bigmods.relhaxmodpack.com/WoT/Medias/Pictures/xvm_config_builder/battle_interface/XVM_config_builder_battleinterface_piercingchance.png" />
               </Medias>
               <ConflictingPackages>
-                <ConflictingPackage PackageName="IngameAim_PenetrationIndicator" PackageUID="46locvj5gvr743we" />
+                <ConflictingPackage ConflictingPackageName="IngameAim_PenetrationIndicator" ConflictingPackageUID="46locvj5gvr743we" />
               </ConflictingPackages>
               <Dependencies>
                 <Dependency PackageName="Dependency_XVM_PY_chancePenetration" PackageUID="96ewa4k7ju101c61" NotFlag="False" Logic="OR" />
@@ -3754,7 +3754,7 @@
               <Timestamp>131826011602311721</Timestamp>
               <Description>shows a tankinfopanel like the ones chooseable in IngameInfo</Description>
               <ConflictingPackages>
-                <ConflictingPackage PackageName="IngameInfo_TankInfoPanel" PackageUID="k7zinyxhdlad2e0c" />
+                <ConflictingPackage ConflictingPackageName="IngameInfo_TankInfoPanel" ConflictingPackageUID="k7zinyxhdlad2e0c" />
               </ConflictingPackages>
               <Dependencies>
                 <Dependency PackageName="Dependency_XVM_PY_infoPanel" PackageUID="ryf7qghgudzsaidg" NotFlag="False" Logic="OR" />
@@ -4027,7 +4027,8 @@
             <Package PackageName="XVMConfigBuilder_BattleInterface_HPpools" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="yfimbi5na1cpc5b5" Name="HP Pools / Frag Correlation Bar" Type="multi" Visible="True">
               <DevURL>https://koreanrandom.com/forum/topic/40350-конфигурации-totalhp-средствами-xvm/</DevURL>
               <ConflictingPackages>
-                <ConflictingPackage PackageName="IngameInfo_HpPools" PackageUID="bqrzjntjua041x2f" />
+                <ConflictingPackage ConflictingPackageName="IngameInfo_HpPools" ConflictingPackageUID="bqrzjntjua041x2f" />
+                <ConflictingPackage ConflictingPackageName="IngameInfo_HpPools_PMOD" ConflictingPackageUID="5486brj2pt2ucqks" />
               </ConflictingPackages>
               <Dependencies>
                 <Dependency PackageName="Dependency_XVM_elementsXCprepatch" PackageUID="mzqi9fc9qujn0b5q" NotFlag="False" Logic="OR" />
@@ -4638,8 +4639,8 @@
               <Size>595</Size>
               <Description>if you are using xvm, we recommend using this camera options instead of PMOD.\ndont use pmod zoomoptions and xvm zoom options at the same time!</Description>
               <ConflictingPackages>
-                <ConflictingPackage PackageName="IngameAim_ZoomIn" PackageUID="z9nhr1qqq90nsllp" />
-                <ConflictingPackage PackageName="IngameAim_ZoomOut" PackageUID="8x7fejl4pjecnbeu" />
+                <ConflictingPackage ConflictingPackageName="IngameAim_ZoomIn" ConflictingPackageUID="z9nhr1qqq90nsllp" />
+                <ConflictingPackage ConflictingPackageName="IngameAim_ZoomOut" ConflictingPackageUID="8x7fejl4pjecnbeu" />
               </ConflictingPackages>
               <Patches>
                 <Patch Type="json" Mode="edit" PatchPath="app" File="\res_mods\configs\xvm\xvmConfigFolderName\camera.xc" Version="1" Search="" Replace="true">
@@ -5526,7 +5527,7 @@
             <Package PackageName="XVMconfigBuilder_OTM_enabled" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="il4tv29a9gpkbmr4" Name="Enabled (Use XVM markers)" Type="single1" Visible="True">
               <Size>930</Size>
               <ConflictingPackages>
-                <ConflictingPackage PackageName="IngameInfo_FlyingDamage" PackageUID="bt0ih3ysbi9k00pb" />
+                <ConflictingPackage ConflictingPackageName="IngameInfo_FlyingDamage" ConflictingPackageUID="bt0ih3ysbi9k00pb" />
               </ConflictingPackages>
               <Patches>
                 <Patch Type="json" Mode="edit" PatchPath="" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\markers.xc" Version="1" Search="" Replace="true">
@@ -6880,8 +6881,8 @@
                   <Timestamp>131910190208253101</Timestamp>
                   <Description>This is a Spotted Status Indicator for the enemy team.</Description>
                   <ConflictingPackages>
-                    <ConflictingPackage PackageName="Ingame_Info_Enemy_Spotted_Status" PackageUID="sjq12fw92wxl4hgz" />
-                    <ConflictingPackage PackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus" PackageUID="rxwybkry1yefph53" />
+                    <ConflictingPackage ConflictingPackageName="Ingame_Info_Enemy_Spotted_Status" ConflictingPackageUID="sjq12fw92wxl4hgz" />
+                    <ConflictingPackage ConflictingPackageName="IngameInfo_PlayersPanelPro_EnemySpottedStatus" ConflictingPackageUID="rxwybkry1yefph53" />
                   </ConflictingPackages>
                   <Packages>
                     <Package PackageName="XVMconfigBuilder_PlayersPanel_Enemy_Spotted_Marker_enable" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="06tpq8e43ziwqh4b" Name="enable" Type="single_dropdown1" Visible="True">
@@ -6904,7 +6905,7 @@
                 </Package>
                 <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="79hbqbaoxfc41mto" Name="HP Bars" Type="multi" Visible="True">
                   <ConflictingPackages>
-                    <ConflictingPackage PackageName="IngameInfo_PlayersPanelPro_TankHPBars" PackageUID="jv5txkvsb801sg8e" />
+                    <ConflictingPackage ConflictingPackageName="IngameInfo_PlayersPanelPro_TankHPBars" ConflictingPackageUID="jv5txkvsb801sg8e" />
                   </ConflictingPackages>
                   <Packages>
                     <Package PackageName="XVMconfigBuilder_PlayersPanel_HpBars_inside" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="1oziif07syetcfb1" Name="inside PlayersPanel" Type="multi" Visible="True">
@@ -7490,7 +7491,7 @@
                   <LastUpdateCheck>132859217871703676</LastUpdateCheck>
                   <Description>marks friends in allied/enemy playerspanel with a green dot,\n\nit´s also possible to mark blacklisted tankers in allied/enemy playerspanel with a red dot.\n\nif the tanksymbol is overlapping there´s an option to move the icon left/right</Description>
                   <ConflictingPackages>
-                    <ConflictingPackage PackageName="IngameMisc_Chatmods_FriendsMarker" PackageUID="lwj26ht7rnt0j1wh" />
+                    <ConflictingPackage ConflictingPackageName="IngameMisc_Chatmods_FriendsMarker" ConflictingPackageUID="lwj26ht7rnt0j1wh" />
                   </ConflictingPackages>
                   <Patches>
                     <Patch Type="json" Mode="add" PatchPath="app" File="\\res_mods\\configs\\xvm\\xvmConfigFolderName\\playersPanel.xc" Version="1" Search="" Replace="def/friendIcon/enabled/true">
