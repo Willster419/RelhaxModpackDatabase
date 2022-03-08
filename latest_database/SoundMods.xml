@@ -548,7 +548,7 @@
             </Patch>
           </Patches>
         </Package>
-        <Package PackageName="Sounds_Engines_WarMod" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="lc9q6q6m1kl6dukc" Name="War Engines (War Mod) v{version} [by {author}]" Type="single_dropdown1" Visible="True">
+        <Package PackageName="Sounds_Engines_WarMod" Enabled="False" Tags="" InstallGroup="4" PatchGroup="4" UID="lc9q6q6m1kl6dukc" Name="War Engines (War Mod) v{version} [by {author}]" Type="single_dropdown1" Visible="True">
           <Size>1079445030</Size>
           <Version>1.17</Version>
           <ZipFile>Sounds_Engines_WarMod_1.15.0.3_2022-02-12.zip</ZipFile>
@@ -1001,36 +1001,6 @@
             </Patch>
             <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\engine_config.xml" Version="1" Search="" Replace="project/name/Guns.bnk">
               <Path>//engine_config.xml/soundMgr/WWISE_low_profile/SFX_soundbanks_loadonce</Path>
-            </Patch>
-          </Patches>
-        </Package>
-        <Package PackageName="Sounds_Guns_WrathOfTheGods" Enabled="True" Tags="" InstallGroup="4" PatchGroup="4" UID="8x3wxao9p3ko09cy" Name="Wrath Of The Gods" Type="single_dropdown1" Visible="True">
-          <Size>3752883</Size>
-          <Version>3.14</Version>
-          <ZipFile>Sounds_Guns_WrathOfTheGods_V3.14_1.10.1.0_2021-03-12_converted.zip</ZipFile>
-          <CRC>06e84ae575d32b78a443b849666e80be</CRC>
-          <Timestamp>132859267273596630</Timestamp>
-          <DevURL>http://forum.worldoftanks.com/index.php?/topic/604225-</DevURL>
-          <Author>The Illusion</Author>
-          <Deprecated>True</Deprecated>
-          <LastUpdateCheck>132859267273596630</LastUpdateCheck>
-          <Description>This will make guns sound real. And scary....</Description>
-          <UpdateComment>V2.0 - Changed "NPC" Sounds to sound different, Changed 139mm+ guns sounds (Now will make you jump the first time....)</UpdateComment>
-          <Medias>
-            <Media MediaType="HTML" URL="&lt;html&gt;&#xD;&#xA;  &lt;head&gt;&#xD;&#xA;  &lt;meta http-equiv='X-UA-Compatible' content='IE=11' /&gt;&#xD;&#xA;  &lt;body&gt;&#xD;&#xA;    &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/J3v3TZhLk4I&quot; frameborder=&quot;0&quot;&#xD;&#xA;            style=&quot;position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;&quot;&gt;&#xD;&#xA;      Your browser doesn't support iFrames.&#xD;&#xA;    &lt;/iframe&gt;&#xD;&#xA;  &lt;/body&gt;&#xD;&#xA;&lt;/html&gt;" />
-          </Medias>
-          <Patches>
-            <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/AW_Weapons.bnk">
-              <Path>//audio_mods.xml/loadBanks</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="app" File="\res_mods\versiondir\audioww\audio_mods.xml" Version="1" Search="" Replace="bank/name/AW_Gun_Reload.bnk">
-              <Path>//audio_mods.xml/loadBanks</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
-              <Path>/audio_mods.xml/loadBanks/bank[name = "AW_Weapons.bnk"]</Path>
-            </Patch>
-            <Patch Type="xml" Mode="add" PatchPath="" File="\\res_mods\\versiondir\\audioww\\audio_mods.xml" Version="1" Search="" Replace="priority/50">
-              <Path>/audio_mods.xml/loadBanks/bank[name = "AW_Gun_Reload.bnk"]</Path>
             </Patch>
           </Patches>
         </Package>
